@@ -1,7 +1,7 @@
 1. cnmp
 
    ```
-   npm install -g cnpm --registry=https://registry.npm.taobao.org
+   npm i -g cnpm --registry=https://registry.npm.taobao.org
    
    cnpm xxxxx
    ```
@@ -9,7 +9,7 @@
 2. http-server
 
    ```
-   npm install http-server -g
+   npm i http-server -g
    
    hs -o -p 9999
    ```
@@ -17,7 +17,7 @@
 3. json-server
 
    ```
-   npm install -g json-server
+   npm i -g json-server
    
    Create a db.json file
    {
@@ -36,7 +36,7 @@
 4. nodemon
 
    ```
-   npm install -g nodemon
+   npm i -g nodemon
    nodemon app.js
    see more detail on npm
    ```
