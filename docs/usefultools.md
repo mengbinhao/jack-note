@@ -41,7 +41,7 @@
    see more detail on npm
    ```
 
-5. [gitbook](how to use gitbook.html)
+5. gitbook
 
 6. nvm
 

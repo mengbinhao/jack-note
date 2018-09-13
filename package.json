@@ -4,10 +4,10 @@
   "description": "list my note",
   "main": "index.js",
   "scripts": {
-    "start": "gitbook serve ./docs ./gh-pages",
-    "build": "gitbook build ./docs ./gh-pages",
+    "start": "gitbook serve ./ ./gh-pages",
+    "build": "gitbook build ./ ./gh-pages",
     "deploy": "node ./deploy-gh-pages.js",
-    "publish": "npm run book&&npm run deploy"
+    "publish": "npm run book && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mengbinhao/jack-note/issues"
   },
