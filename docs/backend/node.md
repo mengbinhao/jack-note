@@ -1,6 +1,6 @@
 ### 简介
 
-1. ### CommonJS规范
+1. CommonJS规范
 
 2. 特点
 
@@ -9,10 +9,16 @@
 
 3. node --help
 
-4. npm --help   （全局、本地）
+4. npm --help
 
    ```n
-   npm init
+   npm config set init.author.email "mengbinhao2018@gmail.com"
+   npm config set init.author.name "jack"
+   npm config set init.author.url "http://github.com/mengbinhao"
+   npm config set init.license "MIT"
+   npm config set init.version "0.0.1"
+   
+   npm init -y
    npm adduser
    npm whoami
    npm publish
@@ -22,8 +28,10 @@
    npm info xxx
    npm search xxx
    npm list [-g]
+   npm i [-S|-D] xxx
    npm update xxx
-   npm run xxx
+   npm uninstall xxx
+   npm run command
    ```
 
 5. example 
@@ -84,7 +92,7 @@
           - `response.write(data, [encoding])`：向请求的客户端发送响应内容。`data`是`Buffer`或字符串，表示要发送的内容。如果`data`是字符串，那么需要通过`encoding`说明其编码方式(默认是utf-8)。在`response.end()`调用之前，`response.write()`可以被多次调用。
           - `response.end([data],[encoding])`：结束响应，告知客户端全部响应已经完成。当所有响应内容发送完毕后，该函数必须被调用1次。接受2个可选参数，意义与`response.write()`相同。如果不调用该函数，客户端将永远处于等待状态。
 
-9. **模块加载机制**
+9. 模块加载机制
 
    1. NodeJS模块分为是**核心模块**、**文件模块**：
 

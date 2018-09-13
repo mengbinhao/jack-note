@@ -26,8 +26,4 @@
 - ==Shift+F12== list all ref
 - Ctrl+F / Ctrl+H / Ctrl+Shift+F
 
-#### debug python configure
-
-​	(https://my.oschina.net/u/1777508/blog/1635054)
-
  

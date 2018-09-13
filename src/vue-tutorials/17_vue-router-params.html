@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="./node_modules/vue-router/dist/vue-router.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        var Login = {
+            template: `
+                <div>
+                    this is login page
+                </div>
+            `,
+            created() {
+                console.log(this.$route.query);
+            }
+        }
+        var Register = {
+            template: `
+                <div>
+                    this is register page
+                </div>
+            `,
+            created() {
+                console.log(this.$route.params);
+            }
+        }
+
+        Vue.use(VueRouter);
+
+        var router = new VueRouter({
+            routes: [
+                {name: 'login', path: '/login', component: Login},
+                {name: 'register', path: '/register/:name', component: Register}
+            ]
+        });
+        
+        var App = {
+            template: `
+                <!-- 两种方式  -->
+                <div>
+                    <router-link :to="{ name:'login', query:{id:1} }">login</router-link>
+                    <router-link :to="{ name:'register',params:{name:'abc'} }">register</router-link>
+                    <router-view></router-view>
+                </div>
+            `
+        }
+
+        new Vue({
+            el: '#app',
+            components: {
+                app: App
+            },
+            template: '<app/>',
+            router: router
+        });
+    </script>
+</body>
+</html>

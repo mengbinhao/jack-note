@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="./node_modules/vue-router/dist/vue-router.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        var Woman = {
+            template: `
+                <div>
+                    欢迎女士登陆
+                </div>
+            `,
+            created() {
+                console.log(this.$route.query);
+            }
+        }
+
+        var Man = {
+            template: `
+                <div>
+                    欢迎男士登陆
+                </div>
+            `,
+            created() {
+                console.log(this.$route.query);
+            }
+        }
+
+        var Login = {
+            template: `
+                <div>
+                    下面子路由显示内容
+                    <router-view></router-view>
+                </div>
+            `,
+            created() {
+                console.log(this.$route.query);
+            }
+        }
+        var Register = {
+            template: `
+                <div>
+                    下面子路由显示内容
+                    <router-view></router-view>
+                </div>
+            `,
+            created() {
+                console.log(this.$route.params);
+            }
+        }
+
+        Vue.use(VueRouter);
+
+        //不需要在注册全局或使用components属性,直接交给router管理
+        //path: '/woman', url可以不包括login父锚点
+        var router = new VueRouter({
+            routes: [{
+                    name: 'login',
+                    path: '/login',
+                    component: Login,
+                    children: [{
+                        name: 'login.woman',
+                        path: 'woman',
+                        component: Woman
+                    }, {
+                        name: 'login.man',
+                        path: 'man',
+                        component: Man
+                    }]
+                },
+                {
+                    name: 'register',
+                    path: '/register/:name',
+                    component: Register
+                }
+            ]
+        });
+
+        var App = {
+            template: `
+                <div>
+                    <router-link :to="{ name:'login.woman' }">女登</router-link>
+                    <router-link :to="{ name:'login.man' }">男登</router-link>
+                    <router-view></router-view>
+                </div>
+            `
+        }
+
+        new Vue({
+            el: '#app',
+            components: {
+                app: App
+            },
+            template: '<app/>',
+            router: router
+        });
+    </script>
+</body>
+
+</html>

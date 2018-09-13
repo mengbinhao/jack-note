@@ -8,8 +8,6 @@ npm i express
 node index.js
 ```
 
-
-
 ## [express-generator](https://www.npmjs.com/package/express-generator)
 
 ```
@@ -18,10 +16,6 @@ C:\Users\OUR\Desktop\express-tutorials\node_modules\.bin\express.cmd --view=ejs 
 //全局i
 express --view=ejs myapp
 ```
-
-
-
-![](../../src/express-tutorials/imgs/project_folder.png)
 
 > - bin, 存放启动项目的脚本文件
 >
@@ -39,8 +33,6 @@ set DEBUG=express:router & node index.js
 set DEBUG=express:application & node index.js
 set DEBUG=myapp & node index.js
 ```
-
-
 
 ## middleware
 
@@ -187,8 +179,6 @@ set DEBUG=myapp & node index.js
     // 加载用于解析 cookie 的中间件 
     app.use(cookieParser());
         ```
-
-
 
 
 ## Router

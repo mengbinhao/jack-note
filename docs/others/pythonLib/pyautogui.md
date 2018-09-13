@@ -27,8 +27,6 @@ pyautogui.FAILSAFE = True # When True, moving the mouse to the upper-left will r
 
 #### Mouse Functions
 
-![](.\images\pyautogui_mouse.jpg)
-
 ```
 pyautogui.moveTo(x, y, duration=num_seconds)  # move mouse to XY coordinates over num_second seconds
 pyautogui.moveRel(xOffset, yOffset, duration=num_seconds)  # move mouse relative to its current position

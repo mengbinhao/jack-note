@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+    <script type="text/javascript" src="./node_modules/vue-router/dist/vue-router.js"></script>
+</head>
+
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        var isLogin = false;
+        var Login = {
+            template: `
+                <div>
+                    this is login page
+                </div>
+            `,
+            created() {
+                isLogin = true;
+            },
+        }
+        var Music = {
+            template: `
+                <div>
+                    this is music page
+                </div>
+            `
+        }
+
+        Vue.use(VueRouter);
+
+        var router = new VueRouter();
+
+        //router.addRoutes更灵活
+        router.addRoutes([
+            {
+                path: '/',
+                redirect: {
+                    name: 'login'
+                }
+            },
+            {
+                name: 'login',
+                path: '/login',
+                component: Login
+            },
+            {
+                name: 'music',
+                path: '/music',
+                component: Music,
+                meta: {
+                    isChecked: true
+                }
+            }
+        ]);
+
+        /*
+            next() 放行
+            next({ name:'login'})
+            next(false) 取消用户导航行为
+        */
+        router.beforeEach(function (to, from, next) {
+            //console.log(to);
+            //console.log(from);
+            //if (to.path === '/login' || to.path === '/') {
+            if (!to.meta.isChecked) {
+                next();
+            } else {
+                if (!isLogin) {
+                    alert('please login first');
+                    next({
+                        name: 'login'
+                    })
+                } else {
+                    next();
+                }
+            }
+        });
+
+        var App = {
+            template: `
+                <div>
+                    <router-link :to="{ name:'login' }">login</router-link>
+                    <router-link :to="{ name:'music' }">music</router-link>
+                    <router-view></router-view>
+                </div>
+            `
+        }
+
+        new Vue({
+            el: '#app',
+            components: {
+                app: App
+            },
+            template: '<app/>',
+            router: router
+        });
+    </script>
+</body>
+
+</html>

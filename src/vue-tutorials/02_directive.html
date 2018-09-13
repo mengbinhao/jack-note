@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        /*
+            v-text - innerText
+            v-html - innerHTML
+            v-if
+            v-show - display:none
+            v-bind   :property="variable"   vue date --> page
+            v-model  只能使用具有value属性的元素
+            v-on     @eventName=xxxx
+        */
+        new Vue({
+            el: document.getElementById('app'),
+            template: `
+                <!-- must have one root node -->
+                <div>
+                    <h3 v-text="myText"></h3>
+                    <span v-html="myHTML"></span><br />
+                    <button v-if="isExist">test v-if</button>
+                    <button v-show="isShow">test v-show</button><br />
+                    <input type="text" :value="myvalue" :file=" 'const' "/>
+                    <button @click=" myvalue='caofeifei' ">v-click</button><br />
+                    <input type="text" v-model="myvalue" />
+                    <button v-if=" myvalue == 'xxx' ">xxx button</button>
+                </div>
+            `,
+            data: function() {
+                return {
+                    myText: 'v-text\'s value',
+                    myHTML: '<i>myHTML</i>',
+                    isExist: true,
+                    isShow: true,
+                    myvalue: 'Jack'
+                }
+            }
+        });
+    </script>
+</body>
+</html>

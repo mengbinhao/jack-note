@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        /*
+            data中的属性 dom中直接用 js中this.xxx
+        */
+        new Vue({
+            el: document.getElementById('app'),
+            template: `
+                <div>
+                    <div v-if="isShow">show</div>
+                    <br />
+                    <button @click="changeShow">changeShow</button>
+                </div>
+            `,
+            data: function() {
+                return {
+                    isShow: false
+                }
+            },
+            methods: {
+                changeShow() {
+                    console.log(this);
+                    this.isShow = !this.isShow;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

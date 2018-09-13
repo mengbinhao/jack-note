@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        /*
+            全局组建直接使用
+        */
+        Vue.component('Global', {
+            template: `
+                <button style="background-color:red">button lai le</button>
+            `
+        })
+
+        var Header = {
+            template: `
+                <div>
+                    <span>header</span>
+                    <Global />
+                </div>
+            `
+        }
+
+        var Footder = {
+            template: `
+                <div>
+                    <span>footer</span>
+                    <Global />
+                </div>
+            `
+        }
+
+        var App = {
+            components: {
+                'my-header': Header,
+                'my-footer': Footder
+            },
+            template: `
+                <div>
+                    <my-header />
+                    <my-footer />
+                </div>
+            `
+        }
+        new Vue({
+            el: document.getElementById('app'),
+            template: '<app/>',
+            components: {
+                app: App
+            }
+        });
+    </script>
+</body>
+</html>

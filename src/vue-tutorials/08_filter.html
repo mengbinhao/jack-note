@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    </style>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/javascript">
+        /*
+            1 filter 全局  Vue.filter('name', fn)
+            2 组建内 filters:{'name', fn}
+        */
+       Vue.filter('myreverse', function(data) {
+           return data + ' ' + 'Jack';
+       })
+        var App = {
+            template: `
+                <div>
+                    <input type="text" v-model="myText" />
+                    {{ myText | reverse('language') }}<br />
+                    {{ 'hello ' | myreverse}}
+                </div>
+            `,
+            data: function() {
+                return {
+                    myText: ''
+                }
+            },
+            filters: {
+                reverse: function(sourceStr, lang) {
+                    return lang + ':' + sourceStr.split('').reverse().join('');
+                }
+            }
+        }
+        new Vue({
+            el: document.getElementById('app'),
+            template: '<app/>',
+            components: {
+                app: App
+            }
+        });
+    </script>
+</body>
+</html>
