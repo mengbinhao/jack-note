@@ -1,0 +1,23 @@
+{
+  "name": "jack-note",
+  "version": "0.0.1",
+  "description": "list my note",
+  "main": "index.js",
+  "scripts": {
+    "start": "gitbook serve ./docs ./gh-pages",
+    "build": "gitbook build ./docs ./gh-pages",
+    "deploy": "node ./deploy-gh-pages.js",
+    "publish": "npm run book&&npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mengbinhao/jack-note.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mengbinhao/jack-note/issues"
+  },
+  "homepage": "https://github.com/mengbinhao/jack-note#readme"
+}

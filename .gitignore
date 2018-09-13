@@ -1,0 +1,6 @@
+logs
+*.log
+build/Release
+node_modules/
+_book/
+gh-pages/
