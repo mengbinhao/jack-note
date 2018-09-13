@@ -44,7 +44,7 @@
 
 
 
- ![](images/163c42601ede4b6e.gif)
+ ![](../images/163c42601ede4b6e.gif)
 
 首先transition给元素设置的过渡属性是transform，当鼠标移入元素时，元素的transform发生变化，那么这个时候就触发了transition，产生了动画，当鼠标移出时，transform又发生变化，这个时候还是会触发transition，产生动画，所以transition产生动画的条件是transition设置的property发生变化，这种动画的特点是需要“一个驱动力去触发”，有着以下几个不足：
 
@@ -118,7 +118,7 @@ transition属性的扩展，弥补了transition的很多不足，我理解为ani
 
 
 
-![163c42601ede4b6e](images/163c4261137cc7df.gif)
+![163c42601ede4b6e](../images/163c4261137cc7df.gif)
 
 我们先来看看keyframes这个关键点，它定义了一个动画组合叫changebox，里面的10%，50%，70%，100%代表在变化中不同时间点的属性值，比如这个动画的总时间是1s，那么10%就是在0-0.1s中的动画，通过这个我们可以较精确的控制动画变化中任何一个时间点的属性效果，这大大提高了我们对动画的把控，是做复杂动画的基础
 
