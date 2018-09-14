@@ -348,12 +348,14 @@ p {
 }
 ```
 在这种情况下，出现了margin重叠的效果。如下图所示：
+
 ![](../images/position-10.png)
+
 
 **利用BFC能消除margin重叠，谨记：只有当元素在同一个BFC中时，垂直方向上的margin才会clollpase**。如果它们属于不同的BFC，则不会有margin重叠。因此我们可以再建立一个BFC去阻止margin重叠的发生。所以为了让他们的margin变成20px，我们只需要用div,建立一个BFC，令p元素处于不同BFC即可。请看例子：
 
 ```html
-div class="parent">
+<div class="parent">
     <p>item 1</p>
     <p>item 2</p>
     <div style="overflow: hidden">
