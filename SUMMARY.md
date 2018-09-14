@@ -16,6 +16,8 @@
       - [animation](docs/frondend/css3/animation.md)
       - [variable](docs/frondend/css3/variable.md)
       - [grid](docs/frondend/css3/grid.md)
+      - [flex_vs_grid](docs/frondend/css3/flex_vs_grid.md)
+      - [position](docs/frondend/css3/position.md)
 * [usefultools](docs/usefultools.md)
 * [vscodeextention](docs/vscodeextention.md)
 * [sheet]()
@@ -23,7 +25,6 @@
     * [vs_code](docs/sheet/vs_code.md)
     * [markdown](docs/sheet/markdown.md)
     * [regex](docs/sheet/regex.md)
-    * [pywinauto](docs/sheet/pywinauto.md)
 * Others
     * [git.md](docs/others/git.md)
     * [testcomplete](docs/others/testcomplete.md)

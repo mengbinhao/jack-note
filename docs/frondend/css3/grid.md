@@ -341,8 +341,8 @@ grid {
 grid {
     display: grid;
     grid-template-areas:   "header header"
-                        "content sidebar"
-                        "footer footer";
+                           "content sidebar"
+                           "footer footer";
     grid-template-rows:    150px 1fr 100px;
     grid-template-columns: 1fr 200px;
 }
