@@ -27,7 +27,6 @@ node index.js
 
 - 中间件只支持 `async/await` 封装的，如果要使用koa@1基于generator中间件，需要通过中间件koa-convert封装一下才能使用。
 
-  
 
 ## koa2中间件开发
 
@@ -59,7 +58,6 @@ app.use(( ctx ) => {
 app.listen(3000)
 console.log('the server is starting at port 3000')
 ```
-
 
 
 ## 路由
@@ -106,15 +104,14 @@ app.listen(3000, () => {
 ```
 
 
-
-##  请求数据获取 
+##  请求数据获取
 
 1. get
 
-   1. 从上下文中直接获取 
+   1. 从上下文中直接获取
       - 请求对象ctx.query，返回如 { a:1, b:2 }
       - 请求字符串 ctx.querystring，返回如 a=1&b=2
-   2. 从上下文的request对象中获取 
+   2. 从上下文的request对象中获取
       - 请求对象ctx.request.query，返回如 { a:1, b:2 }
       - 请求字符串 ctx.request.querystring，返回如 a=1&b=2
 
@@ -148,9 +145,9 @@ app.listen(3000, () => {
     ```javascript
     const Koa = require('koa')
     const app = new Koa()
-    
+
     app.use( async ( ctx ) => {
-    
+
       if ( ctx.url === '/' && ctx.method === 'GET' ) {
         // 当GET请求时候返回表单页面
         let html = `
@@ -175,7 +172,7 @@ app.listen(3000, () => {
         ctx.body = '<h1>404！！！ o(╯□╰)o</h1>'
       }
     })
-    
+
     // 解析上下文里node原生请求的POST参数
     function parsePostData( ctx ) {
       return new Promise((resolve, reject) => {
@@ -193,7 +190,7 @@ app.listen(3000, () => {
         }
       })
     }
-    
+
     // 将POST请求参数字符串解析成JSON
     function parseQueryStr( queryStr ) {
       let queryData = {}
@@ -205,7 +202,7 @@ app.listen(3000, () => {
       }
       return queryData
     }
-    
+
     app.listen(3000, () => {
       console.log('[demo] request post is starting at port 3000')
     })
@@ -217,12 +214,12 @@ app.listen(3000, () => {
     const Koa = require('koa')
     const app = new Koa()
     const bodyParser = require('koa-bodyparser')
-    
+
     // 使用ctx.body解析中间件
     app.use(bodyParser())
-    
+
     app.use( async ( ctx ) => {
-    
+
       if ( ctx.url === '/' && ctx.method === 'GET' ) {
         // 当GET请求时候返回表单页面
         let html = `
@@ -247,7 +244,7 @@ app.listen(3000, () => {
         ctx.body = '<h1>404！！！ o(╯□╰)o</h1>'
       }
     })
-    
+
     app.listen(3000, () => {
       console.log('[demo] request post is starting at port 3000')
     })
@@ -260,7 +257,7 @@ const Koa = require('koa')
 const path = require('path')
 const static = require('koa-static')
 const app = new Koa()
-// 静态资源目录对于相对入口文件index.js的路径 
+// 静态资源目录对于相对入口文件index.js的路径
 const staticPath = './static'
 app.use(static(path.join(__dirname, staticPath)))
 app.use(async (ctx) => {
@@ -325,7 +322,7 @@ app.use( async ( ctx ) => {
     // 读取session信息
     ctx.session.count = ctx.session.count + 1
     ctx.body = ctx.session
-  } 
+  }
 
 })
 
@@ -374,8 +371,6 @@ app.listen(3000)
 </body>
 </html>
 ```
-
-
 
 ## upload
 ## integrated with DB

@@ -1,4 +1,4 @@
-### Start /Stop JIRA service 
+### Start /Stop JIRA service
 
 - start menu
 - task manager
@@ -27,12 +27,12 @@ default-collation = utf8_bin
 
 3. project role
 
-4. group --> user 
+4. group --> user
 
 5. project workflow
 
    1. create project (assign project leader)
-      - project leader 
+      - project leader
         - version
         - manage component(component default assigner)
         - defualt assigner of this project

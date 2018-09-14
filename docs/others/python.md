@@ -25,10 +25,10 @@
 
 9. 变量
 
-   ```
+   ```python
    a = b = c = 1
    a, b, c = 1, 2, "john"
-   
+
    global xxxx
    ```
 
@@ -39,49 +39,49 @@
 
     **is 用于判断两个变量引用对象是否为同一个， == 用于判断引用变量的值是否相等**
 
-12. <u>**pydoc.exe**</u>   
+12. <u>**pydoc.exe**</u>
 
-    ​	python -m pydoc -p 1111 
+    ​	python -m pydoc -p 1111
 
-13. butild-in function 
+13. butild-in function
 
-   - help()  
-   - int()  hex()  oct()  bin()  str()  repr()  bool()  bytearray()  bytes()  float()  set()  range()  list()   dict()  tuple()  sort()  slice() all() any()  filter()  reversed()  
+   - help()
+   - int()  hex()  oct()  bin()  str()  repr()  bool()  bytearray()  bytes()  float()  set()  range()  list()   dict()  tuple()  sort()  slice() all() any()  filter()  reversed()
    - abs() min()  sum() pow() max() round()
-   - id()  object()  **isinstance**()  **type()** **enumerate**()  **iter()** **dir()**  super()  issubclass() property()  frozenset()  classmethod() staticmethod()  **hasattr()  delattr() hash() setattr()   getattr()** 
-   - next()   divmod()  exec()  callable()  locals()  globals()  zip()  compile() complex() memoryview()  
-   - ord() chr()  **len()**  **print() **format()  encode()  decode() ascii()   
-   - input()  eval()   open() 
+   - id()  object()  **isinstance**()  **type()** **enumerate**()  **iter()** **dir()**  super()  issubclass() property()  frozenset()  classmethod() staticmethod()  **hasattr()  delattr() hash() setattr()   getattr()**
+   - next()   divmod()  exec()  callable()  locals()  globals()  zip()  compile() complex() memoryview()
+   - ord() chr()  **len()**  **print() **format()  encode()  decode() ascii()
+   - input()  eval()   open()
 
 14. ``#!/usr/bin/env python3      # -*- coding: utf-8 -*-``
 
 15. **list and tuple**
 
-    ```
+    ```python
     L = [1,2,3,4,5]
     L * 2
     L + [6,6,6]
-    
+
     # tuple操作同list
     tup1 = (50,)  #只包含一个元素
     ```
 
 16. **dict**(类似于map)   /    set   **dict的key必须是不可变对象(str int 元组)  set也只能放不可变对象**
 
-    ```
+    ```python
     和list比较，dict有以下几个特点(dict的key必须是不可变对象(str int))
-    
+
     查找和插入的速度极快，不会随着key的增加而变慢；
     需要占用大量的内存，内存浪费多。
-    
+
     而list相反：
     查找和插入的时间随着元素的增加而增加；
     占用空间小，浪费内存很少。
     ```
 
-17. if else 
+17. if else
 
-    ```
+    ```python
     age = 3
     if age >= 18:
         print('adult')
@@ -93,7 +93,7 @@
 
     express value **只要x是非零数值、非空字符串、非空list  ()等，就判断为True，否则为False**
 
-    ```
+    ```python
     if x:
         print('True')
     ```
@@ -103,7 +103,7 @@
     - break
     - continue
 
-    ```
+    ```python
     count = 0
     while count < 5:
        print count, " is  less than 5"
@@ -141,12 +141,12 @@ Python3 的六个标准数据类型中：
 
    1. 位置参数
 
-      ```
+      ```python
       def printinfo( name, age ):
          print("Name: ", name)
          print("Age ", age)
          return;
-       
+
       printinfo( age=50, name="miki" );
       ```
 
@@ -159,15 +159,15 @@ Python3 的六个标准数据类型中：
 
       3. **默认参数必须指向不变对象！**默认值只被赋值一次   eg: addEnd
 
-         ```
+         ```python
          def f(a, L=[]):
              L.append(a)
              return L
-         
+
          print(f(1))
          print(f(2))
          print(f(3))
-         
+
          [1]
          [1, 2]
          [1, 2, 3]
@@ -176,13 +176,13 @@ Python3 的六个标准数据类型中：
 
    3. 可变参数
 
-      ```
+      ```python
       def calc(*numbers):
           sum = 0
           for n in numbers:
               sum = sum + n * n
           return sum
-      
+
       nums = [1, 2, 3]
       print(calc(*nums))
       ```
@@ -190,10 +190,10 @@ Python3 的六个标准数据类型中：
 
    4. 关键字参数
 
-      ```
+      ```python
       def person(name, age, **kw):
           print('name:', name, 'age:', age, 'other:', kw)
-      
+
       extra = {'city': 'Beijing', 'job': 'Engineer'}
       #person('Jack', 24, city=extra['city'], job=extra['job'])
       person('Jack', 24, **extra)
@@ -202,11 +202,11 @@ Python3 的六个标准数据类型中：
 
    5. 命名关键字参数
 
-      ```
+      ```python
       def person(name, age, *, city='Beijing', job):
           print(name, age, city, job)
       person('Jack', 24, city='Beijing', job='Engineer')
-      
+
       def person(name, age, *args, city, job):
           print(name, age, args, city, job)
       ```
@@ -216,23 +216,23 @@ Python3 的六个标准数据类型中：
 
    7. 对于任意函数,都可以通过`func(*args, **kw)`的形式调用它,无论它的参数是如何定义的
 
-      ```
+      ```python
       def f1(a, b, c=0, *args, **kw):
           print('a =', a, 'b =', b, 'c =', c, 'args =', args, 'kw =', kw)
-      
+
       def f2(a, b, c=0, *, d, **kw):
           print('a =', a, 'b =', b, 'c =', c, 'd =', d, 'kw =', kw)
-      
+
       f1(1, 2)
       f1(1, 2, c=3)
       f1(1, 2, 3, 'a', 'b')
       f1(1, 2, 3, 'a', 'b', x=99)
       f2(1, 2, d=99, ext=None)
-      
+
       args = (1, 2, 3, 4)
       kw = {'d': 99, 'x': '#'}
       f1(*args, **kw)
-      
+
       args = (1, 2, 3)
       kw = {'d': 88, 'x': '#'}
       f2(*args, **kw)
@@ -244,7 +244,7 @@ Python3 的六个标准数据类型中：
 
 1. **切片**
 
-```
+```python
 L = [1,2,3,4,5]
 L[0:3]   =  L[:3]
 L[-2:]
@@ -264,29 +264,29 @@ L[:]
 
 3. **列表生成式**
 
-   ```
+   ```python
    vec = [2, 4, 6]
    [3*x for x in vec]
    [[x, x**2] for x in vec]
    [3*x for x in vec if x > 3]
-   
+
    freshfruit = ['  banana', '  loganberry ', 'passion fruit  ']
    [weapon.strip() for weapon in freshfruit]
-   
-   
+
+
    vec1 = [2, 4, 6]
    vec2 = [4, 3, -9]
    [x*y for x in vec1 for y in vec2]
    [x+y for x in vec1 for y in vec2]
    [vec1[i]*vec2[i] for i in range(len(vec1))]
-   
-   
+
+
    [str(round(355/113, i)) for i in range(1, 6)]
    ```
 
-4. 生成器  generator 
+4. 生成器  generator
 
-5. 迭代器  
+5. 迭代器
 
 6. 总结
 
@@ -310,7 +310,7 @@ L[:]
 
    3. anonymous function
 
-   4. decorator 
+   4. decorator
 
    5. 偏函数
 
@@ -325,26 +325,26 @@ L[:]
 
 4. 包管理工具pip (安装勾选`pip`和`Add python.exe to Path`)
 
-5. [Anaconda](https://www.anaconda.com/) 
+5. [Anaconda](https://www.anaconda.com/)
 
 6. 模块搜索路径   import sys  sys.path
 
-   ```
+   ```python
    import fibo  #文件名fibo.py
    fibo.fib(1000)
-   
+
    from fibo import fib, fib2
    fib(500)
-   
+
    from fibo import *
-   
+
    #运行脚本
    python fibo.py <arguments>
-   
+
    if __name__ == "__main__":
        import sys
        fib(int(sys.argv[1]))
-       
+
    python fibo.py 50
    ```
 
@@ -352,12 +352,12 @@ L[:]
 
 1. 包中的 __init__.py 代码定义了一个名为 __all__ 的列表,__all__ = ["echo", "surround", "reverse"]
 
-2. `from Package import func1 [,fun2....]  
+2. `from Package import func1 [,fun2....]
 
 3. ```
    import   //模块.函数
    from ... import ...  // 直接使用函数名使用就可以了
-   
+
    from . import echo
    from .. import formats
    from ..filters import equalizer
@@ -397,9 +397,9 @@ sound/                          Top-level package
 
    ```
    __foo__: 定义的是特殊方法，一般是系统定义名字 ，类似 __init__() 之类的。
-   
+
    _foo: 以单下划线开头的表示的是 protected 类型的变量，即保护类型只能允许其本身与子类进行访问，不能用于 from module import *
-   
+
    __foo: 双下划线的表示的是私有类型(private)的变量, 只能是允许这个类本身进行访问了。
    ```
 
@@ -424,25 +424,24 @@ sound/                          Top-level package
    ```
    #判断多个
    isinstance([1, 2, 3], (list, tuple))
-    
-    
+
    class A:
        pass
-   
+
    class B(A):
        pass
-   
+
    isinstance(A(), A)  # returns True
    type(A()) == A      # returns True
    isinstance(B(), A)    # returns True
    type(B()) == A        # returns False
    ```
 
-6. **dir()  /  dir(builtins)**  
+6. **dir()  /  dir(builtins)**
 
 7. 实例属性 、类属性
 
-   - 不要对实例属性和类属性使用相同的名字,因为相同名称的实例属性将屏蔽掉类属性 
+   - 不要对实例属性和类属性使用相同的名字,因为相同名称的实例属性将屏蔽掉类属性
 
 
 ##### Advance Class
@@ -464,8 +463,8 @@ sound/                          Top-level package
 8. decorator
 
    - @classmethod
-   - @property 
-   - @staticmethod 
+   - @property
+   - @staticmethod
    - @test
 
 
@@ -488,7 +487,7 @@ except ZeroDivisionError as e:
 except:
     print("Unexpected error:", sys.exc_info()[0])
     #raise ValueError('input error!')
-    raise 
+    raise
 #没有exception触发
 else:
     print('no error!')
@@ -514,7 +513,7 @@ print('END')
 4. 单元测试通过了并不意味着程序就没有bug了，但是不通过程序肯定有bug
 5. `python -m unittest mydict_test`
 6. `pip install nose`
-7. `pip install pytest  ` 
+7. `pip install pytest  `
 
 
 ##### 正则
@@ -561,74 +560,74 @@ print('END')
 
 10. HTMLParser
 
-11. glob      从目录通配符搜索中生成文件列表 
+11. glob      从目录通配符搜索中生成文件列表
 
 12. sys        命令行参数
 
     ```
-    sys.argv 是一个 list,包含所有的命令行参数.    
-    sys.stdout sys.stdin sys.stderr 分别表示标准输入输出,错误输出的文件对象.    
-    sys.stdin.readline() 从标准输入读一行 sys.stdout.write("a") 屏幕输出a    
+    sys.argv 是一个 list,包含所有的命令行参数.
+    sys.stdout sys.stdin sys.stderr 分别表示标准输入输出,错误输出的文件对象.
+    sys.stdin.readline() 从标准输入读一行 sys.stdout.write("a") 屏幕输出a
     sys.exit(exit_code) 退出程序 0正常退出
-    sys.modules 是一个dictionary，表示系统中所有可用的module    
-    sys.platform 得到运行的操作系统环境    
-    sys.path 是一个list,指明所有查找module，package的路径.  
+    sys.modules 是一个dictionary，表示系统中所有可用的module
+    sys.platform 得到运行的操作系统环境
+    sys.path 是一个list,指明所有查找module，package的路径.
     ```
 
 13. <u>**os         启动新进程；操作文件和目录   dir(os)    help(os)**</u>
 
     ```
-    os.environ 一个dictionary 包含环境变量的映射关系   
-    os.environ["HOME"] 可以得到环境变量HOME的值     
-    os.chdir(dir) 改变当前目录 os.chdir('d:\\outlook')   
-    注意windows下用到转义     
-    os.getcwd() 得到当前目录     
-    os.getegid() 得到有效组id os.getgid() 得到组id     
-    os.getuid() 得到用户id os.geteuid() 得到有效用户id     
-    os.setegid os.setegid() os.seteuid() os.setuid()     
-    os.getgruops() 得到用户组名称列表     
-    os.getlogin() 得到用户登录名称     
-    os.getenv 得到环境变量     
-    os.putenv 设置环境变量     
-    os.umask 设置umask     
-    os.system(cmd) 利用系统调用，运行cmd命令   
+    os.environ 一个dictionary 包含环境变量的映射关系
+    os.environ["HOME"] 可以得到环境变量HOME的值
+    os.chdir(dir) 改变当前目录 os.chdir('d:\\outlook')
+    注意windows下用到转义
+    os.getcwd() 得到当前目录
+    os.getegid() 得到有效组id os.getgid() 得到组id
+    os.getuid() 得到用户id os.geteuid() 得到有效用户id
+    os.setegid os.setegid() os.seteuid() os.setuid()
+    os.getgruops() 得到用户组名称列表
+    os.getlogin() 得到用户登录名称
+    os.getenv 得到环境变量
+    os.putenv 设置环境变量
+    os.umask 设置umask
+    os.system(cmd) 利用系统调用，运行cmd命令
     ```
 
 14. 系统直接调用函数
 
     ```
-    help(obj) 在线帮助, obj可是任何类型    
-    callable(obj) 查看一个obj是不是可以像函数一样调用    
-    repr(obj) 得到obj的表示字符串，可以利用这个字符串eval重建该对象的一个拷贝    
-    eval_r(str) 表示合法的python表达式，返回这个表达式    
-    dir(obj) 查看obj的name space中可见的name    
-    hasattr(obj,name) 查看一个obj的name space中是否有name    
-    getattr(obj,name) 得到一个obj的name space中的一个name    
-    setattr(obj,name,value) 为一个obj的name   
-    space中的一个name指向vale这个object    
-    delattr(obj,name) 从obj的name space中删除一个name    
-    vars(obj) 返回一个object的name space。用dictionary表示    
-    locals() 返回一个局部name space,用dictionary表示    
-    globals() 返回一个全局name space,用dictionary表示    
-    type(obj) 查看一个obj的类型    
-    isinstance(obj,cls) 查看obj是不是cls的instance    
-    issubclass(subcls,supcls) 查看subcls是不是supcls的子类  
-    
+    help(obj) 在线帮助, obj可是任何类型
+    callable(obj) 查看一个obj是不是可以像函数一样调用
+    repr(obj) 得到obj的表示字符串，可以利用这个字符串eval重建该对象的一个拷贝
+    eval_r(str) 表示合法的python表达式，返回这个表达式
+    dir(obj) 查看obj的name space中可见的name
+    hasattr(obj,name) 查看一个obj的name space中是否有name
+    getattr(obj,name) 得到一个obj的name space中的一个name
+    setattr(obj,name,value) 为一个obj的name
+    space中的一个name指向vale这个object
+    delattr(obj,name) 从obj的name space中删除一个name
+    vars(obj) 返回一个object的name space。用dictionary表示
+    locals() 返回一个局部name space,用dictionary表示
+    globals() 返回一个全局name space,用dictionary表示
+    type(obj) 查看一个obj的类型
+    isinstance(obj,cls) 查看obj是不是cls的instance
+    issubclass(subcls,supcls) 查看subcls是不是supcls的子类
+
     ##################    类型转换  ##################
-    
-    chr(i) 把一个ASCII数值,变成字符    
-    ord(i) 把一个字符或者unicode字符,变成ASCII数值    
-    oct(x) 把整数x变成八进制表示的字符串    
-    hex(x) 把整数x变成十六进制表示的字符串    
-    str(obj) 得到obj的字符串描述    
-    list(seq) 把一个sequence转换成一个list    
-    tuple(seq) 把一个sequence转换成一个tuple    
-    dict(),dict(list) 转换成一个dictionary    
-    int(x) 转换成一个integer    
-    float(x) 转换成一个浮点数    
-    complex(x) 转换成复数    
-    max(...) 求最大值    
-    min(...) 求最小值  
+
+    chr(i) 把一个ASCII数值,变成字符
+    ord(i) 把一个字符或者unicode字符,变成ASCII数值
+    oct(x) 把整数x变成八进制表示的字符串
+    hex(x) 把整数x变成十六进制表示的字符串
+    str(obj) 得到obj的字符串描述
+    list(seq) 把一个sequence转换成一个list
+    tuple(seq) 把一个sequence转换成一个tuple
+    dict(),dict(list) 转换成一个dictionary
+    int(x) 转换成一个integer
+    float(x) 转换成一个浮点数
+    complex(x) 转换成复数
+    max(...) 求最大值
+    min(...) 求最小值
     ```
 
 15. <u>**re          正则**</u>
@@ -639,17 +638,17 @@ print('END')
 
 18. <u>**logging**</u>
 
-19. configparser 读取配置文件 
+19. configparser 读取配置文件
 
-20. jenkinsapi 访问jenkins 
+20. jenkinsapi 访问jenkins
 
 21. pickle 序列化
 
 22. json 序列化
 
-23. shutil   日常的文件和目录管理任务 
+23. shutil   日常的文件和目录管理任务
 
-24. uuid 生成唯一码 
+24. uuid 生成唯一码
 
 25. math
 
@@ -659,24 +658,24 @@ print('END')
 
 28. importlib 支持动态导入
 
-29. bitstring二进制数据处理 
+29. bitstring二进制数据处理
 
-30. defaultdict 带默认值的字典 
+30. defaultdict 带默认值的字典
 
-31. fcntl 操作文件描述符 
+31. fcntl 操作文件描述符
 
-32. signal 信号处理 
+32. signal 信号处理
 
-33. threading 线程库，构建并发应用 
+33. threading 线程库，构建并发应用
 
-34. psutil 系统性能参数 
+34. psutil 系统性能参数
 
 ##### PIP
 
 - pip list
-- pip list --outdated 
+- pip list --outdated
 - pip install xxxx
-- pip install --upgrade SomePackage 
+- pip install --upgrade SomePackage
 - pip show --files xxxx
 - pip uninstall xxxx
 - pip -h
@@ -694,7 +693,7 @@ print('END')
    - aiomysql
    - aiohttp
 
-##### virtualenv(“隔离”Python运行环境) 
+##### virtualenv(“隔离”Python运行环境)
 
 1. pip install virtualenv
 
@@ -721,9 +720,9 @@ print('END')
 
 10. workon  //这里不能查看到virtualenv创建的虚拟环境，只能查看mkvirtualenv创建的虚拟环境
 
-11. workon xxxxxx  // go in one mkvirtualenv 
+11. workon xxxxxx  // go in one mkvirtualenv
 
-12. rmvirtualenv xxxxxx  
+12. rmvirtualenv xxxxxx
 
 13. deactivate
 

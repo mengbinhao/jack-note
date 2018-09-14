@@ -1,13 +1,13 @@
 #### Start Exit Reload Restart
 
-- http://localhost:8082/restart 
+- http://localhost:8082/restart
 - http://localhost:8082/reload
 - http://localhost:8082/exit
 - locate jenkins.war folder，run cmd : `java -jar jenkins.war --httpPort=8082
 
-#### Configure 
+#### Configure
 
-1. change httpPort while starting as windows service 
+1. change httpPort while starting as windows service
 
 > locate  jenkins.xml-->  change --httpPort=8082
 

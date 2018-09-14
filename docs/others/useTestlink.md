@@ -51,12 +51,12 @@
 $g_smtp_host        = 'smtp.163.com';
 $g_tl_admin_email     = '18591953989@163.com';
 $g_from_email         = '18591953989@163.com';
-$g_return_path_email  = '18591953989@163.com'; 
+$g_return_path_email  = '18591953989@163.com';
 $g_phpMailer_method = PHPMAILER_METHOD_SMTP
 $g_smtp_username    = '18591953989@163.com';
 $g_smtp_password    = '1q2w3e4r5t';  # 此处填写163的客户端授权密码or邮箱密码
 $g_smtp_connection_mode = 'openssl';
-$g_smtp_port = 25;    
+$g_smtp_port = 25;
 ```
 
 ##### 4. Config generator document in **config.inc.php**
@@ -88,7 +88,7 @@ $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
 </issuetracker>
 ```
 - set associate with project and active
-- see result in Excute test page 
+- see result in Excute test page
 
 ##### 6. Integrated with JIRA 6.3.6
 
@@ -108,7 +108,7 @@ $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
 ```
 
 - set associate with project and active
-- see result in Excute test page 
+- see result in Excute test page
 
 ##### 7. Integrated with JIRA7.x through sql server
 
@@ -132,11 +132,11 @@ $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
 
 6. test  connect mssql
 
-   ```
+   ```php
    <?php
-   header("Content-type: text/html; charset=utf8"); 
-   $serverName = "localhost"; 
-   $uid = "jiradbuser"; 
+   header("Content-type: text/html; charset=utf8");
+   $serverName = "localhost";
+   $uid = "jiradbuser";
    $pwd = "jiradbuser";
    $connectionInfo = array("UID"=>$uid, "PWD"=>$pwd, "Database"=>"jiradb");
    $conn = sqlsrv_connect( $serverName, $connectionInfo);
@@ -145,7 +145,7 @@ $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
    echo "connect fail";
    die( print_r( sqlsrv_errors(), true));
    }else{
-   echo "connect success  ";   
+   echo "connect success  ";
    }
    $query = sqlsrv_query($conn, "select top 10 * from jiraschema.project");
    var_dump($query);

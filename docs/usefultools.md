@@ -2,7 +2,7 @@
 
    ```
    npm i -g cnpm --registry=https://registry.npm.taobao.org
-   
+
    cnpm xxxxx
    ```
 
@@ -10,7 +10,7 @@
 
    ```
    npm i http-server -g
-   
+
    hs -o -p 9999
    ```
 
@@ -18,7 +18,7 @@
 
    ```
    npm i -g json-server
-   
+
    Create a db.json file
    {
      "posts": [
@@ -29,7 +29,7 @@
      ],
      "profile": { "name": "typicode" }
    }
-   
+
    json-server --watch db.json
    ```
 

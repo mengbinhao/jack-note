@@ -6,13 +6,13 @@ On windows : pip install pyautogui
 
 url : https://pyautogui.readthedocs.io/en/latest/introduction.html
 
-```
-import pyautogui 
+```python
+import pyautogui
 ```
 
 #### General Functions
 
-```
+```python
 pyautogui.position()  # current mouse x and y
 pyautogui.size()  # current screen resolution width and height(1920, 1080)
 pyautogui.onScreen(x, y)  # True if x & y are within the screen
@@ -20,14 +20,14 @@ pyautogui.onScreen(x, y)  # True if x & y are within the screen
 
 #### Fail-Safes
 
-```
+```python
 pyautogui.PAUSE = 2.5
 pyautogui.FAILSAFE = True # When True, moving the mouse to the upper-left will raise a pyautogui.FailSafeException that can abort your program:
 ```
 
 #### Mouse Functions
 
-```
+```python
 pyautogui.moveTo(x, y, duration=num_seconds)  # move mouse to XY coordinates over num_second seconds
 pyautogui.moveRel(xOffset, yOffset, duration=num_seconds)  # move mouse relative to its current position
 pyautogui.dragTo(x, y, duration=num_seconds)  # drag mouse to XY
@@ -48,7 +48,7 @@ pyautogui.mouseUp(x=moveToX, y=moveToY, button='left')
 
 The full list of key names is in **pyautogui.KEYBOARD_KEYS**
 
-```
+```python
 pyautogui.typewrite('Hello world!\n', interval=secs_between_keys)  # useful for entering text, newline is Enter
 pyautogui.typewrite(['a', 'b', 'c', 'left', 'backspace', 'enter', 'f1'], interval=secs_between_keys)
 
@@ -61,7 +61,7 @@ pyautogui.keyUp('shift')    # release the shift key
 
 #### Screenshot Functions
 
-```
+```python
 im1 = pyautogui.screenshot()  # returns a Pillow/PIL Image object
 im2 = pyautogui.screenshot('foo.png')  # pass file name
 im = pyautogui.screenshot(region=(0,0, 300, 400))
@@ -73,7 +73,7 @@ locations = pyautogui.locateOnScreen('looksLikeThis.png')  # returns (left, top,
 centerLocations = pyautogui.center(locations)
 
 # list(pyautogui.locateAllOnScreen('looksLikeThis.png'))
-pyautogui.locateAllOnScreen('looksLikeThis.png') 
+pyautogui.locateAllOnScreen('looksLikeThis.png')
 
 x, y = pyautogui.locateCenterOnScreen('looksLikeThis.png')  # returns center x and y
 pyautogui.click(x, y)
@@ -86,7 +86,7 @@ pyautogui.pixelMatchesColor(100, 200, (140, 125, 134), tolerance=10)
 
 #### Message Box Functions
 
-```
+```python
 pyautogui.alert('This displays some text with an OK button.')
 pyautogui.confirm('This displays text and has an OK and Cancel button.') # 'OK'
 password(text='', title='', default='', mask='*')

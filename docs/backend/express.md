@@ -48,25 +48,25 @@ set DEBUG=myapp & node index.js
 1. 应用级中间件（绑定到 [app 对象](http://www.expressjs.com.cn/4x/api.html#app) 使用 app.use() 和 app.METHOD()， 其中， METHOD 是需要处理的 HTTP 请求的方法，例如 GET, PUT, POST 等等，全部小写）
    ```javascript
     var app = express();
-      
+
       // 没有挂载路径的中间件，应用的每个请求都会执行该中间件
       // 注意中间件顺序
       app.use(function (req, res, next) {
         console.log('Time:', Date.now());
         next();
       });
-      
+
       // 挂载至 /user/:id 的中间件，任何指向 /user/:id 的请求都会执行它
       app.use('/user/:id', function (req, res, next) {
         console.log('Request Type:', req.method);
         next();
       });
-      
+
       // 路由和句柄函数(中间件系统)，处理指向 /user/:id 的 GET 请求
       app.get('/user/:id', function (req, res, next) {
         res.send('USER');
       });
-      
+
       //下面这个例子展示了在一个挂载点装载一组中间件。
       app.use('/user/:id', function(req, res, next) {
         console.log('Request URL:', req.originalUrl);
@@ -75,7 +75,7 @@ set DEBUG=myapp & node index.js
         console.log('Request Type:', req.method);
         next();
       });
-      
+
       //作为中间件系统的路由句柄，使得为路径定义多个路由成为可能。在下面的例子中，为指向 /user/:id 的 GET 请求定义了两个路由。第二个路由虽然不会带来任何问题，但却永远不会被调用，因为第一个路由已经终止了请求-响应循环。
       app.get('/user/:id', function (req, res, next) {
         console.log('ID:', req.params.id);
@@ -83,19 +83,19 @@ set DEBUG=myapp & node index.js
       }, function (req, res, next) {
         res.send('User Info');
       });
-      
+
       app.get('/user/:id', function (req, res, next) {
         res.end(req.params.id);
       });
-      
+
        //如果需要在中间件栈中跳过剩余中间件，调用 next('route') 方法将控制权交给下一个路由。 **注意**： next('route') 只对使用 app.VERB() 或 router.VERB() 加载的中间件有效。
       app.get('/user/:id', function (req, res, next) {
         if (req.params.id == 0) next('route');
-        else next(); 
+        else next();
       }, function (req, res, next) {
         res.render('regular');
       });
-      
+
       app.get('/user/:id', function (req, res, next) {
         res.render('special');
       });
@@ -104,13 +104,13 @@ set DEBUG=myapp & node index.js
        ```javascript
          var app = express();
           var router = express.Router();
-          
+
           // 没有挂载路径的中间件，通过该路由的每个请求都会执行该中间件
           router.use(function (req, res, next) {
               console.log('Time:', Date.now());
               next();
           });
-          
+
           // 一个中间件栈，显示任何指向 /user/:id 的 HTTP 请求的信息
           router.use('/user/:id', function (req, res, next) {
               console.log('Request URL:', req.originalUrl);
@@ -119,7 +119,7 @@ set DEBUG=myapp & node index.js
               console.log('Request Type:', req.method);
               next();
           });
-          
+
           // 一个中间件栈，处理指向 /user/:id 的 GET 请求
           router.get('/user/:id', function (req, res, next) {
               // 如果 user id 为 0, 跳到下一个路由
@@ -134,8 +134,8 @@ set DEBUG=myapp & node index.js
           router.get('/user/:id', function (req, res, next) {
               console.log(req.params.id);
               res.render('special');
-          }); 
-          // 将路由挂载至应用 
+          });
+          // 将路由挂载至应用
           app.use('/', router);
        ```
 
@@ -163,20 +163,19 @@ set DEBUG=myapp & node index.js
                res.set('x-timestamp', Date.now());
              }
            }
-           
+
            // 每个应用可有多个静态目录。
-           app.use(express.static('public')); 
-           app.use(express.static('uploads')); 
+           app.use(express.static('public'));
+           app.use(express.static('uploads'));
            app.use(express.static('files'));
-        
         ```
 
     5. 第三方中间件
         ```javascript
-         var express = require('express'); 
-    var app = express(); 
-    var cookieParser = require('cookie-parser'); 
-    // 加载用于解析 cookie 的中间件 
+         var express = require('express');
+    var app = express();
+    var cookieParser = require('cookie-parser');
+    // 加载用于解析 cookie 的中间件
     app.use(cookieParser());
         ```
 
@@ -186,16 +185,16 @@ set DEBUG=myapp & node index.js
 1. 路由路径
 
    ```javascript
-   // 匹配根路径的请求 
+   // 匹配根路径的请求
    app.get('/', function (req, res) {
      res.send('root');
    });
-   
+
    // 匹配 acd 和 abcd
    app.get('/ab?cd', function(req, res) {
      res.send('ab?cd');
    });
-   
+
    // 匹配 /abe 和 /abcde
    app.get('/ab(cd)?e', function(req, res) {
     res.send('ab(cd)?e');
@@ -208,7 +207,7 @@ set DEBUG=myapp & node index.js
    app.get('/example/a', function (req, res) {
      res.send('Hello from A!');
    });
-   
+
    //使用多个回调函数处理路由
    app.get('/example/b', function (req, res, next) {
      console.log('response will be sent by the next function ...');
@@ -216,35 +215,35 @@ set DEBUG=myapp & node index.js
    }, function (req, res) {
      res.send('Hello from B!');
    });
-   
+
    //使用回调函数数组处理路由
    var cb0 = function (req, res, next) {
      console.log('CB0');
      next();
    }
-   
+
    var cb1 = function (req, res, next) {
      console.log('CB1');
      next();
    }
-   
+
    var cb2 = function (req, res) {
      res.send('Hello from C!');
    }
-   
+
    app.get('/example/c', [cb0, cb1, cb2]);
-   
+
    // 混合使用函数和函数数组处理路由
    var cb0 = function (req, res, next) {
      console.log('CB0');
      next();
    }
-   
+
    var cb1 = function (req, res, next) {
      console.log('CB1');
      next();
    }
-   
+
    app.get('/example/d', [cb0, cb1], function (req, res, next) {
      console.log('response will be sent by the next function ...');
      next();
@@ -303,7 +302,7 @@ app.set('view engine', 'ejs')
 
 ## Express some API
 
-1. app.use([path], middleware)  //use是express注册中间件的方法 
+1. app.use([path], middleware)  //use是express注册中间件的方法
 
    ```javascript
    app.use("/home", function(request, response, next) {

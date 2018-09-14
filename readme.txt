@@ -1,7 +1,7 @@
-https://github.com/GitbookIO/gitbook/issues/2117
-https://gitbookio.gitbooks.io/documentation/build/push.html
-
 rollup -g  小js打包成一个
+webpack
+parcel
+
 
 Mocha  
 Chi
@@ -11,9 +11,11 @@ Karma
 Mock
 Jest
 
+
 buefy
 mint-ui
 bulma
+element
 
 vue
 vuex

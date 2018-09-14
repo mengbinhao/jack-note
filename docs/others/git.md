@@ -102,7 +102,7 @@ git reset <commitid>
 git reset --keep <commitid>
 ```
 
-### .gitignore 
+### .gitignore
 
 ### alias
 

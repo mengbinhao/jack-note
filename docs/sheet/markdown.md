@@ -1,12 +1,12 @@
 ==Note: add one space or enter behind keyword if it does not work==
 
-1. \#  --  \######       
+1. \#  --  \######
 
 2. \*xxxx\* 、\*\*xxxxx\*\*
 
 3. \=\=xxx\=\=
 
-4. \+ \-     unorder list and order list   
+4. \+ \-     unorder list and order list
 
 5. ctrl+[ or ctrl+]       change list level
 
@@ -20,27 +20,27 @@
 
 10. \>
 
-11. 转义 
+11. 转义
 
-    >\反斜杠  
+    >\反斜杠
     >
-    >`反引号  
+    >`反引号
     >
-    >*星号  
+    >*星号
     >
-    >_下划线  
+    >_下划线
     >
-    >{}花括号  
+    >{}花括号
     >
-    >[]方括号  
+    >[]方括号
     >
-    >()括弧  
+    >()括弧
     >
-    >#井字号  
+    >#井字号
     >
-    >\+加号  
+    >\+加号
     >
-    >-减号  
+    >-减号
     >
-    >.英文句 
-    >!感叹号 
+    >.英文句
+    >!感叹号

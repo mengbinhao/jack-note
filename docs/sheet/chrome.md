@@ -2,8 +2,8 @@
 
 - ctrl + p      change  file
 - ctrl + shift + p    command
-- ctrl + f 
-- ctrl + shift + f    global search 
+- ctrl + f
+- ctrl + shift + f    global search
 - ctrl + g
 - ctrl + d   multi-select then multi-change
 - ctrl + left click   multi-select then multi-change
@@ -29,7 +29,7 @@
 
 - $x("//p")     locate by xpath
 
-- **dir()** key()  value()  count()  trace()    
+- **dir()** key()  value()  count()  trace()
 
 - time() timeEnd()   group() groupEnd()  profile() profileEnd()
 

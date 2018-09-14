@@ -43,7 +43,6 @@
 ```
 
 
-
  ![](../images/163c42601ede4b6e.gif)
 
 首先transition给元素设置的过渡属性是transform，当鼠标移入元素时，元素的transform发生变化，那么这个时候就触发了transition，产生了动画，当鼠标移出时，transform又发生变化，这个时候还是会触发transition，产生动画，所以transition产生动画的条件是transition设置的property发生变化，这种动画的特点是需要“一个驱动力去触发”，有着以下几个不足：
@@ -53,7 +52,7 @@
 3. 只能定义开始状态和结束状态，不能定义中间状态，也就是说只有两个状态
 4. 一条transition规则，只能定义一个属性的变化，不能涉及多个属性。
 
- 语法：**transition: property duration timing-function delay;** 
+ 语法：**transition: property duration timing-function delay;**
 
 | property                   | description                       |
 | -------------------------- | --------------------------------- |
@@ -115,7 +114,6 @@ transition属性的扩展，弥补了transition的很多不足，我理解为ani
 
 </html>
 ```
-
 
 
 ![163c42601ede4b6e](../images/163c4261137cc7df.gif)

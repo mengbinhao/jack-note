@@ -1,6 +1,6 @@
 #### 1 Build Linux server
 
-1. install VirtualBox-5.2.12-122591-Win 
+1. install VirtualBox-5.2.12-122591-Win
 2. install [Ubuntu Server 14.04 LTS ](http://www.ubuntu.com/download/server) through iso in VirtualBox
 
 #### 2 Use Linux server

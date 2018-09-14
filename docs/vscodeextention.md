@@ -1,8 +1,8 @@
-#### 1. Beautify  (Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code) 
+#### 1. Beautify  (Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code)
 
 - [doc](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 
-- .jsbeautifyrc 
+- .jsbeautifyrc
 
 - example
 
@@ -29,13 +29,12 @@
      all files in any 'test' directory at any depth
     */
     "beautify.ignore": ["*/test.js", "**/spec/*", "**/test/**/*"]
-  
+
     /* ignore all files ending in '_test.js' anywhere */
     "beautify.ignore": "**/*_test.js"
   }
   ```
 
-  
 
 #### 2. pylint
 
@@ -55,14 +54,14 @@
     -h,--help
     --generate-rcfile
     可以使用 pylint --generate-rcfile 来生成一个配置文件示例。可以使用重定向把这个配置文件保存下来用做以后使用。也可以在前面加上其它选项，使这些选项的值被包含在这个产生的配置文件里。如：pylint --persistent=n --generate-rcfile > pylint.conf，查看 pylint.conf，可以看到 persistent=no，而不再是其默认值 yes。
-    
+
     --rcfile=<file>
     指定一个配置文件。把使用的配置放在配置文件中，这样不仅规范了自己代码，也可以方便地和别人共享这些规范。
     pylint --generate-rcfile > .pylintrc
-    
+
     -r <y_or_n>, --reports=<y_or_n>
     默认是 y, 表示 Pylint 的输出中除了包含源代码分析部分，也包含报告部分。
-    
+
     -f <format>, --output-format=<format>
     设置输出格式。可以选择的格式有 text, parseable, colorized, msvs (visual studio) 和 html, 默认的输出格式是 text。
     ```
@@ -137,13 +136,12 @@
 
    ```
    # /node_modules/* and /bower_components/* in the project root are ignored by default
-   
+
    # Ignore built files except build/index.js
    build/*
    !build/index.js
    ```
 
-   
 
 6. [rules](http://eslint.cn/docs/rules/)      [doc](http://eslint.cn/docs/user-guide/configuring)
 

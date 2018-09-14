@@ -13,7 +13,3 @@ Vuex  (state  getter  mutation action module)
 >6 mutation(只能同步代码),action进行异步操作,再mutation里面dispatch然后action异步操作后commit
 >
 >7 抽取module
-
-
-
-
