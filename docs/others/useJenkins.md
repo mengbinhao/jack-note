@@ -1,11 +1,11 @@
-#### Start Exit Reload Restart
+### 1.Start Exit Reload Restart
 
 - http://localhost:8082/restart
 - http://localhost:8082/reload
 - http://localhost:8082/exit
 - locate jenkins.war folder，run cmd : `java -jar jenkins.war --httpPort=8082
 
-#### Configure
+### 2.Configure
 
 1. change httpPort while starting as windows service
 
@@ -25,26 +25,26 @@
 
    ![](.\images\locale_language_configure.jpg)
 
-#### TroubleShooting
+### 3.TroubleShooting
 
-#####  1 install windows service fail
+1. install windows service fail
 
 ![](./images/jenkins_install_windows_service_fail.jpg)
 
 ​       solution:  locate jenkins.war folder, run cmd as administrator, then install
 
-##### 2 Jenkins cannot restart itself as currently configured.
+2. Jenkins cannot restart itself as currently configured.
 
 solution:  上面问题解决就可以了
 
-#### Env_variable
+### 4.Env_variable
 
 - JAVA_HOME        javac
 - ANT_HOME         ant -v
 - GRADLE_HOME    gradle -v
 - MAVEN_HOME      mvn -v
 
-#### Item
+### 5.Item
 
 1. 项目前缀_说明-Job类型
 

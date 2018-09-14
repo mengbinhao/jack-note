@@ -1,4 +1,4 @@
-#### Hotkey
+### 1.Hotkey
 
 - ctrl + p      change  file
 - ctrl + shift + p    command
@@ -8,7 +8,7 @@
 - ctrl + d   multi-select then multi-change
 - ctrl + left click   multi-select then multi-change
 
-#### ELements (right click on a dom element)
+### 2.ELements (right click on a dom element)
 
 1. Styles
    - :hov
@@ -19,7 +19,7 @@
 4. Properties
 5. DOM Breakpoints
 
-#### Console
+### 3.Console
 
 - abbreviation(support jQuery selector)
 
@@ -33,7 +33,7 @@
 
 - time() timeEnd()   group() groupEnd()  profile() profileEnd()
 
-#### Sources
+### 4.Sources
 
 - {}   format
 - Filesystem
@@ -41,11 +41,11 @@
 - Snippets
 - blackbox script
 
-#### Network
+### 5.Network
 
-#### Application
+### 6.Application
 
-#### Settings
+### 7.Settings
 
 - Show user agent shadow DOM
 - Log XMLHttprequests

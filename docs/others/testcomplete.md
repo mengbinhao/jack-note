@@ -1,12 +1,12 @@
-#### 1. TC12
+### 1.TC12
 
 1.  [doc](https://support.smartbear.com/testcomplete/docs/)     [video](https://support.smartbear.com/testcomplete/videos/?showvideo=desktop-tour)    [qt-module](https://support.smartbear.com/downloads/testcomplete/qt-modules/)
 
-2.  record keyword test or script test
+### 2.record keyword test or script test
 
-3.  TC_12_50_4142_Qt_4_8_0_Support for supporting other version of QT, because TC12 default only supports QT5.0
+### 3.TC_12_50_4142_Qt_4_8_0_Support for supporting other version of QT, because TC12 default only supports QT5.0
 
-4.  Knowledge point
+### 4.Knowledge point
 
     -   test set  (stop on error、count、timeout、indent level、group)
     -   add parameter
@@ -26,14 +26,14 @@
     -   add new object to current project (tool -> current project  - > object mapping)
     -   make data loop / data-driven loop
 
-5.  configure
+### 5.configure
 
     -   diable stop on error    [see doc](https://support.smartbear.com/testcomplete/docs/testing-with/running/control-test-flow/overview.html?q=stop%20on%20error)
     -   diable error dialog
         -   toos -> current project properties -> playback  (minimize testcomplete and others...)
     -   enable / disable debug
 
-6.  write script (some build-in objects)
+### 6.write script (some build-in objects)
 
     ```
     aqConvert
@@ -61,9 +61,9 @@
     RegExpr
     ```
 
-7.  integrated with jenkins
+### 7.integrated with jenkins
 
-8.  notes
+### 8.notes
 
     ```
     //Will continue excute if does not pass

@@ -9,7 +9,6 @@
     * [Vue-Router](docs/frondend/vue-router.md)
     * [Vuex](docs/frondend/vuex.md)
     * [axios](docs/frondend/axios.md)
-    * [other-lib](docs/frondend/vuex.md)
     * [UI]()
       * [element-ui](docs/frondend/UI/element-ui.md)
       * [mint-ui](docs/frondend/UI/mint-ui.md)

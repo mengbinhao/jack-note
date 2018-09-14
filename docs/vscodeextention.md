@@ -1,4 +1,4 @@
-#### 1. Beautify  (Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code)
+### 1.Beautify  (Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code)
 
 - [doc](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 
@@ -36,7 +36,7 @@
   ```
 
 
-#### 2. pylint
+### 2.pylint
 
 -   [doc](https://pylint.readthedocs.io/en/latest/)
 
@@ -96,7 +96,7 @@
      ]
     ```
 
-#### 3. eslint
+### 3.eslint
 
 1. install nodejs
 
@@ -145,10 +145,10 @@
 
 6. [rules](http://eslint.cn/docs/rules/)      [doc](http://eslint.cn/docs/user-guide/configuring)
 
-#### 4. Settings Sync
+### 4.Settings Sync
 
 ​    [see link](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-#### 5. vscode-icons
+### 5.vscode-icons
 
-#### 6. Document This
+### 6.Document This

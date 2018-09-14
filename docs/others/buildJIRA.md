@@ -1,9 +1,9 @@
-##### 1. download & install
+### 1.download & install
 
 1. [jdk download](http://www.oracle.com/technetwork/java/javase/archive-139210.html), choose your version
 2. [atlassian-jira-6.3.6-x32.exe and crack](http://www.xz7.com/dir/196682.html)  or other can be cracked version
 
-##### 2. operation mysql
+### 2.operation mysql
 
 ```
 create database jira character set 'UTF8';
@@ -11,7 +11,7 @@ create user jira identified by 'jira';
 grant all privileges on *.* to 'jira'@'localhost' identified by 'jira' with grant option;
 flush privileges;
 ```
-##### 3. JIRA (with crack)
+### 3.JIRA (with crack)
 
 1. choose My Own Database to config db info
 

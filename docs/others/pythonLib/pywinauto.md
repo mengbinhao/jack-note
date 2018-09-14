@@ -1,8 +1,8 @@
-### Install
+### 1.Install
 
 On windows : pip install pywinauto
 
-### API
+### 2.API
 
 url : https://pywinauto.readthedocs.io/en/latest/contents.html
 
@@ -10,7 +10,7 @@ url : https://pywinauto.readthedocs.io/en/latest/contents.html
 from pywinauto.application import Application
 ```
 
-#### Steps
+### 3.Steps
 
 1. determin backend (win32 or uia)  --> [use spy++ and inspect](https://github.com/blackrosezy/gui-inspect-tool) 
 
@@ -39,7 +39,7 @@ from pywinauto.application import Application
    dlg_spec.type_keys('%TP')
    ```
 
-#### handle controls
+### 4.handle controls
 
 > 输入框(Edit)、按钮(Button)、复选框(CheckBox)、单选框(RadioButton)、下拉列表(ComboBox)
 

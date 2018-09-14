@@ -1,4 +1,4 @@
-1. cnmp
+### 1.cnmp
 
    ```
    npm i -g cnpm --registry=https://registry.npm.taobao.org
@@ -6,7 +6,7 @@
    cnpm xxxxx
    ```
 
-2. http-server
+### 2.http-server
 
    ```
    npm i http-server -g
@@ -14,7 +14,7 @@
    hs -o -p 9999
    ```
 
-3. json-server
+### 3.json-server
 
    ```
    npm i -g json-server
@@ -33,7 +33,7 @@
    json-server --watch db.json
    ```
 
-4. nodemon
+### 4.nodemon
 
    ```
    npm i -g nodemon
@@ -41,7 +41,7 @@
    see more detail on npm
    ```
 
-5. gitbook
+### 5.gitbook
 
-6. nvm
+### 6.nvm
 

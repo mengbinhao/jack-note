@@ -1,10 +1,10 @@
-#### Run testlink
+### 1.Run testlink
 
 - start apache x:\Apache24\bin> .\httpd.exe(可以添加系统变量简化启动方式)
 - start mysql x:\mysql-5.6.40-winx64\bin> .\mysqld.exe --console(可以添加系统变量简化启动方式)
 - visit http://localhost/testlink/index.php
 
-##### 1. Module
+### 2.Module
 
 - project
 
@@ -31,7 +31,7 @@
 
 
 
-##### 2. Workflow
+### 3.Workflow
 
 ![](.\images\testlink-workflow.jpg)
 
@@ -45,7 +45,7 @@
 8. tester excute test case
 9. check test result and metrics
 
-##### 3. Config email  in **config.inc.php**
+### 3.Config email  in **config.inc.php**
 
 ```
 $g_smtp_host        = 'smtp.163.com';
@@ -59,7 +59,7 @@ $g_smtp_connection_mode = 'openssl';
 $g_smtp_port = 25;
 ```
 
-##### 4. Config generator document in **config.inc.php**
+### 4.Config generator document in **config.inc.php**
 
 ```
 $tlCfg->document_generator->company_name = 'Our United RT';
@@ -72,7 +72,7 @@ $tlCfg->document_generator->css_template = 'css/tl_documents.css';
 // CSS file for Requirement Specification Document, Requirement and Requirement Spec Print View
 $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
 ```
-##### 5. Integrated with mantis
+### 5.Integrated with mantis
 
 - create issue tracker, integrate through db
 
@@ -90,7 +90,7 @@ $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
 - set associate with project and active
 - see result in Excute test page
 
-##### 6. Integrated with JIRA 6.3.6
+### 6.Integrated with JIRA 6.3.6
 
 - create issue tracker, integrate through db
 
@@ -110,7 +110,7 @@ $tlCfg->document_generator->requirement_css_template = 'css/tl_documents.css';
 - set associate with project and active
 - see result in Excute test page
 
-##### 7. Integrated with JIRA7.x through sql server
+### 7.Integrated with JIRA7.x through sql server
 
 1. download
 

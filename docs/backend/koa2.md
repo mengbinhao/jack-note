@@ -1,4 +1,4 @@
-## get started
+### 1.get started
 
 ```javascript
 npm init
@@ -19,7 +19,7 @@ node index.js
 
 
 
-## koa2特性
+### 2.koa2特性
 
 - 只提供封装好http上下文、请求、响应，以及基于`async/await`的中间件容器。
 
@@ -60,7 +60,7 @@ console.log('the server is starting at port 3000')
 ```
 
 
-## 路由
+### 3.路由
 
 ```javascript
 const Koa = require('koa')
@@ -104,7 +104,7 @@ app.listen(3000, () => {
 ```
 
 
-##  请求数据获取
+### 4.请求数据获取
 
 1. get
 
@@ -250,7 +250,7 @@ app.listen(3000, () => {
     })
     ```
 
-## koa-static
+### 5.koa-static
 
 ```javascript
 const Koa = require('koa')
@@ -270,7 +270,7 @@ app.listen(3000, () => {
 
 
 
-## cookie/session
+### 6.cookie/session
 
 ```javascript
 const Koa = require('koa')
@@ -332,7 +332,7 @@ console.log('[demo] session is starting at port 3000')
 
 
 
-## view
+### 7.view
 
 ```javascript
 //index.js
@@ -372,8 +372,8 @@ app.listen(3000)
 </html>
 ```
 
-## upload
-## integrated with DB
-## jsonp
-## test
+### 8.upload
+### 9.integrated with DB
+### 10.jsonp
+### 11.test
 

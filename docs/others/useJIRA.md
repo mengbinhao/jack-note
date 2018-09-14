@@ -1,9 +1,9 @@
-### Start /Stop JIRA service
+### 1.Start /Stop JIRA service
 
 - start menu
 - task manager
 
-### Change DB
+### 2.Change DB
 
 change my.ini
 
@@ -13,7 +13,7 @@ default-character-set = utf8
 default-collation = utf8_bin
 ```
 
-### Admin
+### 3.Admin
 
 1. System setting
 
@@ -69,7 +69,7 @@ default-collation = utf8_bin
 
 
 
-###User
+### 4.User
 
 1. filter (basic / advance)
 
@@ -85,7 +85,7 @@ default-collation = utf8_bin
    7. status
    8. resolution
 
-### question
+### 5.question
 
        	1. if u want to see a project you must have the right first, even you are adminstrator
        	2. 如何动态assigner到上一节点处理人

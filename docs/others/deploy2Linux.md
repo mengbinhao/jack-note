@@ -1,11 +1,11 @@
-#### 1 Build Linux server
+### 1.Build Linux server
 
 1. install VirtualBox-5.2.12-122591-Win
 2. install [Ubuntu Server 14.04 LTS ](http://www.ubuntu.com/download/server) through iso in VirtualBox
 
-#### 2 Use Linux server
+### 2.Use Linux server
 
-##### 	1 基本操作
+#### 1.基本操作
 
 ```
 sudo apt-get update  --> update source first
@@ -18,7 +18,7 @@ ifconfig --> check IP
 shutdown -r now --> reboot
 ```
 
-##### 	2 use ssh
+#### 2.use ssh
 
 ```
 sudo apt-get install openssh-server  -> ssh can connect to server
@@ -29,8 +29,8 @@ ps -aux | grep ssh
 optional: (在linux内的终端内配置IP地址,配置的IP地址应与宿主机在一个网段内,子网掩码,port，防火墙)
 ```
 
-##### 	3 Nginx：高性能Web服务器+负责反向代理
+#### 3.Nginx：高性能Web服务器+负责反向代理
 
-##### 	4 Supervisor：监控服务进程的工具
+#### 4.Supervisor：监控服务进程的工具
 
-##### 	5 MySQL
+#### 5.MySQL

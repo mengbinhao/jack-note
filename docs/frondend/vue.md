@@ -1,4 +1,4 @@
-1 vue属性
+### 1.vue属性
 
 - el
 - template
@@ -9,34 +9,35 @@
 - watch -> singel
 - computed -> mutiple
 
-2 插值表达式
+### 2.插值表达式
 
 - 对象
 - 字符串
 - 判断后的布尔值
 - 三元
 
-3 指令
+### 3.指令
 
 - v-xxx
 - v-bind    ：
 - v-on       @
 - v-model
 
-4 过滤器filter
+### 4.过滤器filter
 
-5 组建component
+### 5.组建component
 
-6 slot（默认 | 具名）
+### 6.slot（默认 | 具名）
 
-7 获取DOM
+### 7.获取DOM
 
 - \$el   \$root  \$parent
 - \$refs  获取组建内的元素 (eg: focus)
 
-8 生命周期
+### 8.生命周期
+![](./images/lifecycle.png)
 
-9 路由
+### 9.路由
 
 - onhashchange  (#xxx)
 

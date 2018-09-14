@@ -1,4 +1,4 @@
-##### 1 Download
+### 1.Download
 
 - [php-7.2.5-Win32-VC15-x64](https://windows.php.net/download#php-7.2)  for Apache server  have to use TS version
 
@@ -10,7 +10,7 @@
 
 
 
-##### 2 Change Apache **httpd.conf**
+### 2.Change Apache **httpd.conf**
 
 - c:/Apache24 -> x:/Apache24
 
@@ -28,7 +28,7 @@
   - startup Apache     x:\Apache24\bin\httpd.exe
   - http://localhost/testphp.php
 
-  ```
+  ```php
   <?php
       echo phpinfo();
   ?>
@@ -45,8 +45,7 @@
 - set ServerName 127.0.0.1:80
 
 
-
-##### 3 Change **php.ini**
+### 3.Change **php.ini**
 
 - rename php.ini-xxxxxxx-> php.ini
 
@@ -57,8 +56,7 @@
 - date.timezone = Asia/Shanghai
 
 
-
-##### 4 Mysql **5.6.40**(user :root password : '')
+### 4.Mysql **5.6.40**(user :root password : '')
 
 - ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'root'; (**here is 8.0 problem, but testlink do not support it**)
 
@@ -103,7 +101,7 @@
 
 
 
-##### 5 Testlink
+### 5.Testlink
 
 - unzip file to php folder, rename to testlink
 
@@ -129,8 +127,7 @@
   ```
 
 
-
-##### 6 How to startup service (可以添加系统变量简化启动方式)
+### 6.How to startup service (可以添加系统变量简化启动方式)
 
 - start apache -> x:\Apache24\bin> .\httpd.exe
 - start mysql -> x:\mysql-5.6.40-winx64\bin> .\mysqld.exe --console

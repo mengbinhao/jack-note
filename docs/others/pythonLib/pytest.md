@@ -1,4 +1,4 @@
-### 1 feature
+### 1.feature
 
 1. 简单灵活，容易上手
 2. 能够支持简单的单元测试和复杂的功能测试，还可以用来做selenium/appnium等自动化测试、接口自动化测试（pytest+requests）
@@ -9,7 +9,7 @@
 7. 可以很好的和持续集成工具集成(jenkins)
 8. 支持运行由nose, unittest编写的测试case
 
-### 2 install
+### 2.install
 
 ```
 pip install -U pytest
@@ -21,13 +21,13 @@ pytest --fixtures # show available builtin function arguments
 pytest -h
 ```
 
-### 3 home page
+### 3.home page
 
 [pytest](https://pypi.org/project/pytest/)        [pytest-plugin](http://plugincompat.herokuapp.com/)       [pytest-html](https://pypi.org/project/pytest-html/)      [pytest-rerunfailures](https://pypi.org/project/pytest-rerunfailures/)
 
 ==pytest -s .\tpsautomation\test\ --html=C:\Users\T5810\Desktop\tpsautomation\tpsautomation\test\log\result.html==
 
-### 4 how to find testcase
+### 4.how to find testcase
 
 ```python
 测试文件以test_开头（以_test结尾也可以）
@@ -37,7 +37,7 @@ pytest -h
 设置pythonpath  查找路径是你自己自定的包的路径
 ```
 
-### 5 how to use excute testcase
+### 5.how to use excute testcase
 
 1. 默认执行当前目录下及其子目录所有==test\_*.py or *\_test.py中====test\_为前缀的函数==
 

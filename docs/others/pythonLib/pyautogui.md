@@ -1,8 +1,8 @@
-### Install
+### 1.Install
 
 On windows : pip install pyautogui
 
-### API
+### 2.API
 
 url : https://pyautogui.readthedocs.io/en/latest/introduction.html
 
@@ -10,7 +10,7 @@ url : https://pyautogui.readthedocs.io/en/latest/introduction.html
 import pyautogui
 ```
 
-#### General Functions
+### 3.General Functions
 
 ```python
 pyautogui.position()  # current mouse x and y
@@ -18,14 +18,14 @@ pyautogui.size()  # current screen resolution width and height(1920, 1080)
 pyautogui.onScreen(x, y)  # True if x & y are within the screen
 ```
 
-#### Fail-Safes
+### 4.Fail-Safes
 
 ```python
 pyautogui.PAUSE = 2.5
 pyautogui.FAILSAFE = True # When True, moving the mouse to the upper-left will raise a pyautogui.FailSafeException that can abort your program:
 ```
 
-#### Mouse Functions
+### 5.Mouse Functions
 
 ```python
 pyautogui.moveTo(x, y, duration=num_seconds)  # move mouse to XY coordinates over num_second seconds
@@ -44,7 +44,7 @@ pyautogui.mouseDown(x=moveToX, y=moveToY, button='left')
 pyautogui.mouseUp(x=moveToX, y=moveToY, button='left')
 ```
 
-#### Keyboard Functions
+### 6.Keyboard Functions
 
 The full list of key names is in **pyautogui.KEYBOARD_KEYS**
 
@@ -59,7 +59,7 @@ pyautogui.press('left')     # press the left arrow key
 pyautogui.keyUp('shift')    # release the shift key
 ```
 
-#### Screenshot Functions
+### 6.Screenshot Functions
 
 ```python
 im1 = pyautogui.screenshot()  # returns a Pillow/PIL Image object
@@ -84,7 +84,7 @@ pyautogui.pixelMatchesColor(100, 200, (130, 135, 144))
 pyautogui.pixelMatchesColor(100, 200, (140, 125, 134), tolerance=10)
 ```
 
-#### Message Box Functions
+### 7.Message Box Functions
 
 ```python
 pyautogui.alert('This displays some text with an OK button.')

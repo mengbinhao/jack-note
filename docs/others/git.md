@@ -9,7 +9,7 @@ git config --global user.name
 git config --global user.name "Your Name"
 ```
 
-###  create repository
+### create repository
 
 1. new repository
 

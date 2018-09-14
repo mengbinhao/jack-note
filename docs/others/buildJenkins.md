@@ -1,9 +1,9 @@
-#### Download
+### Download
 
 1. [jdk8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 2. [jenkins war version](https://jenkins.io/download/)
 
-#### Install
+### Install
 
 1. Open up a terminal in the download directory
 2. Run `java -jar jenkins.war --httpPort=xxxx`

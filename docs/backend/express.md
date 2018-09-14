@@ -1,4 +1,4 @@
-## get started
+### 1.get started
 
 ```
 mkdir express-tutorials
@@ -8,7 +8,7 @@ npm i express
 node index.js
 ```
 
-## [express-generator](https://www.npmjs.com/package/express-generator)
+### 2.[express-generator](https://www.npmjs.com/package/express-generator)
 
 ```
 //非全局i
@@ -34,7 +34,7 @@ set DEBUG=express:application & node index.js
 set DEBUG=myapp & node index.js
 ```
 
-## middleware
+### 3.middleware
 
 >简单说，中间件（middleware）就是处理HTTP请求的函数。它最大的特点就是，一个中间件处理完，再传递给下一个中间件。从本质上来说，一个 Express 应用就是在调用各种中间件。
 >
@@ -180,7 +180,7 @@ set DEBUG=myapp & node index.js
         ```
 
 
-## Router
+### 4.Router
 
 1. 路由路径
 
@@ -283,12 +283,12 @@ set DEBUG=myapp & node index.js
 
 5. express.Router
 
-## express session
+### 5.express session
 
 1. express-session
 2. 将会话存储MongoDB数据库 connect-mongo
 
-## views
+### 6.views
 
 ```javascript
 app.set('views', './views')
@@ -298,9 +298,9 @@ app.set('view engine', 'ejs')
 1. static views
 2. dync views
 
-## Integrated with log4j
+### 7.Integrated with log4j
 
-## Express some API
+### 8.Express some API
 
 1. app.use([path], middleware)  //use是express注册中间件的方法
 
