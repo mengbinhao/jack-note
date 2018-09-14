@@ -1,4 +1,4 @@
-#### 1 datetime  & time & calendar
+### 1.datetime  & time & calendar
 
 ```python
 time
@@ -42,7 +42,7 @@ datetime
 
 
 
-#### 2 collections
+### 2.collections
 
 1. namedtuple （具名tuple）
 
@@ -96,7 +96,7 @@ datetime
 
    
 
-#### 3 itertools
+### 3.itertools
 
 1. count() / cycle('jack') /  repeat(‘a’)
 
@@ -137,7 +137,7 @@ datetime
 
 
 
-#### 4 contextlib
+### 4.contextlib
 
 1. with
 
@@ -159,7 +159,7 @@ datetime
 
 
 
-#### 5 sys        命令行参数
+### 5.sys        命令行参数
 
 ```python
 sys.argv 是一个 list,包含所有的命令行参数.
@@ -171,7 +171,7 @@ sys.path 是一个list,指明所有查找module，package的路径.
 ```
 
 
-#### 6 os    启动新进程；操作文件和目录   dir(os)    help(os)
+### 6.os    启动新进程；操作文件和目录   dir(os)    help(os)
 
 ```python
 os.environ 一个dictionary 包含环境变量的映射关系
@@ -204,7 +204,7 @@ os.name
 ```
 
 
-#### 7 os.path
+### 7.os.path
 
 ```python
 #abspath()  将相对路径转化为绝对路径
@@ -289,7 +289,7 @@ print(result)
 ```
 
 
-#### 8 shutil
+### 8.shutil
 
 ```python
 f1 = open("p_test.py",encoding="utf-8")
@@ -310,7 +310,7 @@ shutil.make_archive(base_name, format,...) # 创建压缩包并返回文件路�
 
 
 
-#### 9 subprocess
+### 9.subprocess
 
 ```python
 subprocess.call() # 0 normal
@@ -334,7 +334,7 @@ child.terminate()      # 终止子进程
 
 
 
-#### 10 re
+### 10.re
 
 ```python
 re.compile()
@@ -375,7 +375,7 @@ print(bytes(t).decode('gb2312'))
 
 
 
-#### 11 xml
+### 11.xml
 
 ```python
 sax / dom / etree / lxml(third lib support xpath)
@@ -387,7 +387,7 @@ sax / dom / etree / lxml(third lib support xpath)
 
 
 
-#### 12 random
+### 12.random
 
 ```python
 print(random.uniform(10, 20))
@@ -407,7 +407,7 @@ print('123'.join('jack'))
 
 
 
-#### 13 logging
+### 13.logging
 
 ```python
 级别从低到高：CRITICAL 50 /ERROR 40 /WARNING 30 /INFO 20 /DEBUG 10 /NOTSET 0
@@ -440,7 +440,7 @@ logger.info("Finish")
 ```
 
 
-#### 14 configparser
+### 14.configparser
 
 ```python
 import configparser
@@ -469,7 +469,7 @@ config.write(open('xxxooo', 'w'))
 ```
 
 
-#### 15 cvs
+### 15.cvs
 
 ````python
 see csvtest.py
@@ -479,7 +479,7 @@ python3 加入参数去掉多余空行 with open(csv_file_path,'wt', newline='')
 
 
 
-#### 16 json & Demjson
+### 16.json & Demjson
 
 ```python
 序列化    dumps：无文件操作            dump：序列化+写入文件
@@ -492,7 +492,7 @@ demjson.decode( ['one',42,True,None] )  # From JSON to Python
 
 
 
-#### 17 chardet
+### 17.chardet
 
 ```python
 data = '离离原上草，一岁一枯荣'.encode('gbk')
@@ -502,7 +502,7 @@ data = '离离原上草，一岁一枯荣'.encode('gbk')
 
 
 
-#### 18 psutil
+### 18.psutil
 
 ```python
 [p.info for p in psutil.process_iter(attrs=['pid', 'name']) if 'python' in p.info['name']]
@@ -510,7 +510,7 @@ data = '离离原上草，一岁一枯荣'.encode('gbk')
 
 
 
-#### 19 copy
+### 19.copy
 
 ```python
 copy.copy(xxx)
@@ -519,7 +519,7 @@ copy.deepcopy(xxx)
 
 
 
-#### 20 pyperclip
+### 20.pyperclip
 
 ```python
 pyperclip.copy(xxxx)
@@ -528,7 +528,7 @@ pyperclip.paste()
 
 
 
-#### 21 系统直接调用函数
+### 21.系统直接调用函数
 
 ```python
 dir(obj) 查看obj的name space中可见的name
@@ -569,7 +569,7 @@ min(...) 求最小值
 
 
 
-#### 22 bat run py & py run py
+### 22.bat run py & py run py
 
 ```python
 @py.exe  C:\bin\python\module\subprocesstest2.py %*
@@ -579,7 +579,7 @@ subprocess.Popen([r'C:\python36\python.exe', 'another.py'])
 
 
 
-#### 23 str / list / tuple / dict / set
+### 23.str / list / tuple / dict / set
 
 ```python
 str
@@ -619,7 +619,7 @@ set
 	s1 | s2 --> {1, 2, 3, 4}
 ```
 
-#### 24 other  & range() & 列表生成式 & setup
+### 24.other  & range() & 列表生成式 & setup
 
 ```python
 def add_end(L=[]):
@@ -647,8 +647,7 @@ python setup.py install
 ```
 
 
-
-#### 25 example
+### 25.example
 
 ```python
 a, b, c = b, c, a

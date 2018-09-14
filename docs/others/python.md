@@ -1,4 +1,4 @@
-##### Basic Concept
+### 1.Basic Concept
 
 1. 解释器
 
@@ -35,7 +35,7 @@
 
 10. 常量大写
 
-11.  //取整 （算数  比较  赋值 逻辑 位  成员in / not in 身份is / is not 优先级）
+11. //取整 （算数  比较  赋值 逻辑 位  成员in / not in 身份is / is not 优先级）
 
     **is 用于判断两个变量引用对象是否为同一个， == 用于判断引用变量的值是否相等**
 
@@ -131,7 +131,7 @@ Python3 的六个标准数据类型中：
 
  None是个特殊值
 
-##### Function
+### 2.Function
 
 1. 定义
 2. **pass**
@@ -240,7 +240,7 @@ Python3 的六个标准数据类型中：
 
 
 
-##### Advance Function
+### 3.Advance Function
 
 1. **切片**
 
@@ -315,7 +315,7 @@ L[:]
    5. 偏函数
 
 
-##### Module
+### 4.Module
 
 1. 模块名要遵循Python变量命名规范，不要使用中文、特殊字符
 
@@ -348,13 +348,13 @@ L[:]
    python fibo.py 50
    ```
 
-##### Package
+### 5.Package
 
 1. 包中的 __init__.py 代码定义了一个名为 __all__ 的列表,__all__ = ["echo", "surround", "reverse"]
 
 2. `from Package import func1 [,fun2....]
 
-3. ```
+3. ```python
    import   //模块.函数
    from ... import ...  // 直接使用函数名使用就可以了
 
@@ -389,7 +389,7 @@ sound/                          Top-level package
               ...
 ```
 
-##### Class
+### 6.Class
 
 1. 前后双下划线  特殊变量 可以直接访问
 
@@ -444,7 +444,7 @@ sound/                          Top-level package
    - 不要对实例属性和类属性使用相同的名字,因为相同名称的实例属性将屏蔽掉类属性
 
 
-##### Advance Class
+### 7.Advance Class
 
 1. 动态绑定方法到类或实例
 
@@ -468,7 +468,7 @@ sound/                          Top-level package
    - @test
 
 
-##### try-except-finally  / raise
+### 8.try-except-finally  / raise
 
 ```
 import logging
@@ -497,15 +497,14 @@ print('END')
 ```
 
 
-
-##### Debug
+### 9.Debug
 
 1. print()
 2. assert
 3. import logging
 4. IDE
 
-##### Unit Test
+### 10.Unit Test
 
 1. 单元测试可以有效地测试某个程序模块的行为，是未来重构代码的信心保证
 2. 单元测试的测试用例要覆盖常用的输入组合、边界条件和异常
@@ -516,14 +515,14 @@ print('END')
 7. `pip install pytest  `
 
 
-##### 正则
+### 11.正则
 
 1. 切分字符串
 2. 分组
 3. 贪婪非贪婪
 4. 编译  `re_telephone = re.compile(r'^(\d{3})-(\d{3,8})$')`
 
-##### 常用内建模块
+### 12.常用内建模块
 
 1. **datetime**
 
@@ -670,7 +669,7 @@ print('END')
 
 34. psutil 系统性能参数
 
-##### PIP
+### 13.PIP
 
 - pip list
 - pip list --outdated
@@ -680,7 +679,7 @@ print('END')
 - pip uninstall xxxx
 - pip -h
 
-##### 常用第三方模块
+### 14.常用第三方模块
 
 1. Pillow
 2. requests
@@ -693,7 +692,7 @@ print('END')
    - aiomysql
    - aiohttp
 
-##### virtualenv(“隔离”Python运行环境)
+### 15.virtualenv(“隔离”Python运行环境)
 
 1. pip install virtualenv
 
@@ -726,19 +725,19 @@ print('END')
 
 13. deactivate
 
-##### pipenv
+### 16.pipenv
 
-##### 图形界面
+### 17.图形界面
 
-##### 网络编程
+### 18.网络编程
 
-##### 电子邮件
+### 19.电子邮件
 
-##### 访问数据库
+### 20.访问数据库
 
-##### Web开发
+### 21.Web开发
 
-##### 异步IO
+### 22.异步IO
 
 - open()
 - close()
@@ -748,7 +747,7 @@ print('END')
 - tell()
 - seek()
 
-##### 最佳实践
+### 23.最佳实践
 
 - 使用 4 空格缩进，而非 TAB
 
