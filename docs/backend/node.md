@@ -1,15 +1,13 @@
-### 简介
+### 1. CommonJS规范
 
-1. CommonJS规范
-
-2. 特点
+### 2. 特点
 
    - 异步I/O
    - 事件驱动
 
-3. node --help
+### 3. node --help
 
-4. npm --help
+### 4. npm --help
 
    ```
    npm config set init.author.email "mengbinhao2018@gmail.com"
@@ -34,22 +32,22 @@
    npm run command
    ```
 
-5. example
+### 5. example
 
    >http-example.js  mock-event-emitter.js  read-file  read-file-sync.js
 
-6. module
+### 6. module
 
    1. 单次加载 (modules/fiestmodule.js)
    2. 导出对象 (modules/hello.js)
 
-7. package
+### 7. package
 
    >包在模块基础上更进一步抽象，NodeJS包类似于Java类库，它将某个独立功能封装起来，用于发布、更新、依赖管理、版本控制。NodeJS根据CommonJS规范实现了包机制，通过npm来解决包的发布和获取需求。
    >
    >NodeJS包是一个目录，其中包含一个说明文件`package.json`，严格符合CommonJS规范的包应具备这些特征：package.json必须放在包的根目录、二进制文件保存在bin目录、JavaScript代码保存在lib目录、文档放置在doc目录、单元测试保存在test目录。
 
-8. build-in module
+### 8. build-in module
 
    1. Global
 
@@ -92,7 +90,7 @@
           - `response.write(data, [encoding])`：向请求的客户端发送响应内容。`data`是`Buffer`或字符串，表示要发送的内容。如果`data`是字符串，那么需要通过`encoding`说明其编码方式(默认是utf-8)。在`response.end()`调用之前，`response.write()`可以被多次调用。
           - `response.end([data],[encoding])`：结束响应，告知客户端全部响应已经完成。当所有响应内容发送完毕后，该函数必须被调用1次。接受2个可选参数，意义与`response.write()`相同。如果不调用该函数，客户端将永远处于等待状态。
 
-9. 模块加载机制
+### 9. 模块加载机制
 
    14. NodeJS模块分为是**核心模块**、**文件模块**：
 
@@ -103,11 +101,11 @@
       2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录。 
    16. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。 
 
-10. 循环中回调函数的陷阱
+### 10. 循环中回调函数的陷阱
 
     >trap.js
 
-11. NodeJS的瓶颈
+### 11. NodeJS的瓶颈
 
     1. 计算密集型程序
 
