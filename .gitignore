@@ -4,3 +4,4 @@ build/Release
 node_modules/
 _book/
 gh-pages/
+.vscode/
