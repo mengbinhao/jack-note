@@ -4,9 +4,9 @@
 //create SSH key
 ssh-keygen -t rsa -C "youremail@example.com"
 
-git config --global -l
-git config --global user.name
-git config --global user.name "Your Name"
+git config [--global] -l
+git config [--global] user.name
+git config [--global] user.name "Your Name"
 ```
 
 ### create repository
@@ -59,6 +59,9 @@ git branch -dr <remote/branch>
 git show <tagname>
 git tag <tagName> [commitid]
 git tag -d <tagName>
+
+git tag -a 'v0.0.1' -m '第一个版本'
+git push origin 'v0.0.1'
 ```
 
 ### remote repository

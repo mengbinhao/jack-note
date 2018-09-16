@@ -5,7 +5,17 @@
 
    cnpm xxxxx
    ```
+   or
+   ```
+   npm i xxxx [-D | =S] --registry=https://registry.npm.taobao.org
+   ```
 
+### 2.nrm
+  ```
+  npm install -g nrm
+  nrm ls
+  nrm use xxx
+  ```
 ### 2.http-server
 
    ```

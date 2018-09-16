@@ -8,6 +8,9 @@
 - filters
 - watch -> singel
 - computed -> mutiple
+  - `computed` 是计算一个新的属性，并将该属性挂载到 vm（Vue 实例）上，而 `watch` 是监听已经存在且已挂载到 `vm` 上的数据，所以用 `watch` 同样可以监听 `computed` 计算属性的变化（其它还有 `data`、`props`）
+  - `computed` 本质是一个惰性求值的观察者，具有缓存性，只有当依赖变化后，第一次访问  `computed`  属性，才会计算新的值，而 `watch` 则是当数据发生变化便会调用执行函数
+  - 从使用场景上说，`computed` 适用一个数据被多个数据影响，而 `watch` 适用一个数据影响多个数据
 
 ### 2.插值表达式
 
@@ -50,6 +53,7 @@
 - 嵌套路由
 
 - 路由meta元数据-->meta是对于路由规则是否需要权限验证的配置
+
   - 路由对象中和name属性同级 { meta: {isChecked.true}}
 
 - 路由钩子--> 权限控制的函数执行时期
