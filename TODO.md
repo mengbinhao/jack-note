@@ -1,3 +1,9 @@
+- todomvc
+- animatie-resume
+- position (2 parts)
+- upload vs-extension in home
+- zaolunizi
+
 https://ke.qq.com/course/192657
 https://ke.qq.com/course/223133
 https://ke.qq.com/course/132074
@@ -49,7 +55,7 @@ https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 
 
 
-https://juejin.im/post/5b879a9f6fb9a01a0f24a5e1                        js执行顺序宏任务微任务
+
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
 https://juejin.im/post/5b02bde8f265da0ba7700d54                        节流防抖
 https://juejin.im/post/5b0c3b53f265da09253cbed0                        懒加载预加载
@@ -61,35 +67,13 @@ https://juejin.im/post/5afa6ad4518825426c68fbcb                        前端优
 https://juejin.im/post/5b04dd816fb9a07aae158903                        前端优化
 http://www.cnblogs.com/jadeboy/p/9075003.html                          单页应用
 https://juejin.im/entry/5b065c326fb9a07aa43c9a06                       html渲染
-https://juejin.im/post/5b14cc5de51d45069773a4a9                        js array
-https://finget.github.io/2018/05/22/virtualDom/  	            virtualDom
-https://segmentfault.com/a/1190000016281753                     高效遍历匹配Json数据，避免嵌套循环
-
+https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
+https://segmentfault.com/a/1190000016281753                            高效遍历匹配Json数据，避免嵌套循环
 
 
 http://web.jobbole.com/85136/   js常用设计模式
 http://web.jobbole.com/29454/   设计模式
 
-
-
-https://segmentfault.com/a/1190000014736711
-https://juejin.im/post/5afb7fc7518825426d2d4aff   		        position:reletive
-
-
-
-
-http://web.jobbole.com/95021/                                   Vue和微信小程序的区别、比较
-https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/      ReactJS vs Angular 5 vs Vue.js
-https://github.com/lihongxun945/myblog/issues/21                Vue和React区别的一些笔记
-https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
-https://juejin.im/entry/5b627627f265da0f66404074                vue vs react
-
-
-
-https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
-https://segmentfault.com/a/1190000016281174                     掌握react，这一篇就够了
-https://segmentfault.com/a/1190000015894607                     React 开发你一定要知道
-https://uinika.github.io/web/broswer/angular.html               angular best practise
 
 
 
@@ -122,6 +106,18 @@ https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 
 
+http://web.jobbole.com/95021/                                   Vue和微信小程序的区别、比较
+https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/      ReactJS vs Angular 5 vs Vue.js
+https://github.com/lihongxun945/myblog/issues/21                Vue和React区别的一些笔记
+https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
+https://juejin.im/entry/5b627627f265da0f66404074                vue vs react
+
+
+https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
+https://segmentfault.com/a/1190000016281174                     掌握react，这一篇就够了
+https://segmentfault.com/a/1190000015894607                     React 开发你一定要知道
+https://uinika.github.io/web/broswer/angular.html               angular best practise
+
 
 
 
@@ -140,7 +136,6 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 
 
 
-http://0313.name/archives/477                         resume
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
 http://0313.name/archives/502#JavaScript              interview
@@ -159,6 +154,8 @@ https://segmentfault.com/a/1190000015960009           interview html & css
 https://mp.weixin.qq.com/s/87BoE2-0mW_3qALyNSpiTw     mysql速查
 https://segmentfault.com/a/1190000015893287           python爬虫项目汇总
 https://www.itcodemonkey.com/article/7995.html        python技巧
+
+
 
 
 
