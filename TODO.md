@@ -3,8 +3,9 @@
 - position (2 parts)
 - upload vs-extension in home
 - zaolunizi
+- github account
+- testcompete license
 
-https://ke.qq.com/course/192657
 https://ke.qq.com/course/223133
 https://ke.qq.com/course/132074
 
@@ -95,6 +96,7 @@ https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
 https://juejin.im/entry/5b33556d51882574b00fcc39                vue坑
+https://juejin.im/post/5b80f4e36fb9a019ce148fe9                 vue实践
 
 https://yugasun.com/post/you-dont-know-vuejs-13.html            vue实践结论
 http://obkoro1.com/2018/06/03/%E4%BD%A0%E6%88%96%E8%AE%B8%E4%B8%8D%E7%9F%A5%E9%81%93Vue%E7%9A%84%E8%BF%99%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/                                                                       vue技巧
