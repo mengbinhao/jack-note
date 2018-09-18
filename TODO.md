@@ -1,9 +1,6 @@
 - todomvc
 - animatie-resume
-- position (2 parts)
-- upload vs-extension in home
 - zaolunizi
-- github account
 - testcompete license
 
 https://ke.qq.com/course/223133
