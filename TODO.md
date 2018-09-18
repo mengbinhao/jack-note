@@ -2,6 +2,7 @@
 - animatie-resume
 - zaolunizi
 - testcompete license
+- online translate
 
 https://ke.qq.com/course/223133
 https://ke.qq.com/course/132074
