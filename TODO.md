@@ -1,8 +1,8 @@
 - todomvc
 - animatie-resume
+- online translate
 - zaolunizi
 - testcompete license
-- online translate
 
 https://ke.qq.com/course/223133
 https://ke.qq.com/course/132074
@@ -135,7 +135,7 @@ https://juejin.im/post/5b652b036fb9a04fa01d616b                 Webpack性能优
 http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 
 
-
+http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
 http://0313.name/archives/502#JavaScript              interview
