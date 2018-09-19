@@ -95,6 +95,11 @@ git rebase --continue
 ### reset
 
 ```
+//local
+git reset HEAD .
+git reset HEAD -filename
+
+//remote
 git reset --hard HEAD
 git checkout HEAD <file>
 
