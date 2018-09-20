@@ -9,6 +9,7 @@
       - [Vue](docs/frondend/vue/vue.md)
       - [Vue-Router](docs/frondend/vue/vue-router.md)
       - [Vuex](docs/frondend/vue/vuex.md)
+      - [vue-cli](docs/frondend/vue/vue-cli.md)
     * [UI]()
       * [element-ui](docs/frondend/UI/element-ui.md)
       * [mint-ui](docs/frondend/UI/mint-ui.md)
