@@ -15,6 +15,16 @@
 }
 ```
 
+### 单行文本水平&垂直居中
+```css
+div {
+line-height：200;
+height：200;
+text-align:center;
+}
+```
+
+
 ### 仅居中元素定宽高适用
 
     - absolute + 负margin

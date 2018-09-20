@@ -1,9 +1,9 @@
 ### 1.vue属性
 
 - el
+- data
 - template
 - methods
-- data
 - components
 - filters
 - watch -> singel
@@ -19,16 +19,16 @@
 - 判断后的布尔值
 - 三元
 
-### 3.指令
+### 3.directive / 指令修饰符
 
-- v-xxx
-- v-bind    ：
-- v-on       @
-- v-model
+- v-for v-if v-text v-show v-once v-cloak
+- v-bind
+- v-on
+- v-model:lazy
 
-### 4.过滤器filter
+### 4.filter(global / local)
 
-### 5.组建component
+### 5.component(global / local)
 
 ### 6.slot（默认 | 具名）
 
@@ -36,6 +36,8 @@
 
 - \$el   \$root  \$parent
 - \$refs  获取组建内的元素 (eg: focus)
+
+### 7.父子组件(父传子-自定义属性 子传父--自定义事件)
 
 ### 8.生命周期
 ![](./images/lifecycle.png)

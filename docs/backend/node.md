@@ -16,18 +16,24 @@
    npm config set init.license "MIT"
    npm config set init.version "0.0.1"
 
-   npm init -y
+   npm cache clean --force
+   npm root [-g]
+
+   npm init [-y]
    npm adduser
    npm whoami
    npm publish
 
-   npm config list -l
    npm set xxx
+   npm config set registry=https://registry.npm.taobao.org
+   npm config get registry
    npm info xxx
    npm search xxx
-   npm list [-g]
+   npm [config] list [-g]
    npm i [-S|-D] xxx
-   npm update xxx
+   npm install --production
+   npm update [xxx]
+   npm outdated [-g]
    npm uninstall xxx
    npm run command
    ```

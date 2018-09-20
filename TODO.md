@@ -3,9 +3,9 @@
 - online translate
 - zaolunizi
 - testcompete license
+- how to debug in vue-cli
+- vue-cli webpack config
 
-https://www.youtube.com/watch?v=uoiNjrHIsQE
-https://www.youtube.com/watch?v=EvoyKmHgfSs
 
 
 rollup -g  package small js to one
@@ -68,8 +68,8 @@ http://web.jobbole.com/29454/   设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
 
 
-
-http://0313.name/archives/485#16  杂死了
+https://segmentfault.com/a/1190000016420985                    杂
+http://0313.name/archives/485#16                               杂
 http://blog.poetries.top/archives/   vue blog
 https://finget.github.io/2018/06/28/vue-family/                 vue全家桶
 https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向绑定
@@ -82,6 +82,8 @@ https://juejin.im/post/5afd7eb16fb9a07ac5605bb3     	        vue生命钩子
 https://juejin.im/post/5b0281b851882542845257e7  	            vue-router
 https://juejin.im/post/5b03e610f265da0b873ad64e  	            自定义指令
 https://juejin.im/post/5b2872516fb9a00e8626e34f                 vue-cli
+https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect
+                                                                骨架屏
 
 
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
@@ -101,11 +103,14 @@ https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 
 
-http://web.jobbole.com/95021/                                   Vue和微信小程序的区别、比较
+http://web.jobbole.com/95021/                                   Vue vs 微信小程序
+https://segmentfault.com/a/1190000015684864                     Vue vs 微信小程序
 https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/      ReactJS vs Angular 5 vs Vue.js
 https://github.com/lihongxun945/myblog/issues/21                Vue和React区别的一些笔记
 https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
 https://juejin.im/entry/5b627627f265da0f66404074                vue vs react
+https://github.com/lihongxun945/myblog/issues/21                vue vs react
+https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?              vue vs react
 
 
 https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
@@ -122,6 +127,7 @@ https://uinika.github.io/web/broswer/webpack.html               webpack 4
 https://juejin.im/post/5af934806fb9a07ab458bced                 webpack 4
 https://juejin.im/post/5af8fa806fb9a07ac162876d                 webpack 4
 https://juejin.im/post/5b2a59c0e51d4558d05eee39                 webpack 4
+http://coderlt.coding.me/2018/04/12/webpack4/                   webpack 4
 https://juejin.im/entry/5b0d5fa5518825153d28aec4                webpack 配置
 https://segmentfault.com/a/1190000015968706                     webpack4 化繁为简
 https://segmentfault.com/a/1190000014685887                     webpack4
@@ -133,6 +139,7 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
+https://zhuanlan.zhihu.com/p/35587283                 React
 http://0313.name/archives/502#JavaScript              interview
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
