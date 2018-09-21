@@ -2,6 +2,7 @@
 - animatie-resume
 - online translate
 - zaolunizi
+- u pan aaa copy to computer && check
 - can not install Chromium
     - "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 
