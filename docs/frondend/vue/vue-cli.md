@@ -37,7 +37,46 @@
 
 
 ### vue-cli debug
-1. ccc
-2. dd
-3. 333
-4. 4444
+- Install Chrome、Debugger for chrome extension of vs-code、vue-cli 
+
+- Update your webpack configuration
+
+  1. Vue CLI 2.X    `config/index.js`  -->  devtool: 'source-map',
+
+  2. Vue CLI 3.X
+
+  - The `devtool` property needs to be set inside `vue.config.js`. Create the file in your project's root directory if it doesn't already exist
+
+    ```
+    module.exports = {
+      configureWebpack: {
+        devtool: 'source-map'
+      }
+    }
+    ```
+
+    
+
+- Configure launch.json File
+
+  ```
+  { 
+  	"version": "0.2.0", 
+  	"configurations": [ 
+  		{ 
+  			"type": "chrome", 
+  			"request": "launch", 
+  			"name": "vuejs: chrome", 
+  			"url": "http://localhost:8080", 
+  			"webRoot": "${workspaceFolder}/src", 
+  			"breakOnLoad": true, 
+  			"sourceMapPathOverrides": { 
+  				"webpack:///src/*": "${webRoot}/*" 
+  			} 
+  		 } 
+  	] 
+  }
+  ```
+
+  
+

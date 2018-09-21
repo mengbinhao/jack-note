@@ -2,9 +2,11 @@
 - animatie-resume
 - online translate
 - zaolunizi
-- testcompete license
-- how to debug in vue-cli
-- vue-cli webpack config
+- can not install Chromium
+    - "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+
+
+
 
 
 
