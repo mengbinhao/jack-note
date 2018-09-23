@@ -1,20 +1,24 @@
 - todomvc
 - animatie-resume
-- online translate
+- online translate  done
 - zaolunizi
+- download vscode
 - u pan aaa copy to computer && check
-- can not install Chromium
-    - "markdown-pdf.executablePath": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
 
 
+day.js
 
 
+vue
+vuex
+vu-router
 
 
 rollup -g  package small js to one
 webpack
 parcel
 babel
+
 
 sass
 less
@@ -36,11 +40,6 @@ bulma
 element
 
 
-vue
-vuex
-vu-router
-
-
 nuxt.js   ssr
 
 
@@ -51,7 +50,7 @@ https://coding.imooc.com/class/chapter/196.html  vue全家桶课程
 https://ke.qq.com/course/161500   express课程
 
 
-
+https://juejin.im/post/5ba0a27b5188255c6a043058   Vue+Koa+Mongodb 小练习
 https://segmentfault.com/a/1190000016101940       全栈实践
 https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 
@@ -88,7 +87,7 @@ https://juejin.im/post/5b2872516fb9a00e8626e34f                 vue-cli
 https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect
                                                                 骨架屏
 
-
+https://juejin.im/post/5ba358a56fb9a05d2068401d                 Vue页面跳转动画效果实现
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
@@ -139,6 +138,7 @@ https://juejin.im/post/5b652b036fb9a04fa01d616b                 Webpack性能优
 http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 
 
+https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
 http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview

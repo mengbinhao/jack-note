@@ -1,12 +1,12 @@
 ### vue-cli中一些webpack的配置
-1. `autoOpenBrowser改true`
+1. autoOpenBrowser
 2. change port
 3. npm run build --report
 4. proxyTable
     ```
     proxyTable: {
-        '/api/**': {
-            target: 'http://www.xxx.com', // 你接口的域名
+        '/api/**': {    //'/api' 只代理 /api url下的请求
+            target: 'http://www.xxx.com', // 后台服务器的地址
             secure: false,      // 如果是https接口，需要配置这个参数
             changeOrigin: true,     // 如果接口跨域，需要进行这个参数配置
         }
