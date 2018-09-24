@@ -1,6 +1,6 @@
-- todomvc
-- animatie-resume
-- online translate  done
+- todomvc                 done
+- online translate      done
+- animatie-resume    
 - zaolunizi
 - download vscode
 - u pan aaa copy to computer && check
@@ -136,6 +136,7 @@ https://segmentfault.com/a/1190000014685887                     webpack4
 https://juejin.im/post/5b42d4dce51d45195c070cd0                 webpack
 https://juejin.im/post/5b652b036fb9a04fa01d616b                 Webpack性能优化
 http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
+https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
