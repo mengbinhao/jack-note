@@ -1,47 +1,9 @@
 - todomvc                 done
-- online translate      done
-- animatie-resume    
+- online translate        done
+- animatie-resume
 - zaolunizi
 - download vscode
 - u pan aaa copy to computer && check
-
-
-day.js
-
-
-vue
-vuex
-vu-router
-
-
-rollup -g  package small js to one
-webpack
-parcel
-babel
-
-
-sass
-less
-postcss
-
-
-Mocha
-Chi
-Jest
-Jasmine
-Karma
-Mock
-Jest
-
-
-buefy
-mint-ui
-bulma
-element
-
-
-nuxt.js   ssr
-
 
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
@@ -157,10 +119,8 @@ https://juejin.im/post/5af8e6aef265da0b9265b04c       css
 https://segmentfault.com/a/1190000015960009           interview html & css
 
 
-
-
-
-
+***
+***
 
 \\192.168.90.5
 192.168.94.32 cmc1234
@@ -172,7 +132,6 @@ Python（主要是接口测试和UI自动化测试）
 3 性能测试 Python Locus等
 4 安全测试 Python Scapy等
 5 兼容性测试 Python + selenium等
-
 
 java的Junit、testNG，C#的NUnit ，python 的unittest、pytest PyUnit等，几乎所有的主流语言，都会有其对应的单元测试框架
 
@@ -190,11 +149,6 @@ jenkens Item
 jenkens 8082
 testlink  88
 jira 8081/8006
-
-
-pywin32     不能识别qt组件
-pyautogui   screenshot function不能识别
-pywinauto   click会自动点击界面左上角一次
 
 https://www.cnblogs.com/miniren/p/5227994.html   构建中执行shell或者 windows的批处理程序
 
