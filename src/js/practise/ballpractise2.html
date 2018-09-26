@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en, zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript practise</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 100px;
+        }
+
+        #canvas {
+            box-shadow: 0 0 10px #000;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas">your browser do not support canvas</canvas>
+    <script type="text/javascript">
+
+        //get random number
+        var random = (min, max) => parseInt(Math.random() * (max - min) + min);
+
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        canvas.width = 500;
+        canvas.height = 300;
+
+        class Ball {
+            constructor() {
+                this.color = `rgb(${random(1, 256)}, ${random(1, 256)}, ${random(1, 256)})`;
+                var r = random(5, 10);
+                this.r = r;
+                this.x = random(r, canvas.width - r)
+                this.y = random(r, canvas.height - r)
+            }
+            render() {
+                ctx.save();
+                ctx.beginPath();
+                //draw circle
+                //x , y, r, begin angle, close angle, 顺时针or逆时针
+                ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2, true);
+                ctx.fillStyle = this.color;
+                ctx.closePath();
+                ctx.fill();
+                ctx.restore();
+            }
+        }
+
+        class MoveBall extends Ball{
+            constructor() {
+                super();
+                //increament
+                var dx = random(2,6);
+                this.dx = random(0, 2) > 1 ? dx : -dx;
+                var dy = random(2,6);
+                this.dy = random(0, 2) > 1 ? dy : -dy;
+            }
+            move() {
+                this.x += this.dx;
+                if (this.x >= canvas.width - this.r || this.x < this.r) {
+                    this.dx *= -1;
+                }
+                this.y += this.dy;
+                if (this.y >= canvas.height - this.r || this.y < this.r) {
+                    this.dy *= -1;
+                }
+            }
+        }
+
+        var ballArr = [];
+
+        for (let i = 0; i < 400; i++) {
+            ballArr.push(new MoveBall());
+        }
+
+        setInterval(function(){
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < ballArr.length; i++) {
+                ballArr[i].render();
+                ballArr[i].move();
+            }
+        }, 50);
+
+
+    </script>
+</body>
+
+</html>

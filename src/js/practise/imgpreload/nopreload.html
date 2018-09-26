@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片无预加载</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #323232;
+        }
+
+        .box {
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 0 10px;
+            margin-right: 50px;
+            color: #333
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: rgb(57, 82, 94);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img id="img" src="./imgs/1.jpg" alt="" width="1200">
+        <p>
+            <a href="javascript:void(0)" class="btn" data-control="prev">上一页</a>
+            <a href="javascript:void(0)" class="btn" data-control="next">下一页</a>
+        </p>
+    </div>
+    <script src="../jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        const imgs = ['./imgs/1.jpg','./imgs/2.jpg','./imgs/3.jpg'];
+        let index = 0,
+            len = imgs.length;
+
+        $('.btn').on("click", function(){
+            if ('prev' === $(this).data('control')) {
+                index = --index < 0 ? len-1 : index;
+            }else {
+                index = ++index > len ? 0 : index;
+            }
+            document.title = (index + 1) + '/' + len;
+            $('#img').attr('src', imgs[index]);
+        })
+    </script>
+</body>
+
+</html>

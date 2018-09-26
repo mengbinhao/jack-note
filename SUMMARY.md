@@ -53,8 +53,9 @@
     * [vs_code](docs/sheet/vs_code.md)
     * [markdown](docs/sheet/markdown.md)
     * [regex](docs/sheet/regex.md)
+* Linux
+    * [linuxcommand](docs/Linux/linuxcommand.md)
 * Others
-    * [linuxcommand](docs/others/linuxcommand.md)
     * [vscodeextention](docs/others/vscodeextention.md)
     * [testcomplete](docs/others/testcomplete.md)
     * [buildJenkins](docs/others/buildJenkins.md)

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>宽高demo</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .div {
+            width: 100px;
+            height: 150px;
+            background-color: red;
+            margin: 1000px auto 0 auto;
+        }
+
+        .divscoll {
+            width: 100px;
+            height: 100px;
+            margin: 30px;
+            background-color: blue;
+            overflow-y: scroll;
+        }
+
+        @keyframes fadeInLeft {
+            0% {
+                opacity: 0;
+                transform: translate3d(-100%, 0, 0);
+            }
+            100% {
+                opacity: 1;
+                transform: none
+            }
+        }
+
+        .fadeInLeft {
+            animation-name: fadeInLeft;
+            animation-duration: 3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="" class="div"></div>
+    <div id="" class="divscoll">
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+    <script src="./jquery-1.12.4.js"></script>
+    <script type="text/javascript">
+        const heightAndWidthUtils = (function (window) {
+            const h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+            const lazydisplayDiv = () => {
+                const showDiv = document.querySelector("div");
+                //getBoundingClientRect()
+                const showDivTop = showDiv.getBoundingClientRect().top;
+                //除了 width 和 height 外的属性都是相对于视口的左上角位置而言
+                if (showDivTop <= h) {
+                    showDiv.classList.add("fadeInLeft");
+                }
+            }
+
+            const pageScrollToBottomOrTop = () => {
+                const scrollTop = document.documentElement.scrollTop;
+                const wholeHeight = document.documentElement.scrollHeight;
+                //console.log(h + "-" + scrollTop + "-" + wholeHeight);
+                if (h + scrollTop >= wholeHeight) {
+                    console.log('page bottom')
+                    //here can send Ajax request
+                }
+                if (scrollTop === 0) {
+                    console.log('page top')
+                }
+            }
+
+
+            const divScrollToBottom = () => {
+                const divScroll = document.querySelector(".divscoll");
+                //divScroll.style.height得到的是内联样式的值 这里是undefined
+                if (divScroll.scrollTop >= divScroll.scrollHeight - divScroll.clientHeight) {
+                    console.log("div buttom")
+                }
+            }
+
+            const getScrollBarWidthWayOne = () => {
+                const p = document.createElement('p'),
+                      style = {
+                          width:"100px",
+                          height:"100px",
+                          overflowY:scroll
+                      };
+                let i, scrollBarWidth;
+                for (i in style) {
+                    p[i] = style[i];
+                }
+                document.body.appendChild(p);
+                scrollBarWidth = p.offsetWidth - p.clientWidth;
+                p.remove();
+                console.log(scrollBarWidth)
+                return scrollBarWidth;
+            }
+
+            const getScrollBarWidthWayTwo = () => {
+                const p = document.createElement('p');
+                      style = {
+                         width:"100px",
+                         height:"100px",
+                      };
+                let i, clientWidth1, clientWidth2, scrollBarWidth;
+                for (i in style) {
+                    p[i] = style[i];
+                }
+                document.body.appendChild(p);
+                clientWidth1 = p.clientWidth;
+                p.overflowY = 'scroll';
+                clientWidth2 = p.clientWidth;
+                p.remove();
+                return clientWidth2 - clientWidth1;
+            }
+
+            return {
+                lazydisplayDiv,
+                pageScrollToBottomOrTop,
+                divScrollToBottom,
+                getScrollBarWidthWayOne,
+                getScrollBarWidthWayTwo
+            };
+        })(this)
+
+        //window.onscroll = heightAndWidthUtils.getScrollBarWidthWayOne;
+
+        //document.querySelector(".divscoll").onscroll = heightAndWidthUtils.divScrollToBottom;
+
+        $(window).scroll(function(){
+            var h = $(window).height();
+            var scrollHeight = $(window).scrollTop();
+            var divTop = $('div').offset().top;
+            if (h + scrollHeight >= divTop) {
+                ////
+            }
+        })
+
+        //use jQuery
+        // $(window).scroll(function(){
+        //     var h = $(window).height();
+        //     var wholeHeight = $(document).height();
+        //     var scrollHeight = $(window).scrollTop();
+        //     var divTop = $('div').offset().top;
+        //     if (h + scrollHeight >= divTop) {
+        //         ////
+        //     }
+
+        //     if (h + scrollHeight >= wholeHeight) {
+
+        //     }
+        // })  
+    </script>
+</body>
+
+</html>

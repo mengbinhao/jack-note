@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>drag</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <script type="text/javascript">
+        var div = document.getElementById("box");
+        var body = document.getElementsByTagName("body")[0];
+        function bindEvent(ele,wrapper) {
+            var X,
+                Y,
+                boxX,
+                boxY,
+                disX,
+                disY;
+            var flag = false;
+            ele.onmousedown = function(e) {
+                flag = true;
+                var e = e || window.event;
+                X = e.clientX;
+                Y = e.clientY;
+                boxX = ele.offsetLeft;
+                boxY = ele.offsetTop;
+                disX = X - boxX;
+                disY = Y - boxY;
+            }
+            document.onmousemove = function(e) {
+                var e = e || window.event;
+                if(flag) {
+                    ele.style.left = e.clientX - disX + "px";
+                    ele.style.top = e.clientY - disY + "px";
+                }
+            }
+            ele.onmouseup = function(e) {
+                flag = false;
+            }
+        }
+        bindEvent(div,body);
+    </script>
+</body>
+</html>

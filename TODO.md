@@ -1,6 +1,6 @@
 - todomvc                 done
 - online translate        done
-- animatie-resume
+- private gitbook
 - zaolunizi
 
 

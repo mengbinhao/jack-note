@@ -1,3 +1,7 @@
+### if meet unnormal
+`git rm -r --cached .`
+
+
 ### git config
 
 ```

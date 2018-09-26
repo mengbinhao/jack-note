@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>promise</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Look at the console, four conditions</h1>
+
+    <button type="button" onclick="example1()"><h2>Run example #1</h2></button>
+    <button type="button" onclick="example2()"><h2>Run example #2</h2></button>
+    <button type="button" onclick="example3()"><h2>Run example #3</h2></button>
+    <button type="button" onclick="example4()"><h2>Run example #4</h2></button>
+
+    <script type="text/javascript">
+        function doSomething() {
+            console.log('doSomething(): start');
+            return new Promise(function (resolve) {
+                setTimeout(function () {
+                    console.log('doSomething(): end');
+                    resolve();
+                }, 1000);
+            });
+        }
+
+        function doSomethingElse() {
+            console.log('doSomethingElse(): start');
+            return new Promise(function (resolve) {
+                setTimeout(function () {
+                    console.log('doSomethingElse(): end');
+                    resolve();
+                }, 1000);
+            });
+        }
+
+        function finalHandler() {
+            console.log('finalHandler(): start');
+            return new Promise(function (resolve) {
+                setTimeout(function () {
+                    console.log('finalHandler(): end');
+                    resolve();
+                }, 1000);
+            });
+        }
+
+        function example1() {
+            doSomething().then(function () {
+                return doSomethingElse();
+            }).then(finalHandler);
+        }
+
+        function example2() {
+            doSomething().then(function () {
+                doSomethingElse();
+            }).then(finalHandler);
+        }
+
+        function example3() {
+            doSomething().then(doSomethingElse())
+                .then(finalHandler);
+        }
+
+        function example4() {
+            doSomething().then(doSomethingElse)
+                .then(finalHandler);
+        }
+
+    </script>
+</body>
+
+</html>

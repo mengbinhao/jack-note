@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en, zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <style type="text/css">
+        /* div {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid red;
+        } */
+
+        div {
+            width: 300px;
+            height: 200px;
+            background-color: yellow;
+            border: 1 solid red;
+        }
+
+        .div1 {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="list" id="list"></ul>
+    <!--
+    <script type="text/javascript" src="ajaxtools.js"></script>
+    <script type="text/javascript" src="arraytools.js"></script>
+    <script type="text/javascript" src="bomtools.js"></script>
+    <script type="text/javascript" src="cookietools.js"></script>
+    <script type="text/javascript" src="dateandtimetools.js"></script>
+    <script type="text/javascript" src="domtools.js"></script>
+    <script type="text/javascript" src="eventtools.js"></script>
+    <script type="text/javascript" src="functiontools.js"></script>
+    <script type="text/javascript" src="numbertools.js"></script>
+    <script type="text/javascript" src="objecttools.js"></script>
+    <script type="text/javascript" src="ostools.js"></script>
+    <script type="text/javascript" src="othertools.js"></script>
+    <script type="text/javascript" src="regexptools.js"></script>
+    <script type="text/javascript" src="stringtools.js"></script>
+    <script type="text/javascript" src="urltools.js"></script>
+    -->
+    <!-- <script type="text/javascript" src="interview.js"></script> -->
+    <script type="text/javascript">
+        var length = 10;
+        function fn() {
+            console.log(this.length);
+        }
+
+        var obj = {
+            length: 5,
+            method: function (fn) {
+                fn();
+                arguments[0]();
+            }
+        };
+
+        obj.method(fn, 1);
+
+        (function () {
+            try {
+                throw new Error();
+            } catch (x) {
+                var x = 1, y = 2;
+                console.log(x);
+            }
+            console.log(x);
+            console.log(y);
+        })();
+
+        //自执行函数
+        {
+            let a = 100
+            console.log(a)
+        }
+    </script>
+</body>
+
+</html>

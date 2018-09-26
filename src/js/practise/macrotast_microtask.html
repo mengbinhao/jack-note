@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>macrotast_microtask</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="" class="div"></div>
+    <script type="text/javascript">
+        //-----------每次宏任务执行完都清理完微任务
+        //-----------每次宏任务执行完都清理完微任务
+        //-----------每次宏任务执行完都清理完微任务
+        console.log('1');
+        // 1 6 7 2 4 5 9 10 11 8 3
+        // 记作 set1
+        setTimeout(function () {
+            console.log('2');
+            // set4
+            setTimeout(function () {
+                console.log('3');
+            });
+            // pro2
+            new Promise(function (resolve) {
+                console.log('4');
+                resolve();
+            }).then(function () {
+                console.log('5')
+            })
+        })
+
+        // 记作 pro1
+        new Promise(function (resolve) {
+            console.log('6');
+            resolve();
+        }).then(function () {
+            console.log('7');
+            // set3
+            setTimeout(function () {
+                console.log('8');
+            });
+        })
+
+        // 记作 set2
+        setTimeout(function () {
+            console.log('9');
+            // 记作 pro3
+            new Promise(function (resolve) {
+                console.log('10');
+                resolve();
+            }).then(function () {
+                console.log('11');
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,20 +1,3 @@
-### question(result of below code)
-
-```html
-<div class="red blue">123</div>
-<div class="blue red">123</div>
-```
-
-```css
-.red {
-    color: red
-}
-
-.blue {
-    color: blue
-}
-```
-
 ### 单行文本水平&垂直居中
 ```css
 div {

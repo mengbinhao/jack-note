@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en, zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <!--base-->
+    <button id="id1" onclick="console.log(id)">passParams</button>
+
+    <!--advanced-->
+    <button id="id2" name="123" yue="jack" friend="feifei" onclick="console.log(this.getAttribute('yue'))">passParamsByFunc</button>
+
+    <!--dataset
+        存储的data—含有大写的单词,这里会统一转化为小写,比如：data-orderId = this.dataset.orderid
+    -->
+    <button id="1" data-name="jack" data-age="33" data-friend="feifei" onclick="console.log(this.dataset)">dataset</button>
+
+    <!--
+        拼接字符串 => `{xxxxxxxxxx}`
+        arguments
+    -->
+    <script type="text/javascript">
+        /*
+            1、localStorage 是持久存储，不主动删除 一直存在 sessionStorage 是临时存储,关闭浏览器数据就没了
+            2、localStorage 可以多窗口共享 sessionStorage 不能多窗口共享数据
+        */
+        window.localStorage.setItem("name", "cao feifei");
+
+        let getLS = () => {
+            return window.localStorage.getItem("name");
+        }
+        console.log(getLS());
+
+        //获取地址栏方法1
+        function parseParam(url) {
+            var paramArr = decodeURI(url).split("?")[1].split("&"),
+                obj = {};
+            for (var i = 0; i < paramArr.length; i++) {
+                var item = paramArr[i];
+                if (item.indexOf("=") != -1) {
+                    var tmp = item.split("=");
+                    obj[tmp[0]] = tmp[1];
+                } else {
+                    obj[item] = true;
+                }
+            }
+            return obj;
+
+        }
+
+        //获取地址栏方法2
+        function GetQueryString(url) {
+            var reg = new RegExp("(^|&)" + url + "=([^&]*)(&|$)");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        }
+
+        function f2(a) {
+            console.log(a);
+            var a;
+            console.log(a);
+            console.log(arguments[0])
+        }
+        f2(10)
+
+    </script>
+</body>
+
+</html>
