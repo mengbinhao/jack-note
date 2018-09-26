@@ -2,7 +2,6 @@
 - online translate        done
 - animatie-resume
 - zaolunizi
-- download vscode
 - u pan aaa copy to computer && check
 
 

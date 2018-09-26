@@ -85,6 +85,7 @@
 ### 数据可视化
 - [ECharts](https://ecomfe.github.io/echarts-doc/public/en/index.html)
 - [Chart.js](http://www.chartjs.org/)
+- [three.js](https://threejs.org/)
 
 
 ### 时间选择器
