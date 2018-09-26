@@ -36,7 +36,8 @@
 
 ### 函数库
 - [microjs](http://microjs.com/#)
-- 30-seconds-of-code
+- [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
+- [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
 - [lodash](https://lodash.com/docs/4.17.10)
 - [underscorejs](https://underscorejs.org/#toArray)
 - [lazy.js](https://github.com/dtao/lazy.js)

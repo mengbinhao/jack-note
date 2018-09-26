@@ -2,7 +2,6 @@
 - online translate        done
 - animatie-resume
 - zaolunizi
-- u pan aaa copy to computer && check
 
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
