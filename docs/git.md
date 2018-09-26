@@ -109,7 +109,9 @@ git reset HEAD .
 git reset HEAD -filename
 
 //remote
-git reset --hard HEAD
+git reset --hard HEAD~1
+git reset HEAD~1
+git reset --soft HEAD~1
 git checkout HEAD <file> ////撤销对file的修改
 git reset HEAD <file> //撤销对暂存区中test.txt的修改
 
