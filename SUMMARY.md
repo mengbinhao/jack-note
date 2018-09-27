@@ -21,6 +21,7 @@
       - [array](docs/frondend/js/array.md)
       - [浏览器加载](docs/frondend/js/浏览器加载.md)
     * [CSS]()
+      - [深入浅出](docs/frondend/css/深入浅出.md)
       - [BFC](docs/frondend/css/BFC.md)
       - [animation](docs/frondend/css/animation.md)
       - [grid](docs/frondend/css/grid.md)
@@ -54,6 +55,7 @@
     * [vs_code](docs/sheet/vs_code.md)
     * [markdown](docs/sheet/markdown.md)
     * [regex](docs/sheet/regex.md)
+    * [linux](docs/sheet/linux.md)
 * Linux
     * [linuxcommand](docs/Linux/linuxcommand.md)
     * [note](docs/Linux/note.md)
@@ -76,4 +78,3 @@
     * [read](docs/jenkens/read.md)
     * [buildJenkins](docs/jenkens/buildJenkins.md)
     * [useJenkins](docs/jenkens/useJenkins.md)
-
