@@ -1,6 +1,5 @@
 - todomvc                 done
 - online translate        done
-- private gitbook
 - zaolunizi
 
 

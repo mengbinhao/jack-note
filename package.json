@@ -4,10 +4,8 @@
   "description": "list my note",
   "main": "index.js",
   "scripts": {
-    "start": "gitbook serve ./ ./gh-pages",
-    "build": "gitbook build ./ ./gh-pages",
-    "deploy": "node ./deploy-gh-pages.js",
-    "publish": "npm run book && npm run deploy"
+    "start": "gitbook serve",
+    "build": "gitbook build"
   },
   "repository": {
     "type": "git",
