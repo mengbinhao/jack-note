@@ -103,9 +103,9 @@
       - **核心模块**：NodeJS标准API提供的模块（例如fs、http、net、vm等），可以直接通过require 直接获取，例如require(‘fs’)。核心模块拥有最高的加载优先级，即如果有模块与其命名冲突，NodeJS总会优先加载核心模块。
       - **文件模块**：存储为单独文件或文件夹的模块（*JavaScript代码、JSON、编译的C/C++代码*）。文件模块的加载方法复杂但是灵活，尤其是与npm结合使用时。在不显式指定文件模块扩展名时，NodeJS会试图按顺序加上`.js`、`.json`、`.node`扩展名。
    15. 文件模块加载方式
-      1. **按路径加载**：如果require参数以/开头，就以绝对路径方式查找，例如require(‘/hank/uinika’)将会按优先级依次尝试加载/hank/uinika.js、uinika.json、uinika.node。 如果以./或../开头，则以相对路径方式查找，例如require(‘./uinika’)用来加载相同文件夹下的uinika.js。 
-      2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录。 
-   16. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。 
+      1. **按路径加载**：如果require参数以/开头，就以绝对路径方式查找，例如require(‘/hank/uinika’)将会按优先级依次尝试加载/hank/uinika.js、uinika.json、uinika.node。 如果以./或../开头，则以相对路径方式查找，例如require(‘./uinika’)用来加载相同文件夹下的uinika.js。
+      2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录。
+   16. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。
 
 ### 10. 循环中回调函数的陷阱
 

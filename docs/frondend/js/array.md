@@ -12,7 +12,7 @@
 
 ### 数组创建
 
-```javascript 
+```javascript
 const arr1 = []
 ```
 
