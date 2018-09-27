@@ -1,5 +1,7 @@
 - todomvc                 done
 - online translate        done
+- dev branch for add draft note,  master shoudl sync to gitbook
+- js-tool-library is js my js code liberary
 - zaolunizi
 
 
