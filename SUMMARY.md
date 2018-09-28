@@ -51,6 +51,7 @@
 * [google](docs/google.md)
 * [网站开发流程](docs/网站开发流程.md)
 * [sheet]()
+    * [git](docs/sheet/git.md)
     * [chrome](docs/sheet/chrome.md)
     * [vs_code](docs/sheet/vs_code.md)
     * [markdown](docs/sheet/markdown.md)
