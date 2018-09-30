@@ -2,6 +2,7 @@
 - online translate        done
 - dev branch for add draft note,  master shoudl sync to gitbook
 - js-tool-library is js my js code liberary
+- jack-note mater/dev  need sync
 - zaolunizi
 
 
