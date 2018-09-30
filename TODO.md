@@ -1,8 +1,8 @@
 - todomvc                 done
 - online translate        done
-- dev branch for add draft note,  master shoudl sync to gitbook
 - js-tool-library is js my js code liberary
-- jack-note mater/dev  need sync
+- jack-note dev branch for add draft note,  master sync to gitbook, mater/dev  need sync
+- 极客时间 算法
 - zaolunizi
 
 

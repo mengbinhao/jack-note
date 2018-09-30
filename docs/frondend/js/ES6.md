@@ -13,7 +13,7 @@
                 const add = (a = required(), b = required()) => a + b;
 
                 //add(1)
-    2. 剩余参数必须放到最后
+    2. 剩余参数
     3. 箭头函数
         > 没有this,函数体里面的this是箭头函数定义时所在对象,不是运行时(this看上一级，若是箭头函数继续上找，作用域是栈内存不是堆内存)
         >
@@ -32,11 +32,42 @@
     4. 不对称解构
     5. 数值交换  let [p1, p2] = [p2, p1]
 4. 对象增强
-    1. class constroctor extends super static
+    1. class new constructor extends super get set static
+    ```javascript
+        class Animal {
+            constructor() {
+                this.species = '动物'
+            }
+            move() {
+                console.log('move')
+            }
+        }
+
+        class Person extends Animal{
+            constructor(name, age){
+                super()
+                this.name = name
+                this.age = age
+                this._private = 'private'
+            }
+            walk() {
+                console.log('I can walk')
+            }
+            get private() {
+                return this._private
+            }
+            set private(val) {
+                this._private = val
+            }
+            static staticMethod() {
+                return 'static'
+            }
+        }
+    ```
     2. 不要用箭头
     3. 函数、属性简写
     4. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-5. let/const
+5. let & const
     1. 作用域为{}
     2. TDZ
     3. 重复let a 则error
@@ -47,14 +78,43 @@
         >var 的「创建」和「初始化」都被提升了。
         >
         >function 的「创建」「初始化」和「赋值」都被提升了。
-6.  String(includes startWith endWith repeat)
-    Number(isNaN parseInt parseFloat isInteger isFinite)
-    Array(Array.from(x) Array.of(x) fill includes copyWithin find(fn) findIndex(fn) arr.keys() arr.entries())
-    Object(Object.is() Object.assign()(shadow copy) keys(自身可枚举) entries  values Object.getOwnPropertyNames()自身可枚举不可枚举属性)
+6.  new API
+    - String
+        - includes
+        - repeat
+        - startWith
+        - endWith
+    - Number
+        - Number.isNaN
+        - Number.parseInt
+        - Number.parseFloat
+        - Number.isInteger
+        - Number.isSafeInteger
+        - Number.isFinite
+        - Number.EPSILON
+    - Array
+        - Array.from
+        - Array.of
+        - fill
+        - includes
+        - copyWithin
+        - find(fn) findIndex(fn)
+        - keys values entries
+    - Object
+        - Object.is
+        - Object.assign   //shadow copy
+        - keys(自身可枚举) entries  values
+        - Object.getOwnPropertyNames //自身可枚举不可枚举属性
+    - Math
+        - Math.trunc  //parseInt
+        - Math.sign
+        - Math.acosh
+        - Math.hypot
+        - Math.imul
 7.  await 多个 async 函数
         await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])
-8.  Symbol
-9.  Set WeakSet Map WeakMap
+8.  Symbol `可创建对象私有属性`
+9.  Set`唯一包括原始值和引用值` WeakSet Map`任何值可以作为key` WeakMap
 10. Iterator
     ```javascript
         let makeIterator = (array) => {
@@ -65,7 +125,6 @@
                 }
             }
         }
-
         let it = makeIterator([1,2,3]);
     ```
 11. generator
@@ -78,8 +137,9 @@
     }
     ```
 12. Promise
-13. Proxy
-14. module(服务器环境)
+13. Reflect
+14. Proxy
+15. module(服务器环境)
     1. export
             ```javascript
             var num2 = 2; export {num2}
@@ -119,12 +179,13 @@
         3. 当用 export name 时，就用 import { name }导入（记得带上大括号）
         4. 当一个文件里，既有一个 export default people, 又有多个 export name 或者 export age 时，导入就用 import people, { name, age }
         5. 当一个文件里出现 n 多个 export 导出很多模块，导入时除了一个一个导入，也可以用 import * as example
-
 ### ES7
     asyn函数
         await 多个 async 函数
             await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])
     Decorator修饰器
+
+
 
 ```javascript
 //对象解构
@@ -157,6 +218,3 @@ let [x1,,,y1] = arr;
 let [x2,y2,[z2]] = [1,2,[3]];
 let [,x3,,...y3] = [1,2,3,4,5,6];
 ```
-
-
-0dced1f2fe2159872660cf9fb6ed049fadeb3dedbef1e1c63c973ce4b460148f
