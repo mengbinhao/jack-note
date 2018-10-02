@@ -5,6 +5,7 @@
 - 极客时间 算法
 - zaolunizi
 
+https://segmentfault.com/a/1190000014705819
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
@@ -16,8 +17,8 @@ https://juejin.im/post/5ba0a27b5188255c6a043058   Vue+Koa+Mongodb 小练习
 https://segmentfault.com/a/1190000016101940       全栈实践
 https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 
-
-
+https://juejin.im/entry/5baef5cef265da0ad13b8c01                       frond cache
+https://juejin.im/post/5badebedf265da0af609bdad                        CommonJS vs es6 import
 https://juejin.im/post/5b02bde8f265da0ba7700d54                        节流防抖
 https://juejin.im/post/5b0c3b53f265da09253cbed0                        懒加载预加载
 https://juejin.im/post/5af931a8f265da0b8d420b64  	                   前端安全
@@ -26,7 +27,7 @@ https://juejin.im/post/5b04dd816fb9a07aae158903                        前端优
 http://www.cnblogs.com/jadeboy/p/9075003.html                          单页应用
 https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
-
+https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
 http://web.jobbole.com/85136/   js常用设计模式
 http://web.jobbole.com/29454/   设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
