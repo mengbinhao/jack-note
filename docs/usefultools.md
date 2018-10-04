@@ -1,4 +1,4 @@
-### tldr
+### 1.tldr
 ```
   tldr --update
   tldr --clear-cache
@@ -6,7 +6,7 @@
   tldr xxx
 ```
 
-### cnmp
+### 2.cnmp
 
    ```
    npm i -g cnpm --registry=https://registry.npm.taobao.org
@@ -18,13 +18,13 @@
    npm i xxxx [-D | =S] --registry=https://registry.npm.taobao.org
    ```
 
-### nrm
+### 3.nrm
   ```
   npm install -g nrm
   nrm ls
   nrm use xxx
   ```
-### http-server
+### 4.http-server
 
    ```
    npm i http-server -g
@@ -32,7 +32,7 @@
    hs -o -p 9999
    ```
 
-### json-server
+### 5.json-server
 
    ```
    npm i -g json-server
@@ -51,7 +51,7 @@
    json-server --watch db.json
    ```
 
-### nodemon
+### 6.nodemon
 
    ```
    npm i -g nodemon
@@ -59,7 +59,7 @@
    see more detail on npm
    ```
 
-### 5.gitbook
+### 7.gitbook
 
-### 6.marked (markdown -> html)
+### 8.marked (markdown -> html)
 
