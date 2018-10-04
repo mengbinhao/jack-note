@@ -40,14 +40,14 @@
     - CSS-Tricks
     - animate.css
 
-### 高度宽度
+### 高度与宽度
 
 #### 文档流
 1. 内联元素宽高
     - padding和marging、border会影响宽度,但不会影响高度
 2. 块级元素宽高(**由内部文档流中元素的高度总和决定的**)
     - 只有内联元素
-        1. 一行内容则由行高决定
+        1. 一行内容(内联元素)则由行高决定
         2. 多行每行行高加起来
         3. word-break针对单词不换行
         4. **中文对齐**
@@ -94,9 +94,24 @@
     -webkit-box-orient: vertical;
     overflow: hidden
     ```
-6. 1比1DIV
+#### 盒模型
+1. 1比1 DIV
+
     ```css
     padding-top: 100%;
     ```
-#### 盒模型
-1.xxxx
+
+2. outline
+3. **border 调试大法**
+
+### 堆叠上下文
+#### 堆叠顺序
+#### 堆叠上下文
+
+### icon 全解
+- img 法
+- background 法
+- background 合一法
+- font 法
+- SVG 法
+- 新手慎用：「CSS 就是干」法
