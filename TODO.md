@@ -4,6 +4,7 @@
 - jack-note dev branch for add draft note,  master sync to gitbook, mater/dev  need sync
 - 极客时间 算法
 - zaolunizi
+- sync to master  (深入浅出css 深入浅出js  es6  vue-生命周期)
 
 https://segmentfault.com/a/1190000014705819
 
@@ -33,6 +34,8 @@ http://web.jobbole.com/29454/   设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
 
 
+
+https://segmentfault.com/a/1190000016570003                    display:none与visibility:hidden
 https://segmentfault.com/a/1190000016420985                    杂
 http://0313.name/archives/485#16                               杂
 http://blog.poetries.top/archives/   vue blog
@@ -82,6 +85,7 @@ https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建
 https://segmentfault.com/a/1190000016281174                     掌握react，这一篇就够了
 https://segmentfault.com/a/1190000015894607                     React 开发你一定要知道
 https://uinika.github.io/web/broswer/angular.html               angular best practise
+https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初级到高级路线图
 
 
 
@@ -118,6 +122,8 @@ https://juejin.im/post/5af8f00c51882567105fda7b       js
 https://segmentfault.com/a/1190000015882087           html & css
 https://juejin.im/post/5af8e6aef265da0b9265b04c       css
 https://segmentfault.com/a/1190000015960009           interview html & css
+
+
 
 
 ***
