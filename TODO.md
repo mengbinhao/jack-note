@@ -4,7 +4,7 @@
 - jack-note dev branch for add draft note,  master sync to gitbook, mater/dev  need sync
 - 极客时间 算法
 - zaolunizi
-- sync to master  (深入浅出css 深入浅出js  es6  vue-生命周期)
+- sync to master  (深入浅出css 深入浅出js  es6  vue-生命周期 前端概念)
 
 https://segmentfault.com/a/1190000014705819
 
