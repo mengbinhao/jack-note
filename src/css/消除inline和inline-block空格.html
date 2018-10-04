@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+    span {
+      border: 1px solid red;
+      display: inline-block;
+      line-height: 20px;
+      height: 20px;
+    }
+
+    ul {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      border: 1px solid red;
+    }
+
+    ul > li {
+      border: 1px solid blue;
+      float: left /* float消除空格，但要clear*/
+    }
+
+    .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <span>1</span>
+    <span>2</span>
+  </div>
+  <ul class="clearfix">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+</body>
+</html>
