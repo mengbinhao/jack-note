@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mobile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parent {
+            background: #e2e9d1;
+            display: flex;
+        }
+
+        .child:nth-child(1) {
+            width: 20%;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            background: #333;
+        }
+
+        .child:nth-child(2) {}
+
+        .nav {
+            line-height: 24px;
+            display: flex;
+        }
+
+        .navItem {
+            margin-left: 20px;
+            padding: 6px 0;
+        }
+
+        .nav2 {
+            display: none;
+        }
+
+        @media (max-width: 414px) {
+            .nav2 {
+                display: block;
+            }
+
+            .nav {
+                display: none;
+            }
+        }
+
+        /**
+            1 不要用img标签 图片不会变形
+            2 google固定比例显示div
+        */
+        .banner {
+            width: 800px;
+            height: 300px;
+            margin: 0 auto;
+            background: transparent url(https://www.fotor.com/images2/features/one-tap-enhance/one_3.jpg) no-repeat center;
+            background-size: cover;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 414px) {
+            .banner {
+                width: auto;
+            }
+        }
+
+        .pictures {
+            width: 800px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 414px) {
+            .pictures {
+                width: auto;
+                overflow: hidden;
+            }
+        }
+
+        .xxx {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -4px;
+        }
+
+        .picture {
+            width: calc(25% - 8px);
+            height: 194px;
+            background: #ddd;
+            margin: 4px;
+        }
+
+        @media (max-width: 414px) {
+            .picture {
+                width: calc(50% - 8px);
+            }
+        }
+
+        .art {
+            width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media (max-width: 414px) {
+            .art {
+                width: auto;
+                flex-direction: column;
+            }
+        }
+
+        .side {
+            height: 300px;
+            border: 1px solid red;
+            /*  让广告1和广告2产生间隙 */
+            width: calc(33.33333% - 20px);
+        }
+
+        @media (max-width: 414px) {
+            .side {
+                width: auto;
+                height: auto;
+            }
+        }
+
+        .main {
+            height: 300px;
+            width: 66.66666%;
+            border: 1px solid red;
+        }
+
+        @media (max-width: 414px) {
+            .main {
+                width: auto;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child">LOGO</div>
+        <div class="child">
+            <div class="nav">
+                <div class="navItem">导航1</div>
+                <div class="navItem">导航2</div>
+                <div class="navItem">导航3</div>
+                <div class="navItem">导航4</div>
+                <div class="navItem">导航5</div>
+            </div>
+        </div>
+        <div class="nav2">三</div>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="pictures">
+        <div class="xxx">
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+            <div class="picture"></div>
+        </div>
+    </div>
+
+    <div class="art">
+        <div class="side">广告1</div>
+        <div class="main">广告2</div>
+    </div>
+</body>
+
+</html>

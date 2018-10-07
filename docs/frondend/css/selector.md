@@ -8,7 +8,7 @@
 7. div > span 直接子元素
 8. div.demo  并列选择器，必须没空格
 9. .demo1, .demo2  分组选择权
-10. a:hover  伪类选择器 
+10. a:hover  伪类选择器
 
 
 ### css3

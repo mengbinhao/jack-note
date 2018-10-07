@@ -29,6 +29,7 @@ http://www.cnblogs.com/jadeboy/p/9075003.html                          单页应
 https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
+https://segmentfault.com/a/1190000016590427                            跨域
 http://web.jobbole.com/85136/   js常用设计模式
 http://web.jobbole.com/29454/   设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
@@ -122,6 +123,7 @@ https://juejin.im/post/5af8f00c51882567105fda7b       js
 https://segmentfault.com/a/1190000015882087           html & css
 https://juejin.im/post/5af8e6aef265da0b9265b04c       css
 https://segmentfault.com/a/1190000015960009           interview html & css
+https://segmentfault.com/a/1190000016582854#articleHeader9   大厂面经
 
 
 
