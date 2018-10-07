@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pc layout</title>
+    <style>
+        header {
+            height: 50px;
+            background: #ddd;
+        }
+        footer {
+            height: 50px;
+            background: #ddd;
+        }
+        .content {
+            display: flex;
+            height: 500px;
+        }
+        aside {
+            width: 100px;
+            background: blue;
+            order: -1;
+        }
+        nav {
+            width: 100px;
+            background: green;
+        }
+        main {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <div class="content">
+        <main>main</main>
+        <aside></aside>
+        <nav></nav>
+    </div>
+    <footer></footer>
+</body>
+</html>

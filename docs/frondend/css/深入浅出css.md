@@ -106,12 +106,228 @@
 
 ### 堆叠上下文
 #### 堆叠顺序
-#### 堆叠上下文
+![](../images/css-5.png)
 
+1. background
+2. border
+3. 块级
+4. 浮动
+5. 内联
+6. z-index: 0
+7. z-index: +
+如果是兄弟元素重叠，那么后面的盖在前面的身上。
+#### 堆叠上下文
+- 根元素 (HTML),
+- z-index 值不为 "auto"的 绝对/相对定位，
+- 一个 z-index 值不为 "auto"的 flex 项目 (flex item)，即：父元素 display: flex|inline-flex，
+- opacity 属性值小于 1 的元素（参考 the specification for opacity），
+- transform 属性值不为 "none"的元素，
+- mix-blend-mode 属性值不为 "normal"的元素，
+- filter值不为“none”的元素，
+- perspective值不为“none”的元素，
+- isolation 属性被设置为 "isolate"的元素，
+- position: fixed
+- 在 will-change 中指定了任意 CSS 属性，即便你没有直接指定这些属性的值（参考 这篇文章）
+- -webkit-overflow-scrolling 属性被设置 "touch"的元素
 ### icon 全解
-- img 法
-- background 法
-- background 合一法
-- font 法
-- SVG 法
-- 新手慎用：「CSS 就是干」法
+- img
+    - PS切图 (png的话google)
+    > 1. 打开psd
+    > 2. 右键选中图层
+    > 3. 右键复制图层
+    > 4. trim
+    > 5. 调整大小
+    > 6. export png
+- background `background: transparent url(xxx) no-repeat 0 0`
+- background 合一法  `CSS sprites generator`
+- font
+    1. iconfont生成字体url,`style="font-family: iconfont;"`
+    2. iconfont-html 生成css link class="xxx"
+    3. iconfont-css
+        ```css
+        .xxx::before {
+            content: '\e614'
+        }
+        ```
+        iconfont-html 生成css link class="xxx"
+- **SVG**
+    - 生成symbol link
+    - use svg
+- 新手慎用 [cssicon](https://cssicon.space/#/)
+
+
+### 移动端页面(响应式)
+#### media query(注意优先级)
+    ```css
+        @media (max-width: 320px) {
+            body {
+                background: red;
+            }
+        }
+        @media (min-width:321px) and (max-width: 375px) {
+            body {
+                background: orange;
+            }
+        }
+    ```
+    <link ref="stylesheet" href="style.css" media="(max-width:320px)">
+#### 要设计图(没图不做)
+- 实在要做也行，丑可别怪我
+#### 手机端要加一个 meta
+`<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">`
+#### 手机端的交互方式不一样
+- 没有 hover
+- 有 touch 事件
+- 没有 resize
+- 没有滚动条
+
+### Flex
+以前布局
+- normal flow
+- float + clear
+- position reletive + absolute
+- display inline-block
+- 负margin
+
+1. flex布局与方向无关
+2. 空间自动分配、自动对齐
+3. 适用于简单的线性布局，复杂有grid
+
+![](../images/css-6.png)
+
+![](../images/css-7.png)
+
+![](../images/css-8.png)
+
+### layout
+
+![](../images/css-9.png)
+
+#### 原则
+- 不到万不得已，不要写死 width 和 height
+- 尽量用高级语法，如 calc、flex
+- 如果是 IE，就全部写死
+
+#### 口诀
+
+1. float
+    - 儿子全加 float
+    - 老子加 .clearfix
+2. flex
+    - 老子加 display: flex
+    - 老子加 justify-content: space-between;
+
+如果宽度不够，可以用 margin: 0 -4px;
+
+```css
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom: 1;
+}
+```
+
+### BFC
+一个块格式化上下文（block formatting context） 是Web页面的可视化CSS渲染出的一部分。它是块级盒布局出现的区域，也是浮动层元素进行交互的区域。
+
+一个块格式化上下文由以下之一创建：
+
+-根元素或其它包含它的元素
+-浮动元素 (元素的 float 不是 none)
+-绝对定位元素 (元素具有 position 为 absolute 或 fixed)
+-内联块 (元素具有 display: inline-block)
+-表格单元格 (元素具有 display: table-cell，HTML表格单元格默认属性)
+-表格标题 (元素具有 display: table-caption, HTML表格标题默认属性)
+-具有overflow 且值不是 visible 的块元素，
+-**display: flow-root**
+-column-span: all 应当总是会创建一个新的格式化上下文，即便具有 column-span: all 的元素并不被包裹在一个多列容器中。
+一个块格式化上下文包括创建它的元素内部所有内容，除了被包含于创建新的块级格式化上下文的后代元素内的元素。
+
+块格式化上下文对于定位 (参见 float) 与清除浮动 (参见 clear) 很重要。定位和清除浮动的样式规则只适用于处于同一块格式化上下文内的元素。浮动不会影响其它块格式化上下文中元素的布局，并且清除浮动只能清除同一块格式化上下文中在它前面的元素的浮动。
+
+example:
+1. 爸爸管儿子
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+<div class="baba">
+  <div class="erzi">
+  </div>
+</div>
+</body>
+</html>
+```
+
+```css
+.baba{
+  border: 10px solid red;
+  min-height: 10px;
+  display: flow-root; /*触发BFC*/
+}
+.erzi{
+  background: green;
+  float:left;
+  width: 300px;
+  height: 100px;
+}
+```
+2. 兄弟之间划清界限
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+</head>
+<body>
+  <div class="gege">gege</div>
+  <div class="didi">1234</div>
+</body>
+</html>
+```
+```css
+.gege{
+  width: 100px;
+  min-height: 600px;
+  border: 3px solid red;
+  float: left;
+  margin-right: 20px;
+}
+
+.didi{
+  min-height: 600px;
+  border: 5px solid green;
+  display: flow-root;
+}
+```
+
+### REM (手机专用)
+1. px em rem vh vw
+> 浏览器默认font-size: 16px
+> chrome可以设置font-size默认最小值12px
+2. rem vs em
+3. 手机端方案的特点
+    - 所有手机显示的界面都是一样的，只是大小不同
+    - rem == html font-size == viewport width
+
+4. 使用 JS 动态调整 REM
+```javascript
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+ <script>
+     var pageWidth = window.innerWidth
+     document.write('<style>html{font-size:'+pageWidth+'px;}</style>')
+ </script>
+```
+
+5. REM 可以与其他单位同时存在(当数值太小的时候直接px,比如border)
+6. 在 SCSS 里使用 PX2REM
+
