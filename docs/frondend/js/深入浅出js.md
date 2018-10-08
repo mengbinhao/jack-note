@@ -24,6 +24,7 @@
 10. constructor
     - 首字母大写
     - 返回对象的函数
+    - 如果构造函数没有参数可以省略括号
     > 1 this = {};
     >
     > 2 this.__proto__ = constructor.prototype
@@ -31,3 +32,10 @@
     > 3 constructor.call(this,xxx,yyy);
     >
     > 4 return the object or an object returned by return statement
+
+11. 异步
+12. prototype
+13. this(隐式 / 显示 / call/apply/bind / new)
+> this是参数 运行时才知道是什么
+
+14. new
