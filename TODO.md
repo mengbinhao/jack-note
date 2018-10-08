@@ -3,8 +3,6 @@
 - js-tool-library is js my js code liberary
 - 极客时间 算法
 - zaolunizi
-- sync to master  (深入浅出css 深入浅出js  es6  vue-生命周期 前端概念)
-
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
