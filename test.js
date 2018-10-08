@@ -1,21 +1,42 @@
-var global1 = 1
-function fn1(param1) {
-    var local1 = 'local1'
-    var local2 = 'local2'
-    function fn2(param2) {
-        console.log(param2);
-        var local2 = 'inner local2'
-        console.log(local1);
-        console.log(local2);
-    }
+/**
+ * promise 基本框架
+ */
+function Promise(excutor) {
 
-    function fn3() {
-        var local2 = 'fn3 local2'
-        fn2(local2)
-    }
+    let self = this;
+    this.value = undefined;
+    this.resson = undefined;
+    this.status = 'pending';
+    this.onResolvedCallbacks = [];
+    this.onRejectedCallbacks = [];
 
-    fn2(2)
-    fn3(3)
+    function resolve(value) {
+        self.status = 'resolved';
+        self.value = value;
+        self.onResolvedCallbacks.forEach(fn => fn(value));
+    };
+
+    function reject(reason) {
+        self.status = 'rejeced';
+        self.reason = reason;
+        self.onRejectedCallbacks.forEach(fn => fn(reason));
+    };
+
+    excutor(resolve, reject);
 }
 
-fn1(1)
+//add callback to onResolvedCallbacks / onRejectedCallbacks
+Promise.prototype.then = function (onFillfilled, onRejected) {
+    this.onResolvedCallbacks.push(onFillfilled);
+    this.onRejectedCallbacks.push(onRejected);
+}
+
+var promise = new Promise(function(x,y){
+    setTimeout(()=>{
+        x(101)
+    }, 3000)
+})
+promise.then((z)=>{
+    console.log(z)  // 101
+})
+

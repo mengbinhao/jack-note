@@ -5,12 +5,6 @@
 - zaolunizi
 - sync to master  (深入浅出css 深入浅出js  es6  vue-生命周期 前端概念)
 
-https://xiedaimala.com/tasks/3f940746-35cb-4f0b-93e2-ff20c240a68b/video_tutorials/95030523-f256-462f-ba51-579594ba1354
-
-https://xiedaimala.com/tasks/e9bfdf7e-cf9a-495e-95d1-e73f9839a541/text_tutorials/87a8264d-f702-4215-b07a-0abe23852172
-
-https://xiedaimala.com/tasks/28ad226f-ea58-41a2-8b3c-f6124863dce6/text_tutorials/9399be88-300c-4d94-9747-64f0e388f378
-
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程

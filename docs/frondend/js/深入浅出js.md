@@ -20,7 +20,7 @@
     > 2 输出一个函数     `fn.bind.call(fn, {}, 1,2,3)`
     >
     > 3 常常同时满足以上2个
-9. callback
+9.  callback
 10. constructor
     - 首字母大写
     - 返回对象的函数
