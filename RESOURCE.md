@@ -30,8 +30,8 @@
 ### UI component
 - buefy
 - mint-ui
-- bulma
-- element
+- bulma  纯CSS
+- element ui
 
 
 ### 函数库
@@ -59,6 +59,11 @@
 - [Sugar](https://github.com/andrewplummer/Sugar)
 - [polished](https://polished.js.org/)
     > A lightweight toolset for writing styles in JavaScript
+- [bluebird](https://github.com/petkaantonov/bluebird)
+- [async](https://github.com/caolan/async)
+- [es5-shim](https://github.com/es-shims/es5-shim)
+- [handlebars](https://github.com/wycats/handlebars.js)
+- fabric.js
 
 
 ### 前端存储
@@ -81,12 +86,16 @@
 - [Magic.css](https://github.com/miniMAC/magic)
 - [Waves](http://fian.my.id/Waves/)
 - [move.js](https://github.com/visionmedia/move.js)
+- velocity.js
+- particle.js  粒子效果
+- hammer.js    手势 
 
 
 ### 数据可视化
 - [ECharts](https://ecomfe.github.io/echarts-doc/public/en/index.html)
-- [Chart.js](http://www.chartjs.org/)
-- [three.js](https://threejs.org/)
+- Chart.js、three.js、Dygraphs.js、D3.js、InfoVis、Springy.js
+- vanilla-tilt.js 3D瓦片
+- parallax 视差效果
 
 
 ### 时间选择器
@@ -96,6 +105,9 @@
 ### 图片懒加载
 - [lozad](https://github.com/ApoorvSaxena/lozad.js)
 - [lazyload](https://github.com/verlok/lazyload)
+
+### 移动应用
+- [phonegap](https://phonegap.com/getstarted/)
 
 
 ### other
@@ -114,6 +126,8 @@
 ### 轮播图
 - [Swiper](http://idangero.us/swiper/)
 
+### 输入提示
+- [typeahead](https://twitter.github.io/typeahead.js/)
 
 ### 滚屏
 - [fullpage](https://alvarotrigo.com/fullPage/)
@@ -140,6 +154,7 @@
 
 ### 文件上传
 - [WebUploader](http://fex.baidu.com/webuploader/)
+- fine-uploader
 
 
 ### 复制粘贴插件
