@@ -13,14 +13,89 @@
             box-sizing: border-box;
         }
 
+        /* 不能直接使用fix main需要加margin*/
+        #top {
+            height: 60px;
+            background: green;
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        #top.sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+
+        }
+
+        .placeholder {
+            height: 60px;
+        }
+        main {
+            height: 1000px;
+            background: #dce1d9;
+        }
+
+        button.sticky {
+            position: fixed;
+            top: 60px;
+            left: 0;
+        }
     </style>
 </head>
 
 <body>
-    
+    <div class="placeholder">
+        <div id="top">
+            toptoptoptoptop
+        </div>
+    </div>
+
+    <main>
+        content<br>
+        content<br>
+        content<br>
+        content<br>
+        content<br>
+        content<br>
+        content<br>
+        <button>黏住的按钮</button>
+    </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-       
+        // let topOffset = $('#top').offset()
+        // let btnOffset = $('button').offset()
+        // $(window).on('scroll', function () {
+        //     let scrollY = window.scrollY;
+        //     if (scrollY + 0 > topOffset.top) {
+        //         $('#top').addClass('sticky')
+        //     } else {
+        //         $('#top').removeClass('sticky')
+        //     }
+
+        //     if (scrollY + 60 > btnOffset.top) {
+        //         $('button').addClass('sticky')
+        //     } else {
+        //         $('button').removeClass('sticky')
+        //     }
+
+        // })
+
+        class Sticky {
+            constructor(selector, n) {
+                this.element = $(selector)
+                this.offset = n
+                this.listenScroll()
+            }
+            listenScroll() {
+                $(window).on('scroll', function(){
+                    
+                })
+            }
+        }
+
+        new Sticky()
     </script>
 </body>
 
