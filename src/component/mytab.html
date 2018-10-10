@@ -23,21 +23,33 @@
 
         .tabs .tabs-bar {
             display: flex;
-            border-bottom: 1px solid red;
+            /* border-bottom: 1px solid red; */
+            background: black;
+            color: white;
         }
 
         .tabs .tabs-bar li {
             border: 1px solid transparent;
             border-bottom: 0;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
             padding: 5px 10px;
         }
 
         .tabs .tabs-bar li:hover {
-            border-color: blue;
+            /* border-color: blue; */
+            background: #c0c0c0;
         }
 
         .tabs .tabs-bar li.active {
-            border-color: red;
+            /* border-color: red; */
+            background: red;
+        }
+
+        .tabs .tabs-bar li.hover {
+            /* border-color: red; */
+            background: #c0c0c0;
+            /* z-index: 1; */
         }
 
         .tabs .tabs-content li {
@@ -118,19 +130,36 @@
                 })
             }
             bindEvents() {
-                this.element.on('click', '.tabs-bar > li', function (e) {
-                    let $li = $(e.currentTarget)
-                    $li.addClass('active').siblings().removeClass('active')
-                    let index = $li.index()
-                    //必须从里面往外找
-                    $li.closest('.tabs').find('.tabs-content > li').eq(index).addClass('active').siblings()
-                        .removeClass(
-                            'active')
+                // this.element.on('click', '.tabs-bar > li', function (e) {
+                //     let $li = $(e.currentTarget)
+                //     $li.addClass('active').siblings().removeClass('active')
+                //     let index = $li.index()
+                //     //必须从里面往外找
+                //     $li.closest('.tabs').find('.tabs-content > li').eq(index).addClass('active').siblings()
+                //         .removeClass(
+                //             'active')
+                // })
+                this.element.find('.tabs-bar > li').on({
+                    click: function (e) {
+                        let $li = $(e.currentTarget)
+                        $li.addClass('active').siblings().removeClass('active')
+                        let index = $li.index()
+                        //必须从里面往外找
+                        $li.closest('.tabs').find('.tabs-content > li').eq(index).addClass('active').siblings()
+                            .removeClass(
+                                'active')
+                    },
+                    mouseenter: function (e) {
+                        let $li = $(e.currentTarget)
+                        $li.addClass('hover')
+                    },
+                    mouseleave: function (e) {
+                        let $li = $(e.currentTarget)
+                        $li.removeClass('hover')
+                    }
                 })
             }
         }
-
-
         // 1 depend on jquery
         // 2 .tab for adding css
         // 3. html structure can not be modified .tabs-content > li

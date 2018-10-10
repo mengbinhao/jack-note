@@ -107,6 +107,7 @@ https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面�
 http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
+https://segmentfault.com/a/1190000016603212           vue interview
 https://zhuanlan.zhihu.com/p/35587283                 React
 http://0313.name/archives/502#JavaScript              interview
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview

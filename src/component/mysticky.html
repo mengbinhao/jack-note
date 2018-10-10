@@ -7,6 +7,13 @@
     <title>my simple sticky</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
     <style>
+        .sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        /* ---------------------------------- */
         * {
             margin: 0;
             padding: 0;
@@ -21,46 +28,32 @@
             opacity: 0.5;
         }
 
-        #top.sticky {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-
-        }
-
-        .placeholder {
-            height: 60px;
-        }
         main {
             height: 1000px;
             background: #dce1d9;
         }
 
-        button.sticky {
-            position: fixed;
-            top: 60px;
-            left: 0;
+        #top.sticky {
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
-    <div class="placeholder">
-        <div id="top">
-            toptoptoptoptop
-        </div>
+    <div id="top">
+        toptoptoptoptop
     </div>
 
     <main>
-        content<br>
-        content<br>
-        content<br>
-        content<br>
-        content<br>
-        content<br>
-        content<br>
-        <button>黏住的按钮</button>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <button id="btn">黏住的按钮</button>
+        <p>content</p>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
@@ -84,18 +77,46 @@
 
         class Sticky {
             constructor(selector, n) {
-                this.element = $(selector)
-                this.offset = n
+                this.elements = $(selector)
+                this.offset = n || 0
+                this.cacheOriginOffset()
+                this.addPlaceHolder()
                 this.listenScroll()
             }
+            cacheOriginOffset() {
+                this.cacheOffset = []
+                this.elements.each((index, ele) => {
+                    this.cacheOffset[index] = $(ele).offset()
+                })
+            }
+            addPlaceHolder() {
+                this.elements.each(function (index, ele) {
+                    let $ele = $(ele)
+                    $ele.wrap('<div class="placeholder"></div>')
+                    $ele.parent().height($ele.height())
+                })
+            }
             listenScroll() {
-                $(window).on('scroll', function(){
-                    
+                $(window).on('scroll', () => {
+                    let scrollY = window.scrollY;
+                    this.elements.each((index, ele) => {
+                        let $ele = $(ele)
+                        if (scrollY + this.offset > this.cacheOffset[index].top) {
+                            $ele.addClass('sticky').css('top', this.offset)
+                        } else {
+                            $ele.removeClass('sticky')
+                        }
+                    })
                 })
             }
         }
 
-        new Sticky()
+        // 1 depend on jquery
+        // 2 $ele.wrap('<div class="placeholder"></div>')
+        // 3 $ele.addClass('sticky').css('top', this.offset)
+        // 4 最好一行黏一个
+        new Sticky('#top')
+        new Sticky('button', 60)
     </script>
 </body>
 

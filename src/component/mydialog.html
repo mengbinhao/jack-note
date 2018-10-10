@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>my simpel dialog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .wrapper-middle {
+            background: white;
+            padding: 10px;
+            min-width: 200px;
+        }
+
+        .jack-title {
+            border-bottom: 1px solid;
+        }
+
+        .jack-content {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .jack-footer {
+            text-align: right;
+        }
+
+        .jack-footer button {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn">click me</button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        class Dialog {
+            constructor(options) {
+                this.options = Object.assign({}, this.defaultOption, options)
+                this.init()
+            }
+            get defaultOption() {
+                return {
+                    title: 'default title',
+                    content: 'default content',
+                    buttons: [{
+                            text: 'confirm',
+                            action: function () {
+                                setTimeout(() => {
+                                    this.close();
+                                }, 2000);
+                            }
+                        },
+                        {
+                            text: 'cancel',
+                            action: function () {
+                                this.close()
+                            }
+                        }
+                    ]
+                }
+            }
+            get templeate() {
+                let {
+                    title,
+                    content
+                } = this.options
+                return `
+                    <div class="wrapper">
+                        <div class="wrapper-middle">
+                            <header class="jack-title">${title}</header>
+                            <main class="jack-content">${content}</main>
+                            <footer class="jack-footer"></footer>
+                        </div>
+                    </div>
+                    `
+            }
+            generatorButtons() {
+                return this.options.buttons.map((buttonOption) => {
+                    let $b = $('<button></button>')
+                    $b.text(buttonOption.text)
+                    $b.on('click', buttonOption.action)
+                    return $b
+                })
+            }
+            init() {
+                let $dialog = $(this.templeate)
+                $dialog.find('footer').append(this.generatorButtons())
+                this.$dialog = $dialog
+            }
+            open() {
+                if ($('.wrapper').length < 1) {
+                    this.$dialog.appendTo($('body'))
+                }
+            }
+            close() {
+                this.$dialog.detach()
+            }
+        }
+
+        btn.onclick = function () {
+            let d = new Dialog({
+                title: '标题',
+                content: '欢迎',
+                buttons: [{
+                        text: '确定',
+                        action: function () {
+                            setTimeout(() => {
+                                d.close();
+                            }, 2000);
+                        }
+                    },
+                    {
+                        text: '取消',
+                        action: function () {
+                            d.close()
+                        }
+                    }
+                ]
+            })
+
+            //如何处理默认情况的点击事件
+            //Uncaught TypeError: this.close is not a function
+            //let d = new Dialog()
+            d.open()
+        }
+    </script>
+</body>
+
+</html>
