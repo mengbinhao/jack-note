@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>my simple sticky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <style>
+        .sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        /* ---------------------------------- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 不能直接使用fix main需要加margin*/
+        #top {
+            height: 60px;
+            background: green;
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        main {
+            height: 1000px;
+            background: #dce1d9;
+        }
+
+        #top.sticky {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        toptoptoptoptop
+    </div>
+
+    <main>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <p>content</p>
+        <button id="btn">黏住的按钮</button>
+        <p>content</p>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        // let topOffset = $('#top').offset()
+        // let btnOffset = $('button').offset()
+        // $(window).on('scroll', function () {
+        //     let scrollY = window.scrollY;
+        //     if (scrollY + 0 > topOffset.top) {
+        //         $('#top').addClass('sticky')
+        //     } else {
+        //         $('#top').removeClass('sticky')
+        //     }
+
+        //     if (scrollY + 60 > btnOffset.top) {
+        //         $('button').addClass('sticky')
+        //     } else {
+        //         $('button').removeClass('sticky')
+        //     }
+
+        // })
+
+        class Sticky {
+            constructor(selector, n) {
+                this.elements = $(selector)
+                this.offset = n || 0
+                this.cacheOriginOffset()
+                this.addPlaceHolder()
+                this.listenScroll()
+            }
+            cacheOriginOffset() {
+                this.cacheOffset = []
+                this.elements.each((index, ele) => {
+                    this.cacheOffset[index] = $(ele).offset()
+                })
+            }
+            addPlaceHolder() {
+                this.elements.each(function (index, ele) {
+                    let $ele = $(ele)
+                    $ele.wrap('<div class="placeholder"></div>')
+                    $ele.parent().height($ele.height())
+                })
+            }
+            listenScroll() {
+                $(window).on('scroll', () => {
+                    let scrollY = window.scrollY;
+                    this.elements.each((index, ele) => {
+                        let $ele = $(ele)
+                        if (scrollY + this.offset > this.cacheOffset[index].top) {
+                            $ele.addClass('sticky').css('top', this.offset)
+                        } else {
+                            $ele.removeClass('sticky')
+                        }
+                    })
+                })
+            }
+        }
+
+        // 1 depend on jquery
+        // 2 $ele.wrap('<div class="placeholder"></div>')
+        // 3 $ele.addClass('sticky').css('top', this.offset)
+        // 4 最好一行黏一个
+        new Sticky('#top')
+        new Sticky('button', 60)
+    </script>
+</body>
+
+</html>

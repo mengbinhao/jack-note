@@ -20,10 +20,11 @@
     > 2 输出一个函数     `fn.bind.call(fn, {}, 1,2,3)`
     >
     > 3 常常同时满足以上2个
-9. callback
+9.  callback
 10. constructor
     - 首字母大写
     - 返回对象的函数
+    - 如果构造函数没有参数可以省略括号
     > 1 this = {};
     >
     > 2 this.__proto__ = constructor.prototype
@@ -31,3 +32,62 @@
     > 3 constructor.call(this,xxx,yyy);
     >
     > 4 return the object or an object returned by return statement
+
+11. 异步
+12. prototype
+13. this(隐式 / 显示 / call/apply/bind / new)
+> this是参数 运行时才知道是什么
+14. new
+```javascript
+    function Person() {
+        this = {}
+        this.__proto__ == Person.prototype
+        Person.call(this)
+        return this;
+    }
+```
+15. inherit
+
+```javascript
+    function Person(xxx, yyy){
+        this.name = xxx
+        this.age = yyy
+    }
+
+    function soilder() {
+        this.type = '特种兵'
+    }
+
+    /*
+        this.__proto__ == Person.prototype
+    */
+    soilder.prototype = new Person()
+
+    function FakePerson() {}
+    FakePerson.prototype = Person.prototype
+    soilder.prototype = new FakePerson()  //understand!!!!!!!
+    soilder.prototype.__proto__ === FakePerson.prototype === Person.prototype
+    //ES6
+    soilder.prototype = Object.create(Person.prototype)
+```
+
+```javascript
+    let inherit = (function() {
+        let F = function(){}
+        return function(Target, Origin) {
+            F.prototype = Origin.prototype
+            Target.prtotype = new F()
+            Target.prototype.constructor = Target
+            Target.uber = Origin.prototype
+        }
+    })()
+```
+
+### 封装组件
+- (内部)分层原则：正交原则
+- (对外)封装原则：面向接口编程
+- tab
+- sticky
+- dialog
+- suggestion
+- swipe
