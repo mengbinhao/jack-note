@@ -3,6 +3,7 @@
 - js-tool-library is js my js code liberary
 - 极客时间 算法
 - zaolunizi
+- slide 无缝第一张如何取消动画   dialog默认对象的事件处理
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
