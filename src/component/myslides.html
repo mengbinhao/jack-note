@@ -17,7 +17,7 @@
         ol {
             list-style: none;
             display: flex;
-            transition: transform 0.5s;
+            /* transition: transform 0.5s; */
             /* 如何让第一个定位不走动画！！
                现在是通过直接css定位到真正的第一张
             */
@@ -102,9 +102,18 @@
                 this.autoPlay = this.$options.autoPlay
                 this.bindEvents()
                 this.timer
+                this.addAnimation()
                 if (this.autoPlay) {
                     this.play()
                 }
+            }
+
+            addAnimation() {
+                setTimeout(() => {
+                    this.$element.find('ol').css({
+                    transition: 'transform 0.5s'
+                    })
+                })
             }
 
             getWidth() {
@@ -127,9 +136,6 @@
 
             makeHtml() {
                 this.$element.addClass('jackSlides')
-                // this.$element.find('ol').css({
-                //     transition: 'transform 0.5s'
-                // })
                 this.$prev = $(`<svg class="icon prev">
                                     <use xlink:href="#icon-prev"></use>
                                 </svg>`)
