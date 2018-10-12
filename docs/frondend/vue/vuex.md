@@ -1,4 +1,4 @@
-Vuex  (state  getter  mutation action module)
+Vuex  (state、getter、mutation、action、module)
 
 >1 引入Vuex
 >

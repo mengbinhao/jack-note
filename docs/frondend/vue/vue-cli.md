@@ -55,8 +55,6 @@
     }
     ```
 
-    
-
 - Configure launch.json File
 
   ```

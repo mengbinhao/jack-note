@@ -1,4 +1,4 @@
-==Note: add one space or enter behind keyword if it does not work==
+**Note: add one space or enter behind keyword if it does not work**
 
 1. \#  --  \######
 
@@ -36,7 +36,7 @@
     >
     >()括弧
     >
-    >#井字号
+    >\#字号
     >
     >\+加号
     >

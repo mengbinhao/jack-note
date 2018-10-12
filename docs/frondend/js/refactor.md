@@ -7,8 +7,11 @@
 ### 命名
 
 > 程序员三大难题
+>
 > 1. 变量命名
+>
 > 2. 缓存失效
+>
 > 3. 循环边界
 
 1. 注意词性
@@ -153,17 +156,131 @@
 >
 > 6 这个函数里的代码如果超过 5 行，则依然有优化的空间，请回到第 1 步
 
-2. 使用对象来改代码
+```javascript
+    ele1.onclick = () => {}
+    ele2.onmouseenter = () => {}
+    ele3.onmouseleave = () => {}
 
-如果使用了函数改造法改造后，发现有太多的小函数，则可以使用对象讲这个函数串起来
+    //change to
+    function bindEvents() {
+        let events = [
+            {el: xx, event: yy, fn:zz}
+            {el: xx, event: yy, fn:zz}
+            {el: xx, event: yy, fn:zz}
+        ]
+        events.forEach((eventObject) => {
+            $(eventObject).on(eventObject.event, eventObject.fn)
+        })
+    }
+```
 
-记得我们讲过「this 是函数和对象的桥梁」吗，我们会用 this 来串联这个对象和所有函数
+1. 使用对象来改代码
+
+如果使用了函数改造法改造后,发现有太多的小函数,则可以使用对象将这个函数串起来,用 this 来串联这个对象和所有函数
+```javascript
+! function() {
+  let slide = {
+    currentIndex: 0,
+    $slides: $('.slides'),
+    timerId: undefined,
+    events: [{
+      el: '#buttonNext',
+      event: 'click',
+      fn: 'playNext'
+    }, {
+      el: '#buttonPrevious',
+      event: 'click',
+      fn: 'playPrevious'
+    }, {
+      el: '.slidesWindow',
+      event: 'mouseenter',
+      fn: 'clearTimer'
+    }, {
+      el: '.slidesWindow',
+      event: 'mouseleave',
+      fn: 'resetTimer'
+    }],
+    init() {
+      this.bindEvents()
+      this.timerId = this.autoPlay()
+    },
+    playNext: () => {
+      this.playSlide(this.currentIndex + 1)
+    },
+    playPrevious: () => {
+      this.playSlide(this.currentIndex - 1)
+    },
+    playSlide(index) {
+      index = fixIndex(index)
+      this.$slides.css({
+        transform: `translateX(${-400*(index)}px)`
+      })
+
+      this.currentIndex = index
+      return index
+    },
+    clearTimer: () => {
+      window.clearInterval(this.timerId)
+    },
+    resetTimer: () => {
+      this.timerId = this.autoPlay()
+    },
+    bindEvents() {
+      this.events.forEach((eventObject) => {
+        $(eventObject.el).on(
+          eventObject.event,
+          ()=> { this[eventObject.fn].call(this) }
+        )
+      })
+    },
+
+    fixIndex(index) {
+      if (index < 0) {
+        index = 4
+      } else if (index > 4) {
+        index = 0
+      }
+      return index
+    },
+    autoPlay() {
+      //this === slide
+      return setInterval(() => {
+        this.playSlide(this.currentIndex + 1)
+      }, 3000)
+    }
+  }
+
+  slide.init() // slide.init.call(slide)
+
+}()
+```
 
 ### 一些固定的套路
 
 1. 表驱动编程
 
 所有一一对应的关系都可以用表来做
+```javascript
+    function howManyDays(month) {
+        if (mounth === 1) {
+            return 2
+        } else if (mounth === 2) {
+            return 2
+        } else {
+            return 3
+        }
+    }
+
+    //change to
+    function howManyDays(month) {
+        var table = {
+            1:1,
+            2:2,
+            3:3
+        }
+        return table[month]
+    }
+```
 
 2. 自说明代码（以 API 参数为例）
 

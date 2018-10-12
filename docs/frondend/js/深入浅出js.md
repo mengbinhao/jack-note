@@ -10,21 +10,36 @@
     > 5 不能通过call apply bind改变this
 2. 词法作用域
 3. call stack
-4. this是function隐藏的第一个参数,且必须是对象，默认window,严格模式undefined, arguments是隐藏的第二个,没传就是length为0的类数组
-5. call/apply
-6. bind
-7. curry
-8. 高阶
-    > 1 接受一个或多个函数作为输入    `sort、forEach、map、filter、reduce...`
+4. this是function隐藏的第一个参数,且必须是对象,默认window,严格模式则为undefined,arguments是隐藏的第二个,没传就是length为0的类数组
+5. call/apply/bind
+6. curry
+```javascript
+    let curry = function (fn, args) {
+        let outterArgs = args || []
+            length = fn.length
+            _this = this
+        return function function() {
+            let innerArgs = outterArgs.concat([].slice.call(arguments))
+            if (innerArgs.length < length) {
+                return curry.call(_this, fn, innerArgs)
+            } else {
+                return fn.appy(_this, innerArgs)
+            }
+        }
+    }
+```
+7. 高阶
+    > 1 接受一个或多个函数作为输入 `sort、forEach、map、filter、reduce...`
     >
-    > 2 输出一个函数     `fn.bind.call(fn, {}, 1,2,3)`
+    > 2 输出一个函数 `fn.bind.call(fn, {}, 1,2,3)`
     >
     > 3 常常同时满足以上2个
-9.  callback
+8.  callback
+9.  异步
 10. constructor
     - 首字母大写
     - 返回对象的函数
-    - 如果构造函数没有参数可以省略括号
+    - 如果构造函数没有参数可以省略括号 `let p = new Person`
     > 1 this = {};
     >
     > 2 this.__proto__ = constructor.prototype
@@ -32,62 +47,58 @@
     > 3 constructor.call(this,xxx,yyy);
     >
     > 4 return the object or an object returned by return statement
-
-11. 异步
-12. prototype
-13. this(隐式 / 显示 / call/apply/bind / new)
-> this是参数 运行时才知道是什么
-14. new
-```javascript
-    function Person() {
-        this = {}
-        this.__proto__ == Person.prototype
-        Person.call(this)
-        return this;
-    }
-```
-15. inherit
-
-```javascript
-    function Person(xxx, yyy){
-        this.name = xxx
-        this.age = yyy
-    }
-
-    function soilder() {
-        this.type = '特种兵'
-    }
-
-    /*
-        this.__proto__ == Person.prototype
-    */
-    soilder.prototype = new Person()
-
-    function FakePerson() {}
-    FakePerson.prototype = Person.prototype
-    soilder.prototype = new FakePerson()  //understand!!!!!!!
-    soilder.prototype.__proto__ === FakePerson.prototype === Person.prototype
-    //ES6
-    soilder.prototype = Object.create(Person.prototype)
-```
-
-```javascript
-    let inherit = (function() {
-        let F = function(){}
-        return function(Target, Origin) {
-            F.prototype = Origin.prototype
-            Target.prtotype = new F()
-            Target.prototype.constructor = Target
-            Target.uber = Origin.prototype
+11. prototype
+12. this(隐式 / 显式 / call / apply / bind / new)
+    > this是参数 运行时才知道是什么
+    >
+    > 只有函数有this,对象没有this
+13. new
+    ```javascript
+        //fake code
+        function Person() {
+            this = {}
+            this.__proto__ == Person.prototype
+            Person.call(this)
+            return this;
         }
-    })()
-```
+    ```
+14. inherit
+    ```javascript
+        function Person(xxx, yyy){
+            this.name = xxx
+            this.age = yyy
+        }
+
+        function soilder() {
+            this.type = '特种兵'
+        }
+
+        /*
+            this.__proto__ == Person.prototype
+        */
+        soilder.prototype = new Person()
+
+        function FakePerson() {}
+        FakePerson.prototype = Person.prototype
+        soilder.prototype = new FakePerson()  //understand!!!!!!!
+        soilder.prototype.__proto__ === FakePerson.prototype === Person.prototype
+        //ES6
+        soilder.prototype = Object.create(Person.prototype)
+    ```
+
+    ```javascript
+        let inherit = (function() {
+            let F = function(){}
+            return function(Target, Origin) {
+                F.prototype = Origin.prototype
+                Target.prtotype = new F()
+                Target.prototype.constructor = Target
+                Target.uber = Origin.prototype
+            }
+        })()
+    ```
 
 ### 封装组件
-- (内部)分层原则：正交原则
-- (对外)封装原则：面向接口编程
-- tab
-- sticky
-- dialog
-- suggestion
-- swipe
+- (内部)分层原则:正交原则
+- (对外)封装原则:面向接口编程
+- 练习tab、sticky、dialog、suggestion、swipe
