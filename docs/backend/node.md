@@ -1,6 +1,6 @@
 ### 1. CommonJS规范
 
-### 2. 特点
+### 2. feature
 
    - 异步I/O
    - 事件驱动
@@ -10,16 +10,20 @@
 ### 4. npm --help
 
    ```
+   //set init parameter value
    npm config set init.author.email "mengbinhao2018@gmail.com"
    npm config set init.author.name "jack"
    npm config set init.author.url "http://github.com/mengbinhao"
    npm config set init.license "MIT"
    npm config set init.version "0.0.1"
 
+   //excute when meet strange error
    npm cache clean --force
-   npm root [-g]
 
-   npm init [-y]
+   npm root [-g]
+   npm init -y
+
+   //publish
    npm adduser
    npm whoami
    npm publish
@@ -40,7 +44,13 @@
 
 ### 5. example
 
-   >http-example.js  mock-event-emitter.js  read-file  read-file-sync.js
+   > http-example.js
+   >
+   > mock-event-emitter.js
+   >
+   > read-file
+   >
+   > read-file-sync.js
 
 ### 6. module
 
@@ -98,34 +108,31 @@
 
 ### 9. 模块加载机制
 
-   14. NodeJS模块分为是**核心模块**、**文件模块**：
+   1. NodeJS模块分为是**核心模块**、**文件模块**：
 
       - **核心模块**：NodeJS标准API提供的模块（例如fs、http、net、vm等），可以直接通过require 直接获取，例如require(‘fs’)。核心模块拥有最高的加载优先级，即如果有模块与其命名冲突，NodeJS总会优先加载核心模块。
       - **文件模块**：存储为单独文件或文件夹的模块（*JavaScript代码、JSON、编译的C/C++代码*）。文件模块的加载方法复杂但是灵活，尤其是与npm结合使用时。在不显式指定文件模块扩展名时，NodeJS会试图按顺序加上`.js`、`.json`、`.node`扩展名。
-   15. 文件模块加载方式
-      1. **按路径加载**：如果require参数以/开头，就以绝对路径方式查找，例如require(‘/hank/uinika’)将会按优先级依次尝试加载/hank/uinika.js、uinika.json、uinika.node。 如果以./或../开头，则以相对路径方式查找，例如require(‘./uinika’)用来加载相同文件夹下的uinika.js。 
-      2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录。 
-   16. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。 
+
+   2. 文件模块加载方式
+      1. **按路径加载**：如果require参数以/开头，就以绝对路径方式查找，例如require(‘/hank/uinika’)将会按优先级依次尝试加载/hank/uinika.js、uinika.json、uinika.node。 如果以./或../开头，则以相对路径方式查找，例如require(‘./uinika’)用来加载相同文件夹下的uinika.js。
+      2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录。
+
+   3. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。
 
 ### 10. 循环中回调函数的陷阱
 
-    >trap.js
+    > trap.js
 
 ### 11. NodeJS的瓶颈
 
-    1. 计算密集型程序
-
-       NodeJS不善于处理计算密集型应用，当事件回调函数需要进行复杂运算，那么事件循环中所有请求都要等待计算完成之后才能响应。解决这个问题，需要将复杂运算拆解成若干逻辑，但这样又会提高代码的复杂度。
-
-    2. 单用户多任务型应用
-
-       单用户多任务的情况下，需要进程之间相互协作，NodeJS当中处理类似场景不方便。NodeJS多进程往往是在执行同一任务，通过多进程来利用多核处理器资源，但当遇到多进程需要相互协作的时候，就显得捉襟见肘。
-
-    3. 逻辑复杂的事务
-
-       NodeJS的控制流被一个个事件拆散，是非线性的，但是人类思维是线性的，这样容易造成开发复杂度的提高。NodeJS更善于处理逻辑简单但访问频繁的任务，而不适合完成逻辑十分复杂的工作。
+1. 计算密集型程序
+    NodeJS不善于处理计算密集型应用，当事件回调函数需要进行复杂运算，那么事件循环中所有请求都要等待计算完成之后才能响应。解决这个问题，需要将复杂运算拆解成若干逻辑，但这样又会提高代码的复杂度。
+2. 单用户多任务型应用
+    单用户多任务的情况下，需要进程之间相互协作，NodeJS当中处理类似场景不方便。NodeJS多进程往往是在执行同一任务，通过多进程来利用多核处理器资源，但当遇到多进程需要相互协作的时候，就显得捉襟见肘。
+3. 逻辑复杂的事务
+    NodeJS的控制流被一个个事件拆散，是非线性的，但是人类思维是线性的，这样容易造成开发复杂度的提高。NodeJS更善于处理逻辑简单但访问频繁的任务，而不适合完成逻辑十分复杂的工作。
 
 ### 12. debug
-    1. vs-code
-    2. `iron-node`
-    3. `supervisor`
+1. vs-code
+2. `iron-node`
+3. `supervisor`

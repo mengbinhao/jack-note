@@ -1,7 +1,7 @@
 ### 1.get started
 
 ```javascript
-npm init
+npm init -y
 npm i koa
 
 const Koa = require('koa')
@@ -9,10 +9,9 @@ const app = new Koa()
 
 app.use( async ( ctx ) => {
   ctx.body = 'hello koa2'
-})
+}).listen(3000)
 
-app.listen(3000)
-console.log('[demo] start-quick is starting at port 3000')
+console.log('server is starting at port 3000')
 
 node index.js
 ```
@@ -56,7 +55,7 @@ app.use(( ctx ) => {
 })
 
 app.listen(3000)
-console.log('the server is starting at port 3000')
+console.log('server is starting at port 3000')
 ```
 
 

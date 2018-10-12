@@ -45,6 +45,7 @@ git log --pretty=oneline --abbrev-commit
 git log --pretty=oneline --author="Jack"
 git log -p <file>
 git blame <file>
+git shortlog -s  //所有提交者
 ```
 
 ### brach & tag
@@ -55,6 +56,12 @@ git branch <branch>
 git checkout <branch>
 git checkout -b dev origin/dev    //在本地创建远程的dev分支，然后就可以在dev分支创建自己的工作分支了
 git checkout -b <branch>
+
+git branch --merged     查看本地合并分支
+git branch --no-merged  查看本地未合并分支
+git branch -r
+git remote prune origin 清理本地远程已经删除了的分支
+
 
 git merge <branch>  //合并 name 分支到当前分支
 git merge --no-ff -m "这里合并了dev分支" dev    //使用普通模式合并分支，使其有据可查
@@ -87,7 +94,7 @@ git remote add <shortname> <url>
 git pull <remote> <branch>
 git push [-u] <remote> <branch>
 
-git fetch <remote>
+git fetch [-p] <remote>   //同时删除本地远程已经删除的分支
 
 git branch -dr <remote/branch>
 

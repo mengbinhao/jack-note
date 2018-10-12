@@ -21,9 +21,9 @@
 
 ### 3.directive / 指令修饰符
 
-- v-for v-if v-text v-show v-once v-cloak
-- v-bind
-- v-on
+- v-for、v-if、v-text、v-show、v-once、v-cloak
+- v-bind ==> :
+- v-on   ==> @
 - v-model:lazy
 
 ### 4.filter(global / local)
@@ -34,13 +34,13 @@
 
 ### 7.获取DOM
 
-- \$el   \$root  \$parent
+- \$el、\$root、\$parent
 - \$refs  获取组建内的元素 (eg: focus)
 
 ### 7.父子组件(父传子-自定义属性 子传父--自定义事件)
 
 ### 8.生命周期
-![](./images/lifecycle.png)
+![](../images/lifecycle.png)
 
 ### 9.路由
 
@@ -58,7 +58,7 @@
 
   - 路由对象中和name属性同级 { meta: {isChecked.true}}
 
-- 路由钩子--> 权限控制的函数执行时期
+- 路由钩子 --> 权限控制的函数执行时期
   - 每次路由匹配后,渲染组建到router-view之前
   - router.beforeEach(function(to, from, next){ })
 
@@ -148,7 +148,7 @@
     }
     ```
 
-  - webpack-dev-server  babel-core babel-loader babel-preset-env  babel-plugin-transform-runtime
+  - webpack-dev-server、babel-core、babel-loader、babel-preset-env、  babel-plugin-transform-runtime
 
   - 开发恢复  npm i
 

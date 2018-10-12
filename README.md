@@ -3,22 +3,20 @@ record what I have learned
 
 ## get started
 
-1. visit local
-```
-git clone git@github.com:mengbinhao/jack-note.git
-//need install giboot first
-gitbook serve
-//visit
-http://localhost:4000/
-```
+1. visit on local
+    ```
+    1. git clone git@github.com:mengbinhao/jack-note.git
 
-2. visit gitbook
-https://jackmeng.gitbook.io/note
+    2. gitbook serve //need install giboot first
 
+    3. http://localhost:4000/
+    ```
+
+2. [visit on gitbook](https://jackmeng.gitbook.io/note)
 
 3. use github static page
-    1. create mengbinhao.github.io
-    2. gitbook build
+    1. create `mengbinhao.github.io` repository
+    2. `gitbook build` on local
     3. copy _book/ to mengbinhao.github.io
     4. https://mengbinhao.github.io/xxxx
 

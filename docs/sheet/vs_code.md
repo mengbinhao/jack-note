@@ -1,15 +1,5 @@
 #### Plugin
-
-- Beautify
-- Debugger for  chrome
-- ESLint
-- HTML CSS /  javascript / python support
-- HTML / jQuery / vue snippets
-- json tool / xml tool
-- mysql
-- vscode-icons
-- vutur
-
+    - Setting Sync
 #### Hotkey
 
 - Ctrl + \   分屏

@@ -249,5 +249,5 @@ window.addEventListener('storage',function(){
 </body>
 </html>
 ```
-
+### 很全很全的前端本地存储讲解
 https://segmentfault.com/a/1190000012578794
