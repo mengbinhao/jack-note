@@ -66,6 +66,7 @@ https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用
 http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB/                                                                  关于input的一些问题解决方法分享
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
+https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
 
 
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
@@ -103,6 +104,7 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
+https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
 http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview

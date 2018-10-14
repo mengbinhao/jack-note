@@ -2,7 +2,18 @@
 
 ### ES6
 1. 模板字符串,可保留多行格式，可以调用函数
+    ```javascript
         `http://localhost:3000/api/messages/${id}`
+
+        function test(str, age) {
+            return `${str[0]}${age} lala`
+        }
+        let arr = [1,2,3]
+        //note below two way the params is defferent
+        //note below two way the params is defferent
+        let a = `${test(1,2)}`
+        let b = test`this is 33 ${age}`
+    ```
 
 2. 函数增强
 

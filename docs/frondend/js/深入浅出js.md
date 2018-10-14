@@ -107,3 +107,6 @@
 - model 只负责存储数据、请求数据、更新数据
 - view 只负责渲染 HTML（可接受一个 data 来定制数据）
 - controller 负责调度 model 和 view
+> Angular 与 Vue 的双向绑定
+>
+> React —— 单向绑定
