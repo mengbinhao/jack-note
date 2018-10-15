@@ -49,7 +49,7 @@ https://juejin.im/post/5b03e610f265da0b873ad64e  	            自定义指令
 https://juejin.im/post/5b2872516fb9a00e8626e34f                 vue-cli
 https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect
                                                                 骨架屏
-
+https://segmentfault.com/a/1190000016662929                     vue中$router以及$route的使用
 https://juejin.im/post/5ba358a56fb9a05d2068401d                 Vue页面跳转动画效果实现
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧

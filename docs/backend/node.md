@@ -31,6 +31,7 @@
    npm set xxx
    npm config set registry=https://registry.npm.taobao.org
    npm config get registry
+   npm config delete registry
    npm info xxx
    npm search xxx
    npm [config] list [-g]

@@ -36,6 +36,18 @@
     > 3 常常同时满足以上2个
 8.  callback
 9.  异步
+> try...catch 无法捕获,只能在回调里面try
+>
+> 1 脚本加载
+>
+> 2 播放器
+>
+> 3 数据访问
+>
+> 4 动画
+>
+> 5 DOM事件绑定、数据事件绑定
+
 10. constructor
     - 首字母大写
     - 返回对象的函数
@@ -110,3 +122,36 @@
 > Angular 与 Vue 的双向绑定
 >
 > React —— 单向绑定
+
+### array
+1. forEach vs for
+> 1 forEach can not break
+> 2 每次迭代forEach都有一个新的作用域
+
+2. forEach、map、reduce、filter、some、every、find、findIndex (self implement)
+
+3. reduce replace forEach map filter
+```javascript
+    arr.reduce((acc, cur) => {
+        acc.push(cur)
+        return acc
+    }, [])
+```
+
+```javascript
+    arr.reduce((acc, cur) => {
+        if (cur % 2 === 0) {
+            acc.push(cur)
+        }
+        return acc
+    }, [])
+
+```
+
+4. throttle 节流, x ms内只执行1次
+5. debounce 防抖, 等x ms才invoke,  eg: input / resize
+
+### Rx.js
+1. 变量难以追踪
+2. try...catch
+3. 内存泄漏
