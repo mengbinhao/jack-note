@@ -1,3 +1,12 @@
+### git 中部分选项解释
+-f --force：强制
+-d --delete：删除
+-D --delete --force
+-m --move：移动或重命名
+-M --move --force
+-r --remote：远程
+-a --all：所有
+
 ### if meet unnormal
 `git rm -r --cached .`
 
@@ -120,8 +129,9 @@ git reset HEAD .
 git reset HEAD -filename
 
 //remote
+//HEAD 指向的版本是当前版本，^ 表示上一个版本，~N 表示上N个版本，<commit id>可简写 
 git reset --hard HEAD~1
-git reset HEAD~1
+git reset HEAD~x
 git reset --soft HEAD~1
 git checkout HEAD <file> ////撤销对file的修改
 git reset HEAD <file> //撤销对暂存区中test.txt的修改
