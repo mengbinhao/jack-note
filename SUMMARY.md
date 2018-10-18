@@ -13,6 +13,7 @@
       - [Vuex](docs/frondend/vue/vuex.md)
       - [vue-cli](docs/frondend/vue/vue-cli.md)
       - [component-communicate](docs/frondend/vue/component-communicate.md)
+      - [best practise](docs/frondend/vue/best practise.md)
     * [UI]()
       * [element-ui](docs/frondend/UI/element-ui.md)
       * [mint-ui](docs/frondend/UI/mint-ui.md)
