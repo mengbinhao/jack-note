@@ -146,7 +146,6 @@
         }
         return acc
     }, [])
-
 ```
 
 4. throttle 节流, x ms内只执行1次

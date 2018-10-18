@@ -1,5 +1,7 @@
 var arr = [1,2,3,4,5]
 
+
+//TODO: need to finish
 Array.prototype.mySplice = function(start, delCount, ...rest) {
     let begin = []
     let end = []
