@@ -2,7 +2,16 @@
 - online translate        done
 - js-tool-library is my js code liberary
 - 极客时间 算法
+- js深入淺出 最後2個
 - zaolunizi
+
+
+https://www.youtube.com/watch?v=8ZTLGBt2Qgs
+https://www.youtube.com/watch?v=g13dSerjICk
+https://www.youtube.com/watch?v=e18NKmeh96c
+https://www.youtube.com/watch?v=_cO9USrLFY0
+http://www.speedpan.com/
+https://github.com/proxyee-down-org/proxyee-down
 
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
