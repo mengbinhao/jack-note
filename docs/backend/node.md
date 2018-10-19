@@ -1,4 +1,8 @@
 ### 1. CommonJS规范
+ecmascipt / 语法 / 内置对象
+
+node 扩展后 -> net、db、file...
+顶层对象global
 
 ### 2. feature
 
@@ -57,6 +61,7 @@
 
    1. 单次加载 (modules/fiestmodule.js)
    2. 导出对象 (modules/hello.js)
+   3. 一个文件就是一个模块
 
 ### 7. package
 

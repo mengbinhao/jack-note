@@ -1,7 +1,9 @@
 const process = global.process;
 
 console.log(process.argv);
+console.log(process.env);
 
+//默认关闭输入，需要开启
 // process.stdin.resume();
 
 // process.stdin.on('data', (data) => {

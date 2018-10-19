@@ -9,3 +9,5 @@ console.log('ccc is ' + global.ccc);
 
 console.log(__filename);
 console.log(__dirname);
+
+console.log(exports === module.exports);
