@@ -127,3 +127,6 @@ tar [-j|-z] [xv] [-f 打包文件名] [-C 目录] #解压缩
 tar -zcv -f filename.tar.gz filename #压缩打包为filename.tar.gz
 tar -zxv -f filename.tart.gz -C 欲解压缩的目录 filename
 ```
+
+ - curl
+> curl -v www.baidu.com

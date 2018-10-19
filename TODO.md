@@ -2,7 +2,6 @@
 - online translate        done
 - js-tool-library is my js code liberary
 - 极客时间 算法
-- js深入淺出 最後2個
 - zaolunizi
 
 
