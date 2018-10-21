@@ -73,7 +73,7 @@ node 扩展后 -> net、db、file...
 
    1. Global
 
-   2. Buffer(操作二进制数据流)
+   2. Buffer(操作二进制数据流  TPC/图像/文件/网络)
         - buf.length
         - buf[index]
         - buf.write(string[, offset[, length]][, encoding])
@@ -81,39 +81,53 @@ node 扩展后 -> net、db、file...
         - buf.toJSON()
         - buf.slice([start[, end]]) ->同一引用
         - buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])
+        - buf.compare(otherBuffer)
+        - buf.fill(value, offset, end)
         - Buffer.isEncoding(encoding)
         - Buffer.isBuffer(obj)
         - Buffer.byteLength(string[, encoding])
         - Buffer.concat(list[, totalLength])
 
-   3. assert
+   3. Stream
+        - data/readable/end/close/error
+        - pause() / resume()
+        - readable / writable / duplex / transform  ---> pipe()
+   4. Net
+   5. assert
 
-   4. url  (resolve())
+   6. url
         - url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
+        - url.format()
+        - url.resolve()
 
-   1. path   (join()   resolve()  parse())
+   7. path   (join()   resolve()  parse())
 
-   2. crypto
+   8. crypto
 
-   3. querystring
+   9.  querystring
+        - querystring.stringify({name:'jack',age:33})
+        - querystring.parse('name=jack&age=33')
+        - querystring.escape('<哈哈>')
+        - querystring.unescape('%3C%E5%93%88%E5%93%88%3E')
 
-   4. Process  (global.process.argv)
+   10. Process  (global.process.argv)
 
-   5.  Console
+   11. Console
 
-   6.  Util     (inherits   inspect)
+   12. Util     (inherits   inspect)
 
-   7.  Events
+   13. Events
 
        ​    Event Emitter 的实例方法
 
        - `EventEmitter.on(event, listener)`：为指定事件注册监听器，接受1个字符串事件名event和1个回调函数listener
        - `EventEmitter.emit(event,[arg1],[arg2],[...])`：发射event事件，传递若干可选参数到事件监听器的参数列表。
        - `EventEmitter.once(event, listener)`：为指定事件注册1个单次监听器，即该监听器最多只会触发一次，触发后立刻解 
-       - `EventEmitter.removeListener(event, listener)`：移除指定事件的某个监听器，listener必须是该事件已经注册过的监听器。
-       - `EventEmitter.removeAllListeners([event])`：移除所有事件的所有监听器，如果指定event，则移除指定事件的所有监听器。
+       - `EventEmitter.removeListener(event, listener)`：移除指定事件的某个监听器，listener必须是该事件已经注册过的监听器
+       - `EventEmitter.removeAllListeners([event])`：移除所有事件的所有监听器，如果指定event，则移除指定事件的所有监听器
+       - `emitter.listenerCount(eventName)`
 
-   8.  File System (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
+   14. File System (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
         - fs.open(path, flags[, mode], callback)
         - fs.read(fd, buffer, offset, length, position, callback)
         - fs.write(fd, buffer[, offset[, length[, position]]], callback)
@@ -126,7 +140,7 @@ node 扩展后 -> net、db、file...
         - fs.watch(filename[, options][, listener])
         - fs.mkdir / fs.rmdir / fs.readdir
 
-   9.  Http
+   15. Http
 
        1. http.Server的事件 (request、connection、close)
        2. http.serverRequest
@@ -135,7 +149,8 @@ node 扩展后 -> net、db、file...
           - `response.write(data, [encoding])`：向请求的客户端发送响应内容。`data`是`Buffer`或字符串，表示要发送的内容。如果`data`是字符串，那么需要通过`encoding`说明其编码方式(默认是utf-8)。在`response.end()`调用之前，`response.write()`可以被多次调用。
           - `response.end([data],[encoding])`：结束响应，告知客户端全部响应已经完成。当所有响应内容发送完毕后，该函数必须被调用1次。接受2个可选参数，意义与`response.write()`相同。如果不调用该函数，客户端将永远处于等待状态。
        4. 根据path模拟router -> 结合fs分离html
-       5. 处理get、post
+       5. 处理get或post method
+       6. http.get() / http.request()
 
 ### 9. 模块加载机制
 

@@ -1,15 +1,22 @@
-- todomvc                 done
-- online translate        done
-- js-tool-library is my js code liberary
-- 极客时间 算法
-- zaolunizi
+- todomvc  / online translate
+- js-tool-library / jack-note / caibaojian
+- 极客时间 算法 / zaolunizi
 
-
-https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
+https://segmentfault.com/a/1190000016736112   prototype
+https://www.imooc.com/video/11555    pachong promise / stream some cases
+https://www.imooc.com/video/8837     pachong / request
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
-https://coding.imooc.com/class/chapter/196.html  vue全家桶课程
 
 
+http://coding.imooc.com/class/chapter/280.html#Anchor   Vue全家桶+SSR+Koa2全栈开发美团网
+http://coding.imooc.com/class/chapter/178.html#Anchor    Koa2框架搭建电影预告片网站
+
+
+http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
+https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
+
+
+https://juejin.im/post/5bc830a8f265da0abe272ccf   优化优化优化优化优化
 https://juejin.im/post/5ba0a27b5188255c6a043058   Vue+Koa+Mongodb 小练习
 https://segmentfault.com/a/1190000016101940       全栈实践
 https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
@@ -57,6 +64,7 @@ https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
 https://juejin.im/entry/5b33556d51882574b00fcc39                vue坑
 https://juejin.im/post/5b80f4e36fb9a019ce148fe9                 vue实践
 https://yugasun.com/post/you-dont-know-vuejs-13.html            vue实践结论
+https://segmentfault.com/a/1190000016735899                     vue技巧
 http://obkoro1.com/2018/06/03/%E4%BD%A0%E6%88%96%E8%AE%B8%E4%B8%8D%E7%9F%A5%E9%81%93Vue%E7%9A%84%E8%BF%99%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/                                                                             vue技巧
 https://juejin.im/post/5b18c50d5188251377116fe9                 practise
 http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
@@ -91,6 +99,7 @@ https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初�
 
 
 https://juejin.im/post/5b2769196fb9a00e5a4b50a6                 babel
+https://segmentfault.com/a/1190000016740439                     全网最贴心webpack系列教程和配套代码
 https://juejin.im/post/5bc0682be51d450e47144ce4                 webpack 4
 http://guowenfh.github.io/2016/03/24/vue-webpack-01-base/       webpack 4
 https://uinika.github.io/web/broswer/webpack.html               webpack 4
@@ -114,6 +123,7 @@ https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
 https://segmentfault.com/a/1190000016603212           vue interview
 https://zhuanlan.zhihu.com/p/35587283                 React
+https://segmentfault.com/a/1190000016736645           总结
 http://0313.name/archives/502#JavaScript              interview
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
