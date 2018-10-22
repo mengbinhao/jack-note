@@ -7,17 +7,55 @@ npm i koa
 const Koa = require('koa')
 const app = new Koa()
 
-app.use( async ( ctx ) => {
+app.use( async (ctx, next) => {
   ctx.body = 'hello koa2'
-}).listen(3000)
-
-console.log('server is starting at port 3000')
+}).listen(3000, () => {
+  console.log('server is starting at port 3000')
+})
 
 node index.js
 ```
 
+#### ctx
+ctx作为上下文使用，Koa将 node 的 request, response 对象封装进一个单独对象。即ctx.request 、 ctx.response。Koa 内部又对一些常用的属性或者方法做了代理操作，使得我们可以直接通过 ctx 获取。比如，ctx.request.url 可以写成 ctx.url。
 
+#### next
+next 参数的作用是将处理的控制权转交给下一个中间件
 
+```javascript
+//try remove await next() behind console.log('222, 然后doSomething') to see what happens 
+const Koa = require('koa')
+const app = new Koa()
+
+app.use(async (ctx, next)=>{
+  let startTime = new Date().getTime()
+  await next()
+  let endTime = new Date().getTime()
+  console.log(`此次的响应时间为：${endTime - startTime}ms`)
+})
+
+app.use(async (ctx, next) => {
+  console.log('111, 然后doSomething')
+  await next()
+  console.log('111 end')
+})
+
+app.use(async (ctx, next) => {
+  console.log('222, 然后doSomething')
+  await next()
+  console.log('222 end')
+})
+
+app.use(async (ctx, next) => {
+  console.log('333, 然后doSomething')
+  await next()
+  console.log('333 end')
+})
+
+app.listen(3333, ()=>{
+  console.log('server is running at http://localhost:3333')
+})
+```
 ### 2.koa2特性
 
 - 只提供封装好http上下文、请求、响应，以及基于`async/await`的中间件容器。
@@ -102,6 +140,42 @@ app.listen(3000, () => {
 })
 ```
 
+koa-router也支持嵌套写法，通过一个总路由装载所有子路由，也非常的方便。
+```javascript
+onst Koa = require('koa')
+const app = new Koa()
+const Router = require('koa-router')
+
+// 子路由1
+let oneRouter = new Router()
+
+oneRouter.get('/', async (ctx, next) => {
+  ctx.body = '你好，我这里是oneRouter页'
+})
+
+// 子路由2
+let twoRouter = new Router()
+
+twoRouter.get('/', async (ctx, next) => {
+  ctx.body = '你好, 我这里是twoRouter页'
+}).get('/home', async (ctx , next) => {
+  ctx.body = '你好, 我这里是home页'
+})
+
+// 装载所有子路由
+let indexRouter = new Router()
+
+indexRouter.use('/one',oneRouter.routes(), oneRouter.allowedMethods())
+indexRouter.use('/two',twoRouter.routes(), twoRouter.allowedMethods())
+
+app
+  .use(indexRouter.routes())
+  .use(indexRouter.allowedMethods())
+
+app.listen(3333, ()=>{
+  console.log('server is running at http://localhost:3333')
+})
+```
 
 ### 4.请求数据获取
 
@@ -138,6 +212,16 @@ app.listen(3000, () => {
        console.log('[demo] request get is starting at port 3000')
    })
    ```
+
+  ```javascript
+  router.get('/data/:id', async (ctx, next) => {
+
+    // 也从ctx中拿到我们想要的数据，不过使用的是params对象
+    let data = ctx.params
+
+    ctx.body = data
+  })
+  ```
 
 2. post
 
@@ -267,9 +351,38 @@ app.listen(3000, () => {
 })
 ```
 
+### 6.cache
+koa操作cookie是非常方便的，也是从上下文ctx中获取。
 
+- ctx.cookies.get(name, [options]) 读取上下文请求中的cookie
+- ctx.cookies.set(name, value, [options]) 在上下文中写入cookie
 
-### 6.cookie/session
+```javascript
+router.post('/post/result', async (ctx, next) => {
+  // 我们可以从ctx的request.body拿到提交上来的数据
+  let {name, num} = ctx.request.body
+
+  if (name && num) {
+    ctx.body = `hello，你最像的明星是:${name},ch你知道的车牌号是:${num}`
+    ctx.cookies.set(
+      'xunleiCode',num,
+      {
+        domain: 'localhost',  // 写cookie所在的域名
+        path: '/post/result',       // 写cookie所在的路径
+        maxAge: 10 * 60 * 1000, // cookie有效时长
+        expires: new Date('2018-09-17'),  // cookie失效时间
+        httpOnly: false,  // 是否只用于http请求中获取
+        overwrite: false  // 是否允许重写
+      }
+    )
+  } else {
+    ctx.body = '啊哦~你填写的信息有误'
+  }
+
+})
+```
+
+### 7.cookie/session
 
 ```javascript
 const Koa = require('koa')
@@ -288,16 +401,17 @@ let store = new MysqlSession({
 
 // 存放sessionId的cookie配置
 let cookie = {
-  maxAge: '', // cookie有效时长
+  maxAge: 86400000,  // cookie的过期时间 maxAge in ms (default is 1 days)
   expires: '',  // cookie失效时间
   path: '', // 写cookie所在的路径
   domain: '', // 写cookie所在的域名
-  httpOnly: '', // 是否只用于http请求中获取
-  overwrite: '',  // 是否允许重写
+  httpOnly: true, //cookie是否只有服务器端可以访问 httpOnly or not (default true)
+  overwrite: true,  //是否可以overwrite    (默认default true)
   secure: '',
   sameSite: '',
-  signed: '',
-
+  signed: true,  //签名默认true
+  rolling: false,  //在每次请求时强行设置cookie，这将重置cookie过期时间（默认：false）
+  renew: false  //(boolean) renew session when session is nearly expired,
 }
 
 // 使用session中间件
@@ -329,9 +443,7 @@ app.listen(3000)
 console.log('[demo] session is starting at port 3000')
 ```
 
-
-
-### 7.view
+### 8.view
 
 ```javascript
 //index.js
@@ -371,8 +483,8 @@ app.listen(3000)
 </html>
 ```
 
-### 8.upload
-### 9.integrated with DB
-### 10.jsonp
-### 11.test
+### 9.upload
+### 10.integrated with DB
+### 11.jsonp
+### 12.test
 

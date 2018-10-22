@@ -1,14 +1,22 @@
-let c = 0
-
-let printIt = () => {
-    console.log(c);
+function Animal() {
+    this.name = 'Animal';
 }
 
-let plus = (callback) => {
-    setTimeout(() => {
-        c += 1
-        callback.call(undefined)
-    }, 1000)
+Animal.prototype.changeName = function (name) {
+    this.name = name;
 }
 
-plus(printIt)
+function Cat() {
+    this.name = 'Cat';
+}
+
+var animal = new Animal();
+
+Cat.prototype = animal;
+Cat.prototype.constructor = Cat;
+
+var cat = new Cat();
+
+animal.changeName('Tiger');
+
+console.log(cat.name)

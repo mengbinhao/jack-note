@@ -2,12 +2,8 @@
 - js-tool-library / jack-note / caibaojian
 - 极客时间 算法 / zaolunizi
 
-https://segmentfault.com/a/1190000016736112   prototype
-https://www.imooc.com/video/11555    pachong promise / stream some cases
-https://www.imooc.com/video/8837     pachong / request
+
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
-
-
 http://coding.imooc.com/class/chapter/280.html#Anchor   Vue全家桶+SSR+Koa2全栈开发美团网
 http://coding.imooc.com/class/chapter/178.html#Anchor    Koa2框架搭建电影预告片网站
 
