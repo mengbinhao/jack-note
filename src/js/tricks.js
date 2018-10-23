@@ -46,14 +46,13 @@ let checkParams2 = (err, ...args) => {
 }
 
 //use defualt and deconstruction
-let defaultFun = (a, { opt1 = '1', opt2 = '2' } = {}) => {
+let defaultFun = (a, {opt1 = '1',opt2 = '2'} = {}) => {
     console.log(a, opt1, opt2);
 }
 
 let mergeFun = (a, opts) => {
     // 使用 Object.assign 赋予默认值
-    opts = Object.assign(
-        {
+    opts = Object.assign({
             opt1: '1',
         },
         opts
@@ -65,7 +64,7 @@ let mergeFun = (a, opts) => {
         ...opts,
     };
 
-    const { opts1 = '1', opts2 = '2' } = opts;
+    const {opts1 = '1', opts2 = '2'} = opts;
 }
 
 //check null params
@@ -82,3 +81,22 @@ let checkLengthFun = (x, y, ...extra) => {
         throw new Error();
     }
 }
+
+//deconstruction
+let user = {
+    name: 'jenny',
+    id: 18,
+    desc: {
+        pos: {
+            lng: 111,
+            lat: 333
+        }
+    }
+}
+
+let {name,id = 16,job = 'engineer'} = user
+let {name: localName,id: localId} = user
+let {name: otherName = 'lee',job: otherJob = 'teacher'} = user
+let {desc: {pos}} = user
+let {desc: {pos: {lng}}} = usser
+let {desc: {pos: {lng: longitude}}} = user
