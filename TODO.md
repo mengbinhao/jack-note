@@ -4,8 +4,13 @@
 
 
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
+
+
+https://coding.imooc.com/class/chapter/113              Vue2.0+Node.js+MongoDB 全栈打造商城系统
 http://coding.imooc.com/class/chapter/280.html#Anchor   Vue全家桶+SSR+Koa2全栈开发美团网
-http://coding.imooc.com/class/chapter/178.html#Anchor    Koa2框架搭建电影预告片网站
+https://coding.imooc.com/class/chapter/107.html#Anchor  Vue 2.0实战高级-开发移动端音乐Web APP
+https://coding.imooc.com/class/chapter/74.html#Anchor   Vue.js 高仿开发饿了么APP
+http://coding.imooc.com/class/chapter/178.html#Anchor   Koa2框架搭建电影预告片网站
 
 
 http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
