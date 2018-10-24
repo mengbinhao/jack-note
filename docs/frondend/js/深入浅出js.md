@@ -202,3 +202,69 @@
     4. 概述代码——有用
     5. 代码意图说明——指出要解决的问题
     6. 传达代码无法表述的信息——非常重要
+
+### HTTP
+
+1. 四个概念
+- client
+- server
+- request
+- response
+
+2. client
+- 用户用来浏览网页的软件（GUI 或命令行均可）
+- 后端开发者的爬虫
+- 搜索引擎的爬虫
+
+3. server
+- Apache + PHP/Java/Python/Node.js
+- Nginx + PHP/Java/Python/Node.js
+- 只用 Node.js
+
+4. request
+- 第一部分 - 动词 路径 协议/版本号
+- 第二部分 - 一堆 key: value，用回车分割
+- 第三部分 - 回车，作用只有一个：分隔开第二部分和第四部分
+- 第四部分 - 随便什么内容都可以，内容的格式必须要第二部分里用 Content-Type 说明
+
+5. response
+- 第一部分 - 协议/版本号 状态码 状态信息
+- 第二部分 - 一堆 key: value，用回车分割
+- 第三部分 - 回车，作用只有一个：分隔开第二部分和第四部分
+- 第四部分 - 随便什么内容都可以，内容的格式必须要第二部分里用 Content-Type 说明
+
+6. HTML、CSS、JS、JSON、JSONP(functionName( {"format": "JSON"}))的本质
+
+本质就是字符串，只不过 Content-Type 不同。
+
+- 浏览器通过地址栏、iframe 来请求 HTML
+- 浏览器通过 link 标签获取 CSS，然后渲染
+- 浏览器通过 script 标签获取 JS，然后执行
+- 浏览器通过 image 标签获取图片，然后展示
+- JSONP -> Content-Type 为application/javascript 或者 text/javascript, 内容格式为 functionName( {"format": "JSON"} )
+
+### HTTP缓存
+1. 使用 Cache-Control 缓存是尊常用的缓存方式
+2. 想要更新缓存只需稍微变更一下url
+- app-2131312362387123.js
+- app.js?v=1
+- app.js?t=201801012334
+- 不要缓存入口页面，这是你更新资源的唯一入口
+- md5
+
+### Cookie
+Cookie 用于识别用户
+
+- 现代前端几乎不会去碰 Cookie
+- 如果需要多页面共享信息，请用 localStorage 或 sessionStorage
+- Cookie 的所有知识都可以用维基百科查到
+
+### Session
+记录用户信息
+Session 就是 server 为用户分配的一小段内存，用户的识别依据可以用 Cookie 保存（也可以不用 Cookie）
+
+session vs cookie
+1. 用途
+2. 实现原理
+3. 一般来说session基于cookie,但可以存到内存、localStorage、url查询参数
+### 反向代理
