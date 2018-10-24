@@ -26,6 +26,7 @@
       - [array](docs/frondend/js/array.md)
       - [浏览器加载](docs/frondend/js/浏览器加载.md)
       - [macrotaskmicrotask](docs/frondend/js/macrotaskmicrotask.md)
+      - [ajaxcross](docs/frondend/js/ajaxcross.md)
     * [CSS]()
       - [深入浅出](docs/frondend/css/深入浅出css.md)
       - [BFC](docs/frondend/css/BFC.md)
