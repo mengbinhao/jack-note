@@ -167,7 +167,7 @@ http://www.cnblogs.com/imyalost/p/8763583.html              自动化测试2
 https://blog.csdn.net/feigoliu/article/details/50491740     Ranorex与QTP的详细比较
 https://mp.weixin.qq.com/s/_4SQJcxJoAh9jRKLf9NwSQ           设计测试用例
 
-------------------照相
+------------------照相111
 
 jenkens Item
 jenkens 8082
