@@ -125,6 +125,7 @@ https://segmentfault.com/a/1190000015861382           vue interview
 https://segmentfault.com/a/1190000016603212           vue interview
 http://blog.poetries.top/2018/10/20/fe-interview-component/    interview React vs vue
 https://zhuanlan.zhihu.com/p/35587283                 React
+https://segmentfault.com/a/1190000016761186           React
 https://segmentfault.com/a/1190000016736645           总结
 http://0313.name/archives/502#JavaScript              interview
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
