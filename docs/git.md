@@ -111,7 +111,7 @@ git push <shortname> <tagName>
 git push tags
 ```
 
-### merge & rebase
+### merge vs rebase
 
 ```
 git merge <branch>
@@ -123,26 +123,22 @@ git rebase --continue
 
 ### reset
 
-```
-//local
-git reset HEAD .
-git reset HEAD -filename
+revert [--edit | --no-edit | --no-commit] 默认是--edit
+**reset vs revert**
 
-//remote
-//HEAD 指向的版本是当前版本，^ 表示上一个版本，~N 表示上N个版本，<commit id>可简写 
-git reset --hard HEAD~1
+```
+git reset HEAD .
+git reset HEAD [filename]
+
+//HEAD 指向的版本是当前版本，^ 表示上一个版本，~N 表示上N个版本，<commit id>可简写
+git reset [--mixed | --soft | --hard] 的区别默认是--mixe
 git reset HEAD~x
-git reset --soft HEAD~1
 git checkout HEAD <file> ////撤销对file的修改
 git reset HEAD <file> //撤销对暂存区中test.txt的修改
 
 git revert \<commit>
 
 git reflog    //查看命令记录
-git reset --hard <commitid>    //回退到指定版本
-
-git reset <commitid>
-git reset --keep <commitid>
 ```
 
 ### .gitignore

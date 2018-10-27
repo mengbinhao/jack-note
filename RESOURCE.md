@@ -89,9 +89,10 @@
 - [Magic.css](https://github.com/miniMAC/magic)
 - [Waves](http://fian.my.id/Waves/)
 - [move.js](https://github.com/visionmedia/move.js)
+- [impress.js](http://www.webhek.com/post/impress-js.html)
 - velocity.js
 - particle.js  粒子效果
-- hammer.js    手势 
+- hammer.js    手势
 
 
 ### 数据可视化
@@ -153,6 +154,7 @@
 ### 拖拽
 - [dragula](https://github.com/bevacqua/dragula)
 - [Draggabilly](https://github.com/desandro/draggabilly)
+- [draggable](https://shopify.github.io/draggable/)
 
 
 ### 文件上传

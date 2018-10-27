@@ -16,7 +16,7 @@ https://segmentfault.com/a/1190000016420985    各種前端
 http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 
-
+http://blog.jobbole.com/65513/                    前后端分离
 https://juejin.im/post/5bc830a8f265da0abe272ccf   优化优化优化优化优化
 https://juejin.im/post/5ba0a27b5188255c6a043058   Vue+Koa+Mongodb 小练习
 https://segmentfault.com/a/1190000016101940       全栈实践
@@ -36,6 +36,7 @@ https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与�
 https://segmentfault.com/a/1190000016590427                            跨域
 http://web.jobbole.com/85136/   js常用设计模式
 http://web.jobbole.com/29454/   设计模式
+http://www.alloyteam.com/2012/10/common-javascript-design-patterns/    设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
 
 
@@ -117,7 +118,7 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
-https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经
+https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经https://segmentfault.com/a/1190000016770732           vue interview
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
 http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
