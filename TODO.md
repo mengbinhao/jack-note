@@ -40,7 +40,7 @@ http://www.alloyteam.com/2012/10/common-javascript-design-patterns/    设计模
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
 
 
-
+https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
 https://segmentfault.com/a/1190000016570003                    display:none与visibility:hidden
 https://segmentfault.com/a/1190000016420985                    杂
 http://0313.name/archives/485#16                               杂
@@ -130,6 +130,7 @@ https://zhuanlan.zhihu.com/p/35587283                 React
 https://segmentfault.com/a/1190000016761186           React
 https://segmentfault.com/a/1190000016736645           总结
 http://0313.name/archives/502#JavaScript              interview
+https://segmentfault.com/a/1190000016848192           promise
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
 https://juejin.im/post/5b0562306fb9a07aaf3596c1       interview
