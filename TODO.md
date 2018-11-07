@@ -119,6 +119,7 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
+https://segmentfault.com/a/1190000016902075           前端技术简历
 https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经https://segmentfault.com/a/1190000016770732           vue interview
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
 http://web.jobbole.com/95195/                         vue interview
