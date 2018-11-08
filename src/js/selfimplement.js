@@ -193,7 +193,17 @@ let deepClone = (target, origin) => {
     }
 }
 
+/**
+  1. create a empty object
+  2. 生成的对象__proto__ = constructor.prototype
+  3. 生成的对象绑定函数的this
+  4. 通过new创建的每个对象将最终被[[Prototype]]链接到这个函数的prototype对象上
+  5. 如果函数没有返回对象类型Object(包含Functoin, Array, Date, RegExg, Error)，那么new表达式中的函数调用会自动返回这个新的对象
+*/
 Function.prototype.simulateNew = (constructor, params) => {
+    if(typeof constructor !== 'function'){
+        throw 'the first param must be a function';
+    }
     let obj = Object.create(constructor.prototype);
     let result = constructor.call(obj, params);
     //in case constructor return a simple type
