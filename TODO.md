@@ -80,7 +80,7 @@ https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
 https://juejin.im/post/5bdd57f451882517165d75cc                 Vue优化
-https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验
+https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 
 
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
