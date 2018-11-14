@@ -72,6 +72,8 @@ https://juejin.im/post/5b18c50d5188251377116fe9                 practise
 http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
                                                                 Vue技术内幕
 
+
+https://juejin.im/post/5be01d0ce51d450700084925                 vue 实践技巧
 https://juejin.im/post/5bbe88e85188255c3b7da9e0                 vue 实践技巧
 https://juejin.im/post/5b486e446fb9a04faf479837                 vue 实践技巧合集
 https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用的总结
