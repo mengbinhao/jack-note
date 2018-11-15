@@ -44,6 +44,7 @@ https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
 https://segmentfault.com/a/1190000016570003                    display:none与visibility:hidden
 https://segmentfault.com/a/1190000016420985                    杂
 http://0313.name/archives/485#16                               杂
+https://segmentfault.com/a/1190000016992952                   前端工具库汇总（下）
 http://blog.poetries.top/archives/   vue blog
 https://finget.github.io/2018/06/28/vue-family/                 vue全家桶
 https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向绑定
@@ -72,6 +73,8 @@ https://juejin.im/post/5b18c50d5188251377116fe9                 practise
 http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
                                                                 Vue技术内幕
 
+
+https://juejin.im/post/5be01d0ce51d450700084925                 vue 实践技巧
 https://juejin.im/post/5bbe88e85188255c3b7da9e0                 vue 实践技巧
 https://juejin.im/post/5b486e446fb9a04faf479837                 vue 实践技巧合集
 https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用的总结
@@ -79,6 +82,8 @@ http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
+https://juejin.im/post/5bdd57f451882517165d75cc                 Vue优化
+https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 
 
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
@@ -89,7 +94,7 @@ https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
 https://juejin.im/entry/5b627627f265da0f66404074                vue vs react
 https://github.com/lihongxun945/myblog/issues/21                vue vs react
 https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?              vue vs react
-
+https://segmentfault.com/a/1190000016990339                     vue vs react vs angular
 
 
 https://juejin.im/post/5be5429de51d4511a808f4ac                 vscode项目配置 eslint+prettier
@@ -121,6 +126,7 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
+https://segmentfault.com/a/1190000016902075           前端技术简历
 https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经https://segmentfault.com/a/1190000016770732           vue interview
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
 http://web.jobbole.com/95195/                         vue interview
@@ -146,7 +152,7 @@ https://juejin.im/post/5af8e6aef265da0b9265b04c       css
 https://segmentfault.com/a/1190000015960009           interview html & css
 https://segmentfault.com/a/1190000016582854#articleHeader9   大厂面经
 
-
+https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽等比例缩放
 
 
 ***

@@ -67,6 +67,10 @@ let mergeFun = (a, opts) => {
     const {opts1 = '1', opts2 = '2'} = opts;
 }
 
+function test({name} = {}) {
+    console.log (name || 'unknown');
+}
+
 //check null params
 let mandatory = () => {
     throw new Error('Missing parameter');
@@ -100,3 +104,99 @@ let {name: otherName = 'lee',job: otherJob = 'teacher'} = user
 let {desc: {pos}} = user
 let {desc: {pos: {lng}}} = usser
 let {desc: {pos: {lng: longitude}}} = user
+
+
+
+//多重判断时使用 Array.includes
+function test(fruit) {
+  if (fruit == 'apple' || fruit == 'strawberry') {
+    console.log('red');
+  }
+}
+
+function test(fruit) {
+    const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
+
+    if (redFruits.includes(fruit)) {
+        console.log('red');
+    }
+}
+
+//更少的嵌套，尽早 Return
+function test(fruit, quantity) {
+    const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
+
+    // 条件 1: 尽早抛出错误
+    if (!fruit) throw new Error('No fruit!');
+
+    // 条件 2: 必须是红色的
+    if (redFruits.includes(fruit)) {
+        console.log('red');
+
+        // 条件 3: 必须是大质量的
+        if (quantity > 10) {
+            console.log('big quantity');
+        }
+    }
+}
+
+//倾向于对象遍历而不是Switch语句
+function test(color) {
+    // 使用条件语句来寻找对应颜色的水果
+    switch (color) {
+        case 'red':
+            return ['apple', 'strawberry'];
+        case 'yellow':
+            return ['banana', 'pineapple'];
+        case 'purple':
+            return ['grape', 'plum'];
+        default:
+            return [];
+    }
+}
+
+const fruitColor = {
+    red: ['apple', 'strawberry'],
+    yellow: ['banana', 'pineapple'],
+    purple: ['grape', 'plum']
+};
+
+function test(color) {
+    return fruitColor[color] || [];
+}
+
+//使用Map实现相同的结果
+const fruitColor = new Map()
+    .set('red', ['apple', 'strawberry'])
+    .set('yellow', ['banana', 'pineapple'])
+    .set('purple', ['grape', 'plum']);
+
+function test(color) {
+    return fruitColor.get(color) || [];
+}
+
+//Array.filter实现相同的效果
+const fruits = [
+    { name: 'apple', color: 'red' },
+    { name: 'strawberry', color: 'red' },
+    { name: 'banana', color: 'yellow' },
+    { name: 'pineapple', color: 'yellow' },
+    { name: 'grape', color: 'purple' },
+    { name: 'plum', color: 'purple' }
+];
+
+function test(color) {
+    return fruits.filter(f => f.color == color);
+}
+
+//对所有/部分判断使用Array.every & Array.some
+function test() {
+    const isAllRed = fruits.every(f => f.color == 'red');
+    console.log(isAllRed); // false
+}
+
+function test() {
+    // 条件：任何一个水果是红色
+    const isAnyRed = fruits.some(f => f.color == 'red');
+    console.log(isAnyRed); // true
+}

@@ -201,6 +201,9 @@ let deepClone = (target, origin) => {
  * 优先级 new有 > call，apply，bind > 显示 > 隐式
 */
 Function.prototype.simulateNew = (constructor, params) => {
+    if(typeof constructor !== 'function'){
+        throw 'the first param must be a function';
+    }
     //same as let obj = new Object(), obj__proto == constructor.prototype
     let obj = Object.create(constructor.prototype);
     let result = constructor.call(obj, params);
