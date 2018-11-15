@@ -193,7 +193,15 @@ let deepClone = (target, origin) => {
     }
 }
 
+/**
+ * 1. 新生成了一个对象
+ * 2. 链接到原型
+ * 3. 绑定 this
+ * 4. 返回新对象
+ * 优先级 new有 > call，apply，bind > 显示 > 隐式
+*/
 Function.prototype.simulateNew = (constructor, params) => {
+    //same as let obj = new Object(), obj__proto == constructor.prototype
     let obj = Object.create(constructor.prototype);
     let result = constructor.call(obj, params);
     //in case constructor return a simple type

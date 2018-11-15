@@ -91,6 +91,8 @@ https://github.com/lihongxun945/myblog/issues/21                vue vs react
 https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?              vue vs react
 
 
+
+https://juejin.im/post/5be5429de51d4511a808f4ac                 vscode项目配置 eslint+prettier
 https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
 https://segmentfault.com/a/1190000016281174                     掌握react，这一篇就够了
 https://segmentfault.com/a/1190000015894607                     React 开发你一定要知道
@@ -130,6 +132,7 @@ https://zhuanlan.zhihu.com/p/35587283                 React
 https://segmentfault.com/a/1190000016761186           React
 https://segmentfault.com/a/1190000016736645           总结
 http://0313.name/archives/502#JavaScript              interview
+https://segmentfault.com/a/1190000016953153           interview
 https://segmentfault.com/a/1190000016848192           promise
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
