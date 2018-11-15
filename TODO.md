@@ -44,6 +44,7 @@ https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
 https://segmentfault.com/a/1190000016570003                    display:none与visibility:hidden
 https://segmentfault.com/a/1190000016420985                    杂
 http://0313.name/archives/485#16                               杂
+https://segmentfault.com/a/1190000016992952                   前端工具库汇总（下）
 http://blog.poetries.top/archives/   vue blog
 https://finget.github.io/2018/06/28/vue-family/                 vue全家桶
 https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向绑定
@@ -93,7 +94,7 @@ https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
 https://juejin.im/entry/5b627627f265da0f66404074                vue vs react
 https://github.com/lihongxun945/myblog/issues/21                vue vs react
 https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?              vue vs react
-
+https://segmentfault.com/a/1190000016990339                     vue vs react vs angular
 
 https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
 https://segmentfault.com/a/1190000016281174                     掌握react，这一篇就够了
@@ -148,7 +149,7 @@ https://juejin.im/post/5af8e6aef265da0b9265b04c       css
 https://segmentfault.com/a/1190000015960009           interview html & css
 https://segmentfault.com/a/1190000016582854#articleHeader9   大厂面经
 
-
+https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽等比例缩放
 
 
 ***
