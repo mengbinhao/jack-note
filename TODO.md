@@ -62,6 +62,8 @@ https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0
 https://segmentfault.com/a/1190000016662929                     vue中$router以及$route的使用
 https://juejin.im/post/5ba358a56fb9a05d2068401d                 Vue页面跳转动画效果实现
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
+
+https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
 https://juejin.im/entry/5b33556d51882574b00fcc39                vue坑
