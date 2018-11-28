@@ -3,10 +3,6 @@
 - 极客时间 算法 / zaolunizi
 
 
-https://segmentfault.com/a/1190000017114656   git重写-----------------
-
-
-
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
 
 https://github.com/liangfengbo/nodejs-koa2-mysql-sequelize-jwt   nodejs+koa2+mysql+sequelize+jwt，使用koa2框架，sequelize管理mysql数据库，jwt做权限接口验证，实现用户、文章管理接口
