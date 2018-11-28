@@ -1,3 +1,10 @@
+![](./images/git.png)
+
+- Workspace：工作区（clone或者原始内容）
+- Index/Stage：暂存区（有增删改查后add到临时区）
+- Repository：本地仓库（保存了本地的增删改查记录）
+- Remote：远程仓库（git.code.oa.com，本地的记录提交到远端，供团队所有人查看使用）
+
 ### git 中部分选项解释
 -f --force：强制
 -d --delete：删除

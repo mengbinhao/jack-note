@@ -3,6 +3,10 @@
 - 极客时间 算法 / zaolunizi
 
 
+https://segmentfault.com/a/1190000017114656   git重写-----------------
+
+
+
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
 
 https://github.com/liangfengbo/nodejs-koa2-mysql-sequelize-jwt   nodejs+koa2+mysql+sequelize+jwt，使用koa2框架，sequelize管理mysql数据库，jwt做权限接口验证，实现用户、文章管理接口
@@ -16,12 +20,18 @@ https://segmentfault.com/a/1190000016420985    各種前端
 http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 
+
+
 http://blog.jobbole.com/65513/                    前后端分离
 https://juejin.im/post/5bc830a8f265da0abe272ccf   优化优化优化优化优化
 https://juejin.im/post/5ba0a27b5188255c6a043058   Vue+Koa+Mongodb 小练习
 https://segmentfault.com/a/1190000016101940       全栈实践
 https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
+https://juejin.im/post/5bf676acf265da6166241b0e   Vue2.5+Node.js搭建一个多页面商城
 
+
+
+https://segmentfault.com/a/1190000017143278                            node+mongodb部署在服务器并进行性能优化
 https://juejin.im/entry/5baef5cef265da0ad13b8c01                       frond cache
 https://juejin.im/post/5badebedf265da0af609bdad                        CommonJS vs es6 import
 https://juejin.im/post/5b02bde8f265da0ba7700d54                        节流防抖
@@ -53,6 +63,7 @@ https://segmentfault.com/a/1190000015740490   	                Vue超快速学�
 https://www.w3cplus.com/vue/managing-state-in-vue-js.html       Vue中的状态管理(3种)
 https://juejin.im/post/5afe56e6f265da0ba76ffac3  		        vue/axios/vue-router
 https://juejin.im/post/5afcd516f265da0b9e65414b  	            vue组件
+https://segmentfault.com/a/1190000017035590                     实现一个 Vue 进度条组件
 https://juejin.im/post/5afd7eb16fb9a07ac5605bb3     	        vue生命钩子
 https://juejin.im/post/5b0281b851882542845257e7  	            vue-router
 https://juejin.im/post/5b03e610f265da0b873ad64e  	            自定义指令
@@ -68,12 +79,13 @@ https://juejin.im/entry/5b33556d51882574b00fcc39                vue坑
 https://juejin.im/post/5b80f4e36fb9a019ce148fe9                 vue实践
 https://yugasun.com/post/you-dont-know-vuejs-13.html            vue实践结论
 https://segmentfault.com/a/1190000016735899                     vue技巧
+https://segmentfault.com/a/1190000017149162                     Vue中用props给data赋初始值遇到的问题
 http://obkoro1.com/2018/06/03/%E4%BD%A0%E6%88%96%E8%AE%B8%E4%B8%8D%E7%9F%A5%E9%81%93Vue%E7%9A%84%E8%BF%99%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/                                                                             vue技巧
 https://juejin.im/post/5b18c50d5188251377116fe9                 practise
 http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
                                                                 Vue技术内幕
 
-
+https://juejin.im/post/5bed05ac6fb9a04a053f3d60                 Vue一个案例引发的递归组件的使用
 https://juejin.im/post/5be01d0ce51d450700084925                 vue 实践技巧
 https://juejin.im/post/5bbe88e85188255c3b7da9e0                 vue 实践技巧
 https://juejin.im/post/5b486e446fb9a04faf479837                 vue 实践技巧合集
@@ -83,6 +95,7 @@ https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
 https://juejin.im/post/5bdd57f451882517165d75cc                 Vue优化
+https://juejin.im/post/5ae02f39518825672f198ac2                 Vue小技巧
 https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 
 
@@ -103,6 +116,7 @@ https://segmentfault.com/a/1190000016281174                     掌握react，�
 https://segmentfault.com/a/1190000015894607                     React 开发你一定要知道
 https://uinika.github.io/web/broswer/angular.html               angular best practise
 https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初级到高级路线图
+https://segmentfault.com/a/1190000017133041                     详解react、redux、react-redux之间的关系
 
 
 
@@ -117,6 +131,7 @@ https://juejin.im/post/5af934806fb9a07ab458bced                 webpack 4
 https://juejin.im/post/5af8fa806fb9a07ac162876d                 webpack 4
 https://juejin.im/post/5b2a59c0e51d4558d05eee39                 webpack 4
 http://coderlt.coding.me/2018/04/12/webpack4/                   webpack 4
+http://blog.poetries.top/2018/11/20/webpack-config-optize/      webpack常用插件总结
 https://juejin.im/entry/5b0d5fa5518825153d28aec4                webpack 配置
 https://segmentfault.com/a/1190000015968706                     webpack4 化繁为简
 https://segmentfault.com/a/1190000014685887                     webpack4
@@ -126,6 +141,10 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
+
+https://segmentfault.com/a/1190000017114522           JS 一道面试题引起的思考
+
+
 https://segmentfault.com/a/1190000016902075           前端技术简历
 https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经https://segmentfault.com/a/1190000016770732           vue interview
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
@@ -133,6 +152,7 @@ http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
 https://segmentfault.com/a/1190000016603212           vue interview
+https://segmentfault.com/a/1190000017103048           vue interview
 http://blog.poetries.top/2018/10/20/fe-interview-component/    interview React vs vue
 https://zhuanlan.zhihu.com/p/35587283                 React
 https://segmentfault.com/a/1190000016761186           React
@@ -147,10 +167,12 @@ https://segmentfault.com/a/1190000015374552           https and other
 https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984     rem and em
 https://segmentfault.com/a/1190000015863923           js
 https://juejin.im/post/5af8f00c51882567105fda7b       js
+https://segmentfault.com/a/1190000017055060           2018年，最经典的26个JavaScript面试题
 https://segmentfault.com/a/1190000015882087           html & css
 https://juejin.im/post/5af8e6aef265da0b9265b04c       css
 https://segmentfault.com/a/1190000015960009           interview html & css
 https://segmentfault.com/a/1190000016582854#articleHeader9   大厂面经
+https://mp.weixin.qq.com/s/gcG-JL3wt0-Aexwt5nV99g     百度、有赞、阿里前端面试总结
 
 https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽等比例缩放
 
