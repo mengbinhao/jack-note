@@ -94,6 +94,7 @@ https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
 https://juejin.im/post/5bdd57f451882517165d75cc                 Vue优化
 https://juejin.im/post/5ae02f39518825672f198ac2                 Vue小技巧
+https://segmentfault.com/a/1190000017159449                     Vue一次s引入所有公共组件
 https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 
 
