@@ -1,3 +1,12 @@
+//assignment
+let lastName = fullName[1] || ''
+let propertyValue=Object.attr || 0
+
+//使用match匹配正则表达式
+if(imgType.match(/.*?(gif|png|jpg)/gi)){
+    console.log('hello image')
+}
+
 //rest parameter
 let restFun1 = (...args) => {
     console.log(`arguments: ${args}`);
