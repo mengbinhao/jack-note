@@ -45,6 +45,9 @@ node 扩展后 -> net、db、file...
    npm outdated [-g]
    npm uninstall xxx
    npm run command
+
+   //install path
+   C:\Users\xxx\AppData\Roaming\npm\node_modules
    ```
 
 ### 5. example
