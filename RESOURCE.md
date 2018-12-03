@@ -1,7 +1,7 @@
 ### front framework
 - vue
 - vuex
-- vu-router
+- vue-router
 - nuxt.js   ssr
 - react
 
@@ -11,6 +11,10 @@
 - webpack
 - parcel
 - babel
+- Browserify
+- Grunt
+- Gulp
+- Yeoman
 
 
 ### CSS

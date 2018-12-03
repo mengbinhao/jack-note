@@ -26,7 +26,7 @@ https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 https://juejin.im/post/5bf676acf265da6166241b0e   Vue2.5+Node.js搭建一个多页面商城
 
 
-
+https://blog.hhking.cn/2018/11/29/html5-img-upload/                    HTML5图片上传解决方案
 https://segmentfault.com/a/1190000017143278                            node+mongodb部署在服务器并进行性能优化
 https://juejin.im/entry/5baef5cef265da0ad13b8c01                       frond cache
 https://juejin.im/post/5badebedf265da0af609bdad                        CommonJS vs es6 import
@@ -70,6 +70,9 @@ https://segmentfault.com/a/1190000016662929                     vue中$router以
 https://juejin.im/post/5ba358a56fb9a05d2068401d                 Vue页面跳转动画效果实现
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
 
+
+https://juejin.im/post/5bf7ca2f6fb9a049a9795a88                 优化 Vue 组件的运行时性能
+https://segmentfault.com/a/1190000017188189                     Vue.js的复用组件开发流程
 https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
