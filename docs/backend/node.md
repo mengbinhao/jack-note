@@ -25,7 +25,7 @@ node 扩展后 -> net、db、file...
    npm cache clean --force
 
    npm root [-g]
-   npm init -y
+   npm init [-y]
 
    //publish
    npm adduser
@@ -39,15 +39,26 @@ node 扩展后 -> net、db、file...
    npm info xxx
    npm search xxx
    npm [config] list [-g]
-   npm i [-S|-D] xxx
+   npm i [xxx] -S
+   npm i [xxx] -D
+   npm i -g xxx
    npm install --production
    npm update [xxx]
    npm outdated [-g]
    npm uninstall xxx
    npm run command
+
+   //install path
+   C:\Users\xxx\AppData\Roaming\npm\node_modules
+
+
+   npm home xxx //打开 xxx 包的主页
+   npm repo xxx //打开 xxx 包的代码仓库
    ```
 
-### 5. example
+### 5. [see package.json](https://docs.npmjs.com/files/package.json)
+
+### 6. example
 
    > http-example.js
    >
@@ -57,19 +68,19 @@ node 扩展后 -> net、db、file...
    >
    > read-file-sync.js
 
-### 6. module
+### 7. module
 
    1. 单次加载 (modules/fiestmodule.js)
    2. 导出对象 (modules/hello.js)
    3. 一个文件就是一个模块
 
-### 7. package
+### 8. package
 
    >包在模块基础上更进一步抽象，NodeJS包类似于Java类库，它将某个独立功能封装起来，用于发布、更新、依赖管理、版本控制。NodeJS根据CommonJS规范实现了包机制，通过npm来解决包的发布和获取需求。
    >
    >NodeJS包是一个目录，其中包含一个说明文件`package.json`，严格符合CommonJS规范的包应具备这些特征：package.json必须放在包的根目录、二进制文件保存在bin目录、JavaScript代码保存在lib目录、文档放置在doc目录、单元测试保存在test目录。
 
-### 8. build-in module
+### 9. build-in module
 
    1. Global
 
@@ -152,7 +163,7 @@ node 扩展后 -> net、db、file...
        5. 处理get或post method
        6. http.get() / http.request()
 
-### 9. 模块加载机制
+### 10. 模块加载机制
 
    1. NodeJS模块分为是**核心模块**、**文件模块**：
 
@@ -165,11 +176,11 @@ node 扩展后 -> net、db、file...
 
    3. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。
 
-### 10. 循环中回调函数的陷阱
+### 11. 循环中回调函数的陷阱
 
     > trap.js
 
-### 11. NodeJS的瓶颈
+### 12. NodeJS的瓶颈
 
 1. 计算密集型程序
     NodeJS不善于处理计算密集型应用，当事件回调函数需要进行复杂运算，那么事件循环中所有请求都要等待计算完成之后才能响应。解决这个问题，需要将复杂运算拆解成若干逻辑，但这样又会提高代码的复杂度。
@@ -178,7 +189,7 @@ node 扩展后 -> net、db、file...
 3. 逻辑复杂的事务
     NodeJS的控制流被一个个事件拆散，是非线性的，但是人类思维是线性的，这样容易造成开发复杂度的提高。NodeJS更善于处理逻辑简单但访问频繁的任务，而不适合完成逻辑十分复杂的工作。
 
-### 12. debug
+### 13. debug
 1. vs-code
 2. `iron-node`
 3. `supervisor`
