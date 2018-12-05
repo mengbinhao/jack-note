@@ -4,6 +4,7 @@
 
 ```javascript
 const arrContainsEmptyVal = [3, 4, 5, 2, 3, undefined, null, 0, ""];
+//equal to arr.filter(item => Boolean(item))
 const compact = arr => arr.filter(Boolean);
 ```
 
