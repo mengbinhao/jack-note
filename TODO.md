@@ -70,7 +70,8 @@ https://segmentfault.com/a/1190000016662929                     vue中$router以
 https://juejin.im/post/5ba358a56fb9a05d2068401d                 Vue页面跳转动画效果实现
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
 
-
+https://juejin.im/post/5c036e4fe51d451b80257c45                 从零实现Vue的Toast插件
+https://juejin.im/post/5bdc17ddf265da61483b0e67                 基于Vue构造器创建Form组件的通用解决方案
 https://juejin.im/post/5bf7ca2f6fb9a049a9795a88                 优化 Vue 组件的运行时性能
 https://segmentfault.com/a/1190000017188189                     Vue.js的复用组件开发流程
 https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
