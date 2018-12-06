@@ -38,26 +38,6 @@ const carObj = cars.reduce((obj, car) => {
 
 carObj
 
-function Foo(){
-    getName = function(){
-        console.log(1);
-    }
-    return this;
-}
-Foo.getName = function(){
-    console.log(2);
-}
-Foo.prototype.getName = function(){
-    console.log(3);
-}
-var getName = function(){
-    console.log(4);
-}
-//hoist
-function getName(){
-    console.log(5);
-}
+let hours = Array.from([1,2,3],index => index + 1);
 
-Foo.getName()
-getName()
-Foo().getName()
+hours
