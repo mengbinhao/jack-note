@@ -40,7 +40,8 @@ https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
 https://segmentfault.com/a/1190000016590427                            跨域
-http://web.jobbole.com/85136/   js常用设计模式
+http://web.jobbole.com/85136/                                          js常用设计模式
+https://juejin.im/post/5bfa5a8cf265da6124151e62                        js错误处理权威指北
 http://web.jobbole.com/29454/   设计模式
 http://www.alloyteam.com/2012/10/common-javascript-design-patterns/    设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
@@ -178,7 +179,7 @@ https://segmentfault.com/a/1190000016582854#articleHeader9   大厂面经
 https://mp.weixin.qq.com/s/gcG-JL3wt0-Aexwt5nV99g     百度、有赞、阿里前端面试总结
 
 https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽等比例缩放
-
+https://segmentfault.com/a/1190000017257916           前端面试常考知识点CSS
 
 ***
 ***
