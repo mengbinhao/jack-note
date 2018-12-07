@@ -280,6 +280,43 @@ Element.prototype.insertAfter = function (targerNode, afterNode) {
     }
 }
 
+function bindEvent(ele, type, selector, handler) {
+    //addEvent(ele, type, fn)
+    //addEvent(ele, type, proxydom, fn)
+    if (handler == null) {
+        handler = selector
+        selector = null
+    }
+
+    ele.addEventListener(type, function (e) {
+        let target
+        if (selector) {
+            target = e.target
+            if (target.matches(selector)) {
+                handler.call(target, e)
+            }
+        } else {
+            handler.call(ele, e)
+        }
+    })
+}
+// bindEvent(document.querySelector('div'), 'click', 'li', function (e) {
+//     console.log(this)
+// })
+
+// bindEvent(document.querySelector('div'), 'click', function (e) {
+//     console.log(this)
+// })
+
+let xhr = new XMLHttpRequest()
+xhr.onreadystatechange = function() {
+    if (xhr.readyState === 4 && xhr.state === 200) {
+        console.log(xhr.responseText);
+    }
+}
+xhr.open('GET', '/api', false)
+xhr.send(null)
+
 
 //String
 //String

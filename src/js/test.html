@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vue-cli3</title>
+</head>
+
+<body>
+    <div>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+        <li>li4</li>
+        <li>li5</li>
+    </div>
+    <script>
+        //事件代理
+        //1 使代码简洁
+        //2 减少浏览器的内存占用
+        //seletor is proxy dom
+        function bindEvent(ele, type, selector, handler) {
+            //addEvent(ele, type, fn)
+            //addEvent(ele, type, proxydom, fn)
+            if (handler == null) {
+                handler = selector
+                selector = null
+            }
+
+            ele.addEventListener(type, function (e) {
+                let target
+                if (selector) {
+                    target = e.target
+                    if (target.matches(selector)) {
+                        handler.call(target, e)
+                    }
+                } else {
+                    handler.call(ele, e)
+                }
+            })
+        }
+        let div = document.querySelector('div')
+
+        // bindEvent(div, 'click', 'li', function (e) {
+        //     console.log(this)
+        // })
+
+        bindEvent(div, 'click', function (e) {
+            console.log(this)
+        })
+
+    </script>
+</body>
+
+</html>
