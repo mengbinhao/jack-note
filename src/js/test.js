@@ -40,4 +40,18 @@ carObj
 
 let hours = Array.from([1,2,3],index => index + 1);
 
-hours
+let currentState = {
+    p: {
+      x: [2],
+    },
+  }
+
+let c2 = {
+    ...currentState
+}
+
+c2
+
+c2.p.x = 1
+
+currentState

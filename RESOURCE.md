@@ -33,9 +33,16 @@
 
 ### UI component
 - buefy
-- mint-ui
 - bulma  纯CSS
-- element ui
+- iview：一套基于 Vue.js 的高质量 UI 组件库（PC端）
+- iView Admin：搭配使用iView UI组件库形成的一套后台集成解决方案（PC端）
+- Element UI：一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库（PC端）
+- Vue Antd：Ant Design 的 Vue 实现，开发和服务于企业级后台产品（PC端）
+- VueStrap：一款 Bootstrap 风格的 Vue UI 库（PC端）
+- Mint UI：由饿了么前端开发的基于 Vue.js 的移动端组件库（移动端）
+- Vonic：一个基于 vue.js 和 ionic 样式的 UI 框架，用于快速构建移动端单页应用（移动端）
+- Vant：轻量、可靠的移动端 Vue 组件库（移动端）
+- Cube UI：基于 Vue.js 实现的精致移动端组件库（移动端）
 
 
 ### performance
@@ -70,6 +77,7 @@
 - [async](https://github.com/caolan/async)
 - [es5-shim](https://github.com/es-shims/es5-shim)
 - [handlebars](https://github.com/wycats/handlebars.js)
+- [immer.js实战讲解](https://segmentfault.com/a/1190000017270785)
 - fabric.js
 
 
