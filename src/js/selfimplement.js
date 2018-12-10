@@ -240,13 +240,37 @@ Function.prototype.simulateApply = function (context, arr) {
     return result;
 }
 
-Function.prototype.simulateBind = () => {
-    var fn = this;
-    var context = arguments[0];
-    var args = [].slice.call(arguments, 1);
+// 1 指定this
+// 2 返回函数
+// 3 可以传入参数
+// 4 柯里化
+Function.prototype.simulateBind = function (context) {
+    if (typeof this !== 'function') throw new Error('Function.prototype.bind')
+    let fn = this;
+    let args = [].slice.call(arguments, 1);
     return function () {
         return fn.apply(context, args.concat([].slice.call(arguments, 0)));
     }
+}
+
+Function.prototype.simulateBindAdvance = function (context) {
+    if (typeof this !== 'function') throw new Error('need function invoke')
+    let fn = this
+    let args = [].slice.call(arguments, 1)
+
+    var F = function () {}
+
+    //judge this
+    //if invoke by new, this is bar
+    //if function invoke, this is context
+    let fBound = function () {
+        let bindArgs = [].slice.call(arguments)
+        return fn.apply(this instanceof fBound ? this : context, args.concat(bindArgs))
+    }
+    //fBound.prototype = Object.create(this.prototype);
+    F.prototype = this.prototype
+    fBound.prototype = new F()
+    return fBound
 }
 
 let curry = function (fn) {
