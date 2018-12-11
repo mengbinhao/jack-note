@@ -94,6 +94,7 @@ https://juejin.im/post/5bbe88e85188255c3b7da9e0                 vue 实践技巧
 https://juejin.im/post/5b486e446fb9a04faf479837                 vue 实践技巧合集
 https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用的总结
 http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB/                                                                  关于input的一些问题解决方法分享
+https://www.w3cplus.com/vue/vue-transition.html                 Vue的transition
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
