@@ -42,8 +42,6 @@
     3. 对称解构
     4. 不对称解构
     5. 数值交换 `let [p1, p2] = [p2, p1]`
-
-
 4. 对象增强
     1. `class new constructor extends super get set static`
     ```javascript
@@ -80,8 +78,6 @@
     1. 不要用箭头
     2. 函数、属性简写
     3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-
-
 5. let & const
     1. 作用域为{}
     2. TDZ
@@ -200,34 +196,5 @@
 
     `await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])`
 2. Decorator修饰器
-
-
-```javascript
-//对象解构
-const user = {
-    name: 'Jack',
-    age: 33,
-    hobby: 'LOL',
-    ability: ['javascript', 'vue', 'nodejs'],
-    wife: {
-        name: 'feifei',
-        age: 22
-    }
-}
-
-//排除不需要的属性
-let { ability, wife:{name}, ...others } = user;
-let objDestructionFun = ( {name = 'feifei', age = 22, hobby = 'AOV'} = {} ) => console.log({ name, age, hobby });
-//objDestructionFun(user);
-//objDestructionFun({});
-//objDestructionFun();
-```
-
-```javascript
-//数组解构
-const arr = [1997, 'John Doe', 'US', 'john@doe.com', 'New York'];
-let { 2: country, 4: state } = arr;
-let [x1,,,y1] = arr;
-let [x2,y2,[z2]] = [1,2,[3]];
-let [,x3,,...y3] = [1,2,3,4,5,6];
-```
+3. 幂运算符
+4. array.includes()
