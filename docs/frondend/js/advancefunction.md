@@ -1,3 +1,48 @@
+### map
+
+1. 在数组中的每一项元素上调用一个函数 `[2,3,4].map(item => item * 2)`
+2. 将字符串转换为数组
+```javascript
+    map.call('jack', letter => `${letter}a`)
+```
+3. 重新格式化数组对象
+```javascript
+const myUsers = [
+    { name: 'chuloo', likes: 'grilled chicken' },
+    { name: 'chris', likes: 'cold beer' },
+    { name: 'sam', likes: 'fish biscuits' }
+]
+const usersByFood = myUsers.map(item => {
+    const container = {};
+    container[item.name] = item.likes;
+    container.age = item.name.length * 10;
+    return container;
+})
+```
+4. 坑  `["1", "2", "3"].map(parseInt);`
+
+```javascript
+// 通常使用parseInt时,只需要传递一个参数.
+// 但实际上,parseInt可以有两个参数.第二个参数是进制数.
+// 可以通过语句"alert(parseInt.length)===2"来验证.
+// map方法在调用callback函数时,会给它传递三个参数:当前正在遍历的元素,元素索引, 原数组本身
+// 第三个参数parseInt会忽视, 但第二个参数不会,也就是说,
+// parseInt把传过来的索引值当成进制数来使用.从而返回了NaN.
+function returnInt(element) {
+  return parseInt(element, 10);
+}
+['1', '2', '3'].map(returnInt); // [1, 2, 3]
+// 也可以使用简单的箭头函数
+['1', '2', '3'].map( str => parseInt(str) );
+```
+
+5. `.map() ，.reduce(), .filter()` 等支持链式调用
+
+```javascript
+var myArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
+let result = myArr.map(m => m>5 ? 5 : m).reduce((x,y) => x+y);
+```
+
 ### filter，map，和其它 ES6 新增的高阶遍历函数
 
 #### 将数组中的 falsy 值去除
@@ -26,7 +71,7 @@ users.map(
 
 补充：经网友提醒，这个答案存在浅拷贝的问题。操作引用型数据确实是一个麻烦的问题。下面提供两个方案：
 
-1. 用 Ramda：
+- 用 Ramda：
 
 ```javascript
 import R from "ramda";
@@ -41,7 +86,7 @@ const updateUsers = R.map(add10IfVIP);
 updateUsers(users);
 ```
 
-2. 用 Immer
+- 用 Immer
 ```javascript
 import produce from "immer";
 
@@ -258,8 +303,6 @@ takeFirst(4, isOdd, numList);
 // 用我们刚刚定义的辅助函数来生成符合要求的数组
 const bigArr = genNumArr(1e6, 100);
 
-
-
 const isEven = num => num % 2 === 0;
 const triple = num => num * 3;
 
@@ -322,16 +365,15 @@ bigNum.reduce(
 );
 ```
 
-经过测试（用 console.time()/console.timeEnd()）,上面的写法耗时 33.898 ms，仅比 for 循环慢 8 ms。为了代码的易维护性和易读性，这点性能上的微小牺牲，我认为是可以接受的
+经过测试（用 console.time()/console.timeEnd()）,上面的写法耗时33.898 ms，仅比for循环慢8 ms。为了代码的易维护性和易读性，这点性能上的微小牺牲，我认为是可以接受的
 
-这种写法叫 transduce。有很多工具库提供了 transducer 函数。比如 [transducers-js](https://github.com/cognitect-labs/transducers-js)。除了用 transducer 来遍历数组，还能用它来遍历对象和其它数据集。功能相当强大。
+这种写法叫`transduce`。有很多工具库提供了`transducer`函数。比如 [transducers-js](https://github.com/cognitect-labs/transducers-js)。除了用`transducer`来遍历数组，还能用它来遍历对象和其它数据集。功能相当强大。
 
 
 ### for 循环和 for ... of 循环的区别
+for... of循环是在ES6引入`Iterator`后，为了遍历`Iterable`数据类型才产生的。EcmaScript的`Iterable`数据类型有数组、字符串、arguments、Set和 Map。如果用AirBNB的ESLint规则，在代码中使用 for ... of 来遍历数组是会被禁止的。
 
-for ... of 循环是在 ES6 引入 Iterator 后，为了遍历 Iterable 数据类型才产生的。EcmaScript 的 Iterable 数据类型有数组，字符串，Set 和 Map。for ... of 循环属于重型的操作（具体细节我也没了解过），如果用 AirBNB 的 ESLint 规则，在代码中使用 for ... of 来遍历数组是会被禁止的。
-
-那么，for ... of 循环应该在哪些场景使用呢？目前我发现的合理使用场景是遍历自定义的 Iterable。来看这个题目：
+那么，for ... of 循环应该在哪些场景使用呢？目前我发现的合理使用场景是遍历自定义的`Iterable`。来看这个题目：
 
 ####  将 Stark 家族成员名字遍历，每次遍历暂停一秒，然后将当前遍历的名字打印来，遍历完后回到第一个元素再重新开始，无限循环。
 
@@ -348,9 +390,6 @@ const starks = [
   "Rickon Stark",
   "Lyanna Stark"
 ];
-
-
-
 
 function* repeatedArr(arr) {
   let i = 0;

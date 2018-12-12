@@ -29,22 +29,51 @@ const isParentBalance = (str) => {
     }, 0)
 }
 
-
 const cars = ['BWM', 'Benz', 'Toyota', 'Benz']
 const carObj = cars.reduce((obj, car) => {
     obj[car] = obj[car] ? ++obj[car] : 1
     return obj
 }, {})
 
-carObj
-
 let hours = Array.from([1,2,3],index => index + 1);
 
-const toCamelCase = str => {
-    let s = str && str .match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-                       .map(x => x.slice(0, 1).toUpperCase() + x.slice(1).toLowerCase()) .join('');
-                       return s.slice(0, 1).toLowerCase() + s.slice(1);
+const myUsers = [
+    { name: 'chuloo', likes: 'grilled chicken' },
+    { name: 'chris', likes: 'cold beer' },
+    { name: 'sam', likes: 'fish biscuits' }
+]
+const usersByFood = myUsers.map(item => {
+    const container = {};
+    container[item.name] = item.likes;
+    container.age = item.name.length * 10;
+    return container;
+})
+
+var myIterator  = function(arr) {
+    let index = 0
+    return {
+        next: function() {
+            return index < arr.length ?　{value: arr[index++], done: false} : {value: 'undefined', done: true}
+        }
+    }
 }
 
-console.log(toCamelCase('some_database_field_name'));
+let arr = [1,2,66]
 
+let obj = myIterator(arr)
+console.log(obj.next())
+console.log(obj.next())
+console.log(obj.next())
+console.log(obj.next())
+console.log(obj.next())
+
+let targetData = {
+    [Symbol.iterator]: function() {
+        let index = 0
+        return {
+            next: function() {
+                return index < this.length ?　{value: this[index++], done: false} : {value: 'undefined', done: true}
+            }
+        }
+    }
+}

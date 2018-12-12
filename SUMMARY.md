@@ -31,7 +31,7 @@
       - [ajaxcross](docs/frondend/js/ajaxcross.md)
       - [浏览器窗口间通信](docs/frondend/js/浏览器窗口间通信.md)
       - [Web Worker](docs/frondend/js/webworker.md)
-      - [消灭for](docs/frondend/js/消灭for.md)
+      - [advancefunction](docs/frondend/js/advancefunction.md)
       - [function](docs/frondend/js/function.md)
       - [crossdomain](docs/frondend/js/crossdomain.md)
     * [CSS]()

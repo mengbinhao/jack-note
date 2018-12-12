@@ -40,3 +40,34 @@ function saveInfo({name= 'william', age= 18, address= 'changsha', gender= 'man'}
 }
 saveInfo()
 ```
+
+### Symbol
+1. 值唯一，解决命名冲突
+2. 不能与其他数据进行计算，包括字符串拼接
+3. for in、for of不会遍历symbol
+
+```javascript
+var myIterator  = function(arr) {
+    let index = 0
+    return {
+        next: function() {
+            return index < arr.length ?　{value: arr[index++], done: false} : {value: 'undefined', done: true}
+        }
+    }
+}
+```
+
+```javascript
+//以下对象可以使用for of
+//扩展，解构原理都是调用Iterator接口
+let targetData = {
+    [Symbol.iterator]: function() {
+        let index = 0
+        return {
+            next: function() {
+                return index < this.length ?　{value: this[index++], done: false} : {value: 'undefined', done: true}
+            }
+        }
+    }
+}
+```

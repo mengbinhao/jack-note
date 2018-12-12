@@ -90,6 +90,12 @@ Array.prototype.myReduce = function (fn, init) {
     return result
 }
 
+Array.prototype.myReduce2 = (f, acc, arr) => {
+    if (arr.length === 0) return acc;
+    const [head, ...tail] = arr;
+    return reduce(f, f(head, acc), tail);
+};
+
 
 
 //Function
