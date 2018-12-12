@@ -10,11 +10,12 @@ let simulateIsArray = (target) => {
 }
 
 
-//generate random array
-const sortArrRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5);
+let sortArrayRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5)
+
 
 //generate undefined array
 const undefinedArray = (len) => Array.apply(null, {length:len})
+
 
 Array.prototype.myJoin = function (separator) {
     let result = this[0] || ''
@@ -23,6 +24,7 @@ Array.prototype.myJoin = function (separator) {
     }
     return result
 }
+
 
 Array.prototype.mySlice = function (start, end) {
     start = start || 0;
@@ -33,6 +35,7 @@ Array.prototype.mySlice = function (start, end) {
     }
     return result
 }
+
 
 Array.prototype.mySort = function (fn) {
     //default func
@@ -48,6 +51,7 @@ Array.prototype.mySort = function (fn) {
     return this
 }
 
+
 Array.prototype.myForEach = function (fn) {
     for (let i = 0; i < this.length; i++) {
         //jump empty position
@@ -56,6 +60,7 @@ Array.prototype.myForEach = function (fn) {
         }
     }
 }
+
 
 Array.prototype.myMap = function (fn) {
     let result = []
@@ -67,6 +72,7 @@ Array.prototype.myMap = function (fn) {
     }
     return result
 }
+
 
 Array.prototype.myFilter = function (fn) {
     let result = []
@@ -80,6 +86,7 @@ Array.prototype.myFilter = function (fn) {
     return result
 }
 
+
 Array.prototype.myReduce = function (fn, init) {
     let result = init
     for (let i = 0; i < this.length; i++) {
@@ -89,6 +96,7 @@ Array.prototype.myReduce = function (fn, init) {
     }
     return result
 }
+
 
 Array.prototype.myReduce2 = (f, acc, arr) => {
     if (arr.length === 0) return acc;
@@ -143,6 +151,7 @@ let resizeThrottleHandler = (fn, delay, duration) => {
 }
 //window.onresize = resizeThrottleHandler(fn, 1000, 1000);
 
+
 //闭包实现一个累加器
 const add = (() => {
     var total = 0;
@@ -152,6 +161,12 @@ const add = (() => {
     }
 })();
 
+
+//在JS中只有全局和函数作用域,函数作用域在函数执行完成后就会销毁,内存随之回收
+//闭包是建立在函数内部的子函数,由于其可以访问上级作用域的原因,即使上级函数执行完
+//作用域也不会随之销毁,这时的子函数也就是闭包拥有了访问上级作用域中的变量的权限
+//上级作用域执行完成后作用域内的值也不会被销毁
+//场景  AJAX回调/事件绑定回调/setTimeout
 const fibClosure = (function () {
     //cache
     const result = [];
@@ -170,6 +185,13 @@ const fibClosure = (function () {
         }
     };
 })();
+// console.time("caculateFibonacci");
+// console.log(caculateFibonacci(30));
+// console.timeEnd("caculateFibonacci");
+// console.time("fibClosure");
+// console.log(fibClosure(30));
+// console.timeEnd("fibClosure");
+
 
 
 let inherit = (function () {
@@ -181,6 +203,7 @@ let inherit = (function () {
         Target.uber = Origin.prototype;
     }
 }());
+
 
 let deepClone = (target, origin) => {
     let target = target || {},
@@ -204,6 +227,7 @@ let deepClone = (target, origin) => {
     }
 }
 
+
 /**
  * 1. 新生成了一个对象
  * 2. 链接到原型
@@ -222,6 +246,7 @@ Function.prototype.simulateNew = (constructor, params) => {
     return (typeof result === 'object' && result != null) ? result : obj;
 }
 
+
 Function.prototype.simulateCall = function (context) {
     var context = context || window;
     context.fn = this;
@@ -231,6 +256,7 @@ Function.prototype.simulateCall = function (context) {
     delete context.fn;
     return result;
 }
+
 
 Function.prototype.simulateApply = function (context, arr) {
     var context = context || window;
@@ -246,6 +272,7 @@ Function.prototype.simulateApply = function (context, arr) {
     return result;
 }
 
+
 // 1 指定this
 // 2 返回函数
 // 3 可以传入参数
@@ -258,6 +285,7 @@ Function.prototype.simulateBind = function (context) {
         return fn.apply(context, args.concat([].slice.call(arguments, 0)));
     }
 }
+
 
 Function.prototype.simulateBindAdvance = function (context) {
     if (typeof this !== 'function') throw new Error('need function invoke')
@@ -279,6 +307,7 @@ Function.prototype.simulateBindAdvance = function (context) {
     return fBound
 }
 
+
 let curry = function (fn) {
     let args = [].slice.call(arguments, 1);
     let that = this;
@@ -286,6 +315,7 @@ let curry = function (fn) {
         return fn.apply(that, args.concat([].slice.call(arguments)));
     }
 }
+
 
 let curryFormalParameter = function (fn, args) {
     let length = fn.length,
@@ -300,52 +330,6 @@ let curryFormalParameter = function (fn, args) {
         }
     }
 }
-
-Element.prototype.insertAfter = function (targerNode, afterNode) {
-    var beforeNode = afterNode.nextElementSibling;
-    if (beforeNode == null) {
-        this.appendChild(targerNode);
-    } else {
-        this.insertBefore(targerNode, beforeNode);
-    }
-}
-
-function bindEvent(ele, type, selector, handler) {
-    //addEvent(ele, type, fn)
-    //addEvent(ele, type, proxydom, fn)
-    if (handler == null) {
-        handler = selector
-        selector = null
-    }
-
-    ele.addEventListener(type, function (e) {
-        let target
-        if (selector) {
-            target = e.target
-            if (target.matches(selector)) {
-                handler.call(target, e)
-            }
-        } else {
-            handler.call(ele, e)
-        }
-    })
-}
-// bindEvent(document.querySelector('div'), 'click', 'li', function (e) {
-//     console.log(this)
-// })
-
-// bindEvent(document.querySelector('div'), 'click', function (e) {
-//     console.log(this)
-// })
-
-let xhr = new XMLHttpRequest()
-xhr.onreadystatechange = function() {
-    if (xhr.readyState === 4 && xhr.state === 200) {
-        console.log(xhr.responseText);
-    }
-}
-xhr.open('GET', '/api', false)
-xhr.send(null)
 
 
 //String

@@ -7,12 +7,14 @@
 > apply call bind
 > arrow function
 
+
 ### 箭头函数
 1. 没有this,函数体里面的this是箭头函数定义时所在对象,不是运行时(this看上一级，若是箭头函数继续上找,作用域是栈内存不是堆内存)
 2. 没有arguments,但有...
 3. 不能用作构造函数
 4. 不可用yield,因此不能用Generator函数
 5. 不能通过call / apply / bind改变this
+
 
 ### 'use strict'
 - 必须用var声明变量

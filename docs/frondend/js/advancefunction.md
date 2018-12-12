@@ -371,7 +371,7 @@ bigNum.reduce(
 
 
 ### for 循环和 for ... of 循环的区别
-for... of循环是在ES6引入`Iterator`后，为了遍历`Iterable`数据类型才产生的。EcmaScript的`Iterable`数据类型有数组、字符串、arguments、Set和 Map。如果用AirBNB的ESLint规则，在代码中使用 for ... of 来遍历数组是会被禁止的。
+for... of循环是在ES6引入`Iterator`后，为了遍历`Iterable`数据类型才产生的。EcmaScript的`Iterable`数据类型有数组、字符串、伪数组、Set和 Map。如果用AirBNB的ESLint规则，在代码中使用 for ... of 来遍历数组是会被禁止的。
 
 那么，for ... of 循环应该在哪些场景使用呢？目前我发现的合理使用场景是遍历自定义的`Iterable`。来看这个题目：
 
