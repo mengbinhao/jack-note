@@ -78,6 +78,13 @@
     1. 不要用箭头
     2. 函数、属性简写
     3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
+    4. class和自定义类型的区别
+      - class的声明不会提升，与let类似
+      - class的声明自动运行于严格模式之下
+      - class声明的方法不可枚举
+      - class的内部方法没有 constructor 属性，无法new
+      - 调用class的构造函数必须new
+      - class内部方法不能同名
 5. let & const
     1. 作用域为{}
     2. TDZ
