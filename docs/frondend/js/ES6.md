@@ -114,6 +114,7 @@
     - Array
         - Array.from
         - Array.of
+        - Array.isArray(arr)
         - fill
         - includes
         - copyWithin

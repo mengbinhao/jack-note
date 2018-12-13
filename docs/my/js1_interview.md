@@ -34,9 +34,18 @@ console.log(b);
 ### 原型和原型链
 
 - 所有的引用类型（数组、对象、函数），都具有对象特性，即可自由扩展属性（null除外）
-- 所有的引用类型（数组、对象、函数），都有一个__proto__属性，属性值是一个普通的对象
-- 所有的函数，都有一个prototype属性，属性值也是一个普通的对象
-- 所有的引用类型（数组、对象、函数），__proto__属性值指向它的构造函数的prototype属性值
+- 所有的引用类型（数组、对象、函数），都有一个隐式原型__proto__属性，属性值是一个普通的对象
+- 所有的函数，都有一个显示原型prototype属性，属性值也是一个普通的对象(自定义函数prototype是一个没有自定义属性的空对象，定义函数时添加显示原型prototype属性)
+- 所有的引用类型（数组、对象、函数），隐式原型__proto__属性值指向它的构造函数的prototype属性值
+
+```javascript
+//注意点
+console.log(Object.prototype instanceof Object)
+console.log(Object.prototype.__proto__ === null)
+console.log(Function.__proto__ === Function.prototype)
+
+
+```
 
 ```javascript
 // 构造函数
@@ -80,7 +89,7 @@ for (var i = 0; i < list.length; i++) {
 </script>
 ```
 
-### 执行上下文
+### 执行上下文 vs 执行上下文栈
 ```javascript
 console.log(a)  // undefined
 var a = 100
@@ -104,6 +113,10 @@ b = 100;
 - 范围：一段`<script>`、js 文件或者一个函数
 - 全局上下文：变量定义，函数声明
 - 函数上下文：变量定义，函数声明，this，arguments
+  1. 建AO(执行区上下文)
+  2. 找形参和变量声明,将变量和形参命作为AO的属性名,值为undefined
+  3. 将实参值和形参统一
+  4. 在函数体里面找函数声明  值为函数体
 
 ### 作用域 / 作用域链
 ```javascript

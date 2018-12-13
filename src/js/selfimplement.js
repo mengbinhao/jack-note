@@ -204,7 +204,8 @@ let inherit = (function () {
     }
 }());
 
-
+//JSON.parse(JSON.stringify(sourceObj))
+//不能处理属性值为function、null、undefined、date等
 let deepClone = (target, origin) => {
     let target = target || {},
         toStr = Object.prototype.toString,

@@ -1,4 +1,9 @@
 //Array------------------------
+//会改变自身的方法：copyWithin、fill、pop、push、reverse、shift、sort、splice、unshift
+//不会改变自身的方法：concat、includes、join、slice、toString、indexOf、lastIndexOf
+//遍历方法：forEach、map、every、some、filter、find、findIndex、reduce、reduceRight、keys、entries、values
+
+
 // 空数组遍历不到
 // undefined可以遍历
 let arrayEmpty = [, , ,];
@@ -575,91 +580,6 @@ MYAPP.dom.factory = function (type, url) {
 // }
 
 
-//real question------------------------
-function Foo() {
-    //global variable
-    getName = function () {
-        console.log("1")
-    };
-    return this;
-}
-Foo.getName = function () {
-    console.log("2")
-}
-Foo.prototype.getName = function () {
-    console.log("3")
-}
-var getName = function () {
-    console.log("4")
-}
-//hoist
-function getName() {
-    console.log("5")
-}
-//console.log(Foo.getName()); //2
-//console.log(getName()); //4
-//console.log(Foo().getName()); //1
-//console.log(getName()); //1
-// . > new > ()  ==> (new (Foo.getName))()
-//function() {console.log("2") use as constructor
-//console.log(new Foo.getName());
-//console.log(new Foo().getName());  //(new Foo()).getName()
-//console.log(new new Foo().getName()); //new ((new Foo()).getName)()
-
-
-//promise 简单说就是一个容器,里面保存着某个未来才会结束的事件的结果
-//promise也是一个对象 从它可以获取异步操作的信息
-//promise提供统一的API 各种操作都可以用同样的方法处理
-//开发者不需要再关注其底层的时序和结果
-//promise状态具有不可逆和不受外界影响
-
-
-let queryURLParamaterByRegex = (url) => {
-    let obj = {}
-    let reg = /([^?=&]+)=([^?=&]+)/g;
-    url.replace(reg, (...arg) => {
-        obj[arg[1]] = arg[2];
-    })
-    return obj;
-}
-
-
-let addURLParam = (url, name, value) => {
-    url += (url.indexOf("?") == -1 ? "?" : "&");
-    url += encodeURIComponent(name) + "=" + encodeURIComponent(value);
-    return url;
-}
-
-
-function getBuitlInType(obj) {
-    let str = Object.prototype.toString.call(obj);
-    return str.match(/\[object (.*?)\]/)[1].toLowerCase();
-}
-
-
-//key is length
-let arrLike = {
-    "2" : "a",
-    "3" : "b",
-    length : 2,
-    push : Array.prototype.push
-}
-arrLike.push("c");
-arrLike.push("d");
-arrLike
-
-let sendAjax = () => {
-    let xhr = new XMLHttpRequest()
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.state === 200) {
-            console.log(xhr.responseText);
-        }
-    }
-    xhr.open('GET', '/api', false)
-    xhr.send(null)
-}
-
-
 //async implement-----------------------------------------------------
 //promise
 let getNewsPromise = (url) => {
@@ -740,3 +660,185 @@ async function getNewsAsync(url) {
   console.log(result, result2);
 }
 getNewsAsync('http://localhost:3000/news?id=2')
+
+
+//real question------------------------
+function Foo() {
+    //global variable
+    getName = function () {
+        console.log("1")
+    };
+    return this;
+}
+Foo.getName = function () {
+    console.log("2")
+}
+Foo.prototype.getName = function () {
+    console.log("3")
+}
+var getName = function () {
+    console.log("4")
+}
+//hoist
+function getName() {
+    console.log("5")
+}
+//console.log(Foo.getName()); //2
+//console.log(getName()); //4
+//console.log(Foo().getName()); //1
+//console.log(getName()); //1
+// . > new > ()  ==> (new (Foo.getName))()
+//function() {console.log("2") use as constructor
+//console.log(new Foo.getName());
+//console.log(new Foo().getName());  //(new Foo()).getName()
+//console.log(new new Foo().getName()); //new ((new Foo()).getName)()
+
+
+//promise 简单说就是一个容器,里面保存着某个未来才会结束的事件的结果
+//promise也是一个对象 从它可以获取异步操作的信息
+//promise提供统一的API 各种操作都可以用同样的方法处理
+//开发者不需要再关注其底层的时序和结果
+//promise状态具有不可逆和不受外界影响
+
+
+let queryURLParamaterByRegex = (url) => {
+    let obj = {}
+    let reg = /([^?=&]+)=([^?=&]+)/g;
+    url.replace(reg, (...arg) => {
+        obj[arg[1]] = arg[2];
+    })
+    return obj;
+}
+
+
+let addURLParam = (url, name, value) => {
+    url += (url.indexOf("?") == -1 ? "?" : "&");
+    url += encodeURIComponent(name) + "=" + encodeURIComponent(value);
+    return url;
+}
+
+
+function getBuitlInType(obj) {
+    let str = Object.prototype.toString.call(obj);
+    return str.match(/\[object (.*?)\]/)[1].toLowerCase();
+}
+
+
+//key is length
+let arrLike = {
+    "2" : "a",
+    "3" : "b",
+    length : 2,
+    push : Array.prototype.push
+}
+arrLike.push("c");
+arrLike.push("d");
+
+
+let sendAjax = () => {
+    let xhr = new XMLHttpRequest()
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.state === 200) {
+            console.log(xhr.responseText);
+        }
+    }
+    xhr.open('GET', '/api', false)
+    xhr.send(null)
+}
+
+
+/*
+    undefined 代表定义但未赋值
+    null 定义且赋值了,只是值为null
+
+    初始赋值表明是一个对象 赋值为null
+    结束前设置变量为null便于垃圾回收
+*/
+
+
+//打开数组
+let arrTest = [1,[2,[3]],4,[5]];
+JSON.parse(`[${arrTest.toString()}]`)
+JSON.parse(`[${arrTest.join()}]`)
+
+
+//clone array
+arrTest.concat();
+arrTest.slice(0);
+
+
+//find max in an array
+//1.自己实现一个冒泡算法，实现就不多说了
+//2.利用Math的max方法
+//Math.max.apply(null, arrTest);
+//3.利用Array的sort方法先排序再取值
+//list.sort((a, b) => {return a-b;})
+
+
+//写出一些前端性能优化的方式
+// 1.减少dom操作
+// 2.部署前，图片压缩，代码压缩
+// 3.优化js代码结构，减少冗余代码
+// 4.减少http请求，合理设置http缓存
+// 5.使用内容分发cdn加速
+// 6.静态资源缓存
+// 7.图片延迟加载
+
+
+//cookie、sessionStorage和localStorage的区别
+// 1 存储时效来说：
+// cookie可以手动设置失效期，默认为会话级
+// sessionStorage的存储时长是会话级
+// localStorage的存储时长是永久，除非用户手动利用浏览器的工具删除
+// 2 访问的局限性：
+// cookie可以设置路径path，所有他要比另外两个多了一层访问限制
+// localStorage和sessionStorage的访问限制是文档源级别，即协议、主机名和端口
+// 还要注意的是，cookie可以通过设置domain属性值，可以不同二级域名下共享cookie，而Storage不可以
+// 比如http://image.baidu.com的cookie http://map.baidu.com是可以访问的，前提是Cookie的domain设置为".http://baidu.com"，而Storage是不可以的（这个很容易实验，就不细说了）
+// 3 存储大小限制：
+// cookie适合存储少量数据，他的大小限制是个数进行限制，每个浏览器的限制数量不同
+// Storage的可以存储数据的量较大，此外他是通过占用空间大小来做限制的，每个浏览器的实现也是不同的
+// 4 操作方法：
+// cookie是作为document的属性存在，并没有提供标准的方法来直接操作cookie
+// Storage提供了setItem()和getItem()还有removeItem()方法，操作方便不易出错
+// 5 其他：
+// cookie在发送http请求时，会将本地的cookie作为http头部信息传递给服务器
+// cookie可以由服务器通过http来设定
+
+
+//get vs post
+// 因为GET方法请求的参数都是放在请求的url上的，所以它与POST有以下明显的区别：
+// GET请求可以被添加到书签中，也可保存在浏览器历史记录中，POST不能
+// GET请求可以被浏览器缓存，POST不能
+// GET请求收到URL长度限制，所以数据长度也受限制，POST不会
+// GET请求只能传输ASCII字符，而POST不受此限制，还可以传输二进制数据
+// 在语义上两个方法也有区别：
+// GET 代表获取指定服务器上资源
+// POST 代表向指定的资源提交要被处理的数据
+
+
+//http状态码
+// 1xx ：1开头的状态码表示临时的响应
+// 2xx ：请求成功
+// 3xx ：请求被重定向
+// 4xx ：请求错误，表明客户端发送的请求有问题
+// 5xx ：服务器错误，表明服务端在处理请求时发生了错误
+
+// 301 ： Moved Permanently 客户端请求的文档在其他地方，新的URL在location头中给出
+// 304 ： Not Modified 客户端有缓存的文档并发出了一个条件性的请求（一般是提供If-Modified-Since头表示客户端只想到指定日期后再更新文档）。服务器告诉客户，原来缓存的文档还可以继续使用。
+// 400 ： Bad Request 请求出现语法错误
+// 401 ： Unauthorized 访问被拒绝，客户端试图胃镜授权访问受密码保护的页面
+// 403 ： Forbidden 资源不可用。服务器理解客户的请求，但拒绝处理它。通常由于服务器文件或目录的权限设置导致。
+// 404 ： Not Found 无法找到指定位置的资源。
+// 405 ： Method Not Allowed 请求方法（GET、POST、PUT等）对指定的资源不适用，用来访问本资源的HTTP方法不被允许。
+// 500 ： Internal Server Error 服务器遇到了意料之外的情况，不能完成客户端的请求。
+// 502 ： Bad Gateway 服务器作为网管或者代理时收到了无效的响应。
+// 503 ： Service Unavailable 服务不可用，服务器由于维护或者负载过中未能应答。
+// 504 ： Gateway Timeout 网关超时， 作为代理或网关的服务器不能及时的应答。
+
+
+//iframe有那些缺点
+// 1 iframe会阻塞主页面的Onload事件；
+// 2 搜索引擎的检索程序无法解读这种页面，不利于SEO;
+// 3 iframe和主页面共享连接池，而浏览器对相同域的连接有限制，所以会影响页面的并行加载。
+// 4 使用iframe之前需要考虑这两个缺点。如果需要使用iframe，最好是通过javascript动态给iframe添加src属性值，这样可以绕开以上两个问题
