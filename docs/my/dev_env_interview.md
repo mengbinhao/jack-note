@@ -56,6 +56,68 @@ git push origin master
 - 编辑文件内容 vi <文件名称>
 - 查找文件内容 grep '关键字' <文件名称>
 
+### 模块化
+#### CommonJS
+- 每个文件可当作一个模块
+- 服务器端: 模块的加载同步   nodejs实现
+- 浏览器端: 模块需要提前编译打包处理    browserify实现
+
+```javascript
+module.expoets = yyy
+exports.xxx = yyy
+
+require(xxx) //第三方 / 自定义
+```
+
+#### AMD
+- 专门用于浏览器端，异步加载
+- require.js实现
+
+
+```javascript
+//无依赖
+define(function() {
+    return xxx
+})
+
+//有依赖
+define(['moudle1', 'module2'], function(m1, m2) {
+    return xxx
+})
+
+
+requirejs(['moudle1', 'module2'], function(m1, m2) {
+    //使用m1  m2
+})
+```
+#### ES6 import
+依赖模块需要编译打包处理
+- export
+- import
+
+```javascript
+//分多次导出模块的多个部分
+export class Emp{  }
+export function fun(){  }
+export var person = {};
+
+//一次导出模块的多个部分
+class Emp{  }
+function fun(){  }
+var person = {};
+export {Emp, fun, person}
+
+//default导出(只能有一个)
+export default {}
+
+//导入模块
+import xxx from './myModule';
+import {Emp} from './myModule';
+import {Emp, person} from './myModule';
+import * as allFromModule from './myModule';
+```
+
+
 ### 何为构建工具
 “构建”也可理解为“编译”，就是将开发环境的代码转换成运行环境代码的过程。**开发环境的代码是为了更好地阅读，而运行环境的代码是为了更快地执行，两者目的不一样，因此代码形式也不一样**。例如，开发环境写的 JS 代码，要通过混淆压缩之后才能放在线上运行，因为这样代码体积更小，而且对代码执行不会有任何影响。总结一下需要构建工具处理的几种情况：
 

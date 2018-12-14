@@ -775,6 +775,46 @@ arrTest.slice(0);
 //list.sort((a, b) => {return a-b;})
 
 
+//输出什么
+// if (!(b in window)) {
+//     var b = 1;
+// }
+// console.log(b)
+
+//知道预解析规则
+// var c = 1
+// function c(c) {
+//     console.log(c)
+//     var c = 3
+// }
+// c(2)
+
+//作用域是静态的，上下文是动态的
+// var x = 10;
+// function fn() {
+//   console.log(x);
+// }
+// function show(f) {
+//   var x = 20;
+//   f();
+// }
+// show(fn);
+
+
+//作用域
+// let fn = () => {
+//     console.log(fn);
+// }
+// fn()
+// let obj = {
+//     fn2() {
+//         console.log(fn2);
+//     }
+// }
+// obj.fn2()
+
+
+
 //写出一些前端性能优化的方式
 // 1.减少dom操作
 // 2.部署前，图片压缩，代码压缩

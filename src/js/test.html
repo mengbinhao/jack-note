@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>vue-cli3</title>
+    <title>test</title>
 </head>
 
 <body>
@@ -13,17 +13,24 @@
         <li>li1</li>
         <li>li2</li>
         <li>li3</li>
-        <li>li4</li>
-        <li>li5</li>
     </div>
     <script>
-        const toCamelCase = str => {
-            let s = str && str.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)
-                .map(x => x.slice(0, 1).toUpperCase() + x.slice(1).toLowerCase()).join('');
-            return s.slice(0, 1).toLowerCase() + s.slice(1);
+        function fun(n, o) {
+            console.log(o)
+            return {
+                fun: function (m) {
+                    return fun(m, n);
+                }
+            };
         }
-
-        console.log(toCamelCase('some_database_field_name'));
+        var a = fun(0);
+        a.fun(1);
+        a.fun(2);
+        a.fun(3);
+        var b = fun(0).fun(1).fun(2).fun(3);
+        var c = fun(0).fun(1);
+        c.fun(2);
+        c.fun(3);
     </script>
 </body>
 
