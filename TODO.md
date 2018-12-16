@@ -105,7 +105,7 @@ https://juejin.im/post/5bdd57f451882517165d75cc                 Vue优化
 https://juejin.im/post/5ae02f39518825672f198ac2                 Vue小技巧
 https://segmentfault.com/a/1190000017159449                     Vue一次s引入所有公共组件
 https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
-
+https://juejin.im/post/5c133223e51d4540391749f5                 Vue工程化最佳实践
 
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
 https://segmentfault.com/a/1190000015684864                     Vue vs 微信小程序
@@ -125,7 +125,7 @@ https://segmentfault.com/a/1190000015894607                     React 开发你�
 https://uinika.github.io/web/broswer/angular.html               angular best practise
 https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初级到高级路线图
 https://segmentfault.com/a/1190000017133041                     详解react、redux、react-redux之间的关系
-
+https://www.linuxidc.com/Linux/2018-12/155827.htm               React基础与生命周期
 
 
 

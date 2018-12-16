@@ -6,6 +6,7 @@
   - js合并的时候一般最开始加分号
 - 对象属性访问方式2种(当属姓名包含特殊字符或属姓名不确定使用中括号)
 - A instanceof B: B函数的显示原型在A对象的隐式原型链上，返回true
+- 比较两个数字字符串的时候，至少一边要转型 `'12121212121' < +'5'`
 
 ### this
 1. 在全局环境中，this 的值指向全局对象( window 或 global )。
@@ -45,3 +46,20 @@
 - 返回值是两个操作数的中的一个(且仅一个). 首先对第一个操作数条件判断, 若为非布尔值则进行ToBoolean强制类型转换.再条件判断.
 - || => 条件判断为true, 则返回第一个操作数; 否则, 返回第二个操作数. 相当于 a ? a : b;
 - && => 条件判断为true, 则返回第二个操作数; 否则, 返回第一个操作数, 相当于 a ? b : a;
+
+### 显示类型转换
+#### 转string
+- toString()
+- String()  `可以转null、undefined`
+- xx + ''
+
+#### 转number
+- Number()
+- parseInt()   parseFloat() `针对字符串，如果是其它类型先转换成字符串`
+- ES6   Number.parseInt  Number.parseFloat
+- +xxxx
+- 进行\-0、 *1 、/1 可以转number
+
+#### 转boolean
+- Boolean()
+- !!xxx
