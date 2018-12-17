@@ -44,6 +44,20 @@ let arrayMergeAndRemoveRepetition =  () => {
     //     }
     // }
     // return result;
+
+
+    let test = (arr) => {
+        for (let i = 0; i < arr.length - 1; i++) {
+            for (let j = i+1; j < arr.length; j++) {
+                if (arr[i] === arr[j]) {
+                    arr.splice(j, 1)
+                    //in case like [2,2]
+                    j--
+                }
+            }
+        }
+        return arr
+    }
 }
 
 
@@ -760,6 +774,7 @@ let sendAjax = () => {
 let arrTest = [1,[2,[3]],4,[5]];
 JSON.parse(`[${arrTest.toString()}]`)
 JSON.parse(`[${arrTest.join()}]`)
+arrTest.join().split(',')
 
 
 //clone array

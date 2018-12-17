@@ -60,3 +60,15 @@ function Person2(name, age) {
 Person2.prototyoe.showName = function() {
     console.log(this.name);
 }
+
+
+//圣杯模式
+let inherit = (function () {
+    let F = function () {};
+    return function (Target, Origin) {
+        F.prototype = Origin.prototype;
+        Target.prototype = new F();
+        Target.prototype.constructor = Target;
+        Target.uber = Origin.prototype;
+    }
+}());

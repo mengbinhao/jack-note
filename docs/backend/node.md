@@ -84,20 +84,29 @@ node 扩展后 -> net、db、file...
 
    1. Global
 
-   2. Buffer(操作二进制数据流  TPC/图像/文件/网络)
-        - buf.length
-        - buf[index]
-        - buf.write(string[, offset[, length]][, encoding])
-        - buf.toString([encoding[, start[, end]]])
-        - buf.toJSON()
-        - buf.slice([start[, end]]) ->同一引用
-        - buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])
-        - buf.compare(otherBuffer)
-        - buf.fill(value, offset, end)
-        - Buffer.isEncoding(encoding)
-        - Buffer.isBuffer(obj)
-        - Buffer.byteLength(string[, encoding])
-        - Buffer.concat(list[, totalLength])
+   2. Buffer
+      1. 专门存储/操作二进制数据流(TPC/图像/文件/网络),js数组不行,数组效率也不行
+      2. 直接使用不需要引入
+      3. buffer中存储的数据都是二进制,但是显示是16进制
+      4. buffer中每一个元素占用1个字节 1byte = 8bit
+      5. buffer中每一个元素范围00-ff    0-255
+      6. buffer大小一旦确定,不能修改,实际上是对内存的直接操作
+      7. some API
+         - buf.length  //占用内存的大小
+         - buf[index]
+         - Buffer.alloc(10)
+         - Buffer.from(str)
+         - buf.write(string[, offset[, length]][, encoding])
+         - buf.toString([encoding[, start[, end]]]) //只要数子在页面或控制台全10进制输出
+         - buf.toJSON()
+         - buf.slice([start[, end]]) ->同一引用
+         - buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])
+         - buf.compare(otherBuffer)
+         - buf.fill(value, offset, end)
+         - Buffer.isEncoding(encoding)
+         - Buffer.isBuffer(obj)
+         - Buffer.byteLength(string[, encoding])
+         - Buffer.concat(list[, totalLength])
 
    3. Stream
         - data/readable/end/close/error
@@ -138,18 +147,39 @@ node 扩展后 -> net、db、file...
        - `EventEmitter.removeAllListeners([event])`：移除所有事件的所有监听器，如果指定event，则移除指定事件的所有监听器
        - `emitter.listenerCount(eventName)`
 
-   14. File System (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
-        - fs.open(path, flags[, mode], callback)
-        - fs.read(fd, buffer, offset, length, position, callback)
-        - fs.write(fd, buffer[, offset[, length[, position]]], callback)
-        - fs.write(fd, string[, position[, encoding]], callback)
-        - fs.close(fd, callback)
-        - fs.rename(oldPath, newPath, callback)
-        - fs.unlink(path, callback)
-        - fs.appendFile(file, data[, options], callback)
-        - fs.stat(path, callback)
-        - fs.watch(filename[, options][, listener])
-        - fs.mkdir / fs.rmdir / fs.readdir
+   14. FS (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
+       1.  简单文件读写
+       2.  流式文件读写(大文件)`fs.createWriteStream()`
+          ```javascript
+          let ws = fs.createWriteStream('xxx')
+          ws.once('open', function() {
+
+          })
+          ws.once('close', function() {
+
+          })
+          ws.write('xxxxxxxxxxxxxxxx')
+          //ws.close()
+          ws.end()
+          ```
+       3.  pipe  `rs.pipe(ws)`
+       4.  some API
+           - fs.open(path, flags[, mode], callback)
+           - fs.read(fd, buffer, offset, length, position, callback)
+           - fs.write(fd, buffer[, offset[, length[, position]]], callback)
+           - fs.write(fd, string[, position[, encoding]], callback)
+           - fs.close(fd, callback)
+           - fs.existsSync(path)
+           - fs.stat(path, callback)
+           - fs.unlink(path, callback)
+           - fs.readdir(path)
+           - fs.truncate(path, len, callback)
+           - fs.mkdir(path)
+           - fs.rmdir(path)
+           - fs.rename(oldPath, newPath, callback)
+           - fs.watchFile(filename[, options][, listener])
+           - fs.appendFile(file, data[, options], callback)
+
 
    15. Http
 
