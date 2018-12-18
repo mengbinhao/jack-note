@@ -897,3 +897,7 @@ arrTest.slice(0);
 // 2 搜索引擎的检索程序无法解读这种页面，不利于SEO;
 // 3 iframe和主页面共享连接池，而浏览器对相同域的连接有限制，所以会影响页面的并行加载。
 // 4 使用iframe之前需要考虑这两个缺点。如果需要使用iframe，最好是通过javascript动态给iframe添加src属性值，这样可以绕开以上两个问题
+
+//Etag和Last-Modified???
+//Etag和Last-Modified???
+//Etag和Last-Modified???
