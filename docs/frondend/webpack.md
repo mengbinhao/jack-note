@@ -1,20 +1,19 @@
 ### webpack(webpack.confg.js)
 1. 模块化
 2. 自定义文件或npm install
-3. 静态文件模块化   （nodejs可以模块化js 但静态文件不可以）
-
-      `npm install css-loader style-loader --save-dev`
-4. 借助于插件和加载器
+3. 静态文件模块化(nodejs可以模块化js,但静态文件不可以) `npm install css-loader style-loader --save-dev`
+4. loader
+5. plugin
 
 ### 优势
   1. 代码分离
-  2. 装载器 css sass jsx等
+  2. 装载器css、sass、jsx
   3. 智能解析   require("./template" + names + .ejs)
-  4. 打包（js  其他成员css less sass img由加载器实现 es6转es5）
+  4. 打包（js  其他成员css、less、sass、img由加载器实现、es6转es5）
         AMD
-        CMD
         CommonJS
-        ES6   都可以打包
+        ES6 都可以打包
+        CMD
   5. 开发工具  http服务器
   6. 代码改变自动刷新浏览器  自动编译
   7. 压缩代码
@@ -54,7 +53,7 @@
     ```
 8. npm run build    npm run dev  npm [run] start (只有start可以省略)
 9. 代码规范校验
-10. npx webpack   （全局命令）
+10. npx webpack(全局命令)
     npx webpack --config webpack.config.js(全局命令使用配置文件)
 
 ### 不打包第三方js
@@ -65,29 +64,33 @@
             //value 全局jQuery导出的接口对象
             jquery: 'jQuery',
         }
-    1. 需要通过import引入
-
-
-
+    3. 需要通过import引入
 ### 热更新（只能更新组件和css）
     const webpack = require('webpack');
     hot: true
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
 
-
 ### //webpack.config.js
  ```
     const HtmlWebpacjPlugin = requiew('html-webpack-plugin'); //install first
       module.exports = {
-          entry
-          output
+          entry: './src/js/entry.js',
+          output: {
+            filename: 'bundle.js',
+            //publicPath : 'dist/js/',
+            path: path.resolve(__dirname, 'dist/js')
+          },
           module: {
               //属性名后面版本roles
               loaders: [
                   {
                       test: /\.css$/,
                       //顺序相反的
+                      //use: [
+                      //  'style-loader',
+                      //  'css-loader'
+                      //]
                       loader: 'style-loader!css-loader'
                   },
                   {
@@ -96,6 +99,9 @@
                       //若图片大于limit 生成文件
                       //若图片小于生成base64,会有30%增大
                       //建议比较小的图片用base64
+                      //options: {
+                      //  limit: 8192
+                      //}
                       loader: 'url-loader?limit=4096'
                   },
                   {
@@ -118,10 +124,14 @@
               ]
           },
           plugins: [
-              new HtmlWebpacjPlugin({
-                  template:''  //参照物
-              })
-          ]
+                new HtmlWebpackPlugin({template: './index.html'}),
+                new CleanWebpackPlugin(['dist']))
+          ],
+          devServer: {
+              contentBase: path.join(__dirname, 'dist'),
+              compress: true,
+              port: 9000
+          }
       }
       import './xxx.css'
       import xxx from './xxx.js'
@@ -129,7 +139,6 @@
     ```
 
   - package.json
-
     ```
     "script": {
     	//--open --hot --inline --port
@@ -138,7 +147,3 @@
         "prod": "webpack --config ./webpack.prod.config.js"
     }
     ```
-
-
-
-
