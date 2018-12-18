@@ -48,7 +48,7 @@ https://juejin.im/post/5bfa5a8cf265da6124151e62                        js错误�
 http://web.jobbole.com/29454/   设计模式
 http://www.alloyteam.com/2012/10/common-javascript-design-patterns/    设计模式
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
-
+https://juejin.im/post/5c13804bf265da61553ab692#heading-15             前端项目与技术实践
 
 https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
 https://segmentfault.com/a/1190000016570003                    display:none与visibility:hidden
