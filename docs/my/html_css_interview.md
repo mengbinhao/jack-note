@@ -252,5 +252,38 @@ var data = ['string1', 'string2', 'string3'];
 for(var i = 0; i < data.length; i++){
     var dom = document.getElementById('list');
     dom.innerHTML += '<li>' + data[i] + '</li>';
-}s
+}
 ```
+
+### attr&prop
+- 什么是attribute？
+    html的预定义和自定义属性
+- 什么是property？
+    js对象身上的直接属性
+- 什么是布尔值属性，什么是非布尔值属性？
+    property所对应的属性值是否布尔类型
+- attribute和property的同步关系
+    - 非布尔值属性
+        实时同步
+    - 布尔值属性
+        - 没有动过property
+            - attribute会同步property
+            - property不会同步attribute
+        - 动过property
+            - attribute不会同步property
+            - property不会同步attribute
+- 浏览器认谁，用户操作的是谁
+    property
+- 在jQuery中的体现
+    attr()
+    prop()
+---总结
+    布尔值属性最好使用prop方法
+    非布尔值属性attr方法
+
+
+### DOCTYPE和浏览器渲染模式`document.compatMode`
+DOCTYPE，或者称为 Document Type Declaration（文档类型声明，缩写 DTD）
+通常情况下，DOCTYPE 位于一个 HTML 文档的最前面的位置，位于根元素 HTML 的起始标签之前。
+因为浏览器必须在解析 HTML 文档正文之前就确定当前文档的类型，以决定其需要采用的渲染模式，
+不同的渲染模式会影响到浏览器对于 CSS 代码甚至 JavaScript 脚本的解析
