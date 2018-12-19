@@ -62,6 +62,7 @@ export PATH=${M2_HOME}/bin:${PATH}
 <role rolename="admin-gui"/>
 <user username="tomcat" password="tomcat" roles="manager-gui,admin-gui"/>
 ```
+- commit `value tag` in context.xml if can not open manager page
 - change port if needed
 - chmod +x ./startup.sh, then sudo ./startup.sh
 - chmod +x ./shutdown.sh, then sudo ./shutdown.sh
@@ -132,7 +133,5 @@ if offical doc does not work, use below:
 - service jenkins stop
 - service jenkins restart
 - service jenkins status
-- /etc/default/jenkins   change port if needed
+- /etc/default/jenkins   change port if needed, can not change name!!!!!!!
 - /var/lib/jenkins/workspace/xxxx/target
-
-tomcat & jenkins change port can not be started
