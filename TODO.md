@@ -107,6 +107,8 @@ https://segmentfault.com/a/1190000017159449                     Vue一次s引入
 https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 https://juejin.im/post/5c133223e51d4540391749f5                 Vue工程化最佳实践
 
+
+https://segmentfault.com/a/1190000017414633                     Vue与React两个框架的粗略区别对比
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
 https://segmentfault.com/a/1190000015684864                     Vue vs 微信小程序
 https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/      ReactJS vs Angular 5 vs Vue.js
