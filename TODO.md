@@ -6,7 +6,7 @@
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
 
 
-
+https://juejin.im/post/5c1b69a1f265da61602ce477    express+mongodb+vue实现增删改查-全栈之路2.0
 https://segmentfault.com/a/1190000017343993        vue全家桶制作一个精致的美团项目
 https://github.com/liangfengbo/nodejs-koa2-mysql-sequelize-jwt   nodejs+koa2+mysql+sequelize+jwt，使用koa2框架，sequelize管理mysql数据库，jwt做权限接口验证，实现用户、文章管理接口
 https://coding.imooc.com/class/chapter/113              Vue2.0+Node.js+MongoDB 全栈打造商城系统
