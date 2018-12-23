@@ -15,7 +15,26 @@
         <li>li3</li>
     </div>
     <script>
-        let testArray = [1,2,3,3,4,5,6,5,7]
+        let debounce = (fn, delay = 50) => {
+            let timer = null
+            return function (...args) {
+                if (timer) clearTimeout(timer)
+                timer = setTimeout(() => {
+                    fn.apply(this, args)
+                }, delay)
+            }
+        }
+
+        function handler() {
+            console.log(Math.random());
+        }
+
+        let obj = {
+            name: 'Jack'
+        }
+
+        window.onresize = debounce(handler, 1000);
+
     </script>
 </body>
 
