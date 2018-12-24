@@ -1,11 +1,33 @@
 ### 渐进式
-Vue 的另一个大特点就是「渐进式」，意思就是你可以渐渐地用 Vue。而 React 几乎做不到这一点
+Vue 的另一个大特点就是「渐进式」，意思就是你可以渐渐地用Vue。而 React 几乎做不到这一点
 1. 你可以继续操作 DOM
 2. 你可以很方便地做 SEO
 3. 你可以局部做单页面
 4. 你可以整体做单页面
 
-### 1.vue属性
+### feature
+1. 遵守MVVM
+2. 编码简洁,体积小,运行效率高,适合PC/移动端开发
+3. 本身只关注UI
+
+### compare
+1. 借鉴Augular的模板和数据绑定
+2. 借鉴React组件化和虚拟DOM
+
+### plugins
+- vue-cli
+- axio
+- vue-router
+- vuex
+- vue-lazyload
+- vue-scroll
+- mint-ui
+- element-ui
+
+
+### grammar
+
+#### vue属性
 
 - el
 - data
@@ -13,43 +35,91 @@ Vue 的另一个大特点就是「渐进式」，意思就是你可以渐渐地�
 - methods
 - components
 - filters
-- watch -> singel
-- computed -> mutiple
-  - `computed` 是计算一个新的属性，并将该属性挂载到 vm（Vue 实例）上，而 `watch` 是监听已经存在且已挂载到 `vm` 上的数据，所以用 `watch` 同样可以监听 `computed` 计算属性的变化（其它还有 `data`、`props`）
-  - `computed` 本质是一个惰性求值的观察者，具有缓存性，只有当依赖变化后，第一次访问  `computed`  属性，才会计算新的值，而 `watch` 则是当数据发生变化便会调用执行函数
-  - 从使用场景上说，`computed` 适用一个数据被多个数据影响，而 `watch` 适用一个数据影响多个数据
+- watch -> singel data
+- computed -> mutiple data(写法类似方法,但当属性用)
+  - `computed`是计算一个新的属性,并将该属性挂载到vm上,而`watch`是监听已经存在且已挂载到`vm`上的数据,所以用`watch`同样可以监听`computed`计算属性的变化(其它还有 `data`、`props`)
+  - `computed`本质是一个惰性求值的观察者,具有缓存性,只有当依赖变化后,第一次访问`computed`属性,才会计算新的值,而`watch`则是当数据发生变化便会调用执行函数
+  - 从使用场景上说,`computed`适用一个数据被多个数据影响,而`watch`适用一个数据影响多个数据,`watch`适合异步或开销大的场景
+  - `methods`没有缓存
+  - `computed`的`getter` and `setter`
+- `class` and `style`
+  - 对象语法 `<div v-bind:class="{ active: isActive }"></div>`
+  - 对象语法`<div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>`
 
-### 2.插值表达式
+#### 插值表达式
 
 - 对象
 - 字符串
 - 判断后的布尔值
 - 三元
 
-### 3.directive / 指令修饰符
+#### directive / 指令修饰符
 
-- v-for、v-if、v-text、v-show、v-once、v-cloak
+- v-text、v-once、v-cloak、v-if、v-show
+- v-for
 - v-bind ==> :
 - v-on   ==> @
 - v-model:lazy
 
-### 4.filter(global / local)
+#### event
+- 事件修饰符
+- 自定义事件
 
-### 5.component(global / local)
+#### 表单输入绑定
+- 基础用法
+- 值绑定
+- 修饰符
 
-### 6.slot（默认 | 具名）
+#### filter(global / local)
 
-### 7.获取DOM
+#### component(global / local)
+
+#### slot（默认 | 具名）
+
+#### clock
+
+#### 获取DOM
 
 - \$el、\$root、\$parent
 - \$refs  获取组建内的元素 (eg: focus)
 
-### 7.父子组件(父传子-自定义属性 子传父--自定义事件)
+#### 父子组件(父传子-自定义属性 子传父--自定义事件)
+- prop + emit
+- slot(相关的js代码父组件直接定义好)
+- 直接父组件传递函数(原则数据在哪,操作在哪)
+- 钩子函数绑定
+```javascriopt
+//父组件
+mounted() {
+    this.$refs.xxx.$on('functionName', this.functionName)
+}
 
-### 8.生命周期
-![](../images/lifecycle.png)
+<TodoHeader ref="xxx" />
+```
+- pubsub-js(父孙,兄弟等关系进行传递数据比prop方便很多)
 
-### 9.路由
+#### 生命周期
+
+#### 初始化显示
+- beforeCreate
+- created
+- beforeMount
+- **mounted** 发送AJAX 启动定时器...
+
+#### 更新
+- beforeUpdate
+- updated
+
+
+#### 销毁
+- **beforeDestroy** 收尾 清除定时器...
+- destroyed
+
+
+### 动画
+
+
+#### 路由
 
 - onhashchange  (#xxx)
 

@@ -107,7 +107,7 @@ https://segmentfault.com/a/1190000017159449                     Vue一次s引入
 https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 https://juejin.im/post/5c133223e51d4540391749f5                 Vue工程化最佳实践
 
-
+https://segmentfault.com/a/1190000017480921                     vue 前端项目技术选型、开发工具、周边生态
 https://segmentfault.com/a/1190000017414633                     Vue与React两个框架的粗略区别对比
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
 https://segmentfault.com/a/1190000015684864                     Vue vs 微信小程序
@@ -118,7 +118,7 @@ https://juejin.im/entry/5b627627f265da0f66404074                vue vs react
 https://github.com/lihongxun945/myblog/issues/21                vue vs react
 https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?              vue vs react
 https://segmentfault.com/a/1190000016990339                     vue vs react vs angular
-
+https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e&chksm=f951af14ce262602a85acb6a932b1c2e7e2c8c4e659b9aa3067dda6e3a89b5baa198cab475b1&mpshare=1&scene=1&srcid=#rd                                    React学习路线
 
 https://juejin.im/post/5be5429de51d4511a808f4ac                 vscode项目配置 eslint+prettier
 https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
