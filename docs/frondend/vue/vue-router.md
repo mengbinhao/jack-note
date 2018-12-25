@@ -3,9 +3,12 @@
 2. register router
 3. \<router-link> \<router-view>
 
+
 ### 嵌套路由
 
+
 ### 路由缓存`<keep-alive>`
+
 
 ### 路由传参
 - param
@@ -58,6 +61,7 @@
 - 配置规则 {name:'xxx', path:'/xxx/:name'}
 - this.$router.go(-1|1)
 - this.$router.back()
+
 
 ### 路由钩子(权限控制的函数执行时期)
 - 每次路由匹配后,渲染组建到router-view之前
