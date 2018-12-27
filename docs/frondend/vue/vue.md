@@ -97,6 +97,13 @@ mounted() {
 <TodoHeader ref="xxx" />
 ```
 - pubsub-js(父孙,兄弟等关系进行传递数据比prop方便很多)
+- \$attrs、 \$listeners
+- \$children、\$refs、\$parent
+
+##### 多层父子组件通信
+通过vm.$parent.$parent访问，同理，子级的子级可以用vm.$children[index].$children[index]的方式
+##### 非父子组件通信
+通过共同的父级页面转换成父子通信，二是event bus
 
 #### 生命周期
 

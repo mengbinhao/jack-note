@@ -9,9 +9,122 @@
 
 
 
-### 2.transition
+### 3.transform
 
-元素从这个属性(color)的某个值(red)过渡到这个属性(color)的另外一个值(green)，这是一个状态的转变，需要一种条件来触发这种转变，比如我们平时用到的:hoever、:focus、:checked、媒体查询或者JavaScript。
+#### translate
+
+css里面一般用作“平移”，因为translate用于改变html元素的在3d坐标系位置。translate支持在坐标系内任意方向移动（通过任意组合x、y、z方向的向量），单位可以是长度单位和百分比（**百分比是相对于被平移的元素自身尺寸，x轴是相对于width，y轴是相对于height，而在z轴方向由于元素是没有‘厚度’的，所以对于z方向不能用百分比表示**）
+
+```css
+transform: translateX(100px) translateY(50%) translateZ(-100px);
+// 或者简写
+transform: translate3d(100px, 50%, 2em);
+```
+
+**注意：**
+
+1. `translate`是xy平面内的2维平移，`translate3d`是xyz空间内的三维平移；
+2. `translate`也可以单独书写，如 `translate: 50% 105px 5rem;`，但是该特性尚在实验阶段，很多浏览器不支持，所以现阶段还是配合`transform`使用。详情参考 [MDN translate](https://developer.mozilla.org/en-US/docs/Web/CSS/translate)。
+
+#### scale
+
+```css
+transform: scaleX(2) scaleY(0.5) scaleZ(1);
+// 或者简写
+transform: scale3d(2, 0.5, 1);
+```
+
+`scale`方法接收任意数字（正负整数、小数、0）作为参数，该参数为缩放系数，系数>1 效果为放大，0<系数<1 效果为缩小，系数=0 元素尺寸变为无限小而不可见，系数<0 效果为 >0 时的镜像。
+
+与`translate`类似，`scale`也有2维 `scale()` 和三维 `scale3d()`之分，也可以单独书写，此处不赘述。
+
+#### rotate
+
+Rotate意为“旋转”，支持将元素以x、y、z为轴旋转，旋转正方向为面朝坐标轴正向逆时针方向，可参考上面坐标系示意图。`rotate`方法接收一个角度作为参数，角度>0 正向旋转，角度<0 负向旋转
+
+```css
+// 默认绕z轴旋转
+transform: rotate(90deg);
+transform: rotateX(30deg) rotateY(60deg) rotateZ(-90deg);
+```
+
+与translate和scale不同，rotate不能简写为`transform: rotate3d(30deg, 60deg, 90deg)`的形式，`rotate3d`的用法为：前三个参数为数字，代表x、y、z方向的向量，相加得到向量v，第四个参数为角度，表示以向量v为轴逆时针旋转的角度，语法如下：
+
+```css
+transform: rotate3d(1, 2, 3, 90deg);
+```
+
+与`translate`和`scale`类似，`rotate`也可以作为单独的css属性，但还在实验阶段。
+
+**剩下的transform function请参考 MDN transform function。**
+
+#### 组合
+
+```css
+transform: translateY(200px) rotateZ(90deg) scale(3);
+```
+
+组合方法的执行顺序是从右往左，即先执行scale，然后rotate，最后translate，产生的效果是逐次累加的。方法书写的顺序对最后效果有很大的影响，看下面例子，沿y轴平移和放大，顺序不同，产生的结果有明显差别
+
+### 3.transition
+
+transition翻译为“过渡”，强调的是过程.元素从这个属性(color)的某个值(red)过渡到这个属性(color)的另外一个值(green)，这是一个状态的转变，需要一种条件来触发这种转变，比如我们平时用到的:hoever、:focus、:checked、媒体查询或者JavaScript
+
+```css
+.cloud{
+    width: 240px;
+    transition: 1s;
+}
+.cloud:hover{
+    width: 320px;
+}
+```
+
+
+
+transition可以和transform结合使用，比如我们可以让云变大的同时转一圈：
+
+```css
+.cloud:hover{
+    width: 320px;
+    transform: rotate(360deg);
+}
+```
+
+
+
+我们可以给不同的效果设置不同的过渡时间：
+
+```css
+.cloud{
+    width: 240px;
+    transition: width 1s, transform 0.5s;
+}
+```
+
+我们也可以给效果设置延时时间，比如我们等宽度增大之后再旋转：
+
+```css
+.cloud{
+    width: 240px;
+    transition: width 1s, transform 0.5s 1s;
+}
+```
+
+我们还可以给每个效果设置不同的timing function，用于控制加速效果。
+
+```css
+.cloud{
+    width: 240px;
+    transition: transform 2s ease-in;
+}
+
+.cloud:hover{
+    transform: rotate(1080deg);
+}
+```
+
+
 
 > transition.html
 
@@ -63,9 +176,9 @@
 
 
 
-### 3.animation
+### 4.animation
 
-transition属性的扩展，弥补了transition的很多不足，我理解为animation是由多个transition的效果叠加，并且可操作性更强，能够做出复杂酷炫的效果
+transition属性的扩展，弥补了transition的很多不足，我理解为animation是由多个transition的效果叠加，并且可操作性更强，能够做出复杂酷炫的效果,animation简写对书写顺序有一定要求（delay要写在duration后面，其他参数无顺序要求，css会通过传入的关键词识别）。
 
  >animation.html
 
@@ -135,6 +248,26 @@ transition属性的扩展，弥补了transition的很多不足，我理解为ani
 
  animation与transition 不同的是，keyframes提供更多的控制，尤其是时间轴的控制，这点让css animation更加强大，使得flash的部分动画效果可以由css直接控制完成，而这一切，仅仅只需要几行代码，也因此诞生了大量基于css的动画库，用来取代flash的动画部分。在我的项目中一般用 [Animate.css](https://link.juejin.im?target=https%3A%2F%2Fdaneden.github.io%2Fanimate.css%2F) 来设置一些动画，期待在工作中能够用animation完美实现UI设计师给的设计图～
 
-### 4.summary
+
+
+#### Chain Animation
+
+```css
+.mario {
+  ...
+  
+  animation: drive 3s both infinite linear, jump 0.5s 1.2s ease-in-out infinite;
+}
+
+@keyframes jump {
+  0% { top: -40px; }
+  50% { top: -120px; }
+  100% { top: -40px; }
+}
+```
+
+
+
+### 5.summary
 
 写这篇文章的目的是提醒自己不要将这四个属性混淆，顺便详细讲解CSS制作动画的方法，简单一次性的动画中推荐使用transition，比较逻辑清晰，可维护性较好。如果遇到比较复杂的动画，这个时候便可以拿出animation开始你的表演，其实不仅仅用css能实现动画，用js同样可以操控元素的样式实现动画，这个时候你脑海里是不是浮现出setTimeout,setInterval来控制样式实现动画，当然可以，但是相比新出的requestAnimationFrame，它能够更高性能地执行动画。

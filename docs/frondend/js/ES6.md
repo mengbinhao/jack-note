@@ -30,12 +30,17 @@
         >
         > 2 没有arguments,但有...
         >
-        > 3 不能用作构造函数
+        > 3 不能用作构造函数,new调用
         >
         > 4 不可用yield,因此不能用Generator函数
         >
-        > 5 不能通过call / apply / bind改变this
-
+        > 5 不能改变this绑定,即使通过call / apply / bind
+        >
+        > 6 形参名称不能重复
+        >
+        > 7 没有原型对象
+        >
+        > 8 没有自己的super和new.target绑定
 3. 解构(数组、对象、函数参数、解构不成功`undefined`)
     1. 排除对象不需要的属性 `var {child: {name:xinming='Jack', age}} = obj`
     2. 合并对象  let merged = {...obj1, ...obj2} 注意重复属性后面覆盖前面

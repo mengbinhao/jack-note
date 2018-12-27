@@ -9,32 +9,19 @@
 </head>
 
 <body>
-    <div>
+    <ul id="test">
         <li>li1</li>
         <li>li2</li>
         <li>li3</li>
-    </div>
+    </ul>
     <script>
-        let debounce = (fn, delay = 50) => {
-            let timer = null
-            return function (...args) {
-                if (timer) clearTimeout(timer)
-                timer = setTimeout(() => {
-                    fn.apply(this, args)
-                }, delay)
-            }
+        const li = document.querySelector('#test')
+        let child = null
+            i = 0
+        while(child = li.firstChild && i < 10) {
+            console.log(li.firstChild.innerHTML)
+            i++
         }
-
-        function handler() {
-            console.log(Math.random());
-        }
-
-        let obj = {
-            name: 'Jack'
-        }
-
-        window.onresize = debounce(handler, 1000);
-
     </script>
 </body>
 
