@@ -178,6 +178,7 @@ https://segmentfault.com/a/1190000016736645           总结
 http://0313.name/archives/502#JavaScript              interview
 https://segmentfault.com/a/1190000016953153           interview
 https://segmentfault.com/a/1190000016848192           promise
+https://juejin.im/post/5ab20c58f265da23a228fe0f#heading-6   promise
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
 https://juejin.im/post/5b0562306fb9a07aaf3596c1       interview
