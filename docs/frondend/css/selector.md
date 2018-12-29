@@ -6,7 +6,7 @@
 5. [id]/[id="xxx"]
 6. div span em / .ouuter .inner em(父子选择器只要关系成立就行,其下所有满足关系的dom都影响,浏览器自右向左查找)
 7. div > span 直接子元素
-8. div.demo  并列选择器，必须没空格
+8. div.demo  并列选择器，必须没空格,同时成立
 9.  .demo1, .demo2  分组选择权
 10. a:hover  伪类选择器
 
@@ -86,6 +86,8 @@
    E:nth-lash-of-type(n)：该选择器定位元素E的导数第n个指定类型子元素：
    .class p:nth-child(2) 与 .class p:nth-of-type(2) 的区别在于，如果.class里的第2个子元素不是P元素时，.class p:nth-child(2) 的样式将无效，而.class p:nth-of-type(2) 将定位在 .class 里的第2个p元素
    nth-child(n)、nth-last-child(n)、nth-of-type(n)、nth-last-of-type(n)，这其中的 n 可以使用数字静态式，比如 .nth-child(2n+1) 将匹配第1、3、5...个元素
+   nth-child(odd)
+   nth-child(even)
    E:first-child：父元素的第一个子元素E，与:nth-child(1)相同
    E:last-child：父元素的倒数第一个子元素E
    E:first-of-type：与:nth-of-type(1)相同
@@ -110,7 +112,7 @@
    ```
 
 ### 优先级
-`!important > id > class | attr > tagName > *`
+`!important(放在最后即分号前) > id > class | attr > tagName > *`
 
 ### CSS权重(256进制)
 

@@ -6,19 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>test</title>
+    <style>
+        .div1.div2 {
+            color: red;
+        }
+        /* .div2 {
+            color: blue;
+        } */
+        #test.demo {
+            color:blue;
+        }
+    </style>
 </head>
 
 <body>
-    <ul id="test">
+    <ul>
         <li>li1</li>
         <li>li2</li>
         <li>li3</li>
     </ul>
+    <div class="div1">div1
+    </div>
+    <div class="div2">div2</div>
+    <div id="test2">test
+        <div class="demo2">demo</div>
+    </div>
+    <div id="test" class="demo">demo</div>
     <script>
-        let p = new Promise(function(resolve, reject) {
-            
-        })
-        console.log(p)
+        let arr = [1,2,,undefined,3]
+        let show = function(item) {
+            console.log(item + '-')
+        }
+        Array.prototype.myMap = function(fn) {
+            let result = []
+            for(let i = 0; i < this.length; i++) {
+                result[i] = fn.call(undefined, this[i], i, this)
+            }
+            return result
+        }
+        arr.myMap(show)
     </script>
 </body>
 

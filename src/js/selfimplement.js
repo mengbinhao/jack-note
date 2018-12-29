@@ -65,8 +65,8 @@ Array.prototype.myForEach = function (fn) {
 Array.prototype.myMap = function (fn) {
     let result = []
     for (let i = 0; i < this.length; i++) {
+        //filter empty position
         if (i in this) {
-            //result[i] = fn.call(undefined, this[i], i, this)
             result.push(fn.call(undefined, this[i], i, this))
         }
     }
@@ -77,6 +77,7 @@ Array.prototype.myMap = function (fn) {
 Array.prototype.myFilter = function (fn) {
     let result = []
     for (let i = 0; i < this.length; i++) {
+        //filter empty position
         if (i in this) {
             if (fn.call(undefined, this[i], i, this)) {
                 result.push(this[i])
