@@ -18,6 +18,7 @@ https://segmentfault.com/a/1190000016420985    各種前端
 
 http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
+https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect  Vue学习路线
 
 
 
@@ -29,6 +30,7 @@ https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 https://juejin.im/post/5bf676acf265da6166241b0e   Vue2.5+Node.js搭建一个多页面商城
 
 
+https://juejin.im/post/5c2839566fb9a049fa0fd926   封装AJAX
 https://blog.hhking.cn/2018/11/29/html5-img-upload/                    HTML5图片上传解决方案
 https://segmentfault.com/a/1190000017143278                            node+mongodb部署在服务器并进行性能优化
 https://juejin.im/entry/5baef5cef265da0ad13b8c01                       frond cache

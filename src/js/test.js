@@ -66,4 +66,3 @@ let test2 = (arr) => {
 
 let r = test(testArray)
 let r2 = test2(testArray)
-r2

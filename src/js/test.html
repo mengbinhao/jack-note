@@ -10,11 +10,12 @@
         .div1.div2 {
             color: red;
         }
+
         /* .div2 {
             color: blue;
         } */
         #test.demo {
-            color:blue;
+            color: blue;
         }
     </style>
 </head>
@@ -33,18 +34,14 @@
     </div>
     <div id="test" class="demo">demo</div>
     <script>
-        let arr = [1,2,,undefined,3]
-        let show = function(item) {
-            console.log(item + '-')
-        }
-        Array.prototype.myMap = function(fn) {
-            let result = []
-            for(let i = 0; i < this.length; i++) {
-                result[i] = fn.call(undefined, this[i], i, this)
-            }
-            return result
-        }
-        arr.myMap(show)
+        const clothesArr = [
+            { username: "sunan", haveA02: false, basePrice: 30 },
+            { username: "fenshuajiang", haveA02: true, basePrice: 10 },
+            { username: "huixin", haveA02: true, basePrice: 20 }
+        ]
+        const abc = clothesArr.map(item => {
+            return item.haveA02 ? { ...item, basePrice: item.basePrice + 100 } : item
+        })
     </script>
 </body>
 
