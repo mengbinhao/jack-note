@@ -4,7 +4,7 @@
 | ------------------ | ------------------------------------------------------------ |
 | animation（动画）  | 用于设置动画属性，他是一个简写的属性，包含8个属性            |
 | transition（过渡） | 用于设置元素的样式过度，和animation有着类似的效果，但细节上有很大的不同 |
-| transform（变形）  | 用于元素进行旋转、缩放、移动或倾斜，和设置样式的动画并没有什么关系，就相当于color一样用来设置元素的“外表” |
+| transform（变形）  | 用于元素进行旋转、缩放、移动或倾斜，和设置样式的动画并没有什么关系，就相当于color一样用来设置元素的“外表”,**只能使用在块级元素上** |
 | translate（移动）  | translate只是transform的一个属性值，即移动。                 |
 
 
@@ -167,14 +167,20 @@ transition可以和transform结合使用，比如我们可以让云变大的同�
 
  语法：**transition: property duration timing-function delay;**
 
-| property                   | description                       |
-| -------------------------- | --------------------------------- |
-| transition-property        | 规定设置过渡效果的 CSS 属性的名称 |
-| transition-duration        | 规定完成过渡效果需要多少秒或毫秒  |
-| transition-timing-function | 规定速度效果的速度曲线            |
-| transition-delay           | 定义过渡效果何时开始              |
+| property                   | description                                                  |
+| -------------------------- | ------------------------------------------------------------ |
+| transition-property        | 规定设置过渡效果的CSS属性的名称（并不是所有的属性都可以动画） |
+| transition-duration        | 指定过渡动画的时间（0也要带单位）                            |
+| transition-timing-function | 规定速度效果的速度曲线（贝塞尔）                             |
+| transition-delay           | 指定过渡动画的延迟                                           |
 
+**Note**
 
+1. `transition`第一个可以被解析成时间的值会赋给transition-duration
+2. `transtionend`事件(DOM2),在每个属性完成过渡时都会触发这个事件
+3. 当属性值的列表长度不一致时
+    1. 跟时间有关的重复列表
+    2. transition-timing-function使用默认值
 
 ### 4.animation
 
@@ -239,14 +245,14 @@ transition属性的扩展，弥补了transition的很多不足，我理解为ani
 | --------------- | ------------------------------------------------------------ |
 | name            | 用来调用@keyframes定义好的动画，与@keyframes定义的动画名称一致 |
 | duration        | 指定元素播放动画所持续的时间                                 |
-| timing-function | 规定速度效果的速度曲线，是针对每一个小动画所在时间范围的变换速率 |
-| delay           | 定义在浏览器开始执行动画之前等待的时间，值整个animation执行之前等待的时间 |
-| iteration-count | 定义动画的播放次数，可选具体次数或者无限(infinite)           |
-| direction       | 设置动画播放方向：normal(按时间轴顺序),reverse(时间轴反方向运行),alternate(轮流，即来回往复进行),alternate-reverse(动画先反运行再正方向运行，并持续交替运行) |
+| timing-function | 规定速度效果的速度曲线，是针对每一个小动画所在时间范围的变换速率,作用于一个关键帧周期而非整个动画周期 |
+| delay           | 定义在浏览器开始执行动画之前等待的时间，整个animation执行之前等待的时间,这是一个动画外的属性 |
+| iteration-count | 定义动画的播放次数，可选具体次数或者无限(infinite),（只会管理动画内的属性，动画的延迟不会被循环） |
+| direction       | 设置动画播放方向：normal(按时间轴顺序),reverse(时间轴反方向运行),alternate(轮流，即来回往复进行),alternate-reverse(动画先反运行再正方向运行，并持续交替运行),还会影响animation-timing-function的形式 |
 | play-state      | 控制元素动画的播放状态，通过此来控制动画的暂停和继续，两个值：running(继续)，paused(暂停) |
 | fill-mode       | 控制动画结束后，元素的样式，有四个值：none(回到动画没开始时的状态)，forwards(动画结束后动画停留在结束状态)，backwords(动画回到第一帧的状态)，both(根据animation-direction轮流应用forwards和backwards规则)，注意与iteration-count不要冲突(动画执行无限次) |
 
- animation与transition 不同的是，keyframes提供更多的控制，尤其是时间轴的控制，这点让css animation更加强大，使得flash的部分动画效果可以由css直接控制完成，而这一切，仅仅只需要几行代码，也因此诞生了大量基于css的动画库，用来取代flash的动画部分。在我的项目中一般用 [Animate.css](https://link.juejin.im?target=https%3A%2F%2Fdaneden.github.io%2Fanimate.css%2F) 来设置一些动画，期待在工作中能够用animation完美实现UI设计师给的设计图～
+ animation与transition 不同的是，keyframes提供更多的控制，尤其是时间轴的控制，这点让css animation更加强大，使得flash的部分动画效果可以由css直接控制完成，而这一切，仅仅只需要几行代码，也因此诞生了大量基于css的动画库，用来取代flash的动画部分。在我的项目中一般用 [Animate.css](https://link.juejin.im?target=https%3A%2F%2Fdaneden.github.io%2Fanimate.css%2F) 来设置一些动画，期待在工作中能够用animation完美实现UI设计师给的设计图
 
 
 

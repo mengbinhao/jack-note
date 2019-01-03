@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>未知宽度</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .wrapper {
+            width: 250px;
+            height: 200px;
+            background: pink;
+            position: relative;
+            text-align: center;
+            padding: 20px;
+        }
+        /*  即使子元素不止一个也想实现水平居中也是有效的，
+            （宽度固定不固定都可，不固定的话就不需要设置宽度，会被自动撑开，
+            但是要考虑到撑爆的情况）*/
+        .inner {
+            display: inline-block;
+            width: 50px;
+            height: 150px;
+            margin: 0 auto;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inner">22</div>
+    </div>
+</body>
+</html>

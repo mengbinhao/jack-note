@@ -931,3 +931,20 @@ arrTest.slice(0);
 
 //三栏布局  居中  圣杯  双飞翼
 //粘帖布局
+
+// 什么是attribute？
+// 	html的预定义和自定义属性
+// 什么是property？
+// 	js对象身上的直接属性
+// 什么是布尔值属性，什么是非布尔值属性？
+// 	property所对应的属性值是否布尔类型
+// attribute和property的同步关系
+// 	非布尔值属性
+// 		实时同步
+// 	布尔值属性
+// 		没有动过property
+// 			attribute会同步property
+// 			property不会同步attribute
+// 		动过property
+// 			attribute不会同步property
+// 			property不会同步attribute

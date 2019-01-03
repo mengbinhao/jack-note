@@ -45,7 +45,7 @@ header {
 
 要将LOGOUT按钮移动到最右侧，给该元素左侧一个边距：
 ```css
-header> div：nth-​​child(3){
+header> div：nth-child(3){
     margin-left：auto;
 }
 ```
@@ -73,7 +73,7 @@ header {
 这种方法的主要区别在于我们必须首先定义列和列的宽度，然后将内容放在可用的网格单元格中 为了将LOGOUT按钮移动到最右侧，我们将其放在第十列，如下所示：
 
 ```css
-header> div：nth-​​child（3）{
+header> div：nth-child（3）{
     grid-column：10;
 }
 ```
@@ -116,7 +116,7 @@ header {
     display：flex;
 }
 
-header> div：nth-​​child（3）{
+header> div：nth-child（3）{
     margin-left：auto;
 }
 ```

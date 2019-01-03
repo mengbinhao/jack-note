@@ -17,7 +17,7 @@
 4. **属性是否可继承**
    - left top right bottom width height 默认值为auto不可继承
 
-5.   百分比参照于谁
+5. 百分比参照于谁
 - width margin padding:包含块的width
 - height:包含块的height
 - left:包含块的width
@@ -36,7 +36,6 @@
     - 浮动
     - 圣杯(推荐)
     - 双飞翼(推荐)
-
 
 8. margin为负值(margin不影响元素的位置)
 负值:将元素的边界往里收
@@ -65,3 +64,23 @@
 - 图片
 
 15. css hack(主要针对IE10以下)
+16. 溢出显示省略号
+```css
+div {
+    white-space:no-wrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+```
+17. 如何实现一张图片的垂直水平居中
+```css
+body:after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
+```
