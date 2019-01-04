@@ -1,8 +1,8 @@
 ### css
-1. #id
-2. .class
-3. div
-4. *
+1. #id     ID
+2. .class  类
+3. div     ID元素
+4. *       通配
 5. [id]/[id="xxx"]
 6. div span em / .ouuter .inner em(父子选择器只要关系成立就行,其下所有满足关系的dom都影响,浏览器自右向左查找)
 7. div > span 直接子元素
