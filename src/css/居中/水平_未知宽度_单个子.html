@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>未知宽度</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .wrapper {
+            width: 300px;
+            height: 200px;
+            background: pink;
+            position: relative;
+            text-align: center;
+        }
+        /* 将子元素设置为行内元素，然后父元素设置 text-align: center*/
+        .inner {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="inner">22</div>
+    </div>
+</body>
+</html>

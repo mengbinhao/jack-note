@@ -1,36 +1,37 @@
 ### 什么是跨域请求
 
-首先，我们要了解什么是跨域请求。简单来说，当一台服务器资源从另一台服务器（不同的域名或者端口）请求一个资源时，就会发起一个跨域 HTTP 请求。
+简单来说，当一台服务器资源从另一台服务器（不同的域名或者端口）请求一个资源时，就会发起一个跨域 HTTP 请求。
 
 举个简单的例子，http://example-a.com/index.html 这个 HTML 页面请求了 http://example-b.com/resource/image.jpg 这个图片资源时（发起 Ajax 请求，非 <img> 标签），就是发起了一个跨域请求。
 
 在不做任何处理的情况下，这个跨域请求是无法被成功请求的，因为浏览器基于同源策略会对跨域请求做一定的限制。
 
+![](./images/crossdomain-9.png)
 ### 浏览器同源策略
 
-这就引出了浏览器的同源策略（Same-origin policy），同源策略限制了从同一个源加载的文档或者脚本如何与来自另一个源的资源进行交互。这是一个用于隔离潜在恶意文件的重要安全机制。
+浏览器的同源策略（Same-origin policy），同源策略限制了从同一个源加载的文档或者脚本如何与来自另一个源的资源进行交互。这是一个用于隔离潜在恶意文件的重要安全机制。
 
-什么是同源？同源需要同时满足三个条件：
+同源需要同时满足三个条件：
 
 1. 请求的协议相同（例如同为 http 协议）
 2. 请求的域名相同（例如同为 www.example.com）
 3. 请求的端口相同（例如同为 80 端口）
 
-第 2 点需要注意的是，必须是域名完全相同，比如说 blog.example.com 和 mail.example.com 这两个域名，虽然它们的顶级域名和二级域名（均为 example.com）都相同，但是三级域名（blog 和 mail）不相同，所以也不能算作域名相同。
+第 2 点需要注意的是，必须是域名完全相同，比如说`blog.example.com`和`mail.example.com`这两个域名，虽然它们的顶级域名和二级域名（均为 example.com）都相同，但是三级域名（blog 和 mail）不相同，所以也不能算作域名相同。
 
 如果不同时满足这上面三个条件，那就不符合浏览器的同源策略。
 
-修改 document.domain 参数可以更改当前的源，例如 blog.example.com 想要访问父域 example.com 的资源时，可以执行`document.domain = 'example.com';`来进行修改
+修改`document.domain`参数可以更改当前的源，例如`blog.example.com`想要访问父域`example.com`的资源时，可以执行`document.domain = 'example.com';`来进行修改
 
-但是 document.domain 不能被设置为 foo.com 或者是 bar.com，因为它们不是 blog.example.com 的超级域。
+但是`document.domain`不能被设置为`foo.com`或者是`bar.com`，因为它们不是 `blog.example.com`的超级域。
 
 当然，也不是所有的交互都会被同源策略拦截下来，下面两种交互就不会触发同源策略：
 
 - 跨域写操作（Cross-origin writes），例如超链接、重定向以及表单的提交操作，特定少数的 HTTP 请求需要添加预检请求（preflight）
 - 跨域资源嵌入（Cross-origin embedding）
-    - `<script>`标签嵌入的跨域脚本
-    - `<link>`标签嵌入的 CSS 文件
-    - `<img>`标签嵌入图片
+    - `<script>`标签嵌入的跨域脚本,可以使用 CDN，CDN 基本都是其他域的链接,还可以实现 JSONP
+    - `<link>`标签嵌入的 CSS 文件,可以使用 CDN，CDN 基本都是其他域的链接
+    - `<img>`标签嵌入图片,可以做打点统计，因为统计方并不一定是同域的，在讲解 JS 基础知识异步的时候有过代码示例。除了能跨域之外，`<img>`几乎没有浏览器兼容问题，它是一个非常古老的标签
     - `<video>`和`<audio>`标签嵌入多媒体资源
     - `<object>`, `<embed>`, `<applet>`的插件
     - `@font-face`引入的字体，一些浏览器允许跨域字体（cross-origin fonts），一些需要同源字体（same-origin fonts）
@@ -45,7 +46,7 @@
 常见的方法有四种：
 1. JSONP
 2. `<iframe>`标签
-3. CORS（Cross-origin resource sharing，跨域资源共享）
+3. **CORS（Cross-origin resource sharing，跨域资源共享）**
 4. 代理服务器
 
 前两种方式本质上是利用浏览器同源策略的漏洞来进行跨域请求，不是推荐的做法，只能作为低版本浏览器的缓兵之计。
@@ -253,15 +254,17 @@ HTTP 响应 Headers：
 - Access-Control-Expose-Headers：让服务器把允许浏览器访问的头放入白名单，这样浏览器就能使用 getResponseHeader 方法来访问了；
 - Access-Control-Max-Age：指定了预检请求的结果能够被缓存多久；
 - Access-Control-Allow-Credentials：指定了当浏览器的credentials设置为 true 时是否允许浏览器读取 response 的内容；
+- Access-Control-Allow-Methods 首部字段用于预检请求的响应。其指明了实际请求所允许使用的 HTTP 方法。
 - Access-Control-Allow-Headers：用于预检请求的响应。其指明了实际请求中允许携带的首部字段。
 
-### 服务器端实现
+#### 服务器端实现
 
 为了实现 CORS，在服务器端需要做一些工作，最主要的就是在响应 Header 中添加指定的字段。
 
-如果是使用 Python + Flask 的开发的话，可以在 after_app_request 钩子函数中添加指定的响应头：
+##### Python + Flask
+在 after_app_request 钩子函数中添加指定的响应头：
 
-```
+```python
 @app.after_app_request
 def after_request(response):
     """正常请求结束后的处理"""
@@ -274,39 +277,229 @@ def after_request(response):
     )
 
     # ... some code here
-
     return response
 ```
-
 其他语言在对应的钩子函数中处理即可
 
+##### PHP后台配置
 
-### jsonp
+- 第一步:配置Php 后台允许跨域
+
+```php
+<?php
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept');
+//主要为跨域CORS配置的两大基本信息,Origin和headers
+```
+
+- 第二步:配置Apache web服务器跨域(httpd.conf中)
+
+```
+<Directory />
+    AllowOverride none
+    Require all denied
+</Directory>
+```
+改为以下代码
+
+```
+<Directory />
+    Options FollowSymLinks
+    AllowOverride none
+    Order deny,allow
+    Allow from all
+</Directory>
+```
+
+##### Node.js后台配置(express)
+```javascript
+app.all('*', function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+    res.header("X-Powered-By", ' 3.2.1')
+        //这段仅仅为了方便返回json而已
+    res.header("Content-Type", "application/json;charset=utf-8");
+    if(req.method == 'OPTIONS') {
+        //让options请求快速返回
+        res.sendStatus(200);
+    } else {
+        next();
+    }
+});
+```
+
+```javascript
+var express=require('express');
+var url=require('url');
+var app=express();
+var allowCrossDomain = function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', 'http://localhost:63342');
+    res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE');
+    res.header('Access-Control-Allow-Headers', 'Content-Type');
+    res.header('Access-Control-Allow-Credentials','true');
+    next();
+};
+app.use(allowCrossDomain);
+app.get('/getData',function (req,res,next) {
+    var queryValue=url.parse(req.url).query;
+    if(queryValue==='fortunewheel@sina.com'){
+        res.send(true);
+    }else {
+        res.send(false);
+    }
+
+});
+app.listen(3001);
+```
+
+##### JAVA后台配置
+
+- 第一步:获取依赖jar包 (下载 cors-filter-1.7.jar, java-property-utils-1.9.jar 这两个库文件放到lib目录下。(放到对应项目的webcontent/WEB-INF/lib/下))
+- - 第二步:如果项目用了Maven构建的,请添加如下依赖到pom.xml中:(非maven请忽视)
+
+```
+<dependency>
+    <groupId>com.thetransactioncompany</groupId>
+    <artifactId>cors-filter</artifactId>
+    <version>[ version ]</version>
+</dependency>
+```
+
+- 第三步:添加CORS配置到项目的Web.xml中( App/WEB-INF/web.xml)
+
+```
+<!-- 跨域配置-->
+<filter>
+        <!-- The CORS filter with parameters -->
+        <filter-name>CORS</filter-name>
+        <filter-class>com.thetransactioncompany.cors.CORSFilter</filter-class>
+
+        <!-- Note: All parameters are options, if omitted the CORS
+             Filter will fall back to the respective default values.
+          -->
+        <init-param>
+            <param-name>cors.allowGenericHttpRequests</param-name>
+            <param-value>true</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.allowOrigin</param-name>
+            <param-value>*</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.allowSubdomains</param-name>
+            <param-value>false</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.supportedMethods</param-name>
+            <param-value>GET, HEAD, POST, OPTIONS</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.supportedHeaders</param-name>
+            <param-value>Accept, Origin, X-Requested-With, Content-Type, Last-Modified</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.exposedHeaders</param-name>
+            <!--这里可以添加一些自己的暴露Headers   -->
+            <param-value>X-Test-1, X-Test-2</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.supportsCredentials</param-name>
+            <param-value>true</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>cors.maxAge</param-name>
+            <param-value>3600</param-value>
+        </init-param>
+
+    </filter>
+
+    <filter-mapping>
+        <!-- CORS Filter mapping -->
+        <filter-name>CORS</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+```
+
+请注意,以上配置文件请放到web.xml的前面,作为第一个filter存在(可以有多个filter的)
+
+- 第四步:可能的安全模块配置错误(注意，某些框架中-譬如公司私人框架，有安全模块的，有时候这些安全模块配置会影响跨域配置，这时候可以先尝试关闭它们)
+
+##### JAVA Spring Boot配置
+```
+@Configuration
+public class CorsConfig {
+
+    private CorsConfiguration buildConfig() {
+        CorsConfiguration corsConfiguration = new CorsConfiguration();
+
+        // 可以自行筛选
+        corsConfiguration.addAllowedOrigin("*");
+        corsConfiguration.addAllowedHeader("*");
+        corsConfiguration.addAllowedMethod("*");
+
+        return corsConfiguration;
+    }
+
+    @Bean
+    public CorsFilter corsFilter() {
+        UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
+
+        source.registerCorsConfiguration("/**", buildConfig());
+
+        return new CorsFilter(source);
+    }
+}
+```
+新建配置，然后添加Configuration注解即可配置成功
+
+##### NET后台配置
+- 第一步:网站配置
+
+打开控制面板，选择管理工具,选择iis;右键单击自己的网站，选择浏览;打开网站所在目录,用记事本打开web.config文件添加下述配置信息,重启网站
+
+![](./images/ajax-5.png)
+
+请注意,以上截图较老,如果配置仍然出问题,可以考虑增加更多的headers允许,比如:
+
+`"Access-Control-Allow-Headers":"X-Requested-With,Content-Type,Accept,Origin"`
+
+- 第二步:其它更多配置,如果第一步进行了后,仍然有跨域问题，可能是:
+    - 接口中有限制死一些请求类型(比如写死了POST等)，这时候请去除限 制
+    - 接口中，重复配置了Origin:*，请去除即可
+    - IIS服务器中，重复配置了Origin:*，请去除即可
+
+##### 代理请求方式解决接口跨域问题
+搜索关键字`node.js,代理请求`即可找到一大票的方案
+
+#### OPTIONS预检的优化
+`Access-Control-Max-Age:`
+
+这个头部加上后，可以缓存此次请求的秒数。
+
+在这个时间范围内，所有同类型的请求都将不再发送预检请求而是直接使用此次返回的头作为判断依据。
+
+非常有用，可以大幅优化请求次数
+
+### 其他跨域解决方案
+
+#### jsonp（只支持GET）
+jsonp解决跨域问题是一个比较古老的方案(实际中不推荐使用),这里做简单介绍(实际项目中如果要使用JSONP,一般会使用JQ等对JSONP进行了封装的类库来进行ajax请求)
 
 客户端代码：
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>jsonp-跨域</title>
-<script type="text/javascript" src="resources/js/jquery-1.8.3.min.js"></script>
+```javascript
 <script type="text/javascript">
+    //原生实现
     function callbackFn(data){
         data = typeof data != 'string' ? JSON.stringify(data) : data;
         console.log('callback:'+data);
-    }
-    function jsonpFn(){
-        $.ajax({
-            type:"get",
-            dataType:"jsonp",
-            url:"http://localhost:9393/ccy_server/server.jsp",
-            jsonpCallback:"callbackFn",
-            success:function(data){
-                data = typeof data != 'string' ? JSON.stringify(data) : data;
-                console.log('success.data:'+data);
-            }
-        });
     }
     function ajaxFn(){
         var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
@@ -322,16 +515,49 @@ def after_request(response):
         xmlhttp.send(null);
     }
     ajaxFn();
-    //jsonpFn();
 </script>
-</head>
-<body>
-
-</body>
-</html>
 ```
 
-服务端代码：
+```javascript
+//jquery ajax请求实现
+function callbackFn(data){
+    data = typeof data != 'string' ? JSON.stringify(data) : data;
+    console.log('callback:'+data);
+}
+
+function jsonpFn(){
+    $.ajax({
+        type:"get",
+        dataType:"jsonp",
+        url:"http://localhost:9393/ccy_server/server.jsp",
+        jsonpCallback:"callbackFn",
+        success:function(data){
+            data = typeof data != 'string' ? JSON.stringify(data) : data;
+            console.log('success.data:'+data);
+        }
+    });
+}
+jsonpFn();
+```
+
+```javascript
+function addScriptTag(src) {
+  var script = document.createElement('script');
+  script.setAttribute("type","text/javascript");
+  script.src = src;
+  document.body.appendChild(script);
+}
+
+window.onload = function () {
+  addScriptTag('http://example.com/ip?callback=foo');
+}
+
+function foo(data) {
+  console.log('response data: ' + JSON.stringify(data));
+};
+```
+
+服务端代码jsp为例：（服务端对应的接口在返回参数外面添加函数包裹层）
 
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -350,13 +576,12 @@ def after_request(response):
 
 成功获取服务端信息！
 
-### window.name
+#### window.name
 
 在客户端浏览器中每个页面都有一个独立的窗口对象window，默认情况下window.name为空，在窗口的生命周期中，载入的所有页面共享一个window.name并且每个页面都有对此读写的权限，window.name会一直存在当前窗口，但存储的字符串不超过2M。
 
-http://localhost:8383/ccy_client/window_name.html代码
-
 ```html
+//http://localhost:8383/ccy_client/window_name.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -374,8 +599,9 @@ http://localhost:8383/ccy_client/window_name.html代码
 </body>
 </html>
 ```
-http://localhost:9393/ccy_server/window_name.html代码
+
 ```html
+//http://localhost:9393/ccy_server/window_name.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -458,83 +684,173 @@ chrome打印信息
 ![](./images/crossdomain-7.png)
 成功获取非同源地址的数据信息，主要是通过iframe的src属性，类似含有src属性的标签都可以成功处理跨域问题img,script
 
-
-### postMessage解决跨域问题
-h5新特性，window.postMessage(msg,targetOrigin);
-
-msg:传入的字符串信息
-
-targetOrigin:目标源（协议主机端口有效）同样借助iframe进行跨域操作
-
-http://localhost:8383/ccy_client/postMessage.html代码
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>postMessage-跨域</title>
-</head>
-<body>
-<iframe id="ifr" src="http://localhost:9393/ccy_server/postMessage.html" style="display: none;"></iframe>
-<br>
-<input id="txt" type="text" style="width:600px;height:70px;"/>
-<br>
-<input id="btn" type="button" value="获取9393数据" onclick="getData();" style="width:180px;height:60px;"/>
-<script type="text/javascript">
-    var data;
-    function handleMsg(e){
-        e = e || event;
-        data = e.data;
-        console.log('8383:'+e.data);
+#### nginx代理跨域
+配置之后就不需要前端做什么修改了，一般我们在前后端分离项目中开发阶段会采用这种方式，但不是所有场景都能这样做，例如后端接口是一个公共的API，比如一些公共服务获取天气什么的
+```
+server{
+    # 监听8080端口
+    listen 8080;
+    # 域名是localhost
+    server_name localhost;
+    #凡是localhost:8080/api这个样子的，都转发到真正的服务端地址http://www.b.com:8080
+    location ^~ /api {
+        proxy_pass http://www.b.com:8080;
     }
-    if(window.addEventListener){
-        window.addEventListener('message', handleMsg);
-    }else{
-        window.attachEvent('onmessage', handleMsg);
-    }
-    function getData(){
-        document.getElementById('txt').value=data;
-        var msg = 'http://localhost:8383/ccy_client/postMessage.html';
-        window.frames[0].postMessage(msg, 'http://localhost:9393');
-    }
-</script>
-
-</body>
-</html>
+}
 ```
 
-http://localhost:9393/ccy_server/postMessage.html代码
+#### postMessage解决跨域问题
+postMessage是HTML5 XMLHttpRequest Level 2中的API，且是为数不多可以跨域操作的window属性之一，它可用于解决以下方面的问题：
+
+- iframe嵌套页面跨域通信
+- 页面和其打开的新窗口的通信
+- 多窗口之间消息传递
+
+window.postMessage(data,origin);
+
+- data：需要传递的数据，html5规范支持任意基本类型或可复制的对象，但部分浏览器只支持字符串，所以传参时最好用JSON.stringify()序列化。
+- origin：协议+主机+端口号，也可以设置为"*"，表示可以传递给任意窗口，如果要指定和当前窗口同源的话设置为"/"。
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>postMessage-跨域</title>
-</head>
-<body>
-<script type="text/javascript">
-    function handleMsg(e){
-        e = e || event;
-        console.log('9393:'+e.data);
-    }
-    if(window.addEventListener){
-        window.addEventListener('message', handleMsg);
-    }else{
-        window.attachEvent('onmessage', handleMsg);
-    }
-    window.onload = function(){
-        var msg = '我是 http://localhost:9393/ccy_server/postMessage.html';
-        window.parent.postMessage(msg, 'http://localhost:8383');
-    }
-</script>
+<iframe id="iframe" src="http://www.b.com/b.html" style="display:none;"></iframe>
+<script>
+    var iframe = document.getElementById('iframe');
+    iframe.onload = function() {
+        var data = {
+            name: 'jianjian'
+        };
+        // 向http://www.b.com传送跨域数据
+        iframe.contentWindow.postMessage(JSON.stringify(data),'http://www.b.com');
+    };
 
-</body>
-</html>
+    // 接受http://www.b.com返回数据
+    window.addEventListener('message', function(e) {
+        alert('data from http://www.b.com---> ' + e.data);
+    }, false);
+</script>
+```
+
+```html
+<script>
+    // 接收http://www.a.com/a.html的数据
+    window.addEventListener('message', function(e) {
+        alert('data from http://www.a.com/a.html---> ' + e.data);
+
+        var data = JSON.parse(e.data);
+        if (data) {
+            data.number = 16;
+
+            // 处理后再发回http://www.a.com/a.html
+            window.parent.postMessage(JSON.stringify(data), 'http://www.a.com');
+        }
+    }, false);
+</script>
 ```
 
 chrome打印信息
 ![](./images/crossdomain-8.png)
 
 成功获取非同源数据，将非同源地址嵌入获取数据页面窗口。
+
+#### document.domain
+这种方式只适合主域名相同，但子域名不同的iframe跨域。
+实现原理：两个页面都通过js强制设置document.domain为基础主域，就实现了同域。
+```javascript
+//http://www.a.com/a.html
+<iframe id="iframe" src="http://www.child.a.com/b.html" style="display:none;"></iframe>
+<script>
+      document.domain = 'a.com';
+      var a = 'hello world';
+</script>
+```
+
+```javascript
+//http://www.child.a.com/b.html
+<script>
+      document.domain = 'a.com';
+      var b = window.parent.a;
+      console.log(b);
+</script>
+```
+
+#### WebSocket协议跨域
+websoket协议天然支持跨域，你只需要学会如何使用它即可，[WebSocket网络通信协议](https://segmentfault.com/a/1190000017086942)
+
+### ajax跨域的表现
+
+- 第一种现象:No 'Access-Control-Allow-Origin' header is present on the requested resource,并且The response had HTTP status code 404
+
+![](./images/ajax-1.png)
+
+
+出现这种情况的原因如下：
+
+- 本次ajax请求是“非简单请求”,所以请求前会发送一次预检请求(OPTIONS)
+- 服务器端后台接口没有允许OPTIONS请求,导致无法找到对应接口地址
+
+
+解决方案: 后端允许options请求
+
+- 第二种现象:No 'Access-Control-Allow-Origin' header is present on the requested resource,并且The response had HTTP status code 405
+
+![](./images/ajax-2.png)
+
+这种现象和第一种有区别,这种情况下，后台方法允许OPTIONS请求,但是一些配置文件中(如安全配置),阻止了OPTIONS请求,才会导致这个现象
+
+解决方案: 后端关闭对应的安全配置
+
+- 第三种现象:No 'Access-Control-Allow-Origin' header is present on the requested resource,并且status 200
+
+![](./images/ajax-3.png)
+
+这种现象和第一种和第二种有区别,这种情况下，服务器端后台允许OPTIONS请求,并且接口也允许OPTIONS请求,但是头部匹配时出现不匹配现象
+
+比如origin头部检查不匹配,比如少了一些头部的支持(如常见的X-Requested-With头部),然后服务端就会将response返回给前端,前端检测到这个后就触发XHR.onerror,导致前端控制台报错
+
+解决方案: 后端增加对应的头部支持
+
+- 第四种现象:heade contains multiple values '*,*'
+
+![](./images/ajax-4.png)
+
+表现现象是，后台响应的http头部信息有两个Access-Control-Allow-Origin:*
+
+说实话，这种问题出现的主要原因就是进行跨域配置的人不了解原理，导致了重复配置，如:
+
+- 常见于.net后台(一般在web.config中配置了一次origin,然后代码中又手动添加了一次origin(比如代码手动设置了返回*))
+- 常见于.net后台(在IIS和项目的webconfig中同时设置Origin:*)
+
+解决方案(一一对应):
+
+- 建议删除代码中手动添加的*，只用项目配置中的即可
+- 建议删除IIS下的配置*，只用项目配置中的即可
+
+### 抓包请求数据分析ajax跨域
+
+- 示例一(正常的ajax请求)
+
+![](./images/ajax-6.png)
+
+```
+Access-Control-Allow-Headers: X-Requested-With,Content-Type,Accept
+Access-Control-Allow-Methods: Get,Post,Put,OPTIONS
+Access-Control-Allow-Origin: *
+```
+
+- 示例二(跨域错误的ajax请求)
+
+![](./images/ajax-7.png)
+
+这个请求中，接口Allow里面没有包括OPTIONS，所以请求出现了跨域、
+
+![](./images/ajax-8.png)
+
+这个请求中，`Access-Control-Allow-Origin: *`出现了两次，导致了跨域配置没有正确配置，出现了错误。
+
+更多跨域错误基本都是类似的，就是以上三样没有满足(Headers,Allow,Origin)
+
+- 示例三(与跨域无关的ajax请求)
+
+![](./images/ajax-9.png)
+
+比如这个请求，它的跨域配置没有一点问题，它出错仅仅是因为request的Accept和response的Content-Type不匹配而已

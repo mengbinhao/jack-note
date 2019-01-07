@@ -1,3 +1,29 @@
+### get started(vue-cli 2.x)
+1. npm i -g vue-cli
+2. vue init webpack project_name
+3. cd project_name
+4. npm i
+5. npm run dev
+
+### 打包发布
+1. 静态服务器
+```
+npm i -g serve
+serve dist
+visit browser
+```
+
+2. 动态服务器like tomcat
+```
+//webpack.prod.config.js
+output: {
+    publickPath: 'xxx'
+}
+//修改dist为打包文件夹名
+//copy到tomcat下
+//visit
+```
+
 ### vue-cli中一些webpack的配置
 1. autoOpenBrowser
 2. change port

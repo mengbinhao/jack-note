@@ -1,55 +1,63 @@
+### mis
+- callback: u define, u donot invoke, but it is invoked afterwards
+- 分号注意：
+  - 小括号开头的前一条语句
+  - 中括号开头的前一条语句
+  - js合并的时候一般最开始加分号
+- 对象属性访问方式2种(当属姓名包含特殊字符或属姓名不确定使用中括号)
+- A instanceof B: B函数的显示原型在A对象的隐式原型链上，返回true
+- 比较两个数字字符串的时候，至少一边要转型 `'12121212121' < +'5'`
+
 ### this
-1. 在全局环境中，this 的值指向全局对象( window 或 global )。
+1. new 调用：绑定到新创建的对象，注意：显示return函数或对象，返回值不是新创建的对象，而是显式返回的函数或对象。
+2. call 或者 apply（ 或者 bind） 调用：严格模式下，绑定到指定的第一个参数。非严格模式下，null和undefined，指向全局对象（浏览器中是window），其余值指向被new Object()包装的对象。
+3. 对象上的函数调用：绑定到那个对象。
+4. 普通函数调用： 在严格模式下绑定到 undefined，否则绑定到全局对象。
+   - ES6 中的箭头函数：不会使用上文的四条标准的绑定规则， 而是根据当前的词法作用域来决定this， 具体来说， 箭头函数会继承外层函数，调用的 this 绑定（ 无论 this 绑定到什么），没有外层函数，则是绑定到全局对象（浏览器中是window）。 这其实和 ES6 之前代码中的 self = this 机制一样
+   - DOM事件函数：一般指向绑定事件的DOM元素，但有些情况绑定到全局对象（比如IE6~IE8的attachEvent）
+   - 一定要注意，有些调用可能在无意中使用普通函数绑定规则。如果想“ 更安全” 地忽略 this 绑定，你可以使用一个对象，比如 ø = Object.create(null)，以保护全局对象。
+   - 优先级`new 调用 > call、apply、bind 调用 > 对象上的函数调用 > 普通函数调用`
 
+### 'use strict'
+- 必须用var声明变量
+- 禁止自定义函数中的this指向window
+- 创建eval作用域
+- 对象不能有重名的属性
 
-2. 在函数内部，this 的取值取决于其所在函数的调用方式，也就是说 this 的值是在函数被调用的时候确定的，在创建函数时无法确定。当然，箭头函数是个例外，箭头函数本身不存在 this，而在箭头函数中使用 this 获取到的便是创建其的上下文中的 this。同时，使用函数的继承方法 call 、 apply 和 bind 会修改 this 的指向。但值得注意的是，使用 bind 方法会使 this 的值永久的绑定到给定的对象，无法再通过调用 call 和 apply 方法修改 this 的值，箭头函数调用 call 、 apply 或 bind 方法无法修改 this。
+### 隐式强制类型转换
+#### +/-/!/~
 
-> 作为对象的方法
-> 作为构造函数
-> apply call bind
-> arrow function
+- +/- 一元运算符 => 运算符会将操作数进行ToNumber处理.
+- ! => 会将操作数进行ToBoolean处理.
+- ~ => (~x)相当于 -(x + 1) eg: ~(-1) ==> 0; ~(0) ==> 1; 在if (...)中作类型转换时, 只有-1时, 才为假值.
+- +加号运算符 => 若操作数有String类型, 则都进行ToString处理, 字符串拼接. 否则进行ToNumber处理, 数字加法.
 
-### map
+#### 条件判断
 
-1. 在数组中的每一项元素上调用一个函数 `[2,3,4].map(item => item * 2)`
-2. 将字符串转换为数组
-```javascript
-    map.call('jack', letter => `${letter}a`)
-```
-3. 重新格式化数组对象
-```javascript
-const myUsers = [
-    { name: 'chuloo', likes: 'grilled chicken' },
-    { name: 'chris', likes: 'cold beer' },
-    { name: 'sam', likes: 'fish biscuits' }
-]
-const usersByFood = myUsers.map(item => {
-    const container = {};
-    container[item.name] = item.likes;
-    container.age = item.name.length * 10;
-    return container;
-})
-```
-4. hole  `["1", "2", "3"].map(parseInt);`
+- if (...), for(;;;), while(...), do...while(...)中的条件判断表达式.
+- ? : 中的条件判断表达式.
+- || 和 && 中的中的条件判断表达式.
 
-```javascript
-// 通常使用parseInt时,只需要传递一个参数.
-// 但实际上,parseInt可以有两个参数.第二个参数是进制数.
-// 可以通过语句"alert(parseInt.length)===2"来验证.
-// map方法在调用callback函数时,会给它传递三个参数:当前正在遍历的元素,元素索引, 原数组本身
-// 第三个参数parseInt会忽视, 但第二个参数不会,也就是说,
-// parseInt把传过来的索引值当成进制数来使用.从而返回了NaN.
-function returnInt(element) {
-  return parseInt(element, 10);
-}
-['1', '2', '3'].map(returnInt); // [1, 2, 3]
-// 也可以使用简单的箭头函数
-['1', '2', '3'].map( str => parseInt(str) );
-```
+以上遵循 ToBoolean 规则.
+#### ||和&&
 
-1. `.map() ，.reduce(), .filter()` 等支持链式调用
+- 返回值是两个操作数的中的一个(且仅一个). 首先对第一个操作数条件判断, 若为非布尔值则进行ToBoolean强制类型转换.再条件判断.
+- || => 条件判断为true, 则返回第一个操作数; 否则, 返回第二个操作数. 相当于 a ? a : b;
+- && => 条件判断为true, 则返回第二个操作数; 否则, 返回第一个操作数, 相当于 a ? b : a;
 
-```javascript
-var myArr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ];
-let result = myArr.map(m => m>5 ? 5 : m).reduce((x,y) => x+y);
-```
+### 显示类型转换
+#### 转string
+- toString()
+- String()  `可以转null、undefined`
+- xx + ''
+
+#### 转number
+- Number()
+- parseInt()   parseFloat() `针对字符串，如果是其它类型先转换成字符串`
+- ES6   Number.parseInt  Number.parseFloat
+- +xxxx
+- 进行\-0、 *1 、/1 可以转number
+
+#### 转boolean
+- Boolean()
+- !!xxx

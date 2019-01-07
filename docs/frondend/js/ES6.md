@@ -30,20 +30,23 @@
         >
         > 2 没有arguments,但有...
         >
-        > 3 不能用作构造函数
+        > 3 不能用作构造函数,new调用
         >
         > 4 不可用yield,因此不能用Generator函数
         >
-        > 5 不能通过call / apply / bind改变this
-
+        > 5 不能改变this绑定,即使通过call / apply / bind
+        >
+        > 6 形参名称不能重复
+        >
+        > 7 没有原型对象
+        >
+        > 8 没有自己的super和new.target绑定
 3. 解构(数组、对象、函数参数、解构不成功`undefined`)
     1. 排除对象不需要的属性 `var {child: {name:xinming='Jack', age}} = obj`
     2. 合并对象  let merged = {...obj1, ...obj2} 注意重复属性后面覆盖前面
     3. 对称解构
     4. 不对称解构
     5. 数值交换 `let [p1, p2] = [p2, p1]`
-
-
 4. 对象增强
     1. `class new constructor extends super get set static`
     ```javascript
@@ -80,8 +83,13 @@
     1. 不要用箭头
     2. 函数、属性简写
     3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-
-
+    4. class和自定义类型的区别
+      - class的声明不会提升，与let类似
+      - class的声明自动运行于严格模式之下
+      - class声明的方法不可枚举
+      - class的内部方法没有 constructor 属性，无法new
+      - 调用class的构造函数必须new
+      - class内部方法不能同名
 5. let & const
     1. 作用域为{}
     2. TDZ
@@ -111,6 +119,7 @@
     - Array
         - Array.from
         - Array.of
+        - Array.isArray(arr)
         - fill
         - includes
         - copyWithin
@@ -189,7 +198,7 @@
         总结:
         1. 当用 export default people导出时,就用 import people导入(不带大括号)
         2. 一个文件里,有且只能有一个export default,但可以有多个export
-        3. 当用export name时,就用import { name }导入(记得带上大括号)
+        3. 当用export name时,就用import { name }导入(带大括号)
         4. 当一个文件里,既有一个 export default people,又有多个export name或者 export age时,导入就用import people, { name, age }
         5. 当一个文件里出现n多个export导出很多模块,导入时除了一个一个导入,也可以用 import * as example
 
@@ -200,34 +209,5 @@
 
     `await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])`
 2. Decorator修饰器
-
-
-```javascript
-//对象解构
-const user = {
-    name: 'Jack',
-    age: 33,
-    hobby: 'LOL',
-    ability: ['javascript', 'vue', 'nodejs'],
-    wife: {
-        name: 'feifei',
-        age: 22
-    }
-}
-
-//排除不需要的属性
-let { ability, wife:{name}, ...others } = user;
-let objDestructionFun = ( {name = 'feifei', age = 22, hobby = 'AOV'} = {} ) => console.log({ name, age, hobby });
-//objDestructionFun(user);
-//objDestructionFun({});
-//objDestructionFun();
-```
-
-```javascript
-//数组解构
-const arr = [1997, 'John Doe', 'US', 'john@doe.com', 'New York'];
-let { 2: country, 4: state } = arr;
-let [x1,,,y1] = arr;
-let [x2,y2,[z2]] = [1,2,[3]];
-let [,x3,,...y3] = [1,2,3,4,5,6];
-```
+3. 幂运算符
+4. array.includes()

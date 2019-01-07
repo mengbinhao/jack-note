@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+    <style>
+        .div1.div2 {
+            color: red;
+        }
+
+        /* .div2 {
+            color: blue;
+        } */
+        #test.demo {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>li1</li>
+        <li>li2</li>
+        <li>li3</li>
+    </ul>
+    <div class="div1">div1
+    </div>
+    <div class="div2">div2</div>
+    <div id="test2">test
+        <div class="demo2">demo</div>
+    </div>
+    <div id="test" class="demo">demo</div>
+    <script>
+        const clothesArr = [
+            { username: "sunan", haveA02: false, basePrice: 30 },
+            { username: "fenshuajiang", haveA02: true, basePrice: 10 },
+            { username: "huixin", haveA02: true, basePrice: 20 }
+        ]
+        const abc = clothesArr.map(item => {
+            return item.haveA02 ? { ...item, basePrice: item.basePrice + 100 } : item
+        })
+    </script>
+</body>
+
+</html>

@@ -1,3 +1,45 @@
+### Basic configuration
+- 配置环境变量
+    C:\Program Files\MongoDB\Server\3.2\bin
+- 在c盘根目录
+    - 创建一个文件夹 data
+    - 在data中创建一个文件夹db
+- 打开cmd命令行窗口
+    - 输入 mongod 启动mongodb服务器
+    - 32位注意：
+        启动服务器时，需要输入如下内容
+            mongod --storageEngine=mmapv1
+    - mongod --dbpath 数据库路径 --port 端口号
+- 再打开一个cmd窗口
+    - 输入 mongo 连接mongodb ，出现 >
+- 将MongoDB设置为系统服务
+1. 在c盘根目录创建data
+    - 在data下创建db和log文件夹
+2. 创建配置文件
+    - 在目录 C:\Program Files\MongoDB\Server\3.2 下添加一个配置文件mongod.cfg
+3. 以管理员的身份打开命令行窗口
+4. 执行如下的命令
+```
+sc.exe create MongoDB binPath= "\"C:\Program Files\MongoDB\Server\3.2\bin\mongod.exe\" --service --config=\"C:\Program Files\MongoDB\Server\3.2\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"
+
+sc.exe create MongoDB binPath= "\"mongod的bin目录\mongod.exe\" --service --config=\"mongo的安装目录\mongod.cfg\"" DisplayName= "MongoDB" start= "auto"
+```
+5. 启动mongodb服务
+
+6. 如果启动失败，证明上边的操作有误，在控制台输入 sc delete MongoDB 删除之前配置的服务，然后从第一步再来一次
+
+### 基本概念
+- 数据库（database）
+- 集合（collection）
+- 文档（document）
+  - 在MongoDB中，数据库和集合都不需要手动创建，当我们创建文档时，如果文档所在的集合或数据库不存在会自动创建数据库和集合
+- 基本指令
+    - show dbs
+    - show databases
+    - use 数据库名
+    - db
+    - show collections
+
 ### MongoDB常用语句
 
 1. find(findOne()：除了只返回一个查询结果外，其与find()一样)
@@ -212,21 +254,21 @@
     //比如我们要匹配 read % 5 == 1
     b.article.find({"read": {$mod: [5, 1]}})
     ```
-    3. 是否存在（$exists)
+    1. 是否存在（$exists)
     ```
     db.article.find({"love": {"$exists": true}})
     db.article.find({"love": {"$exists": false}})
     ```
-    4. 正则表达式
+    1. 正则表达式
     ```
     db.article.find({"title": /mongodb/i})
     ```
-    5. 类型查询 [see more](https://docs.mongodb.com/manual/reference/operator/query/type)
+    1. 类型查询 [see more](https://docs.mongodb.com/manual/reference/operator/query/type)
     ```
     //只有当comments的类型是数组才匹配
     db.article.find({"comments": {"$type": 4}})
     ```
-    6. 内嵌文档
+    1. 内嵌文档
     ```
     {
         address: { name: "nanji" }
@@ -239,7 +281,7 @@
     }
     db.article.find({"comments.title": "mongodb"})
     ```
-    7. 取反
+    1. 取反
     ```
     //$not是元语句，即可以用在任何其他条件之上
     db.article.find({"author": {"$not": /mongodb/i}})
