@@ -93,6 +93,7 @@ https://juejin.im/post/5b18c50d5188251377116fe9                 practise
 http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
                                                                 Vue技术内幕
 
+https://segmentfault.com/a/1190000017745603#articleHeader3      Vue Mixins高级组件与Vue HOC高阶组件实践
 https://juejin.im/post/5bed05ac6fb9a04a053f3d60                 Vue一个案例引发的递归组件的使用
 https://juejin.im/post/5be01d0ce51d450700084925                 vue 实践技巧
 https://juejin.im/post/5bbe88e85188255c3b7da9e0                 vue 实践技巧
@@ -111,7 +112,7 @@ https://juejin.im/post/5c133223e51d4540391749f5                 Vue工程化最�
 
 https://segmentfault.com/a/1190000017480921                     vue 前端项目技术选型、开发工具、周边生态
 https://segmentfault.com/a/1190000017414633                     Vue与React两个框架的粗略区别对比
-
+https://juejin.im/post/5c2dc7a9e51d4573c8491e77                 Vue实现函数防抖组件
 
 https://zhuanlan.zhihu.com/p/48461259#at                        Vue的打包优化之路
 https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack优化实践，构建效率提高50%
@@ -122,6 +123,8 @@ https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
 https://segmentfault.com/a/1190000015684864                     Vue vs 微信小程序
 https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/      ReactJS vs Angular 5 vs Vue.js
+
+https://juejin.im/post/5c2de832f265da6172659b45                 Vue vs React
 https://github.com/lihongxun945/myblog/issues/21                Vue和React区别的一些笔记
 https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
 https://juejin.im/entry/5b627627f265da0f66404074                vue vs react

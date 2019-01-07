@@ -77,6 +77,10 @@ ssh-keygen -t rsa -C "youremail@example.com"
 git config [--global] -l
 git config [--global] user.name
 git config [--global] user.name "Your Name"
+
+git config core.filemode false //忽略权限变更
+git config --global core.autocrlf false
+git config --global core.safecrlf true //为了保证文件的换行符是以安全的方法，避免windows与unix的换行符混用的情况，最好也加上这么一句
 ```
 
 ### init
