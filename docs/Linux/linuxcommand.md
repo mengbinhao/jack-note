@@ -62,9 +62,9 @@
 - grep [-acinv] [--color=auto] 'keyword' filename
 
 
-### 压缩
+### 压缩 & 解压
 - `tar -czf test.tar.gz /test1 /test2` //压缩文件可以多个
-- `tar -xvzf test.tar.gz`
+- `tar -zxvf test.tar.gz`
 
 
 ### 查找
