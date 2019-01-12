@@ -46,6 +46,7 @@ https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
 https://segmentfault.com/a/1190000016590427                            跨域
 http://web.jobbole.com/85136/                                          js常用设计模式
+https://segmentfault.com/a/1190000017787537      javaScript中常用的设计模式
 https://juejin.im/post/5bfa5a8cf265da6124151e62                        js错误处理权威指北
 http://web.jobbole.com/29454/   设计模式
 http://www.alloyteam.com/2012/10/common-javascript-design-patterns/    设计模式
@@ -116,7 +117,7 @@ https://juejin.im/post/5c2dc7a9e51d4573c8491e77                 Vue实现函数�
 
 https://zhuanlan.zhihu.com/p/48461259#at                        Vue的打包优化之路
 https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack优化实践，构建效率提高50%
-
+https://segmentfault.com/a/1190000017844405                      Vue项目部署遇到的问题及解决方案
 
 
 

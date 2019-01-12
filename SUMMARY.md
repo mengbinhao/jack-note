@@ -37,6 +37,7 @@
       - [crossdomain](docs/frondend/js/crossdomain.md)
       - [DOM](docs/frondend/js/DOM.md)
       - [note](docs/frondend/js/note.md)
+      - [regex](docs/frondend/js/regex.md)
     * [CSS]()
       - [深入浅出css](docs/frondend/css/深入浅出css.md)
       - [BFC](docs/frondend/css/BFC.md)
