@@ -5,10 +5,14 @@
   - 面试流程(有几面? 有笔试?)
   - 是否在当天敲定结果
 
-shirley cmb下的rbwn  cathy  15-22
-frank fang 区间很大
-兰桂葳 200-275k    java spring
+shirley
+    cmb(commercial bank)下的rbwm移动端前端支付  cathy广州人  15-22
+frank fang 区间很大  中午没有打电话
 党项文
+Oli Han
+张菲
+兰佳葳 200-275k    java spring
+
 
 ### 提前了解
 天眼查          注册时间/注册地址/人员规模
