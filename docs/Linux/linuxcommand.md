@@ -1,7 +1,8 @@
 ### 用户
 - `sudo -i` 切到管理员
-- `su username`  切换用户
-
+- `su - username`  切换用户
+- `logout` 注销(在运行级别3下有效)
+- `sudo passwd root` change password
 
 ### 权限
 - `sudo rm a.txt` 使用管理员执行命令

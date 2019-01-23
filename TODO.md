@@ -2,6 +2,7 @@
 - js-tool-library / jack-note / caibaojian
 - 极客时间 算法 / zaolunizi
 
+https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
 
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
 
@@ -43,6 +44,8 @@ https://juejin.im/post/5b04dd816fb9a07aae158903                        前端优
 http://www.cnblogs.com/jadeboy/p/9075003.html                          单页应用
 https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
+https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
+https://segmentfault.com/a/1190000017940311                    nginx入门
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
 https://segmentfault.com/a/1190000016590427                            跨域
 http://web.jobbole.com/85136/                                          js常用设计模式
@@ -53,7 +56,6 @@ http://www.alloyteam.com/2012/10/common-javascript-design-patterns/    设计模
 https://segmentfault.com/a/1190000016153539                            JS发布订阅模式
 https://juejin.im/post/5c13804bf265da61553ab692#heading-15             前端项目与技术实践
 
-https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
 https://segmentfault.com/a/1190000016570003                    display:none与visibility:hidden
 https://segmentfault.com/a/1190000016420985                    杂
 http://0313.name/archives/485#16                               杂
@@ -61,7 +63,6 @@ https://segmentfault.com/a/1190000016992952                   前端工具库汇
 http://blog.poetries.top/archives/   vue blog
 https://finget.github.io/2018/06/28/vue-family/                 vue全家桶
 https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向绑定
-https://juejin.im/post/5afea06d6fb9a07a9c0476c1  		        vuex
 https://segmentfault.com/a/1190000015740490   	                Vue超快速学习
 https://www.w3cplus.com/vue/managing-state-in-vue-js.html       Vue中的状态管理(3种)
 https://juejin.im/post/5afe56e6f265da0ba76ffac3  		        vue/axios/vue-router
@@ -82,6 +83,7 @@ https://juejin.im/post/5bdc17ddf265da61483b0e67                 基于Vue构造�
 https://juejin.im/post/5bf7ca2f6fb9a049a9795a88                 优化 Vue 组件的运行时性能
 https://segmentfault.com/a/1190000017188189                     Vue.js的复用组件开发流程
 https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
+https://juejin.im/post/5c40251b518825254c31aa2d                 Vue 实践小结
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
 https://juejin.im/entry/5b33556d51882574b00fcc39                vue坑
@@ -100,6 +102,8 @@ https://juejin.im/post/5be01d0ce51d450700084925                 vue 实践技巧
 https://juejin.im/post/5bbe88e85188255c3b7da9e0                 vue 实践技巧
 https://juejin.im/post/5b486e446fb9a04faf479837                 vue 实践技巧合集
 https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用的总结
+https://juejin.im/post/5c3c911ce51d455231347a7a                 vuex
+https://juejin.im/post/5afea06d6fb9a07a9c0476c1  		        vuex
 http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB/                                                                  关于input的一些问题解决方法分享
 https://www.w3cplus.com/vue/vue-transition.html                 Vue的transition
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
@@ -114,12 +118,11 @@ https://juejin.im/post/5c133223e51d4540391749f5                 Vue工程化最�
 https://segmentfault.com/a/1190000017480921                     vue 前端项目技术选型、开发工具、周边生态
 https://segmentfault.com/a/1190000017414633                     Vue与React两个框架的粗略区别对比
 https://juejin.im/post/5c2dc7a9e51d4573c8491e77                 Vue实现函数防抖组件
-
+https://segmentfault.com/a/1190000017909770                     一次简单的项目优化
 https://zhuanlan.zhihu.com/p/48461259#at                        Vue的打包优化之路
-https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack优化实践，构建效率提高50%
+https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack优化实践，构建效率提高50%                                           Webpack优化
+https://juejin.im/post/5c3c55aa51882524b4073394
 https://segmentfault.com/a/1190000017844405                      Vue项目部署遇到的问题及解决方案
-
-
 
 http://web.jobbole.com/95021/                                   Vue vs 微信小程序
 https://segmentfault.com/a/1190000015684864                     Vue vs 微信小程序
@@ -165,10 +168,10 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
-
+https://segmentfault.com/a/1190000017949080           大厂interview思考
 https://segmentfault.com/a/1190000017114522           JS 一道面试题引起的思考
 
-
+https://finget.github.io/2019/01/15/interview-questions/   前端
 https://segmentfault.com/a/1190000016902075           前端技术简历
 https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经https://segmentfault.com/a/1190000016770732           vue interview
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理

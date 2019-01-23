@@ -38,7 +38,7 @@ The product is a stand-alone software program.  It is designed to complement sta
 1. Over 60% manual case are turned into automation
 2. Improve 40% work efficiency for test team
 
-## Emerson Xi’an Engineering Center (2016/4 ~ 2018/2)
+## Emerson Xi’an Engineering Center (2016/4 ~ 2018/1)
 ### Oxygen
 #### Description
 Oxygen is an automation testing solution platform, it runs test cases based on target system data model、target system activities and its automated test case, then generate test report to users

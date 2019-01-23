@@ -15,7 +15,7 @@
 | Employment Period | Employer                         | Position Held                 |
 | ----------------- | -------------------------------- | ----------------------------- |
 | 2017.05 - Present | Our United RT                    | automation test engineer      |
-| 2016.04 - 2018.02 | Emerson Xi’an Engineering Center | test and development engineer |
+| 2016.04 - 2018.01 | Emerson Xi’an Engineering Center | test and development engineer |
 | 2014.05 - 2015.06 | Xi'an ACTIVE Network             | application support           |
 | 2009.03 - 2014.04 | Shan'xi electric power Company   | web development engineer      |
 
@@ -38,7 +38,7 @@ The product is a stand-alone software program.  It is designed to complement sta
 1. Over 60% manual case are turned into automation
 2. Improve 40% work efficiency for test team
 
-## Emerson Xi’an Engineering Center (2016/4 ~ 2018/2)
+## Emerson Xi’an Engineering Center (2016/4 ~ 2018/1)
 ### Oxygen
 #### Description
 Oxygen is an automation testing solution platform, it runs test cases based on target system data model、target system activities and its automated test case, then generate test report to users

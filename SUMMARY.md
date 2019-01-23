@@ -73,6 +73,7 @@
     * [页面性能分析与优化](docs/frondend/页面性能分析与优化.md)
     * [web安全](docs/frondend/web安全.md)
     * [浏览器缓存](docs/frondend/浏览器缓存.md)
+    * [从前端角度理解缓存](docs/frondend/从前端角度理解缓存.md)
     * [CSSperformance.md](docs/frondend/CSSperformance.md)
 * [usefultools](docs/usefultools.md)
 * [git](docs/git.md)
