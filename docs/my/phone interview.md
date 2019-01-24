@@ -1,17 +1,17 @@
-1. tell me a little bit about yourself
-Good afternoon, interviewer, It is my honor to introduce myself here.You can call me Jack. 35 years old
+1. tell me a little bit about yourself?
+Good afternoon, interviewer, It is my honor to introduce myself here.You can call me Jack. 35 years old.
 
 I graduated from Xi' an Polytechnic University in computer and science Technology in 2008
 
-I have more than 10 years work experience and work for 4 different companies
+So by now I have more than 10 years work experience and served for 4 different companies.
 
 I started off my career as JAVA delevopment engineer in Shaan'xi electric power company.I was in charge of development interface to other system, like ERP、OA system and so on, I alse assisted with training key customers, to maintain the relationship for company, I was in that position over 6 years, Beacuse of long-term business trip, I quit this job
 
-My second job was in activeNetwork as an application support engineer, I was responsible for handling customer issues, when I got an issue, what I did was to reproduce it first, if I could reproduce it, then I analyzed the issue to find the root cause of them,  if it was an issue caused by customer, I will tell the customer how to operate it correctly, if it was caused by dirty data, I will involve db team to handle it, then let customer to check if everything is fine, the worst is that the problem is a true system bug, so I have to involve dev to fix it, after dev provided a hot-fix, I will let cutomer know when the issue resoved,I loved that, due to some reason, my direct leader left, so no one help our team to push back,then I had the opportunity to be a test and development engineer for Emerson
+My second job was in activeNetwork as an application support engineer, I was responsible for handling customer issues, when I got an issue, what I did was to reproduce it first, if I could reproduce it, then I analyzed the issue to find the root cause of them,  if it was an issue caused by customer, I will tell the customer how to operate it correctly, if it was caused by dirty data, I will involve db team to handle it, then let customer to check if everything is fine, the worst is that the problem is a true system bug, so I have to involve dev to fix it, after dev provided a hot-fix, I will let cutomer know when the issue resoved,I loved that, due to some reason, my direct leader left, so no one help our team to push back,then I had the opportunity to be a test and development engineer for Emerson.
 
-In Emerson my duty include writing automated scrips, set up automated test environment, analyzed automated report and enhance automated framework enhancement, I worked in Agile team lasted more than one year,but,due to emerson downsize itself, I went on to OUR United RT
+In Emerson my duty include writing automated scrips, set up automated test environment, analyzed automated report and enhance automated framework enhancement, I worked in Agile team lasted more than one year,but,due to emerson downsize itself, I went on to OUR United RT.
 
-This is my current job, Most of my work is same as Emerosn's, The major difference is that I finish my task independently. I mean automation part, I do not have a colleague to discuss, to argue, to learn or to share, I have to make a decision. I have to push automation peoject move on, you know, this is very very imporant to me, I not only consider how to write scripts, but also consider how to accomplish automation project, like the automation technology selection, how to organize the project structure, set up CI environment, integrate JENKINS with TestComplete, I am not just create an item in JENKINS like before, in Emerson,but also build the JENKINS environment, so based on that, I feel more confident about my work and push myself a higher demands
+This is my current job, Most of my work is same as Emerosn's, The major difference is that I finish my task independently. I mean automation part, I do not have a colleague to discuss, to argue, to learn or to share, I have to make a decision. I have to push automation peoject move on, you know, this is very very imporant to me, I not only consider how to write scripts, but also consider how to accomplish automation project, like the automation technology selection, how to organize the project structure, set up CI environment, integrate JENKINS with TestComplete, I am not just create an item in JENKINS like before, in Emerson,but also build the JENKINS environment, so based on that, I feel more confident about my work and push myself a higher demands.
 
 - then I was promoted to xxx position
 - Well a good example that come to mind is
@@ -26,7 +26,7 @@ My personality is studious、easy-going、honest and adventurous
 - Scrum team is my customer, they told me the synchronization tools is so cool, it saved lots of their time.
 - I mean I am pround of deliverring the synchronization tool between starteam and rally to scrum team
 
-4. biggest weakness
+4. biggest weakness?
 - I speak too fast
 - My oral English is not very well, because I do not have many opportunities to communicate with foreigners
 - As an tester and dev, I am not familiar with hardware structures
@@ -67,4 +67,3 @@ My salary expectations are in line with my experience and qualifications. I beli
 
 
 Thanks you so much for your call. I really appreciate you taking the time to interview me, Based on what I have heard, I am really intereted in this position an I think I have a lot to offer. I would be pleased to meet you in person to talk more
-
