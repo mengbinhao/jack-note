@@ -7,14 +7,14 @@
 - Expected work city: Xi'an
 - Expected position: automated test engineer
 - Current Salary: 12K*13 + Target annually bonus 2~3Months
-- Expected salary: 25K/month
+- Expected salary: 20K/month
 - Notice Period: 1 Month
 
 # Employment History
 
 | Employment Period | Employer                         | Position Held                 |
 | ----------------- | -------------------------------- | ----------------------------- |
-| 2017.05 - Present | Our United RT                    | automation test engineer      |
+| 2018.05 - Present | Our United RT                    | automation test engineer      |
 | 2016.04 - 2018.01 | Emerson Xi’an Engineering Center | test and development engineer |
 | 2014.05 - 2015.06 | Xi'an ACTIVE Network             | application support           |
 | 2009.03 - 2014.04 | Shan'xi electric power Company   | web development engineer      |

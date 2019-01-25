@@ -1,9 +1,9 @@
-1. tell me a little bit about yourself
+1. tell me a little bit about yourself?
 Good afternoon, interviewer, It is my honor to introduce myself here.You can call me Jack. 35 years old
 
 I graduated from Xi' an Polytechnic University in computer and science Technology in 2008
 
-I have more than 10 years work experience and work for 4 different companies
+So by now I have more than 10 years work experience and served for 4 different companies
 
 I started off my career as JAVA delevopment engineer in Shaan'xi electric power company.I was in charge of development interface to other system, like ERP、OA system and so on, I alse assisted with training key customers, to maintain the relationship for company, I was in that position over 6 years, Beacuse of long-term business trip, I quit this job
 
@@ -26,7 +26,7 @@ My personality is studious、easy-going、honest and adventurous
 - Scrum team is my customer, they told me the synchronization tools is so cool, it saved lots of their time.
 - I mean I am pround of deliverring the synchronization tool between starteam and rally to scrum team
 
-4. biggest weakness
+4. biggest weakness?
 - I speak too fast
 - My oral English is not very well, because I do not have many opportunities to communicate with foreigners
 - As an tester and dev, I am not familiar with hardware structures
@@ -67,4 +67,3 @@ My salary expectations are in line with my experience and qualifications. I beli
 
 
 Thanks you so much for your call. I really appreciate you taking the time to interview me, Based on what I have heard, I am really intereted in this position an I think I have a lot to offer. I would be pleased to meet you in person to talk more
-
