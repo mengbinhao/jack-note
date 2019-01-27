@@ -101,7 +101,7 @@
 ![](./images/learn-6.png)
 - init [0-5]
 - /etc/inittab
-> 找回root密码, 开机>引导时输入enter>e>选中第二行输入e>空格+1+enter>b进入单用户模式，然后passwd root
+> 找回root密码, 开机>引导时输入enter>e>选中第二行输入e>空格+1+enter>b进入单用户模式,然后passwd root
 
 #### 帮助指令
 - man ls
@@ -158,12 +158,12 @@
   - ln -s ./root linkToRoot
   - rm -rf linkToRoot
 
-### 历史指令
+#### 历史指令
 - history
   - history 10
   - !178 //运行编号178的命令
 
-### 时间日期
+#### 时间日期
 - date
   - date "+%Y"
   - date "+%m"
@@ -173,7 +173,7 @@
 - cal
   - cal 2020
 
-### 搜索查找类
+#### 搜索查找类
 - find
   - find /home -name hello.txt
   - find /opt -user root
@@ -201,7 +201,7 @@
     - tar -zxvf a.tar.gz -C /opt/ //指定解压到的目录需要提前存在
 
 
-### 组管理和权限管理
+#### 组管理
 - Linux每个文件都有所有者、用户组、其他组
 - ls -ahl
 - chown 用户名 文件名
@@ -210,20 +210,20 @@
 - usermod -g 组名 用户名
 - usermod -d 目录名 用户名 //改变该用户登录的初始目录
 
-#### 权限
+#### 权限管理
 `-rwxrw-r-- 1 root root 6 Feb 2 09:39 abc`
 - 第0位文件类型 -普通 d目录 l软连接 c字符设备(键盘鼠标) b快文件(硬盘)
 - 1-3 owner权限 4-6 group权限 7-9 other权限
-- 如果是文件表示硬链接的数，如果是目录则表述该目录的子目录个数
+- 如果是文件表示硬链接的数,如果是目录则表述该目录的子目录个数
 - root 拥有者
 - root 所属组
-- 文件大小，如果是目录显示4096
+- 文件大小,如果是目录显示4096
 - 最后修改时间
 - 文件名
 
 ##### rwx作用在文件
 1. r可读查看
-2. w可写,但不一定能删除，删除前提条件是对文件所在的目录有w权限
+2. w可写,但不一定能删除,删除前提条件是对文件所在的目录有w权限
 3. x可执行
 ##### rwx作用在目录
 1. r可读 ls
@@ -231,4 +231,110 @@
 3. x可进入该目录
 
 ##### chmod
+- chmod u=rwx,g=rx,o=x 文件目录名
+- chomd o+w 文件目录名
+- chomd a-x 文件目录名
+- chmod 755 文件目录名
+
+##### chown
+- chown newowner file
+- chown newowner:newgroup file
+- chowm -R tom kkk/
+
+##### chgrp
+- chgrp newgroup file
+
+#### crond
+- crontab [选项] (-e 编辑 -l查询 -r 删除当前用户所有的crontab任务)
+- service crond restart
+```
+cron -e
+*/1 * * * * ls -l /etc/ >> /tmp/to.txt
+```
+![](./images/learn-10.png)
+![](./images/learn-11.png)
+![](./images/learn-12.png)
+
+- **how to add a crond**
+```
+1. 先编写 /home/mytask1.sh
+date >> /tmp/mycal
+cal >> /tmp/mycal
+2. chmod 744 /home/mytask1.sh
+3. crontab -e
+4. */1 * * * * /home/mytask1.sh
+```
+
+### 磁盘分区、挂载
+#### 分区方式
+1. mbr
+2. gtp
+
+#### Linux分区
+1. Linux 来说无论有几个分区,分给哪一目录使用,它归根结底就只有一个根目录,一个独立且唯一的文件结构 , Linux 中每个分区都是用来组成整个文件系统的一部分
+2. Linux 采用了一种叫“载入”的处理方法,它的整个文件系统中包含了一整套的文件和目录, 且将一个分区和一个目录联系起来。这时要载入的一个分区将使它的存储空间在一个目录下获得
+3. ![](./images/learn-13.png)
+4. 对于 IDE 硬盘,驱动器标识符为“hdx~”,其中“hd”表明分区所在设备的类型,这里是指 IDE 硬盘了。“x”为盘号（a 为基本盘,b 为基本从属盘,c 为辅助主盘,d 为辅助从属盘）,“~”代表分区,前四个分区用数字 1 到 4 表示,它们是主分区或扩展分区,从 5 开始就是逻辑分区。例,hda3 表示为第一个 IDE 硬盘上的第三个主分区或扩展分区,hdb2 表示为第二个 IDE 硬盘上的第二个主分区或扩展分区
+5. 对于 SCSI 硬盘则标识为“sdx~”,SCSI 硬盘是用“sd”来表示分区所在设备的类型的,其余则和 IDE 硬盘的表示方法一样
+6. `lsblk` or `lsblk -f`查看分区情况
+7. **how to add a disk in Linux**
+```
+1. 虚拟机增加硬盘(修改大小，加完重启)
+2. 分区fdisk /dev/sdb  (m显示命令列表 n新增分区 p主分区 w写并退出)
+3. 格式化 mkfs -t ext4 /dev/sdb1
+4. 挂载  mount /dev/sdb1 /home/newdisk
+        unmount 设备名称或挂载目录
+5. 永久挂载
+    vi /etc/fstab
+        /dev/sdb1	/home/newdisk	ext4	defaults	0 0
+    mount -a
+```
+
+#### 磁盘情况查询
+##### 系统整体
+`df -lh`
+##### 指定目录
+du -h	/目录 //查询指定目录的磁盘占用情况，默认为当前目录
+
+-s 指定目录占用大小汇总
+
+-h 带计量单位
+
+-a 含文件
+
+--max-depth=1	子目录深度
+
+-c 列出明细的同时，增加汇总值
+
+`du -ach --max-depth=1 /opt`
+
+**实用命令**
+- ls -l /home | grep "^-" | wc -l
+- ls -l /home | grep "^d" | wc -l
+- ls -lR /home | grep "^-" | wc -l
+- ls -lR /home | grep "^d" | wc -l
+- tree
+- yum install tree
+
+### 网路配置
+![](./images/learn-14.png)
+
+#### 查看网络IP和网关
+- vm查看虚拟网络编辑器
+- 修改ip
+- vm查看网关
+- winodws中ipconfig
+- ping www.baidu.com
+
+#### 配置IP
+1. 自动获取(缺点会变)
+2. `vi /etc/sysconfig/network-scripts/ifcfg-eth0`
+
+![](./images/learn-15.png)
+
+`service network restart`
+
+### process
+
+
 
