@@ -66,7 +66,7 @@ git revert HEAD^^
 ![](./images/git_6.png)
 revert通过新建一个commit来撤销一次commit所做的修改,是一种安全的方式,并没有修改commit history
 
-revert用于撤销committed changes,reset用于撤销uncommitted changes
+**revert用于撤销committed changes,reset用于撤销uncommitted changes**
 
 ##### file级别的操作
 ###### reset
@@ -324,6 +324,9 @@ $ git reflog
 
 # 从本地master拉取代码更新当前分支：branch 一般为master
 $ git rebase branch-name
+
+# 将最近几个提交合并为一个
+git rebase -i [<start_commit>] [<end_commit>]
 ```
 
 ### 远程同步

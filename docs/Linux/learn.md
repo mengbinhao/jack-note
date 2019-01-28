@@ -1,3 +1,4 @@
+CentOS为例
 ### concept
 ![](./images/learn-1.png)
 
@@ -100,7 +101,7 @@
 #### 运行级别
 ![](./images/learn-6.png)
 - init [0-5]
-- /etc/inittab
+- /etc/inittab //修改默认运行级别
 > 找回root密码, 开机>引导时输入enter>e>选中第二行输入e>空格+1+enter>b进入单用户模式,然后passwd root
 
 #### 帮助指令
@@ -335,6 +336,79 @@ du -h	/目录 //查询指定目录的磁盘占用情况，默认为当前目录
 `service network restart`
 
 ### process
+- `ps -aux` or `ps -aux | more`(a显示当前终端所有进程 u用户格式显示进程信息  x显示后台进程运行的参数)
+
+![](./images/learn-16.png)
+
+- `ps -aux | grep sshd`
+- `ps -ef | more` 所有进程全格式显示
+- `kill [-9] PID` 支持通配符 9代表强制
+- `killall gedit`
+- `pstree`
+
+#### service
+service 服务名 [start|stop|restart|reload|status]
+
+在CentOS7.0后 systemctl 服务名 [start|stop|restart|reload|status]
+
+`service iptables status`
+- 使用telnet ip port 测试
+- 上面的方式只是临时生效
+- `chkconfig`永久生效,需重启
+
+##### 查看服务名
+- `setup`
+- /etc/init.d/
+
+##### 服务运行级别
+- `vi /etc/inittab`
+- 0-7 通常3和5
+
+##### 开机流程说明
+![](./images/learn-17.png)
+
+##### chkconfig(重启生效)
+- chkconfig --list | grep sshd
+- chkconfig iptables --list
+- chkconfig --level 5 服务名 on/off
+
+#### top动态监控进程
+选项说明
+
+![](./images/learn-18.png)
+
+- 监控中按u，输入用户名进行用户过滤
+- 监控中按k，再输入要结束的进程号
+#### **netstat**
+`netstat -anp` an按一定顺序排列输出  p显示那个进程在调用
 
 
+### rpm & yum
+#### rpm
+- rpm -qa | grep sshd
+- rpm -qa | more
+- rpm -q firefox //查询是否安装
+- rpm -qi firefox //查询软件包信息
+- rpm -ql firefox //查询软件包中的文件
+- rpm -qf /etc/passwd //查询某个文件属于哪个rpm包
+- rpm -e firefox //卸载
+- rpm -e --nodeps firefox //强制卸载
+- rpm -ivh firefox //安装
 
+#### yum
+- yum list | grep firefox
+- yum install firefox
+
+
+### Ubuntu
+- sudo passwd //设定root密码
+- su + 密码 切root
+- sudo + 命令 root权限执行
+- exit 退出
+- apt
+  - apt-get update
+  - apt-get install package
+  - apt-get remove package
+  - apt-cache search package
+  - apt-cache show package
+  - apt-get install package --reinstall
