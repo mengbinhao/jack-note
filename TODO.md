@@ -1,6 +1,6 @@
-- todomvc  / online translate
 - js-tool-library / jack-note / caibaojian
 - 极客时间 算法 / zaolunizi
+- 极客面试 极客react  小书vue
 
 https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
 
@@ -15,6 +15,7 @@ http://coding.imooc.com/class/chapter/280.html#Anchor   Vue全家桶+SSR+Koa2全
 https://coding.imooc.com/class/chapter/107.html#Anchor  Vue 2.0实战高级-开发移动端音乐Web APP
 https://coding.imooc.com/class/chapter/74.html#Anchor   Vue.js 高仿开发饿了么APP
 http://coding.imooc.com/class/chapter/178.html#Anchor   Koa2框架搭建电影预告片网站
+https://juejin.im/post/5c4f1f0de51d4552d573b784         记第一个Vue项目台前幕后的经历
 https://segmentfault.com/a/1190000016420985    各種前端
 
 http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
@@ -83,14 +84,18 @@ https://juejin.im/post/5bdc17ddf265da61483b0e67                 基于Vue构造�
 https://juejin.im/post/5bf7ca2f6fb9a049a9795a88                 优化 Vue 组件的运行时性能
 https://segmentfault.com/a/1190000017188189                     Vue.js的复用组件开发流程
 https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
-https://juejin.im/post/5c40251b518825254c31aa2d                 Vue 实践小结
+https://juejin.im/post/5c40251b518825254c31aa2d                Vue 实践小结
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
 https://juejin.im/entry/5b33556d51882574b00fcc39                vue坑
+https://juejin.im/post/5c598b276fb9a049b780d03c                 vue 2.6
+https://juejin.im/post/5c5c28cf518825627d37060a                 注意事项和技巧
 https://juejin.im/post/5b80f4e36fb9a019ce148fe9                 vue实践
 https://yugasun.com/post/you-dont-know-vuejs-13.html            vue实践结论
 https://segmentfault.com/a/1190000016735899                     vue技巧
+https://segmentfault.com/a/1190000018033117                     Tricks in Vue
 https://segmentfault.com/a/1190000017149162                     Vue中用props给data赋初始值遇到的问题
+https://juejin.im/post/5c52ee216fb9a049ee80e283                手把手实现图片懒加载+封装vue懒加载组件
 http://obkoro1.com/2018/06/03/%E4%BD%A0%E6%88%96%E8%AE%B8%E4%B8%8D%E7%9F%A5%E9%81%93Vue%E7%9A%84%E8%BF%99%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/                                                                             vue技巧
 https://juejin.im/post/5b18c50d5188251377116fe9                 practise
 http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
@@ -180,6 +185,7 @@ https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview
 https://segmentfault.com/a/1190000016603212           vue interview
 https://segmentfault.com/a/1190000017103048           vue interview
+https://segmentfault.com/a/1190000018060680           vue interview
 http://blog.poetries.top/2018/10/20/fe-interview-component/    interview React vs vue
 https://zhuanlan.zhihu.com/p/35587283                 React
 https://segmentfault.com/a/1190000016761186           React
@@ -188,6 +194,7 @@ http://0313.name/archives/502#JavaScript              interview
 https://segmentfault.com/a/1190000016953153           interview
 https://segmentfault.com/a/1190000016848192           promise
 https://juejin.im/post/5ab20c58f265da23a228fe0f#heading-6   promise
+https://segmentfault.com/a/1190000018047530#articleHeader12 promise
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
 https://juejin.im/post/5b0562306fb9a07aaf3596c1       interview

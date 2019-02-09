@@ -48,16 +48,18 @@ CentOS为例
 1. linux的目录中有且只要一个根目录 /
 2. linux的各个目录存放的内容是规划好,不用乱放文件
 3. linux是以文件的形式管理我们的设备,因此**linux系统一切皆为文件**
-4. linux的各个文件目录下存放什么内容,大家必须有一个认识
-   1. /bin        常用命令
-   2. /home
-   3. /root
-   4. /boot       启动相关
-   5. /media      U盘 光驱
-   6. /mnt        挂载别的文件系统
-   7. /opt        安装文件
-   8. /usr/local  安装目录
-   9. /var        日志 经常修改的东西
+4. linux的各个文件目录下存放什么内容
+   1. /bin        常用命令，如vi su
+   2. /sbin       要具有一定权限才可以使用命令
+   3. /home       普通用户相关文件
+   4. /root       root用户相关文件
+   5. /etc        配置
+   6. /boot       启动相关
+   7. /media      U盘 光驱
+   8. /mnt        挂载别的文件系统
+   9. /opt        安装文件
+   10. /usr/local  安装目录，相当于windows下的program file
+   11. /var        日志、经常修改的东西
 
 ![](./images/learn-5.png)
 
@@ -78,6 +80,9 @@ CentOS为例
 2. halt(关机)
 3. reboot(重启)
 > 关机前执行`sync`保存内存中的东西到磁盘
+
+#### 进入桌面
+startx
 
 #### 用户
 - useradd [选项] username
@@ -158,11 +163,13 @@ CentOS为例
 - ln -s [源文件或目录] 软连接名
   - ln -s ./root linkToRoot
   - rm -rf linkToRoot
+- en 查看环境变量
 
 #### 历史指令
 - history
   - history 10
   - !178 //运行编号178的命令
+  - !ls //执行最后一次以ls开头的命令
 
 #### 时间日期
 - date
@@ -182,6 +189,10 @@ CentOS为例
   - find / -size -20480k
   - find / -size 20M
   - find / -name *.txt
+  - find /home -amin -10：十分钟内存取的文件或目录
+  - find /home -atime -10：十小时内存取的文件或目录
+  - find /home -cmin -10：十分钟内更改过的文件或目录
+  - find /home -ctime +10：十小时前更改过的文件或目录
 - locate
   - updatedb
   - locate hello.txt
@@ -189,7 +200,8 @@ CentOS为例
   - cat hello.txt | grep xxx
   - cat hello.txt | grep -n xxx
   - cat hello.txt | grep -i xxx
-- 压缩和解压
+
+#### 压缩和解压
   - gzip/gunzip //不会保留压缩前的文件
   - zip/unzip
     - zip -r mypackage.zip /home/
@@ -280,7 +292,7 @@ cal >> /tmp/mycal
 6. `lsblk` or `lsblk -f`查看分区情况
 7. **how to add a disk in Linux**
 ```
-1. 虚拟机增加硬盘(修改大小，加完重启)
+1. 虚拟机增加硬盘(修改大小,加完重启)
 2. 分区fdisk /dev/sdb  (m显示命令列表 n新增分区 p主分区 w写并退出)
 3. 格式化 mkfs -t ext4 /dev/sdb1
 4. 挂载  mount /dev/sdb1 /home/newdisk
@@ -295,7 +307,7 @@ cal >> /tmp/mycal
 ##### 系统整体
 `df -lh`
 ##### 指定目录
-du -h	/目录 //查询指定目录的磁盘占用情况，默认为当前目录
+du -h	/目录 //查询指定目录的磁盘占用情况,默认为当前目录
 
 -s 指定目录占用大小汇总
 
@@ -305,7 +317,7 @@ du -h	/目录 //查询指定目录的磁盘占用情况，默认为当前目录
 
 --max-depth=1	子目录深度
 
--c 列出明细的同时，增加汇总值
+-c 列出明细的同时,增加汇总值
 
 `du -ach --max-depth=1 /opt`
 
@@ -377,8 +389,8 @@ service 服务名 [start|stop|restart|reload|status]
 
 ![](./images/learn-18.png)
 
-- 监控中按u，输入用户名进行用户过滤
-- 监控中按k，再输入要结束的进程号
+- 监控中按u,输入用户名进行用户过滤
+- 监控中按k,再输入要结束的进程号
 #### **netstat**
 `netstat -anp` an按一定顺序排列输出  p显示那个进程在调用
 
@@ -402,13 +414,40 @@ service 服务名 [start|stop|restart|reload|status]
 
 ### Ubuntu
 - sudo passwd //设定root密码
-- su + 密码 切root
-- sudo + 命令 root权限执行
-- exit 退出
+- su - //切root, $一般用户, #root用户
+- sudo + 命令 //root权限执行
+- exit
 - apt
-  - apt-get update
-  - apt-get install package
-  - apt-get remove package
-  - apt-cache search package
-  - apt-cache show package
-  - apt-get install package --reinstall
+  - `apt-get update`  更新源
+  - `apt-get install xxx`
+  - `apt-get remove xxx`
+  - `apt-cache show xxx`
+  - `apt-get source xxx`  下载该包源码
+  - apt-get upgrade 更新安装包
+  - apt-get remove xxx --purge 包括配置文件
+  - apt-cache search xxx
+  - apt-get install xxx --reinstall
+  - apt-get -f install 恢复安装
+  - apt-get build-dep xxx 安装相关的编译环境
+  - apt-get dist-upgrate 升级系统
+  - apt-cache depends xxx  该包依赖包
+  - apt-cache rdepends xxx  该包被依赖包
+- 切换apt源
+```bash
+#/etc/apt/sources.list
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+echo '' > sources.list
+copy 清华镜像地址
+sudo apt-get update
+```
+- install sshd
+```bash
+sudo apt-get install openssh-server
+service sshd restart
+
+```
+- linux系统客户机登录linux服务机
+```bash
+ssh 用户名@IP
+使用ssh访问,如出现错误,查看是否有~/.ssh/known_ssh,尝试删除
+```
