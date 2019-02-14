@@ -1,6 +1,6 @@
 - js-tool-library / jack-note / caibaojian
-- 极客时间 算法 / zaolunizi
-- 极客面试 极客react  小书vue
+- zaolunzi
+- 极客react  是否极客算法
 
 https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
 
@@ -45,8 +45,10 @@ https://juejin.im/post/5b04dd816fb9a07aae158903                        前端优
 http://www.cnblogs.com/jadeboy/p/9075003.html                          单页应用
 https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
-https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                nginx
-https://segmentfault.com/a/1190000017940311                    nginx入门
+
+https://segmentfault.com/a/1190000018120629                    缓存
+https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                Nginx
+https://segmentfault.com/a/1190000017940311                    Nginx入门
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
 https://segmentfault.com/a/1190000016590427                            跨域
 http://web.jobbole.com/85136/                                          js常用设计模式
@@ -84,6 +86,7 @@ https://juejin.im/post/5bdc17ddf265da61483b0e67                 基于Vue构造�
 https://juejin.im/post/5bf7ca2f6fb9a049a9795a88                 优化 Vue 组件的运行时性能
 https://segmentfault.com/a/1190000017188189                     Vue.js的复用组件开发流程
 https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
+https://segmentfault.com/a/1190000018130259                     Vue 动画的封装
 https://juejin.im/post/5c40251b518825254c31aa2d                Vue 实践小结
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
@@ -110,6 +113,7 @@ https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用
 https://juejin.im/post/5c3c911ce51d455231347a7a                 vuex
 https://juejin.im/post/5afea06d6fb9a07a9c0476c1  		        vuex
 http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB/                                                                  关于input的一些问题解决方法分享
+https://segmentfault.com/a/1190000018120316                     Vue中组件使用中的细节点
 https://www.w3cplus.com/vue/vue-transition.html                 Vue的transition
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
