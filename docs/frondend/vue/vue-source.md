@@ -1,9 +1,14 @@
 [git simple mvvm](https://github.com/DMQ/mvvm)
 
 1. 数据代理
-通过一个对象代理另一个对象中属性的操作
-2. 模板解析
-3. 数据绑定
+- 通过一个对象代理对另一个对象中属性的操作
+- vue数据代理: 通过`vm`对象来代理`data`对象中所有属性的操作,更方便的操作`data`中的数据
+- 基本实现流程
+    - 通过`Object.defineProperty()`给`vm`添加与`data`对象的属性对应的属性描述符
+    - 所有添加的属性都包含`getter/setter`
+    - `getter/setter`内部去操作`data`中对应的属性数据
+1. 模板解析
+2. 数据绑定
 
 Dep vs Watcher
 - 什么关系?
