@@ -69,15 +69,17 @@ https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向
 https://segmentfault.com/a/1190000015740490   	                Vue超快速学习
 https://www.w3cplus.com/vue/managing-state-in-vue-js.html       Vue中的状态管理(3种)
 https://juejin.im/post/5afe56e6f265da0ba76ffac3  		        vue/axios/vue-router
+
+https://segmentfault.com/a/1190000016662929                     vue中$router以及$route的使用
+https://juejin.im/post/5b0281b851882542845257e7  	            vue-router
+https://segmentfault.com/a/1190000018173547                     Vue Router深度用法（一）
 https://juejin.im/post/5afcd516f265da0b9e65414b  	            vue组件
 https://segmentfault.com/a/1190000017035590                     实现一个 Vue 进度条组件
 https://juejin.im/post/5afd7eb16fb9a07ac5605bb3     	        vue生命钩子
-https://juejin.im/post/5b0281b851882542845257e7  	            vue-router
 https://juejin.im/post/5b03e610f265da0b873ad64e  	            自定义指令
 https://juejin.im/post/5b2872516fb9a00e8626e34f                 vue-cli
 https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect
                                                                 骨架屏
-https://segmentfault.com/a/1190000016662929                     vue中$router以及$route的使用
 https://juejin.im/post/5ba358a56fb9a05d2068401d                 Vue页面跳转动画效果实现
 https://juejin.im/post/5b0e14c36fb9a00a353dd66d  	            表单输入格式化，中文输入法异常
 
@@ -114,6 +116,7 @@ https://juejin.im/post/5c3c911ce51d455231347a7a                 vuex
 https://juejin.im/post/5afea06d6fb9a07a9c0476c1  		        vuex
 http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB/                                                                  关于input的一些问题解决方法分享
 https://segmentfault.com/a/1190000018120316                     Vue中组件使用中的细节点
+https://juejin.im/post/5c64e11151882562e4726d98#heading-4       Vue 2.6 new slot
 https://www.w3cplus.com/vue/vue-transition.html                 Vue的transition
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
@@ -177,6 +180,8 @@ http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
 
+
+https://segmentfault.com/a/1190000018155877           中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)
 https://segmentfault.com/a/1190000017949080           大厂interview思考
 https://segmentfault.com/a/1190000017114522           JS 一道面试题引起的思考
 
