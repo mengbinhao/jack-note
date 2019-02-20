@@ -19,17 +19,17 @@
 
     535 用户名和密码不对
 
-   ![](.\images\jenkins_smtp_configure.jpg)
+   ![](.\images\jenkins_smtp_configure.png)
 
 4.  install Locale plugin to change language (zh_CN)
 
-   ![](.\images\locale_language_configure.jpg)
+   ![](.\images\locale_language_configure.png)
 
 ### 3.TroubleShooting
 
 1. install windows service fail
 
-![](./images/jenkins_install_windows_service_fail.jpg)
+![](./images/jenkins_install_windows_service_fail.png)
 
 ​       solution:  locate jenkins.war folder, run cmd as administrator, then install
 

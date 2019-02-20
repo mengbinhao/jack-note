@@ -97,7 +97,7 @@
 
   - x:\mysql-5.6.40-winx64\bin> .\mysqld.exe --console (若使用PowerShell启动没反应,用cmd测试，查看错误信息）
 
-  -  如果出现以下错误   install [directx9.0c](http://www.jb51.net/softjc/368601.html) ，然后下载[repaire工具](http://www.crsky.com/soft/31471.html)   修复缺失dll及C++相关组件, 若提示还有问题重启+ 勾选C++强力修复进行修复                        ![1527054780321](.\images\mysql-error.jpg)
+  -  如果出现以下错误   install [directx9.0c](http://www.jb51.net/softjc/368601.html) ，然后下载[repaire工具](http://www.crsky.com/soft/31471.html)   修复缺失dll及C++相关组件, 若提示还有问题重启+ 勾选C++强力修复进行修复                        ![1527054780321](.\images\mysql-error.png)
 
 
 

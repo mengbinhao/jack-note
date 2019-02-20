@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test</title>
+</head>
+<body>
+    <div id="test"></div>
+    <div id="testFactoryComponent"></div>
+    <div id="testClassComponent"></div>
+    <script src="https://cdn.bootcss.com/react/16.8.1/umd/react.development.js"></script>
+    <script src="https://cdn.bootcss.com/react-dom/16.8.1/umd/react-dom.development.js"></script>
+    <script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+        const arrs = ['js', 'vue', 'react']
+        const virtualDOM = <ul>
+                            {
+                                arrs.map((arr, index) => <li key={ index }>{ arr }</li>)
+                            }
+                        </ul>
+        ReactDOM.render(virtualDOM, document.getElementById('test'))
+
+
+        function MyComponent() {
+            return <h2>factory component</h2>
+        }
+
+        ReactDOM.render(<MyComponent/>, document.getElementById('testFactoryComponent'))
+
+        class MyComponent2 extends React.Component {
+            constructor(props) {
+                super(props)
+            }
+            render() {
+                console.log(this)
+                return <h2>class component</h2>
+            }
+        }
+
+        ReactDOM.render(<MyComponent2/>, document.getElementById('testClassComponent'))
+    </script>
+</body>
+</html>

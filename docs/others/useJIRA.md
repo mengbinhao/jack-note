@@ -21,7 +21,7 @@ default-collation = utf8_bin
 
    - configure outgoing mail
 
-     ![](.\images\jira-email.jpg)
+     ![](.\images\jira-email.png)
 
 2. Project (Project Category)
 

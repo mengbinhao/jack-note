@@ -33,7 +33,7 @@
 
 ### 3.Workflow
 
-![](.\images\testlink-workflow.jpg)
+![](.\images\testlink-workflow.png)
 
 1. create project
 2. create requirement(requirement specification / requirement)

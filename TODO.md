@@ -189,6 +189,7 @@ https://finget.github.io/2019/01/15/interview-questions/   前端
 https://segmentfault.com/a/1190000016902075           前端技术简历
 https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经https://segmentfault.com/a/1190000016770732           vue interview
 https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/   Vue常见面试题整理
+https://juejin.im/post/5c67773a5188256284529d8c       JavaScript知识点整理
 http://web.jobbole.com/95195/                         vue interview
 https://segmentfault.com/a/1190000016351284           vue interview
 https://segmentfault.com/a/1190000015861382           vue interview

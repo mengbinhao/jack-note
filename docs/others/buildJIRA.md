@@ -49,7 +49,7 @@ flush privileges;
 
 9. then check if cracker sucessfully
 
-   ![](.\images\jira_license.jpg)
+   ![](.\images\jira_license.png)
 
 10. china language, : stop JIRA service copy JIRA-6.3.6-language-pack-zh_CN.jar to C:\Program Files (x86)\Atlassian\JIRA\atlassian-jira\WEB-INF\lib,start  JIRA service
 
