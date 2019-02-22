@@ -29,7 +29,6 @@
       - [macrotaskmicrotask](docs/frondend/js/macrotaskmicrotask.md)
       - [macrotaskmicrotask2](docs/frondend/js/macrotaskmicrotask2.md)
       - [前端请求](docs/frondend/js/前端请求.md)
-      - [ajaxcross](docs/frondend/js/ajaxcross.md)
       - [浏览器窗口间通信](docs/frondend/js/浏览器窗口间通信.md)
       - [Web Worker](docs/frondend/js/webworker.md)
       - [advancefunction](docs/frondend/js/advancefunction.md)
