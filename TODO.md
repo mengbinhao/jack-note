@@ -89,6 +89,7 @@ https://juejin.im/post/5bf7ca2f6fb9a049a9795a88                 优化 Vue 组�
 https://segmentfault.com/a/1190000017188189                     Vue.js的复用组件开发流程
 https://segmentfault.com/a/1190000017007631                     vue项目刷新当前页面
 https://segmentfault.com/a/1190000018130259                     Vue 动画的封装
+https://zhuanlan.zhihu.com/p/56260917                          Vue 2.6
 https://juejin.im/post/5c40251b518825254c31aa2d                Vue 实践小结
 http://www.cnblogs.com/zhengrunlin/p/9164951.html       	    vue技巧
 https://juejin.im/post/5b0a36366fb9a07a9c04aca2  	            vue避坑
@@ -133,6 +134,7 @@ https://juejin.im/post/5c2dc7a9e51d4573c8491e77                 Vue实现函数�
 https://segmentfault.com/a/1190000017909770                     一次简单的项目优化
 https://zhuanlan.zhihu.com/p/48461259#at                        Vue的打包优化之路
 https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack优化实践，构建效率提高50%                                           Webpack优化
+https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd                  webpack打包优化黑科技
 https://juejin.im/post/5c3c55aa51882524b4073394
 https://segmentfault.com/a/1190000017844405                      Vue项目部署遇到的问题及解决方案
 
@@ -201,7 +203,9 @@ https://juejin.im/post/5c6d4a46f265da2de6610287       vue stack interview
 http://blog.poetries.top/2018/10/20/fe-interview-component/    interview React vs vue
 https://zhuanlan.zhihu.com/p/35587283                 React
 https://segmentfault.com/a/1190000016761186           React
-https://segmentfault.com/a/1190000016736645           总结
+https://segmentfault.com/a/1190000018257360           React性能优化技巧总结
+https://segmentfault.com/a/1190000018227761           js interview
+https://segmentfault.com/a/1190000016736645           interview
 http://0313.name/archives/502#JavaScript              interview
 https://segmentfault.com/a/1190000016953153           interview
 https://segmentfault.com/a/1190000016848192           promise
