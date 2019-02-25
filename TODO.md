@@ -200,7 +200,7 @@ https://segmentfault.com/a/1190000017103048           vue interview
 https://segmentfault.com/a/1190000018060680           vue interview
 https://segmentfault.com/a/1190000018225708           vue interview
 https://juejin.im/post/5c6d4a46f265da2de6610287       vue stack interview
-http://blog.poetries.top/2018/10/20/fe-interview-component/    interview React vs vue1
+http://blog.poetries.top/2018/10/20/fe-interview-component/    interview React vs vue
 https://zhuanlan.zhihu.com/p/35587283                 React
 https://segmentfault.com/a/1190000016761186           React
 https://segmentfault.com/a/1190000018257360           React性能优化技巧总结
