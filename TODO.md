@@ -207,10 +207,7 @@ https://segmentfault.com/a/1190000018257360           React性能优化技巧总
 https://segmentfault.com/a/1190000018227761           js interview
 https://segmentfault.com/a/1190000016736645           interview
 http://0313.name/archives/502#JavaScript              interview
-https://segmentfault.com/a/1190000016953153           interview
-https://segmentfault.com/a/1190000016848192           promise
-https://juejin.im/post/5ab20c58f265da23a228fe0f#heading-6   promise
-https://segmentfault.com/a/1190000018047530#articleHeader12 promise
+https://segmentfault.com/a/1190000016953153           intervie
 https://juejin.im/post/5af8e6aef265da0b9265b04c       interview
 https://www.haorooms.com/post/2018_mianshiqianduan    interview
 https://juejin.im/post/5b0562306fb9a07aaf3596c1       interview
