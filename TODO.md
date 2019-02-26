@@ -32,6 +32,7 @@ https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 https://juejin.im/post/5bf676acf265da6166241b0e   Vue2.5+Node.js搭建一个多页面商城
 
 
+https://segmentfault.com/a/1190000018263418       web前端性能优化总结
 https://juejin.im/post/5c2839566fb9a049fa0fd926   封装AJAX
 https://blog.hhking.cn/2018/11/29/html5-img-upload/                    HTML5图片上传解决方案
 https://segmentfault.com/a/1190000017143278                            node+mongodb部署在服务器并进行性能优化
