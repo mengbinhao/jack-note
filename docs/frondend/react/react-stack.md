@@ -49,7 +49,7 @@
 ```
 
 ### JSX
-1. 全称:  JavaScript XML
+1. 全称: JavaScript XML
 2. 作用: 用来创建react虚拟DOM(元素)对象
    - var ele = \<h1>Hello JSX!\</h1>
    - 它不是字符串, 也不是HTML/XML标签
@@ -105,6 +105,8 @@ ReactDOM.render(<MyComponent2/>, document.getElementById('test'))
 >
 > 3 虚拟DOM元素必须有结束标签
 
+#### 高阶组件
+`const EnhanceComponent = higherOrderComponent(WrapperComponent)`
 
 ### 三大属性
 #### state
@@ -179,11 +181,13 @@ handleFocus(event) {
     - 交互功能(从绑定事件监听开始)
 
 ### 收集表单数据
-- 受控组件: 表单项输入数据能自动收集成状态
-- 非受控组件: 需要时才手动读取表单输入框中的数据
+- 受控组件: 表单项输入数据能自动收集成状态，表单元素状态由使用者维护
+- 非受控组件: 需要时才手动读取表单输入框中的数据，表单元素状态DOM自身维护
 
 ### 组件生命周期
 ![](../images/react-1.png)
+
+![](../images/react-6.png)
 
 #### 生命周期流程:
 - 第一次初始化渲染显示: ReactDOM.render()

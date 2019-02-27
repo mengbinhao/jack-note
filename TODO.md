@@ -1,6 +1,7 @@
 - js-tool-library / jack-note / caibaojian / 30s js
 - zaolunzi
-- 极客react / juejin 小册2  是否极客算法
+- 极客react(6) / 算法(8) ----- juejin 2小册
+- ~极客JAVA核心36  玩转Spring
 
 https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
 
