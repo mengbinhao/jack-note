@@ -35,33 +35,43 @@
     <div id="test" class="demo">demo</div>
     <button id="t1">ttt1111</button>
     <script>
-        const clothesArr = [
-            { username: "sunan", haveA02: false, basePrice: 30 },
-            { username: "fenshuajiang", haveA02: true, basePrice: 10 },
-            { username: "huixin", haveA02: true, basePrice: 20 }
-        ]
-        const abc = clothesArr.map(item => {
-            return item.haveA02 ? { ...item, basePrice: item.basePrice + 100 } : item
-        })
+        // const clothesArr = [
+        //     { username: "sunan", haveA02: false, basePrice: 30 },
+        //     { username: "fenshuajiang", haveA02: true, basePrice: 10 },
+        //     { username: "huixin", haveA02: true, basePrice: 20 }
+        // ]
+        // const abc = clothesArr.map(item => {
+        //     return item.haveA02 ? { ...item, basePrice: item.basePrice + 100 } : item
+        // })
 
-        function fun(n, o) {
-            console.log(o)
-            return {
-                fun: function(m) {
-                    return fun(m, n)
-                }
-            }
+
+        // function fun(n, o) {
+        //     console.log(o)
+        //     return {
+        //         fun: function(m) {
+        //             return fun(m, n)
+        //         }
+        //     }
+        // }
+        // var a = fun(0)
+        // a.fun(1)
+        // a.fun(2)
+        // a.fun(3)
+
+        // var b = fun(0).fun(1).fun(2).fun(3)
+
+        // var c = fun(0).fun(1)
+        // c.fun(2)
+        // c.fun(3)
+
+        let a = 0
+        let b = async () => {
+            a = a + await 10
+            console.log('2', a) // -> '2' 10
         }
-        var a = fun(0)
-        a.fun(1)
-        a.fun(2)
-        a.fun(3)
-
-        var b = fun(0).fun(1).fun(2).fun(3)
-
-        var c = fun(0).fun(1)
-        c.fun(2)
-        c.fun(3)
+        b()
+        a++
+        console.log('1', a) // -> '1' 1
     </script>
 </body>
 
