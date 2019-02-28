@@ -1,8 +1,8 @@
-- js-tool-library / jack-note / caibaojian / 30s js
+- js-tool-library / jack-note / caibaojian / 30seconds
 - zaolunzi
-- 极客react(6) / 算法(8)
-- 掘金  前端面试之道(6) / Vue.js 组件精讲(0)
-- ~~~~~极客JAVA核心36 / 玩转Spring
+- 极客react(12) / 算法(11)
+- 掘金小册
+- {极客JAVA核心36 / 玩转Spring}
 
 https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
 
@@ -72,7 +72,7 @@ https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向
 https://segmentfault.com/a/1190000015740490   	                Vue超快速学习
 https://www.w3cplus.com/vue/managing-state-in-vue-js.html       Vue中的状态管理(3种)
 https://juejin.im/post/5afe56e6f265da0ba76ffac3  		        vue/axios/vue-router
-
+https://juejin.im/post/5c749bc7e51d45659809408a                浅析Vue中$nextTick机制
 https://segmentfault.com/a/1190000016662929                     vue中$router以及$route的使用
 https://juejin.im/post/5b0281b851882542845257e7  	            vue-router
 https://segmentfault.com/a/1190000018173547                     Vue Router深度用法（一）
