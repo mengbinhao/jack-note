@@ -191,16 +191,40 @@ handleFocus(event) {
 
 #### 生命周期流程:
 - 第一次初始化渲染显示: ReactDOM.render()
-  - constructor(): 创建对象初始化state
+  - constructor(props): 创建对象初始化state(可选)
   - componentWillMount() : 将要插入回调
   - render() : 用于插入虚拟DOM回调
   - componentDidMount() : 已经插入回调
+    - 在这里进行 Ajax 调用
+    - 如果你需要事件监听器，订阅等功能，可以在此处添加
+    - 你可以在这里使用 setState（但是它会使组件重新渲染）
 - 每次更新state: this.setSate()
   - componentWillUpdate() : 将要更新回调
   - render() : 更新(重新渲染)
-  - componentDidUpdate() : 已经更新回调
+  - componentDidUpdate(prevProps, prevState, snapshot): 已经更新回调
+    - 在组件刚刚更新完毕时执行（在开始渲染时不会）
+    - 有三个可选的参数（以前的props，以前的 state 和只有在你的组件实现 getSnapshotBeforeUpdate 时才会出现的快照 ）
+    - 仅当shouldComponentUpdate返回true时才会执行
+    - If you use setState here, you should guard it or you will land in an infinite loop
+    - shouldComponentUpdate(nextProps, nextState)
+      - 仅用于性能优化
+      - 如果返回 false，则不会调用渲染器(如果重写的SCO只是对props/state的浅层比较，可以使用PureComponent)
+    - getSnapshotBeforeUpdate()
+      - 可用于保存一些与当前 DOM 有关的信息，例如当前的滚动位置，稍后可在 componentDidUpdate 中重用，用来恢复滚动的位置
 - 移除组件: ReactDOM.unmountComponentAtNode(containerDom)
   - componentWillUnmount() : 组件将要被移除回调
+    - 清除所有仍在进行的东西(Ajax应该被中断，取消订阅，清除定时器等等)
+- componentDidCatch(error, info)
+  - 应该记录日志错误的地方
+  - 可以调用 setState，但在以后的版本中，将会在静态方法getDerivedStateFromError(error) 中被删除，它将通过返回一个值来更新状态
+- static getDerivedStateFromError(error)
+  - 此处提供错误信息
+  - 应返回一个对象值，该值将会更新可用于处理错误的状态（通过显示内容）
+  - 由于它是静态的，因此无法访问组件实例本身
+- static getSnapshotBeforeUpdate(props, state)
+  - 应该在props随时间变化的情况下使用 —— 例如根据React docs，它可能用于转换组件
+  - 由于它是静态的，因此无法访问组件实例本身
+
 
 #### 重要的勾子
 - render(): 初始化渲染或更新渲染调用
@@ -474,7 +498,7 @@ export default combineReducers({
 ```
 - connect()
 ```
-用于包装 UI 组件生成容器组件
+用于包装UI组件生成容器组件
 import { connect } from 'react-redux'
   connect(
     mapStateToprops,
