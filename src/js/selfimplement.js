@@ -111,6 +111,68 @@ Array.prototype.myReduce2 = (f, acc, arr) => {
 //Function
 //Function
 
+function throttle(fn, interval) {
+    let last = 0
+
+    return function () {
+        let context = this
+        let args = arguments
+        let now = +new Date()
+
+        if (now - last >= interval) {
+            last = now;
+            fn.apply(context, args)
+        }
+      }
+  }
+const better_scroll = throttle(() => console.log('触发了滚动事件'), 1000)
+document.addEventListener('scroll', better_scroll)
+
+function debounce(fn, delay) {
+    let timer = null
+
+    return function () {
+      let context = this
+      let args = arguments
+
+      if(timer) {
+          clearTimeout(timer)
+      }
+
+      timer = setTimeout(function () {
+        fn.apply(context, args)
+      }, delay)
+    }
+  }
+const better_scroll = debounce(() => console.log('触发了滚动事件'), 1000)
+document.addEventListener('scroll', better_scroll)
+
+//用Throttle来优化Debounce
+function throttle(fn, delay) {
+    let last = 0, timer = null
+
+    return function () {
+      let context = this
+      let args = arguments
+      let now = +new Date()
+
+      if (now - last < delay) {
+      // 如果时间间隔小于我们设定的时间间隔阈值，则为本次触发操作设立一个新的定时器
+         clearTimeout(timer)
+         timer = setTimeout(function () {
+            last = now
+            fn.apply(context, args)
+          }, delay)
+      } else {
+          last = now
+          fn.apply(context, args)
+      }
+    }
+  }
+const better_scroll = throttle(() => console.log('触发了滚动事件'), 1000)
+document.addEventListener('scroll', better_scroll)
+
+
 //debunce 在事件被触发n秒后再执行回调函数，如果在这n秒内又被触发，则重新计时。
 // 1 用户在输入框中连续输入一串字符后，只会在输入完后去执行最后一次的查询ajax请求，这样可以有效减少请求次数，节约请求资源；
 // 2 window的resize、scroll事件，不断地调整浏览器的窗口大小、或者滚动时会触发对应事件，防抖让其只触发一次；

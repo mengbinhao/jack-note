@@ -1,7 +1,7 @@
-- js-tool-library / jack-note / caibaojian / 30seconds
+- jack-note / caibaojian / js-tool-library / 30seconds
 - zaolunzi
-- 极客react(18) / 算法(13)
-- 掘金小册
+- 极客react(first done) / 算法(13)
+- 掘金小册(first done)
 - {极客JAVA核心36 / 玩转Spring}
 
 https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
@@ -123,8 +123,10 @@ https://segmentfault.com/a/1190000018120316                     Vue中组件使�
 https://juejin.im/post/5c64e11151882562e4726d98#heading-4       Vue 2.6 new slot
 https://www.w3cplus.com/vue/vue-transition.html                 Vue的transition
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
+https://segmentfault.com/a/1190000018364199      Vue项目重构
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
 https://juejin.im/post/5b97b84ee51d450e6c7492f6                 Vue优化
+https://yugasun.com   Vue实践
 https://juejin.im/post/5bdd57f451882517165d75cc                 Vue优化
 https://juejin.im/post/5ae02f39518825672f198ac2                 Vue小技巧
 https://segmentfault.com/a/1190000017159449                     Vue一次s引入所有公共组件
