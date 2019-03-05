@@ -35,67 +35,83 @@
     <div id="test" class="demo">demo</div>
     <button id="t1">ttt1111</button>
     <script>
-        // const clothesArr = [
-        //     { username: "sunan", haveA02: false, basePrice: 30 },
-        //     { username: "fenshuajiang", haveA02: true, basePrice: 10 },
-        //     { username: "huixin", haveA02: true, basePrice: 20 }
-        // ]
-        // const abc = clothesArr.map(item => {
-        //     return item.haveA02 ? { ...item, basePrice: item.basePrice + 100 } : item
-        // })
-
-
-        // function fun(n, o) {
-        //     console.log(o)
-        //     return {
-        //         fun: function(m) {
-        //             return fun(m, n)
-        //         }
-        //     }
-        // }
-        // var a = fun(0)
-        // a.fun(1)
-        // a.fun(2)
-        // a.fun(3)
-
-        // var b = fun(0).fun(1).fun(2).fun(3)
-
-        // var c = fun(0).fun(1)
-        // c.fun(2)
-        // c.fun(3)
-
-        let arr = [4, 5, 6, 3, 2, 1]
-        const swap = (arr, i, j) => {
-    const temp = arr[i]
-    arr[i] = arr[j]
-    arr[j] = temp
-}
-
-// 获取 pivot 交换完后的index
-const partition = (arr, pivot, left, right) => {
-    const pivotVal = arr[pivot]
-    let startIndex = left
-    for (let i = left; i < right; i++) {
-        if (arr[i] < pivotVal) {
-            swap(arr, i, startIndex)
-            startIndex++
+        const isObject = (obj) => {
+            return obj !== null && typeof obj === 'object'
         }
-    }
-    swap(arr, startIndex, pivot)
-    return startIndex
-}
+        let deepClone22 = (target, origin) => {
+            var target = target || {},
+                toStr = Object.prototype.toString,
+                arrStr = "[object Array]",
+                prop;
+            for (prop in origin) {
+                prop = origin[prop];
+                if (prop === target) {
+                    continue;
+                }
+                if (origin.hasOwnProperty(prop)) {
+                    if (origin[prop] != null && typeof (origin[prop]) === "object") {
+                        target[prop] = (toStr.call(origin[prop]) === arrStr) ? [] : {};
+                        deepClone22(target[prop], origin[prop]);
+                    } else {
+                        target[prop] = origin[prop];
+                    }
+                }
+            }
+        }
 
-const quickSort = (arr, left, right) => {
-    if (left < right) {
-        let pivot = right
-        let partitionIndex = partition(arr, pivot, left, right)
-        quickSort(arr, left, partitionIndex - 1 < left ? left : partitionIndex - 1)
-        quickSort(arr, partitionIndex + 1 > right ? right : partitionIndex + 1, right)
-    }
+        const deepClone = (source, hash = new WeakMap()) => {
+            if (!isObject(source)) return source
+            //maybe return
+            if (hash.has(source)) throw TypeError('circle reference')
+            let target = Array.isArray(source) ? [] : {}
+            hash.set(source, target)
 
-}
-quickSort(arr, 0, arr.length - 1);
-console.log('sort', arr)
+            let symKeys = Object.getOwnPropertySymbols(source)
+            if (symKeys.length) {
+                symKeys.forEach(symKey => {
+                    if (isObject(source[symKey])) {
+                        target[symKey] = deepClone(source[symKey], hash);
+                    } else {
+                        target[symKey] = source[symKey];
+                    }
+                });
+            }
+
+            for (let key in source) {
+                if (Object.prototype.hasOwnProperty.call(source, key)) {
+                    if (isObject(source[key])) {
+                        target[key] = deepClone(source[key], hash)
+                    } else {
+                        target[key] = source[key]
+                    }
+                }
+            }
+            return target
+        }
+
+        let obj = {
+            strProperty: "muyiy",
+            objProperty: {
+                title: "You Don't Know JS",
+                price: "45"
+            },
+            undefinedProperty: undefined,
+            nullProperty: null,
+            numberProperty: 123,
+            funcProperty: function () { },
+            boolProperty: true,
+            arrProperty: [1, 2, 3]
+        }
+
+        //obj.circleProperty = obj
+
+        let sym1 = Symbol("a")
+        let sym2 = Symbol.for("b")
+
+        obj[sym1] = "localSymbol";
+        obj[sym2] = "globalSymbol";
+        let ret = deepClone(obj)
+        console.log(ret)
     </script>
 </body>
 

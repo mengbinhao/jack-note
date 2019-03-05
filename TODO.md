@@ -1,6 +1,7 @@
 - jack-note / caibaojian / js-tool-library / 30seconds
 - zaolunzi
-- 极客react(first done) / 算法(13)
+-  Go(10) / 算法(13)
+-  客react(first done)
 - 掘金小册(first done)
 - {极客JAVA核心36 / 玩转Spring}
 
@@ -132,7 +133,8 @@ https://juejin.im/post/5ae02f39518825672f198ac2                 Vue小技巧
 https://segmentfault.com/a/1190000017159449                     Vue一次s引入所有公共组件
 https://juejin.im/post/5bd83871f265da0afa3e3204                 Vue项目经验https://juejin.im/post/5be77819f265da616a472e16                 Vue动态组件与全局事件绑定总结
 https://juejin.im/post/5c133223e51d4540391749f5                 Vue工程化最佳实践
-
+https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd
+Vue性能优化(vue vue-router vuex延迟加载动态延迟加载)
 https://segmentfault.com/a/1190000017480921                     vue 前端项目技术选型、开发工具、周边生态
 https://segmentfault.com/a/1190000017414633                     Vue与React两个框架的粗略区别对比
 https://juejin.im/post/5c2dc7a9e51d4573c8491e77                 Vue实现函数防抖组件
@@ -190,6 +192,7 @@ https://segmentfault.com/a/1190000016484002                     webpack调优总
 
 https://segmentfault.com/a/1190000018155877           中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)
 https://segmentfault.com/a/1190000017949080           大厂interview思考
+https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490505&idx=1&sn=3efe2267b8bbfea86f2c13c9cc745414&chksm=f951ae8ace26279c852c8839c00baf8803983bf50a5a5be96607a9b9cae8fc2d21288f35cc70&mpshare=1&scene=1&srcid=#rd           大厂前端高频面试问题与答案精选
 https://segmentfault.com/a/1190000017114522           JS 一道面试题引起的思考
 
 https://finget.github.io/2019/01/15/interview-questions/   前端

@@ -375,31 +375,74 @@ let inherit = (function () {
     }
 }());
 
+let cloneShallow = (source) => {
+    var target = {}
+    for (let key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)){
+            target[key] = source[key]
+        }
+    }
+    return target
+}
+
 //JSON.parse(JSON.stringify(sourceObj))
 //不能处理属性值为function、undefined、date等
 //json只能处理string、boolean、number、null、object、array
-let deepClone = (target, origin) => {
-    let target = target || {},
-        toStr = Object.prototype.toString,
-        arrStr = "[object Array]";
-        prop;
-    for (prop in origin) {
-        // 避免相互引用对象导致死循环，如initalObj.a = initalObj的情况
-        prop = initalObj[i];
-        if (prop === target) {
-            continue;
-        }
-        if (origin.hasOwnProperty(prop)) {
-            if (origin[prop] != null && typeof (origin[prop]) === "object") {
-                target[prop] = (toStr.call(origin[prop]) === arrStr) ? [] : {};
-                deepClone(target[prop], origin[prop]);
+const isObject = (obj) => {
+    return obj !== null && typeof obj === 'object'
+}
+
+const deepClone = (source, hash = new WeakMap()) => {
+    if (!isObject(source)) return source
+    //maybe return
+    if (hash.has(source)) throw TypeError('circle reference')
+    let target = Array.isArray(source) ? [] : {}
+    hash.set(source, target)
+
+    let symKeys = Object.getOwnPropertySymbols(source)
+    if (symKeys.length) {
+        symKeys.forEach(symKey => {
+            if (isObject(source[symKey])) {
+                target[symKey] = deepClone(source[symKey], hash);
             } else {
-                target[prop] = origin[prop];
+                target[symKey] = source[symKey];
+            }
+        });
+    }
+
+    for (let key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+            if (isObject(source[key])) {
+                target[key] = deepClone(source[key], hash)
+            } else {
+                target[key] = source[key]
             }
         }
     }
+    return target
+}
+let objTest = {
+    strProperty: "muyiy",
+    objProperty: {
+        title: "You Don't Know JS",
+        price: "45"
+    },
+    undefinedProperty: undefined,
+    nullProperty: null,
+    numberProperty: 123,
+    funcProperty: function () { },
+    boolProperty: true,
+    arrProperty: [1, 2, 3]
 }
 
+//obj.circleProperty = obj
+
+let sym1 = Symbol("a")
+let sym2 = Symbol.for("b")
+
+objTest[sym1] = "localSymbol";
+objTest[sym2] = "globalSymbol";
+console.log(deepClone(objTest))
 
 let copyDeepClone = function (obj) {
     var copy;
@@ -429,18 +472,16 @@ let copyDeepClone = function (obj) {
             return obj.apply(this, arguments);
         }
         return copy;
-
-        // Handle Object
-        if (obj instanceof Object) {
-            copy = {};
-            for (var attr in obj) {
-                if (obj.hasOwnProperty(attr)) copy[attr] = deepClone(obj[attr]);
-            }
-            return copy;
-        }
-
-        throw new Error("Unable to copy obj as type isn't supported " + obj.constructor.name);
     }
+    // Handle Object
+    if (obj instanceof Object) {
+        copy = {};
+        for (var attr in obj) {
+            if (obj.hasOwnProperty(attr)) copy[attr] = deepClone(obj[attr]);
+        }
+        return copy;
+    }
+    throw new Error("Unable to copy obj as type isn't supported " + obj.constructor.name);
 }
 
 /**
