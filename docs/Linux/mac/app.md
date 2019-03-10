@@ -1,0 +1,13 @@
+- chrome
+- 射手影音(外挂字幕) mplayerx
+- unarchiver(只能解压各种格式)
+- keka
+- office 2016
+- Tuxera(支持NTFS,否则只能read)
+- istat menus
+- vmware
+- cleanmymac
+- moom
+- terminal
+  - say xxxx
+- cheatsheet
