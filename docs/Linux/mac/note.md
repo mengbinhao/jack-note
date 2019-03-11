@@ -64,3 +64,5 @@
 - command + shift + [control] + 3/4 + space截图
 - command + shift + 5
 - option多种用法
+- shift + option + 音量  微调
+- command + control + d 查词
