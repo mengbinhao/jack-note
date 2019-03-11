@@ -499,7 +499,7 @@ Function.prototype.simulateNew = (constructor, params) => {
     let obj = Object.create(constructor.prototype);
     let result = constructor.call(obj, params);
     //in case constructor return a simple type
-    return (typeof result === 'object' && result != null) ? result : obj;
+    return (typeof result === 'object' && result !== null) ? result : obj;
 }
 
 

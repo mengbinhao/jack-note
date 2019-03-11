@@ -1,9 +1,8 @@
 - jack-note / caibaojian / js-tool-library / 30seconds
 - zaolunzi
--  Go(10) / 算法(13)
--  客react(first done)
+- 极客Go(10) / 算法(13)
+- 极客react(first done)
 - 掘金小册(first done)
-- {极客JAVA核心36 / 玩转Spring}
 
 https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光开光开光开光开光开光
 
@@ -26,6 +25,7 @@ https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮�
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect  Vue学习路线
 
 
+http://www.cnblogs.com/zhoulifeng/p/10502058.html  vue实现短信验证码登录
 https://juejin.im/post/5902973eb123db3ee46a0107   核心入门
 http://blog.jobbole.com/65513/                    前后端分离
 https://juejin.im/post/5bc830a8f265da0abe272ccf   优化优化优化优化优化
@@ -119,6 +119,7 @@ https://juejin.im/post/5b486e446fb9a04faf479837                 vue 实践技巧
 https://juejin.im/post/5b573babf265da0fa50a1cad                 Vuex基本使用的总结
 https://juejin.im/post/5c3c911ce51d455231347a7a                 vuex
 https://juejin.im/post/5afea06d6fb9a07a9c0476c1  		        vuex
+https://juejin.im/post/5c7f20a46fb9a049db73e3d8    两个鲜有人知的Vuex技巧
 http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB/                                                                  关于input的一些问题解决方法分享
 https://segmentfault.com/a/1190000018120316                     Vue中组件使用中的细节点
 https://juejin.im/post/5c64e11151882562e4726d98#heading-4       Vue 2.6 new slot
@@ -157,7 +158,8 @@ https://github.com/lihongxun945/myblog/issues/21                vue vs react
 https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?              vue vs react
 https://segmentfault.com/a/1190000016990339                     vue vs react vs angular
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e&chksm=f951af14ce262602a85acb6a932b1c2e7e2c8c4e659b9aa3067dda6e3a89b5baa198cab475b1&mpshare=1&scene=1&srcid=#rd                                    React学习路线
-
+https://segmentfault.com/a/1190000018398978                     React 性能优化
+https://segmentfault.com/a/1190000018413163        React新旧生命周期
 https://juejin.im/post/5be5429de51d4511a808f4ac                 vscode项目配置 eslint+prettier
 https://juejin.im/post/5af6857651882542682e4843  	            从零开始搭建React开发环境
 https://segmentfault.com/a/1190000016281174                     掌握react，这一篇就够了
