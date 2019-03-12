@@ -68,6 +68,7 @@ https://segmentfault.com/a/1190000016420985                    杂
 http://0313.name/archives/485#16                               杂
 https://segmentfault.com/a/1190000016992952                   前端工具库汇总（下）
 http://blog.poetries.top/archives/   vue blog
+http://www.cnblogs.com/chenwenhao/p/10505387.html          Vue图片懒加载插件
 https://finget.github.io/2018/06/28/vue-family/                 vue全家桶
 https://juejin.im/post/5af665186fb9a07aa83ecde0  		        vue数组对象双向绑定
 https://segmentfault.com/a/1190000015740490   	                Vue超快速学习
