@@ -169,10 +169,7 @@ https://uinika.github.io/web/broswer/angular.html               angular best pra
 https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初级到高级路线图
 https://segmentfault.com/a/1190000017133041                     详解react、redux、react-redux之间的关系
 https://www.linuxidc.com/Linux/2018-12/155827.htm               React基础与生命周期
-
-
-
-https://juejin.im/post/5b2769196fb9a00e5a4b50a6                 babel
+https://zhuanlan.zhihu.com/p/57223501        Vue 服务端渲染实践 ——Web应用首屏耗时最优化方案
 https://segmentfault.com/a/1190000016740439                     全网最贴心webpack系列教程和配套代码
 https://segmentfault.com/a/1190000016798389                     webpack
 https://juejin.im/post/5bc0682be51d450e47144ce4                 webpack 4

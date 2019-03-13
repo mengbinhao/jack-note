@@ -1,3 +1,37 @@
+### Nginx
+Nginx是一款轻量级的Web服务器，也是一款轻量级的反向代理服务器
+
+### Nginx能干什么
+1. 直接支持Rails和PHP的程序
+2. 作为HTTP反向代理服务器
+3. 作为负载均衡服务器
+4. 作为邮件代理服务器
+5. 帮助实现前端动静分离
+
+### nginx在应用程序中的作用
+- 解决跨域
+- 请求过滤
+- 配置gzip
+- 负载均衡
+- 静态资源服务器
+
+### Nginx特点
+高稳定、高性能、资源占用少、功能丰富、模块化结构、支持热部署
+
+### nginx的安装
+
+1. 安装依赖：
+
+`yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel`
+
+2. 检查是否安装成功：`nginx -v`
+
+3. start/stop nginx：
+
+`/etc/init.d/nginx start`
+`/etc/init.d/nginx stop`
+
+4. 编辑配置文件  `/etc/nginx/nginx.conf`
 ### 正向代理
 内网服务器主动去请求外网的服务的一种行为
 
@@ -182,18 +216,4 @@ server {
 静态服务器的关键配置：
 > root：直接静态项目的绝对路径的根目录。
 >
-> server_name : 静态网站访问的域名地址。
-### nginx的安装
-
-1. 安装依赖：
-
-`yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel`
-
-2. 检查是否安装成功：`nginx -v`
-
-3. start/stop nginx：
-
-`/etc/init.d/nginx start`
-`/etc/init.d/nginx stop`
-
-4. 编辑配置文件  `/etc/nginx/nginx.conf`
+> server_name : 静态网站访问的域名地址
