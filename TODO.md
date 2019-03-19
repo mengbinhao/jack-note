@@ -13,6 +13,7 @@ https://juejin.im/post/5c1b69a1f265da61602ce477    express+mongodb+vue实现增�
 https://segmentfault.com/a/1190000017343993        vue全家桶制作一个精致的美团项目
 https://github.com/liangfengbo/nodejs-koa2-mysql-sequelize-jwt   nodejs+koa2+mysql+sequelize+jwt，使用koa2框架，sequelize管理mysql数据库，jwt做权限接口验证，实现用户、文章管理接口
 https://coding.imooc.com/class/chapter/113              Vue2.0+Node.js+MongoDB 全栈打造商城系统
+https://segmentfault.com/a/1190000018535128             koa2+vue+mysql 全栈开发记录
 http://coding.imooc.com/class/chapter/280.html#Anchor   Vue全家桶+SSR+Koa2全栈开发美团网
 https://coding.imooc.com/class/chapter/107.html#Anchor  Vue 2.0实战高级-开发移动端音乐Web APP
 https://coding.imooc.com/class/chapter/74.html#Anchor   Vue.js 高仿开发饿了么APP
@@ -24,6 +25,9 @@ http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器�
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect  Vue学习路线
 
+https://www.haorooms.com/post/js_exportexcel_fx_2019     前端js导出excel方法分享
+
+http://news.51cto.com/art/201903/593360.htm        一文告诉你如何优雅处理前端异常？
 
 http://www.cnblogs.com/zhoulifeng/p/10502058.html  vue实现短信验证码登录
 https://juejin.im/post/5902973eb123db3ee46a0107   核心入门
@@ -36,6 +40,7 @@ https://juejin.im/post/5bf676acf265da6166241b0e   Vue2.5+Node.js搭建一个多�
 
 
 https://segmentfault.com/a/1190000018263418       web前端性能优化总结
+https://segmentfault.com/a/1190000018530091       前端性能优化策略
 https://juejin.im/post/5c2839566fb9a049fa0fd926   封装AJAX
 https://blog.hhking.cn/2018/11/29/html5-img-upload/                    HTML5图片上传解决方案
 https://segmentfault.com/a/1190000017143278                            node+mongodb部署在服务器并进行性能优化
@@ -233,6 +238,17 @@ https://mp.weixin.qq.com/s/gcG-JL3wt0-Aexwt5nV99g     百度、有赞、阿里�
 https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽等比例缩放
 https://segmentfault.com/a/1190000017257916           前端面试常考知识点CSS
 
+
+
+https://www.cnblogs.com/miniren/p/5227994.html   构建中执行shell或者 windows的批处理程序
+
+https://segmentfault.com/a/1190000018534625#articleHeader9
+从零开始的Webpack4教程
+https://zhuanlan.zhihu.com/p/59342711     记一些 Promise 相关的优化点
+
+http://www.cnblogs.com/webSciprt/p/10542075.html   Mocha+should+Karma自动化测试教程
+
+
 ***
 ***
 
@@ -257,15 +273,11 @@ http://www.cnblogs.com/imyalost/p/8763583.html              自动化测试2
 https://blog.csdn.net/feigoliu/article/details/50491740     Ranorex与QTP的详细比较
 https://mp.weixin.qq.com/s/_4SQJcxJoAh9jRKLf9NwSQ           设计测试用例
 
-------------------照相111
 
 jenkens Item
 jenkens 8082
 testlink  88
 jira 8081/8006
-
-https://www.cnblogs.com/miniren/p/5227994.html   构建中执行shell或者 windows的批处理程序
-
 
 浙江大华
 迈瑞
