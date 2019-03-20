@@ -1,7 +1,14 @@
 //Array
 //Array
 //Array
-let simulateIsArray = (target) => {
+const myFlat = (arr) => {
+    while (arr.some(item => Array.isArray(item))) {
+        arr = [].concat(...arr)
+    }
+    return arr
+}
+
+const simulateIsArray = (target) => {
     if (Array.isArray) {
         return Array.isArray(target);
     } else {
@@ -10,7 +17,7 @@ let simulateIsArray = (target) => {
 }
 
 
-let sortArrayRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5)
+const sortArrayRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5)
 
 
 //generate undefined array
@@ -27,9 +34,9 @@ Array.prototype.myJoin = function (separator) {
 
 
 Array.prototype.mySlice = function (start, end) {
-    start = start || 0;
-    end = end || this.length;
-    let result = [];
+    start = start || 0
+    end = end || this.length
+    let result = []
     for (let i = start; i < end; i++) {
         result.push(this[i])
     }
@@ -235,7 +242,7 @@ function debounceAdvance (func, wait = 50, immediate = true) {
 //1 鼠标连续不断地触发某事件（如点击），只在单位时间内只触发一次；
 //2 在页面的无限加载场景下，需要用户在滚动页面时，每隔一段时间发一次 ajax 请求，而不是在用户停下滚动页面操作时才去请求数据；
 //3 监听滚动事件，比如是否滑到底部自动加载更多，用throttle来判断；
-let resizeThrottleHandler = (fn, delay, duration) => {
+const resizeThrottleHandler = (fn, delay, duration) => {
     let timer = null;
     let beginTime = +new Date();
     return function () {
@@ -365,7 +372,7 @@ const fibClosure = (function () {
 
 
 
-let inherit = (function () {
+const inherit = (function () {
     let F = function () {};
     return function (Target, Origin) {
         F.prototype = Origin.prototype;
@@ -375,7 +382,7 @@ let inherit = (function () {
     }
 }());
 
-let cloneShallow = (source) => {
+const cloneShallow = (source) => {
     var target = {}
     for (let key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)){
@@ -421,7 +428,7 @@ const deepClone = (source, hash = new WeakMap()) => {
     }
     return target
 }
-let objTest = {
+const objTest = {
     strProperty: "muyiy",
     objProperty: {
         title: "You Don't Know JS",
@@ -437,14 +444,14 @@ let objTest = {
 
 //obj.circleProperty = obj
 
-let sym1 = Symbol("a")
-let sym2 = Symbol.for("b")
+const sym1 = Symbol("a")
+const sym2 = Symbol.for("b")
 
 objTest[sym1] = "localSymbol";
 objTest[sym2] = "globalSymbol";
 console.log(deepClone(objTest))
 
-let copyDeepClone = function (obj) {
+const copyDeepClone = function (obj) {
     var copy;
 
     // Handle the 3 simple types, and null or undefined
@@ -564,7 +571,7 @@ Function.prototype.simulateBindAdvance = function (context) {
 }
 
 
-let curry = function (fn) {
+const curry = function (fn) {
     let args = [].slice.call(arguments, 1);
     let that = this;
     return function () {
@@ -573,7 +580,7 @@ let curry = function (fn) {
 }
 
 
-let curryFormalParameter = function (fn, args) {
+const curryFormalParameter = function (fn, args) {
     let length = fn.length,
         _args = args || [];
     that = this;

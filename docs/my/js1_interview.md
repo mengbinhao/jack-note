@@ -179,12 +179,9 @@ F1()
     * 没有及时清理的计时器或回调函数`clearInterval(intervalId)`
     * 闭包`f = null`
 
-**外部函数的变量需要var定义,let看不到!!!!!!!!**
-**外部函数的变量需要var定义,let看不到!!!!!!!!**
-**外部函数的变量需要var定义,let看不到!!!!!!!!**
 ```javascript
 function F1() {
-    var a = 100
+    let a = 100
     return function () {
         console.log(a)
     }
