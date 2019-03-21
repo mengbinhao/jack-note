@@ -20,7 +20,7 @@ https://coding.imooc.com/class/chapter/74.html#Anchor   Vue.js 高仿开发饿�
 http://coding.imooc.com/class/chapter/178.html#Anchor   Koa2框架搭建电影预告片网站
 https://juejin.im/post/5c4f1f0de51d4552d573b784         记第一个Vue项目台前幕后的经历
 https://segmentfault.com/a/1190000016420985    各種前端
-
+https://segmentfault.com/a/1190000018562933    Vue实现电商网站项目
 http://coding.imooc.com/class/chapter/95.html#Anchor    Node.js线上服务器部署与发布
 https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮子
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect  Vue学习路线
