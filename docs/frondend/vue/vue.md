@@ -73,6 +73,8 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue。而
 - 事件修饰符
 - 自定义事件
 
+#### slot（默认 | 具名）
+
 #### 表单输入绑定
 - 基础用法
 - 值绑定
@@ -81,8 +83,11 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue。而
 #### filter(global / local)
 
 #### component(global / local)
-
-#### slot（默认 | 具名）
+- Vue.component
+  - 全局定义: 命名不能重复
+  - 字符串模板无法高亮
+  - 不支持CSS
+  - 没有构建步骤(babel,预处理器等)
 
 #### clock
 
@@ -93,6 +98,25 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue。而
 
 #### vue组件间通信方式
 
+### 组件
+- 属性
+  - 自定义
+  - 原声 //可以设置inheritAttrs = false关闭自动挂载
+  - 特殊class / style / ref / key
+- 事件
+  - 普通
+  - 修饰符
+- 插槽
+  - 普通
+  ```
+    <template slot="xxx">
+    <template v-slot:"xxx">  //2.6
+  ```
+  - 作用域
+  ```
+    <template slot="xxx" slot-scope="props">
+    <template v-slot:xxx="props">  //2.6
+  ```
 #### 生命周期
 
 #### 初始化显示
