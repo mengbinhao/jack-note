@@ -1,6 +1,6 @@
 - jack-note / caibaojian / js-tool-library / 30seconds
 - zaolunzi
-- 极客Go(10) / 算法(13) / Vue(16 practise)
+- 极客Go(29) / 算法(13) / Vue(16 practise)
 - 极客react(first done)
 - 掘金小册(first done)
 
@@ -243,7 +243,8 @@ https://segmentfault.com/a/1190000018584779      一个HTTP打趴80%面试者
 https://www.cnblogs.com/miniren/p/5227994.html   构建中执行shell或者 windows的批处理程序
 
 https://segmentfault.com/a/1190000018534625#articleHeader9
-从零开始的Webpack4教程
+从零开始的Webpack4教程                     webpack4.0 CheatSheet
+https://juejin.im/post/5c91e2ca518825284205dcf2
 https://zhuanlan.zhihu.com/p/59342711     记一些 Promise 相关的优化点
 
 http://www.cnblogs.com/webSciprt/p/10542075.html   Mocha+should+Karma自动化测试教程
