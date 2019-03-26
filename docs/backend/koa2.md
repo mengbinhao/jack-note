@@ -17,7 +17,9 @@ node index.js
 ```
 
 #### ctx
-ctx作为上下文使用，Koa将 node 的 request, response 对象封装进一个单独对象。即ctx.request 、 ctx.response。Koa 内部又对一些常用的属性或者方法做了代理操作，使得我们可以直接通过 ctx 获取。比如，ctx.request.url 可以写成 ctx.url。
+ctx作为上下文使用，Koa将node的request, response对象封装进一个单独对象。即ctx.request 、 ctx.response。Koa内部又对一些常用的属性或者方法做了代理操作，使得我们可以直接通过ctx获取。比如，ctx.request.url 可以写成ctx.url
+
+除此之外，Koa还约定了一个中间件的存储空间ctx.state。通过state可以存储一些数据，比如用户数据，版本信息等。如果你使用webpack打包的话，可以使用中间件，将加载资源的方法作为ctx.state的属性传入到view层，方便获取资源路径
 
 #### next
 next 参数的作用是将处理的控制权转交给下一个中间件
@@ -65,7 +67,7 @@ app.listen(3333, ()=>{
 - 中间件只支持 `async/await` 封装的，如果要使用koa@1基于generator中间件，需要通过中间件koa-convert封装一下才能使用。
 
 
-## koa2中间件开发
+## koa2中间件开发(顺序很重要)
 
 ```javascript
 /* ./middleware/logger-async.js */

@@ -130,6 +130,8 @@ http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B
 https://segmentfault.com/a/1190000018120316                     Vue中组件使用中的细节点
 https://juejin.im/post/5c64e11151882562e4726d98#heading-4       Vue 2.6 new slot
 https://www.w3cplus.com/vue/vue-transition.html                 Vue的transition
+https://www.yinchengli.com/2019/03/24/vue-performance-problem/
+一个Vue引发的性能问题
 https://juejin.im/post/5b7f7d886fb9a01a1e0203cb                 Vue优化
 https://segmentfault.com/a/1190000018364199      Vue项目重构
 https://juejin.im/post/5ae2cb0ef265da0b767d32a0                 Vue优化
@@ -175,6 +177,7 @@ https://uinika.github.io/web/broswer/angular.html               angular best pra
 https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初级到高级路线图
 https://segmentfault.com/a/1190000017133041                     详解react、redux、react-redux之间的关系
 https://www.linuxidc.com/Linux/2018-12/155827.htm               React基础与生命周期
+https://segmentfault.com/a/1190000018633603   从零开始学习React高阶组件
 https://zhuanlan.zhihu.com/p/57223501        Vue 服务端渲染实践 ——Web应用首屏耗时最优化方案
 https://segmentfault.com/a/1190000016740439                     全网最贴心webpack系列教程和配套代码
 https://segmentfault.com/a/1190000016798389                     webpack
@@ -238,6 +241,7 @@ https://mp.weixin.qq.com/s/gcG-JL3wt0-Aexwt5nV99g     百度、有赞、阿里�
 
 https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽等比例缩放
 https://segmentfault.com/a/1190000017257916           前端面试常考知识点CSS
+https://segmentfault.com/a/1190000018634744           前端面试Vue
 
 
 https://segmentfault.com/a/1190000018584779      一个HTTP打趴80%面试者
