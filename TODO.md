@@ -1,6 +1,6 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
-- 极客Go(29) / 算法(learning!!!) / Vue(16 practise)
+- 极客Go(32) / 算法(learning!!!) / Vue(19 practise)
 - 极客react(first done)
 - 掘金小册(first done)
 
