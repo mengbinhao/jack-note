@@ -86,6 +86,7 @@ https://segmentfault.com/a/1190000018173547                     Vue Router深度
 https://juejin.im/post/5afcd516f265da0b9e65414b  	            vue组件
 https://segmentfault.com/a/1190000017035590                     实现一个 Vue 进度条组件
 https://juejin.im/post/5afd7eb16fb9a07ac5605bb3     	        vue生命钩子
+http://news.51cto.com/art/201903/593856.htm                   Vue使用技巧和项目中遇到的问题
 https://juejin.im/post/5b03e610f265da0b873ad64e  	            自定义指令
 https://juejin.im/post/5b2872516fb9a00e8626e34f                 vue-cli
 https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect
