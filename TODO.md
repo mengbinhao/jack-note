@@ -1,6 +1,6 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
-- 极客Go(32) / 算法(learning!!!) / Vue(19 practise)
+- 极客Go(33) / 算法(learning!!!) / Vue(21 practise)
 - 极客react(first done)
 - 掘金小册(first done)
 
@@ -198,7 +198,7 @@ https://juejin.im/post/5b652b036fb9a04fa01d616b                 Webpack性能优
 http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack全
 https://segmentfault.com/a/1190000016484002                     webpack调优总结
 
-
+https://segmentfault.com/a/1190000018663104            Vue技术分类
 
 https://segmentfault.com/a/1190000018155877           中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)
 https://segmentfault.com/a/1190000017949080           大厂interview思考
