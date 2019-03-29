@@ -179,6 +179,7 @@ https://juejin.im/post/5bb0303f5188255c8d0fdacb                 React—从初�
 https://segmentfault.com/a/1190000017133041                     详解react、redux、react-redux之间的关系
 https://www.linuxidc.com/Linux/2018-12/155827.htm               React基础与生命周期
 https://segmentfault.com/a/1190000018633603   从零开始学习React高阶组件
+https://segmentfault.com/a/1190000018672269   React 服务端渲染从入门到精通
 https://zhuanlan.zhihu.com/p/57223501        Vue 服务端渲染实践 ——Web应用首屏耗时最优化方案
 https://segmentfault.com/a/1190000016740439                     全网最贴心webpack系列教程和配套代码
 https://segmentfault.com/a/1190000016798389                     webpack
