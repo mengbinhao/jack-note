@@ -122,13 +122,12 @@ function throttle(fn, interval) {
     let last = 0
 
     return function () {
-        let context = this
         let args = arguments
         let now = +new Date()
 
         if (now - last >= interval) {
-            last = now;
-            fn.apply(context, args)
+            fn.apply(this, args)
+            last = +new Date()
         }
       }
   }
@@ -392,7 +391,7 @@ const cloneShallow = (source) => {
     return target
 }
 
-//JSON.parse(JSON.stringify(sourceObj))
+//乞丐版 JSON.parse(JSON.stringify(sourceObj))
 //不能处理属性值为function、undefined、date等
 //json只能处理string、boolean、number、null、object、array
 const isObject = (obj) => {
@@ -498,41 +497,38 @@ const copyDeepClone = function (obj) {
  * 4. 返回新对象
  * 优先级 new有 > call，apply，bind > 显示 > 隐式
 */
-Function.prototype.simulateNew = (constructor, params) => {
+Function.prototype.simulateNew = function (constructor) {
     if(typeof constructor !== 'function'){
-        throw 'the first param must be a function';
+        throw new Error('the first param must be a function')
     }
     //same as let obj = new Object(), obj__proto == constructor.prototype
-    let obj = Object.create(constructor.prototype);
-    let result = constructor.call(obj, params);
+    let obj = Object.create(constructor.prototype)
+    let result = constructor.apply(obj, Array.prototype.slica.call(arguments, 1))
     //in case constructor return a simple type
-    return (typeof result === 'object' && result !== null) ? result : obj;
+    return (typeof result === 'object' && result !== null) ? result : obj
 }
 
 
-Function.prototype.simulateCall = function (context) {
-    var context = context || window;
-    context.fn = this;
-    var args = [].slice.call(arguments, 1);
-    var result = eval("context.fn(" + args + ")");
+Function.prototype.simulateCall = function (context = window) {
+    context.fn = this
+    let args = [...arguments].slice(1)
+    let result = context.fn(args)
     //delete temporary attribute
-    delete context.fn;
-    return result;
+    delete context.fn
+    return result
 }
 
 
-Function.prototype.simulateApply = function (context, arr) {
-    var context = context || window;
-    context.fn = this;
-    var result;
-    if (!arr) {
-        result = context.fn();
+Function.prototype.simulateApply = function (context = window) {
+    context.fn = this
+    let result
+    if (arguments[1]) {
+        result = context.fn(...aruments[1])
     } else {
-        var args = [].slice.call(arguments, 0);
-        result = eval("context.fn(" + args + ")");
+        result = context.fn()
     }
-    delete context.fn;
-    return result;
+    delete context.fn
+    return result
 }
 
 
@@ -542,10 +538,10 @@ Function.prototype.simulateApply = function (context, arr) {
 // 4 柯里化
 Function.prototype.simulateBind = function (context) {
     if (typeof this !== 'function') throw new Error('Function.prototype.bind')
-    let fn = this;
-    let args = [].slice.call(arguments, 1);
+    let fn = this
+    let args = [...arguments].slice(1)
     return function () {
-        return fn.apply(context, args.concat([].slice.call(arguments, 0)));
+        return fn.apply(context, args.concat([].slice.call(arguments, 0)))
     }
 }
 
@@ -555,7 +551,7 @@ Function.prototype.simulateBindAdvance = function (context) {
     let fn = this
     let args = [].slice.call(arguments, 1)
 
-    var F = function () {}
+    let F = function () {}
 
     //judge this
     //if invoke by new, this is bar
@@ -591,6 +587,44 @@ const curryFormalParameter = function (fn, args) {
         } else {
             return fn.apply(that, innerArgs);
         }
+    }
+}
+
+function jsonStringify(obj) {
+    let type = typeof obj;
+    if (type !== "object" || type === null) {
+        if (/string|undefined|function/.test(type)) {
+            obj = '"' + obj + '"';
+        }
+        return String(obj);
+    } else {
+        let json = []
+        arr = (obj && obj.constructor === Array);
+        for (let k in obj) {
+            let v = obj[k];
+            let type = typeof v;
+            if (/string|undefined|function/.test(type)) {
+                v = '"' + v + '"';
+            } else if (type === "object") {
+                v = jsonStringify(v);
+            }
+            json.push((arr ? "" : '"' + k + '":') + String(v));
+        }
+        return (arr ? "[" : "{") + String(json) + (arr ? "]" : "}")
+    }
+}
+jsonStringify({x : 5}) // "{"x":5}"
+jsonStringify([1, "false", false]) // "[1,"false",false]"
+jsonStringify({b: undefined}) // "{"b":"undefined"}"
+
+function instanceOf(left,right) {
+
+    let proto = left.__proto__;
+    let prototype = right.prototype
+    while(true) {
+        if(proto === null) return false
+        if(proto === prototype) return true
+        proto = proto.__proto__
     }
 }
 

@@ -1,12 +1,18 @@
+[webpack](https://gaodaqian.com/webpack4/11%E6%8F%90%E5%8D%87%20webpack%20%E7%9A%84%E6%9E%84%E5%BB%BA%E9%80%9F%E5%BA%A6.html#%E8%AE%A9-webpack-%E5%B0%91%E5%B9%B2%E7%82%B9%E6%B4%BB)
+
 ### 什么是webpack
 构建就是把源代码转换成线上可执行的js、css、html
-- 代码转换ts->js less->css等
+- 代码转换ts->js、less->css等
 - 文件优化 压缩js、css、html 合并图片
 - 代码分割 提取多个页面的公共代码 提取首屏不絮语奥执行的代码异步加载
 - 模块合并
 - 自动刷新 监听本地源代码变化 自动重新构建 刷新浏览器
 - 代码校验 在代码提交到仓库前校验代码 以及单元测试是否通过
 - 自动发布 更新完代码后 自动构建出现上发布代码并传输给发布系统
+- 删除死代码 Tree Shaking
+- 按照路由拆分代码，实现按需加载，提取公共代码
+- 利用CDN加速。在构建过程中，将引用的静态资源路径修改为 CDN 上对应的路径
+- 压缩代码。删除多余的代码、注释、简化代码的写法等等方式
 
 ### 核心概念
 - Entry：入口，Webpack执行构建的第一步将从Entry开始，可抽象成输入。
@@ -23,6 +29,8 @@
 3. 静态文件模块化(nodejs可以模块化js,但静态文件不可以) `npm install css-loader style-loader --save-dev`
 4. loader
 5. plugin
+    - `define-plugin` 定义环境变量
+    - `commons-chunk-plugin` 提取公共代码
 
 
 ### 优势
@@ -457,3 +465,35 @@ if (process.env.NODE_ENV == 'development') {
 	console.log('这是生产环境');
 }
 ```
+
+### webpack-bundle-analyzer
+```
+// webpack.prod.conf.js
+if (config.build.bundleAnalyzerReport) {
+  const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+  webpackConfig.plugins.push(new BundleAnalyzerPlugin())
+}
+// config/index.js
+build: {
+  // Run the build command with an extra argument to
+  // View the bundle analyzer report after build finishes:
+  // `npm run build --report`
+  // Set to `true` or `false` to always turn it on or off
+  bundleAnalyzerReport: process.env.npm_config_report
+}
+```
+
+运行`npm run build --report`
+
+
+![](./images/webpack-1.png)
+
+```
+externals: {
+    'vue': 'Vue',
+    'element-ui': 'ELEMENT',
+    'axios': 'axios'
+}
+```
+
+vendor一共才195k 那缺少的elementui文件去哪里找呢？答案是cdn引用
