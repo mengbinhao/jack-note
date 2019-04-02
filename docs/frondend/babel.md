@@ -15,7 +15,8 @@ Babel是一个`JavaScript`的编译器,,借助转换器可以使用最新的语�
 ### node
 1. install
 ```bash
-npm install --save-dev @babel/core @babel/cli @babel/preset-env
+//@babel/cli 命令行使用babel
+npm install --save-dev @babel/core @babel/cli
 npm install --save @babel/polyfill
 ```
 2. 创建配置文件`babel.config.js`(也可以使用`.babelrc`)
@@ -94,9 +95,19 @@ module: {
 ### Babel配置presets和plugins
 **Babel会先执行plugins再执行presets，其中plugins按指定顺序执行，presets逆序执行**
 
-`babel-preset-es2015/es2016/es2017/latest & babel-preset-stage-x`
 设置预设的插件集合，来配置babel能转换的ES语法的级别，stage 表示语法提案的不同阶段。现在全部不推荐使用了，请一律使用 `@babel/preset-env`
 
+```
+/* .babelrc */
+{
+  //只转换语法不包括API
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": "ie >= 8"
+    }]API
+  ]    
+}
+```
 #### @babel/preset-env
 默认配置相当于`babel-preset-latest`
 
@@ -185,10 +196,23 @@ ReactDOM.render(
 ### Babel相关工具
 
 #### @babel/polyfill
-Babel在配置了上面的`babel-preset-env`之后，只能转换语法，而对于一些新的 API，如`Promise，Map`等，并没有实现，仍然需要引入。
+Babel在配置了上面的`babel-preset-env`之后，只能转换语法，而对于一些新的API，如`Promise，Map`等，并没有实现，仍然需要引入
 
-引入`@babel/polyfill`（可以通过`require("@babel/polyfill");`或`import "@babel/polyfill";`）会把这些API 全部挂载到全局对象。缺点是会污染全局变量，同时如果只用到其中部分的话，会造成多余的引用。也可以在`@babel/preset-env`里通过设置`useBuiltIns`选项引入。
+引入`@babel/polyfill`（可以通过`require("@babel/polyfill");`或`import "@babel/polyfill";`）会把这些API全部挂载到全局对象。缺点是会污染全局变量，同时如果只用到其中部分的话，会造成多余的引用。也可以在`@babel/preset-env`里通过设置`useBuiltIns`选项引入
 
+```
+/* .babelrc */
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "modules": false,
+      //usage or entry
+      "useBuiltIns": "entry",
+      "targets": "ie >= 8"
+    }]
+  ]    
+}
+```
 #### @babel/runtime & @babel/plugin-transform-runtime
 `@babel/runtime`和`@babel/polyfill`解决相同的问题，不过 `@babel/runtime`是手动按需引用的。 不同于`@babel/polyfill`的挂载全局对象，`@babel/runtime`是以模块化方式包含函数实现的包。
 
@@ -197,7 +221,7 @@ Babel在配置了上面的`babel-preset-env`之后，只能转换语法，而对
 注意：对于类似`"foobar".includes("foo") `的实例方法是不生效的，如需使用则仍要引用`@babel/polyfill`
 
 #### @babel/cli
-babel 的命令行工具，可以在命令行使用 Babel 编译文件，像前文演示的那样
+babel的命令行工具，可以在命令行使用Babel编译文件，像前文演示的那样
 
 #### @babel/register
 `@babel/register`模块改写`require`命令，为它加上一个钩子。此后，每当使用`require`加载`.js、.jsx、.es 和 .es6`后缀名的文件，就会先用Babel进行转码。默认会忽略`node_modules`
