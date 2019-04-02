@@ -56,6 +56,7 @@ https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
 
 https://segmentfault.com/a/1190000018120629                    缓存
+https://segmentfault.com/a/1190000018717463#articleHeader1   浏览器缓存看这一篇就够了
 https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                Nginx
 https://segmentfault.com/a/1190000017940311                    Nginx入门
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
