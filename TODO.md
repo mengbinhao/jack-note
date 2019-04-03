@@ -54,7 +54,10 @@ https://juejin.im/post/5b04dd816fb9a07aae158903                        前端优
 http://www.cnblogs.com/jadeboy/p/9075003.html                          单页应用
 https://finget.github.io/2018/05/22/virtualDom/  	                   virtualDom
 
+https://juejin.im/post/5ca18157e51d45301b5c957c   Vue 9 Perf Secrets
+https://segmentfault.com/a/1190000018731597       前端跨页面通信，你知道哪些方法？
 
+https://segmentfault.com/a/1190000018722898        你还没有听过React不完全手册？
 https://segmentfault.com/a/1190000018120629                    缓存
 https://segmentfault.com/a/1190000018717463#articleHeader1   浏览器缓存看这一篇就够了
 https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7                Nginx
