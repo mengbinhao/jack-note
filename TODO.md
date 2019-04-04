@@ -65,6 +65,7 @@ https://segmentfault.com/a/1190000017940311                    Nginx入门
 https://juejin.im/post/5bacbd395188255c8d0fd4b2                        Nginx与前端开发
 https://segmentfault.com/a/1190000016590427                            跨域
 http://web.jobbole.com/85136/                                          js常用设计模式
+https://segmentfault.com/a/1190000018736404      记2019前端面经
 https://segmentfault.com/a/1190000017787537      javaScript中常用的设计模式
 https://juejin.im/post/5bfa5a8cf265da6124151e62                        js错误处理权威指北
 http://web.jobbole.com/29454/   设计模式
