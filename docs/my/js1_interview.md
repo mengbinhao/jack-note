@@ -175,37 +175,53 @@ F1()
   * 占用的内存没有及时释放
   * 内存泄露积累多了就容易导致内存溢出
   * 常见的内存泄露:
-    * 意外的全局变量`c = 1`
+    * 意外的全局变量`c = 1`  `'use strict'`解决
+    * 循环引用
+    ```
+    function func() {
+        let obj1 = {}
+        let obj2 = {}
+
+        obj1.a = obj2
+        obj2.a = obj1
+    }
+    //obj1 = null
+    //obj2 = null
+    ```
     * 没有及时清理的计时器或回调函数`clearInterval(intervalId)`
-    * 闭包`f = null`
-
-```javascript
-function F1() {
-    let a = 100
-    return function () {
-        console.log(a)
+    * 没有清理的DOM元素引用
+    ```
+    var refA = document.getElementById('refA')
+    document.body.removeChild(refA)
+    //refA = null
+    ```
+    * 给DOM对象添加的属性是一个对象的引用
+    ```
+    var MyObject = {}
+    document.getElementById('myDiv').myProp = MyObject
+    // document.getElementById('myDiv').myProp = null
+    ```
+    * DOM对象与JS对象相互引用
+    ```
+    function Encapsulator(element) {
+        this.elementReference = element;
+        element.myProp = this;
     }
-}
-var f1 = F1()
-var a = 200
-f1()
-```
+    new Encapsulator(document.getElementById('myDiv'));
+    ```
+    * 从外到内执行appendChild
+    ```
+    var parentDiv = document.createElement("div");
+    var childDiv = document.createElement("div");
+    document.body.appendChild(parentDiv);
+    parentDiv.appendChild(childDiv);
 
-```javascript
-function F1() {
-    var a = 100
-    return function () {
-        console.log(a)
-    }
-}
-function F2(f1) {
-    var a = 200
-    console.log(f1())
-}
-var f1 = F1()
-F2(f1)
-```
-
+    // 从内到外执行appendChild
+    var parentDiv = document.createElement("div");
+    var childDiv = document.createElement("div");
+    parentDiv.appendChild(childDiv);
+    document.body.appendChild(parentDiv);
+    ```
 
 ### 异步
 - setTimeout setInterval

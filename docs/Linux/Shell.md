@@ -5,9 +5,19 @@ Shell 是一个命令行解释器,它为用户提供了一个向 Linux 内核发
 - bin目录下 ll | grep bash
 - echo $SHELL
 
+### type
+- Bourne Shell（/usr/bin/sh或/bin/sh）
+- Bourne Again Shell（/bin/bash）
+- C Shell（/usr/bin/csh）
+- K Shell（/usr/bin/ksh）
+- Shell for Root（/sbin/sh）
+在一般情况下，人们并不区分Bourne Shell和Bourne Again Shell，所以，像#!/bin/sh，它同样也可以改为#!/bin/bash
+
 ### 执行方式
-1. #!/bin/bash开头
-2. ./xxx.sh(x权限) 或 sh ./myShell.sh(不推荐)
+1. #!/bin/bash开头 //指定使用的解释器类型
+2. ./xxx.sh(需具有x权限)
+3. sh ./myShell.sh(不推荐) or bin/sh test.sh //这种方式可以不用在sh文件中写明解释器类型，写了也是没有用的
+**运行时一定要写成./test.sh，因为直接写test.sh，linux会去PATH里寻找，而一般只有/bin,/sbin,/usr/bin,/usr/sbin等在PATH中，所以使用./test.sh告诉系统，就在本目录下找**
 
 ### shell通配符
 - *代表多个字母或数字
@@ -28,8 +38,8 @@ echo "Welcome $NAME, the date is `date`"
 
 ### 注释
 ```bash
-# comments
-# 多行注释
+# 单行
+# 多行
 :<<!
 e21e1e1
 13213131
@@ -49,6 +59,7 @@ e21e1e1
 
 
 ```bash
+//不允许使用空格，默认都是字符串类型
 echo "PATH=$PATH"
 A=100
 echo "A=$A"
@@ -78,6 +89,25 @@ echo "$#"
 - \$!  后台运行的最后进程号
 - \$?  最后一次执行命令的返回状态,0正确执行,非0执行不正确
 
+### 字符串
+- expr命令是从1开始索引，而普通的提取都是从零开始索引的
+  - 求长度`expr lenth $str`
+  - 求字串索引`expr index $str substr_reg` substr其实索引的是其每个字符，返回最小索引的那个
+  - 匹配的字串的长度`expr match $str substr_reg`
+  - 截取`expr substr $str $start $length`
+
+### 数组
+- 定义
+`array_name=(value0 value1 value2 value3)`使用空格分隔元素
+
+`array_name[0]=value0 / array_name[1]=value1`下标可以不连续
+- 读取
+  - 单个读取：${array_name[index]}
+  - 全部读取：${array_name[@]}
+- 获取长度：
+  - 数组长度：length=\${#array_name[@]}/length=${#array_name[*]}
+  - 单个元素长度：lengthn=${#array_name[n]}
+
 ### 运算符
 - \$((运算式)) or $[运算式]
 - expr m + n (- \\* / %)   //expr运算符间要有空格
@@ -96,6 +126,23 @@ SUM=$[$1+$2]
 2. 按照文件权限(-r可读权限 -w可写权限 -x执行权限)
 3. 按照文件类型(-f存在并是常规文件 -e文件存在 -d存在并是目录)
 4. 多条件判断(&& 表示前一条命令执行成功时,才执行后一条命令,|| 表示上一条命令执行失败后,才执行下一条命令)
+
+```
+//一般中括号可以用test替换`test $num = $num2`
+一个变量是否为0, [ $var -eq 0 ]
+ne:不等于
+lt/gt：小于/大于
+le/ge：小于等于/大于等于
+一个文件是否存在，[ -e $var ], 是否是目录，[ -d $var ]
+两个字符串是否相同， [[ $var1 = $var2 ]]
+-a/-o：and/or
+-e : exist
+-r : 是否可读
+-w : 是否可写
+-n ：判断字符串长度是否非0
+-z ：判断字符串长度是否为0
+$ :判断字符串是否非空
+```
 
 ```bash
 if [ "ok" = "ok" ]  ### condition前后要有空格
@@ -175,7 +222,7 @@ do
 done
 echo "sum=$SUM"
 ```
-#### while
+#### while(until：与while相反操作，条件为true时退出循环)
 ```bash
 SUM=0
 i=0
@@ -233,6 +280,7 @@ sum $n1 $n2
 ```
 1. 必须在调用函数地方之前,先声明函数,shell脚本是逐行运行。不会像其它语言一样先编译。
 2. 函数返回值,只能通过\$?系统变量获得,可以显示加：return返回,如果不加,将以最后一条命令运行结果,作为返回值。return后跟数值n(0-255)
+3. 局部变量local修饰，不进行修饰那么函数执行后，其他地方也可以使用
 
 #### 实例
 ![](./images/learn-21.png)
@@ -265,6 +313,41 @@ ifconfig eth0 | grep "inet addr" | cut -d: -f 2 | cut -d" " -f1 #切割IP地址
 sed是一种流编辑器,它一次处理一行内容。处理时,把当前处理的行存储在临时缓冲区中,称为“模式空间”,接着用sed命令处理缓冲区中的内容,处理完成后,把缓冲区的内容送往屏幕。接着处理下一行,这样不断重复,直到文件末尾。文件内容并没有改变,除非你使用重定向存储输出
 - sed [选项参数]  ‘command’  filename(-e 直接在指令列模式上进行sed的动作编辑 -i	直接修改读取的文档内容,而不是由屏幕输出)
 - command功能描述(a 新增,a的后面可以接字串,在下一行出现 d 删除 i 插入,i的后面可以接字串 s 查找并替换)
+
+```
+option选项
+
+n:只输出匹配的行
+e:需要匹配的条件，可以指定多个-e "pattern command"
+f:指定sed文件，用于封装替换"pattern command"
+r:用于支持正则表达式
+修改输出内容：sed -n 's/love/like/g;p' sed.txt
+i:修改源文件
+
+pattern
+可以使用正则表达式
+可以使用变量，只要按照脚本使用变量就可以：双引号，$var_name
+匹配/需要进行转义
+按行匹配的时候，行数在后面如果小于前一个匹配模式，那么久只显示满足前一个条件的行
+=：显示行号
+
+command
+a : 在匹配到行的下一行添加字符串
+i ：在匹配到行的上一行添加字符串
+r ：在匹配到行的下一行添加file内容
+w ：将匹配到的行写入文件
+d ：删除数据
+p ：打印数据
+g ：修改数据时全部匹配，3g表示从第三个开始全部修改，ig忽略大小写
+= ：显示匹配到的行号
+
+反向引用
+在使用替换字符的时候，修改内容使用&表示使用被替换的条件
+# 在匹配到^la..jim的后面加shuai
+# &：全匹配，\1：其使用了正则的分组，所以前面需要使用小括号括起来
+sed -i 's/^la..jim/&shuai/g' sed.txt
+```
+
 ```bash
 #数据准备
 touch sed.txt
@@ -353,3 +436,135 @@ cat test.txt
 sort -n test.txt|awk '{a+=$0;print $0}END{print "SUM="a}'
 ```
 
+#### example
+```
+//查询所有用户
+for user in `cat /etc/passwd | cut -d ":" -f 1`
+do
+    echo "$user"
+done
+```
+
+```
+//删除配置文件中所有的注释行和空行
+sed -i '/[:blank:]*#/^$/d' config.cnf
+```
+
+```
+//在非#注释行前加*
+sed -i 's/^[^#]/\*&/g' config.cnf
+```
+
+```
+//用户输入num,求1-num之和
+while true
+do
+    read -p "pls input a positive number: " num
+    expr $num + 1 &> /dev/null
+    if [ $? -eq 0 ];then
+        if [ `expr $num \> 0` -eq 1 ];then
+            for((i=1;i<=$num;i++))
+            do
+                sum=`expr $sum + $i`
+            done    
+            echo "1+2+3+....+$num = $sum"
+            exit
+        fi
+    fi
+    echo "error,input enlegal"
+    continue
+done
+```
+
+```
+//启动nginx
+nginx_num_process=$(ps -ef | grep nginx | grep -v grep | wc -l)
+if [ nginx_num_process -eq 0 ];then
+    systemctl start nginx
+fi
+```
+
+```
+//检查Nginx是否正常运行，宕机则启动它
+this_pid=$$
+
+while true
+do
+ps -ef | grep nginx | grep -v grep | grep -v $this_pid &> /dev/null
+
+if [ $? -eq 0 ];then
+    echo "Nginx is running well"
+    sleep 3
+else
+    systemctl start nginx
+    echo "Nginx is down,Start it...."
+fi
+done
+```
+
+```
+//查找mysql配置文件中有几段
+FILE_NAME=/root/lesson/5.6/my.cnf
+function get_all_segments
+{
+    echo "`sed -n '/\[.*\]/p' $FILE_NAME  | sed -e 's/\[//g' -e 's/\]//g'`"
+}
+function count_items_in_segment
+{
+    items=`sed -n '/\['$1'\]/,/\[.*\]/p' $FILE_NAME | grep -v "^#" | grep -v "^$" | grep -v "\[.*\]"`
+    index=0
+    for item in $items
+    do
+        index=`expr $index + 1`
+    done
+    echo $index
+}
+number=0
+for segment in `get_all_segments`
+do
+    number=`expr $number + 1`
+    items_count=`count_items_in_segment $segment`
+    echo "$number: $segment  $items_count"
+done
+```
+
+```
+//文本格式化数据插入mysql
+sed -i 's/^[^#]/\*&/g' config.cnf
+```
+
+```
+//脚本使用ftp
+ftp -inv << EOF
+open ftp_ip_addr
+user user_name password
+
+put file_name
+bye
+EOF #必须顶格写
+```
+
+#### 小东东
+- nohub + & 后台启动 ： nohub不间断的运行程序，关闭窗口也不会关闭进程，&用于后台运行
+- netstat -tnlp | grep port ： 一般用于查看端口
+- &&当左侧的命令返回0(成功)才会执行右侧命令
+- cut -d ":"制定分隔符
+- free -m：内存使用情况
+- df -h:磁盘使用情况
+- n >& m：将输出文件 m 和 n 合并
+- n <& m：将输入文件 m 和 n 合并
+- << tag：将开始标记 tag 和结束标记 tag 之间的内容作为输入
+- grep -E等同于egrep，用于扩展支持正则表达式
+- cat -n file显示行号输出
+- /sbin/nologin 不可以登陆的用户
+- [:blank:]表示空格
+- ^$表示空行
+- sh -x可以查看执行过程
+- 根据其他表的结构创建新表`create table new_table like other_table`
+- mysql -B不显示边框 -E表示垂直显示 -H输出html -X输出xml -N不显示列名
+- mysqldumps备份mysql
+  - d :只导出表结构
+  - t ：只导出数据，不导出建表语句
+  - A ：导出所有数据库
+  - B ：导出一个或者多个数据库
+- [crontab](https://www.cnblogs.com/longjshz/p/5779215.html)
