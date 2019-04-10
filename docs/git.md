@@ -124,9 +124,19 @@ git checkout HEAD filename抹掉文件在workspace的修改
 //create SSH key
 ssh-keygen -t rsa -C "youremail@example.com"
 
-git config [--global] -l
+
+//--local  对某个仓库有效，缺省值
+//--system 对系统所有登录用户有效
+//--global
+git config [--global] -l == git config [--global] --list
 git config [--global] user.name
 git config [--global] user.name "Your Name"
+git config [--global] user.email
+git config [--global] user.email "Your email"
+
+//unset
+git config --unset --global user.name
+
 
 git config core.filemode false //忽略权限变更
 git config --global core.autocrlf false
@@ -139,7 +149,7 @@ git config --global core.safecrlf true //为了保证文件的换行符是以安
 $ git init
 
 # 新建一个目录,将其初始化为Git代码库
-$ git init git_test
+$ git init project_name
 
 # 下载一个项目和它的整个代码历史
 $ git clone xxxxxxxxxxxxxxx
@@ -155,6 +165,9 @@ $ git add dir
 
 # 添加当前目录的所有文件到暂存区
 $ git add .
+
+# git已经管理的文件添加到暂存区
+$ git add -u
 
 # 添加每个变化前,都会要求确认
 # 对于同一个文件的多处变化,可以实现分次提交
@@ -184,6 +197,9 @@ $ git commit --amend -m "message"
 
 # 重做上一次commit,并包括指定文件的新变化
 $ git commit --amend file1 file2 ...
+
+# rename file
+$ git mv xxx1 xxx2
 ```
 
 ### 分支
