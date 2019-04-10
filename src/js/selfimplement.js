@@ -273,14 +273,14 @@ const resizeThrottleHandler = (fn, delay, duration) => {
  * @return {function}             返回客户调用函数
  */
 _.throttleAdvance = function(func, wait, options) {
-    var context, args, result
-    var timeout = null
+    let context, args, result
+    let timeout = null
     // 之前的时间戳
-    var previous = 0
+    let previous = 0
     // 如果 options 没传则设为空对象
     if (!options) options = {}
     // 定时器回调函数
-    var later = function() {
+    let later = function() {
       // 如果设置了 leading，就将 previous 设为 0
       // 用于下面函数的第一个 if 判断
       previous = options.leading === false ? 0 : _.now()
@@ -291,14 +291,14 @@ _.throttleAdvance = function(func, wait, options) {
     }
     return function() {
       // 获得当前时间戳
-      var now = _.now()
+      let now = _.now()
       // 首次进入前者肯定为 true
 	  // 如果需要第一次不执行函数
 	  // 就将上次时间戳设为当前的
       // 这样在接下来计算 remaining 的值时会大于0
       if (!previous && options.leading === false) previous = now
       // 计算剩余时间
-      var remaining = wait - (now - previous)
+      let remaining = wait - (now - previous)
       context = this
       args = arguments
       // 如果当前调用已经大于上次调用时间 + wait
@@ -330,7 +330,7 @@ _.throttleAdvance = function(func, wait, options) {
 
 //闭包实现一个累加器
 const add = (() => {
-    var total = 0;
+    let total = 0;
     return function (num) {
         total += num;
         return total;
@@ -381,7 +381,7 @@ const inherit = (function () {
 }());
 
 const cloneShallow = (source) => {
-    var target = {}
+    let target = {}
     for (let key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)){
             target[key] = source[key]
@@ -408,9 +408,9 @@ const deepClone = (source, hash = new WeakMap()) => {
     if (symKeys.length) {
         symKeys.forEach(symKey => {
             if (isObject(source[symKey])) {
-                target[symKey] = deepClone(source[symKey], hash);
+                target[symKey] = deepClone(source[symKey], hash)
             } else {
-                target[symKey] = source[symKey];
+                target[symKey] = source[symKey]
             }
         });
     }
@@ -426,6 +426,7 @@ const deepClone = (source, hash = new WeakMap()) => {
     }
     return target
 }
+
 const objTest = {
     strProperty: "muyiy",
     objProperty: {
@@ -447,10 +448,10 @@ const sym2 = Symbol.for("b")
 
 objTest[sym1] = "localSymbol";
 objTest[sym2] = "globalSymbol";
-console.log(deepClone(objTest))
+//console.log(deepClone(objTest))
 
 const copyDeepClone = function (obj) {
-    var copy;
+    let copy;
 
     // Handle the 3 simple types, and null or undefined
     if (null == obj || "object" != typeof obj) return obj;
@@ -465,7 +466,7 @@ const copyDeepClone = function (obj) {
     // Handle Array
     if (obj instanceof Array) {
       copy = [];
-      for (var i = 0, len = obj.length; i < len; i++) {
+      for (let i = 0, len = obj.length; i < len; i++) {
           copy[i] = deepClone(obj[i]);
       }
       return copy;
@@ -481,7 +482,7 @@ const copyDeepClone = function (obj) {
     // Handle Object
     if (obj instanceof Object) {
         copy = {};
-        for (var attr in obj) {
+        for (let attr in obj) {
             if (obj.hasOwnProperty(attr)) copy[attr] = deepClone(obj[attr]);
         }
         return copy;
@@ -536,21 +537,19 @@ Function.prototype.simulateApply = function (context = window) {
 // 3 可以传入参数
 // 4 柯里化
 Function.prototype.simulateBind = function (context) {
-    if (typeof this !== 'function') throw new Error('Function.prototype.bind')
+    if (typeof this !== 'function') throw new Error('this must be a function')
     let fn = this
     let args = [...arguments].slice(1)
     return function () {
-        return fn.apply(context, args.concat([].slice.call(arguments, 0)))
+        return fn.apply(context, args.concat([...arguments].slice(0)))
     }
 }
 
 
 Function.prototype.simulateBindAdvance = function (context) {
-    if (typeof this !== 'function') throw new Error('need function invoke')
+    if (typeof this !== 'function') throw new Error('this must be a function')
     let fn = this
     let args = [].slice.call(arguments, 1)
-
-    let F = function () {}
 
     //judge this
     //if invoke by new, this is bar
@@ -559,9 +558,10 @@ Function.prototype.simulateBindAdvance = function (context) {
         let bindArgs = [].slice.call(arguments)
         return fn.apply(this instanceof fBound ? this : context, args.concat(bindArgs))
     }
-    //fBound.prototype = Object.create(this.prototype);
-    F.prototype = this.prototype
-    fBound.prototype = new F()
+    fBound.prototype = Object.create(this.prototype)
+    // let F = function () {}
+    // F.prototype = this.prototype
+    // fBound.prototype = new F()
     return fBound
 }
 
@@ -617,7 +617,6 @@ jsonStringify([1, "false", false]) // "[1,"false",false]"
 jsonStringify({b: undefined}) // "{"b":"undefined"}"
 
 function instanceOf(left,right) {
-
     let proto = left.__proto__;
     let prototype = right.prototype
     while(true) {
@@ -638,3 +637,16 @@ String.prototype.MyReverse = function () {
 String.prototype.MyTrim = function () {
     return this.replace(/^\s+|\s+$/g, '');
 }
+
+
+//other
+let makeIterator = (array) => {
+    let nextIndex = 0
+    return {
+        next: function() {
+            return nextIndex < array.length ? {value: array[nextIndex++], done:false} : {done:true}
+        }
+    }
+}
+
+let it = makeIterator([1,2,3]);
