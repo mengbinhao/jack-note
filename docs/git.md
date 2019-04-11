@@ -89,24 +89,40 @@ git checkout HEAD filename抹掉文件在workspace的修改
 | git revert   | File-level   | N/A                                                          |
 
 
-### 代码暂存Stash
-    1. 使用git stash save 取代 git stash `git stash save "test stash"`
-    2. git stash list查看stash列表
-    3. git stash apply命令可以通过名字指定那个stash,默认指定最近的（stash@{0}）
-    4. git stash pop将stash中第一个stash删除,并将对应修改应用到当前的工作目录中
-    5. 使用git stash drop,后面加上stash名,可以移除相应的stash；或者使用git stash clear清空所有stash
-    6. 默认情况下,git stash会缓存：
-    
+### stash
+    1. git stash list查看stash列表
+    2. git stash apply命令可以通过名字指定那个stash,默认指定最近的（stash@{0}）
+    3. git stash pop将stash中第一个stash删除,并将对应修改应用到当前的工作目录中
+    4. 使用git stash drop,后面加上stash名,可以移除相应的stash；或者使用git stash clear清空所有stash
+    5. 默认情况下,git stash会缓存：
         添加到暂存区的修改（staged changes ）
         Git跟踪但并未添加到暂存区的修改（unstaged changes）
         但不会缓存：
-    
         在工作目录中新的文件（untracked files）
         被忽略的文件（ignored files）
-    
         此时,使用-u或者--include-untracked可以stash untracked 文件；使用-a或者--all可以stash当前目录下的所有修改（慎用）
 
+### .git目录
+
+- HEAD
+- config
+- refs
+    - heads
+    - tags
+    - objects
+
+### git核心对象tree、blob、commit
+
+- git cat-file [-t|-p] id
+
+    ![](images/git_7.png)
+
+### 分离头指针一定要跟branch或tag绑在一起，否则会丢掉
+
+`git checkout commitId`
+
 ### git 中部分选项解释
+
 -f --force：强制
 -d --delete：删除
 -D --delete --force
@@ -123,7 +139,6 @@ git checkout HEAD filename抹掉文件在workspace的修改
 ```
 //create SSH key
 ssh-keygen -t rsa -C "youremail@example.com"
-
 
 //--local  对某个仓库有效，缺省值
 //--system 对系统所有登录用户有效
@@ -155,7 +170,12 @@ $ git init project_name
 $ git clone xxxxxxxxxxxxxxx
 ```
 
-### 增加/删除文件
+### git help [--web] command
+
+### gitk --all
+
+### add/rm file
+
 ```
 # 添加指定文件到暂存区
 $ git add file1 file2...
@@ -177,10 +197,13 @@ $ git add -p
 $ git rm file1 file2 ...
 ```
 
-### 代码提交
+### commit
 ```
 # 提交暂存区到仓库区
 $ git commit -m "message"
+
+# 直接提交
+git commit -am "message"
 
 # 提交暂存区的指定文件到仓库区
 $ git commit file1 file2 ... -m "message"
@@ -191,21 +214,26 @@ $ git commit -a
 # 提交时显示所有diff信息
 $ git commit -v
 
-# 使用一次新的commit,替代上一次提交
-# 如果代码没有任何新变化,则用来改写上一次commit的提交信息
+# 修改最近一个commit
 $ git commit --amend -m "message"
 
-# 重做上一次commit,并包括指定文件的新变化
-$ git commit --amend file1 file2 ...
+# 修改以前的commit，注意rebase只能针对自己的local repo
+$ git rebase -i ee1d9ee（被rebase的父commid）里面选择r
+
+# combine continuous commit
+$ git rebase -i ee1d9ee（被rebase的父commid）里面选择s
+
+# combine discontinuous commit
+$ git rebase -i ee1d9ee（被rebase的父commid）里面选择s,还需要调整顺序，手动增加父节点
 
 # rename file
 $ git mv xxx1 xxx2
 ```
 
-### 分支
+### branch
 ```
 # 列出所有本地分支
-$ git branch
+$ git branch -v
 
 # 列出所有远程分支
 $ git branch -r
@@ -218,6 +246,9 @@ $ git branch name
 
 # 新建一个分支,并切换到该分支
 $ git checkout -b branch
+
+# 基于远端分支创建本地分支
+$ git checkout -b xxxx origin/xxxx
 
 # 新建一个分支,指向指定commit
 $ git branch name commit_SHA
@@ -235,7 +266,7 @@ $ git checkout -
 $ git branch --set-upstream name origin/name
 
 # 合并指定分支到当前分支
-$ git merge branch-name
+$ git merge origin/branch-name
 
 # 选择一个commit,合并进当前分支
 $ git cherry-pick commit_SHA
@@ -280,11 +311,11 @@ $ git checkout -b branch-name tag-name
 
 ### 查看信息
 ```
-# 显示有变更的文件
 $ git status
 
-# 显示当前分支的版本历史
 $ git log
+
+$ git log --oneline -n2 --all --graph
 
 # 显示commit历史,以及每次commit发生变更的文件
 $ git log --stat
@@ -311,17 +342,19 @@ $ git shortlog -sn
 # 显示指定文件是什么人在什么时间修改过
 $ git blame file
 
-# 显示暂存区和工作区的代码差异
-$ git diff
+# 比较commit差异
+$ git diff commitID1 commitID2
+$ git diff HEAD HEAD^1
+$ git diff HEAD HEAD^1^1
+$ git diff HEAD HEAD~1
+$ git diff HEAD HEAD~n
+$ git diff master temp [-- index.html]
 
-# 显示暂存区和上一个commit的差异
-$ git diff --cached file
+# 比较HEAD与暂存区
+$ git diff --cached
 
-# 显示工作区与当前分支最新commit之间的差异
-$ git diff HEAD
-
-# 显示两次提交之间的差异
-$ git diff [first-branch]...[second-branch]
+# 比较工作区与暂存区
+$ git diff [fileName1] [fileNamexx]
 
 # 显示今天你写了多少行代码
 $ git diff --shortstat "@{0 day ago}"
@@ -345,25 +378,33 @@ $ git rebase branch-name
 git rebase -i [<start_commit>] [<end_commit>]
 ```
 
+### 本地同步
+
+![](images/git_8.png)
+
 ### 远程同步
+
 ```
 # 下载远程仓库的所有变动
 $ git fetch origin
 
 # 显示所有远程仓库
-$ git remote -v
+$ git remote -av
+
+# 增加一个新的远程仓库,并命名
+$ git remote add name url
 
 # 显示某个远程仓库的信息
 $ git remote show origin
-
-# 增加一个新的远程仓库,并命名
-$ git remote add shortname url
 
 # 取回远程仓库的变化,并与本地分支合并
 $ git pull origin branch-name
 
 # 上传本地指定分支到远程仓库
 $ git push origin branch-name
+
+# 完整命令
+$ git push [origin localbranch:remotebranch]
 
 # 强行推送当前分支到远程仓库,即使有冲突
 $ git push origin --force
@@ -381,30 +422,17 @@ $ git checkout file
 $ git checkout commit-SHA file
 
 # 恢复暂存区的所有文件到工作区
-$ git checkout .
+$ git checkout .|fileName
 
 # 重置暂存区的指定文件,与上一次commit保持一致,但工作区不变
-$ git reset file
+$ git reset HEAD|fileName|commit
 
-# 重置暂存区与工作区,与上一次commit保持一致
-$ git reset --hard
-
-# 重置当前分支的指针为指定commit,同时重置暂存区,但工作区不变
-$ git reset commit-SHA
-
-# 重置当前分支的HEAD为指定commit,同时重置暂存区和工作区,与指定commit一致
-$ git reset --hard commit-SHA
-
-# 重置当前HEAD为指定commit,但保持暂存区和工作区不变
-$ git reset --keep commit-SHA
+# 重置暂存区和工作区到某个commit，并消除commit记录，慎用！
+$ git reset --hard commit
 
 # 新建一个commit,用来撤销指定commit
 # 后者的所有变化都将被前者抵消,并且应用到当前分支
 $ git revert commit-SHA
-
-# 暂时将未提交的变化移除,稍后再移入
-$ git stash
-$ git stash pop
 ```
 
 ### 冲突解决

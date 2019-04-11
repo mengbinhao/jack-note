@@ -263,7 +263,7 @@ https://juejin.im/post/5c91e2ca518825284205dcf2
 https://zhuanlan.zhihu.com/p/59342711     记一些 Promise 相关的优化点
 
 http://www.cnblogs.com/webSciprt/p/10542075.html   Mocha+should+Karma自动化测试教程
-
+https://segmentfault.com/a/1190000018810837    docker
 
 ***
 ***
