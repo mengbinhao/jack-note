@@ -152,3 +152,16 @@
 ### 5.vscode-icons
 
 ### 6.Document This
+
+### for debug variable
+- \${workspaceFolder} - the path of the folder opened in VS Code
+- \${workspaceRootFolderName} - the name of the folder opened in VS Code without any slashes (/)
+- \${file} - the current opened file
+- \${relativeFile} - the current opened file relative to workspaceRoot
+- \${fileBasename} - the current opened file's basename
+- \${fileBasenameNoExtension} - the current opened file's basename with no file extension
+- \${fileDirname} - the current opened file's dirname
+- \${fileExtname} - the current opened file's extension
+- \${cwd} - the task runner's current working directory on startup
+- \${lineNumber} - the current selected line number in the active file
+- \${env:PATH}:系统中的环境变量

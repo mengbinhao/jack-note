@@ -1,40 +1,37 @@
 //Array
 //Array
 //Array
-const myFlat = (arr) => {
+const myFlat = arr => {
     while (arr.some(item => Array.isArray(item))) {
         arr = [].concat(...arr)
     }
     return arr
 }
 
-const simulateIsArray = (target) => {
-    if (Array.isArray) {
-        return Array.isArray(target);
-    } else {
-        return Object.prototype.toString.call(target) === "[object Array]";
-    }
+const myFlat2 = arr => {
+    return arr.toString().split(',').map(item => Number(item))
 }
 
-const sortArrayRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5)
+const simulateIsArray = target => {
+    return Object.prototype.toString.call(target) === "[object Array]"
+}
 
+const sortArrayRandom = arr => arr.sort((a, b) => Math.random() - 0.5)
 
 //generate undefined array
-const undefinedArray = (len) => Array.apply(null, {length:len})
-
+const undefinedArray = length => Array.apply(null, {length})
 
 Array.prototype.myJoin = function (separator) {
     let result = this[0] || ''
-    for (let i = 1; i < this.length; i++) {
+    for (let i = 1, len = this.length; i < len; i++) {
         result += separator + this[i]
     }
     return result
 }
 
-
 Array.prototype.mySlice = function (start, end) {
-    start = start || 0
-    end = end || this.length
+    var start = start || 0
+    var end = end || this.length
     let result = []
     for (let i = start; i < end; i++) {
         result.push(this[i])
@@ -42,10 +39,9 @@ Array.prototype.mySlice = function (start, end) {
     return result
 }
 
-
 Array.prototype.mySort = function (fn) {
     //default func
-    fn = fn || ((a, b) => a - b)
+    var fn = fn || ((a, b) => a - b)
     let len = this.length - 1
     for (let i = 0; i < len; i++) {
         for (let j = i + 1; j < len + 1; j++) {
@@ -57,21 +53,18 @@ Array.prototype.mySort = function (fn) {
     return this
 }
 
-
 Array.prototype.myForEach = function (fn) {
     for (let i = 0; i < this.length; i++) {
-        //jump empty position
+        //filter empty position
         if (i in this) {
             fn.call(undefined, this[i], i, this)
         }
     }
 }
 
-
 Array.prototype.myMap = function (fn) {
     let result = []
     for (let i = 0; i < this.length; i++) {
-        //filter empty position
         if (i in this) {
             result.push(fn.call(undefined, this[i], i, this))
         }
@@ -79,11 +72,9 @@ Array.prototype.myMap = function (fn) {
     return result
 }
 
-
 Array.prototype.myFilter = function (fn) {
     let result = []
     for (let i = 0; i < this.length; i++) {
-        //filter empty position
         if (i in this) {
             if (fn.call(undefined, this[i], i, this)) {
                 result.push(this[i])
@@ -93,8 +84,8 @@ Array.prototype.myFilter = function (fn) {
     return result
 }
 
-
 Array.prototype.myReduce = function (fn, init) {
+    //has bug
     let result = init
     for (let i = 0; i < this.length; i++) {
         if (i in this) {
@@ -105,50 +96,37 @@ Array.prototype.myReduce = function (fn, init) {
 }
 
 
-Array.prototype.myReduce2 = (f, acc, arr) => {
-    if (arr.length === 0) return acc;
-    const [head, ...tail] = arr;
-    return reduce(f, f(head, acc), tail);
-};
-
-
-
 //Function
 //Function
 //Function
-
 function throttle(fn, interval) {
     let last = 0
-
     return function () {
-        let args = arguments
         let now = +new Date()
-
         if (now - last >= interval) {
-            fn.apply(this, args)
+            fn.apply(this, arguments)
             last = +new Date()
         }
-      }
-  }
+    }
+}
 const better_scroll = throttle(() => console.log('触发了滚动事件'), 1000)
 document.addEventListener('scroll', better_scroll)
 
 function debounce(fn, delay) {
-    let timer = null
-
+    let timer
     return function () {
-      let context = this
-      let args = arguments
+        let context = this
+        let args = arguments
 
-      if(timer) {
-          clearTimeout(timer)
-      }
+        if(timer) {
+            clearTimeout(timer)
+        }
 
-      timer = setTimeout(function () {
-        fn.apply(context, args)
-      }, delay)
+        timer = setTimeout(function () {
+            fn.apply(context, args)
+        }, delay)
     }
-  }
+}
 const better_scroll = debounce(() => console.log('触发了滚动事件'), 1000)
 document.addEventListener('scroll', better_scroll)
 
@@ -162,7 +140,7 @@ function throttle(fn, delay) {
       let now = +new Date()
 
       if (now - last < delay) {
-      // 如果时间间隔小于我们设定的时间间隔阈值，则为本次触发操作设立一个新的定时器
+         // 如果时间间隔小于我们设定的时间间隔阈值，则为本次触发操作设立一个新的定时器
          clearTimeout(timer)
          timer = setTimeout(function () {
             last = now
@@ -179,7 +157,7 @@ document.addEventListener('scroll', better_scroll)
 
 
 //debunce 在事件被触发n秒后再执行回调函数，如果在这n秒内又被触发，则重新计时。
-// 1 用户在输入框中连续输入一串字符后，只会在输入完后去执行最后一次的查询ajax请求，这样可以有效减少请求次数，节约请求资源；
+// 1 用户在输入框中连续输入一串字符后，只会在输入完后去执行最后一次的查询Ajax请求，这样可以有效减少请求次数，节约请求资源；
 // 2 window的resize、scroll事件，不断地调整浏览器的窗口大小、或者滚动时会触发对应事件，防抖让其只触发一次；
 let resizeDebounceHandler = (fn, delay = 50) => {
     let timer = null
@@ -238,7 +216,7 @@ function debounceAdvance (func, wait = 50, immediate = true) {
 
 //throttle 规定一个单位时间，在这个单位时间内，只能有一次触发事件的回调函数执行，如果在同一个单位时间内某事件被触发多次，只有一次能生效。
 //1 鼠标连续不断地触发某事件（如点击），只在单位时间内只触发一次；
-//2 在页面的无限加载场景下，需要用户在滚动页面时，每隔一段时间发一次 ajax 请求，而不是在用户停下滚动页面操作时才去请求数据；
+//2 在页面的无限加载场景下，需要用户在滚动页面时，每隔一段时间发一次Ajax请求，而不是在用户停下滚动页面操作时才去请求数据；
 //3 监听滚动事件，比如是否滑到底部自动加载更多，用throttle来判断；
 const resizeThrottleHandler = (fn, delay, duration) => {
     let timer = null;
@@ -330,37 +308,34 @@ _.throttleAdvance = function(func, wait, options) {
 
 //闭包实现一个累加器
 const add = (() => {
-    let total = 0;
+    let total = 0
     return function (num) {
-        total += num;
-        return total;
+        total += num
+        return total
     }
-})();
-
+})()
 
 //在JS中只有全局和函数作用域,函数作用域在函数执行完成后就会销毁,内存随之回收
 //闭包是建立在函数内部的子函数,由于其可以访问上级作用域的原因,即使上级函数执行完
 //作用域也不会随之销毁,这时的子函数也就是闭包拥有了访问上级作用域中的变量的权限
 //上级作用域执行完成后作用域内的值也不会被销毁
-//场景  AJAX回调/事件绑定回调/setTimeout
+//场景  Ajax回调/事件绑定回调/setTimeout
 const fibClosure = (function () {
-    //cache
     const result = [];
     return function (num) {
         const cache = result[num];
         if (cache) {
-            return cache;
+            return cache
         } else {
             if (num === 0 || num === 1) {
-                cache = 1;
+                cache = 1
             } else {
-                cache = arguments.callee(num - 1) + arguments.callee(num - 2);
+                cache = arguments.callee(num - 1) + arguments.callee(num - 2)
             }
-            result[num] = cache;
-            return result[num];
+            return result[num] = cache
         }
     };
-})();
+})()
 // console.time("caculateFibonacci");
 // console.log(caculateFibonacci(30));
 // console.timeEnd("caculateFibonacci");
@@ -369,18 +344,17 @@ const fibClosure = (function () {
 // console.timeEnd("fibClosure");
 
 
-
 const inherit = (function () {
     let F = function () {};
     return function (Target, Origin) {
-        F.prototype = Origin.prototype;
-        Target.prototype = new F();
-        Target.prototype.constructor = Target;
-        Target.uber = Origin.prototype;
+        F.prototype = Origin.prototype
+        Target.prototype = new F()
+        Target.prototype.constructor = Target
+        Target.uber = Origin.prototype
     }
-}());
+}())
 
-const cloneShallow = (source) => {
+const cloneShallow = source => {
     let target = {}
     for (let key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)){
@@ -393,7 +367,7 @@ const cloneShallow = (source) => {
 //乞丐版 JSON.parse(JSON.stringify(sourceObj))
 //不能处理属性值为function、undefined、date等
 //json只能处理string、boolean、number、null、object、array
-const isObject = (obj) => {
+const isObject = obj => {
     return obj !== null && typeof obj === 'object'
 }
 
@@ -451,43 +425,40 @@ objTest[sym2] = "globalSymbol";
 //console.log(deepClone(objTest))
 
 const copyDeepClone = function (obj) {
-    let copy;
+    let copy
 
     // Handle the 3 simple types, and null or undefined
-    if (null == obj || "object" != typeof obj) return obj;
+    if (null == obj || "object" != typeof obj) return obj
 
-    // Handle Date
     if (obj instanceof Date) {
-      copy = new Date();
-      copy.setTime(obj.getTime());
-      return copy;
+      copy = new Date()
+      copy.setTime(obj.getTime())
+      return copy
     }
 
-    // Handle Array
     if (obj instanceof Array) {
       copy = [];
       for (let i = 0, len = obj.length; i < len; i++) {
-          copy[i] = deepClone(obj[i]);
+          copy[i] = deepClone(obj[i])
       }
-      return copy;
+      return copy
     }
 
-    // Handle Function
     if (obj instanceof Function) {
         copy = function() {
-            return obj.apply(this, arguments);
+            return obj.apply(this, arguments)
         }
-        return copy;
+        return copy
     }
-    // Handle Object
+
     if (obj instanceof Object) {
         copy = {};
         for (let attr in obj) {
-            if (obj.hasOwnProperty(attr)) copy[attr] = deepClone(obj[attr]);
+            if (obj.hasOwnProperty(attr)) copy[attr] = deepClone(obj[attr])
         }
-        return copy;
+        return copy
     }
-    throw new Error("Unable to copy obj as type isn't supported " + obj.constructor.name);
+    throw new Error("Unable to copy obj as type isn't supported " + obj.constructor.name)
 }
 
 /**
@@ -503,11 +474,10 @@ Function.prototype.simulateNew = function (constructor) {
     }
     //same as let obj = new Object(), obj__proto == constructor.prototype
     let obj = Object.create(constructor.prototype)
-    let result = constructor.apply(obj, Array.prototype.slica.call(arguments, 1))
+    let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1))
     //in case constructor return a simple type
     return (typeof result === 'object' && result !== null) ? result : obj
 }
-
 
 Function.prototype.simulateCall = function (context = window) {
     context.fn = this
@@ -517,7 +487,6 @@ Function.prototype.simulateCall = function (context = window) {
     delete context.fn
     return result
 }
-
 
 Function.prototype.simulateApply = function (context = window) {
     context.fn = this
@@ -531,7 +500,6 @@ Function.prototype.simulateApply = function (context = window) {
     return result
 }
 
-
 // 1 指定this
 // 2 返回函数
 // 3 可以传入参数
@@ -544,7 +512,6 @@ Function.prototype.simulateBind = function (context) {
         return fn.apply(context, args.concat([...arguments].slice(0)))
     }
 }
-
 
 Function.prototype.simulateBindAdvance = function (context) {
     if (typeof this !== 'function') throw new Error('this must be a function')
@@ -565,26 +532,24 @@ Function.prototype.simulateBindAdvance = function (context) {
     return fBound
 }
 
-
 const curry = function (fn) {
-    let args = [].slice.call(arguments, 1);
-    let that = this;
+    let args = Array.prototype.slice.call(arguments, 1)
+    let _this = this
     return function () {
-        return fn.apply(that, args.concat([].slice.call(arguments)));
+        return fn.apply(_this, args.concat(Array.prototype.slice.call(arguments)))
     }
 }
-
 
 const curryFormalParameter = function (fn, args) {
     let length = fn.length,
         _args = args || [];
     that = this;
     return function () {
-        let innerArgs = _args.concat([].slice.call(arguments));
+        let innerArgs = _args.concat([].slice.call(arguments))
         if (innerArgs.length < length) {
             return curryFormalParameter.call(that, fn, innerArgs)
         } else {
-            return fn.apply(that, innerArgs);
+            return fn.apply(that, innerArgs)
         }
     }
 }
@@ -617,7 +582,7 @@ jsonStringify([1, "false", false]) // "[1,"false",false]"
 jsonStringify({b: undefined}) // "{"b":"undefined"}"
 
 function instanceOf(left,right) {
-    let proto = left.__proto__;
+    let proto = left.__proto__
     let prototype = right.prototype
     while(true) {
         if(proto === null) return false
@@ -631,16 +596,16 @@ function instanceOf(left,right) {
 //String
 //String
 String.prototype.MyReverse = function () {
-    return Array.prototype.reverse.apply(this.split('')).join('');
+    return Array.prototype.reverse.apply(this.split('')).join('')
 }
 
 String.prototype.MyTrim = function () {
-    return this.replace(/^\s+|\s+$/g, '');
+    return this.replace(/^\s+|\s+$/g, '')
 }
 
 
 //other
-let makeIterator = (array) => {
+let makeIterator = array => {
     let nextIndex = 0
     return {
         next: function() {
@@ -648,5 +613,22 @@ let makeIterator = (array) => {
         }
     }
 }
+let it = makeIterator([1,2,3])
 
-let it = makeIterator([1,2,3]);
+
+//Ajax
+let xhr = new XMLHttpRequest()
+xhr.open('get', url, true)
+xhr.onreadystatechange = function(){
+  if(xhr.readyState === 4){
+    if(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304){
+      conso.log('succeed')
+    }else{
+      consol.log('fail')
+    }
+  }
+}
+xhr.onerror = function(e) {
+  console.log('error')
+}
+xhr.send()

@@ -1,7 +1,8 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
-- **算法** / **算法面试**
+- **算法** / **算法面试(7)**
 - **Vue(34)**
+- leetcode(206、24、141、142、25)
 - 极客Go(43)
 - react / git
 - 掘金小册(first done)
@@ -10,6 +11,8 @@ https://wyydsb.xin/other/terminal.html   mac开光开光开光开光开光开光
 
 http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1  nodejs实战课程
 
+https://github.com/ljianshu/mt-app
+https://github.com/Yancey-Blog/BLOG_CMS
 
 https://juejin.im/post/5c1b69a1f265da61602ce477    express+mongodb+vue实现增删改查-全栈之路2.0
 https://segmentfault.com/a/1190000017343993        vue全家桶制作一个精致的美团项目

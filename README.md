@@ -1,4 +1,4 @@
-## jack-note1
+## jack-note
 record what I have learned
 
 ## get started
