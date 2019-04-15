@@ -603,7 +603,22 @@ String.prototype.MyTrim = function () {
     return this.replace(/^\s+|\s+$/g, '')
 }
 
+//number
+//number
+//number
+const isInteger = Number.isInteger || function(num) {
+    return typeof num === "number" && num % 1 === 0
+}
 
+const isPosZero  = function(num) {
+    return num === 0 && 1 / n === Infinity
+}
+
+
+
+
+//other
+//other
 //other
 let makeIterator = array => {
     let nextIndex = 0

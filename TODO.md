@@ -3,7 +3,7 @@
 - **算法** / **算法面试(7)**
 - **Vue(34)**
 - leetcode(206、24、141、142、25)
-- 极客Go(43)
+- 极客Go(45)
 - react / git
 - 掘金小册(first done)
 
@@ -31,6 +31,9 @@ https://xiedaimala.com/courses/6d63da67-6eea-4711-aeb4-0c3a949341dc  Vue 造轮�
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect  Vue学习路线
 
 https://www.haorooms.com/post/js_exportexcel_fx_2019     前端js导出excel方法分享
+
+
+http://www.cnblogs.com/edwardloveyou/p/10702471.html   koa+mysql+vue+socket.io + react vs vue
 
 http://news.51cto.com/art/201903/593360.htm        一文告诉你如何优雅处理前端异常？
 
@@ -120,6 +123,7 @@ https://juejin.im/post/5c5c28cf518825627d37060a                 注意事项和�
 https://juejin.im/post/5b80f4e36fb9a019ce148fe9                 vue实践
 https://yugasun.com/post/you-dont-know-vuejs-13.html            vue实践结论
 https://segmentfault.com/a/1190000016735899                     vue技巧
+https://juejin.im/post/5cb0564e5188251acb530087    slot详解，slot、slot-scope和v-slot
 https://segmentfault.com/a/1190000018033117                     Tricks in Vue
 https://segmentfault.com/a/1190000017149162                     Vue中用props给data赋初始值遇到的问题
 https://juejin.im/post/5c52ee216fb9a049ee80e283                手把手实现图片懒加载+封装vue懒加载组件
@@ -161,6 +165,7 @@ https://juejin.im/post/5c2dc7a9e51d4573c8491e77                 Vue实现函数�
 https://segmentfault.com/a/1190000017909770                     一次简单的项目优化
 https://zhuanlan.zhihu.com/p/48461259#at                        Vue的打包优化之路
 https://juejin.im/post/5c1fa158f265da613c09cb36                 Vue项目Webpack优化实践，构建效率提高50%                                           Webpack优化
+https://juejin.im/post/5cae0f616fb9a068a93f0613   24 个实例入门并掌握「Webpack4」
 https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd                  webpack打包优化黑科技
 https://juejin.im/post/5c3c55aa51882524b4073394
 https://segmentfault.com/a/1190000017844405                      Vue项目部署遇到的问题及解决方案
@@ -269,6 +274,9 @@ https://zhuanlan.zhihu.com/p/59342711     记一些 Promise 相关的优化点
 
 http://www.cnblogs.com/webSciprt/p/10542075.html   Mocha+should+Karma自动化测试教程
 https://segmentfault.com/a/1190000018810837    docker
+
+
+https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw  JAVA OOM analysis
 
 ***
 ***
