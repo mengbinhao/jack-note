@@ -3,7 +3,7 @@
 function fun() {
     console.log(window.location.href + window.location.host)
 }
-
+//change to
 function fun() {
     var location = window.location
     console.log(location.href + location.host)
@@ -22,7 +22,7 @@ function fun() {
 }
 fun()
 
-
+//change to
 var m = 0
 function fun2() {
     m++
@@ -61,7 +61,7 @@ obj.property2 = 2
 5. 数字转换成字符串 `("" +) > String() > .toString() > new String()`
 
 6. 浮点数转换成整型
-很多人喜欢使用`parseInt()`，其实`parseInt()`是用于将字符串转换成数字，而不是浮点数和整型之间的转换，我们应该使用`Math.floor()`或者`Math.round()
+很多人喜欢使用`parseInt()`，其实`parseInt()`是用于将字符串转换成数字，而不是浮点数和整型之间的转换，我们应该使用`Math.floor()`或者`Math.round()`
 
 7. 各种类型转换
 如果定义了`toString()`方法来进行类型转换的话，推荐显式调用`toString()`，因为内部的操作在尝试所有可能性之后，会尝试对象的`toString()`方法尝试能否转化为String，所以直接调用这个方法效率会更高
@@ -115,7 +115,7 @@ var html = []
 for (let i = 0; i < 100; i++) {
     html.push(`<p>${i}</>`)
 }
-document.body.innerHTML = (html.join(""))
+document.body.innerHTML = html.join("")
 ```
 
 13. 通过模板元素clone，替代createElement
@@ -169,16 +169,25 @@ while (node) {
     setTimeout(add, 10)
     ```
 
-19. 缩短否定检测(错误优先编程)
+19. 缩短否定检测(**错误优先编程**)
 ```javascript
     if (flag !== 'a') return
 ```
 20. 条件分支
-将条件分支，按可能性顺序从高到低排列：可以减少解释器对条件的探测次数，在同一条件子的多（>2）条件分支时，使用switch优于if：switch分支选择的效率高于if，在IE下尤为明显。4分支的测试，IE下switch的执行时间约为if的一半，使用`三目运算符`替代条件分支
+    将条件分支，按可能性顺序从高到低排列：可以减少解释器对条件的探测次数
+
+    在同一条件的多（>2）条件分支时，使用switch优于if：switch分支选择的效率高于if，在IE下尤为明显。4分支的测试，IE下switch的执行时间约为if的一半
+
+    使用三目运算符替代条件分支
 
 21. 使用常量
+
 22. 避免与null进行比较
-如果值应为一个引用类型，使用instanceof操作符检查其构造函数，如果值应为一个基本类型，作用typeof检查其类型，如果是希望对象包含某个特定的方法名，则使用typeof操作符确保指定名字的方法存在于对象上
+    如果值应为一个引用类型，使用instanceof操作符检查其构造函数，
+
+    如果值应为一个基本类型，作用typeof检查其类型
+
+    如果是希望对象包含某个特定的方法名，则使用typeof操作符确保指定名字的方法存在于对象上
 
 23. 尊重对象的所有权
 - 不要为实例或原型添加属性
@@ -228,7 +237,7 @@ init()
 - 对象：`obj = null`
 - 对象属性：`delete obj.myproperty`
 - 数组item：使用数组的splice方法释放数组中不用的item
-28. 避免string的隐式装箱??????
+28. 避免string的隐式装箱
 29. 性能方面的注意事项
 - 尽量使用原生方法
 - switch语句相对if较快
@@ -242,9 +251,6 @@ function f1(e){
 
 // a && doSomething(a)
 if (a) {doSomething(a)}
-
-
-
 ```
 30.  总是检查数据类型
-31.  ==和===的区别
+31.  \==和===的区别

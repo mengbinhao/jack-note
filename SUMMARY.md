@@ -15,7 +15,6 @@
       - [BFC](docs/frondend/css/BFC.md)
       - [深入浅出css](docs/frondend/css/深入浅出css.md)
       - [flex_vs_grid](docs/frondend/css/flex_vs_grid.md)
-      - [flex_vs_grid_2](docs/frondend/css/flex_vs_grid_2.md)
       - [flex](docs/frondend/css/flex.md)
       - [grid](docs/frondend/css/grid.md)
       - [heightwdith](docs/frondend/css/heightwdith.md)
@@ -43,7 +42,6 @@
       - [function](docs/frondend/js/function.md)
       - [javascript-native-vs-jquery](docs/frondend/js/javascript-native-vs-jquery.md)
       - [macrotaskmicrotask](docs/frondend/js/macrotaskmicrotask.md)
-      - [macrotaskmicrotask2](docs/frondend/js/macrotaskmicrotask2.md)
       - [note](docs/frondend/js/note.md)
       - [refactor](docs/frondend/js/refactor.md)
       - [regex](docs/frondend/js/regex.md)
@@ -77,7 +75,6 @@
     * [web安全](docs/frondend/web安全.md)
     * [从前端角度理解缓存](docs/frondend/从前端角度理解缓存.md)
     * [前端概念](docs/frondend/前端概念.md)
-    * [浏览器缓存](docs/frondend/浏览器缓存.md)
     * [页面性能分析与优化](docs/frondend/页面性能分析与优化.md)
     * [页面渲染机制](docs/frondend/页面渲染机制.md)
 * jenkens
