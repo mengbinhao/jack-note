@@ -1,17 +1,153 @@
-### 1.基本布局测试
-要了解这两个体系构建布局的方式，我们将通过相同的 HTML 页面，利用不同的布局方式 （即 Flexbox 与 CSS Grid）为大家区分。同时，你也可以通过文章顶部附近的下载按钮，下载演示项目进行对比，或者通过在线演示来察看它们：
+一般来说，布局的传统解决方案，是基于盒状模型，依赖`display + position + float`，但它对于那些特殊的布局非常不方便，比如，垂直居中实现起来很麻烦
+
+`Flexbox`的出现很好的解决了这个问题。它赋予父容器更改子元素宽高或顺序的能力，来更好的填充可用的空间(响应式)。它是简单的一维布局，最适合用在组件和小规模的布局中，如果是更复杂的布局，Grid布局会比较好一些
+
+`CSS Grid`，基于网格的二维布局，目的是改变布局解决方法, 它有很多与Flexbox相同的功能，但优势不同，要根据实际情况选择布局方式
+
+### 概念
+1. Flexbox
+
+Flexbox应用与一维布局，用来为盒状模型提供最大的灵活性 [Flexbox了解一下](https://zhuanlan.zhihu.com/p/46684565)
+
+2. CSS Grid
+Gird是css中最强大的布局系统，应用于二维布局，可以同时处理行和列，可以通过将css规则用于父元素（网格容器）和该元素的子元素（网格元素）来使用网格布局。 [Grid布局了解一下](https://zhuanlan.zhihu.com/p/46754464)
+
+3. 一维与二维
+
+![](../images/flex-grid-1.png)
+
+![](../images/flex-grid-2.png)
+
+### 内容优先与布局优先
+两者之间的另一个核心差异是Flexbox基于内容，而Grid基于布局。看一个具体的例子，来理解它的含义
+
+```html
+<header>
+    <div>HOME</div>
+    <div>SEARCH</div>
+    <div>LOGOUT</div>
+</header>
+```
+
+在我们将它变成Flexbox布局之前，div独占一行向下排列
+
+![](../images/flex-grid-3.png)
+
+1. Flexbox 实现标题布局
+
+```css
+header {
+    display：flex;
+}
+```
+
+![](../images/flex-grid-4.png)
+
+要将LOGOUT按钮移动到最右侧，给该元素左侧一个边距：
+```css
+header> div：nth-child(3){
+    margin-left：auto;
+}
+```
+
+![](../images/flex-grid-5.png)
+
+以上是通过子项身来决定它们的放置方式。除了display: flex; 最初我们没有必要预先定义任何其他内容。
+
+
+2. Grid 实现标题布局
+下面定义网格有十列，每列为一个单位宽
+```css
+header {
+    display：grid;
+    grid-template-columns：repeat（10,1fr）;
+}
+```
+效果看起来与Flexbox解决方案完全相同
+![](../images/flex-grid-4.png)
+
+但是，审查元素你会看到，内容被分成了十列：
+
+![](../images/flex-grid-6.png)
+
+这种方法的主要区别在于我们必须首先定义列和列的宽度，然后将内容放在可用的网格单元格中 为了将LOGOUT按钮移动到最右侧，我们将其放在第十列，如下所示：
+
+```css
+header> div：nth-child（3）{
+    grid-column：10;
+}
+```
+![](../images/flex-grid-7.png)
+
+3. 将两者结合起来
+
+![](../images/flex-grid-8.png)
+
+```html
+<div class =“container”>
+  <header> HEADER </header>
+  <aside> MENU </aside>
+  <main> CONTENT </main>
+  <footer> FOOTER </footer>
+</div>
+```
+
+```css
+.container {
+    display：grid;
+    grid-template-columns：repeat（12,1fr）;
+    grid-template-rows：50px 350px 50px;
+}
+
+header {
+    grid-column：span 12;
+}
+aside {
+    grid-column：span 2;
+}
+main {
+    grid-column：span 10;
+}
+footer {
+    grid-column：span 12;
+}
+
+header {
+    display：flex;
+}
+
+header> div：nth-child（3）{
+    margin-left：auto;
+}
+```
+
+### 浏览器兼容性
+
+1. grid
+
+![](../images/flex-grid-9.png)
+
+2. flex
+
+![](../images/flex-grid-10.png)
+
+3. [grid demo](https://gridbyexample.com/examples/)
+
+
+### example
+要了解这两个体系构建布局的方式，我们将通过相同的 HTML 页面，利用不同的布局方式 （即 Flexbox 与 CSS Grid）为大家区分。
 
 [demo](https://demo.tutorialzine.com/2017/03/css-grid-vs-flexbox/)
 
-该页面的设计相对比较简单 – 它是由一个居中的容器组成，在其内部则包含了标头、主要内容部分、侧边栏和页脚。接下来，我们要完成同时保持 CSS 和 HTML 尽可能整洁的挑战事项：
+该页面由一个居中的容器组成，在其内部则包含了标头、主要内容部分、侧边栏和页脚。接下来，我们要完成同时保持 CSS 和 HTML 尽可能整洁的挑战事项：
 
-- 在布局中将四个主要的部分进行定位。
-- 将页面变为响应式页面；
-- 对齐标头：导航朝左对齐，按钮向右对齐。
+- 在布局中将四个主要的部分进行定位
+- 将页面变为响应式页面
+- 对齐标头：导航朝左对齐，按钮向右对齐
 
-### 2.定位页面部分
+#### 定位页面部分
 
-#### Flexbox
+##### Flexbox
 为容器添加 display: flex 来指定为 Flex 布局，并指定子元素的垂直方向。
 ```css
 .container {
@@ -50,8 +186,8 @@
 ```
 如你所见，Flex 将其很好的实现了出来，但是仍需要相当多的 CSS 属性，并借助了额外的 HTML 元素。那么，让我们看看 CSS Grid 如何实现的。
 
-#### CSS Grid 解决方案
-针对本项目，有几种不同的 CSS Grid 解决方法，但是我们将使用网格模板区域语法来实现，因为它似乎最适合我们要完成的工作。
+##### CSS Grid
+针对本页面有几种不同的 CSS Grid 解决方法，但是我们将使用网格模板区域语法来实现，因为它似乎最适合我们要完成的工作。
 
 首先，我们将定义四个网格区域，所有的页面各一个：
 ```html
@@ -109,9 +245,9 @@ footer {
  我们现在将遵循上述结构进行布局，甚至不需要我们处理任何的 margins 或 paddings
 
 
-### 3.将页面变为响应式页面
+#### 将页面变为响应式页面
 
-#### Flexbox
+##### Flexbox
 这一步的执行与上一步密切相关。对于 Flexbox 解决方案，我们将更改包装器的 flex-direction 属性，并调整一些 margins。
 ```css
 @media (max-width: 600px) {
@@ -127,7 +263,7 @@ footer {
 ```
 由于网页比较简单，所以我们在媒体查询上不需要太多的重写。但是，如果遇见更为复杂的布局，那么将会重新的定义相当多的内容。
 
-#### CSS Grid
+##### CSS Grid
 由于我们已经定义了网格区域，所以我们只需要在媒体查询中重新排序它们。 我们可以使用相同的列设置。
 
 ```css
@@ -158,9 +294,9 @@ footer {
 }
 ```
 
-### 4.对齐标头组件
+#### 对齐标头组件
 
-#### Flexbox
+##### Flexbox
 我们的标头包含了导航和一个按钮的相关链接。我们希望导航朝左对齐，按钮向右对齐。而导航中的链接务必正确对齐，且彼此相邻。
 
 ```html
@@ -190,7 +326,7 @@ header nav {
 }
 ```
 
-#### CSS Grid
+##### CSS Grid
 为了拆分导航和按钮，我们要为标头定义 display: grid 属性，并设置一个 2 列的网格。同时，我们还需要两行额外的 CSS 代码，将它们定位在相应的边界上。
 ```css
 header{

@@ -4,7 +4,7 @@
 ![](../images/typeconvert-1.png)
 
 
-### value 显示强制类型转换
+### 显示强制类型转换
 举个栗子：后台返回值为一个字符串，内容是0 ~ 5的数字，现在使用的时候需要将参数转化为数字类型。
 ```javascript
 // wrong
@@ -19,6 +19,18 @@ if (value && Number(value) >= 0) {
 } else {
     return null;
 }
+```
+#### 浮点数转换成整型
+很多人喜欢使用parseInt()，其实parseInt()是用于将字符串转换成数字，而不是浮点数和整型之间的转换，我们应该使用`Math.floor()`或者`Math.round()`
+
+#### 各种类型转换
+```javascript
+var myVar = '3.1415'
+    str = '' + myVar
+    i_int = ~ ~myVar
+    f_float = 1*myVar
+    b_bool = !!myVar
+    arr = [myVar]
 ```
 
 关于值的比较，当我们只关心值是否正常时，还有一个比较靠谱的方法：正则表达式，上面的例子也可以这样来
