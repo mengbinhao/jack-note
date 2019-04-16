@@ -145,18 +145,22 @@ https://zhuanlan.zhihu.com/p/48461259#at          Vue的打包优化之路
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd
 Vue性能优化(vue vue-router vuex延迟加载动态延迟加载)
 https://juejin.im/post/5c133223e51d4540391749f5    Vue工程化最佳实践
-
 https://juejin.im/post/5afe56e6f265da0ba76ffac3  		Vue/axios/vue-router
+
 
 https://segmentfault.com/a/1190000016662929        vue中$router以及$route的使用
 https://juejin.im/post/5b0281b851882542845257e7  	 vue-router
 https://segmentfault.com/a/1190000018173547        vue-router
+https://juejin.im/post/5cb2c1656fb9a0688360fb2c    VueRouter源码分析
+
 
 https://juejin.im/post/5b573babf265da0fa50a1cad    Vuex基本使用的总结
 https://juejin.im/post/5c3c911ce51d455231347a7a    Vuex
 https://juejin.im/post/5afea06d6fb9a07a9c0476c1  	 Vuex
 
+
 https://juejin.im/post/5b2872516fb9a00e8626e34f    vue-cli
+
 
 https://juejin.im/post/5c2de832f265da6172659b45                 Vue vs React
 https://github.com/lihongxun945/myblog/issues/21                Vue vs React
@@ -190,6 +194,7 @@ https://segmentfault.com/a/1190000018672269     React 服务端渲染从入门�
 
 
 //Webpack
+https://juejin.im/post/5cafe9c1e51d456e3267e3ea   了解Webpack
 https://segmentfault.com/a/1190000018534625#articleHeader9  从零开始的Webpack4教程
 https://juejin.im/post/5c91e2ca518825284205dcf2   webpack4 CheatSheet
 https://segmentfault.com/a/1190000016740439                     全网最贴心webpack系列教程和配套代码
