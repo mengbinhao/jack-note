@@ -5,6 +5,8 @@
 4. npm i
 5. npm run dev
 
+![](../images/vue-cli-1.png)
+
 ### 打包发布
 1. 静态服务器
 ```

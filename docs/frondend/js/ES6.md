@@ -208,6 +208,49 @@
     await 多个 async 函数
 
     `await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])`
+    ```javascript
+    async function getData() {
+        const result = await axios.get('https://dube.io/service/ping')
+        const data = result.data
+        console.log('data', data)
+        return data
+    }
+    getData()
+    ```
+
+    ```javascript
+    async function fetchData(dataSet) {
+        for (entry of dataSet) {
+            const result = await axios.get(`https://ironhack-pokeapi.herokuapp.com/pokemon/${entry.id}`)
+            const newData = result.data
+            updateData(newData)
+            console.log(myData)
+        }
+    }
+    ```
+
+    ```javascript
+    import axios from 'axios'
+
+    let myData = [{ id: 0 }, { id: 1 }, { id: 2 }, { id: 3 }]
+    async function fetchData(dataSet) {
+        const pokemonPromises = dataSet.map(entry => {
+            return axios.get(`https://ironhack-pokeapi.herokuapp.com/pokemon/${entry.id}`)
+        })
+        const results = await Promise.all(pokemonPromises)
+        results.forEach(result => {
+            updateData(result.data)
+        })
+        console.log(myData)
+    }
+    function updateData(newData) {
+        myData = myData.map(el => {
+            if (el.id === newData.id) return newData
+            return el
+        })
+    }
+    fetchData(myData)
+    ```
 2. Decorator修饰器
 3. 幂运算符
 4. array.includes()

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>state</title>
+</head>
+<body>
+    <div id="test"></div>
+    <script src="https://cdn.bootcss.com/react/16.8.1/umd/react.development.js"></script>
+    <script src="https://cdn.bootcss.com/react-dom/16.8.1/umd/react-dom.development.js"></script>
+    <script src="https://cdn.bootcss.com/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <script type="text/babel">
+        class Like extends React.Component {
+            constructor(props) {
+                super(props)
+                this.state = {
+                    isLike: true
+                }
+                this.change = this.change.bind(this)
+            }
+
+            change() {
+                console.log(this)
+                this.setState({
+                    isLike: !this.state.isLike
+                })
+            }
+            render() {
+                const text = this.state.isLike ? 'like me' : 'not like me'
+                return <h2 onClick={ this.change }>{ text }</h2>
+            }
+        }
+
+        ReactDOM.render(<Like/>, document.getElementById('test'))
+    </script>
+</body>
+</html>

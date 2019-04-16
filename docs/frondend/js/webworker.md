@@ -77,7 +77,7 @@ self.onmessage = ev => {
 
     window.w.onerror = err => {
       w.terminate()
-      console.log(error.filename, error.lineno, error.message) // 发生错误的文件名、行号、错误内容
+      console.log(error.filename, error.lineno, error.message)
     }
 
     function sendMessage() {

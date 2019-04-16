@@ -1,3 +1,80 @@
+### 组件间通信基本原则
+1. 不要在子组件中直接修改父组件的状态数据
+2. 数据在哪, 更新数据的行为(函数)就应该定义在哪
+
+### vue组件间通信方式
+#### 父子组件(父传子-自定义属性 子传父--自定义事件)
+- prop
+- vue自定义事件(父传子最方便)
+```vue
+//父组件
+<AddComment :addComment="addComment"/>
+//子组件
+this.$emit('addComment', comment)
+```
+- 父组件直接传递函数(原则数据在哪,操作在哪),可以一层一层传
+```vue
+<AddComment :addComment="addComment"/>
+```
+- ref + 钩子函数
+```javascriopt
+//父组件
+<AddComment ref="header"/>
+
+mounted() {
+    this.$refs.header.$on('functionName', this.functionName)
+}
+//子组件
+this.$emit('addComment', comment)
+```
+- pubsub-js(父孙,兄弟没有级别限制)
+```vue
+//订阅组件
+import PubSub from 'pubsub-js'
+PubSub.subscribe('deleteItem', (msg, index) => {
+  this.deleteComment(index)
+})
+//发布组件
+import PubSub from 'pubsub-js'
+PubSub.publish('deleteItem', index);
+```
+- slot传标签(父传子,相关的js代码父组件直接定义好)
+```vue
+//父组件，相关属性和方法从子组件定义到父组件
+<TodoFooter>
+  <input type="checkbox" v-model="checkAll" slot="checkAll"/>
+  <span slot="size">已完成{{completeSize}} / 全部{{todos.length}}</span>
+  <button class="btn btn-danger" v-show="completeSize" @click="deleteAllCompleted" slot="delete">清除已完成任务</button>
+</TodoFooter>
+
+//子组件
+<div class="todo-footer">
+  <label>
+    <!--<input type="checkbox" v-model="checkAll"/>-->
+    <slot name="checkAll"></slot>
+  </label>
+
+  <span>
+    <slot name="size"></slot>
+    <!-- <span>已完成{{completeSize}} / 全部{{todos.length}}</span>-->
+  </span>
+
+  <slot name="delete"></slot>
+  <!-- <button class="btn btn-danger" v-show="completeSize" @click="deleteAllCompleted">清除已完成任务</button>-->
+</div>
+```
+- \$attrs、 \$listeners
+> \$attrs包含了父作用域中不作为props被识别 (且获取) 的特性绑定(class 和 style 除外)。当一个组件没有声明任 props时，这里会包含所有父作用域的绑定(class 和 style除外)，并且可以通过v-bind="$attrs"传入内部组件 —— 在创建高级别的组件时非常有用
+>
+> \$listeners包含了父作用域中的(不含 .native 修饰器的)v-on事件监听器。它可以通过 v-on="$listeners"传入内部组件 —— 在创建更高层次的组件时非常有用
+- \$children、\$refs、\$parent
+
+##### 多层父子组件通信
+通过vm.$parent.$parent访问,同理,子级的子级可以用vm.$children[index].$children[index]的方式
+##### 非父子组件通信
+通过共同的父级页面转换成父子通信,二是event bus
+
+
 ### 父-子
 ```javascript
 //父组件,传递数据
@@ -151,7 +228,7 @@ var Child = {
 // 在祖先组件中直接传入output和input
 <template>
   <div>
-    <child1 :output='output' :input="input"></child1>
+    <child1 :output="output" :input="input"></child1>
   </div>
 </template>
 <script>

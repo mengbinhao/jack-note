@@ -244,7 +244,7 @@
 - JSONP -> Content-Type 为application/javascript 或者 text/javascript, 内容格式为 functionName( {"format": "JSON"} )
 
 ### HTTP缓存
-1. 使用 Cache-Control 缓存是尊常用的缓存方式
+1. 使用 Cache-Control 缓存常用的缓存方式
 2. 想要更新缓存只需稍微变更一下url
 - app-2131312362387123.js
 - app.js?v=1

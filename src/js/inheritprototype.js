@@ -9,7 +9,7 @@ var inherit = (function () {
         Target.prototype.constructor = Target
         Target.uber = Origin.prototype
     }
-})()
+})();
 
 
 // function Animal() {}
