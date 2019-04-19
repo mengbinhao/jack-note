@@ -1,70 +1,21 @@
 ### varibale type
-Boolean、Number、String、Undefined、Null、Symbol
+Boolean、Number、String、Undefined、Null、Symbol and Object
 
 typeof => undefiend, string, number, boolean, object, function, symbol
 
-//是否在原型脸上
-instanceof
+//是否在原型链上
+A instanceof B, B.prototype是否在A.__proto__的原型链上
 
-```javascript
-function Foo(name) {
-    this.name = name
-}
-var foo = new Foo('bar')
-console.log(foo instanceof Foo)
-```
 
 ### 值类型VS引用类型
 //值类型是按值传递，引用类型是按共享传递
-```javascript
-function foo(a){
-    a = a * 10;
-}
-function bar(b){
-    b.value = 'new';
-}
-var a = 1;
-var b = {value: 'old'};
-foo(a);
-bar(b);
-console.log(a);
-console.log(b);
-```
 
 ### 原型和原型链
 
-- 所有的引用类型（数组、对象、函数），都具有对象特性，即可自由扩展属性（null除外）
+- 所有的引用类型（数组、对象、函数），都具有对象特性，即可自由扩展属性(null除外)
 - 所有的引用类型（数组、对象、函数），都有一个隐式原型__proto__属性，属性值是一个普通的对象
 - 所有的**函数**，都有一个显示原型prototype属性，属性值也是一个普通的对象(自定义函数prototype是一个没有自定义属性的空对象,及Object的实例对象，定义函数时添加显示原型prototype属性)
 - 所有的引用类型（数组、对象、函数），隐式原型__proto__属性值指向它的构造函数的prototype属性值
-
-```javascript
-//注意点
-console.log(Object.prototype instanceof Object)
-console.log(Object.prototype.__proto__ === null)
-console.log(Function.__proto__ === Function.prototype)
-
-
-```
-
-```javascript
-// 构造函数
-function Foo(name, age) {
-    this.name = name
-}
-Foo.prototype.alertName = function () {
-    alert(this.name)
-}
-// 创建示例
-var f = new Foo('zhangsan')
-f.printName = function () {
-    console.log(this.name)
-}
-// 测试
-f.printName()
-f.alertName()
-f.toString()
-```
 
 ### 作用域和闭包
 
@@ -90,22 +41,6 @@ for (var i = 0; i < list.length; i++) {
 ```
 
 ### 执行上下文 vs 执行上下文栈
-```javascript
-console.log(a)  // undefined
-var a = 100
-
-fn('zhangsan')  // 'zhangsan' 20
-function fn(name) {
-    age = 20
-    console.log(name, age)
-    var age
-}
-
-console.log(b); // 这里报错
-// Uncaught ReferenceError: b is not defined
-b = 100;
-```
-
 在一段 JS 脚本（即一个`<script>`标签中）执行之前，要先解析代码（所以说 JS 是解释执行的脚本语言），解析的时候会先创建一个**全局执行上下文**环境，先把代码中即将执行的（内部函数的不算，因为你不知道函数何时执行）变量、函数声明都拿出来。变量先暂时赋值为`undefined`，函数则先声明好可使用。这一步做完了，然后再开始正式执行程序。再次强调，这是在代码执行之前才开始的工作。
 
 另外，一个函数在执行之前，也会创建一个**函数执行上下文**环境，跟**全局上下文**差不多，不过**函数执行上下文**中会多出`this`,`arguments`和`函数的参数`
@@ -228,39 +163,22 @@ F1()
 - ajax img加载
 
 ### 箭头函数
-```javascript
-function fn() {
-    console.log('real', this)
-    var arr = [1, 2, 3]
-
-    arr.map(function (item) {
-        console.log('js', this)
-        return item + 1
-    })
-
-    arr.map(item => {
-        console.log('es6', this)
-        return item + 1
-    })
-}
-fn.call({a: 100})
-```
-
+### Promise
 ### Module
 
 ```javascript
-// 创建 util1.js 文件，内容如
+// 创建 util.js 文件
 export default {
     a: 100
 }
 
-// 创建 index.js 文件，内容如
-import obj from './util1.js'
+// 创建 index.js 文件
+import obj from './util.js'
 console.log(obj)
 ```
 
 ```javascript
-// 创建 util2.js 文件，内容如
+// 创建 util2.js 文件
 export function fn1() {
     alert('fn1')
 }
@@ -268,7 +186,7 @@ export function fn2() {
     alert('fn2')
 }
 
-// 创建 index.js 文件，内容如
+// 创建 index.js 文件
 import { fn1, fn2 } from './util2.js'
 fn1()
 fn2()
@@ -347,6 +265,207 @@ dog.say()
 dog.eat()
 ```
 
-### Promise
+### example
+```
+let arrLike = {
+    "2" : "a",
+    "3" : "b",
+    length : 2,
+    push : Array.prototype.push
+}
+arrLike.push("c");
+arrLike.push("d");
+//console.log(arrLike)
+```
 
-3-2-1
+```
+// 空数组遍历不到
+// undefined可以遍历
+let arrEmpety = [, , ,];
+let arrUndefined = [undefined,undefined,undefined];
+// 不产生任何输出
+arrEmpety.forEach(function (x, i) {
+  console.log(i + '. ' + x);
+})
+// 不产生任何输出
+for (var i in arrEmpety) {
+  console.log(i);
+}
+// console.log(Object.keys(arrEmpety));
+```
+
+```
+//safe constrctor
+function Person(name, age, job) {
+    //ES6
+    //new.target === Person
+    if (this instanceof Person) {
+        this.name = name;
+        this.age = age;
+        this.job = job;
+    } else {
+        return new Person(name, age, job);
+    }
+}
+```
+
+```
+//resolve click and mousedown
+// var firstTime = 0;
+// var sencondTime = 0;
+// var flag = false;
+// document.onclick = function() {
+//     if (flag) {
+//         console.log("onclick");
+//         flag = false;
+//     }
+// }
+// document.onmousedown = function() {
+//     firstTime = new Date().getTime();
+// }
+// document.onmouseup = function() {
+//     secondTime = new Date().getTime();
+//     if (sencondTime - firstTime < 300) {
+//         flag = true;
+//     }
+// }
+```
+
+```
+const getByteLength = (str) => {
+    let len = str.length,
+        count = len,
+        i;
+    for (i = 0; i < len; i++) {
+        // in case has chinese
+        if (str.charCodeAt(i) > 255) {
+            count++;
+        }
+    }
+    return count;
+}
+```
+
+```
+function isPalindrome(str) {
+    if (!(typeof str === "string")) return false;
+    var temp = str.replace(/\W/g, "").toLowerCase();
+    return temp == temp.split("").reverse().join("");
+}
+```
+
+```
+//arguments
+function sum(x, y) {
+    if (y !== undefined) {
+        return x + y;
+    } else {
+        return function (y) {
+            return x + y;
+        }
+    }
+}
+// console.log(sum(2)(3));
+// console.log(sum(2, 3));
+```
+
+```
+function Traverse(p_element, p_callback) {
+    p_callback(p_element);
+    var list = p_element.children;
+    for (var i = 0; i < list.length; i++) {
+        Traverse(list[i], p_callback);
+    }
+}
+```
+
+```
+//素数
+const isPrimeNumber = (num) => {
+    if (num <= 1 || num % 1 !== 0) {
+        return false;
+    }
+    var n = 2;
+    while (n < num) {
+        if (num % n++ === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+//console.log(isPrimeNumber(997));
+```
+
+```
+const sortStrByCount = (str) => {
+    if (!(typeof str === "string")) return str;
+    return str.split("").sort().join("").match(/(.)\1*/g)
+        .sort((a, b) => {
+            return a.length - b.length;
+        }).join("");
+}
+//console.log(sortStrByCount("dddbbbiiiiiicccca"));
+```
+
+```
+Element.prototype.insertAfter = function (targerNode, afterNode) {
+    var beforeNode = afterNode.nextElementSibling;
+    if (beforeNode == null) {
+        this.appendChild(targerNode);
+    } else {
+        this.insertBefore(targerNode, beforeNode);
+    }
+}
+```
+
+```
+//分批次添加DOM
+const addByBatch = (() => {
+    var container = document.querySelector('.list');
+    if (!container) return;
+
+    const total = 10000;
+    batchSize = 4; // 每批插入的节点次数，越大越卡
+    batchCount = total / batchSize; // 需要批量处理多少次
+    let batchDone = 0,
+        i;
+
+    function appendItems() {
+        const fragment = document.createDocumentFragment();
+        let i;
+        for (i = 0; i < batchSize; i++) {
+            const li = document.createElement('li');
+            li.innerText = (batchDone * batchSize) + i + 1;
+            fragment.appendChild(li);
+        }
+
+        container.appendChild(fragment);
+
+        batchDone += 1;
+        doBatchAppend();
+    }
+
+    function doBatchAppend() {
+        if (batchDone < batchCount) {
+            window.requestAnimationFrame(appendItems);
+        }
+    }
+
+    // kickoff
+    doBatchAppend();
+
+    //采用事件委托
+    //addEventlisener处理函数中this指的是实际的dom
+    //也可以通过外层let定义循环变量
+    //addEventListener与onclick
+    //   1 允许注册多个事件
+    //   2 可以控制事件捕获还是冒泡
+    //   3 对任何DOM元素都有效
+    container.addEventListener('click', (e) => {
+        const target = e.target;
+        if (target.tagName.toLowerCase() === 'li') {
+            console.log(target.innerText);
+        }
+    });
+})();
+```

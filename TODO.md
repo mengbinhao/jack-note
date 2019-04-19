@@ -71,6 +71,8 @@ https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽
 
 
 //Vue
+https://juejin.im/post/5cb444605188251ada7e320d               理理Vue细节
+https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14    封装Vue组件的一些技巧
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect        Vue学习路线
 http://www.cnblogs.com/zhoulifeng/p/10502058.html           Vue实现短信验证码登录
 https://juejin.im/post/5bc830a8f265da0abe272ccf             优化 Vue

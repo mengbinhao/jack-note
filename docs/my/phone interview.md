@@ -1,9 +1,9 @@
 1. tell me a little bit about yourself?
 Good afternoon, interviewer, It is my honor to introduce myself here.You can call me Jack. 35 years old
 
-I graduated from Xi' an Polytechnic University in computer and science Technology in 2008
+I graduated from Xi'an Polytechnic University in computer science and Technology in 2008
 
-So by now I have more than 10 years work experience and served for 4 different companies
+So far I have more than 10 years work experience and served for 4 different companies
 
 I started off my career as JAVA delevopment engineer in Shaan'xi electric power company.I was in charge of development interface to other system, like ERP、OA system and so on, I alse assisted with training key customers, to maintain the relationship for company, I was in that position over 6 years, Beacuse of long-term business trip, I quit this job
 
@@ -11,12 +11,12 @@ My second job was in activeNetwork as an application support engineer, I was res
 
 In Emerson my duty include writing automated scrips, set up automated test environment, analyzed automated report and enhance automated framework enhancement, I worked in Agile team lasted more than one year,but,due to emerson downsize itself, I went on to OUR United RT
 
-This is my current job, Most of my work is same as Emerosn's, The major difference is that I finish my task independently. I mean automation part, I do not have a colleague to discuss, to argue, to learn or to share, I have to make a decision. I have to push automation peoject move on, you know, this is very very imporant to me, I not only consider how to write scripts, but also consider how to accomplish automation project, like the automation technology selection, how to organize the project structure, set up CI environment, integrate JENKINS with TestComplete, I am not just create an item in JENKINS like before, in Emerson,but also build the JENKINS environment, so based on that, I feel more confident about my work and push myself a higher demands
+This is my current job, Most of my work is same as Emerosn's, The major difference is that I finish my task independently. I mean automation part, I do not have a colleague to discuss, to argue, to learn or to share, I have to make a decision. I have to push automation peoject move on, you know, this is very very important to me, I not only consider how to write scripts, but also consider how to accomplish automation project, like the automation technology selection, how to organize the project structure, set up CI environment, integrate JENKINS with TestComplete, I am not just create an item in JENKINS like before, in Emerson,but also build the JENKINS environment, so based on that, I feel more confident about my work and push myself a higher demands
 
 - then I was promoted to xxx position
 - Well a good example that come to mind is
 
-2. personality?
+1. personality?
 My personality is studious、easy-going、honest and adventurous
 - I believe that nothing is impossible to a willing heart.
 
