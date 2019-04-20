@@ -3,7 +3,7 @@
 - Tel:18591953989
 - Email:mengbinhao2018@gmail.com
 - Blog:[gitbook](https://jackmeng.gitbook.io/note/)
-- Education: Xi'an Polytechnic University/Computer Scientce & Technology
+- Education: Xi'an Polytechnic University/Computer Science & Technology
 - Expected work city: Xi'an
 - Expected position: automated test engineer
 - Current Salary: 12K*13 + Target annually bonus 2~3Months
@@ -88,7 +88,7 @@ Implementation of contract management from the traditional manual approach to mo
 
 # Skills
 - Language: ES6/NodeJS/JAVA/Python
-- Unit Test: Mocha
+- Unit Test: Jest
 - CI: Jenkins
 - Version Control System: Git
 - Front Framework: Vue + Vue Router + Axios
