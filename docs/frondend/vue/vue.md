@@ -27,6 +27,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue。而
 - vue-scroll
 - mint-ui
 - element-ui
+- nprogress
 
 ### grammar
 #### vue属性

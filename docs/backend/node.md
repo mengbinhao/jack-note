@@ -131,6 +131,16 @@ node 扩展后 -> net、db、file...
         - querystring.unescape('%3C%E5%93%88%E5%93%88%3E')
 
    10. Process  (global.process.argv)
+   ```javascript
+   // process.js
+   const {argv, execPath, env} = process
+   argv.forEach((val, index) => {
+   console.log(`${index}: ${val}`)
+   })
+   console.log(execPath)
+   console.log(env)
+   console.log(process.cwd())
+   ```
 
    11. Console
 
@@ -210,7 +220,11 @@ node 扩展后 -> net、db、file...
 
     > trap.js
 
-### 12. NodeJS的瓶颈
+### 12. timer 异步
+
+    > timer.js
+
+### 13. NodeJS的瓶颈
 
 1. 计算密集型程序
     NodeJS不善于处理计算密集型应用，当事件回调函数需要进行复杂运算，那么事件循环中所有请求都要等待计算完成之后才能响应。解决这个问题，需要将复杂运算拆解成若干逻辑，但这样又会提高代码的复杂度。
@@ -219,7 +233,7 @@ node 扩展后 -> net、db、file...
 3. 逻辑复杂的事务
     NodeJS的控制流被一个个事件拆散，是非线性的，但是人类思维是线性的，这样容易造成开发复杂度的提高。NodeJS更善于处理逻辑简单但访问频繁的任务，而不适合完成逻辑十分复杂的工作。
 
-### 13. debug
+### 14. debug
 1. vs-code
 2. `iron-node`
 3. `supervisor`

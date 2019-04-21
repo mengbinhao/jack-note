@@ -1,9 +1,8 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
 - **算法** / **算法面试(7)**
-- **Vue(34)**
+- **Vue(36)**
 - leetcode(206、24、141、142、25)
-- 极客Go(45)
 - react / git
 - 掘金小册(first done)
 
@@ -48,9 +47,11 @@ https://segmentfault.com/a/1190000018120629                     缓存
 https://segmentfault.com/a/1190000018717463#articleHeader1      浏览器缓存
 https://segmentfault.com/a/1190000018263418       web前端性能优化总结
 https://segmentfault.com/a/1190000018530091       前端性能优化策略
+https://segmentfault.com/a/1190000018902483       Web应用性能优化随笔
 
 
 //JS
+https://juejin.im/post/5cb7b62b5188253772753c01#heading-28    原生JS知识点整理
 http://news.51cto.com/art/201903/593360.htm              如何优雅处理前端异常
 https://www.haorooms.com/post/js_exportexcel_fx_2019     前端js导出excel方法分享
 https://juejin.im/post/5902973eb123db3ee46a0107          express核心入门
@@ -71,6 +72,12 @@ https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽
 
 
 //Vue
+https://juejin.im/post/5cb98b926fb9a0688e0677f9               key在Vue列表渲染时究竟起到了什么作用
+https://juejin.im/post/5cb80f026fb9a0686c0196b7               vue 优化
+https://segmentfault.com/a/1190000018901270                   Vue自定义全局Toast和Loading
+https://juejin.im/post/5cb6dcdbf265da03b36edf4a               Vue中的scoped及穿透方法
+https://juejin.im/post/5cb6c36e6fb9a068af37aa35               Vue SSR 踩坑之旅
+https://juejin.im/post/5cb7e74df265da039a3d68a1               Vue中导出Excel
 https://juejin.im/post/5cb444605188251ada7e320d               理理Vue细节
 https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14    封装Vue组件的一些技巧
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect        Vue学习路线
@@ -163,7 +170,7 @@ https://juejin.im/post/5afea06d6fb9a07a9c0476c1  	 Vuex
 
 https://juejin.im/post/5b2872516fb9a00e8626e34f    vue-cli
 
-
+http://news.51cto.com/art/201904/595259.htm                     我为什么选择 Vue 而不是 React
 https://juejin.im/post/5c2de832f265da6172659b45                 Vue vs React
 https://github.com/lihongxun945/myblog/issues/21                Vue vs React
 https://juejin.im/post/5b617801518825615d2fc92c                 vue vs react
@@ -178,6 +185,8 @@ https://segmentfault.com/a/1190000015684864                     Vue vs 微信小
 
 
 //React
+https://segmentfault.com/a/1190000018891454?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452   深入分析虚拟DOM的渲染原理和特性
+https://zhuanlan.zhihu.com/p/62767474              React函数组件和类组件的差异
 https://segmentfault.com/a/1190000018722898        React不完全手册
 https://juejin.im/post/5bb0303f5188255c8d0fdacb    React—从初级到高级路线图
 https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e&chksm=f951af14ce262602a85acb6a932b1c2e7e2c8c4e659b9aa3067dda6e3a89b5baa198cab475b1&mpshare=1&scene=1&srcid=#rd                   React学习路线
@@ -216,6 +225,7 @@ https://segmentfault.com/a/1190000014685887                     webpack4
 https://juejin.im/post/5b652b036fb9a04fa01d616b                 Webpack优化
 https://juejin.im/post/5c3c55aa51882524b4073394                 Webpack优化
 https://juejin.im/post/5c1fa158f265da613c09cb36                 Webpack优化
+https://juejin.im/post/5cb71c8e518825324c44eeb7                 webpack配置优化
 https://juejin.im/post/5cae0f616fb9a068a93f0613                 24 个实例入门并掌握Webpack4
 https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd                  webpack打包优化黑科技
 http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/   webpack all
@@ -228,6 +238,9 @@ https://juejin.im/post/5be5429de51d4511a808f4ac   vscode项目配置 eslint+pret
 https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7   Nginx
 https://segmentfault.com/a/1190000017940311       Nginx入门
 https://juejin.im/post/5bacbd395188255c8d0fd4b2   Nginx与前端开发
+https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651556250&idx=1&sn=07ae8424d4087a11a1fbacc54b1581db&chksm=80255e5bb752d74de09f057e6ad3922ec2aae2daf6771e9506a11747f13890bae3a7cf1ff527&mpshare=1&scene=1&srcid=#rd                      前端开发者必备的 Nginx 知识
+https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490869&idx=1&sn=5260a9d9064456ac5472ddfa2d0be822&chksm=f951a876ce262160f80d39abbed4ae2225c8d212f64bc9915609cd4ab372fe18c0f2c50a8529&mpshare=1&scene=1&srcid=#rd                      最全nginx技术分析
+https://juejin.im/post/5b01336af265da0b8a67e5c9   Nginx反向代理与负载均衡
 
 
 //JAVA

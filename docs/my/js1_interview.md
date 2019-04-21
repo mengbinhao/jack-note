@@ -112,7 +112,7 @@ F1()
   * 常见的内存泄露:
     * 意外的全局变量`c = 1`  `'use strict'`解决
     * 循环引用
-    ```
+    ```javascript
     function func() {
         let obj1 = {}
         let obj2 = {}
@@ -125,19 +125,19 @@ F1()
     ```
     * 没有及时清理的计时器或回调函数`clearInterval(intervalId)`
     * 没有清理的DOM元素引用
-    ```
+    ```javascript
     var refA = document.getElementById('refA')
     document.body.removeChild(refA)
     //refA = null
     ```
     * 给DOM对象添加的属性是一个对象的引用
-    ```
+    ```javascript
     var MyObject = {}
     document.getElementById('myDiv').myProp = MyObject
     // document.getElementById('myDiv').myProp = null
     ```
     * DOM对象与JS对象相互引用
-    ```
+    ```javascript
     function Encapsulator(element) {
         this.elementReference = element;
         element.myProp = this;
@@ -145,7 +145,7 @@ F1()
     new Encapsulator(document.getElementById('myDiv'));
     ```
     * 从外到内执行appendChild
-    ```
+    ```javascript
     var parentDiv = document.createElement("div");
     var childDiv = document.createElement("div");
     document.body.appendChild(parentDiv);
@@ -157,7 +157,6 @@ F1()
     parentDiv.appendChild(childDiv);
     document.body.appendChild(parentDiv);
     ```
-
 ### 异步
 - setTimeout setInterval
 - ajax img加载
@@ -266,19 +265,19 @@ dog.eat()
 ```
 
 ### example
-```
+```javascript
 let arrLike = {
     "2" : "a",
     "3" : "b",
     length : 2,
     push : Array.prototype.push
 }
-arrLike.push("c");
-arrLike.push("d");
-//console.log(arrLike)
+arrLike.push("c")
+arrLike.push("d")
+console.log(arrLike)
 ```
 
-```
+```javascript
 // 空数组遍历不到
 // undefined可以遍历
 let arrEmpety = [, , ,];
@@ -294,22 +293,22 @@ for (var i in arrEmpety) {
 // console.log(Object.keys(arrEmpety));
 ```
 
-```
+```javascript
 //safe constrctor
 function Person(name, age, job) {
     //ES6
     //new.target === Person
     if (this instanceof Person) {
-        this.name = name;
-        this.age = age;
-        this.job = job;
+        this.name = name
+        this.age = age
+        this.job = job
     } else {
-        return new Person(name, age, job);
+        return new Person(name, age, job)
     }
 }
 ```
 
-```
+```javascript
 //resolve click and mousedown
 // var firstTime = 0;
 // var sencondTime = 0;
@@ -331,7 +330,7 @@ function Person(name, age, job) {
 // }
 ```
 
-```
+```javascript
 const getByteLength = (str) => {
     let len = str.length,
         count = len,
@@ -339,120 +338,121 @@ const getByteLength = (str) => {
     for (i = 0; i < len; i++) {
         // in case has chinese
         if (str.charCodeAt(i) > 255) {
-            count++;
+            count++
         }
     }
-    return count;
+    return count
 }
 ```
 
-```
+```javascript
 function isPalindrome(str) {
     if (!(typeof str === "string")) return false;
-    var temp = str.replace(/\W/g, "").toLowerCase();
-    return temp == temp.split("").reverse().join("");
+    var temp = str.replace(/\W/g, "").toLowerCase()
+    return temp == temp.split("").reverse().join("")
 }
 ```
 
-```
+```javascript
 //arguments
 function sum(x, y) {
     if (y !== undefined) {
-        return x + y;
+        return x + y
     } else {
         return function (y) {
-            return x + y;
+            return x + y
         }
     }
 }
-// console.log(sum(2)(3));
-// console.log(sum(2, 3));
+console.log(sum(2)(3))
+console.log(sum(2, 3))
 ```
 
-```
+```javascript
 function Traverse(p_element, p_callback) {
-    p_callback(p_element);
-    var list = p_element.children;
+    p_callback(p_element)
+    var list = p_element.children
     for (var i = 0; i < list.length; i++) {
-        Traverse(list[i], p_callback);
+        Traverse(list[i], p_callback)
     }
 }
 ```
 
-```
+```javascript
 //素数
 const isPrimeNumber = (num) => {
     if (num <= 1 || num % 1 !== 0) {
-        return false;
+        return false
     }
-    var n = 2;
+    var n = 2
     while (n < num) {
         if (num % n++ === 0) {
-            return false;
+            return false
         }
     }
-    return true;
+    return true
 }
-//console.log(isPrimeNumber(997));
+console.log(isPrimeNumber(997))
 ```
 
-```
+```javascript
+//字符串中找出最长最多重复的子串
 const sortStrByCount = (str) => {
     if (!(typeof str === "string")) return str;
     return str.split("").sort().join("").match(/(.)\1*/g)
         .sort((a, b) => {
-            return a.length - b.length;
-        }).join("");
+            return a.length - b.length
+        }).join("")
 }
-//console.log(sortStrByCount("dddbbbiiiiiicccca"));
+console.log(sortStrByCount("dddbbbiiiiiicccca"))
 ```
 
-```
+```javascript
 Element.prototype.insertAfter = function (targerNode, afterNode) {
-    var beforeNode = afterNode.nextElementSibling;
+    var beforeNode = afterNode.nextElementSibling
     if (beforeNode == null) {
-        this.appendChild(targerNode);
+        this.appendChild(targerNode)
     } else {
-        this.insertBefore(targerNode, beforeNode);
+        this.insertBefore(targerNode, beforeNode)
     }
 }
 ```
 
-```
+```javascript
 //分批次添加DOM
 const addByBatch = (() => {
-    var container = document.querySelector('.list');
-    if (!container) return;
+    var container = document.querySelector('.list')
+    if (!container) return
 
-    const total = 10000;
-    batchSize = 4; // 每批插入的节点次数，越大越卡
-    batchCount = total / batchSize; // 需要批量处理多少次
+    const total = 10000
+    batchSize = 4 // 每批插入的节点次数，越大越卡
+    batchCount = total / batchSize // 需要批量处理多少次
     let batchDone = 0,
         i;
 
     function appendItems() {
-        const fragment = document.createDocumentFragment();
-        let i;
+        const fragment = document.createDocumentFragment()
+        let i
         for (i = 0; i < batchSize; i++) {
-            const li = document.createElement('li');
-            li.innerText = (batchDone * batchSize) + i + 1;
-            fragment.appendChild(li);
+            const li = document.createElement('li')
+            li.innerText = (batchDone * batchSize) + i + 1
+            fragment.appendChild(li)
         }
 
-        container.appendChild(fragment);
+        container.appendChild(fragment)
 
         batchDone += 1;
-        doBatchAppend();
+        doBatchAppend()
     }
 
     function doBatchAppend() {
         if (batchDone < batchCount) {
-            window.requestAnimationFrame(appendItems);
+            window.requestAnimationFrame(appendItems)
         }
     }
 
     // kickoff
-    doBatchAppend();
+    doBatchAppend()
 
     //采用事件委托
     //addEventlisener处理函数中this指的是实际的dom
@@ -462,9 +462,9 @@ const addByBatch = (() => {
     //   2 可以控制事件捕获还是冒泡
     //   3 对任何DOM元素都有效
     container.addEventListener('click', (e) => {
-        const target = e.target;
+        const target = e.target
         if (target.tagName.toLowerCase() === 'li') {
-            console.log(target.innerText);
+            console.log(target.innerText)
         }
     });
 })();
