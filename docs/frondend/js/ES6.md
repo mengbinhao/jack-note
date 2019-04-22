@@ -83,13 +83,14 @@
     1. 不要用箭头
     2. 函数、属性简写
     3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-    4. class和自定义类型的区别
-      - class的声明不会提升，与let类似
-      - class的声明自动运行于严格模式之下
-      - class声明的方法不可枚举
-      - class的内部方法没有 constructor 属性，无法new
-      - 调用class的构造函数必须new
+    4. ES6 class和ES5的类区别
+      - **class声明的方法不可枚举**
+      - es6的class声明不会提升
+      - es6的class的构造函数必须new
+      - es6的class声明自动运行于严格模式
+      - es6的class的内部方法没有 constructor 属性，无法new
       - class内部方法不能同名
+      - ES6 class 子类必须在父类的构造函数中调用super(),这样才有this对象;ES5中类继承的关系是相反的,先有子类的this,然后用父类的方法应用在this上
 5. let & const
     1. 作用域为{}
     2. TDZ
@@ -162,6 +163,32 @@
 11. Promise
 12. Reflect
 13. Proxy
+```javascript
+const handler = {
+  // receiver 指向 proxy 实例
+  get(target, property, receiver) {
+    console.log(`GET: target is ${target}, property is ${property}`)
+    return Reflect.get(target, property, receiver)
+  },
+  set(target, property, value, receiver) {
+    console.log(`SET: target is ${target}, property is ${property}`)
+    return Reflect.set(target, property, value)
+  }
+}
+
+const obj = { a: 1 , b: {c: 0, d: {e: -1}}}
+const newObj = new Proxy(obj, handler)
+
+/**
+ * 以下是测试代码
+ */
+
+newObj.a // output: GET...
+newObj.b.c // output: GET...
+
+newObj.a = 123 // output: SET...
+newObj.b.c = -1 // output: GET...
+```
 14. module(服务器环境)
     1. export
             ```javascript
@@ -201,7 +228,11 @@
         3. 当用export name时,就用import { name }导入(带大括号)
         4. 当一个文件里,既有一个 export default people,又有多个export name或者 export age时,导入就用import people, { name, age }
         5. 当一个文件里出现n多个export导出很多模块,导入时除了一个一个导入,也可以用 import * as example
-
+    3. 和CommonJS区别
+        1. 前者支持动态导入，也就是 require(${path}/xx.js)，后者目前不支持，但是已有提案import(xxx)
+        2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
+        3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
+        4. 后者会编译成 require/exports 来执行的
 ### ES7
 1. asyn函数
 
