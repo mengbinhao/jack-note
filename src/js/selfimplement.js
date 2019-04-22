@@ -129,14 +129,41 @@ Array.prototype.myFilter = function (fn) {
 }
 
 Array.prototype.myReduce = function (fn, init) {
-    //has bug
-    let result = init
-    for (let i = 0; i < this.length; i++) {
-        if (i in this) {
-            result = fn.call(undefined, result, this[i], i, this)
+    let i = 0, result
+    if(arguments.length === 1){
+        result = this[0]
+        i=1
+    }else{
+        result = initialValue
+    }
+    for(let len = this.length; i<len; i++){
+        if(i in this){
+            result = fn(result, this[i], i, this)
         }
     }
     return result
+}
+
+Array.prototype.myEvery = function(fn, thisArg){
+    for(let i=0, len = this.length; i<len; i++){
+        if(i in this){
+            if(!fn.call(thisArg, this[i], i, this)){
+                return false
+            }
+        }
+    }
+    return true
+}
+
+Array.prototype.mySome = function(fn, thisArg){
+    for(let i=0, len = this.length; i<len; i++){
+        if(i in this){
+            if(fn.call(thisArg, this[i], i, this)){
+                return true
+            }
+        }
+    }
+    return false
 }
 
 const randonReplacementArray = array => {
@@ -501,6 +528,10 @@ const curryFormalParameter = function (fn, args) {
 //json只能处理string、boolean、number、null、object、array
 const isObject = obj => {
     return obj !== null && typeof obj === 'object'
+}
+
+const hasPubProperty = (attr,obj) => {
+    return (attr in obj) && (obj.hasOwnProperty(attr) === false)
 }
 
 const deepClone = (source, hash = new WeakMap()) => {
