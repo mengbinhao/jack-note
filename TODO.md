@@ -31,6 +31,11 @@ https://juejin.im/post/5b850a3e51882542e4420779   全栈实践
 https://juejin.im/post/5bf676acf265da6166241b0e   Vue2.5+Node.js搭建一个多页面商城
 https://segmentfault.com/a/1190000017143278       node+mongodb部署在服务器并进行性能优化
 
+//CSS
+https://segmentfault.com/a/1190000018922732     45个值得收藏的 CSS 形状
+
+//Node
+https://juejin.im/post/5cbbeaa4f265da0393786641  利用 Node.js 代理解决跨域问题
 
 //front
 http://blog.jobbole.com/65513/                   前后端分离
@@ -51,6 +56,8 @@ https://segmentfault.com/a/1190000018902483       Web应用性能优化随笔
 
 
 //JS
+https://juejin.im/post/5cbd7e085188250a8b7cf5c9   reduce的n种应用
+https://juejin.im/post/5cbc6b786fb9a0685b49049c   axios封装以及前端接口处理策略
 https://juejin.im/post/5cb7b62b5188253772753c01#heading-28    原生JS知识点整理
 http://news.51cto.com/art/201903/593360.htm              如何优雅处理前端异常
 https://www.haorooms.com/post/js_exportexcel_fx_2019     前端js导出excel方法分享
@@ -185,6 +192,7 @@ https://segmentfault.com/a/1190000015684864                     Vue vs 微信小
 
 
 //React
+https://segmentfault.com/a/1190000018949348    小知识10点
 https://segmentfault.com/a/1190000018891454?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452   深入分析虚拟DOM的渲染原理和特性
 https://zhuanlan.zhihu.com/p/62767474              React函数组件和类组件的差异
 https://segmentfault.com/a/1190000018722898        React不完全手册
@@ -203,8 +211,8 @@ https://segmentfault.com/a/1190000018689665     关于React的一些小知识
 https://segmentfault.com/a/1190000018672269     React 服务端渲染从入门到精通
 
 
-
 //Webpack
+https://juejin.im/post/5cbd89155188250a9062dbd1   webpack基本使用
 https://juejin.im/post/5cafe9c1e51d456e3267e3ea   了解Webpack
 https://segmentfault.com/a/1190000018534625#articleHeader9  从零开始的Webpack4教程
 https://juejin.im/post/5c91e2ca518825284205dcf2   webpack4 CheatSheet
@@ -258,6 +266,7 @@ https://www.cnblogs.com/miniren/p/5227994.html   构建中执行shell或者 wind
 
 
 //Interview
+https://juejin.im/post/5cbbd2a0e51d456e8a12efaa#heading-13   前端实习面试记录
 https://segmentfault.com/a/1190000018736404           记2019前端面经
 https://segmentfault.com/a/1190000017949080           大厂interview思考
 https://juejin.im/post/5bb470295188255c5e66f88f       大厂面经

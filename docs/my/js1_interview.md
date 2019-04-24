@@ -469,3 +469,31 @@ const addByBatch = (() => {
     });
 })();
 ```
+
+```javascript
+var queryParams = url => {
+    let obj = {}
+    let reg = /([^&?=]+)=([^&?=]+)/g
+    url.replace(reg, (...arg) => {
+        obj[arg[1]] = arg[2]
+    })
+    return obj
+}
+```
+
+```javascript
+//isParentBalance
+const isParentBalance = (str) => {
+    return str.split('').reduce((count, char) => {
+        if (count < 0) {
+            return count
+        } else if (char === '(') {
+            return ++count
+        } else if (char === ')') {
+            return --count
+        } else {
+            return count
+        }
+    }, 0)
+}
+```

@@ -9,54 +9,54 @@ if(imgType.match(/.*?(gif|png|jpg)/gi)){
 
 //rest parameter
 let restFun1 = (...args) => {
-    console.log(`arguments: ${args}`);
+    console.log(`arguments: ${args}`)
     let [arr1, arr2, ...arr3] = args
-    console.log(`arr1=${arr1},arr2=${arr2},arr3=${arr3}`);
+    console.log(`arr1=${arr1},arr2=${arr2},arr3=${arr3}`)
 }
 
 //restFun1(1,2,3,4,5)
 
 //invoke use rest parameter
 let restFun2 = (...args) => {
-    foo(...args);
-    foo.call(null, ...args);
-    foo.apply(null, args);
+    foo(...args)
+    foo.call(null, ...args)
+    foo.apply(null, args)
 };
 
 let foo = (p1, p2, p3) => {
-    console.log(p1 + p2 + p3);
+    console.log(p1 + p2 + p3)
 }
 
 restFun2(1, 2, 3, 4)
 
 //invoke use rest parameter
 let restFun3 = (param1, ...args) => {
-    console.log(`arguments: ${args}`);
+    console.log(`arguments: ${args}`)
 }
 
 // judge params in nodejs
 let checkParams = (err, params1, params2, callback) => {
     if (typeof params1 === 'function') {
-        callback = params1;
-        params1 = null;
-        params2 = null;
+        callback = params1
+        params1 = null
+        params2 = null
     } else if (typeof params2 === 'function') {
-        callback = params2;
-        params1 = null;
+        callback = params2
+        params1 = null
     } else if (typeof callback !== 'function') {
-        throw new Error('参数错误');
+        throw new Error('参数错误')
     }
 }
 
 //invoke use rest parameter
 let checkParams2 = (err, ...args) => {
-    const callback = typeof args[args.length - 1] === 'function' ? args.pop() : null;
-    const [params1 = null, params2 = null] = args;
+    const callback = typeof args[args.length - 1] === 'function' ? args.pop() : null
+    const [params1 = null, params2 = null] = args
 }
 
 //use defualt and deconstruction
 let defaultFun = (a, {opt1 = '1',opt2 = '2'} = {}) => {
-    console.log(a, opt1, opt2);
+    console.log(a, opt1, opt2)
 }
 
 let mergeFun = (a, opts) => {
@@ -73,7 +73,7 @@ let mergeFun = (a, opts) => {
         ...opts,
     };
 
-    const {opts1 = '1', opts2 = '2'} = opts;
+    const {opts1 = '1', opts2 = '2'} = opts
 }
 
 function test({name} = {}) {
@@ -91,7 +91,7 @@ let foo2 = (mustBeProvided = mandatory()) => {
 
 let checkLengthFun = (x, y, ...extra) => {
     if (extra.length > 0) {
-        throw new Error();
+        throw new Error()
     }
 }
 
@@ -119,7 +119,7 @@ let {desc: {pos: {lng: longitude}}} = user
 //多重判断时使用 Array.includes
 function test(fruit) {
   if (fruit == 'apple' || fruit == 'strawberry') {
-    console.log('red');
+    console.log('red')
   }
 }
 
@@ -127,16 +127,16 @@ function test(fruit) {
     const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
 
     if (redFruits.includes(fruit)) {
-        console.log('red');
+        console.log('red')
     }
 }
 
 //更少的嵌套，尽早 Return
 function test(fruit, quantity) {
-    const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries'];
+    const redFruits = ['apple', 'strawberry', 'cherry', 'cranberries']
 
     // 条件 1: 尽早抛出错误
-    if (!fruit) throw new Error('No fruit!');
+    if (!fruit) throw new Error('No fruit!')
 
     // 条件 2: 必须是红色的
     if (redFruits.includes(fruit)) {
@@ -154,13 +154,13 @@ function test(color) {
     // 使用条件语句来寻找对应颜色的水果
     switch (color) {
         case 'red':
-            return ['apple', 'strawberry'];
+            return ['apple', 'strawberry']
         case 'yellow':
-            return ['banana', 'pineapple'];
+            return ['banana', 'pineapple']
         case 'purple':
-            return ['grape', 'plum'];
+            return ['grape', 'plum']
         default:
-            return [];
+            return []
     }
 }
 
@@ -171,7 +171,7 @@ const fruitColor = {
 };
 
 function test(color) {
-    return fruitColor[color] || [];
+    return fruitColor[color] || []
 }
 
 //使用Map实现相同的结果
@@ -181,7 +181,7 @@ const fruitColor = new Map()
     .set('purple', ['grape', 'plum']);
 
 function test(color) {
-    return fruitColor.get(color) || [];
+    return fruitColor.get(color) || []
 }
 
 //Array.filter实现相同的效果
@@ -192,20 +192,20 @@ const fruits = [
     { name: 'pineapple', color: 'yellow' },
     { name: 'grape', color: 'purple' },
     { name: 'plum', color: 'purple' }
-];
+]
 
 function test(color) {
-    return fruits.filter(f => f.color == color);
+    return fruits.filter(f => f.color == color)
 }
 
 //对所有/部分判断使用Array.every & Array.some
 function test() {
-    const isAllRed = fruits.every(f => f.color == 'red');
+    const isAllRed = fruits.every(f => f.color == 'red')
     console.log(isAllRed); // false
 }
 
 function test() {
     // 条件：任何一个水果是红色
-    const isAnyRed = fruits.some(f => f.color == 'red');
+    const isAnyRed = fruits.some(f => f.color == 'red')
     console.log(isAnyRed); // true
 }
