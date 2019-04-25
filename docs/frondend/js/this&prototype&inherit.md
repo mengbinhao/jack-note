@@ -20,8 +20,9 @@
    - 没有原型对象
    - 没有自己的super和new.target绑定
    - 不可用yield,因此不能用Generator函数
-
-5. demo
+5. IIFE无论在哪执行`this`是`window`
+6. 数组的`forEach map reduce`等函数里面的函数ES5写法this始终是window,箭头函数写法this则取决于外部执行环境
+7. demo
 ```javascript
 const a = {
   a: 'a'
@@ -46,7 +47,7 @@ const answers = [
 ]
 ```
 
-6. class中的this
+8. class中的this
 ```javascript
 class Obj {
   getThis = () => this
