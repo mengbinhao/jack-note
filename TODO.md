@@ -1,9 +1,9 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
 - **算法** / **算法面试(7)**
-- **Vue(36)**
+- **Vue(38) practise**
 - leetcode(206、24、141、142、25)
-- react / git
+- react
 - 掘金小册(first done)
 
 https://wyydsb.xin/other/terminal.html   mac开光
@@ -53,6 +53,7 @@ https://segmentfault.com/a/1190000018717463#articleHeader1      浏览器缓存
 https://segmentfault.com/a/1190000018263418       web前端性能优化总结
 https://segmentfault.com/a/1190000018530091       前端性能优化策略
 https://segmentfault.com/a/1190000018902483       Web应用性能优化随笔
+https://segmentfault.com/a/1190000018960494       性能优化
 
 
 //JS
@@ -79,6 +80,7 @@ https://juejin.im/post/5be297f16fb9a049aa6e8dcb       JavaScript DOM元素长宽
 
 
 //Vue
+https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ vue+others
 https://juejin.im/post/5cb98b926fb9a0688e0677f9               key在Vue列表渲染时究竟起到了什么作用
 https://juejin.im/post/5cb80f026fb9a0686c0196b7               vue 优化
 https://segmentfault.com/a/1190000018901270                   Vue自定义全局Toast和Loading
