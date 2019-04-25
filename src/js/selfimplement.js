@@ -1,7 +1,7 @@
 //Array
 //Array
 //Array
-Array.prototype.unique = function () {
+Array.prototype.unique1 = function () {
     //这里是利用对象键hash值的唯一性来去重
     let obj = {}
     let result = []
@@ -11,10 +11,26 @@ Array.prototype.unique = function () {
             result.push(this[i])
         }
     }
+    obj = null
     return result
 }
 
 Array.prototype.unique2 = function () {
+    let obj = {}
+    for (let i = 0; i < this.length; i++) {
+        if (obj[this[i]]) {
+            this.splice(i, 1)
+            this.length--
+            i--
+        } else {
+            obj[this[i]] = true
+        }
+    }
+    obj = null
+    return this
+}
+
+Array.prototype.unique3 = function () {
     let result = []
     for (let i = 0; i < this.length; i++) {
         if (!result.includes(this[i])) {
@@ -24,16 +40,29 @@ Array.prototype.unique2 = function () {
     return result
 }
 
-Array.prototype.unique3 = function () {
+Array.prototype.unique4 = function () {
     let result = new Set(this)
     //return [...new Set(this)]
     return Array.from(result)
 }
 
-Array.prototype.unique4 = function () {
+Array.prototype.unique5 = function () {
     //利用Array.prototype.filter返回符合条件的元素
     //利用Array.prototype.indexOf返回数组中第一次出现当前元素的索引值
     return this.filter((item, index) => this.indexOf(item) === index)
+}
+
+Array.prototype.unique6 = (arr) => {
+    for (let i = 0; i < arr.length - 1; i++) {
+        for (let j = i+1; j < arr.length; j++) {
+            if (arr[i] === arr[j]) {
+                arr.splice(j, 1)
+                //in case like [2,2]
+                j--
+            }
+        }
+    }
+    return arr
 }
 
 const myFlat = arr => {
@@ -129,14 +158,47 @@ Array.prototype.myFilter = function (fn) {
 }
 
 Array.prototype.myReduce = function (fn, init) {
-    //has bug
-    let result = init
-    for (let i = 0; i < this.length; i++) {
-        if (i in this) {
-            result = fn.call(undefined, result, this[i], i, this)
+    let i = 0, result
+    if(arguments.length === 1){
+        result = this[0]
+        i=1
+    }else{
+        result = initialValue
+    }
+    for(let len = this.length; i<len; i++){
+        if(i in this){
+            result = fn(result, this[i], i, this)
         }
     }
     return result
+}
+
+Array.prototype.myReduce2 = (f, acc, arr) => {
+    if (arr.length === 0) return acc;
+    const [head, ...tail] = arr;
+    return reduce(f, f(head, acc), tail);
+}
+
+Array.prototype.myEvery = function(fn, thisArg){
+    for(let i=0, len = this.length; i<len; i++){
+        if(i in this){
+            if(!fn.call(thisArg, this[i], i, this)){
+                return false
+            }
+        }
+    }
+    return true
+}
+
+Array.prototype.mySome = function(fn, thisArg){
+    for(let i=0, len = this.length; i<len; i++){
+        if(i in this){
+            if(fn.call(thisArg, this[i], i, this)){
+                return true
+            }
+        }
+    }
+    return false
 }
 
 const randonReplacementArray = array => {
@@ -501,6 +563,10 @@ const curryFormalParameter = function (fn, args) {
 //json只能处理string、boolean、number、null、object、array
 const isObject = obj => {
     return obj !== null && typeof obj === 'object'
+}
+
+const hasPubProperty = (attr,obj) => {
+    return (attr in obj) && (obj.hasOwnProperty(attr) === false)
 }
 
 const deepClone = (source, hash = new WeakMap()) => {

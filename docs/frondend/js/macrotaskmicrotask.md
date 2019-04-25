@@ -33,6 +33,10 @@ js代码的类型分为:
 
 > 注意：事件队列中分“宏任务队列”和“微任务队列”，每执行一次任务都可能注册新的宏任务或微任务到相应的任务队列中，只要遵循“每执行一个宏任务，就会清空一次事件队列中的所有微任务”这一循环规则，就不会弄乱
 
+### 常见的宏任务和微任务
+- 宏任务：script(整体代码)、setTimeout、setInterval、I/O、事件、postMessage、 MessageChannel、setImmediate (Node.js)
+- 微任务：Promise.then、 MutaionObserver、process.nextTick (Node.js)
+
 ### Demo
 ```javascript
 console.log('1');
@@ -114,6 +118,23 @@ setTimeout(function () {
 ### Demo 2
 
 ```javascript
+async function foo() {
+  // await 前面的代码
+  await bar();
+  // await 后面的代码
+}
+//等于
+function foo() {
+  // await 前面的代码
+  Promise.resolve(bar()).then(() => {
+    // await 后面的代码
+  });
+}
+```
+
+
+
+```javascript
 async function async1() {
     console.log( 'async1 start' )
     await async2()
@@ -140,6 +161,37 @@ new Promise( function ( resolve ) {
 } )
 
 console.log( 'script end' )
+```
+
+```javascript
+//after refactor
+function async1() {
+  console.log('async1 start'); // 2
+
+  Promise.resolve(async2()).then(() => {
+    console.log('async1 end'); // 6
+  });
+}
+
+function async2() {
+  console.log('async2'); // 3
+}
+
+console.log('script start'); // 1
+
+setTimeout(function() {
+  console.log('settimeout'); // 8
+}, 0);
+
+async1();
+
+new Promise(function(resolve) {
+  console.log('promise1'); // 4
+  resolve();
+}).then(function() {
+  console.log('promise2'); // 7
+});
+console.log('script end'); // 5
 ```
 
 #### async await的理解
@@ -262,3 +314,58 @@ console.log( 'async1 end' )
 宏任务1执行完成后,执行宏任务2,宏任务2的执行比较简单，就是打印
 
 console.log('setTimeout')
+
+### Demo 3
+```javascript
+const p1 = new Promise((resolve, reject) => {
+  console.log('promise1');
+  resolve();
+})
+  .then(() => {
+    console.log('then11');
+    new Promise((resolve, reject) => {
+      console.log('promise2');
+      resolve();
+    })
+      .then(() => {
+        console.log('then21');
+      })
+      .then(() => {
+        console.log('then23');
+      });
+  })
+  .then(() => {
+    console.log('then12');
+  });
+
+const p2 = new Promise((resolve, reject) => {
+  console.log('promise3');
+  resolve();
+}).then(() => {
+  console.log('then31');
+});
+```
+
+### Demo 4
+```javascript
+const p1 = new Promise((resolve, reject) => {
+  console.log('promise1'); // 1
+  resolve();
+})
+  .then(() => {
+    console.log('then11'); // 2
+    return new Promise((resolve, reject) => {
+      console.log('promise2'); // 3
+      resolve();
+    })
+      .then(() => {
+        console.log('then21'); // 4
+      })
+      .then(() => {
+        console.log('then23'); // 5
+      });
+  })
+  .then(() => {
+    console.log('then12'); //6
+  });
+```

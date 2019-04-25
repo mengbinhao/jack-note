@@ -78,6 +78,7 @@ const data = [{
 }];
 ```
 - clear()
+- copy(obj)
 #### 将浏览器转换为编辑器
 `document.body.contentEditable=true`
 
@@ -96,18 +97,18 @@ const data = [{
 
 ### 4.Sources
 
-- {}   format
+- {} => format
 - Filesystem
 - Network
 - Snippets
 - blackbox script
+- 条件断点
 
 ### 5.Network
-
+- block request
 ### 6.Application
 
 ### 7.Settings
-
 - Show user agent shadow DOM
 - Log XMLHttprequests
 
