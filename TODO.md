@@ -269,6 +269,7 @@ https://www.cnblogs.com/miniren/p/5227994.html   构建中执行shell或者 wind
 
 
 //Interview
+https://juejin.im/post/5cbff661e51d456e693f48ec    拿不到offer算我输
 https://juejin.im/post/5cbbd2a0e51d456e8a12efaa#heading-13   前端实习面试记录
 https://segmentfault.com/a/1190000018736404           记2019前端面经
 https://segmentfault.com/a/1190000017949080           大厂interview思考
