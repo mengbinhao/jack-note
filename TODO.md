@@ -2,7 +2,7 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
 - **算法** / **算法面试(7)**
-- **Vue(38) practise**
+- **Vue(40) practise**
 - leetcode(206、24、141、142、25)
 - react
 - 掘金小册(first done)
@@ -260,6 +260,7 @@ https://segmentfault.com/a/1190000018398978)
 
 
 ### Interview
+- [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
 - [interview front](https://juejin.im/post/5cb92d9a5188254160581b87)
 - [一名【合格】前端工程师的自检清单](https://segmentfault.com/a/1190000018992363)
 - [拿不到offer算我输](https://juejin.im/post/5cbff661e51d456e693f48ec)
