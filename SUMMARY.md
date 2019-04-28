@@ -37,6 +37,7 @@
       - [array](docs/frondend/js/array.md)
       - [asyncawait](docs/frondend/js/asyncawait.md)
       - [best-practise](docs/frondend/js/best-practise.md)
+      - [cmd&amd&umd&es6](docs/frondend/js/cmd&amd&umd&es6.md)
       - [DOM](docs/frondend/js/DOM.md)
       - [ES6](docs/frondend/js/ES6.md)
       - [exception](docs/frondend/js/exception.md)
