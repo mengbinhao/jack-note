@@ -86,6 +86,9 @@ const sortArrayRandom = arr => arr.sort((a, b) => Math.random() - 0.5)
 //generate undefined array
 const undefinedArray = length => Array.apply(null, {length})
 
+//创建特定大小的数组
+//[...Array(3).keys()]  //[0,1,2]
+
 
 Array.prototype.myPush = function () {
     for (var i = 0; i< arguments.length; i++) {

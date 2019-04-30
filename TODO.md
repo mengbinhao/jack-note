@@ -244,7 +244,7 @@ https://segmentfault.com/a/1190000018398978)
 - [前端开发者必备的 Nginx 知识](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651556250&idx=1&sn=07ae8424d4087a11a1fbacc54b1581db&chksm=80255e5bb752d74de09f057e6ad3922ec2aae2daf6771e9506a11747f13890bae3a7cf1ff527&mpshare=1&scene=1&srcid=#rd)
 - [最全nginx技术分析](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490869&idx=1&sn=5260a9d9064456ac5472ddfa2d0be822&chksm=f951a876ce262160f80d39abbed4ae2225c8d212f64bc9915609cd4ab372fe18c0f2c50a8529&mpshare=1&scene=1&srcid=#rd)
 - [Nginx反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
-
+- [如何使用Postman来Mock API](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247491115&idx=1&sn=ed62702985fc9059372c95b7d7573809&chksm=f951ab68ce26227ebfca16fd5a80cbd663db306cbac84bfff31d23b428acdb282cdfa9eeb136&mpshare=1&scene=1&srcid=#rd)
 
 ### JAVA
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
