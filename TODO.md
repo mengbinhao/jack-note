@@ -133,6 +133,7 @@
 - [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect )
 - [一个Vue引发的性能问题](https://www.yinchengli.com/2019/03/24/vue-performance-problem/)
 - [slot详解，slot、slot-scope和v-slot](https://juejin.im/post/5cb0564e5188251acb530087)
+- [手摸手教你封装跨项目复用的 Vue 组件](https://juejin.im/post/5cc569af51882525166c4818)
 - [Vue项目重构](https://segmentfault.com/a/1190000018364199)
 - [Vue项目经验](https://juejin.im/post/5bd83871f265da0afa3e3204)
 - [Vue技术分类](https://segmentfault.com/a/1190000018663104)

@@ -110,7 +110,17 @@ F1()
   * 占用的内存没有及时释放
   * 内存泄露积累多了就容易导致内存溢出
   * 常见的内存泄露:
-    * 意外的全局变量`c = 1`  `'use strict'`解决
+    * 意外的全局变量`'use strict'`解决
+    ```javascript
+    function foo1(arg) {
+      bar = "this is a hidden global variable"
+    }
+
+    function foo2() {
+      this.variable = "potential accidental global"
+    }
+    foo2()
+    ```
     * 循环引用
     ```javascript
     function func() {
