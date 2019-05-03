@@ -151,27 +151,27 @@
 - [优化 Vue 组件的运行时性能](https://juejin.im/post/5bf7ca2f6fb9a049a9795a88)
 - [优化](https://juejin.im/post/5bc830a8f265da0abe272ccf)
 - [优化](https://juejin.im/post/5cb80f026fb9a0686c0196b7)
+- [vue性能优化](https://juejin.im/post/5cc81076e51d456e361ed97e)
 
-
-***
+#### vue-router
 - [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
 - [vue中$router以及$route的使用](https://segmentfault.com/a/1190000016662929)
 - [vue-router](https://juejin.im/post/5b0281b851882542845257e7)
 - [vue-router](https://segmentfault.com/a/1190000018173547)
 - [VueRouter源码分析](https://juejin.im/post/5cb2c1656fb9a0688360fb2c)
 
-
-***
+#### vuex
 - [两个鲜有人知的Vuex技巧](https://juejin.im/post/5c7f20a46fb9a049db73e3d8)
 - [Vuex基本使用的总结](https://juejin.im/post/5b573babf265da0fa50a1cad)
 - [Vuex](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [Vuex](https://juejin.im/post/5afea06d6fb9a07a9c0476c1)
 
-***
+#### vue-cli
 - [vue-cli](https://juejin.im/post/5b2872516fb9a00e8626e34f)
 - [配置一个vue-cli3.0项目](https://juejin.im/post/5cc18abdf265da039e1ff5fb#heading-4)
+- [面试官：自己搭建过vue开发环境吗](<https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21>)
 
-***
+#### compare
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
 - [Vue vs React](https://juejin.im/post/5c2de832f265da6172659b45)
 - [Vue vs React](https://github.com/lihongxun945/myblog/issues/21)
@@ -236,6 +236,7 @@ https://segmentfault.com/a/1190000018398978)
 - [webpack optimization](https://segmentfault.com/a/1190000016484002)
 
 ### Other
+- [用vscode开发vue应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
 - [docker](https://segmentfault.com/a/1190000018810837)
 - [vscode项目配置 eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [Nginx](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
@@ -275,14 +276,15 @@ https://segmentfault.com/a/1190000018398978)
 - [大厂前端高频面试问题与答案精选](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490505&idx=1&sn=3efe2267b8bbfea86f2c13c9cc745414&chksm=f951ae8ace26279c852c8839c00baf8803983bf50a5a5be96607a9b9cae8fc2d21288f35cc70&mpshare=1&scene=1&srcid=#rd)
 - [中高级前端大厂面试秘籍](https://segmentfault.com/a/1190000018155877)
 
-***
+#### css&html
 - [css](https://juejin.im/post/5af8e6aef265da0b9265b04c)
 - [html & css](https://segmentfault.com/a/1190000015882087)
 - [html & css](https://segmentfault.com/a/1190000015960009)
 - [html & css & js](http://0313.name/archives/502#JavaScript)
 - [front all](https://finget.github.io/2019/01/15/interview-questions/)
+- [JavaScript 面试知识点合集](https://juejin.im/post/5cc230ae5188252e741cc751)
 
-***
+#### vue
 - [Vue](https://segmentfault.com/a/1190000018634744)
 - [Vue](https://juejin.im/post/5c6d4a46f265da2de6610287)
 - [Vue](http://web.jobbole.com/95195/)
@@ -295,16 +297,15 @@ https://segmentfault.com/a/1190000018398978)
 - [Vue](https://segmentfault.com/a/1190000016770732)
 - [Vue](https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/)
 
-***
+#### react
 - [React](https://zhuanlan.zhihu.com/p/35587283)
 - [React](https://segmentfault.com/a/1190000016761186)
 - [React](https://segmentfault.com/a/1190000018604138)
 
-***
+#### compare
 - [React vs vue](http://blog.poetries.top/2018/10/20/fe-interview-component/)
 - [React vs vue](https://juejin.im/post/5ca2ba0ee51d4524fd28778a)
 - [React vs vue](https://juejin.im/post/5ca6fd2f6fb9a05e643def4f)
-
 
 ***
 ***

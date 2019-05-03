@@ -1,8 +1,8 @@
 ### 1.get started
 
 ```
-mkdir express-tutorials
-cd express-tutorials
+mkdir xxxxxx
+cd xxxxxx
 npm init -y
 npm i express
 node index.js

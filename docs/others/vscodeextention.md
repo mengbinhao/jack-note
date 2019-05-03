@@ -1,4 +1,67 @@
-### 1.Beautify  (Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code)
+### [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+
+### debug variable
+- \${workspaceFolder} - the path of the folder opened in VS Code
+- \${workspaceRootFolderName} - the name of the folder opened in VS Code without any slashes (/)
+- \${file} - the current opened file
+- \${relativeFile} - the current opened file relative to workspaceRoot
+- \${fileBasename} - the current opened file's basename
+- \${fileBasenameNoExtension} - the current opened file's basename with no file extension
+- \${fileDirname} - the current opened file's dirname
+- \${fileExtname} - the current opened file's extension
+- \${cwd} - the task runner's current working directory on startup
+- \${lineNumber} - the current selected line number in the active file
+- \${env:PATH}:系统中的环境变量
+
+### others
+#### eslint
+
+1. install nodejs
+
+2. npm install -g eslint
+
+3. eslint --init   (below json version)
+
+   ```
+   {
+       "extends": "eslint:recommended",
+       "env": {
+           "browser": true
+       },
+       "rules": {
+           "no-console": 0,
+           "indent": ["error", 4],
+           "linebreak-style": "off",
+           "semi": ["error", "always"],
+           "quotes": ["error", "single"]
+       },
+       "overrides": [{
+           "files": ["bin/*.js", "lib/*.js","test.js","test1.js"],
+           "excludedFiles": ["test1.js"],
+           "rules": {
+               "indent": ["error", 2]
+           }
+       }],
+       "plugins": []
+   }
+   ```
+
+4. invoke :  eslint index.js
+
+   ​	      eslint index.js --fix
+
+5. .eslintignore
+
+   ```
+   # /node_modules/* and /bower_components/* in the project root are ignored by default
+
+   # Ignore built files except build/index.js
+   build/*
+   !build/index.js
+   ```
+6. [rules](http://eslint.cn/docs/rules/)      [doc](http://eslint.cn/docs/user-guide/configuring)
+
+#### Beautify  (Beautify `javascript`, `JSON`, `CSS`, `Sass`, and `HTML` in Visual Studio Code)
 
 - [doc](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify)
 
@@ -36,7 +99,7 @@
   ```
 
 
-### 2.pylint
+#### pylint
 
 -   [doc](https://pylint.readthedocs.io/en/latest/)
 
@@ -95,73 +158,3 @@
             "**/tpsautomation/test/**/*.py"
      ]
     ```
-
-### 3.eslint
-
-1. install nodejs
-
-2. npm install -g eslint
-
-3. eslint --init   (below json version)
-
-   ```
-   {
-       "extends": "eslint:recommended",
-       "env": {
-           "browser": true
-       },
-       "rules": {
-           "no-console": 0,
-           "indent": ["error", 4],
-           "linebreak-style": "off",
-           "semi": ["error", "always"],
-           "quotes": ["error", "single"]
-       },
-       "overrides": [{
-           "files": ["bin/*.js", "lib/*.js","test.js","test1.js"],
-           "excludedFiles": ["test1.js"],
-           "rules": {
-               "indent": ["error", 2]
-           }
-       }],
-       "plugins": []
-   }
-   ```
-
-4. invoke :  eslint index.js
-
-   ​	      eslint index.js --fix
-
-5. .eslintignore
-
-   ```
-   # /node_modules/* and /bower_components/* in the project root are ignored by default
-
-   # Ignore built files except build/index.js
-   build/*
-   !build/index.js
-   ```
-
-
-6. [rules](http://eslint.cn/docs/rules/)      [doc](http://eslint.cn/docs/user-guide/configuring)
-
-### 4.Settings Sync
-
-​    [see link](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
-
-### 5.vscode-icons
-
-### 6.Document This
-
-### for debug variable
-- \${workspaceFolder} - the path of the folder opened in VS Code
-- \${workspaceRootFolderName} - the name of the folder opened in VS Code without any slashes (/)
-- \${file} - the current opened file
-- \${relativeFile} - the current opened file relative to workspaceRoot
-- \${fileBasename} - the current opened file's basename
-- \${fileBasenameNoExtension} - the current opened file's basename with no file extension
-- \${fileDirname} - the current opened file's dirname
-- \${fileExtname} - the current opened file's extension
-- \${cwd} - the task runner's current working directory on startup
-- \${lineNumber} - the current selected line number in the active file
-- \${env:PATH}:系统中的环境变量
