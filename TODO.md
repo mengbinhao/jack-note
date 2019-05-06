@@ -28,6 +28,7 @@
 - [全栈实践](https://juejin.im/post/5b850a3e51882542e4420779)
 - [Vue2.5+Node.js搭建一个多页面商城](https://juejin.im/post/5bf676acf265da6166241b0e)
 - [node+mongodb部署在服务器并进行性能优化](https://segmentfault.com/a/1190000017143278)
+- [Vue+Express实现登录状态权限控制](https://juejin.im/post/5ccc3eab6fb9a0321e16b18e)
 
 ### css
 - [45个值得收藏的 CSS 形状](https://segmentfault.com/a/1190000018922732)
@@ -246,6 +247,7 @@ https://segmentfault.com/a/1190000018398978)
 - [最全nginx技术分析](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490869&idx=1&sn=5260a9d9064456ac5472ddfa2d0be822&chksm=f951a876ce262160f80d39abbed4ae2225c8d212f64bc9915609cd4ab372fe18c0f2c50a8529&mpshare=1&scene=1&srcid=#rd)
 - [Nginx反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
 - [如何使用Postman来Mock API](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247491115&idx=1&sn=ed62702985fc9059372c95b7d7573809&chksm=f951ab68ce26227ebfca16fd5a80cbd663db306cbac84bfff31d23b428acdb282cdfa9eeb136&mpshare=1&scene=1&srcid=#rd)
+- [Nginx的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab&chksm=fe3bb23bc94c3b2d05a593f2ab68157e230a3f8b172d4a5738136e4a37c48d3a80886b50bad5&xtrack=1&scene=90&subscene=93&sessionid=1556536743&clicktime=1556536795&ascene=56&devicetype=android-27&version=27000439&nettype=cmnet&abtest_cookie=BAABAAoACwASABMABQBcmR4AwJkeANaZHgDcmR4A4ZkeAAAA&lang=zh_CN&pass_ticket=KljLSxHve4pOAVfqgfTizGSzfJ1qvZ+oWe+VZG0smyUvIdwKN4ylrhzAC8+CWExc&wx_header=1)
 
 ### JAVA
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)

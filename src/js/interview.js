@@ -82,6 +82,17 @@ randonReplacementArray([1, 5, 9, 6, 2, 6]);
 
 
 //Function------------------------
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms))
+}
+async function test() {
+    console.log("Hello")
+    await sleep(1000)
+    console.log("World")
+}
+//test()
+
+
 let splat = (fn) => {
     return function (array) {
         return fn.apply(null, array);
