@@ -166,6 +166,7 @@
 - [Vuex基本使用的总结](https://juejin.im/post/5b573babf265da0fa50a1cad)
 - [Vuex](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [Vuex](https://juejin.im/post/5afea06d6fb9a07a9c0476c1)
+- [页面刷新后，vuex中数据丢失、清空的解决方案 vuex-persistedstate](https://segmentfault.com/a/1190000019077724)
 
 #### vue-cli
 - [vue-cli](https://juejin.im/post/5b2872516fb9a00e8626e34f)
@@ -285,6 +286,7 @@ https://segmentfault.com/a/1190000018398978)
 - [html & css & js](http://0313.name/archives/502#JavaScript)
 - [front all](https://finget.github.io/2019/01/15/interview-questions/)
 - [JavaScript 面试知识点合集](https://juejin.im/post/5cc230ae5188252e741cc751)
+- [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
 
 #### vue
 - [Vue](https://segmentfault.com/a/1190000018634744)
