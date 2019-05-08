@@ -1,23 +1,24 @@
 ### 1.get started
 
 ```javascript
-npm init -y
-npm i koa
+//1 npm init -y
+//2 npm i koa
 
+//3 hello world
 const Koa = require('koa')
 const app = new Koa()
 
-app.use( async (ctx, next) => {
-  ctx.body = 'hello koa2'
-}).listen(3000, () => {
-  console.log('server is starting at port 3000')
+app.use(async ctx => {
+	ctx.body = `hello koa2`
+}).listen(3000, _ => {
+	console.log('server is starting at port 3000')
 })
-
-node index.js
+//4 run
+node xxx.js
 ```
 
 #### ctx
-ctx作为上下文使用，Koa将node的request, response对象封装进一个单独对象。即ctx.request 、 ctx.response。Koa内部又对一些常用的属性或者方法做了代理操作，使得我们可以直接通过ctx获取。比如，ctx.request.url 可以写成ctx.url
+ctx作为上下文使用，Koa将node的request, response对象封装进一个单独对象。即`ctx.request 、 ctx.response`。Koa内部又对一些常用的属性或者方法做了代理操作，使得我们可以直接通过ctx获取。比如，ctx.request.url 可以写成ctx.url
 
 除此之外，Koa还约定了一个中间件的存储空间ctx.state。通过state可以存储一些数据，比如用户数据，版本信息等。如果你使用webpack打包的话，可以使用中间件，将加载资源的方法作为ctx.state的属性传入到view层，方便获取资源路径
 
