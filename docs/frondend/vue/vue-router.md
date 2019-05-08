@@ -1,6 +1,6 @@
 ### get started
 1. define router component
-2. register router in main.js($route只读 $router只写)
+2. register router in main.js(\$route只读 $router只写)
 3. use router \<router-link> \<router-view>
 
 ### use
