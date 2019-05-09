@@ -233,3 +233,4 @@ node 扩展后 -> net、db、file...
 1. vs-code
 2. `iron-node`
 3. `supervisor`
+4. `node --inspect index.js`，点击chrome绿色node icon进入调试状态

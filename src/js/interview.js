@@ -514,6 +514,10 @@ function sum(x, y) {
 
 
 //Object------------------------
+let isType = type => obj => {
+  return Object.prototype.toString.call( obj ) === '[object ' + type + ']';
+};
+//isType('String')('123')
 let JackGlobal = {
     namespace: function (ns) {
         let parts = ns.split("."),

@@ -568,6 +568,10 @@ const isObject = obj => {
     return obj !== null && typeof obj === 'object'
 }
 
+const isType = type => obj => {
+    return Object.prototype.toString.call( obj ) === '[object ' + type + ']';
+}
+
 const hasPubProperty = (attr,obj) => {
     return (attr in obj) && (obj.hasOwnProperty(attr) === false)
 }

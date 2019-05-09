@@ -81,6 +81,7 @@
 - [Vue SSR 踩坑之旅](https://juejin.im/post/5cb6c36e6fb9a068af37aa35)
 - [Vue中导出Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
 - [理理Vue细节](https://juejin.im/post/5cb444605188251ada7e320d)
+- [Vue：函数式组件](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 - [封装Vue组件的一些技巧](https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14)
 - [Vue学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect)
 - [Vue实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
