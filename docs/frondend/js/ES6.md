@@ -25,6 +25,8 @@
             const add = (a = required(), b = required()) => a + b;
             add()
     2. 剩余参数
+       1. `Array.prototype.slice.call(arguments).sort() to const sortNumbers = (...numbers) => numbers.sort()`
+       2. 与解构赋值组合使用`var [a,b,...c] = array;`
     3. 箭头函数
         > 1 没有this,函数体里面的this是箭头函数定义时所在对象,不是运行时(this看上一级，若是箭头函数继续上找,作用域是栈内存不是堆内存)
         >
@@ -233,6 +235,13 @@ newObj.b.c = -1 // output: GET...
         2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
         3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
         4. 后者会编译成 require/exports 来执行的
+
+15.  扩展运算符
+     1. 代替apply `Math.max.apply(null,array); Math.max(...array)`
+     2. 代替数组push、concat`Array.prototype.push.apply(arr1, arr2);  arr1.push(...arr2)`
+     3. 拷贝数组或对象`var array1 = [...array0]; var obj2  = {...obj};`
+     4. 将伪数组转化为数组`console.log([...nodeList]);`
+
 ### ES7
 1. asyn函数
 

@@ -169,6 +169,7 @@
 - [Vuex](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [Vuex](https://juejin.im/post/5afea06d6fb9a07a9c0476c1)
 - [页面刷新后，vuex中数据丢失、清空的解决方案 vuex-persistedstate](https://segmentfault.com/a/1190000019077724)
+- [一张图弄明白 Vuex 里该存放什么样的数据](https://juejin.im/post/5cd239136fb9a032297b1512)
 
 #### vue-cli
 - [vue-cli](https://juejin.im/post/5b2872516fb9a00e8626e34f)
