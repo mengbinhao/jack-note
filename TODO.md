@@ -2,7 +2,7 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
 - **算法** / **算法面试(7)**
-- **Vue(40) practise**
+- **Vue(47) practise**
 - leetcode(206、24、141、142、25)
 - react
 - 掘金小册(first done)
@@ -237,6 +237,8 @@ https://segmentfault.com/a/1190000018398978)
 - [webpack打包优化黑科技](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
 - [webpack all](http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/)
 - [webpack optimization](https://segmentfault.com/a/1190000016484002)
+- [打包优化Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
+- [webpack4-配置vue相关](https://juejin.im/post/5cd515356fb9a032086de95e)
 
 ### Other
 - [用vscode开发vue应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)

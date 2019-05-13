@@ -200,6 +200,29 @@
 - [http-server](https://github.com/indexzero/http-server)
 
 
+### performance
+- webpack-bundle-analyzer
+- apache ab
+
+
+### request
+- [Axios](https://www.npmjs.com/package/axios)当您需要基于`Promise`的`HTTP`请求时可选择它
+- [Request](https://www.npmjs.com/package/request)当您需要基于回调的`HTTP`请求时可选择它，例如从一个`REST`服务连接到另一个
+
+
+### Tools (开发工具)
+- [ESdoc](https://www.npmjs.com/package/esdoc)
+  - 当您想从您的代码中生成API文档，并且您正在使用最新的JS版本时
+  - 默认情况下支持当前版本的JS(支持class)，因此如果在代码中使用prototypes，请使用JSdoc
+- JSdoc(jsdoc)
+  - 当您需要支持ES6的代码API文档生成器时使用
+  - 支持classes和prototypes
+
+
+### Prototype
+- mockplus crack version
+
+
 ### 动画库
 - [Animate.css](https://daneden.github.io/animate.css/)
 - [animejs](http://animejs.com/)
@@ -314,43 +337,29 @@
 ### PDF 阅读器
 - pdf.js
 
-
 ### 主题色提取
 - RGBaster
-
 
 ### 前端国际化 i18n
 - i18next
 - vue-i18n
 
-
 ### 弹幕视频播放器
 - DanmuPlayer
-
 
 ### 视频播放器
 - Chimee
 - flv.js
 - Video.js
 
-
 ### 网页即时通讯
 - LayIM
 - 闲聊么
 
-
 ### 级联选择器
-
-
 ### 手机端事件
-
-
 ### 条形码插件
-
-
 ### 二维码插件
-
-
 ### 地图
 
 
@@ -368,29 +377,5 @@
 
 ### Web Sockets
 - [Primus](https://www.npmjs.com/package/primus)
-  - 当您需要 Web Sockets 但又不想被束缚在特定的 Web Sockets 实现时使用
+  - 当您需要`Web Sockets`但又不想被束缚在特定的`Web Sockets`实现时使用
 
-
-### performance
-- apache ab
-
-
-### request
-- [Request](https://www.npmjs.com/package/request)当您需要基于回调的 HTTP 请求时可选择它，例如从一个 REST 服务连接到另一个
-- [Axios](https://www.npmjs.com/package/axios)当您需要基于 Promise的 HTTP 请求时可选择它
-
-
-### CLI (命令行界面)
-- [Commander](https://www.npmjs.com/package/commander)
-  - 当您要构建一个 CLI 程序时使用，该程序将所有参数作为命令行上的标志
-- [Inquirer](https://www.npmjs.com/package/inquirer)
-  - 当您想要构建一个按顺序获取选项的“交互式”CLI 程序时使用(类似于运行 npm init 时的方式,它会询问您生成package.json文件的一系列问题)
-
-
-### Tooling (开发工具)
-- [ESdoc](https://www.npmjs.com/package/esdoc)
-  - 当您想从您的代码中生成API文档，并且您正在使用最新的JS版本时
-  - 默认情况下支持当前版本的JS(支持class)，因此如果在代码中使用prototypes，请使用JSdoc
-- JSdoc(jsdoc)
-  - 当您需要支持ES6的代码API文档生成器时使用
-  - 支持classes和prototypes
