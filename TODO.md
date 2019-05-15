@@ -155,6 +155,9 @@
 - [优化](https://juejin.im/post/5cb80f026fb9a0686c0196b7)
 - [vue性能优化](https://juejin.im/post/5cc81076e51d456e361ed97e)
 - [vue高级进阶](https://juejin.im/post/5ccffcc05188254088472950)
+- [Vue项目使用pdf.js](https://juejin.im/post/5cd9498651882515cc7e465c)
+- [vue实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
+- [vue项目前端知识点整理](https://segmentfault.com/a/1190000019161122)
 
 #### vue-router
 - [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
@@ -211,7 +214,9 @@ https://segmentfault.com/a/1190000018398978)
 - [React 服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
 
 
-### Webpack
+### webpack4
+- [7中方式来减少webpack bundle体积](https://juejin.im/post/5cd9571de51d453a572aa2e6)
+- [webpack4.x实战](https://juejin.im/post/5cd6fd7951882568d06293f3)
 - [webpack4配置and others](https://segmentfault.com/a/1190000019001374#articleHeader7)
 - [webpack基本使用](https://juejin.im/post/5cbd89155188250a9062dbd1)
 - [了解Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
@@ -252,6 +257,7 @@ https://segmentfault.com/a/1190000018398978)
 - [Nginx反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
 - [如何使用Postman来Mock API](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247491115&idx=1&sn=ed62702985fc9059372c95b7d7573809&chksm=f951ab68ce26227ebfca16fd5a80cbd663db306cbac84bfff31d23b428acdb282cdfa9eeb136&mpshare=1&scene=1&srcid=#rd)
 - [Nginx的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab&chksm=fe3bb23bc94c3b2d05a593f2ab68157e230a3f8b172d4a5738136e4a37c48d3a80886b50bad5&xtrack=1&scene=90&subscene=93&sessionid=1556536743&clicktime=1556536795&ascene=56&devicetype=android-27&version=27000439&nettype=cmnet&abtest_cookie=BAABAAoACwASABMABQBcmR4AwJkeANaZHgDcmR4A4ZkeAAAA&lang=zh_CN&pass_ticket=KljLSxHve4pOAVfqgfTizGSzfJ1qvZ+oWe+VZG0smyUvIdwKN4ylrhzAC8+CWExc&wx_header=1)
+- [前端加密3种方式](https://segmentfault.com/a/1190000019164592)
 
 ### JAVA
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
