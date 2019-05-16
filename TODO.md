@@ -68,46 +68,39 @@
 - [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
 
 ### Vue
+- [Vue超快速学习](https://segmentfault.com/a/1190000015740490)
 - [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
 - [Vue中的scoped及穿透方法](https://juejin.im/post/5cb6dcdbf265da03b36edf4a)
 - [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
+- [理理Vue细节](https://juejin.im/post/5cb444605188251ada7e320d)
+- [Vue实现数组对象双向绑定](https://juejin.im/post/5af665186fb9a07aa83ecde0)
+- [Vue中$nextTick机制](https://juejin.im/post/5c749bc7e51d45659809408a)
+- [Vue自定义指令](https://juejin.im/post/5b03e610f265da0b873ad64e)
+- [Vue项目使用vue-route刷新当前页面](https://segmentfault.com/a/1190000017007631)
 
 
+- [Vue实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
 - [Vue SSR 踩坑之旅](https://juejin.im/post/5cb6c36e6fb9a068af37aa35)
 - [vue project refactor](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [Vue中导出Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
-
-
-- [从零实现Vue的Toast插件](https://juejin.im/post/5c036e4fe51d451b80257c45)
-- [Vue自定义全局Toast和Loading](https://segmentfault.com/a/1190000018901270)
-- [如何写好一个组件](https://juejin.im/post/5cdacf96e51d453ae110543b#heading-3)
-
-
-
-
-- [理理Vue细节](https://juejin.im/post/5cb444605188251ada7e320d)
-- [Vue：函数式组件](https://juejin.im/post/5cd145dcf265da036b4a7abf)
-- [封装Vue组件的一些技巧](https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14)
-- [Vue学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490087&idx=1&sn=fb16b7826416244642cdab69a52848c0&chksm=f951af64ce262672982f1896976f594589925a0b2730801715247ae40d7ee06c2960d6b6a338&token=1623409489&lang=zh_CN&scene=21#wechat_redirect)
-- [Vue实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
 - [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
 - [Vue图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
-- [Vue全家桶](https://finget.github.io/2018/06/28/vue-family/)
-- [Vue数组对象双向绑定](https://juejin.im/post/5af665186fb9a07aa83ecde0)
-- [Vue超快速学习](https://segmentfault.com/a/1190000015740490)
-- [Vue中的状态管理(3种)](https://www.w3cplus.com/vue/managing-state-in-vue-js.html)
-- [Vue中$nextTick机制](https://juejin.im/post/5c749bc7e51d45659809408a)
-- [Vue component](https://juejin.im/post/5afcd516f265da0b9e65414b)
-- [实现一个 Vue 进度条组件](https://segmentfault.com/a/1190000017035590)
-- [Vue 9 Secrets](https://juejin.im/post/5ca18157e51d45301b5c957c)
-- [Vue使用技巧和项目中遇到的问题](http://news.51cto.com/art/201903/593856.htm)
-- [Vue自定义指令](https://juejin.im/post/5b03e610f265da0b873ad64e)
-- [表单输入格式化，中文输入法异常](https://juejin.im/post/5b0e14c36fb9a00a353dd66d)
-- [Vue页面跳转动画效果实现](https://juejin.im/post/5ba358a56fb9a05d2068401d)
+
+
+
+- [Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)
+- [Vue自定义全局Toast和Loading](https://segmentfault.com/a/1190000018901270)
+- [Vue button component](https://juejin.im/post/5afcd516f265da0b9e65414b)
+- [Vue loading component](https://segmentfault.com/a/1190000017035590)
+- [如何写好一个组件](https://juejin.im/post/5cdacf96e51d453ae110543b#heading-3)
+- [封装Vue组件的一些技巧](https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14)
+- [函数式组件、slots和children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 - [基于Vue构造器创建Form组件的通用解决方案](https://juejin.im/post/5bdc17ddf265da61483b0e67)
-- [Vue.js的复用组件开发流程](https://segmentfault.com/a/1190000017188189)
-- [Vue项目刷新当前页面](https://segmentfault.com/a/1190000017007631)
-- [Vue 动画的封装](https://segmentfault.com/a/1190000018130259)
+- [Vue动画的封装](https://segmentfault.com/a/1190000018130259)
+
+
+
+
 - [Vue实践小结](https://juejin.im/post/5c40251b518825254c31aa2d)
 - [Vue技巧](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
 - [Vue避坑](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
