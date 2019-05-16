@@ -58,7 +58,6 @@
 - [javaScript中常用的设计模式](https://segmentfault.com/a/1190000017787537)
 - [reduce的n种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
 - [记一些 Promise 相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
-- [axios封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
 - [原生JS知识点整理](https://juejin.im/post/5cb7b62b5188253772753c01#heading-28)
 - [如何优雅处理前端异常](http://news.51cto.com/art/201903/593360.htm)
 - [js错误处理权威指北](https://juejin.im/post/5bfa5a8cf265da6124151e62)
@@ -70,8 +69,10 @@
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 - [JavaScript DOM元素长宽等比例缩放](https://juejin.im/post/5be297f16fb9a049aa6e8dcb)
 - [JavaScript开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48#heading-6)
+- [axios封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)   //partial
 
 ### Vue
+- [如何写好一个组件](https://juejin.im/post/5cdacf96e51d453ae110543b#heading-3)
 - [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
 - [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
 - [vue+others](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
