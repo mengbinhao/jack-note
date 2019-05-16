@@ -201,8 +201,10 @@ redirect:'/params/:newsId(\\d+)/:newsTitle'
 
 - this.\$router.push(`/home/message/detail/${id}`)  //相当于点击路由链接(可以返回到当前路由界面)
 - this.\$router.replace(`/home/message/detail/${id}`) //用新路由替换当前路由(不可以返回到当前路由界面
-- this.$router.push({ name:'xxx', query:{id:1}, params:{name:'abc'}})
-- this.$router.replace({ name:'xxx', query:{id:1}, params:{name:'abc'}})
+- this.$router.replace('/menu')
+- this.$router.push({ name:'xxx', query:{id:1}, params:{name:'xxx'}})
+- this.$router.push('/menu')
+- this.$router.replace({ name:'xxx', query:{id:1}, params:{name:'xxx'}})
 - 配置规则 {name:'xxx', path:'/xxx/:name'}
 - this.$router.go(-1|1)
 - this.$router.back()

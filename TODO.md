@@ -2,7 +2,7 @@
 - jack-note / caibaojian / 30seconds / js-tool-library
 - zaolunzi
 - **算法** / **算法面试(7)**
-- **Vue(47) practise**
+- **Vue(52) practise**
 - leetcode(206、24、141、142、25)
 - react
 - 掘金小册(first done)
@@ -31,7 +31,7 @@
 - [Vue+Express实现登录状态权限控制](https://juejin.im/post/5ccc3eab6fb9a0321e16b18e)
 
 ### css
-- [45个值得收藏的 CSS 形状](https://segmentfault.com/a/1190000018922732)
+- [45个值得收藏的CSS形状](https://segmentfault.com/a/1190000018922732)
 - [display:none与visibility:hidden](https://segmentfault.com/a/1190000016570003)
 
 ### nodejs
@@ -39,48 +39,52 @@
 
 ### front
 - [前后端分离](http://blog.jobbole.com/65513/)
+- [前端加密3种方式](https://segmentfault.com/a/1190000019164592)
 - [前端工具库汇总](https://segmentfault.com/a/1190000016992952)
-- [mis1](https://segmentfault.com/a/1190000016420985)
-- [mis2](http://0313.name/archives/485#16)
-- [mis3](https://segmentfault.com/a/1190000016420985)
-- [前端项目与技术实践](https://juejin.im/post/5c13804bf265da61553ab692#heading-15)
-- [前端优化](https://juejin.im/post/5afa6ad4518825426c68fbcb)
-- [前端优化](https://juejin.im/post/5b04dd816fb9a07aae158903)
+- [前端](https://segmentfault.com/a/1190000016420985)
+- [前端](http://0313.name/archives/485#16)
 - [前端安全](https://juejin.im/post/5af931a8f265da0b8d420b64)
-- [web前端性能优化总结](https://segmentfault.com/a/1190000018263418)
-- [前端性能优化策略](https://segmentfault.com/a/1190000018530091)
-- [Web应用性能优化随笔](https://segmentfault.com/a/1190000018902483)
-- [性能优化](https://segmentfault.com/a/1190000018960494)
-
+- [前端优化](https://segmentfault.com/a/1190000018263418)
+- [前端优化](https://segmentfault.com/a/1190000018530091)
+- [前端优化](https://juejin.im/post/5b04dd816fb9a07aae158903)
+- [前端优化](https://segmentfault.com/a/1190000018902483)
+- [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692#heading-15)
 
 ### JS
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
-- [javaScript中常用的设计模式](https://segmentfault.com/a/1190000017787537)
 - [reduce的n种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
-- [记一些 Promise 相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
+- [记一些Promise相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
 - [原生JS知识点整理](https://juejin.im/post/5cb7b62b5188253772753c01#heading-28)
 - [如何优雅处理前端异常](http://news.51cto.com/art/201903/593360.htm)
 - [js错误处理权威指北](https://juejin.im/post/5bfa5a8cf265da6124151e62)
 - [前端js导出excel方法分享](https://www.haorooms.com/post/js_exportexcel_fx_2019)
 - [封装AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
 - [HTML5图片上传解决方案](https://blog.hhking.cn/2018/11/29/html5-img-upload/)
-- [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
 - [关于input的一些问题解决方法分享](http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB)
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 - [JavaScript DOM元素长宽等比例缩放](https://juejin.im/post/5be297f16fb9a049aa6e8dcb)
 - [JavaScript开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48#heading-6)
-- [axios封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)   //partial
+- [axios封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
+- [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
 
 ### Vue
-- [如何写好一个组件](https://juejin.im/post/5cdacf96e51d453ae110543b#heading-3)
-- [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
 - [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
-- [vue+others](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
-- [Vue自定义全局Toast和Loading](https://segmentfault.com/a/1190000018901270)
-- [从零实现Vue的Toast插件](https://juejin.im/post/5c036e4fe51d451b80257c45)
 - [Vue中的scoped及穿透方法](https://juejin.im/post/5cb6dcdbf265da03b36edf4a)
+- [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
+
+
 - [Vue SSR 踩坑之旅](https://juejin.im/post/5cb6c36e6fb9a068af37aa35)
+- [vue project refactor](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [Vue中导出Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
+
+
+- [从零实现Vue的Toast插件](https://juejin.im/post/5c036e4fe51d451b80257c45)
+- [Vue自定义全局Toast和Loading](https://segmentfault.com/a/1190000018901270)
+- [如何写好一个组件](https://juejin.im/post/5cdacf96e51d453ae110543b#heading-3)
+
+
+
+
 - [理理Vue细节](https://juejin.im/post/5cb444605188251ada7e320d)
 - [Vue：函数式组件](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 - [封装Vue组件的一些技巧](https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14)
@@ -162,23 +166,16 @@
 
 #### vue-router
 - [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
-- [vue中$router以及$route的使用](https://segmentfault.com/a/1190000016662929)
-- [vue-router](https://juejin.im/post/5b0281b851882542845257e7)
-- [vue-router](https://segmentfault.com/a/1190000018173547)
-- [VueRouter源码分析](https://juejin.im/post/5cb2c1656fb9a0688360fb2c)
 
 #### vuex
 - [两个鲜有人知的Vuex技巧](https://juejin.im/post/5c7f20a46fb9a049db73e3d8)
-- [Vuex基本使用的总结](https://juejin.im/post/5b573babf265da0fa50a1cad)
-- [Vuex](https://juejin.im/post/5c3c911ce51d455231347a7a)
-- [Vuex](https://juejin.im/post/5afea06d6fb9a07a9c0476c1)
+- [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [页面刷新后，vuex中数据丢失、清空的解决方案 vuex-persistedstate](https://segmentfault.com/a/1190000019077724)
 - [一张图弄明白 Vuex 里该存放什么样的数据](https://juejin.im/post/5cd239136fb9a032297b1512)
 
 #### vue-cli
-- [vue-cli](https://juejin.im/post/5b2872516fb9a00e8626e34f)
 - [配置一个vue-cli3.0项目](https://juejin.im/post/5cc18abdf265da039e1ff5fb#heading-4)
-- [面试官：自己搭建过vue开发环境吗](<https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21>)
+- [面试官：自己搭建过vue开发环境吗](https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21)
 
 #### compare
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
@@ -214,13 +211,12 @@ https://segmentfault.com/a/1190000018398978)
 - [关于React的一些小知识](https://segmentfault.com/a/1190000018689665)
 - [React 服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
 
-
 ### webpack4
+- [了解Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
 - [7中方式来减少webpack bundle体积](https://juejin.im/post/5cd9571de51d453a572aa2e6)
 - [webpack4.x实战](https://juejin.im/post/5cd6fd7951882568d06293f3)
 - [webpack4配置and others](https://segmentfault.com/a/1190000019001374#articleHeader7)
 - [webpack基本使用](https://juejin.im/post/5cbd89155188250a9062dbd1)
-- [了解Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
 - [从零开始的Webpack4教程](https://segmentfault.com/a/1190000018534625#articleHeader9)
 - [webpack4 CheatSheet](https://juejin.im/post/5c91e2ca518825284205dcf2)
 - [全网最贴心webpack系列教程和配套代码](https://segmentfault.com/a/1190000016740439)
@@ -234,7 +230,7 @@ https://segmentfault.com/a/1190000018398978)
 - [webpack4 化繁为简](https://segmentfault.com/a/1190000015968706)
 - [webpack4](https://segmentfault.com/a/1190000014685887)
 - [webpack常用插件总结](http://blog.poetries.top/2018/11/20/webpack-config-optize/)
-- [webpack 配置](https://juejin.im/entry/5b0d5fa5518825153d28aec4)
+- [webpack plugins](https://juejin.im/entry/5b0d5fa5518825153d28aec4)
 - [webpack配置优化](https://juejin.im/post/5cb71c8e518825324c44eeb7)
 - [Webpack优化](https://juejin.im/post/5b652b036fb9a04fa01d616b)
 - [结合vue-cli谈Webpack优化](https://juejin.im/post/5c3c55aa51882524b4073394)
@@ -248,21 +244,19 @@ https://segmentfault.com/a/1190000018398978)
 
 ### Other
 - [用vscode开发vue应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
-- [docker](https://segmentfault.com/a/1190000018810837)
 - [vscode项目配置 eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
+- [docker](https://segmentfault.com/a/1190000018810837)
 - [Nginx](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
 - [Nginx入门](https://segmentfault.com/a/1190000017940311)
 - [Nginx与前端开发](https://juejin.im/post/5bacbd395188255c8d0fd4b2)
-- [前端开发者必备的 Nginx 知识](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651556250&idx=1&sn=07ae8424d4087a11a1fbacc54b1581db&chksm=80255e5bb752d74de09f057e6ad3922ec2aae2daf6771e9506a11747f13890bae3a7cf1ff527&mpshare=1&scene=1&srcid=#rd)
+- [前端开发者必备的Nginx知识](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651556250&idx=1&sn=07ae8424d4087a11a1fbacc54b1581db&chksm=80255e5bb752d74de09f057e6ad3922ec2aae2daf6771e9506a11747f13890bae3a7cf1ff527&mpshare=1&scene=1&srcid=#rd)
 - [最全nginx技术分析](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490869&idx=1&sn=5260a9d9064456ac5472ddfa2d0be822&chksm=f951a876ce262160f80d39abbed4ae2225c8d212f64bc9915609cd4ab372fe18c0f2c50a8529&mpshare=1&scene=1&srcid=#rd)
 - [Nginx反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
 - [如何使用Postman来Mock API](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247491115&idx=1&sn=ed62702985fc9059372c95b7d7573809&chksm=f951ab68ce26227ebfca16fd5a80cbd663db306cbac84bfff31d23b428acdb282cdfa9eeb136&mpshare=1&scene=1&srcid=#rd)
 - [Nginx的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab&chksm=fe3bb23bc94c3b2d05a593f2ab68157e230a3f8b172d4a5738136e4a37c48d3a80886b50bad5&xtrack=1&scene=90&subscene=93&sessionid=1556536743&clicktime=1556536795&ascene=56&devicetype=android-27&version=27000439&nettype=cmnet&abtest_cookie=BAABAAoACwASABMABQBcmR4AwJkeANaZHgDcmR4A4ZkeAAAA&lang=zh_CN&pass_ticket=KljLSxHve4pOAVfqgfTizGSzfJ1qvZ+oWe+VZG0smyUvIdwKN4ylrhzAC8+CWExc&wx_header=1)
-- [前端加密3种方式](https://segmentfault.com/a/1190000019164592)
 
 ### JAVA
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
-
 
 ### testing
 - [Mocha+should+Karma自动化测试教程](http://www.cnblogs.com/webSciprt/p/10542075.html)
@@ -272,7 +266,6 @@ https://segmentfault.com/a/1190000018398978)
 - [automation testing blog](http://www.cnblogs.com/imyalost/p/8763583.html)
 - [design test case](https://mp.weixin.qq.com/s/_4SQJcxJoAh9jRKLf9NwSQ)
 - [构建中执行shell或者 windows的批处理程序](https://www.cnblogs.com/miniren/p/5227994.html)
-
 
 ### Interview
 - [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
@@ -297,6 +290,7 @@ https://segmentfault.com/a/1190000018398978)
 - [front all](https://finget.github.io/2019/01/15/interview-questions/)
 - [JavaScript 面试知识点合集](https://juejin.im/post/5cc230ae5188252e741cc751)
 - [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
+- [面试](https://juejin.im/post/5c7f5923f265da2dd218f195#heading-24)
 
 #### vue
 - [Vue](https://segmentfault.com/a/1190000018634744)
