@@ -1,11 +1,13 @@
 1. v-model (1.x 双向、2.x 语法糖)
-    1. 其实是两个单向绑定模拟双向绑定
-    2. 实质 -> <input :value="user.name" @input="user.name = $event">
-    3. 单向绑定优点
-        1. 数据拥有者清楚地知道数据变化的原因和时机（因为是它自己操作数据的）
+    1. 实质 -> <input :value="user.name" @input="user.name = $event">
+    2. 单向绑定优点
+        1. 数据拥有者清楚地知道数据变化的原因和时机(因为是它自己操作数据的)
+
         2. 数据拥有者可以阻止数据变化
+
         3. 这些都是在双向绑定中很难做到的
-    ![](../images/vue-1.png)
+
+   ![](../images/vue-1.png)
 
 2. .sync
 ```javascript
