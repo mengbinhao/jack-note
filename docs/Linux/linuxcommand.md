@@ -3,22 +3,64 @@
 - `su - username`  切换用户
 - `logout` 注销(在运行级别3下有效)
 - `sudo passwd root` change password
+- `useradd`
 
 ### 权限
 - `sudo rm a.txt` 使用管理员执行命令
 - `chmod 777 filename.txt`
+- `chown`
+- `chgrp`
 
+### install
 
-### wget / apt / yum
-- `apt update`
-- `apt install xxx`
-- `apt remove xxx`
-- `apt search`
-- `apt purge` 移除软件包及配置文件
-- `wget http://file.tgz` 文件下载
-- `curl http://file.tgz` 文件下载
-  - curl xxx > yyy
+- `wget http://file.tgz` //文件下载
+- `curl http://file.tgz` //文件下载
+    - curl xxx > yyy
+- 配置环境变量`.bashrc`增加如下两行 
+    - `export JAVA_HOME=/root/jdk-XXX_linux-x64`
+    - `export PATH=$JAVA_HOME/bin:$PATH`
+    - `source .bashrc` //重新加载
+- `nohup command >out.file 2>&1 &` //后台运行
+- `ps -ef |grep 关键字  |awk '{print $2}'|xargs kill -9` //查找进程
 
+#### CentOS
+
+- `rpm -i jdk-XXX_linux-x64_bin.rpm `
+- `rpm -qa`
+- `rpm -qa | grep jdk or rpm -qa | more or rpm -qa | less`
+- `rpm -e`
+- `yum`
+    - `yum search jdk`
+    - `yum install java-11-openjdk.x86_64`
+    - `yum erase java-11-openjdk.x86_64`
+    - 配置文件`/etc/yum.repos.d/CentOS-Base.repo`
+
+##### mysql
+
+- `yum install mariadb-server mariadb`
+- `systemctl start mariadb`
+- `systemctl enable mariadb`
+- 配置文件`usr/lib/systemd/system 目录下，创建一个 XXX.service`
+
+#### Ubuntu
+
+- `dpkg -i jdk-XXX_linux-x64_bin.deb`
+- `dpkg -l`
+- `dpkg -l | grep jdk or dpkg -l | more or dpkg -l | less`
+- `dpkg -r`
+- `apt-get`
+    - `apt-cache search jdk`
+    - `apt-get install openjdk-9-jdk`
+    - `apt-get purge openjdk-9-jdk` //移除软件包及配置文件
+    - `apt-get update/remove xxx`
+    - 配置文件` /etc/apt/sources.list`
+
+##### mysql
+
+- `apt-get install mysql-server`
+- `systemctl start mysql`
+- `systemctl enable mysql`
+- 配置文件` /lib/systemd/system 目录下会创建一个 XXX.service`
 
 ### 管道命令|
 
@@ -66,6 +108,7 @@
 ### 压缩 & 解压
 - `tar -czf test.tar.gz /test1 /test2` //压缩文件可以多个
 - `tar -zxvf test.tar.gz`
+- `apt-get install zip unzip`//zip unzip需要另行安装
 
 
 ### 查找
@@ -111,3 +154,5 @@
 - `ssh userName@ip`  远程登录
 - `git`
 - `maven`
+- `reboot`
+- `shutdown -h now`

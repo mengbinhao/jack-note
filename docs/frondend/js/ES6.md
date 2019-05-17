@@ -17,14 +17,15 @@
 
 2. 函数增强
 
-    1. 默认参数
-
+    1. 参数默认值
             //不能再用let const定义函数形参,函数默认参数是一个作用域,找不到往上层找
             //强制要求参数
             const required = () => {throw new Error('Missing parameter')}
             const add = (a = required(), b = required()) => a + b;
             add()
     2. 剩余参数
+       1. `Array.prototype.slice.call(arguments).sort() to const sortNumbers = (...numbers) => numbers.sort()`
+       2. 与解构赋值组合使用`var [a,b,...c] = array;`
     3. 箭头函数
         > 1 没有this,函数体里面的this是箭头函数定义时所在对象,不是运行时(this看上一级，若是箭头函数继续上找,作用域是栈内存不是堆内存)
         >
@@ -41,12 +42,29 @@
         > 7 没有原型对象
         >
         > 8 没有自己的super和new.target绑定
-3. 解构(数组、对象、函数参数、解构不成功`undefined`)
-    1. 排除对象不需要的属性 `var {child: {name:xinming='Jack', age}} = obj`
-    2. 合并对象  let merged = {...obj1, ...obj2} 注意重复属性后面覆盖前面
-    3. 对称解构
-    4. 不对称解构
-    5. 数值交换 `let [p1, p2] = [p2, p1]`
+3. 解构(数组、对象、函数参数、解构不成功`undefined`,比如不对称解构)
+    1. 排除对象不需要的属性、提取JSON数据、Map解构、解析模块方法
+        ```javascript
+        let {child: {name:xinming='Jack', age}} = obj
+        let {id, status, data: number} = jsonData
+        //for (let [key,] of map)
+        //for (let [,value] of map)
+        for (let [key, value] of map) {
+            console.log(key + 'is' + value)
+        }
+        const {SourceMapConsumer, SourceNode} = require("source-map")
+        ```
+    2. 数值交换`let [p1, p2] = [p2, p1]`
+    3. 接收函数返回值
+        ```javascript
+        //有序
+        function f([x, y, z]) {...}
+        f([1, 2, 3])
+        //无序
+        function f({x, y, z}) {...}
+        f({z: 3, y: 2, z: 1})
+        ```
+    4. 合并对象  let merged = {...obj1, ...obj2} //注意重复属性后面覆盖前面
 4. 对象增强
     1. `class new constructor extends super get set static`
     ```javascript
@@ -233,6 +251,13 @@ newObj.b.c = -1 // output: GET...
         2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
         3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
         4. 后者会编译成 require/exports 来执行的
+
+15.  扩展运算符
+     1. 代替apply `Math.max.apply(null,array); Math.max(...array)`
+     2. 代替数组push、concat`Array.prototype.push.apply(arr1, arr2);  arr1.push(...arr2)`
+     3. 拷贝数组或对象`var array1 = [...array0]; var obj2  = {...obj};`
+     4. 将伪数组转化为数组`console.log([...nodeList]);`
+
 ### ES7
 1. asyn函数
 

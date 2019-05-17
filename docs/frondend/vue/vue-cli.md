@@ -1,18 +1,19 @@
-### get started(vue-cli 2.x)
-1. npm i -g vue-cli
-2. vue init webpack project_name
-3. cd project_name
-4. npm i
-5. npm run dev
+### get started(vue-cli 3.x)
+1. npm i -g @vue/cli
+2. vue create xxxx or  vue ui
+3. cd xxxx 
+4. npm run serve
+5. add plugins(`vue add router、vue add vuex`)
 
 ![](../images/vue-cli-1.png)
 
 ### 打包发布
 1. 静态服务器
 ```
-npm i -g serve
-serve dist
-visit browser
+npm install -g serve
+# -s 参数的意思是将其架设在 Single-Page Application 模式下
+# 这个模式会处理即将提到的路由问题
+serve -s dist
 ```
 
 2. 动态服务器like tomcat
@@ -104,5 +105,4 @@ output: {
   }
   ```
 
-  
 

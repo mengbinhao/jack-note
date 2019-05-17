@@ -41,6 +41,20 @@
 
 如果浏览器缺失同源策略这种安全机制会怎么样呢？设想一下，当你登陆了`www.bank.com`银行网站进行操作时，浏览器保存了你登录时的`Cookie`信息，如果没有同源策略，在访问其他网站时，其他网站就可以读取还未过期的`Cookie`信息，从而伪造登陆进行操作，造成财产损失
 
+#### 同源页面通信方式
+
+1. ### BroadCast Channel
+
+2. ### Service Worker
+
+3. ### LocalStorage
+
+4. ### Shared Worker
+
+5. ###  IndexedDB
+
+6. ### window.open + window.opener
+
 ### CORS（Cross-origin resource sharing，跨域资源共享）
 
 虽然同源策略一定程度上保证了安全性，但是如果是一个正常的请求需要跨域该怎么做呢？
@@ -400,6 +414,9 @@ public class CorsConfig {
 新建配置，然后添加Configuration注解即可配置成功
 
 ### 其他跨域解决方案
+
+![](images/crossdomain-10.png)
+
 #### jsonp（只支持GET、XSS攻击）
 jsonp解决跨域问题是一个比较古老的方案(实际中不推荐使用),这里做简单介绍(实际项目中如果要使用JSONP,一般会使用JQ等对JSONP进行了封装的类库来进行ajax请求)
 

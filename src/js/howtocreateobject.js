@@ -62,7 +62,7 @@ Person2.prototyoe.showName = function() {
 };
 
 
-//6 圣杯模式
+//inherit 圣杯模式
 let inherit = (function () {
     let F = function () {}
     return function (Target, Origin) {

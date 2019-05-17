@@ -8,9 +8,9 @@ Vuex  (state、getter、mutation、action、module)
 >
 >4 配置store里面的数据
 >
->5 将store对象关联vue实例   //不要直接this.$store.state.xxx改数据！！！！
+>5 将store对象关联vue实例   //不能直接this.$store.state.xxx改数据!!!!!
 >
->6 mutation(只能同步代码),action进行异步操作,再mutation里面dispatch然后action异步操作后commit
+>6 mutation(修改同步state),action进行异步操作,在mutation里面dispatch然后action异步操作后commit
 >
 >7 抽取module
 
@@ -65,7 +65,7 @@ const actions = {
 
 #### getters
 - 包含多个计算属性(get)的对象
-- 谁来读取: 组件中: $store.getters.xxx
+- 组件中读取: $store.getters.xxx
 ```javascript
 const getters = {
     mmm (state) {
@@ -230,4 +230,5 @@ methods: {
 #### in real project
 创建一个store文件夹,一个index.js、state.js、action.js、mutation.js、getter.js、mutation-types.js
 ![](../images/vuex-3.png)
+
 ##### model
