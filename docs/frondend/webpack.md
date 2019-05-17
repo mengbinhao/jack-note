@@ -66,20 +66,21 @@
 7. 安装plugin和loader
     ```
     npm i html-webpack-plugin clean-webpack-plugin -D
-
+    
     npm i babel-loader babel-core babel-preset-env (babel-loader)
     npm i babel-polyfill --D  (默认只转换语法,这个转换API )
     npm i babel-plugin-transform-runtime --D  (解决重复引用工具方法导致打包js过大的问题)
     npm i babel-runtime --save  (解决重复引用工具方法导致打包js过大的问题)
             cacheDirectory: true   //给babel增加打包缓存目录
+    ```
 
 
     npm i --D style-loader css-loader  (css-loader)
-
+    
     npm i --D npm i file-loader url-loader  (image-loader)
-
+    
     npm i --D less-loader  less(less-loader)
-
+    
     npm i --D vue-loader vue-template-compiler(vue-loader)
     ```
 8. npm run build / npm run dev / npm [run] start
@@ -129,62 +130,57 @@ module.exports = {
     //stylus stylus-loader -D
     //node-sass sass-loader -D
     module: {
-        rules: [
-            {
-                test: /\.css$/,
-                //顺序从右往左
-                //数组配置
-                //use: [
-                //  'style-loader',
-                //  'css-loader'
-                //]
-                //对象配置
-                //use: [
-                //  {loader: 'style-loader', options:{}}
-                //  {loader: 'css-loader', options:{}}
-                //]
-                loader: 'style-loader!css-loader'，
-                include:path.join(__dirname,'./src'),
-+               exclude:/node_modules/
-            },
-            {
-                test: /\.less$/,
-                loader: 'style-loader!css-loader!less-loader'
-            },
-            //file-loader 解决CSS等文件中的引入图片路径问题
-            //url-loader 当图片较小的时候会把图片BASE64编码，大于limit参数的时候还是使用file-loader进行拷贝
-            {
-                test: /\.(jpg|png|gif|svg)$/,
-                //?后面加属性
-                //若图片大于limit 生成文件
-                //若图片小于生成base64,会有30%增大
-                //建议比较小的图片用base64
-                //options: {
-                //  limit: 8192
-                //}
-                loader: 'url-loader'，
-                options: {
-                    limit: 1024,
+        //属性名后面版本roles
+          loaders: [
+             {
+                 test: /\.css$/,
+                 //use: [
+                 //  'style-loader',
+                 //  'css-loader'
+                 //]
+                 //对象配置
+                 //use: [
+                 //  {loader: 'style-loader', options:{}}
+                 //  {loader: 'css-loader', options:{}}
+                 //]
+                 //顺序从右往左
+                 loader: 'style-loader!css-loader'，
+                 include:path.join(__dirname,'./src'),
+                 exclude:/node_modules/
+             },
+             {
+                 //file-loader 解决CSS等文件中的引入图片路径问题
+                 //url-loader 当图片较小的时候会把图片BASE64编码，大于limit参数的时候还是使用file-loader进行拷贝
+                 test: /\.(jpg|png|gif|svg)$/,
+                 //?后面加属性
+                 //若图片大于limit 生成文件
+                 //若图片小于生成base64,会有30%增大
+                 //建议比较小的图片用base64
+                 //options: {
+                    //limit: 1024,
                     //指定打包后图片位置
-                    outputPath: 'images/'
+                    //outputPath: 'images/'
+                 //}
+                 loader: 'url-loader?limit=4096'
+              },
+              {
+                  test: /\.less$/,
+                  loader: 'style-loader!css-loader!less-loader'
+               },
+               {
+                   test: /\.js$/,
+                   loader: 'babel-loader',
+                   exclude: /node_modules/,
+                   options: {
+                       presets: ['env'], //处理关键字
+                       plugins: ['transform-runtime'] //处理函数
+                   }
+                },
+                {
+                    test: /\.vue$/,
+                    loader: 'vue-loader'
                 }
-            },
-            //npm i babel-core babel-loader babel-preset-env babel-preset-stage-0 babel-preset-react -D
-            {
-                test: /\.js$/,
-                loader: 'babel-loader',
-                exclude: /node_modules/,
-                options: {
-                    //presets: ["env","stage-0","react"]
-                    presets: ['env'], //处理关键字
-                    plugins: ['transform-runtime'] //处理函数
-                }
-            },
-            {
-                test: /\.vue$/,
-                loader: 'vue-loader'
-            }
-        ]
+          ]
     },
     plugins: [
         //./src/index.html需要存在
@@ -206,9 +202,22 @@ module.exports = {
 import './xxx.css'
 import xxx from './xxx.js'
 import img from './xxx.jpg'
+ ```
+
+```basj
+//package.json
+"script": {
+	//--open --hot --inline --port
+	"dev": "webpack-dev-server --open --config ./webpack.dev.config.js"
+    "dev": "webpack --config ./webpack.dev.config.js"
+    "prod": "webpack --config ./webpack.prod.config.js"
+}
+开发安装  npm i
+生产安装  npm i --production
 ```
 
 #### 多入口多出口 对应html引用对应的js
+
 ```
 entry: {
     index: './src/index.js',
@@ -495,5 +504,3 @@ externals: {
     'axios': 'axios'
 }
 ```
-
-vendor一共才195k 那缺少的elementui文件去哪里找呢？答案是cdn引用

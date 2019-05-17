@@ -3,7 +3,7 @@
 2. register router in main.js(\$route只读 $router只写)
 3. use router \<router-link> \<router-view>
 
-### use
+### how to use
 1. create router folder
 2. create index.js
 ```javascript
@@ -272,9 +272,9 @@ redirect:'/params/:newsId(\\d+)/:newsTitle'
 11. 触发 DOM 更新
 12. 用创建好的实例调用 `beforeRouteEnter` 守卫中传给 `next` 的回调函数
 
-### 路由(k->v 前端就是组件 后端就是回调函数)
+### 总结(k->v 前端就是组件 后端就是回调函数)
 
-- onhashchange  (#xxx)
+- 原理就是onhashchange  (#xxx)
 - router.addRoutes 比构造函数配置更灵活
 - $route  只读
 - $router  只写

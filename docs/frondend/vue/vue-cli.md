@@ -1,9 +1,15 @@
 ### get started(vue-cli 3.x)
 1. npm i -g @vue/cli
+
 2. vue create xxxx or  vue ui
+
 3. cd xxxx 
+
 4. npm run serve
-5. add plugins(`vue add router、vue add vuex`)
+
+5. add plugins(`vue add router、vue add vuex、vue add element-ui`)
+
+    以下是cli2.x的目录结构
 
 ![](../images/vue-cli-1.png)
 
@@ -74,7 +80,7 @@ output: {
 
   2. Vue CLI 3.X
 
-  - The `devtool` property needs to be set inside `vue.config.js`. Create the file in your project's root directory if it doesn't already exist
+  - The `devtool` property needs to be set inside `vue.config.js`
 
     ```
     module.exports = {
@@ -98,6 +104,7 @@ output: {
   			"webRoot": "${workspaceFolder}/src", 
   			"breakOnLoad": true, 
   			"sourceMapPathOverrides": { 
+  			    //"webpack:///./src/*": "${webRoot}/*"
   				"webpack:///src/*": "${webRoot}/*" 
   			} 
   		 } 
