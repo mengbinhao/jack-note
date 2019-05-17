@@ -6,7 +6,6 @@
 - Education: Xi'an Polytechnic University/Computer Science & Technology
 - Expected work city: Xi'an
 - Expected position: automated test engineer
-- Current Salary: 12K*13 + Target annually bonus 2~3Months
 - Expected salary: 20K/month
 - Notice Period: 1 Month
 
@@ -87,11 +86,11 @@ Implementation of contract management from the traditional manual approach to mo
 2. 100% handle customer issue
 
 # Skills
-- Language: ES6/NodeJS/JAVA/Python
-- Unit Test: Jest
+- Language: ES6/NodeJS/JAVA
+- Unit Test: Mocha
 - CI: Jenkins
 - Version Control System: Git
-- Front Framework: Vue + Vue Router + Axios
+- Front Framework: Vue + Vue Router + VueX + Axios
 - Bundler: Webpack
 - Familar with Linux command
 - Familar with SQL/NOSQL

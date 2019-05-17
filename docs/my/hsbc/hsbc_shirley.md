@@ -90,11 +90,11 @@ Implementation of contract management from the traditional manual approach to mo
 2. 100% handle customer issue
 
 # Skills
-- Language: ES6/NodeJS/JAVA/Python
+- Language: JavaScript/NodeJS/JAVA
 - Unit Test: Mocha
 - CI: Jenkins
 - Version Control System: Git
-- Front Framework: Vue + Vue Router + Axios
+- Front Framework: Vue + Vue Router + Vuex +Axios
 - Bundler: Webpack
-- Familar with Linux command
-- Familar with SQL/NOSQL
+- Familiar with Linux command
+- Familiar with SQL/NOSQL
