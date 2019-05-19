@@ -1,6 +1,4 @@
-[webpack](https://gaodaqian.com/webpack4/11%E6%8F%90%E5%8D%87%20webpack%20%E7%9A%84%E6%9E%84%E5%BB%BA%E9%80%9F%E5%BA%A6.html#%E8%AE%A9-webpack-%E5%B0%91%E5%B9%B2%E7%82%B9%E6%B4%BB)
-
-### 什么是webpack
+### [什么是webpack](https://gaodaqian.com/webpack4/11%E6%8F%90%E5%8D%87%20webpack%20%E7%9A%84%E6%9E%84%E5%BB%BA%E9%80%9F%E5%BA%A6.html#%E8%AE%A9-webpack-%E5%B0%91%E5%B9%B2%E7%82%B9%E6%B4%BB)
 构建就是把源代码转换成线上可执行的js、css、html
 - 代码转换ts->js、less->css等
 - 文件优化 压缩js、css、html 合并图片
@@ -54,7 +52,7 @@
 4. npm i webpack webpack-cli webpack-dev-server(自动打包 监视文件改变 刷新浏览器) -D
 5. 创建和配置webpack.config.js(可以修改名字)
 6. 配置npm scripts
-    ```
+    ```javascript
     "scripts": {
         //--open --hot --inline --port --config ./webpack.dev.config.js
         "build": "webpack --config webpack.config.js", //真实文件
@@ -64,9 +62,9 @@
     }
     ```
 7. 安装plugin和loader
-    ```
+    ```javascript
     npm i html-webpack-plugin clean-webpack-plugin -D
-    
+
     npm i babel-loader babel-core babel-preset-env (babel-loader)
     npm i babel-polyfill --D  (默认只转换语法,这个转换API )
     npm i babel-plugin-transform-runtime --D  (解决重复引用工具方法导致打包js过大的问题)
@@ -74,13 +72,13 @@
             cacheDirectory: true   //给babel增加打包缓存目录
     ```
 
-
+    ```javascript
     npm i --D style-loader css-loader  (css-loader)
-    
+
     npm i --D npm i file-loader url-loader  (image-loader)
-    
+
     npm i --D less-loader  less(less-loader)
-    
+
     npm i --D vue-loader vue-template-compiler(vue-loader)
     ```
 8. npm run build / npm run dev / npm [run] start
@@ -102,7 +100,7 @@
 
 
 ### webpack.config.js
- ```
+ ```javascript
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 //打包前先清空输出目录
@@ -204,7 +202,7 @@ import xxx from './xxx.js'
 import img from './xxx.jpg'
  ```
 
-```basj
+```javascript
 //package.json
 "script": {
 	//--open --hot --inline --port
@@ -217,8 +215,7 @@ import img from './xxx.jpg'
 ```
 
 #### 多入口多出口 对应html引用对应的js
-
-```
+```javascript
 entry: {
     index: './src/index.js',
     a: './src/a.js'
@@ -254,7 +251,7 @@ plugins: [
 ```
 
 #### 只更新局部 不刷新界面 默认刷新界面，只能hot组件和css
-```
+```javascript
 const webpack = require('webpack')
 module.exports = {
     devServer: {
@@ -272,7 +269,7 @@ if (module.hot) {
 ```
 
 #### 抽离style from js to css link文件
-```
+```javascript
 //MiniCssExtractPlugin
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 module: {
@@ -305,7 +302,7 @@ module: {
 ```
 
 #### 抽离css和less到单独文件
-```
+```javascript
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const lessExtract = new ExtractTextWebpackPlugin('css/less.css')
 const cssExtract = new ExtractTextWebpackPlugin('css/css.css')
@@ -337,7 +334,7 @@ module: {
 ```
 
 #### 解决抽离后css不热更新问题，开发时需要
-```
+```javascript
 const lessExtract = new ExtractTextWebpackPlugin({
     filename: 'css/less.css',
     disable: true
@@ -351,7 +348,7 @@ use: cssExtract.extract({
 ```
 
 #### 删除没用的css
-```
+```javascript
 //npm i purifycss-webpack purify-css glob -D
 const PurifycssWebpack = require('purifycss-webpack')
 const glob = require('glob')
@@ -365,7 +362,7 @@ plugins: [
 ```
 
 #### css加前缀(如transform)
-```
+```javascript
 //npm i postcss-loader autoprefixer -D
 rules: [
     {
@@ -388,7 +385,7 @@ module.exports = {
 ```
 
 #### 拷贝静态文件
-```
+```javascript
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 plugins: [
     new CopyWebpackPlugin([
@@ -401,13 +398,11 @@ plugins: [
 ```
 
 #### other
-```
-ProvidePlugin
-expose-loader
-```
+- ProvidePlugin
+- expose-loader
 
 #### 在html中使用图片
-```
+```javascript
 //npm i html-withimg-loader -D
 <div class="img-container "><img src="./images/logo.png" alt="logo.png"></div>
 
@@ -431,7 +426,7 @@ devtool:'eval-source-map'
 
 #### extensions
 指定extension之后可以不用在require或是import的时候加文件扩展名,会依次尝试添加扩展名进行匹配
-```
+```javascript
 resolve: {
     //自动补全后缀，注意第一个必须是空字符串,后缀一定以点开头
     extensions: [" ",".js",".css",".json"],
@@ -441,7 +436,7 @@ resolve: {
 配置别名可以加快webpack查找模块的速度
 - 每当引入jquery模块的时候，它会直接引入jqueryPath,而不需要从node_modules文件夹中按模块的查找规则查找
 - 不需要webpack去解析jquery.js文件
-```
+```javascript
 const bootstrap=path.join(__dirname,'node_modules/bootstrap/dist/css/bootstrap.css')
 
 resolve: {
@@ -454,7 +449,7 @@ resolve: {
 ### 区分环境变量
 许多library将通过与process.env.NODE_ENV环境变量关联，以决定library中应该引用哪些内容。例如，当不处于生产环境中时，某些library为了使调试变得容易，可能会添加额外的日志记录(log)和测试(test)。其实，当使用 process.env.NODE_ENV === 'production'时，一些library可能针对具体用户的环境进行代码优化，从而删除或添加一些重要代码。我们可以使用webpack内置的DefinePlugin为所有的依赖定义这个变量
 
-```
+```javascript
 npm install cross-env -D
 
 scripts": {
@@ -476,7 +471,7 @@ if (process.env.NODE_ENV == 'development') {
 ```
 
 ### webpack-bundle-analyzer
-```
+```javascript
 // webpack.prod.conf.js
 if (config.build.bundleAnalyzerReport) {
   const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
@@ -497,7 +492,7 @@ build: {
 
 ![](./images/webpack-1.png)
 
-```
+```javascript
 externals: {
     'vue': 'Vue',
     'element-ui': 'ELEMENT',

@@ -207,7 +207,7 @@ const isMale = person => person.sex === "male";
 const [maleUser, femaleUser] = partition(users, isMale);
 ```
 
-#### reduce 的计算过程，在范畴论里面叫 catamorphism，即一种连接的变形。和它相反的变形叫 anamorphism。现在我们定义一个和 reduce 计算过程相反的函数 unfold（注：reduce 在 Haskell 里面叫 fold，对应 unfold）
+#### reduce 的计算过程，在范畴论里面叫 catamorphism，即一种连接的变形。和它相反的变形叫 anamorphism。现在我们定义一个和 reduce 计算过程相反的函数 unfold(注：reduce 在 Haskell 里面叫 fold，对应 unfold)
 
 ```javascript
 const unfold = (f, seed) => {
@@ -226,7 +226,7 @@ const range = (min, max, step = 1) =>
   unfold(x => x < max && [x, x + step], min);
 ```
 
-### 用递归代替循环（可以break！）
+### 用递归代替循环(可以break)
 
 #### 将两个数组每个元素一一对应相加。注意，第二个数组比第一个多出两个，不要把第二个数组遍历完
 
@@ -341,7 +341,7 @@ const filter = f => reducer => (acc, value) => {
 const map = f => reducer => (acc, value) => reducer(acc, f(value));
 ```
 
-现在 filter 和 map 的函数 signature 一样，我们就可以进行函数组合（function composition）了。
+现在 filter 和 map 的函数 signature 一样，我们就可以进行函数组合(function composition)了。
 
 ```javascript
 const pushReducer = (acc, value) => (acc.push(value), acc);
@@ -365,7 +365,7 @@ bigNum.reduce(
 );
 ```
 
-经过测试（用 console.time()/console.timeEnd()）,上面的写法耗时33.898 ms，仅比for循环慢8 ms。为了代码的易维护性和易读性，这点性能上的微小牺牲，我认为是可以接受的
+经过测试(用 console.time()/console.timeEnd()),上面的写法耗时33.898 ms，仅比for循环慢8 ms。为了代码的易维护性和易读性，这点性能上的微小牺牲，我认为是可以接受的
 
 这种写法叫`transduce`。有很多工具库提供了`transducer`函数。比如 [transducers-js](https://github.com/cognitect-labs/transducers-js)。除了用`transducer`来遍历数组，还能用它来遍历对象和其它数据集。功能相当强大。
 

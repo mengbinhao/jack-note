@@ -106,7 +106,7 @@ import PubSub from 'pubsub-js'
 PubSub.publish('deleteItem', index);
 ```
 
-#### 4 provide / inject
+#### 4 provide/inject
 
 ```javascript
 Vue.component('child',{
@@ -152,7 +152,7 @@ var app=new Vue({
 >
 > 2 provide 和 inject 绑定并不是可响应的。这是刻意为之的。然而，如果你传入了一个可监听的对象，那么其对象的属性还是可响应的
 
-#### 5 $attrs(inheritAttrs)、 \$listeners
+#### 5 $attrs(inheritAttrs)、\$listeners
 
 > \$attrs包含了父作用域中不作为props被识别 (且获取) 的特性绑定(class 和 style 除外)。当一个组件没有声明任 props时，这里会包含所有父作用域的绑定(class 和 style除外)，并且可以通过v-bind="$attrs"传入内部组件 —— 在创建高级别的组件时非常有用
 >

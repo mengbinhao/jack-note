@@ -47,7 +47,7 @@ output: {
         }
     }
     ```
-5. 配置组件里面的路径
+5. 配置组件路径alias
     ```
     resolve: {
         extensions: ['.js', '.vue', '.json'],
@@ -60,7 +60,7 @@ output: {
         }
     }
     ```
-    在组建里面使用就不用使用相对路径一直向上找了
+
     ```javascript
     import Scroll from 'base/scroll/scroll';
     import {prefixStyle} from 'common/js/dom'；
@@ -72,7 +72,7 @@ output: {
 
 
 ### vue-cli debug
-- Install Chrome、Debugger for chrome extension of vs-code、vue-cli 
+- Install Chrome、Debugger for chrome extension of vs-code、vue-cli
 
 - Update your webpack configuration
 
@@ -90,26 +90,23 @@ output: {
     }
     ```
 
-- Configure launch.json File
-
+- vscode launch.json File
   ```
-  { 
-  	"version": "0.2.0", 
-  	"configurations": [ 
-  		{ 
-  			"type": "chrome", 
-  			"request": "launch", 
-  			"name": "vuejs: chrome", 
-  			"url": "http://localhost:8080", 
-  			"webRoot": "${workspaceFolder}/src", 
-  			"breakOnLoad": true, 
-  			"sourceMapPathOverrides": { 
+  {
+  	"version": "0.2.0",
+  	"configurations": [
+  		{
+  			"type": "chrome",
+  			"request": "launch",
+  			"name": "vuejs: chrome",
+  			"url": "http://localhost:8080",
+  			"webRoot": "${workspaceFolder}/src",
+  			"breakOnLoad": true,
+  			"sourceMapPathOverrides": {
   			    //"webpack:///./src/*": "${webRoot}/*"
-  				"webpack:///src/*": "${webRoot}/*" 
-  			} 
-  		 } 
-  	] 
+  				"webpack:///src/*": "${webRoot}/*"
+  			}
+  		 }
+  	]
   }
   ```
-
-

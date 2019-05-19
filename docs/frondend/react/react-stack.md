@@ -352,13 +352,13 @@ PubSub.publish('delete', data) //发布消息
 
 #### react-router相关API
 ##### 组件
-- <BrowserRouter>
-- <HashRouter>
-- <Route>
-- <Redirect>
-- <Link>
-- <NavLink>
-- <Switch>
+- \<BrowserRouter>
+- \<HashRouter>
+- \<Route>
+- \<Redirect>
+- \<Link>
+- \<NavLink>
+- \<Switch>
 - history对象
 - match对象
 - withRouter函数

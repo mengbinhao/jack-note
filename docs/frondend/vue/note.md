@@ -194,22 +194,23 @@ data: {
 			/* local styles */
 	</style>
 	```
-  - 使用`>>>`或者`/deep/`操作符(Sass 之类的预处理器无法正确解析>>>)
-	```javascript
-	<style lang="scss">
-	.box >>> input {
+
+  - 使用`>>>`或`/deep/`操作符(Sass之类的预处理器无法正确解析`>>>`)
+```javascript
+<style lang="scss">
+.box >>> input {
+  width: 166px;
+  text-align: center;
+}
+
+.box {
+  /deep/ input {
     width: 166px;
     text-align: center;
   }
-
-  .box {
-  	/deep/ input {
-    	width: 166px;
-    	text-align: center;
-  	}
-	}
-	</style>
-	```
+}
+</style>
+```
 
 - slot
 ```javascript
@@ -289,7 +290,7 @@ data: {
 </script>
 ```
 
-- el related
+- element-ui related
   - 禁止浏览器`Auto complete`
 	```javascript
 	//设置 <el-input/> 为只读模式
@@ -413,11 +414,11 @@ data: {
 ### vue-router
 - `this.$router`指路由器,只写,`this.$route`指当前路由,只读
 
-- 404
+- 404 handle
 ```javascript
 {
-		path:'*',
-		component: () => import('@/components/pages/Error')
+  path:'*',
+  component: () => import('@/components/pages/Error')
 }
 ```
 - 支持regex`path: '/user-*'`
@@ -486,12 +487,12 @@ const router = new VueRouter({
 })
 ```
 
-- `beforeRouteEnter、beforeRouteUpdate、beforeRouteLeave `组件内守卫
+- `beforeRouteEnter、beforeRouteUpdate、beforeRouteLeave`组件内守卫
 ```javascript
-//beforeRouteEnter通过回调访问vue组件
+//beforeRouteEnter通过回调访问vue组件,beforeRouteUpdate/beforeRouteLeave直接this
 beforeRouteEnter (to, from, next) {
   next(vm => {
-    // 通过 `vm` 访问组件实例
+    // 通过vm访问组件实例
   })
 }
 ```

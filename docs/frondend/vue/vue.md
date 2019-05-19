@@ -45,14 +45,13 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   - `computed`不可传参,`methods`可以
   - `computed`的`getter` 、`setter`
 - `class` and `style`
-  - \<p :class="aClass">xxx是字符串</p>
-  - \<p :class="{aClass: isA, bClass: isB}">xxx是对象</p>
-  - \<p :class="classObject">xxx是对象</p>
-  - \<p :class="['bClass', 'cClass']">xxx是数组</p>
-  - \<!-- 只能驼峰式写法只能驼峰式写法只能驼峰式写法只能驼峰式写法 -->
-  - \<p :style="{ color: activeColor, fontSize: fontSize + 'px' }">test style</p>
-  - \<p :style="styleObject">test style2</p>
-  - \<p :style="[baseStyles, overridingStyles]">test style2</p>
+  - `<p :class="aClass">xxx是字符串</p>`
+  - `<p :class="{aClass: isA, bClass: isB}">xxx是对象</p>`
+  - `<p :class="classObject">xxx是对象</p>`
+  - `<p :class="['bClass', 'cClass']">xxx是数组</p>`
+  - `<p :style="{ color: activeColor, fontSize: fontSize + 'px' }">test style</p>只能驼峰式写法`
+  - `<p :style="styleObject">test style2</p>`
+  - `<p :style="[baseStyles, overridingStyles]">test style2</p>`
 
 #### 访问vue实例属性
 - `$el、$options`
@@ -94,7 +93,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - 鼠标修饰符`left、right、middle`
 - 自定义事件
 
-#### v-slot(version 2.6)
+#### v-slot(2.6+)
 
 ```javascript
 <template v-slot:default>
@@ -142,8 +141,8 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 ![](../images/vue-1.png)
 
 #### filter(global / local)
-- {{ msg | filter }}
-- <div v-bind="msg | filter"></div>
+- `{{ msg | filter }}`
+- `<div v-bind="msg | filter"></div>`
 
 #### component(global / local)
 - Vue.component
@@ -170,9 +169,9 @@ Vue.component(‘componentName',{
   template: ‘<li>{{ p1 }}</li>'
 })
 ```
-
 #### [生命周期](./lifecycle.md)
-- `beforeCreate/created、beforeMount/mounted、beforeUpdate/updated、beforeDestory/destoryed、activated/deactivated、errorCaptured`
+- `beforeCreate/created、beforeMount/mounted、beforeUpdate/updated、beforeDestory/destoryed`
+- `activated/deactivated、errorCaptured`
 #### [组件通信](./component-communicate.md)
 
 ### 动画

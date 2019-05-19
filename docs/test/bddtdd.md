@@ -71,12 +71,12 @@ TDD是测试驱动开发，ATDD是验收测试驱动开发，都是关于测试�
 
 场景一：检查收件箱，可以看出第三个清晰明了且能体现业务价值，比较符合上面的要求
 
-![](./images/interview-1.png)
+![](../images/interview-1.png)
 
 场景二：限制非法用户查看某些受限内容，BDD要强调什么（What），而不是怎么（How），第二个写的比较好
 
-![](./images/interview-2.png)
+![](../images/interview-2.png)
 
 场景三：添加图书到购物车并计算总额
 
-![](./images/interview-3.png)
+![](../images/interview-3.png)

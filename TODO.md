@@ -156,6 +156,8 @@
 - [Vue vs 微信小程序](https://segmentfault.com/a/1190000015684864)
 
 ### React
+- [小书](http://huziketang.com/books/react/lesson1)
+- [阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
 - [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
 - [小知识10点](https://segmentfault.com/a/1190000018949348)
 - [深入分析虚拟DOM的渲染原理和特性](https://segmentfault.com/a/1190000018891454?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)

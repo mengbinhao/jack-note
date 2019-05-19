@@ -258,7 +258,7 @@ function unique(origin) {
 }
 ```
 
-1. ES6 Map
+7. ES6 Map
 ```javascript
 function unique(origin){
     const map = new Map()
