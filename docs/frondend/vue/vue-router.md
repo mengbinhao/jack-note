@@ -19,49 +19,48 @@ import MessageDetail from '../views/MessageDetail'
 Vue.use(VueRouter)
 
 export default new VueRouter({
-    routers: [
+  routers: [
+    {
+      path: '/home',
+      component: Home,
+      children: [
         {
-            path: '/home',
-            component: Home,
-            children: [
-                {
-                    path: '/home/news',
-                    component: News
-                },
-                {
-                    path: 'message',
-                    component: Message,
-                    children: [
-                        //动态path
-                        //对应的<router-link :to="`/home/message/detail/${message.id}`">{{ message.title}}</router-link>
-                        path: 'detail/:id',
-                        component: MessageDetail
-                    ]
-                },
-                //默认定位
-                {
-                    path: '',
-                    redirect: '/home/news'
-                }
-            ]
+          path: '/home/news',
+          component: News
         },
         {
-            path: '/about',
-            component: About
+          path: 'message',
+          component: Message,
+          children: [
+            //动态path
+            //对应的<router-link :to="`/home/message/detail/${message.id}`">{{ message.title}}</router-link>
+            path: 'detail/:id',
+            component: MessageDetail
+          ]
         },
         //默认定位
         {
-            path: '/',
-            redirect: '/home'
+          path: '',
+          redirect: '/home/news'
         }
-    ]
+      ]
+    },
+    {
+      path: '/about',
+      component: About
+    },
+    //默认定位
+    {
+      path: '/',
+      redirect: '/home'
+    }
+  ]
 })
 ```
 3. change main.js
 ```javascript
 import Vue from 'vue'
 import router from './router'
-//配置属性名确定
 new Vue({
     ...
     router
@@ -75,7 +74,7 @@ new Vue({
 ```javascript
 //App.vue
 <router-link to="/">首页</router-link>
-<router-link to="/hi">Hi页面</router-link> 
+<router-link to="/hi">Hi页面</router-link>
 
 
 <router-view ></router-view>
@@ -90,9 +89,9 @@ import Router from 'vue-router'
 import Hello from '@/components/Hello'
 import Hi1 from '@/components/Hi1'
 import Hi2 from '@/components/Hi2'
- 
+
 Vue.use(Router)
- 
+
 export default new Router({
   routes: [
     {
@@ -110,11 +109,9 @@ export default new Router({
         right:Hi1
       }
     }
- 
   ]
 })
 ```
-
 
 ### 路由缓存
 ```javascript
@@ -125,49 +122,47 @@ export default new Router({
 
 ### 路由传参
 1. param
-```
+```javascript
 {
-    path: '/home/message/detail/:id',
-    component: MessageDetail
+  path: '/home/message/detail/:id',
+  component: MessageDetail
 }
 <router-link :to="`/home/message/detail/${message.id}`">
 
 //$route.params.id可以取到值
-
 watch: {
-    $route: function (value) {
-        const id = value.params.id * 1
-        this.messageDetail = this.allMessages.find(detail => detail.id === id)
-    }
+  $route: function (value) {
+    const id = value.params.id * 1
+    this.messageDetail = this.allMessages.find(detail => detail.id === id)
+  }
 }
 ```
 2. query
-```
+```javascript
 {
-    path: '/home/message/detail',
-    component: MessageDetail
+  path: '/home/message/detail',
+  component: MessageDetail
 }
 <router-link :to="`/home/message/detail/id=${message.id}`">
 ```
 3. \<router-view>
-```
+```javascript
 <router-view msg="abc"/>
 or
 //组件内直接props接收
 <router-view :msg="xxx"/>
 ```
 4. regex
-```
+```javascript
 path:'/params/:newsId(\\d+)/:newsTitle'
 ```
-4. redirect with params
-```
+5. redirect with params
+```javascript
 path:'/goParams/:newsId(\\d+)/:newsTitle',
 redirect:'/params/:newsId(\\d+)/:newsTitle'
 ```
 
 ### 路由过渡动画
-
 ```javascript
 <transition name="fade">
   <router-view ></router-view>
@@ -195,8 +190,6 @@ redirect:'/params/:newsId(\\d+)/:newsTitle'
 }
 ```
 
-
-
 ### 路由编程导航
 
 - this.\$router.push(`/home/message/detail/${id}`)  //相当于点击路由链接(可以返回到当前路由界面)
@@ -211,54 +204,47 @@ redirect:'/params/:newsId(\\d+)/:newsTitle'
 
 ### 路由钩子(权限控制)
 - 每次路由匹配后,渲染组建到router-view之前
-
 - `router.beforeEach`全局前置
-
 - `router.beforeResolve` 全局解析
-
 - `router.afterEach` 全局后置
-
 - 路由独享守卫
-
-    ```javascript
-    const router = new VueRouter({
-      routes: [
-        {
-          path: '/foo',
-          component: Foo,
-          beforeEnter: (to, from, next) => {
-            // ...
-          }
-        }
-      ]
-    })
-    ```
-
-- 组件内守卫
-
-    ```javascript
-    const Foo = {
-      template: `...`,
-      beforeRouteEnter (to, from, next) {
-        // 在渲染该组件的对应路由被 confirm 前调用
-        // 不！能！获取组件实例 `this`
-        // 因为当守卫执行前，组件实例还没被创建
-      },
-      beforeRouteUpdate (to, from, next) {
-        // 在当前路由改变，但是该组件被复用时调用
-        // 举例来说，对于一个带有动态参数的路径 /foo/:id，在 /foo/1 和 /foo/2 之间跳转的时候，
-        // 由于会渲染同样的 Foo 组件，因此组件实例会被复用。而这个钩子就会在这个情况下被调用。
-        // 可以访问组件实例 `this`
-      },
-      beforeRouteLeave (to, from, next) {
-        // 导航离开该组件的对应路由时调用
-        // 可以访问组件实例 `this`
+```javascript
+const router = new VueRouter({
+  routes: [
+    {
+      path: '/foo',
+      component: Foo,
+      beforeEnter: (to, from, next) => {
+        // ...
       }
     }
-    ```
+  ]
+})
+```
+
+- 组件内守卫
+```javascript
+const Foo = {
+  template: `...`,
+  beforeRouteEnter (to, from, next) {
+    // 在渲染该组件的对应路由被 confirm 前调用
+    // 不！能！获取组件实例 `this`
+    // 因为当守卫执行前，组件实例还没被创建
+  },
+  beforeRouteUpdate (to, from, next) {
+    // 在当前路由改变，但是该组件被复用时调用
+    // 举例来说，对于一个带有动态参数的路径 /foo/:id，在 /foo/1 和 /foo/2 之间跳转的时候，
+    // 由于会渲染同样的 Foo 组件，因此组件实例会被复用。而这个钩子就会在这个情况下被调用。
+    // 可以访问组件实例 `this`
+  },
+  beforeRouteLeave (to, from, next) {
+    // 导航离开该组件的对应路由时调用
+    // 可以访问组件实例 `this`
+  }
+}
+```
 
 #### 完整的导航解析流程
-
 1. 导航被触发
 2. 在失活的组件里调用离开守卫
 3. 调用全局的 `beforeEach` 守卫
@@ -273,10 +259,9 @@ redirect:'/params/:newsId(\\d+)/:newsTitle'
 12. 用创建好的实例调用 `beforeRouteEnter` 守卫中传给 `next` 的回调函数
 
 ### 总结(k->v 前端就是组件 后端就是回调函数)
-
-- 原理就是onhashchange  (#xxx)
+- 原理就是onhashchange(#xxx)
 - router.addRoutes 比构造函数配置更灵活
-- $route  只读
-- $router  只写
+- \$route  只读
+- \$router  只写
 - 路由meta元数据-->meta是对于路由规则是否需要权限验证的配置
   - 路由对象中和name属性同级 { meta: {isChecked.true}}

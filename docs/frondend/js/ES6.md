@@ -1,5 +1,3 @@
-[阮一峰es6](http://es6.ruanyifeng.com/)
-
 ### ES6
 1. 模板字符串,可保留多行格式，可以调用函数
     ```javascript
@@ -181,6 +179,7 @@
 11. Promise
 12. Reflect
 13. Proxy
+
 ```javascript
 const handler = {
   // receiver 指向 proxy 实例
@@ -197,28 +196,24 @@ const handler = {
 const obj = { a: 1 , b: {c: 0, d: {e: -1}}}
 const newObj = new Proxy(obj, handler)
 
-/**
- * 以下是测试代码
- */
-
 newObj.a // output: GET...
 newObj.b.c // output: GET...
 
 newObj.a = 123 // output: SET...
 newObj.b.c = -1 // output: GET...
 ```
-14. module(服务器环境)
+14.  module(服务器环境)
     1. export
-            ```javascript
-            var num2 = 2; export {num2}
-            export var num1 = 1;
-            export { a as xxx, b as yyy}
-            export default const a = 12;//只有default export的东西import的时候不加大括号，import的时候名字随便起
-            export default const example2 = {
-                name : 'my name',
-                age : 'my age',
-                getName  = function(){  return 'my name' }
-            ```
+        ```javascript
+        var num2 = 2; export {num2}
+        export var num1 = 1;
+        export { a as xxx, b as yyy}
+        export default const a = 12;//只有default export的东西import的时候不加大括号，import的时候名字随便起
+        export default const example2 = {
+            name : 'my name',
+            age : 'my age',
+            getName  = function(){  return 'my name' }
+        ```
     2. import
             //相对/绝对路径
             //只会导入一次  无论引入多少次
@@ -252,7 +247,7 @@ newObj.b.c = -1 // output: GET...
         3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
         4. 后者会编译成 require/exports 来执行的
 
-15.  扩展运算符
+2.   扩展运算符
      1. 代替apply `Math.max.apply(null,array); Math.max(...array)`
      2. 代替数组push、concat`Array.prototype.push.apply(arr1, arr2);  arr1.push(...arr2)`
      3. 拷贝数组或对象`var array1 = [...array0]; var obj2  = {...obj};`
