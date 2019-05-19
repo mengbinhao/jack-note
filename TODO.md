@@ -29,13 +29,16 @@
 - [Vue2.5+Node.js搭建一个多页面商城](https://juejin.im/post/5bf676acf265da6166241b0e)
 - [node+mongodb部署在服务器并进行性能优化](https://segmentfault.com/a/1190000017143278)
 - [Vue+Express实现登录状态权限控制](https://juejin.im/post/5ccc3eab6fb9a0321e16b18e)
+- [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
+- [vue实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
 
 ### css
 - [45个值得收藏的CSS形状](https://segmentfault.com/a/1190000018922732)
 - [display:none与visibility:hidden](https://segmentfault.com/a/1190000016570003)
 
 ### nodejs
-- [Node.js 代理解决跨域问题](https://juejin.im/post/5cbbeaa4f265da0393786641)
+- [Node.js代理解决跨域问题](https://juejin.im/post/5cbbeaa4f265da0393786641)
+- [NodeJS Web项目几个最佳实践](https://juejin.im/post/5cdd07826fb9a0322758e067)
 
 ### front
 - [前后端分离](http://blog.jobbole.com/65513/)
@@ -67,89 +70,77 @@
 - [JavaScript开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48#heading-6)
 - [axios封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
 - [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
+- [关于移动端适配](https://segmentfault.com/a/1190000019207842)
 
 ### Vue
 #### vue related
-- [Vue技术内幕](http://hcysun.me/vue-design/art/#?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-- [Vue超快速学习](https://segmentfault.com/a/1190000015740490)
-- [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
-- [Vue中的scoped及穿透方法](https://juejin.im/post/5cb6dcdbf265da03b36edf4a)
-- [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
-- [理理Vue细节](https://juejin.im/post/5cb444605188251ada7e320d)
-- [Vue实现数组对象双向绑定](https://juejin.im/post/5af665186fb9a07aa83ecde0)
-- [Vue中$nextTick机制](https://juejin.im/post/5c749bc7e51d45659809408a)
-- [Vue自定义指令](https://juejin.im/post/5b03e610f265da0b873ad64e)
-- [Vue项目使用vue-route刷新当前页面](https://segmentfault.com/a/1190000017007631)
-- [Vue技巧](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
-- [Vue避坑](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
-- [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
-- [Vue 2.6 new slot](https://juejin.im/post/5c64e11151882562e4726d98#heading-4)
-- [注意事项和技巧](https://juejin.im/post/5c5c28cf518825627d37060a)
+- [Vue经验](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
+- [Vue经验](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
+- [Vue经验](https://juejin.im/post/5ae02f39518825672f198ac2)
 - [yugasun blog](https://yugasun.com/)
-- [vue实践技巧](https://juejin.im/post/5be01d0ce51d450700084925)
-- [Vue小技巧](https://juejin.im/post/5ae02f39518825672f198ac2)
-- [Vue一个案例引发的递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
-- [vue 前端项目技术选型、周边生态](https://segmentfault.com/a/1190000017480921)
-- [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect )
-- [Vue服务端渲染首屏耗时最优化方案](https://zhuanlan.zhihu.com/p/57223501)
-- [Vue项目使用pdf.js](https://juejin.im/post/5cd9498651882515cc7e465c)
-
+- [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
+- [Vue数组对象双向绑定源码解读](https://juejin.im/post/5af665186fb9a07aa83ecde0)
+- [Vue中$nextTick机制](https://juejin.im/post/5c749bc7e51d45659809408a)
+- [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
+- [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
+- [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
+- [Vue图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
+- [函数式组件、slots和children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 
 #### project related
-- [Vue实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
-- [Vue SSR 踩坑之旅](https://juejin.im/post/5cb6c36e6fb9a068af37aa35)
-- [vue project refactor](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
-- [Vue中导出Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
-- [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
-- [Vue图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
-- [Vue开发总结](https://segmentfault.com/a/1190000019187560)
-- [Vue实践主要mobile](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
-- [Vue实践](https://yugasun.com)
-- [Vue小技巧](http://obkoro1.com/2018/06/03/%E4%BD%A0%E6%88%96%E8%AE%B8%E4%B8%8D%E7%9F%A5%E9%81%93Vue%E7%9A%84%E8%BF%99%E4%BA%9B%E5%B0%8F%E6%8A%80%E5%B7%A7/ )
-- [Vue动态组件与全局事件绑定总结](https://juejin.im/post/5be77819f265da616a472e16)
-- [一个Vue引发的性能问题](https://www.yinchengli.com/2019/03/24/vue-performance-problem/)
-- [Vue项目部署遇到的问题及解决方案](https://segmentfault.com/a/1190000017844405)
+- [project优化](https://juejin.im/post/5cb80f026fb9a0686c0196b7)
+- [project优化](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
+- [project优化](https://segmentfault.com/a/1190000019187560)
+- [project优化](https://juejin.im/post/5cdd4674e51d453a8f348c14#heading-0)
 - [一次简单的项目优化](https://segmentfault.com/a/1190000017909770)
 - [Vue的打包优化之路](https://zhuanlan.zhihu.com/p/48461259#at)
-- [Vue性能优化(vue/vue-router/vuex延迟加载动态延迟加载)](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd)
+- [一个Vue引发的性能问题](https://www.yinchengli.com/2019/03/24/vue-performance-problem/)
+- [vue/vue-router/vuex延迟加载动态延迟加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd)
 - [Vue工程化最佳实践](https://juejin.im/post/5c133223e51d4540391749f5)
-- [Vue优化](https://juejin.im/post/5b97b84ee51d450e6c7492f6)
-- [Vue优化](https://juejin.im/post/5bdd57f451882517165d75cc)
+- [Vue项目小技巧](https://juejin.im/post/5bdd57f451882517165d75cc)
 - [优化Vue组件的运行时性能](https://juejin.im/post/5bf7ca2f6fb9a049a9795a88)
-- [优化](https://juejin.im/post/5bc830a8f265da0abe272ccf)
-- [优化](https://juejin.im/post/5cb80f026fb9a0686c0196b7)
-- [vue实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
+- [project优化(主要mobile)](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
+- [Vue 项目优化实践](https://juejin.im/post/5bc830a8f265da0abe272ccf)
+- [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect )
+
+- [Vue服务端渲染首屏耗时最优化方案](https://zhuanlan.zhihu.com/p/57223501)
+- [Vue一个案例引发的递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
+- [Vue自定义指令完善一个Select组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
+- [Vue动态组件与全局事件绑定总结](https://juejin.im/post/5be77819f265da616a472e16)
+- [Vue实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
+- [Vue SSR 踩坑之旅](https://juejin.im/post/5cb6c36e6fb9a068af37aa35)
+- [Vue项目部署遇到的问题](https://segmentfault.com/a/1190000017844405)
+- [Vue CLI 2&3 下的项目优化实践 —— CDN + Gzip + Prerender](https://juejin.im/post/5b97b84ee51d450e6c7492f6)
+- [Vue项目使用pdf.js](https://juejin.im/post/5cd9498651882515cc7e465c)
+- [Vue中导出Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
+- [vue+高德地图开发采坑](https://segmentfault.com/a/1190000019215845)
 
 
-#### componnet related
-- [Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)
+#### component related
+- **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
 - [Vue自定义全局Toast和Loading](https://segmentfault.com/a/1190000018901270)
 - [Vue button component](https://juejin.im/post/5afcd516f265da0b9e65414b)
 - [Vue loading component](https://segmentfault.com/a/1190000017035590)
-- [封装跨项目复用的Vue组件](https://juejin.im/post/5cc569af51882525166c4818)
-- [如何写好一个组件](https://juejin.im/post/5cdacf96e51d453ae110543b#heading-3)
 - [封装Vue组件的一些技巧](https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14)
-- [函数式组件、slots和children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 - [基于Vue构造器创建Form组件的通用解决方案](https://juejin.im/post/5bdc17ddf265da61483b0e67)
 - [Vue动画的封装](https://segmentfault.com/a/1190000018130259)
 - [图片懒加载+封装vue懒加载组件](https://juejin.im/post/5c52ee216fb9a049ee80e283)
 - [Vue实现函数防抖组件](https://juejin.im/post/5c2dc7a9e51d4573c8491e77)
-- [vue高级进阶](https://juejin.im/post/5ccffcc05188254088472950)
-
+- [封装跨项目复用的Vue组件](https://juejin.im/post/5cc569af51882525166c4818)
 
 #### vue-router
-- [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
 - [如何写出一个利于扩展的vue路由配置](https://juejin.im/post/5cdbc0fde51d456e781f20e3)
 
 #### vuex
 - [两个鲜有人知的Vuex技巧](https://juejin.im/post/5c7f20a46fb9a049db73e3d8)
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
-- [页面刷新后，vuex中数据丢失、清空的解决方案 vuex-persistedstate](https://segmentfault.com/a/1190000019077724)
-- [一张图弄明白 Vuex 里该存放什么样的数据](https://juejin.im/post/5cd239136fb9a032297b1512)
+- [页面刷新后vuex中数据丢失-vuex-persistedstate/js-cookie](https://segmentfault.com/a/1190000019077724)
+- [一张图弄明白Vuex里该存放什么样的数据](https://juejin.im/post/5cd239136fb9a032297b1512)
 
 #### vue-cli
 - [配置一个vue-cli3.0项目](https://juejin.im/post/5cc18abdf265da039e1ff5fb#heading-4)
 - [面试官：自己搭建过vue开发环境吗](https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21)
+- [vue-cli3.0的简单配置](https://juejin.im/post/5cdd47c16fb9a031fe3becfb)
 
 #### compare
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)

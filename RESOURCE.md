@@ -2,7 +2,7 @@
 - vue
 - vuex
 - vue-router
-- nuxt.js   ssr
+- nuxt.js(ssr)
 - react
 
 
@@ -17,7 +17,7 @@
   - Koa 更像是一个中间件层，它不提供模板或开箱即用的路由，因此更适合 API 开发
   - 要想支持开箱即用，您需要 async / await
 - [Hapi](https://www.npmjs.com/package/hapi)
-  - 如果您想要一个比 Express 或 Koa 更“自带电池”(译者注:原文"batteries"意为您不必重复造轮子，大多数您需要的功能都能通过（已有）库完成。您能导入并使用它们。)的框架，但又不像 Sails 那么多，那就使用它
+  - 如果您想要一个比 Express 或 Koa 更“自带电池”(译者注:原文"batteries"意为您不必重复造轮子，大多数您需要的功能都能通过(已有)库完成。您能导入并使用它们。)的框架，但又不像 Sails 那么多，那就使用它
 - [Sails](https://www.npmjs.com/package/sails)
   - 当您需要像 Rails 这样的东西时，请使用它，它具有几乎所有功能(但是根据您的应用程序可能不需要那么多)
 
@@ -28,7 +28,7 @@
   - 您希望与应用程序的其他非 JS 部分共享这些验证规则(因为它是 JSON，所以您可以这样做)
 - [Joi](https://www.npmjs.com/package/joi)
   - 在需要验证输入时使用，并且喜欢链式调用的风格(译者注:代码见下方),而不是在 JSON 中定义验证规则
-  - 您正在使用 Hapi（Hapi 自带 Joi）
+  - 您正在使用 Hapi(Hapi 自带 Joi)
   ```javascript
   const schema = joi.object().keys({
                     id: joi.string().guid().required(),
@@ -40,7 +40,7 @@
 ### Authentication (身份认证)
 - [Passport](https://www.npmjs.com/package/passport)
   - 当您需要为您的网站或 API 使用身份验证中间件时使用
-  - 您希望能够在多种身份验证类型（Oauth，Facebook 等）之间进行选择
+  - 您希望能够在多种身份验证类型(Oauth，Facebook 等)之间进行选择
   - 您需要管理会话
 
 
@@ -97,7 +97,7 @@
   - 在需要编写和运行单元测试时使用
 - [Chai](https://www.npmjs.com/package/chai)
   - 当您需要证明您的单元测试中的断言时
-  - 注意：这将与 Mocha 一起使用
+  - 注意:这将与 Mocha 一起使用
 - [Chai-as-promised](https://www.npmjs.com/package/chai-as-promised)
   - 当您希望在promises上证明您的断言时，而不是将断言放在then或catch中使用
 - [Sinon](https://www.npmjs.com/package/sinon)
@@ -106,20 +106,26 @@
 - Mock
 - Jest
 - Jasmine
+- vue-test-utils
 
 
 ### UI component
 - buefy
 - bulma  纯CSS
-- iview：一套基于 Vue.js 的高质量 UI 组件库（PC端）
-- iView Admin：搭配使用iView UI组件库形成的一套后台集成解决方案（PC端）
-- Element UI：一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库（PC端）
-- Vue Antd：Ant Design 的 Vue 实现，开发和服务于企业级后台产品（PC端）
-- VueStrap：一款 Bootstrap 风格的 Vue UI 库（PC端）
-- Mint UI：由饿了么前端开发的基于 Vue.js 的移动端组件库（移动端）
-- Vonic：一个基于 vue.js 和 ionic 样式的 UI 框架，用于快速构建移动端单页应用（移动端）
-- Vant：轻量、可靠的移动端 Vue 组件库（移动端）
-- Cube UI：基于 Vue.js 实现的精致移动端组件库（移动端）
+- iview:一套基于 Vue.js 的高质量 UI 组件库(PC端)
+- iView Admin:搭配使用iView UI组件库形成的一套后台集成解决方案(PC端)
+- Element UI:一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库(PC端)
+- Vue Antd:Ant Design 的 Vue 实现，开发和服务于企业级后台产品(PC端)
+- VueStrap:一款 Bootstrap 风格的 Vue UI 库(PC端)
+- Mint UI:由饿了么前端开发的基于 Vue.js 的移动端组件库(移动端)
+- Vonic:一个基于 vue.js 和 ionic 样式的 UI 框架，用于快速构建移动端单页应用(移动端)
+- Vant:轻量、可靠的移动端 Vue 组件库(移动端)
+- Cube UI:基于 Vue.js 实现的精致移动端组件库(移动端)
+- vuetify:google 材质设计的实现
+- vue-material:另一个 google 材质设计的实现
+- vux:移动端 UI 框架
+- muse-ui:移动端 UI 框架
+- bootstrap-vue
 
 
 ### Logging
@@ -130,7 +136,7 @@
   - 您希望为不同的组件、请求或函数使用不同的日志记录器(也就是说，这些日志记录器可能以不同的方式解析事件)
 - [Morgan](https://www.npmjs.com/package/morgan)
   - 当您使用Express并且想要记录HTTP请求时使用
-  - 注意：这将与Winston或Bunyan一起使用。由于它是中间件，它知道如何处理请求并记录它，但不处理Winston和Bunyan所做的日志输出的传输
+  - 注意:这将与Winston或Bunyan一起使用。由于它是中间件，它知道如何处理请求并记录它，但不处理Winston和Bunyan所做的日志输出的传输
 
 
 ### Templating(前端模板)
@@ -138,7 +144,7 @@
   - 当您需要服务器端模板引擎时，请使用该引擎，该引擎易于阅读，并且支持开箱即用的子组件代码块。 您只需要输出 HTML
 - [EJS](https://www.npmjs.com/package/ejs)
   - 当您需要一个服务器端模板引擎，该引擎完全使用 JS，并且允许空格缩进(Pug 不允许)
-  - 注意：不支持异步 JS 函数
+  - 注意:不支持异步 JS 函数
 
 
 ### 通用函数库
@@ -193,11 +199,12 @@
 - [store.js](https://github.com/marcuswestin/store.js/)
 
 
-### 数据 Mock
+### 数据Mock
 - [Mock.js](http://mockjs.com/)
     > 生成随机数据，拦截 Ajax 请求
 - [json-server](https://github.com/typicode/json-server)
 - [http-server](https://github.com/indexzero/http-server)
+- mock-server
 
 
 ### performance
@@ -238,6 +245,7 @@
 
 
 ### 数据可视化
+- [v-charts](https://github.com/ElemeFE/v-charts)
 - [ECharts](https://ecomfe.github.io/echarts-doc/public/en/index.html)
 - Chart.js、three.js、Dygraphs.js、D3.js、InfoVis、Springy.js
 - vanilla-tilt.js 3D瓦片
@@ -272,6 +280,7 @@
 
 ### 轮播图
 - [Swiper](http://idangero.us/swiper/)
+- [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)
 
 
 ### 输入提示
@@ -293,9 +302,11 @@
 
 ### 表单验证
 - [validator.js](https://github.com/ansman/validate.js)
+- [vee-validate](https://github.com/baianat/vee-validate)
 
 
 ### 拖拽
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
 - [dragula](https://github.com/bevacqua/dragula)
 - [Draggabilly](https://github.com/desandro/draggabilly)
 - [draggable](https://shopify.github.io/draggable/)
@@ -310,7 +321,7 @@
 - [clipboard.js](https://github.com/zenorocha/clipboard.js)
 
 
-### 相册（图片滑动切换展示效果）
+### 相册(图片滑动切换展示效果)
 - [PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
 
 
@@ -331,6 +342,7 @@
 
 
 ### 下拉框
+- [vue-multiselect](https://github.com/shentao/vue-multiselect)
 - select2
 
 
@@ -341,8 +353,8 @@
 - RGBaster
 
 ### 前端国际化 i18n
+- [vue-i18n](https://github.com/kazupon/vue-i18n)
 - i18next
-- vue-i18n
 
 ### 弹幕视频播放器
 - DanmuPlayer

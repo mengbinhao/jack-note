@@ -61,7 +61,7 @@
       * [element-ui](docs/frondend/UI/element-ui.md)
       * [mint-ui](docs/frondend/UI/mint-ui.md)
     * [Vue]()
-      - [best-practise](docs/frondend/vue/best-practise.md)
+      - [note](docs/frondend/vue/note.md)
       - [component-communicate](docs/frondend/vue/component-communicate.md)
       - [lifecycle](docs/frondend/vue/lifecycle.md)
       - [vue-cli](docs/frondend/vue/vue-cli.md)

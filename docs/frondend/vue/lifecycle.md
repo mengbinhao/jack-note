@@ -14,14 +14,16 @@
 | updated       | 虚拟 DOM 重新渲染和打补丁之后调用，组件DOM已经更新，可执行依赖于DOM的操作 | 避免在这个钩子函数中操作数据，可能陷入死循环                |
 | beforeDestroy | 实例销毁之前调用。这一步，实例仍然完全可用，this仍能获取到实例 | 常用于销毁定时器、解绑全局事件、销毁插件对象等操作          |
 | destroyed     | 实例销毁后调用，调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁 |                                                             |
+| activated     | keep-alive 组件激活时调用                                    |                                                             |
+| deactivated   | keep-alive 组件停用时调用                                    |                                                             |
+| errorCaptured | 当捕获一个来自子孙组件的错误时被调用。此钩子会收到三个参数：错误对象、发生错误的组件实例以及一个包含错误来源信息的字符串。此钩子可以返回 `false` 以阻止该错误继续向上传播。 |                                                             |
 
 **注意**
 
 1. `created`阶段的ajax请求与`mounted`请求的区别：前者页面视图未出现，如果请求信息过多，页面会长时间处于白屏状态
 2. `mounted` 不会承诺所有的子组件也都一起被挂载。如果你希望等到整个视图都渲染完毕，可以用`vm.$nextTick`
-
 3. vue2.0之后主动调用`$destroy()`不会移除dom节点,不推荐直接destroy这种做法，如果实在需要这样用可以在这个生命周期钩子中手动移除dom节点
-
+4. 不要使用箭头函数
 ### 单个组件的生命周期
 
 ```vue
@@ -237,3 +239,50 @@ export default {
 
 1. mixin中的生命周期与引入该组件的生命周期是紧紧关联的，且**mixin的生命周期优先执行**
 
+
+### errorCaptured
+```javascript
+//Child.vue
+<template>
+  <!-- 省略一些无关代码 -->
+</template>
+<script>
+  export default {
+    mounted () {
+      // 故意把 console 写错
+      consol.log('这里会报错！')
+    }
+  }
+</script>
+```
+
+```javascript
+//Parent.vue
+<template>
+  <child></child>
+</template>
+<script>
+  import Child from './Child.vue'
+  export default {
+    components: [ Child ],
+    /**
+     * 收到三个参数：
+     * 错误对象、发生错误的组件实例
+     * 以及一个包含错误来源信息的字符串。
+     * 此钩子可以返回 false 以阻止该错误继续向上传播。
+     */
+    errorCaptured (err, vm, info) {
+      console.log(err)
+      // -> ReferenceError: consle is not defined ...
+      console.log(vm)
+      // -> {_uid: 1, _isVue: true, $options: {…}, _renderProxy: o, _self: o,…}
+      console.log(info)
+      // -> `mounted hook`
+      // 告诉我们这个错误是在 vm 组件中的 mounted 钩子中发生的
+
+      // 阻止该错误继续向上传播
+      return false
+    }
+  }
+</script>
+```

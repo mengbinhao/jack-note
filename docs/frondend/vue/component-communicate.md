@@ -72,8 +72,8 @@ export default new Vue
 ```
 
 ```javascript
-import Bus from './bus.js' 
-export default { 
+import Bus from './bus.js'
+export default {
     methods: {
         bus () {
             Bus.$emit('msg', '我要传给兄弟组件们')
@@ -118,7 +118,7 @@ Vue.component('child',{
     },
     template:`
         <div>
-        <input type="tet" v-model="mymessage"> 
+        <input type="tet" v-model="mymessage">
         </div>`
 })
 
@@ -256,7 +256,6 @@ this.$children[index].$children[index]
 2. 限制调用：只允许action操作数据，getters获取数据，使用mapGetters，mapActions等辅助函数调用数据
 
 ![](../images/component-1.png)
-
 
 
 #### 9 localStorage，sessionStorage，cooikes
