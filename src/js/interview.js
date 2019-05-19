@@ -3,6 +3,14 @@
 //不会改变自身的方法：concat、includes、join、slice、toString、indexOf、lastIndexOf
 //遍历方法：forEach、map、every、some、filter、find、findIndex、reduce、reduceRight、keys、entries、values
 
+//创建过去七天的数组，如果将代码中的减号换成加号，你将得到未来7天的数组集合
+//[...Array(7).keys()].map(days => new Date(Date.now() - 86400000 * days))
+
+//本地时间
+//<body onload="setInterval(()=>document.body.innerHTML=new Date().toLocaleString().slice(10,19))"></body>
+
+//创建特定大小的数组
+//[...Array(3).keys()]
 
 // 空数组遍历不到
 // undefined可以遍历
@@ -82,6 +90,17 @@ randonReplacementArray([1, 5, 9, 6, 2, 6]);
 
 
 //Function------------------------
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms))
+}
+async function test() {
+    console.log("Hello")
+    await sleep(1000)
+    console.log("World")
+}
+//test()
+
+
 let splat = (fn) => {
     return function (array) {
         return fn.apply(null, array);
@@ -503,6 +522,10 @@ function sum(x, y) {
 
 
 //Object------------------------
+let isType = type => obj => {
+  return Object.prototype.toString.call( obj ) === '[object ' + type + ']';
+};
+//isType('String')('123')
 let JackGlobal = {
     namespace: function (ns) {
         let parts = ns.split("."),

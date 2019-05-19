@@ -1,6 +1,70 @@
 //Array
 //Array
 //Array
+Array.prototype.unique1 = function () {
+    //这里是利用对象键hash值的唯一性来去重
+    let obj = {}
+    let result = []
+    for (let i = 0; i < this.length; i++) {
+        if (!obj[this[i]]) {
+            obj[this[i]] = true
+            result.push(this[i])
+        }
+    }
+    obj = null
+    return result
+}
+
+Array.prototype.unique2 = function () {
+    let obj = {}
+    for (let i = 0; i < this.length; i++) {
+        if (obj[this[i]]) {
+            this.splice(i, 1)
+            this.length--
+            i--
+        } else {
+            obj[this[i]] = true
+        }
+    }
+    obj = null
+    return this
+}
+
+Array.prototype.unique3 = function () {
+    let result = []
+    for (let i = 0; i < this.length; i++) {
+        if (!result.includes(this[i])) {
+            result.push(this[i])
+        }
+    }
+    return result
+}
+
+Array.prototype.unique4 = function () {
+    let result = new Set(this)
+    //return [...new Set(this)]
+    return Array.from(result)
+}
+
+Array.prototype.unique5 = function () {
+    //利用Array.prototype.filter返回符合条件的元素
+    //利用Array.prototype.indexOf返回数组中第一次出现当前元素的索引值
+    return this.filter((item, index) => this.indexOf(item) === index)
+}
+
+Array.prototype.unique6 = (arr) => {
+    for (let i = 0; i < arr.length - 1; i++) {
+        for (let j = i+1; j < arr.length; j++) {
+            if (arr[i] === arr[j]) {
+                arr.splice(j, 1)
+                //in case like [2,2]
+                j--
+            }
+        }
+    }
+    return arr
+}
+
 const myFlat = arr => {
     while (arr.some(item => Array.isArray(item))) {
         arr = [].concat(...arr)
@@ -8,6 +72,7 @@ const myFlat = arr => {
     return arr
 }
 
+//return number arr
 const myFlat2 = arr => {
     return arr.toString().split(',').map(item => Number(item))
 }
@@ -21,7 +86,18 @@ const sortArrayRandom = arr => arr.sort((a, b) => Math.random() - 0.5)
 //generate undefined array
 const undefinedArray = length => Array.apply(null, {length})
 
-Array.prototype.myJoin = function (separator) {
+//创建特定大小的数组
+//[...Array(3).keys()]  //[0,1,2]
+
+
+Array.prototype.myPush = function () {
+    for (var i = 0; i< arguments.length; i++) {
+        this[this.length] = arguments[i]
+    }
+    return this.length
+}
+
+Array.prototype.myJoin = function (separator = ',') {
     let result = this[0] || ''
     for (let i = 1, len = this.length; i < len; i++) {
         result += separator + this[i]
@@ -85,21 +161,64 @@ Array.prototype.myFilter = function (fn) {
 }
 
 Array.prototype.myReduce = function (fn, init) {
-    //has bug
-    let result = init
-    for (let i = 0; i < this.length; i++) {
-        if (i in this) {
-            result = fn.call(undefined, result, this[i], i, this)
+    let i = 0, result
+    if(arguments.length === 1){
+        result = this[0]
+        i=1
+    }else{
+        result = initialValue
+    }
+    for(let len = this.length; i<len; i++){
+        if(i in this){
+            result = fn(result, this[i], i, this)
         }
     }
     return result
+}
+
+Array.prototype.myReduce2 = (f, acc, arr) => {
+    if (arr.length === 0) return acc;
+    const [head, ...tail] = arr;
+    return reduce(f, f(head, acc), tail);
+}
+
+Array.prototype.myEvery = function(fn, thisArg){
+    for(let i=0, len = this.length; i<len; i++){
+        if(i in this){
+            if(!fn.call(thisArg, this[i], i, this)){
+                return false
+            }
+        }
+    }
+    return true
+}
+
+Array.prototype.mySome = function(fn, thisArg){
+    for(let i=0, len = this.length; i<len; i++){
+        if(i in this){
+            if(fn.call(thisArg, this[i], i, this)){
+                return true
+            }
+        }
+    }
+    return false
+}
+
+const randonReplacementArray = array => {
+    var len = array.length
+    var temp = []
+    while (len--) {
+        var ran = Math.floor(Math.random() * len)
+        temp.push((array.splice(ran, 1))[0])
+    }
+    return temp
 }
 
 
 //Function
 //Function
 //Function
-function throttle(fn, interval) {
+const throttle = (fn, interval=300) => {
     let last = 0
     return function () {
         let now = +new Date()
@@ -109,10 +228,10 @@ function throttle(fn, interval) {
         }
     }
 }
-const better_scroll = throttle(() => console.log('触发了滚动事件'), 1000)
-document.addEventListener('scroll', better_scroll)
+const betterScrollThrottle = throttle(() => console.log('触发了滚动事件'), 1000)
+document.addEventListener('scroll', betterScrollThrottle)
 
-function debounce(fn, delay) {
+const debounce =(fn, delay=300) => {
     let timer
     return function () {
         let context = this
@@ -127,11 +246,11 @@ function debounce(fn, delay) {
         }, delay)
     }
 }
-const better_scroll = debounce(() => console.log('触发了滚动事件'), 1000)
-document.addEventListener('scroll', better_scroll)
+const betterScrollDebounce = debounce(() => console.log('触发了滚动事件'), 1000)
+document.addEventListener('scroll', betterScrollDebounce)
 
 //用Throttle来优化Debounce
-function throttle(fn, delay) {
+const DebounceAdvanced = (fn, delay=300) => {
     let last = 0, timer = null
 
     return function () {
@@ -152,14 +271,14 @@ function throttle(fn, delay) {
       }
     }
   }
-const better_scroll = throttle(() => console.log('触发了滚动事件'), 1000)
-document.addEventListener('scroll', better_scroll)
+const betterScrollThrottleAdvanced = DebounceAdvanced(() => console.log('触发了滚动事件'), 1000)
+document.addEventListener('scroll', betterScrollThrottleAdvanced)
 
 
 //debunce 在事件被触发n秒后再执行回调函数，如果在这n秒内又被触发，则重新计时。
 // 1 用户在输入框中连续输入一串字符后，只会在输入完后去执行最后一次的查询Ajax请求，这样可以有效减少请求次数，节约请求资源；
 // 2 window的resize、scroll事件，不断地调整浏览器的窗口大小、或者滚动时会触发对应事件，防抖让其只触发一次；
-let resizeDebounceHandler = (fn, delay = 50) => {
+const resizeDebounceHandler = (fn, delay = 50) => {
     let timer = null
     return function(...args) {
         if (timer) clearTimeout(timer)
@@ -178,7 +297,7 @@ let resizeDebounceHandler = (fn, delay = 50) => {
  * @param  {boolean}  immediate   设置为ture时，是否立即调用函数
  * @return {function}             返回客户调用函数
  */
-function debounceAdvance (func, wait = 50, immediate = true) {
+const debounceAdvance = (func, wait = 50, immediate = true) => {
     let timer, context, args
     // 延迟执行函数
     const later = () => setTimeout(() => {
@@ -211,7 +330,7 @@ function debounceAdvance (func, wait = 50, immediate = true) {
         timer = later()
       }
     }
-  }
+}
 
 
 //throttle 规定一个单位时间，在这个单位时间内，只能有一次触发事件的回调函数执行，如果在同一个单位时间内某事件被触发多次，只有一次能生效。
@@ -250,7 +369,7 @@ const resizeThrottleHandler = (fn, delay, duration) => {
  *                                两者不能共存，否则函数不能执行
  * @return {function}             返回客户调用函数
  */
-_.throttleAdvance = function(func, wait, options) {
+const throttleAdvanceUnderscore = function(func, wait, options) {
     let context, args, result
     let timeout = null
     // 之前的时间戳
@@ -343,27 +462,105 @@ const fibClosure = (function () {
 // console.log(fibClosure(30));
 // console.timeEnd("fibClosure");
 
-
-const inherit = (function () {
-    let F = function () {};
-    return function (Target, Origin) {
-        F.prototype = Origin.prototype
-        Target.prototype = new F()
-        Target.prototype.constructor = Target
-        Target.uber = Origin.prototype
+/**
+ * 1. 新生成了一个对象
+ * 2. 链接到原型
+ * 3. 绑定 this
+ * 4. 返回新对象
+ * 优先级 new有 > call，apply，bind > 显示 > 隐式
+*/
+Function.prototype.simulateNew = function (constructor) {
+    if(typeof constructor !== 'function'){
+        throw new Error('the first param must be a function')
     }
-}())
-
-const cloneShallow = source => {
-    let target = {}
-    for (let key in source) {
-        if (Object.prototype.hasOwnProperty.call(source, key)){
-            target[key] = source[key]
-        }
-    }
-    return target
+    //same as let obj = new Object(), obj__proto == constructor.prototype
+    let obj = Object.create(constructor.prototype)
+    let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1))
+    //in case constructor return a simple type
+    return (typeof result === 'object' && result !== null) ? result : obj
 }
 
+Function.prototype.simulateCall = function (context = window) {
+    if (typeof this !== 'function') throw new Error('this must be a function')
+    context.fn = this
+    let args = [...arguments].slice(1)
+    let result = context.fn(args)
+    //delete temporary attribute
+    delete context.fn
+    return result
+}
+
+Function.prototype.simulateApply = function (context = window) {
+    if (typeof this !== 'function') throw new Error('this must be a function')
+    context.fn = this
+    let result
+    if (arguments[1]) {
+        result = context.fn(...arguments[1])
+    } else {
+        result = context.fn()
+    }
+    delete context.fn
+    return result
+}
+
+// 1 指定this
+// 2 返回函数
+// 3 可以传入参数
+// 4 柯里化
+Function.prototype.simulateBind = function (context) {
+    if (typeof this !== 'function') throw new Error('this must be a function')
+    let fn = this
+    let args = [...arguments].slice(1)
+    return function () {
+        return fn.apply(context, args.concat([...arguments].slice()))
+    }
+}
+
+Function.prototype.simulateBindAdvance = function (context) {
+    if (typeof this !== 'function') throw new Error('this must be a function')
+    let fn = this
+    let args = [...arguments].slice(1)
+
+    //judge this
+    //if invoke by new, this is bar
+    //if function invoke, this is context
+    let fBound = function () {
+        let bindArgs = [...arguments].slice()
+        return fn.apply(this instanceof fBound ? this : context, args.concat(bindArgs))
+    }
+    fBound.prototype = Object.create(this.prototype)
+    // let F = function () {}
+    // F.prototype = this.prototype
+    // fBound.prototype = new F()
+    return fBound
+}
+
+const curry = function (fn) {
+    let args = Array.prototype.slice.call(arguments, 1)
+    let _this = this
+    return function () {
+        return fn.apply(_this, args.concat(Array.prototype.slice.call(arguments)))
+    }
+}
+
+const curryFormalParameter = function (fn, args) {
+    let length = fn.length,
+        _args = args || [],
+        that = this;
+    return function () {
+        let innerArgs = _args.concat([].slice.call(arguments))
+        if (innerArgs.length < length) {
+            return curryFormalParameter.call(that, fn, innerArgs)
+        } else {
+            return fn.apply(that, innerArgs)
+        }
+    }
+}
+
+
+//Object
+//Object
+//Object
 //乞丐版 JSON.parse(JSON.stringify(sourceObj))
 //不能处理属性值为function、undefined、date等
 //json只能处理string、boolean、number、null、object、array
@@ -371,10 +568,18 @@ const isObject = obj => {
     return obj !== null && typeof obj === 'object'
 }
 
+const isType = type => obj => {
+    return Object.prototype.toString.call( obj ) === '[object ' + type + ']';
+}
+
+const hasPubProperty = (attr,obj) => {
+    return (attr in obj) && (obj.hasOwnProperty(attr) === false)
+}
+
 const deepClone = (source, hash = new WeakMap()) => {
     if (!isObject(source)) return source
     //maybe return
-    if (hash.has(source)) throw TypeError('circle reference')
+    if (hash.has(source)) throw new TypeError('circle reference')
     let target = Array.isArray(source) ? [] : {}
     hash.set(source, target)
 
@@ -461,100 +666,27 @@ const copyDeepClone = function (obj) {
     throw new Error("Unable to copy obj as type isn't supported " + obj.constructor.name)
 }
 
-/**
- * 1. 新生成了一个对象
- * 2. 链接到原型
- * 3. 绑定 this
- * 4. 返回新对象
- * 优先级 new有 > call，apply，bind > 显示 > 隐式
-*/
-Function.prototype.simulateNew = function (constructor) {
-    if(typeof constructor !== 'function'){
-        throw new Error('the first param must be a function')
+const inherit = (function () {
+    let F = function () {};
+    return function (Child, Parent) {
+        F.prototype = Parent.prototype
+        Child.prototype = new F()
+        Child.prototype.constructor = Target
+        Child.uber = Parent.prototype
     }
-    //same as let obj = new Object(), obj__proto == constructor.prototype
-    let obj = Object.create(constructor.prototype)
-    let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1))
-    //in case constructor return a simple type
-    return (typeof result === 'object' && result !== null) ? result : obj
-}
+}())
 
-Function.prototype.simulateCall = function (context = window) {
-    context.fn = this
-    let args = [...arguments].slice(1)
-    let result = context.fn(args)
-    //delete temporary attribute
-    delete context.fn
-    return result
-}
-
-Function.prototype.simulateApply = function (context = window) {
-    context.fn = this
-    let result
-    if (arguments[1]) {
-        result = context.fn(...aruments[1])
-    } else {
-        result = context.fn()
-    }
-    delete context.fn
-    return result
-}
-
-// 1 指定this
-// 2 返回函数
-// 3 可以传入参数
-// 4 柯里化
-Function.prototype.simulateBind = function (context) {
-    if (typeof this !== 'function') throw new Error('this must be a function')
-    let fn = this
-    let args = [...arguments].slice(1)
-    return function () {
-        return fn.apply(context, args.concat([...arguments].slice(0)))
-    }
-}
-
-Function.prototype.simulateBindAdvance = function (context) {
-    if (typeof this !== 'function') throw new Error('this must be a function')
-    let fn = this
-    let args = [].slice.call(arguments, 1)
-
-    //judge this
-    //if invoke by new, this is bar
-    //if function invoke, this is context
-    let fBound = function () {
-        let bindArgs = [].slice.call(arguments)
-        return fn.apply(this instanceof fBound ? this : context, args.concat(bindArgs))
-    }
-    fBound.prototype = Object.create(this.prototype)
-    // let F = function () {}
-    // F.prototype = this.prototype
-    // fBound.prototype = new F()
-    return fBound
-}
-
-const curry = function (fn) {
-    let args = Array.prototype.slice.call(arguments, 1)
-    let _this = this
-    return function () {
-        return fn.apply(_this, args.concat(Array.prototype.slice.call(arguments)))
-    }
-}
-
-const curryFormalParameter = function (fn, args) {
-    let length = fn.length,
-        _args = args || [];
-    that = this;
-    return function () {
-        let innerArgs = _args.concat([].slice.call(arguments))
-        if (innerArgs.length < length) {
-            return curryFormalParameter.call(that, fn, innerArgs)
-        } else {
-            return fn.apply(that, innerArgs)
+const cloneShallow = source => {
+    let target = {}
+    for (let key in source) {
+        if (source.hasOwnProperty(key)){
+            target[key] = source[key]
         }
     }
+    return target
 }
 
-function jsonStringify(obj) {
+const jsonStringify = obj => {
     let type = typeof obj;
     if (type !== "object" || type === null) {
         if (/string|undefined|function/.test(type)) {
@@ -581,7 +713,7 @@ jsonStringify({x : 5}) // "{"x":5}"
 jsonStringify([1, "false", false]) // "[1,"false",false]"
 jsonStringify({b: undefined}) // "{"b":"undefined"}"
 
-function instanceOf(left,right) {
+const instanceOf = (left,right) => {
     let proto = left.__proto__
     let prototype = right.prototype
     while(true) {
@@ -589,6 +721,15 @@ function instanceOf(left,right) {
         if(proto === prototype) return true
         proto = proto.__proto__
     }
+}
+
+const myTypeof = obj => {
+    return Object.prototype.toString.call(obj).slice(8, -1)
+}
+
+const getBuitlInType = obj => {
+    let str = Object.prototype.toString.call(obj)
+    return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
 
 
@@ -603,24 +744,33 @@ String.prototype.MyTrim = function () {
     return this.replace(/^\s+|\s+$/g, '')
 }
 
+String.prototype.simulateTrim = function () {
+    return this.replace(/^\s+|\s+$/g, '')
+};
+
+
 //number
 //number
 //number
-const isInteger = Number.isInteger || function(num) {
+const isInteger = num => {
     return typeof num === "number" && num % 1 === 0
 }
 
-const isPosZero  = function(num) {
+const isPosZero  = num => {
     return num === 0 && 1 / n === Infinity
 }
 
-
+const isNaN = num => {
+    let ret = Number(num)
+    ret += ''
+    return ret === 'NaN' ? true : false
+}
 
 
 //other
 //other
 //other
-let makeIterator = array => {
+const makeIterator = array => {
     let nextIndex = 0
     return {
         next: function() {
@@ -632,18 +782,122 @@ let it = makeIterator([1,2,3])
 
 
 //Ajax
-let xhr = new XMLHttpRequest()
-xhr.open('get', url, true)
-xhr.onreadystatechange = function(){
-  if(xhr.readyState === 4){
-    if(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304){
-      conso.log('succeed')
-    }else{
-      consol.log('fail')
+// const xhr = new XMLHttpRequest()
+// xhr.open('get', url, true)
+// xhr.onreadystatechange = function(){
+//   if(xhr.readyState === 4){
+//     if(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304){
+//       conso.log('succeed')
+//     }else{
+//       consol.log('fail')
+//     }
+//   }
+// }
+// xhr.onerror = function(e) {
+//   console.log('error')
+// }
+// xhr.send(null)
+
+const myAJAX = options => {
+    options = options || {}
+    options.url = options.url || ''
+    options.method = options.method.toUpperCase() || 'GET'
+    options.async = options.async || true
+    options.data = options.data || null
+    options.success = options.success || function () {}
+    var xhr = null
+    if (XMLHttpRequest) {
+        xhr = new XMLHttpRequest()
+    } else {
+        xhr = new ActiveXObject('Microsoft.XMLHTTP')
     }
-  }
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            options.success(xhr.responseText)
+        }
+    }
+    xhr.open(options.url, options.method, options.async)
+    var postData = []
+    for (var key in options.data) {
+        postData.push(key + '='+ options.data[key])
+    }
+    if (options.method === 'POST') {
+        xhr.open(options.method, options.url, options.async )
+        xhr.send(postData)
+    } else if (options.method === 'GET') {
+        xhr.open(options.mehtod, options.url + postData.join('&'), options.async)
+        xhr.send(null)
+    }
 }
-xhr.onerror = function(e) {
-  console.log('error')
+
+const queryURLParamaterByRegex = url => {
+    let obj = {}
+    let reg = /([^?=&]+)=([^?=&]+)/g;
+    url.replace(reg, (...arg) => {
+        obj[arg[1]] = arg[2];
+    })
+    return obj;
 }
-xhr.send()
+
+const addURLParam = (url, name, value) => {
+    url += (url.indexOf("?") == -1 ? "?" : "&")
+    url += encodeURIComponent(name) + "=" + encodeURIComponent(value)
+    return url
+}
+
+Element.prototype.insertAfter = function (targerNode, afterNode) {
+    var beforeNode = afterNode.nextElementSibling
+    if (beforeNode == null) {
+        this.appendChild(targerNode)
+    } else {
+        this.insertBefore(targerNode, beforeNode)
+    }
+}
+
+//RegExp
+//RegExp
+//RegExp
+// $1第一个括号匹配的内容
+const strRegTest1 = "the-first-name";
+const regTest1 = /-(\w)/g;
+// console.log(strRegTest1.replace(regTest1, function($,$1) {
+//     return $1.toUpperCase();
+// }));
+
+const strRegTest2 = "aaaabbbbcccc";
+const regTest2 = /(\w)\1*/g;
+// console.log(strRegTest2.replace(regTest2, "$1"));
+
+const strRegTest3 = "1000000000";
+// //从后面往前查,最前面是空,正向匹配非单词边界的那么多个数字
+const regTest3 = /(?=(\B)(\d{3})+$)/g;
+// console.log(strRegTest3.replace(regTest3, "."));
+
+const toCapitalCamelStyle = (str) => {
+    let arr = str.split("-"),
+        len = arr.length,
+        result = '',
+        index;
+    for (index = 0; index < len; index++) {
+        result += arr[index].substr(0, 1).toUpperCase() + arr[index].substr(1).toLowerCase();
+    }
+    return result
+}
+
+const toCamelStyleRegexp = (str) => {
+    return str.replace(/-([a-z])/ig, ($0, $1) => $1.toUpperCase());
+}
+
+
+//Event
+//Event
+//Event
+const addListener = (ele, type, handler) => {
+    if (ele.addEventListener) {
+        ele.addEventListener(type, handler, false)
+    } else if (ele.attachEvent) {
+        ele.attachEvent("on" + type, () => handler.call(ele))
+    } else {
+        ele["on" + type] = handler
+    }
+}

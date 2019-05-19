@@ -12,8 +12,7 @@ node 扩展后 -> net、db、file...
 ### 3. node --help
 
 ### 4. npm --help
-
-   ```
+   ```bash
    //set init parameter value
    npm config set init.author.email "mengbinhao2018@gmail.com"
    npm config set init.author.name "jack"
@@ -36,25 +35,22 @@ node 扩展后 -> net、db、file...
    npm config set registry=https://registry.npm.taobao.org
    npm config get registry
    npm config delete registry
-   npm info xxx
-   npm search xxx
-   npm [config] list [-g]
-   npm i [xxx] -S
-   npm i [xxx] -D
-   npm i -g xxx
-   npm install --production
-   npm update [xxx]
-   npm outdated [-g]
-   npm uninstall xxx
+   npm [config] list [-g] [<pkg>...]
+   npm view [<@scope>/]<pkg>[@<version>]
+   npm search [search terms ...]
+   npm i [<@scope>/]<name>
+   npm i -P|-D|-S
+   npm un [<@scope>/]<pkg>[@<version>]
+   npm update [-g] [<pkg>...]
+   npm outdated [[<@scope>/]<pkg> ...]
    npm run command
 
-   //install path
-   C:\Users\xxx\AppData\Roaming\npm\node_modules
-
-
-   npm home xxx //打开 xxx 包的主页
-   npm repo xxx //打开 xxx 包的代码仓库
+   npm home <pkg>//打开 xxx 包的主页
    ```
+
+> install path
+>
+> C:\Users\xxx\AppData\Roaming\npm\node_modules
 
 ### 5. [see package.json](https://docs.npmjs.com/files/package.json)
 
@@ -84,7 +80,7 @@ node 扩展后 -> net、db、file...
 
    1. Global
 
-   2. Buffer
+   2. **Buffer**
       1. 专门存储/操作二进制数据流(TPC/图像/文件/网络),js数组不行,数组效率也不行
       2. 直接使用不需要引入
       3. buffer中存储的数据都是二进制,但是显示是16进制
@@ -108,46 +104,56 @@ node 扩展后 -> net、db、file...
          - Buffer.byteLength(string[, encoding])
          - Buffer.concat(list[, totalLength])
 
-   3. Stream
+   3. **Stream**
         - data/readable/end/close/error
         - pause() / resume()
         - readable / writable / duplex / transform  ---> pipe()
    4. Net
    5. assert
 
-   6. url
+   6. **url**
         - url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
         - url.format()
         - url.resolve()
 
-   7. path   (join()   resolve()  parse())
+   7. **path**`join()、resolve()、parse()`
 
    8. crypto
 
-   9.  querystring
+   9. **querystring**
         - querystring.stringify({name:'jack',age:33})
         - querystring.parse('name=jack&age=33')
         - querystring.escape('<哈哈>')
         - querystring.unescape('%3C%E5%93%88%E5%93%88%3E')
 
    10. Process  (global.process.argv)
+   ```javascript
+   // process.js
+   const {argv, execPath, env} = process
+   argv.forEach((val, index) => {
+   console.log(`${index}: ${val}`)
+   })
+   console.log(execPath)
+   console.log(env)
+   console.log(process.cwd())
+   ```
 
-   11. Console
+   11. **Console**
 
-   12. Util     (inherits   inspect)
+   12. **Util**`inherits()、inspect()、isXXX()`
 
-   13. Events
+   13. **Events**
 
        ​    Event Emitter 的实例方法
 
-       - `EventEmitter.on(event, listener)`：为指定事件注册监听器，接受1个字符串事件名event和1个回调函数listener
+       - `EventEmitter.on(event, listener)/emitter.addListener(eventName, listener)`：为指定事件注册监听器，接受1个字符串事件名event和1个回调函数listener
        - `EventEmitter.emit(event,[arg1],[arg2],[...])`：发射event事件，传递若干可选参数到事件监听器的参数列表。
-       - `EventEmitter.once(event, listener)`：为指定事件注册1个单次监听器，即该监听器最多只会触发一次，触发后立刻解 
+       - `EventEmitter.once(event, listener)`：为指定事件注册1个单次监听器，即该监听器最多只会触发一次，触发后立刻解
        - `EventEmitter.removeListener(event, listener)`：移除指定事件的某个监听器，listener必须是该事件已经注册过的监听器
        - `EventEmitter.removeAllListeners([event])`：移除所有事件的所有监听器，如果指定event，则移除指定事件的所有监听器
        - `emitter.listenerCount(eventName)`
 
-   14. FS (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
+   14. **File System** (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
        1.  简单文件读写
        2.  流式文件读写(大文件)`fs.createWriteStream()`
           ```javascript
@@ -181,7 +187,7 @@ node 扩展后 -> net、db、file...
            - fs.appendFile(file, data[, options], callback)
 
 
-   15. Http
+   15. **Http**
 
        1. http.Server的事件 (request、connection、close)
        2. http.serverRequest
@@ -210,7 +216,11 @@ node 扩展后 -> net、db、file...
 
     > trap.js
 
-### 12. NodeJS的瓶颈
+### 12. timer 异步
+
+    > timer.js
+
+### 13. NodeJS的瓶颈
 
 1. 计算密集型程序
     NodeJS不善于处理计算密集型应用，当事件回调函数需要进行复杂运算，那么事件循环中所有请求都要等待计算完成之后才能响应。解决这个问题，需要将复杂运算拆解成若干逻辑，但这样又会提高代码的复杂度。
@@ -219,7 +229,8 @@ node 扩展后 -> net、db、file...
 3. 逻辑复杂的事务
     NodeJS的控制流被一个个事件拆散，是非线性的，但是人类思维是线性的，这样容易造成开发复杂度的提高。NodeJS更善于处理逻辑简单但访问频繁的任务，而不适合完成逻辑十分复杂的工作。
 
-### 13. debug
+### 14. debug
 1. vs-code
 2. `iron-node`
 3. `supervisor`
+4. `node --inspect index.js`，点击chrome绿色node icon进入调试状态

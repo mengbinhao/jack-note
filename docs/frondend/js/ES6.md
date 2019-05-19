@@ -17,14 +17,15 @@
 
 2. 函数增强
 
-    1. 默认参数
-
+    1. 参数默认值
             //不能再用let const定义函数形参,函数默认参数是一个作用域,找不到往上层找
             //强制要求参数
             const required = () => {throw new Error('Missing parameter')}
             const add = (a = required(), b = required()) => a + b;
             add()
     2. 剩余参数
+       1. `Array.prototype.slice.call(arguments).sort() to const sortNumbers = (...numbers) => numbers.sort()`
+       2. 与解构赋值组合使用`var [a,b,...c] = array;`
     3. 箭头函数
         > 1 没有this,函数体里面的this是箭头函数定义时所在对象,不是运行时(this看上一级，若是箭头函数继续上找,作用域是栈内存不是堆内存)
         >
@@ -41,12 +42,29 @@
         > 7 没有原型对象
         >
         > 8 没有自己的super和new.target绑定
-3. 解构(数组、对象、函数参数、解构不成功`undefined`)
-    1. 排除对象不需要的属性 `var {child: {name:xinming='Jack', age}} = obj`
-    2. 合并对象  let merged = {...obj1, ...obj2} 注意重复属性后面覆盖前面
-    3. 对称解构
-    4. 不对称解构
-    5. 数值交换 `let [p1, p2] = [p2, p1]`
+3. 解构(数组、对象、函数参数、解构不成功`undefined`,比如不对称解构)
+    1. 排除对象不需要的属性、提取JSON数据、Map解构、解析模块方法
+        ```javascript
+        let {child: {name:xinming='Jack', age}} = obj
+        let {id, status, data: number} = jsonData
+        //for (let [key,] of map)
+        //for (let [,value] of map)
+        for (let [key, value] of map) {
+            console.log(key + 'is' + value)
+        }
+        const {SourceMapConsumer, SourceNode} = require("source-map")
+        ```
+    2. 数值交换`let [p1, p2] = [p2, p1]`
+    3. 接收函数返回值
+        ```javascript
+        //有序
+        function f([x, y, z]) {...}
+        f([1, 2, 3])
+        //无序
+        function f({x, y, z}) {...}
+        f({z: 3, y: 2, z: 1})
+        ```
+    4. 合并对象  let merged = {...obj1, ...obj2} //注意重复属性后面覆盖前面
 4. 对象增强
     1. `class new constructor extends super get set static`
     ```javascript
@@ -83,13 +101,14 @@
     1. 不要用箭头
     2. 函数、属性简写
     3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-    4. class和自定义类型的区别
-      - class的声明不会提升，与let类似
-      - class的声明自动运行于严格模式之下
-      - class声明的方法不可枚举
-      - class的内部方法没有 constructor 属性，无法new
-      - 调用class的构造函数必须new
+    4. ES6 class和ES5的类区别
+      - **class声明的方法不可枚举**
+      - es6的class声明不会提升
+      - es6的class的构造函数必须new
+      - es6的class声明自动运行于严格模式
+      - es6的class的内部方法没有 constructor 属性，无法new
       - class内部方法不能同名
+      - ES6 class 子类必须在父类的构造函数中调用super(),这样才有this对象;ES5中类继承的关系是相反的,先有子类的this,然后用父类的方法应用在this上
 5. let & const
     1. 作用域为{}
     2. TDZ
@@ -162,6 +181,32 @@
 11. Promise
 12. Reflect
 13. Proxy
+```javascript
+const handler = {
+  // receiver 指向 proxy 实例
+  get(target, property, receiver) {
+    console.log(`GET: target is ${target}, property is ${property}`)
+    return Reflect.get(target, property, receiver)
+  },
+  set(target, property, value, receiver) {
+    console.log(`SET: target is ${target}, property is ${property}`)
+    return Reflect.set(target, property, value)
+  }
+}
+
+const obj = { a: 1 , b: {c: 0, d: {e: -1}}}
+const newObj = new Proxy(obj, handler)
+
+/**
+ * 以下是测试代码
+ */
+
+newObj.a // output: GET...
+newObj.b.c // output: GET...
+
+newObj.a = 123 // output: SET...
+newObj.b.c = -1 // output: GET...
+```
 14. module(服务器环境)
     1. export
             ```javascript
@@ -201,6 +246,17 @@
         3. 当用export name时,就用import { name }导入(带大括号)
         4. 当一个文件里,既有一个 export default people,又有多个export name或者 export age时,导入就用import people, { name, age }
         5. 当一个文件里出现n多个export导出很多模块,导入时除了一个一个导入,也可以用 import * as example
+    3. 和CommonJS区别
+        1. 前者支持动态导入，也就是 require(${path}/xx.js)，后者目前不支持，但是已有提案import(xxx)
+        2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
+        3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
+        4. 后者会编译成 require/exports 来执行的
+
+15.  扩展运算符
+     1. 代替apply `Math.max.apply(null,array); Math.max(...array)`
+     2. 代替数组push、concat`Array.prototype.push.apply(arr1, arr2);  arr1.push(...arr2)`
+     3. 拷贝数组或对象`var array1 = [...array0]; var obj2  = {...obj};`
+     4. 将伪数组转化为数组`console.log([...nodeList]);`
 
 ### ES7
 1. asyn函数
