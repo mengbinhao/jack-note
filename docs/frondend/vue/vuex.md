@@ -38,6 +38,7 @@ vuex 管理的状态对象
 const state = {
     xxx: initValue
 }
+this.$store.state.xxx //取值 ----mapState
 ```
 
 #### mutations
@@ -50,6 +51,7 @@ const mutations = {
         // 更新 state 的某个属性
     }
 }
+this.$store.commit('xxx') //赋值----mapMutations
 ```
 #### actions
 - 包含多个事件回调函数的对象
@@ -61,6 +63,7 @@ const actions = {
         commit('yyy', {data1})
     }
 }
+this.$store.dispatch('xxx')//赋值----mapActions
 ```
 
 #### getters
@@ -72,6 +75,7 @@ const getters = {
         return ...
     }
 }
+this.$store.getters.xxx //取值----mapGetters
 ```
 
 #### modules

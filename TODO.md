@@ -10,6 +10,7 @@
 ### practise
 - [mac开光](https://wyydsb.xin/other/terminal.html)
 - [nodejs实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
+- [Vue+Express全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
 - [vue全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993 )
 - [nodejs+koa2+mysql+sequelize+jwt](https://github.com/liangfengbo/nodejs-koa2-mysql-sequelize-jwt)
@@ -208,6 +209,7 @@ https://segmentfault.com/a/1190000018398978)
 - [webpack optimization](https://segmentfault.com/a/1190000016484002)
 - [打包优化Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
 - [webpack4-配置vue相关](https://juejin.im/post/5cd515356fb9a032086de95e)
+- [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 
 ### Other
 - [用vscode开发vue应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
