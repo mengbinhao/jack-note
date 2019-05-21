@@ -1,4 +1,9 @@
 ### [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+- gistID:99953a0fe879f851f103f5984c84184a51efefd6
+- handle invalid/expired token
+  1. genetate new token
+  2. Sync : Reset Extension Settings
+  3. shift + alt + u
 
 ### debug variable
 - \${workspaceFolder} - the path of the folder opened in VS Code
