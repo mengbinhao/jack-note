@@ -145,7 +145,7 @@
 - [vue-cli3.0的简单配置](https://juejin.im/post/5cdd47c16fb9a031fe3becfb)
 
 #### compare
-- [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
+- [我为什么选择Vue而不是React](http://news.51cto.com/art/201904/595259.htm)
 - [Vue vs React](https://juejin.im/post/5c2de832f265da6172659b45)
 - [Vue vs React](https://github.com/lihongxun945/myblog/issues/21)
 - [Vue vs React](https://juejin.im/post/5b617801518825615d2fc92c)
@@ -155,7 +155,6 @@
 - [vue vs react vs angular](https://segmentfault.com/a/1190000016990339 )
 - [vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
-- [Vue vs 微信小程序](https://segmentfault.com/a/1190000015684864)
 
 ### React
 - [小书](http://huziketang.com/books/react/lesson1)
