@@ -33,6 +33,11 @@ record what I have learned
 
 ## [gitbook](https://jackmeng.gitbook.io/note/)
 
+## vscode-sync
+- token:c418ab3845145a0ee7513c983d89b9c015feaaa7
+- gist: 629b8f4a91cbf1b1321c6209dc354f34
+
+
 
 
 

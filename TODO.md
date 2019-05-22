@@ -54,6 +54,7 @@
 - [前端优化](https://segmentfault.com/a/1190000018902483)
 - [前端优化](https://segmentfault.com/a/1190000019185648#articleHeader9)
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692#heading-15)
+- [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
 
 ### JS
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
@@ -305,6 +306,5 @@ jira 8081/8006
 迈瑞
 thoughtworks
 优信集团
-活跃
 销售易  自动化测试j
 艾斯普  自动化测试j
