@@ -1,8 +1,5 @@
 ### [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 
-- token:db35c83d7fb4add68b9d86dd9a95e3a3ceea767b
-- gist: 36629221a9e8ce7138c41555c3ed3e11
-
 ### debug variable
 
 - \${workspaceFolder} - the path of the folder opened in VS Code
