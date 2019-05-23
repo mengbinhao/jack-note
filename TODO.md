@@ -77,6 +77,7 @@
 
 ### Vue
 #### vue related
+- [VUE防抖与节流的最佳解决方案——函数式组件](https://juejin.im/post/5ce3e400f265da1bab298359)
 - [Vue经验](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
 - [Vue经验](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
 - [Vue经验](https://juejin.im/post/5ae02f39518825672f198ac2)
@@ -180,6 +181,7 @@
 https://segmentfault.com/a/1190000018398978)
 - [关于React的一些小知识](https://segmentfault.com/a/1190000018689665)
 - [React 服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
+- [用惰性加载优化React程序](https://segmentfault.com/a/1190000019239957)
 
 ### webpack4
 - [了解Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
