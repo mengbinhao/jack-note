@@ -11,6 +11,7 @@
 ### practise
 
 - [mac 开光](https://wyydsb.xin/other/terminal.html)
+- [zsh+on-my-zsh配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
@@ -39,6 +40,7 @@
 
 - [45 个值得收藏的 CSS 形状](https://segmentfault.com/a/1190000018922732)
 - [display:none 与 visibility:hidden](https://segmentfault.com/a/1190000016570003)
+- [css 填坑常用代码](https://segmentfault.com/a/1190000002515272)
 
 ### nodejs
 
@@ -85,7 +87,8 @@
 ### Vue
 
 #### vue related
-
+- [从1万篇文章中挑出的40篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
+- [Vue的render函数](https://segmentfault.com/a/1190000010913794)
 - [VUE 防抖与节流的最佳解决方案——函数式组件](https://juejin.im/post/5ce3e400f265da1bab298359)
 - [Vue 经验](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
 - [Vue 经验](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
@@ -132,6 +135,7 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [抽屉组件](https://juejin.im/post/5ce604aef265da1b827a746b)
 - [Vue 自定义全局 Toast 和 Loading](https://segmentfault.com/a/1190000018901270)
 - [Vue button component](https://juejin.im/post/5afcd516f265da0b9e65414b)
 - [Vue loading component](https://segmentfault.com/a/1190000017035590)
@@ -199,7 +203,12 @@
 - [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
 
 ### webpack4
-
+- [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
+- [请练完这16个webpack小例子](https://segmentfault.com/a/1190000009038067)
+- [结合 vue-cli 谈 Webpack 优化](https://juejin.im/post/5c3c55aa51882524b4073394)
+- [Vue 项目 Webpack 优化实践 Webpack 优化](https://juejin.im/post/5c1fa158f265da613c09cb36)
+- [webpack 4](http://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
+- [webpack4-配置 vue 相关](https://juejin.im/post/5cd515356fb9a032086de95e)
 - [了解 Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
 - [7 中方式来减少 webpack bundle 体积](https://juejin.im/post/5cd9571de51d453a572aa2e6)
 - [webpack4.x 实战](https://juejin.im/post/5cd6fd7951882568d06293f3)
@@ -209,7 +218,7 @@
 - [webpack4 CheatSheet](https://juejin.im/post/5c91e2ca518825284205dcf2)
 - [全网最贴心 webpack 系列教程和配套代码](https://segmentfault.com/a/1190000016740439)
 - [webpack 4](https://juejin.im/post/5bc0682be51d450e47144ce4)
-- [webpack 4](http://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
+
 - [webpack 4](https://uinika.github.io/web/broswer/webpack.html)
 - [webpack 4](https://juejin.im/post/5af934806fb9a07ab458bced)
 - [webpack 4](https://juejin.im/post/5af8fa806fb9a07ac162876d)
@@ -221,14 +230,11 @@
 - [webpack plugins](https://juejin.im/entry/5b0d5fa5518825153d28aec4)
 - [webpack 配置优化](https://juejin.im/post/5cb71c8e518825324c44eeb7)
 - [Webpack 优化](https://juejin.im/post/5b652b036fb9a04fa01d616b)
-- [结合 vue-cli 谈 Webpack 优化](https://juejin.im/post/5c3c55aa51882524b4073394)
-- [Vue 项目 Webpack 优化实践 Webpack 优化](https://juejin.im/post/5c1fa158f265da613c09cb36)
-- [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
+
 - [webpack 打包优化黑科技](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
 - [webpack all](http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/)
 - [webpack optimization](https://segmentfault.com/a/1190000016484002)
 - [打包优化 Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
-- [webpack4-配置 vue 相关](https://juejin.im/post/5cd515356fb9a032086de95e)
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 
 ### Other
@@ -250,7 +256,7 @@
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
 
 ### testing
-
+- [浅谈前端测试](https://segmentfault.com/a/1190000015436897#articleHeader1)
 - [Mocha+should+Karma 自动化测试教程](http://www.cnblogs.com/webSciprt/p/10542075.html)
 - [automation testing](http://www.zengyuetian.com/)
 - [automation testing process](https://www.cnblogs.com/yufeihlf/p/5752146.html)
