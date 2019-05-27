@@ -99,14 +99,11 @@
     1. 不要用箭头
     2. 函数、属性简写
     3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-    4. ES6 class和ES5的类区别
-      - **class声明的方法不可枚举**
-      - es6的class声明不会提升
-      - es6的class的构造函数必须new
-      - es6的class声明自动运行于严格模式
-      - es6的class的内部方法没有 constructor 属性，无法new
-      - class内部方法不能同名
+    4. [ES6 class和ES5的类区别](https://github.com/Advanced-Frontend/Daily-Interview-Question/issues/20)
       - ES6 class 子类必须在父类的构造函数中调用super(),这样才有this对象;ES5中类继承的关系是相反的,先有子类的this,然后用父类的方法应用在this上
+      - class有两个原型链
+      - `B.__proto__ === A //核心目的是实现静态方法继承`
+      - `B.prototype.__proto__ === A.prototype`
 5. let & const
     1. 作用域为{}
     2. TDZ
