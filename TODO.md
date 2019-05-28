@@ -11,7 +11,7 @@
 ### practise
 
 - [mac 开光](https://wyydsb.xin/other/terminal.html)
-- [zsh+on-my-zsh配置教程指南](https://segmentfault.com/a/1190000013612471)
+- [zsh+on-my-zsh 配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
@@ -87,8 +87,9 @@
 ### Vue
 
 #### vue related
-- [从1万篇文章中挑出的40篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
-- [Vue的render函数](https://segmentfault.com/a/1190000010913794)
+
+- [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
+- [Vue 的 render 函数](https://segmentfault.com/a/1190000010913794)
 - [VUE 防抖与节流的最佳解决方案——函数式组件](https://juejin.im/post/5ce3e400f265da1bab298359)
 - [Vue 经验](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
 - [Vue 经验](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
@@ -203,8 +204,10 @@
 - [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
 
 ### webpack4
+
+- [关于 webpack4 的 14 个知识点](https://juejin.im/post/5cea1e1ae51d4510664d1652)
 - [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
-- [请练完这16个webpack小例子](https://segmentfault.com/a/1190000009038067)
+- [请练完这 16 个 webpack 小例子](https://segmentfault.com/a/1190000009038067)
 - [结合 vue-cli 谈 Webpack 优化](https://juejin.im/post/5c3c55aa51882524b4073394)
 - [Vue 项目 Webpack 优化实践 Webpack 优化](https://juejin.im/post/5c1fa158f265da613c09cb36)
 - [webpack 4](http://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
@@ -256,6 +259,7 @@
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
 
 ### testing
+
 - [浅谈前端测试](https://segmentfault.com/a/1190000015436897#articleHeader1)
 - [Mocha+should+Karma 自动化测试教程](http://www.cnblogs.com/webSciprt/p/10542075.html)
 - [automation testing](http://www.zengyuetian.com/)
