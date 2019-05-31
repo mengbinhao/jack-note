@@ -65,6 +65,7 @@
 
 ### JS
 
+- [JS正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [reduce 的 n 种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
 - [记一些 Promise 相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
