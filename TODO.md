@@ -13,6 +13,7 @@
 - [mac 开光](https://wyydsb.xin/other/terminal.html)
 - [zsh+on-my-zsh 配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
+- [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
 - [vue 全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993)
@@ -65,7 +66,7 @@
 
 ### JS
 
-- [JS正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
+- [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [reduce 的 n 种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
 - [记一些 Promise 相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
@@ -84,6 +85,7 @@
 - [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
 - [关于移动端适配](https://segmentfault.com/a/1190000019207842)
 - [前端工具函数](https://segmentfault.com/a/1190000019256898)
+- [28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 
 ### Vue
 
@@ -164,9 +166,11 @@
 - [配置一个 vue-cli3.0 项目](https://juejin.im/post/5cc18abdf265da039e1ff5fb#heading-4)
 - [面试官：自己搭建过 vue 开发环境吗](https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21)
 - [vue-cli3.0 的简单配置](https://juejin.im/post/5cdd47c16fb9a031fe3becfb)
+- [手写我的 VUE-CLI](https://juejin.im/post/5cefa7936fb9a07ef06f78ba)
 
 #### compare
 
+- [React for Vue developers](https://sebastiandedeyne.com/react-for-vue-developers/)
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
 - [Vue vs React](https://juejin.im/post/5c2de832f265da6172659b45)
 - [Vue vs React](https://github.com/lihongxun945/myblog/issues/21)
