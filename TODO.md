@@ -14,6 +14,7 @@
 - [zsh+on-my-zsh 配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
+- [手摸手，带你用vue撸后台](https://juejin.im/post/591aa14f570c35006961acac)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
 - [vue 全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993)
