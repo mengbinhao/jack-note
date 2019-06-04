@@ -66,7 +66,7 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
 
 ### JS
-
+- [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [reduce 的 n 种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
