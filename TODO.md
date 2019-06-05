@@ -150,6 +150,7 @@
 - [图片懒加载+封装 vue 懒加载组件](https://juejin.im/post/5c52ee216fb9a049ee80e283)
 - [Vue 实现函数防抖组件](https://juejin.im/post/5c2dc7a9e51d4573c8491e77)
 - [封装跨项目复用的 Vue 组件](https://juejin.im/post/5cc569af51882525166c4818)
+- [组件进阶](https://juejin.im/post/5cf633ad6fb9a07efe2da92d)
 
 #### vue-router
 
@@ -247,7 +248,7 @@
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 
 ### Other
-
+- [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [用 vscode 开发 vue 应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
 - [vscode 项目配置 eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [docker](https://segmentfault.com/a/1190000018810837)
