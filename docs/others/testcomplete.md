@@ -1,8 +1,8 @@
 ### 1.TC12
 
-1.  [doc](https://support.smartbear.com/testcomplete/docs/)
-2.  [video](https://support.smartbear.com/testcomplete/videos/?showvideo=desktop-tour)
-3.  [qt-module support](https://support.smartbear.com/downloads/testcomplete/qt-modules/)
+1.  [official latest doc](https://support.smartbear.com/testcomplete/docs/)
+2.  [video](https://support.smartbear.com/testcomplete/videos)
+3.  [qt-module 4.8 support](https://support.smartbear.com/downloads/testcomplete/qt-modules/)
     - TC_12_50_4142_Qt_4_8_0_Support for supporting other version of QT, because TC12 default only supports QT5.0
 
 ### 2.record keyword test or script test
