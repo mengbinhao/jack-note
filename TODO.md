@@ -1,12 +1,10 @@
 ### core
 
-- jack-note / caibaojian / 30seconds / js-tool-library
+- jack-note / caibaojian / 30seconds
 - zaolunzi
-- **算法** / **算法面试(7)**
-- **Vue(52) practise**
 - leetcode(206、24、141、142、25)
-- react
-- 掘金小册(first done)
+- 极客 **webpack** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 掘金小册
 
 ### practise
 
@@ -14,7 +12,7 @@
 - [zsh+on-my-zsh 配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
-- [手摸手，带你用vue撸后台](https://juejin.im/post/591aa14f570c35006961acac)
+- [手摸手，带你用 vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
 - [vue 全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993)
@@ -37,6 +35,7 @@
 - [Vue+Express 实现登录状态权限控制](https://juejin.im/post/5ccc3eab6fb9a0321e16b18e)
 - [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
 - [vue 实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
+- [咔咔出行](https://github.com/wwenj/tripRecord)
 
 ### css
 
@@ -66,7 +65,9 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
 
 ### JS
+
 - [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
+- [前端业务代码配置化](https://segmentfault.com/a/1190000019420857)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [reduce 的 n 种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
@@ -93,6 +94,8 @@
 #### vue related
 
 - [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
+- [Vue 技术内幕](http://hcysun.me/vue-design/art/6vue-init-start.html)
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
 - [Vue 的 render 函数](https://segmentfault.com/a/1190000010913794)
 - [VUE 防抖与节流的最佳解决方案——函数式组件](https://juejin.im/post/5ce3e400f265da1bab298359)
 - [Vue 经验](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
@@ -248,7 +251,8 @@
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 
 ### Other
-- [Git自救指南](https://segmentfault.com/a/1190000019373841)
+
+- [Git 自救指南](https://segmentfault.com/a/1190000019373841)
 - [用 vscode 开发 vue 应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
 - [vscode 项目配置 eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [docker](https://segmentfault.com/a/1190000018810837)
