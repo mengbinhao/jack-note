@@ -93,6 +93,7 @@
 
 #### vue related
 
+- [Vue Function-based API RFC](https://zhuanlan.zhihu.com/p/68477600)
 - [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
 - [Vue 技术内幕](http://hcysun.me/vue-design/art/6vue-init-start.html)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
@@ -249,6 +250,7 @@
 - [webpack optimization](https://segmentfault.com/a/1190000016484002)
 - [打包优化 Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
+- [webpack4 的 30 个步骤打造优化到极致的 react 开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 
 ### Other
 
@@ -282,6 +284,7 @@
 
 ### Interview
 
+- [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273#articleHeader1)
 - [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
 - [interview front](https://juejin.im/post/5cb92d9a5188254160581b87)
 - [一名【合格】前端工程师的自检清单](https://segmentfault.com/a/1190000018992363)
