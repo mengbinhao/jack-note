@@ -66,6 +66,7 @@
 
 ### JS
 
+- [25 个JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
 - [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
 - [前端业务代码配置化](https://segmentfault.com/a/1190000019420857)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
@@ -94,6 +95,7 @@
 #### vue related
 
 - [Vue Function-based API RFC](https://zhuanlan.zhihu.com/p/68477600)
+- [精读vue-hooks](https://juejin.im/post/5d0243a3f265da1b8f1abc49)
 - [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
 - [Vue 技术内幕](http://hcysun.me/vue-design/art/6vue-init-start.html)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
@@ -324,6 +326,7 @@
 - [Vue](https://segmentfault.com/a/1190000018225708)
 - [Vue](https://segmentfault.com/a/1190000016770732)
 - [Vue](https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/)
+- [VueVue](https://juejin.im/post/5d02016c6fb9a07ec27b9e50#heading-6)
 
 #### react
 
