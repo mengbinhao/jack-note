@@ -12,7 +12,7 @@
 - [zsh+on-my-zsh 配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
-- [手摸手，带你用 vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
+- [手摸手,带你用 vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
 - [vue 全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993)
@@ -66,7 +66,7 @@
 
 ### JS
 
-- [25 个JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
+- [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
 - [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
 - [前端业务代码配置化](https://segmentfault.com/a/1190000019420857)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
@@ -95,7 +95,7 @@
 #### vue related
 
 - [Vue Function-based API RFC](https://zhuanlan.zhihu.com/p/68477600)
-- [精读vue-hooks](https://juejin.im/post/5d0243a3f265da1b8f1abc49)
+- [精读 vue-hooks](https://juejin.im/post/5d0243a3f265da1b8f1abc49)
 - [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
 - [Vue 技术内幕](http://hcysun.me/vue-design/art/6vue-init-start.html)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
@@ -116,6 +116,7 @@
 
 #### project related
 
+- [Vue 项后台管理项目总结](https://segmentfault.com/a/1190000019516643)
 - [project 优化](https://juejin.im/post/5cb80f026fb9a0686c0196b7)
 - [project 优化](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [project 优化](https://segmentfault.com/a/1190000019187560)
@@ -204,7 +205,7 @@
 - [React—从初级到高级路线图](https://juejin.im/post/5bb0303f5188255c8d0fdacb)
 - [React 学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e&chksm=f951af14ce262602a85acb6a932b1c2e7e2c8c4e659b9aa3067dda6e3a89b5baa198cab475b1&mpshare=1&scene=1&srcid=#rd)
 - [从零开始学习 React 高阶组件](https://segmentfault.com/a/1190000018633603)
-- [掌握 react，这一篇就够了](https://segmentfault.com/a/1190000016281174)
+- [掌握 react,这一篇就够了](https://segmentfault.com/a/1190000016281174)
 - [React 基础与生命周期](https://www.linuxidc.com/Linux/2018-12/155827.htm)
 - [React 新旧生命周期](https://segmentfault.com/a/1190000018413163)
 - [React 开发你一定要知道](https://segmentfault.com/a/1190000015894607)
@@ -253,7 +254,7 @@
 - [webpack optimization](https://segmentfault.com/a/1190000016484002)
 - [打包优化 Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
-- [webpack4 的 30 个步骤打造优化到极致的 react 开发环境，如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
+- [webpack4 的 30 个步骤打造优化到极致的 react 开发环境,如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 
 ### Other
 
@@ -315,6 +316,7 @@
 
 #### vue
 
+- [公司要求熟悉框架 Vue,必问面试题你都会几道](https://mp.weixin.qq.com/s?__biz=MzU3NjczNDk2MA==&mid=2247484312&idx=1&sn=cd486a3a2e3665488c1c8b7cf9e1ca75)
 - [Vue](https://segmentfault.com/a/1190000018634744)
 - [Vue](https://juejin.im/post/5c6d4a46f265da2de6610287)
 - [Vue](http://web.jobbole.com/95195/)
@@ -327,6 +329,10 @@
 - [Vue](https://segmentfault.com/a/1190000016770732)
 - [Vue](https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/)
 - [VueVue](https://juejin.im/post/5d02016c6fb9a07ec27b9e50#heading-6)
+
+#### Node
+
+- [分享 10 道 Nodejs 进程相关面试题](https://juejin.im/post/5d082214f265da1bb564f97b)
 
 #### react
 
@@ -344,14 +350,14 @@
 
 ---
 
-Python（主要是接口测试和 UI 自动化测试）
+Python(主要是接口测试和 UI 自动化测试)
 1 UI 自动化测试 Python + selenium 等
 2 接口测试 Python request 等
 3 性能测试 Python Locus 等
 4 安全测试 Python Scapy 等
 5 兼容性测试 Python + selenium 等
 
-java 的 Junit、testNG，C#的 NUnit ，python 的 unittest、pytest PyUnit 等，几乎所有的主流语言，都会有其对应的单元测试框架
+java 的 Junit、testNG,C#的 NUnit ,python 的 unittest、pytest PyUnit 等,几乎所有的主流语言,都会有其对应的单元测试框架
 
 jenkens 8082
 testlink 88
