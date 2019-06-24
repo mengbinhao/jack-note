@@ -39,6 +39,7 @@
 
 ### css
 
+- [20 个让你效率更高的 CSS 代码技巧](https://segmentfault.com/a/1190000019542534)
 - [45 个值得收藏的 CSS 形状](https://segmentfault.com/a/1190000018922732)
 - [display:none 与 visibility:hidden](https://segmentfault.com/a/1190000016570003)
 - [css 填坑常用代码](https://segmentfault.com/a/1190000002515272)
@@ -67,7 +68,7 @@
 ### JS
 
 - [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
-- [我所理解的promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
+- [我所理解的 promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
 - [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
 - [前端业务代码配置化](https://segmentfault.com/a/1190000019420857)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
@@ -90,11 +91,13 @@
 - [关于移动端适配](https://segmentfault.com/a/1190000019207842)
 - [前端工具函数](https://segmentfault.com/a/1190000019256898)
 - [28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
+- [前端单元测试实践(koa 篇)](https://juejin.im/post/5d09935ce51d451063431816)
 
 ### Vue
 
 #### vue related
 
+- [blog](https://juejin.im/user/5b63c78d6fb9a04fa7756fd1)
 - [Vue Function-based API RFC](https://zhuanlan.zhihu.com/p/68477600)
 - [精读 vue-hooks](https://juejin.im/post/5d0243a3f265da1b8f1abc49)
 - [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
@@ -144,7 +147,7 @@
 - [Vue 项目使用 pdf.js](https://juejin.im/post/5cd9498651882515cc7e465c)
 - [Vue 中导出 Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
 - [vue+高德地图开发采坑](https://segmentfault.com/a/1190000019215845)
-- [服务器发布Vue/Nuxt项目指南(多图)](https://segmentfault.com/a/1190000019525739)
+- [服务器发布 Vue/Nuxt 项目指南(多图)](https://segmentfault.com/a/1190000019525739)
 
 #### component related
 
@@ -222,6 +225,7 @@
 
 ### webpack4
 
+- [webpack 打包优化](https://juejin.im/post/5d0aea6fe51d4550a629b286)
 - [关于 webpack4 的 14 个知识点](https://juejin.im/post/5cea1e1ae51d4510664d1652)
 - [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
 - [请练完这 16 个 webpack 小例子](https://segmentfault.com/a/1190000009038067)
