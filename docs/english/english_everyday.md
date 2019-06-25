@@ -1,3 +1,34 @@
+- 2019.6.25
+
+  - assessment n
+  - expertise n
+  - proficiency n
+  - afloat adj/adv
+  - evacuate vi/vt
+  - speculation n
+  - circumstantial adj
+  - takeaway n
+  - plot n/vi/vt
+  - fierce adj
+  - yield n/vi/vt
+  - derail vi/vt
+  - heighten vi/vt
+
+  > There is no question about it
+  >
+  > at the very time
+
+
+
+
+
+
+
+
+
+
+
+
 1. dwell on the past
 
 > u can not always dwell on the past
