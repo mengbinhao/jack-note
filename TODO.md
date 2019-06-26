@@ -198,6 +198,7 @@
 
 ### React
 
+- [一文速览 React 全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
 - [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
 - [小书](http://huziketang.com/books/react/lesson1)
 - [阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)

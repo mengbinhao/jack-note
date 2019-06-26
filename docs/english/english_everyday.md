@@ -1,3 +1,20 @@
+- 2019.6.26
+  - departure n
+  - personnel n
+  - tenure n
+  - aggresive adj
+  - toe-to-toe
+  - insult n/vt
+  - resolutely adj
+  - predecessor n
+  - poduim n
+  - embarrassing adj
+  - corps n
+  - countless n
+  - sentiment n
+
+  > I can speak to my own personal experience
+
 - 2019.6.25
 
   - assessment n
