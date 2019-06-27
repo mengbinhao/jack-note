@@ -1,3 +1,25 @@
+- 2019.6.27
+  - stockpile n/vt
+  - enriched adj
+  - enrichment n
+  - altogether adv
+  - reactor adv
+  - headline n/vt
+  - diplomat n
+  - violation n
+  - relief n
+  - abide vi
+  - exert vt
+  - provocative adj
+  - arena n
+  - dilute adj/vt
+  - strain n/vt
+
+  > But as I said earlier / as you mentioned
+  > be fall apart altogether
+  > It was full of all sorts of figures and numbers, but basically, what it came down to was this ...
+  > there is a couple of reasons
+
 - 2019.6.26
   - departure n
   - personnel n

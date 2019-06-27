@@ -66,7 +66,7 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
 
 ### JS
-
+- [编写更好的 JavaScript 条件式和匹配条件的技巧](https://segmentfault.com/a/1190000019576207)
 - [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
 - [我所理解的 promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
 - [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
@@ -163,6 +163,7 @@
 - [Vue 实现函数防抖组件](https://juejin.im/post/5c2dc7a9e51d4573c8491e77)
 - [封装跨项目复用的 Vue 组件](https://juejin.im/post/5cc569af51882525166c4818)
 - [组件进阶](https://juejin.im/post/5cf633ad6fb9a07efe2da92d)
+- [Vue 组件间传参最佳实践](https://segmentfault.com/a/1190000019580144)
 
 #### vue-router
 
