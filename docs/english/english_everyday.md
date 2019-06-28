@@ -1,3 +1,28 @@
+- 2019.6.28
+  - depose / oust vt
+  - Egyptian adj/n
+  - Egypt n
+  - collapse n/vi
+  - faint n/vi/adj
+  - trial / retrial n
+  - democratically adv
+  - jail n/vt
+  - crackdown n
+  - circumstance n
+  - ban vt
+  - convicted adj
+  - undergo vt
+  - procecutor n
+  - defendant n
+  - Turkish adj/n
+  - mistreat vt
+  - polarize vi/vt
+  - exile n/vt
+  - subdued adj
+  - funeral n
+
+  > So there's been a wide range
+
 - 2019.6.27
   - stockpile n/vt
   - enriched adj
