@@ -1,4 +1,24 @@
 - 2019.6.28
+  - establishment n
+  - redical adj/n
+  - hatred n
+  - prejudice n/vt
+  - rage n/vi/vt
+  - rally n/vi/vt
+  - metaphorically adv
+  - literally adv
+  - rig n/vt
+  - grievance n
+  - accusation n
+  - echo n/vi/vt
+
+  > one every two or three weeks
+  > In the couple seconds we have left
+  > In very personal terms
+  > What's on their minds?
+  > He really stuck to the scripts
+
+- 2019.6.28
   - depose / oust vt
   - Egyptian adj/n
   - Egypt n

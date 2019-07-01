@@ -36,6 +36,7 @@
 - [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
 - [vue 实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
 - [咔咔出行](https://github.com/wwenj/tripRecord)
+- [Node.js + Koa2 + MySQL + Vue.js 实战开发一套完整个人博客项目网站](https://segmentfault.com/a/1190000019603915?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)
 
 ### css
 
@@ -48,6 +49,7 @@
 
 - [Node.js 代理解决跨域问题](https://juejin.im/post/5cbbeaa4f265da0393786641)
 - [NodeJS Web 项目几个最佳实践](https://juejin.im/post/5cdd07826fb9a0322758e067)
+- [搭建一个 nodejs 脚手架](https://juejin.im/post/5d14653de51d4550a629b2b6?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 
 ### front
 
@@ -66,6 +68,7 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
 
 ### JS
+
 - [编写更好的 JavaScript 条件式和匹配条件的技巧](https://segmentfault.com/a/1190000019576207)
 - [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
 - [我所理解的 promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
@@ -117,6 +120,8 @@
 - [key 在 Vue 列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
 - [Vue 图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
 - [函数式组件、slots 和 children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
+- [滑动验证码的原理并利用 Vue 实现滑动验证码](https://cuiqingcai.com/6730.html?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+- [keepAlive](https://segmentfault.com/a/1190000019610283?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452#articleHeader1)
 
 #### project related
 
@@ -148,6 +153,7 @@
 - [Vue 中导出 Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
 - [vue+高德地图开发采坑](https://segmentfault.com/a/1190000019215845)
 - [服务器发布 Vue/Nuxt 项目指南(多图)](https://segmentfault.com/a/1190000019525739)
+- [Vue 项目总结基于饿了么组件封装](https://segmentfault.com/a/1190000019612988?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)
 
 #### component related
 
@@ -182,6 +188,7 @@
 - [面试官：自己搭建过 vue 开发环境吗](https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21)
 - [vue-cli3.0 的简单配置](https://juejin.im/post/5cdd47c16fb9a031fe3becfb)
 - [手写我的 VUE-CLI](https://juejin.im/post/5cefa7936fb9a07ef06f78ba)
+- [vue-cil 3.0 配置说明](https://juejin.im/post/5d130b9a518825670124a721?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 
 #### compare
 
@@ -324,6 +331,7 @@
 
 #### vue
 
+- [你要的 Vue 面试题都在这里](https://juejin.im/post/5d13436f6fb9a07eca698ba0?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 - [公司要求熟悉框架 Vue,必问面试题你都会几道](https://mp.weixin.qq.com/s?__biz=MzU3NjczNDk2MA==&mid=2247484312&idx=1&sn=cd486a3a2e3665488c1c8b7cf9e1ca75)
 - [Vue](https://segmentfault.com/a/1190000018634744)
 - [Vue](https://juejin.im/post/5c6d4a46f265da2de6610287)
