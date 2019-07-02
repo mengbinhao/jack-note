@@ -1,3 +1,24 @@
+- 2019.7.2
+  - intentional adj
+  - loose n/vt/adj
+  - conciliatory adj
+  - tactical adj
+  - hawkish adj
+  - aggresive adj
+  - coherent adj
+  - escalation n
+  - crippling adj
+  - assumption n
+  - sue vi/vt
+  - ally n
+  - credibility n
+  - suspicious n
+  - isolated adj
+
+  > xxxx as minor
+  > mixed message
+  > foolish move
+
 - 2019.6.28
   - establishment n
   - redical adj/n
@@ -17,6 +38,7 @@
   > In very personal terms
   > What's on their minds?
   > He really stuck to the scripts
+  > there's been a wide range
 
 - 2019.6.28
   - depose / oust vt

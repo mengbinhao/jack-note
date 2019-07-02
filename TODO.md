@@ -122,6 +122,7 @@
 - [函数式组件、slots 和 children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 - [滑动验证码的原理并利用 Vue 实现滑动验证码](https://cuiqingcai.com/6730.html?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 - [keepAlive](https://segmentfault.com/a/1190000019610283?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452#articleHeader1)
+- [使用vue中的混入mixin优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
 
 #### project related
 
