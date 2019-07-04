@@ -193,7 +193,7 @@ module: {
 }
 ```
 
-#### 7 不打包第三方js
+#### --------不打包第三方js
 
 1. jQuery引入到index.html
 
@@ -245,7 +245,7 @@ resolve: {
 
 #### 1 watch(需要手动刷新浏览器)
 
-- watch:true
+- webpack.config.js -> watch:true
 
 - package.js 加 --watch
 
@@ -258,7 +258,141 @@ resolve: {
     }
     ```
 
+#### 2 文件指纹
+
+- Hash: 和整个项目构建相关,只要项目文件有修改,整个项目构建的has值就会改变
+- Chunkhash: 和webpack打包的chunk有关,不同entry生成不同的chunkhash值
+- Contenthash: 根据文件内容定义hash,文件内容不变则Contenthash不变
+
+```
+//example
+const path = require('path')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+
+module.exports = {
+    entry: {
+        index: './src/index.js',
+        search: './src/search.js'
+    },
+    output: {
+        path: path.join(__dirname, 'dist'),
+        //js文件指纹
+        filename: '[name]_[chunkhash:8].js'
+    },
+    mode: 'production',
+    module: {
+        rules: [
+            {
+                test: /.js$/,
+                use: 'babel-loader'
+            },
+            {
+                test: /.css$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader'
+                ]
+            },
+            {
+                test: /.less$/,
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    'css-loader',
+                    'less-loader'
+                ]
+            },
+            {
+                test: /.(png|jpg|gif|jpeg)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name]_[hash:8].[ext]'
+                        }
+                    }
+                ]
+            },
+            {
+                test: /.(woff|woff2|eot|ttf|otf)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name]_[hash:8][ext]'
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: '[name]_[contenthash:8].css'
+        })
+    ]
+}
+```
+
+####  3 compress html/css/js
+
+- 内置uglifyjs-weabpack-plugin
+
+- optimize-css-assets-webpack-plugin + cssnano
+
+- html-webpack-plugin
+
+    ```
+    new HtmlWebpackPlugin({
+        template: path.join(__dirname, 'src/index.html'),
+        filename: 'index.html',
+        chunks: ['index'],
+        inject: true,
+        minify: {
+            html5: true,
+            collapseWhitespace: true,
+            preserveLineBreaks: false,
+            minifyCSS: true,
+            minifyJS: true,
+            removeComments: false
+        }
+     })
+    ```
+
+#### 4 clear dist
+
+- 通过npm scripts `rm -rf./dist && webpack` or `rimraf ./dist && webpack`
+- clean-webpack-plugin
+
+#### 5 css autoprefixer
+
+- Trident(-ms)、Gek(-moz)、Webkit(-webkit)、Presto(-o)
+
+```
+ {
+     test: /.less$/,
+     use: [
+         MiniCssExtractPlugin.loader,
+         'css-loader',
+         'less-loader',
+         {
+             loader: 'postcss-loader',
+             options: {
+                 plugins: () => [
+                     require('autoprefixer')({
+                     browsers: ['last 2 version', '>1%', 'ios 7']
+                     })
+                 ]
+             }
+         }
+     ]
+ }
+```
+
+
+
 ### 6 webpack-dev-server
+
+#### how to use
 
 ```javascript
 
@@ -274,7 +408,7 @@ devServer: {
 }
 ```
 
-
+#### --------
 
  ```javascript
 const path = require('path')
@@ -590,6 +724,29 @@ plugins: [
 }
 ```
 
-### 7 webpack-bundle-analyzer`npm run build --report`
+### 7 weppack-dev-middleware(将webpack输出的文件传输给服务器)
+
+```javascript
+const express = require('express')
+const wepback = require('wepback')
+const weppackDevMiddleware = require('weppack-dev-middleware')
+
+const app = expess()
+const config = require('./webpack.config.js')
+const compile = wepback(config)
+
+app.use(weppackDevMiddleware(compile, {
+    publicPath:config.output.publicPath
+}))
+
+app.listen(3000, () => {
+    console.log('server is runnning on 3000')
+})
+```
+
+
+
+### 8 webpack-bundle-analyzer`npm run build --report`
 
 ![](./images/webpack-1.png)
+
