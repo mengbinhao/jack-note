@@ -1,3 +1,19 @@
+- 2019.7.4
+  - drone n
+  - unmanned adj
+  - retaliate vi
+  - proportional adj/n
+  - casualty n
+  - tough adj/adv/n
+  - de-escalate v
+  - intentionally adv
+  - negotiate vi/vt
+
+  > so he goes back and forth
+  > and that's pretty much what has been happening for the past few weeks
+  > on the one hand....on the other hand
+  > it does kind of raise questions about how xxxx
+
 - 2019.7.2
   - intentional adj
   - loose n/vt/adj

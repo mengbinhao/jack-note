@@ -69,6 +69,8 @@
 
 ### JS
 
+- [8 个有用的 JS 技巧](https://segmentfault.com/a/1190000019617387)
+- [JS 中可以提升幸福度的小技巧](https://juejin.im/post/5b51e5d3f265da0f4861143c)
 - [编写更好的 JavaScript 条件式和匹配条件的技巧](https://segmentfault.com/a/1190000019576207)
 - [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
 - [我所理解的 promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
@@ -100,6 +102,9 @@
 
 #### vue related
 
+-[vue 技术分享-你可能不知道的 7 个秘密](http://www.bslxx.com/a/vue/kaiyuankuangjia/2018/0426/1952.html)
+
+- [Vue.js 中 watch 的高级用法，深度和注销观察](http://www.bslxx.com/a/vue/mianshiti/2018/0506/1964.html)
 - [blog](https://juejin.im/user/5b63c78d6fb9a04fa7756fd1)
 - [Vue Function-based API RFC](https://zhuanlan.zhihu.com/p/68477600)
 - [精读 vue-hooks](https://juejin.im/post/5d0243a3f265da1b8f1abc49)
@@ -122,7 +127,7 @@
 - [函数式组件、slots 和 children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
 - [滑动验证码的原理并利用 Vue 实现滑动验证码](https://cuiqingcai.com/6730.html?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 - [keepAlive](https://segmentfault.com/a/1190000019610283?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452#articleHeader1)
-- [使用vue中的混入mixin优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
+- [使用 vue 中的混入 mixin 优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
 
 #### project related
 
@@ -175,6 +180,7 @@
 #### vue-router
 
 - [如何写出一个利于扩展的 vue 路由配置](https://juejin.im/post/5cdbc0fde51d456e781f20e3)
+- [Vue 项目功能实现：刷新当前页面](https://segmentfault.com/a/1190000019635080)
 
 #### vuex
 
@@ -323,6 +329,7 @@
 
 #### css&html
 
+- [垂直居中的几种实现方式](https://segmentfault.com/a/1190000019634591)
 - [css](https://juejin.im/post/5af8e6aef265da0b9265b04c)
 - [html & css](https://segmentfault.com/a/1190000015882087)
 - [html & css](https://segmentfault.com/a/1190000015960009)
@@ -334,6 +341,7 @@
 
 #### vue
 
+- [Vue 面试知识点总结](https://segmentfault.com/a/1190000019646763)
 - [你要的 Vue 面试题都在这里](https://juejin.im/post/5d13436f6fb9a07eca698ba0?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
 - [公司要求熟悉框架 Vue,必问面试题你都会几道](https://mp.weixin.qq.com/s?__biz=MzU3NjczNDk2MA==&mid=2247484312&idx=1&sn=cd486a3a2e3665488c1c8b7cf9e1ca75)
 - [Vue](https://segmentfault.com/a/1190000018634744)
