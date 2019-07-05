@@ -56,7 +56,6 @@
 - chunk：代码块，一个Chunk由多个模块组合而成，用于代码合并与分割
 
 
-
 ### 3 how to use
 1. mkdir webpack-demo
 2. cd webpack-demo
@@ -363,7 +362,7 @@ module.exports = {
 - 通过npm scripts `rm -rf./dist && webpack` or `rimraf ./dist && webpack`
 - clean-webpack-plugin
 
-#### 5 css autoprefixer
+#### 5 postcss(autoprefixer插件)
 
 - Trident(-ms)、Gek(-moz)、Webkit(-webkit)、Presto(-o)
 
@@ -387,6 +386,181 @@ module.exports = {
      ]
  }
 ```
+
+#### 6 px convert to rem
+- @media
+- `npm i px2rem-loader -D` `npm i lib-flexible -S`（动态计算根元素font-size，打开页面时及计算）
+
+```
+{
+    test: /.less$/,
+    use: [
+        MiniCssExtractPlugin.loader,
+        'css-loader',
+        'less-loader',
+        {
+            loader: 'postcss-loader',
+            options: {
+                plugins: () => [
+                    require('autoprefixer')({
+                    browsers: ['last 2 version', '>1%', 'ios 7']
+                })
+                ]
+            }
+        },
+        {
+            loader: 'px2rem-loader',
+            options: {
+                remUnit: 75, 
+                remPrecision: 8 //小数位数
+        	}
+        }
+    ]
+}
+```
+
+- ` font-size: 12px; /*no*/` 不进行rem转换
+
+#### 7 资源内联
+
+##### 意义
+
+- 代码层面
+    - 页面框架的初始化脚本
+    - 上报相关打点
+    - css内联避免页面闪动
+- 请求层面
+    - 小图片或字体内联(url-loader)
+
+##### html/js内联
+
+```html
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ${ require('raw-loader!./meta.html')}
+    <title>Document</title>
+    <script>${ require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js')}</script>
+</head>
+<body>
+    <div id="root"><!--HTML_PLACEHOLDER--></div>
+    <!--INITIAL_DATA_PLACEHOLDER-->
+</body>
+</html>
+```
+
+##### css内联
+
+- style-loader
+
+    ```javascript
+    module.exports = {
+        module: {
+            rules: [
+                {
+                    test: /\.scss$/,
+                    use: [
+                        {
+                            loader: 'style-loader',
+                            options: {
+                                insertAt: 'top', //插入head
+                                singleton: true //合并所有style tag
+                            }
+                        },
+                        'css-loader',
+                        'scss-loader'
+                    ]
+                }
+            ]
+        }
+    }
+    ```
+
+- html-inline-css-webpack-plugin
+
+#### 8 MPA bundle
+
+```javascript
+const glob = require('glob')
+const path = require('path')
+
+//动态获取entey和htmlWebpackPlugins
+const setMPA = () => {
+    const entry = {};
+    const htmlWebpackPlugins = [];
+    const entryFiles = glob.sync(path.join(__dirname, './src/*/index.js'));
+
+    Object.keys(entryFiles)
+        .map((index) => {
+            const entryFile = entryFiles[index];
+            // '/Users/cpselvis/my-project/src/index/index.js'
+
+            const match = entryFile.match(/src\/(.*)\/index\.js/);
+            const pageName = match && match[1];
+
+            entry[pageName] = entryFile;
+            htmlWebpackPlugins.push(
+                new HtmlWebpackPlugin({
+                    inlineSource: '.css$',
+                    template: path.join(__dirname, `src/${pageName}/index.html`),
+                    filename: `${pageName}.html`,
+                    chunks: ['vendors', pageName],
+                    inject: true,
+                    minify: {
+                        html5: true,
+                        collapseWhitespace: true,
+                        preserveLineBreaks: false,
+                        minifyCSS: true,
+                        minifyJS: true,
+                        removeComments: false
+                    }
+                })
+            );
+        });
+
+    return {
+        entry,
+        htmlWebpackPlugins
+    }
+}
+
+const { entry, htmlWebpackPlugins } = setMPA()
+
+module.exports = {
+    entry: entry,
+    output: {
+        path: path.join(__dirname, 'dist'),
+        filename: '[name]_[chunkhash:8].js'
+    },
+    mode: 'production',
+    module: {
+		...
+    },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: '[name]_[contenthash:8].css'
+        }),
+        new OptimizeCSSAssetsPlugin({
+            assetNameRegExp: /\.css$/g,
+            cssProcessor: require('cssnano')
+        }),
+        new CleanWebpackPlugin()
+    ].concat(htmlWebpackPlugins)
+};
+```
+
+#### 8 source map
+
+- eval: 使用eval包括模块代码
+- source map: 产生.map文件
+- cheap: 不包含列信息
+- inline: 将.map作为DataURI嵌入,不单独生成.map
+- module: 包含loader的source map
+
+![](images/webpack-2.png)
+
+#### 
 
 
 
