@@ -38,6 +38,10 @@
 - [咔咔出行](https://github.com/wwenj/tripRecord)
 - [Node.js + Koa2 + MySQL + Vue.js 实战开发一套完整个人博客项目网站](https://segmentfault.com/a/1190000019603915?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)
 
+### h5
+
+- [HTML5新增的标签与属性](https://juejin.im/post/5d1b43edf265da1bae3914ac)
+
 ### css
 
 - [20 个让你效率更高的 CSS 代码技巧](https://segmentfault.com/a/1190000019542534)
@@ -101,7 +105,7 @@
 ### Vue
 
 #### vue related
-
+- [Vue中的动画特效](https://juejin.im/post/5d1b4e32e51d457753138225)
 -[vue 技术分享-你可能不知道的 7 个秘密](http://www.bslxx.com/a/vue/kaiyuankuangjia/2018/0426/1952.html)
 
 - [Vue.js 中 watch 的高级用法，深度和注销观察](http://www.bslxx.com/a/vue/mianshiti/2018/0506/1964.html)

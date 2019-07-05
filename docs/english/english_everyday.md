@@ -1,3 +1,29 @@
+- 2019.7.5
+  - federal adj/n
+  - reserve n/v
+  - disappointment n
+  - cite vt
+  - inflation/deflation n
+  - resist vi/vt
+  - mandate n/vt
+  - sustainable adj
+  - concern n/vt
+  - concerned adj
+  - pace n/vi/vt
+  - impetus n
+  - firmly adv
+  - spike n/vi/vt
+  - loan n
+  - recession n
+  - expension n
+  - prospect n/vi
+  - debate n/vi/vt
+  - staggering adj
+
+  > that is very much on their mind at the moment
+  > as noted above
+  > a big swing down
+
 - 2019.7.4
   - drone n
   - unmanned adj
