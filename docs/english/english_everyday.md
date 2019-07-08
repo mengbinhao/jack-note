@@ -1,3 +1,15 @@
+- 2019.7.8
+  - underwrite vt
+  - doubling n
+  - reception n
+  - utterly adv
+  - gethering n/adj
+  - underway adj
+  - counterpart n
+  - gesture n/vt
+
+  > and in return
+
 - 2019.7.5
   - federal adj/n
   - reserve n/v

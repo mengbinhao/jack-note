@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(36)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
 - 掘金小册
 
 ### practise
@@ -105,6 +105,7 @@
 ### Vue
 
 #### vue related
+- [Vue.js 中的实用工具方法](https://vxhly.github.io/archives/f8feee9.html)
 - [Vue中的动画特效](https://juejin.im/post/5d1b4e32e51d457753138225)
 -[vue 技术分享-你可能不知道的 7 个秘密](http://www.bslxx.com/a/vue/kaiyuankuangjia/2018/0426/1952.html)
 
@@ -217,7 +218,8 @@
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 
 ### React
-
+- [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd&chksm=ec2b4bb8db5cc2ae3642ccc90f7d6a9e66546de1c85cb70d2f6b6ed1969f2dbb615ff32f0dce&xtrack=1&scene=0&subscene=91&sessionid=1562118484&clicktime=1562118488&ascene=7&devicetype=android-28&version=270004b2&nettype=WIFI&abtest_cookie=BQABAAoACwASABMAFQAFACOXHgBWmR4AwJkeAPiZHgALmh4AAAA=&lang=zh_CN&pass_ticket=PqVzfEYgXFVtYMgy6sr0b+vs0CmNFI1UAW/JTFr5HGoLOsvtv930HeO8i4yONFYC&wx_header=1&utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+- [21 项优化 React App 性能的技术](https://segmentfault.com/a/1190000019685362)
 - [一文速览 React 全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
 - [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
 - [小书](http://huziketang.com/books/react/lesson1)
