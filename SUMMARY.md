@@ -45,6 +45,7 @@
     - [JS 军规](docs/frontend/js/JS军规.md)
     - [macrotaskmicrotask](docs/frontend/js/macrotaskmicrotask.md)
     - [note](docs/frontend/js/note.md)
+    - [practise](docs/frontend/js/practise.md)
     - [refactor](docs/frontend/js/refactor.md)
     - [regex](docs/frontend/js/regex.md)
     - [this&prototype&inherit](docs/frontend/js/this&prototype&inherit.md)

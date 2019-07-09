@@ -1,3 +1,21 @@
+- 2019.7.9
+  - comply vi
+  - supplier n
+  - deny vt
+  - tolerable adj
+  - standpoint
+  - astronomical adj
+  - fine adj/adv/vt/n
+  - waiver n
+  - skake n/vt
+  - retaliate vi
+  - rival n/vt
+  - regulation n/adj
+  - complaint n
+  - nevertheless adv
+
+  > that was go too far
+
 - 2019.7.8
   - underwrite vt
   - doubling n

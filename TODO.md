@@ -73,7 +73,6 @@
 
 ### JS
 
-- [8 个有用的 JS 技巧](https://segmentfault.com/a/1190000019617387)
 - [JS 中可以提升幸福度的小技巧](https://juejin.im/post/5b51e5d3f265da0f4861143c)
 - [编写更好的 JavaScript 条件式和匹配条件的技巧](https://segmentfault.com/a/1190000019576207)
 - [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
