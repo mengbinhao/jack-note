@@ -48,6 +48,7 @@
 - [45 个值得收藏的 CSS 形状](https://segmentfault.com/a/1190000018922732)
 - [display:none 与 visibility:hidden](https://segmentfault.com/a/1190000016570003)
 - [css 填坑常用代码](https://segmentfault.com/a/1190000002515272)
+- [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 
 ### nodejs
 
@@ -72,38 +73,29 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
 
 ### JS
-
-- [JS 中可以提升幸福度的小技巧](https://juejin.im/post/5b51e5d3f265da0f4861143c)
-- [编写更好的 JavaScript 条件式和匹配条件的技巧](https://segmentfault.com/a/1190000019576207)
-- [25 个 JavaScript 单行代码](https://juejin.im/post/5d01bd04f265da1b7a4b6e03)
-- [我所理解的 promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
-- [你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
-- [前端业务代码配置化](https://segmentfault.com/a/1190000019420857)
-- [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879#heading-45)
-- [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
-- [reduce 的 n 种应用](https://juejin.im/post/5cbd7e085188250a8b7cf5c9)
-- [记一些 Promise 相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
-- [原生 JS 知识点整理](https://juejin.im/post/5cb7b62b5188253772753c01#heading-28)
-- [如何优雅处理前端异常](http://news.51cto.com/art/201903/593360.htm)
-- [详解 JS 错误处理](https://segmentfault.com/a/1190000019226851#articleHeader12)
-- [js 错误处理权威指北](https://juejin.im/post/5bfa5a8cf265da6124151e62)
-- [前端 js 导出 excel 方法分享](https://www.haorooms.com/post/js_exportexcel_fx_2019)
-- [封装 AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
-- [HTML5 图片上传解决方案](https://blog.hhking.cn/2018/11/29/html5-img-upload/)
-- [关于 input 的一些问题解决方法分享](http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB)
-- [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
-- [JavaScript DOM 元素长宽等比例缩放](https://juejin.im/post/5be297f16fb9a049aa6e8dcb)
-- [JavaScript 开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48#heading-6)
+- [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
+- [封装AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
 - [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
+- [2019年常用JavaScript正则大全](https://juejin.im/post/5d245d4151882555300feb77)
+- [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
+- [我所理解的Promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
+- [记一些Promise相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
+- [如何优雅处理前端异常](http://news.51cto.com/art/201903/593360.htm)
+- [详解 JS 错误处理](https://segmentfault.com/a/1190000019226851)
+- [js 错误处理权威指北](https://juejin.im/post/5bfa5a8cf265da6124151e62)
+- [HTML5图片上传解决方案](https://blog.hhking.cn/2018/11/29/html5-img-upload/)
+- [前端js导出excel方法分享](https://www.haorooms.com/post/js_exportexcel_fx_2019)
+- [关于input的一些问题解决方法分享](http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB)
 - [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
+- [JavaScript DOM元素长宽等比例缩放](https://juejin.im/post/5be297f16fb9a049aa6e8dcb)
 - [关于移动端适配](https://segmentfault.com/a/1190000019207842)
-- [前端工具函数](https://segmentfault.com/a/1190000019256898)
-- [28 个 JavaScript 技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 - [前端单元测试实践(koa 篇)](https://juejin.im/post/5d09935ce51d451063431816)
+- [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 
 ### Vue
 
 #### vue related
+
 - [Vue.js 中的实用工具方法](https://vxhly.github.io/archives/f8feee9.html)
 - [Vue中的动画特效](https://juejin.im/post/5d1b4e32e51d457753138225)
 -[vue 技术分享-你可能不知道的 7 个秘密](http://www.bslxx.com/a/vue/kaiyuankuangjia/2018/0426/1952.html)
@@ -168,6 +160,7 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [编写 Vue.js 组件前需要知道的 10 件事](https://www.infoq.cn/article/bgODkIpKMbsq-hcPoDJY)
 - [抽屉组件](https://juejin.im/post/5ce604aef265da1b827a746b)
 - [Vue 自定义全局 Toast 和 Loading](https://segmentfault.com/a/1190000018901270)
 - [Vue button component](https://juejin.im/post/5afcd516f265da0b9e65414b)
@@ -185,6 +178,8 @@
 
 - [如何写出一个利于扩展的 vue 路由配置](https://juejin.im/post/5cdbc0fde51d456e781f20e3)
 - [Vue 项目功能实现：刷新当前页面](https://segmentfault.com/a/1190000019635080)
+- [router传递参数并解决刷新页面参数丢失问题](https://segmentfault.com/a/1190000019699706)
+- [Vue实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
 
 #### vuex
 
@@ -341,6 +336,7 @@
 - [html & css & js](http://0313.name/archives/502#JavaScript)
 - [front all](https://finget.github.io/2019/01/15/interview-questions/)
 - [JavaScript 面试知识点合集](https://juejin.im/post/5cc230ae5188252e741cc751)
+- [原生JS知识点](https://juejin.im/post/5cb7b62b5188253772753c01)
 - [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
 - [面试](https://juejin.im/post/5c7f5923f265da2dd218f195#heading-24)
 
