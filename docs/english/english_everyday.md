@@ -1,3 +1,212 @@
+- 2019.7.9
+  - comply vi
+  - supplier n
+  - deny vt
+  - tolerable adj
+  - standpoint
+  - astronomical adj
+  - fine adj/adv/vt/n
+  - waiver n
+  - skake n/vt
+  - retaliate vi
+  - rival n/vt
+  - regulation n/adj
+  - complaint n
+  - nevertheless adv
+
+  > that was go too far
+
+- 2019.7.8
+  - underwrite vt
+  - doubling n
+  - reception n
+  - utterly adv
+  - gethering n/adj
+  - underway adj
+  - counterpart n
+  - gesture n/vt
+
+  > and in return
+
+- 2019.7.5
+  - federal adj/n
+  - reserve n/v
+  - disappointment n
+  - cite vt
+  - inflation/deflation n
+  - resist vi/vt
+  - mandate n/vt
+  - sustainable adj
+  - concern n/vt
+  - concerned adj
+  - pace n/vi/vt
+  - impetus n
+  - firmly adv
+  - spike n/vi/vt
+  - loan n
+  - recession n
+  - expension n
+  - prospect n/vi
+  - debate n/vi/vt
+  - staggering adj
+
+  > that is very much on their mind at the moment
+  > as noted above
+  > a big swing down
+
+- 2019.7.4
+  - drone n
+  - unmanned adj
+  - retaliate vi
+  - proportional adj/n
+  - casualty n
+  - tough adj/adv/n
+  - de-escalate v
+  - intentionally adv
+  - negotiate vi/vt
+
+  > so he goes back and forth
+  > and that's pretty much what has been happening for the past few weeks
+  > on the one hand....on the other hand
+  > it does kind of raise questions about how xxxx
+
+- 2019.7.2
+  - intentional adj
+  - loose n/vt/adj
+  - conciliatory adj
+  - tactical adj
+  - hawkish adj
+  - aggresive adj
+  - coherent adj
+  - escalation n
+  - crippling adj
+  - assumption n
+  - sue vi/vt
+  - ally n
+  - credibility n
+  - suspicious n
+  - isolated adj
+
+  > xxxx as minor
+  > mixed message
+  > foolish move
+
+- 2019.6.28
+  - establishment n
+  - redical adj/n
+  - hatred n
+  - prejudice n/vt
+  - rage n/vi/vt
+  - rally n/vi/vt
+  - metaphorically adv
+  - literally adv
+  - rig n/vt
+  - grievance n
+  - accusation n
+  - echo n/vi/vt
+
+  > one every two or three weeks
+  > In the couple seconds we have left
+  > In very personal terms
+  > What's on their minds?
+  > He really stuck to the scripts
+  > there's been a wide range
+
+- 2019.6.28
+  - depose / oust vt
+  - Egyptian adj/n
+  - Egypt n
+  - collapse n/vi
+  - faint n/vi/adj
+  - trial / retrial n
+  - democratically adv
+  - jail n/vt
+  - crackdown n
+  - circumstance n
+  - ban vt
+  - convicted adj
+  - undergo vt
+  - procecutor n
+  - defendant n
+  - Turkish adj/n
+  - mistreat vt
+  - polarize vi/vt
+  - exile n/vt
+  - subdued adj
+  - funeral n
+
+  > So there's been a wide range
+
+- 2019.6.27
+  - stockpile n/vt
+  - enriched adj
+  - enrichment n
+  - altogether adv
+  - reactor adv
+  - headline n/vt
+  - diplomat n
+  - violation n
+  - relief n
+  - abide vi
+  - exert vt
+  - provocative adj
+  - arena n
+  - dilute adj/vt
+  - strain n/vt
+
+  > But as I said earlier / as you mentioned
+  > be fall apart altogether
+  > It was full of all sorts of figures and numbers, but basically, what it came down to was this ...
+  > there is a couple of reasons
+
+- 2019.6.26
+  - departure n
+  - personnel n
+  - tenure n
+  - aggresive adj
+  - toe-to-toe
+  - insult n/vt
+  - resolutely adj
+  - predecessor n
+  - poduim n
+  - embarrassing adj
+  - corps n
+  - countless n
+  - sentiment n
+
+  > I can speak to my own personal experience
+
+- 2019.6.25
+
+  - assessment n
+  - expertise n
+  - proficiency n
+  - afloat adj/adv
+  - evacuate vi/vt
+  - speculation n
+  - circumstantial adj
+  - takeaway n
+  - plot n/vi/vt
+  - fierce adj
+  - yield n/vi/vt
+  - derail vi/vt
+  - heighten vi/vt
+
+  > There is no question about it
+  >
+  > at the very time
+
+
+
+
+
+
+
+
+
+
+
+
 1. dwell on the past
 
 > u can not always dwell on the past

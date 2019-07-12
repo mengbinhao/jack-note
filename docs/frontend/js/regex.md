@@ -212,3 +212,5 @@ console.log( regex.test(string4) ); // false
 8. 拆分正则表达式
 9. 将最可能匹配的多选分支放在前头
 10. 避免指数级匹配
+
+### [resource](https://any86.github.io/any-rule/)

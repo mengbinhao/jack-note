@@ -765,7 +765,25 @@ app.listen(3000)
 console.log('session demo is starting at port 3000')
 ```
 
-### 8.view
+### 8.常用中间件
+
+- reify
+
+- ##### koa-conditional-get
+
+- koa-etag
+
+- ##### koa-bodyparser
+
+- ##### koa-static
+
+- ##### koa-views
+
+- ##### koa-mount  通过 URL 挂载，将其他 Koa 实例挂在到一个主实例中
+
+- ##### koa-connect  兼容 Express 中间件可以在 Koa 中使用
+
+### 9.view
 
 #### ejs
 
@@ -940,7 +958,7 @@ app.use(nunjucks({
       </html>
     ```
 
-### 9.upload
+### 10.upload
 
 #### busboby
 
@@ -1429,7 +1447,7 @@ function uploadAction( options ) {
 
 
 
-### 10.integrated with MySQL
+### 11.integrated with MySQL
 
 #### mysql
 
@@ -1732,7 +1750,7 @@ INSERT INTO `user` set email='2@example.com', password='123456';
 INSERT INTO `user` set email='3@example.com', password='123456';
 ```
 
-### 11.jsonp
+### 12.jsonp
 
 #### 原生koa2实现jsonp
 
@@ -1834,7 +1852,7 @@ ctx.send({
 })
 ```
 
-### 12.unit test
+### 13.unit test
 
 - mocha 模块是测试框架
 - chai 模块是用来进行测试结果断言库，比如一个判断 1 + 1 是否等于 2
@@ -1914,7 +1932,7 @@ describe( '开始测试demo的GET请求', ( ) => {
 })
 ```
 
-### 13.log4js
+### 14.log4js
 
 
 
@@ -1983,13 +2001,13 @@ module.exports = () => {
 
 #### 对日志中间件进行错误处理
 
-### 14.错误处理
+### 15.错误处理
 
 #### 抽取中间件并引入
 
 #### 渲染页面逻辑
 
-### 15.规范与部署
+### 16.规范与部署
 
 - `nodemon`自动重启(全局本地都安装)
 

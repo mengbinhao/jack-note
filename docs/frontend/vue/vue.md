@@ -93,7 +93,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - 鼠标修饰符`left、right、middle`
 - 自定义事件
 
-#### v-slot(2.6+)
+#### v-slot(2.6)
 
 ```javascript
 <template v-slot:default>
@@ -158,11 +158,15 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
 ### 组件
 - 属性
-  - 自定义
-  - html属性自动挂载 //可以设置inheritAttrs = false关闭
-  - 特殊class / style / ref / key / props
+  - 自定义属性 props
+  - 原声属性自动挂载到组件根元素上  //可以设置inheritAttrs = false关闭
+  - 特殊属性class / style / ref / key
 - 事件
-- 插槽(普通/作用域)
+    - 普通事件
+    - 修饰符事件，应用于原生html元素
+- 插槽
+    - 普通
+    - 作用域
 ```javascript
 Vue.component(‘componentName',{
   props:[‘p1’,’p2’],

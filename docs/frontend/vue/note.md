@@ -1,4 +1,21 @@
 ### vue
+- 如何触发data的更新
+    - 响应式
+    - 模板使用到
+- template不会渲染到页面` <template v-if="isVal">`
+- `provide` 和 `inject` 绑定并不是可响应的。这是刻意为之的。然而，如果你传入了一个可监听的对象，那么其对象的属性还是可响应的
+
+```javascript
+provide() {
+  this.theme = Vue.observable({
+    color: "blue"
+  });
+  return {
+    theme: this.theme
+  };
+}
+```
+
 - props
 ```javascript
 props: {
@@ -24,6 +41,10 @@ props: {
 		validator: function (value) {
 			return ['success', 'warning', 'danger'].indexOf(value) !== -1
 		}
+	},
+    propG: {
+		type: Array,
+         default: () => [] 
 	}
 }
 ```
@@ -65,6 +86,28 @@ export default {
  }
 }
 ```
+- 自定义model
+
+```javascript
+model: {
+    prop: "phoneInfo", // 默认 value
+    event: "change" // 默认 input
+},
+props: {
+    phoneInfo: Object,
+    zipCode: String
+}
+
+<PersonalInfo v-model="phoneInfo" :zip-code.sync="zipCode" />
+
+<PersonalInfo
+    :phone-info="phoneInfo"
+    :zip-code="zipCode"
+    @change="val => (phoneInfo = val)"
+    @update:zipCode="val => (zipCode = val)"
+/>
+```
+
 - .sync
 ```javascript
 //子组件
@@ -77,50 +120,7 @@ this.$emit('update:title', newTitle)
 ></text-document>
 
 //to
-<text-document v-bind:title.sync="doc.title"></text-document>
-```
-
-- template不会渲染到页面` <template v-if="isVal">`
-
-- 基础组件全局注册
-```javascript
-import Vue from 'vue'
-import upperFirst from 'lodash/upperFirst'
-import camelCase from 'lodash/camelCase'
-
-const requireComponent = require.context(
-  // 其组件目录的相对路径
-  './components',
-  // 是否查询其子目录
-  false,
-  // 匹配基础组件文件名的正则表达式
-  /Base[A-Z]\w+\.(vue|js)$/
-)
-
-requireComponent.keys().forEach(fileName => {
-  // 获取组件配置
-  const componentConfig = requireComponent(fileName)
-
-  // 获取组件的 PascalCase 命名
-  const componentName = upperFirst(
-    camelCase(
-      // 获取和目录深度无关的文件名
-      fileName
-        .split('/')
-        .pop()
-        .replace(/\.\w+$/, '')
-    )
-  )
-
-  // 全局注册组件
-  Vue.component(
-    componentName,
-    // 如果这个组件选项是通过 `export default` 导出的，
-    // 那么就会优先使用 `.default`，
-    // 否则回退到使用模块的根。
-    componentConfig.default || componentConfig
-  )
-})
+<text-document v-bind:title.sync="doc.title"></text-document>`
 ```
 
 - watch
@@ -133,8 +133,9 @@ watch: {
   }
 }
 ```
-- computed(getter/setter)
+- computed(数据缓存、依赖响应式数据、减少模板中的计算逻辑)
 ```javascript
+//getter/setter
 computed: {
   fullName: {
     get: function () {
@@ -212,7 +213,7 @@ data: {
 </style>
 ```
 
-- slot
+- v-slot
 ```javascript
 //具名插槽
 <base-layout>
@@ -230,6 +231,7 @@ data: {
 </base-layout>
 
 //作用域插槽
+//子组件抛出自己的状态，父组件在外面使用
 <!-- current-user组件 -->
 <span>
   <slot :user="user">
@@ -288,6 +290,46 @@ data: {
         }
     }
 </script>
+```
+- 基础组件全局注册
+```javascript
+import Vue from 'vue'
+import upperFirst from 'lodash/upperFirst'
+import camelCase from 'lodash/camelCase'
+
+const requireComponent = require.context(
+  // 其组件目录的相对路径
+  './components',
+  // 是否查询其子目录
+  false,
+  // 匹配基础组件文件名的正则表达式
+  /Base[A-Z]\w+\.(vue|js)$/
+)
+
+requireComponent.keys().forEach(fileName => {
+  // 获取组件配置
+  const componentConfig = requireComponent(fileName)
+
+  // 获取组件的 PascalCase 命名
+  const componentName = upperFirst(
+    camelCase(
+      // 获取和目录深度无关的文件名
+      fileName
+        .split('/')
+        .pop()
+        .replace(/\.\w+$/, '')
+    )
+  )
+
+  // 全局注册组件
+  Vue.component(
+    componentName,
+    // 如果这个组件选项是通过 `export default` 导出的，
+    // 那么就会优先使用 `.default`，
+    // 否则回退到使用模块的根。
+    componentConfig.default || componentConfig
+  )
+})
 ```
 
 - element-ui related
@@ -474,7 +516,8 @@ const router = new VueRouter({
     {
       path: '/user/:id',
       components: { default: User, sidebar: Sidebar },
-      props: { default: true, sidebar: false }
+      //props: { default: true, sidebar: false }
+      props: true
     }
   ]
 })
@@ -554,3 +597,42 @@ export default new Vuex.Store({
 })
 ```
 
+-  mapState / mapMutations / mapGetters / mapActions
+
+```javascript
+import {mapState, mapGetters, mapActions} from 'vuex'
+
+computed: {
+    ...mapState(['count']),
+    ...mapGetters(['evenOrOdd'])
+},
+
+methods: {
+    ...mapActions(['increment', 'decrement', 'incrementIfOdd', 'incrementAsync'])
+}
+```
+
+- 事件常量代替moutation类型,放到单独文件中
+
+```javascript
+//mutation-types.js
+export const SOME_MUTATION = 'SOME_MUTATION'
+
+
+//store.js
+import vuex from 'vuex'
+import { SOME_MUTATION } from './mutation-types.js'
+
+const store = new Vuex.Store({
+    state: {...},
+    mutation: {
+        [SOME_MUTATION](state) {
+            //...
+        }          
+    }
+})
+```
+
+- module
+    - 开启namespaced:true
+    - createNamespacedHelpers
