@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(36)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(40)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
 - 掘金小册
 
 ### practise
@@ -44,10 +44,10 @@
 
 ### css
 
-- [20 个让你效率更高的 CSS 代码技巧](https://segmentfault.com/a/1190000019542534)
-- [45 个值得收藏的 CSS 形状](https://segmentfault.com/a/1190000018922732)
-- [display:none 与 visibility:hidden](https://segmentfault.com/a/1190000016570003)
-- [css 填坑常用代码](https://segmentfault.com/a/1190000002515272)
+- [20个让你效率更高的CSS代码技巧](https://segmentfault.com/a/1190000019542534)
+- [css填坑常用代码](https://segmentfault.com/a/1190000002515272)
+- [45个值得收藏的CSS形状](https://segmentfault.com/a/1190000018922732)
+- [display:none与visibility:hidden](https://segmentfault.com/a/1190000016570003)
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 
 ### nodejs
@@ -58,11 +58,8 @@
 
 ### front
 
-- [前后端分离](http://blog.jobbole.com/65513/)
-- [前端加密 3 种方式](https://segmentfault.com/a/1190000019164592)
-- [前端工具库汇总](https://segmentfault.com/a/1190000016992952)
-- [前端](https://segmentfault.com/a/1190000016420985)
-- [前端](http://0313.name/archives/485#16)
+- [前端 resource](https://segmentfault.com/a/1190000016420985)
+- [前端 resource](http://0313.name/archives/485)
 - [前端安全](https://juejin.im/post/5af931a8f265da0b8d420b64)
 - [前端优化](https://segmentfault.com/a/1190000018263418)
 - [前端优化](https://segmentfault.com/a/1190000018530091)
@@ -96,7 +93,6 @@
 
 #### vue related
 
-- [Vue.js 中的实用工具方法](https://vxhly.github.io/archives/f8feee9.html)
 - [Vue中的动画特效](https://juejin.im/post/5d1b4e32e51d457753138225)
 -[vue 技术分享-你可能不知道的 7 个秘密](http://www.bslxx.com/a/vue/kaiyuankuangjia/2018/0426/1952.html)
 
@@ -279,6 +275,7 @@
 - [打包优化 Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境,如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
+- [vue webpack重写cookie路径](https://www.ddhigh.com/2019/07/08/vue-webpack-rewrite-cookie-path.html)
 
 ### Other
 
