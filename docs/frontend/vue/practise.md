@@ -1,4 +1,6 @@
-### watch
+## Vue
+
+### 1 watch
 
 ```javascript
 created(){
@@ -18,13 +20,474 @@ watch: {
         immediate: true
     }
 }
+
+
+
+//优化deep
+watch: {
+  obj: {
+    handler(newName, oldName) {
+      console.log('obj.a changed');
+    },
+    immediate: true,
+    deep: true
+  }
+} 
+
+//改成
+watch: {
+  'obj.a': {
+    handler(newName, oldName) {
+      console.log('obj.a changed');
+    },
+    immediate: true
+  }
+} 
+
+
+//全局watch定义的时候需要注销watch
+const unWatch = app.$watch('text', (newVal, oldVal) => {
+  console.log(`${newVal} : ${oldVal}`);
+})
+
+unWatch();
+```
+
+### computed
+
+```javascript
+//setter
 ```
 
 
 
+### 2 watch + computed
+
+```javascript
+//Not recommended 1
+data(){
+    return {
+        keyword:'',
+        region:'',
+        deviceId:'',
+        page:1
+    }
+},
+methods:{
+    fetchData(paramrs={
+        keyword:this.keyword,
+        region:this.region,
+        deviceId:this.deviceId,
+        page:this.page,
+    }){
+        this.$http.get("/list",paramrs).then("do some thing")
+    }
+},
+created(){
+    this.fetchData()
+},
+watch: {
+    keyword(data){
+        this.keyword=data
+        this.fetchData()
+    },
+    region(data){
+        this.region=data
+        this.fetchData()
+    },
+    deviceId(data){
+        this.deviceId=data
+        this.fetchData()
+    },
+    page(data){
+        this.page=data
+        this.fetchData()
+    },
+    requestParams(params){
+        this.fetchData(params)
+    }
+}
 
 
-### common filter
+//Not recommended 2
+data(){
+    return {
+        keyword:'',
+        region:'',
+        deviceId:'',
+        page:1
+    }
+},
+methods:{
+    paramsChange(paramsName,paramsValue){
+        this[paramsName]=paramsValue
+        this.fetchData()
+    },
+    fetchData(paramrs={
+        keyword:this.keyword,
+        region:this.region,
+        deviceId:this.deviceId,
+        page:this.page,
+    }){
+        this.$http.get("/list",paramrs).then("do some thing")
+    }
+},
+created(){
+    this.fetchData()
+}
+
+//recommended
+<el-pagination
+    layout="total, prev, pager, next, jumper"
+    :total="total"
+    prev-text="上一页"
+    next-text="下一页"
+    @current-change="paramsChange('page',$event)"
+    >
+</el-pagination>
+
+
+//需要在模板里面每个参数change的地方绑定事件，并传递参数值,比如分页change时：
+data(){
+    return {
+        keyword:'',
+        region:'',
+        deviceId:'',
+        page:1
+    }
+},
+computed:{
+    requestParams() {
+        return {
+            page: this.page,
+            region: this.region,
+            id: this.deviceId,
+            keyword: this.keyword
+        }
+    }
+},
+methods:{
+    fetchData(paramrs={
+        keyword:this.keyword,
+        region:this.region,
+        deviceId:this.deviceId,
+        page:this.page,
+    }){
+        this.$http.get("/list",paramrs).then("do some thing")
+    }
+},
+watch: {
+    requestParams: {
+        handler: 'fetchData',
+        immediate: true
+    }
+},
+```
+
+### 3 监听页面刷新和关闭
+
+```javascript
+//beforeDestroy 只能监听到页面间的跳转，无法监听到页面刷新和关闭标签页
+//页面加载时只执行 onload 事件
+//页面关闭时，先 onbeforeunload 事件，再 onunload 事件
+//页面刷新时先执行 onbeforeunload事件，然后 onunload 事件，最后 onload 事件
+created() { 
+    this.initCart() 
+    window.addEventListener('beforeunload', this.updateHandler) 
+}, 
+beforeDestroy() { 
+    this.finalCart() // 提交购物车的异步操作
+}, 
+destroyed() { 
+    window.removeEventListener('beforeunload', this.updateHandler)
+}, 
+methods: { 
+    updateHandler() { 
+        this.finalCart() 
+    }, 
+    finalCart() {...} 
+}
+```
+
+### 4 修改子组件样式
+
+```javascript
+//可以在一个组件中同时使用有作用域和无作用域的样式
+<style lang="sass" scoped>
+/* 本地样式 */
+</style>
+<style lang="sass">
+/* 全局样式
+*  修改子组件样式，最好在子组件外嵌套一个类
+*/
+</style>
+
+
+//深选择器
+<style scoped>
+  .myHeader >>> .title {
+    color: red;
+  }
+</style>
+
+//像 SASS 之类的预处理器无法正确解析 >>>,用 /deep/
+<style scoped>
+  .myHeader /deep/ .title {
+    color: red;
+  }
+</style>
+```
+
+### 5 mixin
+
+```javascript
+/**
+ *   mixin/table.js
+ */
+export default {
+    data() {
+        return {
+            keyword: '',
+            requestKeyword: '',
+            pages: 1,
+            size: 10,
+            total: 0,
+            tableData: []
+        }
+    }
+}
+
+//改成
+import mixin from '@/mixin/table'
+export default {
+    mixins: [mixin]
+    ...
+}
+
+//mixin对象只应该被调用一次，以下每个组件都打点，代码改到根实例中，通过this.$root访问
+Vue.mixin({
+    mounted() {
+        console.log('xxxxxxxxxxxxxx')
+    }
+})
+```
+
+### 6 基本组件注册(也适用于全局filter and directive)
+
+```javascript
+//main.js动态require组件,也可以单独抽离文件
+import upperFirst from 'lodash/upperFirst'
+import camelCase from 'lodash/camelCase'
+
+const requireComponent = require.context(
+  './components', false, /base-[\w-]+\.vue$/
+)
+
+requireComponent.keys().forEach(fileName => {
+
+  const componentConfig = requireComponent(fileName)
+
+  const componentName = upperFirst(
+    camelCase(fileName.replace(/^\.\//, '').replace(/\.vue/, ''))
+  )
+
+  // Register component globally
+  Vue.component(componentName, componentConfig.default || componentConfig)
+})
+
+
+//filter
+import * as custom from './common/filters/custom'
+Object.keys(custom).forEach(key => Vue.filter(key, custom[key]))
+```
+
+### 静态属性传给$options而不是data或computed
+
+```javascript
+export default {
+    phone: 138888888,
+    city: 'xi\'an'
+}
+component.$options.phone
+component.$options.city
+```
+
+### 考虑将非响应式(non-reactive)的数据转变为响应式(reactive)
+
+```javascript
+export default {
+    data() {
+        return {
+            token: null
+        }
+    },
+    method: {
+        updateToken() {
+            this.token = Cookies.get('xxx')
+        }
+    }
+}
+Cookies.set('xxx', 'yyy')
+component.updateToken()
+```
+
+### vue-loader
+
+```javascript
+//preserveWhitespace 减少文件体积
+{
+  vue: {
+    preserveWhitespace: false
+  }
+}
+
+//transformToRequire
+<template>
+  <div>
+    <avatar :default-src="DEFAULT_AVATAR"></avatar>
+  </div>
+</template>
+<script>
+  export default {
+    created () {
+      this.DEFAULT_AVATAR = require('./assets/default-avatar.png')
+    }
+  }
+</script>
+
+//通过配置 transformToRequire 后，vue-loader会把对应的属性自动 require 之后传给组件
+{
+  vue: {
+    transformToRequire: {
+      avatar: ['default-src']
+    }
+  }
+}
+
+<template>
+  <div>
+    <avatar default-src="./assets/default-avatar.png"></avatar>
+  </div>
+</template>
+```
+
+### render
+
+```javascript
+<template>
+  <div>
+    <child :level="level">Hello world!</child>
+  </div>
+</template>
+
+<script type='text/javascript'>
+  import Vue from 'vue'
+  Vue.component('child', {
+    render(h) {
+      const tag = ['div', 'p', 'strong', 'h1', 'h2', 'textarea'][this.level]
+      return h(tag, this.$slots.default)
+    },
+    props: {
+      level: {  type: Number,  required: true  } 
+    }
+  })   
+  export default {
+    name: 'hehe',
+    data() { return { level: 3 } }
+  }
+</script>
+
+//除了:is也可以实现动态组件
+<template>
+  <div>
+    <button @click='level = 0'>嘻嘻</button>
+    <button @click='level = 1'>哈哈</button>
+    <hr>
+    <child :level="level"></child>
+  </div>
+</template>
+
+<script type='text/javascript'>
+  import Vue from 'vue'
+  import Xixi from './Xixi'
+  import Haha from './Haha'
+  Vue.component('child', {
+    render(h) {
+      const tag = ['xixi', 'haha'][this.level]
+      return h(tag, this.$slots.default)
+    },
+    props: { level: { type: Number, required: true } },
+    components: { Xixi, Haha }
+  })
+  export default {
+    name: 'hehe',
+    data() { return { level: 0 } }
+  }
+</script>
+```
+
+
+
+### .sync
+
+```javascript
+export default {
+    props:['prop1'],
+    methods: {
+    	update() {
+            this.$emit('update:prop1', 1)
+    	}
+    }
+}
+
+<my-comp :prop1.sync="prop1">
+```
+
+### $nextTick
+
+```javascript
+//应用场景
+//在created 生命周期执行DOM操作
+//在数据变化后需要进行基于DOM结构的操作
+<template>
+	<div class="app">
+        <div ref="contentDiv">{{content}}</div>
+        <div>在nextTick执行前获取内容:{{content1}}</div>
+        <div>在nextTick执行之后获取内容:{{content2}}</div>
+        <div>在nextTick执行前获取内容:{{content3}}</div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name:'App',
+        data: {
+            content: 'Before NextTick',
+            content1: '',
+            content2: '',
+            content3: ''
+        },
+        methods: {
+            changeContent () {
+                this.content = 'After NextTick' // 在此处更新content的数据
+                this.content1 = this.$refs.contentDiv.innerHTML //获取DOM中的数据
+                this.$nextTick(() => {
+                    // 在nextTick的回调中获取DOM中的数据
+                    this.content2 = this.$refs.contentDiv.innerHTML 
+                })
+                this.content3 = this.$refs.contentDiv.innerHTML
+            }
+        },
+        mount () {
+            this.changeContent()
+        }
+    }
+</script>
+```
+
+
+
+### 7 common filter
 
 ```javascript
 import Vue from 'vue'
@@ -82,7 +545,7 @@ Vue.filter('digitUppercase', value => {
 })
 ```
 
-### common directive
+### 8 common directive
 ```javascript
 import Vue from 'vue'
 
@@ -115,7 +578,7 @@ Vue.directive('preventReplaceClick', {
 })
 ```
 
-### utils
+### 9 utils
 
 ```javascript
 /**
@@ -212,5 +675,223 @@ export function timerFormat (timer) {
     return _.values(timer)
   }
 }
+```
+
+### 10 唯一组件根元素(可以用render函数来渲染)
+
+```javascript
+functional: true,
+render(h, { props }) {
+  return props.routes.map(route =>
+    <li key={route.name}>
+      <router-link to={route}>
+        {route.title}
+      </router-link>
+    </li>
+  )
+}
+```
+
+### 11 组件包装、事件属性穿透问题
+
+```javascript
+//父组件
+<BaseInput 
+    :value="value"
+    label="密码" 
+    placeholder="请填写密码"
+    @input="handleInput"
+    @focus="handleFocus>
+</BaseInput>
+
+//子组件
+<template>
+  <label>
+    {{ label }}
+    <input
+      :value="value"
+      :placeholder="placeholder"
+      @focus=$emit('focus', $event)"
+      @input="$emit('input', $event.target.value)"
+    >
+  </label>
+</template>
+
+//这样写很不精简，很多属性和事件都是手动定义的
+<input
+    :value="value"
+    v-bind="$attrs"
+    v-on="listeners"
+>
+
+//$attrs包含了父作用域中不作为prop被识别(且获取)的特性绑定(class 和 style 除外)
+//$listeners包含了父作用域中的(不含 .native 修饰器的)v-on事件监听器
+computed: {
+  listeners() {
+    return {
+      ...this.$listeners,
+      input: event => 
+        this.$emit('input', event.target.value)
+    }
+  }
+}
+```
+
+
+
+## vue-router
+
+### 1 路由的延迟加载
+
+```javascript
+{
+  path: '/admin',
+  name: 'admin-dashboard',
+  component:require('@views/admin').default
+}
+// or
+{
+  path: '/admin',
+  name: 'admin-dashboard',
+  component:() => import('@views/admin')
+}
+
+
+//区分env，组件在开发环境下是非懒加载，生产环境下是懒加载
+//_import_production.js
+module.exports = file => () => import('@/views/' + file + '.vue')
+
+//_import_development.js (这种写法vue-loader版本至少v13.0.0以上)
+module.exports = file => require('@/views/' + file + '.vue').default
+
+//router/index.js
+const _import = require('./_import_' + process.env.NODE_ENV)
+
+export default new Router({
+  routes: [{ path: '/login', name: '登陆', component: _import('login/index') }]
+})
+```
+
+### 2 router key组件刷新
+
+```javascript
+//从/post-haorooms/a，跳转到/post-haorooms/b。页面跳转后数据没更新
+//option 1
+data() {
+  return {
+    loading: false,
+    error: null,
+    post: null
+  }
+}, 
+watch: {
+  '$route': {
+    handler: 'resetData',
+    immediate: true
+  }
+},
+methods: {
+  resetData() {
+    this.loading = false
+    this.error = null
+    this.post = null
+    this.getPost(this.$route.params.id)
+  },
+  getPost(id){
+
+  }
+}
+
+//option 2
+data() {
+  return {
+    loading: false,
+    error: null,
+    post: null
+  }
+},
+created () {
+  this.getPost(this.$route.params.id)
+},
+methods () {
+  getPost(postId) {
+    // ...
+  }
+}
+
+//给router-view添加一个唯一的key，这样即使是公用组件，只要url变化了，就一定会重新创建这个组件
+//一般应用在子路由里面，这样才可以不避免大量重绘，假设app.vue根目录添加这个属性，那么每次点击改变地址都会重绘，还是得不偿失的！
+<router-view :key="$route.fullpath"></router-view>
+```
+
+
+
+## vuex
+
+### 1 精简vuex的modules引入
+
+```javascript
+import auth from './modules/auth'
+import posts from './modules/posts'
+import comments from './modules/comments'
+// ...
+
+export default new Vuex.Store({
+  modules: {
+    auth,
+    posts,
+    comments,
+    // ...
+  }
+})
+
+/* index.js */
+import Vue from 'vue'
+import Vuex from 'vuex'
+
+import state from './state'
+import getters from './getters'
+import modules from './modules'
+import actions from './actions'
+import mutations from './mutations'
+
+Vue.use(Vuex)
+export default new Vuex.Store({
+    state,
+    getters,
+    mutations,
+    actions,
+    modules
+})
+
+//改成
+import camelCase from 'lodash/camelCase' 
+const requireModule = require.context('.', false, /\.js$/) 
+const modules = {} 
+
+requireModule.keys().forEach(fileName => { 
+    if (fileName === './index.js') return 
+    const moduleName = camelCase(fileName.replace(/(\.\/|\.js)/g, '')) 
+    modules[moduleName] = { 
+        namespaced: true, 
+        ...requireModule(fileName)
+    } 
+}) 
+
+export default modules
+
+/* index.js */
+import Vue from 'vue'
+import Vuex from 'vuex'
+import modules from './modules'
+
+Vue.use(Vuex)
+export default new Vuex.Store({
+    state,
+    getters,
+    mutations,
+    actions,
+    modules
+})
 ```
 

@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(40)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(41)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
 - 掘金小册
 
 ### practise
@@ -12,13 +12,13 @@
 - [zsh+on-my-zsh 配置教程指南](https://segmentfault.com/a/1190000013612471)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
-- [手摸手,带你用 vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
+- [手摸手,带你用 Vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
-- [express+mongodb+vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
-- [vue 全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993)
+- [express+mongodb+Vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
+- [Vue 全家桶制作一个精致的美团项目](https://segmentfault.com/a/1190000017343993)
 - [nodejs+koa2+mysql+sequelize+jwt](https://github.com/liangfengbo/nodejs-koa2-mysql-sequelize-jwt)
 - [Vue2.0+Node.js+MongoDB 全栈打造商城系统](https://coding.imooc.com/class/chapter/113)
-- [koa2+vue+mysql 全栈](https://segmentfault.com/a/1190000018535128)
+- [koa2+Vue+mysql 全栈](https://segmentfault.com/a/1190000018535128)
 - [Vue 全家桶+SSR+Koa2 全栈开发美团网](http://coding.imooc.com/class/chapter/280.html#Anchor)
 - [Vue 2.0 实战高级-开发移动端音乐 Web app](https://coding.imooc.com/class/chapter/107.html#Anchor)
 - [Vue.js 高仿开发饿了么 APP](https://coding.imooc.com/class/chapter/74.html#Anchor)
@@ -26,17 +26,17 @@
 - [第一个 Vue 项目台前幕后的经历](https://juejin.im/post/5c4f1f0de51d4552d573b784)
 - [Vue 实现电商网站项目](https://segmentfault.com/a/1190000018562933)
 - [Node.js 线上服务器部署与发布](http://coding.imooc.com/class/chapter/95.html#Anchor)
-- [koa+mysql+vue+socket.io + react vs vue](http://www.cnblogs.com/edwardloveyou/p/10702471.html)
+- [koa+mysql+Vue+socket.io + react vs Vue](http://www.cnblogs.com/edwardloveyou/p/10702471.html)
 - [Vue+Koa+Mongodb 小练习](https://juejin.im/post/5ba0a27b5188255c6a043058)
 - [全栈实践](https://segmentfault.com/a/1190000016101940)
 - [全栈实践](https://juejin.im/post/5b850a3e51882542e4420779)
 - [Vue2.5+Node.js 搭建一个多页面商城](https://juejin.im/post/5bf676acf265da6166241b0e)
 - [node+mongodb 部署在服务器并进行性能优化](https://segmentfault.com/a/1190000017143278)
 - [Vue+Express 实现登录状态权限控制](https://juejin.im/post/5ccc3eab6fb9a0321e16b18e)
-- [Vue/axios/vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
-- [vue 实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
+- [Vue/axios/Vue-router](https://juejin.im/post/5afe56e6f265da0ba76ffac3)
+- [Vue 实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
 - [咔咔出行](https://github.com/wwenj/tripRecord)
-- [Node.js + Koa2 + MySQL + Vue.js 实战开发一套完整个人博客项目网站](https://segmentfault.com/a/1190000019603915?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)
+- [Node.js + Koa2 + MySQL + Vue.js 实战开发一套完整个人博客项目网站](https://segmentfault.com/a/1190000019603915)
 
 ### h5
 
@@ -54,7 +54,8 @@
 
 - [Node.js 代理解决跨域问题](https://juejin.im/post/5cbbeaa4f265da0393786641)
 - [NodeJS Web 项目几个最佳实践](https://juejin.im/post/5cdd07826fb9a0322758e067)
-- [搭建一个 nodejs 脚手架](https://juejin.im/post/5d14653de51d4550a629b2b6?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+- [搭建一个 nodejs 脚手架](https://juejin.im/post/5d14653de51d4550a629b2b6)
+- [用优雅的代码武装我们的koa2项目](https://juejin.im/post/5d255d05518825424d656e11)
 
 ### front
 
@@ -91,35 +92,20 @@
 
 ### Vue
 
-#### vue related
+#### Vue related
 
-- [Vue中的动画特效](https://juejin.im/post/5d1b4e32e51d457753138225)
--[vue 技术分享-你可能不知道的 7 个秘密](http://www.bslxx.com/a/vue/kaiyuankuangjia/2018/0426/1952.html)
-
-- [Vue.js 中 watch 的高级用法，深度和注销观察](http://www.bslxx.com/a/vue/mianshiti/2018/0506/1964.html)
-- [blog](https://juejin.im/user/5b63c78d6fb9a04fa7756fd1)
-- [Vue Function-based API RFC](https://zhuanlan.zhihu.com/p/68477600)
-- [精读 vue-hooks](https://juejin.im/post/5d0243a3f265da1b8f1abc49)
-- [从 1 万篇文章中挑出的 40 篇最棒的 Vue 学习指南](https://zhuanlan.zhihu.com/p/33642051)
-- [Vue 技术内幕](http://hcysun.me/vue-design/art/6vue-init-start.html)
-- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/vue-analysis/)
-- [Vue 的 render 函数](https://segmentfault.com/a/1190000010913794)
-- [VUE 防抖与节流的最佳解决方案——函数式组件](https://juejin.im/post/5ce3e400f265da1bab298359)
-- [Vue 经验](http://www.cnblogs.com/zhengrunlin/p/9164951.html)
-- [Vue 经验](https://juejin.im/post/5b0a36366fb9a07a9c04aca2)
-- [Vue 经验](https://juejin.im/post/5ae02f39518825672f198ac2)
-- [yugasun blog](https://yugasun.com/)
-- [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
-- [Vue 数组对象双向绑定源码解读](https://juejin.im/post/5af665186fb9a07aa83ecde0)
-- [Vue 中\$nextTick 机制](https://juejin.im/post/5c749bc7e51d45659809408a)
-- [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
 - [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
-- [key 在 Vue 列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
-- [Vue 图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
-- [函数式组件、slots 和 children](https://juejin.im/post/5cd145dcf265da036b4a7abf)
-- [滑动验证码的原理并利用 Vue 实现滑动验证码](https://cuiqingcai.com/6730.html?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
-- [keepAlive](https://segmentfault.com/a/1190000019610283?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452#articleHeader1)
-- [使用 vue 中的混入 mixin 优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
+- [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
+- [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
+- [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
+- [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
+- [Vue的render函数](https://segmentfault.com/a/1190000010913794)
+- [Vue中的动画特效](https://juejin.im/post/5d1b4e32e51d457753138225)
+- [keepAlive](https://segmentfault.com/a/1190000019610283)
+- [Vue防抖与节流的最佳解决方案—函数式组件](https://juejin.im/post/5ce3e400f265da1bab298359)
+- [Vue图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
+- [滑动验证码的原理并利用Vue实现滑动验证码](https://cuiqingcai.com/6730.html)
+- [使用Vue中的混入mixin优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
 
 #### project related
 
@@ -130,8 +116,8 @@
 - [project 优化](https://juejin.im/post/5cdd4674e51d453a8f348c14#heading-0)
 - [一次简单的项目优化](https://segmentfault.com/a/1190000017909770)
 - [Vue 的打包优化之路](https://zhuanlan.zhihu.com/p/48461259#at)
-- [一个 Vue 引发的性能问题](https://www.yinchengli.com/2019/03/24/vue-performance-problem/)
-- [vue/vue-router/vuex 延迟加载动态延迟加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd)
+- [一个 Vue 引发的性能问题](https://www.yinchengli.com/2019/03/24/Vue-performance-problem/)
+- [Vue/Vue-router/vuex 延迟加载动态延迟加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd)
 - [Vue 工程化最佳实践](https://juejin.im/post/5c133223e51d4540391749f5)
 - [Vue 项目小技巧](https://juejin.im/post/5bdd57f451882517165d75cc)
 - [优化 Vue 组件的运行时性能](https://juejin.im/post/5bf7ca2f6fb9a049a9795a88)
@@ -149,9 +135,10 @@
 - [Vue CLI 2&3 下的项目优化实践 —— CDN + Gzip + Prerender](https://juejin.im/post/5b97b84ee51d450e6c7492f6)
 - [Vue 项目使用 pdf.js](https://juejin.im/post/5cd9498651882515cc7e465c)
 - [Vue 中导出 Excel](https://juejin.im/post/5cb7e74df265da039a3d68a1)
-- [vue+高德地图开发采坑](https://segmentfault.com/a/1190000019215845)
+- [Vue+高德地图开发采坑](https://segmentfault.com/a/1190000019215845)
 - [服务器发布 Vue/Nuxt 项目指南(多图)](https://segmentfault.com/a/1190000019525739)
-- [Vue 项目总结基于饿了么组件封装](https://segmentfault.com/a/1190000019612988?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)
+- [Vue 项目总结基于饿了么组件封装](https://segmentfault.com/a/1190000019612988)
+- [vue项目实现缓存的最佳方案](https://juejin.im/post/5d22f0f3f265da1b94216d0b)
 
 #### component related
 
@@ -164,15 +151,15 @@
 - [封装 Vue 组件的一些技巧](https://juejin.im/post/5cb3eed65188251b0351f2c4#heading-14)
 - [基于 Vue 构造器创建 Form 组件的通用解决方案](https://juejin.im/post/5bdc17ddf265da61483b0e67)
 - [Vue 动画的封装](https://segmentfault.com/a/1190000018130259)
-- [图片懒加载+封装 vue 懒加载组件](https://juejin.im/post/5c52ee216fb9a049ee80e283)
+- [图片懒加载+封装 Vue 懒加载组件](https://juejin.im/post/5c52ee216fb9a049ee80e283)
 - [Vue 实现函数防抖组件](https://juejin.im/post/5c2dc7a9e51d4573c8491e77)
 - [封装跨项目复用的 Vue 组件](https://juejin.im/post/5cc569af51882525166c4818)
 - [组件进阶](https://juejin.im/post/5cf633ad6fb9a07efe2da92d)
 - [Vue 组件间传参最佳实践](https://segmentfault.com/a/1190000019580144)
 
-#### vue-router
+#### Vue-router
 
-- [如何写出一个利于扩展的 vue 路由配置](https://juejin.im/post/5cdbc0fde51d456e781f20e3)
+- [如何写出一个利于扩展的 Vue 路由配置](https://juejin.im/post/5cdbc0fde51d456e781f20e3)
 - [Vue 项目功能实现：刷新当前页面](https://segmentfault.com/a/1190000019635080)
 - [router传递参数并解决刷新页面参数丢失问题](https://segmentfault.com/a/1190000019699706)
 - [Vue实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
@@ -184,31 +171,31 @@
 - [页面刷新后 vuex 中数据丢失-vuex-persistedstate/js-cookie](https://segmentfault.com/a/1190000019077724)
 - [一张图弄明白 Vuex 里该存放什么样的数据](https://juejin.im/post/5cd239136fb9a032297b1512)
 
-#### vue-cli
+#### Vue-cli
 
-- [配置一个 vue-cli3.0 项目](https://juejin.im/post/5cc18abdf265da039e1ff5fb#heading-4)
-- [面试官：自己搭建过 vue 开发环境吗](https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21)
-- [vue-cli3.0 的简单配置](https://juejin.im/post/5cdd47c16fb9a031fe3becfb)
+- [配置一个 Vue-cli3.0 项目](https://juejin.im/post/5cc18abdf265da039e1ff5fb#heading-4)
+- [面试官：自己搭建过 Vue 开发环境吗](https://juejin.im/post/5cc55c336fb9a032086dd701#heading-21)
+- [Vue-cli3.0 的简单配置](https://juejin.im/post/5cdd47c16fb9a031fe3becfb)
 - [手写我的 VUE-CLI](https://juejin.im/post/5cefa7936fb9a07ef06f78ba)
-- [vue-cil 3.0 配置说明](https://juejin.im/post/5d130b9a518825670124a721?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
-- [一张图教你快速玩转 vue-cli3](https://juejin.im/post/5d1782eaf265da1ba91592fc)
+- [Vue-cil 3.0 配置说明](https://juejin.im/post/5d130b9a518825670124a721)
+- [一张图教你快速玩转 Vue-cli3](https://juejin.im/post/5d1782eaf265da1ba91592fc)
 
 #### compare
 
-- [React for Vue developers](https://sebastiandedeyne.com/react-for-vue-developers/)
+- [React for Vue developers](https://sebastiandedeyne.com/react-for-Vue-developers/)
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
 - [Vue vs React](https://juejin.im/post/5c2de832f265da6172659b45)
 - [Vue vs React](https://github.com/lihongxun945/myblog/issues/21)
 - [Vue vs React](https://juejin.im/post/5b617801518825615d2fc92c)
 - [Vue vs React](https://juejin.im/entry/5b627627f265da0f66404074)
-- [vue vs react](https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?)
-- [vue vs react](https://segmentfault.com/a/1190000017414633)
-- [vue vs react vs angular](https://segmentfault.com/a/1190000016990339)
-- [vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/)
+- [Vue vs react](https://mp.weixin.qq.com/s/_-Mss0-6m9rGTasTpF2iOA?)
+- [Vue vs react](https://segmentfault.com/a/1190000017414633)
+- [Vue vs react vs angular](https://segmentfault.com/a/1190000016990339)
+- [Vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 
 ### React
-- [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd&chksm=ec2b4bb8db5cc2ae3642ccc90f7d6a9e66546de1c85cb70d2f6b6ed1969f2dbb615ff32f0dce&xtrack=1&scene=0&subscene=91&sessionid=1562118484&clicktime=1562118488&ascene=7&devicetype=android-28&version=270004b2&nettype=WIFI&abtest_cookie=BQABAAoACwASABMAFQAFACOXHgBWmR4AwJkeAPiZHgALmh4AAAA=&lang=zh_CN&pass_ticket=PqVzfEYgXFVtYMgy6sr0b+vs0CmNFI1UAW/JTFr5HGoLOsvtv930HeO8i4yONFYC&wx_header=1&utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+- [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
 - [21 项优化 React App 性能的技术](https://segmentfault.com/a/1190000019685362)
 - [一文速览 React 全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
 - [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
@@ -217,7 +204,7 @@
 - [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
 - [从 Mixin 到 HOC 再到 Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
 - [小知识 10 点](https://segmentfault.com/a/1190000018949348)
-- [深入分析虚拟 DOM 的渲染原理和特性](https://segmentfault.com/a/1190000018891454?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com&share_user=1030000000178452)
+- [深入分析虚拟 DOM 的渲染原理和特性](https://segmentfault.com/a/1190000018891454)
 - [React 函数组件和类组件的差异](https://zhuanlan.zhihu.com/p/62767474)
 - [React 不完全手册](https://segmentfault.com/a/1190000018722898)
 - [React—从初级到高级路线图](https://juejin.im/post/5bb0303f5188255c8d0fdacb)
@@ -236,6 +223,7 @@
 - [用惰性加载优化 React 程序](https://segmentfault.com/a/1190000019239957)
 - [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
 - [useHooks~小窍门](https://zhuanlan.zhihu.com/p/66170210)
+- [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
 
 ### webpack4
 
@@ -243,10 +231,10 @@
 - [关于 webpack4 的 14 个知识点](https://juejin.im/post/5cea1e1ae51d4510664d1652)
 - [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
 - [请练完这 16 个 webpack 小例子](https://segmentfault.com/a/1190000009038067)
-- [结合 vue-cli 谈 Webpack 优化](https://juejin.im/post/5c3c55aa51882524b4073394)
+- [结合 Vue-cli 谈 Webpack 优化](https://juejin.im/post/5c3c55aa51882524b4073394)
 - [Vue 项目 Webpack 优化实践 Webpack 优化](https://juejin.im/post/5c1fa158f265da613c09cb36)
-- [webpack 4](http://guowenfh.github.io/2016/03/24/vue-webpack-01-base/)
-- [webpack4-配置 vue 相关](https://juejin.im/post/5cd515356fb9a032086de95e)
+- [webpack 4](http://guowenfh.github.io/2016/03/24/Vue-webpack-01-base/)
+- [webpack4-配置 Vue 相关](https://juejin.im/post/5cd515356fb9a032086de95e)
 - [了解 Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
 - [7 中方式来减少 webpack bundle 体积](https://juejin.im/post/5cd9571de51d453a572aa2e6)
 - [webpack4.x 实战](https://juejin.im/post/5cd6fd7951882568d06293f3)
@@ -275,12 +263,12 @@
 - [打包优化 Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c#heading-6)
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境,如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
-- [vue webpack重写cookie路径](https://www.ddhigh.com/2019/07/08/vue-webpack-rewrite-cookie-path.html)
+- [Vue webpack重写cookie路径](https://www.ddhigh.com/2019/07/08/Vue-webpack-rewrite-cookie-path.html)
 
 ### Other
 
 - [Git 自救指南](https://segmentfault.com/a/1190000019373841)
-- [用 vscode 开发 vue 应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
+- [用 vscode 开发 Vue 应用](https://juejin.im/entry/5cca6b376fb9a032106bdbe9)
 - [vscode 项目配置 eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [docker](https://segmentfault.com/a/1190000018810837)
 - [Nginx](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
@@ -337,10 +325,10 @@
 - [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
 - [面试](https://juejin.im/post/5c7f5923f265da2dd218f195#heading-24)
 
-#### vue
+#### Vue
 
 - [Vue 面试知识点总结](https://segmentfault.com/a/1190000019646763)
-- [你要的 Vue 面试题都在这里](https://juejin.im/post/5d13436f6fb9a07eca698ba0?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com)
+- [你要的 Vue 面试题都在这里](https://juejin.im/post/5d13436f6fb9a07eca698ba0)
 - [公司要求熟悉框架 Vue,必问面试题你都会几道](https://mp.weixin.qq.com/s?__biz=MzU3NjczNDk2MA==&mid=2247484312&idx=1&sn=cd486a3a2e3665488c1c8b7cf9e1ca75)
 - [Vue](https://segmentfault.com/a/1190000018634744)
 - [Vue](https://juejin.im/post/5c6d4a46f265da2de6610287)
@@ -352,7 +340,7 @@
 - [Vue](https://segmentfault.com/a/1190000018060680)
 - [Vue](https://segmentfault.com/a/1190000018225708)
 - [Vue](https://segmentfault.com/a/1190000016770732)
-- [Vue](https://blog.fundebug.com/2018/09/20/vue-interview-problem-list/)
+- [Vue](https://blog.fundebug.com/2018/09/20/Vue-interview-problem-list/)
 - [VueVue](https://juejin.im/post/5d02016c6fb9a07ec27b9e50#heading-6)
 
 #### Node
@@ -367,9 +355,9 @@
 
 #### compare
 
-- [React vs vue](http://blog.poetries.top/2018/10/20/fe-interview-component/)
-- [React vs vue](https://juejin.im/post/5ca2ba0ee51d4524fd28778a)
-- [React vs vue](https://juejin.im/post/5ca6fd2f6fb9a05e643def4f)
+- [React vs Vue](http://blog.poetries.top/2018/10/20/fe-interview-component/)
+- [React vs Vue](https://juejin.im/post/5ca2ba0ee51d4524fd28778a)
+- [React vs Vue](https://juejin.im/post/5ca6fd2f6fb9a05e643def4f)
 
 ---
 

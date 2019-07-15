@@ -1,3 +1,63 @@
+- 2019.7.15
+  - envoy n
+  - backdrop n
+  - intensify vi/vt
+  - negligence n
+  - shore n/vt
+  - remnant n/adj
+  - dictator n
+  - aide n
+  - topple vi/vt
+  - horrendous adj
+  - lessen vi/vt
+
+  > the xxx does fit him
+  > they risk everything to come to Libya
+
+- 2019.7.12
+  - swallow vi/vt/n
+  - proposed adj
+  - rival n/vt
+  - domestic adj/n
+  - encouraging adj
+  - tariff n/vt
+  - consequence n
+  - retailatory adj
+
+  > it is hard to swallow
+
+- 2019.7.11
+  - soar vi
+  - ploy n
+  - soften vi/vt
+  - tremendous adj
+  - considerale adj
+  - speculation n
+  - reversal n
+
+  > so all in all
+  > at the very least
+  > a lot of progess has been made
+
+- 2019.7.10
+  - shore vt/n
+  - foe n
+  - demoracy n
+  - tough n/adj/adv
+  - neighborhood n
+  - begrudgingly adv
+  - duty-fee n
+  - ongoing adj
+  - standoff n
+  - elsewhere adv
+  - exemption n
+  - dominate vi/vt
+  - moderate adj/n/vt
+
+  > take sides
+  > it very well may
+  > that may easier said than done
+
 - 2019.7.9
   - comply vi
   - supplier n

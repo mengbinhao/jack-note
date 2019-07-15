@@ -20,6 +20,7 @@
 
 ### Validation(前端验证)
 
+- [vuelidate](https://github.com/vuelidate/vuelidate)
 - [Ajv](https://www.npmjs.com/package/ajv)
   - 在需要验证JSON时使用(比如来自web请求)
   - 您希望与应用程序的其他非JS部分共享这些验证规则(因为它是JSON,所以您可以这样做)
@@ -351,6 +352,8 @@
 
 - [vue-i18n](https://github.com/kazupon/vue-i18n)
 - [i18next](https://github.com/i18next/i18next)
+
+### [vue-timers](https://github.com/kelin2025/vue-timers)
 
 ### Process management
 
