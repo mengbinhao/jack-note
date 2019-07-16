@@ -143,6 +143,7 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [Vue.js的动态组件模板](https://segmentfault.com/a/1190000019763034)
 - [编写 Vue.js 组件前需要知道的 10 件事](https://www.infoq.cn/article/bgODkIpKMbsq-hcPoDJY)
 - [抽屉组件](https://juejin.im/post/5ce604aef265da1b827a746b)
 - [Vue 自定义全局 Toast 和 Loading](https://segmentfault.com/a/1190000018901270)
@@ -314,6 +315,7 @@
 
 #### css&html
 
+- [CSS已知高度，写出三栏布局](https://segmentfault.com/a/1190000019766912)
 - [垂直居中的几种实现方式](https://segmentfault.com/a/1190000019634591)
 - [css](https://juejin.im/post/5af8e6aef265da0b9265b04c)
 - [html & css](https://segmentfault.com/a/1190000015882087)

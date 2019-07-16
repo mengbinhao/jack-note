@@ -1,3 +1,35 @@
+- 2019.7.16
+  - criticism n
+  - cable n/vt
+  - ambassador n
+  - inept adj
+  - incompetent adj
+  - radiate vi/vt
+  - insecurity n
+  - diplomatic adj
+  - diplomat n
+  - substantially adv
+  - dyfunctional adj
+  - clumsy adj
+  - blunt adj/vt
+  - outgoing adj
+  - uninformed adj
+  - candid adj
+  - accurately adv
+  - effectively adv
+  - hardcore
+  - pretext n
+  - mischievous adj
+  - mischief n
+  - desperate adj
+  - ignorance n
+
+  > which leads me to ask
+  > sooner or later
+  > we don't know for sure
+  > in the first place
+  > the xx had a ton in the paper today
+
 - 2019.7.15
   - envoy n
   - backdrop n
