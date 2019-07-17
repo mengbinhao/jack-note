@@ -112,7 +112,6 @@
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
 - [Vue/Vue-router/vuex延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
-- [Vue最简单递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
 - [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63)
 - [一个Vue引发的性能问题](https://www.yinchengli.com/2019/03/24/Vue-performance-problem/)
 - [Vue服务端渲染首屏耗时最优化方案](https://zhuanlan.zhihu.com/p/57223501)
@@ -140,6 +139,7 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [Vue最简单递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
 - [Vue自定义指令完善Select组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
 - [Vue.js的动态组件模板](https://segmentfault.com/a/1190000019763034)
 - [编写 Vue.js 组件前需要知道的 10 件事](https://www.infoq.cn/article/bgODkIpKMbsq-hcPoDJY)
