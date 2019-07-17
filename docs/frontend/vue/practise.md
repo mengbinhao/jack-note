@@ -1,6 +1,6 @@
-## Vue
+### Vue
 
-### 1 watch
+#### 1 watch
 
 ```javascript
 created(){
@@ -53,15 +53,13 @@ const unWatch = app.$watch('text', (newVal, oldVal) => {
 unWatch();
 ```
 
-### computed
+#### 2 computed
 
 ```javascript
 //setter
 ```
 
-
-
-### 2 watch + computed
+#### 2 watch + computed
 
 ```javascript
 //Not recommended 1
@@ -184,7 +182,7 @@ watch: {
 },
 ```
 
-### 3 监听页面刷新和关闭
+#### 3 监听页面刷新和关闭
 
 ```javascript
 //beforeDestroy 只能监听到页面间的跳转，无法监听到页面刷新和关闭标签页
@@ -209,7 +207,7 @@ methods: {
 }
 ```
 
-### 4 修改子组件样式
+#### 4 修改子组件样式
 
 ```javascript
 //可以在一个组件中同时使用有作用域和无作用域的样式
@@ -238,7 +236,7 @@ methods: {
 </style>
 ```
 
-### 5 mixin
+#### 5 mixin
 
 ```javascript
 /**
@@ -272,7 +270,7 @@ Vue.mixin({
 })
 ```
 
-### 6 基本组件注册(也适用于全局filter and directive)
+#### 6 基本组件注册(也适用于全局filter and directive)
 
 ```javascript
 //main.js动态require组件,也可以单独抽离文件
@@ -301,7 +299,7 @@ import * as custom from './common/filters/custom'
 Object.keys(custom).forEach(key => Vue.filter(key, custom[key]))
 ```
 
-### 静态属性传给$options而不是data或computed
+#### 静态属性传给$options而不是data或computed
 
 ```javascript
 export default {
@@ -312,7 +310,7 @@ component.$options.phone
 component.$options.city
 ```
 
-### 考虑将非响应式(non-reactive)的数据转变为响应式(reactive)
+#### 考虑将非响应式(non-reactive)的数据转变为响应式(reactive)
 
 ```javascript
 export default {
@@ -331,7 +329,7 @@ Cookies.set('xxx', 'yyy')
 component.updateToken()
 ```
 
-### vue-loader
+#### vue-loader
 
 ```javascript
 //preserveWhitespace 减少文件体积
@@ -371,7 +369,7 @@ component.updateToken()
 </template>
 ```
 
-### render
+#### render
 
 ```javascript
 <template>
@@ -428,7 +426,7 @@ component.updateToken()
 
 
 
-### .sync
+#### .sync
 
 ```javascript
 export default {
@@ -443,7 +441,7 @@ export default {
 <my-comp :prop1.sync="prop1">
 ```
 
-### $nextTick
+#### $nextTick
 
 ```javascript
 //应用场景
@@ -487,7 +485,7 @@ export default {
 
 
 
-### 7 common filter
+#### 7 common filter
 
 ```javascript
 import Vue from 'vue'
@@ -545,7 +543,7 @@ Vue.filter('digitUppercase', value => {
 })
 ```
 
-### 8 common directive
+#### 8 common directive
 ```javascript
 import Vue from 'vue'
 
@@ -578,7 +576,7 @@ Vue.directive('preventReplaceClick', {
 })
 ```
 
-### 9 utils
+#### 9 utils
 
 ```javascript
 /**
@@ -677,7 +675,7 @@ export function timerFormat (timer) {
 }
 ```
 
-### 10 唯一组件根元素(可以用render函数来渲染)
+#### 10 唯一组件根元素(可以用render函数来渲染)
 
 ```javascript
 functional: true,
@@ -692,7 +690,7 @@ render(h, { props }) {
 }
 ```
 
-### 11 组件包装、事件属性穿透问题
+#### 11 组件包装、事件属性穿透问题
 
 ```javascript
 //父组件
@@ -739,40 +737,9 @@ computed: {
 
 
 
-## vue-router
+### vue-router
 
-### 1 路由的延迟加载
-
-```javascript
-{
-  path: '/admin',
-  name: 'admin-dashboard',
-  component:require('@views/admin').default
-}
-// or
-{
-  path: '/admin',
-  name: 'admin-dashboard',
-  component:() => import('@views/admin')
-}
-
-
-//区分env，组件在开发环境下是非懒加载，生产环境下是懒加载
-//_import_production.js
-module.exports = file => () => import('@/views/' + file + '.vue')
-
-//_import_development.js (这种写法vue-loader版本至少v13.0.0以上)
-module.exports = file => require('@/views/' + file + '.vue').default
-
-//router/index.js
-const _import = require('./_import_' + process.env.NODE_ENV)
-
-export default new Router({
-  routes: [{ path: '/login', name: '登陆', component: _import('login/index') }]
-})
-```
-
-### 2 router key组件刷新
+#### router key组件刷新
 
 ```javascript
 //从/post-haorooms/a，跳转到/post-haorooms/b。页面跳转后数据没更新
@@ -826,9 +793,9 @@ methods () {
 
 
 
-## vuex
+### vuex
 
-### 1 精简vuex的modules引入
+#### 精简vuex的modules引入
 
 ```javascript
 import auth from './modules/auth'
@@ -894,4 +861,200 @@ export default new Vuex.Store({
     modules
 })
 ```
+
+### optimization
+
+#### 1 路由懒加载
+
+```javascript
+{
+  path: '/admin',
+  name: 'admin-dashboard',
+  component:require('@views/admin').default
+}
+// or
+{
+  path: '/admin',
+  name: 'admin-dashboard',
+  component:() => import('@views/admin')
+}
+
+
+//区分env，组件在开发环境下是非懒加载，生产环境下是懒加载
+//_import_production.js
+module.exports = file => () => import('@/views/' + file + '.vue')
+
+//_import_development.js (这种写法vue-loader版本至少v13.0.0以上)
+module.exports = file => require('@/views/' + file + '.vue').default
+
+//router/index.js
+const _import = require('./_import_' + process.env.NODE_ENV)
+
+export default new Router({
+  routes: [{ path: '/login', name: '登陆', component: _import('login/index') }]
+})
+```
+
+#### 2 按需引入
+
+#### 3 模块按需加载(`LimitChunkCountPlugin`合并这些小包产生的http请求)
+
+```javascript
+//延迟加载 Vue 组件
+const Hello = () => import('./components/Hello.vue')
+Vue.component('xxx', Hello)
+
+
+//单独封装地图组件
+import China from 'echarts/map/json/china.json'
+import provinceList from './provinceList.json'
+// 注册地图
+ECharts.registerMap('china', China)
+provinceList.forEach(pro => {
+  const map = require('echarts/map/json/province/' + pro.path)
+  ECharts.registerMap(pro.py, map)
+})
+
+//vuex
+```
+
+#### 4 vuex按需加载
+
+```javascript
+// store.js
+import { userAccountModule } from './modules/userAccount'
+export const store = new Vuex.Store({
+  modules: {
+    user: userAccountModule, 
+  }
+})
+// test.vue
+<template>
+  <div>
+  	<button @click="show">show</button>
+  </div>
+<template/>
+<script>
+  const getTestModule = () => import('./testModule.js')
+</script>
+import adminModule from './admin.js'
+export default { 
+  methods: {
+      show() {
+          getTestModule().then(testModule => {
+              this.isModuleRegusterred = true
+              this.$store.registerModule('testModule', testModule)
+              this.$store.dispatch('testModule/load')
+          })
+      } 	
+  } ,
+  beforeDestroy () {
+      if (this.isModuleRegusterred) {
+          this.$store.unregisterModule('testModule')
+      }
+  }
+}
+```
+
+
+
+#### webpack
+
+#####  公共库放到CDN(`webpack-cdn-plugin`)
+
+1. webpack.config.js or vue.config.js
+
+    ```bash
+    externals: {
+        vue: 'Vue',
+        'vue-router': 'VueRouter',
+        vuex: 'Vuex',
+        'element-ui': 'ELEMENT'
+    }
+    ```
+
+2. 对应的引用库注释掉
+
+    ```javascript
+    // import ElementUI from 'element-ui'
+    // import { Button, Input, Form, FormItem, Message } from 'element-ui'
+    // import 'element-ui/lib/theme-chalk/index.css'
+    // Vue.use(ElementUI)
+    ```
+
+3. 项目首页引入CDN，并对CDN失效做处理 `index.html`
+
+    ```html
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <!--<script src="https://cdn.bootcss.com/vue/2.5.17/vue.js"></script>-->
+    <!-- 生产环境版本，优化了尺寸和速度 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+    <script>!window.Vue && document.write(unescape('%3Cscript src="/static/cdn/vue.min.js"%3E%3C/script%3E'))</script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>!window.axios && document.write(unescape('%3Cscript src="/static/cdn/axios.min.js"%3E%3C/script%3E'))</script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.min.js"></script>
+    <script>!window.VueRouter && document.write(unescape('%3Cscript src="/static/cdn/vue-router.min.js"%3E%3C/script%3E'))</script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vuex/dist/vuex.min.js"></script>
+    <script>!window.Vuex && document.write(unescape('%3Cscript src="/static/cdn/vuex.min.js"%3E%3C/script%3E'))</script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue-i18n/dist/vue-i18n.min.js"></script>
+    <script>!window.VueI18n && document.write(unescape('%3Cscript src="/static/cdn/vue-i18n.min.js"%3E%3C/script%3E'))</script>
+    
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/umd/locale/zh-CN.js"></script>
+    <script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element.min.js"%3E%3C/script%3E'))</script>
+    <script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element-zh.min.js"%3E%3C/script%3E'))</script>
+    ```
+
+##### `SplitChunksPlugin`
+
+##### webpack-chunk-name合并包
+
+```javascript
+const A1 = () => import(/* webpackChunkName: "A" */ '@/views/A1')
+const A2 = () => import(/* webpackChunkName: "A" */ '@/views/A2')
+const A3 = () => import(/* webpackChunkName: "A" */ '@/views/A3')
+```
+
+##### alias
+
+```javascript
+//vue.config.js or webpack.config.js
+resolve: {
+    extensions: ['.js', '.vue'],
+    alias: {
+      '@': resolve('src'),        
+      'img': resolve('src/assets/img'),
+      'css': resolve('src/assets/css')
+    }
+}
+
+//test.vue
+<template>
+  <div class="avatar">
+    <img class="avatar-img" src="~img/avatar.png" alt="">
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "Home"
+  }
+</script>
+
+<style scoped lang="stylus">
+  @import "~css/avatar";
+</style>
+```
+
+
+
+
+
+
 

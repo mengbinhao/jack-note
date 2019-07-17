@@ -7,6 +7,7 @@
 - ctrl + g
 - ctrl + d   multi-select then multi-change
 - ctrl + left click   multi-select then multi-change
+- sources panel -> ctrl + shift + p -> coverage (red section is useless)
 
 ### 2.ELements (right click on a dom element)
 

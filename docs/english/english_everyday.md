@@ -1,3 +1,28 @@
+- 2019.7.17
+  - protest n
+  - violence n
+  - ruling adj
+  - activist n
+  - joint adj
+  - council n
+  - civilian n
+  - clash n/vi/vt
+  - depose vt
+  - coup n
+  - sole adj/n/vt
+  - compromise n/vi/vt
+  - reservation n
+  - opt vi
+  - stumble n/vt
+  - oust vi
+  - fissure n
+  - ordinary adj
+  - radical adj
+  - gradual adj
+
+  > you mentioned an election will happen down the road
+  > I think what we can be certain of is that ...
+
 - 2019.7.16
   - criticism n
   - cable n/vt

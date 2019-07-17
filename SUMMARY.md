@@ -108,7 +108,7 @@
   - [vscodeextention](docs/others/vscodeextention.md)
   - [windows_app](docs/others/windows_app.md)
 - [sheet]()
-  - [chrome](docs/sheet/chrome.md)
+  - [chromedevtools](docs/sheet/chromedevtools.md)
   - [git](docs/sheet/git.md)
   - [linux](docs/sheet/linux.md)
   - [markdown](docs/sheet/markdown.md)

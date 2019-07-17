@@ -294,6 +294,21 @@ const urlQueryObj = Object.fromEntries(searchParams)
 console.log(urlQueryObj)
 ```
 
+#### JSON.stringify 过滤需要的字段
+
+```javascript
+const settings = {
+  username: "lydiahallie",
+  level: 19,
+  health: 90
+};
+
+const data = JSON.stringify(settings, ["level", "health"]);
+console.log(data);
+```
+
+
+
 #### obj.flatMap
 
 ```javascript
@@ -410,14 +425,14 @@ const RandomId = len => Math.random().toString(36).substr(3, len)
 const id = RandomId(10)
 ```
 
-### 生成随机HEX色值
+#### 生成随机HEX色值
 
 ```javascript
 const RandomColor = () => "#" + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")
 const color = RandomColor()
 ```
 
-### 生成星级评分
+#### 生成星级评分
 
 ```javascript
 const StartScore = rate => "★★★★★☆☆☆☆☆".slice(5 - rate, 10 - rate);
@@ -610,6 +625,26 @@ timeView: function (val) {
         return this.switchTime(timeStamp, 'YYYY年MM月DD日')
     }
 }
+```
+
+
+
+### Module
+
+```javascript
+//import 执行顺序
+//import命令是编译阶段执行的，在代码运行之前。因此这意味着被导入的模块会先运行，而导入模块的文件会后执行
+//这是CommonJS中require（）和import之间的区别。使用require()，您可以在运行代码时根据需要加载依赖项。 如果我们使用require而不是import，running index.js，running sum.js，3会被依次打印
+//CommonJS同步加载 import异步加载
+
+// index.js
+console.log('running index.js');
+import { sum } from './sum.js';
+console.log(sum(1, 2));
+
+// sum.js
+console.log('running sum.js');
+export const sum = (a, b) => a + b;
 ```
 
 

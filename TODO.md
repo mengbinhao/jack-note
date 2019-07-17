@@ -109,25 +109,22 @@
 
 #### project related
 
-- [Vue 项后台管理项目总结](https://segmentfault.com/a/1190000019516643)
-- [project 优化](https://juejin.im/post/5cb80f026fb9a0686c0196b7)
-- [project 优化](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
-- [project 优化](https://segmentfault.com/a/1190000019187560)
-- [project 优化](https://juejin.im/post/5cdd4674e51d453a8f348c14#heading-0)
-- [一次简单的项目优化](https://segmentfault.com/a/1190000017909770)
-- [Vue 的打包优化之路](https://zhuanlan.zhihu.com/p/48461259#at)
-- [一个 Vue 引发的性能问题](https://www.yinchengli.com/2019/03/24/Vue-performance-problem/)
-- [Vue/Vue-router/vuex 延迟加载动态延迟加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&chksm=f951a952ce262044f4708557617b4564df3a32b0d35f0bddd049434ee4c34611049487212df0&mpshare=1&scene=1&srcid=#rd)
-- [Vue 工程化最佳实践](https://juejin.im/post/5c133223e51d4540391749f5)
-- [Vue 项目小技巧](https://juejin.im/post/5bdd57f451882517165d75cc)
-- [优化 Vue 组件的运行时性能](https://juejin.im/post/5bf7ca2f6fb9a049a9795a88)
-- [project 优化(主要 mobile)](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
-- [Vue 项目优化实践](https://juejin.im/post/5bc830a8f265da0abe272ccf)
-- [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63&chksm=8025567cb752df6a31d6125a0d16ac5d8f446545a8ecaee639434b9edd6c583504516eea6850&scene=21#wechat_redirect)
+- [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
+- [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
+- [Vue/Vue-router/vuex延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
+- [Vue最简单递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
+- [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63)
+- [一个Vue引发的性能问题](https://www.yinchengli.com/2019/03/24/Vue-performance-problem/)
+- [Vue服务端渲染首屏耗时最优化方案](https://zhuanlan.zhihu.com/p/57223501)
+- [Vue project 7 optimize points](https://juejin.im/post/5bdd57f451882517165d75cc)
+- [vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
+- [Vue project optimization](https://juejin.im/post/5bc830a8f265da0abe272ccf)
+- [Vue项后台管项目登录逻辑/菜单权限/按钮Loading处理](https://segmentfault.com/a/1190000019516643)
 
-- [Vue 服务端渲染首屏耗时最优化方案](https://zhuanlan.zhihu.com/p/57223501)
-- [Vue 一个案例引发的递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
-- [Vue 自定义指令完善一个 Select 组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
+
+
+
+
 - [Vue 动态组件与全局事件绑定总结](https://juejin.im/post/5be77819f265da616a472e16)
 - [Vue 实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
 - [Vue SSR 踩坑之旅](https://juejin.im/post/5cb6c36e6fb9a068af37aa35)
@@ -143,6 +140,7 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [Vue自定义指令完善Select组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
 - [Vue.js的动态组件模板](https://segmentfault.com/a/1190000019763034)
 - [编写 Vue.js 组件前需要知道的 10 件事](https://www.infoq.cn/article/bgODkIpKMbsq-hcPoDJY)
 - [抽屉组件](https://juejin.im/post/5ce604aef265da1b827a746b)
@@ -180,6 +178,7 @@
 - [手写我的 VUE-CLI](https://juejin.im/post/5cefa7936fb9a07ef06f78ba)
 - [Vue-cil 3.0 配置说明](https://juejin.im/post/5d130b9a518825670124a721)
 - [一张图教你快速玩转 Vue-cli3](https://juejin.im/post/5d1782eaf265da1ba91592fc)
+- [Vue-cli使用prerender-spa-plugin插件预渲染](https://www.jianshu.com/p/6a4c0b281e7f)
 
 #### compare
 
@@ -228,6 +227,7 @@
 
 ### webpack4
 
+- [Webpack理解Chunk](https://juejin.im/post/5d2b300de51d45775b419c76)
 - [webpack 打包优化](https://juejin.im/post/5d0aea6fe51d4550a629b286)
 - [关于 webpack4 的 14 个知识点](https://juejin.im/post/5cea1e1ae51d4510664d1652)
 - [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
@@ -298,6 +298,7 @@
 
 ### Interview
 
+- [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
 - [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273#articleHeader1)
 - [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
 - [interview front](https://juejin.im/post/5cb92d9a5188254160581b87)
