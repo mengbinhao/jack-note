@@ -1,3 +1,5 @@
+### [chrome some skills]https://juejin.im/post/5af53823f265da0b75282b0f
+
 ### 1.Hotkey
 
 - ctrl + p      change  file

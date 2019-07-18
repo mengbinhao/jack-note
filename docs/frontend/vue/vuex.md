@@ -1,4 +1,4 @@
-Vuex  (state、getter、mutation、action、module)
+#### Vuex  (state、getter、mutation、action、module)
 
 >1 引入Vuex
 >
@@ -23,7 +23,16 @@ Vuex  (state、getter、mutation、action、module)
 - actions: 响应在view上的用户输入导致的状态变化(包含n个更新状态的方法)
 ![](../images/vuex-1.png)
 
+#### 把数据存入 Vuex 的理由
+
+1. 数据对多个(独立的)组件来说必须是可访问的
+
+2. 数据对多个（独立的）组件来说必须是可访问的
+
+3. 客户端的持久化应用状态
+
 #### 多组件共享状态的问题
+
 1. 多个视图依赖于同一状态
 2. 来自不同视图的行为需要变更同一状态
 3. 以前的解决办法,vuex就是用来解决这个问题的
@@ -92,7 +101,7 @@ export default new Vuex.Store({
     getters
 })
 ```
-#### 组件中
+#### 组件中便捷使用
 ```javascript
 import { mapState, mapMutations, mapGetters, mapActions } from 'vuex'
 export default {
@@ -105,10 +114,9 @@ export default {
 		...mapActions(['addAction','reduceAction'])
 	},
 }
-{{xxx}} {{mmm}} @click="zzz(data)"
 ```
 
-#### store 对象
+#### store对象
 - 所有用vuex管理的组件中都多了一个属性$store, 它就是一个store对象
 - 属性:
     - state: 注册的state对象
@@ -116,8 +124,9 @@ export default {
 - 方法:
 dispatch(actionName, data): 分发调用 action
 
-#### example_1.0 (store.js)
+#### example
 ```javascript
+//store.js
 /*
 vuex最核心的管理对象store
  */
@@ -175,7 +184,7 @@ const actions = {
 包含多个getter计算属性的对象
  */
 const getters = {
-  evenOrOdd (state) { // 当读取属性值时自动调用并返回属性值
+  evenOrOdd (state) {
     return state.count%2===0 ? '偶数' : '奇数'
   }
 }
@@ -209,10 +218,9 @@ methods: {
         this.$store.dispatch('incrementAsync')
     }
 }
-```
 
-#### expample_2.0(App.vue)
-```javascript
+
+//App.vue
 import {mapState, mapGetters, mapActions} from 'vuex'
 
 computed: {
@@ -226,5 +234,5 @@ methods: {
 ```
 
 #### in real project
-创建一个store文件夹,一个index.js、state.js、action.js、mutation.js、getter.js、mutation-types.js
+以下没区分模块，创建一个store文件夹,一个index.js、state.js、action.js、mutation.js、getter.js、mutation-types.js
 ![](../images/vuex-3.png)

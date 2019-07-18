@@ -30,10 +30,12 @@ nodemon app.js
 
 ### 6 path-to-regexp
 
-### 7 gitbook(Modern documentation format and toolchain using Git and Markdown)
-### 8 prerender-spa-plugin
+### 7 gitbook or docsify-cli
 
-### 9 webpack-bundle-analyzer
-### 10 marked
-### 11 express-generator
-### 12 md-to-pdf
+### 8 webpack-bundle-analyzer
+
+### 9 marked
+
+### 10 express-generator
+
+### 11 md-to-pdf

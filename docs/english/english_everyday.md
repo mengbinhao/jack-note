@@ -1,3 +1,27 @@
+- 2019.7.18
+  - unanimous n
+  - lawsuit n
+  - comedian n
+  - bully n/vt
+  - ex n
+  - chamber n
+  - adoring adj
+  - capacity n/adj
+  - servant n
+  - citizen n
+  - transgender n
+  - esteemed adj
+  - reiterate vt
+  - forum n
+  - conduct n/vi/vt
+  - conrrary n/adj/adv
+  - high-profile adj
+  - reserve n/vi/vt/adj
+  - constraint n
+
+  > he is by no means the only officail public servant doing so
+  > cover one's ears
+
 - 2019.7.17
   - protest n
   - violence n

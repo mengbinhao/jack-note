@@ -194,7 +194,7 @@ created() {
     window.addEventListener('beforeunload', this.updateHandler) 
 }, 
 beforeDestroy() { 
-    this.finalCart() // 提交购物车的异步操作
+    this.finalCart()
 }, 
 destroyed() { 
     window.removeEventListener('beforeunload', this.updateHandler)
@@ -236,7 +236,7 @@ methods: {
 </style>
 ```
 
-#### 5 mixin
+#### 5 mixins
 
 ```javascript
 /**
@@ -329,49 +329,21 @@ Cookies.set('xxx', 'yyy')
 component.updateToken()
 ```
 
-#### vue-loader
-
-```javascript
-//preserveWhitespace 减少文件体积
-{
-  vue: {
-    preserveWhitespace: false
-  }
-}
-
-//transformToRequire
-<template>
-  <div>
-    <avatar :default-src="DEFAULT_AVATAR"></avatar>
-  </div>
-</template>
-<script>
-  export default {
-    created () {
-      this.DEFAULT_AVATAR = require('./assets/default-avatar.png')
-    }
-  }
-</script>
-
-//通过配置 transformToRequire 后，vue-loader会把对应的属性自动 require 之后传给组件
-{
-  vue: {
-    transformToRequire: {
-      avatar: ['default-src']
-    }
-  }
-}
-
-<template>
-  <div>
-    <avatar default-src="./assets/default-avatar.png"></avatar>
-  </div>
-</template>
-```
-
 #### render
 
 ```javascript
+//唯一组件根元素(可以用render函数来渲染)
+functional: true,
+render(h, { props }) {
+  return props.routes.map(route =>
+    <li key={route.name}>
+      <router-link to={route}>
+        {route.title}
+      </router-link>
+    </li>
+  )
+}
+
 <template>
   <div>
     <child :level="level">Hello world!</child>
@@ -424,11 +396,14 @@ component.updateToken()
 </script>
 ```
 
-
-
-#### .sync
+#### .syn或v-model
 
 ```javascript
+//父组件获取子组件的数据
+//parent.vue
+<my-comp :prop1.sync="prop1">
+
+//child.vue
 export default {
     props:['prop1'],
     methods: {
@@ -438,7 +413,54 @@ export default {
     }
 }
 
-<my-comp :prop1.sync="prop1">
+// v-model
+//parent.vue
+<template>
+  <div class="home">
+    <myDialog v-model="show"></myDialog>
+    <button @click="toggle">Toggle</button>
+  </div>
+</template>
+<script>
+  import myDialog from '@/components/myDialog.vue'
+
+  export default {
+    name: 'home',
+    components: {
+      myDialog
+    },
+    data() {
+      return {
+        show: false
+      }
+    },
+    methods: {
+      toggle() {
+        this.show = !this.show
+      }
+    }
+  }
+</script>
+
+//child.vue
+<template>
+  <div>
+    <div v-if="value" class="modal">
+      {{value}}
+      <button @click="close">x</button>
+    </div>
+  </div>
+</template>
+<script>
+  export default {
+    props: ['value'],
+    methods: {
+      close() {
+        this.$emit('input', false)
+      }
+    }
+  }
+</script>
 ```
 
 #### $nextTick
@@ -675,20 +697,9 @@ export function timerFormat (timer) {
 }
 ```
 
-#### 10 唯一组件根元素(可以用render函数来渲染)
+#### template
 
-```javascript
-functional: true,
-render(h, { props }) {
-  return props.routes.map(route =>
-    <li key={route.name}>
-      <router-link to={route}>
-        {route.title}
-      </router-link>
-    </li>
-  )
-}
-```
+> 把一个`<template>` 元素当做不可见的包裹元素，并在上面使用 v-if。最终的渲染结果将不包含 `<template>` 元素
 
 #### 11 组件包装、事件属性穿透问题
 
@@ -735,11 +746,51 @@ computed: {
 }
 ```
 
+#### vue-loader
+
+```javascript
+//preserveWhitespace 减少文件体积
+{
+  vue: {
+    preserveWhitespace: false
+  }
+}
+
+//transformToRequire
+<template>
+  <div>
+    <avatar :default-src="DEFAULT_AVATAR"></avatar>
+  </div>
+</template>
+<script>
+  export default {
+    created () {
+      this.DEFAULT_AVATAR = require('./assets/default-avatar.png')
+    }
+  }
+</script>
+
+//通过配置 transformToRequire 后，vue-loader会把对应的属性自动 require 之后传给组件
+{
+  vue: {
+    transformToRequire: {
+      avatar: ['default-src']
+    }
+  }
+}
+
+<template>
+  <div>
+    <avatar default-src="./assets/default-avatar.png"></avatar>
+  </div>
+</template>
+```
+
 
 
 ### vue-router
 
-#### router key组件刷新
+#### router key路由组件刷新
 
 ```javascript
 //从/post-haorooms/a，跳转到/post-haorooms/b。页面跳转后数据没更新
@@ -789,6 +840,71 @@ methods () {
 //给router-view添加一个唯一的key，这样即使是公用组件，只要url变化了，就一定会重新创建这个组件
 //一般应用在子路由里面，这样才可以不避免大量重绘，假设app.vue根目录添加这个属性，那么每次点击改变地址都会重绘，还是得不偿失的！
 <router-view :key="$route.fullpath"></router-view>
+```
+
+#### 刷新当前页面
+
+```javascript
+<!-- html -->
+<router-link :to="url" @click.native="refreshView">页面</router-link>
+<router-view v-if="showView"/>
+
+<!-- js -->
+<script>
+export default {
+  data () {
+    return {
+      showView: true // 用于点击当前页的router时，刷新当前页
+    }
+  },
+  methods: {
+    refreshView () {
+      this.showView = false // 通过v-if移除router-view节点
+      this.$nextTick(() => {
+        this.showView = true // DOM更新后再通过v-if添加router-view节点
+      })
+    }
+  }
+}
+</script>
+```
+
+#### 刷新页面参数丢失
+
+```javascript
+//1 使用 this.$router.push({ name: '模块名称', query: { // 各参数 } }) 方式传参
+
+//2 localStorage
+// router.js
+{
+  path: 'paramsMode/:aka',
+  name: 'paramsMode',
+  component: ParamsMode
+}
+
+//ParamsMode.vue
+<script>
+export default {
+  data () {
+    return {
+      testData: {}
+    }
+  },
+  created () {
+    const tempData = localStorage.getItem('tempData')
+    if (tempData) {
+      this.testData = JSON.parse(tempData)
+    } else {
+      this.testData = this.$route.params
+
+      localStorage.setItem('tempData', JSON.stringify(this.$route.params))
+    }
+  },
+  beforeDestroy () {
+    localStorage.removeItem('tempData')
+  }
+}
+</script>
 ```
 
 
@@ -861,6 +977,92 @@ export default new Vuex.Store({
     modules
 })
 ```
+
+#### 刷新页面vuex数据丢失
+
+```javascript
+////将状态保存在localStorage 
+import createPersistedState from 'vuex-persistedstate'
+
+const store = new Vuex.Store({
+  plugins: [
+    createPersistedState()
+  ]
+})
+
+
+//将状态保存在cookie
+import { Store } from 'vuex'
+import createPersistedState from 'vuex-persistedstate'
+import * as Cookies from 'js-cookie'
+ 
+const store = new Store({
+  plugins: [
+    createPersistedState({
+      storage: {
+        getItem: key => Cookies.get(key),
+        setItem: (key, value) => Cookies.set(key, value, { expires: 3, secure: true }),
+        removeItem: key => Cookies.remove(key)
+      }
+    })
+  ]
+})
+```
+
+#### some APIs
+
+```javascript
+const store = new Vuex.Store({
+  state: {
+    count: 0
+  },
+  getters: {
+    getCountPlusOne: state => state.count + 1
+  },
+  mutations: {
+    increment(state) {
+      state.count++;
+    }
+  }
+});
+
+//watch
+//watch 是将Vuex与其他外部代码整合的最有用的方法
+const unsubscribe = store.watch(
+  (state, getters) => {
+    return [state.count, getters.getCountPlusOne];
+  },
+  watched => {
+    console.log("Count is:", watched[0]);
+    console.log("Count plus one is:", watched[1]);
+  },
+  {}
+);
+
+// To unsubscribe:
+unsubscribe();
+
+
+
+//SubscribeAction
+//指定订阅处理函数的被调用时机应该在一个 action 分发之前还是之后 (默认行为是之前)
+const unsubscribe2 = store.subscribeAction({
+  before: (action, state) => {
+    startBigLoadingSpinner();
+  },
+  after: (action, state) => {
+    stoptBigLoadingSpinner();
+  }
+});
+
+// To unsubscribe:
+unsubscribe2();
+
+```
+
+
+
+
 
 ### optimization
 
@@ -966,10 +1168,11 @@ export default {
 
     ```bash
     externals: {
-        vue: 'Vue',
-        'vue-router': 'VueRouter',
-        vuex: 'Vuex',
-        'element-ui': 'ELEMENT'
+        vue:'Vue',
+        'vue-router':'VueRouter',
+        vuex:'Vuex',
+        'element-ui':'ELEMENT',
+        axios: 'axios' 
     }
     ```
 
@@ -982,7 +1185,9 @@ export default {
     // Vue.use(ElementUI)
     ```
 
-3. 项目首页引入CDN，并对CDN失效做处理 `index.html`
+3. 卸载依赖的`npm`包，`npm uninstall axios element-ui vue vue-router vuex`
+
+4. 项目首页引入CDN，并对CDN失效做处理 `index.html`
 
     ```html
     <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -1009,6 +1214,15 @@ export default {
     <script src="https://unpkg.com/element-ui/lib/umd/locale/zh-CN.js"></script>
     <script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element.min.js"%3E%3C/script%3E'))</script>
     <script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element-zh.min.js"%3E%3C/script%3E'))</script>
+    
+    
+    <!-- CDN文件，配置在config/index.js下??????????????? -->
+    <% for (var i in htmlWebpackPlugin.options.css) { %>
+    <link href="<%= htmlWebpackPlugin.options.css[i] %>" rel="stylesheet">
+    <% } %>
+    <% for (var i in htmlWebpackPlugin.options.js) { %>
+    <script src="<%= htmlWebpackPlugin.options.js[i] %>"></script>
+    <% } %>
     ```
 
 ##### `SplitChunksPlugin`
@@ -1052,9 +1266,19 @@ resolve: {
 </style>
 ```
 
+##### Prerender (`prerender-spa-plugin`)
 
+##### require.ensure
 
+```javascript
+Vue.component('asyncComponent', function (resolve, reject) {
+   require.ensure([], function () {
+     resolve(require('./test.vue'));
+   }, 'asyncComponent'); // asyncComponent为chunkname
+})
+```
 
+#### GZIP
 
 
 
