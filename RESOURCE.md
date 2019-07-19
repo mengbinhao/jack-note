@@ -108,7 +108,9 @@
 - [Karma](http://karma-runner.github.io/latest/index.html)
 - [Jest](https://jestjs.io/docs/en/getting-started.html)
 - [vue-test-utils](https://vue-test-utils.vuejs.org/)
+- istanbul test coverage
 - Jasmine
+- ava
 
 
 ### UI component

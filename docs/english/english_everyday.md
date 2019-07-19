@@ -1,3 +1,37 @@
+- 2019.7.19
+  - massive adj
+  - cargo n
+  - Pentagon n
+  - ally n/vt
+  - consequence n
+  - defy vt / defiance n
+  - standoff n
+  - acquire vt / acquisition n
+  - stealth n/adj
+  - maintenance n
+  - facility n
+  - adversary n
+  - undercut vt
+  - vow n/vt
+  - postpone vt
+  - indefinitely adv
+  - debate n/vi/vt
+  - mandated adj
+  - sector n
+  - certify vt
+  - impose vi/vt
+  - derail vi/vt
+  - finality n
+  - unauthorized adj
+  - raise n/vi/vt
+  - dispute n/vi/vt
+  - alien n/adj
+  - intervene vi
+  - strategist n
+
+  > it appears that none will be
+  > it's done trying
+
 - 2019.7.18
   - unanimous n
   - lawsuit n

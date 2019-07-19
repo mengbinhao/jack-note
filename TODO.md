@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(41)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(44)** / **TypeScript** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
 - 掘金小册
 
 ### practise
@@ -37,6 +37,8 @@
 - [Vue 实现歌手列表字母排序](https://juejin.im/post/5cd9807e6fb9a03214378161)
 - [咔咔出行](https://github.com/wwenj/tripRecord)
 - [Node.js + Koa2 + MySQL + Vue.js 实战开发一套完整个人博客项目网站](https://segmentfault.com/a/1190000019603915)
+- [20道JS原理题](https://juejin.im/post/5d2ee123e51d4577614761f8)
+- [element-ui form](https://juejin.im/post/5d2eb18d51882569b34df167)
 
 ### h5
 
@@ -170,38 +172,6 @@
 - [Vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_Vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 
-
-### React
-- [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
-- [21 项优化 React App 性能的技术](https://segmentfault.com/a/1190000019685362)
-- [一文速览 React 全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
-- [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
-- [小书](http://huziketang.com/books/react/lesson1)
-- [阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
-- [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
-- [从 Mixin 到 HOC 再到 Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
-- [小知识 10 点](https://segmentfault.com/a/1190000018949348)
-- [深入分析虚拟 DOM 的渲染原理和特性](https://segmentfault.com/a/1190000018891454)
-- [React 函数组件和类组件的差异](https://zhuanlan.zhihu.com/p/62767474)
-- [React 不完全手册](https://segmentfault.com/a/1190000018722898)
-- [React—从初级到高级路线图](https://juejin.im/post/5bb0303f5188255c8d0fdacb)
-- [React 学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
-- [从零开始学习 React 高阶组件](https://segmentfault.com/a/1190000018633603)
-- [掌握 react,这一篇就够了](https://segmentfault.com/a/1190000016281174)
-- [React 基础与生命周期](https://www.linuxidc.com/Linux/2018-12/155827.htm)
-- [React 新旧生命周期](https://segmentfault.com/a/1190000018413163)
-- [React 开发你一定要知道](https://segmentfault.com/a/1190000015894607)
-- [详解 react、redux、react-redux 之间的关系](https://segmentfault.com/a/1190000017133041)
-- [从零开始搭建 React 开发环境](https://juejin.im/post/5af6857651882542682e4843)
-- [React 性能优化技巧总结](https://segmentfault.com/a/1190000018257360)
-- [React 性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
-- [关于 React 的一些小知识](https://segmentfault.com/a/1190000018689665)
-- [React 服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
-- [用惰性加载优化 React 程序](https://segmentfault.com/a/1190000019239957)
-- [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
-- [useHooks~小窍门](https://zhuanlan.zhihu.com/p/66170210)
-- [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
-
 ### webpack4
 
 - [Webpack3 CommonsChunkPlugin](https://juejin.im/post/5d2d65a5f265da1bcf5e0e26)
@@ -240,6 +210,37 @@
 - [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境,如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 - [Vue webpack重写cookie路径](https://www.ddhigh.com/2019/07/08/Vue-webpack-rewrite-cookie-path.html)
+
+### React
+- [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
+- [21 项优化 React App 性能的技术](https://segmentfault.com/a/1190000019685362)
+- [一文速览 React 全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
+- [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
+- [小书](http://huziketang.com/books/react/lesson1)
+- [阮一峰](http://www.ruanyifeng.com/blog/2015/03/react.html)
+- [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
+- [从 Mixin 到 HOC 再到 Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
+- [小知识 10 点](https://segmentfault.com/a/1190000018949348)
+- [深入分析虚拟 DOM 的渲染原理和特性](https://segmentfault.com/a/1190000018891454)
+- [React 函数组件和类组件的差异](https://zhuanlan.zhihu.com/p/62767474)
+- [React 不完全手册](https://segmentfault.com/a/1190000018722898)
+- [React—从初级到高级路线图](https://juejin.im/post/5bb0303f5188255c8d0fdacb)
+- [React 学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
+- [从零开始学习 React 高阶组件](https://segmentfault.com/a/1190000018633603)
+- [掌握 react,这一篇就够了](https://segmentfault.com/a/1190000016281174)
+- [React 基础与生命周期](https://www.linuxidc.com/Linux/2018-12/155827.htm)
+- [React 新旧生命周期](https://segmentfault.com/a/1190000018413163)
+- [React 开发你一定要知道](https://segmentfault.com/a/1190000015894607)
+- [详解 react、redux、react-redux 之间的关系](https://segmentfault.com/a/1190000017133041)
+- [从零开始搭建 React 开发环境](https://juejin.im/post/5af6857651882542682e4843)
+- [React 性能优化技巧总结](https://segmentfault.com/a/1190000018257360)
+- [React 性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
+- [关于 React 的一些小知识](https://segmentfault.com/a/1190000018689665)
+- [React 服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
+- [用惰性加载优化 React 程序](https://segmentfault.com/a/1190000019239957)
+- [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
+- [useHooks~小窍门](https://zhuanlan.zhihu.com/p/66170210)
+- [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
 
 ### Other
 

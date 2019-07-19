@@ -29,6 +29,9 @@ node 扩展后 -> net、db、file...
    //publish
    npm adduser
    npm whoami
+   npm version patch
+   npm version minor
+   npm version major
    npm publish
 
    npm set xxx
