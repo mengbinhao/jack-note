@@ -84,15 +84,13 @@
     npm i babel-polyfill --D  (默认只转换语法,这个转换API )
     npm i babel-plugin-transform-runtime --D  (解决重复引用工具方法导致打包js过大的问题)
     npm i babel-runtime --save  (解决重复引用工具方法导致打包js过大的问题)
-            cacheDirectory: true   //给babel增加打包缓存目录
+    
+    npm i -D style-loader css-loader  (css-loader)
+    npm i -D npm i file-loader url-loader  (image-loader)
+    npm i -D less-loader  less(less-loader)
+    npm i -D vue-loader vue-template-compiler(vue-loader)
     ```
 
-    ```bash
-    npm i --D style-loader css-loader  (css-loader)
-    npm i --D npm i file-loader url-loader  (image-loader)
-    npm i --D less-loader  less(less-loader)
-    npm i --D vue-loader vue-template-compiler(vue-loader)
-    ```
 
 ### 4 webpack使用
 
@@ -213,14 +211,14 @@ module: {
 
 - webpack.config.js -> watch:true
 
-- package.js 加 --watch
+- package.json 加 --watch
 
-    ```bash
+    ```javascript
     //只有开启watch,watchOptions才有意义
     watchOptions: {
-        ignored: /node_modules/, //支持正则
-        aggregateTimeout: 300, //默认等待时间
-        poll: 1000 //默认每秒1000次
+        ignored: /node_modules/, //可正则
+        aggregateTimeout: 300, //监听到变化后等300ms再去执行动作,越大越好
+        poll: 1000 //默认每秒询问1000次，越小越好
     }
     ```
 
@@ -232,6 +230,7 @@ module: {
 
 ```javascript
 const path = require('path')
+//抽取css，webpack4的plugin，支持css chunk
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
@@ -337,6 +336,7 @@ module.exports = {
 #### 5 postcss(autoprefixer插件)
 
 - Trident(-ms)、Gek(-moz)、Webkit(-webkit)、Presto(-o)
+- `postcss-sprites`
 
 ```javascript
  {
@@ -493,6 +493,9 @@ plugins: [
 //通用
 const glob = require('glob')
 const path = require('path')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+//压缩css
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 //动态获取entry和htmlWebpackPlugins,遵循目录结构
 const setMPA = () => {
@@ -568,6 +571,14 @@ module.exports = {
 - module: 包含loader的source map
 
 ![](images/webpack-2.png)
+
+```javascript
+module.exports={
+  devtool: 'cheap-module-eval-source-map'
+  //开发环境推荐: cheap-module-eval-source-map
+  //生产环境推荐: cheap-module-source-map
+}
+```
 
 #### 10 提取公共资源
 
@@ -731,10 +742,54 @@ module.exports = {
 - stats: 'error-only'  //none mininal normal verbose, devServer里面也需要加
 - friendly-errors-webpack-plugin(`plugins: [new FriendlyErrorsWebpackPlugin()]`)  +  `stats: 'error-only'`
 
-#### 16 other
+#### 16 others
 
-- ProvidePlugin
-- expose-loader
+- ProvidePlugin or expose-loader
+
+    ```javascript
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    });
+    
+    $('#item'); // <= just works
+    jQuery('#item'); // <= just works
+    ```
+
+- `webpack-merge`
+
+- `DefinePlugin` //配置全局变量
+
+    ```javascript
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV)
+      }
+    })
+    
+    //source code
+    if(process.env.NODE_ENV === 'production'){
+        console.log('你在生产环境')
+        doSth();
+    }else{
+        console.log('你在开发环境')
+        doSthElse();
+    }
+    ```
+
+- `UglifyjsWebpackPlugin`
+
+- `IgnorePlugin`
+
+    ```javascript
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+    ```
+
+- PrefetchPlugin
+
+- webpack-md5-hash
+
+- webpack-manifest-plugin && assets-webpack-plugin
 
 #### 17 some examples
 
@@ -756,7 +811,8 @@ plugins: [
 ##### 2 抽离style from js to css link文件
 
 ```javascript
-//MiniCssExtractPlugin
+//同mini-css-extract-plugin
+//webpack3，不支持css chunk
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 module: {
     rules: [
@@ -879,6 +935,18 @@ devServer: {
     //port: 9000,
     //compress: true,
     //open: true
+    //overlay: true, // 如果代码出错，会在浏览器页面弹出“浮动层”。类似于 vue-cli 等脚手架
+    proxy: { 
+      '/comments': { 
+          target: 'https://m.weibo.cn', 
+          changeOrigin: true, 
+          logLevel: 'debug', 
+          headers: { 
+              Cookie: '' 
+          } 
+      }
+    }
+    //historyApiFallback
 }
 ```
 
@@ -902,11 +970,36 @@ app.listen(3000, () => {
 })
 ```
 
-### 8 webpack-bundle-analyzer`npm run build --report`
+### 8 魔法注释
+
+```javascript
+//chrome ctrl+shift+p-> 查看代码coverage
+//source code
+document.addEventListener('click', function() {
+  import(/* webpackChunkName: 'use-lodash'*/ 'lodash').then(function(_) {
+    console.log(_.join(['3', '4']))
+  })
+})
+
+document.addEventListener('click', () => {
+  import(/* webpackPrefetch: true */ './click.js').then(({ default: func }) => {
+    func()
+  })
+})
+
+//webpack.config.js
+plugins: [
+    new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor', /* filename= */'vendor.js')
+]
+```
+
+
+
+### 9 webpack-bundle-analyzer`npm run build --report`
 
 ![](./images/webpack-1.png)
 
-### 9 webpack打包库和组件
+### 10 webpack打包库和组件
 
 ![](images/webpack-4.png)
 
@@ -927,6 +1020,8 @@ app.listen(3000, () => {
             'large-number': './src/index.js',
             'large-number.min': './src/index.js'
         },
+        //排除因为已使用<script>标签引入而不用打包的代码，noParse是排除没使用模块化语句的代码
+        //externals: ['lodash'], 防止打包两遍但前提必须import lodash from lodash引入
         output: {
             filename: '[name].js',
             library: 'largeNumber',
@@ -974,7 +1069,7 @@ app.listen(3000, () => {
     }
     ```
 
-### 10 SSR
+### 11 SSR
 
 - 客户端渲染：html->css / js -> data -> 渲染后的html 
 - SSR: 一个html返回所有资源,减少请求数量,优化白屏时间,友好SEO
@@ -1107,7 +1202,7 @@ const renderMarkup = (str) => {
 }
 ```
 
-### 11 构建是否成功
+### 12 构建是否成功
 
 - echo $?
 
@@ -1127,3 +1222,131 @@ const renderMarkup = (str) => {
         }   
     ]
     ```
+
+### 13 打包优化
+
+1. 缩小loader文件的搜索范围
+
+    ```javascript
+    {
+      // 如果项目源码中只有js文件，就不要写成/\.jsx?$/，以提升正则表达式的性能
+      test: /\.js$/,
+      // babel-loader支持缓存转换出的结果，通过cacheDirectory选项开启
+      loader: 'babel-loader?cacheDirectory',
+      // 只对项目根目录下的src 目录中的文件采用 babel-loader
+      include: [resolve('src')],
+      // 排除
+      exclude: /(node_modules|bower_components)/
+    }
+    ```
+
+2. 优化resolve.modules
+
+    ```javascript
+    module.exports = {
+      //...
+      resolve: {
+        modules: [path.resolve(__dirname,'node_modules')]
+      }
+    }
+    ```
+
+3. 优化resolve.alias
+
+    ```javascript
+    module.exports = {
+      //...
+      resolve: {
+        alias: {
+          Utilities: path.resolve(__dirname, 'src/utilities/'),
+          Templates: path.resolve(__dirname, 'src/templates/'),
+          '@': resolve('src'),
+          //配置别名将库指向同一个版本
+          'moment$': path.resolve('node_modules/moment/moment'),
+        }
+      }
+    };
+    ```
+
+4. 优化resolve.extensions
+
+    ```javascript
+    module.exports = {
+      //...
+      resolve: {
+        //尝试列表最小化
+        //优先的放到最前面
+        //在源码中写导入语句时，要尽可能带上后缀，从而可以避免寻找过程。例如在确定的情况下将 require(’.       // /data ’)写成require(’. /data.json ’)，可以结合enforceExtension和enforceModuleExtension开     // 启使用来强制开发者遵守这条优化
+        extensions: ['.wasm', '.mjs', '.js', '.json']
+      }
+    }
+    ```
+
+5. `resolve.mainFields:['main']` //一般main字段描述入口文件的位置
+
+6. resolve.noParse(忽略依赖库的解析)
+
+    ```javascript
+    module.exports = {
+      //...
+      module: {
+        //noParse: (content) => /jquery|lodash/.test(content)
+        noParse:[/jquery|chartjs/, /react\.min\.js$/] //react.min.js经过构建，已经是可以直接运行在浏览器的、非模块化的文件
+      }
+    };
+    ```
+
+7. [HappyPack](<https://github.com/amireh/happypack>)多进程解析和处理文件 or thread-loader(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
+
+8. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译，DllReferencePlugin 将预先编译好的模块关联到当前编译中，当webpack解析到这些模块时，会直接使用预先编译好的模块
+
+9. [ParallelUglifyPlugin](<https://github.com/gdborton/webpack-parallel-uglify-plugin>)多进程压缩代码文件
+
+10. hard-source-webpack-plugin && cache-loader   //模块编译缓存，加快编译速度
+
+11. `webpack-bundle-analyzer`
+
+12. code aspect (async module)
+
+13. ContextReplacementPlugin or IgnorePlugin
+
+       ```javascript
+     //moment.js for example
+     new webpack.ContextReplacementPlugin(
+       /moment[/\\]locale$/,
+       /de|fr|hu/
+     )
+     
+     //IgnorePlugin
+     new Webpack.IgnorePlugin(/\.\/locale/,/moment/)
+     //忽略后源码需要手动引入
+     import 'moment/locale/zh-cn';
+       ```
+
+14. ModuleConcatenationPlugin / HashedModuleIdsPlugin
+
+     ```javascript
+     mode：'production',
+     optimization : {
+         moduleIds: 'hashed',
+     }
+     ```
+
+     > 默认情况下，webpack会为每个模块用数字做为ID，这样会导致同一个模块在添加删除其他模块后，ID会发生变化，不利于缓存。
+     >  为了解决这个问题，有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`，前者会用模块的文件路径作为模块名，后者会对路径进行md5处理。因为前者处理速度较快，而后者打包出来的文件体积较小，所以应该开发环境时选择前者，生产环境时选择后者。
+     >  `ModuleConcatenationPlugin`主要是作用域提升，将所有模块放在同一个作用域当中，一方面能提高运行速度，另一方面也能降低文件体积。前提是你的代码是用es模块写的。
+     >  在 webpack4 中，只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`， 设置`mode`为`production`即可
+
+15. speed-measure-webpack-plugin
+
+16. 配置performance参数可以输出文件的性能检查配置
+
+17. 配置profile：true，是否捕捉Webpack构建的性能信息，用于分析是什么原因导致构建性能不佳
+
+18. 配置cache：true，是否启用缓存来提升构建速度
+
+19. 使用url-loader把小图片转换成base64嵌入到JS或CSS中，减少加载次数
+
+20. 通过imagemin-webpack-plugin压缩图片，通过webpack-spritesmith制作雪碧图
+
+21. 开发环境下将devtool设置为cheap-module-eval-source-map，因为生成这种source map的速度最快，能加速构建。在生产环境下将devtool设置为hidden-source-map

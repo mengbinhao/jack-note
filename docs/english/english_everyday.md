@@ -1,3 +1,38 @@
+- 2019.7.22
+  - grueling adj
+  - insistent adj
+  - carpet n/vt
+  - fuel n/vi/vt
+  - speculation n
+  - trembling n
+  - cite vt
+  - nerve n
+  - figure n/vt
+  - reveal vt
+  - transparent adj
+  - exhausting adj
+  - sympathetic adj
+  - criticism n
+  - footage n
+  - dis adj
+  - intense adj
+  - recharge vt
+  - defend vt
+  - opposite n/adj/adv/prep
+  - controversy n
+  - intelligence n
+  - mandate n/vt
+  - condemn vt
+  - complain vi/vt
+  - disapprove vi
+
+  > he made a name for himself xxxx
+  > he himself has done
+  > it is just something she'll hace to live with for some time
+  > this is new for the long-serving chancellor,she would normally stand
+  > he even went further in some ways
+  > Compared to you guys in the US, you are like open books
+
 - 2019.7.19
   - massive adj
   - cargo n

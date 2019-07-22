@@ -256,6 +256,8 @@
 - vanilla-tilt.js 3D 瓦片
 - parallax 视差效果
 
+### calendar
+- [11个顶级JavaScript日历插件](https://mp.weixin.qq.com/s?__biz=MzI3NzIzMDY0NA==&mid=2247487050&idx=1&sn=e1cf667260041a9a8df4b41be68b73ee)
 ### 时间选择器
 
 - [layDate](https://aigodata.github.io/layDate/index.html)

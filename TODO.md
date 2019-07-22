@@ -70,7 +70,7 @@
 - [前端优化](https://segmentfault.com/a/1190000018902483)
 - [前端优化](https://segmentfault.com/a/1190000019185648)
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)
-- [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550#articleHeader11)
+- [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
 
 ### JS
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
@@ -172,42 +172,21 @@
 - [Vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_Vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 
-### webpack4
+### webpack 4
 
 - [Webpack3 CommonsChunkPlugin](https://juejin.im/post/5d2d65a5f265da1bcf5e0e26)
 - [Webpack理解Chunk](https://juejin.im/post/5d2b300de51d45775b419c76)
 - [优化网络解析时长和执行时长及优化webpack打包](https://juejin.im/post/5d0aea6fe51d4550a629b286)
-- [24 个实例入门并掌握 Webpack4](https://juejin.im/post/5cae0f616fb9a068a93f0613)
-- [请练完这 16 个 webpack 小例子](https://segmentfault.com/a/1190000009038067)
-- [结合 Vue-cli 谈 Webpack 优化](https://juejin.im/post/5c3c55aa51882524b4073394)
-- [Vue 项目 Webpack 优化实践 Webpack 优化](https://juejin.im/post/5c1fa158f265da613c09cb36)
-- [webpack 4](http://guowenfh.github.io/2016/03/24/Vue-webpack-01-base/)
-- [webpack4-配置 Vue 相关](https://juejin.im/post/5cd515356fb9a032086de95e)
-- [了解 Webpack](https://juejin.im/post/5cafe9c1e51d456e3267e3ea)
-- [7 中方式来减少 webpack bundle 体积](https://juejin.im/post/5cd9571de51d453a572aa2e6)
-- [webpack4.x 实战](https://juejin.im/post/5cd6fd7951882568d06293f3)
-- [webpack4 配置 and others](https://segmentfault.com/a/1190000019001374#articleHeader7)
-- [webpack 基本使用](https://juejin.im/post/5cbd89155188250a9062dbd1)
-- [从零开始的 Webpack4 教程](https://segmentfault.com/a/1190000018534625#articleHeader9)
+- [webpack DllPlugin + HappyPack](https://segmentfault.com/a/1190000016484002)
+- [webpack项目打包优化经验](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
+
+
+
 - [webpack4 CheatSheet](https://juejin.im/post/5c91e2ca518825284205dcf2)
 - [全网最贴心 webpack 系列教程和配套代码](https://segmentfault.com/a/1190000016740439)
-- [webpack 4](https://juejin.im/post/5bc0682be51d450e47144ce4)
-- [webpack 4](https://uinika.github.io/web/broswer/webpack.html)
-- [webpack 4](https://juejin.im/post/5af934806fb9a07ab458bced)
-- [webpack 4](https://juejin.im/post/5af8fa806fb9a07ac162876d)
-- [webpack 4](https://juejin.im/post/5b2a59c0e51d4558d05eee39)
-- [webpack 4](http://coderlt.coding.me/2018/04/12/webpack4/)
-- [webpack4 化繁为简](https://segmentfault.com/a/1190000015968706)
-- [webpack4](https://segmentfault.com/a/1190000014685887)
-- [webpack 常用插件总结](http://blog.poetries.top/2018/11/20/webpack-config-optize/)
-- [webpack plugins](https://juejin.im/entry/5b0d5fa5518825153d28aec4)
-- [webpack 配置优化](https://juejin.im/post/5cb71c8e518825324c44eeb7)
-- [Webpack 优化](https://juejin.im/post/5b652b036fb9a04fa01d616b)
-- [webpack 打包优化黑科技](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
 - [webpack all](http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/)
-- [webpack optimization](https://segmentfault.com/a/1190000016484002)
-- [打包优化 Webpack4](https://juejin.im/post/5cd5375cf265da03a158474c)
-- [webpack 代码分离快速指北](https://segmentfault.com/a/1190000019218713)
+- [webpack 4](http://coderlt.coding.me/2018/04/12/webpack4/)
+- [webpack 4](https://segmentfault.com/a/1190000014685887)
 - [webpack4 的 30 个步骤打造优化到极致的 react 开发环境,如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
 - [Vue webpack重写cookie路径](https://www.ddhigh.com/2019/07/08/Vue-webpack-rewrite-cookie-path.html)
 
@@ -261,7 +240,7 @@
 
 ### testing
 
-- [浅谈前端测试](https://segmentfault.com/a/1190000015436897#articleHeader1)
+- [浅谈前端测试](https://segmentfault.com/a/1190000015436897)
 - [Mocha+should+Karma 自动化测试教程](http://www.cnblogs.com/webSciprt/p/10542075.html)
 - [automation testing](http://www.zengyuetian.com/)
 - [automation testing process](https://www.cnblogs.com/yufeihlf/p/5752146.html)
@@ -272,7 +251,7 @@
 ### Interview
 
 - [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
-- [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273#articleHeader1)
+- [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273)
 - [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
 - [interview front](https://juejin.im/post/5cb92d9a5188254160581b87)
 - [一名【合格】前端工程师的自检清单](https://segmentfault.com/a/1190000018992363)
@@ -281,7 +260,7 @@
 - [记 2019 前端面经](https://segmentfault.com/a/1190000018736404)
 - [大厂 interview 思考](https://segmentfault.com/a/1190000017949080)
 - [大厂面经](https://juejin.im/post/5bb470295188255c5e66f88f)
-- [大厂面经](https://segmentfault.com/a/1190000016582854#articleHeader9)
+- [大厂面经](https://segmentfault.com/a/1190000016582854)
 - [百度、有赞、阿里前端面试总结](https://mp.weixin.qq.com/s/gcG-JL3wt0-Aexwt5nV99g)
 - [一个 HTTP 打趴 80%面试者](https://segmentfault.com/a/1190000018584779)
 - [大厂前端高频面试问题与答案精选](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490505&idx=1&sn=3efe2267b8bbfea86f2c13c9cc745414)
@@ -328,6 +307,7 @@
 - [React](https://zhuanlan.zhihu.com/p/35587283)
 - [React](https://segmentfault.com/a/1190000016761186)
 - [React](https://segmentfault.com/a/1190000018604138)
+- [React 328道最全面试题](https://segmentfault.com/a/1190000019810571)
 
 #### compare
 
