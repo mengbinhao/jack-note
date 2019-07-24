@@ -70,8 +70,8 @@
     ```bash
     "scripts": {
         //--open --hot --inline --port --config ./webpack.dev.config.js
-        "build": "webpack --config webpack.config.js", 
-        "dev": "webpack-dev-server --open --color --port 9999", 
+        "build": "webpack --config webpack.config.js",
+        "dev": "webpack-dev-server --open --color --port 9999",
         "dev-simple": "webpack-dev-server",
         "watch": "webpack --watch"
     }
@@ -150,7 +150,7 @@ module: {
         {
             test: /.less$/,
             //注意顺序
-            // [{loader: 'style-loader', options:{}}]
+            // [{loader: 'style-loader',options:{}}]
             //loader: 'style-loader!css-loader',
             //include:path.join(__dirname,'./src'),
             //exclude:/node_modules/
@@ -216,9 +216,9 @@ module: {
     ```javascript
     //只有开启watch,watchOptions才有意义
     watchOptions: {
-        ignored: /node_modules/, //可正则
-        aggregateTimeout: 300, //监听到变化后等300ms再去执行动作,越大越好
-        poll: 1000 //默认每秒询问1000次，越小越好
+        ignored: /node_modules/,//可正则
+        aggregateTimeout: 300,//监听到变化后等300ms再去执行动作,越大越好
+        poll: 1000 //默认每秒询问1000次,越小越好
     }
     ```
 
@@ -230,7 +230,7 @@ module: {
 
 ```javascript
 const path = require('path')
-//抽取css，webpack4的plugin，支持css chunk
+//抽取css,webpack4的plugin,支持css chunk
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
@@ -241,7 +241,7 @@ module.exports = {
     },
     output: {
         //绝对路径
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname,'dist'),
         //js文件指纹
         filename: '[name]_[chunkhash:8].js'
         //publicPath : 'dist/js/'  处理图片路径
@@ -313,7 +313,7 @@ module.exports = {
 
     ```javascript
     new HtmlWebpackPlugin({
-        template: path.join(__dirname, 'src/index.html'),
+        template: path.join(__dirname,'src/index.html'),
         filename: 'index.html',
         chunks: ['index'],
         inject: true,
@@ -350,7 +350,7 @@ module.exports = {
              options: {
                  plugins: () => [
                      require('autoprefixer')({
-                     browsers: ['last 2 version', '>1%', 'ios 7']
+                     browsers: ['last 2 version','>1%','ios 7']
                      })
                  ]
              }
@@ -375,7 +375,7 @@ module.exports = {
             options: {
                 plugins: () => [
                     require('autoprefixer')({
-                    browsers: ['last 2 version', '>1%', 'ios 7']
+                    browsers: ['last 2 version','>1%','ios 7']
                 })
                 ]
             }
@@ -436,7 +436,7 @@ module.exports = {
                         {
                             loader: 'style-loader',
                             options: {
-                                insertAt: 'top', //插入head
+                                insertAt: 'top',//插入head
                                 singleton: true //合并所有style tag
                             }
                         },
@@ -465,7 +465,7 @@ output: {
 plugins: [
     //./src/index.html需要存在
     new HtmlWebpackPlugin({
-        filename: 'a.html', //default filename is index
+        filename: 'a.html',//default filename is index
         template: './src/index.html',
         title: 'test webpack',
         hash: true,
@@ -501,7 +501,7 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const setMPA = () => {
     const entry = {};
     const htmlWebpackPlugins = [];
-    const entryFiles = glob.sync(path.join(__dirname, './src/*/index.js'));
+    const entryFiles = glob.sync(path.join(__dirname,'./src/*/index.js'));
 
     Object.keys(entryFiles)
         .map((index) => {
@@ -515,9 +515,9 @@ const setMPA = () => {
             htmlWebpackPlugins.push(
                 new HtmlWebpackPlugin({
                     inlineSource: '.css$',
-                    template: path.join(__dirname, `src/${pageName}/index.html`),
+                    template: path.join(__dirname,`src/${pageName}/index.html`),
                     filename: `${pageName}.html`,
-                    chunks: ['vendors', pageName],
+                    chunks: ['vendors',pageName],
                     inject: true,
                     minify: {
                         html5: true,
@@ -537,12 +537,12 @@ const setMPA = () => {
     }
 }
 
-const { entry, htmlWebpackPlugins } = setMPA()
+const { entry,htmlWebpackPlugins } = setMPA()
 
 module.exports = {
     entry: entry,
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname,'dist'),
         filename: '[name]_[chunkhash:8].js'
     },
     mode: 'production',
@@ -582,7 +582,7 @@ module.exports={
 
 #### 10 提取公共资源
 
- ##### 1 `html-webpack-externals-plugin`
+ ##### 1 `html-webpack-externals-plugin` or externals
 
 ```javascript
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
@@ -634,7 +634,7 @@ module.exports = {
             cacheGroups: {
                 commons: {
                     name: 'common',
-                    chunks: 'all', //async initial all
+                    chunks: 'all',//async initial all
                     minChunks: 2
                 }
             }
@@ -714,12 +714,12 @@ module.exports = {
         "extends": "airbnb",
         "env": {
             "browser": true,
-            "node", true
+            "node",true
         },
         "rules": {
             "semi": "error",
             //0 1 2
-            "indent": ["error", 4]
+            "indent": ["error",4]
         }
     }
     ```
@@ -732,14 +732,14 @@ module.exports = {
     },
     "lint-stage": {
         "linters": {
-            "*.{ja.css}": ["eslint --fix", "git add"]
+            "*.{ja.css}": ["eslint --fix","git add"]
         }
     }
     ```
 
 #### 15 构建输出日志
 
-- stats: 'error-only'  //none mininal normal verbose, devServer里面也需要加
+- stats: 'error-only'  //none mininal normal verbose,devServer里面也需要加
 - friendly-errors-webpack-plugin(`plugins: [new FriendlyErrorsWebpackPlugin()]`)  +  `stats: 'error-only'`
 
 #### 16 others
@@ -782,7 +782,7 @@ module.exports = {
 - `IgnorePlugin`
 
     ```javascript
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+    new webpack.IgnorePlugin(/^\.\/locale$/,/moment$/)
     ```
 
 - PrefetchPlugin
@@ -790,6 +790,8 @@ module.exports = {
 - webpack-md5-hash
 
 - webpack-manifest-plugin && assets-webpack-plugin
+
+- image-webpack-loader
 
 #### 17 some examples
 
@@ -812,7 +814,7 @@ plugins: [
 
 ```javascript
 //同mini-css-extract-plugin
-//webpack3，不支持css chunk
+//webpack3,不支持css chunk
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 module: {
     rules: [
@@ -821,7 +823,7 @@ module: {
             //顺序从右往左
             use: ExtractTextWebpackPlugin.extract({
                 use: [
-                    {loader: 'css-loader', options:{}}
+                    {loader: 'css-loader',options:{}}
                 ]
             })
         },
@@ -886,7 +888,7 @@ const lessExtract = new ExtractTextWebpackPlugin({
 use: cssExtract.extract({
     fallback: 'style-loader',
     use: [
-        {loader: 'css-loader', options:{}}
+        {loader: 'css-loader',options:{}}
     ]
 })
 ```
@@ -929,18 +931,20 @@ plugins: [
     new webpack.HotModuleReplacementPlugin()
 ],
 devServer: {
-    //path.join(__dirname, 'dist')
+    //path.join(__dirname,'dist')
     contentBase: './dist',
     hot: true
+    //publicPath: '/assets/'
+    //host: '0.0.0.0',
     //port: 9000,
     //compress: true,
     //open: true
-    //overlay: true, // 如果代码出错，会在浏览器页面弹出“浮动层”。类似于 vue-cli 等脚手架
+    //overlay: true,// 如果代码出错,会在浏览器页面弹出“浮动层”类似于vue-cli等脚手架
     proxy: { 
       '/comments': { 
-          target: 'https://m.weibo.cn', 
-          changeOrigin: true, 
-          logLevel: 'debug', 
+          target: 'https://m.weibo.cn',
+          changeOrigin: true,
+          logLevel: 'debug',
           headers: { 
               Cookie: '' 
           } 
@@ -961,11 +965,11 @@ const app = expess()
 const config = require('./webpack.config.js')
 const compile = wepback(config)
 
-app.use(weppackDevMiddleware(compile, {
+app.use(weppackDevMiddleware(compile,{
     publicPath:config.output.publicPath
 }))
 
-app.listen(3000, () => {
+app.listen(3000,() => {
     console.log('server is runnning on 3000')
 })
 ```
@@ -975,13 +979,13 @@ app.listen(3000, () => {
 ```javascript
 //chrome ctrl+shift+p-> 查看代码coverage
 //source code
-document.addEventListener('click', function() {
+document.addEventListener('click',function() {
   import(/* webpackChunkName: 'use-lodash'*/ 'lodash').then(function(_) {
-    console.log(_.join(['3', '4']))
+    console.log(_.join(['3','4']))
   })
 })
 
-document.addEventListener('click', () => {
+document.addEventListener('click',() => {
   import(/* webpackPrefetch: true */ './click.js').then(({ default: func }) => {
     func()
   })
@@ -989,7 +993,7 @@ document.addEventListener('click', () => {
 
 //webpack.config.js
 plugins: [
-    new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor', /* filename= */'vendor.js')
+    new webpack.optimize.CommonsChunkPlugin(/* chunkName= */'vendor',/* filename= */'vendor.js')
 ]
 ```
 
@@ -1007,7 +1011,7 @@ plugins: [
 
 - 支持CJS `const a = require(x)`
 
-- 支持AMD `require([x], function(x) {...})`
+- 支持AMD `require([x],function(x) {...})`
 
 - script引入
 
@@ -1020,8 +1024,8 @@ plugins: [
             'large-number': './src/index.js',
             'large-number.min': './src/index.js'
         },
-        //排除因为已使用<script>标签引入而不用打包的代码，noParse是排除没使用模块化语句的代码
-        //externals: ['lodash'], 防止打包两遍但前提必须import lodash from lodash引入
+        //排除因为已使用<script>标签引入而不用打包的代码,noParse是排除没使用模块化语句的代码
+        //externals: ['lodash'],防止打包两遍但前提必须import lodash from lodash引入
         output: {
             filename: '[name].js',
             library: 'largeNumber',
@@ -1080,7 +1084,7 @@ plugins: [
 const setMPA = () => {
     const entry = {};
     const htmlWebpackPlugins = [];
-    const entryFiles = glob.sync(path.join(__dirname, './src/*/index-server.js'));
+    const entryFiles = glob.sync(path.join(__dirname,'./src/*/index-server.js'));
 
     Object.keys(entryFiles)
         .map((index) => {
@@ -1095,9 +1099,9 @@ const setMPA = () => {
                 htmlWebpackPlugins.push(
                     new HtmlWebpackPlugin({
                         inlineSource: '.css$',
-                        template: path.join(__dirname, `src/${pageName}/index.html`),
+                        template: path.join(__dirname,`src/${pageName}/index.html`),
                         filename: `${pageName}.html`,
-                        chunks: ['vendors', pageName],
+                        chunks: ['vendors',pageName],
                         inject: true,
                         minify: {
                             html5: true,
@@ -1152,7 +1156,7 @@ class Search extends React.Component {
 
     render() {
         const { Text } = this.state;
-        const addResult = largeNumber('999', '1');
+        const addResult = largeNumber('999','1');
         return <div className="search-text">
             {
                 Text ? <Text /> : null
@@ -1176,19 +1180,19 @@ const path = require('path');
 const express = require('express');
 const { renderToString } = require('react-dom/server');
 const SSR = require('../dist/search-server');
-const template = fs.readFileSync(path.join(__dirname, '../dist/search.html'), 'utf-8');
+const template = fs.readFileSync(path.join(__dirname,'../dist/search.html'),'utf-8');
 const data = require('./data.json');
 
 const server = (port) => {
     const app = express();
 
     app.use(express.static('dist'));
-    app.get('/search', (req, res) => {
+    app.get('/search',(req,res) => {
         const html = renderMarkup(renderToString(SSR));
         res.status(200).send(html);
     });
 
-    app.listen(port, () => {
+    app.listen(port,() => {
         console.log('Server is running on port:' + port);
     });
 };
@@ -1197,8 +1201,8 @@ server(process.env.PORT || 3000);
 
 const renderMarkup = (str) => {
     const dataStr = JSON.stringify(data);
-    return template.replace('<!--HTML_PLACEHOLDER-->', str)
-        .replace('<!--INITIAL_DATA_PLACEHOLDER-->', `<script>window.__initial_data=${dataStr}</script>`);
+    return template.replace('<!--HTML_PLACEHOLDER-->',str)
+        .replace('<!--INITIAL_DATA_PLACEHOLDER-->',`<script>window.__initial_data=${dataStr}</script>`);
 }
 ```
 
@@ -1212,7 +1216,7 @@ const renderMarkup = (str) => {
     plugins: [
         function() {
             //this.plugin('done'  webpack3写法,webpack3不会抛出错误码
-            this.hooks.done.tap('done', (stats) => {
+            this.hooks.done.tap('done',(stats) => {
                 if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') == -1)
                 {
                     console.log('build error');
@@ -1229,9 +1233,9 @@ const renderMarkup = (str) => {
 
     ```javascript
     {
-      // 如果项目源码中只有js文件，就不要写成/\.jsx?$/，以提升正则表达式的性能
+      // 如果项目源码中只有js文件,就不要写成/\.jsx?$/,以提升正则表达式的性能
       test: /\.js$/,
-      // babel-loader支持缓存转换出的结果，通过cacheDirectory选项开启
+      // babel-loader支持缓存转换出的结果,通过cacheDirectory选项开启
       loader: 'babel-loader?cacheDirectory',
       // 只对项目根目录下的src 目录中的文件采用 babel-loader
       include: [resolve('src')],
@@ -1258,8 +1262,8 @@ const renderMarkup = (str) => {
       //...
       resolve: {
         alias: {
-          Utilities: path.resolve(__dirname, 'src/utilities/'),
-          Templates: path.resolve(__dirname, 'src/templates/'),
+          Utilities: path.resolve(__dirname,'src/utilities/'),
+          Templates: path.resolve(__dirname,'src/templates/'),
           '@': resolve('src'),
           //配置别名将库指向同一个版本
           'moment$': path.resolve('node_modules/moment/moment'),
@@ -1276,8 +1280,8 @@ const renderMarkup = (str) => {
       resolve: {
         //尝试列表最小化
         //优先的放到最前面
-        //在源码中写导入语句时，要尽可能带上后缀，从而可以避免寻找过程。例如在确定的情况下将 require(’.       // /data ’)写成require(’. /data.json ’)，可以结合enforceExtension和enforceModuleExtension开     // 启使用来强制开发者遵守这条优化
-        extensions: ['.wasm', '.mjs', '.js', '.json']
+        //在源码中写导入语句时,要尽可能带上后缀,从而可以避免寻找过程.例如在确定的情况下将 require(’.       // /data ’)写成require(’. /data.json ’),可以结合enforceExtension和enforceModuleExtension开     // 启使用来强制开发者遵守这条优化
+        extensions: ['.wasm','.mjs','.js','.json']
       }
     }
     ```
@@ -1291,18 +1295,32 @@ const renderMarkup = (str) => {
       //...
       module: {
         //noParse: (content) => /jquery|lodash/.test(content)
-        noParse:[/jquery|chartjs/, /react\.min\.js$/] //react.min.js经过构建，已经是可以直接运行在浏览器的、非模块化的文件
+        noParse:[/jquery|chartjs/,/react\.min\.js$/] //react.min.js经过构建,已经是可以直接运行在浏览器的、非模块化的文件
       }
     };
     ```
 
+    ```javascript
+    //webpack 检查到 entry.js 文件对 moment 的请求
+    //请求被 alias 重定向,转而请求 moment/min/moment-with-locales.min.js
+    //noParse 规则中的 /moment-with-locales/ 一条生效,所以 webpack 就直接把依赖打包进了 bundle.js
+    resolve: {
+        alias: {
+            moment: "moment/min/moment-with-locales.min.js"
+        }
+    },
+    module: {
+        noParse: [/moment-with-locales/]
+    }
+    ```
+
 7. [HappyPack](<https://github.com/amireh/happypack>)多进程解析和处理文件 or thread-loader(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
 
-8. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译，DllReferencePlugin 将预先编译好的模块关联到当前编译中，当webpack解析到这些模块时，会直接使用预先编译好的模块
+8. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译,DllReferencePlugin 将预先编译好的模块关联到当前编译中,当webpack解析到这些模块时,会直接使用预先编译好的模块
 
 9. [ParallelUglifyPlugin](<https://github.com/gdborton/webpack-parallel-uglify-plugin>)多进程压缩代码文件
 
-10. hard-source-webpack-plugin && cache-loader   //模块编译缓存，加快编译速度
+10. hard-source-webpack-plugin && cache-loader   //模块编译缓存,加快编译速度
 
 11. `webpack-bundle-analyzer`
 
@@ -1310,43 +1328,43 @@ const renderMarkup = (str) => {
 
 13. ContextReplacementPlugin or IgnorePlugin
 
-       ```javascript
-     //moment.js for example
-     new webpack.ContextReplacementPlugin(
-       /moment[/\\]locale$/,
-       /de|fr|hu/
-     )
-     
-     //IgnorePlugin
-     new Webpack.IgnorePlugin(/\.\/locale/,/moment/)
-     //忽略后源码需要手动引入
-     import 'moment/locale/zh-cn';
-       ```
+        ```javascript
+      //moment.js for example
+      new webpack.ContextReplacementPlugin(
+        /moment[/\\]locale$/,
+        /de|fr|hu/
+      )
+      
+      //IgnorePlugin
+      new Webpack.IgnorePlugin(/\.\/locale/,/moment/)
+      //忽略后源码需要手动引入
+      import 'moment/locale/zh-cn';
+        ```
 
 14. ModuleConcatenationPlugin / HashedModuleIdsPlugin
 
-     ```javascript
-     mode：'production',
-     optimization : {
-         moduleIds: 'hashed',
-     }
-     ```
+      ```javascript
+      mode：'production',
+      optimization : {
+          moduleIds: 'hashed',
+      }
+      ```
 
-     > 默认情况下，webpack会为每个模块用数字做为ID，这样会导致同一个模块在添加删除其他模块后，ID会发生变化，不利于缓存。
-     >  为了解决这个问题，有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`，前者会用模块的文件路径作为模块名，后者会对路径进行md5处理。因为前者处理速度较快，而后者打包出来的文件体积较小，所以应该开发环境时选择前者，生产环境时选择后者。
-     >  `ModuleConcatenationPlugin`主要是作用域提升，将所有模块放在同一个作用域当中，一方面能提高运行速度，另一方面也能降低文件体积。前提是你的代码是用es模块写的。
-     >  在 webpack4 中，只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`， 设置`mode`为`production`即可
+      > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
+      >  为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.
+      >  `ModuleConcatenationPlugin`主要是作用域提升,将所有模块放在同一个作用域当中,一方面能提高运行速度,另一方面也能降低文件体积.前提是你的代码是用es模块写的.
+      >  在 webpack4 中,只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`,设置`mode`为`production`即可
 
 15. speed-measure-webpack-plugin
 
 16. 配置performance参数可以输出文件的性能检查配置
 
-17. 配置profile：true，是否捕捉Webpack构建的性能信息，用于分析是什么原因导致构建性能不佳
+17. 配置profile：true,是否捕捉Webpack构建的性能信息,用于分析是什么原因导致构建性能不佳
 
-18. 配置cache：true，是否启用缓存来提升构建速度
+18. 配置cache：true,是否启用缓存来提升构建速度
 
-19. 使用url-loader把小图片转换成base64嵌入到JS或CSS中，减少加载次数
+19. 使用url-loader把小图片转换成base64嵌入到JS或CSS中,减少加载次数
 
-20. 通过imagemin-webpack-plugin压缩图片，通过webpack-spritesmith制作雪碧图
+20. 通过imagemin-webpack-plugin压缩图片,通过webpack-spritesmith or sprite-webpack-plugin制作雪碧图
 
-21. 开发环境下将devtool设置为cheap-module-eval-source-map，因为生成这种source map的速度最快，能加速构建。在生产环境下将devtool设置为hidden-source-map
+21. 开发环境下将devtool设置为cheap-module-eval-source-map,因为生成这种source map的速度最快,能加速构建.在生产环境下将devtool设置为cheap-module-source-map

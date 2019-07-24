@@ -172,23 +172,15 @@
 - [Vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_Vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 
-### webpack 4
-
-- [Webpack3 CommonsChunkPlugin](https://juejin.im/post/5d2d65a5f265da1bcf5e0e26)
-- [Webpack理解Chunk](https://juejin.im/post/5d2b300de51d45775b419c76)
-- [优化网络解析时长和执行时长及优化webpack打包](https://juejin.im/post/5d0aea6fe51d4550a629b286)
-- [webpack DllPlugin + HappyPack](https://segmentfault.com/a/1190000016484002)
-- [webpack项目打包优化经验](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
-
-
+### webpack
 
 - [webpack4 CheatSheet](https://juejin.im/post/5c91e2ca518825284205dcf2)
-- [全网最贴心 webpack 系列教程和配套代码](https://segmentfault.com/a/1190000016740439)
-- [webpack all](http://blog.poetries.top/2018/09/04/webpack-custom-work-flow/)
-- [webpack 4](http://coderlt.coding.me/2018/04/12/webpack4/)
-- [webpack 4](https://segmentfault.com/a/1190000014685887)
-- [webpack4 的 30 个步骤打造优化到极致的 react 开发环境,如约而至](https://juejin.im/post/5cfe4b13f265da1bb13f26a8)
-- [Vue webpack重写cookie路径](https://www.ddhigh.com/2019/07/08/Vue-webpack-rewrite-cookie-path.html)
+- [Webpack3 CommonsChunkPlugin](https://juejin.im/post/5d2d65a5f265da1bcf5e0e26)
+- [Webpack理解Chunk](https://juejin.im/post/5d2b300de51d45775b419c76)
+- [用webpack实现持久化缓存](https://sebastianblade.com/using-webpack-to-achieve-long-term-cache)
+- [优化网络解析时长和执行时长及优化webpack打包](https://juejin.im/post/5d0aea6fe51d4550a629b286)
+- [webpack项目打包优化经验](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
+- [webpack DllPlugin + HappyPack](https://segmentfault.com/a/1190000016484002)
 
 ### React
 - [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
