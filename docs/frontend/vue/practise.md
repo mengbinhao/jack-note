@@ -1066,7 +1066,7 @@ unsubscribe2();
 
 ### optimization
 
-#### 1 路由懒加载
+#### 1 路由异步加载
 
 ```javascript
 {
@@ -1106,6 +1106,10 @@ export default new Router({
 const Hello = () => import('./components/Hello.vue')
 Vue.component('xxx', Hello)
 
+//or
+const example = () => import(/* webpackChunkName: "group-example" */ '../components/example.vue')
+//or
+const example = resolve => require(['../components/example.vue'], resolve)
 
 //单独封装地图组件
 import China from 'echarts/map/json/china.json'
@@ -1116,8 +1120,6 @@ provinceList.forEach(pro => {
   const map = require('echarts/map/json/province/' + pro.path)
   ECharts.registerMap(pro.py, map)
 })
-
-//vuex
 ```
 
 #### 4 vuex按需加载
