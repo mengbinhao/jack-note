@@ -242,6 +242,7 @@
 
 ### Interview
 
+- [大厂面试题](https://mp.weixin.qq.com/s/sBk9j7GYh877nEKvuBQIAA)
 - [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
 - [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273)
 - [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)

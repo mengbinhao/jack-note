@@ -646,7 +646,7 @@ module.exports = {
 #### 11 tree shaking
 
 - DCE(代码不可到达,代码执行结果不会被用到,代码只影响死变量)
-- 必须是ES6的语法,CJS不支持
+- **必须是ES6的语法,CJS不支持**
 - 函数必须是纯函数
 - `mode:productio/none`
 - 原理
@@ -660,7 +660,7 @@ module.exports = {
 - 现象：构建后的代码存在大量闭包
 - 导致问题：大量作用域包裹代码体积变大,运行代码时创建的函数作用域变多,内存开销变大
 - 原理：将所有模块的代码按照所引用顺序放在一个函数作用域里,然后适当的重命名一些变量以防止变量名冲突
-- 必须是ES6语法,CJS不支持
+- **必须是ES6语法,CJS不支持**
 - `mode:productio/none` +  `new webpack.optimize.ModuleConcatenationPlugin()`
 
 #### 13 code split and dynamic import
@@ -1314,57 +1314,65 @@ const renderMarkup = (str) => {
     }
     ```
 
-7. [HappyPack](<https://github.com/amireh/happypack>)多进程解析和处理文件 or thread-loader(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
+7. `optimize-css-assets-webpack-plugin`  and  `terser-webpack-plugin`
 
-8. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译,DllReferencePlugin 将预先编译好的模块关联到当前编译中,当webpack解析到这些模块时,会直接使用预先编译好的模块
+8. optimization
 
-9. [ParallelUglifyPlugin](<https://github.com/gdborton/webpack-parallel-uglify-plugin>)多进程压缩代码文件
+9. `@babel/plugin-syntax-dynamic-import`
 
-10. hard-source-webpack-plugin && cache-loader   //模块编译缓存,加快编译速度
+10. [HappyPack](<https://github.com/amireh/happypack>)多进程解析和处理文件 or thread-loader(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
 
-11. `webpack-bundle-analyzer`
+11. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译,DllReferencePlugin 将预先编译好的模块关联到当前编译中,当webpack解析到这些模块时,会直接使用预先编译好的模块
 
-12. code aspect (async module)
+12. [ParallelUglifyPlugin](<https://github.com/gdborton/webpack-parallel-uglify-plugin>)多进程压缩代码文件
 
-13. ContextReplacementPlugin or IgnorePlugin
+13. hard-source-webpack-plugin && cache-loader   //模块编译缓存,加快编译速度
 
-        ```javascript
-      //moment.js for example
-      new webpack.ContextReplacementPlugin(
-        /moment[/\\]locale$/,
-        /de|fr|hu/
-      )
-      
-      //IgnorePlugin
-      new Webpack.IgnorePlugin(/\.\/locale/,/moment/)
-      //忽略后源码需要手动引入
-      import 'moment/locale/zh-cn';
-        ```
+14. `webpack-bundle-analyzer`
 
-14. ModuleConcatenationPlugin / HashedModuleIdsPlugin
+15. code aspect (async module)
 
-      ```javascript
-      mode：'production',
-      optimization : {
-          moduleIds: 'hashed',
-      }
-      ```
+16. ContextReplacementPlugin or IgnorePlugin
 
-      > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
-      >  为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.
-      >  `ModuleConcatenationPlugin`主要是作用域提升,将所有模块放在同一个作用域当中,一方面能提高运行速度,另一方面也能降低文件体积.前提是你的代码是用es模块写的.
-      >  在 webpack4 中,只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`,设置`mode`为`production`即可
+     ```javascript
+       //moment.js for example
+       new webpack.ContextReplacementPlugin(
+         /moment[/\]locale$/,
+         /de|fr|hu/
+       )
+     
+       //IgnorePlugin
+       new Webpack.IgnorePlugin(/.\/locale/,/moment/)
+       //忽略后源码需要手动引入
+       import 'moment/locale/zh-cn';
+     
+     ```
 
-15. speed-measure-webpack-plugin
+17. ModuleConcatenationPlugin / HashedModuleIdsPlugin
 
-16. 配置performance参数可以输出文件的性能检查配置
+       ```javascript
+       mode：'production',
+       optimization : {
+           moduleIds: 'hashed',
+       }
+       ```
 
-17. 配置profile：true,是否捕捉Webpack构建的性能信息,用于分析是什么原因导致构建性能不佳
+       > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
+       >
+       > 为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.
+       > `ModuleConcatenationPlugin`主要是作用域提升,将所有模块放在同一个作用域当中,一方面能提高运行速度,另一方面也能降低文件体积.前提是你的代码是用es模块写的.
+       > 在 webpack4 中,只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`,设置`mode`为`production`即可
 
-18. 配置cache：true,是否启用缓存来提升构建速度
+18. speed-measure-webpack-plugin
 
-19. 使用url-loader把小图片转换成base64嵌入到JS或CSS中,减少加载次数
+19. 配置performance参数可以输出文件的性能检查配置
 
-20. 通过imagemin-webpack-plugin压缩图片,通过webpack-spritesmith or sprite-webpack-plugin制作雪碧图
+20. 配置profile：true,是否捕捉Webpack构建的性能信息,用于分析是什么原因导致构建性能不佳
 
-21. 开发环境下将devtool设置为cheap-module-eval-source-map,因为生成这种source map的速度最快,能加速构建.在生产环境下将devtool设置为cheap-module-source-map
+21. 配置cache：true,是否启用缓存来提升构建速度
+
+22. 使用url-loader把小图片转换成base64嵌入到JS或CSS中,减少加载次数
+
+23. 通过imagemin-webpack-plugin压缩图片,通过webpack-spritesmith or sprite-webpack-plugin制作雪碧图
+
+24. 开发环境下将devtool设置为cheap-module-eval-source-map,因为生成这种source map的速度最快,能加速构建.在生产环境下将devtool设置为cheap-module-source-map

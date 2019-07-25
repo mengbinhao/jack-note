@@ -1,3 +1,14 @@
+- 2019.7.25
+  - enrollment n
+  - roughly adv
+  - essential n/adj
+  - prescription n
+  - discrimination n
+  - repeal vt/n
+  - affordable adj
+
+  > Fore in five of them would come from working families
+
 - 2019.7.22
   - grueling adj
   - insistent adj
