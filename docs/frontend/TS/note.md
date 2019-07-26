@@ -25,3 +25,9 @@ tsc .\src\index.ts
 ### 基本类型
 
 在js的6基本，1引用类型基础上增加 void、any、never、元祖、枚举、高级类型
+
+### 类与接口
+
+### 类型检查机制
+
+![](images/ts_1.png)
