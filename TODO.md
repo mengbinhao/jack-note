@@ -76,6 +76,7 @@
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 - [封装AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
 - [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
+- [axios基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
 - [2019年常用JavaScript正则大全](https://juejin.im/post/5d245d4151882555300feb77)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
 - [我所理解的Promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
@@ -242,6 +243,7 @@
 
 ### Interview
 
+- [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
 - [大厂面试题](https://mp.weixin.qq.com/s/sBk9j7GYh877nEKvuBQIAA)
 - [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
 - [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273)

@@ -1,3 +1,27 @@
+- 2019.7.26
+  - conservative n/adj
+  - unifying adj
+  - dire adj
+  - daunting/daunted adj
+  - can-do
+  - divisive adj
+  - off-putting adj
+  - gut n
+  - detractor n
+  - fond adj
+  - undoubtedly adv
+  - successor n
+  - hard-line adj
+  - appealing adj appeal n/vi/vt
+  - liken vt
+  - never-ending adj
+  - elite n/adj
+  - celibrity n
+  - privileged adj
+  - controversial adj
+
+  > to some degree
+
 - 2019.7.25
   - enrollment n
   - roughly adv
@@ -32,7 +56,6 @@
   - opposite n/adj/adv/prep
   - controversy n
   - intelligence n
-  - mandate n/vt
   - condemn vt
   - complain vi/vt
   - disapprove vi
@@ -62,7 +85,7 @@
   - postpone vt
   - indefinitely adv
   - debate n/vi/vt
-  - mandated adj
+  - mandated adj   mandate n/vt
   - sector n
   - certify vt
   - impose vi/vt
@@ -256,7 +279,6 @@
   - cite vt
   - inflation/deflation n
   - resist vi/vt
-  - mandate n/vt
   - sustainable adj
   - concern n/vt
   - concerned adj

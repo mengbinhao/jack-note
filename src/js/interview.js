@@ -424,7 +424,7 @@ let isPrimeNumber = (num) => {
 }
 //console.log(isPrimeNumber(997));
 
-
+// return  n & 1 === 1
 let isOdd = (num) => Math.abs(num % 2) === 1;
 
 
