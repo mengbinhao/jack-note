@@ -174,7 +174,7 @@ Vue.component(‘componentName',{
 })
 ```
 #### [生命周期](./lifecycle.md)
-- `beforeCreate/created、beforeMount/mounted、beforeUpdate/updated、beforeDestory/destoryed`
+- `beforeCreate/created、beforeMount/mounted、beforeUpdate/updated、beforeDestory/destoryed、errorCaptured`
 - `activated/deactivated、errorCaptured`
 #### [组件通信](./component-communicate.md)
 

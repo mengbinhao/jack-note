@@ -1,0 +1,12 @@
+### macos
+  - type xx
+  - curl xxx > yyy
+  - which xx
+  - source  === .
+  - vi
+  - ~ //用户目录
+  - sed
+  - open
+  - touch
+  - mkdir
+  - brew

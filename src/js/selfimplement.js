@@ -233,21 +233,17 @@ const throttle = (fn, interval = 300) => {
 const betterScrollThrottle = throttle(() => console.log('触发了滚动事件'), 1000)
 document.addEventListener('scroll', betterScrollThrottle)
 
-const debounce = (fn, delay = 300) => {
+function debounce(fn, delay = 300) {
   let timer
   return function() {
-    let context = this
-    let args = arguments
+    clearTimeout(timer)
 
-    if (timer) {
-      clearTimeout(timer)
-    }
-
-    timer = setTimeout(function() {
-      fn.apply(context, args)
+    timer = setTimeout(() => {
+      fn.apply(this, arguments)
     }, delay)
   }
 }
+
 const betterScrollDebounce = debounce(() => console.log('触发了滚动事件'), 1000)
 document.addEventListener('scroll', betterScrollDebounce)
 
@@ -524,15 +520,17 @@ Function.prototype.simulateNew = function(constructor) {
   let obj = Object.create(constructor.prototype)
   let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1))
   //in case constructor return a simple type
-  return typeof result === 'object' && result !== null ? result : obj
+  return (typeof result === 'object' && typeof result !== null) ||
+    typeof ctorReturnResult === 'function'
+    ? result
+    : obj
 }
 
 Function.prototype.simulateCall = function(context = window) {
   if (typeof this !== 'function') throw new Error('this must be a function')
   context.fn = this
   let args = [...arguments].slice(1)
-  let result = context.fn(args)
-  //delete temporary attribute
+  let result = context.fn(...args)
   delete context.fn
   return result
 }

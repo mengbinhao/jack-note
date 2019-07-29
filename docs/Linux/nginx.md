@@ -35,7 +35,7 @@ Nginx是一款轻量级的Web服务器，也是一款轻量级的反向代理服
 ### 正向代理
 内网服务器主动去请求外网的服务的一种行为
 
-```
+```bash
 server {
     #指定DNS服务器IP地址
     resolver 114.114.114.114;
@@ -62,7 +62,7 @@ server {
 ### 反向代理
 是指用代理服务器来接受客户端发来的请求，然后将请求转发给内网中的上游服务器，上游服务器处理完之后，把结果通过nginx返回给客户端。
 
-```
+```bash
 server {
     #监听端口
     listen 80;
@@ -105,7 +105,7 @@ nginx实现负载均衡有几种模式：
 1. 轮询：每个请求按时间顺序逐一分配到不同的后端服务器，也是nginx的默认模式。轮询模式的配置很简单，只需要把服务器列表加入到upstream模块中即可。
 
 下面的配置是指：负载中有三台服务器，当请求到达时，nginx按照时间顺序把请求分配给三台服务器处理。
-```
+```bash
 upstream serverList {
     server 1.2.3.4;
     server 1.2.3.5;
@@ -116,7 +116,7 @@ upstream serverList {
 > ip_hash：每个请求按访问IP的hash结果分配，同一个IP客户端固定访问一个后端服务器。可以保证来自同一ip的请求被打到固定的机器上，可以解决session问题。
 
 下面的配置是指：负载中有三台服务器，当请求到达时，nginx优先按照ip_hash的结果进行分配，也就是同一个IP的请求固定在某一台服务器上，其它则按时间顺序把请求分配给三台服务器处理。
-```
+```bash
 upstream serverList {
     ip_hash
     server 1.2.3.4;
@@ -126,7 +126,7 @@ upstream serverList {
 ```
 >　url_hash：按访问url的hash结果来分配请求，相同的url固定转发到同一个后端服务器处理。
 
-```
+```bash
 upstream serverList {
     server 1.2.3.4;
     server 1.2.3.5;
@@ -137,7 +137,7 @@ upstream serverList {
 ```
 > fair：按后端服务器的响应时间来分配请求，响应时间短的优先分配。
 
-```
+```bash
 upstream serverList {
     server 1.2.3.4;
     server 1.2.3.5;
@@ -156,7 +156,7 @@ upstream serverList {
 
 如下面的配置是指：负载中有三台服务器，当请求到达时，nginx按时间顺序和权重把请求分配给三台服务器处理，例如有100个请求，有30%是服务器4处理，有50%的请求是服务器5处理，有20%的请求是服务器6处理。
 
-```
+```bash
 upstream serverList {
     server 1.2.3.4 weight=30;
     server 1.2.3.5 weight=50;
@@ -166,7 +166,7 @@ upstream serverList {
 
 如下面的配置是指：负载中有三台服务器，服务器4的失败超时时间为60s，服务器5暂不参与负载，服务器6只用作备份机。
 
-```
+```bash
 upstream serverList {
     server 1.2.3.4 fail_timeout=60s;
     server 1.2.3.5 down;
@@ -180,7 +180,7 @@ upstream serverList {
 2. server_name是客户端请求的域名地址
 3. proxy_pass是指向负载的列表的模块
 
-```
+```bash
 upstream serverList {
     server 1.2.3.4 weight=30;
     server 1.2.3.5 down;
@@ -202,7 +202,7 @@ server {
 ### 静态服务器
 现在很多项目流行前后分离，也就是前端服务器和后端服务器分离，分别部署，这样的方式能让前后端人员能各司其职，不需要互相依赖，而前后分离中，前端项目的运行是不需要用Tomcat、Apache等服务器环境的，因此可以直接用nginx来作为静态服务器。
 
-```
+```bash
 server {
     listen       80;
     server_name  www.xxx.com;

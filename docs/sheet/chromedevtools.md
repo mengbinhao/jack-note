@@ -1,3 +1,5 @@
+### [chrome some skills]https://juejin.im/post/5af53823f265da0b75282b0f
+
 ### 1.Hotkey
 
 - ctrl + p      change  file
@@ -7,6 +9,7 @@
 - ctrl + g
 - ctrl + d   multi-select then multi-change
 - ctrl + left click   multi-select then multi-change
+- sources panel -> ctrl + shift + p -> coverage (red section is useless)
 
 ### 2.ELements (right click on a dom element)
 

@@ -13,7 +13,6 @@
 #### 状态栏
 - command + 拖动
 
-
 ### 文件管理
 - 标记
   - 删除/移动 是真删除移动
@@ -66,3 +65,13 @@
 - option多种用法
 - shift + option + 音量  微调
 - command + control + d 查词
+
+### others
+- ~/.bashrc or ~/.zshrc
+- way of writing alias
+- use z and fzf
+- bash function
+- FO
+  - shadowsocks-libev
+  - chrome Proxy SwitchyOmega
+  - proxychains-ng

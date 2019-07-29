@@ -45,8 +45,29 @@
     -h help
     ```
 
+how to write git comment
+
+> add或feature，表示添加新功能
+> fix，缺陷修复
+> hotfix，紧急的缺陷修复
+> update，对已有功能进行更改或优化
+> remove，或者 rm、delete，删除部分代码、功能
+> refactor，重构了一些代码、功能
+> workflow，工作流程更改
+> chore，琐碎的修改
+
+```bash
+git commit -m 'add: 上传文件功能' 
+# 修复了一个线上问题 
+$ git commit -m 'fix: **页面数字取值问题' 
+# 对某些代码进行了重构 
+$ git commit -m 'refactor: 重构商品列表页'
+# docs 表示这是对文档进行的修改
+$ git commit -m 'docs: 更新接口文档'
+```
 
 ### 1. git config
+
 ```
 //create SSH key
 ssh-keygen -t rsa -C "youremail@example.com"

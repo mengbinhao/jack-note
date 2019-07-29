@@ -127,7 +127,7 @@ SUM=$[$1+$2]
 3. 按照文件类型(-f存在并是常规文件 -e文件存在 -d存在并是目录)
 4. 多条件判断(&& 表示前一条命令执行成功时,才执行后一条命令,|| 表示上一条命令执行失败后,才执行下一条命令)
 
-```
+```bash
 //一般中括号可以用test替换`test $num = $num2`
 一个变量是否为0, [ $var -eq 0 ]
 ne:不等于
@@ -314,7 +314,7 @@ sed是一种流编辑器,它一次处理一行内容。处理时,把当前处理
 - sed [选项参数]  ‘command’  filename(-e 直接在指令列模式上进行sed的动作编辑 -i	直接修改读取的文档内容,而不是由屏幕输出)
 - command功能描述(a 新增,a的后面可以接字串,在下一行出现 d 删除 i 插入,i的后面可以接字串 s 查找并替换)
 
-```
+```bash
 option选项
 
 n:只输出匹配的行
@@ -437,7 +437,7 @@ sort -n test.txt|awk '{a+=$0;print $0}END{print "SUM="a}'
 ```
 
 #### example
-```
+```bash
 //查询所有用户
 for user in `cat /etc/passwd | cut -d ":" -f 1`
 do
@@ -445,17 +445,17 @@ do
 done
 ```
 
-```
+```bash
 //删除配置文件中所有的注释行和空行
 sed -i '/[:blank:]*#/^$/d' config.cnf
 ```
 
-```
+```bash
 //在非#注释行前加*
 sed -i 's/^[^#]/\*&/g' config.cnf
 ```
 
-```
+```shell
 //用户输入num,求1-num之和
 while true
 do
@@ -476,7 +476,7 @@ do
 done
 ```
 
-```
+```shell
 //启动nginx
 nginx_num_process=$(ps -ef | grep nginx | grep -v grep | wc -l)
 if [ nginx_num_process -eq 0 ];then
@@ -484,7 +484,7 @@ if [ nginx_num_process -eq 0 ];then
 fi
 ```
 
-```
+```shell
 //检查Nginx是否正常运行，宕机则启动它
 this_pid=$$
 
@@ -502,7 +502,7 @@ fi
 done
 ```
 
-```
+```shell
 //查找mysql配置文件中有几段
 FILE_NAME=/root/lesson/5.6/my.cnf
 function get_all_segments
@@ -528,12 +528,12 @@ do
 done
 ```
 
-```
+```bash
 //文本格式化数据插入mysql
 sed -i 's/^[^#]/\*&/g' config.cnf
 ```
 
-```
+```shell
 //脚本使用ftp
 ftp -inv << EOF
 open ftp_ip_addr

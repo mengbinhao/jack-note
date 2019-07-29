@@ -1,7 +1,7 @@
 ### get started
 1. define router component
 2. register router in main.js(\$route只读 $router只写)
-3. use router \<router-link> \<router-view>
+3. \<router-link>  and \<router-view>
 
 ### how to use
 1. create router folder
@@ -261,7 +261,5 @@ const Foo = {
 ### 总结(k->v 前端就是组件 后端就是回调函数)
 - 原理就是onhashchange(#xxx)
 - router.addRoutes 比构造函数配置更灵活
-- \$route  只读
-- \$router  只写
-- 路由meta元数据-->meta是对于路由规则是否需要权限验证的配置
-  - 路由对象中和name属性同级 { meta: {isChecked.true}}
+- \$route  只读 / \$router  只写
+- 路由meta元数据-->meta是对于路由规则是否需要权限验证等其他自定义属性的配置

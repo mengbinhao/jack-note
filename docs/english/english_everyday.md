@@ -1,3 +1,247 @@
+- 2019.7.26
+  - conservative n/adj
+  - unifying adj
+  - dire adj
+  - daunting/daunted adj
+  - can-do
+  - divisive adj
+  - off-putting adj
+  - gut n
+  - detractor n
+  - fond adj
+  - undoubtedly adv
+  - successor n
+  - hard-line adj
+  - appealing adj appeal n/vi/vt
+  - liken vt
+  - never-ending adj
+  - elite n/adj
+  - celibrity n
+  - privileged adj
+  - controversial adj
+
+  > to some degree
+
+- 2019.7.25
+  - enrollment n
+  - roughly adv
+  - essential n/adj
+  - prescription n
+  - discrimination n
+  - repeal vt/n
+  - affordable adj
+
+  > Fore in five of them would come from working families
+
+- 2019.7.22
+  - grueling adj
+  - insistent adj
+  - carpet n/vt
+  - fuel n/vi/vt
+  - speculation n
+  - trembling n
+  - cite vt
+  - nerve n
+  - figure n/vt
+  - reveal vt
+  - transparent adj
+  - exhausting adj
+  - sympathetic adj
+  - criticism n
+  - footage n
+  - dis adj
+  - intense adj
+  - recharge vt
+  - defend vt
+  - opposite n/adj/adv/prep
+  - controversy n
+  - intelligence n
+  - condemn vt
+  - complain vi/vt
+  - disapprove vi
+
+  > he made a name for himself xxxx
+  > he himself has done
+  > it is just something she'll hace to live with for some time
+  > this is new for the long-serving chancellor,she would normally stand
+  > he even went further in some ways
+  > Compared to you guys in the US, you are like open books
+
+- 2019.7.19
+  - massive adj
+  - cargo n
+  - Pentagon n
+  - ally n/vt
+  - consequence n
+  - defy vt / defiance n
+  - standoff n
+  - acquire vt / acquisition n
+  - stealth n/adj
+  - maintenance n
+  - facility n
+  - adversary n
+  - undercut vt
+  - vow n/vt
+  - postpone vt
+  - indefinitely adv
+  - debate n/vi/vt
+  - mandated adj   mandate n/vt
+  - sector n
+  - certify vt
+  - impose vi/vt
+  - derail vi/vt
+  - finality n
+  - unauthorized adj
+  - raise n/vi/vt
+  - dispute n/vi/vt
+  - alien n/adj
+  - intervene vi
+  - strategist n
+
+  > it appears that none will be
+  > it's done trying
+
+- 2019.7.18
+  - unanimous n
+  - lawsuit n
+  - comedian n
+  - bully n/vt
+  - ex n
+  - chamber n
+  - adoring adj
+  - capacity n/adj
+  - servant n
+  - citizen n
+  - transgender n
+  - esteemed adj
+  - reiterate vt
+  - forum n
+  - conduct n/vi/vt
+  - conrrary n/adj/adv
+  - high-profile adj
+  - reserve n/vi/vt/adj
+  - constraint n
+
+  > he is by no means the only officail public servant doing so
+  > cover one's ears
+
+- 2019.7.17
+  - protest n
+  - violence n
+  - ruling adj
+  - activist n
+  - joint adj
+  - council n
+  - civilian n
+  - clash n/vi/vt
+  - depose vt
+  - coup n
+  - sole adj/n/vt
+  - compromise n/vi/vt
+  - reservation n
+  - opt vi
+  - stumble n/vt
+  - oust vi
+  - fissure n
+  - ordinary adj
+  - radical adj
+  - gradual adj
+
+  > you mentioned an election will happen down the road
+  > I think what we can be certain of is that ...
+
+- 2019.7.16
+  - criticism n
+  - cable n/vt
+  - ambassador n
+  - inept adj
+  - incompetent adj
+  - radiate vi/vt
+  - insecurity n
+  - diplomatic adj
+  - diplomat n
+  - substantially adv
+  - dyfunctional adj
+  - clumsy adj
+  - blunt adj/vt
+  - outgoing adj
+  - uninformed adj
+  - candid adj
+  - accurately adv
+  - effectively adv
+  - hardcore
+  - pretext n
+  - mischievous adj
+  - mischief n
+  - desperate adj
+  - ignorance n
+
+  > which leads me to ask
+  > sooner or later
+  > we don't know for sure
+  > in the first place
+  > the xx had a ton in the paper today
+
+- 2019.7.15
+  - envoy n
+  - backdrop n
+  - intensify vi/vt
+  - negligence n
+  - shore n/vt
+  - remnant n/adj
+  - dictator n
+  - aide n
+  - topple vi/vt
+  - horrendous adj
+  - lessen vi/vt
+
+  > the xxx does fit him
+  > they risk everything to come to Libya
+
+- 2019.7.12
+  - swallow vi/vt/n
+  - proposed adj
+  - rival n/vt
+  - domestic adj/n
+  - encouraging adj
+  - tariff n/vt
+  - consequence n
+  - retailatory adj
+
+  > it is hard to swallow
+
+- 2019.7.11
+  - soar vi
+  - ploy n
+  - soften vi/vt
+  - tremendous adj
+  - considerale adj
+  - speculation n
+  - reversal n
+
+  > so all in all
+  > at the very least
+  > a lot of progess has been made
+
+- 2019.7.10
+  - shore vt/n
+  - foe n
+  - demoracy n
+  - tough n/adj/adv
+  - neighborhood n
+  - begrudgingly adv
+  - duty-fee n
+  - ongoing adj
+  - standoff n
+  - elsewhere adv
+  - exemption n
+  - dominate vi/vt
+  - moderate adj/n/vt
+
+  > take sides
+  > it very well may
+  > that may easier said than done
+
 - 2019.7.9
   - comply vi
   - supplier n
@@ -35,7 +279,6 @@
   - cite vt
   - inflation/deflation n
   - resist vi/vt
-  - mandate n/vt
   - sustainable adj
   - concern n/vt
   - concerned adj
