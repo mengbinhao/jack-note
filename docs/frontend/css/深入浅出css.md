@@ -44,6 +44,7 @@
 
 #### 文档流
 1. 内联元素宽高
+
     - padding和marging、border会影响宽度,但不会影响高度
 2. 块级元素宽高(**由内部文档流中元素的高度总和决定的**)
     - 只有内联元素
@@ -331,3 +332,99 @@ example:
 5. REM 可以与其他单位同时存在(当数值太小的时候直接px,比如border)
 6. 在 SCSS 里使用 PX2REM
 
+### 定位参照于谁块来定位
+
+- 没有定位 :包含块
+- 相对: 元素本来的位置
+- 绝对: 包含块
+    - 如果最近的祖先元素中存在定位元素，则这个定位元素就是包含块
+    - 如果没有，包含块为初始包含块
+- 固定: 视口
+- 初始包含块: 一个视窗大小的矩形，不等于视窗
+
+### 属性默认值
+
+- left top right bottom width height 默认值为auto
+- margin padding 默认值 0
+- boder-width 如果不存在border-style
+
+### 属性是否可继承
+
+- left top right bottom width height 默认值为auto 不可继承
+
+### 百分比参照于谁
+
+- width margin padding:包含块的width
+- height:包含块的height
+- left:包含块的width
+- top :包含块的height
+
+### 浮动(浮动提升半层)
+
+- 三列布局需求
+    - 两边固定，当中自适应
+    - 中间列要完整的显示
+    - 中间列要优先加载
+- 四种实现
+    - 定位
+    - 浮动
+    - 圣杯(推荐)
+    - 双飞翼(推荐)
+
+### margin为负值(margin不影响元素的位置)
+
+> 负值:将元素的边界往里收
+> 正值:将元素的边界往外扩
+
+### 伪等高布局
+
+### fixed
+
+怎么使用绝对定位来模拟固定定位
+
+1. 禁止系统滚动条
+2. 将滚动条加给body
+3. 让body的尺寸变为视口的尺寸
+
+### 粘连布局
+
+### BFC
+
+- 两列布局
+- margin叠加
+- 清浮动
+
+### 文本 字体
+
+### 垂直水平居中
+
+- 已知宽高
+    - 绝对定个位盒子的特性
+- 未知宽高
+- 图片
+
+### css hack(主要针对IE10以下)
+
+1. 溢出显示省略号
+
+```css
+div {
+    white-space:no-wrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+```
+
+### 如何实现一张图片的垂直水平居中
+
+```css
+body:after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
+```

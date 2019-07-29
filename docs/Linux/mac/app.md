@@ -11,3 +11,6 @@
 - terminal
   - say xxxx
 - cheatsheet
+- Gas Mask(host file editor)
+- Alfred
+- Dash

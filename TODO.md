@@ -153,6 +153,7 @@
 #### Vuex
 
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
+- [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
 
 #### Vue-cli
 
@@ -213,6 +214,7 @@
 - [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
 - [useHooks~小窍门](https://zhuanlan.zhihu.com/p/66170210)
 - [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
+- [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 
 ### Other
 
