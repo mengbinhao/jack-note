@@ -6,7 +6,7 @@
 
 - `"mysql foreign key"` 完整匹配
 
-### 筛选
+### 过滤掉
 - `"mysql foreign key" -nodejs`
 
 ### 通配符

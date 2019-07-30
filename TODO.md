@@ -183,6 +183,7 @@
 - [优化网络解析时长和执行时长及优化webpack打包](https://juejin.im/post/5d0aea6fe51d4550a629b286)
 - [webpack项目打包优化经验](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
 - [webpack DllPlugin + HappyPack](https://segmentfault.com/a/1190000016484002)
+- [Webpack优化第三方库](https://juejin.im/post/5d3cfeaa518825720651913e)
 
 ### React
 - [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
@@ -215,12 +216,17 @@
 - [useHooks~小窍门](https://zhuanlan.zhihu.com/p/66170210)
 - [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
 - [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
+- [Hooks与React生命周期的关系](https://juejin.im/post/5d3db4da518825016f644561)
+
+### Angular
+- [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
 
 ### Other
 
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [vscode项目配置eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [docker](https://segmentfault.com/a/1190000018810837)
+- [前端工程师Docker入门](https://segmentfault.com/a/1190000019898011)
 - [NGINX](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
 - [NGINX入门](https://segmentfault.com/a/1190000017940311)
 - [NGINX与前端开发](https://juejin.im/post/5bacbd395188255c8d0fd4b2)

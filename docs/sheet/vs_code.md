@@ -1,21 +1,22 @@
-#### Plugin
-    - Setting Sync
-#### Hotkey
-- Ctrl + \   分屏
-- Ctrl+[   Ctrl+]     indent
-- ==Ctrl + p / Ctrl + Shift + p==
-- Alt + up / Alt + down    move up / down of this line
-- Shift+Alt+Up  Shift+Alt+Down    copy up / down  of this line
-- ==Alt+Click / Ctrl+Alt+Down or Ctrl+Alt+Up==     Multi-Cursor
-- Ctrl+Shift+L  selecte all match
-- Ctrl + d   multi-select then multi-change
-- Ctrl + g
-- F12    go to define
-- Alt+F12   just see define 缩略图
-- ==Shift+F12== list all ref
-- Ctrl+F / Ctrl+H / Ctrl+Shift+F
+### vscode
 
-#### 与定义变量
+#### Hotkey
+- f1 or ctrl + shift + p
+- ctrl + p
+- ctrl + x/l/c/v
+- ctrl+shift+l
+- alt + up arrow / down arrow
+- alt + shift + up arrow / down arrow
+- ctrl + \
+- ctrl + [shift] + /
+- alt + left arrow / right arrow
+- ctrl + f/h
+- ctrl + shift + f/h
+- alt + click / ctrl + alt + up arrow / down arrow
+- ctrl + [shift] + space
+- shift + alt + f
+
+#### 预定义变量
 - \${workspaceRoot} 当前打开的文件夹的绝对路径+文件夹的名字
 - \${workspaceRootFolderName} 当前打开的文件夹的名字
 - \${file} 当前打开正在编辑的文件名，包括绝对路径，文件名，文件后缀名

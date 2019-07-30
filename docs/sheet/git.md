@@ -29,8 +29,6 @@
 - git push -u origin 分支名 关联远程分支
 - git push origin --delete 分支名 删除指定远程分支（或使用git push origin :分支名）
 
-
-
 ### 标签操作
 - git tag <tagName>创建轻量标签
 - git tag -a <tagName> -m '备注' 创建附注标签
