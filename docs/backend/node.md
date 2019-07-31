@@ -69,9 +69,13 @@ node 扩展后 -> net、db、file...
 
 ### 7. module
 
-   1. 单次加载 (modules/fiestmodule.js)
-   2. 导出对象 (modules/hello.js)
-   3. 一个文件就是一个模块
+      1. 单次加载 (modules/firstmodule.js)
+      2. 导出对象 (modules/hello.js)
+      3. 一个文件就是一个模块
+      4. 相对`require(./x.js)` ,绝对`require(/x/y/z.js)`,`require(x.js)`  加载核心模块
+      5. 加载机制顺序`require('./x')`不加扩展名字 -> .js > .json > .node
+      6. `module.exports === exports`,`require`进来的其实就是`module.exports,不要切断`module.exports`和`exports`之间的关系
+      7. `__filename` and `__dirname`(都是当前模块解析过后的绝对路径)
 
 ### 8. package
 
@@ -81,9 +85,10 @@ node 扩展后 -> net、db、file...
 
 ### 9. build-in module
 
-   1. Global
+      1. `Global`
 
-   2. **Buffer**
+      2. **Buffer**
+
       1. 专门存储/操作二进制数据流(TPC/图像/文件/网络),js数组不行,数组效率也不行
       2. 直接使用不需要引入
       3. buffer中存储的数据都是二进制,但是显示是16进制
@@ -91,54 +96,56 @@ node 扩展后 -> net、db、file...
       5. buffer中每一个元素范围00-ff    0-255
       6. buffer大小一旦确定,不能修改,实际上是对内存的直接操作
       7. some API
-         - buf.length  //占用内存的大小
-         - buf[index]
-         - Buffer.alloc(10)
-         - Buffer.from(str)
-         - buf.write(string[, offset[, length]][, encoding])
-         - buf.toString([encoding[, start[, end]]]) //只要数子在页面或控制台全10进制输出
-         - buf.toJSON()
-         - buf.slice([start[, end]]) ->同一引用
-         - buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])
-         - buf.compare(otherBuffer)
-         - buf.fill(value, offset, end)
-         - Buffer.isEncoding(encoding)
-         - Buffer.isBuffer(obj)
-         - Buffer.byteLength(string[, encoding])
-         - Buffer.concat(list[, totalLength])
+         - `buf.write(string[, offset[, length]][, encoding])`
 
-   3. **Stream**
+         - `buf.toString([encoding[, start[, end]]])`
+
+         - `buf.toJSON()`
+
+         - `buf.slice([start[, end]])`
+
+         - `buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])`
+
+         - `Buffer.concat(list[, totalLength])`
+
+         - `Buffer.isEncoding(encoding)`
+
+         - `Buffer.isBuffer(obj)`
+
+         - `Buffer.byteLength(string[, encoding])` 字符串长度 / 字节长度
+
+      3. **Stream**
         - data/readable/end/close/error
         - pause() / resume()
         - readable / writable / duplex / transform  ---> pipe()
-   4. Net
-   5. assert
+      4. Net
+      5. assert
 
-   6. **url**
-        - url.parse(urlString[, parseQueryString[, slashesDenoteHost]])
+      6. **url**
+        - `url.parse(urlString[, parseQueryString[, slashesDenoteHost]])`
         - url.format()
         - url.resolve()
 
-   7. **path**`join()、resolve()、parse()`
+      7. **path**`join()、resolve()、parse()`
 
-   8. crypto
+      8. crypto
 
-   9. **querystring**
+      9. **querystring**
         - querystring.stringify({name:'jack',age:33})
         - querystring.parse('name=jack&age=33')
         - querystring.escape('<哈哈>')
         - querystring.unescape('%3C%E5%93%88%E5%93%88%3E')
 
-   10. Process  (global.process.argv)
+      10. Process 
    ```javascript
-   // process.js
-   const {argv, execPath, env} = process
-   argv.forEach((val, index) => {
-   console.log(`${index}: ${val}`)
-   })
-   console.log(execPath)
-   console.log(env)
-   console.log(process.cwd())
+// process.js
+const {argv, execPath, env} = process
+argv.forEach((val, index) => {
+    console.log(`${index}: ${val}`)
+})
+console.log(execPath)
+console.log(env)
+console.log(process.cwd())
    ```
 
    11. **Console**
@@ -156,16 +163,17 @@ node 扩展后 -> net、db、file...
        - `EventEmitter.removeAllListeners([event])`：移除所有事件的所有监听器，如果指定event，则移除指定事件的所有监听器
        - `emitter.listenerCount(eventName)`
 
-   14. **File System** (一般两个版本)(readFileSync()、readFile()、writeFileSync()、writeFile())
+   14. **File System** (一般同步异步两个版本)
+
        1.  简单文件读写
        2.  流式文件读写(大文件)`fs.createWriteStream()`
           ```javascript
           let ws = fs.createWriteStream('xxx')
           ws.once('open', function() {
-
+       
           })
           ws.once('close', function() {
-
+       
           })
           ws.write('xxxxxxxxxxxxxxxx')
           //ws.close()
@@ -190,30 +198,38 @@ node 扩展后 -> net、db、file...
            - fs.appendFile(file, data[, options], callback)
 
 
-   15. **Http**
+      15. **Http**
 
-       1. http.Server的事件 (request、connection、close)
-       2. http.serverRequest
-       3. http.ServerResponse
-          - `response.writeHead(statusCode,[headers])`：向请求的客户端发送响应头。`statusCode`是HTTP状态码，`headers`对象表示响应头的每个属性。该函数在1个请求内最多只能调用`次，如果不显式调用，则会自动生成一个响应头。
-          - `response.write(data, [encoding])`：向请求的客户端发送响应内容。`data`是`Buffer`或字符串，表示要发送的内容。如果`data`是字符串，那么需要通过`encoding`说明其编码方式(默认是utf-8)。在`response.end()`调用之前，`response.write()`可以被多次调用。
-          - `response.end([data],[encoding])`：结束响应，告知客户端全部响应已经完成。当所有响应内容发送完毕后，该函数必须被调用1次。接受2个可选参数，意义与`response.write()`相同。如果不调用该函数，客户端将永远处于等待状态。
-       4. 根据path模拟router -> 结合fs分离html
-       5. 处理get或post method
-       6. http.get() / http.request()
+          1. `http.Server`的事件 (request、connection、close)
+          2. `http.serverRequest `   `http.IncomingMessage`的一个实例
+              - `httpVersion`
+              - `headers`
+              - `url`
+              - `method`
+          3. `http.ServerResponse`
+             - `response.setHeader(name, value)`
+             - `response.writeHead(statusCode,[headers])`：向请求的客户端发送响应头。`statusCode`是HTTP状态码，`headers`对象表示响应头的每个属性。该函数在1个请求内最多只能调用1次，如果不显式调用，则会自动生成一个响应头
+             - `response.write(data, [encoding])`：向请求的客户端发送响应内容。`data`是`Buffer`或字符串，表示要发送的内容。如果`data`是字符串，那么需要通过`encoding`说明其编码方式(默认是utf-8)。在`response.end()`调用之前，`response.write()`可以被多次调用
+             - `response.end([data],[encoding])`：结束响应，告知客户端全部响应已经完成。当所有响应内容发送完毕后，该函数必须被调用1次。接受2个可选参数，意义与`response.write()`相同。如果不调用该函数，客户端将永远处于等待状态
+          4. 根据path模拟router -> 结合fs分离html
+          5. 处理get或post method
+          6. http.get() / http.request()
 
 ### 10. 模块加载机制
 
    1. NodeJS模块分为是**核心模块**、**文件模块**：
 
-      - **核心模块**：NodeJS标准API提供的模块（例如fs、http、net、vm等），可以直接通过require 直接获取，例如require(‘fs’)。核心模块拥有最高的加载优先级，即如果有模块与其命名冲突，NodeJS总会优先加载核心模块。
-      - **文件模块**：存储为单独文件或文件夹的模块（*JavaScript代码、JSON、编译的C/C++代码*）。文件模块的加载方法复杂但是灵活，尤其是与npm结合使用时。在不显式指定文件模块扩展名时，NodeJS会试图按顺序加上`.js`、`.json`、`.node`扩展名。
+      - **核心模块**：NodeJS标准API提供的模块（例如`fs、http、net、vm`等），可以直接通过require 直接获取，例如require(‘fs’)。核心模块拥有最高的加载优先级，即如果有模块与其命名冲突，NodeJS总会优先加载核心模块
+      - **文件模块**：存储为单独文件或文件夹的模块（*JavaScript代码、JSON、编译的C/C++代码*）。文件模块的加载方法复杂但是灵活，尤其是与npm结合使用时。在不显式指定文件模块扩展名时，NodeJS会试图按**不带扩展名、`.js`、`.json`、`.node`扩展名**顺序进行加载
 
    2. 文件模块加载方式
-      1. **按路径加载**：如果require参数以/开头，就以绝对路径方式查找，例如require(‘/hank/uinika’)将会按优先级依次尝试加载/hank/uinika.js、uinika.json、uinika.node。 如果以./或../开头，则以相对路径方式查找，例如require(‘./uinika’)用来加载相同文件夹下的uinika.js。
-      2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录。
+      1. **按路径加载(相对或绝对)**：如果require参数以/开头，就以绝对路径方式查找，例如`require(‘/hank/uinika’)`将会按优先级依次尝试加载/hank/uinika.js、uinika.json、uinika.node。 如果以./或../开头，则以相对路径方式查找，例如`require(‘./uinika’)`用来加载相同文件夹下的uinika.js
 
-   3. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载。
+          > 千万不要写成`require('xxx.js')`, 其意思是加载核心模块
+
+      2. **查找node_modules加载**：如果`require()`函数参数不以`/、./、../`开头，该模块又不是核心模块，那么需要通过查找`node_modules`加载模块（*npm获取的包就是以这种方式加载*）。 例如`node_modules`目录之外的`app.js`可以直接使用`require('express')`代替`require('./node_modules/express')`。 当`require()`遇到一个既非核心模块，又不以路径表示的模块时，会试图在当前目录下的`node_modules`当中进行查找。如果没有找到，则会进入上一层目录的`node_modules`继续查找，直至遇到根目录
+
+   3. NodeJS模块不会被重复加载，因为NodeJS通过文件名缓存所有加载过的文件模块，再次访问时将不会重复加载
 
 ### 11. 循环中回调函数的陷阱
 
