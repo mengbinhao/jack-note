@@ -1,3 +1,32 @@
+- 2019.7.31
+  - clash n/vi/vt
+  - testify vi/vt
+  - bombshell n
+  - congressional adj
+  - collegial adj
+  - despite prep
+  - briefing n
+  - scence n
+
+  > at odds with sb
+  > step down
+
+- 2019.7.30
+  - shadow n/vt/adj
+  - presidency n
+  - committee n
+  - refer vi/vt
+  - brevity n
+  - obstruction n
+  - ultimately adv
+  - prosecute vi/vt
+  - exonerate vt
+  - motivated adj
+  - integrity adj
+  - rare adj
+  - desperately adv
+  - porch n
+
 - 2019.7.26
   - conservative n/adj
   - unifying adj
