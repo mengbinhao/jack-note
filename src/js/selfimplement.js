@@ -207,6 +207,12 @@ Array.prototype.mySome = function(fn, thisArg) {
   return false
 }
 
+const chunk = (arr, size) => {
+  return Array.from({ length: Math.ceil(arr.length / size) }, (v, i) => {
+    return arr.slice(i * size, i * size + size)
+  })
+}
+
 const randonReplacementArray = array => {
   var len = array.length
   var temp = []

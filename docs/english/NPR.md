@@ -1,3 +1,21 @@
+- 2019.8.1
+  - garlic n
+  - choke v
+  - tragedy n
+  - engage v
+  - residence n
+  - lax adj
+  - spree n
+  - mar vt
+  - witness n
+  - conflicting adj
+  - ideology n
+  - shock n/vt/adj
+  - devastating adj
+  - horrific adj
+
+  > it turned out
+
 - 2019.7.31
   - clash n/vi/vt
   - testify vi/vt
@@ -97,14 +115,14 @@
   > Compared to you guys in the US, you are like open books
 
 - 2019.7.19
-  - massive adj
+  - massive adj | mass n/vi/vt
   - cargo n
   - Pentagon n
   - ally n/vt
   - consequence n
-  - defy vt / defiance n
+  - defy vt | defiance n
   - standoff n
-  - acquire vt / acquisition n
+  - acquire vt | acquisition n
   - stealth n/adj
   - maintenance n
   - facility n
@@ -257,7 +275,7 @@
   - foe n
   - demoracy n
   - tough n/adj/adv
-  - neighborhood n
+  - neighborhood n | neighboring adj
   - begrudgingly adv
   - duty-fee n
   - ongoing adj
@@ -385,12 +403,12 @@
   > there's been a wide range
 
 - 2019.6.28
-  - depose / oust vt
+  - depose | oust vt
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi
   - faint n/vi/adj
-  - trial / retrial n
+  - trial | retrial n
   - democratically adv
   - jail n/vt
   - crackdown n
@@ -426,7 +444,7 @@
   - dilute adj/vt
   - strain n/vt
 
-  > But as I said earlier / as you mentioned
+  > But as I said earlier | as you mentioned
   > be fall apart altogether
   > It was full of all sorts of figures and numbers, but basically, what it came down to was this ...
   > there is a couple of reasons
@@ -494,7 +512,7 @@
 
 > We are trying tie the knot
 
-5. over the top / go to far
+5. over the top | go to far
 
 > The special effects in this movie are a bit over the top, but I like it
 
@@ -522,7 +540,7 @@
 
 12. hot and fresh
 
-13. you have my work / I give you my word
+13. you have my work | I give you my word
 
 14. one way or another
 
@@ -555,7 +573,7 @@
 ### telephone
 1. This is Jack
 2. Jack's speaking, May I ask who is calling?
-3. This is him / speaking
+3. This is him | speaking
 4. May I ask what this is regarding?
 5. I'm sorry, Could you repeat that?
 6. Would you mind hold on a moment?
@@ -568,11 +586,11 @@
 ### mis
 1. I make lots of mistakes, and I would really appreciate it if you can point it out for me when I make that mistake
 2. feel free to point out my mistake when I make them
-3. what would Americans say? / How would Americans say that?
+3. what would Americans say? | How would Americans say that?
 4. Can you help me figure out the best way to word it?
 5. What does this mean? When is an appropriate time for me to use this?
 6. What are some synonyms to xxx? how should I use it?
 7. google :  spell xxxx
-8. Am I making sense? / Dose that make sense?
+8. Am I making sense? | Dose that make sense?
 9.  Let me see if I got that right
 10. I'm afraid I can not give you that information
