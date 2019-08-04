@@ -85,8 +85,7 @@
 - Linux
   - [mac]()
     - [app](docs/Linux/mac/app.md)
-    - [command](docs/Linux/mac/command.md)
-    - [mac开光](docs/Linux/mac/mac开光.md)
+    - [note](docs/Linux/mac/note.md)
   - [javaenv](docs/Linux/javaenv.md)
   - [learn](docs/Linux/learn.md)
   - [linuxcommand](docs/Linux/linuxcommand.md)
