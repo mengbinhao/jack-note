@@ -1320,7 +1320,7 @@ const renderMarkup = (str) => {
 
 9. `@babel/plugin-syntax-dynamic-import`
 
-10. [HappyPack](<https://github.com/amireh/happypack>)多进程解析和处理文件 or thread-loader(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
+10. `thread-loader` or `happtpack`多进程解析和处理文件(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
 
 11. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译,DllReferencePlugin 将预先编译好的模块关联到当前编译中,当webpack解析到这些模块时,会直接使用预先编译好的模块
 
@@ -1328,42 +1328,42 @@ const renderMarkup = (str) => {
 
 13. hard-source-webpack-plugin && cache-loader   //模块编译缓存,加快编译速度
 
-14. `webpack-bundle-analyzer`
+14. `speed-measure-webpack-plugin` 速度分析
 
-15. code aspect (async module)
+15. `webpack-bundle-analyzer`  体积分析
 
-16. ContextReplacementPlugin or IgnorePlugin
+16. code aspect (async module)
 
-     ```javascript
-       //moment.js for example
-       new webpack.ContextReplacementPlugin(
-         /moment[/\]locale$/,
-         /de|fr|hu/
-       )
-     
-       //IgnorePlugin
-       new Webpack.IgnorePlugin(/.\/locale/,/moment/)
-       //忽略后源码需要手动引入
-       import 'moment/locale/zh-cn';
-     
-     ```
+17. ContextReplacementPlugin or IgnorePlugin
 
-17. ModuleConcatenationPlugin / HashedModuleIdsPlugin
+      ```javascript
+        //moment.js for example
+        new webpack.ContextReplacementPlugin(
+          /moment[/\]locale$/,
+          /de|fr|hu/
+        )
+      
+        //IgnorePlugin
+        new Webpack.IgnorePlugin(/.\/locale/,/moment/)
+        //忽略后源码需要手动引入
+        import 'moment/locale/zh-cn';
+      
+      ```
 
-       ```javascript
-       mode：'production',
-       optimization : {
-           moduleIds: 'hashed',
-       }
-       ```
+18. ModuleConcatenationPlugin / HashedModuleIdsPlugin
 
-       > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
-       >
-       > 为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.
-       > `ModuleConcatenationPlugin`主要是作用域提升,将所有模块放在同一个作用域当中,一方面能提高运行速度,另一方面也能降低文件体积.前提是你的代码是用es模块写的.
-       > 在 webpack4 中,只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`,设置`mode`为`production`即可
+        ```javascript
+        mode：'production',
+        optimization : {
+            moduleIds: 'hashed',
+        }
+        ```
 
-18. speed-measure-webpack-plugin
+        > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
+        >
+        > 为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.
+        > `ModuleConcatenationPlugin`主要是作用域提升,将所有模块放在同一个作用域当中,一方面能提高运行速度,另一方面也能降低文件体积.前提是你的代码是用es模块写的.
+        > 在 webpack4 中,只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`,设置`mode`为`production`即可
 
 19. 配置performance参数可以输出文件的性能检查配置
 
