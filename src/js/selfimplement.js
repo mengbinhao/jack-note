@@ -226,6 +226,7 @@ const randonReplacementArray = array => {
 //Function
 //Function
 //Function
+//在规定时间内只触发一次
 const throttle = (fn, interval = 300) => {
   let last = 0
   return function() {
@@ -239,6 +240,7 @@ const throttle = (fn, interval = 300) => {
 const betterScrollThrottle = throttle(() => console.log('触发了滚动事件'), 1000)
 document.addEventListener('scroll', betterScrollThrottle)
 
+//在规定时间内未触发第二次则执行
 function debounce(fn, delay = 300) {
   let timer
   return function() {
@@ -563,7 +565,12 @@ Function.prototype.simulateBind = function(context) {
   let fn = this
   let args = [...arguments].slice(1)
   return function() {
-    return fn.apply(context, args.concat([...arguments].slice()))
+    // 处理函数使用new的情况
+    if (this instanceof F) {
+      return new fn(...arg, ...arguments)
+    } else {
+      return fn.apply(context, args.concat(...arguments))
+    }
   }
 }
 
@@ -587,6 +594,13 @@ Function.prototype.simulateBindAdvance = function(context) {
   // F.prototype = this.prototype
   // fBound.prototype = new F()
   return fBound
+}
+
+//将传入的对象作为原型
+Function.prototype.simulateCreate = function(obj) {
+  function F() {}
+  F.prototype = obj
+  return new F()
 }
 
 const curry = function(fn) {
@@ -614,9 +628,6 @@ const curryFormalParameter = function(fn, args) {
 //Object
 //Object
 //Object
-//乞丐版 JSON.parse(JSON.stringify(sourceObj))
-//不能处理属性值为function、undefined、date等
-//json只能处理string、boolean、number、null、object、array
 const isObject = obj => {
   return obj !== null && typeof obj === 'object'
 }
@@ -629,6 +640,9 @@ const hasPubProperty = (attr, obj) => {
   return attr in obj && obj.hasOwnProperty(attr) === false
 }
 
+//JSON.parse(JSON.stringify(obj))
+//不能处理属性值为function、undefined、date等
+//json只能处理string、boolean、number、null、object、array
 const deepClone = (source, hash = new WeakMap()) => {
   if (!isObject(source)) return source
   //maybe return
@@ -954,3 +968,128 @@ const addListener = (ele, type, handler) => {
     ele['on' + type] = handler
   }
 }
+
+// 实现一个基本的 Event Bus
+class EventEmitter {
+  constructor() {
+    // 存储事件
+    this.events = this.events || new Map()
+  }
+  // 监听事件
+  addListener(type, fn) {
+    if (!this.events.get(type)) {
+      this.events.set(type, fn)
+    }
+  }
+  // 触发事件
+  emit(type) {
+    let handle = this.events.get(type)
+    handle.apply(this, [...arguments].slice(1))
+  }
+}
+
+// 测试
+let emitter = new EventEmitter()
+// 监听事件
+emitter.addListener('ages', age => {
+  console.log(age)
+})
+// 触发事件
+emitter.emit('ages', 18)
+
+//实现一个双向数据绑定
+let obj = {}
+let input = document.getElementById('input')
+let span = document.getElementById('span')
+// 数据劫持
+Object.defineProperty(obj, 'text', {
+  configurable: true,
+  enumerable: true,
+  get() {
+    console.log('获取数据了')
+  },
+  set(newVal) {
+    console.log('数据更新了')
+    input.value = newVal
+    span.innerHTML = newVal
+  }
+})
+// 输入监听
+input.addEventListener('keyup', function(e) {
+  obj.text = e.target.value
+})
+
+// 实现一个简单路由
+// hash路由
+class Route {
+  constructor() {
+    // 路由存储对象
+    this.routes = {}
+    // 当前hash
+    this.currentHash = ''
+    // 绑定this，避免监听时this指向改变
+    this.freshRoute = this.freshRoute.bind(this)
+    // 监听
+    window.addEventListener('load', this.freshRoute, false)
+    window.addEventListener('hashchange', this.freshRoute, false)
+  }
+  // 存储
+  storeRoute(path, cb) {
+    this.routes[path] = cb || function() {}
+  }
+  // 更新
+  freshRoute() {
+    this.currentHash = location.hash.slice(1) || '/'
+    this.routes[this.currentHash]()
+  }
+}
+
+//实现懒加载
+/* <ul>
+  <li><img src="./imgs/default.png" data="./imgs/1.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/2.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/3.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/4.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/5.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/6.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/7.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/8.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/9.png" alt=""></li>
+  <li><img src="./imgs/default.png" data="./imgs/10.png" alt=""></li>
+</ul> */
+
+let imgs = document.querySelectorAll('img')
+// 可视区高度
+let clientHeight =
+  window.innerHeight ||
+  document.documentElement.clientHeight ||
+  document.body.clientHeight
+function lazyLoad() {
+  // 滚动卷去的高度
+  let scrollTop =
+    window.pageYOffset ||
+    document.documentElement.scrollTop ||
+    document.body.scrollTop
+  for (let i = 0; i < imgs.length; i++) {
+    // 图片在可视区冒出的高度
+    let x = clientHeight + scrollTop - imgs[i].offsetTop
+    // 图片在可视区内
+    if (x > 0 && x < clientHeight + imgs[i].height) {
+      imgs[i].src = imgs[i].getAttribute('data')
+    }
+  }
+}
+// addEventListener('scroll', lazyLoad)
+
+//rem 基本设置
+// 提前执行，初始化 resize 事件不会执行
+setRem()
+// 原始配置
+function setRem() {
+  let doc = document.documentElement
+  let width = doc.getBoundingClientRect().width
+  let rem = width / 75
+  doc.style.fontSize = rem + 'px'
+}
+// 监听窗口变化
+addEventListener('resize', setRem)

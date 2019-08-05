@@ -72,6 +72,7 @@
 
 ### JS
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
+- [axios切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
 - [封装AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
 - [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
 - [axios基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
@@ -182,6 +183,7 @@
 - [webpack项目打包优化经验](https://juejin.im/post/5c6e1c8d6fb9a049e308b0cd)
 - [webpack DllPlugin + HappyPack](https://segmentfault.com/a/1190000016484002)
 - [Webpack优化第三方库](https://juejin.im/post/5d3cfeaa518825720651913e)
+- [Webpack构建效率提升50%](https://www.infoq.cn/article/sFJ0yH6m_bbTWahG1QTF)
 
 ### React
 - [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
@@ -215,6 +217,7 @@
 - [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
 - [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 - [Hooks与React生命周期的关系](https://juejin.im/post/5d3db4da518825016f644561)
+- [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
@@ -250,6 +253,7 @@
 ### Interview
 
 - [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
+- [za](https://segmentfault.com/a/1190000019946154)
 - [大厂面试题](https://mp.weixin.qq.com/s/sBk9j7GYh877nEKvuBQIAA)
 - [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
 - [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273)
