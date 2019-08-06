@@ -60,7 +60,7 @@
 
 #### dev
 
-- [homebrew](https://brew.sh/) + [iTerm2](https://iterm2.com/) + zsh + git + [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) + fd + fzf + bat
+- [homebrew](https://brew.sh/) + [iTerm2](https://iterm2.com/) + zsh + git + [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) + fd + fzf + bat + z
 ```bash
 # brew will install xcode first
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -97,9 +97,9 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
-# configure system set in ~/.zshrc
+# configure ~/.zshrc
 vim ~/.zshrc
-ZSH_THEME="avit"  # zsh theme like 'ys' refer web👆
+ZSH_THEME="avit"
 plugins=(
     git
     zsh-autosuggestions
@@ -107,19 +107,32 @@ plugins=(
 
 source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 source ~/.zshrc
 
-# install fd fzf bat
-brew install fd fzf bat
+# install fd fzf bat z
+brew install fd fzf bat z
 
-# config fd + fzf in .zshrc
+# config fd + fzf + z in .zshrc
 vim ~/.zshrc
 export FZF_DEFAULT_COMMAND='fd --type file --exclude={.git,.idea,.vscode,.sass-cache,node_modules}'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_ALT_C_COMMAND="fd -t d . "
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview (bat --style=numbers --color=always {} || cat {}) 2> /dev/null | head -500'"
 
+. /usr/local/etc/profile.d/z.sh
+unalias z
+q() {
+  if [[ -z "$*" ]]; then
+      cd "$(_z -l 2>&1 | fzf +s | sed 's/^[0-9,.]* *//')"
+  else
+      _last_z_args="$@"
+      _z "$@"
+  fi
+}
+
+qq() {
+    cd "$(_z -l 2>&1 | sed 's/^[0-9,.]* *//' | fzf -q $_last_z_args)"
+}
 source ~/.zshrc
 
 # change key-bindings
@@ -172,13 +185,31 @@ silent! colo seoul256
 # 特别注意 配置完之后 一定不要 source ~/.vimrc
 ```
 3. `brew install wget zip unzip`
-4. `brew cask install google-chrome` + [shadowsocks](https://github.com/shadowsocks/ShadowsocksX-NG/releases)
+4. `brew cask install google-chrome` + [shadowsocks](https://github.com/shadowsocks/ShadowsocksX-NG/releases) + proxychains-ng(命令行翻墙)
+```bash
+brew install proxychains-ng
+# add conf file
+strict_chain
+quiet_mode
+proxy_dns
+
+remote_dns_subnet 224
+tcp_read_time_out 15000
+tcp_connet_time_out 8000
+[ProxyList]
+# from ss
+socks5 127.0.0.1 1086
+# use proxychains4
+proxychains4 -f ~/proxychains.conf curl -L www.goole.com
+# add alias to .zshrc
+alias pc="proxychains4 -f ~/proxychains.conf"
+source ~/.zshrc
+pc curl -L www.goole.com
+```
 5. vscode(⌘ + shift + p)
 6. node.js
 7. java + maven
 
 #### some tips
 
-- way of writing alias
 - bash function
-- .zshrc

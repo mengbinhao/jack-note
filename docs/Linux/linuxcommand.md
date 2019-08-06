@@ -42,7 +42,7 @@
 - /etc/group
 
 ### 权限
-- `sudo rm a.txt` 使用管理员执行命令
+- `sudo xxx` 使用管理员执行命令
 
 - `chmod`
 
@@ -188,24 +188,22 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 
 
 ### 文件
-- `touch filename`
-    - `touch filename1 filename2`
+- `touch filename [filename2] [filenameX]`
 - `mkdir foldername`
-    - mkdir -p /home/dir1/dir2   //多级创建
-- `rmdir`
-    - rmdir -rf /xxx/yyy    //删除非空目录
+    - mkdir -p /home/dir1/dir2   //递归创建
 - `cp`
     - cp aaa.txt ./test2/
     - cp -r ./test/ ./test2/
     - cp -r ./test/ ./test2/  //不会有覆盖提示
+    - cp -r  dir1 ../../newdir //dir1被复制到上两级目录下,并改名为"newdir"
 - `rm `
     - rm xxx
-    - rm -r ./test     //删除目录
+    - rm -r ./test  //删除目录
     - rm -rf xxxx
 - `mv`
     - mv 1.txt 2.txt
     - mv 1.txt ../1.txt
-- `mv oldNameFile newNameFile` 重命名
+    - `mv oldNameFile newNameFile` 重命名
 - `source xxxx` 重载配置文件
 - **`~/.bashrc or ~/.zshrc` 环境变量配置**
 
@@ -243,7 +241,8 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
     - ls -l >> aaa.txt
     - ls -l ./home/ > /home/info.txt
     - cat aaa.txt > bbb.txt
-    - echo 'xxxx' > bbb.txt
+    - echo 'xxxx' >> bbb.txt
+    - pbcopy < aaa.txt //复制到剪切板
 
 - ln -s [源文件或目录] 软连接名
 

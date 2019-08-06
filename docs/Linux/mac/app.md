@@ -80,6 +80,15 @@ fd -e jpg -x chmod 777
 fd '^[A-D]'
 ```
 
+#### z
+```bash
+z foo         cd to most frecent dir matching foo
+z foo bar     cd to most frecent dir matching foo, then bar
+z -r foo      cd to highest ranked dir matching foo
+z -t foo      cd to most recently accessed dir matching foo
+z -l foo      list all dirs matching foo (by frecency)
+```
+
 #### fzf
 - 查找文件
 - 历史命令查询
@@ -121,6 +130,7 @@ grbc    git rebase --continue
 gst    git status
 gup    git pull --rebase
 ```
+
 #### vscode
 - ⌘ + shift + p
 #### SourceTree?

@@ -68,21 +68,27 @@ $ git commit -m 'docs: 更新接口文档'
 
 ### 1. git config
 
-```
-//create SSH key
+```bash
+# create new SSH key
 ssh-keygen -t rsa -C "youremail@example.com"
+# copy then goto git to add this rsa
+pbcopy < ~/.ssh/id_rsa.pub
+# Testing your SSH connection
+ssh -T git@github.com
+# Checking for existing SSH keys
+ls -al ~/.ssh
 
-//--local  对某个仓库有效，缺省值
-//--system 对系统所有登录用户有效
-//--global
-git config [--global] -l == git config [--global] --list
-git config [--global] user.name
+# --local  对某个仓库有效，缺省值
+# --system 对系统所有登录用户有效
+# --global
+git config [--global] -l
+# check value
+git config [--global] xxx
 git config [--global] user.name "Your Name"
-git config [--global] user.email
 git config [--global] user.email "Your email"
 
 //unset
-git config --unset --global user.name
+git config --global --unset user.name
 ```
 
 ### 2. init
@@ -445,14 +451,14 @@ git checkout HEAD filename抹掉文件在workspace的修改
 
 ##### 总结
 
-| Command      | Scope        | Common use cases                                             |
-| ------------ | ------------ | ------------------------------------------------------------ |
+| Command      | Scope        | Common use cases                                                      |
+| ------------ | ------------ | --------------------------------------------------------------------- |
 | git reset    | Commit-level | Discard commits in  a private beanch or throw away uncommited changes |
-| git reset    | File-level   | Unstage a file                                               |
-| git checkout | Commit-level | Switch between branches or inspect old snapshots             |
-| git checkout | File-level   | Discord changes in the working directory                     |
-| git revert   | Commit-level | Undo cimmits in a pulic branch                               |
-| git revert   | File-level   | N/A                                                          |
+| git reset    | File-level   | Unstage a file                                                        |
+| git checkout | Commit-level | Switch between branches or inspect old snapshots                      |
+| git checkout | File-level   | Discord changes in the working directory                              |
+| git revert   | Commit-level | Undo cimmits in a pulic branch                                        |
+| git revert   | File-level   | N/A                                                                   |
 
 ### 搭建Git服务器
 
@@ -473,4 +479,20 @@ git checkout HEAD filename抹掉文件在workspace的修改
 6. 克隆远程仓库：
     git clone git@server:/srv/sample.git
 
+### git clone too slow
+```bash
+git config --global http.postBuffer 524288000
+# 1086 is shadowsocks's socks5 port
+# note: only can use https way to clone repo!!!!!
+git config --global http.https://github.com.proxy socks5://127.0.0.1:1086
+git config --global https.https://github.com.proxy socks5://127.0.0.1:1086
 
+# or change hosts file
+nslookup github.global.ssl.fastly.Net
+nslookup github.com
+# then add config like below in hosts file
+74.86.228.110   github.global.ssl.fastly.net
+52.74.223.119   github.com
+# refresh cache
+sudo dscacheutil -flushcache
+```

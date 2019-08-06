@@ -107,6 +107,7 @@
 - [keepAlive](https://segmentfault.com/a/1190000019610283)
 - [滑动验证码的原理并利用Vue实现滑动验证码](https://cuiqingcai.com/6730.html)
 - [使用Vue中的混入mixin优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
+- [详解Vue服务端渲染](https://segmentfault.com/a/1190000019964933)
 
 #### project related
 
