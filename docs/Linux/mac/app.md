@@ -133,6 +133,30 @@ gup    git pull --rebase
 
 #### vscode
 - ⌘ + shift + p
-#### SourceTree?
+#### SourceTree
 #### autojump?
-#### z?
+#### z
+#### MongoDB + robomongo
+```bash
+brew tap mongodb/brew
+brew install mongodb-community@4.0
+
+# add to path
+echo 'export PATH="/usr/local/opt/mongodb-community@4.0/bin:$PATH"' >> ~/.zshrc
+
+# run as service
+brew services start mongodb/brew/mongodb-community@4.0
+
+# or
+mongod --config /usr/local/etc/mongod.conf
+# then
+mongo
+```
+
+#### express-generator
+```bash
+npm install -g express-generator
+express --view=ejs ./xxx && cd ./xxx
+npm i
+npm start
+```

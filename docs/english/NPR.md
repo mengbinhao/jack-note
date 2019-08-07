@@ -1,3 +1,21 @@
+- 2019.8.7
+  - anonymous adj
+  - heir n
+  - murky adj
+  - propaganda n
+  - recite vi/vt
+  - fiery adj
+  - gromming n
+  - coalition n
+  - offshout n
+  - centralized adj
+  - hierarchical adj
+  - owe vt
+  - allegiance n
+  - recognition n
+
+  > it turned out
+
 - 2019.8.1
   - garlic n
   - choke v
