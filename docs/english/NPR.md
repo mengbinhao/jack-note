@@ -1,3 +1,20 @@
+- 2019.8.8
+  - treaty n
+  - resurrect vt
+  - violate n
+  - compliance n
+  - produce n/vt
+  - measured
+  - invaluable adj
+  - brake n
+  - ballistic
+  - instability
+  - peril n
+  - sleepwalking n
+  - forecast n/vt
+  - advocate n/vt
+  - arsenal n
+
 - 2019.8.7
   - anonymous adj
   - heir n
@@ -370,7 +387,6 @@
   - casualty n
   - tough adj/adv/n
   - de-escalate v
-  - intentionally adv
   - negotiate vi/vt
 
   > so he goes back and forth
@@ -379,7 +395,7 @@
   > it does kind of raise questions about how xxxx
 
 - 2019.7.2
-  - intentional adj
+  - intention | intentional | intentionally
   - loose n/vt/adj
   - conciliatory adj
   - tactical adj
@@ -410,7 +426,7 @@
   - literally adv
   - rig n/vt
   - grievance n
-  - accusation n
+  - accusation n | accuse | accusing
   - echo n/vi/vt
 
   > one every two or three weeks
