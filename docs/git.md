@@ -379,6 +379,8 @@ rebase
 
 ![](images/git_4.png)
 
+![](images/git_9.png)
+
 ### Reset、Revert、 Checkout
 
 - reset和checkout可以作用于commit或者文件,revert只能作用于commit
