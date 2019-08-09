@@ -49,6 +49,7 @@
 - [45个值得收藏的CSS形状](https://segmentfault.com/a/1190000018922732)
 - [display:none与visibility:hidden](https://segmentfault.com/a/1190000016570003)
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
+- [CSS 世界精选集](https://mp.weixin.qq.com/s/W8-Cu8Mjh00Rze5o4bFKag)
 
 ### nodejs
 
@@ -91,6 +92,7 @@
 - [关于移动端适配](https://segmentfault.com/a/1190000019207842)
 - [前端单元测试实践(koa 篇)](https://juejin.im/post/5d09935ce51d451063431816)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
+- [SVG 优化探索](https://segmentfault.com/a/1190000019997076)
 
 ### Vue
 
