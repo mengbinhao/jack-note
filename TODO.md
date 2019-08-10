@@ -7,7 +7,7 @@
 - 掘金小册
 
 ### practise
-
+- [mvc撸一个](https://github.com/taniarascia/mvc)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
 - [手摸手,带你用 Vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
@@ -50,6 +50,7 @@
 - [display:none与visibility:hidden](https://segmentfault.com/a/1190000016570003)
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 - [CSS 世界精选集](https://mp.weixin.qq.com/s/W8-Cu8Mjh00Rze5o4bFKag)
+- [你所不知道的 CSS 负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
 
 ### nodejs
 
@@ -72,6 +73,7 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
 
 ### JS
+- [常见数据结构和Javascript实现总结](https://segmentfault.com/a/1190000020011987)
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 - [axios切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
 - [封装AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)

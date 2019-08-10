@@ -16,7 +16,9 @@
   - Koa 更像是一个中间件层,它不提供模板或开箱即用的路由,因此更适合 API 开发
   - 要想支持开箱即用,您需要 async / await
 - Hapi
+  - 你想要一个比 Express 或 Koa 有更多“部件”的框架时选它，但它集成的东西没 Sails 那么多
 - Sails
+  - 你想要像 Rails 之类的东西时就用它，它集成了一大堆东西（但其中有很多可能是你用不着的）
 
 ### Validation(前端验证)
 
@@ -57,8 +59,7 @@
 
 ### Database
 
-- [mysql](https://www.npmjs.com/package/mysql)
-- [node-postgres](https://node-postgres.com/)
+- [mysql](https://www.npmjs.com/package/mysql) /[node-postgres](https://no de-postgres.com/)
   - 当您不需要完整的ORM,而是需要使用原始SQL查询数据库时使用(这些是驱动程序)
 - [node-mongodb-native](https://github.com/mongodb/node-mongodb-native)
   - 当您不需要一个完整的ORM,而是要直接查询MongoDB时使用
@@ -179,8 +180,6 @@
   - 在需要解析、验证、操作和显示日期/时间时使用
 - [UUID](https://www.npmjs.com/package/uuid)
   - 当您需要随机的、唯一的、难以破解的 id 时使用
-- [NVM](https://github.com/creationix/nvm)
-  - 当您希望能够在环境中安装的多个 Node 版本之间切换时使用
 - [day.js](https://github.com/iamkun/dayjs)
 - [Sugar](https://github.com/andrewplummer/Sugar)
 - [polished](https://polished.js.org/)
@@ -197,6 +196,12 @@
 - [Dotenv](https://www.npmjs.com/package/dotenv)
   - 当您需要将`.env`文件中的环境变量加载到`process.env`时使用
 - fabric.js
+
+### CLI
+- Commander
+  - 你要构建一个 CLI 实用程序，将所有参数作为命令行上的标志时就用它。
+- Inquirer
+  - 你想要构建一个按顺序确定选项的“交互式”CLI 实用程序时用它（类似运行 npm init 时的方法，它会问你一系列问题来生成 package.json 文件）
 
 ### 前端存储
 
@@ -222,7 +227,7 @@
 - [axios](https://www.npmjs.com/package/axios)当您需要基于`Promise`的`HTTP`请求时可选择它
 - [Request](https://www.npmjs.com/package/request)当您需要基于回调的`HTTP`请求时可选择它,例如从一个`REST`服务连接到另一个
 
-### Tools(开发工具)
+### 工具
 
 - [ESdoc](https://www.npmjs.com/package/esdoc)
   - 当您想从您的代码中生成 API 文档,并且您正在使用最新的 JS 版本时
@@ -230,6 +235,7 @@
 - JSdoc(jsdoc)
   - 当您需要支持ES6的代码API文档生成器时使用
   - 支持classes和prototypes
+- ESlint
 
 ### Prototype
 
