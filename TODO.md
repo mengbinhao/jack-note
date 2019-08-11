@@ -153,6 +153,7 @@
 #### Vue-router
 
 - [Vue实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
+- [前端路由跳转基本原理](https://mp.weixin.qq.com/s/IyPpSix7haY_NfNJg10ilg)
 
 #### Vuex
 
