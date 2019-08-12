@@ -1,3 +1,14 @@
+- 2019.8.12
+  - massacre n/vt
+  - menifesto n
+  - legislation n
+  - universal n/adj
+  - recess n/vt
+  - handful n
+  - endorse vt
+  - so-called adj
+  - invasion n
+
 - 2019.8.8
   - treaty n
   - resurrect vt
@@ -129,7 +140,6 @@
   - transparent adj
   - exhausting adj
   - sympathetic adj
-  - criticism n
   - footage n
   - dis adj
   - intense adj
@@ -233,7 +243,7 @@
   > I think what we can be certain of is that ...
 
 - 2019.7.16
-  - criticism n
+  - criticism n | critic n
   - cable n/vt
   - ambassador n
   - inept adj
