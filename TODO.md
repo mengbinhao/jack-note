@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(51)** / **TypeScript(24)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(55)** / **TypeScript(31)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
 - 掘金小册
 
 ### practise
@@ -319,6 +319,7 @@
 - [React](https://segmentfault.com/a/1190000016761186)
 - [React](https://segmentfault.com/a/1190000018604138)
 - [React 328道最全面试题](https://segmentfault.com/a/1190000019810571)
+- [需要掌握的21个React性能优化技巧](https://mp.weixin.qq.com/s/iZqV6GAi5zyX5P48hR4VLA)
 
 #### compare
 
