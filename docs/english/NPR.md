@@ -1,3 +1,61 @@
+- 2019.8.15
+  - arctic n/adj
+  - sketchy adj
+  - contamination n
+  - contradictory adj
+  - terse adj
+  - comparison n
+  - scale n/vt
+  - panicky adj
+  - disseminate vt
+  - hospitalize vt
+  - specialist n/adj
+  - outsider n
+  - anthem n
+  - salute n/vt
+  - premise n
+  - penetrate vi/vt
+
+  > its full scope
+  > try to piece together what really happened
+  > what we go from here
+  > what are the highlights so far?
+
+- 2019.8.14
+  - apparent adj
+  - bllionaire n
+  - financier n
+  - trafficking n
+  - conspiracy n
+  - prominent adj
+  - somehow adv
+  - inquiry n
+  - appalled adj
+  - allegation n
+  - abuse n/vt
+  - minor n/adj
+  - disturbing adj
+  - prosecutor n
+  - emphasize vt
+  - redact v
+
+  > in a clear reference to xxx
+  > on the rise
+
+- 2019.8.13
+  - preferred adj
+  - boycott n/vt
+  - cabinet n
+  - reckless adj
+  - colonial adj
+  - spiral n/vi/adj
+  - alliance n
+  - disintegrate vi/vt
+  - division n
+  - retaliation n
+  - mend vi/vt
+  - fence n/vi/vt
+
 - 2019.8.12
   - massacre n/vt
   - menifesto n
@@ -164,7 +222,6 @@
   - cargo n
   - Pentagon n
   - ally n/vt
-  - consequence n
   - defy vt | defiance n
   - standoff n
   - acquire vt | acquisition n

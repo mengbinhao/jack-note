@@ -95,6 +95,8 @@
 - [前端单元测试实践(koa 篇)](https://juejin.im/post/5d09935ce51d451063431816)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [SVG 优化探索](https://segmentfault.com/a/1190000019997076)
+- [变量命名](https://segmentfault.com/a/1190000020039039)
+- [变量命名常用英文词汇](https://segmentfault.com/a/1190000020073758)
 
 ### Vue
 
@@ -112,6 +114,7 @@
 - [滑动验证码的原理并利用Vue实现滑动验证码](https://cuiqingcai.com/6730.html)
 - [使用Vue中的混入mixin优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
 - [详解Vue服务端渲染](https://segmentfault.com/a/1190000019964933)
+- [Vue页面转Pdf实践](https://juejin.im/post/5d511620f265da03c23ec758)
 
 #### project related
 
@@ -224,6 +227,7 @@
 - [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 - [Hooks与React生命周期的关系](https://juejin.im/post/5d3db4da518825016f644561)
 - [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
+- [5个技巧：避免React Hooks 常见问题](https://zhuanlan.zhihu.com/p/77243662)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
@@ -320,6 +324,7 @@
 - [React](https://segmentfault.com/a/1190000018604138)
 - [React 328道最全面试题](https://segmentfault.com/a/1190000019810571)
 - [需要掌握的21个React性能优化技巧](https://mp.weixin.qq.com/s/iZqV6GAi5zyX5P48hR4VLA)
+- [react知识点整理50问](https://segmentfault.com/a/1190000020055666)
 
 #### compare
 
