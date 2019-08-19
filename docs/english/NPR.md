@@ -1,3 +1,40 @@
+- 2019.8.19
+  - consult vi/vt
+  - stooge n
+  - emerge vi
+  - concrete adj
+  - problematic adj
+  - remedy n/vt
+  - forefront n
+  - suffer vi/vt
+  - Soviet n/adj
+
+  > he's going to have to catch on fast
+
+- 2019.8.16
+  - bid n/vi/vt
+  - strained adj
+  - eligible adj
+  - sick n/vt/adj
+  - turnout n
+  - underwhelming adj
+  - poverty n
+  - unchecked adj
+  - detain vt
+  - hemisphere n
+  - inspiration n
+  - vice n/adj
+  - expel vt
+  - intensive adj
+  - pledge n/vt
+  - obligate vt
+  - congratulatory adj
+  - combat n/vt
+  - constitutional adj
+  - shortsighted adj
+  - impunity adj
+  - pessimistic adj | optimistic adj
+
 - 2019.8.15
   - arctic n/adj
   - sketchy adj
@@ -336,7 +373,6 @@
   - backdrop n
   - intensify vi/vt
   - negligence n
-  - shore n/vt
   - remnant n/adj
   - dictator n
   - aide n
@@ -350,7 +386,6 @@
 - 2019.7.12
   - swallow vi/vt/n
   - proposed adj
-  - rival n/vt
   - domestic adj/n
   - encouraging adj
   - tariff n/vt
@@ -373,7 +408,7 @@
   > a lot of progess has been made
 
 - 2019.7.10
-  - shore vt/n
+  - shore n/vt
   - foe n
   - demoracy n
   - tough n/adj/adv
@@ -551,7 +586,7 @@
   > there is a couple of reasons
 
 - 2019.6.26
-  - departure n
+  - departure n | depart vi/vt
   - personnel n
   - tenure n
   - aggresive adj

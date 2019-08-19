@@ -51,6 +51,7 @@
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
 - [CSS 世界精选集](https://mp.weixin.qq.com/s/W8-Cu8Mjh00Rze5o4bFKag)
 - [你所不知道的 CSS 负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
+- [常用的CSS函数](https://blog.5udou.cn/blog/Fen-Xiang-Chang-Yong-De-CSSHan-Shu-Zhu-Ni-Xie-Chu-Geng-Jian-Jie-De-Dai-Ma-23)
 
 ### nodejs
 
@@ -102,6 +103,7 @@
 
 #### Vue related
 
+- [Vue双向数据绑定原理及实现](https://juejin.im/post/5d560340518825708f4abec9)
 - [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
 - [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
@@ -115,9 +117,11 @@
 - [使用Vue中的混入mixin优化表单验证插件](https://juejin.im/post/5d197869f265da1b740213e6)
 - [详解Vue服务端渲染](https://segmentfault.com/a/1190000019964933)
 - [Vue页面转Pdf实践](https://juejin.im/post/5d511620f265da03c23ec758)
+- [六个让前端开发既高效又有趣的工具](http://developer.51cto.com/art/201908/601336.htm)
 
 #### project related
 
+- [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
 - [Vue/Vue-router/Vuex延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
@@ -193,6 +197,7 @@
 - [webpack DllPlugin + HappyPack](https://segmentfault.com/a/1190000016484002)
 - [Webpack优化第三方库](https://juejin.im/post/5d3cfeaa518825720651913e)
 - [Webpack构建效率提升50%](https://www.infoq.cn/article/sFJ0yH6m_bbTWahG1QTF)
+- [vue-cli +typescript+webpack4 项目搭建超详细步骤](https://juejin.im/post/5d5652446fb9a06afd66004b)
 
 ### React
 - [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
@@ -228,6 +233,7 @@
 - [Hooks与React生命周期的关系](https://juejin.im/post/5d3db4da518825016f644561)
 - [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 - [5个技巧：避免React Hooks 常见问题](https://zhuanlan.zhihu.com/p/77243662)
+- [使用React Hook高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
@@ -235,7 +241,9 @@
 ### Other
 
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
+- [提高效率的10个Git小技巧](https://segmentfault.com/a/1190000020099456)
 - [vscode项目配置eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
+- [提交git时自动格式化并通过ESlint检测prettier + husky + lint-staged + eslint](https://juejin.im/post/5d565ffdf265da03f12e55bb)
 - [docker](https://segmentfault.com/a/1190000018810837)
 - [前端工程师Docker入门](https://segmentfault.com/a/1190000019898011)
 - [NGINX](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
