@@ -79,11 +79,15 @@ const answers2 = [
 class A {}
 class B extends A {}
 
+//保证subClass可以直接访问 superClass的静态属性，静态方法
 console.log(B.__proto__ === A)
+//保证了c instanceof Parent是true,Child的实例可以访问到父类的属性，包括内部属性，以及原型属性
 console.log(B.prototype.__proto__ === A.prototype)
 ```
 
 ### inherit
 ![](../images/es5_inherit.png)
+
+![](../images/es6_inherit2.png)
 
 ![](../images/es6_inherit.png)

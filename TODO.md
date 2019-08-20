@@ -139,6 +139,7 @@
 - [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
 - [Vue project optimization](https://juejin.im/post/5bc830a8f265da0abe272ccf)
 - [Vue项后台管项目登录逻辑/菜单权限/按钮Loading处理](https://segmentfault.com/a/1190000019516643)
+- [VUE 实现特定场景的主题切换](https://mp.weixin.qq.com/s/N5WDcqusrHwj4igyyAlMBg)
 
 #### component related
 
@@ -198,6 +199,7 @@
 - [Webpack优化第三方库](https://juejin.im/post/5d3cfeaa518825720651913e)
 - [Webpack构建效率提升50%](https://www.infoq.cn/article/sFJ0yH6m_bbTWahG1QTF)
 - [vue-cli +typescript+webpack4 项目搭建超详细步骤](https://juejin.im/post/5d5652446fb9a06afd66004b)
+- [DefinePlugin](https://mp.weixin.qq.com/s/9pl84KGi34Clw6xbVTPjKw)
 
 ### React
 - [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)

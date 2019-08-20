@@ -1,3 +1,42 @@
+- 2019.8.20
+  - falter vi
+  - factor n/vi/vt
+  - upbeat adj
+  - breather n
+  - abruptly adv
+  - rely vi
+  - prosperity n
+  - tension n
+  - combination n
+  - ominous adj
+  - curve n/vt
+  - persist vi
+  - extended adj
+  - precede vt
+  - anxiety n
+  - unsetting adj
+  - wage n
+  - decent adj
+  - investor n
+  - retire vi/vt
+  - drama n | dramatic adj
+  - representative n/adj
+  - scuttle n/vi/vt
+  - backlash n
+  - grovelling adj
+  - interior n/adj
+  - stormy adj
+  - hostile adj
+  - itinerary n
+  - irresistible adj
+  - annexation n | annex n/vt
+  - settlement n
+  - pendulum n
+
+  > it was seen as a breather for the trade war
+  > it's the first time that's happened since 2007
+  > it's often seen as xxxxx
+
 - 2019.8.19
   - consult vi/vt
   - stooge n
@@ -270,7 +309,6 @@
   - vow n/vt
   - postpone vt
   - indefinitely adv
-  - debate n/vi/vt
   - mandated adj   mandate n/vt
   - sector n
   - certify vt
@@ -326,7 +364,7 @@
   - compromise n/vi/vt
   - reservation n
   - opt vi
-  - stumble n/vt
+  - stumble n/vt | tumble n/vi
   - oust vi
   - fissure n
   - ordinary adj
@@ -401,7 +439,7 @@
   - tremendous adj
   - considerale adj
   - speculation n
-  - reversal n
+  - reversal n | invert vt | inversion n
 
   > so all in all
   > at the very least
@@ -545,7 +583,7 @@
   - collapse n/vi
   - faint n/vi/adj
   - trial | retrial n
-  - democratically adv
+  - democratically adv | democratic adj
   - jail n/vt
   - crackdown n
   - circumstance n
