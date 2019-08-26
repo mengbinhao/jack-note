@@ -201,6 +201,30 @@ function test() {
 }
 ```
 39. ESLint
+```bash
+# 1 install
+# global or project
+npm i -g eslint
+npm i --save-dev eslint
+
+# 2 项目根目录下放置文件 eslintrc.json
+# 3 控制台中输入 eslint <js 文件路径> or eslint .
+# 4 combine node package.json
+scripts.lint: "eslint ."
+npm run lint
+
+
+# 5 ESLint 不检查的文件 .eslintignore
+
+# 6 配置 git commit 前执行 ESLint
+npm i --save-dev husky
+配置 package.json ，添加 scripts.precommit: "eslint ."
+
+# 7 对代码禁用 ESLint
+对于文件，配置在 .eslintignore 文件中
+对于代码块，使用 /* eslint-disable */ 和 /* eslint-enable */
+对于代码行，使用 /* eslint-disable-line rule1, rule2 */
+```
 40. 外部引用js,统一放到/body前
 41. DOM相关
         - 减少DOM操作

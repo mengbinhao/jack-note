@@ -46,9 +46,10 @@ node 扩展后 -> net、db、file...
    npm un [<@scope>/]<pkg>[@<version>]
    npm update [-g] [<pkg>...]
    npm outdated [[<@scope>/]<pkg> ...]
+   # list global package
+   npm list -g --depth 0
    npm run command
-
-   npm home <pkg>//打开 xxx 包的主页
+   npm home <pkg>
    ```
 
 > install path

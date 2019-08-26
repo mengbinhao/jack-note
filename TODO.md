@@ -52,6 +52,7 @@
 - [CSS 世界精选集](https://mp.weixin.qq.com/s/W8-Cu8Mjh00Rze5o4bFKag)
 - [你所不知道的 CSS 负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
 - [常用的CSS函数](https://blog.5udou.cn/blog/Fen-Xiang-Chang-Yong-De-CSSHan-Shu-Zhu-Ni-Xie-Chu-Geng-Jian-Jie-De-Dai-Ma-23)
+- [让CSS flex布局最后一行列表左对齐的N种方法](https://www.zhangxinxu.com/wordpress/2019/08/css-flex-last-align/)
 
 ### nodejs
 
@@ -98,6 +99,7 @@
 - [SVG 优化探索](https://segmentfault.com/a/1190000019997076)
 - [变量命名](https://segmentfault.com/a/1190000020039039)
 - [变量命名常用英文词汇](https://segmentfault.com/a/1190000020073758)
+- [JS中如何跳出循环/结束遍历](https://segmentfault.com/a/1190000020176190)
 
 ### Vue
 
@@ -139,7 +141,8 @@
 - [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
 - [Vue project optimization](https://juejin.im/post/5bc830a8f265da0abe272ccf)
 - [Vue项后台管项目登录逻辑/菜单权限/按钮Loading处理](https://segmentfault.com/a/1190000019516643)
-- [VUE 实现特定场景的主题切换](https://mp.weixin.qq.com/s/N5WDcqusrHwj4igyyAlMBg)
+- [Vue实现特定场景的主题切换](https://mp.weixin.qq.com/s/N5WDcqusrHwj4igyyAlMBg)
+- [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
 
 #### component related
 
@@ -236,6 +239,7 @@
 - [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 - [5个技巧：避免React Hooks 常见问题](https://zhuanlan.zhihu.com/p/77243662)
 - [使用React Hook高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
+- [React hooks实战总结](https://segmentfault.com/a/1190000020120456)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)

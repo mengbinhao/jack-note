@@ -20,13 +20,33 @@
   - chrome Proxy SwitchyOmega
   - proxychains-ng
 
-#### vmware?
+#### cheatsheet(⌘)
 
-#### Dash
-### cheatsheet(⌘)
+#### aria2
+```bash
+aria2c --conf-path="/Users/jack/.aria2/aria2.conf" -D
+ps -A | grep aria2
+kill aria2 + tab
+# then
+cd docs
+open index.html
+```
+
+#### Parallels Desktop
+#### moon
+#### xmind:zen
+#### pdf expert
+#### cleanmymac
+#### bartender
+#### paragen ntfs or tuxera ntfs
+#### sketch
+#### surge
+#### office / wps
 
 
 ### dev
+#### Dash
+
 #### homebrew
 ```bash
 brew update

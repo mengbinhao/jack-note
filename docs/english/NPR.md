@@ -1,3 +1,29 @@
+- 2019.8.26
+  - contingency n/adj
+  - steer vi/vt | steering n/adj
+  - grim adj
+  - predict vi/vt | prediction n
+  - disruption n | disrupt vt
+  - spark n/vi/vt
+  - referendum n
+  - seamless adj
+  - genuine adj
+  - dissident n/adj
+  - unified adj
+  - worse-case
+  - scenario n
+
+  > xxxxx, but more importantly, xxxxx
+
+- 2019.8.21
+  - guaranteed adj
+  - illistrate vt
+  - insurgent n/adj
+  - presumably adj
+
+  > the Taliban want to have more leverage at the negotiating table
+  > the lack of clarify on what's been happening at these peace talks
+
 - 2019.8.20
   - falter vi
   - factor n/vi/vt
@@ -137,7 +163,6 @@
   - menifesto n
   - legislation n
   - universal n/adj
-  - recess n/vt
   - handful n
   - endorse vt
   - so-called adj
@@ -203,7 +228,7 @@
   - congressional adj
   - collegial adj
   - despite prep
-  - briefing n
+  - briefing n | breif n/vt/adj
   - scence n
 
   > at odds with sb
@@ -509,7 +534,7 @@
   - firmly adv
   - spike n/vi/vt
   - loan n
-  - recession n
+  - recession n | recess n/vt
   - expension n
   - prospect n/vi
   - debate n/vi/vt

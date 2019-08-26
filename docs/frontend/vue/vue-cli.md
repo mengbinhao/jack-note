@@ -3,7 +3,7 @@
 
 2. vue create xxxx or  vue ui
 
-3. cd xxxx 
+3. cd xxxx
 
 4. npm run serve
 
