@@ -162,15 +162,11 @@ Array.prototype.myFilter = function(fn) {
   return result
 }
 
-Array.prototype.myReduce = function(fn, init) {
+Array.prototype.myReduce = function(fn, initialValue) {
   let i = 0,
     result
-  if (arguments.length === 1) {
-    result = this[0]
-    i = 1
-  } else {
-    result = initialValue
-  }
+  result = initialValue ? initialValue : this[0]
+  startIndex = initialValue ? 0 : 1
   for (let len = this.length; i < len; i++) {
     if (i in this) {
       result = fn(result, this[i], i, this)
@@ -566,8 +562,8 @@ Function.prototype.simulateBind = function(context) {
   let args = [...arguments].slice(1)
   return function() {
     // 处理函数使用new的情况
-    if (this instanceof F) {
-      return new fn(...arg, ...arguments)
+    if (this instanceof fn) {
+      return new fn(...args, ...arguments)
     } else {
       return fn.apply(context, args.concat(...arguments))
     }
@@ -600,6 +596,7 @@ Function.prototype.simulateBindAdvance = function(context) {
 Function.prototype.simulateCreate = function(obj) {
   function F() {}
   F.prototype = obj
+  F.prototype.constructor = F
   return new F()
 }
 
@@ -783,12 +780,14 @@ jsonStringify([1, 'false', false]) // "[1,"false",false]"
 jsonStringify({ b: undefined }) // "{"b":"undefined"}"
 
 const instanceOf = (left, right) => {
-  let proto = left.__proto__
+  //let proto = left.__proto__
+  let proto = Object.getPrototypeOf(left)
   let prototype = right.prototype
   while (true) {
     if (proto === null) return false
     if (proto === prototype) return true
-    proto = proto.__proto__
+    //proto = proto.__proto__
+    proto = Object.getPrototypeof(proto)
   }
 }
 

@@ -25,15 +25,15 @@
 
 - abbreviation(support jQuery selector)
 
-  > $() : document.querySelector()的缩写，返回本页第一个与之匹配的CSS选择器的元素
+  > $() : document.querySelector()的缩写，返回本页第一个与之匹配的CSS选择器的元素,$$(selector,[startNode])
   >
-  > \$\$() : document.querySelectorAll()的缩写，返回一个数组，里面是与之匹配的CSS选择器的元素
+  > \$\$() : document.querySelectorAll()的缩写，返回一个数组，里面是与之匹配的CSS选择器的元素,$$(selector,[startNode])
   >
   > \$0–4 : 依次返回五个最近你在元素面板选择过的DOM元素的历史记录，$0是最新的记录，以此类推
   >
   > \$_  检索最后一个结果的值
 
-- \$x("//p")     locate by xpath
+- \$x("//p")     locate by xpath,$x(selector,[startNode])
 
 - dir() / keys() / values()
 
@@ -54,8 +54,9 @@
 3. 监控事件
 - monitorEvents($(‘selector’)) 将监视与选择器的元素关联的所有事件，然后在它们被触发时打印到控制台
 - monitorEvents($(‘selector’),’eventName’) 将打印与元素绑定的特定事件
-- monitore($(selector)，[eventName1, ...'])将根据您自己的需求记录多个事件
+- monitorEvents($(selector)，[eventName1, ...'])将根据您自己的需求记录多个事件
 - unmonitorEvents($(selector)):这将停止监视和打印控制台中的事件
+- monitor/unmonitor
 
 ### 4.Sources
 

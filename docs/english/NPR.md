@@ -1,3 +1,6 @@
+- 2019.8.30
+  - obsessed adj
+
 - 2019.8.26
   - contingency n/adj
   - steer vi/vt | steering n/adj

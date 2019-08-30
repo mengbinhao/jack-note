@@ -1,7 +1,6 @@
 # 联系方式
 - 手机：18591953989
 - Email：mengbinhao2018@gmail.com
-- 微信号：mengbinhao
 
 
 # 个人信息

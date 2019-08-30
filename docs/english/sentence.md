@@ -1,3 +1,19 @@
+### native english
+1. Ordering or asking somethong
+> I want/need -> Can/Could I have  a glass of water? Plese
+2. when you reject or disagree somethong(acknowledgement + bug/however)
+> That's so sweet of you, but ...
+> I see where you come from/ I hear you, but I have a concern
+3. express dislike
+> I am not a big fan of ...
+> I am not very fond of ...
+4. What -> Could you repeat that pls?
+5. Would you mind if ...
+   1. Not at all. Go ahead
+   2. You know what, actually, I do mind.
+6. Are you busy at the moment?/Do you have a minute to talk? I was wondering if you could help me with something
+7. Can you elaborate on that?
+
 ### telephone
 1. This is Jack
 2. Jack's speaking, May I ask who is calling?

@@ -53,6 +53,7 @@
 - [你所不知道的 CSS 负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
 - [常用的CSS函数](https://blog.5udou.cn/blog/Fen-Xiang-Chang-Yong-De-CSSHan-Shu-Zhu-Ni-Xie-Chu-Geng-Jian-Jie-De-Dai-Ma-23)
 - [让CSS flex布局最后一行列表左对齐的N种方法](https://www.zhangxinxu.com/wordpress/2019/08/css-flex-last-align/)
+- [灵活运用CSS开发技巧66个实用技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
 
 ### nodejs
 
@@ -100,6 +101,7 @@
 - [变量命名](https://segmentfault.com/a/1190000020039039)
 - [变量命名常用英文词汇](https://segmentfault.com/a/1190000020073758)
 - [JS中如何跳出循环/结束遍历](https://segmentfault.com/a/1190000020176190)
+- [灵活运用JS开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48)
 
 ### Vue
 
@@ -203,6 +205,7 @@
 - [Webpack构建效率提升50%](https://www.infoq.cn/article/sFJ0yH6m_bbTWahG1QTF)
 - [vue-cli +typescript+webpack4 项目搭建超详细步骤](https://juejin.im/post/5d5652446fb9a06afd66004b)
 - [DefinePlugin](https://mp.weixin.qq.com/s/9pl84KGi34Clw6xbVTPjKw)
+- [Webpack优化](https://mp.weixin.qq.com/s/WmTWXoYn_CvD60nd0_biuQ)
 
 ### React
 - [深入浅出JSX](https://mp.weixin.qq.com/s?__biz=MzI4OTc3NDgzNQ==&mid=2247484964&idx=1&sn=a982fe12a85311668f88588cbd77effd)
@@ -308,6 +311,7 @@
 - [原生JS知识点](https://juejin.im/post/5cb7b62b5188253772753c01)
 - [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
 - [面试](https://juejin.im/post/5c7f5923f265da2dd218f195)
+- [经常会被问到的面试题](https://segmentfault.com/a/1190000020181662)
 
 #### Vue
 
