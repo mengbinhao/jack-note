@@ -172,6 +172,7 @@
 
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
+- [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
 
 #### Vue-cli
 
