@@ -251,6 +251,7 @@
 ### Other
 
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
+- [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
 - [提高效率的10个Git小技巧](https://segmentfault.com/a/1190000020099456)
 - [vscode项目配置eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [提交git时自动格式化并通过ESlint检测prettier + husky + lint-staged + eslint](https://juejin.im/post/5d565ffdf265da03f12e55bb)
@@ -298,6 +299,7 @@
 - [一个 HTTP 打趴 80%面试者](https://segmentfault.com/a/1190000018584779)
 - [大厂前端高频面试问题与答案精选](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490505&idx=1&sn=3efe2267b8bbfea86f2c13c9cc745414)
 - [中高级前端大厂面试秘籍](https://segmentfault.com/a/1190000018155877)
+- [七篇前端面试必考知识点，助你一臂之力](https://juejin.im/post/5d5fdfb26fb9a06af7123e4f)
 
 #### css&html
 

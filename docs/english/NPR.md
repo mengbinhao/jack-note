@@ -1,3 +1,40 @@
+- 2019.9.3
+  - resign vi/vt
+  - scathing adj
+  - rebuke vt
+  - deputy n
+  - opportunism n
+  - blistering adj
+  - institutional adj
+  - respect | disrespect n/vt
+  - defiant adj
+  - get-go n
+  - wary adj
+  - mordernism n
+  - decree n/vt
+  - dismayed adj | dismay n/vt
+  - stance n
+  - admiration n
+  - underestimated adj
+  - tackle n/vt
+  - mobilize vt
+  - corrode vi/vt
+  - dampen vt
+  - demonstration n
+  - interfere vi
+  - contrary n/adj/adv
+  - preserve n/vt
+  - tolerance n
+  - criminality n
+  - exaggerated adj
+  - culprit n
+  - exploit n/vt
+  - mineral n/adj
+
+  > now it is in the hands of xxx
+  > let us make that clear
+  > on the economic front
+
 - 2019.8.30
   - obsessed adj
 
@@ -151,7 +188,7 @@
   - preferred adj
   - boycott n/vt
   - cabinet n
-  - reckless adj
+  - reckless adj | recklessness n
   - colonial adj
   - spiral n/vi/adj
   - alliance n
@@ -181,11 +218,11 @@
   - invaluable adj
   - brake n
   - ballistic
-  - instability
+  - instability n
   - peril n
   - sleepwalking n
   - forecast n/vt
-  - advocate n/vt
+  - advocate n/vt | advocacy n
   - arsenal n
 
 - 2019.8.7
@@ -577,7 +614,7 @@
   - ally n
   - credibility n
   - suspicious n
-  - isolated adj
+  - isolated adj | isolation n
 
   > xxxx as minor
   > mixed message
@@ -615,7 +652,7 @@
   - jail n/vt
   - crackdown n
   - circumstance n
-  - ban vt
+  - ban vt | banner n
   - convicted adj
   - undergo vt
   - procecutor n
