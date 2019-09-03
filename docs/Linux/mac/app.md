@@ -34,10 +34,10 @@ open index.html
 
 #### office / wps ?
 #### Parallels Desktop ?
-#### moon ?
 #### xmind:zen ?
 #### pdf expert ?
 #### sketch ?
+#### moon
 #### cleanmymac / macbooster done
 #### bartender done
 #### paragen ntfs or tuxera ntfs / ntfs for mac done
@@ -65,15 +65,15 @@ brew cleanup xxx
 ```
 
 #### iterm2
-- Split Panes
+- Split Panes (shift + ⌘ + d / ⌘ + d)
 - Hotkey Window
-- Search
-- Autocomplete
-- Mouseless Copy
-- Paste History
-- Instant Replay
+- Search / Mouseless Copy (⌘ + f -> tab -> option + enter)
+- Autocomplete (⌘ + ;)
+- Paste History (shift + ⌘ + h)
+- Instant Replay (option + ⌘ + b)
+- find cursor (⌘ + /)
+- expose tabs (option + ⌘ + e)
 - Configurability
-- ...
 
 #### zsh + oh-my-zsh
 - control + u 删除一行
