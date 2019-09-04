@@ -1,3 +1,38 @@
+- 2019.9.4
+  - appear vi
+  - justification n
+  - territory n
+  - imminent adj
+  - militant adj
+  - depot n
+  - adamant adj
+  - feud n/vi
+  - nasty adj
+  - mock n/adj/vi/vt
+  - offensive n/adj
+  - retract vt
+  - climate n
+  - occasion n
+  - shrug n/vt
+  - stretch n/vi/vt
+  - incidentally adv
+  - crucial adj
+  - stake n/vt
+  - squabble vi
+  - tone n
+  - petty adj
+  - governor n
+  - incur vt
+  - wrath n
+  - grab vi/vt
+  - lossen vi/vt
+
+  > put aside xxxxx
+  > but first and foremost
+  > but at bottom
+  > in a very offensive way
+  > well, at one level, xxx
+
 - 2019.9.3
   - resign vi/vt
   - scathing adj
@@ -130,7 +165,7 @@
   - inspiration n
   - vice n/adj
   - expel vt
-  - intensive adj
+  - intensive adj | intensify vi/vt
   - pledge n/vt
   - obligate vt
   - congratulatory adj
@@ -189,7 +224,7 @@
   - boycott n/vt
   - cabinet n
   - reckless adj | recklessness n
-  - colonial adj
+  - colonial adj | colony n
   - spiral n/vi/adj
   - alliance n
   - disintegrate vi/vt
@@ -256,7 +291,7 @@
   - conflicting adj
   - ideology n
   - shock n/vt/adj
-  - devastating adj
+  - devastating adj | devastation n
   - horrific adj
 
   > it turned out
@@ -277,7 +312,7 @@
 - 2019.7.30
   - shadow n/vt/adj
   - presidency n
-  - committee n
+  - committee n | commitment n
   - refer vi/vt
   - brevity n
   - obstruction n
@@ -447,8 +482,7 @@
   - incompetent adj
   - radiate vi/vt
   - insecurity n
-  - diplomatic adj
-  - diplomat n
+  - diplomatic adj | diplomat n | diplomacy n
   - substantially adv
   - dyfunctional adj
   - clumsy adj
@@ -474,7 +508,6 @@
 - 2019.7.15
   - envoy n
   - backdrop n
-  - intensify vi/vt
   - negligence n
   - remnant n/adj
   - dictator n
@@ -605,7 +638,6 @@
   - conciliatory adj
   - tactical adj
   - hawkish adj
-  - aggresive adj
   - coherent adj
   - escalation n
   - crippling adj
@@ -673,7 +705,6 @@
   - altogether adv
   - reactor adv
   - headline n/vt
-  - diplomat n
   - violation n
   - relief n
   - abide vi
@@ -692,7 +723,7 @@
   - departure n | depart vi/vt
   - personnel n
   - tenure n
-  - aggresive adj
+  - aggresive adj | aggression n
   - toe-to-toe
   - insult n/vt
   - resolutely adj
