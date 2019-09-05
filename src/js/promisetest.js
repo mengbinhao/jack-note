@@ -76,3 +76,75 @@ Promise.all(promises).then(res => {
   userInfos3 = res
   console.log(userInfos3)
 })
+
+//practise
+//practise
+//practise
+var p = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    console.log('1')
+  }, 3000)
+  resolve(1)
+})
+  .then(() => {
+    // 描述：.then() 1-1
+    Promise.resolve().then(() => {
+      // 描述：.then() 2-1
+      Promise.resolve().then(() => {
+        // 描述：.then() 3-1
+        console.log('2')
+      })
+    })
+  })
+  .then(() => {
+    // 描述：.then() 1-2
+    console.log('3')
+  })
+
+const p0 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    console.log('1')
+  }, 3000)
+  resolve(1)
+})
+  .then(() => {
+    // 描述：.then() 1-1
+    Promise.resolve().then(() => {
+      // 描述：.then() 2-1
+      Promise.resolve().then(() => {
+        // 描述：.then() 3-1
+        console.log('2')
+      })
+    })
+  })
+  .then(() => {
+    // 描述：.then() 1-2
+    console.log('3')
+  })
+
+const p2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    console.log('1')
+  }, 3000)
+  resolve(1)
+}).then(() => {
+  // 描述：.then() 1-1
+  Promise.resolve()
+    .then(() => {
+      // 描述：.then() 2-1
+      console.log('2')
+    })
+    .then(() => {
+      // 描述：.then() 1-2
+      console.log('3')
+    })
+})
+
+const p3 = Promise.race([
+  fetch('index.php'),
+  new Promise(function(resolve, reject) {
+    setTimeout(() => reject(new Error('request timeout')), 5000)
+  })
+])
+
+p3.then(console.log).catch(console.error)

@@ -1,3 +1,23 @@
+- 2019.9.5
+  - plague n/vt
+  - pollution n
+  - infrastructure n
+  - feasible adj
+  - founder n
+  - swamp n
+  - consumption n
+  - coastal adj
+  - nightmarish adj
+  - concentrated adj
+  - centrally adv
+  - tropical adj
+  - deforestation n | forest n
+  - sparsely adv
+
+  > I have lived in the area for quite some time
+  > enough is enough
+  > It has had a problem with too much rainwater coming in
+
 - 2019.9.4
   - appear vi
   - justification n
@@ -326,7 +346,7 @@
   - porch n
 
 - 2019.7.26
-  - conservative n/adj
+  - conservative n/adj | conservation n
   - unifying adj
   - dire adj
   - daunting/daunted adj
@@ -521,7 +541,7 @@
 
 - 2019.7.12
   - swallow vi/vt/n
-  - proposed adj
+  - proposed adj | proposal n
   - domestic adj/n
   - encouraging adj
   - tariff n/vt
@@ -653,7 +673,7 @@
   > foolish move
 
 - 2019.6.28
-  - establishment n
+  - establishment n | establish vt
   - redical adj/n
   - hatred n
   - prejudice n/vt

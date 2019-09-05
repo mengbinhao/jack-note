@@ -43,11 +43,11 @@ b.	不要修改原来的状态
 3. store
 ```
 1)	将state,action与reducer联系在一起的对象
-2)	如何得到此对象?
+2)	如何得到此对象
 		import {createStore} from 'redux'
 		import reducer from './reducers'
 		const store = createStore(reducer)
-3)	此对象的功能?
+3)	此对象的功能
 		getState(): 得到state
 		dispatch(action): 分发action, 触发reducer调用, 产生新的state
 		subscribe(listener): 注册监听, 当产生了新的state时, 自动调用
