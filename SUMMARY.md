@@ -5,6 +5,7 @@
   - [koa2](docs/backend/koa2.md)
   - [node-log](docs/backend/node-log.md)
   - [node](docs/backend/node.md)
+  - [npm](docs/backend/npm.md)
   - [npx](docs/backend/npx.md)
   - [stream](docs/backend/stream.md)
 - db

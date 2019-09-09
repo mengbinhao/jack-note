@@ -11,50 +11,7 @@ node 扩展后 -> net、db、file...
 
 ### 3. node --help
 
-### 4. npm --help
-   ```bash
-   //set init parameter value
-   npm config set init.author.email "mengbinhao2018@gmail.com"
-   npm config set init.author.name "jack"
-   npm config set init.author.url "http://github.com/mengbinhao"
-   npm config set init.license "MIT"
-   npm config set init.version "0.0.1"
-
-   //excute when meet strange error
-   npm cache clean --force
-
-   npm root [-g]
-   npm init [-y]
-
-   //publish
-   npm adduser
-   npm whoami
-   npm version patch
-   npm version minor
-   npm version major
-   npm publish
-
-   npm set xxx
-   npm config set registry=https://registry.npm.taobao.org
-   npm config get registry
-   npm config delete registry
-   npm [config] list [-g] [<pkg>...]
-   npm view [<@scope>/]<pkg>[@<version>]
-   npm search [search terms ...]
-   npm i [<@scope>/]<name>
-   npm i -P|-D|-S
-   npm un [<@scope>/]<pkg>[@<version>]
-   npm update [-g] [<pkg>...]
-   npm outdated [[<@scope>/]<pkg> ...]
-   # list global package
-   npm list -g --depth 0
-   npm run command
-   npm home <pkg>
-   ```
-
-> install path
->
-> C:\Users\xxx\AppData\Roaming\npm\node_modules
+### 4. [npm](./npm.md)
 
 ### 5. [see package.json](https://docs.npmjs.com/files/package.json)
 

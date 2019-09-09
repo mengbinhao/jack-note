@@ -102,6 +102,7 @@
 - [变量命名常用英文词汇](https://segmentfault.com/a/1190000020073758)
 - [JS中如何跳出循环/结束遍历](https://segmentfault.com/a/1190000020176190)
 - [灵活运用JS开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48)
+- [innerText和textContent的区别](https://www.zhangxinxu.com/wordpress/2019/09/js-dom-innertext-textcontent/)
 
 ### Vue
 
@@ -130,6 +131,7 @@
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
 - [Vue/Vue-router/Vuex延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
 - [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63)
+- [更友好的前端骨架屏自动生成方案](https://segmentfault.com/a/1190000020309764)
 - [一个Vue引发的性能问题](https://www.yinchengli.com/2019/03/24/Vue-performance-problem/)
 - [Vue动态组件与全局事件绑定总结](https://juejin.im/post/5be77819f265da616a472e16)
 - [Vue实现短信验证码登录](http://www.cnblogs.com/zhoulifeng/p/10502058.html)
@@ -167,6 +169,7 @@
 
 - [Vue实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
 - [前端路由跳转基本原理](https://mp.weixin.qq.com/s/IyPpSix7haY_NfNJg10ilg)
+- [addRoutes的刷新404和重复路由的解决方案](https://juejin.im/post/5d730f50518825770c43a6da)
 
 #### Vuex
 

@@ -145,9 +145,19 @@ import { connect } from 'react-redux'
 ```
 
 ###  redux异步编程(默认不支持)
-- npm install --save redux-thunk
+- `npm install --save redux-thunk`
 
 ![](../images/react-5.png)
+
+###  实际开发
+1. 抽取`actionTypes.js`
+2. 抽取`actionCreator.js`
+3. 坑
+   1. `store`必须唯一
+   2. `reducer`必须纯函数
+   3. 只有`store`能改变`state`内容,`reducer`不能改变
+
+### 组建UI和业务逻辑的拆分
 
 
 

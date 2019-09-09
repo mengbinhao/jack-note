@@ -1,3 +1,57 @@
+- 2019.9.9
+  - jeopardize vt
+  - prime adj
+  - embassy n
+  - chant n/vi/vt
+  - upbraid vt
+  - pact n
+  - animosity n
+  - vital adj
+  - blindside vt
+  - reprimand n/vt
+  - trilateral | bilateral adj
+  - chancellor n
+  - mistrust n/vt
+  - conclude vi/vt
+  - reluctantly adv
+  - collective adj
+  - replicate n/adj/vt
+  - resemble vt
+  - intercept vt
+  - articulate vt/adj
+  - interpret vi/vt
+  - urge | urging n
+
+  > seconds matter
+  > we have never suceeded in doing that
+
+- 2019.9.6
+  - devide n/vi/vt
+  - paramount adj
+  - drawn-out adj
+  - epic n/adj
+  - brawl n/vi
+  - toddler n
+  - opponent n
+  - opposition n
+  - thwart n/vt/prep
+  - seize vi/vt
+  - agenda n
+  - confidence n/adj
+  - potential n/adj
+  - sideline n/vt
+  - majority n/adj
+  - minoraty n/adj
+  - frighten vi/vt
+  - budge vi/vt
+  - blink n/vi/vt
+  - turmoil n
+  - manner n
+  - foment vt
+
+  > just to zoom out, remain us what is stake here
+  > enough is enough
+
 - 2019.9.5
   - plague n/vt
   - pollution n
@@ -198,7 +252,7 @@
 - 2019.8.15
   - arctic n/adj
   - sketchy adj
-  - contamination n
+  - contamination n | contaminated adj
   - contradictory adj
   - terse adj
   - comparison n
@@ -256,7 +310,7 @@
 - 2019.8.12
   - massacre n/vt
   - menifesto n
-  - legislation n
+  - legislation n | legislative adj
   - universal n/adj
   - handful n
   - endorse vt
@@ -437,7 +491,7 @@
   - finality n
   - unauthorized adj
   - raise n/vi/vt
-  - dispute n/vi/vt
+  - dispute n/vi/vt | disputed adj
   - alien n/adj
   - intervene vi
   - strategist n
@@ -665,7 +719,7 @@
   - sue vi/vt
   - ally n
   - credibility n
-  - suspicious n
+  - suspicious n | suspicion n
   - isolated adj | isolation n
 
   > xxxx as minor
@@ -700,7 +754,7 @@
   - collapse n/vi
   - faint n/vi/adj
   - trial | retrial n
-  - democratically adv | democratic adj
+  - democratically adv | democratic adj | democracy n
   - jail n/vt
   - crackdown n
   - circumstance n
@@ -850,7 +904,7 @@
 
 > We knew that it was bound to happen
 
-19. seize the dat
+19. seize the day
 
 > Life is short, seize the day, seize the hour
 
