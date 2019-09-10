@@ -1,3 +1,20 @@
+- 2019.9.10
+  - distressed adj
+  - mental adj
+  - enraged adj
+  - illustrate vt
+  - ramblings n
+  - incoherent adj
+  - rampage n/vt
+  - postal adj
+  - prior adj
+  - alcohol n
+  - tobacco n | cigarette n
+  - mourn vi/vt
+  - grief n
+
+  > set him off
+
 - 2019.9.9
   - jeopardize vt
   - prime adj
@@ -320,7 +337,7 @@
 - 2019.8.8
   - treaty n
   - resurrect vt
-  - violate n
+  - violate vt | violation n
   - compliance n
   - produce n/vt
   - measured
@@ -779,7 +796,6 @@
   - altogether adv
   - reactor adv
   - headline n/vt
-  - violation n
   - relief n
   - abide vi
   - exert vt

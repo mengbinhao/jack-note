@@ -1,7 +1,7 @@
 ### redux
-1. https://redux.js.org/
-2. http://www.redux.org.cn/
-3. redux是一个独立专门用于做状态管理的JS库(不是react插件库),它可以用在react, angular, vue等项目中, 但基本与react配合使用
+1. [redux](https://redux.js.org/)
+2. [redux cn](http://www.redux.org.cn/)
+3. `redux`是一个独立专门用于做状态管理的JS库(不是react插件库),它可以用在`react`, `angular`, `vue`等项目中, 但基本与`react`配合使用
 4. 作用: 集中式管理react应用中多个组件共享的状态
 
 #### 流程图
@@ -11,8 +11,8 @@
 ```
 1)	标识要执行行为的对象
 2)	包含2个方面的属性
-a.	type: 标识属性, 值为字符串, 唯一, 必要属性
-b.	xxx: 数据属性, 值类型任意, 可选属性
+  a.	type: 标识属性, 值为字符串, 唯一, 必要属性
+  b.	xxx: 数据属性, 值类型任意, 可选属性
 3)	例子:
 		const action = {
 			type: 'INCREMENT',
@@ -25,7 +25,7 @@ b.	xxx: 数据属性, 值类型任意, 可选属性
 ```
 1)	根据老的state和action, 产生新的state的纯函数
 2)	样例
-		export default function counter(state = 0, action) {
+		export default function counter(state = defaultState, action) {
 		  switch (action.type) {
 		    case 'INCREMENT':
 		      return state + action.data
@@ -36,8 +36,8 @@ b.	xxx: 数据属性, 值类型任意, 可选属性
 		  }
 		}
 3)	注意
-a.	返回一个新的状态
-b.	不要修改原来的状态
+  a.	返回一个新的状态
+  b.	不要修改原来的状态
 ```
 
 3. store
@@ -64,8 +64,11 @@ b.	不要修改原来的状态
 1. createStore() 创建包含指定reducer的store对象
 ```javascript
 import {createStore} from 'redux'
-import counter from './reducers/counter'
-const store = createStore(counter)
+import reducer from './reducer'
+const store = createStore(
+  reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
 ```
 
 2. store对象(redux库最核心的管理对象)
@@ -81,10 +84,10 @@ store.subscribe(render)
 3. applyMiddleware()(应用上基于redux的中间件(插件库))
 ```javascript
 import {createStore, applyMiddleware} from 'redux'
-import thunk from 'redux-thunk'  // redux异步中间件
+import thunk from 'redux-thunk'
 const store = createStore(
   counter,
-  applyMiddleware(thunk) // 应用上异步中间件
+  applyMiddleware(thunk)
 )
 ```
 
@@ -96,6 +99,11 @@ export default combineReducers({
   chat
 })
 ```
+
+### 坑
+1. `store`必须唯一``
+2. `reducer`必须纯函数
+3. 只有`store`能改变`state`内容,`reducer`不能改变
 
 ### react-redux
 1. 一个react插件库
@@ -113,65 +121,134 @@ export default combineReducers({
     - 一般保存在containers文件夹下
 
 #### API
-- Provider
-```
-让所有组件都可以得到state数据
+1. Provider
+```javascript
+//被包裹的组件都可以得到state数据
 <Provider store={store}>
-    <App />
+  <Todolist />
+  <OtherComponent1>
+  <OtherComponent2>
+  ...
 </Provider>
 ```
-- connect()
-```
-用于包装UI组件生成容器组件
+2. connect()
+```javascript
+//用于包装UI组件生成容器组件
 import { connect } from 'react-redux'
-  connect(
-    mapStateToprops,
-    mapDispatchToProps
-  )(Counter)
+export default connect(
+  mapStateToProps,
+  null
+)(TodoList)
 ```
-- mapStateToprops()
-```
-将外部的数据（即state对象）转换为UI组件的标签属性
-  const mapStateToprops = function (state) {
-   return {
-     value: state
-   }
+3. mapStateToProps()
+```javascript
+//将外部的数据（即state对象）转换为UI组件的标签属性
+const mapStateToprops = state => {
+  return {
+    value: state.xxx
   }
+}
 ```
-- mapDispatchToProps()
-```
-将分发action的函数转换为UI组件的标签属性
-简洁语法可以直接指定为actions对象或包含多个action方法的对象
+4. mapDispatchToProps()
+```javascript
+const mapDispatchToProps = disptch => {
+  return {
+    changeVal(e) {
+      const action = {
+        type: 'changeVal',
+        value: e.target.value
+      }
+      disptch(action)
+    }
+    ...
+}
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TodoList)
 ```
 
 ###  redux异步编程(默认不支持)
 - `npm install --save redux-thunk`
+```javascript
+//index.js
+import { createStore, applyMiddleware, compose} from 'redux'
+import reducer from './reducer'
+import ReduxThunk from 'redux-thunk'
+
+const composeEnhancers =
+  typeof window === 'object' &&
+  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({}) : compose
+
+const enhancer = composeEnhancers(
+  applyMiddleware(ReduxThunk)
+)
+
+const store = createStore(reducer, enhancer)
+
+export default store
+```
+- `npm install --save redux-saga`
+```javascript
+//index.js
+import { createStore, applyMiddleware, compose} from 'redux'
+import reducer from './reducer'
+//import ReduxThunk from 'redux-thunk'
+import createSagaMiddleware from 'redux-saga'
+import mySaga from './sagas'
+
+const sagaMiddleware = createSagaMiddleware()
+
+const composeEnhancers =
+  typeof window === 'object' &&
+  window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ ?
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({}) : compose
+
+const enhancer = composeEnhancers(
+  applyMiddleware(sagaMiddleware)
+)
+
+//only accept two params
+const store = createStore(reducer, enhancer)
+
+sagaMiddleware.run(mySaga)
+
+export default store
+
+
+import axios from 'axios'
+import {  GET_ITEM_SAGA } from './actionTypes'
+import { getItemsAction } from '../store/actionCreator'
+import { put, takeEvery } from 'redux-saga/effects'
+
+function* mySaga() {
+  yield takeEvery(GET_ITEM_SAGA, fetchData)
+}
+
+
+//saga.js
+function* fetchData() {
+  const action  = yield axios.get(`https://bird.ioliu.cn/v1/?url=http://api.avatardata.cn/TouTiao/Query?key=e96b23a852f34c8489397cd05f919c8d&type=top`)
+                  .then(res => {
+                    let tmp = res.data.result.data
+                    if (tmp.length > 10) tmp.length = 10
+                    return getItemsAction(tmp)
+                  })
+                  .catch(err => {
+                    console.log(err)
+                  })
+  yield put(action)
+}
+
+export default mySaga
+```
 
 ![](../images/react-5.png)
 
 ###  实际开发
 1. 抽取`actionTypes.js`
 2. 抽取`actionCreator.js`
-3. 坑
-   1. `store`必须唯一
-   2. `reducer`必须纯函数
-   3. 只有`store`能改变`state`内容,`reducer`不能改变
-
-### 组建UI和业务逻辑的拆分
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
