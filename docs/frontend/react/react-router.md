@@ -45,7 +45,6 @@
 ```javascript
 <Route path="/about/:id" component={About}></Route>
 
-
 //in other component
 componentDidMount() {
     this.setState({
@@ -53,20 +52,9 @@ componentDidMount() {
     })
 }
 ```
-##### 嵌套路由(see demo02)
+
 ##### 路由跳转方式
 - `<Redirect to="/home/" />`
 - `this.props.history.push('/home/')`
 
-
-
-
-
-
-
-
-
-
-
-
-
+##### 嵌套路由

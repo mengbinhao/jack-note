@@ -61,7 +61,7 @@
 5. 一个组件需要改变另一个组件的状态
 
 #### redux的核心API
-1. createStore() 创建包含指定reducer的store对象
+1. `createStore()`创建包含指定reducer的store对象
 ```javascript
 import {createStore} from 'redux'
 import reducer from './reducer'
@@ -71,7 +71,7 @@ const store = createStore(
 )
 ```
 
-2. store对象(redux库最核心的管理对象)
+2. `store`对象(redux库最核心的管理对象)
     - 它内部维护着state / reducer
     - getState() / dispatch(action) / subscribe(listener)
 
@@ -81,7 +81,7 @@ store.dispatch({type:'INCREMENT', number})
 store.subscribe(render)
 ```
 
-3. applyMiddleware()(应用上基于redux的中间件(插件库))
+3. `applyMiddleware()`应用上基于redux的中间件(插件库)
 ```javascript
 import {createStore, applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
@@ -91,7 +91,7 @@ const store = createStore(
 )
 ```
 
-4. combineReducers()(合并多个reducer函数)
+4. `combineReducers()`合并多个reducer函数
 ```javascript
 export default combineReducers({
   user,
@@ -99,6 +99,9 @@ export default combineReducers({
   chat
 })
 ```
+
+5. `compose`
+6. `bindActionCreators`
 
 ### 坑
 1. `store`必须唯一``

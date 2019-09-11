@@ -1,3 +1,41 @@
+- 2019.9.11
+  - rover n
+  - pole n
+  - approach n/vi/vt
+  - narrate vt
+  - orbiter n
+  - anticipation n
+  - excitement
+  - eerily adv
+  - cap n
+  - huddle vt | huddled adj
+  - negative n/adj/vt
+  - lunar adj
+  - comfort n/vt
+  - spirit n
+  - unexplored adj
+  - quell vt
+  - cellular adj
+  - racially adv
+  - unreset n
+  - torch n/vt
+  - indigenous adj
+  - Dutch n/adj
+  - relinquish vt
+  - sham n/adj/vt
+  - status n
+  - sustained adj
+  - decade n
+  - alleged adj
+  - torture n/vt
+  - calm n/adj/vt
+  - slogan n
+
+  > This was supposed to be a celebration
+  > in quiet conversation
+  > at first, all went according to plan
+  > what many would consider xxx
+
 - 2019.9.10
   - distressed adj
   - mental adj
@@ -315,7 +353,7 @@
   - boycott n/vt
   - cabinet n
   - reckless adj | recklessness n
-  - colonial adj | colony n
+  - colonial adj | colony n | colonialism n
   - spiral n/vi/adj
   - alliance n
   - disintegrate vi/vt
@@ -388,7 +426,6 @@
   > it turned out
 
 - 2019.7.31
-  - clash n/vi/vt
   - testify vi/vt
   - bombshell n
   - congressional adj
@@ -442,7 +479,7 @@
 
 - 2019.7.25
   - enrollment n
-  - roughly adv
+  - roughly adv | rough adj
   - essential n/adj
   - prescription n
   - discrimination n

@@ -32,15 +32,15 @@ cd docs
 open index.html
 ```
 
-#### office / wps ?
-#### Parallels Desktop ?
-#### xmind:zen ?
-#### pdf expert ?
-#### sketch ?
+#### Parallels Desktop waiting
+#### pdf expert waiting
+#### xmind:zen ??
+#### sketch ??
 #### moon
-#### cleanmymac / macbooster done
-#### bartender done
-#### paragen ntfs or tuxera ntfs / ntfs for mac done
+#### bartender
+#### wps instead of office
+#### macbooster instead of cleanmymac
+#### ntfs for mac instead of paragen ntfs or tuxera ntfs
 
 
 ### dev
