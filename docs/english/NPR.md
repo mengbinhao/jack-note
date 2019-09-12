@@ -1,3 +1,31 @@
+- 2019.9.12
+  - blow n/vi/vt
+  - ostensibly adv
+  - deadlock n/vt
+  - momentous adj
+  - amendment n
+  - rebel n/vi
+  - compete vi | competing adj
+  - trick n
+  - suspend vi/vt
+  - wicked adj
+  - cautions adj
+  - incredible adj
+  - crafty adj
+  - defection n
+  - plus n/adj/conj
+  - sizable adj
+  - ridicule n/vt
+  - invitation n
+  - remarkable adj
+  - electorate n
+
+  > to my knowledge
+  > how much time does xxx have to get this all sorted out?
+  > on the surface
+  > I has lost him majority
+  > stick with me here. There's an internal logic
+
 - 2019.9.11
   - rover n
   - pole n
@@ -158,6 +186,7 @@
 
   > put aside xxxxx
   > but first and foremost
+  > first things first
   > but at bottom
   > in a very offensive way
   > well, at one level, xxx
@@ -473,7 +502,6 @@
   - elite n/adj
   - celibrity n
   - privileged adj
-  - controversial adj
 
   > to some degree
 
@@ -508,7 +536,7 @@
   - recharge vt
   - defend vt
   - opposite n/adj/adv/prep
-  - controversy n
+  - controversy n | controversial adj
   - intelligence n
   - condemn vt
   - complain vi/vt
@@ -882,112 +910,3 @@
   > There is no question about it
   >
   > at the very time
-
-
-
-
-
-
-
-
-
-
-
-
-1. dwell on the past
-
-> u can not always dwell on the past
-2. time-consuming
-
-> This is a time-consuming thins
-
-3. sweat like a pig
-
-> I am sweating like a pig
-
-4. tie the knot
-
-> We are trying tie the knot
-
-5. over the top | go to far
-
-> The special effects in this movie are a bit over the top, but I like it
-
-6. what's done is done
-
-> Don't thinl too much, what's done is done
-
-7. get over
-
-> It took a very long time to get over it
-
-8. no time to lose
-
-> There is no time to lose, do it now
-
-9. know-how
-
-10. full of life
-
-> I like this city, It is full of life
-
-11. unreservedly
-
-> She has devoted herself unreservedly to the great cause
-
-12. hot and fresh
-
-13. you have my work | I give you my word
-
-14. one way or another
-
-> One way or another, we have to do this
-
-15. Are u still up?
-
-16. goer
-
-> Are you a party goer?
-
-17. keep in shape
-
-> Jogging everyday is how I keep in shape
-
-18. be bound to
-
-> We knew that it was bound to happen
-
-19. seize the day
-
-> Life is short, seize the day, seize the hour
-
-20. clammy
-
-> when I got there, I suddenly felt so clammy and dizzy
-
-
-
-### telephone
-1. This is Jack
-2. Jack's speaking, May I ask who is calling?
-3. This is him | speaking
-4. May I ask what this is regarding?
-5. I'm sorry, Could you repeat that?
-6. Would you mind hold on a moment?
-7. Could you please speak a little more slowly?
-8. I did not catch your meaning
-9. Would you mind spelling that for me?
-10. It's been great talking to you. Have a good day！
-
-
-### mis
-1. I make lots of mistakes, and I would really appreciate it if you can point it out for me when I make that mistake
-2. feel free to point out my mistake when I make them
-3. what would Americans say? | How would Americans say that?
-4. Can you help me figure out the best way to word it?
-5. What does this mean? When is an appropriate time for me to use this?
-6. What are some synonyms to xxx? how should I use it?
-7. google :  spell xxxx
-8. Am I making sense? | Dose that make sense?
-9.  Let me see if I got that right
-10. I'm afraid I can not give you that information

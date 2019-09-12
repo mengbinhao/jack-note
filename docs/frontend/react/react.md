@@ -39,6 +39,18 @@ npm start
 5. 基本语法规则
     - 遇到`<`开头的代码, 以标签的语法解析: html同名标签转换为html同名元素, 其它标签需要特别解析
     - 遇到以`{`开头的代码，以JS语法解析: 标签中的js代码必须用`{ }`包含
+6. JSX变量是数组的话会直接展开
+7. 不能是对象`{ {name: "jack"} }`,`if`或者`for`
+8. 布尔类型、`Null`以及`Undefined`将会被忽略
+```javascript
+//以下的 JSX 表达式渲染结果都是相同的
+<div />
+<div></div>
+<div>{ true }</div>
+<div>{ null }</div>
+<div>{ undefined }</div>
+<div>{ true }</div>
+```
 
 #### 创建virtualDOM的两种方式
 1. React.createElement('h1', {id:'123'}, 'text')

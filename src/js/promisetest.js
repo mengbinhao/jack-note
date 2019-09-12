@@ -148,3 +148,45 @@ const p3 = Promise.race([
 ])
 
 p3.then(console.log).catch(console.error)
+
+//practise
+//practise
+//practise
+//实现一个函数，使得 repeat(() => {console.log('1')}, 5, 2000) 每两秒执行一次打印，总共五次
+const wait = millisecond => {
+  return new Promise((resolve, reject) => {
+    setTimeout(resolve, millisecond)
+  })
+}
+
+async function repeat(cb, count = 1, millisecond = 0) {
+  while (count--) {
+    await wait(millisecond)
+    cb()
+  }
+}
+
+//how to use
+// ;(async function() {
+//   await repeat(taskA, 5, 2000)
+//   taskB()
+// })()
+
+//如果我们希望任务同步执行，只需要去掉await
+// repeat(taskA, 5, 2000)
+// taskB()
+
+//如果我们希望A、B都重复若干次，且A、B先后依次执行
+// await repeat(taskA, 5, 2000)
+// await repeat(taskB, 5, 2000)
+
+//如果我们希望A、B都重复若干次，且并行执行
+//await Promise.all([repeat(taskA, 5, 2000), repeat(taskB, 5, 2000)])
+
+//如果我们希望taskA、taskB也可以是异步方法，可以稍微修改一下repeat实现
+// async function repeat(task, count = 1, millisecond = 0) {
+//   while (count--) {
+//     await wait(millisecond)
+//     await task()
+//   }
+// }
