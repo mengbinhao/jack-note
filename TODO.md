@@ -104,6 +104,7 @@
 - [灵活运用JS开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48)
 - [innerText和textContent的区别](https://www.zhangxinxu.com/wordpress/2019/09/js-dom-innertext-textcontent/)
 - [高性能渲染十万条数据](https://juejin.im/post/5d76f469f265da039a28aff7)
+- [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
 
 ### Vue
 
@@ -126,7 +127,7 @@
 - [六个让前端开发既高效又有趣的工具](http://developer.51cto.com/art/201908/601336.htm)
 
 #### project related
-
+- [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
@@ -213,48 +214,38 @@
 - [Webpack优化](https://mp.weixin.qq.com/s/WmTWXoYn_CvD60nd0_biuQ)
 
 ### React
-#### basic
-- [简单掌握react](https://segmentfault.com/a/1190000016281174)
-- [关于React的一些小知识](https://segmentfault.com/a/1190000018689665)
-- [React不完全手册](https://segmentfault.com/a/1190000018722898)
-
-- [React 服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
-- [21 项优化 React App 性能的技术](https://segmentfault.com/a/1190000019685362)
-- [一文速览 React 全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
-- [React 造轮子系列：Icon 组件思路](https://segmentfault.com/a/1190000019247512)
-- [2019 React Redux 完全指南](https://juejin.im/post/5cac8ccd6fb9a068530111c7)
-- [从 Mixin 到 HOC 再到 Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
-- [深入分析虚拟 DOM 的渲染原理和特性](https://segmentfault.com/a/1190000018891454)
-- [React 函数组件和类组件的差异](https://zhuanlan.zhihu.com/p/62767474)
-- [React—从初级到高级路线图](https://juejin.im/post/5bb0303f5188255c8d0fdacb)
-- [React 学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
-- [从零开始学习 React 高阶组件](https://segmentfault.com/a/1190000018633603)
-- [React 基础与生命周期](https://www.linuxidc.com/Linux/2018-12/155827.htm)
-- [React 新旧生命周期](https://segmentfault.com/a/1190000018413163)
-- [React 开发你一定要知道](https://segmentfault.com/a/1190000015894607)
-- [详解 react、redux、react-redux 之间的关系](https://segmentfault.com/a/1190000017133041)
 
 #### project
 - [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
 - [react-cloud-music](https://github.com/sanyuan0704/react-cloud-music)
 - [react-cloud-music-doc](https://sanyuan0704.github.io/react-cloud-music/chapter1/)
 
-
-#### 优化
-- [用惰性加载优化 React 程序](https://segmentfault.com/a/1190000019239957)
-- [React 性能优化技巧总结](https://segmentfault.com/a/1190000018257360)
-- [React 性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
-
+#### basic
+- [React学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
+- [简单掌握react](https://segmentfault.com/a/1190000016281174)
+- [速览React全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
+- [React函数组件和类组件的差异](https://zhuanlan.zhihu.com/p/62767474)
+- [从零开始学习React高阶组件](https://segmentfault.com/a/1190000018633603)
+- [React开发你一定要知道](https://segmentfault.com/a/1190000015894607)
+- [关于React的一些小知识](https://segmentfault.com/a/1190000018689665)
+- [React不完全手册](https://segmentfault.com/a/1190000018722898)
+- [React新旧生命周期](https://segmentfault.com/a/1190000018413163)
+- [深入分析虚拟DOM的渲染原理和特性](https://segmentfault.com/a/1190000018891454)
+- [React服务端渲染从入门到精通](https://segmentfault.com/a/1190000018672269)
+- [用惰性加载优化React程序](https://segmentfault.com/a/1190000019239957)
+- [21项优化React性能的技术](https://segmentfault.com/a/1190000019685362)
+- [React必看性能优化总结](https://segmentfault.com/a/1190000018257360)
+- [React性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
 
 #### hooks
-- [useHooks~小窍门](https://zhuanlan.zhihu.com/p/66170210)
-- [React 新特性 Hooks 讲解及实例(四)](https://segmentfault.com/a/1190000019423616)
-- [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
+- [从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
+- [5个技巧：避免React Hooks常见问题](https://zhuanlan.zhihu.com/p/77243662)
+- [useHooks窍门](https://zhuanlan.zhihu.com/p/66170210)
+- [React Hooks的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 - [Hooks与React生命周期的关系](https://juejin.im/post/5d3db4da518825016f644561)
-- [React Hook的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
-- [5个技巧：避免React Hooks 常见问题](https://zhuanlan.zhihu.com/p/77243662)
-- [使用React Hook高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
-- [React hooks实战总结](https://segmentfault.com/a/1190000020120456)
+- [React Hooks的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
+- [使用React Hooks高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
+- [React Hooks实战总结](https://segmentfault.com/a/1190000020120456)
 
 
 ### Angular
@@ -351,7 +342,7 @@
 - [分享 10 道 Nodejs 进程相关面试题](https://juejin.im/post/5d082214f265da1bb564f97b)
 
 #### react
-
+- [React高频面试题梳理](https://mp.weixin.qq.com/s/3jmJgZFktP2NMT8XLvdIKQ)
 - [React](https://zhuanlan.zhihu.com/p/35587283)
 - [React](https://segmentfault.com/a/1190000016761186)
 - [React](https://segmentfault.com/a/1190000018604138)
