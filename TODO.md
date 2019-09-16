@@ -105,6 +105,7 @@
 - [innerText和textContent的区别](https://www.zhangxinxu.com/wordpress/2019/09/js-dom-innertext-textcontent/)
 - [高性能渲染十万条数据](https://juejin.im/post/5d76f469f265da039a28aff7)
 - [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
+- [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
 
 ### Vue
 
@@ -128,6 +129,7 @@
 
 #### project related
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
+- [Vue中项目优化](https://juejin.im/post/5d7b91e86fb9a06ace527e2a)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
@@ -149,6 +151,7 @@
 - [Vue项后台管项目登录逻辑/菜单权限/按钮Loading处理](https://segmentfault.com/a/1190000019516643)
 - [Vue实现特定场景的主题切换](https://mp.weixin.qq.com/s/N5WDcqusrHwj4igyyAlMBg)
 - [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
+- [从一次性能优化看Vue的一个feature](https://juejin.im/post/5d7cc1966fb9a06b211717df)
 
 #### component related
 
@@ -285,6 +288,7 @@
 ### Interview
 
 - [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
+- [大厂面试题](https://juejin.im/post/5d7aeea35188255de73521ff)
 - [za](https://segmentfault.com/a/1190000019946154)
 - [大厂面试题](https://mp.weixin.qq.com/s/sBk9j7GYh877nEKvuBQIAA)
 - [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)

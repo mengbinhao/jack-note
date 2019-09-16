@@ -1,3 +1,59 @@
+- 2019.9.156
+  - snap n/adj
+  - keen vi/adj
+  - inflict vt
+  - disaster n
+  - flout vt
+  - loophole n
+  - superme adj
+  - lame adj
+  - thorn n
+  - disorder n
+  - entertaining n/adj
+  - convention n
+
+  > he said no can do
+  > for the second time in a week
+  > I can hear you've been working on the accent there
+  > it certainly seems that way
+  > I am trying to keep up with all this
+  > I should jump in here and say that xxx
+
+- 2019.9.15
+  - strengthen vi/vt
+  - bargaining n
+  - applaud vi/vt
+  - fragmented adj
+  - leverage n/vt
+  - prompt adj/vt | promptly adv
+
+  > and so forth
+  > from what we've been hearing, xxx
+  > we don't have a sense of the way ahead at this point
+
+- 2019.9.14
+  - liberator n
+  - ruthless adj
+  - autocrat n
+  - palatial adj
+  - frail adj
+  - betray vt
+  - bitter n/adj/vt
+  - injustice n | justice n
+  - oppressive adj
+  - savage n/adj/vt
+  - vibrant adj
+  - revolution n
+  - unfettered adj
+  - oversee vt
+  - decline n/vi/vt
+  - immersed adj
+  - vanity n
+  - irony n
+  - dagger n
+  - veteran n/adj
+  - alongside prep/adv
+
 - 2019.9.12
   - blow n/vi/vt
   - ostensibly adv
@@ -45,7 +101,7 @@
   - quell vt
   - cellular adj
   - racially adv
-  - unreset n
+  - unrest n
   - torch n/vt
   - indigenous adj
   - Dutch n/adj
@@ -156,7 +212,7 @@
   > It has had a problem with too much rainwater coming in
 
 - 2019.9.4
-  - appear vi
+  - appear vi | appearance n
   - justification n
   - territory n
   - imminent adj
@@ -361,7 +417,7 @@
   - bllionaire n
   - financier n
   - trafficking n
-  - conspiracy n
+  - conspiracy n | conspire vi
   - prominent adj
   - somehow adv
   - inquiry n
