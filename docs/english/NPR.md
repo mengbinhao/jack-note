@@ -1,4 +1,61 @@
-- 2019.9.156
+- 2019.9.19
+  - impeach vt
+  - essay n/vt
+  - adapt v | adapted adj
+  - columnist n
+  - wrinkle n/vi/vt
+  - oven n
+  - hearsay n
+  - glorious adj
+  - enormous adj
+  - stir n/vi/vt
+  - ignite vt
+  - rescue n/vt
+  - dumb adj
+  - judicial adj
+  - tamp vt
+  - craziness n
+
+  > but on than that, xxxxx
+  > In what sence?
+  > you know, it was basically based on hearsay
+  > whose problem does this become?
+
+- 2019.9.18
+  - unprecedented adj
+  - installation n
+  - barrel n
+  - slice n
+  - offering n
+  - involve v | involvement n
+  - dismiss vt
+  - maximum n | minimum n
+  - humanitarian adj
+  - crown n/vt
+
+  > give us the context here
+  > up until just recently
+  > but again, there is no clear sign that Iran was involved in there attacks
+  > that's led to some speculation that xxx
+  > but no word yet on the extent of the damage
+
+- 2019.9.17
+  - surival n
+  - narrowly adv
+  - alternative n/adj
+  - popularity n
+  - resentment n
+  - poke n/vi/vt
+  - energize vt
+  - poster n
+  - pose n/vi/vt
+  - mutual adj
+
+  > to tip the scales and determine who will
+  > has Trump in his pocket
+  > he is neck and neck with sb in the race
+
+- 2019.9.16
   - snap n/adj
   - keen vi/adj
   - inflict vt
@@ -57,7 +114,7 @@
 - 2019.9.12
   - blow n/vi/vt
   - ostensibly adv
-  - deadlock n/vt
+  - deadlock n/vt | stalemate n
   - momentous adj
   - amendment n
   - rebel n/vi
@@ -110,7 +167,6 @@
   - status n
   - sustained adj
   - decade n
-  - alleged adj
   - torture n/vt
   - calm n/adj/vt
   - slogan n
@@ -202,7 +258,7 @@
   - coastal adj
   - nightmarish adj
   - concentrated adj
-  - centrally adv
+  - centrally adv | centralized adj | centrist n/adj
   - tropical adj
   - deforestation n | forest n
   - sparsely adv
@@ -214,7 +270,7 @@
 - 2019.9.4
   - appear vi | appearance n
   - justification n
-  - territory n
+  - territory n | terror n
   - imminent adj
   - militant adj
   - depot n
@@ -334,7 +390,7 @@
   - decent adj
   - investor n
   - retire vi/vt
-  - drama n | dramatic adj
+  - drama n | dramatic adj | dramatically adv
   - representative n/adj
   - scuttle n/vi/vt
   - backlash n
@@ -345,7 +401,7 @@
   - itinerary n
   - irresistible adj
   - annexation n | annex n/vt
-  - settlement n
+  - settlement n | settle n/vi/vt
   - pendulum n
 
   > it was seen as a breather for the trade war
@@ -422,7 +478,7 @@
   - somehow adv
   - inquiry n
   - appalled adj
-  - allegation n
+  - allegation n | alleged adj
   - abuse n/vt
   - minor n/adj
   - disturbing adj
@@ -484,7 +540,6 @@
   - gromming n
   - coalition n
   - offshout n
-  - centralized adj
   - hierarchical adj
   - owe vt
   - allegiance n
@@ -532,10 +587,9 @@
   - ultimately adv
   - prosecute vi/vt
   - exonerate vt
-  - motivated adj
+  - motivated adj | motivation n
   - integrity adj
   - rare adj
-  - desperately adv
   - porch n
 
 - 2019.7.26
@@ -609,7 +663,7 @@
   - massive adj | mass n/vi/vt
   - cargo n
   - Pentagon n
-  - ally n/vt
+  - ally n/vt | allied adj
   - defy vt | defiance n
   - standoff n
   - acquire vt | acquisition n
@@ -652,7 +706,7 @@
   - esteemed adj
   - reiterate vt
   - forum n
-  - conduct n/vi/vt
+  - conduct n/vi/vt | misconduct n
   - conrrary n/adj/adv
   - high-profile adj
   - reserve n/vi/vt/adj
@@ -687,7 +741,7 @@
   > I think what we can be certain of is that ...
 
 - 2019.7.16
-  - criticism n | critic n
+  - criticism n | critic n | critical adj
   - cable n/vt
   - ambassador n
   - inept adj
@@ -708,7 +762,7 @@
   - pretext n
   - mischievous adj
   - mischief n
-  - desperate adj
+  - desperate adj | desperately adv
   - ignorance n
 
   > which leads me to ask
@@ -836,7 +890,7 @@
   - proportional adj/n
   - casualty n
   - tough adj/adv/n
-  - de-escalate v
+  - de-escalate v | escalate
   - negotiate vi/vt
 
   > so he goes back and forth
@@ -848,14 +902,13 @@
   - intention | intentional | intentionally
   - loose n/vt/adj
   - conciliatory adj
-  - tactical adj
+  - tactical adj | tactic n
   - hawkish adj
   - coherent adj
   - escalation n
   - crippling adj
   - assumption n
   - sue vi/vt
-  - ally n
   - credibility n
   - suspicious n | suspicion n
   - isolated adj | isolation n

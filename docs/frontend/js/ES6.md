@@ -327,38 +327,40 @@ newObj.b.c = -1 // output: GET...
 
 14. module(服务器环境)
 
-    1.  export
+    1.  `import`
         ```javascript
-        var num2 = 2; export {num2}
-        export var num1 = 1;
-        export { a as xxx, b as yyy}
-        export default const a = 12;//只有default export的东西import的时候不加大括号，import的时候名字随便起
-        export default const example2 = {
-            name : 'my name',
-            age : 'my age',
-            getName  = function(){  return 'my name' }
-        ```
-    2.  import
         //相对/绝对路径
         //只会导入一次 无论引入多少次
         //相当于引入文件
-        import "https://code.jquery.com/jquery-3.3.1.min.js";
+        import "https://code.jquery.com/jquery-3.3.1.min.js"
 
-            import {a as xxx,b as yyyy} './App.js'
+        import x from "./a.js" 引入模块中导出的默认值
 
-            import {* as xxx} from './App.js'
+        import {a as x, modify} from "./a.js"; 引入模块中的变量
 
-            import * as obj from './App.js'
+        import * as x from "./a.js" 把模块中所有的变量以类似对象属性的方式引入
 
-            import a, {x,y} from './App.js'
+        import d, {a as x, modify} from "./a.js"
 
-            import {num1,num2} from './App.js'
+        import d, * as x from "./a.js"
 
-            import会提升
+        //import会提升
+        //导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
+        //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise （按需加载 动态路径 可写if里）
+        ```
+    2.  `export`
+        ```javascript
+        export {a, b, c};
+        export var num1 = 1;(包括function(含async、generator)、class、let、const)
+        export { a as xxx, b as yyy}
+        export default () => {xxx} (包括class,都没有名字)
 
-            导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
+        //这里导出的是值,以后a的变化与导出的值就无关了
+        var a = {}; export {a}
 
-            import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise （按需加载 动态路径 可写if里）
+        //在import语句前无法加入export，但是我们可以直接使用export from语法
+        export a from "a.js"
+        ```
 
         总结:
 
@@ -368,13 +370,13 @@ newObj.b.c = -1 // output: GET...
         4. 当一个文件里,既有一个 export default people,又有多个 export name 或者 export age 时,导入就用 import people, { name, age }
         5. 当一个文件里出现 n 多个 export 导出很多模块,导入时除了一个一个导入,也可以用 import \* as example
 
-    3.  和 CommonJS 区别
+    2.  和 CommonJS 区别
         1. 前者支持动态导入，也就是 require(\${path}/xx.js)，后者目前不支持，但是已有提案 import(xxx)
         2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
         3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
         4. 后者会编译成 require/exports 来执行的
 
-15. 扩展运算符
+1.  扩展运算符
     1.  代替 apply `Math.max.apply(null,array); Math.max(...array)`
     2.  代替数组 push、concat`Array.prototype.push.apply(arr1, arr2); arr1.push(...arr2)`
     3.  拷贝数组或对象`var array1 = [...array0]; var obj2 = {...obj};`

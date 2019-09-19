@@ -92,7 +92,7 @@
     ```
 
 
-### 4 webpack使用
+### 4 webpack基础
 
 #### 1 resolve es6
 
@@ -119,14 +119,15 @@ module: {
 }
 ```
 
-#### 2 resolve jsx(@babel/core、babel-loader已安装,并且webpack.config.js配置)
+#### 2 resolve jsx
 
-- `npm i react react-dom @babel/preset-react -D`
-- `"@babel/preset-react"`
+- `npm i @babel/core babel-loader react react-dom @babel/preset-react -D`
+- `"@babel/preset-react"` in .babelrc
+- `webpack.config.js`配置`babel-loader`
 
-#### 3 resolve css
+#### 3 resolve css and less(sass)
 
-- npm i style-loader css-loader -D`
+- npm i style-loader css-loader less less-loader -D`
 
 ```javascript
 module: {
@@ -140,7 +141,7 @@ module: {
 }
 ```
 
-#### 4 resolve less or sass
+#### 4 resolve less(sass)
 
 - `npm i less less-loader -D`
 
@@ -149,23 +150,17 @@ module: {
     rules: [
         {
             test: /.less$/,
-            //注意顺序
-            // [{loader: 'style-loader',options:{}}]
-            //loader: 'style-loader!css-loader',
-            //include:path.join(__dirname,'./src'),
-            //exclude:/node_modules/
             use: ['style-loader','css-loader','less-loader']
         }
     ]
 }
 ```
 
-#### 5 file-loader
+#### 5 file-loader(resolve img and font)
 
 - `npm i file-loader -D`
 
 ```javascript
-//resolve img and font
 module: {
     rules: [
         {
@@ -183,7 +178,7 @@ module: {
 #### 6 url-loader
 
 ```javascript
-//也可以打包图片和字体,区别就是对小于一定体积的文件直接转成base64
+//打包图片和字体,区别file-loader就是对小于一定体积的文件直接转成base64
 module: {
     rules: [
         {
@@ -199,144 +194,230 @@ module: {
 }
 ```
 
-#### 7 resolve
+#### 7 文件监听
 
-- extensions
+- `package.json`启动`webpack`命令带上`--watch`(需要手动刷新浏览器)
 
-- alias
+- 在配置`webpack.config.js`中设置`watch: true`
 
-### 5 webpack.config.js
-
-#### 1 watch(需要手动刷新浏览器)
-
-- webpack.config.js -> watch:true
-
-- package.json 加 --watch
-
-    ```javascript
-    //只有开启watch,watchOptions才有意义
+  ```javascript
+  module.export = {
+    watch: true, //默认不开启
+  	//只有开启watch,watchOptions才有意义
     watchOptions: {
-        ignored: /node_modules/,//可正则
-        aggregateTimeout: 300,//监听到变化后等300ms再去执行动作,越大越好
-        poll: 1000 //默认每秒询问1000次,越小越好
+        ignored: /node_modules/,//支持正则
+        aggregateTimeout: 300,//监听到变化后等300ms再去执行,越大越好
+        poll: 1000 //判断文件是否发生变化,不停询问系统指定文件是否有变化,默认每秒询问1000次,越小越好
     }
-    ```
+  }
+  ```
 
-#### 2 文件指纹
+#### 8 热更新
+
+##### webpack-dev-server(只能hot组件和css)
+
+- 不输出文件而是放在内存中
+
+- 使用HotModuleReplacementPlugin插件
+
+  ```javascript
+  //package.json
+  "scripts": {
+    "dev": "webpack-dev-server --open"
+  }
+  
+  //webpack.config.js
+  const webpack = require('webpack')
+  module.export = {
+    ...
+    mode: 'development',
+    ...
+    plugins: [
+      new webpack.HotModuleReplacementPlugin()
+    ],
+    devServer: {
+      contentBase: './dist',
+      hot: true
+      //publicPath: '/assets/'
+      //host: '0.0.0.0',
+      //port: 9000,
+      //compress: true,
+      //open: true
+      //overlay: true,// 如果代码出错,会在浏览器页面弹出“浮动层”类似于vue-cli等脚手架
+      proxy: { 
+        '/comments': { 
+            target: 'https://xxx.cn',
+            changeOrigin: true,
+            logLevel: 'debug',
+            headers: { 
+                Cookie: '' 
+            } 
+        }
+      }
+      //historyApiFallback
+    }
+  }
+  ```
+
+#####webpack-dev-middleware
+
+- WDM将webpack输出的文件传输给服务器
+
+- 适用于灵活定制的场景
+
+  ```javascript
+  const express = require('express')
+  const wepback = require('wepback')
+  const weppackDevMiddleware = require('weppack-dev-middleware')
+  
+  const app = expess()
+  const config = require('./webpack.config.js')
+  const compile = wepback(config)
+  
+  app.use(weppackDevMiddleware(compile,{
+      publicPath:config.output.publicPath
+  }))
+  
+  app.listen(3000,() => {
+      console.log('server is runnning on 3000')
+  })
+  ```
+
+#### 9 文件指纹(不能和热更新一起使用)
 
 - Hash: 和整个项目构建相关,只要项目文件有修改,整个项目构建的hash就会改变
+
 - Chunkhash: 和webpack打包的chunk有关,不同entry生成不同的chunkhash
-- Contenthash: 根据文件内容定义hash,文件内容不变则Contenthash不变
 
-```javascript
-const path = require('path')
-//抽取css,webpack4的plugin,支持css chunk
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+- Contenthash: 根据文件内容定义hash,文件内容不变则Contenthash不变,一般css用这种
 
-module.exports = {
-    //相对路径
-    entry: {
-        index: './src/index.js',
-        search: './src/search.js'
-    },
-    output: {
-        //绝对路径
-        path: path.join(__dirname,'dist'),
-        //js文件指纹
-        filename: '[name]_[chunkhash:8].js'
-        //publicPath : 'dist/js/'  处理图片路径
-    },
-    mode: 'production',
-    module: {
-        rules: [
-            {
-                test: /.js$/,
-                use: 'babel-loader'
-            },
-            {
-                test: /.css$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader'
-                ]
-            },
-            {
-                test: /.less$/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader',
-                    'less-loader'
-                ]
-            },
-            {
-                test: /.(png|jpg|gif|jpeg)$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            //文件指纹
-                            name: '[name]_[hash:8].[ext]'
-                        }
-                    }
-                ]
-            },
-            {
-                test: /.(woff|woff2|eot|ttf|otf)$/,
-                use: [
-                    {
-                        loader: 'file-loader',
-                        options: {
-                            ////文件指纹
-                            name: '[name]_[hash:8][ext]'
-                        }
-                    }
-                ]
-            }
-        ]
-    },
-    plugins: [
-        new MiniCssExtractPlugin({
-            //文件指纹
-            filename: '[name]_[contenthash:8].css'
-        })
-    ]
-}
-```
+  ```javascript
+  const path = require('path')
+  //抽取css文件,webpack4的plugin,支持css chunk
+  //与style-loader功能互斥,不能一起使用
+  const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+  
+  module.exports = {
+      entry: {
+          index: './src/index.js',
+          search: './src/search.js'
+      },
+      output: {
+          path: path.join(__dirname,'dist'),
+          //js文件指纹
+          filename: '[name]_[chunkhash:8].js'
+          //publicPath : 'dist/js/'  处理图片路径
+      },
+      mode: 'production',
+      module: {
+          rules: [
+              {
+                  test: /.js$/,
+                  use: 'babel-loader'
+              },
+              {
+                  test: /.css$/,
+                  use: [
+                      MiniCssExtractPlugin.loader,
+                      'css-loader'
+                  ]
+              },
+              {
+                  test: /.less$/,
+                  use: [
+                      MiniCssExtractPlugin.loader,
+                      'css-loader',
+                      'less-loader'
+                  ]
+              },
+              {
+                  test: /.(png|jpg|gif|jpeg)$/,
+                  use: [
+                      {
+                          loader: 'file-loader',
+                          options: {
+                              //文件指纹,此hash不同于js的hash,针对的是内容的hash
+                              name: '[name]_[hash:8].[ext]'
+                          }
+                      }
+                  ]
+              },
+              {
+                  test: /.(woff|woff2|eot|ttf|otf)$/,
+                  use: [
+                      {
+                          loader: 'file-loader',
+                          options: {
+                              //文件指纹,此hash不同于js的hash,针对的是内容的hash
+                              name: '[name]_[hash:8].[ext]'
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      plugins: [
+          new MiniCssExtractPlugin({
+              //css文件指纹
+              filename: '[name]_[contenthash:8].css'
+          })
+      ]
+  }
+  ```
 
-####  3 compress html/css/js
+#### 10 compress html/css/js
 
-- 内置`uglifyjs-weabpack-plugin`
+- webpack4内置`uglifyjs-weabpack-plugin`
 
-- `optimize-css-assets-webpack-plugin` + `cssnano`
+- `optimize-css-assets-webpack-plugin` + `cssnano`压缩CSS文件
+
+  ```javascript
+  plugin: [
+    new OptimizeCSSAssetsPlugin({
+      assetNameRegExp: /\.css$/g,
+      cssProcessor: require('cssnano')
+    })
+  ]
+  ```
 
 - `html-webpack-plugin`
 
-    ```javascript
-    new HtmlWebpackPlugin({
-        template: path.join(__dirname,'src/index.html'),
-        filename: 'index.html',
-        chunks: ['index'],
-        inject: true,
-        minify: {
-            html5: true,
-            collapseWhitespace: true,
-            preserveLineBreaks: false,
-            minifyCSS: true,
-            minifyJS: true,
-            removeComments: false
-        }
-     })
-    ```
+  ```javascript
+  //一个页面对应一个HtmlWebpackPlugin
+  new HtmlWebpackPlugin({
+      template: path.join(__dirname,'src/index.html'),
+      filename: 'index.html',
+      chunks: ['index'],
+      inject: true,
+      minify: {
+          html5: true,
+          collapseWhitespace: true,
+          preserveLineBreaks: false,
+          minifyCSS: true,
+          minifyJS: true,
+          removeComments: false
+      }
+   })
+  ```
 
-#### 4 clear dist
+### 5 webpack进阶
+
+#### 1 clear dist folder
 
 - 通过npm scripts `rm -rf./dist && webpack` or `rimraf ./dist && webpack`
+
 - `clean-webpack-plugin`
 
-#### 5 postcss(autoprefixer插件)
+  ```javascript
+  plugin: [
+    new CleanWebpackPlugin()
+  ]
+  ```
 
-- Trident(-ms)、Gek(-moz)、Webkit(-webkit)、Presto(-o)
-- `postcss-sprites`
+#### 2 PostCSS插件autoprefixer
+
+- Trident(-ms)、Geko(-moz)、Webkit(-webkit)、Presto(-o)
+- `npm i postcss-loader autoprefixer -D`
 
 ```javascript
  {
@@ -359,9 +440,22 @@ module.exports = {
  }
 ```
 
-#### 6 px convert to rem
+#### 3 px convert to rem
 - @media
-- `npm i px2rem-loader -D` `npm i lib-flexible -S`(动态计算根元素font-size,打开页面时就计算)
+
+  ```css
+  @media screen and (max-width:980px) {
+    .header {
+      width:900px;
+    }
+  }
+  ```
+
+- `npm i px2rem-loader -D` 
+
+- `npm i lib-flexible -S`(动态计算根元素font-size,打开页面时就计算)
+
+- `font-size: 12px; /*no*/` 不进行rem转换
 
 ```javascript
 {
@@ -383,7 +477,7 @@ module.exports = {
         {
             loader: 'px2rem-loader',
             options: {
-                remUnit: 75,
+                remUnit: 75, //1 rem = 75px
                 remPrecision: 8 //小数位数
         	}
         }
@@ -391,11 +485,7 @@ module.exports = {
 }
 ```
 
-- ` font-size: 12px; /*no*/` 不进行rem转换
-
-#### 7 资源内联
-
-##### 1 意义
+#### 4 资源内联
 
 - 代码层面
     - 页面框架的初始化脚本
@@ -404,13 +494,14 @@ module.exports = {
 - 请求层面
     - 小图片或字体内联(url-loader)
 
-##### 2 html/js内联
+##### html/js内联(raw-loader)
 
 ```html
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- HtmlWebpackPlugin默认使用ejs语法 -->
     ${ require('raw-loader!./meta.html')}
     <title>Document</title>
     <script>${ require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js')}</script>
@@ -422,9 +513,11 @@ module.exports = {
 </html>
 ```
 
-##### 3 css内联
+##### css内联
 
-- style-loader
+- `html-inline-css-webpack-plugin`(推荐)
+
+- `style-loader`
 
     ```javascript
     module.exports = {
@@ -449,12 +542,10 @@ module.exports = {
     }
     ```
 
-- `html-inline-css-webpack-plugin`(推荐)
-
-#### 8 MPA bundle
+#### 5 MPA bundle
 
 ```javascript
-//simple example
+//不通用方案
 entry: {
     index: './src/index.js',
     a: './src/a.js'
@@ -490,12 +581,11 @@ plugins: [
 ```
 
 ```javascript
-//通用
+//通用方案
+//约定每个页面是一个文件夹,入口为index.js,模版文件为index.html
+// npm i glob -D
 const glob = require('glob')
 const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
-//压缩css
-const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 
 //动态获取entry和htmlWebpackPlugins,遵循目录结构
 const setMPA = () => {
@@ -504,9 +594,9 @@ const setMPA = () => {
     const entryFiles = glob.sync(path.join(__dirname,'./src/*/index.js'));
 
     Object.keys(entryFiles)
-        .map((index) => {
+        .map(index => {
             const entryFile = entryFiles[index];
-            // '/Users/cpselvis/my-project/src/index/index.js'
+            // /Users/cpselvis/my-project/src/index/index.js
 
             const match = entryFile.match(/src\/(.*)\/index\.js/);
             const pageName = match && match[1];
@@ -514,10 +604,10 @@ const setMPA = () => {
             entry[pageName] = entryFile;
             htmlWebpackPlugins.push(
                 new HtmlWebpackPlugin({
-                    inlineSource: '.css$',
                     template: path.join(__dirname,`src/${pageName}/index.html`),
                     filename: `${pageName}.html`,
-                    chunks: ['vendors',pageName],
+                    //页面上引用需要加chunk的name
+                    chunks: ['vendors', pageName],
                     inject: true,
                     minify: {
                         html5: true,
@@ -547,22 +637,16 @@ module.exports = {
     },
     mode: 'production',
     module: {
-		...
+			...
     },
     plugins: [
-        new MiniCssExtractPlugin({
-            filename: '[name]_[contenthash:8].css'
-        }),
-        new OptimizeCSSAssetsPlugin({
-            assetNameRegExp: /\.css$/g,
-            cssProcessor: require('cssnano')
-        }),
+        ...
         new CleanWebpackPlugin()
     ].concat(htmlWebpackPlugins)
 };
 ```
 
-#### 9 source map
+#### 6 source map(开发环境启用,线上关闭)
 
 - eval: 使用eval包括模块代码
 - source map: 产生.map文件
@@ -574,17 +658,19 @@ module.exports = {
 
 ```javascript
 module.exports={
+  mode: 'none', //JS不会压缩
   devtool: 'cheap-module-eval-source-map'
   //开发环境推荐: cheap-module-eval-source-map
   //生产环境推荐: cheap-module-source-map
 }
 ```
 
-#### 10 提取公共资源
+#### 7 提取公共资源
 
- ##### 1 `html-webpack-externals-plugin` or externals
+- `html-webpack-externals-plugin`
 
 ```javascript
+//手动html引入CDN
 const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin')
 
 plugins: [
@@ -606,10 +692,10 @@ plugins: [
 ]
 ```
 
-##### 2 SplitChunksPlugin(代替CommonsChunkPlugin)
+- SplitChunksPlugin(代替webpack3的CommonsChunkPlugin)
 
 ```javascript
-//分离基础包
+//分离vue、react基础包
 module.exports = {
     optimization: {
         splitChunks: {
@@ -617,7 +703,7 @@ module.exports = {
                 commons: {
                     test: /(react|react-dom)/,
                     name: 'vendors',
-                    chunks: 'all' //async initial all
+                    chunks: 'all' //async / initial / all
                 }
             }
         }
@@ -630,12 +716,12 @@ module.exports = {
 module.exports = {
     optimization: {
         splitChunks: {
-            minSize: 0,
+            minSize: 0, //分离的包体积大小
             cacheGroups: {
                 commons: {
                     name: 'common',
                     chunks: 'all',//async initial all
-                    minChunks: 2
+                    minChunks: 2 // 最小引用次数
                 }
             }
         }
@@ -643,10 +729,10 @@ module.exports = {
 }
 ```
 
-#### 11 tree shaking
+#### 8 tree shaking(静态分析)
 
-- DCE(代码不可到达,代码执行结果不会被用到,代码只影响死变量)
 - **必须是ES6的语法,CJS不支持**
+- DCE(代码不可到达,代码执行结果不会被用到,代码只影响死变量(只写不读))
 - 函数必须是纯函数
 - `mode:productio/none`
 - 原理
@@ -655,46 +741,49 @@ module.exports = {
     - import binding是immutable的
     - uglify阶段删除无用代码
 
-#### 12 scope hoisting
+#### 9 scope hoisting
 
 - 现象：构建后的代码存在大量闭包
 - 导致问题：大量作用域包裹代码体积变大,运行代码时创建的函数作用域变多,内存开销变大
 - 原理：将所有模块的代码按照所引用顺序放在一个函数作用域里,然后适当的重命名一些变量以防止变量名冲突
 - **必须是ES6语法,CJS不支持**
-- `mode:productio/none` +  `new webpack.optimize.ModuleConcatenationPlugin()`
+- `mode:productio/none`
+- webpack3需要使用`new webpack.optimize.ModuleConcatenationPlugin()`
 
-#### 13 code split and dynamic import
+#### 10 code split and dynamic import
 
 ##### 1 意义
 
-- 抽离相同代码到一个chunk
+- 抽离相同代码到一个`chunk`
 - 脚本懒加载,初始化代码更小(比如首屏)
 
 ##### 2 方式
 
 - CJS: require.ensure
 
-- ES6: 动态import(需要babel支持)
+- ES6: 动态import(需要babel转换)
 
     ```javascript
     //npm i @babel/plugin-syntax-dynamic-import -D
+    //.babelrc
     {
-        "plugins": ["@babel/plugin-syntax-dynamic-import"]
-    }
+      "plugins": ["@babel/plugin-syntax-dynamic-import"],
+      ...
+}
     ```
-
+    
     ![](images/webpack-3.png)
 
-#### 14 combine eslint
+#### 11 webpack integrate eslint
 
 - eslint-config-airbnb、eslint-config-airbnb-base
 
-- CI/CD integrited
+- integrate with CI/CD 
 
-- webpack integrited
+- integrate with webpack
 
     ```javascript
-    //webpack.config.js
+    //npm i eslint-loader -D
     module.exports = {
         module: {
             rules: [
@@ -708,7 +797,8 @@ module.exports = {
         }
     }
     
-    //然后创建 .eslintrc.js
+    //.eslintrc.js
+    // npm i babel-eslint -D
     module.exports = {
         parser: "babel-eslint",
         "extends": "airbnb",
@@ -727,22 +817,57 @@ module.exports = {
 - precommit hook
 
     ```javascript
+    //package.json
+    //npm i husky - D
     "script": {
         "precommit": "lint-staged"
     },
     "lint-stage": {
         "linters": {
-            "*.{ja.css}": ["eslint --fix","git add"]
+            "*.{js.scss}": ["eslint --fix","git add"]
         }
     }
     ```
 
-#### 15 构建输出日志
+#### 12 webpack打包库和基础组建
+
+```javascript
+const TerserPlugin = require('terser-webpack-plugin')
+
+module.exports = {
+    entry: {
+        'large-number': './src/index.js',
+        'large-number.min': './src/index.js'
+    },
+    output: {
+        filename: '[name].js',
+        library: 'largeNumber',
+        libraryTarget: 'umd',
+        libraryExport: 'default'
+    },
+    mode: 'none',
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new TerserPlugin({
+                include: /\.min\.js$/,
+            })
+        ]
+    }
+    
+}
+```
+
+#### 13 SSR
+
+
+
+#### 12 构建输出日志
 
 - stats: 'error-only'  //none mininal normal verbose,devServer里面也需要加
 - friendly-errors-webpack-plugin(`plugins: [new FriendlyErrorsWebpackPlugin()]`)  +  `stats: 'error-only'`
 
-#### 16 others
+#### 13 others
 
 - ProvidePlugin or expose-loader
 
@@ -793,7 +918,7 @@ module.exports = {
 
 - image-webpack-loader
 
-#### 17 some examples
+#### 14 some examples
 
 ##### 1 delete useless css
 
@@ -921,59 +1046,6 @@ plugins: [
 }
 ```
 
-### 6 webpack-dev-server(只能hot组件和css)
-
-```javascript
-const webpack = require('webpack')
-...
-mode:development,
-plugins: [
-    new webpack.HotModuleReplacementPlugin()
-],
-devServer: {
-    //path.join(__dirname,'dist')
-    contentBase: './dist',
-    hot: true
-    //publicPath: '/assets/'
-    //host: '0.0.0.0',
-    //port: 9000,
-    //compress: true,
-    //open: true
-    //overlay: true,// 如果代码出错,会在浏览器页面弹出“浮动层”类似于vue-cli等脚手架
-    proxy: { 
-      '/comments': { 
-          target: 'https://m.weibo.cn',
-          changeOrigin: true,
-          logLevel: 'debug',
-          headers: { 
-              Cookie: '' 
-          } 
-      }
-    }
-    //historyApiFallback
-}
-```
-
-### 7 weppack-dev-middleware(将webpack输出的文件传输给服务器)
-
-```javascript
-const express = require('express')
-const wepback = require('wepback')
-const weppackDevMiddleware = require('weppack-dev-middleware')
-
-const app = expess()
-const config = require('./webpack.config.js')
-const compile = wepback(config)
-
-app.use(weppackDevMiddleware(compile,{
-    publicPath:config.output.publicPath
-}))
-
-app.listen(3000,() => {
-    console.log('server is runnning on 3000')
-})
-```
-
 ### 8 魔法注释
 
 ```javascript
@@ -999,7 +1071,9 @@ plugins: [
 
 
 
-### 9 webpack-bundle-analyzer`npm run build --report`
+### 9 webpack-bundle-analyzer
+
+`npm run build --report`
 
 ![](./images/webpack-1.png)
 
@@ -1358,7 +1432,7 @@ const renderMarkup = (str) => {
             moduleIds: 'hashed',
         }
         ```
-    
+        
         > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
         >
         > 为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.

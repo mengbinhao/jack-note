@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(55)** / **TypeScript(31)** / **重学前端** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(总结ing)** / **Node.js(8)** / **重学前端(learning)** / **TypeScript(31)** / **算法** / **算法面试(7)**/ react / Vue
 - 掘金小册
 
 ### practise
@@ -106,6 +106,7 @@
 - [高性能渲染十万条数据](https://juejin.im/post/5d76f469f265da039a28aff7)
 - [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
 - [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
+- [分分钟搞定浏览器滚动](https://mp.weixin.qq.com/s/wy7wdc3g6LaMcgZ2vq_d2w)
 
 ### Vue
 
@@ -174,6 +175,7 @@
 
 - [Vue实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
 - [前端路由跳转基本原理](https://mp.weixin.qq.com/s/IyPpSix7haY_NfNJg10ilg)
+- [vue-router实现](https://juejin.im/post/5d7e2f43f265da0391354593)
 - [addRoutes的刷新404和重复路由的解决方案](https://juejin.im/post/5d730f50518825770c43a6da)
 
 #### Vuex
@@ -284,6 +286,7 @@
 - [automation testing blog](http://www.cnblogs.com/imyalost/p/7241170.html)
 - [automation testing blog](http://www.cnblogs.com/imyalost/p/8763583.html)
 - [design test case](https://mp.weixin.qq.com/s/_4SQJcxJoAh9jRKLf9NwSQ)
+- [JavaScript单元测试指南](https://juejin.im/post/5d7e449c6fb9a06b122f6bc5)
 
 ### Interview
 
@@ -322,6 +325,9 @@
 - [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
 - [面试](https://juejin.im/post/5c7f5923f265da2dd218f195)
 - [经常会被问到的面试题](https://segmentfault.com/a/1190000020181662)
+
+####  JS
+- [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 
 #### Vue
 

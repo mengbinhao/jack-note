@@ -869,7 +869,36 @@ const getCarsByState2 = (state) => {
 
 - 分号注意：
     - 小括号开头的前一条语句
+    ```javascript
+    (function(a){
+        console.log(a);
+    })()/* 这里没有被自动插入分号 */
+    (function(a){
+        console.log(a);
+    })()
+    ```
     - 中括号开头的前一条语句
-    - js合并的时候一般最开始加分号
+    ```javascript
+    var a = [[]]/* 这里没有被自动插入分号 */
+    [3, 2, 1, 0].forEach(e => console.log(e))
+    ```
+    - 正则开头的前一条语句
+    ```javascript
+    var x = 1, g = {test:()=>0}, b = 1/* 这里没有被自动插入分号 */
+    /(a)/g.test("abc")
+    console.log(RegExp.$1)
+    ```
+    - 以`Template`开头的前一条语句
+    ```javascript
+    var f = function(){
+      return "";
+    }
+    var g = f/* 这里没有被自动插入分号 */
+    `Template`.match(/(a)/);
+    console.log(RegExp.$1)
+    ```
+    - js文件合并的时候一般最开始加分号
     - do...while有分号
     - 函数表达式有分号
+
+- `use strict`只能出现在脚本、模块和函数体的最前面
