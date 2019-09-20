@@ -1,3 +1,18 @@
+- 2019.9.20
+  - muffled adj
+  - complex n/adj
+  - phenomenon n
+  - finalize vt
+  - variety n
+  - personnel n
+  - admission n
+
+  > I dont think anybody expects it to become less so
+  > what have you learned about that?
+  > and it wasn't until then that we began to hear reports
+  > be right in front of the stage
+  > fall apart
+
 - 2019.9.19
   - impeach vt
   - essay n/vt
@@ -891,7 +906,7 @@
   - casualty n
   - tough adj/adv/n
   - de-escalate v | escalate
-  - negotiate vi/vt
+  - negotiate vi/vt | negotiator n
 
   > so he goes back and forth
   > and that's pretty much what has been happening for the past few weeks

@@ -741,7 +741,7 @@ module.exports = {
     - import binding是immutable的
     - uglify阶段删除无用代码
 
-#### 9 scope hoisting
+#### 9 Scope Hoisting
 
 - 现象：构建后的代码存在大量闭包
 - 导致问题：大量作用域包裹代码体积变大,运行代码时创建的函数作用域变多,内存开销变大
@@ -761,7 +761,7 @@ module.exports = {
 
 - CJS: require.ensure
 
-- ES6: 动态import(需要babel转换)
+- ES6: 动态import(目前没有原生支持,需要babel转换)
 
     ```javascript
     //npm i @babel/plugin-syntax-dynamic-import -D
@@ -831,8 +831,11 @@ module.exports = {
 
 #### 12 webpack打包库和基础组建
 
+![](images/webpack-4.png)
+
 ```javascript
-const TerserPlugin = require('terser-webpack-plugin')
+//webpack.config.js
+const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -854,32 +857,225 @@ module.exports = {
             })
         ]
     }
-    
+}
+
+//package.json
+{
+  "name": "large-number",
+  "version": "1.0.1",
+  "description": "大整数加法打包",
+  "main": "index.js",
+  ...
+}
+
+//index.js
+if (process.env.NODE_ENV === 'production') {
+    module.exports = require('./dist/large-number.min.js');
+} else {
+    module.exports = require('./dist/large-number.js');
 }
 ```
 
 #### 13 SSR
 
+- 核心是减少请求
 
+- 优势
 
-#### 12 构建输出日志
+  - 减少白屏时间
+  - SEO友好
 
-- stats: 'error-only'  //none mininal normal verbose,devServer里面也需要加
+- 思路
+
+  - 服务端：使用react-dom/server的renderToString将react组件渲染成字符串，服务端路由返回对应的模版
+  - 客户端：打包出针对服务端的组件
+
+- 常见问题
+
+  - 没有`window`、`document`, 需要hack
+
+  - 没有`fetch`、`ajax`,改成`axios`或`isomorphic-fetch`
+
+  - 无法解析css
+
+    - 服务端通过`ignore-loader`忽略css解析
+
+    - `style-loader`换成`isomorphic-css-loader`
+
+    - **推荐**(使用浏览器端的html,设置占位符,动态插入组件和data)
+
+      ```html
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+          ${ require('raw-loader!./meta.html')}
+          <title>Document</title>
+          <script>${ require('raw-loader!babel-loader!../../node_modules/lib-flexible/flexible.js')}</script>
+      </head>
+      <body>
+          <div id="root"><!--HTML_PLACEHOLDER--></div>
+          <script type="text/javascript" src="https://11.url.cn/now/lib/16.2.0/react.min.js"></script>
+          <script type="text/javascript" src="https://11.url.cn/now/lib/16.2.0/react-dom.min.js"></script>
+          <!--INITIAL_DATA_PLACEHOLDER-->
+      </body>
+      </html>
+      ```
+
+      ```javascript
+      //webpack.ssr.js
+      ...
+      const setMPA = () => {
+          const entry = {};
+          const htmlWebpackPlugins = [];
+          const entryFiles = glob.sync(path.join(__dirname,'./src/*/index-server.js'));
+      
+          Object.keys(entryFiles)
+              .map((index) => {
+                  const entryFile = entryFiles[index];
+                  // '/Users/cpselvis/my-project/src/index/index.js'
+      
+                  const match = entryFile.match(/src\/(.*)\/index-server\.js/);
+                  const pageName = match && match[1];
+      
+                  if (pageName) {
+                      entry[pageName] = entryFile;
+                      htmlWebpackPlugins.push(
+                          new HtmlWebpackPlugin({
+                              inlineSource: '.css$',
+                              template: path.join(__dirname,`src/${pageName}/index.html`),
+                              filename: `${pageName}.html`,
+                              chunks: ['vendors',pageName],
+                              inject: true,
+                              minify: {
+                                  html5: true,
+                                  collapseWhitespace: true,
+                                  preserveLineBreaks: false,
+                                  minifyCSS: true,
+                                  minifyJS: true,
+                                  removeComments: false
+                              }
+                          })
+                      );
+                  }
+              });
+      
+          return {
+              entry,
+              htmlWebpackPlugins
+          }
+      }
+      ...
+      
+      
+      //index-server.js
+      'use strict';
+      
+      // import React from 'react';
+      // import largeNumber from 'large-number';
+      // import logo from './images/logo.png';
+      // import './search.less';
+      const React = require('react');
+      const largeNumber = require('large-number');
+      const logo = require('./images/logo.png');
+      require('./search.less');
+      
+      class Search extends React.Component {
+      
+          constructor() {
+              super(...arguments);
+      
+              this.state = {
+                  Text: null
+              };
+          }
+      
+          loadComponent() {
+              import('./text.js').then((Text) => {
+                  this.setState({
+                      Text: Text.default
+                  });
+              });
+          }
+      
+          render() {
+              const { Text } = this.state;
+              const addResult = largeNumber('999','1');
+              return <div className="search-text">
+                  {
+                      Text ? <Text /> : null
+                  }
+                  { addResult }
+                  搜索文字的内容<img src={ logo } onClick={ this.loadComponent.bind(this) } />
+              </div>;
+          }
+      }
+      
+      module.exports = <Search />;
+      
+      
+      //server/index.js
+      if (typeof window === 'undefined') {
+          global.window = {};
+      }
+      
+      const fs = require('fs');
+      const path = require('path');
+      const express = require('express');
+      const { renderToString } = require('react-dom/server');
+      const SSR = require('../dist/search-server');
+      const template = fs.readFileSync(path.join(__dirname,'../dist/search.html'),'utf-8');
+      const data = require('./data.json');
+      
+      const server = (port) => {
+          const app = express();
+      
+          app.use(express.static('dist'));
+          app.get('/search',(req,res) => {
+              const html = renderMarkup(renderToString(SSR));
+              res.status(200).send(html);
+          });
+      
+          app.listen(port,() => {
+              console.log('Server is running on port:' + port);
+          });
+      };
+      
+      server(process.env.PORT || 3000);
+      
+      const renderMarkup = (str) => {
+          const dataStr = JSON.stringify(data);
+          return template.replace('<!--HTML_PLACEHOLDER-->',str)
+              .replace('<!--INITIAL_DATA_PLACEHOLDER-->',`<script>window.__initial_data=${dataStr}</script>`);
+      }
+      ```
+
+#### 14 构建输出日志
+
+- `stats`: 'error-only'  //none/mininal/normal/verbose,开发环境设置到devServer里
 - friendly-errors-webpack-plugin(`plugins: [new FriendlyErrorsWebpackPlugin()]`)  +  `stats: 'error-only'`
 
-#### 13 others
+#### 15 构建异常处理
 
-- ProvidePlugin or expose-loader
+```javascript
+//webpack.prod.js
+plugin: [
+  ...
+  function() {
+    //this.hooks.done.tap in webpack3
+    this.plugin('done', (stats) => {
+      if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') == -1)
+         {
+            console.log('build error');
+            process.exit(1);
+          }
+     })
+  }   
+]
+```
 
-    ```javascript
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery'
-    });
-    
-    $('#item'); // <= just works
-    jQuery('#item'); // <= just works
-    ```
+#### 16 others
+
+- `ProvidePlugin` or `expose-loader`
 
 - `webpack-merge`
 
@@ -894,33 +1090,29 @@ module.exports = {
     
     //source code
     if(process.env.NODE_ENV === 'production'){
-        console.log('你在生产环境')
-        doSth();
+        ...
     }else{
-        console.log('你在开发环境')
-        doSthElse();
+        ...
     }
     ```
-
-- `UglifyjsWebpackPlugin`
-
+    
 - `IgnorePlugin`
 
     ```javascript
     new webpack.IgnorePlugin(/^\.\/locale$/,/moment$/)
     ```
 
-- PrefetchPlugin
+- `PrefetchPlugin`
 
-- webpack-md5-hash
+- `webpack-md5-hash`
 
-- webpack-manifest-plugin && assets-webpack-plugin
+- `webpack-manifest-plugin` && `assets-webpack-plugin`
 
-- image-webpack-loader
+- `image-webpack-loader`
 
-#### 14 some examples
+### 6 some plugins examples
 
-##### 1 delete useless css
+- delete useless css(webpack3)
 
 ```javascript
 //npm i purifycss-webpack purify-css glob -D
@@ -928,14 +1120,14 @@ const PurifycssWebpack = require('purifycss-webpack')
 const glob = require('glob')
 
 plugins: [
-    //删除没用到的css,一定绝对路径,一定放到HtmlWebpackPlugin之后
+    //必须绝对路径,一定放到HtmlWebpackPlugin之后
     new PurifycssWebpack({
         paths: glob.sync(path.resolve(src/*.html))
     })
 ]
 ```
 
-##### 2 抽离style from js to css link文件
+- 抽离style from js to css link文件
 
 ```javascript
 //同mini-css-extract-plugin
@@ -970,7 +1162,7 @@ module: {
 }
 ```
 
-##### 3 抽离css和less到单独文件
+- 抽离css和less到单独文件
 
 ```javascript
 const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
@@ -1003,7 +1195,7 @@ module: {
 }
 ```
 
-##### 4 解决抽离后css不热更新问题,开发时需要
+- 解决抽离后css不热更新问题,开发时需要
 
 ```javascript
 const lessExtract = new ExtractTextWebpackPlugin({
@@ -1018,7 +1210,7 @@ use: cssExtract.extract({
 })
 ```
 
-##### 5 拷贝静态图片
+- 拷贝静态图片
 
 ```javascript
 const CopyWebpackPlugin = require('copy-webpack-plugin')
@@ -1032,7 +1224,7 @@ plugins: [
 ]
 ```
 
-##### 6 在html中使用图片
+- 在html中使用图片
 
 ```javascript
 //npm i html-withimg-loader -D
@@ -1046,21 +1238,21 @@ plugins: [
 }
 ```
 
-### 8 魔法注释
+### 7 魔法注释
 
 ```javascript
-//chrome ctrl+shift+p-> 查看代码coverage
-//source code
 document.addEventListener('click',function() {
-  import(/* webpackChunkName: 'use-lodash'*/ 'lodash').then(function(_) {
-    console.log(_.join(['3','4']))
+  import(/* webpackChunkName: 'use-lodash'*/ 'lodash')
+    .then(function(_) {
+    	 console.log(_.join(['3','4']))
   })
 })
 
 document.addEventListener('click',() => {
-  import(/* webpackPrefetch: true */ './click.js').then(({ default: func }) => {
-    func()
-  })
+  import(/* webpackPrefetch: true */ './click.js')
+    .then(({ default: func }) => {
+       func()
+    })
 })
 
 //webpack.config.js
@@ -1069,346 +1261,288 @@ plugins: [
 ]
 ```
 
+### 8 构建配置包设计
 
+![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_5.png)
 
-### 9 webpack-bundle-analyzer
+![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_6.png)
 
-`npm run build --report`
+- 集成ESLint
 
-![](./images/webpack-1.png)
+- 冒烟测试(是否生成html、css、js)(`mocha`)
 
-### 10 webpack打包库和组件
+- 单元测试(`mocha`+`chai`)
 
-![](images/webpack-4.png)
+- 测试覆盖率`istanbul`
 
-- 支持ESM `import * as xxx from 'yyy'`
+- 持续集成`TravisCI`
 
-- 支持CJS `const a = require(x)`
+- 发布npm
 
-- 支持AMD `require([x],function(x) {...})`
+- Git commit规范
 
-- script引入
+  ```bash
+  # npm i husky -D
+  # package.json
+  "scripts": {
+  	"commitmsg": "validate-commit-msg",
+  	"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+  },
+  "devDependencies": {
+  	"validate-commit-msg": "^2.11.1",
+  	"conventional-changelog-cli": "^1.2.0",
+  	"husky": "^0.13.1"
+  }
+  ```
 
-    ```javascript
-    //webpack.config.js
-    const TerserPlugin = require('terser-webpack-plugin');
-    
-    module.exports = {
-        entry: {
-            'large-number': './src/index.js',
-            'large-number.min': './src/index.js'
-        },
-        //排除因为已使用<script>标签引入而不用打包的代码,noParse是排除没使用模块化语句的代码
-        //externals: ['lodash'],防止打包两遍但前提必须import lodash from lodash引入
-        output: {
-            filename: '[name].js',
-            library: 'largeNumber',
-            libraryTarget: 'umd',
-            libraryExport: 'default'
-        },
-        mode: 'none',
-        optimization: {
-            minimize: true,
-            minimizer: [
-                new TerserPlugin({
-                    include: /\.min\.js$/,
-                })
+### 9 打包优化
+
+#### 分析
+
+1. `stats`
+
+   ```bash
+   # package.json
+   "scriptd": {
+     "build:stats": "webpack --config webpack.prod.js --json > stats.json"
+   }
+   ```
+
+2. `speed-measure-webpack-plugin`
+
+   ```javascript
+   const SpeedMeasurePlugin = require("speed-measure-webpack-plugin")
+   
+   const smp = new SpeedMeasurePlugin()
+   
+   const webpackConfig = smp.wrap({
+     plugins: [
+       new MyPlugin(),
+       new MyOtherPlugin()
+     ]
+   })
+   ```
+
+3. **`webpack-bundle-analyzer`**
+
+   ![](./images/webpack-1.png)
+
+#### 优化
+
+##### 速度优化
+
+1. 多进程/多实例打包
+
+   - **`thread-loader`**(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
+   - `HappyPack`
+
+2. 多进程/多实例并行压缩
+
+   - **`terser-webpack-plugin`**
+   - `parallel-uglify-plugin`
+   - `uglifyjs-webpack-plugin`
+
+3. 进一步分包(预编译资源模块)
+
+   ```javascript
+   //区别于html-webpack-external-plugin,只会打成一个js
+   //webpack.dll.js
+   //使用DllPlugin分包,DllReferencePlugin引用指定目录生成的manifest.json
+   const path = require('path');
+   const webpack = require('webpack');
+   
+   module.exports = {
+       entry: {
+           library: [
+               'react',
+               'react-dom'
+           ]
+       },
+       output: {
+           filename: '[name]_[chunkhash].dll.js',
+           path: path.join(__dirname, 'build/library'),
+           library: '[name]'
+       },
+       plugins: [
+           new webpack.DllPlugin({
+               name: '[name]_[hash]',
+               path: path.join(__dirname, 'build/library/[name].json')
+           })
+       ]
+   };
+   
+   //webpack.prod,js
+   plugins: [
+     ...
+     new webpack.DllReferencePlugin({
+       manifest: require('./build/library/library.json')}),
+     ...
+   ]
+   ```
+
+4. 缓存(提升二次构建速度)
+
+- `babel-loader`
+- `teser-webpack-plugin`
+- `hard-source-webpack-plugin`
+
+5. 缩小构建目标
+
+   ```javascript
+   module.exports = {
+     ...
+     module: {
+       rules: [
+         {
+           test: /.js$/,
+           include: path.resolve('src'),
+           //exclude: /(node_modules|bower_components)/
+           use: ['babel-loader']
+         }
+     	]
+     },
+     resolve: {
+       alias: {
+         'react': path.resolve(__dirname, './node_modules/react/umd/react.production.min.js'),
+         'react-dom': path.resolve(__dirname, './node_modules/react-dom/umd/react-dom.production.min.js'),
+         'Utilities': path.resolve(__dirname,'src/utilities/'),
+         'Templates': path.resolve(__dirname,'src/templates/'),
+         '@': resolve('src'),
+         //配置别名将库指向同一个版本
+         'moment$': path.resolve('node_modules/moment/moment')
+       },
+       //减少模块层级搜索
+       modules: [path.resolve(__dirname, 'node_modules')],
+       //只查找js文件解析
+       //优先的放到最前面
+       //在源码中导入语句时,尽可能带上后缀
+       extensions: ['.js'],
+       //指定解析的入口文件
+       mainFields: ['main']
+     }
+   }
+   ```
+
+##### 体积优化
+
+1. Tree Shaking
+
+   - js(`.babelrc`设置`modules:false`, `production mode`默认开启，必须ES6语法)
+
+   - css
+
+     - `purgecss-webpack-plugin` + `mini-css-exrtract-plugin`(webpack4)
+
+     - `purgecss-webpack-plugin` + `extract-text-webpack-plugin`(webpack3)
+
+       ```javascript
+       module.exports = {
+         ...
+       	module: {
+           rules: [
+       			{
+                test: /.css$/,
+                use: [
+                  MiniCssExtractPlugin.loader,
+                  'css-loader'
+                ]
+             },
+             {
+                test: /.less$/,
+                use: [
+                  MiniCssExtractPlugin.loader,
+                  'css-loader',
+                   'less-loader'       
+                ]
+              }
+         	]
+         },
+         plugin: [
+           new MiniCssExtractPlugin({
+             filename:'[name]_[contenthash:8].css'
+           }),
+           new PurgecssPlugin({
+             paths: glob.sync(`${PATHS.src}/**/*`,  { nodir: true }),
+           })
+         ]
+       }
+       ```
+
+2. image compress
+
+   ```javascript
+   // image-webpack-loader
+   // 通过webpack-spritesmith or sprite-webpack-plugin制作雪碧图
+   // 使用url-loader把小图片转换成base64嵌入到JS或CSS中,减少加载次数
+   module.exports = {
+     ...
+   	module: {
+       rules: [
+   			{
+            test: /.(png|jpg|gif|jpeg)$/,
+            use: [
+              {
+                 loader: 'file-loader',
+                 options: {
+                   name: '[name]_[hash:8].[ext]'
+                 }
+              },
+              {
+                 loader: 'image-webpack-loader',
+                 options: {
+                   mozjpeg: {
+                     progressive: true,
+                     quality: 65
+                   },
+   								optipng: {
+                     enabled: false,
+                   },
+                   pngquant: {
+                     quality: '65-90',
+                     speed: 4
+                   },
+                   gifsicle: {
+                     interlaced: false,
+                   },
+                   webp: {
+                     quality: 75
+                   }
+               }
             ]
-        }
-        
-    }
-    
-    //script.json
-    {
-      "name": "large-number",
-      "version": "1.0.1",
-      "description": "大整数加法打包",
-      "main": "index.js",
-      "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack",
-        "prepublish": "webpack"
-      },
-      "keywords": [],
-      "author": "",
-      "license": "ISC",
-      "devDependencies": {
-        "terser-webpack-plugin": "^1.3.0",
-        "webpack": "^4.34.0",
-        "webpack-cli": "^3.3.4"
-      }
-    }
-    
-    //设置入口文件index.js
-    if (process.env.NODE_ENV === 'production') {
-        module.exports = require('./dist/large-number.min.js');
-    } else {
-        module.exports = require('./dist/large-number.js');
-    }
-    ```
+         }
+     	]
+     }
+   }
+   ```
 
-### 11 SSR
+3. dynamic Polyfill
 
-- 客户端渲染：html->css / js -> data -> 渲染后的html 
-- SSR: 一个html返回所有资源,减少请求数量,优化白屏时间,友好SEO
+   - [polyfill.io](https://polyfill.io/v3/polyfill.min.js)
 
-```javascript
-//webpack.ssr.js
-...
-const setMPA = () => {
-    const entry = {};
-    const htmlWebpackPlugins = [];
-    const entryFiles = glob.sync(path.join(__dirname,'./src/*/index-server.js'));
+   ![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_7.png)
 
-    Object.keys(entryFiles)
-        .map((index) => {
-            const entryFile = entryFiles[index];
-            // '/Users/cpselvis/my-project/src/index/index.js'
+4. 公共资源分离
 
-            const match = entryFile.match(/src\/(.*)\/index-server\.js/);
-            const pageName = match && match[1];
+5. Scope Hoisting
 
-            if (pageName) {
-                entry[pageName] = entryFile;
-                htmlWebpackPlugins.push(
-                    new HtmlWebpackPlugin({
-                        inlineSource: '.css$',
-                        template: path.join(__dirname,`src/${pageName}/index.html`),
-                        filename: `${pageName}.html`,
-                        chunks: ['vendors',pageName],
-                        inject: true,
-                        minify: {
-                            html5: true,
-                            collapseWhitespace: true,
-                            preserveLineBreaks: false,
-                            minifyCSS: true,
-                            minifyJS: true,
-                            removeComments: false
-                        }
-                    })
-                );
-            }
-        });
+6. others
 
-    return {
-        entry,
-        htmlWebpackPlugins
-    }
-}
-...
+   1. dynamic import component
 
+   2. resolve.noParse(忽略依赖库的解析)
 
-//index-server.js
-use strict';
-
-// import React from 'react';
-// import largeNumber from 'large-number';
-// import logo from './images/logo.png';
-// import './search.less';
-const React = require('react');
-const largeNumber = require('large-number');
-const logo = require('./images/logo.png');
-require('./search.less');
-
-class Search extends React.Component {
-
-    constructor() {
-        super(...arguments);
-
-        this.state = {
-            Text: null
-        };
-    }
-
-    loadComponent() {
-        import('./text.js').then((Text) => {
-            this.setState({
-                Text: Text.default
-            });
-        });
-    }
-
-    render() {
-        const { Text } = this.state;
-        const addResult = largeNumber('999','1');
-        return <div className="search-text">
-            {
-                Text ? <Text /> : null
-            }
-            { addResult }
-            搜索文字的内容<img src={ logo } onClick={ this.loadComponent.bind(this) } />
-        </div>;
-    }
-}
-
-module.exports = <Search />;
-
-
-//server/index.js
-if (typeof window === 'undefined') {
-    global.window = {};
-}
-
-const fs = require('fs');
-const path = require('path');
-const express = require('express');
-const { renderToString } = require('react-dom/server');
-const SSR = require('../dist/search-server');
-const template = fs.readFileSync(path.join(__dirname,'../dist/search.html'),'utf-8');
-const data = require('./data.json');
-
-const server = (port) => {
-    const app = express();
-
-    app.use(express.static('dist'));
-    app.get('/search',(req,res) => {
-        const html = renderMarkup(renderToString(SSR));
-        res.status(200).send(html);
-    });
-
-    app.listen(port,() => {
-        console.log('Server is running on port:' + port);
-    });
-};
-
-server(process.env.PORT || 3000);
-
-const renderMarkup = (str) => {
-    const dataStr = JSON.stringify(data);
-    return template.replace('<!--HTML_PLACEHOLDER-->',str)
-        .replace('<!--INITIAL_DATA_PLACEHOLDER-->',`<script>window.__initial_data=${dataStr}</script>`);
-}
-```
-
-### 12 构建是否成功
-
-- echo $?
-
-- compiler每次构建后触发done hook
-
-    ```javascript
-    plugins: [
-        function() {
-            //this.plugin('done'  webpack3写法,webpack3不会抛出错误码
-            this.hooks.done.tap('done',(stats) => {
-                if (stats.compilation.errors && stats.compilation.errors.length && process.argv.indexOf('--watch') == -1)
-                {
-                    console.log('build error');
-                    process.exit(1);
-                }
-            })
-        }   
-    ]
-    ```
-
-### 13 打包优化
-
-1. 缩小loader文件的搜索范围
-
-    ```javascript
-    {
-      // 如果项目源码中只有js文件,就不要写成/\.jsx?$/,以提升正则表达式的性能
-      test: /\.js$/,
-      // babel-loader支持缓存转换出的结果,通过cacheDirectory选项开启
-      loader: 'babel-loader?cacheDirectory',
-      // 只对项目根目录下的src 目录中的文件采用 babel-loader
-      include: [resolve('src')],
-      // 排除
-      exclude: /(node_modules|bower_components)/
-    }
-    ```
-
-2. 优化resolve.modules
-
-    ```javascript
-    module.exports = {
-      //...
-      resolve: {
-        modules: [path.resolve(__dirname,'node_modules')]
-      }
-    }
-    ```
-
-3. 优化resolve.alias
-
-    ```javascript
-    module.exports = {
-      //...
-      resolve: {
-        alias: {
-          Utilities: path.resolve(__dirname,'src/utilities/'),
-          Templates: path.resolve(__dirname,'src/templates/'),
-          '@': resolve('src'),
-          //配置别名将库指向同一个版本
-          'moment$': path.resolve('node_modules/moment/moment'),
+      ```javascript
+      module.exports = {
+        //...
+        module: {
+          //noParse: (content) => /jquery|lodash/.test(content)
+          //react.min.js经过构建,已经是可以直接运行在浏览器的、非模块化的文件
+          noParse:[/jquery|chartjs/,/react\.min\.js$/] 
         }
       }
-    };
-    ```
+      ```
 
-4. 优化resolve.extensions
-
-    ```javascript
-    module.exports = {
-      //...
-      resolve: {
-        //尝试列表最小化
-        //优先的放到最前面
-        //在源码中写导入语句时,要尽可能带上后缀,从而可以避免寻找过程.例如在确定的情况下将 require(’.       // /data ’)写成require(’. /data.json ’),可以结合enforceExtension和enforceModuleExtension开     // 启使用来强制开发者遵守这条优化
-        extensions: ['.wasm','.mjs','.js','.json']
-      }
-    }
-    ```
-
-5. `resolve.mainFields:['main']` //一般main字段描述入口文件的位置
-
-6. resolve.noParse(忽略依赖库的解析)
-
-    ```javascript
-    module.exports = {
-      //...
-      module: {
-        //noParse: (content) => /jquery|lodash/.test(content)
-        noParse:[/jquery|chartjs/,/react\.min\.js$/] //react.min.js经过构建,已经是可以直接运行在浏览器的、非模块化的文件
-      }
-    };
-    ```
-
-    ```javascript
-    //webpack 检查到 entry.js 文件对 moment 的请求
-    //请求被 alias 重定向,转而请求 moment/min/moment-with-locales.min.js
-    //noParse 规则中的 /moment-with-locales/ 一条生效,所以 webpack 就直接把依赖打包进了 bundle.js
-    resolve: {
-        alias: {
-            moment: "moment/min/moment-with-locales.min.js"
-        }
-    },
-    module: {
-        noParse: [/moment-with-locales/]
-    }
-    ```
-
-7. `optimize-css-assets-webpack-plugin`  and  `terser-webpack-plugin`
-
-8. optimization
-
-9. `@babel/plugin-syntax-dynamic-import`
-
-10. `thread-loader` or `happtpack`多进程解析和处理文件(`thread-loader`不可以和 `mini-css-extract-plugin` 结合使用)
-
-11. DllPlugin && DllReferencePlugin  && autodll-webpack-plugin //dllPlugin将模块预先编译,DllReferencePlugin 将预先编译好的模块关联到当前编译中,当webpack解析到这些模块时,会直接使用预先编译好的模块
-
-12. [ParallelUglifyPlugin](<https://github.com/gdborton/webpack-parallel-uglify-plugin>)多进程压缩代码文件
-
-13. hard-source-webpack-plugin && cache-loader   //模块编译缓存,加快编译速度
-
-14. `speed-measure-webpack-plugin` 速度分析
-
-15. `webpack-bundle-analyzer`  体积分析
-
-16. code aspect (async module)
-
-17. ContextReplacementPlugin or IgnorePlugin
+   3. `ContextReplacementPlugin` or `IgnorePlugin`
 
       ```javascript
         //moment.js for example
@@ -1420,33 +1554,9 @@ const renderMarkup = (str) => {
         //IgnorePlugin
         new Webpack.IgnorePlugin(/.\/locale/,/moment/)
         //忽略后源码需要手动引入
-        import 'moment/locale/zh-cn';
-      
+        import 'moment/locale/zh-cn'
       ```
 
-18. ModuleConcatenationPlugin / HashedModuleIdsPlugin
+   4. `performance`参数可以输出文件的性能检查配置
 
-        ```javascript
-        mode：'production',
-        optimization : {
-            moduleIds: 'hashed',
-        }
-        ```
-        
-        > 默认情况下,webpack会为每个模块用数字做为ID,这样会导致同一个模块在添加删除其他模块后,ID会发生变化,不利于缓存
-        >
-        > 为了解决这个问题,有两种选择：`NamedModulesPlugin`和`HashedModuleIdsPlugin`,前者会用模块的文件路径作为模块名,后者会对路径进行md5处理.因为前者处理速度较快,而后者打包出来的文件体积较小,所以应该开发环境时选择前者,生产环境时选择后者.
-        > `ModuleConcatenationPlugin`主要是作用域提升,将所有模块放在同一个作用域当中,一方面能提高运行速度,另一方面也能降低文件体积.前提是你的代码是用es模块写的.
-        > 在 webpack4 中,只需要optimization的配置项中设置 `moduleIds` 为 `hashed`或者`named`,设置`mode`为`production`即可
-
-19. 配置performance参数可以输出文件的性能检查配置
-
-20. 配置profile：true,是否捕捉Webpack构建的性能信息,用于分析是什么原因导致构建性能不佳
-
-21. 配置cache：true,是否启用缓存来提升构建速度
-
-22. 使用url-loader把小图片转换成base64嵌入到JS或CSS中,减少加载次数
-
-23. 通过imagemin-webpack-plugin压缩图片,通过webpack-spritesmith or sprite-webpack-plugin制作雪碧图
-
-24. 开发环境下将devtool设置为cheap-module-eval-source-map,因为生成这种source map的速度最快,能加速构建.在生产环境下将devtool设置为cheap-module-source-map
+   5. 开发环境下将`devtool`设置为`cheap-module-eval-source-map`速度最快加速构建.在生产环境下将其设置为`cheap-module-source-map`

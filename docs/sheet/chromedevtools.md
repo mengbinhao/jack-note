@@ -63,6 +63,7 @@
 - blackbox script
 - condition breakpoint
 - pause on exception
+- ctrl+shift+p-> 查看代码coverage
 
 ### 6.Network
 - block request

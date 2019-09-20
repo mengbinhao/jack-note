@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(总结ing)** / **Node.js(8)** / **重学前端(learning)** / **TypeScript(31)** / **算法** / **算法面试(7)**/ react / Vue
+- 极客 **webpack(总结ing)** / **重学前端(总结ing)** / **Node.js(8)** /  **TypeScript(31)** / **算法** / **算法面试(7)**/ react(需再看) / Vue(未总结)
 - 掘金小册
 
 ### practise
@@ -127,6 +127,7 @@
 - [详解Vue服务端渲染](https://segmentfault.com/a/1190000019964933)
 - [Vue页面转Pdf实践](https://juejin.im/post/5d511620f265da03c23ec758)
 - [六个让前端开发既高效又有趣的工具](http://developer.51cto.com/art/201908/601336.htm)
+- [基于Vue的商品主图放大镜方案](https://juejin.im/post/5d8235565188256bbe57dc84)
 
 #### project related
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
@@ -252,6 +253,8 @@
 - [使用React Hooks高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
 - [React Hooks实战总结](https://segmentfault.com/a/1190000020120456)
 
+#### redux
+- [从零实现一个Redux](https://mp.weixin.qq.com/s/zWKZPLpo_7kcNKzZeqH2kg)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
