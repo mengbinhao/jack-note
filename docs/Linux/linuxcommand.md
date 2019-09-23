@@ -96,6 +96,8 @@
 - `nohup command >out.file 2>&1 &` //后台运行
 - `ps -ef |grep 关键字  |awk '{print $2}'|xargs kill -9` //查找进程
 
+#### [curl](https://segmentfault.com/a/1190000020436170)
+
 #### CentOS
 
 ```bash

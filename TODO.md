@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack(总结ing)** / **重学前端(总结ing)** / **Node.js(8)** /  **TypeScript(31)** / **算法** / **算法面试(7)**/ react(需再看) / Vue(未总结)
+- 极客 **webpack** / **重学前端(总结ing)** / **Node.js(8)** / **算法** / **算法面试(7)**/ react(需再看) / Vue(未总结) / TypeScript
 - 掘金小册
 
 ### practise
@@ -78,6 +78,7 @@
 ### JS
 - [常见数据结构和Javascript实现总结](https://segmentfault.com/a/1190000020011987)
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
+- [实现25个数组方法](https://segmentfault.com/a/1190000020389596)
 - [axios切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
 - [封装AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
 - [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
@@ -154,6 +155,7 @@
 - [Vue实现特定场景的主题切换](https://mp.weixin.qq.com/s/N5WDcqusrHwj4igyyAlMBg)
 - [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
 - [从一次性能优化看Vue的一个feature](https://juejin.im/post/5d7cc1966fb9a06b211717df)
+- [6个有用的Vue开发技巧](https://juejin.im/post/5d861aabe51d4557ca7fde06)
 
 #### component related
 
@@ -252,6 +254,7 @@
 - [React Hooks的实现原理和最佳实践](https://zhuanlan.zhihu.com/p/75146261)
 - [使用React Hooks高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
 - [React Hooks实战总结](https://segmentfault.com/a/1190000020120456)
+- [你也能把React Hooks玩出花](https://mp.weixin.qq.com/s/6XsUflXwf7vkSpzr6BWjIg)
 
 #### redux
 - [从零实现一个Redux](https://mp.weixin.qq.com/s/zWKZPLpo_7kcNKzZeqH2kg)
@@ -313,6 +316,8 @@
 - [大厂前端高频面试问题与答案精选](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490505&idx=1&sn=3efe2267b8bbfea86f2c13c9cc745414)
 - [中高级前端大厂面试秘籍](https://segmentfault.com/a/1190000018155877)
 - [七篇前端面试必考知识点，助你一臂之力](https://juejin.im/post/5d5fdfb26fb9a06af7123e4f)
+- [面试手写](https://juejin.im/post/5d84e82951882514eb4576f7)
+- [27个js面试手写](http://developer.51cto.com/art/201909/603316.htm)
 
 #### css&html
 

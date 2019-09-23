@@ -1,3 +1,23 @@
+- 2019.9.23
+  - modest adj
+  - insurance n
+  - stride n/vt
+  - blasted adj
+  - notable n/adj
+  - architect n
+  - unnerving adj
+  - rebound vi
+  - appropriate adj
+  - offset vt
+  - precisely adv
+  - nonetheless adv
+  - broadly adj
+  - foreca
+
+  > the US economy still has a lot going for it
+  > this is the second time in seven weeks xxx
+  > not because xxx but because xxx
+
 - 2019.9.20
   - muffled adj
   - complex n/adj
@@ -160,7 +180,7 @@
   - approach n/vi/vt
   - narrate vt
   - orbiter n
-  - anticipation n
+  - anticipation n | anticipated adj
   - excitement
   - eerily adv
   - cap n
@@ -180,7 +200,6 @@
   - relinquish vt
   - sham n/adj/vt
   - status n
-  - sustained adj
   - decade n
   - torture n/vt
   - calm n/adj/vt
@@ -541,7 +560,7 @@
   - instability n
   - peril n
   - sleepwalking n
-  - forecast n/vt
+  - forecast n/vt | forecaster n
   - advocate n/vt | advocacy n
   - arsenal n
 
@@ -880,7 +899,7 @@
   - cite vt
   - inflation/deflation n
   - resist vi/vt
-  - sustainable adj
+  - sustainable adj | sustained adj | sustain vt
   - concern n/vt
   - concerned adj
   - pace n/vi/vt
@@ -1002,7 +1021,7 @@
   - departure n | depart vi/vt
   - personnel n
   - tenure n
-  - aggresive adj | aggression n
+  - aggresive adj | aggresively adv | aggression n
   - toe-to-toe
   - insult n/vt
   - resolutely adj
