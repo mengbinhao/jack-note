@@ -1,3 +1,24 @@
+- 2019.9.24
+  - Canadian n/adj
+  - makeup n
+  - reflect vi/vt
+  - affair n
+  - lengthy adj
+  - conference n
+  - garner vt
+  - accumulation n
+  - outrage n/vt
+  - reputation n
+  - embrace n/vi/vt
+  - diversity n
+  - refugee n
+  - undermine vt
+  - racism n
+  - fracture n/vi/vt
+
+  > I am hoping that my apology is going to be enough
+  > Beyond saying he made a bad choice, xxxx
+
 - 2019.9.23
   - modest adj
   - insurance n
@@ -363,7 +384,6 @@
   - interfere vi
   - contrary n/adj/adv
   - preserve n/vt
-  - tolerance n
   - criminality n
   - exaggerated adj
   - culprit n
@@ -866,7 +886,7 @@
   - comply vi
   - supplier n
   - deny vt
-  - tolerable adj
+  - tolerable adj | tolerance n | intolerance
   - standpoint
   - astronomical adj
   - fine adj/adv/vt/n
