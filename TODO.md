@@ -129,6 +129,7 @@
 - [Vue页面转Pdf实践](https://juejin.im/post/5d511620f265da03c23ec758)
 - [六个让前端开发既高效又有趣的工具](http://developer.51cto.com/art/201908/601336.htm)
 - [基于Vue的商品主图放大镜方案](https://juejin.im/post/5d8235565188256bbe57dc84)
+- [前端使用工具强制实行代码规范（Vue）](https://blog.rxliuli.com/p/ce3fba72/)
 
 #### project related
 - [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
@@ -136,6 +137,7 @@
 - [Vue中项目优化](https://juejin.im/post/5d7b91e86fb9a06ace527e2a)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
+- [Axios封装](https://juejin.im/post/5d89c75651882509662c55b1)
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
 - [Vue/Vue-router/Vuex延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
 - [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63)
