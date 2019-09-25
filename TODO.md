@@ -131,6 +131,7 @@
 - [基于Vue的商品主图放大镜方案](https://juejin.im/post/5d8235565188256bbe57dc84)
 
 #### project related
+- [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
 - [Vue中项目优化](https://juejin.im/post/5d7b91e86fb9a06ace527e2a)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
@@ -256,11 +257,15 @@
 - [React Hooks实战总结](https://segmentfault.com/a/1190000020120456)
 - [你也能把React Hooks玩出花](https://mp.weixin.qq.com/s/6XsUflXwf7vkSpzr6BWjIg)
 
+#### React Router
+- [React Router使用](https://segmentfault.com/a/1190000020471085)
+
 #### redux
 - [从零实现一个Redux](https://mp.weixin.qq.com/s/zWKZPLpo_7kcNKzZeqH2kg)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
+- [TypeScript完全手册](https://zhuanlan.zhihu.com/p/83689446)
 
 ### Other
 

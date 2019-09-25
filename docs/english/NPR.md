@@ -1,3 +1,17 @@
+- 2019.9.25
+  - urgent adj
+  - spur n/vt
+  - extraordinary adj
+  - plastic n/adj
+  - renewable adj
+  - accountable adj
+  - sit-in n
+  - progressive n/adj
+
+  > and then even a week from tomorrow, xxxx
+  > but it has't gotten anywhere in congress yet
+  > it was harder than normal to get around parts if the city today
+
 - 2019.9.24
   - Canadian n/adj
   - makeup n
@@ -18,6 +32,7 @@
 
   > I am hoping that my apology is going to be enough
   > Beyond saying he made a bad choice, xxxx
+  > take us beyond New York
 
 - 2019.9.23
   - modest adj
@@ -304,7 +319,7 @@
 
 - 2019.9.5
   - plague n/vt
-  - pollution n
+  - pollution n | pulloter n
   - infrastructure n
   - feasible adj
   - founder n
