@@ -1096,12 +1096,6 @@ plugin: [
     }
     ```
     
-- `IgnorePlugin`
-
-    ```javascript
-    new webpack.IgnorePlugin(/^\.\/locale$/,/moment$/)
-    ```
-
 - `PrefetchPlugin`
 
 - `webpack-md5-hash`

@@ -1,3 +1,25 @@
+- 2019.9.26
+  - hostage n
+  - indicator n
+  - reduced adj | reduce v
+  - revolving adj
+  - lecture n/vi/vt
+  - portfolio n
+  - plate n
+  - contend vi/vt
+  - razor n
+  - demeanor n
+  - profile
+  - elsewhere
+
+  > which is what I was kind of known for
+  > how does the US move ahead on these issues?
+  > and top of the list will be Iran
+  > I coming in with a lot on my plate
+  > talk down
+  > step down
+  > I have the final say on xxxx
+
 - 2019.9.25
   - urgent adj
   - spur n/vt
@@ -495,7 +517,7 @@
   - strained adj
   - eligible adj
   - sick n/vt/adj
-  - turnout n
+  - turnout n | turnover n
   - underwhelming adj
   - poverty n
   - unchecked adj
@@ -793,14 +815,12 @@
   - council n
   - civilian n
   - clash n/vi/vt
-  - depose vt
   - coup n
   - sole adj/n/vt
   - compromise n/vi/vt
   - reservation n
   - opt vi
   - stumble n/vt | tumble n/vi
-  - oust vi
   - fissure n
   - ordinary adj
   - radical adj

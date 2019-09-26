@@ -3,8 +3,8 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **webpack** / **重学前端(总结ing)** / **Node.js(8)** / **算法** / **算法面试(7)**/ react(需再看) / Vue(未总结) / TypeScript
-- 掘金小册
+- 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(8)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
+- 掘金小册(2個react)
 
 ### practise
 - [mvc撸一个](https://github.com/taniarascia/mvc)
