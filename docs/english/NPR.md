@@ -1,3 +1,18 @@
+- 2019.9.27
+  - Ukraine n
+  - indict vt
+  - whistle-blower n
+  - corrup v | corruption n
+  - aver vt
+  - dealings n
+  - imply vt | implied adj
+  - explicit adj
+  - merely adv
+  - withhold vt
+  - confess vi/vt
+
+  > Now, all of this, we should explain the background
+
 - 2019.9.26
   - hostage n
   - indicator n
@@ -418,7 +433,7 @@
   - corrode vi/vt
   - dampen vt
   - demonstration n
-  - interfere vi
+  - interfere vi | interference n | intervene vi
   - contrary n/adj/adv
   - preserve n/vt
   - criminality n
@@ -500,7 +515,7 @@
   > it's often seen as xxxxx
 
 - 2019.8.19
-  - consult vi/vt
+  - consult vi/vt | consulting adj
   - stooge n
   - emerge vi
   - concrete adj
@@ -776,7 +791,6 @@
   - raise n/vi/vt
   - dispute n/vi/vt | disputed adj
   - alien n/adj
-  - intervene vi
   - strategist n
 
   > it appears that none will be
@@ -955,8 +969,7 @@
   - inflation/deflation n
   - resist vi/vt
   - sustainable adj | sustained adj | sustain vt
-  - concern n/vt
-  - concerned adj
+  - concern n/vt | concerned adj | concerning adj
   - pace n/vi/vt
   - impetus n
   - firmly adv

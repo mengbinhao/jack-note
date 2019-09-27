@@ -4,7 +4,7 @@
 - zaolunzi
 - leetcode(206、24、141、142、25)
 - 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(8)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
-- 掘金小册(2個react)
+- 掘金小册(**react practise and Summary**)
 
 ### practise
 - [mvc撸一个](https://github.com/taniarascia/mvc)
@@ -325,6 +325,7 @@
 - [七篇前端面试必考知识点，助你一臂之力](https://juejin.im/post/5d5fdfb26fb9a06af7123e4f)
 - [面试手写](https://juejin.im/post/5d84e82951882514eb4576f7)
 - [27个js面试手写](http://developer.51cto.com/art/201909/603316.htm)
+- [前端开发中79条不可忽视的知识点](https://juejin.im/post/5d8989296fb9a06b1f147070)
 
 #### css&html
 

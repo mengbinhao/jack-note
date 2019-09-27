@@ -346,15 +346,16 @@ newObj.b.c = -1 // output: GET...
 
         //import会提升
         //导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
-        //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise （按需加载 动态路径 可写if里）
+        //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise(按需加载/动态路径可写if里)
         ```
     2.  `export`
         ```javascript
         export {a, b, c};
         export var num1 = 1;(包括function(含async、generator)、class、let、const)
         export { a as xxx, b as yyy}
-        export default () => {xxx} (包括class,都没有名字)
+        export default () => {xxx} (class也可以這樣寫,都没有名字)
 
+        export function add(a,b) { return a + b; }
         //这里导出的是值,以后a的变化与导出的值就无关了
         var a = {}; export {a}
 
@@ -363,20 +364,18 @@ newObj.b.c = -1 // output: GET...
         ```
 
         总结:
-
-        1. 当用 export default people 导出时,就用 import people 导入(不带大括号)
+        1. 当用 export default people 导出时,就用 import people 导入(不带大括号)，当用 export name 时,就用 import { name }导入(带大括号)
         2. 一个文件里,有且只能有一个 export default,但可以有多个 export
-        3. 当用 export name 时,就用 import { name }导入(带大括号)
-        4. 当一个文件里,既有一个 export default people,又有多个 export name 或者 export age 时,导入就用 import people, { name, age }
-        5. 当一个文件里出现 n 多个 export 导出很多模块,导入时除了一个一个导入,也可以用 import \* as example
+        3. 当一个文件里,既有一个 export default people,又有多个 export name 或者 export age 时,导入就用 import people, { name, age }
+        4. 当一个文件里出现 n 多个 export 导出很多模块,导入时除了一个一个导入,也可以用 import \* as example
 
-    2.  和 CommonJS 区别
+    3.  和 CommonJS 区别
         1. 前者支持动态导入，也就是 require(\${path}/xx.js)，后者目前不支持，但是已有提案 import(xxx)
         2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
         3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
         4. 后者会编译成 require/exports 来执行的
 
-1.  扩展运算符
+15. 扩展运算符
     1.  代替 apply `Math.max.apply(null,array); Math.max(...array)`
     2.  代替数组 push、concat`Array.prototype.push.apply(arr1, arr2); arr1.push(...arr2)`
     3.  拷贝数组或对象`var array1 = [...array0]; var obj2 = {...obj};`
