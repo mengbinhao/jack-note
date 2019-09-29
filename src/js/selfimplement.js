@@ -223,6 +223,7 @@ const randonReplacementArray = array => {
 //Function
 //Function
 //在规定时间内只触发一次
+//第一个说了算
 const throttle = (fn, interval = 300) => {
   let last = 0
   return function() {
@@ -236,7 +237,7 @@ const throttle = (fn, interval = 300) => {
 const betterScrollThrottle = throttle(() => console.log('触发了滚动事件'), 1000)
 document.addEventListener('scroll', betterScrollThrottle)
 
-//在规定时间内未触发第二次则执行
+//最后一个说了算
 function debounce(fn, delay = 300) {
   let timer
   return function() {
@@ -306,6 +307,7 @@ const DebounceAdvanced = (fn, delay = 300) => {
 
     if (now - last < delay) {
       // 如果时间间隔小于我们设定的时间间隔阈值,则为本次触发操作设立一个新的定时器
+      // 总会执行一次 防止用户认为的‘假死’
       clearTimeout(timer)
       timer = setTimeout(function() {
         last = now

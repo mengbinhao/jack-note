@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(8)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
+- 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(12)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise
@@ -362,6 +362,7 @@
 - [Vue](https://segmentfault.com/a/1190000016770732)
 - [Vue](https://blog.fundebug.com/2018/09/20/Vue-interview-problem-list/)
 - [Vue](https://juejin.im/post/5d02016c6fb9a07ec27b9e50)
+- [Vue常见面试题](https://segmentfault.com/a/1190000020518331)
 
 #### Node
 

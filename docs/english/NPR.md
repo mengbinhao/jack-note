@@ -1,3 +1,21 @@
+- 2019.9.28
+  - emirate n
+  - enunciate vt
+  - jam n/vt | jamming n
+  - spew n/vi/vt
+  - bullet n
+  - weaponry n
+  - explanation n
+  - vulnerable adj
+  - lapse n/vi
+  - embroiled adj
+  - mystery n/adj
+  - contractor n
+  - confrontation n
+
+  > at this point, it does seem there'd be more talking than actually shooting
+  > off the table
+
 - 2019.9.27
   - Ukraine n
   - indict vt
@@ -12,6 +30,7 @@
   - confess vi/vt
 
   > Now, all of this, we should explain the background
+  > My generation
 
 - 2019.9.26
   - hostage n
@@ -82,7 +101,7 @@
   - rebound vi
   - appropriate adj
   - offset vt
-  - precisely adv
+  - precisely adv | precise adj
   - nonetheless adv
   - broadly adj
   - foreca
@@ -432,7 +451,7 @@
   - mobilize vt
   - corrode vi/vt
   - dampen vt
-  - demonstration n
+  - demonstration n | demonstrate vi/vt
   - interfere vi | interference n | intervene vi
   - contrary n/adj/adv
   - preserve n/vt
@@ -750,7 +769,6 @@
   - dis adj
   - intense adj
   - recharge vt
-  - defend vt
   - opposite n/adj/adv/prep
   - controversy n | controversial adj
   - intelligence n
@@ -1055,7 +1073,7 @@
   - convicted adj
   - undergo vt
   - procecutor n
-  - defendant n
+  - defendant n | defend vi/vt | defensive adj
   - Turkish adj/n
   - mistreat vt
   - polarize vi/vt

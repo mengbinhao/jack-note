@@ -32,10 +32,10 @@ cd docs
 open index.html
 ```
 
-#### Parallels Desktop waiting
-#### pdf expert waiting
+#### Parallels Desktop ??
 #### xmind:zen ??
 #### sketch ??
+#### pdf expert
 #### moon
 #### bartender
 #### wps instead of office
