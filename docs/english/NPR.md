@@ -1,4 +1,27 @@
-- 2019.9.28
+- 2019.9.30
+  - blueprint n
+  - adopt vi/vt
+  - boost n/vt
+  - fiscal adj
+  - budget n/vt/adj
+  - deficit n
+  - bashful adj
+  - wasteful adj
+  - efficient adj | inefficient
+  - well-being n
+  - Medicaid n
+  - welfare n
+  - outcome n
+  - hardship n
+  - balloon n/vi/vt
+  - gimmick n
+  - unrealistic adj
+
+  > xxx that we can no longer afford
+  > we are clearly on the wrong path
+  > xxx is far from over
+
+- 2019.9.29
   - emirate n
   - enunciate vt
   - jam n/vt | jamming n
@@ -709,7 +732,7 @@
   - refer vi/vt
   - brevity n
   - obstruction n
-  - ultimately adv
+  - ultimately adv | ultimate adj
   - prosecute vi/vt
   - exonerate vt
   - motivated adj | motivation n
@@ -741,7 +764,7 @@
   > to some degree
 
 - 2019.7.25
-  - enrollment n
+  - enrollment n | enrol vi/vt
   - roughly adv | rough adj
   - essential n/adj
   - prescription n
