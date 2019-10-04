@@ -38,6 +38,9 @@
 - [20道JS原理题](https://juejin.im/post/5d2ee123e51d4577614761f8)
 - [element-ui form](https://juejin.im/post/5d2eb18d51882569b34df167)
 
+### mis
+- [程序员常用工具](https://segmentfault.com/a/1190000020549054)
+
 ### h5
 
 - [HTML5新增的标签与属性](https://juejin.im/post/5d1b43edf265da1bae3914ac)
@@ -363,6 +366,7 @@
 - [Vue](https://blog.fundebug.com/2018/09/20/Vue-interview-problem-list/)
 - [Vue](https://juejin.im/post/5d02016c6fb9a07ec27b9e50)
 - [Vue常见面试题](https://segmentfault.com/a/1190000020518331)
+- [Vue Router](https://www.itwork.club/2019/09/29/vue-interview-router/)
 
 #### Node
 
