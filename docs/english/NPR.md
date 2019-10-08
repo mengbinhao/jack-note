@@ -1,3 +1,22 @@
+- 2019.10.8
+  - perspective n
+  - claimant n
+  - frustrate vt/adj
+  - pleased adj
+  - thrilled adj
+  - disdain n/vt
+  - ambiguity n
+  - neutrality n
+  - indecisive adj
+  - obfuscate vt
+
+  > let's put aside that xxx
+  > take advantage of
+  > slap down against xxx
+  > he was out of line in asking the queen to approve the move
+  > they bought none of what you said at all
+  > how the court addressed it?
+
 - 2019.9.30
   - blueprint n
   - adopt vi/vt
@@ -1013,7 +1032,7 @@
   - concern n/vt | concerned adj | concerning adj
   - pace n/vi/vt
   - impetus n
-  - firmly adv
+  - firmly adv | firm n/vt/adj
   - spike n/vi/vt
   - loan n
   - recession n | recess n/vt

@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(12)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
+- 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(15)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise
@@ -64,6 +64,7 @@
 - [NodeJS Web 项目几个最佳实践](https://juejin.im/post/5cdd07826fb9a0322758e067)
 - [搭建一个 nodejs 脚手架](https://juejin.im/post/5d14653de51d4550a629b2b6)
 - [用优雅的代码武装我们的koa2项目](https://juejin.im/post/5d255d05518825424d656e11)
+- [耗时两个月，网上最全的原创nodejs深入系列文章](https://blog.5udou.cn/blog)
 
 ### front
 
@@ -138,6 +139,7 @@
 - [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
 - [Vue中项目优化](https://juejin.im/post/5d7b91e86fb9a06ace527e2a)
+- [Vue中的项目优化](https://juejin.im/post/5d9939d0e51d45781332e949)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [Axios封装](https://juejin.im/post/5d89c75651882509662c55b1)
@@ -200,6 +202,7 @@
 
 #### compare
 
+- [React vs Angular vs Vue.js](https://mp.weixin.qq.com/s/KGvYsCGNZZtzT-v-xK8S9w)
 - [React for Vue developers](https://sebastiandedeyne.com/react-for-Vue-developers/)
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
 - [Vue vs React](https://juejin.im/post/5c2de832f265da6172659b45)
