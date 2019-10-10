@@ -1,3 +1,61 @@
+- 2019.10.10
+  - memo n
+  - notion n
+  - prosecution n
+  - reference n/vt
+  - mention n/vt
+  - civics n
+  - plead vi/vt | pleading n/adj
+  - oath n
+  - chatty adj
+  - commit
+
+  > a lot to follow, and the story changing by minute
+  > the story is moving so quickly
+  > what stands out to you in this?
+  > one line in particular
+  > xxx in return
+  > in the past couple of months after xxx
+  > in the middle of this
+  > so on one hand, xxxxx, on the other hand, xxxx
+  > more or less
+  > it doesnot necessarily have to become public, but given the way things are appearing, it seems quite possible that it will
+
+- 2019.10.9
+  - tout n/vt
+  - patriot n
+  - barrier n
+  - subsidy n | subsidize vt
+  - subsidize
+  - manipulation n
+  - dumping n
+  - theft n
+  - puppet n
+  - rail n/vi/vt
+  - bloodlust n
+  - menacing adj
+  - regional adj | region n
+  - bolster n/vt
+  - interpreter n
+  - cliff n
+  - proportionate adj | dis-proportionate
+  - artificial adj
+  - multilateral adj
+  - represent vt
+  - harassment n
+  - proceeding n
+  - thereafter adv
+  - breach n/vt
+  - restrained adj
+  - caucus n/vi
+  - premature adj
+  - deflect vi/vt
+
+  > xxx in pointing fingers at Iran
+  > Wise leader always put the good of their own people and their own country first
+  > I was never a fan of going down this road
+  > He has thrown off the gloves
+
 - 2019.10.8
   - perspective n
   - claimant n
@@ -168,7 +226,7 @@
   > fall apart
 
 - 2019.9.19
-  - impeach vt
+  - impeach vt | impeachment n
   - essay n/vt
   - adapt v | adapted adj
   - columnist n
@@ -376,7 +434,7 @@
   - chancellor n
   - mistrust n/vt
   - conclude vi/vt
-  - reluctantly adv
+  - reluctantly adv | reluctant adj
   - collective adj
   - replicate n/adj/vt
   - resemble vt
@@ -478,7 +536,7 @@
   - deputy n
   - opportunism n
   - blistering adj
-  - institutional adj
+  - institution n | institutional adj
   - respect | disrespect n/vt
   - defiant adj
   - get-go n
@@ -645,7 +703,7 @@
   - somehow adv
   - inquiry n
   - appalled adj
-  - allegation n | alleged adj
+  - allegation n | alleged adj | allegedly adv
   - abuse n/vt
   - minor n/adj
   - disturbing adj
@@ -747,7 +805,7 @@
 - 2019.7.30
   - shadow n/vt/adj
   - presidency n
-  - committee n | commitment n
+  - committee n | commitment n | committed adj
   - refer vi/vt
   - brevity n
   - obstruction n
@@ -813,9 +871,8 @@
   - recharge vt
   - opposite n/adj/adv/prep
   - controversy n | controversial adj
-  - intelligence n
+  - intelligence n | intellectual n/adj
   - condemn vt
-  - complain vi/vt
   - disapprove vi
 
   > he made a name for himself xxxx
@@ -951,7 +1008,7 @@
 - 2019.7.12
   - swallow vi/vt/n
   - proposed adj | proposal n
-  - domestic adj/n
+  - domestic n/adj
   - encouraging adj
   - tariff n/vt
   - consequence n
@@ -1004,7 +1061,7 @@
   - retaliate vi
   - rival n/vt
   - regulation n/adj
-  - complaint n
+  - complaint n | complain vi/vt
   - nevertheless adv
 
   > that was go too far

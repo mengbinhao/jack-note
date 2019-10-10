@@ -340,6 +340,7 @@ newObj.b.c = -1 // output: GET...
 
         import * as x from "./a.js" 把模块中所有的变量以类似对象属性的方式引入
 
+        //语法要求不带 as 的默认值永远在最前。注意，这里的变量实际上仍然可以受到原来模块的控制
         import d, {a as x, modify} from "./a.js"
 
         import d, * as x from "./a.js"

@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **重学前端(总结ing)** / **Node.js(15)** / **算法** / **算法面试(7)**/ webpack / Vue(未总结) / TypeScript
+- 极客 **react(需再看)** / **Node.js(19)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise
@@ -164,6 +164,7 @@
 - [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
 - [从一次性能优化看Vue的一个feature](https://juejin.im/post/5d7cc1966fb9a06b211717df)
 - [6个有用的Vue开发技巧](https://juejin.im/post/5d861aabe51d4557ca7fde06)
+- [记一次vue+nuxt性能优化](https://juejin.im/post/5d93e5446fb9a04de04d7986)
 
 #### component related
 
@@ -264,6 +265,7 @@
 - [使用React Hooks高效实现动态炫酷的可视化图表](https://mp.weixin.qq.com/s/addpT-qZNohUqRSvDdUzcw)
 - [React Hooks实战总结](https://segmentfault.com/a/1190000020120456)
 - [你也能把React Hooks玩出花](https://mp.weixin.qq.com/s/6XsUflXwf7vkSpzr6BWjIg)
+- [React Hooks你真的用对了吗](https://segmentfault.com/a/1190000020616412)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)

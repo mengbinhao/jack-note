@@ -173,6 +173,20 @@ F1()
 
 ### 箭头函数
 ### Promise
+- resolved状态的Promis会回调后面的第一个then
+- rejected状态的Promis会回调后面的第一个catch
+- 任何一个rejected状态且后面没有catch的Promise都会造成浏览器/node环境的全局错误
+- 执行then和catch会返回一个新的Promise，该Promise的最终状态根据then和catch的回调函数的执行结果决定
+  - 若最终是throw则该Promise是rejected状态
+  - 若最终是return则该Promise是resolved状态
+  - 若最终return了一个Promise，该Promise会和回调函数return的Promise状态保持一致
+
+### async/await
+- aa只是Promise的语法糖
+- 以同步的方式写异步
+  - await可以‘暂停’async function的执行
+  - await可以以同步的写法获取Promise的执行结果
+  - try-catch可以获取await所得到的错误
 ### Module
 
 ```javascript

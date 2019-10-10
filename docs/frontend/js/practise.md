@@ -868,7 +868,7 @@ const getCarsByState2 = (state) => {
 - callback: u define, u donot invoke, but it is invoked afterwards
 
 - 分号注意：
-    - 小括号开头的前一条语句
+    - 以小括号开头的前一条语句
     ```javascript
     (function(a){
         console.log(a);
@@ -877,12 +877,12 @@ const getCarsByState2 = (state) => {
         console.log(a);
     })()
     ```
-    - 中括号开头的前一条语句
+    - 以中括号开头的前一条语句
     ```javascript
     var a = [[]]/* 这里没有被自动插入分号 */
     [3, 2, 1, 0].forEach(e => console.log(e))
     ```
-    - 正则开头的前一条语句
+    - 以正则开头的前一条语句
     ```javascript
     var x = 1, g = {test:()=>0}, b = 1/* 这里没有被自动插入分号 */
     /(a)/g.test("abc")
@@ -897,7 +897,7 @@ const getCarsByState2 = (state) => {
     `Template`.match(/(a)/);
     console.log(RegExp.$1)
     ```
-    - js文件合并的时候一般最开始加分号
+    - js文件合并的时候最好开始加分号,或`void function()()`
     - do...while有分号
     - 函数表达式有分号
 
