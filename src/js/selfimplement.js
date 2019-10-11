@@ -80,7 +80,7 @@ const myFlat2 = arr => {
     .map(item => Number(item))
 }
 
-const simulateIsArray = target => {
+const myIsArray = target => {
   return Object.prototype.toString.call(target) === '[object Array]'
 }
 
@@ -224,7 +224,7 @@ const randonReplacementArray = array => {
 //Function
 //在规定时间内只触发一次
 //第一个说了算
-const throttle = (fn, interval = 300) => {
+const simulateThrottle = (fn, interval = 300) => {
   let last = 0
   return function() {
     let now = +new Date()
@@ -234,11 +234,14 @@ const throttle = (fn, interval = 300) => {
     }
   }
 }
-const betterScrollThrottle = throttle(() => console.log('触发了滚动事件'), 1000)
+const betterScrollThrottle = simulateThrottle(
+  () => console.log('触发了滚动事件'),
+  1000
+)
 document.addEventListener('scroll', betterScrollThrottle)
 
 //最后一个说了算
-function debounce(fn, delay = 300) {
+function simulatDebounce(fn, delay = 300) {
   let timer
   return function() {
     clearTimeout(timer)
@@ -249,7 +252,10 @@ function debounce(fn, delay = 300) {
   }
 }
 
-const betterScrollDebounce = debounce(() => console.log('触发了滚动事件'), 1000)
+const betterScrollDebounce = simulatDebounce(
+  () => console.log('触发了滚动事件'),
+  1000
+)
 document.addEventListener('scroll', betterScrollDebounce)
 
 const optimizedThrottle = function(func, wait, options) {
@@ -307,15 +313,15 @@ const DebounceAdvanced = (fn, delay = 300) => {
 
     if (now - last < delay) {
       // 如果时间间隔小于我们设定的时间间隔阈值,则为本次触发操作设立一个新的定时器
-      // 总会执行一次 防止用户认为的‘假死’
+      // 总会执行一次 防止用户认为'假死'
       clearTimeout(timer)
       timer = setTimeout(function() {
-        last = now
         fn.apply(context, args)
+        last = now
       }, delay)
     } else {
-      last = now
       fn.apply(context, args)
+      last = now
     }
   }
 }
@@ -514,7 +520,7 @@ const fibClosure = (function() {
 /**
  * 1. 新生成了一个对象
  * 2. 链接到原型
- * 3. 绑定 this
+ * 3. 执行constructor绑定新生成的对象
  * 4. 返回新对象
  * 优先级 new有 > call,apply,bind > 显示 > 隐式
  */
@@ -527,7 +533,7 @@ Function.prototype.simulateNew = function(constructor) {
   let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1))
   //in case constructor return a simple type
   return (typeof result === 'object' && typeof result !== null) ||
-    typeof ctorReturnResult === 'function'
+    typeof result === 'function'
     ? result
     : obj
 }
@@ -563,12 +569,7 @@ Function.prototype.simulateBind = function(context) {
   let fn = this
   let args = [...arguments].slice(1)
   return function() {
-    // 处理函数使用new的情况
-    if (this instanceof fn) {
-      return new fn(...args, ...arguments)
-    } else {
-      return fn.apply(context, args.concat(...arguments))
-    }
+    return fn.apply(context, args.concat(...arguments))
   }
 }
 
@@ -577,16 +578,16 @@ Function.prototype.simulateBindAdvance = function(context) {
   let fn = this
   let args = [...arguments].slice(1)
 
-  //judge this
-  //if invoke by new, this is bar
+  //if invoke by new, this is fBound
   //if function invoke, this is context
   let fBound = function() {
-    let bindArgs = [...arguments].slice()
+    let bindArgs = [...arguments]
     return fn.apply(
       this instanceof fBound ? this : context,
       args.concat(bindArgs)
     )
   }
+  //very important
   fBound.prototype = Object.create(this.prototype)
   // let F = function () {}
   // F.prototype = this.prototype
@@ -602,7 +603,7 @@ Function.prototype.simulateCreate = function(obj) {
   return new F()
 }
 
-const curry = function(fn) {
+const simulateCurry = function(fn) {
   let args = Array.prototype.slice.call(arguments, 1)
   let _this = this
   return function() {
@@ -610,14 +611,14 @@ const curry = function(fn) {
   }
 }
 
-const curryFormalParameter = function(fn, args) {
+const simulateCurryFormalParameter = function(fn, args) {
   let length = fn.length,
     _args = args || [],
     that = this
   return function() {
     let innerArgs = _args.concat([].slice.call(arguments))
     if (innerArgs.length < length) {
-      return curryFormalParameter.call(that, fn, innerArgs)
+      return simulateCurryFormalParameter.call(that, fn, innerArgs)
     } else {
       return fn.apply(that, innerArgs)
     }
@@ -734,7 +735,7 @@ const copyDeepClone = function(obj) {
   )
 }
 
-const inherit = (function() {
+const similateInherit = (function() {
   let F = function() {}
   return function(Child, Parent) {
     F.prototype = Parent.prototype
@@ -781,23 +782,22 @@ jsonStringify({ x: 5 }) // "{"x":5}"
 jsonStringify([1, 'false', false]) // "[1,"false",false]"
 jsonStringify({ b: undefined }) // "{"b":"undefined"}"
 
-const instanceOf = (left, right) => {
-  //let proto = left.__proto__
+const simulateInstanceOf = (left, right) => {
+  //can not write like -> let proto = left.__proto__
   let proto = Object.getPrototypeOf(left)
   let prototype = right.prototype
   while (true) {
     if (proto === null) return false
     if (proto === prototype) return true
-    //proto = proto.__proto__
     proto = Object.getPrototypeof(proto)
   }
 }
 
-const myTypeof = obj => {
+const getBuitlInType = obj => {
   return Object.prototype.toString.call(obj).slice(8, -1)
 }
 
-const getBuitlInType = obj => {
+const getBuitlInType2 = obj => {
   let str = Object.prototype.toString.call(obj)
   return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
@@ -805,15 +805,15 @@ const getBuitlInType = obj => {
 //String
 //String
 //String
-String.prototype.MyReverse = function() {
+String.prototype.myReverse = function() {
   return Array.prototype.reverse.apply(this.split('')).join('')
 }
 
-String.prototype.MyTrim = function() {
+String.prototype.myTrim = function() {
   return this.replace(/^\s+|\s+$/g, '')
 }
 
-String.prototype.simulateTrim = function() {
+String.prototype.myTrim2 = function() {
   return this.replace(/^\s+|\s+$/g, '')
 }
 
@@ -1106,4 +1106,34 @@ function getElementTop(element) {
     current = current.offsetParent
   }
   return actualTop
+}
+
+//promise
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms))
+}
+async function test() {
+  console.log('Hello')
+  await sleep(1000)
+  console.log('World')
+}
+
+//使用XMLHttpRequest实现一个Promise的ajax
+function myRequest(url, method, params) {
+  return new Promise((resolve, reject) => {
+    let xhr = new XMLHttpRequest()
+    xhr.open(method, url)
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState != 4) {
+        return
+      }
+      if (xhr.state === 200) {
+        resolve(xhr.response)
+      }
+    }
+    xhr.addEventListener('error', e => {
+      reject(error)
+    })
+    xhr.send(params)
+  })
 }

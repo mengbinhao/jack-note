@@ -1,3 +1,29 @@
+- 2019.10.11
+  - acting n/adj
+  - dirt n
+  - wrongdoing n
+  - pureview n
+  - transcript n
+  - covert adj
+  - conceal vt | concealed adj
+  - bothersome adj
+  - properly adv | inproperly adv
+  - erupt vi
+  - spontaneously adv
+  - disperse v | dispersed adj
+  - heavy-handed adj
+  - median n/adj
+  - barely adv
+  - overwhelmingly adv
+  - curfew n
+  - religious adj
+
+  > impossible to know where this might go next
+  > as far as I can work out
+  > at the center of this
+  > one of the big thing that xxx
+  > rather than giving ut to Congress as the law seemed to require
+
 - 2019.10.10
   - memo n
   - notion n
@@ -636,7 +662,7 @@
 - 2019.8.19
   - consult vi/vt | consulting adj
   - stooge n
-  - emerge vi
+  - emerge vi | emerging adj
   - concrete adj
   - problematic adj
   - remedy n/vt
@@ -703,7 +729,7 @@
   - somehow adv
   - inquiry n
   - appalled adj
-  - allegation n | alleged adj | allegedly adv
+  - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt
   - minor n/adj
   - disturbing adj
@@ -791,7 +817,7 @@
   > it turned out
 
 - 2019.7.31
-  - testify vi/vt
+  - testify vi/vt | testimony n
   - bombshell n
   - congressional adj
   - collegial adj
@@ -843,7 +869,7 @@
 - 2019.7.25
   - enrollment n | enrol vi/vt
   - roughly adv | rough adj
-  - essential n/adj
+  - essential n/adj | essence n
   - prescription n
   - discrimination n
   - repeal vt/n
@@ -970,6 +996,7 @@
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
   - substantially adv
+  - substance n
   - dyfunctional adj
   - clumsy adj
   - blunt adj/vt

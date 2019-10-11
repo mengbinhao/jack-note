@@ -27,21 +27,19 @@
       1. `Array.prototype.slice.call(arguments).sort() to const sortNumbers = (...numbers) => numbers.sort()`
       2. 与解构赋值组合使用`var [a,b,...c] = array;`
    3. 箭头函数
-      > 1 没有 this,函数体里面的 this 是箭头函数定义时所在对象,不是运行时(this 看上一级，若是箭头函数继续上找,作用域是栈内存不是堆内存)
+      > 1 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若是箭头函数继续上找), call / apply / bind也改变不了
       >
       > 2 没有 arguments,但有...
       >
       > 3 不能用作构造函数,new 调用
       >
-      > 4 不可用 yield,因此不能用 Generator 函数
+      > 4 没有原型对象
       >
-      > 5 不能改变 this 绑定,即使通过 call / apply / bind
+      > 5 没有自己的 super 和 new.target 绑定
       >
-      > 6 形参名称不能重复
+      > 6 不可用 yield,因此不能用 Generator 函数
       >
-      > 7 没有原型对象
-      >
-      > 8 没有自己的 super 和 new.target 绑定
+      > 7 形参名称不能重复
 
 3. 解构(数组、对象、函数参数、解构不成功`undefined`,比如不对称解构)
    1. 排除对象不需要的属性、提取 JSON 数据、Map 解构、解析模块方法

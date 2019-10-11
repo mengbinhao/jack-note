@@ -67,7 +67,7 @@
 - [耗时两个月，网上最全的原创nodejs深入系列文章](https://blog.5udou.cn/blog)
 
 ### front
-
+- [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/Ov84B6t-xJNv6G8de-yHIw)
 - [前端 resource](https://segmentfault.com/a/1190000016420985)
 - [前端 resource](http://0313.name/archives/485)
 - [前端安全](https://juejin.im/post/5af931a8f265da0b8d420b64)
@@ -165,6 +165,8 @@
 - [从一次性能优化看Vue的一个feature](https://juejin.im/post/5d7cc1966fb9a06b211717df)
 - [6个有用的Vue开发技巧](https://juejin.im/post/5d861aabe51d4557ca7fde06)
 - [记一次vue+nuxt性能优化](https://juejin.im/post/5d93e5446fb9a04de04d7986)
+- [Vue项目使用拦截器和JWT验证](https://juejin.im/post/5d9deb275188255ccc5798ed)
+- [Vue开发必须知道的36个技巧](https://segmentfault.com/a/1190000020620972)
 
 #### component related
 
@@ -355,6 +357,7 @@
 
 #### Vue
 
+- [Vue面试题](http://www.imooc.com/article/293084)
 - [Vue 面试知识点总结](https://segmentfault.com/a/1190000019646763)
 - [你要的 Vue 面试题都在这里](https://juejin.im/post/5d13436f6fb9a07eca698ba0)
 - [公司要求熟悉框架 Vue,必问面试题你都会几道](https://mp.weixin.qq.com/s?__biz=MzU3NjczNDk2MA==&mid=2247484312&idx=1&sn=cd486a3a2e3665488c1c8b7cf9e1ca75)
