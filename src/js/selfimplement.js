@@ -1137,3 +1137,23 @@ function myRequest(url, method, params) {
     xhr.send(params)
   })
 }
+
+//for in vs for off
+//1 循环对象属性的时候，使用for...in,在遍历数组的时候的时候使用for...of
+//2 for...in循环出的是key，for...of循环出的是value
+//3 for...of是ES6新引入的特性。修复了ES5引入的for...in的不足
+//4 for...of不能循环普通的对象，需要通过和Object.keys()搭配使用
+//5 for of可与break、continue和return配合使用
+//6 for of提供遍历所有数据结构的统一操作接口
+var student = {
+  name: 'wujunchuan',
+  age: 22,
+  locate: {
+    country: 'china',
+    city: 'xiamen',
+    school: 'XMUT'
+  }
+}
+for (var key of Object.keys(student)) {
+  console.log(key + ': ' + student[key])
+}

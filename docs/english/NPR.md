@@ -1,3 +1,25 @@
+- 2019.10.12
+  - sicken vi/vt | sickening adj
+  - Athens n
+  - hiatus n
+  - deep-seated adj
+  - skepticism n
+  - concede vi/vt
+  - long-standing adj
+  - confusion n
+  - trible adj
+  - short-term adj
+  - withdrawal n
+  - decimate vt
+  - patrol n/vt
+  - harshly adv
+
+  > he admitted that after one month hiatus the two sides had a lot of catching up to do
+  > they have very little room to work with
+  > it feels like it might be a good idea to just back us up 24 hours or so
+  > then he walked out back
+  > to use a word a second time
+
 - 2019.10.11
   - acting n/adj
   - dirt n
@@ -283,7 +305,7 @@
   - involve v | involvement n
   - dismiss vt
   - maximum n | minimum n
-  - humanitarian adj
+  - humanitarian adj | humane adj
   - crown n/vt
 
   > give us the context here
@@ -381,7 +403,7 @@
   - defection n
   - plus n/adj/conj
   - sizable adj
-  - ridicule n/vt
+  - ridicule n/vt | ridiculous adj
   - invitation n
   - remarkable adj
   - electorate n
@@ -406,7 +428,7 @@
   - negative n/adj/vt
   - lunar adj
   - comfort n/vt
-  - spirit n
+  - spirit n/vt
   - unexplored adj
   - quell vt
   - cellular adj
@@ -479,8 +501,7 @@
   - epic n/adj
   - brawl n/vi
   - toddler n
-  - opponent n
-  - opposition n
+  - opponent n | opposite n/adj/adv/prep | opposition n | oppose vt
   - thwart n/vt/prep
   - seize vi/vt
   - agenda n
@@ -762,7 +783,7 @@
   - handful n
   - endorse vt
   - so-called adj
-  - invasion n
+  - invasion n | incursion n
 
 - 2019.8.8
   - treaty n
@@ -822,7 +843,7 @@
   - congressional adj
   - collegial adj
   - despite prep
-  - briefing n | breif n/vt/adj
+  - briefing n | breif n/vt/adj | breifly adv
   - scence n
 
   > at odds with sb
@@ -895,7 +916,6 @@
   - dis adj
   - intense adj
   - recharge vt
-  - opposite n/adj/adv/prep
   - controversy n | controversial adj
   - intelligence n | intellectual n/adj
   - condemn vt
@@ -1035,7 +1055,7 @@
 - 2019.7.12
   - swallow vi/vt/n
   - proposed adj | proposal n
-  - domestic n/adj
+  - domestic n/adj | domestical adj | domestically adv
   - encouraging adj
   - tariff n/vt
   - consequence n

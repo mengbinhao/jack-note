@@ -313,6 +313,7 @@
 
 ### Interview
 
+- [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)
 - [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
 - [大厂面试题](https://juejin.im/post/5d7aeea35188255de73521ff)
 - [za](https://segmentfault.com/a/1190000019946154)

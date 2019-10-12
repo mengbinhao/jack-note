@@ -1,5 +1,5 @@
 ### ES6
-
+- [some summary](https://juejin.im/post/5d9bf530518825427b27639d)
 1. 模板字符串,可保留多行格式，可以调用函数
 
    ```javascript
