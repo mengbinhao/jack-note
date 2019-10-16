@@ -5,7 +5,7 @@
 - `ctrl + <-|->`
 
 ### 2.Hotkey
-- `ctrl + p`
+- `ctrl + p` -> `?`查看可用命令
 - `ctrl + shift + p`
 - `ctrl + f`
 - `ctrl + shift + f`
@@ -105,13 +105,24 @@
 
 ### 5.Sources
 - {} => format
+
 - Filesystem
+
 - Snippets
+
 - blackbox script
+
 - condition breakpoint
+  
     - 可以直接console.log(), 返回時falsy不會暫停
+    
 - pause on exception
+
 - ctrl+shift+p-> 查看代码coverage
+
+- Local overrides
+
+    - Local overrides 模拟 Mock 数据
 
 ### 6.Network
 - **自定義顯示列**
@@ -168,3 +179,10 @@
 - Show user agent shadow DOM
 - Log XMLHttprequests
 - Enable custom formatters
+
+### 11. Performance
+
+- `> performance monitor`  性能监视器
+- FPS选择第一项,FPS实时监控性能
+- `screenshot` 截图相关
+- `coverage`  查看代码利用率

@@ -71,6 +71,7 @@
 - [前端 resource](https://segmentfault.com/a/1190000016420985)
 - [前端 resource](http://0313.name/archives/485)
 - [前端安全](https://juejin.im/post/5af931a8f265da0b8d420b64)
+- [常见web安全问题](https://segmentfault.com/a/1190000020683150)
 - [前端优化](https://segmentfault.com/a/1190000018263418)
 - [前端优化](https://segmentfault.com/a/1190000018530091)
 - [前端优化](https://juejin.im/post/5b04dd816fb9a07aae158903)
@@ -122,6 +123,7 @@
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
 - [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
 - [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
+- [源码之Diff流程](https://segmentfault.com/a/1190000020658020)
 - [key在Vue列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
 - [Vue的render函数](https://segmentfault.com/a/1190000010913794)
 - [Vue使用jsx](https://juejin.im/post/5affa64df265da0b93488fdd)
@@ -274,6 +276,7 @@
 
 #### redux
 - [从零实现一个Redux](https://mp.weixin.qq.com/s/zWKZPLpo_7kcNKzZeqH2kg)
+- [动手实现一个react-redux](https://mp.weixin.qq.com/s/axauH4xpq-ZV3FFHI9XWLg)
 
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
@@ -299,6 +302,10 @@
 ### JAVA
 
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
+
+### Python
+
+- [30个超实用Python代码片段](https://mp.weixin.qq.com/s/aVK_vGKt0DISRnfkCHbiMA)
 
 ### testing
 

@@ -1,3 +1,67 @@
+- 2019.10.16
+  - agricultural adj
+  - anxious adj
+  - piecemeal adj
+  - devil n
+  - outstanding adj
+  - property n
+  - treasury n
+  - secretary n
+  - state-owned adj
+  - blacklist n/vt
+  - backtrack vi
+  - positive n/adj
+  - somewhat adv
+
+  > That's been another major sticking point here
+  > it certainly set a different tone
+  > they still have a long way to go
+  > it hasn't been talked about today
+  > in place
+  > they go to the very heart of the kind of economy China is
+  > quite a few
+  > one of the important thing to point out here is that
+
+- 2019.10.15
+  - assault n/vt/adj
+  - crisis n
+  - flee vi/vt
+  - neutralize vt
+  - fatality n
+  - extent n | extend vi/vt
+  - relative adj
+  - arrange v | arrangement n
+  - terrify v | terrified adj
+  - condemnation n
+  - approve v | disapprove v
+  - outcry n
+  - defiant adj
+  - displaced adj
+  - strident adj
+  - volatile adj
+
+  > on behalf of
+  > it's been from every corner
+  > at the moment, it is not nearly that wide
+
+- 2019.10.14
+  - individual n/adj
+  - firsthand
+  - qualify vi/vt
+  - corroborate vt
+  - interim n/adj
+  - clearance n
+  - accompany vt
+  - subpoena n/vt
+  - oversight n
+
+  > take effect
+  > step forward
+  > there is no date set as of yet
+  > kick off
+  > a lot remines a mystery, to be honest
+  > xxxx but remains, as you said, anonymous
+
 - 2019.10.12
   - sicken vi/vt | sickening adj
   - Athens n
@@ -36,7 +100,7 @@
   - heavy-handed adj
   - median n/adj
   - barely adv
-  - overwhelmingly adv
+  - overwhelmingly adv | underwhelming adj | underwhelmed adj
   - curfew n
   - religious adj
 
@@ -74,7 +138,6 @@
   - patriot n
   - barrier n
   - subsidy n | subsidize vt
-  - subsidize
   - manipulation n
   - dumping n
   - theft n
@@ -523,6 +586,7 @@
 - 2019.9.5
   - plague n/vt
   - pollution n | pulloter n
+  - structure n | structural adj
   - infrastructure n
   - feasible adj
   - founder n
@@ -683,7 +747,7 @@
 - 2019.8.19
   - consult vi/vt | consulting adj
   - stooge n
-  - emerge vi | emerging adj
+  - emerge vi | emerging adj | emergence n
   - concrete adj
   - problematic adj
   - remedy n/vt
@@ -699,7 +763,6 @@
   - eligible adj
   - sick n/vt/adj
   - turnout n | turnover n
-  - underwhelming adj
   - poverty n
   - unchecked adj
   - detain vt
@@ -843,7 +906,7 @@
   - congressional adj
   - collegial adj
   - despite prep
-  - briefing n | breif n/vt/adj | breifly adv
+  - briefing n | brief n/vt/adj | briefly adv
   - scence n
 
   > at odds with sb
@@ -990,7 +1053,7 @@
   - activist n
   - joint adj
   - council n
-  - civilian n
+  - civilian n/adj
   - clash n/vi/vt
   - coup n
   - sole adj/n/vt
@@ -1015,7 +1078,7 @@
   - radiate vi/vt
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
-  - substantially adv
+  - substantial adj | substantially adv
   - substance n
   - dyfunctional adj
   - clumsy adj
@@ -1213,7 +1276,7 @@
   - trial | retrial n
   - democratically adv | democratic adj | democracy n
   - jail n/vt
-  - crackdown n
+  - crackdown n | crack n/adj/vi/vt
   - circumstance n
   - ban vt | banner n
   - convicted adj
