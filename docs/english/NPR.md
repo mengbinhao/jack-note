@@ -1,3 +1,42 @@
+- 2019.10.17
+  - typhoon n | hurricane n
+  - scary adj | scare n/v/adj
+  - archipelago n
+  - diminished adj | diminish v
+  - valley n
+  - inundate vt
+  - hard-hit
+  - prefecture n
+  - vary vi/vt
+  - Panamanian n/adj
+  - anchor n/vt
+  - bay n
+  - landslide n
+  - magnitude n
+  - Jeez
+  - raft n/v
+  - stranded adj
+  - resident n/adj
+  - resume n/vt
+  - evacuation n | evacuate vi/vt
+  - dam n
+  - levee n
+  - agreement n | agree v
+  - asylum n
+  - purge n/vt
+  - scrutiny n
+  - achieve vi/vt | achievable adj
+
+  > Transportation really ground to a halt
+  > the result of that was xxxx
+  > It appears to be the worst one to hit the country in more than 60 years
+  > the measure of success is xxx
+  > after the news broke
+  > from the start
+  > xxx in regards to issue that were xxx
+  > it was a challenging time
+  > there's a bit of a delay on the line
+
 - 2019.10.16
   - agricultural adj
   - anxious adj
@@ -26,7 +65,7 @@
   - assault n/vt/adj
   - crisis n
   - flee vi/vt
-  - neutralize vt
+  - neutralize vt | neutrality n | neutral adj
   - fatality n
   - extent n | extend vi/vt
   - relative adj
@@ -175,7 +214,6 @@
   - thrilled adj
   - disdain n/vt
   - ambiguity n
-  - neutrality n
   - indecisive adj
   - obfuscate vt
 
@@ -288,7 +326,6 @@
   - conference n
   - garner vt
   - accumulation n
-  - outrage n/vt
   - reputation n
   - embrace n/vi/vt
   - diversity n
@@ -516,7 +553,6 @@
 - 2019.9.10
   - distressed adj
   - mental adj
-  - enraged adj
   - illustrate vt
   - ramblings n
   - incoherent adj
@@ -657,7 +693,7 @@
   - dismayed adj | dismay n/vt
   - stance n
   - admiration n
-  - underestimated adj
+  - underestimated adj | estimate n/vt
   - tackle n/vt
   - mobilize vt
   - corrode vi/vt
@@ -1251,7 +1287,7 @@
   - redical adj/n
   - hatred n
   - prejudice n/vt
-  - rage n/vi/vt
+  - rage n/vi/vt | raging adj | enraged v/adj | outrage n/vt
   - rally n/vi/vt
   - metaphorically adv
   - literally adv

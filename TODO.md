@@ -81,6 +81,8 @@
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
 
 ### JS
+- [深入了解强大的ES6...运算符](https://segmentfault.com/a/1190000020612737)
+- [5个JS不良编码习惯](https://segmentfault.com/a/1190000020685959)
 - [常见数据结构和Javascript实现总结](https://segmentfault.com/a/1190000020011987)
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 - [实现25个数组方法](https://segmentfault.com/a/1190000020389596)
