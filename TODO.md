@@ -115,6 +115,7 @@
 - [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
 - [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
 - [分分钟搞定浏览器滚动](https://mp.weixin.qq.com/s/wy7wdc3g6LaMcgZ2vq_d2w)
+- [Moment.js常用API速查](https://segmentfault.com/a/1190000020710808)
 
 ### Vue
 

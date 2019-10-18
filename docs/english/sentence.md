@@ -1,3 +1,15 @@
+### useful sentences
+- you guys are so busy today
+- yeah, it's like this every morning
+- I'll give it a try
+- I've had it before, it's pretty good, but I'm on a diet
+- you loose any weight? Keep going
+- I can't go wrong with sth
+- I am [not] really a fan of sth
+- sop up A with B / dip A in B
+- I'm gonna go for sth
+- I'd recommend sth
+
 ### native english
 1. Ordering or asking somethong
 > I want/need -> Can/Could I have  a glass of water? Plese

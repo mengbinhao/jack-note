@@ -645,7 +645,7 @@ const hasPubProperty = (attr, obj) => {
 //json只能处理string、boolean、number、null、object、array
 const deepClone = (source, hash = new WeakMap()) => {
   if (!isObject(source)) return source
-  //maybe return
+  //or return directly
   if (hash.has(source)) throw new TypeError('circle reference')
   let target = Array.isArray(source) ? [] : {}
   hash.set(source, target)

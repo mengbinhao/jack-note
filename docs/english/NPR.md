@@ -1,3 +1,19 @@
+- 2019.10.18
+  - separatist n/adj
+  - deem vt
+  - pile n/vivt
+  - commute n/vi
+  - airline n
+  - anticipate v | anticipation n
+  - acquit vt
+  - grassroots n
+  - arrest n/vt
+  - bail n/vi/vt
+  - self-imposed adj
+  - verdict n
+  - dialogue n/vi/vt
+  - minority n | majority n
+
 - 2019.10.17
   - typhoon n | hurricane n
   - scary adj | scare n/v/adj
@@ -702,7 +718,7 @@
   - interfere vi | interference n | intervene vi
   - contrary n/adj/adv
   - preserve n/vt
-  - criminality n
+  - criminality n | crime n
   - exaggerated adj
   - culprit n
   - exploit n/vt
