@@ -1,14 +1,31 @@
 ### useful sentences
+
+#### common
+- sb can't go wrong with sth
+
+#### begin talk
 - you guys are so busy today
 - yeah, it's like this every morning
-- I'll give it a try
-- I've had it before, it's pretty good, but I'm on a diet
-- you loose any weight? Keep going
-- I can't go wrong with sth
-- I am [not] really a fan of sth
+
+### eat
 - sop up A with B / dip A in B
 - I'm gonna go for sth
 - I'd recommend sth
+- I'll give it a try
+- I've had it before, it's pretty good, but I'm on a diet
+- you loose any weight? Keep going
+- I am [not] really a fan of sth
+
+#### bargain n/vn | haggle v
+- That's kind of expensive
+- Can u give me a discount?
+- How about two for $10?
+- I'll gicve you 10$, this is my last offer
+- two for $10 or no deal
+- If u give me a good deal, I'll by more
+- You throw in that sth
+- fine, I'll go look around
+- might be able to find a better offer somewhere else
 
 ### native english
 1. Ordering or asking somethong

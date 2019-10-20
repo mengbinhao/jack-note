@@ -5,13 +5,7 @@
 2. 同步任务会进入主线程，异步任务会进入Event Table(事件表),当事件表中的异步任务完成后会在Event Queue(事件队列)中注册回调函数
 3. 主线程任务全部完成后,才会完成Event Queue中的任务
 4. js解析器会不断地重复检查主线程执行栈是否为空,然后重复第3步,这就是Event Loop(事件循环)
-
-js代码的类型分为:
-![](../images/task-2.png)
-
-1. 任务又可以进一步分为宏任务和微任务,这对js代码的执行有更为细致的影响,在文章下面会有讲解
-2. 异步任务中的宏任务和微任务会进入不同的Event Queue事件队列,即Event Queue又可以分为宏任务队列和微任务队列
-3. setInterval会按照设定的时间间隔重复地在Event Queue注册回调函数,如果某一段时间主线程代码执行太久,那么setInterval的回调函数可能阻塞到一起执行,无法保持设定的时间间隔,如果此时setInterval用于动画,则体现为卡顿
+   ![](../images/task-2.png)
 
 ### 详细流程
 ![](../images/task-3.png)
@@ -19,8 +13,8 @@ js代码的类型分为:
 所以通常来说，我们页面中的js执行顺序是这样的:
 
 - 第一轮事件循环:
-    1. 主线程执行js整段代码（宏任务），将ajax、setTimeout、promise等回调函数注册到Event Queue，并区分宏任务和微任务。
-    2. 主线程提取并执行Event Queue 中的ajax、promise等所有微任务，并注册微任务中的异步任务到Event Queue。
+    1. 主线程执行js整段代码（宏任务），将ajax、setTimeout、promise等回调函数注册到Event Queue，并区分宏任务和微任务
+    2. 主线程提取并执行Event Queue 中的ajax、promise等所有微任务，并注册微任务中的异步任务到Event Queue
 
 
 - 第二轮事件循环:
@@ -29,13 +23,11 @@ js代码的类型分为:
     3. 执行Event Queue中的所有微任务，并注册微任务中的异步任务到Event Queue(如果有)
 
 
-- 类似的循环：**宏任务每执行完一个，就清空一次事件队列中的微任务**
+- **简而言之，一次事件循环只执行处于Macrotask队首的任务，执行完成后，立即执行Microtask队列中的所有任务**
 
-> 注意：事件队列中分“宏任务队列”和“微任务队列”，每执行一次任务都可能注册新的宏任务或微任务到相应的任务队列中，只要遵循“每执行一个宏任务，就会清空一次事件队列中的所有微任务”这一循环规则，就不会弄乱
-
-### 常见的宏任务和微任务
-- 宏任务：script(整体代码)、setTimeout、setInterval、I/O、事件、postMessage、 MessageChannel、setImmediate (Node.js)
-- 微任务：Promise.then、 MutaionObserver、process.nextTick (Node.js)
+### 常见的Macrotask和Microtask
+- 宏任务：script(整体代码)、setTimeout、setInterval、I/O、事件、postMessage、 MessageChannel、setImmediate (Node.js)、用户交互操作、UI渲染
+- 微任务：**Promise**、 process.nextTick (Node.js)、Object.observe(不推荐使用)
 
 ### Demo
 ```javascript

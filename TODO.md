@@ -82,6 +82,7 @@
 
 ### JS
 - [深入了解强大的ES6...运算符](https://segmentfault.com/a/1190000020612737)
+- [JavaScript 工具函数大全](https://mp.weixin.qq.com/s/YmMq1THEObpYU38JlWZGdw)
 - [5个JS不良编码习惯](https://segmentfault.com/a/1190000020685959)
 - [常见数据结构和Javascript实现总结](https://segmentfault.com/a/1190000020011987)
 - [28个JavaScript实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
@@ -116,11 +117,13 @@
 - [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
 - [分分钟搞定浏览器滚动](https://mp.weixin.qq.com/s/wy7wdc3g6LaMcgZ2vq_d2w)
 - [Moment.js常用API速查](https://segmentfault.com/a/1190000020710808)
+- [各种文件上传，从小图片到大文件断点续传](https://juejin.im/post/5da14778f265da5bb628e590)
 
 ### Vue
 
 #### Vue related
 
+-[从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
 - [Vue双向数据绑定原理及实现](https://juejin.im/post/5d560340518825708f4abec9)
 - [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
@@ -141,6 +144,7 @@
 - [前端使用工具强制实行代码规范（Vue）](https://blog.rxliuli.com/p/ce3fba72/)
 
 #### project related
+- [Vue 使用中的小技巧](http://www.imooc.com/article/293570)
 - [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
 - [Vue中项目优化](https://juejin.im/post/5d7b91e86fb9a06ace527e2a)
@@ -244,6 +248,7 @@
 - [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
 - [react-cloud-music](https://github.com/sanyuan0704/react-cloud-music)
 - [react-cloud-music-doc](https://sanyuan0704.github.io/react-cloud-music/chapter1/)
+- [如何用120行代码，实现一个交互完整的拖拽上传组件？](https://mp.weixin.qq.com/s/cPW8Sr2pShJumnCtXsk-ww)
 
 #### basic
 - [React学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
@@ -399,6 +404,7 @@
 - [React 328道最全面试题](https://segmentfault.com/a/1190000019810571)
 - [需要掌握的21个React性能优化技巧](https://mp.weixin.qq.com/s/iZqV6GAi5zyX5P48hR4VLA)
 - [react知识点整理50问](https://segmentfault.com/a/1190000020055666)
+- [50个React面试问题](https://mp.weixin.qq.com/s/3ZcH3hvmoXfQIgRWnFfNBQ)
 
 #### compare
 

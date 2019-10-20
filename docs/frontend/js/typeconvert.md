@@ -83,14 +83,23 @@ if (value && Number(value) >= 0) {
 #### 浮点数转换成整型
 很多人喜欢使用`parseInt()`，其实`parseInt()`是用于将字符串转换成数字，而不是浮点数和整型之间的转换，我们应该使用`Math.floor()`或者`Math.round()`
 
-#### 各种类型转换
+#### **转换 trick**
 ```javascript
 var myVar = '3.1415'
     str = '' + myVar
-    i_int = ~ ~myVar
-    f_float = 1*myVar
+    i_int = ~~myVar // to integer,对正数来说 ~~运算结果与Math.floor()运算结果相同，而对于负数来说与Math.ceil()的运算结果相同
+    
+		f_float = 1 * myVar  //or to int, then check NaN
     b_bool = !!myVar
     arr = [myVar]
+
+		+'123' //str to number, then check NaN
+    1.3 | 0 //number to integer,对正数来说 ~~运算结果与Math.floor()运算结果相同，而对于负数来说与Math.ceil()的运算结果相同
+    !!(num & 1) //check if odd number or not
+
+		//字符串比较时间先后大小是按照字符串从左到右每个字符的charCode来的，所以特别要注意时间形式注意补0
+    '21:00' < '09:10'
+    '21:00' < '9:10'
 ```
 
 关于值的比较，当我们只关心值是否正常时，比较靠谱的方法：正则表达式，上面的例子也可以这样来
@@ -102,7 +111,7 @@ if (/[0-5]/.test(value)) {
 }
 ```
 
-**小结：在判断两个值是否相等时，最好显式的转化，让代码更加清晰易读，然后用全等运算符 === 或者 !== 来比较**
+**小结：在判断两个值是否相等时，最好显式的转化，让代码更加清晰易读，然后用全等运算符 \=\=\= 或者 !== 来比较**
 
 ### 隐式强制类型转换
 ####  加法运算符

@@ -1,3 +1,25 @@
+- 2019.10.20
+  - steak n
+  - flavor n/vt
+  - scoop n
+  - toast n
+
+- 2019.10.19
+  - pave vt
+  - hurdle n/vi/vt
+  - consent n/vi
+  - enthusiastic adj
+  - curtail vt
+  - smuggling n
+  - pertain vi
+  - slip n/vi/vt
+  - ratify vt
+  - amid prep
+  - melancholy n/adj
+  - inevitability n
+  - alienated adj
+  - showdown n
+
 - 2019.10.18
   - separatist n/adj
   - deem vt
@@ -13,6 +35,11 @@
   - verdict n
   - dialogue n/vi/vt
   - minority n | majority n
+
+  > if I can keep track all of this
+  > on a more personal note
+  > frankly speaking
+  > first of all
 
 - 2019.10.17
   - typhoon n | hurricane n
@@ -65,7 +92,7 @@
   - state-owned adj
   - blacklist n/vt
   - backtrack vi
-  - positive n/adj
+  - positive n/adj ｜ negative n/adj/vt
   - somewhat adv
 
   > That's been another major sticking point here
@@ -83,7 +110,7 @@
   - flee vi/vt
   - neutralize vt | neutrality n | neutral adj
   - fatality n
-  - extent n | extend vi/vt
+  - extent n | extend vi/vt | extended adj | extension n
   - relative adj
   - arrange v | arrangement n
   - terrify v | terrified adj
@@ -450,7 +477,7 @@
   - snap n/adj
   - keen vi/adj
   - inflict vt
-  - disaster n
+  - disaster n | disastrous adj
   - flout vt
   - loophole n
   - superme adj
@@ -541,7 +568,6 @@
   - eerily adv
   - cap n
   - huddle vt | huddled adj
-  - negative n/adj/vt
   - lunar adj
   - comfort n/vt
   - spirit n/vt
@@ -770,7 +796,6 @@
   - ominous adj
   - curve n/vt
   - persist vi
-  - extended adj
   - precede vt
   - anxiety n
   - unsetting adj
@@ -830,7 +855,7 @@
   - constitutional adj
   - shortsighted adj
   - impunity adj
-  - pessimistic adj | optimistic adj
+  - pessimistic adj | optimistic adj | optimism n
 
 - 2019.8.15
   - arctic n/adj
@@ -1270,7 +1295,6 @@
   - retaliate vi
   - proportional adj/n
   - casualty n
-  - tough adj/adv/n
   - de-escalate v | escalate
   - negotiate vi/vt | negotiator n
 
@@ -1392,7 +1416,7 @@
   - circumstantial adj
   - takeaway n
   - plot n/vi/vt
-  - fierce adj
+  - fierce adj | fiercely adv
   - yield n/vi/vt
   - derail vi/vt
   - heighten vi/vt

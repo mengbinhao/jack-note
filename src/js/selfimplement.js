@@ -162,25 +162,6 @@ Array.prototype.myFilter = function(fn) {
   return result
 }
 
-Array.prototype.myReduce = function(fn, initialValue) {
-  let i = 0,
-    result
-  result = initialValue ? initialValue : this[0]
-  startIndex = initialValue ? 0 : 1
-  for (let len = this.length; i < len; i++) {
-    if (i in this) {
-      result = fn(result, this[i], i, this)
-    }
-  }
-  return result
-}
-
-Array.prototype.myReduce2 = (f, acc, arr) => {
-  if (arr.length === 0) return acc
-  const [head, ...tail] = arr
-  return reduce(f, f(head, acc), tail)
-}
-
 Array.prototype.myEvery = function(fn, thisArg) {
   for (let i = 0, len = this.length; i < len; i++) {
     if (i in this) {
@@ -201,6 +182,25 @@ Array.prototype.mySome = function(fn, thisArg) {
     }
   }
   return false
+}
+
+Array.prototype.myReduce = function(fn, initialValue) {
+  let i = 0,
+    result
+  result = initialValue ? initialValue : this[0]
+  startIndex = initialValue ? 0 : 1
+  for (let len = this.length; i < len; i++) {
+    if (i in this) {
+      result = fn(result, this[i], i, this)
+    }
+  }
+  return result
+}
+
+Array.prototype.myReduce2 = (f, acc, arr) => {
+  if (arr.length === 0) return acc
+  const [head, ...tail] = arr
+  return reduce(f, f(head, acc), tail)
 }
 
 const chunk = (arr, size) => {
@@ -833,6 +833,11 @@ const isNaN = num => {
   ret += ''
   return ret === 'NaN' ? true : false
 }
+
+const round = (n, decimals = 0) =>
+  Number(`${Math.round(`${n}e${decimals}`)}e-${decimals}`)
+
+const addZero = (num, len = 2) => `${num}`.padStart(len, '0')
 
 //other
 //other

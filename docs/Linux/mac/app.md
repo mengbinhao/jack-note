@@ -48,16 +48,18 @@ open index.html
 
 #### homebrew
 ```bash
-brew update
-brew --help
 man brew
+brew --help
+
 brew [cask] install xxx
 brew uninstall xxx
-brew search xxx
+
 brew list
 brew update
+brew search xxx
 brew outdated
 brew upgrade xxx
+
 brew info xxx
 brew home xxx
 brew cleanup
