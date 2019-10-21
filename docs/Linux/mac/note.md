@@ -97,9 +97,20 @@ source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # install zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
+# install neofetch or screenfetch
+brew install neofetch
+
+# install nerd-fonts
+brew cask install font-hack-nerd-font
+
+# configure spaceship-prompt theme
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+ZSH_THEME="avit"
+
 # configure ~/.zshrc
 vim ~/.zshrc
-ZSH_THEME="avit"
 plugins=(
     git
     zsh-autosuggestions

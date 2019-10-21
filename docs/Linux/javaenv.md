@@ -1,7 +1,35 @@
 ### required
 ![](./images/learn-19.png)
 
+### env setting
+
+Mac下环境变量的加载顺序为
+
+```bash
+# /etc/profile和/etc/paths 这俩是系统级别的，在系统启动就会加载，后面的是用户级别的，一般首次配置环境变量，会新建.bash_profile文件，在里面进行PATH的配置，当系统读取到了.bash_profile文件后就终止读取了，如果没有找到这个文件就会继续向下读取
+/etc/profile
+/etc/paths
+~/.bash_profile
+~/.bash_login
+~/.profile
+~/.bashrc
+```
+
+sudo vi ~/.bash_profile 没有就新建
+
+```bash
+# Mac下环境变量用':'分隔
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-1.8.0_221.jdk/Contents/Home"
+
+export MAVEN_HOME=/自定义maven路径/apache-maven-3.6.1
+
+export PATH=$JAVA_HOME/bin:$PATH
+
+export PATH=$MAVEN_HOME/bin:$PATH
+```
+
 ### JDK
+
 1. xftp upload to /opt
 2. tar -zxvf jdk*
 3. vi /etc/profile

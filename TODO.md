@@ -144,6 +144,7 @@
 - [前端使用工具强制实行代码规范（Vue）](https://blog.rxliuli.com/p/ce3fba72/)
 
 #### project related
+- [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
 - [Vue 使用中的小技巧](http://www.imooc.com/article/293570)
 - [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
@@ -329,6 +330,7 @@
 ### Interview
 
 - [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)
+- [前端面试题全面整理-带解析 涵盖（css、js、浏览器、vue、react、移动web、前端性能、算法、node）](https://segmentfault.com/a/1190000020738115)
 - [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
 - [大厂面试题](https://juejin.im/post/5d7aeea35188255de73521ff)
 - [za](https://segmentfault.com/a/1190000019946154)
@@ -372,7 +374,7 @@
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 
 #### Vue
-
+- [30道Vue前端面试题](https://juejin.im/post/5daa6adbf265da5b576befc8)
 - [Vue面试题](http://www.imooc.com/article/293084)
 - [Vue 面试知识点总结](https://segmentfault.com/a/1190000019646763)
 - [你要的 Vue 面试题都在这里](https://juejin.im/post/5d13436f6fb9a07eca698ba0)

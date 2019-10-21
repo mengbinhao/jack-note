@@ -3,6 +3,15 @@
 #### common
 - sb can't go wrong with sth
 
+### thanks
+- you're welcome/No problem
+- It was the least I could do
+- I'll get you back next time/Do not sweat it
+- Thanks a bunch/Do not mention it/Think nothing of it/It was nothing
+- I appreciate what you did/It was my pleasure
+- Thank you for coming/ Thank you for having me
+
+
 #### begin talk
 - you guys are so busy today
 - yeah, it's like this every morning
