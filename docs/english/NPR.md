@@ -13,6 +13,7 @@
   > in total
   > a lot of questions still remain
   > while all of that is going on, xxx
+
 - 2019.10.20
   - steak n
   - flavor n/vt

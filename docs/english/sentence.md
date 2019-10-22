@@ -7,7 +7,22 @@
 - It's better for xxx
 - I prefer xxx over xxx
 
-### thanks
+#### learn language
+- what would Americans say? | How would Americans say that?
+- I make lots of mistakes, and I would really appreciate it if you can point it out for me when I make that mistake
+- feel free to point out my mistake when I make them
+- Can you help me figure out the best way to word it?
+- What does this mean? When is an appropriate time for me to use this?
+- What are some synonyms to xxx? how should I use it?
+- Am I making sense? | Dose that make sense?
+- Let me see if I got that right
+- I'm afraid I can not give you that information
+
+#### begin talk
+- you guys are so busy today
+- yeah, it's like this every morning
+
+#### thanks
 - you're welcome/No problem
 - It was the least I could do
 - I'll get you back next time/Do not sweat it
@@ -15,12 +30,19 @@
 - I appreciate what you did/It was my pleasure
 - Thank you for coming/ Thank you for having me
 
+#### telephone
+1. This is Jack
+2. Jack's speaking, May I ask who is calling?
+3. This is him | speaking
+4. May I ask what this is regarding?
+5. I'm sorry, Could you repeat that?
+6. Would you mind hold on a moment?
+7. Could you please speak a little more slowly?
+8. I did not catch your meaning
+9. Would you mind spelling that for me?
+10. It's been great talking to you. Have a good day！
 
-#### begin talk
-- you guys are so busy today
-- yeah, it's like this every morning
-
-### eat
+#### eat
 - sop up A with B / dip A in B
 - I'm gonna go for sth
 - I'd recommend sth
@@ -40,6 +62,7 @@
 - fine, I'll go look around
 - might be able to find a better offer somewhere else
 
+
 ### native english
 1. Ordering or asking somethong
 > I want/need -> Can/Could I have  a glass of water? Plese
@@ -55,28 +78,3 @@
    2. You know what, actually, I do mind.
 6. Are you busy at the moment?/Do you have a minute to talk? I was wondering if you could help me with something
 7. Can you elaborate on that?
-
-### telephone
-1. This is Jack
-2. Jack's speaking, May I ask who is calling?
-3. This is him | speaking
-4. May I ask what this is regarding?
-5. I'm sorry, Could you repeat that?
-6. Would you mind hold on a moment?
-7. Could you please speak a little more slowly?
-8. I did not catch your meaning
-9. Would you mind spelling that for me?
-10. It's been great talking to you. Have a good day！
-
-
-### mis
-1. I make lots of mistakes, and I would really appreciate it if you can point it out for me when I make that mistake
-2. feel free to point out my mistake when I make them
-3. what would Americans say? | How would Americans say that?
-4. Can you help me figure out the best way to word it?
-5. What does this mean? When is an appropriate time for me to use this?
-6. What are some synonyms to xxx? how should I use it?
-7. google :  spell xxxx
-8. Am I making sense? | Dose that make sense?
-9.  Let me see if I got that right
-10. I'm afraid I can not give you that information
