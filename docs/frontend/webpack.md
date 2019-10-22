@@ -1076,7 +1076,32 @@ plugin: [
 #### 16 others
 
 - `ProvidePlugin` or `expose-loader`
+```javascript
+//=>内联加载器
+import jquery from 'expose-loader?$!jquery';
+console.log(window.$);
 
+{
+   //=>只要引入JQUERY就在全局注入$
+   test: require.resolve('jquery'),
+   use: ['expose-loader?$']
+}
+```
+
+```javascript
+let webpack = require('webpack');
+module.exports = {
+    plugins: [
+		//=>在每个模块中都注入$
+		new webpack.ProvidePlugin({
+			'$': 'jquery'
+		})
+	],
+}
+
+//=>页面中
+console.log($);
+```
 - `webpack-merge`
 
 - `DefinePlugin` //配置全局变量

@@ -2,6 +2,10 @@
 
 #### common
 - sb can't go wrong with sth
+- I'd like to build some muscle, but I don't know where to start
+- I tend to skip cardio, I mainly focus on strength training
+- It's better for xxx
+- I prefer xxx over xxx
 
 ### thanks
 - you're welcome/No problem

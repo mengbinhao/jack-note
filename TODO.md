@@ -37,6 +37,7 @@
 - [Node.js + Koa2 + MySQL + Vue.js 实战开发一套完整个人博客项目网站](https://segmentfault.com/a/1190000019603915)
 - [20道JS原理题](https://juejin.im/post/5d2ee123e51d4577614761f8)
 - [element-ui form](https://juejin.im/post/5d2eb18d51882569b34df167)
+- [一款基于vue.js 和node构建个人博客项目](https://github.com/HunterXing/404blog)
 
 ### mis
 - [程序员常用工具](https://segmentfault.com/a/1190000020549054)

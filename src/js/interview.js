@@ -942,3 +942,5 @@ arrTest.slice(0)
 // 		动过property
 // 			attribute不会同步property
 // 			property不会同步attribute
+
+//闭包就是能够读取其他函数内部变量的函数，实质是变量的解析过程（由内而外）

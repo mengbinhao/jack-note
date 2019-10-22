@@ -343,6 +343,8 @@ newObj.b.c = -1 // output: GET...
 
         import d, * as x from "./a.js"
 
+        //自执行导入
+        import "person"
         //import会提升
         //导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
         //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise(按需加载/动态路径可写if里)

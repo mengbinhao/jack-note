@@ -1,3 +1,18 @@
+- 2019.10.22
+  - ceasefire n
+  - equivalent n/adj
+  - toll n/vt
+  - vague adj
+  - empower vt
+  - occupation n | occupy v
+  - mad adj | madness n
+  - influx n
+  - intend v | intended adj | unintended adj
+
+  > in the past week
+  > in total
+  > a lot of questions still remain
+  > while all of that is going on, xxx
 - 2019.10.20
   - steak n
   - flavor n/vt
@@ -10,7 +25,7 @@
   - consent n/vi
   - enthusiastic adj
   - curtail vt
-  - smuggling n
+  - smuggling n | smuggler n
   - pertain vi
   - slip n/vi/vt
   - ratify vt
@@ -706,7 +721,6 @@
   - tone n
   - petty adj
   - governor n
-  - incur vt
   - wrath n
   - grab vi/vt
   - lossen vi/vt
@@ -923,7 +937,7 @@
   - handful n
   - endorse vt
   - so-called adj
-  - invasion n | incursion n
+  - invasion n | incursion n | incur vt
 
 - 2019.8.8
   - treaty n
