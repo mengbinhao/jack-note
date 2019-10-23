@@ -21,6 +21,13 @@
 #### begin talk
 - you guys are so busy today
 - yeah, it's like this every morning
+- There are so many people here / food's awesome / I like music / Have u tried the chips? / Is that drink good?
+- That's just like xxx, she's always been a socialite
+- How did u get to know sb?
+- We've been coworkers for the last few years, but I first met her at xxx
+- what about you? How do you know xxx?
+- I'm going to grab something to drink, do you want anything?
+- No, I'm good, It was nice chatting with you
 
 #### thanks
 - you're welcome/No problem

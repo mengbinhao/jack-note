@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **Node.js(19)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
+- 极客 **react(需再看)** / **Node.js(25)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise

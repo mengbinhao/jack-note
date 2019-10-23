@@ -1,3 +1,19 @@
+- 2019.10.23
+  - poised v | poised adj
+  - skeptical adj
+  - foil | foiled adj
+  - triumphant adj
+  - compel vt
+  - signature n
+  - astonishing adj
+  - consistent adj
+  - distrust n/vt
+  - norm n
+
+  > in some ways, xxx
+  > sb had something else in mind
+  > fall apart
+
 - 2019.10.22
   - ceasefire n
   - equivalent n/adj
@@ -83,7 +99,7 @@
   - agreement n | agree v
   - asylum n
   - purge n/vt
-  - scrutiny n
+  - scrutiny n | scrutinize vt
   - achieve vi/vt | achievable adj
 
   > Transportation really ground to a halt
@@ -168,7 +184,7 @@
   - skepticism n
   - concede vi/vt
   - long-standing adj
-  - confusion n
+  - confusion n | confuing adj | confuse vt
   - trible adj
   - short-term adj
   - withdrawal n
@@ -319,7 +335,8 @@
   - embroiled adj
   - mystery n/adj
   - contractor n
-  - confrontation n
+  - confrontation n | confront vt
+  - exten
 
   > at this point, it does seem there'd be more talking than actually shooting
   > off the table
@@ -1066,7 +1083,7 @@
   - reveal vt
   - transparent adj
   - exhausting adj
-  - sympathetic adj
+  - sympathetic adj pathetic adj
   - footage n
   - dis adj
   - intense adj
