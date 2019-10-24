@@ -902,3 +902,17 @@ const getCarsByState2 = (state) => {
     - 函数表达式有分号
 
 - `use strict`只能出现在脚本、模块和函数体的最前面
+- debug border
+```javascript
+
+[].forEach.call($$("*"), dom => {
+    dom.style.outline = "1px solid #" + (~~(Math.random() * (1 << 24))).toString(16);
+});
+```
+- 优雅处理aa
+```javascript
+function AsyncTo(promise) {
+    return promise.then(data => [null, data]).catch(err => [err]);
+}
+const [err, res] = await AsyncTo(Func())
+```
