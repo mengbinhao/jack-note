@@ -1,3 +1,24 @@
+- 2019.10.24
+  - scandal n
+  - roil vi/vt
+  - ourright adj/adv
+  - concession n | concess v
+  - abortion n
+  - downplay vt
+  - surge n/vi
+  - thrive vi
+  - vice versa adv
+  - forgiving adj | forgive
+  - loom vi
+  - populism n
+
+  > It's pretty incredible to watch
+  > in a lot of ways
+  > that was in reference
+  > get rid of
+  > very early hours of the morning
+  > It was a tight race against the opposition Conservatives
+
 - 2019.10.23
   - poised v | poised adj
   - skeptical adj
@@ -950,7 +971,7 @@
 - 2019.8.12
   - massacre n/vt
   - menifesto n
-  - legislation n | legislative adj
+  - legislation n | legislative adj | legislature n
   - universal n/adj
   - handful n
   - endorse vt
@@ -1037,7 +1058,7 @@
   - porch n
 
 - 2019.7.26
-  - conservative n/adj | conservation n
+  - conservative n/adj | conservation n | conservatism n
   - unifying adj
   - dire adj
   - daunting/daunted adj
@@ -1066,7 +1087,7 @@
   - prescription n
   - discrimination n
   - repeal vt/n
-  - affordable adj
+  - affordable adj | afford vt
 
   > Fore in five of them would come from working families
 
@@ -1116,7 +1137,7 @@
   - vow n/vt
   - postpone vt
   - indefinitely adv
-  - mandated adj   mandate n/vt
+  - mandated adj | mandate n/vt
   - sector n
   - certify vt
   - impose vi/vt
@@ -1135,7 +1156,7 @@
   - unanimous n
   - lawsuit n
   - comedian n
-  - bully n/vt
+  - bully n/vt | bullying n/adj
   - ex n
   - chamber n
   - adoring adj
@@ -1344,7 +1365,7 @@
   - coherent adj
   - escalation n
   - crippling adj
-  - assumption n
+  - assumption n | assume vi/vt
   - sue vi/vt
   - credibility n
   - suspicious n | suspicion n

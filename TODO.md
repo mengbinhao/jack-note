@@ -155,6 +155,7 @@
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [Axios封装](https://juejin.im/post/5d89c75651882509662c55b1)
+- [Vue项目中使用Axios封装http请求](https://www.helloweba.net/javascript/617.html)
 - [main.js精简/axios二次封装](https://segmentfault.com/a/1190000019187560)
 - [Vue/Vue-router/Vuex延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
 - [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63)
@@ -217,6 +218,7 @@
 
 #### compare
 
+- [vue vs react](https://juejin.im/post/5dad09be518825393e52d1bd)
 - [React vs Angular vs Vue.js](https://mp.weixin.qq.com/s/KGvYsCGNZZtzT-v-xK8S9w)
 - [React for Vue developers](https://sebastiandedeyne.com/react-for-Vue-developers/)
 - [我为什么选择 Vue 而不是 React](http://news.51cto.com/art/201904/595259.htm)
