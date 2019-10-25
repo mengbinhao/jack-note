@@ -789,7 +789,7 @@ const simulateInstanceOf = (left, right) => {
   while (true) {
     if (proto === null) return false
     if (proto === prototype) return true
-    proto = Object.getPrototypeof(proto)
+    proto = Object.getPrototypeOf(proto)
   }
 }
 
