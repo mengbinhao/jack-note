@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **Node.js(25)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
+- 极客 **react(需再看)** / **Node.js(30)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise
@@ -80,6 +80,7 @@
 - [前端优化](https://segmentfault.com/a/1190000019185648)
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
+- [XSS Cheat Sheet](http://byd.dropsec.xyz/2019/10/24/xss-tips-payloads/)
 
 ### JS
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -320,6 +321,10 @@
 ### Python
 
 - [30个超实用Python代码片段](https://mp.weixin.qq.com/s/aVK_vGKt0DISRnfkCHbiMA)
+
+### DB
+- [MySQL常用函数介绍](https://segmentfault.com/a/1190000020798492)
+
 
 ### testing
 

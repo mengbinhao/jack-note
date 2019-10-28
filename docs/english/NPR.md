@@ -1,3 +1,49 @@
+- 2019.10.28
+  - Chile n
+  - metro n/adj
+  - riot n/vi
+  - helmet n
+  - revive vi/vt
+  - dictatorship n
+  - armored adj
+  - spill n/vi/vt
+  - cannon n/vi/vt
+  - hike n/vi/vt
+  - transit n/vt/adj
+  - fare n
+  - repression n
+  - lambaste vt
+  - dissatisfaction n
+  - disenchantment n
+  - ammunition n
+  - forging n
+  - alleviate vt
+  - inequality n | equality n
+
+  > what should we be looking for in terms of this coming to an end?
+  > a sence of hi's out of touch
+  > this is definitely about much more than that
+  > Is that all there is to this, xxx
+  > the first impression going around town this morning was that xxx
+  > in the center of things/this
+  > show no sign of stopping
+
+- 2019.10.26
+  - fallout n
+  - compartment vt/n
+  - basement n
+  - classified adj
+  - disrupt vt
+  - stall n/vi/vt
+  - ethic n
+  - deliberation n
+  - prevail vi
+  - vast adj
+  - clip n/vt
+
+  > we've got to handle in a better fashion
+  > How did it unfold?
+
 - 2019.10.24
   - scandal n
   - roil vi/vt
@@ -289,7 +335,7 @@
   - multilateral adj
   - represent vt
   - harassment n
-  - proceeding n
+  - proceeding n | proceed vi
   - thereafter adv
   - breach n/vt
   - restrained adj
@@ -808,7 +854,7 @@
   > on the economic front
 
 - 2019.8.30
-  - obsessed adj
+  - obsessed adj | obsess v
 
 - 2019.8.26
   - contingency n/adj
@@ -1083,7 +1129,7 @@
 - 2019.7.25
   - enrollment n | enrol vi/vt
   - roughly adv | rough adj
-  - essential n/adj | essence n
+  - essential n/adj | essence n | essentially adv
   - prescription n
   - discrimination n
   - repeal vt/n

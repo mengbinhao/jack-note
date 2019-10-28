@@ -29,7 +29,10 @@
 - 宏任务：script(整体代码)、setTimeout、setInterval、I/O、事件、postMessage、 MessageChannel、setImmediate (Node.js)、用户交互操作、UI渲染
 - 微任务：**Promise**、 process.nextTick (Node.js)、Object.observe(不推荐使用)
 
+![](../images/task-11.png)
+
 ### Demo
+
 ```javascript
 console.log('1');
 // 1 6 7 2 4 5 9 10 11 8 3
