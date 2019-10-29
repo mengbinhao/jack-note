@@ -1,3 +1,21 @@
+- 2019.10.29
+  - origin n
+  - probe n/vt
+  - grand adj
+  - jury n
+  - collusion n
+  - appoint v | appointed adj
+  - surveillance n
+  - tap n/vt
+  - bipartisan adj
+  - deepen vi/vt
+  - profound adj
+  - vehicle n
+  - revenge n
+
+  > There are no detials on when that change was made or what prompted it
+  > first off | at first | first of all | in the first place | first and foremost
+  > first things first
 - 2019.10.28
   - Chile n
   - metro n/adj
@@ -138,7 +156,6 @@
   > if I can keep track all of this
   > on a more personal note
   > frankly speaking
-  > first of all
 
 - 2019.10.17
   - typhoon n | hurricane n
@@ -294,7 +311,6 @@
 - 2019.10.10
   - memo n
   - notion n
-  - prosecution n
   - reference n/vt
   - mention n/vt
   - civics n
@@ -811,8 +827,6 @@
   - lossen vi/vt
 
   > put aside xxxxx
-  > but first and foremost
-  > first things first
   > but at bottom
   > in a very offensive way
   > well, at one level, xxx
@@ -993,7 +1007,7 @@
   - abuse n/vt
   - minor n/adj
   - disturbing adj
-  - prosecutor n
+  - prosecutor n | prosecute vi/vt | prosecution n | inspector n
   - emphasize vt
   - redact v
 
@@ -1096,7 +1110,6 @@
   - brevity n
   - obstruction n
   - ultimately adv | ultimate adj
-  - prosecute vi/vt
   - exonerate vt
   - motivated adj | motivation n
   - integrity adj
@@ -1274,7 +1287,6 @@
   > which leads me to ask
   > sooner or later
   > we don't know for sure
-  > in the first place
   > the xx had a ton in the paper today
 
 - 2019.7.15
