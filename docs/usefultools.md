@@ -40,6 +40,11 @@ nodemon app.js
 ### 7 proxychains-ng(结合ss命令行翻墙)
 ### 8 path-to-regexp
 ### 9 gitbook or docsify-cli
+```bash
+# install nodejs
+npm install gitbook gitbook-cli -g
+gitbook -V
+```
 ### 10 webpack-bundle-analyzer
 ### 11 marked
 ### 12 express-generator

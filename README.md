@@ -9,7 +9,7 @@ record what I have learned
    ```
    1. git clone git@github.com:mengbinhao/jack-note.git
 
-   2. gitbook serve //need install giboot first
+   2. gitbook serve //need install gitbook first
 
    3. http://localhost:4000/
    ```

@@ -1,3 +1,23 @@
+- 2019.10.30
+  - cinematic adj
+  - raid n/vt
+  - vivid adj
+  - dribble n/vt
+  - swoop n/vi
+  - tunnel n/vi/vt
+  - recruit n/v | recruiting
+  - sophisticated adj
+  - counterargument n
+  - scattered adj
+  - one-off n/adj
+  - jihad n
+  - countervailing adj
+
+  > what struck me was some of the things he said about xxxxx
+  > this level of detail
+  > We were getting full report on literally a minute-by-minute basis
+  > Here's Trump yesterday explaining how all of this unfolded in White House
+
 - 2019.10.29
   - origin n
   - probe n/vt
@@ -465,7 +485,7 @@
 - 2019.9.25
   - urgent adj
   - spur n/vt
-  - extraordinary adj
+  - extraordinary adj| ordinary adj
   - plastic n/adj
   - renewable adj
   - accountable adj
@@ -501,7 +521,7 @@
   - modest adj
   - insurance n
   - stride n/vt
-  - blasted adj
+  - blasted adj | blast n/vt
   - notable n/adj
   - architect n
   - unnerving adj
@@ -1251,7 +1271,6 @@
   - opt vi
   - stumble n/vt | tumble n/vi
   - fissure n
-  - ordinary adj
   - radical adj
   - gradual adj
 
@@ -1441,7 +1460,7 @@
   - rage n/vi/vt | raging adj | enraged v/adj | outrage n/vt
   - rally n/vi/vt
   - metaphorically adv
-  - literally adv
+  - literally adv | literal adj
   - rig n/vt
   - grievance n
   - accusation n | accuse | accusing
@@ -1464,7 +1483,7 @@
   - democratically adv | democratic adj | democracy n
   - jail n/vt
   - crackdown n | crack n/adj/vi/vt
-  - circumstance n
+  - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - convicted adj
   - undergo vt
@@ -1524,7 +1543,6 @@
   - afloat adj/adv
   - evacuate vi/vt
   - speculation n
-  - circumstantial adj
   - takeaway n
   - plot n/vi/vt
   - fierce adj | fiercely adv

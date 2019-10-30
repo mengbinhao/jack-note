@@ -127,7 +127,8 @@
 
 #### Vue related
 
--[从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
+- [手把手带你实现最精简Vue的data、computed、watch](https://juejin.im/post/5db6433b51882564912fc30f)
+- [从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
 - [Vue双向数据绑定原理及实现](https://juejin.im/post/5d560340518825708f4abec9)
 - [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
@@ -314,6 +315,7 @@
 - [最全NGINX技术分析](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490869&idx=1&sn=5260a9d9064456ac5472ddfa2d0be822)
 - [NGINX 反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
 - [NGINX的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab)
+- [GitBook 简明使用教程](https://www.phpjieshuo.com/archives/153/)
 
 ### JAVA
 
@@ -325,6 +327,7 @@
 
 ### DB
 - [MySQL常用函数介绍](https://segmentfault.com/a/1190000020798492)
+- [在互联网大厂必须遵守的MySql开发军规](https://segmentfault.com/a/1190000020836656)
 
 
 ### testing
