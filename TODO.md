@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **Node.js(30)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
+- 极客 **react(需再看)** / **Node.js(36)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise
@@ -221,6 +221,7 @@
 
 #### compare
 
+- [父组件伸手子组件的方式总结](https://juejin.im/post/5db6ad1ef265da4d5420864e)
 - [vue vs react](https://juejin.im/post/5dad09be518825393e52d1bd)
 - [React vs Angular vs Vue.js](https://mp.weixin.qq.com/s/KGvYsCGNZZtzT-v-xK8S9w)
 - [React for Vue developers](https://sebastiandedeyne.com/react-for-Vue-developers/)
@@ -368,6 +369,7 @@
 - [面试手写](https://juejin.im/post/5d84e82951882514eb4576f7)
 - [27个js面试手写](http://developer.51cto.com/art/201909/603316.htm)
 - [前端开发中79条不可忽视的知识点](https://juejin.im/post/5d8989296fb9a06b1f147070)
+- [面试中知道开头不知道结尾的web知识点](https://juejin.im/post/5db7b17ae51d4529ef3eedcd)
 
 #### css&html
 

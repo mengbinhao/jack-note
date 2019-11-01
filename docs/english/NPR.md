@@ -1,3 +1,39 @@
+- 2019.11.1
+  - tilt n/vi
+  - giant n/adj
+  - astute adj
+  - pragmatic adj
+  - seasoned adj
+  - comeback n
+  - influential adj
+  - drown vi/vt
+  - loyal adj
+  - outright adj/adv
+  - detached adj
+  - furrow v/adj
+  - brow n
+  - insight n
+
+  > I think that would be going a little too far
+  > This is not the case with this administration,thet'll take a different position
+  > fall out
+  > you've put your finger on a very important
+  > so to speak
+
+- 2019.10.31
+  - tender n/v/adj
+  - segregate vt
+  - paralyzed adj | paralyze vt
+  - ecstatic adj
+  - eerie adj
+  - uncharted adj
+  - vacuum n/vt
+  - certain
+
+  > it's something that we have not seen before
+  > we've never been through that before
+  > somethimes we've been met with violence
+
 - 2019.10.30
   - cinematic adj
   - raid n/vt
@@ -1052,6 +1088,7 @@
   - massacre n/vt
   - menifesto n
   - legislation n | legislative adj | legislature n
+  - legitimate adj
   - universal n/adj
   - handful n
   - endorse vt
@@ -1096,7 +1133,7 @@
   - garlic n
   - choke v
   - tragedy n
-  - engage v
+  - engage v | engaged adj
   - residence n
   - lax adj
   - spree n
@@ -1183,7 +1220,7 @@
   - reveal vt
   - transparent adj
   - exhausting adj
-  - sympathetic adj pathetic adj
+  - sympathetic adj | pathetic adj
   - footage n
   - dis adj
   - intense adj
