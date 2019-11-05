@@ -68,6 +68,8 @@
 - [耗时两个月，网上最全的原创nodejs深入系列文章](https://blog.5udou.cn/blog)
 
 ### front
+
+- [前端面试必备——权限控制](https://segmentfault.com/a/1190000020887109)
 - [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/Ov84B6t-xJNv6G8de-yHIw)
 - [前端 resource](https://segmentfault.com/a/1190000016420985)
 - [前端 resource](http://0313.name/archives/485)
@@ -83,6 +85,8 @@
 - [XSS Cheat Sheet](http://byd.dropsec.xyz/2019/10/24/xss-tips-payloads/)
 
 ### JS
+
+- [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
 - [玩DOM也要专业范儿](https://mp.weixin.qq.com/s/v9zEpg8uDWEBAwppl45Y1Q)
 - [深入了解强大的ES6...运算符](https://segmentfault.com/a/1190000020612737)
@@ -277,6 +281,8 @@
 - [React性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
 
 #### hooks
+
+- [React Hooks详解+项目实战](https://juejin.im/post/5dbbdbd5f265da4d4b5fe57d)
 - [从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
 - [5个技巧：避免React Hooks常见问题](https://zhuanlan.zhihu.com/p/77243662)
 - [useHooks窍门](https://zhuanlan.zhihu.com/p/66170210)
@@ -302,6 +308,7 @@
 
 ### Other
 
+- [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
 - [提高效率的10个Git小技巧](https://segmentfault.com/a/1190000020099456)
@@ -327,9 +334,10 @@
 - [30个超实用Python代码片段](https://mp.weixin.qq.com/s/aVK_vGKt0DISRnfkCHbiMA)
 
 ### DB
+
 - [MySQL常用函数介绍](https://segmentfault.com/a/1190000020798492)
 - [在互联网大厂必须遵守的MySql开发军规](https://segmentfault.com/a/1190000020836656)
-
+- [怎么优化sql](https://mp.weixin.qq.com/s/a4CWa_PjR7sPk5kS9ZyPpA)
 
 ### testing
 

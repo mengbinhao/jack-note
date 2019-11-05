@@ -1,3 +1,36 @@
+- 2019.11.5
+  - resolution n
+  - phase n
+  - formalize vt
+  - gear n/v
+  - portray vt
+  - permanent adj
+  - illegality n
+  - deposition n
+
+  > The only thing we're interested in here is figuring out what the facts are
+  > He said that the question of illegality wasn't Sb's call to make
+  > We are kind of noticing a little bit of a change
+  > sth are using xxx as the basis for thier actions in xxx
+  > take sth away
+  > be about to
+
+- 2019.11.4
+  - sweep n/v | sweeping adj
+  - hurdle n/v
+  - behind-the-scenes adj
+  - bargain n/v | bargaining
+  - class n/v
+  - assuage vt | diffuse v/adj | undermine vt
+  - reform n/v
+
+  > That's harder to do than it is to say
+  > That's a really tough one
+  > We should just note there is a delay on your line
+  > step forward / step down
+  > in the view of many people
+  > It's not clear whether xxx
+
 - 2019.11.1
   - tilt n/vi
   - giant n/adj
@@ -388,7 +421,7 @@
 
 - 2019.10.9
   - tout n/vt
-  - patriot n
+  - patriot n | patriotism
   - barrier n
   - subsidy n | subsidize vt
   - manipulation n
@@ -545,7 +578,6 @@
   - embrace n/vi/vt
   - diversity n
   - refugee n
-  - undermine vt
   - racism n
   - fracture n/vi/vt
 
@@ -1088,7 +1120,7 @@
   - massacre n/vt
   - menifesto n
   - legislation n | legislative adj | legislature n
-  - legitimate adj
+  - legitimate adj | legitimacy n
   - universal n/adj
   - handful n
   - endorse vt
@@ -1218,7 +1250,7 @@
   - nerve n
   - figure n/vt
   - reveal vt
-  - transparent adj
+  - transparent adj | transparency n
   - exhausting adj
   - sympathetic adj | pathetic adj
   - footage n
@@ -1323,7 +1355,7 @@
   - radiate vi/vt
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
-  - substantial adj | substantially adv
+  - substantial adj | substantially adv | substantive adj
   - substance n
   - dyfunctional adj
   - clumsy adj
@@ -1361,7 +1393,7 @@
 
 - 2019.7.12
   - swallow vi/vt/n
-  - proposed adj | proposal n
+  - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj
   - tariff n/vt
