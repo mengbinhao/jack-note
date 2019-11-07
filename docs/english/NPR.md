@@ -1,3 +1,10 @@
+- 2019.11.7
+  - acknowledge vt
+  - guerrilla n
+  - mercenary n
+  - repulse n/vt
+
+  > as of now
 - 2019.11.5
   - resolution n
   - phase n

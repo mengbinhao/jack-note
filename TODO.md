@@ -8,6 +8,7 @@
 
 ### practise
 - [mvc撸一个](https://github.com/taniarascia/mvc)
+- [9个项目助你在2020年成为前端大师](https://segmentfault.com/a/1190000020907687)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
 - [手摸手,带你用 Vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
@@ -58,6 +59,7 @@
 - [常用的CSS函数](https://blog.5udou.cn/blog/Fen-Xiang-Chang-Yong-De-CSSHan-Shu-Zhu-Ni-Xie-Chu-Geng-Jian-Jie-De-Dai-Ma-23)
 - [让CSS flex布局最后一行列表左对齐的N种方法](https://www.zhangxinxu.com/wordpress/2019/08/css-flex-last-align/)
 - [灵活运用CSS开发技巧66个实用技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
+- [灵活运用CSS 66个实用技巧](https://segmentfault.com/a/1190000020899202)
 
 ### nodejs
 
@@ -151,6 +153,7 @@
 - [六个让前端开发既高效又有趣的工具](http://developer.51cto.com/art/201908/601336.htm)
 - [基于Vue的商品主图放大镜方案](https://juejin.im/post/5d8235565188256bbe57dc84)
 - [前端使用工具强制实行代码规范（Vue）](https://blog.rxliuli.com/p/ce3fba72/)
+- [Tab切换以及缓存页面处理](https://segmentfault.com/a/1190000020911025)
 
 #### project related
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
@@ -191,7 +194,6 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
-
 - [Vue最简单递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
 - [Vue自定义指令完善Select组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
 - [抽屉组件](https://github.com/dreambo8563/vue-simple-drawer)
@@ -211,6 +213,7 @@
 - [前端路由跳转基本原理](https://mp.weixin.qq.com/s/IyPpSix7haY_NfNJg10ilg)
 - [vue-router实现](https://juejin.im/post/5d7e2f43f265da0391354593)
 - [addRoutes的刷新404和重复路由的解决方案](https://juejin.im/post/5d730f50518825770c43a6da)
+- [vue-router原理到最佳实践](https://juejin.im/post/5dbed0bef265da4cff701f68)
 
 #### Vuex
 
@@ -338,6 +341,7 @@
 - [MySQL常用函数介绍](https://segmentfault.com/a/1190000020798492)
 - [在互联网大厂必须遵守的MySql开发军规](https://segmentfault.com/a/1190000020836656)
 - [怎么优化sql](https://mp.weixin.qq.com/s/a4CWa_PjR7sPk5kS9ZyPpA)
+- [Mysql之子查询](https://segmentfault.com/a/1190000020905435)
 
 ### testing
 
