@@ -343,25 +343,62 @@ newObj.b.c = -1 // output: GET...
 
         import d, * as x from "./a.js"
 
+        // 导入样式
+        import './index.less'
+
+        // 导入类库
+        import 'lodash'
+
         //自执行导入
         import "person"
         //import会提升
         //导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
         //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise(按需加载/动态路径可写if里)
+
+        // 当动态import时，返回的是一个promise
+        import('lodash')
+          .then((lodash) => {
+            //...
+          });
+
+        // 上面这句实际等同于
+        const lodash = await import('lodash')
         ```
     2.  `export`
         ```javascript
-        export {a, b, c};
-        export var num1 = 1;(包括function(含async、generator)、class、let、const)
+        //Named exports
+        //also var const
+        export let num1 = 1, num2 = 2
+        //include function(含async、generator)
+        export function funName(){}
+        export () => {}
+        export class ClassName {}
+        export {a, b, c}
         export { a as xxx, b as yyy}
-        export default () => {xxx} (class也可以這樣寫,都没有名字)
+        //class也可以這樣寫,没有名字
+        export default () => {xxx}
+
+        export const {nama1, name2, name3} = obj
+
+        //export default
+        //default exports
+        export default expression
+        export default function (…) { … } // also class, function*
+        export default function name1(…) { … } // also class, function*
+        export { name1 as default, … }
 
         export function add(a,b) { return a + b; }
         //这里导出的是值,以后a的变化与导出的值就无关了
         var a = {}; export {a}
 
         //在import语句前无法加入export，但是我们可以直接使用export from语法
+        // Aggregating modules
         export a from "a.js"
+        export * from xxx
+        export * as name1 from xxx
+        export { name1, name2, …, nameN } from xxx
+        export { import1 as name1, import2 as name2, …, nameN } from xxx
+        export { default } from xxx
         ```
 
         总结:

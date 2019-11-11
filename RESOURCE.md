@@ -132,6 +132,10 @@
 - vux:移动端 UI 框架
 - muse-ui:移动端 UI 框架
 - bootstrap-vue
+- Vue Admin
+- vue-manage-systemc
+- vuestic-admin
+- d2-admin
 
 ### Logging
 

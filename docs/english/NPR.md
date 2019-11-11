@@ -1,4 +1,16 @@
 - 2019.11.7
+  - withdraw
+  - accord n/v
+  - aggregate n/v/adj
+  - tune n/v
+  - fulfill vt
+  - obligation n
+
+  > What went through your mind when you heard it yesterday?
+  > turn back on them
+  > it come to the conclusion that xxx
+  > sort of seen
+- 2019.11.7
   - acknowledge vt
   - guerrilla n
   - mercenary n
@@ -34,7 +46,7 @@
   > That's harder to do than it is to say
   > That's a really tough one
   > We should just note there is a delay on your line
-  > step forward / step down
+  > step forward / step down / step in
   > in the view of many people
   > It's not clear whether xxx
 
@@ -367,7 +379,7 @@
   - confusion n | confuing adj | confuse vt
   - trible adj
   - short-term adj
-  - withdrawal n
+  - withdrawal n | withdraw v
   - decimate vt
   - patrol n/vt
   - harshly adv

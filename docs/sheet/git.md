@@ -1,4 +1,7 @@
+![](../images/git_1.png)
+
 ### 常用基础指令
+
 - git init 初始化项目
 - git add 添加项目到暂存区
 - git commit -m '备注' 提交项目到版本库（必须写上备注）
