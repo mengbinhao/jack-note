@@ -1,5 +1,27 @@
+- 2019.11.13
+  - stark adj
+  - agonize v
+  - meddling n/v
+  - bluntly adj
+  - uproar n
+  - corroboration n
+
+  > to put bluntly
+  > Why didn't that ever come to pass?
+  > Are there any facts that just don't line up?
+
+- 2019.11.12
+  - extortion n
+  - workaround n
+  - fellow n
+
+  > This is a major step
+  > xxx worried xxx maybe a step too far
+  > pull out of xxx
+  > It has not come to much
+
 - 2019.11.7
-  - withdraw
+  - withdraw v
   - accord n/v
   - aggregate n/v/adj
   - tune n/v
@@ -550,7 +572,7 @@
 
 - 2019.9.26
   - hostage n
-  - indicator n
+  - indicator n | indication n
   - reduced adj | reduce v
   - revolving adj
   - lecture n/vi/vt
@@ -592,7 +614,7 @@
   - lengthy adj
   - conference n
   - garner vt
-  - accumulation n
+  - accumulation n | accumulate v
   - reputation n
   - embrace n/vi/vt
   - diversity n
@@ -1514,7 +1536,7 @@
   - proportional adj/n
   - casualty n
   - de-escalate v | escalate
-  - negotiate vi/vt | negotiator n
+  - negotiate vi/vt | negotiator n | negotiation n
 
   > so he goes back and forth
   > and that's pretty much what has been happening for the past few weeks
@@ -1588,8 +1610,7 @@
 
 - 2019.6.27
   - stockpile n/vt
-  - enriched adj
-  - enrichment n
+  - enrich v | enriched adj | enrichment n
   - altogether adv
   - reactor adv
   - headline n/vt
