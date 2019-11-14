@@ -1,3 +1,46 @@
+- 2019.11.14
+  - fraud n
+  - persecute vt
+  - victor n
+  - finding n
+  - regularity n | irregularity
+  - custody n
+  - ballot n/v
+  - fuse n/v
+  - desert n/v | dessert n
+  - cling vi
+  - abandon n/v
+  - overhaul v
+  - awful adj
+  - downfall n
+  - accelerate v
+  - shove n/vt
+  - victim n
+  - lurk n/vi
+  - takeover n
+  - bend v
+  - perilous adj
+  - arson n
+  - loot n/v
+  - severe adj
+  - divert v
+  - monument n
+  - skyscraper n
+  - noxious adj
+  - pungent adj
+  - cough v
+  - respiratory adj
+  - advisory n
+  - routine n
+  - outskirt n
+
+  > go wrong
+  > uncharted water
+  > the next in line
+  > the situation on the ground is unstable
+  > if I could call it that
+  > in the process of doing that
+
 - 2019.11.13
   - stark adj
   - agonize v
@@ -157,7 +200,7 @@
   - spill n/vi/vt
   - cannon n/vi/vt
   - hike n/vi/vt
-  - transit n/vt/adj
+  - transit n/vt/adj | transitional adj
   - fare n
   - repression n
   - lambaste vt
@@ -480,7 +523,7 @@
   - artificial adj
   - multilateral adj
   - represent vt
-  - harassment n
+  - harassment n | harash v
   - proceeding n | proceed vi
   - thereafter adv
   - breach n/vt
@@ -961,7 +1004,7 @@
   > well, at one level, xxx
 
 - 2019.9.3
-  - resign vi/vt
+  - resign vi/vt | resignation n
   - scathing adj
   - rebuke vt
   - deputy n
@@ -1160,7 +1203,7 @@
 - 2019.8.12
   - massacre n/vt
   - menifesto n
-  - legislation n | legislative adj | legislature n
+  - legislation n | legislative adj | legislature n | legislator n
   - legitimate adj | legitimacy n
   - universal n/adj
   - handful n
@@ -1285,7 +1328,6 @@
   - insistent adj
   - carpet n/vt
   - fuel n/vi/vt
-  - speculation n
   - trembling n
   - cite vt
   - nerve n
@@ -1449,7 +1491,6 @@
   - soften vi/vt
   - tremendous adj
   - considerale adj
-  - speculation n
   - reversal n | invert vt | inversion n
 
   > so all in all
