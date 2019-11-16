@@ -156,6 +156,7 @@
 - [基于Vue的商品主图放大镜方案](https://juejin.im/post/5d8235565188256bbe57dc84)
 - [前端使用工具强制实行代码规范（Vue）](https://blog.rxliuli.com/p/ce3fba72/)
 - [Tab切换以及缓存页面处理](https://segmentfault.com/a/1190000020911025)
+- [彻底搞懂Vue SSR](https://juejin.im/post/5dab1b88e51d4524b8152baa)
 
 #### project related
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
@@ -423,6 +424,7 @@
 - [Vue](https://juejin.im/post/5d02016c6fb9a07ec27b9e50)
 - [Vue常见面试题](https://segmentfault.com/a/1190000020518331)
 - [Vue Router](https://www.itwork.club/2019/09/29/vue-interview-router/)
+- [Vuex面试题汇总](https://juejin.im/post/5dba91e4518825647e4ef18b)
 
 #### Node
 

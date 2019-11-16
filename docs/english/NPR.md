@@ -1,3 +1,19 @@
+- 2019.11.16
+  - overnight n
+  - ambulance n
+  - topple v
+  - fragmented adj
+  - harmony n
+  - contrast n/v
+  - avenue n
+  - assure vt | reassure
+  - extradite vt
+
+  > hang in
+  > by any means
+  > too ... to ...
+  > he was in meetings much of day
+
 - 2019.11.14
   - fraud n
   - persecute vt
@@ -1026,7 +1042,7 @@
   - corrode vi/vt
   - dampen vt
   - demonstration n | demonstrate vi/vt
-  - interfere vi | interference n | intervene vi
+  - interfere vi | interference n | intervene vi | intervention n
   - contrary n/adj/adv
   - preserve n/vt
   - criminality n | crime n
@@ -1242,6 +1258,7 @@
   - owe vt
   - allegiance n
   - recognition n
+  - bricker n/v
 
   > it turned out
 
@@ -1408,7 +1425,7 @@
   > cover one's ears
 
 - 2019.7.17
-  - protest n
+  - protest n | protester
   - violence n
   - ruling adj
   - activist n
