@@ -25,9 +25,21 @@
 
 - **简而言之，一次事件循环只执行处于Macrotask队首的任务，执行完成后，立即执行Microtask队列中的所有任务**
 
-### 常见的Macrotask和Microtask
-- 宏任务：script(整体代码)、setTimeout、setInterval、I/O、事件、postMessage、 MessageChannel、setImmediate (Node.js)、用户交互操作、UI渲染
-- 微任务：**Promise**、 process.nextTick (Node.js)、Object.observe(不推荐使用)
+### 常见的Macrotask、Microtask
+- 宏任务
+  - script(整体代码)
+  - setTimeout、setInterval、setImmediate (Node.js)
+  - I/O 操作
+  - 事件、用户交互操作
+  - UI 渲染
+  - MessageChannel
+  - postMessage
+- 微任务
+  - Promise
+  - Object.observe(不推荐使用)
+  - MutationObserver
+  - process.nextTick(Node.js)
+  - queueMicrotask
 
 ![](../images/task-11.png)
 

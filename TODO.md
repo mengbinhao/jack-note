@@ -3,7 +3,7 @@
 - jack-note / caibaojian / 30seconds
 - zaolunzi
 - leetcode(206、24、141、142、25)
-- 极客 **react(需再看)** / **Node.js(41)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
+- 极客 **react(需再看)** / **Node.js(51)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
 - 掘金小册(**react practise and Summary**)
 
 ### practise
@@ -42,6 +42,7 @@
 
 ### mis
 - [程序员常用工具](https://segmentfault.com/a/1190000020549054)
+- [如何正确的在Stack Overflow提问](https://segmentfault.com/a/1190000021006747)
 
 ### h5
 
@@ -88,6 +89,8 @@
 
 ### JS
 
+- [Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
+- [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
 - [玩DOM也要专业范儿](https://mp.weixin.qq.com/s/v9zEpg8uDWEBAwppl45Y1Q)
@@ -130,13 +133,17 @@
 - [各种文件上传，从小图片到大文件断点续传](https://juejin.im/post/5da14778f265da5bb628e590)
 - [轻轻松松实现高难度懒加载、吸顶、触底](https://mp.weixin.qq.com/s/uRMYrxaduPaMkc97Upjkqg)
 - [lodash的debounce与throttle](https://segmentfault.com/a/1190000020958470)
+- [前端图片相关的知识总结](https://juejin.im/post/5dced5c15188254eb23dd689)
+- [如何写一个像axios那样优秀的请求库](https://mp.weixin.qq.com/s/DoniYaHhs3dO3FClC7ZMRw)
 
 ### Vue
 
 #### Vue related
 
+- [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [手把手带你实现最精简Vue的data、computed、watch](https://juejin.im/post/5db6433b51882564912fc30f)
 - [从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
+- [v-slot用法](https://www.zoo.team/article/slot)
 - [Vue双向数据绑定原理及实现](https://juejin.im/post/5d560340518825708f4abec9)
 - [Vue2.6](https://juejin.im/post/5c598b276fb9a049b780d03c)
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
@@ -405,6 +412,7 @@
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 
 #### Vue
+- [Vue面试经常会被问到的面试题](https://juejin.im/post/5dce0677e51d45083d30b7e7)
 - [30道Vue前端面试题](https://juejin.im/post/5daa6adbf265da5b576befc8)
 - [Vue面试题](http://www.imooc.com/article/293084)
 - [Vue 面试知识点总结](https://segmentfault.com/a/1190000019646763)
@@ -428,7 +436,8 @@
 
 #### Node
 
-- [分享 10 道 Nodejs 进程相关面试题](https://juejin.im/post/5d082214f265da1bb564f97b)
+- [分享10道Nodejs进程相关面试题](https://juejin.im/post/5d082214f265da1bb564f97b)
+- [深入理解Node.js进程与线程](https://mp.weixin.qq.com/s/VzXnnfn4gCBMd5wea3LRIg)
 
 #### react
 - [React高频面试题梳理](https://mp.weixin.qq.com/s/3jmJgZFktP2NMT8XLvdIKQ)
