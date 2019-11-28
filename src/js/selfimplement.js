@@ -529,7 +529,7 @@ Function.prototype.simulateNew = function(constructor) {
   if (typeof constructor !== "function") {
     throw new Error("the first param must be a function");
   }
-  //same as let obj = new Object(), obj__proto == constructor.prototype
+  //same as let obj = {}, obj__proto == constructor.prototype
   let obj = Object.create(constructor.prototype);
   let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1));
   //in case constructor return a simple type

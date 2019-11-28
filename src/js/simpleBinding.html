@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="inpText" />
+    <div class="content"></div>
+    <script>
+      //数据劫持+发布订阅模式
+      //数据代理
+      //数据编译
+      const content = document.querySelector(".content");
+      const data = {
+        name: ""
+      };
+      inpText.addEventListener("input", function() {
+        data.name = this.value;
+      });
+      let value;
+      Object.defineProperty(data, "name", {
+        get() {
+          return value;
+        },
+        set(newValue) {
+          if (value === newValue) return;
+          value = newValue;
+          content.innerHTML = value;
+        }
+      });
+    </script>
+  </body>
+</html>

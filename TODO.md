@@ -90,6 +90,11 @@
 ### JS
 
 - [Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
+- [神奇的Promise](https://segmentfault.com/a/1190000021047742)
+- [我所理解的Promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
+- [记一些Promise相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
+- [大厂面试必考知识点：Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
+- [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -106,8 +111,6 @@
 - [axios基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
 - [2019年常用JavaScript正则大全](https://juejin.im/post/5d245d4151882555300feb77)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
-- [我所理解的Promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
-- [记一些Promise相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
 - [如何优雅处理前端异常](http://news.51cto.com/art/201903/593360.htm)
 - [详解 JS 错误处理](https://segmentfault.com/a/1190000019226851)
 - [js 错误处理权威指北](https://juejin.im/post/5bfa5a8cf265da6124151e62)
@@ -126,7 +129,6 @@
 - [灵活运用JS开发技巧](https://juejin.im/post/5cc7afdde51d456e671c7e48)
 - [innerText和textContent的区别](https://www.zhangxinxu.com/wordpress/2019/09/js-dom-innertext-textcontent/)
 - [高性能渲染十万条数据](https://juejin.im/post/5d76f469f265da039a28aff7)
-- [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
 - [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
 - [分分钟搞定浏览器滚动](https://mp.weixin.qq.com/s/wy7wdc3g6LaMcgZ2vq_d2w)
 - [Moment.js常用API速查](https://segmentfault.com/a/1190000020710808)
@@ -135,11 +137,14 @@
 - [lodash的debounce与throttle](https://segmentfault.com/a/1190000020958470)
 - [前端图片相关的知识总结](https://juejin.im/post/5dced5c15188254eb23dd689)
 - [如何写一个像axios那样优秀的请求库](https://mp.weixin.qq.com/s/DoniYaHhs3dO3FClC7ZMRw)
+- [纯JS实现放大缩小拖拽采坑之旅](https://segmentfault.com/a/1190000021100977)
+- [为什么需要在JavaScript中使用严格模式？](https://mp.weixin.qq.com/s/rvbv2h5WLeQCx1oVpD3xsw)
 
 ### Vue
 
 #### Vue related
 
+- [simpel vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [手把手带你实现最精简Vue的data、computed、watch](https://juejin.im/post/5db6433b51882564912fc30f)
 - [从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
@@ -164,6 +169,7 @@
 - [前端使用工具强制实行代码规范（Vue）](https://blog.rxliuli.com/p/ce3fba72/)
 - [Tab切换以及缓存页面处理](https://segmentfault.com/a/1190000020911025)
 - [彻底搞懂Vue SSR](https://juejin.im/post/5dab1b88e51d4524b8152baa)
+- [Vue多语言实战](https://juejin.im/post/5dd521e0f265da4796659b24)
 
 #### project related
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
@@ -200,6 +206,7 @@
 - [记一次vue+nuxt性能优化](https://juejin.im/post/5d93e5446fb9a04de04d7986)
 - [Vue项目使用拦截器和JWT验证](https://juejin.im/post/5d9deb275188255ccc5798ed)
 - [Vue开发必须知道的36个技巧](https://segmentfault.com/a/1190000020620972)
+- [基于Vue-SSR优化方案归纳总结](https://segmentfault.com/a/1190000021089924)
 
 #### component related
 
@@ -230,6 +237,7 @@
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
 - [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
+- [Vuex基本使用的总结](https://www.maiyewang.com/2019/11/26/vuex%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E7%9A%84%E6%80%BB%E7%BB%93-%E8%BD%AC%E8%BD%BD/)
 
 #### Vue-cli
 
@@ -267,6 +275,7 @@
 - [vue-cli +typescript+webpack4 项目搭建超详细步骤](https://juejin.im/post/5d5652446fb9a06afd66004b)
 - [DefinePlugin](https://mp.weixin.qq.com/s/9pl84KGi34Clw6xbVTPjKw)
 - [Webpack优化](https://mp.weixin.qq.com/s/WmTWXoYn_CvD60nd0_biuQ)
+- [总结几个webpack打包优化的方法](https://juejin.im/post/5ddc8a6be51d4523275838db)
 
 ### React
 
@@ -295,6 +304,7 @@
 
 #### hooks
 
+- [React函数式组件性能优化指南](https://mp.weixin.qq.com/s/kEExKE-Chr40z-mCc6AZ7Q)
 - [React Hooks详解+项目实战](https://juejin.im/post/5dbbdbd5f265da4d4b5fe57d)
 - [从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
 - [5个技巧：避免React Hooks常见问题](https://zhuanlan.zhihu.com/p/77243662)
@@ -307,6 +317,7 @@
 - [你也能把React Hooks玩出花](https://mp.weixin.qq.com/s/6XsUflXwf7vkSpzr6BWjIg)
 - [React Hooks你真的用对了吗](https://segmentfault.com/a/1190000020616412)
 - [React Hooks异步操作二三事](https://mp.weixin.qq.com/s/vUN6HX8L5eXOAOgnUnHwDw)
+- [五分钟带你了解React Hooks工作原理](https://segmentfault.com/a/1190000021057476)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)
@@ -363,6 +374,7 @@
 - [automation testing blog](http://www.cnblogs.com/imyalost/p/8763583.html)
 - [design test case](https://mp.weixin.qq.com/s/_4SQJcxJoAh9jRKLf9NwSQ)
 - [JavaScript单元测试指南](https://juejin.im/post/5d7e449c6fb9a06b122f6bc5)
+- [让自动化工作流解放你的双手](https://mp.weixin.qq.com/s/sZxfhuuea9w4QMVvBUpXzw)
 
 ### Interview
 
@@ -395,6 +407,7 @@
 
 #### css&html
 
+- [web前端面试中10个关于css高频面试题](https://mp.weixin.qq.com/s/YZ2J4BRryoEBbKH7rqXjzA)
 - [CSS已知高度，写出三栏布局](https://segmentfault.com/a/1190000019766912)
 - [垂直居中的几种实现方式](https://segmentfault.com/a/1190000019634591)
 - [css](https://juejin.im/post/5af8e6aef265da0b9265b04c)
