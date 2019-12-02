@@ -86,6 +86,8 @@
 
 - **`copy(obj)`**
 
+- `inspect($('selector'))`
+
 - **Sotore as global variable**
 
 - **堆棧信息保存到文件**

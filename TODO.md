@@ -139,6 +139,8 @@
 - [如何写一个像axios那样优秀的请求库](https://mp.weixin.qq.com/s/DoniYaHhs3dO3FClC7ZMRw)
 - [纯JS实现放大缩小拖拽采坑之旅](https://segmentfault.com/a/1190000021100977)
 - [为什么需要在JavaScript中使用严格模式？](https://mp.weixin.qq.com/s/rvbv2h5WLeQCx1oVpD3xsw)
+- [一个多层if/else嵌套的代码重构案例](https://juejin.im/post/5dde8ea1f265da05b52e88cd)
+- [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
 
 ### Vue
 
@@ -170,6 +172,7 @@
 - [Tab切换以及缓存页面处理](https://segmentfault.com/a/1190000020911025)
 - [彻底搞懂Vue SSR](https://juejin.im/post/5dab1b88e51d4524b8152baa)
 - [Vue多语言实战](https://juejin.im/post/5dd521e0f265da4796659b24)
+- [Vue Prop中的 null vs undefined](https://juejin.im/post/5ddcf5f4e51d4532db416149)
 
 #### project related
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
@@ -178,6 +181,7 @@
 - [Vue项目优化方案](https://juejin.im/post/5d78ae72f265da03cf7ab977)
 - [Vue中项目优化](https://juejin.im/post/5d7b91e86fb9a06ace527e2a)
 - [Vue中的项目优化](https://juejin.im/post/5d9939d0e51d45781332e949)
+- [Vue CLI 首屏优化技巧](https://mp.weixin.qq.com/s/Mi42xwB3wsARILhi5hi4fQ)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [Axios封装](https://juejin.im/post/5d89c75651882509662c55b1)
@@ -246,6 +250,7 @@
 
 #### compare
 
+- [React & Vue的组件通信](https://juejin.im/post/5ddfbe80e51d451f8b265c10)
 - [父组件伸手子组件的方式总结](https://juejin.im/post/5db6ad1ef265da4d5420864e)
 - [vue vs react](https://juejin.im/post/5dad09be518825393e52d1bd)
 - [React vs Angular vs Vue.js](https://mp.weixin.qq.com/s/KGvYsCGNZZtzT-v-xK8S9w)
@@ -318,6 +323,7 @@
 - [React Hooks你真的用对了吗](https://segmentfault.com/a/1190000020616412)
 - [React Hooks异步操作二三事](https://mp.weixin.qq.com/s/vUN6HX8L5eXOAOgnUnHwDw)
 - [五分钟带你了解React Hooks工作原理](https://segmentfault.com/a/1190000021057476)
+- [五个大型项目实践总结，解密React Hooks最佳实践](https://segmentfault.com/a/1190000021133222)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)

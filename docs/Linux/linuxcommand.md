@@ -1,7 +1,19 @@
+### Common
+
+- init 3
+- init 0
+- exit
+- clear
+- env
+- ctrl + c
+
 ### 帮助指令
 
 - `man ls`
-- `help cd`
+- help
+  1. type xxx
+  2. xxx help(内部命令)or xxx --help(外部命令)
+- info ls
 
 ### 注销、关机、重启
 
@@ -176,11 +188,15 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 
 
 ### 目录列表
-- `ls -al`
+- `ls [-alrtRh] [目录名...]`
+  - `ls /root /etc`
+  - `ls -l [.]`
 - `pwd`
 - `cd`
-  - `cd ~` 用户目录
-  - `cd -` 返回上次目录
+  - `cd [~]` 
+  - `cd -` 
+  - `cd /xxx/yyy` 绝对路径
+  - cd xxx/yyy 相对路径(可用.和..)
 
 
 ### 输出
@@ -189,53 +205,52 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 - echo 'hello JACK'
 
 
-### 文件
+### 文件/文件夹
 - `touch filename [filename2] [filenameX]`
-- `mkdir foldername`
-    - mkdir -p /home/dir1/dir2   //递归创建
+- `mkdir foldername...`
+    - mkdir -p /a/b/c   //递归创建
+- `rm `
+    - rm fileName...  //删除文件
+    - rm [-rf] dirName... //删除非空目录
 - `cp`
     - cp aaa.txt ./test2/
-    - cp -r ./test/ ./test2/
-    - cp -r ./test/ ./test2/  //不会有覆盖提示
-    - cp -r  dir1 ../../newdir //dir1被复制到上两级目录下,并改名为"newdir"
-- `rm `
-    - rm xxx
-    - rm -r ./test  //删除目录
-    - rm -rf xxxx
+    - cp -r ./test/ ./test2/   //复制目录
+    - cp -r  dir1 ../../newdir //复制并改名
+    - cp -p xxx yyy   //时间不变
+    - cp -a xxx yyy   //所有属性不变
 - `mv`
     - mv 1.txt 2.txt
     - mv 1.txt ../1.txt
-    - `mv oldNameFile newNameFile` 重命名
-- `source xxxx` 重载配置文件
+- `source xxxx` //重载配置文件
 - **`~/.bashrc or ~/.zshrc` 环境变量配置**
 
 
-### 文件内容
-- head
-  - `head -n xxx.txt` //默认10行
-  - `head -n -10 file` //不打印文件后十行内容
-
-- tail
-  - `tail -n 10 xxx.txt`
-  - tail -n +100 file 只打印100行以后的内容
-  - tail -f text.txt //实时追踪文件变化
-
-- cat
+### 文件内容查看
+- cat fileName... / tac
+  
   - `cat -n xxxxx` 将该文件的内容输出到标准输出中，并显示行号
-  - `cat file1 file2 > file3`  将file1和file2的内容依次添加到file3当中
+- `cat file1 file2 > file3`  将file1和file2的内容依次添加到file3当中
   - cat -n /etc/profile | more
+  
+- head
+  
+  - `head -n xxx ` //默认10行
+- `head -n -10 file` //不打印文件后十行内容
+  
+- tail
+  - `tail -n xxx ` //默认10行
+  -  `tail -n +100 xxx`  //显示100行以后的内容
+  - `tail -f xxx`  //实时追踪文件变化
 
-- tac
+- `wc -l xxx` //行数
 
-- more ${FILE_NAME} 向下翻动文件
+- more xxx 向下翻动文件
 
     ![](images/learn-7.png)
 
-- less ${FILE_NAME} 向上/下翻动文件 (分屏显示大文件)
+- less xxx 向上/下翻动文件 (分屏显示大文件)
 
     ![](images/learn-8.png)
-
-- grep -acinv 'keyword' filename
 
 - \>(输出重定向) / >>(追加)
 
@@ -250,8 +265,6 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 
     - ln -s ./root linkToRoot
     - rm -rf linkToRoot
-
-- en 查看环境变量
 
 ### 历史命令
 
@@ -270,13 +283,21 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 - cal
     - cal 2020
 
-### 压缩 & 解压
+### 打包/解包/压缩/解压缩
 
-- `tar -zcvf test.tar.gz /test1 /test2` //压缩文件可以多个
+> .tar 打包
+>
+> .tar.gz / .tar.bz2 打包加压缩
+>
+> .tbz2和.tgz是双扩展名的缩写
 
-- `tar -zxvf a.tar.gz -C /opt/ `  //指定解压到的目录需提前存在
+- `tar -czf test.tar.gz /test1 /test2` //打包压缩文件可多个
 
-- `tar -zxvf test.tar.gz`
+- `tar -cjf test.tar.bz2 /test1 /test2` 
+
+- `tar -zxf a.tar.gz -C /opt/ `  //指定解压到的目录需提前存在
+
+- `tar -jxf test.tar.bz2`
 
     ![](images/learn-9.png)
 

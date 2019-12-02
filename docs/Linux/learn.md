@@ -12,7 +12,10 @@ CentOS为例
 5. 能进行安全设置,防止攻击,保障服务器正常运行,能对系统调优
 6. 深入理解Linux系统(对内核有研究),熟练掌握大型网站应用架构组成、并熟悉各个环节的部署和维护方法
 
-### 3 install vm + CentOS
+### 3 install vm software + CentOS
+
+below is vm example:
+
 1. install vm
 2. BIOS设置开始虚拟化技术
 3. create virtual machine
@@ -46,20 +49,21 @@ CentOS为例
 
 ### 5 Linux Directory
 1. linux的目录中有且只要一个根目录 /
-2. linux的各个目录存放的内容是规划好,不用乱放文件
+2. linux的各个目录存放的内容是规划好,不要乱放文件
 3. linux是以文件的形式管理我们的设备,因此**linux系统一切皆为文件**
 4. linux的各个文件目录下存放什么内容
-   1. /bin        常用命令，如vi su
-   2. /sbin       要具有一定权限才可以使用命令
-   3. /home       普通用户相关文件
-   4. /root       root用户相关文件
-   5. /etc        配置
-   6. /boot       启动相关
-   7. /media      U盘 光驱
-   8. /mnt        挂载别的文件系统
-   9. /opt        安装文件
-   10. /usr/local  安装目录，相当于windows下的program file
-   11. /var        日志、经常修改的东西
+   1. /bin        常用命令，如vi、su
+   2. /sbin      管理命令
+   3. /home/username     普通用户家目录
+   4. /root       root用户家目录
+   5. /etc        配置文件目录
+   6. /usr/bin、/usr/sbin 系统预装的其他命令
+   7. /usr/local  安装目录，相当于windows下的program file
+   8. /boot       启动相关
+   9. /media      U盘 光驱
+   10. /mnt        挂载别的文件系统
+   11. /opt        安装文件
+   12. /var        日志、经常修改的东西
 
 ![](./images/learn-5.png)
 

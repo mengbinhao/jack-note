@@ -1,7 +1,7 @@
 ![](./images/vim-1.png)
 
 
-### 正常模式
+### Normal-mode
 - 可以使用快捷键
 - 删除光标后字符 `x`
 - 删除光标前字符 `X`
@@ -13,12 +13,14 @@
 - `gg`跳到行首
 - control + u / d 翻半页
 
-### 插入模式(修改内容)
+### Insert-mode
 - control + V 之后输入特殊字符比如 control + \
 
-### 命令行模式(读取、存盘、替换、显示行号、退出vi等)
+### Command-mode(读取、存盘、替换、显示行号、退出vi等)
 - 显示行号 `:set nu`
 - 隐藏行号 `:set nonu`
 - 跳到行 `:行号+回车` or `20 + shift + g`
 - 查找 `/xxx+回车`  `n`后找  `N`前找
 - :wq :q :q!
+
+### Visual-mode
