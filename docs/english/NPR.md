@@ -1,3 +1,20 @@
+- 2019.12.2
+  - unravel v
+  - spoiler n
+  - deterioration n
+  - lagoon n
+  - obstscle n
+  - solidarity n
+  - ration n/vt
+  - coercive adj
+  - elderly adj
+
+  > It came to the conclustion that xxxx
+  > If climate change is left unchecked
+  > Is that fair to say?
+  > in a second
+  > whether that lasts remains to be seen
+
 - 2019.11.16
   - overnight n
   - ambulance n
@@ -13,6 +30,7 @@
   > by any means
   > too ... to ...
   > he was in meetings much of day
+  > It's time to try something new
 
 - 2019.11.14
   - fraud n
@@ -419,7 +437,7 @@
   - relative adj
   - arrange v | arrangement n
   - terrify v | terrified adj
-  - condemnation n
+  - condemnation n | condemn vt
   - approve v | disapprove v
   - outcry n
   - defiant adj
@@ -561,7 +579,7 @@
   - thrilled adj
   - disdain n/vt
   - ambiguity n
-  - indecisive adj
+  - indecisive adj | decisive adj | decisively adv
   - obfuscate vt
 
   > let's put aside that xxx
@@ -1148,7 +1166,7 @@
   - inspiration n
   - vice n/adj
   - expel vt
-  - intensive adj | intensify vi/vt
+  - intensive adj | intensify vi/vt | intense adj
   - pledge n/vt
   - obligate vt
   - congratulatory adj
@@ -1355,11 +1373,9 @@
   - sympathetic adj | pathetic adj
   - footage n
   - dis adj
-  - intense adj
   - recharge vt
   - controversy n | controversial adj
   - intelligence n | intellectual n/adj
-  - condemn vt
   - disapprove vi
 
   > he made a name for himself xxxx
@@ -1709,7 +1725,7 @@
   - proficiency n
   - afloat adj/adv
   - evacuate vi/vt
-  - speculation n
+  - speculation n | speculate v
   - takeaway n
   - plot n/vi/vt
   - fierce adj | fiercely adv

@@ -1,11 +1,17 @@
 ### Common
 
-- init 3
-- init 0
-- exit
+- init 3 //服务器终端登录
+- init 0 //关机
 - clear
 - env
 - ctrl + c
+- ctrl + r //搜索执行过的命令
+- `type command`
+- `which command`
+- `tree xxx`  树状图列出目录的内容
+- `ssh userName@ip`  远程登录
+- `git`
+- `maven`
 
 ### 帮助指令
 
@@ -30,31 +36,61 @@
 
 ### 用户
 
-- `sudo -i` 切到管理员
-- `su - username`  切换用户
-- `exit / logout` 注销(在运行级别3下有效)
-- `sudo passwd root` change password
 - `useradd [options] username`
-    - useradd -d /home/test xm
-- `passwd username`
+
+    - useradd -g groupname username
+
 - `userdel [options] username`
-    - userdel -r username
-- `id username`
-- `whoami`
+    
+    - userdel -r username //删除家目录
+    
+- `passwd [username]`
+
+- 查询
+
+    - `id [username]`
+    - `whoami`
+    - tail -10  /etc/passwd
+    - tail -10  /etc/shadow
+    - tail -10  /etc/group
+
+- 修改用户属性
+
+    - `usermod -g groupname username`
+    - `usermod -d 目录名 用户名`
+    - chage
+
+- `exit / logout` 注销(在运行级别3下有效)
+
+- 切换用户
+
+    - su - [username]   // - 代表运行环境也切换
+    - sudo 以其他用户身份执行命令
+
+    >1. root运行visudo
+    >2. username ALL=/sbin/shutdown -c增加相应的命令权限
+    >3. 切换用户执行
+
+- 用户配置文件
+  -  /etc/passwd    7属性
+  - /etc/shadow
+  -  /etc/group       4属性
 
 ### 用户组
 
-- `ls -ahl`
 - `groupadd groupname`
 - `groupdel groupname`
-- `usermod -g groupname username`
-- `usermod -d 目录名 用户名 //改变该用户登录的初始目录`
-- /etc/password
-- /etc/shadow
-- /etc/group
 
 ### 权限
-- `sudo xxx` 使用管理员执行命令
+- 文件类型
+
+    - \-    普通文件
+    - d   目录
+    - b   块特殊文件
+    - c   字符特殊文件
+    - l    符号链接
+    - f    命名管道
+    - s   套接字文件
 
 - `chmod`
 
@@ -65,8 +101,8 @@
 
 - `chown`
 
-    - chown newowner file
-    - chown newowner:newgroup file
+    - chown newowner fileName
+    - chown [newowner]:newgroup fileName
     - chown -R tom kkk/
 
 - `chgrp`
@@ -75,7 +111,7 @@
 
 - `-rwxrw-r-- 1 root root 6 Feb 2 09:39 abc`
 
-    > - 第0位文件类型 -普通 d目录 l软连接 c字符设备(键盘鼠标) b快文件(硬盘)
+    > - 第0位文件类型
     > - 1-3 owner权限 4-6 group权限 7-9 other权限
     > - 如果是文件表示硬链接的数,如果是目录则表述该目录的子目录个数
     > - root 拥有者
@@ -83,18 +119,27 @@
     > - 文件大小,如果是目录显示4096
     > - 最后修改时间
     > - 文件名
+    > - r=4、w=2、x=1
 
 - ##### rwx作用在文件
 
-    1. r可读查看
-    2. w可写,但不一定能删除,删除前提条件是对文件所在的目录有w权限
-    3. x可执行
+    1. r 可读查看
+    2. w 可写,但不一定能删除,删除前提条件是对文件所在的目录有w权限
+    3. x 可执行
 
 - ##### rwx作用在目录
 
-    1. r可读 ls
-    2. w可修改,目录内创建 + 删除 + 重命名
-    3. x可进入该目录
+    1. rx 显示目录内文件名
+    2. wx 可修改,目录内创建 + 删除 + 重命名
+    3. x 进入目录
+    
+- 当权限冲突以属主优先
+
+    > `-----w---- user1 group1` user1不能w, group1其他用户可以w
+
+- 特殊权限
+
+  ![](./images/command-1.png)
 
 ### install
 
@@ -230,6 +275,7 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
   
   - `cat -n xxxxx` 将该文件的内容输出到标准输出中，并显示行号
 - `cat file1 file2 > file3`  将file1和file2的内容依次添加到file3当中
+  
   - cat -n /etc/profile | more
   
 - head
@@ -381,13 +427,3 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 - `netstat -anp` an按一定顺序排列输出  p显示那个进程在调用
 - `lsof -i :8080`  查看端口属于哪个程序
 - `ping www.taobao.com`
-
-### others
-
-- `type command`
-- `which command`
-- `whereis command`
-- `tree xxx`  树状图列出目录的内容
-- `ssh userName@ip`  远程登录
-- `git`
-- `maven`

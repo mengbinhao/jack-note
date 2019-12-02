@@ -2,25 +2,45 @@
 
 
 ### Normal-mode
-- 可以使用快捷键
-- 删除光标后字符 `x`
-- 删除光标前字符 `X`
-- 删除光标所在行 `dd`, 删除5行``5dd`
-- 复制行`yy`,复制单词 `yw`, `#yy或#yw` #个字或行
-- 粘帖 `p`
-- 回到上一操作前状态 `u`
-- `G`跳到末尾
-- `gg`跳到行首
+- h、j、k、l方向
+- 删除光标后字符x、删除光标前字符X
+- yy复制行、y$复制光标之后、yw复制单词、`#yy或#yw`(#个字或行)
+- dd剪切、d$、#dd
+- 粘帖p
+- 撤销u、ctrl + r反撤销
+- G跳到末尾、gg跳到行首、#gg、:行号+回车
+- r替换
+- ^ / $ 行首末
 - control + u / d 翻半页
 
 ### Insert-mode
-- control + V 之后输入特殊字符比如 control + \
+- [shift] + i、a、o 
+
+### Open
+
+- vi [fineName] 直接:w
 
 ### Command-mode(读取、存盘、替换、显示行号、退出vi等)
-- 显示行号 `:set nu`
-- 隐藏行号 `:set nonu`
-- 跳到行 `:行号+回车` or `20 + shift + g`
-- 查找 `/xxx+回车`  `n`后找  `N`前找
-- :wq :q :q!
+
+- : or /
+- 行号 :set nu、:set nonu
+- 查找/xxx+enter  n后找  N前找
+- :w [fileName],若通过加文件名打开的vi则可以直接:w
+- :q :q! :wq
+- :!执行命令
+- 替换
+  - :s/old/new 只替换光标后
+  - :%s/old/new
+  - :%s/old/new/g
+  - :3,5s/old/new/g
+  - :%s@/@//@g  修改/为//
+- vim file1 file2 同时打开两个文件， 第一个文件使用yy复制， 使用:next 打开下一个文件 ，使用p命令粘贴，返回上一个文件使用:prev
 
 ### Visual-mode
+
+- v、V、ctrl+v
+
+### configration
+
+- /etc/virc、/etc/vimrc
+  - add`set nu` in last row
