@@ -75,16 +75,18 @@ below is vm example:
 - change /etc/ssh/sshd_config, set PermitRootLogin yes
 - service sshd restart
 
-### 7 [command](./linuxcommand.md)
+### 7 [basiccommand](./basiccommand.md)
 
-### 8 运行级别
+### 8 [managecommand](./ managecommand.md)
+
+### 9 运行级别
 
 ![](./images/learn-6.png)
 - init [0-5]
 - /etc/inittab //修改默认运行级别
 > 找回root密码, 开机>引导时输入enter>e>选中第二行输入e>空格+1+enter>b进入单用户模式,然后passwd root
 
-### 9 crond
+### 10 crond
 
 - crontab [选项] (-e 编辑 -l查询 -r 删除当前用户所有的crontab任务)
 - service crond restart
@@ -106,7 +108,7 @@ cal >> /tmp/mycal
 4. */1 * * * * /home/mytask1.sh
 ```
 
-### 10 磁盘分区、挂载
+### 11 磁盘分区、挂载
 #### 分区方式
 1. mbr
 2. gtp
@@ -157,15 +159,13 @@ du -h	/目录 //查询指定目录的磁盘占用情况,默认为当前目录
 - tree
 - yum install tree
 
-### 11 网路配置
+### 12 网路配置
 ![](./images/learn-14.png)
 
 #### 查看网络IP和网关
 - vm查看虚拟网络编辑器
 - 修改ip
 - vm查看网关
-- winodws中ipconfig
-- ping www.baidu.com
 
 #### 配置IP
 1. 自动获取(缺点会变)
@@ -175,7 +175,7 @@ du -h	/目录 //查询指定目录的磁盘占用情况,默认为当前目录
 
 `service network restart`
 
-### 12 service
+### 13 service
 service 服务名 [start|stop|restart|reload|status]
 
 在CentOS7.0后 systemctl 服务名 [start|stop|restart|reload|status]

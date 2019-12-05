@@ -141,6 +141,7 @@
 - [为什么需要在JavaScript中使用严格模式？](https://mp.weixin.qq.com/s/rvbv2h5WLeQCx1oVpD3xsw)
 - [一个多层if/else嵌套的代码重构案例](https://juejin.im/post/5dde8ea1f265da05b52e88cd)
 - [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
+- [使用JS来动态操作css](https://segmentfault.com/a/1190000021169316)
 
 ### Vue
 
@@ -429,6 +430,7 @@
 
 ####  JS
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
+- [为什么外链css要放在头部，js要放在尾部](https://www.cnblogs.com/lvonve/p/11975593.html)
 
 #### Vue
 - [Vue面试经常会被问到的面试题](https://juejin.im/post/5dce0677e51d45083d30b7e7)

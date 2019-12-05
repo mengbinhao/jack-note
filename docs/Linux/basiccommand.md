@@ -32,8 +32,6 @@
 
 > 关机前执行`sync`保存内存中的东西到磁盘
 
-### 进入桌面 `startx`
-
 ### 用户
 
 - `useradd [options] username`
@@ -41,7 +39,7 @@
     - useradd -g groupname username
 
 - `userdel [options] username`
-    
+  
     - userdel -r username //删除家目录
     
 - `passwd [username]`
@@ -141,96 +139,6 @@
 
   ![](./images/command-1.png)
 
-### install
-
-- `wget http://file.tgz` //文件下载
-- `curl http://file.tgz` //文件下载
-    - curl xxx > yyy
-- 配置环境变量`.bashrc`增加如下两行 
-    - `export JAVA_HOME=/root/jdk-XXX_linux-x64`
-    - `export PATH=$JAVA_HOME/bin:$PATH`
-    - `source .bashrc` //重新加载
-- `nohup command >out.file 2>&1 &` //后台运行
-- `ps -ef |grep 关键字  |awk '{print $2}'|xargs kill -9` //查找进程
-
-#### [curl](https://segmentfault.com/a/1190000020436170)
-
-#### CentOS
-
-```bash
-//rpm
-rpm -i jdk-XXX_linux-x64_bin.rpm
-rpm -ivh firefox //安装
-rpm -qa
-rpm -qa | grep jdk
-rpm -qa | more
-rpm -qa | less
-rpm -q firefox //查询是否安装
-rpm -qi firefox //查询软件包信息
-rpm -ql firefox //查询软件包中的文件
-rpm -qf /etc/passwd //查询某个文件属于哪个rpm包
-rpm -e firefox //卸载
-rpm -e --nodeps firefox //强制卸载
-
-//yum,配置文件/etc/yum.repos.d/CentOS-Base.repo
-yum list | grep firefox
-yum search jdk
-yum install java-11-openjdk.x86_64
-yum erase java-11-openjdk.x86_64
-
-//install mysql,配置文件usr/lib/systemd/system 目录下，创建一个 XXX.service
-yum install mariadb-server mariadb
-systemctl start mariadb
-systemctl enable mariadb
-```
-
-#### Ubuntu
-
-```bash
-dpkg -i jdk-XXX_linux-x64_bin.deb
-dpkg -l
-dpkg -l | grep jdk
-dpkg -l | more
-dpkg -l | less
-dpkg -r
-
-//apt-get,配置文件/etc/apt/sources.list
-apt-get install openjdk-9-jdk
-apt-get install openjdk-9-jdk --reinstall
-apt-get --purge remove openjdk-9-jdk //移除软件包及配置文件
-apt-get update xxx
-apt-get remove xxx
-apt-cache search jdk
-apt-cache show xxx
-apt-get source xxx  下载该包源码
-apt-get -f install 恢复安装
-apt-get build-dep xxx 安装相关的编译环境
-apt-get dist-upgrate 升级系统
-apt-cache depends xxx  该包依赖包
-apt-cache rdepends xxx  该包被依赖包
-
-//切换apt源
-#/etc/apt/sources.list
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
-echo '' > sources.list
-copy 清华镜像地址
-sudo apt-get update
-
-//install mysql,配置文件/lib/systemd/system 目录下会创建一个 XXX.service
-apt-get install mysql-server
-systemctl start mysql
-systemctl enable mysql
-
-//install sshd
-sudo apt-get install openssh-server
-service sshd restart
-
-//linux系统客户机登录linux服务机
-ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_ssh,尝试删除
-```
-
-### 管道命令 |
-
 
 ### 目录列表
 - `ls [-alrtRh] [目录名...]`
@@ -312,22 +220,7 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
     - ln -s ./root linkToRoot
     - rm -rf linkToRoot
 
-### 历史命令
-
-- history 10
-- !178 //运行编号178的命令
-- !ls //执行最后一次以ls开头的命令
-
-### 时间日期
-
-- date
-    - date "+%Y"
-    - date "+%m"
-    - date "+%d"
-    - date "+%Y-%m-%d %H:%M:%S"
-    - date -s "2018-10-10 11:22:22" //set date
-- cal
-    - cal 2020
+### 管道命令 |
 
 ### 打包/解包/压缩/解压缩
 
@@ -399,14 +292,32 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
     - updatedb
     - locate hello.txt
 
+### 历史命令
+
+- history 10
+- !178 //运行编号178的命令
+- !ls //执行最后一次以ls开头的命令
+
+### 时间日期
+
+- date
+  - date "+%Y"
+  - date "+%m"
+  - date "+%d"
+  - date "+%Y-%m-%d %H:%M:%S"
+  - date -s "2018-10-10 11:22:22" //set date
+- cal
+  - cal 2020
 
 ### 进程
+
 - ps
+
   - ps -ef | grep tomcat
 
   - ps -aux | grep java  // a显示当前终端所有进程 u用户格式显示进程信息  x显示后台进程运行的参数)
 
-      ![](images/learn-16.png)
+    ![](images/learn-16.png)
 
 - `kill [-9] xxxxx`  //支持通配符 9代表强制
 
@@ -416,14 +327,95 @@ ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_
 
 - top(动态监控进程)
 
-    - 监控中按u,输入用户名进行用户过滤
-    - 监控中按k,再输入要结束的进程号
+  - 监控中按u,输入用户名进行用户过滤
+  - 监控中按k,再输入要结束的进程号
 
-    ![](images/learn-18.png)
+  ![](images/learn-18.png)
 
-### 网络
+### install
 
-- `netstat -tln | grep 8080` 查看端口8080的使用情况
-- `netstat -anp` an按一定顺序排列输出  p显示那个进程在调用
-- `lsof -i :8080`  查看端口属于哪个程序
-- `ping www.taobao.com`
+- `wget http://file.tgz` //文件下载
+- `curl http://file.tgz` //文件下载
+  - curl xxx > yyy
+- 配置环境变量`.bashrc`增加如下两行 
+  - `export JAVA_HOME=/root/jdk-XXX_linux-x64`
+  - `export PATH=$JAVA_HOME/bin:$PATH`
+  - `source .bashrc` //重新加载
+- `nohup command >out.file 2>&1 &` //后台运行
+- `ps -ef |grep 关键字  |awk '{print $2}'|xargs kill -9` //查找进程
+
+#### [curl](https://segmentfault.com/a/1190000020436170)
+
+#### CentOS
+
+```bash
+//rpm
+rpm -i jdk-XXX_linux-x64_bin.rpm
+rpm -ivh firefox //安装
+rpm -qa
+rpm -qa | grep jdk
+rpm -qa | more
+rpm -qa | less
+rpm -q firefox //查询是否安装
+rpm -qi firefox //查询软件包信息
+rpm -ql firefox //查询软件包中的文件
+rpm -qf /etc/passwd //查询某个文件属于哪个rpm包
+rpm -e firefox //卸载
+rpm -e --nodeps firefox //强制卸载
+
+//yum,配置文件/etc/yum.repos.d/CentOS-Base.repo
+yum list | grep firefox
+yum search jdk
+yum install java-11-openjdk.x86_64
+yum erase java-11-openjdk.x86_64
+
+//install mysql,配置文件usr/lib/systemd/system 目录下，创建一个 XXX.service
+yum install mariadb-server mariadb
+systemctl start mariadb
+systemctl enable mariadb
+```
+
+#### Ubuntu
+
+```bash
+dpkg -i jdk-XXX_linux-x64_bin.deb
+dpkg -l
+dpkg -l | grep jdk
+dpkg -l | more
+dpkg -l | less
+dpkg -r
+
+//apt-get,配置文件/etc/apt/sources.list
+apt-get install openjdk-9-jdk
+apt-get install openjdk-9-jdk --reinstall
+apt-get --purge remove openjdk-9-jdk //移除软件包及配置文件
+apt-get update xxx
+apt-get remove xxx
+apt-cache search jdk
+apt-cache show xxx
+apt-get source xxx  下载该包源码
+apt-get -f install 恢复安装
+apt-get build-dep xxx 安装相关的编译环境
+apt-get dist-upgrate 升级系统
+apt-cache depends xxx  该包依赖包
+apt-cache rdepends xxx  该包被依赖包
+
+//切换apt源
+#/etc/apt/sources.list
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+echo '' > sources.list
+copy 清华镜像地址
+sudo apt-get update
+
+//install mysql,配置文件/lib/systemd/system 目录下会创建一个 XXX.service
+apt-get install mysql-server
+systemctl start mysql
+systemctl enable mysql
+
+//install sshd
+sudo apt-get install openssh-server
+service sshd restart
+
+//linux系统客户机登录linux服务机
+ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_ssh,尝试删除
+```

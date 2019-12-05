@@ -1,3 +1,41 @@
+- 2019.12.5
+  - cafetiria n
+  - mortality n
+  - prolong vt
+  - fossil n/adj
+  - bulb n
+
+- 2019.12.3
+  - devote v | devoted adj/adv
+  - swell n/v
+  - bandit n
+  - ferocious adj
+  - reliance n
+  - mull n/v
+  - convince vt | convinced adj
+  - mythical adj
+  - chiff n
+  - ultimatum n
+  - fruitless adj
+  - remorse n
+  - contrition n
+  - minor n/adj
+  - prostitution n
+  - solicit v
+  - toxic adj
+  - patron n
+  - charity n
+  - offender n
+  - sever v | severed adj
+  - foreseeable adj
+  - taint n/v | tainted adj
+  - repaid v/adj
+  - competitor n
+  - britery n
+  - preliminary n/adj
+  - brutal adj
+  - abduct n/vt
+
 - 2019.12.2
   - unravel v
   - spoiler n
@@ -258,7 +296,6 @@
   - compartment vt/n
   - basement n
   - classified adj
-  - disrupt vt
   - stall n/vi/vt
   - ethic n
   - deliberation n
@@ -640,7 +677,7 @@
   - dealings n
   - imply vt | implied adj
   - explicit adj
-  - merely adv
+  - merely adv | mere adj
   - withhold vt
   - confess vi/vt
 
@@ -870,7 +907,7 @@
   - sizable adj
   - ridicule n/vt | ridiculous adj
   - invitation n
-  - remarkable adj
+  - remarkable adj | hallmark n/vt
   - electorate n
 
   > to my knowledge
@@ -1370,7 +1407,7 @@
   - reveal vt
   - transparent adj | transparency n
   - exhausting adj
-  - sympathetic adj | pathetic adj
+  - sympathetic adj | sympathize vi |pathetic adj
   - footage n
   - dis adj
   - recharge vt
@@ -1435,7 +1472,7 @@
   - conrrary n/adj/adv
   - high-profile adj
   - reserve n/vi/vt/adj
-  - constraint n
+  - constraint n | constrain v | constrained adj
 
   > he is by no means the only officail public servant doing so
   > cover one's ears
@@ -1571,7 +1608,7 @@
   - underwrite vt
   - doubling n
   - reception n
-  - utterly adv
+  - utterly adv | utter vt/adj
   - gethering n/adj
   - underway adj
   - counterpart n
@@ -1669,7 +1706,7 @@
   - crackdown n | crack n/adj/vi/vt
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - convicted adj
+  - convicted adj | convict n/vt
   - undergo vt
   - procecutor n
   - defendant n | defend vi/vt | defensive adj

@@ -641,8 +641,15 @@ const hasPubProperty = (attr, obj) => {
 };
 
 //JSON.parse(JSON.stringify(obj))
-//不能处理属性值为function、undefined、date等
-//json只能处理string、boolean、number、null、object、array
+//JSON只能处理string、boolean、number、null、object、array
+// 缺点：
+// 1、会忽略 undefined
+// 2、会忽略 symbol
+// 3、不能序列化函数,，无法拷贝函数
+// 4、不能解决循环引用的对象 const a = {val:2}; a.target = a; 拷贝a会出现系统栈溢出，因为出现了无限递归的情况
+// 5、不能正确处理RegExp, Date, Set, Map等
+// 6、不能处理正则
+// 7、会抛弃对象的constructor。也就是深拷贝之后，不管这个对象原来的构造函数是什么，在深拷贝之后都会变成Object
 const deepClone = (source, hash = new WeakMap()) => {
   if (!isObject(source)) return source;
   //or return directly
