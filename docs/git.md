@@ -26,7 +26,11 @@
 
 1. 分离头指针一定要跟branch或tag绑在一起，否则会丢掉 `git checkout commit-SHA`
 
-2. if meet unnormal `git rm -r --cached .`
+2. if meet unnormal
+```bash
+git rm -r --cached .
+git add .
+```
 
 3. **git help [--web] command**
 

@@ -1,3 +1,11 @@
+- 2019.12.6
+  - scene n
+  - curious adj
+  - renounce vt
+  - principally adj
+  - applause n
+  - industrialization n
+
 - 2019.12.5
   - cafetiria n
   - mortality n
@@ -1491,7 +1499,7 @@
   - compromise n/vi/vt
   - reservation n
   - opt vi
-  - stumble n/vt | tumble n/vi
+  - stumble n/vt | stumbling adj | tumble n/vi
   - fissure n
   - radical adj
   - gradual adj
