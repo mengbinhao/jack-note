@@ -1,3 +1,37 @@
+- 2019.12.10
+  - capable adj
+  - distraction n
+  - censure n/v
+  - hoax n/vt
+  - obsolete n/vt/adj
+  - designate vt
+  - discriminate v
+  - awkward adj
+  - defection n | defect n/vi
+  - coordinate vt | coordination n
+  - corroborate vt | corroboration n
+
+- 2019.12.9
+  - intermediary n
+  - cleric n/adj
+  - turbulence n
+  - midst n/prep
+  - misgiving n
+  - plunder n/v
+  - continuity n
+  - vacuum n
+  - caretaker n
+  - inevitably adv
+  - compassionate n/adj/adv | compassion n
+  - defeat n/vt
+  - medal n
+  - resonance n
+  - carnage n
+  - stab n/vt
+
+  > Both described as very thoughtful,compassionate and having bright future
+  > but it could have been much worse
+
 - 2019.12.6
   - scene n
   - curious adj
@@ -126,8 +160,6 @@
   - agonize v
   - meddling n/v
   - bluntly adj
-  - uproar n
-  - corroboration n
 
   > to put bluntly
   > Why didn't that ever come to pass?
@@ -144,7 +176,6 @@
   > It has not come to much
 
 - 2019.11.7
-  - withdraw v
   - accord n/v
   - aggregate n/v/adj
   - tune n/v
@@ -498,7 +529,6 @@
   - individual n/adj
   - firsthand
   - qualify vi/vt
-  - corroborate vt
   - interim n/adj
   - clearance n
   - accompany vt
@@ -523,7 +553,7 @@
   - confusion n | confuing adj | confuse vt
   - trible adj
   - short-term adj
-  - withdrawal n | withdraw v
+  - withdrawal n | withdraw v | withhold vt
   - decimate vt
   - patrol n/vt
   - harshly adv
@@ -584,7 +614,7 @@
 
 - 2019.10.9
   - tout n/vt
-  - patriot n | patriotism
+  - patriot n | patriotism | unpatriotic adj
   - barrier n
   - subsidy n | subsidize vt
   - manipulation n
@@ -686,7 +716,6 @@
   - imply vt | implied adj
   - explicit adj
   - merely adv | mere adj
-  - withhold vt
   - confess vi/vt
 
   > Now, all of this, we should explain the background
@@ -910,7 +939,6 @@
   - cautions adj
   - incredible adj
   - crafty adj
-  - defection n
   - plus n/adj/conj
   - sizable adj
   - ridicule n/vt | ridiculous adj
@@ -995,8 +1023,8 @@
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - articulate vt/adj
   - interpret vi/vt
+  - articulate vt/adj
   - urge | urging n
 
   > seconds matter
@@ -1361,7 +1389,7 @@
   - committee n | commitment n | committed adj
   - refer vi/vt
   - brevity n
-  - obstruction n
+  - obstruction n | obstruct vt
   - ultimately adv | ultimate adj
   - exonerate vt
   - motivated adj | motivation n
@@ -1714,7 +1742,7 @@
   - crackdown n | crack n/adj/vi/vt
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - convicted adj | convict n/vt
+  - convicted adj | convict n/vt | convivtion n
   - undergo vt
   - procecutor n
   - defendant n | defend vi/vt | defensive adj

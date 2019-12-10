@@ -142,11 +142,13 @@
 - [一个多层if/else嵌套的代码重构案例](https://juejin.im/post/5dde8ea1f265da05b52e88cd)
 - [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
 - [使用JS来动态操作css](https://segmentfault.com/a/1190000021169316)
+- [你不知道的 JSON.stringify() 的威力](https://segmentfault.com/a/1190000021230185)
 
 ### Vue
 
 #### Vue related
 
+- [Vue中容易被忽视的知识点](https://segmentfault.com/a/1190000021229517)
 - [simpel vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [手把手带你实现最精简Vue的data、computed、watch](https://juejin.im/post/5db6433b51882564912fc30f)
@@ -212,6 +214,8 @@
 - [Vue项目使用拦截器和JWT验证](https://juejin.im/post/5d9deb275188255ccc5798ed)
 - [Vue开发必须知道的36个技巧](https://segmentfault.com/a/1190000020620972)
 - [基于Vue-SSR优化方案归纳总结](https://segmentfault.com/a/1190000021089924)
+- [手把手教你实现一个渲染海量数据的tree组件](https://segmentfault.com/a/1190000021228976)
+- [tree-componet](https://github.com/cxuhwiuefhuefu/tree-componet)
 
 #### component related
 
@@ -228,6 +232,7 @@
 - [Vue图片懒加载插件](http://www.cnblogs.com/chenwenhao/p/10505387.html)
 - [图片懒加载/封装Vue懒加载组件](https://juejin.im/post/5c52ee216fb9a049ee80e283)
 - [Vue.js的动态组件模板](https://segmentfault.com/a/1190000019763034)
+- [基于Vue的两层吸顶踩坑总结](https://mp.weixin.qq.com/s/QoKZYVa3yBy4pdXxSgXTYA)
 
 #### Vue-router
 
