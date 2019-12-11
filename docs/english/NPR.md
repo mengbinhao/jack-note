@@ -1,3 +1,11 @@
+- 2019.12.11
+  - silicon n
+  - grave n/adj
+  - endgame n
+  - flip n/v/adj
+  - miraculous adj | miracal n
+  - cue n/vt | clue n n/vt
+
 - 2019.12.10
   - capable adj
   - distraction n
@@ -102,7 +110,7 @@
   - fragmented adj
   - harmony n
   - contrast n/v
-  - avenue n
+  - avenue n | venue n
   - assure vt | reassure
   - extradite vt
 

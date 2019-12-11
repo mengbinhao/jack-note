@@ -359,11 +359,14 @@
 - [最全NGINX技术分析](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490869&idx=1&sn=5260a9d9064456ac5472ddfa2d0be822)
 - [NGINX 反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
 - [NGINX的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab)
+- [VuePress和GitBook](https://segmentfault.com/a/1190000021234353)
 - [GitBook 简明使用教程](https://www.phpjieshuo.com/archives/153/)
+- [GitBook插件留言](https://juejin.im/post/5ce51e126fb9a07ed440d7d0)
 
 ### JAVA
 
 - [JAVA OOM analysis](https://mp.weixin.qq.com/s/1QoeqfrJT1sgrz6yPpk1Aw)
+- [Github Java resources](https://segmentfault.com/a/1190000021234746)
 
 ### Python
 
@@ -390,6 +393,7 @@
 
 ### Interview
 
+- [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
 - [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)
 - [前端面试题全面整理-带解析 涵盖（css、js、浏览器、vue、react、移动web、前端性能、算法、node）](https://segmentfault.com/a/1190000020738115)
 - [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
