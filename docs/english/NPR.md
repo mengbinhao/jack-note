@@ -1,3 +1,43 @@
+- 2019.12.13
+  - obey v
+  - distant adj
+  - intimately adj
+  - separate v
+  - grain n
+  - telescope n
+  - mist n
+  - gaze n/vi
+  - conscious adj
+  - innocent adj
+  - spat n
+  - perceive v
+  - pique n/vt
+  - impromptu n/adj
+  - rift n/v | fissure n/v
+
+  > out of sight, out if mind
+  > because I breathe in that experience
+  > I go on vacation, and u are actually on vacation
+  > far better xxx/ way better
+  > so if each star was the size of a single grain of sand
+  > even some of Trump's staff had thier mouths open
+  > get back at him
+  > set him off
+  > lose his cool
+  > bring this up
+  > in a fit of pique
+  > walk out of xxx
+  > It's the first time I can say, hand and heart,xxx
+
+- 2019.12.12
+  - temptation n
+  - reverse n/v/adj
+
+  > the president leaves us no choice but to act
+  > I think ahead
+  > I pray for xx all the time, so don't mess with me when it comes to words like that
+  > have u heard any specifics yet on what shape these articles might take?
+
 - 2019.12.11
   - silicon n
   - grave n/adj
@@ -8,7 +48,7 @@
 
 - 2019.12.10
   - capable adj
-  - distraction n
+  - distraction n | distract v
   - censure n/v
   - hoax n/vt
   - obsolete n/vt/adj
@@ -1536,7 +1576,6 @@
   - reservation n
   - opt vi
   - stumble n/vt | stumbling adj | tumble n/vi
-  - fissure n
   - radical adj
   - gradual adj
 

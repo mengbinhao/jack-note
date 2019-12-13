@@ -95,6 +95,7 @@
 - [记一些Promise相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
 - [大厂面试必考知识点：Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
 - [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
+- [关于Promise的9个面试题](https://segmentfault.com/a/1190000021255822)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -148,6 +149,8 @@
 
 #### Vue related
 
+- [送你48个JS 开发常用工具函数](https://mp.weixin.qq.com/s/ng_j-X72TuLELEuXMMSatA)
+- [v-show原理](http://www.alloyteam.com/2019/12/14124/)
 - [Vue中容易被忽视的知识点](https://segmentfault.com/a/1190000021229517)
 - [simpel vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
@@ -214,8 +217,7 @@
 - [Vue项目使用拦截器和JWT验证](https://juejin.im/post/5d9deb275188255ccc5798ed)
 - [Vue开发必须知道的36个技巧](https://segmentfault.com/a/1190000020620972)
 - [基于Vue-SSR优化方案归纳总结](https://segmentfault.com/a/1190000021089924)
-- [手把手教你实现一个渲染海量数据的tree组件](https://segmentfault.com/a/1190000021228976)
-- [tree-componet](https://github.com/cxuhwiuefhuefu/tree-componet)
+- [实现Vue项目主题切换](https://juejin.im/post/5dee0610518825126d5a2255)
 
 #### component related
 
@@ -233,6 +235,8 @@
 - [图片懒加载/封装Vue懒加载组件](https://juejin.im/post/5c52ee216fb9a049ee80e283)
 - [Vue.js的动态组件模板](https://segmentfault.com/a/1190000019763034)
 - [基于Vue的两层吸顶踩坑总结](https://mp.weixin.qq.com/s/QoKZYVa3yBy4pdXxSgXTYA)
+- [手把手教你实现一个渲染海量数据的tree组件](https://segmentfault.com/a/1190000021228976)
+- [tree-componet](https://github.com/cxuhwiuefhuefu/tree-componet)
 
 #### Vue-router
 
