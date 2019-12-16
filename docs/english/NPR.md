@@ -1,3 +1,36 @@
+- 2019.12.16
+  - riddle n/v
+  - inspire vt
+  - awe n/vt
+  - extraterrestrial adj
+  - quest n/v
+  - clunky adj
+  - pitiful adj
+  - fleet n/v
+  - obliterate vt
+  - extrapolate vt
+  - teem vi
+  - illusion n
+  - mystic n/adj
+  - philosopher n
+  - hogwash n | nonsense n
+  - baffle vt
+  - dimension n
+  - oblivious adj
+  - procession n
+  - misery n
+  - unfurl v
+  - billionaire n
+  - penalize vt
+  - dismantle vt
+  - revolt n/v
+  - gridlock n
+
+  > I says I'm having none of it
+  > he want to take away what little the working class has
+  > the theory's been proven true beyound all doubt
+  > the quest for knowledge and understanding never gets dull
+
 - 2019.12.13
   - obey v
   - distant adj
@@ -102,7 +135,7 @@
   - ferocious adj
   - reliance n
   - mull n/v
-  - convince vt | convinced adj
+  - convince vt | convinced adj | convincing
   - mythical adj
   - chiff n
   - ultimatum n
@@ -299,7 +332,7 @@
 - 2019.10.31
   - tender n/v/adj
   - segregate vt
-  - paralyzed adj | paralyze vt
+  - paralyzed adj | paralyze vt | penalize vt
   - ecstatic adj
   - eerie adj
   - uncharted adj
@@ -385,7 +418,7 @@
   - classified adj
   - stall n/vi/vt
   - ethic n
-  - deliberation n
+  - deliberation n | deliberately adv
   - prevail vi
   - vast adj
   - clip n/vt
@@ -674,7 +707,6 @@
   - menacing adj
   - regional adj | region n
   - bolster n/vt
-  - interpreter n
   - cliff n
   - proportionate adj | dis-proportionate
   - artificial adj
@@ -962,7 +994,7 @@
   - oppressive adj
   - savage n/adj/vt
   - vibrant adj
-  - revolution n
+  - revolution n | evolution n
   - unfettered adj
   - oversee vt
   - decline n/vi/vt
@@ -1071,7 +1103,7 @@
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - interpret vi/vt
+  - interpret vi/vt | interpreter n
   - articulate vt/adj
   - urge | urging n
 
@@ -1346,7 +1378,7 @@
   - boycott n/vt
   - cabinet n
   - reckless adj | recklessness n
-  - colonial adj | colony n | colonialism n
+  - colonial adj | colony n | colonialism n | colonize vt
   - spiral n/vi/adj
   - alliance n
   - disintegrate vi/vt
@@ -1442,7 +1474,7 @@
   - exonerate vt
   - motivated adj | motivation n
   - integrity adj
-  - rare adj
+  - rare adj | rarer adj
   - porch n
 
 - 2019.7.26
@@ -1568,7 +1600,7 @@
   - activist n
   - joint adj
   - council n
-  - civilian n/adj
+  - civilian n/adj | civilization n
   - clash n/vi/vt
   - coup n
   - sole adj/n/vt
@@ -1714,7 +1746,7 @@
   - spike n/vi/vt
   - loan n
   - recession n | recess n/vt
-  - expension n
+  - expansion n | pension n/vt
   - prospect n/vi
   - debate n/vi/vt
   - staggering adj

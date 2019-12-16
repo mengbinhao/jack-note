@@ -10,7 +10,6 @@
 - [mvc撸一个](https://github.com/taniarascia/mvc)
 - [9个项目助你在2020年成为前端大师](https://segmentfault.com/a/1190000020907687)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
-- [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
 - [手摸手,带你用 Vue 撸后台](https://juejin.im/post/591aa14f570c35006961acac)
 - [Vue+Express 全栈购物商城](https://segmentfault.com/a/1190000019221113)
 - [express+mongodb+Vue 实现增删改查-全栈](https://juejin.im/post/5c1b69a1f265da61602ce477)
@@ -19,7 +18,6 @@
 - [Vue2.0+Node.js+MongoDB 全栈打造商城系统](https://coding.imooc.com/class/chapter/113)
 - [koa2+Vue+mysql 全栈](https://segmentfault.com/a/1190000018535128)
 - [Vue 全家桶+SSR+Koa2 全栈开发美团网](http://coding.imooc.com/class/chapter/280.html#Anchor)
-- [Vue 2.0 实战高级-开发移动端音乐 Web app](https://coding.imooc.com/class/chapter/107.html#Anchor)
 - [Vue.js 高仿开发饿了么 APP](https://coding.imooc.com/class/chapter/74.html#Anchor)
 - [Koa2 框架搭建电影预告片网站](http://coding.imooc.com/class/chapter/178.html#Anchor)
 - [第一个 Vue 项目台前幕后的经历](https://juejin.im/post/5c4f1f0de51d4552d573b784)
@@ -112,7 +110,7 @@
 - [axios基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
 - [2019年常用JavaScript正则大全](https://juejin.im/post/5d245d4151882555300feb77)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
-- [如何优雅处理前端异常](http://news.51cto.com/art/201903/593360.htm)
+- [如何优雅处理前端异常](https://mp.weixin.qq.com/s/bOohIxkx7A3OiilkgvjvXg)
 - [详解 JS 错误处理](https://segmentfault.com/a/1190000019226851)
 - [js 错误处理权威指北](https://juejin.im/post/5bfa5a8cf265da6124151e62)
 - [HTML5图片上传解决方案](https://blog.hhking.cn/2018/11/29/html5-img-upload/)
@@ -120,7 +118,6 @@
 - [关于input的一些问题解决方法分享](http://obkoro1.com/2018/05/12/%E5%85%B3%E4%BA%8Einput%E7%9A%84%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%E5%88%86%E4%BA%AB)
 - [懒加载预加载](https://juejin.im/post/5b0c3b53f265da09253cbed0)
 - [JavaScript DOM元素长宽等比例缩放](https://juejin.im/post/5be297f16fb9a049aa6e8dcb)
-- [关于移动端适配](https://segmentfault.com/a/1190000019207842)
 - [前端单元测试实践(koa 篇)](https://juejin.im/post/5d09935ce51d451063431816)
 - [设计模式](http://www.alloyteam.com/2012/10/common-javascript-design-patterns/)
 - [SVG 优化探索](https://segmentfault.com/a/1190000019997076)
@@ -144,6 +141,18 @@
 - [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
 - [使用JS来动态操作css](https://segmentfault.com/a/1190000021169316)
 - [你不知道的 JSON.stringify() 的威力](https://segmentfault.com/a/1190000021230185)
+
+### mobile
+
+- [移动端开发的几点建议](https://segmentfault.com/a/1190000021278840)
+- [关于移动端适配](https://segmentfault.com/a/1190000019207842)
+- [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
+- [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
+- [Vue 2.0实战高级-开发移动端音乐 Web app](https://coding.imooc.com/class/chapter/107.html#Anchor)
+- [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
+
+### source
+- [vuex and others](https://mp.weixin.qq.com/s/6TGSWEsMu4lzoXTUshGrEg)
 
 ### Vue
 
@@ -206,11 +215,9 @@
 - [Vue服务端渲染首屏耗时最优化方案](https://zhuanlan.zhihu.com/p/57223501)
 - [Vue项目优化实践CDN/Gzip/Prerender](https://juejin.im/post/5b97b84ee51d450e6c7492f6)
 - [Vue project 7 optimize points](https://juejin.im/post/5bdd57f451882517165d75cc)
-- [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
 - [Vue project optimization](https://juejin.im/post/5bc830a8f265da0abe272ccf)
 - [Vue项后台管项目登录逻辑/菜单权限/按钮Loading处理](https://segmentfault.com/a/1190000019516643)
 - [Vue实现特定场景的主题切换](https://mp.weixin.qq.com/s/N5WDcqusrHwj4igyyAlMBg)
-- [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
 - [从一次性能优化看Vue的一个feature](https://juejin.im/post/5d7cc1966fb9a06b211717df)
 - [6个有用的Vue开发技巧](https://juejin.im/post/5d861aabe51d4557ca7fde06)
 - [记一次vue+nuxt性能优化](https://juejin.im/post/5d93e5446fb9a04de04d7986)
@@ -397,6 +404,7 @@
 
 ### Interview
 
+- [面试完50个人后我写下这篇总结](https://juejin.im/post/5df1e312f265da33d039d06d)
 - [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
 - [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)
 - [前端面试题全面整理-带解析 涵盖（css、js、浏览器、vue、react、移动web、前端性能、算法、node）](https://segmentfault.com/a/1190000020738115)
