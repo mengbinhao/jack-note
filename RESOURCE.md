@@ -112,6 +112,7 @@
 - istanbul test coverage
 - Jasmine
 - ava
+- React Testing Library
 
 
 ### UI component
@@ -199,7 +200,8 @@
   - 当您需要从 Node 发送电子邮件时使用
 - [Dotenv](https://www.npmjs.com/package/dotenv)
   - 当您需要将`.env`文件中的环境变量加载到`process.env`时使用
-- fabric.js
+- [fabric.js](http://fabricjs.com/)
+  -  一个强大而简单的 JS Canvas 库
 
 ### CLI
 - Commander
@@ -230,6 +232,8 @@
 
 - [axios](https://www.npmjs.com/package/axios)当您需要基于`Promise`的`HTTP`请求时可选择它
 - [Request](https://www.npmjs.com/package/request)当您需要基于回调的`HTTP`请求时可选择它,例如从一个`REST`服务连接到另一个
+- [ky](https://github.com/sindresorhus/ky)
+  - 基于浏览器Fetch API的简洁优雅HTTP客户端
 
 ### 工具
 
@@ -259,12 +263,18 @@
 - particle.js 粒子效果
 - hammer.js 手势
 
+### 图像
+- [sharp](https://sharp.pixelplumbing.com/en/stable/)
+
 ### 数据可视化
 - [ECharts](https://echarts.apache.org/zh/index.html)
 - [v-charts](https://github.com/ElemeFE/v-charts)
 - Chart.js、three.js、Dygraphs.js、D3.js、InfoVis、Springy.js
 - vanilla-tilt.js 3D 瓦片
 - parallax 视差效果
+- tui.chart
+- vue-chartjs
+- Proton 一个轻量级的 Javascript 粒子动画库
 
 ### calendar
 - [11个顶级JavaScript日历插件](https://mp.weixin.qq.com/s?__biz=MzI3NzIzMDY0NA==&mid=2247487050&idx=1&sn=e1cf667260041a9a8df4b41be68b73ee)
@@ -282,6 +292,9 @@
 - [fastclick](https://github.com/ftlabs/fastclick)
 - [图片缩放](http://www.dowebok.com/demo/223/)
 - [图片占位符](https://github.com/imsky/holder)
+- [Mark Text](https://marktext.app/)
+- progress-estimator 记录进度条并估算Promise完成所需的时间
+
 
 ### 代码高亮
 
@@ -291,6 +304,8 @@
 
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 - [iscroll](https://github.com/cubiq/iscroll)
+- [ScrollTrigger](https://terwanerik.github.io/ScrollTrigger/)
+  - 根据当前滚动位置触发类。 例如。 当元素进入视口时，将其淡入。可以为每个元素添加自定义偏移量，或在视口上设置偏移量（例如，始终在元素达到视口的20％之后触发）
 
 ### 轮播图
 

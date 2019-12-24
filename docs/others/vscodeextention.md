@@ -136,6 +136,8 @@
      ]
     ```
 
+- VSCode Glean
+
 ### debug variable
 
 - \${workspaceFolder} - the path of the folder opened in VS Code
@@ -149,4 +151,3 @@
 - \${cwd} - the task runner's current working directory on startup
 - \${lineNumber} - the current selected line number in the active file
 - \${env:PATH}:系统中的环境变量
-

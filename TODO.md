@@ -87,6 +87,7 @@
 
 ### JS
 
+- [如何写出一个惊艳面试官的 Promise](https://segmentfault.com/a/1190000021320472)
 - [Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
 - [神奇的Promise](https://segmentfault.com/a/1190000021047742)
 - [我所理解的Promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
@@ -158,8 +159,9 @@
 
 #### Vue related
 
-- [送你48个JS 开发常用工具函数](https://mp.weixin.qq.com/s/ng_j-X72TuLELEuXMMSatA)
+- [Vue数据双向绑定原理和实现](https://segmentfault.com/a/1190000021327394)
 - [v-show原理](http://www.alloyteam.com/2019/12/14124/)
+- [一张图理清 Vue 3.0 的响应式系统](https://mp.weixin.qq.com/s/BvpBxs8WjYHFJvzkvmjxvw)
 - [Vue中容易被忽视的知识点](https://segmentfault.com/a/1190000021229517)
 - [simpel vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
@@ -188,6 +190,7 @@
 - [彻底搞懂Vue SSR](https://juejin.im/post/5dab1b88e51d4524b8152baa)
 - [Vue多语言实战](https://juejin.im/post/5dd521e0f265da4796659b24)
 - [Vue Prop中的 null vs undefined](https://juejin.im/post/5ddcf5f4e51d4532db416149)
+- [Vue使用Jest单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
 
 #### project related
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
@@ -252,6 +255,7 @@
 - [vue-router实现](https://juejin.im/post/5d7e2f43f265da0391354593)
 - [addRoutes的刷新404和重复路由的解决方案](https://juejin.im/post/5d730f50518825770c43a6da)
 - [vue-router原理到最佳实践](https://juejin.im/post/5dbed0bef265da4cff701f68)
+- [Vue Router被我们忽略的知识点](https://juejin.im/post/5df6369be51d4557ef03fa0b)
 
 #### Vuex
 
@@ -323,6 +327,7 @@
 - [21项优化React性能的技术](https://segmentfault.com/a/1190000019685362)
 - [React必看性能优化总结](https://segmentfault.com/a/1190000018257360)
 - [React性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
+- [让你的React组件跑得再快一点](https://mp.weixin.qq.com/s/LG_1WXWFJQbuJuHiTqXzyw)
 
 #### hooks
 
@@ -355,6 +360,7 @@
 
 ### Other
 
+- [如何在chrome中实时修改JS](https://www.zhangyangjun.com/post/chrome-source-modify-js.html)
 - [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
@@ -373,6 +379,7 @@
 - [VuePress和GitBook](https://segmentfault.com/a/1190000021234353)
 - [GitBook 简明使用教程](https://www.phpjieshuo.com/archives/153/)
 - [GitBook插件留言](https://juejin.im/post/5ce51e126fb9a07ed440d7d0)
+- [mac下homebrew安装很慢的解决方案](https://segmentfault.com/a/1190000021360086)
 
 ### JAVA
 

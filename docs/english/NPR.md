@@ -1,3 +1,110 @@
+- 2019.12.24
+  - observant adj
+  - buttress n/vt
+  - destabilize vt
+  - assert vt
+  - heartfelt adj
+  - mediator n
+  - havoc n/v
+  - dim v/adj
+
+  > well, u know, it went go hours and hours and didn't break up until after midnight
+  > what ur perspectice on all this
+  > he's not in good shape at home
+
+- 2019.12.23
+  - arrogant adj
+  - expire n/v
+  - hinder v
+  - meddle vi
+  - asshole n
+  - crap n/vi
+  - invent vt
+  - ambition n/vt
+
+  > I want to make something of my life
+  > put ur nose down in something and get damn good at it
+  > I think it all has to do with focusing yourself on one thing
+  > you've got to serve others something of value
+  > you'be got to persist through failure
+
+- 2019.12.20
+  - pursue v
+  - silly adj
+  - baseless adj
+  - resurgence n
+  - district n
+  - acquiesce n/vi/adj
+  - insane adj
+  - categorical adj
+  - knot n/v
+  - lace n
+  - ludicrous adj
+  - innovative adj
+  - savvy n/v
+
+  > Now up until that moment
+  > in keeping with today's theme
+  > I met, who was for me, a very intelligent person
+  > I finally nailed her dream job
+  > we are so proud of the distance that we have come from where we started with the administration on this legislation
+
+- 2019.12.19
+  - enlist v
+  - justify vt
+  - recommendation n
+  - debunk vt
+  - respective adj
+  - omission n
+  - eavesdrop vi
+  - cavalier adj
+  - petition n
+  - bias n/v/adj
+  - worthwhile adj
+  - comprehensive adj
+  - exclamation n
+  - gross adj
+
+  > can't help but do sth
+  > the language we use affects how we think and who we are
+
+- 2019.12.18
+  - exclusive adj
+  - stuffing n
+  - imprison vt
+  - transpire v
+  - groundless adj
+  - specialize vi
+  - Eurasian adj
+  - doctoral adj
+  - dissertation n
+  - espionage n
+  - bogus adj
+  - sabbatical n/adj
+  - rapprochement n
+  - beneficiary n
+
+  > should we get the usual?
+  > or maybe something a little more adventurous?
+  > but that should't be the way sex's supposed to be~It should be free and fun
+
+- 2019.12.17
+  - metaphor n
+  - defer vt
+  - exemplify n/vt
+  - infraction n
+  - robust adj
+  - unanimously adv
+  - waist n
+  - anal adj
+  - pubic adj
+  - condom n
+  - glove n
+  - vagina n | vaginal intercourse | virgin n | penis n
+  - skillset n
+  - benchwarmer n
+  - orgasm n
+
 - 2019.12.16
   - riddle n/v
   - inspire vt
@@ -153,7 +260,6 @@
   - foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj
-  - competitor n
   - britery n
   - preliminary n/adj
   - brutal adj
@@ -418,7 +524,7 @@
   - classified adj
   - stall n/vi/vt
   - ethic n
-  - deliberation n | deliberately adv
+  - deliberation n | deliberately adv | deliberate v/adj
   - prevail vi
   - vast adj
   - clip n/vt
@@ -449,7 +555,6 @@
 
 - 2019.10.23
   - poised v | poised adj
-  - skeptical adj
   - foil | foiled adj
   - triumphant adj
   - compel vt
@@ -530,7 +635,7 @@
   - inundate vt
   - hard-hit
   - prefecture n
-  - vary vi/vt
+  - vary vi/vt | varied adj
   - Panamanian n/adj
   - anchor n/vt
   - bay n
@@ -628,7 +733,7 @@
   - Athens n
   - hiatus n
   - deep-seated adj
-  - skepticism n
+  - skepticism n | skeptical adj
   - concede vi/vt
   - long-standing adj
   - confusion n | confuing adj | confuse vt
@@ -654,7 +759,7 @@
   - covert adj
   - conceal vt | concealed adj
   - bothersome adj
-  - properly adv | inproperly adv
+  - properly adv | improperly adv | improper adj
   - erupt vi
   - spontaneously adv
   - disperse v | dispersed adj
@@ -793,7 +898,7 @@
   - corrup v | corruption n
   - aver vt
   - dealings n
-  - imply vt | implied adj
+  - imply vt | implied adj | implication n
   - explicit adj
   - merely adv | mere adj
   - confess vi/vt
@@ -1012,7 +1117,7 @@
   - momentous adj
   - amendment n
   - rebel n/vi
-  - compete vi | competing adj
+  - compete vi | competing adj | competitive adj | competitor n
   - trick n
   - suspend vi/vt
   - wicked adj
@@ -1103,7 +1208,7 @@
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - interpret vi/vt | interpreter n
+  - interpret vi/vt | interpreter n | interpretation n
   - articulate vt/adj
   - urge | urging n
 
@@ -1171,7 +1276,7 @@
   - offensive n/adj
   - retract vt
   - climate n
-  - occasion n
+  - occasion n/vt
   - shrug n/vt
   - stretch n/vi/vt
   - incidentally adv
@@ -1262,7 +1367,7 @@
   - breather n
   - abruptly adv
   - rely vi
-  - prosperity n
+  - prosperity n | prosper v
   - tension n
   - combination n
   - ominous adj
@@ -1282,7 +1387,7 @@
   - grovelling adj
   - interior n/adj
   - stormy adj
-  - hostile adj
+  - hostile adj | hostility n
   - itinerary n
   - irresistible adj
   - annexation n | annex n/vt
@@ -1325,6 +1430,7 @@
   - congratulatory adj
   - combat n/vt
   - constitutional adj
+  - constituent n
   - shortsighted adj
   - impunity adj
   - pessimistic adj | optimistic adj | optimism n
@@ -1333,7 +1439,7 @@
   - arctic n/adj
   - sketchy adj
   - contamination n | contaminated adj
-  - contradictory adj
+  - contradictory adj | contradict v
   - terse adj
   - comparison n
   - scale n/vt
@@ -1471,10 +1577,10 @@
   - brevity n
   - obstruction n | obstruct vt
   - ultimately adv | ultimate adj
-  - exonerate vt
+  - exonerate n/vt/adj
   - motivated adj | motivation n
-  - integrity adj
-  - rare adj | rarer adj
+  - integrity n
+  - rare adj | rarer adj | rarity n
   - porch n
 
 - 2019.7.26
@@ -1528,7 +1634,7 @@
   - dis adj
   - recharge vt
   - controversy n | controversial adj
-  - intelligence n | intellectual n/adj
+  - intelligence n | intellectual n/adj | intelligent adj
   - disapprove vi
 
   > he made a name for himself xxxx
@@ -1619,7 +1725,7 @@
   - cable n/vt
   - ambassador n
   - inept adj
-  - incompetent adj
+  - in-competent adj
   - radiate vi/vt
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
@@ -1631,7 +1737,7 @@
   - outgoing adj
   - uninformed adj
   - candid adj
-  - accurately adv
+  - accurately adv | inaccuracy n
   - effectively adv
   - hardcore
   - pretext n
@@ -1663,9 +1769,9 @@
   - swallow vi/vt/n
   - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
-  - encouraging adj
+  - encouraging adj | encouragement n
   - tariff n/vt
-  - consequence n
+  - consequence n | conclusion n
   - retailatory adj
 
   > it is hard to swallow
@@ -1689,12 +1795,13 @@
   - tough n/adj/adv
   - neighborhood n | neighboring adj
   - begrudgingly adv
+  - grudge n/vt | grudging adj
   - duty-fee n
-  - ongoing adj
+  - ongoing n/adj
   - standoff n
   - elsewhere adv
   - exemption n
-  - dominate vi/vt
+  - dominate vi/vt | dominant adj
   - moderate adj/n/vt
 
   > take sides
@@ -1746,7 +1853,7 @@
   - spike n/vi/vt
   - loan n
   - recession n | recess n/vt
-  - expansion n | pension n/vt
+  - expansion n | expansive adj | pension n/vt
   - prospect n/vi
   - debate n/vi/vt
   - staggering adj
