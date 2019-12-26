@@ -67,11 +67,13 @@
 - [搭建一个 nodejs 脚手架](https://juejin.im/post/5d14653de51d4550a629b2b6)
 - [用优雅的代码武装我们的koa2项目](https://juejin.im/post/5d255d05518825424d656e11)
 - [耗时两个月，网上最全的原创nodejs深入系列文章](https://blog.5udou.cn/blog)
+- [Node.js入门指南和实践](https://segmentfault.com/a/1190000021368102)
 
 ### front
 
 - [前端面试必备——权限控制](https://segmentfault.com/a/1190000020887109)
 - [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/Ov84B6t-xJNv6G8de-yHIw)
+- [http缓存实战](https://segmentfault.com/a/1190000021374783)
 - [前端 resource](https://segmentfault.com/a/1190000016420985)
 - [前端 resource](http://0313.name/archives/485)
 - [前端安全](https://juejin.im/post/5af931a8f265da0b8d420b64)
@@ -142,6 +144,7 @@
 - [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
 - [使用JS来动态操作css](https://segmentfault.com/a/1190000021169316)
 - [你不知道的 JSON.stringify() 的威力](https://segmentfault.com/a/1190000021230185)
+- [编程风格,编程实践](https://segmentfault.com/a/1190000021368904)
 
 ### mobile
 

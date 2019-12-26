@@ -1,3 +1,35 @@
+- 2019.12.26
+  - reverberation n
+  - tremor n/v
+  - revamp n/vt
+  - nationalize vt
+  - landscape n
+
+  > I will put an end to all that nonsense
+  > I had a laserlike focus on this slogan, and it was very effective
+  > they have dug a deep hole for themselves
+  > That just did not sell/ People were not sure thay could pay for it
+  > he really was a drag on the party
+  > not anytime soon
+  > u are dragging us out, we want an option to choose our own path
+  > it's not done at all
+  > the tremors is going to go on for a long time
+
+- 2019.12.25
+  - compensation n
+  - unenviable adj
+  - haste n/v
+  - retrieve v
+  - eruption n | erupted v
+  - servere adj
+  - volcano n
+  - rotate v/adj
+  - immunity n
+  - nominate vt
+
+  > the have put the priority on getting those bodies back
+  > working on a very tight clock there
+
 - 2019.12.24
   - observant adj
   - buttress n/vt
@@ -226,7 +258,7 @@
   - renounce vt
   - principally adj
   - applause n
-  - industrialization n
+  - industrialization n | industrial adj
 
 - 2019.12.5
   - cafetiria n
@@ -421,7 +453,7 @@
   - seasoned adj
   - comeback n
   - influential adj
-  - drown vi/vt
+  - drown v
   - loyal adj
   - outright adj/adv
   - detached adj
@@ -438,7 +470,8 @@
 - 2019.10.31
   - tender n/v/adj
   - segregate vt
-  - paralyzed adj | paralyze vt | penalize vt
+  - paralyze vt | paralysis n
+  - penalize vt
   - ecstatic adj
   - eerie adj
   - uncharted adj
@@ -455,7 +488,7 @@
   - vivid adj
   - dribble n/vt
   - swoop n/vi
-  - tunnel n/vi/vt
+  - tunnel n/v
   - recruit n/v | recruiting
   - sophisticated adj
   - counterargument n
@@ -479,7 +512,7 @@
   - surveillance n
   - tap n/vt
   - bipartisan adj
-  - deepen vi/vt
+  - deepen v
   - profound adj
   - vehicle n
   - revenge n
@@ -492,12 +525,12 @@
   - metro n/adj
   - riot n/vi
   - helmet n
-  - revive vi/vt
+  - revive v
   - dictatorship n
   - armored adj
-  - spill n/vi/vt
-  - cannon n/vi/vt
-  - hike n/vi/vt
+  - spill n/v
+  - cannon n/v
+  - hike n/v
   - transit n/vt/adj | transitional adj
   - fare n
   - repression n
@@ -522,7 +555,7 @@
   - compartment vt/n
   - basement n
   - classified adj
-  - stall n/vi/vt
+  - stall n/v
   - ethic n
   - deliberation n | deliberately adv | deliberate v/adj
   - prevail vi
@@ -534,7 +567,7 @@
 
 - 2019.10.24
   - scandal n
-  - roil vi/vt
+  - roil v
   - ourright adj/adv
   - concession n | concess v
   - abortion n
@@ -592,18 +625,18 @@
 
 - 2019.10.19
   - pave vt
-  - hurdle n/vi/vt
+  - hurdle n/v
   - consent n/vi
   - enthusiastic adj
   - curtail vt
   - smuggling n | smuggler n
   - pertain vi
-  - slip n/vi/vt
+  - slip n/v
   - ratify vt
   - amid prep
   - melancholy n/adj
   - inevitability n
-  - alienated adj
+  - alienated adj | alienate vt
   - showdown n
 
 - 2019.10.18
@@ -616,10 +649,10 @@
   - acquit vt
   - grassroots n
   - arrest n/vt
-  - bail n/vi/vt
+  - bail n/v
   - self-imposed adj
   - verdict n
-  - dialogue n/vi/vt
+  - dialogue n/v
   - minority n | majority n
 
   > if I can keep track all of this
@@ -635,7 +668,7 @@
   - inundate vt
   - hard-hit
   - prefecture n
-  - vary vi/vt | varied adj
+  - vary v | varied adj
   - Panamanian n/adj
   - anchor n/vt
   - bay n
@@ -646,14 +679,14 @@
   - stranded adj
   - resident n/adj
   - resume n/vt
-  - evacuation n | evacuate vi/vt
+  - evacuation n | evacuate v
   - dam n
   - levee n
   - agreement n | agree v
   - asylum n
   - purge n/vt
   - scrutiny n | scrutinize vt
-  - achieve vi/vt | achievable adj
+  - achieve v | achievable adj
 
   > Transportation really ground to a halt
   > the result of that was xxxx
@@ -692,10 +725,10 @@
 - 2019.10.15
   - assault n/vt/adj
   - crisis n
-  - flee vi/vt
+  - flee v
   - neutralize vt | neutrality n | neutral adj
   - fatality n
-  - extent n | extend vi/vt | extended adj | extension n
+  - extent n | extend v | extended adj | extension n
   - relative adj
   - arrange v | arrangement n
   - terrify v | terrified adj
@@ -714,7 +747,7 @@
 - 2019.10.14
   - individual n/adj
   - firsthand
-  - qualify vi/vt
+  - qualify v
   - interim n/adj
   - clearance n
   - accompany vt
@@ -729,12 +762,12 @@
   > xxxx but remains, as you said, anonymous
 
 - 2019.10.12
-  - sicken vi/vt | sickening adj
+  - sicken v | sickening adj
   - Athens n
   - hiatus n
   - deep-seated adj
   - skepticism n | skeptical adj
-  - concede vi/vt
+  - concede v
   - long-standing adj
   - confusion n | confuing adj | confuse vt
   - trible adj
@@ -782,7 +815,7 @@
   - reference n/vt
   - mention n/vt
   - civics n
-  - plead vi/vt | pleading n/adj
+  - plead v | pleading n/adj
   - oath n
   - chatty adj
   - commit
@@ -807,7 +840,7 @@
   - dumping n
   - theft n
   - puppet n
-  - rail n/vi/vt
+  - rail n/v
   - bloodlust n
   - menacing adj
   - regional adj | region n
@@ -824,7 +857,7 @@
   - restrained adj
   - caucus n/vi
   - premature adj
-  - deflect vi/vt
+  - deflect v
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
@@ -834,8 +867,8 @@
 - 2019.10.8
   - perspective n
   - claimant n
-  - frustrate vt/adj
-  - pleased adj
+  - frustrate vt/adj | frustration n
+  - pleased adj 
   - thrilled adj
   - disdain n/vt
   - ambiguity n
@@ -851,7 +884,7 @@
 
 - 2019.9.30
   - blueprint n
-  - adopt vi/vt
+  - adopt v
   - boost n/vt
   - fiscal adj
   - budget n/vt/adj
@@ -864,7 +897,7 @@
   - welfare n
   - outcome n
   - hardship n
-  - balloon n/vi/vt
+  - balloon n/
   - gimmick n
   - unrealistic adj
 
@@ -876,7 +909,7 @@
   - emirate n
   - enunciate vt
   - jam n/vt | jamming n
-  - spew n/vi/vt
+  - spew n/v
   - bullet n
   - weaponry n
   - explanation n
@@ -901,7 +934,7 @@
   - imply vt | implied adj | implication n
   - explicit adj
   - merely adv | mere adj
-  - confess vi/vt
+  - confess v
 
   > Now, all of this, we should explain the background
   > My generation
@@ -911,10 +944,10 @@
   - indicator n | indication n
   - reduced adj | reduce v
   - revolving adj
-  - lecture n/vi/vt
+  - lecture n/v
   - portfolio n
   - plate n
-  - contend vi/vt
+  - contend v
   - razor n
   - demeanor n
   - profile
@@ -934,7 +967,7 @@
   - extraordinary adj| ordinary adj
   - plastic n/adj
   - renewable adj
-  - accountable adj
+  - accountable adj | unaccounted adj
   - sit-in n
   - progressive n/adj
 
@@ -945,18 +978,18 @@
 - 2019.9.24
   - Canadian n/adj
   - makeup n
-  - reflect vi/vt
+  - reflect v
   - affair n
   - lengthy adj
   - conference n
   - garner vt
   - accumulation n | accumulate v
   - reputation n
-  - embrace n/vi/vt
+  - embrace n/v
   - diversity n
   - refugee n
   - racism n
-  - fracture n/vi/vt
+  - fracture n/v
 
   > I am hoping that my apology is going to be enough
   > Beyond saying he made a bad choice, xxxx
@@ -1002,12 +1035,12 @@
   - essay n/vt
   - adapt v | adapted adj
   - columnist n
-  - wrinkle n/vi/vt
+  - wrinkle n/v
   - oven n
   - hearsay n
   - glorious adj
   - enormous adj
-  - stir n/vi/vt
+  - stir n/v
   - ignite vt
   - rescue n/vt
   - dumb adj
@@ -1044,10 +1077,10 @@
   - alternative n/adj
   - popularity n
   - resentment n
-  - poke n/vi/vt
+  - poke n/v
   - energize vt
   - poster n
-  - pose n/vi/vt
+  - pose n/v
   - mutual adj
 
   > to tip the scales and determine who will
@@ -1076,9 +1109,9 @@
   > I should jump in here and say that xxx
 
 - 2019.9.15
-  - strengthen vi/vt
+  - strengthen v
   - bargaining n
-  - applaud vi/vt
+  - applaud v
   - fragmented adj
   - leverage n/vt
   - prompt adj/vt | promptly adv
@@ -1102,7 +1135,7 @@
   - revolution n | evolution n
   - unfettered adj
   - oversee vt
-  - decline n/vi/vt
+  - decline n/v
   - immersed adj
   - vanity n
   - irony n
@@ -1111,15 +1144,15 @@
   - alongside prep/adv
 
 - 2019.9.12
-  - blow n/vi/vt
+  - blow n/v
   - ostensibly adv
   - deadlock n/vt | stalemate n
   - momentous adj
   - amendment n
   - rebel n/vi
   - compete vi | competing adj | competitive adj | competitor n
-  - trick n
-  - suspend vi/vt
+  - trick n | tricky adj
+  - suspend v
   - wicked adj
   - cautions adj
   - incredible adj
@@ -1140,7 +1173,7 @@
 - 2019.9.11
   - rover n
   - pole n
-  - approach n/vi/vt
+  - approach n/v
   - narrate vt
   - orbiter n
   - anticipation n | anticipated adj
@@ -1183,7 +1216,7 @@
   - prior adj
   - alcohol n
   - tobacco n | cigarette n
-  - mourn vi/vt
+  - mourn v
   - grief n
 
   > set him off
@@ -1192,7 +1225,7 @@
   - jeopardize vt
   - prime adj
   - embassy n
-  - chant n/vi/vt
+  - chant n/v
   - upbraid vt
   - pact n
   - animosity n
@@ -1202,13 +1235,12 @@
   - trilateral | bilateral adj
   - chancellor n
   - mistrust n/vt
-  - conclude vi/vt
   - reluctantly adv | reluctant adj
   - collective adj
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - interpret vi/vt | interpreter n | interpretation n
+  - interpret v | interpreter n | interpretation n
   - articulate vt/adj
   - urge | urging n
 
@@ -1216,7 +1248,7 @@
   > we have never suceeded in doing that
 
 - 2019.9.6
-  - devide n/vi/vt
+  - devide n/v
   - paramount adj
   - drawn-out adj
   - epic n/adj
@@ -1224,16 +1256,16 @@
   - toddler n
   - opponent n | opposite n/adj/adv/prep | opposition n | oppose vt
   - thwart n/vt/prep
-  - seize vi/vt
+  - seize v
   - agenda n
   - confidence n/adj
   - potential n/adj
   - sideline n/vt
   - majority n/adj
   - minoraty n/adj
-  - frighten vi/vt
-  - budge vi/vt
-  - blink n/vi/vt
+  - frighten v
+  - budge v
+  - blink n/v
   - turmoil n
   - manner n
   - foment vt
@@ -1272,13 +1304,13 @@
   - adamant adj
   - feud n/vi
   - nasty adj
-  - mock n/adj/vi/vt
+  - mock n/adj/v
   - offensive n/adj
   - retract vt
   - climate n
   - occasion n/vt
   - shrug n/vt
-  - stretch n/vi/vt
+  - stretch n/v
   - incidentally adv
   - crucial adj
   - stake n/vt
@@ -1287,8 +1319,8 @@
   - petty adj
   - governor n
   - wrath n
-  - grab vi/vt
-  - lossen vi/vt
+  - grab v
+  - lossen v
 
   > put aside xxxxx
   > but at bottom
@@ -1296,7 +1328,7 @@
   > well, at one level, xxx
 
 - 2019.9.3
-  - resign vi/vt | resignation n
+  - resign v | resignation n
   - scathing adj
   - rebuke vt
   - deputy n
@@ -1315,9 +1347,9 @@
   - underestimated adj | estimate n/vt
   - tackle n/vt
   - mobilize vt
-  - corrode vi/vt
+  - corrode v
   - dampen vt
-  - demonstration n | demonstrate vi/vt
+  - demonstration n | demonstrate v
   - interfere vi | interference n | intervene vi | intervention n
   - contrary n/adj/adv
   - preserve n/vt
@@ -1336,11 +1368,11 @@
 
 - 2019.8.26
   - contingency n/adj
-  - steer vi/vt | steering n/adj
+  - steer v | steering n/adj
   - grim adj
-  - predict vi/vt | prediction n
+  - predict v | prediction n
   - disruption n | disrupt vt
-  - spark n/vi/vt
+  - spark n/v
   - referendum n
   - seamless adj
   - genuine adj
@@ -1362,7 +1394,7 @@
 
 - 2019.8.20
   - falter vi
-  - factor n/vi/vt
+  - factor n/v
   - upbeat adj
   - breather n
   - abruptly adv
@@ -1379,10 +1411,10 @@
   - wage n
   - decent adj
   - investor n
-  - retire vi/vt
+  - retire v
   - drama n | dramatic adj | dramatically adv
   - representative n/adj
-  - scuttle n/vi/vt
+  - scuttle n/v
   - backlash n
   - grovelling adj
   - interior n/adj
@@ -1391,7 +1423,7 @@
   - itinerary n
   - irresistible adj
   - annexation n | annex n/vt
-  - settlement n | settle n/vi/vt
+  - settlement n | settle n/v
   - pendulum n
 
   > it was seen as a breather for the trade war
@@ -1399,20 +1431,20 @@
   > it's often seen as xxxxx
 
 - 2019.8.19
-  - consult vi/vt | consulting adj
+  - consult v | consulting adj
   - stooge n
   - emerge vi | emerging adj | emergence n
   - concrete adj
   - problematic adj
   - remedy n/vt
   - forefront n
-  - suffer vi/vt
+  - suffer v
   - Soviet n/adj
 
   > he's going to have to catch on fast
 
 - 2019.8.16
-  - bid n/vi/vt
+  - bid n/v
   - strained adj
   - eligible adj
   - sick n/vt/adj
@@ -1424,7 +1456,7 @@
   - inspiration n
   - vice n/adj
   - expel vt
-  - intensive adj | intensify vi/vt | intense adj
+  - intensive adj | intensify v | intense adj
   - pledge n/vt
   - obligate vt
   - congratulatory adj
@@ -1451,7 +1483,7 @@
   - anthem n
   - salute n/vt
   - premise n
-  - penetrate vi/vt
+  - penetrate v
 
   > its full scope
   > try to piece together what really happened
@@ -1472,7 +1504,7 @@
   - abuse n/vt
   - minor n/adj
   - disturbing adj
-  - prosecutor n | prosecute vi/vt | prosecution n | inspector n
+  - prosecutor n | prosecute v | prosecution n | inspector n
   - emphasize vt
   - redact v
 
@@ -1487,11 +1519,11 @@
   - colonial adj | colony n | colonialism n | colonize vt
   - spiral n/vi/adj
   - alliance n
-  - disintegrate vi/vt
+  - disintegrate v
   - division n
   - retaliation n
-  - mend vi/vt
-  - fence n/vi/vt
+  - mend v
+  - fence n/v
 
 - 2019.8.12
   - massacre n/vt
@@ -1526,7 +1558,7 @@
   - heir n
   - murky adj
   - propaganda n
-  - recite vi/vt
+  - recite v
   - fiery adj
   - gromming n
   - coalition n
@@ -1558,7 +1590,7 @@
   > it turned out
 
 - 2019.7.31
-  - testify vi/vt | testimony n
+  - testify v | testimony n
   - bombshell n
   - congressional adj
   - collegial adj
@@ -1573,7 +1605,7 @@
   - shadow n/vt/adj
   - presidency n
   - committee n | commitment n | committed adj
-  - refer vi/vt
+  - refer v
   - brevity n
   - obstruction n | obstruct vt
   - ultimately adv | ultimate adj
@@ -1597,7 +1629,7 @@
   - undoubtedly adv
   - successor n
   - hard-line adj
-  - appealing adj appeal n/vi/vt
+  - appealing adj | appeal n/v
   - liken vt
   - never-ending adj
   - elite n/adj
@@ -1607,7 +1639,7 @@
   > to some degree
 
 - 2019.7.25
-  - enrollment n | enrol vi/vt
+  - enrollment n | enrol v
   - roughly adv | rough adj
   - essential n/adj | essence n | essentially adv
   - prescription n
@@ -1621,14 +1653,14 @@
   - grueling adj
   - insistent adj
   - carpet n/vt
-  - fuel n/vi/vt
+  - fuel n/v
   - trembling n
   - cite vt
   - nerve n
   - figure n/vt
   - reveal vt
   - transparent adj | transparency n
-  - exhausting adj
+  - exhausting adj | exhausted adj
   - sympathetic adj | sympathize vi |pathetic adj
   - footage n
   - dis adj
@@ -1645,7 +1677,7 @@
   > Compared to you guys in the US, you are like open books
 
 - 2019.7.19
-  - massive adj | mass n/vi/vt
+  - massive adj | mass n/v
   - cargo n
   - Pentagon n
   - ally n/vt | allied adj
@@ -1663,12 +1695,12 @@
   - mandated adj | mandate n/vt
   - sector n
   - certify vt
-  - impose vi/vt
-  - derail vi/vt
+  - impose v
+  - derail v
   - finality n
   - unauthorized adj
-  - raise n/vi/vt
-  - dispute n/vi/vt | disputed adj
+  - raise n/v
+  - dispute n/v | disputed adj
   - alien n/adj
   - strategist n
 
@@ -1690,10 +1722,10 @@
   - esteemed adj
   - reiterate vt
   - forum n
-  - conduct n/vi/vt | misconduct n
+  - conduct n/v | misconduct n
   - conrrary n/adj/adv
   - high-profile adj
-  - reserve n/vi/vt/adj
+  - reserve n/v/adj
   - constraint n | constrain v | constrained adj
 
   > he is by no means the only officail public servant doing so
@@ -1707,10 +1739,10 @@
   - joint adj
   - council n
   - civilian n/adj | civilization n
-  - clash n/vi/vt
+  - clash n/v
   - coup n
   - sole adj/n/vt
-  - compromise n/vi/vt
+  - compromise n/v
   - reservation n
   - opt vi
   - stumble n/vt | stumbling adj | tumble n/vi
@@ -1726,7 +1758,7 @@
   - ambassador n
   - inept adj
   - in-competent adj
-  - radiate vi/vt
+  - radiate v
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
   - substantial adj | substantially adv | substantive adj
@@ -1758,20 +1790,20 @@
   - remnant n/adj
   - dictator n
   - aide n
-  - topple vi/vt
+  - topple v
   - horrendous adj
-  - lessen vi/vt
+  - lessen v
 
   > the xxx does fit him
   > they risk everything to come to Libya
 
 - 2019.7.12
-  - swallow vi/vt/n
+  - swallow v/n
   - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n
   - tariff n/vt
-  - consequence n | conclusion n
+  - consequence n | conclusion n | conclude v | in-conclusive adj
   - retailatory adj
 
   > it is hard to swallow
@@ -1779,7 +1811,7 @@
 - 2019.7.11
   - soar vi
   - ploy n
-  - soften vi/vt
+  - soften v
   - tremendous adj
   - considerale adj
   - reversal n | invert vt | inversion n
@@ -1801,7 +1833,7 @@
   - standoff n
   - elsewhere adv
   - exemption n
-  - dominate vi/vt | dominant adj
+  - dominate v | dominant adj
   - moderate adj/n/vt
 
   > take sides
@@ -1821,7 +1853,7 @@
   - retaliate vi
   - rival n/vt
   - regulation n/adj
-  - complaint n | complain vi/vt
+  - complaint n | complain v
   - nevertheless adv
 
   > that was go too far
@@ -1844,18 +1876,18 @@
   - disappointment n
   - cite vt
   - inflation/deflation n
-  - resist vi/vt
+  - resist v
   - sustainable adj | sustained adj | sustain vt
   - concern n/vt | concerned adj | concerning adj
-  - pace n/vi/vt
+  - pace n/v
   - impetus n
   - firmly adv | firm n/vt/adj
-  - spike n/vi/vt
+  - spike n/v
   - loan n
   - recession n | recess n/vt
   - expansion n | expansive adj | pension n/vt
   - prospect n/vi
-  - debate n/vi/vt
+  - debate n/v
   - staggering adj
 
   > that is very much on their mind at the moment
@@ -1869,7 +1901,7 @@
   - proportional adj/n
   - casualty n
   - de-escalate v | escalate
-  - negotiate vi/vt | negotiator n | negotiation n
+  - negotiate v | negotiator n | negotiation n
 
   > so he goes back and forth
   > and that's pretty much what has been happening for the past few weeks
@@ -1885,8 +1917,8 @@
   - coherent adj
   - escalation n
   - crippling adj
-  - assumption n | assume vi/vt
-  - sue vi/vt
+  - assumption n | assume v
+  - sue v
   - credibility n
   - suspicious n | suspicion n
   - isolated adj | isolation n
@@ -1900,14 +1932,14 @@
   - redical adj/n
   - hatred n
   - prejudice n/vt
-  - rage n/vi/vt | raging adj | enraged v/adj | outrage n/vt
-  - rally n/vi/vt
+  - rage n/v | raging adj | enraged v/adj | outrage n/vt
+  - rally n/v
   - metaphorically adv
   - literally adv | literal adj
   - rig n/vt
   - grievance n
   - accusation n | accuse | accusing
-  - echo n/vi/vt
+  - echo n/v
 
   > one every two or three weeks
   > In the couple seconds we have left
@@ -1925,16 +1957,16 @@
   - trial | retrial n
   - democratically adv | democratic adj | democracy n
   - jail n/vt
-  - crackdown n | crack n/adj/vi/vt
+  - crackdown n | crack n/adj/v
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - convicted adj | convict n/vt | convivtion n
   - undergo vt
   - procecutor n
-  - defendant n | defend vi/vt | defensive adj
+  - defendant n | defend v | defensive adj
   - Turkish adj/n
   - mistreat vt
-  - polarize vi/vt
+  - polarize v
   - exile n/vt
   - subdued adj
   - funeral n
@@ -1961,7 +1993,7 @@
   > there is a couple of reasons
 
 - 2019.6.26
-  - departure n | depart vi/vt
+  - departure n | depart v
   - personnel n
   - tenure n
   - aggresive adj | aggresively adv | aggression n
@@ -1983,14 +2015,14 @@
   - expertise n
   - proficiency n
   - afloat adj/adv
-  - evacuate vi/vt
+  - evacuate v
   - speculation n | speculate v
   - takeaway n
-  - plot n/vi/vt
+  - plot n/v
   - fierce adj | fiercely adv
-  - yield n/vi/vt
-  - derail vi/vt
-  - heighten vi/vt
+  - yield n/v
+  - derail v
+  - heighten v
 
   > There is no question about it
   >
