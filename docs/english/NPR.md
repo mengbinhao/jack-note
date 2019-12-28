@@ -1,3 +1,25 @@
+- 2019.12.28
+  - vandalize vt
+  - census n
+  - diverse adj
+  - faith n
+  - amnesty n/vt
+  - citizenship n
+  - criterion n
+
+- 2019.12.27
+  - vocal adj
+  - erode v
+  - fruition n
+  - carbon n
+  - pivot n/v/adj
+  - heel n
+  - emitter n
+  - landmark n
+
+  > this would erode the kind of action that actually is needed on the ground
+  > this is a disagreement over how we move forward
+
 - 2019.12.26
   - reverberation n
   - tremor n/v
@@ -101,7 +123,7 @@
   > the language we use affects how we think and who we are
 
 - 2019.12.18
-  - exclusive adj
+  - exclusive adj | exclusion n
   - stuffing n
   - imprison vt
   - transpire v
@@ -418,7 +440,7 @@
   - formalize vt
   - gear n/v
   - portray vt
-  - permanent adj
+  - permanent adj | permanently adv
   - illegality n
   - deposition n
 
@@ -801,7 +823,7 @@
   - barely adv
   - overwhelmingly adv | underwhelming adj | underwhelmed adj
   - curfew n
-  - religious adj
+  - religious adj | religion n
 
   > impossible to know where this might go next
   > as far as I can work out
@@ -1465,7 +1487,7 @@
   - constituent n
   - shortsighted adj
   - impunity adj
-  - pessimistic adj | optimistic adj | optimism n
+  - pessimistic adj | optimistic adj | optimism n ｜ pessimis n
 
 - 2019.8.15
   - arctic n/adj
@@ -1984,7 +2006,7 @@
   - exert vt
   - provocative adj
   - arena n
-  - dilute adj/vt
+  - dilute vt/adj
   - strain n/vt
 
   > But as I said earlier | as you mentioned

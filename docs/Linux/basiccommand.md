@@ -62,7 +62,7 @@
 
 - 切换用户
 
-    - su - [username]   // - 代表运行环境也切换
+    - su - [username]   # - 代表运行环境也切换
     - sudo 以其他用户身份执行命令
 
     >1. root运行visudo
@@ -309,7 +309,7 @@
 - cal
   - cal 2020
 
-### 进程
+### 进程查看
 
 - ps
 
@@ -319,9 +319,13 @@
 
     ![](images/learn-16.png)
 
-- `kill [-9] xxxxx`  //支持通配符 9代表强制
+- kill -l
+
+- kill [-9] pid  # 支持通配符 9信号强制杀
 
 - killall gedit
+
+- ./a.sh &  # 后台运行
 
 - pstree
 
@@ -332,90 +336,77 @@
 
   ![](images/learn-18.png)
 
+### 内存查看
+
+- free [-m | -g]
+- top
+
+### 磁盘查看
+
+- fdisk -l
+- parted -l
+- df -h
+- du xxx
+- du compare ls # du实际容量大小 ls所占空间
+
+### 网络查看
+
+- ifconfig ｜ ip
+- ping
+- telnet
+- netstat -ntpl | grep 80
+
+### 系统综合状态查看
+
+- sar
+- iftop -p
+
 ### install
 
-- `wget http://file.tgz` //文件下载
-- `curl http://file.tgz` //文件下载
-  - curl xxx > yyy
-- 配置环境变量`.bashrc`增加如下两行 
-  - `export JAVA_HOME=/root/jdk-XXX_linux-x64`
-  - `export PATH=$JAVA_HOME/bin:$PATH`
-  - `source .bashrc` //重新加载
-- `nohup command >out.file 2>&1 &` //后台运行
-- `ps -ef |grep 关键字  |awk '{print $2}'|xargs kill -9` //查找进程
+> CentOS、RedHat使用yum包管理器，软件包安装格式为rpm
+>
+> Debain、Unbuntu使用apt包管理器，软件包安装格式为deb
 
-#### [curl](https://segmentfault.com/a/1190000020436170)
+#### rpm
 
-#### CentOS
+![](./images/learn-23.png)
 
 ```bash
-//rpm
+# rpm 无法解决依赖， 软件包来源不可靠
 rpm -i jdk-XXX_linux-x64_bin.rpm
-rpm -ivh firefox //安装
+rpm -ivh firefox
 rpm -qa
 rpm -qa | grep jdk
 rpm -qa | more
-rpm -qa | less
-rpm -q firefox //查询是否安装
-rpm -qi firefox //查询软件包信息
-rpm -ql firefox //查询软件包中的文件
-rpm -qf /etc/passwd //查询某个文件属于哪个rpm包
-rpm -e firefox //卸载
-rpm -e --nodeps firefox //强制卸载
-
-//yum,配置文件/etc/yum.repos.d/CentOS-Base.repo
-yum list | grep firefox
-yum search jdk
-yum install java-11-openjdk.x86_64
-yum erase java-11-openjdk.x86_64
-
-//install mysql,配置文件usr/lib/systemd/system 目录下，创建一个 XXX.service
-yum install mariadb-server mariadb
-systemctl start mariadb
-systemctl enable mariadb
+# 查询是否安装
+rpm -q firefox
+rpm -e firefox
+# 强制卸载
+rpm -e --nodeps firefox
 ```
 
-#### Ubuntu
+#### **yum**
 
 ```bash
-dpkg -i jdk-XXX_linux-x64_bin.deb
-dpkg -l
-dpkg -l | grep jdk
-dpkg -l | more
-dpkg -l | less
-dpkg -r
+# yum
+# 修改到国内镜像源
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
 
-//apt-get,配置文件/etc/apt/sources.list
-apt-get install openjdk-9-jdk
-apt-get install openjdk-9-jdk --reinstall
-apt-get --purge remove openjdk-9-jdk //移除软件包及配置文件
-apt-get update xxx
-apt-get remove xxx
-apt-cache search jdk
-apt-cache show xxx
-apt-get source xxx  下载该包源码
-apt-get -f install 恢复安装
-apt-get build-dep xxx 安装相关的编译环境
-apt-get dist-upgrate 升级系统
-apt-cache depends xxx  该包依赖包
-apt-cache rdepends xxx  该包被依赖包
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-8.repo
 
-//切换apt源
-#/etc/apt/sources.list
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
-echo '' > sources.list
-copy 清华镜像地址
-sudo apt-get update
+yum makecache
 
-//install mysql,配置文件/lib/systemd/system 目录下会创建一个 XXX.service
-apt-get install mysql-server
-systemctl start mysql
-systemctl enable mysql
-
-//install sshd
-sudo apt-get install openssh-server
-service sshd restart
-
-//linux系统客户机登录linux服务机
-ssh 用户名@IP  //使用ssh访问,如出现错误,查看是否有~/.ssh/known_ssh,尝试删除
+yum list | grep firefox
+yum search jdk
+yum install xxx
+yum remove xxx
+yum update [xxx]
 ```
+
+#### 编译源码安装
+
+#### [curl](https://segmentfault.com/a/1190000020436170)
+
+- wget http://file.tgz`  # 文件下载
+- `curl http://file.tgz` # 文件下载
+  - curl xxx > yyy
