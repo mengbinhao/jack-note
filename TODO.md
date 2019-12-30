@@ -334,6 +334,7 @@
 
 #### hooks
 
+- [React hooks 入门和进阶](https://www.yuque.com/dillon-r2ua6/gzkcty/om31wg)
 - [React函数式组件性能优化指南](https://mp.weixin.qq.com/s/kEExKE-Chr40z-mCc6AZ7Q)
 - [React Hooks详解+项目实战](https://juejin.im/post/5dbbdbd5f265da4d4b5fe57d)
 - [从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
@@ -383,6 +384,7 @@
 - [GitBook 简明使用教程](https://www.phpjieshuo.com/archives/153/)
 - [GitBook插件留言](https://juejin.im/post/5ce51e126fb9a07ed440d7d0)
 - [mac下homebrew安装很慢的解决方案](https://segmentfault.com/a/1190000021360086)
+- [VS Code调试Node.js](https://juejin.im/post/5e042967e51d45584d239e86)
 
 ### JAVA
 
@@ -392,6 +394,7 @@
 ### Python
 
 - [30个超实用Python代码片段](https://mp.weixin.qq.com/s/aVK_vGKt0DISRnfkCHbiMA)
+- [10个python技巧](https://mp.weixin.qq.com/s/GpRK-bpmGcJmBGfogamv9g)
 
 ### DB
 

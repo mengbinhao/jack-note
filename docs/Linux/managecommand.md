@@ -86,3 +86,29 @@
 - anacrontab 延时计划任务
 
 - flock   锁文件
+
+### SSH
+
+- 配置文件
+
+- SSH命令
+
+  ```bash
+  systemctl status|start|stop|restart|enable|disable sshd.service
+  
+  # 客户端命令
+  ssh	[-p port] 用户@远程ip
+  # SecureCRT Schell putty
+  ```
+
+- 公钥认证
+
+  - s sh-keygen -t rsa
+  - ssh-copy-id
+
+- scp和sftp远程拷贝文件
+
+  - scp
+  - sftp
+  - winscp
+

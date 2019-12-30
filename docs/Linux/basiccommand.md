@@ -281,11 +281,20 @@
 - `grep`and | (查找内容)
 
   - `grep 'test' d*`显示所有以d开头的文件中包含test的行
+
   - `grep 'test' aa bb cc`显示在aa、bb、cc文件中匹配test的行
+
   - `grep '[a-z]/{5/}' aa`显示所有包含每个字符串至少有5个连续小写字符的字符串的行
+
   - cat hello.txt | grep xxx
+
   - cat hello.txt | grep -n xxx
+
   - cat hello.txt | grep -i xxx
+
+    ```bash
+    grep pass /root/xxx.cfg | cut -d " " -f 1
+    ```
 
 - locate
 

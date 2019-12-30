@@ -1,3 +1,19 @@
+- 2019.12.30
+  - pale v/adj
+  - plunge n/v
+  - allot vt
+  - retail n/v/adj
+  - oval adj
+  - unspecified adj
+  - truce n/v
+
+  > I was in saleman mode this morning
+  > pretty soon, they've already stepped it up
+  > the country does have a lot of mouths to feed
+  > it the report accurate about what's in this deal, I think we spent a lot for very little
+  > It is hard to feel that this really was worth it in that sense
+  > it's offered no details
+
 - 2019.12.28
   - vandalize vt
   - census n
@@ -532,7 +548,7 @@
   - collusion n
   - appoint v | appointed adj
   - surveillance n
-  - tap n/vt
+  - tap n/vt | untapped adj
   - bipartisan adj
   - deepen v
   - profound adj
@@ -890,12 +906,13 @@
   - perspective n
   - claimant n
   - frustrate vt/adj | frustration n
-  - pleased adj 
+  - pleased adj
   - thrilled adj
   - disdain n/vt
   - ambiguity n
   - indecisive adj | decisive adj | decisively adv
   - obfuscate vt
+  - slap n/v/adj
 
   > let's put aside that xxx
   > take advantage of
@@ -1826,7 +1843,6 @@
   - encouraging adj | encouragement n
   - tariff n/vt
   - consequence n | conclusion n | conclude v | in-conclusive adj
-  - retailatory adj
 
   > it is hard to swallow
 
@@ -1872,7 +1888,6 @@
   - fine adj/adv/vt/n
   - waiver n
   - skake n/vt
-  - retaliate vi
   - rival n/vt
   - regulation n/adj
   - complaint n | complain v
@@ -1919,7 +1934,7 @@
 - 2019.7.4
   - drone n
   - unmanned adj
-  - retaliate vi
+  - retaliate vi | retailatory adj
   - proportional adj/n
   - casualty n
   - de-escalate v | escalate
