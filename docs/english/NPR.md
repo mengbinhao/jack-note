@@ -1,3 +1,10 @@
+- 2019.12.31
+  - instigation n
+  - void n/v/adj
+  - treason n
+
+  > no one is above law, we will hold the powerful accountable
+
 - 2019.12.30
   - pale v/adj
   - plunge n/v
@@ -337,7 +344,7 @@
 
 - 2019.12.2
   - unravel v
-  - spoiler n
+  - spoiler n | spoil v
   - deterioration n
   - lagoon n
   - obstscle n
@@ -564,7 +571,7 @@
   - riot n/vi
   - helmet n
   - revive v
-  - dictatorship n
+  - dictatorship n | dictator n
   - armored adj
   - spill n/v
   - cannon n/v
@@ -1083,7 +1090,7 @@
   - ignite vt
   - rescue n/vt
   - dumb adj
-  - judicial adj
+  - judicial adj | judiciary n
   - tamp vt
   - craziness n
 
@@ -1184,7 +1191,7 @@
 
 - 2019.9.12
   - blow n/v
-  - ostensibly adv
+  - ostensibly adv | ostensible adj
   - deadlock n/vt | stalemate n
   - momentous adj
   - amendment n
@@ -1827,7 +1834,6 @@
   - backdrop n
   - negligence n
   - remnant n/adj
-  - dictator n
   - aide n
   - topple v
   - horrendous adj
