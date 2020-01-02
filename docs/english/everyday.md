@@ -68,3 +68,5 @@
 20. clammy
 
 > when I got there, I suddenly felt so clammy and dizzy
+
+21. attitude is everything
