@@ -1,3 +1,11 @@
+- 2020.1.4
+  - overturn n/v
+  - purse n
+  - fund n/vt
+
+  > they're based on this that they reached back in July
+  > if u had more research, may be would find more solutions that would be more politically acceptable to more people
+
 - 2019.12.31
   - instigation n
   - void n/v/adj

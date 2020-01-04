@@ -83,20 +83,15 @@
 - [前端优化](https://juejin.im/post/5b04dd816fb9a07aae158903)
 - [前端优化](https://segmentfault.com/a/1190000018902483)
 - [前端优化](https://segmentfault.com/a/1190000019185648)
+- [网站性能优化实战](https://mp.weixin.qq.com/s/8Jl2l5tvP4vcYH920lm7bg)
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
 - [XSS Cheat Sheet](http://byd.dropsec.xyz/2019/10/24/xss-tips-payloads/)
 
 ### JS
 
-- [如何写出一个惊艳面试官的 Promise](https://segmentfault.com/a/1190000021320472)
-- [Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
-- [神奇的Promise](https://segmentfault.com/a/1190000021047742)
-- [我所理解的Promise](https://juejin.im/post/5d039703f265da1b8f1abe40)
-- [记一些Promise相关的优化点](https://zhuanlan.zhihu.com/p/59342711)
-- [大厂面试必考知识点：Promise注册微任务和执行过程](https://juejin.im/post/5dcb775c518825574d214b89)
-- [实现一个Promise](https://juejin.im/post/5d78d2316fb9a06aca38494c)
-- [关于Promise的9个面试题](https://segmentfault.com/a/1190000021255822)
+- [Promise的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
+- [promise源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -162,6 +157,8 @@
 
 #### Vue related
 
+- [你不知道的vue-devtools](https://juejin.im/post/5e0cbdd6e51d4541162c9493)
+- [收藏的关于Vue技巧or实践的文章](https://segmentfault.com/a/1190000021469258)
 - [Vue数据双向绑定原理和实现](https://segmentfault.com/a/1190000021327394)
 - [v-show原理](http://www.alloyteam.com/2019/12/14124/)
 - [一张图理清 Vue 3.0 的响应式系统](https://mp.weixin.qq.com/s/BvpBxs8WjYHFJvzkvmjxvw)
@@ -196,6 +193,7 @@
 - [Vue使用Jest单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
 
 #### project related
+
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
 - [Vue 使用中的小技巧](http://www.imooc.com/article/293570)
 - [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
@@ -262,6 +260,7 @@
 
 #### Vuex
 
+- [喝个茶的时间就学会了vuex](https://juejin.im/post/5a7278dc6fb9a01c9c1f59e7)
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
 - [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
