@@ -1,3 +1,15 @@
+- 2020.1.6
+  - bravo n
+  - taunt n/vt
+  - indeterminate adj
+  - slapdash adj
+  - sloppy adj
+  - impugn vt
+  - purport n/vt
+  - flaw n
+  - parade n/v
+  - thorough adj
+
 - 2020.1.4
   - overturn n/v
   - purse n
@@ -1815,7 +1827,7 @@
   - radiate v
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
-  - substantial adj | substantially adv | substantive adj
+  - substantial adj | substantially adv | substantive adj | substantively adv
   - substance n
   - dyfunctional adj
   - clumsy adj
