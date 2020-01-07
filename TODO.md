@@ -53,8 +53,8 @@
 - [45个值得收藏的CSS形状](https://segmentfault.com/a/1190000018922732)
 - [display:none与visibility:hidden](https://segmentfault.com/a/1190000016570003)
 - [rem and em](https://webdesign.tutsplus.com/zh-hans/tutorials/comprehensive-guide-when-to-use-em-vs-rem--cms-23984)
-- [CSS 世界精选集](https://mp.weixin.qq.com/s/W8-Cu8Mjh00Rze5o4bFKag)
-- [你所不知道的 CSS 负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
+- [CSS世界精选集](https://mp.weixin.qq.com/s/W8-Cu8Mjh00Rze5o4bFKag)
+- [你所不知道的CSS负值技巧与细节](https://juejin.im/post/5d4b8707f265da03a65302bd)
 - [常用的CSS函数](https://blog.5udou.cn/blog/Fen-Xiang-Chang-Yong-De-CSSHan-Shu-Zhu-Ni-Xie-Chu-Geng-Jian-Jie-De-Dai-Ma-23)
 - [让CSS flex布局最后一行列表左对齐的N种方法](https://www.zhangxinxu.com/wordpress/2019/08/css-flex-last-align/)
 - [灵活运用CSS开发技巧66个实用技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
@@ -87,6 +87,8 @@
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
 - [XSS Cheat Sheet](http://byd.dropsec.xyz/2019/10/24/xss-tips-payloads/)
+- [CSS浏览器兼容处理](https://zhuanlan.zhihu.com/p/97418850)
+- [优化CSS并加速网站的21种方法](https://mp.weixin.qq.com/s/dGH_13zG9nN1onE2zZP1-Q)
 
 ### JS
 
@@ -138,8 +140,9 @@
 - [一个多层if/else嵌套的代码重构案例](https://juejin.im/post/5dde8ea1f265da05b52e88cd)
 - [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
 - [使用JS来动态操作css](https://segmentfault.com/a/1190000021169316)
-- [你不知道的 JSON.stringify() 的威力](https://segmentfault.com/a/1190000021230185)
+- [你不知道的JSON.stringify()](https://segmentfault.com/a/1190000021230185)
 - [编程风格,编程实践](https://segmentfault.com/a/1190000021368904)
+- [常见内存泄露及如何避免](https://juejin.im/post/5e10a97f5188253a765ec7e1)
 
 ### mobile
 
@@ -360,6 +363,8 @@
 ### Angular
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
 - [TypeScript完全手册](https://zhuanlan.zhihu.com/p/83689446)
+- [Typescript那些好用的技巧](https://mp.weixin.qq.com/s/01d93y7wtlw0_jYDf3sV1Q)
+- [你可能不知道的TypeScript高级技巧](https://juejin.im/post/5e10a7f65188253a8d3ea3db)
 
 ### Other
 
@@ -416,6 +421,7 @@
 
 ### Interview
 
+- [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)
 - [面试完50个人后我写下这篇总结](https://juejin.im/post/5df1e312f265da33d039d06d)
 - [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
 - [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)

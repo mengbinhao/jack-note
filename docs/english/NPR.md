@@ -1,3 +1,9 @@
+- 2020.1.7
+  - recur vi
+  - bloodthirsty adj
+  - ailing adj
+  - concert n/v
+
 - 2020.1.6
   - bravo n
   - taunt n/vt
@@ -429,7 +435,7 @@
   - cough v
   - respiratory adj
   - advisory n
-  - routine n
+  - routine n | ritual n/adj
   - outskirt n
 
   > go wrong
@@ -464,7 +470,6 @@
   - aggregate n/v/adj
   - tune n/v
   - fulfill vt
-  - obligation n
 
   > What went through your mind when you heard it yesterday?
   > turn back on them
@@ -597,7 +602,6 @@
   - cannon n/v
   - hike n/v
   - transit n/vt/adj | transitional adj
-  - fare n
   - repression n
   - lambaste vt
   - dissatisfaction n
@@ -960,7 +964,7 @@
   - efficient adj | inefficient
   - well-being n
   - Medicaid n
-  - welfare n
+  - welfare n | fare n
   - outcome n
   - hardship n
   - balloon n/
@@ -1524,7 +1528,7 @@
   - expel vt
   - intensive adj | intensify v | intense adj
   - pledge n/vt
-  - obligate vt
+  - obligate vt | obligatory adj | obligation n
   - congratulatory adj
   - combat n/vt
   - constitutional adj
