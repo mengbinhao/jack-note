@@ -143,6 +143,7 @@
 - [你不知道的JSON.stringify()](https://segmentfault.com/a/1190000021230185)
 - [编程风格,编程实践](https://segmentfault.com/a/1190000021368904)
 - [常见内存泄露及如何避免](https://juejin.im/post/5e10a97f5188253a765ec7e1)
+- [一道不一样的前端架构师最终面试题](https://segmentfault.com/a/1190000021490239)
 
 ### mobile
 
@@ -421,6 +422,7 @@
 
 ### Interview
 
+- [前端面试基础问题梳理](https://blog.callmewhy.com/post/qian-duan-mian-shi-ji-chu-wen-ti-shu-li/)
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)
 - [面试完50个人后我写下这篇总结](https://juejin.im/post/5df1e312f265da33d039d06d)
 - [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
