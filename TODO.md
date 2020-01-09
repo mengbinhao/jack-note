@@ -277,6 +277,7 @@
 
 #### compare
 
+- [关于Vue和React的一些对比及个人思考（上）](https://juejin.im/post/5e153e096fb9a048297390c1)
 - [React & Vue的组件通信](https://juejin.im/post/5ddfbe80e51d451f8b265c10)
 - [父组件伸手子组件的方式总结](https://juejin.im/post/5db6ad1ef265da4d5420864e)
 - [vue vs react](https://juejin.im/post/5dad09be518825393e52d1bd)

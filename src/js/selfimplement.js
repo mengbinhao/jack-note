@@ -224,12 +224,13 @@ const randonReplacementArray = array => {
 //Function
 //在规定时间内只触发一次
 //第一个说了算
+//拖拽、缩放、动画
 const simulateThrottle = (fn, interval = 300) => {
   let last = 0;
-  return function() {
+  return (...args) => {
     let now = +new Date();
     if (now - last >= interval) {
-      fn.apply(this, arguments);
+      fn.apply(this, args);
       last = +new Date();
     }
   };
@@ -241,14 +242,14 @@ const betterScrollThrottle = simulateThrottle(
 document.addEventListener("scroll", betterScrollThrottle);
 
 //最后一个说了算
+//提交按钮、联想搜索、表单验证
 function simulatDebounce(fn, delay = 300) {
-  let timerId;
-  return function() {
+  let timer;
+  return (...args) => {
     clearTimeout(timerId);
 
-    //arrow function doesn't have this and arguments
-    timerId = setTimeout(() => {
-      fn.apply(this, arguments);
+    timer = setTimeout(() => {
+      fn.apply(this, args);
     }, delay);
   };
 }
@@ -523,13 +524,13 @@ const fibClosure = (function() {
  * 2. 链接到原型
  * 3. 执行constructor绑定新生成的对象
  * 4. 返回新对象
- * 优先级 new有 > call,apply,bind > 显示 > 隐式
+ * 优先级 new > call,apply,bind > 显示 > 隐式
  */
 Function.prototype.simulateNew = function(constructor) {
   if (typeof constructor !== "function") {
     throw new Error("the first param must be a function");
   }
-  //same as let obj = {}, obj__proto == constructor.prototype
+  //same as let obj = {}, obj__proto__ == constructor.prototype
   let obj = Object.create(constructor.prototype);
   let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1));
   //in case constructor return a simple type
@@ -1344,3 +1345,29 @@ function resolvePromise(promise2, x, resolve, reject) {
     resolve(x);
   }
 }
+
+class EventEmeitter {
+  constructor() {
+    this._events = this._events || new Map(); //储存事件/回调键值对
+    this._maxListeners = this._maxListeners || 10; //设立监听上限
+  }
+}
+
+EventEmeitter.prototype.emit = function(type, ...args) {
+  let hander;
+  //从储存事件键值对的this._events中获取对应事件回调函数
+  handler = this._events.get(type);
+  if (args.length > 0) {
+    hander.apply(this, args);
+  } else {
+    handler.call(this);
+  }
+  return true;
+};
+
+EventEmeitter.prototype.addListener = function(type, fn) {
+  //将type事件以及对应的fn函数放入this._events中储存
+  if (!this._events.get(type)) {
+    this._events.set(type, fn);
+  }
+};

@@ -1,3 +1,17 @@
+- 2020.1.9
+  - amounts n/v
+  - unionist n
+  - loyalist n
+  - psychological adj
+  - burden n/vt
+  - integral adj
+  - whatsoever pron
+  - ease n/v
+
+  > Brexit is at hand
+  > The argument is that Northern Ireland haveing a foot in both camps will get the best of both worlds and potentially become a HongKong
+  > this issue that seemed to be settled is now very much up in the air
+
 - 2020.1.7
   - recur vi
   - bloodthirsty adj
@@ -903,7 +917,7 @@
 - 2019.10.9
   - tout n/vt
   - patriot n | patriotism | unpatriotic adj
-  - barrier n
+  - barrier n/vt
   - subsidy n | subsidize vt
   - manipulation n
   - dumping n
@@ -1167,7 +1181,7 @@
   - superme adj
   - lame adj
   - thorn n
-  - disorder n
+  - disorder n/vt
   - entertaining n/adj
   - convention n
 
@@ -1196,7 +1210,7 @@
   - autocrat n
   - palatial adj
   - frail adj
-  - betray vt
+  - betray vt | betrayal n
   - bitter n/adj/vt
   - injustice n | justice n
   - oppressive adj
@@ -1526,7 +1540,7 @@
   - inspiration n
   - vice n/adj
   - expel vt
-  - intensive adj | intensify v | intense adj
+  - intensive adj | intensify v | intense adj ｜ tense n/v/adj
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj
@@ -1797,6 +1811,7 @@
   - high-profile adj
   - reserve n/v/adj
   - constraint n | constrain v | constrained adj
+  - restriction n
 
   > he is by no means the only officail public servant doing so
   > cover one's ears
@@ -1912,7 +1927,7 @@
   - comply vi
   - supplier n
   - deny vt
-  - tolerable adj | tolerance n | intolerance
+  - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
   - standpoint
   - astronomical adj
   - fine adj/adv/vt/n
