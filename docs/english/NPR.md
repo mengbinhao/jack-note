@@ -1,3 +1,18 @@
+- 2020.1.10
+  - indicate vt
+  - submission n
+  - doorstep n
+  - intercontinental adj
+  - fury n
+  - favorable adj
+  - provocation n
+  - lump n
+  - peninsula n
+  - standstill n
+
+  > so I am going to do what it's going to do
+  > point fingers
+
 - 2020.1.9
   - amounts n/v
   - unionist n
@@ -1629,7 +1644,7 @@
   - measured
   - invaluable adj
   - brake n
-  - ballistic
+  - ballistic adj
   - instability n
   - peril n
   - sleepwalking n
@@ -1860,6 +1875,7 @@
   - pretext n
   - mischievous adj
   - mischief n
+  - chief n/adj/adv
   - desperate adj | desperately adv
   - ignorance n
 
