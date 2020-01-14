@@ -637,6 +637,13 @@ const isType = type => obj => {
   return Object.prototype.toString.call(obj) === "[object " + type + "]";
 };
 
+const getType = obj => {
+  return Object.prototype.toString
+    .call(obj)
+    .replace(/[object\s(.+)]/, "$1")
+    .toLowerCase();
+};
+
 const hasPubProperty = (attr, obj) => {
   return attr in obj && obj.hasOwnProperty(attr) === false;
 };

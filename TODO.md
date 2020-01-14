@@ -37,6 +37,7 @@
 - [20道JS原理题](https://juejin.im/post/5d2ee123e51d4577614761f8)
 - [element-ui form](https://juejin.im/post/5d2eb18d51882569b34df167)
 - [一款基于vue.js 和node构建个人博客项目](https://github.com/HunterXing/404blog)
+- [从零到部署：用Vue和Express实现迷你全栈电商应用](https://juejin.im/post/5dfd851c6fb9a0163e248463)
 
 ### mis
 - [程序员常用工具](https://segmentfault.com/a/1190000020549054)
@@ -144,6 +145,7 @@
 - [编程风格,编程实践](https://segmentfault.com/a/1190000021368904)
 - [常见内存泄露及如何避免](https://juejin.im/post/5e10a97f5188253a765ec7e1)
 - [一道不一样的前端架构师最终面试题](https://segmentfault.com/a/1190000021490239)
+- [学习axios源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
 
 ### mobile
 
@@ -153,6 +155,7 @@
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
 - [Vue 2.0实战高级-开发移动端音乐 Web app](https://coding.imooc.com/class/chapter/107.html#Anchor)
 - [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
+- [vue移动端开发总结](https://juejin.im/post/5e0f01fd5188253a8511b9c0)
 
 ### source
 - [vuex and others](https://mp.weixin.qq.com/s/6TGSWEsMu4lzoXTUshGrEg)
@@ -261,6 +264,7 @@
 - [addRoutes的刷新404和重复路由的解决方案](https://juejin.im/post/5d730f50518825770c43a6da)
 - [vue-router原理到最佳实践](https://juejin.im/post/5dbed0bef265da4cff701f68)
 - [Vue Router被我们忽略的知识点](https://juejin.im/post/5df6369be51d4557ef03fa0b)
+- [一文带你看透Vue前端路由](https://mp.weixin.qq.com/s/R-vSGl3qeGE9YKdqtVcocA)
 
 #### Vuex
 
@@ -293,6 +297,7 @@
 - [Vue vs react vs angular](https://segmentfault.com/a/1190000016990339)
 - [Vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_Vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
+- [React vs Angular vs Vue.js](https://developer.51cto.com/art/202001/609148.htm)
 
 ### webpack
 

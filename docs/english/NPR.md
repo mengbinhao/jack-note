@@ -1,3 +1,24 @@
+- 2020.1.14
+  - commercial adj
+  - altitude n
+  - bankrupt n/vt/adj
+
+  > Authorities always pledged to get to the bottom of things
+  > it's not clear at all that will lead to any changes
+
+- 2020.1.13
+  - slam n/v | whip v/adj
+  - normalcy n
+  - excerpt n/vt
+  - archipelago n
+
+- 2020.1.12
+  - fantastic adj
+  - maintain vt
+  - grisly adj
+  - dispose n/v
+  - dismember vt
+
 - 2020.1.10
   - indicate vt
   - submission n
@@ -1066,7 +1087,7 @@
   - extraordinary adj| ordinary adj
   - plastic n/adj
   - renewable adj
-  - accountable adj | unaccounted adj
+  - accountable adj | unaccounted adj | accountability n
   - sit-in n
   - progressive n/adj
 
@@ -1530,7 +1551,7 @@
   > it's often seen as xxxxx
 
 - 2019.8.19
-  - consult v | consulting adj
+  - consult v | consulting adj | consul n | consulate n
   - stooge n
   - emerge vi | emerging adj | emergence n
   - concrete adj
@@ -1758,7 +1779,7 @@
   - nerve n
   - figure n/vt
   - reveal vt
-  - transparent adj | transparency n
+  - transparent adj | transparency n | intransparency n
   - exhausting adj | exhausted adj
   - sympathetic adj | sympathize vi |pathetic adj
   - footage n
@@ -2058,7 +2079,7 @@
   - crackdown n | crack n/adj/v
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - convicted adj | convict n/vt | convivtion n
+  - convicted adj | convict n/vt | convivtion n | absolve vt
   - undergo vt
   - procecutor n
   - defendant n | defend v | defensive adj
@@ -2113,7 +2134,6 @@
   - expertise n
   - proficiency n
   - afloat adj/adv
-  - evacuate v
   - speculation n | speculate v
   - takeaway n
   - plot n/v
