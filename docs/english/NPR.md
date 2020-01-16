@@ -1,3 +1,27 @@
+- 2020.1.16
+  - lean n/v
+  - sovereignty n
+  - impending adj | impend vi
+  - overall adj/adv
+  - lash n/v
+  - injury n
+  - militia n
+  - jeopardy n
+
+- 2020.1.15
+  - crumble vi
+  - perimeter n
+  - ungovernable adj
+  - insurrection n
+  - extremist n
+  - liberal adj
+  - intersection n
+  - soak n/v
+  - belongings n
+  - splatter n/v
+  - workweek n
+  - detonate v
+
 - 2020.1.14
   - commercial adj
   - altitude n

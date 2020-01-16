@@ -185,16 +185,14 @@ Array.prototype.mySome = function(fn, thisArg) {
 };
 
 Array.prototype.myReduce = function(fn, initialValue) {
-  let i = 0,
-    result;
-  result = initialValue ? initialValue : this[0];
-  startIndex = initialValue ? 0 : 1;
-  for (let len = this.length; i < len; i++) {
+  let hasInitialValue = initialValue !== undefined,
+    value = hasInitialValue ? initialValue : this[0];
+  for (let i = hasInitialValue ? 0 : 1; i < this.length; i++) {
     if (i in this) {
-      result = fn(result, this[i], i, this);
+      value = fn(value, this[i], i, this);
     }
   }
-  return result;
+  return value;
 };
 
 Array.prototype.myReduce2 = (f, acc, arr) => {

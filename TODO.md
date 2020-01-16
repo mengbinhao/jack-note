@@ -146,6 +146,7 @@
 - [常见内存泄露及如何避免](https://juejin.im/post/5e10a97f5188253a765ec7e1)
 - [一道不一样的前端架构师最终面试题](https://segmentfault.com/a/1190000021490239)
 - [学习axios源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
+- [NaN](https://segmentfault.com/a/1190000021576994)
 
 ### mobile
 
@@ -265,6 +266,7 @@
 - [vue-router原理到最佳实践](https://juejin.im/post/5dbed0bef265da4cff701f68)
 - [Vue Router被我们忽略的知识点](https://juejin.im/post/5df6369be51d4557ef03fa0b)
 - [一文带你看透Vue前端路由](https://mp.weixin.qq.com/s/R-vSGl3qeGE9YKdqtVcocA)
+- [核心版vue-router](https://juejin.im/post/5e1c7f496fb9a02ffc375b33)
 
 #### Vuex
 
