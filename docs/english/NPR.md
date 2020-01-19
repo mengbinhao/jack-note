@@ -6,6 +6,17 @@
   - nonchalant adj
   - fawn vi | fawning adj
 
+- 2020.1.17
+  - restraint n
+  - comfortable adj
+  - distinction n | distinct adj
+  - stun vt
+  - momentum n
+  - tent n
+
+  > It sounds to me like these people intend to stay outside of the US embassy for a while. Is that the impression you're getting?
+  > Those canisters that were used by the Americans yesterday are nothing compared to the ones that the Iraqis has been using
+
 - 2020.1.16
   - lean n/v
   - sovereignty n
@@ -1731,7 +1742,7 @@
   - lax adj
   - spree n
   - mar vt
-  - witness n
+  - witness n/vt
   - conflicting adj
   - ideology n
   - shock n/vt/adj
