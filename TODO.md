@@ -90,6 +90,7 @@
 - [XSS Cheat Sheet](http://byd.dropsec.xyz/2019/10/24/xss-tips-payloads/)
 - [CSS浏览器兼容处理](https://zhuanlan.zhihu.com/p/97418850)
 - [优化CSS并加速网站的21种方法](https://mp.weixin.qq.com/s/dGH_13zG9nN1onE2zZP1-Q)
+- [客户端渲染与服务端渲染](https://juejin.im/post/5e2130415188254ca22bb70e)
 
 ### JS
 
@@ -147,6 +148,10 @@
 - [一道不一样的前端架构师最终面试题](https://segmentfault.com/a/1190000021490239)
 - [学习axios源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
 - [NaN](https://segmentfault.com/a/1190000021576994)
+- [javaScript的Object构造函数](https://juejin.im/post/5e1e887b6fb9a02fd67ea0b2)
+- [全面总结JavaScript类型相关知识点](https://juejin.im/post/5e1ef846f265da3e2e4f5268)
+- [你真的懂Array吗]（https://juejin.im/post/5e1d919f5188254c3c275145）
+- [编写一个axios这样的库](https://juejin.im/post/5e16e5d76fb9a02fd742a92b)
 
 ### mobile
 
@@ -300,6 +305,7 @@
 - [Vue vs react vs angular](https://blog.fundebug.com/2018/07/09/react_vs_angular_Vue/)
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 - [React vs Angular vs Vue.js](https://developer.51cto.com/art/202001/609148.htm)
+- [VUE vs React](https://juejin.im/post/5e1c2ee6f265da3e395838b9)
 
 ### webpack
 
@@ -361,6 +367,8 @@
 - [React Hooks异步操作二三事](https://mp.weixin.qq.com/s/vUN6HX8L5eXOAOgnUnHwDw)
 - [五分钟带你了解React Hooks工作原理](https://segmentfault.com/a/1190000021057476)
 - [五个大型项目实践总结，解密React Hooks最佳实践](https://segmentfault.com/a/1190000021133222)
+- [React Hooks 实现和由来以及解决的问题](https://segmentfault.com/a/1190000021601144)
+
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)

@@ -1,3 +1,11 @@
+- 2020.1.19
+  - convene v
+  - guilty adj | guilt n
+  - shortage n
+  - verge n
+  - nonchalant adj
+  - fawn vi | fawning adj
+
 - 2020.1.16
   - lean n/v
   - sovereignty n
@@ -437,7 +445,7 @@
   - foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj
-  - britery n
+  - bribery n
   - preliminary n/adj
   - brutal adj
   - abduct n/vt
@@ -462,7 +470,6 @@
 - 2019.11.16
   - overnight n
   - ambulance n
-  - topple v
   - fragmented adj
   - harmony n
   - contrast n/v
@@ -1070,7 +1077,7 @@
 
 - 2019.9.27
   - Ukraine n
-  - indict vt
+  - indict vt | indictment n
   - whistle-blower n
   - corrup v | corruption n
   - aver vt
@@ -1673,7 +1680,7 @@
   - massacre n/vt
   - menifesto n
   - legislation n | legislative adj | legislature n | legislator n
-  - legitimate adj | legitimacy n
+  - legitimate adj | legitimacy n | illegitimate
   - universal n/adj
   - handful n
   - endorse vt
