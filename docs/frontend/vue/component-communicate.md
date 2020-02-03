@@ -9,9 +9,17 @@
 ### vue组件间通信方式
 
 #### 1 props/$emit
-```vue
+```javascript
 //父组件
-<Child :title="title"/>
+<Child :title="title" @changeTitle="title = $event" />
+  or
+<Child :title="title" @changeTitle="handler" />
+ 
+ methods: {
+  onEnlargeText: function (newTitle) {
+    this.title = newTitle
+  }
+}
 //子组件
 this.$emit('changeTitle', newTitle)
 ```
@@ -22,10 +30,10 @@ this.$emit('changeTitle', newTitle)
 >     1. 如果prop传到子组件的值只是作为初始值使用，且在父组件中不会变化则赋值到data中使用
 >     2. 如果传到子组件的prop的数据在父组件会被改变的，放到计算属性中监听变化使用。因为如果传递的是个对象的话，只改变下面的某个属性子组件中是不会响应式更新的，如果子组件需要在数据变化时响应式更新那只能放到computed中或者用watch深拷贝deep:true才能监听到变化
 >     3. 当然如果你又需要在子组件中通过prop传递数据的变化做些操作，那么写在computed中会报警告，因为计算属性中不推荐有任何数据的改变,只进行计算。如果你非要进行数据的操作那么可以把监听写在watch（注意deep深拷贝）或者使用computed的get和set
->     4. 但问题又来了，如果你传进来的是个对象，同时你又需要在子组件中操作传进来的这个数据，那么在父组件中的这个数据也会改变，因为你传递的只是个引用， 即使你把prop的数据复制到data中也是一样的，无论如何赋值都是引用的赋值，你只能对对象做深拷贝创建一个副本才能继续操作，你可以用JSON的方法先转化字符串在转成对象更方便一点
+>     4. 但问题又来了，如果你传进来的是个对象，同时你又需要在子组件中操作传进来的这个数据，那么在父组件中的这个数据也会改变，**因为你传递的只是个引用， 即使你把prop的数据复制到data中也是一样的**，无论如何赋值都是引用的赋值，你只能对对象做深拷贝创建一个副本才能继续操作，你可以用JSON的方法先转化字符串在转成对象
 >     5. 所以在父子传递数据时要先考虑好数据要如何使用，否则你会遇到很多问题或子组件中修改了父组件中的数据，这是很隐蔽并且很危险的
 
-##### 父组件传递函数(原则数据在哪,操作在哪),可以一层一层传，子组件直接调用
+##### 父组件传递函数(数据在哪,操作在哪),可以一层一层传，子组件直接调用
 
 ```vue
 <AddComment :addComment="addComment"/>
@@ -47,25 +55,28 @@ this.$emit('addComment', comment)
 ```vue
 //父组件，相关属性和方法从子组件定义到父组件
 <TodoFooter>
-  <input type="checkbox" v-model="checkAll" slot="checkAll"/>
-  <span slot="size">已完成{{completeSize}} / 全部{{todos.length}}</span>
-  <button class="btn btn-danger" v-show="completeSize" @click="deleteAllCompleted" slot="delete">清除已完成任务</button>
+  <template #checkAll>
+    <input type="checkbox" v-model="checkAll" />
+  </template>
+	<template #size>
+  	<span>已完成{{completeSize}} / 全部{{todos.length}}</span>
+	</template>
+	<template #delete>
+  	<button class="btn btn-danger" v-show="completeSize" @click="deleteAllCompleted">清除已完成任务</button>
+	</template>
 </TodoFooter>
 
 //子组件
 <div class="todo-footer">
   <label>
-    <!--<input type="checkbox" v-model="checkAll"/>-->
     <slot name="checkAll"></slot>
   </label>
 
   <span>
     <slot name="size"></slot>
-    <!-- <span>已完成{{completeSize}} / 全部{{todos.length}}</span>-->
   </span>
 
   <slot name="delete"></slot>
-  <!-- <button class="btn btn-danger" v-show="completeSize" @click="deleteAllCompleted">清除已完成任务</button>-->
 </div>
 ```
 #### 2 event bus(\$emit / \$on)
@@ -113,7 +124,7 @@ PubSub.publish('deleteItem', index);
 
 #### 4 provide/inject(不论组件层次有多深，并在其上下游关系成立的时间里始终生效)
 
-```javascript
+```vue
 Vue.component('child',{
     inject:['for'],//得到父组件传递过来的数据
     data(){
@@ -131,7 +142,7 @@ Vue.component('parent',{
     template:`
         <div>
         <p>this is parent compoent!</p>
-        <child></child>
+        <Child></Child>
         </div>
         `,
     provide:{
@@ -162,14 +173,14 @@ var app=new Vue({
 
 #### 5 $attrs(inheritAttrs)、\$listeners
 
-> \$attrs包含了父作用域中不作为props被识别 (且获取) 的特性绑定(class 和 style 除外)。当一个组件没有声明任 props时，这里会包含所有父作用域的绑定(class 和 style除外)，并且可以通过v-bind="$attrs"传入内部组件 —— 在创建高级别的组件时非常有用
+> \$attrs包含了父作用域中不作为props被识别 (且获取) 的特性绑定(class和 style除外)。当一个组件没有声明任props时，这里会包含所有父作用域的绑定(class和style除外)，并且可以通过v-bind="$attrs"传入内部组件 —— 在创建高级别的组件时非常有用
 >
-> \$listeners包含了父作用域中的(不含 .native 修饰器的)v-on事件监听器。它可以通过 v-on="$listeners"传入内部组件 —— 在创建更高层次的组件时非常有用
+> \$listeners包含了父作用域中的(不含.native修饰器的)v-on事件监听器。它可以通过v-on="$listeners"传入内部组件 —— 在创建更高层次的组件时非常有用
 >
-> 简单来说，$attrs 里存放的是父组件中绑定的非 props 属性，$listeners 里面存放的是父组件中绑定的非原生事件。
+> 简单来说，\$attrs 里存放的是父组件中绑定的非props属性，​\$listeners里面存放的是父组件中绑定的非原生事件
 >
 > 当传输数据、方法较多时，无需一一填写的小技巧
-```javascript
+```vue
 // 祖先组件
 // 在祖先组件中直接传入output和input
 <template>
@@ -195,7 +206,7 @@ export default {
 </script>
 ```
 
-```javascript
+```vue
 //子組件
 <template>
   <div
@@ -228,7 +239,7 @@ export default {
 </script>
 ```
 
-```javascript
+```vue
 //孙组件
 <template>
   <div>
@@ -252,13 +263,13 @@ this.$parent.$parent
 this.$children[index].$children[index]
 ```
 
-#### 7 $refs(如果在普通的 DOM 元素上使用，引用指向的就是 DOM 元素；如果用在子组件上，引用就指向组件)
+#### 7 $refs(如果在普通的DOM元素上使用，引用指向的就是DOM元素；如果用在子组件上，引用就指向组件)
 
 > 父组件需要子组件的一个数据但子组件并不知道或者说没有能力在父组件想要的时候给父组件，那么这个时候就要用ref
 >
 > 1. 父组件在标签中定义ref属性，在js中直接调用this.$refs.xxx就是调用整个子组件，子组件的所有内容都能通过ref去调用，当然我们并不推荐因为这会使数据看起来非常混乱
 > 2. 所以我们可以在子组件中定义一种专供父组件调用的函数，比如我们在这个函数中返回子组件data中某个数据,当父组件想要获取这个数据就直接主动调用ref执行这个函数获取这个数据,这样能适应很大一部分场景，逻辑也更清晰一点
-> 3. 父向子传递数据也可以用ref，有次需要在一个父组件中大量调用同一个子组件，而每次调用传递的prop数据都不同，并且传递数据会根据之后操作变化，这样我需要在data中定义大量相关数据并改变它，我可以直接用ref调用子组件函数直接把数据以参数的形式传给子组件，逻辑一下子清晰了
+> 3. 父向子传递数据也可以用ref，有次需要在一个父组件中大量调用同一个子组件，而每次调用传递的prop数据都不同，并且传递数据会根据之后操作变化，这样我需要在data中定义大量相关数据并改变它，可以直接用ref调用子组件函数直接把数据以参数的形式传给子组件，逻辑一下子清晰了
 > 4. 如果调用基础组件可以在父组件中调用ref执行基础组件中暴露的各种功能接口，比如显示，消失等
 
 #### 8 Vuex
@@ -267,7 +278,7 @@ this.$children[index].$children[index]
 
 1. vuex分模块：项目不同模块间维护各自的vuex数据
 2. Mutation ：是修改State数据的唯一推荐方法，且只能进行同步操作
-3. Getter ：Vuex 允许在Store中定义 “ Getter”（类似于 Store 的计算属性）。Getter 的返回值会根据他的依赖进行缓存，只有依赖值发生了变化，才会重新计算
+3. Getter ：Vuex允许在Store中定义 “ Getter”（类似于Store的计算属性）Getter 的返回值会根据他的依赖进行缓存，只有依赖值发生了变化，才会重新计算
 
 ```javascript
 // index.js
@@ -301,10 +312,14 @@ const store = new Vuex.Store({
   },
   actions: {
     actIncrement({ commit }) {
-      commit('increment');
+      setTimeout(() => {
+        commit('increment');
+      })
     },
     actReduce({ commit }) {
-      commit('reduce');
+      setTimeout(() => {
+        commit('reduce');
+      })
     }
   },
   getters: {

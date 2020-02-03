@@ -1,3 +1,11 @@
+- 2020.2.3
+  - supreme adj
+  - punch n/vt
+  - toss n/v
+
+  > for me, this was the line that was crossed and let me to act
+  > He was the No.2 to me
+
 - 2020.1.19
   - convene v
   - guilty adj | guilt n
@@ -614,7 +622,7 @@
   - pragmatic adj
   - seasoned adj
   - comeback n
-  - influential adj
+  - influential adj | influence n/vt
   - drown v
   - loyal adj
   - outright adj/adv

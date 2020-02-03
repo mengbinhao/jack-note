@@ -96,6 +96,7 @@
 
 - [Promise的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
 - [promise源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
+- [promise/aa/fetch/axios api](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -152,6 +153,7 @@
 - [全面总结JavaScript类型相关知识点](https://juejin.im/post/5e1ef846f265da3e2e4f5268)
 - [你真的懂Array吗]（https://juejin.im/post/5e1d919f5188254c3c275145）
 - [编写一个axios这样的库](https://juejin.im/post/5e16e5d76fb9a02fd742a92b)
+- [JavaScript中的类型检查](https://mp.weixin.qq.com/s/2J6IK7NAUR3ctNnsL5UN3A)
 
 ### mobile
 
@@ -382,6 +384,7 @@
 - [TypeScript完全手册](https://zhuanlan.zhihu.com/p/83689446)
 - [Typescript那些好用的技巧](https://mp.weixin.qq.com/s/01d93y7wtlw0_jYDf3sV1Q)
 - [你可能不知道的TypeScript高级技巧](https://juejin.im/post/5e10a7f65188253a8d3ea3db)
+- [TypeScript和JavaScript混合开发](https://mp.weixin.qq.com/s/L_3z5rlXFTDdwvHpN9tI6g)
 
 ### Other
 
@@ -439,6 +442,7 @@
 ### Interview
 
 - [前端面试基础问题梳理](https://blog.callmewhy.com/post/qian-duan-mian-shi-ji-chu-wen-ti-shu-li/)
+- [大前端冲刺大厂面试题集锦](https://mp.weixin.qq.com/s/qDWUTgiJhDeEUE7htxRgMw)
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)
 - [面试完50个人后我写下这篇总结](https://juejin.im/post/5df1e312f265da33d039d06d)
 - [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
