@@ -91,6 +91,7 @@
 - [CSS浏览器兼容处理](https://zhuanlan.zhihu.com/p/97418850)
 - [优化CSS并加速网站的21种方法](https://mp.weixin.qq.com/s/dGH_13zG9nN1onE2zZP1-Q)
 - [客户端渲染与服务端渲染](https://juejin.im/post/5e2130415188254ca22bb70e)
+- [HTTP所有头](https://segmentfault.com/a/1190000021624813)
 
 ### JS
 
@@ -206,6 +207,7 @@
 - [Vue多语言实战](https://juejin.im/post/5dd521e0f265da4796659b24)
 - [Vue Prop中的 null vs undefined](https://juejin.im/post/5ddcf5f4e51d4532db416149)
 - [Vue使用Jest单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
+- [Vue实现一个全屏加载插件](https://juejin.im/post/5e3307145188252c30002fa7)
 
 #### project related
 
@@ -244,10 +246,12 @@
 - [Vue开发必须知道的36个技巧](https://segmentfault.com/a/1190000020620972)
 - [基于Vue-SSR优化方案归纳总结](https://segmentfault.com/a/1190000021089924)
 - [实现Vue项目主题切换](https://juejin.im/post/5dee0610518825126d5a2255)
+- [代码规范化之Vue篇](https://juejin.im/post/5e2d3af65188254e1d4398fa)
 
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [撸Button组件](https://juejin.im/post/5e253ec56fb9a0301828d1ce)
 - [Vue最简单递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
 - [Vue自定义指令完善Select组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
 - [抽屉组件](https://github.com/dreambo8563/vue-simple-drawer)
@@ -263,6 +267,8 @@
 - [基于Vue的两层吸顶踩坑总结](https://mp.weixin.qq.com/s/QoKZYVa3yBy4pdXxSgXTYA)
 - [手把手教你实现一个渲染海量数据的tree组件](https://segmentfault.com/a/1190000021228976)
 - [tree-componet](https://github.com/cxuhwiuefhuefu/tree-componet)
+- [table component](https://juejin.im/post/5e218ce75188254dc74a4285)
+- [强化表单的9个Vue输入库](https://juejin.im/post/5e2e94a26fb9a02fe81861c0)
 
 #### Vue-router
 
