@@ -60,6 +60,7 @@
 - [让CSS flex布局最后一行列表左对齐的N种方法](https://www.zhangxinxu.com/wordpress/2019/08/css-flex-last-align/)
 - [灵活运用CSS开发技巧66个实用技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
 - [灵活运用CSS 66个实用技巧](https://segmentfault.com/a/1190000020899202)
+- [关于CSS margin](https://segmentfault.com/a/1190000021681363)
 
 ### nodejs
 
@@ -92,6 +93,7 @@
 - [优化CSS并加速网站的21种方法](https://mp.weixin.qq.com/s/dGH_13zG9nN1onE2zZP1-Q)
 - [客户端渲染与服务端渲染](https://juejin.im/post/5e2130415188254ca22bb70e)
 - [HTTP所有头](https://segmentfault.com/a/1190000021624813)
+- [还分不清Cookie、Session、Token、JWT](https://mp.weixin.qq.com/s/sF96Vgcp9FU--oeRlh4IdA)
 
 ### JS
 
@@ -168,6 +170,9 @@
 
 ### source
 - [vuex and others](https://mp.weixin.qq.com/s/6TGSWEsMu4lzoXTUshGrEg)
+
+### performance
+- [一文从零彻底搞懂前端的内存监控、异常、泄漏](https://mp.weixin.qq.com/s/HBs3mF8S2if37vN7JZ-mgw)
 
 ### Vue
 
@@ -377,7 +382,7 @@
 - [五个大型项目实践总结，解密React Hooks最佳实践](https://segmentfault.com/a/1190000021133222)
 - [React Hooks 实现和由来以及解决的问题](https://segmentfault.com/a/1190000021601144)
 
-
+export http_proxy="http://127.0.0.1:1087" export https_proxy="http://127.0.0.1:1087"
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)
 
@@ -385,12 +390,13 @@
 - [从零实现一个Redux](https://mp.weixin.qq.com/s/zWKZPLpo_7kcNKzZeqH2kg)
 - [动手实现一个react-redux](https://mp.weixin.qq.com/s/axauH4xpq-ZV3FFHI9XWLg)
 
-### Angular
+### TypeScript
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
 - [TypeScript完全手册](https://zhuanlan.zhihu.com/p/83689446)
 - [Typescript那些好用的技巧](https://mp.weixin.qq.com/s/01d93y7wtlw0_jYDf3sV1Q)
 - [你可能不知道的TypeScript高级技巧](https://juejin.im/post/5e10a7f65188253a8d3ea3db)
 - [TypeScript和JavaScript混合开发](https://mp.weixin.qq.com/s/L_3z5rlXFTDdwvHpN9tI6g)
+- [小讲Typescript](https://juejin.im/post/5e3408e851882526185252c1)
 
 ### Other
 

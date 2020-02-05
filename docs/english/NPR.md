@@ -1,3 +1,25 @@
+- 2020.2.5
+  - ferry n/v
+  - brace n/vt | bracing adj
+  - dub vt
+  - stampede n/v
+  - burial n/adj
+  - explosion n
+  - counterattack n
+
+  > No word of other casualties yet
+
+- 2020.2.4
+  - formula n
+  - scramble n/v | scrambling
+  - repercussion n
+  - sectarian adj
+  - definitive adj
+
+  > I've got to be honest here
+  > but it did have language with xxx
+  > that's not the case
+
 - 2020.2.3
   - supreme adj
   - punch n/vt
@@ -491,6 +513,7 @@
   - ambulance n
   - fragmented adj
   - harmony n
+  - harm n
   - contrast n/v
   - avenue n | venue n
   - assure vt | reassure
@@ -841,7 +864,7 @@
   - Panamanian n/adj
   - anchor n/vt
   - bay n
-  - landslide n
+  - landslide n | slide n/v
   - magnitude n
   - Jeez
   - raft n/v
@@ -1302,7 +1325,7 @@
   - oppressive adj
   - savage n/adj/vt
   - vibrant adj
-  - revolution n | evolution n
+  - revolution n | evolution n | revolutionary n/adj
   - unfettered adj
   - oversee vt
   - decline n/v
@@ -1691,7 +1714,7 @@
   - alliance n
   - disintegrate v
   - division n
-  - retaliation n
+  - retaliation n | revenge n/v
   - mend v
   - fence n/v
 
@@ -1751,7 +1774,7 @@
   - spree n
   - mar vt
   - witness n/vt
-  - conflicting adj
+  - conflicting adj | conflict n/vi
   - ideology n
   - shock n/vt/adj
   - devastating adj | devastation n
@@ -2011,7 +2034,7 @@
   > that may easier said than done
 
 - 2019.7.9
-  - comply vi
+  - comply vi | deference n
   - supplier n
   - deny vt
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
@@ -2180,7 +2203,7 @@
 
 - 2019.6.25
 
-  - assessment n
+  - assessment n | assess vt
   - expertise n
   - proficiency n
   - afloat adj/adv
