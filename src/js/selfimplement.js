@@ -239,6 +239,18 @@ const betterScrollThrottle = simulateThrottle(
 )
 document.addEventListener('scroll', betterScrollThrottle)
 
+function throttle2(func, wait) {
+	let timer = null
+	return function(...args) {
+		if (!timer) {
+			func(...args)
+			timer = setTimeout(() => {
+				timer = null
+			}, wait)
+		}
+	}
+}
+
 //最后一个说了算
 //提交按钮、联想搜索、表单验证
 function simulatDebounce(fn, delay = 300) {
@@ -301,6 +313,7 @@ const optimizedThrottle = function(func, wait, options) {
 	return throttled
 }
 
+//用Throttle来优化Debounce
 //用Throttle来优化Debounce
 //用Throttle来优化Debounce
 function DebounceAdvanced(fn, delay = 300) {
@@ -580,7 +593,7 @@ Function.prototype.simulateBind = function(context) {
 	}
 }
 
-Function.prototype.simulateBindAdvance = function(context) {
+Function.prototype.simulateBindAdvance = function(context = window) {
 	if (typeof this !== 'function') throw new Error('this must be a function')
 	let fn = this
 	let args = [...arguments].slice(1)
@@ -784,12 +797,22 @@ const copyDeepClone = function(obj) {
 	)
 }
 
+//inheritinheritinheritinheritinheritinherit
+// function Base() {
+// }
+// // 派生类
+// function Derived() {
+//     Base.call(this);
+// }
+// // 将派生类的原型的原型链挂在基类的原型上
+// Object.setPrototypeOf(Derived.prototype, Base.prototype);
+
 const similateInherit = (function() {
 	let F = function() {}
 	return function(Child, Parent) {
 		F.prototype = Parent.prototype
 		Child.prototype = new F()
-		Child.prototype.constructor = Target
+		Child.prototype.constructor = Child
 		Child.uber = Parent.prototype
 	}
 })()
@@ -1099,6 +1122,73 @@ class Route {
 	}
 }
 
+//实现一个路由 - Hash
+// <!DOCTYPE html>
+// <html>
+// <head>
+//   <title>hash 路由</title>
+// </head>
+// <body>
+//   <header>
+//     <a href="#home">首页</a>
+//     <a href="#center">个人中心页</a>
+//     <a href="#help">帮助页</a>
+//   </header>
+//   <section id="content"></section>
+//   <script>
+//     window.addEventListener('hashchange', (e) => {
+//       let content = document.getElementById('content');
+//       content.innerText = location.hash;
+//     })
+// </script>
+// </body>
+// </html>
+
+//路由实现 - history
+
+// <!DOCTYPE html>
+// <html>
+// <head>
+//   <title>history 路由</title>
+// </head>
+// <body>
+//   <header>
+//     <a onclick="changeRoute(this)" data-path="home">首页</a>
+//     <a onclick="changeRoute(this)" data-path="center">个人中心页</a>
+//     <a onclick="changeRoute(this)" data-path="help">帮助页</a>
+//   </header>
+//   <section id="content"></section>
+//   <script>
+//     function changeRoute(route) {
+//       let path = route.dataset.path;
+//       /**
+//        * window.history.pushState(state, title, url)
+//        * state：一个与添加的记录相关联的状态对象，主要用于popstate事件。该事件触发时，该对象会传入回调函数。
+//        *        也就是说，浏览器会将这个对象序列化以后保留在本地，重新载入这个页面的时候，可以拿到这个对象。
+//        *        如果不需要这个对象，此处可以填 null。
+//        * title：新页面的标题。但是，现在所有浏览器都忽视这个参数，所以这里可以填空字符串。
+//        * url：新的网址，必须与当前页面处在同一个域。浏览器的地址栏将显示这个网址。
+//        */
+//       changePage(path);
+//       history.pushState({ content: path }, null, path);
+//     }
+//     /**
+//      * 调用 history.pushState() 或者 history.replaceState() 不会触发 popstate 事件。
+//      * 点击后退、前进按钮、或者在 js 中调用 history.back()、history.forward()、history.go() 方法会触发
+//      */
+//     window.addEventListener('popstate', (e) => {
+//       let content = e.state && e.state.content;
+//       changePage(content);
+//     });
+
+//     function changePage(pageContent) {
+//       let content = document.getElementById('content');
+//       content.innerText = pageContent;
+//     }
+// </script>
+// </body>
+// </html>
+
 //实现懒加载
 /* <ul>
   <li><img src="./imgs/default.png" data="./imgs/1.png" alt=""></li>
@@ -1381,3 +1471,66 @@ EventEmeitter.prototype.addListener = function(type, fn) {
 		this._events.set(type, fn)
 	}
 }
+
+// foo 函数将会被调用 传入后台返回的数据
+function foo(data) {
+	console.log('通过jsonp获取后台数据:', data)
+	document.getElementById('data').innerHTML = data
+}
+/**
+ * 通过手动创建一个 script 标签发送一个 get 请求
+ * 并利用浏览器对 <script> 不进行跨域限制的特性绕过跨域问题
+ */
+;(function jsonp() {
+	let head = document.getElementsByTagName('head')[0]
+	let js = document.createElement('script')
+	js.src = 'http://domain:port/testJSONP?a=1&b=2&callback=foo'
+	head.appendChild(js) // 这一步会发送请求
+})()
+
+// 后台代码
+// 因为是通过 script 标签调用的 后台返回的相当于一个 js 文件
+// 根据前端传入的 callback 的函数名直接调用该函数
+// 返回的是 'foo(3)'
+function testJSONP(callback, a, b) {
+	return `${callback}(${a + b})`
+}
+
+//实现 generator 的自动执行器,要求是 yield 后面只能是 Promise 或 Thunk 函数
+function run(gen) {
+	let g = gen()
+
+	function next(data) {
+		let result = g.next(data)
+		if (result.done) return result.value
+		if (result.value instanceof Promise) {
+			result.value.then(data => next(data))
+		} else {
+			result.value(next)
+		}
+	}
+
+	return next()
+}
+
+// ======== e.g. ==========
+
+function func(data, cb) {
+	console.log(data)
+	cb()
+}
+
+function* gen() {
+	let a = yield Promise.resolve(1)
+	console.log(a)
+	let b = yield Promise.resolve(2)
+	console.log(b)
+	yield func.bind(null, a + b)
+}
+run(gen)
+/**
+output:
+1
+2
+3
+**/
