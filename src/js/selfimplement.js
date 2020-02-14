@@ -223,7 +223,7 @@ const randonReplacementArray = array => {
 //在规定时间内只触发一次
 //第一个说了算
 //拖拽、缩放、动画
-const simulateThrottle = (fn, interval = 300) => {
+function simulateThrottle(fn, interval = 300) {
 	let last = 0
 	return (...args) => {
 		let now = +new Date()
@@ -244,7 +244,7 @@ document.addEventListener('scroll', betterScrollThrottle)
 function simulatDebounce(fn, delay = 300) {
 	let timer
 	return (...args) => {
-		clearTimeout(timer)
+		timer && clearTimeout(timer)
 
 		timer = setTimeout(() => {
 			fn.apply(this, args)
@@ -302,7 +302,8 @@ const optimizedThrottle = function(func, wait, options) {
 }
 
 //用Throttle来优化Debounce
-const DebounceAdvanced = (fn, delay = 300) => {
+//用Throttle来优化Debounce
+function DebounceAdvanced(fn, delay = 300) {
 	let last = 0,
 		timer = null
 
@@ -314,7 +315,7 @@ const DebounceAdvanced = (fn, delay = 300) => {
 		if (now - last < delay) {
 			// 如果时间间隔小于我们设定的时间间隔阈值,则为本次触发操作设立一个新的定时器
 			// 总会执行一次 防止用户认为'假死'
-			clearTimeout(timer)
+			timer && clearTimeout(timer)
 			timer = setTimeout(function() {
 				fn.apply(context, args)
 				last = now
@@ -540,6 +541,10 @@ Function.prototype.simulateNew = function(constructor) {
 
 Function.prototype.simulateCall = function(context = window) {
 	if (typeof this !== 'function') throw new Error('this must be a function')
+	// const key = Symbol()
+	// const[key] = this
+	// const args = [...arguments].slice(1)
+	// const result = context[key](args)
 	context.fn = this
 	let args = [...arguments].slice(1)
 	let result = context.fn(...args)
@@ -549,6 +554,8 @@ Function.prototype.simulateCall = function(context = window) {
 
 Function.prototype.simulateApply = function(context = window) {
 	if (typeof this !== 'function') throw new Error('this must be a function')
+	// const key = Symbol()
+	// context[key] = this
 	context.fn = this
 	let result
 	if (arguments[1]) {
@@ -685,18 +692,18 @@ const hasPubProperty = (attr, obj) => {
 // 5、不能正确处理RegExp, Date, Set, Map等
 // 6、不能处理正则
 // 7、会抛弃对象的constructor。也就是深拷贝之后，不管这个对象原来的构造函数是什么，在深拷贝之后都会变成Object
-const deepClone = (source, hash = new WeakMap()) => {
+const deepClone = (source, cache = new WeakMap()) => {
 	if (!isObject(source)) return source
 	//or return directly
-	if (hash.has(source)) throw new TypeError('circle reference')
+	if (cache.has(source)) throw new TypeError('circle reference')
 	let target = Array.isArray(source) ? [] : {}
-	hash.set(source, target)
+	cache.set(source, target)
 
 	let symKeys = Object.getOwnPropertySymbols(source)
 	if (symKeys.length) {
 		symKeys.forEach(symKey => {
 			if (isObject(source[symKey])) {
-				target[symKey] = deepClone(source[symKey], hash)
+				target[symKey] = deepClone(source[symKey], cache)
 			} else {
 				target[symKey] = source[symKey]
 			}
@@ -706,7 +713,7 @@ const deepClone = (source, hash = new WeakMap()) => {
 	for (let key in source) {
 		if (Object.prototype.hasOwnProperty.call(source, key)) {
 			if (isObject(source[key])) {
-				target[key] = deepClone(source[key], hash)
+				target[key] = deepClone(source[key], cache)
 			} else {
 				target[key] = source[key]
 			}

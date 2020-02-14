@@ -1,3 +1,30 @@
+- 2020.2.7
+  - shrapnel n
+  - grieve v | grieving adj
+  - furious adj
+  - assassination n
+  - irresponsible n/adj/adv
+  - dishonor n
+  - dissent n/vi
+  - cruise n/v
+  - televise v
+  - investigator n
+  - sift v
+  - condolence n
+  - sincere adj
+  - mechanical adj
+  - mistakenly adv
+  - appetite n
+  - underscore vt
+  - demean vt | demeaning n | demeanor n
+  - warrant n/vt | warranted adj
+  - deed n
+  - shed n/vt
+  - seek v
+
+  > the US is ready to embrace peace with all who seek it
+  > I think this just underscore how political this issue has become
+
 - 2020.2.5
   - ferry n/v
   - brace n/vt | bracing adj
@@ -468,7 +495,7 @@
   - ferocious adj
   - reliance n
   - mull n/v
-  - convince vt | convinced adj | convincing
+  - convince vt | convinced adj | convincing | unconvincing
   - mythical adj
   - chiff n
   - ultimatum n
@@ -1142,7 +1169,6 @@
   - plate n
   - contend v
   - razor n
-  - demeanor n
   - profile
   - elsewhere
 
@@ -1215,7 +1241,7 @@
   - finalize vt
   - variety n
   - personnel n
-  - admission n
+  - admission n | admit v
 
   > I dont think anybody expects it to become less so
   > what have you learned about that?
@@ -2092,7 +2118,7 @@
   - retaliate vi | retailatory adj
   - proportional adj/n
   - casualty n
-  - de-escalate v | escalate
+  - de-escalate v | escalate v
   - negotiate v | negotiator n | negotiation n
 
   > so he goes back and forth
@@ -2124,7 +2150,7 @@
   - redical adj/n
   - hatred n
   - prejudice n/vt
-  - rage n/v | raging adj | enraged v/adj | outrage n/vt
+  - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj
   - rally n/v
   - metaphorically adv
   - literally adv | literal adj

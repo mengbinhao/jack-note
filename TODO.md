@@ -42,6 +42,7 @@
 ### mis
 - [程序员常用工具](https://segmentfault.com/a/1190000020549054)
 - [如何正确的在Stack Overflow提问](https://segmentfault.com/a/1190000021006747)
+- [一文搞懂主流的扫码登录技术原理](https://mp.weixin.qq.com/s/xVk2hGnBRRCgtL9tYWWarw)
 
 ### h5
 
@@ -94,6 +95,8 @@
 - [客户端渲染与服务端渲染](https://juejin.im/post/5e2130415188254ca22bb70e)
 - [HTTP所有头](https://segmentfault.com/a/1190000021624813)
 - [还分不清Cookie、Session、Token、JWT](https://mp.weixin.qq.com/s/sF96Vgcp9FU--oeRlh4IdA)
+- [浏览器的工作原理](https://mp.weixin.qq.com/s/gcKSR-Z7sm6WCZXTjtw8tA)
+- [快速开发一个Antd级别的组件库](https://mp.weixin.qq.com/s/nuwSW8cAv0izEk4GIofI7w)
 
 ### JS
 
@@ -213,6 +216,7 @@
 - [Vue Prop中的 null vs undefined](https://juejin.im/post/5ddcf5f4e51d4532db416149)
 - [Vue使用Jest单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
 - [Vue实现一个全屏加载插件](https://juejin.im/post/5e3307145188252c30002fa7)
+- [vue and vuex source](https://segmentfault.com/a/1190000021717329)
 
 #### project related
 
@@ -381,8 +385,8 @@
 - [五分钟带你了解React Hooks工作原理](https://segmentfault.com/a/1190000021057476)
 - [五个大型项目实践总结，解密React Hooks最佳实践](https://segmentfault.com/a/1190000021133222)
 - [React Hooks 实现和由来以及解决的问题](https://segmentfault.com/a/1190000021601144)
+- [你不知道的 useRef](https://mp.weixin.qq.com/s/4kUXHGf9DS8KBJvp9qnlVQ)
 
-export http_proxy="http://127.0.0.1:1087" export https_proxy="http://127.0.0.1:1087"
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)
 
@@ -397,6 +401,7 @@ export http_proxy="http://127.0.0.1:1087" export https_proxy="http://127.0.0.1:1
 - [你可能不知道的TypeScript高级技巧](https://juejin.im/post/5e10a7f65188253a8d3ea3db)
 - [TypeScript和JavaScript混合开发](https://mp.weixin.qq.com/s/L_3z5rlXFTDdwvHpN9tI6g)
 - [小讲Typescript](https://juejin.im/post/5e3408e851882526185252c1)
+- [全网最全的TypeScript踩坑集锦](https://mp.weixin.qq.com/s/NLI5B3F6qo0TpRBgjZz-Ng)
 
 ### Other
 
@@ -421,6 +426,7 @@ export http_proxy="http://127.0.0.1:1087" export https_proxy="http://127.0.0.1:1
 - [GitBook插件留言](https://juejin.im/post/5ce51e126fb9a07ed440d7d0)
 - [mac下homebrew安装很慢的解决方案](https://segmentfault.com/a/1190000021360086)
 - [VS Code调试Node.js](https://juejin.im/post/5e042967e51d45584d239e86)
+- [JavaScript插件](https://juejin.im/post/5e437b7ff265da57472782f0)
 
 ### JAVA
 
@@ -484,6 +490,7 @@ export http_proxy="http://127.0.0.1:1087" export https_proxy="http://127.0.0.1:1
 - [27个js面试手写](http://developer.51cto.com/art/201909/603316.htm)
 - [前端开发中79条不可忽视的知识点](https://juejin.im/post/5d8989296fb9a06b1f147070)
 - [面试中知道开头不知道结尾的web知识点](https://juejin.im/post/5db7b17ae51d4529ef3eedcd)
+- [系统出现高CPU的原因是什么](https://mp.weixin.qq.com/s/jsDyDJK0rgFZx7MW6NgRhw)
 
 #### css&html
 
@@ -502,10 +509,14 @@ export http_proxy="http://127.0.0.1:1087" export https_proxy="http://127.0.0.1:1
 - [经常会被问到的面试题](https://segmentfault.com/a/1190000020181662)
 
 ####  JS
+
+- [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 - [为什么外链css要放在头部，js要放在尾部](https://www.cnblogs.com/lvonve/p/11975593.html)
 
 #### Vue
+
+- [Vue高频基础面试题](https://segmentfault.com/a/1190000021731699)
 - [Vue面试经常会被问到的面试题](https://juejin.im/post/5dce0677e51d45083d30b7e7)
 - [30道Vue前端面试题](https://juejin.im/post/5daa6adbf265da5b576befc8)
 - [Vue面试题](http://www.imooc.com/article/293084)
