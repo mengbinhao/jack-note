@@ -1,3 +1,40 @@
+- 2020.2.21
+  - precaution n
+  - Indonesia n
+  - mask n
+  - pebble n
+  - upend v
+  - holdout n
+  - donation n | donate v
+  - continual adj | continuity n
+  - gymnasium n
+  - cavernous adj
+  - overlook v
+  - dot v/adj
+  - tourist n/v/adj/adv
+  - steam n/v/adj
+  - monarch n
+  - overdramatize vt
+  - unavoidable adj
+  - undertone n
+  - figurehead n
+  - outspoken adj
+  - commonwealth n
+  - tabloid n/adj
+  - corny adj
+  - independent | independence
+  - duke n
+  - observe | observer
+  - royal adj
+  - avid adj
+
+  > It knocked Iran off the frond page
+  > It will take time to work through
+  > Let me just paint a little scene
+  > there were continual lines of food being served
+  > Their lives have been upended, and this is far from over
+  > China is on pins and needles
+
 - 2020.2.7
   - shrapnel n
   - grieve v | grieving adj
@@ -366,7 +403,6 @@
   - quest n/v
   - clunky adj
   - pitiful adj
-  - fleet n/v
   - obliterate vt
   - extrapolate vt
   - teem vi
@@ -459,7 +495,6 @@
   - midst n/prep
   - misgiving n
   - plunder n/v
-  - continuity n
   - vacuum n
   - caretaker n
   - inevitably adv
@@ -945,6 +980,7 @@
   - assault n/vt/adj
   - crisis n
   - flee v
+  - fleet n/v
   - neutralize vt | neutrality n | neutral adj
   - fatality n
   - extent n | extend v | extended adj | extension n
@@ -1218,7 +1254,7 @@
   - modest adj
   - insurance n
   - stride n/vt
-  - blasted adj | blast n/vt
+  - blasted adj | blast n/vt | blasting
   - notable n/adj
   - architect n
   - unnerving adj
@@ -1406,7 +1442,7 @@
   - unexplored adj
   - quell vt
   - cellular adj
-  - racially adv
+  - racial adj | racially adv | biracial adj
   - unrest n
   - torch n/vt
   - indigenous adj
@@ -1626,7 +1662,6 @@
   - persist vi
   - precede vt
   - anxiety n
-  - unsetting adj
   - wage n
   - decent adj
   - investor n
@@ -1642,7 +1677,7 @@
   - itinerary n
   - irresistible adj
   - annexation n | annex n/vt
-  - settlement n | settle n/v
+  - settlement n | settle n/v | settling | unsetting
   - pendulum n
 
   > it was seen as a breather for the trade war
@@ -1738,7 +1773,7 @@
   - colonial adj | colony n | colonialism n | colonize vt
   - spiral n/vi/adj
   - alliance n
-  - disintegrate v
+  - disintegrate v | disintegrating
   - division n
   - retaliation n | revenge n/v
   - mend v

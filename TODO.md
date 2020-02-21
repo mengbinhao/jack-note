@@ -47,6 +47,9 @@
 ### h5
 
 - [HTML5新增的标签与属性](https://juejin.im/post/5d1b43edf265da1bae3914ac)
+- [HTML5](https://juejin.im/post/5df3b019518825122671c068)
+- [移动端H5开发常用技巧](https://segmentfault.com/a/1190000021767889)
+- [分享一些前端常用功能集合](https://juejin.im/post/5e49ef916fb9a07c951cd0e3)
 
 ### css
 
@@ -62,6 +65,8 @@
 - [灵活运用CSS开发技巧66个实用技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
 - [灵活运用CSS 66个实用技巧](https://segmentfault.com/a/1190000020899202)
 - [关于CSS margin](https://segmentfault.com/a/1190000021681363)
+- [我写CSS的常用套路(附demo的效果实现与源码）](https://mp.weixin.qq.com/s/dYCWYeM629DwiSqmaaAs1w)
+- [CSS 故障艺术](https://mp.weixin.qq.com/s/HR9OMdDrfquGN_N6M9xJPw)
 
 ### nodejs
 
@@ -160,6 +165,8 @@
 - [你真的懂Array吗]（https://juejin.im/post/5e1d919f5188254c3c275145）
 - [编写一个axios这样的库](https://juejin.im/post/5e16e5d76fb9a02fd742a92b)
 - [JavaScript中的类型检查](https://mp.weixin.qq.com/s/2J6IK7NAUR3ctNnsL5UN3A)
+- [ES6之Proxy巧用](https://mp.weixin.qq.com/s/VtdL7x7Lisy0YR65ghEVEQ)
+- [您可能不知道的原生JavaScript方法](https://juejin.im/post/5e4bc03cf265da572446685a)
 
 ### mobile
 
@@ -217,6 +224,7 @@
 - [Vue使用Jest单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
 - [Vue实现一个全屏加载插件](https://juejin.im/post/5e3307145188252c30002fa7)
 - [vue and vuex source](https://segmentfault.com/a/1190000021717329)
+- [使用混合Mixins和插件开发](https://segmentfault.com/a/1190000021679760)
 
 #### project related
 
@@ -256,6 +264,7 @@
 - [基于Vue-SSR优化方案归纳总结](https://segmentfault.com/a/1190000021089924)
 - [实现Vue项目主题切换](https://juejin.im/post/5dee0610518825126d5a2255)
 - [代码规范化之Vue篇](https://juejin.im/post/5e2d3af65188254e1d4398fa)
+- [vue中利用iscroll.js解决pc端滚动问题](https://juejin.im/post/5e4506dc51882549417fbdd5)
 
 #### component related
 
@@ -289,6 +298,7 @@
 - [Vue Router被我们忽略的知识点](https://juejin.im/post/5df6369be51d4557ef03fa0b)
 - [一文带你看透Vue前端路由](https://mp.weixin.qq.com/s/R-vSGl3qeGE9YKdqtVcocA)
 - [核心版vue-router](https://juejin.im/post/5e1c7f496fb9a02ffc375b33)
+- [带你全面分析vue-router源码](https://juejin.im/post/5e456513f265da573c0c6d4b)
 
 #### Vuex
 
@@ -305,6 +315,7 @@
 
 #### compare
 
+- [从React切换到Vue.js](https://www.infoq.cn/article/22jiqjCXXcs0DajEFT0h)
 - [关于Vue和React的一些对比及个人思考（上）](https://juejin.im/post/5e153e096fb9a048297390c1)
 - [React & Vue的组件通信](https://juejin.im/post/5ddfbe80e51d451f8b265c10)
 - [父组件伸手子组件的方式总结](https://juejin.im/post/5db6ad1ef265da4d5420864e)
@@ -323,6 +334,9 @@
 - [Vue vs 微信小程序](http://web.jobbole.com/95021/)
 - [React vs Angular vs Vue.js](https://developer.51cto.com/art/202001/609148.htm)
 - [VUE vs React](https://juejin.im/post/5e1c2ee6f265da3e395838b9)
+
+### babel
+- [一文看懂Babel](https://juejin.im/post/5e477139f265da574c566dda)
 
 ### webpack
 
@@ -365,6 +379,7 @@
 - [React必看性能优化总结](https://segmentfault.com/a/1190000018257360)
 - [React性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
 - [让你的React组件跑得再快一点](https://mp.weixin.qq.com/s/LG_1WXWFJQbuJuHiTqXzyw)
+- [React中获取数据的3种方法及它们的优缺点](https://segmentfault.com/a/1190000021773230)
 
 #### hooks
 
@@ -409,6 +424,7 @@
 - [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
+- [Git高级用法小抄](https://mp.weixin.qq.com/s/IElzbmcJUFue0NFWAz_soA)
 - [提高效率的10个Git小技巧](https://segmentfault.com/a/1190000020099456)
 - [vscode项目配置eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [提交git时自动格式化并通过ESlint检测prettier + husky + lint-staged + eslint](https://juejin.im/post/5d565ffdf265da03f12e55bb)
@@ -459,6 +475,7 @@
 
 ### Interview
 
+- [关于前端学习路线的一些建议（含面试自测题）](https://mp.weixin.qq.com/s/PHaNXEldr3NiQelFYnKwlg)
 - [前端面试基础问题梳理](https://blog.callmewhy.com/post/qian-duan-mian-shi-ji-chu-wen-ti-shu-li/)
 - [大前端冲刺大厂面试题集锦](https://mp.weixin.qq.com/s/qDWUTgiJhDeEUE7htxRgMw)
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)
@@ -507,6 +524,7 @@
 - [前端面试必问题答疑](https://segmentfault.com/a/1190000019079065)
 - [面试](https://juejin.im/post/5c7f5923f265da2dd218f195)
 - [经常会被问到的面试题](https://segmentfault.com/a/1190000020181662)
+- [html/css](https://juejin.im/post/5e43d800f265da575b1bafdc)
 
 ####  JS
 
