@@ -380,6 +380,7 @@
 - [React性能优化技巧总结](https://segmentfault.com/a/1190000018398978)
 - [让你的React组件跑得再快一点](https://mp.weixin.qq.com/s/LG_1WXWFJQbuJuHiTqXzyw)
 - [React中获取数据的3种方法及它们的优缺点](https://segmentfault.com/a/1190000021773230)
+- [全方位优化你的超大型React应用](https://mp.weixin.qq.com/s/hDVJkEvBvGFqytaaIpEOVQ)
 
 #### hooks
 
@@ -401,6 +402,7 @@
 - [五个大型项目实践总结，解密React Hooks最佳实践](https://segmentfault.com/a/1190000021133222)
 - [React Hooks 实现和由来以及解决的问题](https://segmentfault.com/a/1190000021601144)
 - [你不知道的 useRef](https://mp.weixin.qq.com/s/4kUXHGf9DS8KBJvp9qnlVQ)
+- [React Hooks不完全解读](https://segmentfault.com/a/1190000021793492)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)
@@ -424,6 +426,7 @@
 - [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
+- [如何撤销Git操作](http://www.ruanyifeng.com/blog/2019/12/git-undo.html)
 - [Git高级用法小抄](https://mp.weixin.qq.com/s/IElzbmcJUFue0NFWAz_soA)
 - [提高效率的10个Git小技巧](https://segmentfault.com/a/1190000020099456)
 - [vscode项目配置eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
@@ -534,6 +537,7 @@
 
 #### Vue
 
+- [Vue](https://juejin.im/post/5e4d24cce51d4526f76eb2ba)
 - [Vue高频基础面试题](https://segmentfault.com/a/1190000021731699)
 - [Vue面试经常会被问到的面试题](https://juejin.im/post/5dce0677e51d45083d30b7e7)
 - [30道Vue前端面试题](https://juejin.im/post/5daa6adbf265da5b576befc8)

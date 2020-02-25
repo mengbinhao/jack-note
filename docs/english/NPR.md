@@ -1,3 +1,37 @@
+- 2020.2.25
+  - fundamental n
+  - highflier n
+  - technocrat n
+  - household n
+  - hastiness n | haste n/v | hasty adj
+  - aloofness n
+  - scapegoat n
+  - groundwork n
+  - slump n/vi
+  - notwithstanding prep
+  - numerous adj
+  - steep n/v/adj
+  - delighted adj | delight n/v
+  - hammer n/v
+  - partial adj
+  - magnate n
+  - casino n
+
+  > I'm talking about 50%-plus increase from all-time high
+  > I'm leaving them on because otherwise, we have no cards to negotiate with
+  > I think it is good to look at a sort of the sequence of envents
+  > It kind of shows there has been some hastiness and there's an element of surprise in this
+
+- 2020.2.24
+  - summon vt
+  - associate n/v/adj | association n
+  - staffer n
+  - crux n
+  - wrangle n/vi
+
+  > I explained my reasoning for my choice this way
+  > and, of course, that's what this impeachment process has all been about
+
 - 2020.2.21
   - precaution n
   - Indonesia n
@@ -157,7 +191,6 @@
   - dismember vt
 
 - 2020.1.10
-  - indicate vt
   - submission n
   - doorstep n
   - intercontinental adj
@@ -276,7 +309,6 @@
 - 2019.12.25
   - compensation n
   - unenviable adj
-  - haste n/v
   - retrieve v
   - eruption n | erupted v
   - servere adj
@@ -469,7 +501,7 @@
 
 - 2019.12.11
   - silicon n
-  - grave n/adj
+  - grave n/adj | gravely adv
   - endgame n
   - flip n/v/adj
   - miraculous adj | miracal n
@@ -1155,7 +1187,7 @@
   - hardship n
   - balloon n/
   - gimmick n
-  - unrealistic adj
+  - unrealistic adj | realistic adj
 
   > xxx that we can no longer afford
   > we are clearly on the wrong path
@@ -1197,7 +1229,7 @@
 
 - 2019.9.26
   - hostage n
-  - indicator n | indication n
+  - indicate vt | indicator n | indication n
   - reduced adj | reduce v
   - revolving adj
   - lecture n/v
@@ -1365,7 +1397,6 @@
 
 - 2019.9.15
   - strengthen v
-  - bargaining n
   - applaud v
   - fragmented adj
   - leverage n/vt
@@ -1723,7 +1754,7 @@
 
 - 2019.8.15
   - arctic n/adj
-  - sketchy adj
+  - sketchy adj | sketch n/v
   - contamination n | contaminated adj
   - contradictory adj | contradict v
   - terse adj
@@ -1759,7 +1790,7 @@
   - minor n/adj
   - disturbing adj
   - prosecutor n | prosecute v | prosecution n | inspector n
-  - emphasize vt
+  - emphasize vt | emphasis n
   - redact v
 
   > in a clear reference to xxx
