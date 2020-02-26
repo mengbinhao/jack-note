@@ -1,5 +1,12 @@
+- 2020.2.26
+  - renovate vt
+  - celebrity n
+  - carve v
+  - monarchy n
+  - highness n
+
 - 2020.2.25
-  - fundamental n
+  - fundamental n | fund n/vt
   - highflier n
   - technocrat n
   - household n
@@ -59,7 +66,7 @@
   - independent | independence
   - duke n
   - observe | observer
-  - royal adj
+  - royal adj | royalty n
   - avid adj
 
   > It knocked Iran off the frond page
@@ -239,7 +246,6 @@
 - 2020.1.4
   - overturn n/v
   - purse n
-  - fund n/vt
 
   > they're based on this that they reached back in July
   > if u had more research, may be would find more solutions that would be more politically acceptable to more people
@@ -1594,7 +1600,7 @@
   - offensive n/adj
   - retract vt
   - climate n
-  - occasion n/vt
+  - occasion n/vt | occasional adj
   - shrug n/vt
   - stretch n/v
   - incidentally adv
@@ -1839,7 +1845,7 @@
   - arsenal n
 
 - 2019.8.7
-  - anonymous adj
+  - anonymous adj | anonymously adv
   - heir n
   - murky adj
   - propaganda n

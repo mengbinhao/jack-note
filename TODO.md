@@ -225,6 +225,7 @@
 - [Vue实现一个全屏加载插件](https://juejin.im/post/5e3307145188252c30002fa7)
 - [vue and vuex source](https://segmentfault.com/a/1190000021717329)
 - [使用混合Mixins和插件开发](https://segmentfault.com/a/1190000021679760)
+- [耽误你的十分钟，让MVVM原理还给你](https://mp.weixin.qq.com/s/-ShpY9fSXjsqrHOuv7a7ng)
 
 #### project related
 
