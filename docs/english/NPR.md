@@ -1,3 +1,71 @@
+- 2020.3.3
+  - significant adj
+  - catastrophe n
+  - consolidate v
+  - ruin n/vt
+  - sneak n/v/adj
+  - righteous adj
+  - ovation n
+  - heady adj
+
+  > tgus visit to Washington was in the works for couple of weeks
+  > It was meant to be a dramatic show of support from him
+  > in one of the rare moments of bipartisanship
+  > humanitarian crisis
+  > Where do things stand right now in the grand scheme of things?
+
+- 2020.3.2
+  - stick n/v
+  - wistful n/adj/adv | wistfulness n
+  - rotten adj
+  - phony n/adj
+  - reconciliation n
+  - rebuttal n
+  - horrible adj
+  - vicious adj
+  - sharp adj
+  - weird adj
+  - riff n
+  - teleprompter n
+  - unscripted adj
+  - purposely adv
+  - slim adj
+  - suburb n
+  - present n/v/adj | represent vt | representative n/adj
+  - clap n/v
+  - bitterly adj
+  - stunt n/v
+
+  > I was not elected to do small things and shy away from big problems
+  > There is a sense that this is not even worth anybody's time
+  > When u dig deepper, you see that what they're talking about is just a piece of land
+  > I don't like people who use their faith as justification for doing what they know is wrong
+
+- 2020.2.28
+  - era n
+  - infuse v
+  - chaotic adj | chaos n
+  - intersect v
+  - secede v
+  - horizon n
+  - cape n
+  - pour v
+
+- 2020.2.27
+  - nephew n | niece n
+  - distribute vt
+  - agressive adj | agressiveness n
+  - agility n | agile adj
+  - league n | legend n
+  - jersey n
+  - tribute n
+  - personality n
+  - chafe n/v
+  - kin n
+  - coroner n
+  - span n/v
+
+  > There was a lot ahead of him and makes it doubly tragic that he's gone at 41
 - 2020.2.26
   - renovate vt
   - celebrity n
@@ -82,7 +150,7 @@
   - furious adj
   - assassination n
   - irresponsible n/adj/adv
-  - dishonor n
+  - honor n/vt | dishonor n/vt
   - dissent n/vi
   - cruise n/v
   - televise v
@@ -185,7 +253,7 @@
   > it's not clear at all that will lead to any changes
 
 - 2020.1.13
-  - slam n/v | whip v/adj
+  - slam n/v | whip v/adj | smash n/v
   - normalcy n
   - excerpt n/vt
   - archipelago n
@@ -379,7 +447,7 @@
 
 - 2019.12.19
   - enlist v
-  - justify vt
+  - justify vt | justification n
   - recommendation n
   - debunk vt
   - respective adj
@@ -938,11 +1006,10 @@
   - commute n/vi
   - airline n
   - anticipate v | anticipation n
-  - acquit vt
+  - acquit vt | acquittal n
   - grassroots n
   - arrest n/vt
   - bail n/v
-  - self-imposed adj
   - verdict n
   - dialogue n/v
   - minority n | majority n
@@ -1028,7 +1095,6 @@
   - condemnation n | condemn vt
   - approve v | disapprove v
   - outcry n
-  - defiant adj
   - displaced adj
   - strident adj
   - volatile adj
@@ -1142,7 +1208,6 @@
   - proportionate adj | dis-proportionate
   - artificial adj
   - multilateral adj
-  - represent vt
   - harassment n | harash v
   - proceeding n | proceed vi
   - thereafter adv
@@ -1255,7 +1320,7 @@
   > I have the final say on xxxx
 
 - 2019.9.25
-  - urgent adj
+  - urgent adj | urge n/v
   - spur n/vt
   - extraordinary adj| ordinary adj
   - plastic n/adj
@@ -1405,7 +1470,7 @@
   - strengthen v
   - applaud v
   - fragmented adj
-  - leverage n/vt
+  - leverage n/vt | lever n/vt
   - prompt adj/vt | promptly adv
 
   > and so forth
@@ -1534,7 +1599,6 @@
   - intercept vt
   - interpret v | interpreter n | interpretation n
   - articulate vt/adj
-  - urge | urging n
 
   > seconds matter
   > we have never suceeded in doing that
@@ -1588,7 +1652,6 @@
 
 - 2019.9.4
   - appear vi | appearance n
-  - justification n
   - territory n | terror n
   - imminent adj
   - militant adj
@@ -1704,7 +1767,6 @@
   - investor n
   - retire v
   - drama n | dramatic adj | dramatically adv
-  - representative n/adj
   - scuttle n/v
   - backlash n
   - grovelling adj
@@ -1865,7 +1927,7 @@
 - 2019.8.1
   - garlic n
   - choke v
-  - tragedy n
+  - tragedy n ｜ comedy n | tragic adj
   - engage v | engaged adj
   - residence n
   - lax adj
@@ -1986,7 +2048,7 @@
   - mandated adj | mandate n/vt
   - sector n
   - certify vt
-  - impose v
+  - impose v | self-imposed adj
   - derail v
   - finality n
   - unauthorized adj
@@ -2259,7 +2321,7 @@
   - polarize v
   - exile n/vt
   - subdued adj
-  - funeral n
+  - funeral n | funereal adj
 
   > So there's been a wide range
 

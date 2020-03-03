@@ -184,18 +184,24 @@ Array.prototype.mySome = function(fn, thisArg) {
 	return false
 }
 
-Array.prototype.myReduce = function(fn, initialValue) {
+Array.prototype.simulateReduce = function(fn, initialValue) {
+	if (typeof fn !== 'function') {
+		throw new TypeError(fn + ' is not a function')
+	}
+
 	let hasInitialValue = initialValue !== undefined,
 		value = hasInitialValue ? initialValue : this[0]
+
 	for (let i = hasInitialValue ? 0 : 1; i < this.length; i++) {
 		if (i in this) {
 			value = fn(value, this[i], i, this)
 		}
 	}
+
 	return value
 }
 
-Array.prototype.myReduce2 = (f, acc, arr) => {
+Array.prototype.simulateReduce2 = (f, acc, arr) => {
 	if (arr.length === 0) return acc
 	const [head, ...tail] = arr
 	return reduce(f, f(head, acc), tail)
@@ -538,37 +544,46 @@ const fibClosure = (function() {
  * 4. 返回新对象
  * 优先级 new > call,apply,bind > 显示 > 隐式
  */
-Function.prototype.simulateNew = function(constructor) {
-	if (typeof constructor !== 'function') {
-		throw new Error('the first param must be a function')
-	}
-	//same as let obj = {}, obj__proto__ == constructor.prototype
-	let obj = Object.create(constructor.prototype)
-	let result = constructor.apply(obj, Array.prototype.slice.call(arguments, 1))
+function simulateNew() {
+	let Constructor = Array.prototype.shift.call(arguments)
+	//same as let obj = {}, obj.__proto__ == constructor.prototype
+	let obj = Object.create(Constructor.prototype)
+	let result = Constructor.apply(obj, arguments)
 	//in case constructor return a simple type
-	return (typeof result === 'object' && result !== null) ||
+	return (typeof result !== null && result === 'object') ||
 		typeof result === 'function'
 		? result
 		: obj
 }
 
+//无返回值
+// var testNewFun = function(name) {
+// 	this.name = name
+// }
+//又返回值
+// var testNewFun2 = function(name) {
+//   this.name = name;
+//   return {};
+// };
+// var newObj = simulateNew(testNewFun, 'foo')
+// console.log(newObj)
+// console.log(newObj instanceof testNewFun)
+
 Function.prototype.simulateCall = function(context = window) {
-	if (typeof this !== 'function') throw new Error('this must be a function')
-	// const key = Symbol()
-	// const[key] = this
-	// const args = [...arguments].slice(1)
-	// const result = context[key](args)
+	if (typeof this !== 'function') {
+		throw new TypeError('must be invoked by function')
+	}
 	context.fn = this
-	let args = [...arguments].slice(1)
-	let result = context.fn(...args)
+	const args = [...arguments].slice(1)
+	const ret = context.fn(...args)
 	delete context.fn
-	return result
+	return ret
 }
 
 Function.prototype.simulateApply = function(context = window) {
-	if (typeof this !== 'function') throw new Error('this must be a function')
-	// const key = Symbol()
-	// context[key] = this
+	if (typeof this !== 'function') {
+		throw new TypeError('must be invoked by function')
+	}
 	context.fn = this
 	let result
 	if (arguments[1]) {
@@ -585,7 +600,7 @@ Function.prototype.simulateApply = function(context = window) {
 // 3 可以传入参数
 // 4 柯里化
 Function.prototype.simulateBind = function(context) {
-	if (typeof this !== 'function') throw new Error('this must be a function')
+	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
 	let args = [...arguments].slice(1)
 	return function() {
@@ -594,7 +609,7 @@ Function.prototype.simulateBind = function(context) {
 }
 
 Function.prototype.simulateBindAdvance = function(context = window) {
-	if (typeof this !== 'function') throw new Error('this must be a function')
+	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
 	let args = [...arguments].slice(1)
 
@@ -613,6 +628,18 @@ Function.prototype.simulateBindAdvance = function(context = window) {
 	// fBound.prototype = new F()
 	return fBound
 }
+
+// const bar = function() {
+// 	console.log(this.name, arguments)
+// }
+// bar.prototype.name = 'bar'
+// const foo = {
+// 	name: 'foo'
+// }
+
+const bound = bar.mybind(foo, 22, 33, 44)
+new bound() // bar, [22, 33, 44]
+bound() // foo, [22, 33, 44]
 
 //将传入的对象作为原型
 Function.prototype.simulateCreate = function(obj) {

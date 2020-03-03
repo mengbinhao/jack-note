@@ -216,3 +216,29 @@ HTTP响应也由四个部分组成，分别是：状态行、消息报头、空�
 - DOM获取不到的时候
 - Object.prototype.__proto__
 - 正则捕获未捕获到的时候
+
+###  implement  curry
+```javascript
+// add(1)(2)(3) = 6
+// add(1, 2, 3)(4) = 10;
+// add(1)(2)(3)(4)(5) = 15
+function add(){
+  const argsList = [...arguments]
+
+  const fn = function(){
+    argsList.push(...arguments)
+    return fn
+  }
+
+  //rewrite Function.prototype.toString
+  fn.toString = function(){
+    return argsList.reduce((a, b) => a + b)
+  }
+
+  return fn
+}
+
+console.log(add(1, 2)(3)(4, 5, 6))
+```
+
+

@@ -102,6 +102,7 @@
 - [还分不清Cookie、Session、Token、JWT](https://mp.weixin.qq.com/s/sF96Vgcp9FU--oeRlh4IdA)
 - [浏览器的工作原理](https://mp.weixin.qq.com/s/gcKSR-Z7sm6WCZXTjtw8tA)
 - [快速开发一个Antd级别的组件库](https://mp.weixin.qq.com/s/nuwSW8cAv0izEk4GIofI7w)
+- [熟悉面试中常见的的web安全问题](https://mp.weixin.qq.com/s/VSB4FnbEmH9yZ84pgRnaBw)
 
 ### JS
 
@@ -167,6 +168,7 @@
 - [JavaScript中的类型检查](https://mp.weixin.qq.com/s/2J6IK7NAUR3ctNnsL5UN3A)
 - [ES6之Proxy巧用](https://mp.weixin.qq.com/s/VtdL7x7Lisy0YR65ghEVEQ)
 - [您可能不知道的原生JavaScript方法](https://juejin.im/post/5e4bc03cf265da572446685a)
+- [小cookie，大智慧](https://mp.weixin.qq.com/s/JmUKw5P91AlJtHEPex2Pgg)
 
 ### mobile
 
@@ -266,6 +268,7 @@
 - [实现Vue项目主题切换](https://juejin.im/post/5dee0610518825126d5a2255)
 - [代码规范化之Vue篇](https://juejin.im/post/5e2d3af65188254e1d4398fa)
 - [vue中利用iscroll.js解决pc端滚动问题](https://juejin.im/post/5e4506dc51882549417fbdd5)
+- [vue必须掌握之组件通信（7种方法）](https://www.maiyewang.com/archives/80712)
 
 #### component related
 
@@ -288,6 +291,8 @@
 - [tree-componet](https://github.com/cxuhwiuefhuefu/tree-componet)
 - [table component](https://juejin.im/post/5e218ce75188254dc74a4285)
 - [强化表单的9个Vue输入库](https://juejin.im/post/5e2e94a26fb9a02fe81861c0)
+- [vue-cli3 webpack简单性能优化](https://juejin.im/post/5e54c9d06fb9a07cd614d2a0)
+
 
 #### Vue-router
 
@@ -362,6 +367,7 @@
 - [react-cloud-music](https://github.com/sanyuan0704/react-cloud-music)
 - [react-cloud-music-doc](https://sanyuan0704.github.io/react-cloud-music/chapter1/)
 - [如何用120行代码，实现一个交互完整的拖拽上传组件？](https://mp.weixin.qq.com/s/cPW8Sr2pShJumnCtXsk-ww)
+- [在React中缩放、裁剪和缩放图像](https://segmentfault.com/a/1190000021836091)
 
 #### basic
 - [React学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
@@ -404,6 +410,7 @@
 - [React Hooks 实现和由来以及解决的问题](https://segmentfault.com/a/1190000021601144)
 - [你不知道的 useRef](https://mp.weixin.qq.com/s/4kUXHGf9DS8KBJvp9qnlVQ)
 - [React Hooks不完全解读](https://segmentfault.com/a/1190000021793492)
+- [十个案例学会React Hooks](https://mp.weixin.qq.com/s/3pW0KxnOV-5HSdZhFNqQQA)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)
@@ -457,6 +464,7 @@
 
 - [30个超实用Python代码片段](https://mp.weixin.qq.com/s/aVK_vGKt0DISRnfkCHbiMA)
 - [10个python技巧](https://mp.weixin.qq.com/s/GpRK-bpmGcJmBGfogamv9g)
+- [python实用技巧](https://segmentfault.com/a/1190000021864081)
 
 ### DB
 
@@ -479,6 +487,7 @@
 
 ### Interview
 
+- [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)
 - [关于前端学习路线的一些建议（含面试自测题）](https://mp.weixin.qq.com/s/PHaNXEldr3NiQelFYnKwlg)
 - [前端面试基础问题梳理](https://blog.callmewhy.com/post/qian-duan-mian-shi-ji-chu-wen-ti-shu-li/)
 - [大前端冲刺大厂面试题集锦](https://mp.weixin.qq.com/s/qDWUTgiJhDeEUE7htxRgMw)

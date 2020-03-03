@@ -65,6 +65,12 @@ HTTP请求的报文一般是由 协议行、可选的请求头部、请求体组
 - 握手成功后建立TCP通道，发起HTTP请求
 - 服务器响应HTTP请求，返回对应的响应报文
 - 客户端开始解析渲染
+  - 解析html文件，生成dom树
+  - 解析css文件，生成style树
+  - 结合dom树和style树，生成render tree
+  - layout布局渲染
+  - GPU像素绘制页面
+
 ##### 4 状态码
 
 ###### basic
