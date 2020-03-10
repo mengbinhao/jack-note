@@ -1,3 +1,84 @@
+- 2020.3.10
+  - bestow vt
+  - miscarriage n
+  - juror n
+  - foundation n
+  - tamper v
+
+  > The courtroom itself was packed
+  > She spoke for nearly an hour and went point by point through how she came to her decision
+
+- 2020.3.9
+  - politicization n
+  - unfounded adj
+  - mishandle vt
+  - rein n/v
+  - pinpoint n/vi/adj
+  - appreciate v
+
+  > This tension has been in the works
+  > X said that was not on account of the president tweeting
+  > that's why people are paying such close attention to all of this. Those are the stakes going forward on this.
+
+- 2020.3.6
+  - apparatus n
+  - wobbly adj
+  - entice vt
+  - bakery n
+  - seal n/v
+  - validity n | valid adj
+  - warlord n
+  - notorious adj
+  - parallel n/vt/adj
+  - incumbent adj
+  - intra n/prep
+  - drawdown n
+  - tentative adj
+  - footprint n
+  - chatter n/v
+  - eventual adj
+
+  > xxx will be based on kind of conditions on the ground
+  > Security forces had deployed in really think number across the city
+  > so there's still a lot of tricky times ahead
+
+- 2020.3.5
+  - naval n
+  - centric adj
+  - suspect n
+  - chronic adj
+  - culmination n
+  - soil n
+  - elude vt
+  - genocide n
+  - thorny adj
+  - clarify v | clarification n
+
+  > I am going to carry it out to u because I have no chice
+  > I was walking a fine line
+  > we can't achieve justice, without justice itself
+
+- 2020.3.4
+  - nativist n | native adj
+  - struggle n/v
+  - imperialist n
+  - populist n | populism n
+  - popularity n
+  - reunification | unify vt
+  - swap n/v
+  - percentage n
+  - entity n
+  - contender n
+  - usual adj
+  - pillar n/v
+  - fractious adj
+  - delicate adj
+  - chancellery n
+  - emotion n | motion n/v
+
+  > What should we make of this?
+  > How is that all playing together and is reunification back on the table seriously now?
+
 - 2020.3.3
   - significant adj
   - catastrophe n
@@ -302,6 +383,7 @@
 - 2020.1.6
   - bravo n
   - taunt n/vt
+  - terminate v
   - indeterminate adj
   - slapdash adj
   - sloppy adj
@@ -466,7 +548,7 @@
 
 - 2019.12.18
   - exclusive adj | exclusion n
-  - stuffing n
+  - stuffing n | stuff n/v
   - imprison vt
   - transpire v
   - groundless adj
@@ -740,7 +822,7 @@
   - stark adj
   - agonize v
   - meddling n/v
-  - bluntly adj
+  - bluntly adj | blunt adj/vt
 
   > to put bluntly
   > Why didn't that ever come to pass?
@@ -918,6 +1000,7 @@
   - stall n/v
   - ethic n
   - deliberation n | deliberately adv | deliberate v/adj
+  - liberator n | liberation n | laberate vt
   - prevail vi
   - vast adj
   - clip n/vt
@@ -937,7 +1020,6 @@
   - vice versa adv
   - forgiving adj | forgive
   - loom vi
-  - populism n
 
   > It's pretty incredible to watch
   > in a lot of ways
@@ -1059,7 +1141,7 @@
 
 - 2019.10.16
   - agricultural adj
-  - anxious adj
+  - anxious adj | anxiously
   - piecemeal adj
   - devil n
   - outstanding adj
@@ -1069,7 +1151,7 @@
   - state-owned adj
   - blacklist n/vt
   - backtrack vi
-  - positive n/adj ｜ negative n/adj/vt
+  - positive n/adj ｜ negative n/adj/ | negatively
   - somewhat adv
 
   > That's been another major sticking point here
@@ -1173,7 +1255,7 @@
   - notion n
   - reference n/vt
   - mention n/vt
-  - civics n
+  - civics n | civic adj
   - plead v | pleading n/adj
   - oath n
   - chatty adj
@@ -1225,7 +1307,7 @@
 - 2019.10.8
   - perspective n
   - claimant n
-  - frustrate vt/adj | frustration n
+  - frustrate vt | frustration n | frustrated adj
   - pleased adj
   - thrilled adj
   - disdain n/vt
@@ -1366,7 +1448,7 @@
   - offset vt
   - precisely adv | precise adj
   - nonetheless adv
-  - broadly adj
+  - broadly adj | broad
   - foreca
 
   > the US economy still has a lot going for it
@@ -1433,7 +1515,6 @@
   - surival n
   - narrowly adv
   - alternative n/adj
-  - popularity n
   - resentment n
   - poke n/v
   - energize vt
@@ -1478,7 +1559,6 @@
   > we don't have a sense of the way ahead at this point
 
 - 2019.9.14
-  - liberator n
   - ruthless adj
   - autocrat n
   - palatial adj
@@ -1707,7 +1787,6 @@
   - demonstration n | demonstrate v
   - interfere vi | interference n | intervene vi | intervention n
   - contrary n/adj/adv
-  - preserve n/vt
   - criminality n | crime n
   - exaggerated adj
   - culprit n
@@ -1732,14 +1811,13 @@
   - seamless adj
   - genuine adj
   - dissident n/adj
-  - unified adj
   - worse-case
   - scenario n
 
   > xxxxx, but more importantly, xxxxx
 
 - 2019.8.21
-  - guaranteed adj
+  - guaranteed adj | guarantee n/vt
   - illistrate vt
   - insurgent n/adj
   - presumably adj
@@ -1872,7 +1950,7 @@
   - colonial adj | colony n | colonialism n | colonize vt
   - spiral n/vi/adj
   - alliance n
-  - disintegrate v | disintegrating
+  - disintegrate v | disintegrating | integrate v
   - division n
   - retaliation n | revenge n/v
   - mend v
@@ -1970,7 +2048,6 @@
 
 - 2019.7.26
   - conservative n/adj | conservation n | conservatism n
-  - unifying adj
   - dire adj
   - daunting/daunted adj
   - can-do
@@ -2078,7 +2155,7 @@
   - conduct n/v | misconduct n
   - conrrary n/adj/adv
   - high-profile adj
-  - reserve n/v/adj
+  - reserve n/v | preserve n/vt
   - constraint n | constrain v | constrained adj
   - restriction n
 
@@ -2119,7 +2196,6 @@
   - substance n
   - dyfunctional adj
   - clumsy adj
-  - blunt adj/vt
   - outgoing adj
   - uninformed adj
   - candid adj
@@ -2186,7 +2262,7 @@
   - standoff n
   - elsewhere adv
   - exemption n
-  - dominate v | dominant adj
+  - dominate v | dominant adj | dominance n
   - moderate adj/n/vt
 
   > take sides
@@ -2224,7 +2300,6 @@
 
 - 2019.7.5
   - federal adj/n
-  - reserve n/v
   - disappointment n
   - cite vt
   - inflation/deflation n
@@ -2301,7 +2376,7 @@
   > there's been a wide range
 
 - 2019.6.28
-  - depose | oust vt
+  - depose v | oust vt
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi

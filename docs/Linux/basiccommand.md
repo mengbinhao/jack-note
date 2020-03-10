@@ -4,12 +4,17 @@
 - init 0 //关机
 - clear
 - env
-- ctrl + c
-- ctrl + r //搜索执行过的命令
+- ctrl + c 终止
+- ctrl + u 清空至行首
+- ctrl + k 清空至行尾
+- ctrl + l/clear 清屏
+- ctrl + r 搜索执行过的命令
 - `type command`
 - `which command`
 - `tree xxx`  树状图列出目录的内容
-- `ssh userName@ip`  远程登录
+- `ssh <username>@<hostname or IP address>`  远程登录
+- `scp -P port -r /local/dir username@servername:/remote/dir` 上传文件夹到远程服务器
+- `scp -P port -r username@servername:/remote/dir/ /local/dir` 从远程服务器下载文件夹
 - `git`
 - `maven`
 
@@ -58,7 +63,7 @@
     - `usermod -d 目录名 用户名`
     - chage
 
-- `exit / logout` 注销(在运行级别3下有效)
+- `exit / logout / ctrl+d` 注销(在运行级别3下有效)
 
 - 切换用户
 
@@ -344,6 +349,22 @@
   - 监控中按k,再输入要结束的进程号
 
   ![](images/learn-18.png)
+
+- 进程放入后台
+
+  - <命令> & 把命令放入后台，并在后台执行
+  - <命令> 执行后按下 ctrl + z 快捷键，放在后台暂停
+  - 查看正在后台的工作，可以使用`jobs [-l] `命令，-l 是显示工作的 PID
+
+- 恢复到前台
+
+  - fg %工作号 将后台暂停的工作恢复到前台执行，这里的%可以省略，注意工作号和PID的区别
+  - bg %工作号 将后台暂停的工作恢复到后台执行，后台恢复执行的命令，是不能和前台有交互的，否则不能恢复到后台执行
+
+- 后台命令脱离登陆终端执行的方法
+  - 把需要后台执行的命令加入/etc/rc.local文件
+  - 使用系统定时任务，让系统在指定的时间执行某个后台命令
+  - nohup <命令> &
 
 ### 内存查看
 

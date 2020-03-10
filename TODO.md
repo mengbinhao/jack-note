@@ -169,6 +169,7 @@
 - [ES6之Proxy巧用](https://mp.weixin.qq.com/s/VtdL7x7Lisy0YR65ghEVEQ)
 - [您可能不知道的原生JavaScript方法](https://juejin.im/post/5e4bc03cf265da572446685a)
 - [小cookie，大智慧](https://mp.weixin.qq.com/s/JmUKw5P91AlJtHEPex2Pgg)
+- [24个ES6方法](https://segmentfault.com/a/1190000021884393)
 
 ### mobile
 
@@ -228,6 +229,8 @@
 - [vue and vuex source](https://segmentfault.com/a/1190000021717329)
 - [使用混合Mixins和插件开发](https://segmentfault.com/a/1190000021679760)
 - [耽误你的十分钟，让MVVM原理还给你](https://mp.weixin.qq.com/s/-ShpY9fSXjsqrHOuv7a7ng)
+- [Vue组件传参的八种方式总结](https://juejin.im/post/5e5deff4f265da573d61ad04)
+- [总结vue知识体系之实用技巧](https://juejin.im/post/5e5f0ef8518825490b6489a2)
 
 #### project related
 
@@ -487,6 +490,7 @@
 
 ### Interview
 
+- [关于前端学习路线的一些建议](https://mp.weixin.qq.com/s/8KPaJ77veo126OKCmvR8zg)
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)
 - [关于前端学习路线的一些建议（含面试自测题）](https://mp.weixin.qq.com/s/PHaNXEldr3NiQelFYnKwlg)
 - [前端面试基础问题梳理](https://blog.callmewhy.com/post/qian-duan-mian-shi-ji-chu-wen-ti-shu-li/)

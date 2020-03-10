@@ -327,8 +327,15 @@ newObj.b.c = -1 // output: GET...
 
     1.  `import`
         ```javascript
+        //CommonJs模块输出的是一个值的拷贝，ES6模块输出的是值的只读引用
+        //CommonJs模块是运行时加载，ES6模块是编译时输出接口
         //相对/绝对路径
+        //输入的变量都是只读的,当然可以给对象添加属性,但是最好不要这样做
+        //具有提升效果
+        //静态分析，不能使用表达式和变量
+        //Singleton模式
         //只会导入一次 无论引入多少次
+
         //相当于引入文件
         import "https://code.jquery.com/jquery-3.3.1.min.js"
 
@@ -363,12 +370,32 @@ newObj.b.c = -1 // output: GET...
 
         // 上面这句实际等同于
         const lodash = await import('lodash')
+
+
+        //export和import复合写法
+        export { foo, bar } from 'my_module'
+
+        //可以简单理解为
+        import { foo, bar } from 'my_module'
+        export { foo, bar }
+
+        export { es6 as default } from './someModule'
+
+        // 等同于
+        import { es6 } from './someModule'
+        export default es6
         ```
     2.  `export`
         ```javascript
+        // export 1  error
+        // const m = 1; export m;  error
         //Named exports
         //also var const
+        export const m = 1
         export let num1 = 1, num2 = 2
+        const m = 1
+        export {m}
+        export {m as mm};
         //include function(含async、generator)
         export function funName(){}
         export () => {}
@@ -382,6 +409,7 @@ newObj.b.c = -1 // output: GET...
 
         //export default
         //default exports
+        //export default const a = 1  error
         export default expression
         export default function (…) { … } // also class, function*
         export default function name1(…) { … } // also class, function*
