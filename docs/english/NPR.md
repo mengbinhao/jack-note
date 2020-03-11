@@ -1,12 +1,49 @@
+- 2020.3.11
+  - rap n/v
+  - tarnish n/v | mar vt
+  - benevolent adj
+  - martial adj
+  - garbage n
+  - decorate v
+  - stagnation n | stagnate vi
+  - edifice n
+  - brick n
+  - ministry n | minister n
+  - sway n/v
+  - usher n/vt
+  - commemorate vt
+  - stern adj
+  - intimidate vt
+
+  > controversial measure
+
 - 2020.3.10
   - bestow vt
   - miscarriage n
   - juror n
   - foundation n
   - tamper v
+  - crouch vi
+  - shoulder v
+  - underneath prep
+  - tongue n
+  - throughout prep
+  - poison n/v/adj
+  - society n
+  - dignity n
+  - differentiate v
+  - heritage n
+  - stringent adj
+  - detection n | detect vt
+  - manifesto n
+  - absurd adj
+  - evident adj
+  - belief n
+  - accomplice n
 
   > The courtroom itself was packed
   > She spoke for nearly an hour and went point by point through how she came to her decision
+  > xxx has risen by a third in the past year alone
 
 - 2020.3.9
   - politicization n
@@ -134,7 +171,7 @@
 
 - 2020.2.27
   - nephew n | niece n
-  - distribute vt
+  - distribute vt | distribution n
   - agressive adj | agressiveness n
   - agility n | agile adj
   - league n | legend n
@@ -1075,7 +1112,7 @@
   - pertain vi
   - slip n/v
   - ratify vt
-  - amid prep
+  - amid prep | amidst prep
   - melancholy n/adj
   - inevitability n
   - alienated adj | alienate vt
@@ -1375,7 +1412,7 @@
   - imply vt | implied adj | implication n
   - explicit adj
   - merely adv | mere adj
-  - confess v
+  - confess v | confessing n
 
   > Now, all of this, we should explain the background
   > My generation
@@ -1932,7 +1969,7 @@
   - inquiry n
   - appalled adj
   - allegation n | alleged adj | allegedly adv | allege vt
-  - abuse n/vt
+  - abuse n/vt | abusive adj
   - minor n/adj
   - disturbing adj
   - prosecutor n | prosecute v | prosecution n | inspector n
@@ -1998,7 +2035,6 @@
   - owe vt
   - allegiance n
   - recognition n
-  - bricker n/v
 
   > it turned out
 
@@ -2010,7 +2046,6 @@
   - residence n
   - lax adj
   - spree n
-  - mar vt
   - witness n/vt
   - conflicting adj | conflict n/vi
   - ideology n
