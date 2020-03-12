@@ -1,3 +1,32 @@
+- 2020.3.12
+  - terrific adj
+  - assemble v
+  - undervalue vt
+  - banquet n
+  - lavish adj
+  - elusive adj
+  - pomp n
+  - cremation n
+  - petal n
+  - sprinkle n/v
+  - ceremony n
+  - escort n/vt
+  - stadium n
+  - mega adj
+  - erase v
+  - refute v
+  - disavow vt
+  - attorney n
+  - twist n/v
+  - revoke vt
+  - asylum n
+  - expose vt
+  - extradition n | extradite vt
+
+  > up to a point
+  > I said it might happend by the end of the year if at all
+  > wall-to-wall people
+
 - 2020.3.11
   - rap n/v
   - tarnish n/v | mar vt
@@ -804,7 +833,6 @@
   - contrast n/v
   - avenue n | venue n
   - assure vt | reassure
-  - extradite vt
 
   > hang in
   > by any means
@@ -2464,7 +2492,7 @@
   - resolutely adj
   - predecessor n
   - poduim n
-  - embarrassing adj
+  - embarrassing adj ｜ embarrass v
   - corps n
   - countless n
   - sentiment n
