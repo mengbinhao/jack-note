@@ -318,6 +318,7 @@
 - [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
 - [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
 - [Vuex基本使用的总结](https://www.maiyewang.com/2019/11/26/vuex%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E7%9A%84%E6%80%BB%E7%BB%93-%E8%BD%AC%E8%BD%BD/)
+- [Vuex操作实录](https://juejin.im/post/5e685a3b51882549422eeb99)
 
 #### Vue-cli
 
@@ -393,6 +394,7 @@
 - [让你的React组件跑得再快一点](https://mp.weixin.qq.com/s/LG_1WXWFJQbuJuHiTqXzyw)
 - [React中获取数据的3种方法及它们的优缺点](https://segmentfault.com/a/1190000021773230)
 - [全方位优化你的超大型React应用](https://mp.weixin.qq.com/s/hDVJkEvBvGFqytaaIpEOVQ)
+- [8个问题带你进阶React](https://mp.weixin.qq.com/s/9xWS-rMgMFIDjly9vB70Yw)
 
 #### hooks
 
@@ -528,6 +530,8 @@
 - [前端开发中79条不可忽视的知识点](https://juejin.im/post/5d8989296fb9a06b1f147070)
 - [面试中知道开头不知道结尾的web知识点](https://juejin.im/post/5db7b17ae51d4529ef3eedcd)
 - [系统出现高CPU的原因是什么](https://mp.weixin.qq.com/s/jsDyDJK0rgFZx7MW6NgRhw)
+- [面试题及日常小结](https://juejin.im/post/5e689b1ef265da5740643400)
+- [70个JavaScript面试题集锦，自测JS掌握程度](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484143&idx=1&sn=15b57744182bf4fef5ba9e3b283534b3)
 
 #### css&html
 
@@ -592,6 +596,7 @@
 - [需要掌握的21个React性能优化技巧](https://mp.weixin.qq.com/s/iZqV6GAi5zyX5P48hR4VLA)
 - [react知识点整理50问](https://segmentfault.com/a/1190000020055666)
 - [50个React面试问题](https://mp.weixin.qq.com/s/3ZcH3hvmoXfQIgRWnFfNBQ)
+- [35道React面试题](https://segmentfault.com/a/1190000021976046)
 
 #### compare
 

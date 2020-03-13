@@ -1,3 +1,14 @@
+- 2020.3.13
+  - entertain v | entertainment
+  - ironic adj
+  - communal adj
+  - marginalize vt
+  - atmosphere n
+  - enshrine vt
+  - tacit adj
+
+  > Indis's capital is experiencing the worst religious violence it has seen in decades
+
 - 2020.3.12
   - terrific adj
   - assemble v
@@ -736,7 +747,7 @@
   - hoax n/vt
   - obsolete n/vt/adj
   - designate vt
-  - discriminate v
+  - discriminate v | discrimination n | discriminatory adj
   - awkward adj
   - defection n | defect n/vi
   - coordinate vt | coordination n
@@ -1321,10 +1332,9 @@
   - reference n/vt
   - mention n/vt
   - civics n | civic adj
-  - plead v | pleading n/adj
+  - plea | plead v | pleading n/adj
   - oath n
   - chatty adj
-  - commit
 
   > a lot to follow, and the story changing by minute
   > the story is moving so quickly
@@ -1424,7 +1434,7 @@
   - embroiled adj
   - mystery n/adj
   - contractor n
-  - confrontation n | confront vt
+  - confront vt | confrontation n
   - exten
 
   > at this point, it does seem there'd be more talking than actually shooting
@@ -1602,7 +1612,6 @@
   - lame adj
   - thorn n
   - disorder n/vt
-  - entertaining n/adj
   - convention n
 
   > he said no can do
@@ -1957,7 +1966,7 @@
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj
   - combat n/vt
-  - constitutional adj
+  - constitutional adj | unconstitutional
   - constituent n
   - shortsighted adj
   - impunity adj
@@ -2136,7 +2145,6 @@
   - roughly adv | rough adj
   - essential n/adj | essence n | essentially adv
   - prescription n
-  - discrimination n
   - repeal vt/n
   - affordable adj | afford vt
 
@@ -2456,7 +2464,7 @@
   - defendant n | defend v | defensive adj
   - Turkish adj/n
   - mistreat vt
-  - polarize v
+  - polarize v | polarization n
   - exile n/vt
   - subdued adj
   - funeral n | funereal adj
