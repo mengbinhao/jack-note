@@ -1,3 +1,13 @@
+- 2020.3.16
+  - gamble n
+  - implicit adj
+  - combative adj
+
+  > it is not at all clear where things go from here
+  > let's start with where things stand at the moment
+  > in order to leave sort of room for compromise
+  > this makes it just about the worst page in a terrible book
+
 - 2020.3.13
   - entertain v | entertainment
   - ironic adj
@@ -674,7 +684,7 @@
   - illusion n
   - mystic n/adj
   - philosopher n
-  - hogwash n | nonsense n
+  - hogwash n | nonsense n | sense n/v
   - baffle vt
   - dimension n
   - oblivious adj
@@ -1154,7 +1164,7 @@
   - amid prep | amidst prep
   - melancholy n/adj
   - inevitability n
-  - alienated adj | alienate vt
+  - alienate vt | alienated adj
   - showdown n
 
 - 2019.10.18
@@ -1253,7 +1263,7 @@
   - condemnation n | condemn vt
   - approve v | disapprove v
   - outcry n
-  - displaced adj
+  - displace vt | displaced adj
   - strident adj
   - volatile adj
 

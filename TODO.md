@@ -171,6 +171,7 @@
 - [您可能不知道的原生JavaScript方法](https://juejin.im/post/5e4bc03cf265da572446685a)
 - [小cookie，大智慧](https://mp.weixin.qq.com/s/JmUKw5P91AlJtHEPex2Pgg)
 - [24个ES6方法](https://segmentfault.com/a/1190000021884393)
+- [JS中时间格式化的三种方法](https://juejin.im/post/5e69a298e51d45271d5d4d82)
 
 ### mobile
 
@@ -395,6 +396,8 @@
 - [React中获取数据的3种方法及它们的优缺点](https://segmentfault.com/a/1190000021773230)
 - [全方位优化你的超大型React应用](https://mp.weixin.qq.com/s/hDVJkEvBvGFqytaaIpEOVQ)
 - [8个问题带你进阶React](https://mp.weixin.qq.com/s/9xWS-rMgMFIDjly9vB70Yw)
+- [从零实现一个简单版React](https://mp.weixin.qq.com/s/0pDJXrLQJ-CF_tLltQuM3g)
+- [React Hooks 响应式布局](https://mp.weixin.qq.com/s/T4NjATvqySdXnAzTdtWoWA)
 
 #### hooks
 
