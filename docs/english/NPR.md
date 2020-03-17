@@ -1,3 +1,22 @@
+- 2020.3.17
+  - lure n/vt
+  - belly n/v
+  - excel v
+  - embolden vt
+  - caution v | precaution n
+  - abundance n
+  - quarantine n/vt
+  - parliamentary adj
+  - bumpy adj
+  - haven n/vt
+  - reconcile vt
+  - facilitate vt
+
+  > that's the name of the game
+  > tip the scales
+  > the really interesting wrinkle here is that this is a leader who has been indicted on charges of fraud and bribery
+  > a key thing to look at here is what happens in two weeks
+
 - 2020.3.16
   - gamble n
   - implicit adj
@@ -82,6 +101,7 @@
   - society n
   - dignity n
   - differentiate v
+  - differ v
   - heritage n
   - stringent adj
   - detection n | detect vt
@@ -138,7 +158,7 @@
   - soil n
   - elude vt
   - genocide n
-  - thorny adj
+  - thorny adj | thorn n
   - clarify v | clarification n
 
   > I am going to carry it out to u because I have no chice
@@ -276,7 +296,6 @@
   > and, of course, that's what this impeachment process has all been about
 
 - 2020.2.21
-  - precaution n
   - Indonesia n
   - mask n
   - pebble n
@@ -380,7 +399,7 @@
 - 2020.1.17
   - restraint n
   - comfortable adj
-  - distinction n | distinct adj
+  - distinction n | distinct adj | distinctive adj
   - stun vt
   - momentum n
   - tent n
@@ -1620,7 +1639,6 @@
   - loophole n
   - superme adj
   - lame adj
-  - thorn n
   - disorder n/vt
   - convention n
 
@@ -1675,7 +1693,6 @@
   - trick n | tricky adj
   - suspend v
   - wicked adj
-  - cautions adj
   - incredible adj
   - crafty adj
   - plus n/adj/conj
