@@ -68,6 +68,7 @@
 - [我写CSS的常用套路(附demo的效果实现与源码）](https://mp.weixin.qq.com/s/dYCWYeM629DwiSqmaaAs1w)
 - [CSS故障艺术](https://mp.weixin.qq.com/s/HR9OMdDrfquGN_N6M9xJPw)
 - [17个场景，带你入门CSS布局](https://www.jianshu.com/p/de9450088bd5)
+- [55个提高CSS开发效率的必备片段](https://segmentfault.com/a/1190000022019129)
 
 ### nodejs
 

@@ -1,3 +1,15 @@
+- 2020.3.18
+  - gather n/v
+  - monetary adj
+  - outbreak n
+  - bear n/v
+  - statistic n
+  - grapple n/v
+  - epidemic n/adj
+  - inoculate vt
+
+  > the cut was twice as large as what the Fed oridinary does
+  > a rate cut is kind of beside the point
 - 2020.3.17
   - lure n/vt
   - belly n/v
@@ -1382,7 +1394,7 @@
   - barrier n/vt
   - subsidy n | subsidize vt
   - manipulation n
-  - dumping n
+  - dumping n | dump n/v
   - theft n
   - puppet n
   - rail n/v
