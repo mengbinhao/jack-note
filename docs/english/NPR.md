@@ -1,3 +1,16 @@
+- 2020.3.20
+  - strand n/v
+  - demolish vt
+  - sanitation n
+  - reclaim vt
+  - demotivate v
+  - humanitarian
+
+  > humanitarian crisis
+  > what we're seeing now is just sort of like a hammering out of the parameters
+  > hammer out
+  > They're looking at a very tough time ahead
+
 - 2020.3.18
   - gather n/v
   - monetary adj
@@ -211,7 +224,6 @@
   > tgus visit to Washington was in the works for couple of weeks
   > It was meant to be a dramatic show of support from him
   > in one of the rare moments of bipartisanship
-  > humanitarian crisis
   > Where do things stand right now in the grand scheme of things?
 
 - 2020.3.2
@@ -1499,7 +1511,7 @@
 - 2019.9.26
   - hostage n
   - indicate vt | indicator n | indication n
-  - reduced adj | reduce v
+  - reduced adj | reduce v | reduction n
   - revolving adj
   - lecture n/v
   - portfolio n
@@ -1618,7 +1630,7 @@
   - involve v | involvement n
   - dismiss vt
   - maximum n | minimum n
-  - humanitarian adj | humane adj
+  - humane adj
   - crown n/vt
 
   > give us the context here
@@ -2078,7 +2090,7 @@
   - handful n
   - endorse vt
   - so-called adj
-  - invasion n | incursion n | incur vt
+  - invasion n | incursion n | incur vt ｜ invade v
 
 - 2019.8.8
   - treaty n
