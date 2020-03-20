@@ -173,6 +173,7 @@
 - [小cookie，大智慧](https://mp.weixin.qq.com/s/JmUKw5P91AlJtHEPex2Pgg)
 - [24个ES6方法](https://segmentfault.com/a/1190000021884393)
 - [JS中时间格式化的三种方法](https://juejin.im/post/5e69a298e51d45271d5d4d82)
+- [JS中最实用的几个高阶函数用法](https://mp.weixin.qq.com/s/OA9Qfm2rTRWJgulFfiSTAA)
 
 ### mobile
 
@@ -312,6 +313,7 @@
 - [一文带你看透Vue前端路由](https://mp.weixin.qq.com/s/R-vSGl3qeGE9YKdqtVcocA)
 - [核心版vue-router](https://juejin.im/post/5e1c7f496fb9a02ffc375b33)
 - [带你全面分析vue-router源码](https://juejin.im/post/5e456513f265da573c0c6d4b)
+- [前端路由实现原理](https://www.limitcode.com/detail/5e5e603810dcbf0b1852b3c0.html)
 
 #### Vuex
 

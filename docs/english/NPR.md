@@ -1,4 +1,14 @@
 - 2020.3.20
+  - maneuver n/v
+  - throne n/v
+  - rumor n/v
+  - commentator n
+  - overthrow n/vt
+  - brook n/vt
+
+  > It's really hard to get real-time information out of there
+
+- 2020.3.19
   - strand n/v
   - demolish vt
   - sanitation n
@@ -288,7 +298,6 @@
 - 2020.2.25
   - fundamental n | fund n/vt
   - highflier n
-  - technocrat n
   - household n
   - hastiness n | haste n/v | hasty adj
   - aloofness n
@@ -628,7 +637,7 @@
   - asshole n
   - crap n/vi
   - invent vt
-  - ambition n/vt
+  - ambition n/vt | ambitious adj
 
   > I want to make something of my life
   > put ur nose down in something and get damn good at it
@@ -1436,7 +1445,7 @@
   - perspective n
   - claimant n
   - frustrate vt | frustration n | frustrated adj
-  - pleased adj
+  - pleased adj | displease vt
   - thrilled adj
   - disdain n/vt
   - ambiguity n
