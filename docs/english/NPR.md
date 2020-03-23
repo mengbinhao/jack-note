@@ -1,3 +1,16 @@
+- 2020.3.23
+  - procedure n
+  - ramble n/v | rambling adj
+  - joyous adj
+  - penetrate v | penetration n
+  - trauma n
+  - consensual adj
+  - strip n/v
+  - coward n/adj
+  - overcome v
+  - obnoxious adj
+  - obscene adj
+
 - 2020.3.20
   - maneuver n/v
   - throne n/v
@@ -1302,7 +1315,7 @@
   > one of the important thing to point out here is that
 
 - 2019.10.15
-  - assault n/vt/adj
+  - assault n/vt
   - crisis n
   - flee v
   - fleet n/v
@@ -1540,7 +1553,7 @@
 
 - 2019.9.25
   - urgent adj | urge n/v
-  - spur n/vt
+  - spur n/v
   - extraordinary adj| ordinary adj
   - plastic n/adj
   - renewable adj
@@ -2496,7 +2509,7 @@
   - literally adv | literal adj
   - rig n/vt
   - grievance n
-  - accusation n | accuse | accusing
+  - accusation n | accuse | accusing | accuser
   - echo n/v
 
   > one every two or three weeks

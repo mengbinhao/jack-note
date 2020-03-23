@@ -179,6 +179,7 @@
 
 - [移动端开发的几点建议](https://segmentfault.com/a/1190000021278840)
 - [关于移动端适配](https://segmentfault.com/a/1190000019207842)
+- [关于移动端适配2](https://mp.weixin.qq.com/s/3EH6yEN3HJmdaoGVgtGjIA)
 - [基于Vue/React项目的移动端适配方案](https://juejin.im/post/5d5cd14951882546282363b6)
 - [Vue+koa2 全栈移动商城](https://github.com/lyfan13/Vue-koa2-shop)
 - [Vue 2.0实战高级-开发移动端音乐 Web app](https://coding.imooc.com/class/chapter/107.html#Anchor)
@@ -314,6 +315,7 @@
 - [核心版vue-router](https://juejin.im/post/5e1c7f496fb9a02ffc375b33)
 - [带你全面分析vue-router源码](https://juejin.im/post/5e456513f265da573c0c6d4b)
 - [前端路由实现原理](https://www.limitcode.com/detail/5e5e603810dcbf0b1852b3c0.html)
+- [简易版的VueRouter实现](https://juejin.im/post/5e722f00f265da574a1ed105)
 
 #### Vuex
 
