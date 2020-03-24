@@ -355,6 +355,7 @@
 
 ### babel
 - [一文看懂Babel](https://juejin.im/post/5e477139f265da574c566dda)
+- [关于Babel你必须知道的基础知识](https://mp.weixin.qq.com/s/LebuHrsSSwJUw1CYc1d5hA)
 
 ### webpack
 
@@ -404,6 +405,7 @@
 - [8个问题带你进阶React](https://mp.weixin.qq.com/s/9xWS-rMgMFIDjly9vB70Yw)
 - [从零实现一个简单版React](https://mp.weixin.qq.com/s/0pDJXrLQJ-CF_tLltQuM3g)
 - [React Hooks 响应式布局](https://mp.weixin.qq.com/s/T4NjATvqySdXnAzTdtWoWA)
+- [提升你react和js编码的5个技巧](https://juejin.im/post/5e76eb30518825491b11ecf1)
 
 #### hooks
 

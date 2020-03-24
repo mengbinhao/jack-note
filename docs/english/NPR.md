@@ -1,3 +1,12 @@
+- 2020.3.24
+  - nutrition n
+  - affect v | effect
+  - wee adj
+  - rosy adj
+  - reality n
+  - violent adj
+  - hint n/v
+
 - 2020.3.23
   - procedure n
   - ramble n/v | rambling adj
@@ -2471,7 +2480,7 @@
   - retaliate vi | retailatory adj
   - proportional adj/n
   - casualty n
-  - de-escalate v | escalate v
+  - de-escalate v | escalate v | escalation n
   - negotiate v | negotiator n | negotiation n
 
   > so he goes back and forth
@@ -2486,7 +2495,6 @@
   - tactical adj | tactic n
   - hawkish adj
   - coherent adj
-  - escalation n
   - crippling adj
   - assumption n | assume v
   - sue v
