@@ -1,3 +1,20 @@
+- 2020.3.25
+  - attend v | attendance n
+  - reliable adj | rely vi
+  - forehead n
+  - gauge n
+  - temperature n
+  - stress n/vt
+  - folk n
+  - adjust v | adjustment n
+  - peculiar adj
+  - hotspot n
+  - muddle n/v | muddled adj
+
+  > He's been widely criticized for an initial slow and muddled response to the outbreak
+  > but they seemed to have recognized that some adjustment was neccesary
+  > that does make certain amount of sense
+
 - 2020.3.24
   - nutrition n
   - affect v | effect
@@ -1278,7 +1295,6 @@
   - Jeez
   - raft n/v
   - stranded adj
-  - resident n/adj
   - resume n/vt
   - evacuation n | evacuate v
   - dam n
@@ -1330,7 +1346,7 @@
   - fleet n/v
   - neutralize vt | neutrality n | neutral adj
   - fatality n
-  - extent n | extend v | extended adj | extension n
+  - extent n | extend v | extended adj | extension n | expand v
   - relative adj
   - arrange v | arrangement n
   - terrify v | terrified adj
@@ -1987,7 +2003,6 @@
   - upbeat adj
   - breather n
   - abruptly adv
-  - rely vi
   - prosperity n | prosper v
   - tension n
   - combination n
@@ -2162,7 +2177,7 @@
   - choke v
   - tragedy n ｜ comedy n | tragic adj
   - engage v | engaged adj
-  - residence n
+  - residence n | resident n/adj
   - lax adj
   - spree n
   - witness n/vt

@@ -69,6 +69,7 @@
 - [CSS故障艺术](https://mp.weixin.qq.com/s/HR9OMdDrfquGN_N6M9xJPw)
 - [17个场景，带你入门CSS布局](https://www.jianshu.com/p/de9450088bd5)
 - [55个提高CSS开发效率的必备片段](https://segmentfault.com/a/1190000022019129)
+- [前端响应式你了解多少？](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483693&idx=1&sn=9500d4be63381bdf8e9c27412d6a799a)
 
 ### nodejs
 
@@ -81,6 +82,7 @@
 
 ### front
 
+- [前端首屏耗时测量方法](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483755&idx=2&sn=03985684a9901e4f2a3b801339f708b7)
 - [前端面试必备——权限控制](https://segmentfault.com/a/1190000020887109)
 - [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/Ov84B6t-xJNv6G8de-yHIw)
 - [http缓存实战](https://segmentfault.com/a/1190000021374783)
@@ -185,6 +187,7 @@
 - [Vue 2.0实战高级-开发移动端音乐 Web app](https://coding.imooc.com/class/chapter/107.html#Anchor)
 - [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
 - [vue移动端开发总结](https://juejin.im/post/5e0f01fd5188253a8511b9c0)
+- [总结几个移动端H5软键盘的大坑](https://segmentfault.com/a/1190000022115177)
 
 ### source
 - [vuex and others](https://mp.weixin.qq.com/s/6TGSWEsMu4lzoXTUshGrEg)
@@ -430,6 +433,7 @@
 - [React Hooks不完全解读](https://segmentfault.com/a/1190000021793492)
 - [十个案例学会React Hooks](https://mp.weixin.qq.com/s/3pW0KxnOV-5HSdZhFNqQQA)
 - [什么时候使用useMemo和useCallback](https://mp.weixin.qq.com/s/JP7vP9VF8k2IytgqSRFT2w)
+- [写React Hooks前必读](https://zhuanlan.zhihu.com/p/113216415)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)
