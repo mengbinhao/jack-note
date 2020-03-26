@@ -1,3 +1,13 @@
+- 2020.3.26
+  - cushion n
+  - mortgage n/vt
+  - solace n/vt
+  - expect vt | expectation n
+  - reminiscent adj
+
+  > xx to keep the gears turning
+  > Does xx have any other options if these moves dont't have the desired effect?
+
 - 2020.3.25
   - attend v | attendance n
   - reliable adj | rely vi
@@ -851,7 +861,7 @@
   - discriminate v | discrimination n | discriminatory adj
   - awkward adj
   - defection n | defect n/vi
-  - coordinate vt | coordination n
+  - coordinate vt | coordination n | coordinated
   - corroborate vt | corroboration n
 
 - 2019.12.9
@@ -1264,7 +1274,7 @@
   - pile n/vivt
   - commute n/vi
   - airline n
-  - anticipate v | anticipation n
+  - anticipate v | anticipation n | anticipated adj
   - acquit vt | acquittal n
   - grassroots n
   - arrest n/vt
@@ -1579,7 +1589,7 @@
 - 2019.9.25
   - urgent adj | urge n/v
   - spur n/v
-  - extraordinary adj| ordinary adj
+  - extraordinary adj| ordinary adj | ordinarily
   - plastic n/adj
   - renewable adj
   - accountable adj | unaccounted adj | accountability n
@@ -1785,7 +1795,6 @@
   - approach n/v
   - narrate vt
   - orbiter n
-  - anticipation n | anticipated adj
   - excitement
   - eerily adv
   - cap n

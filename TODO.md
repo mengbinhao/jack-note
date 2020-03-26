@@ -304,6 +304,7 @@
 - [table component](https://juejin.im/post/5e218ce75188254dc74a4285)
 - [强化表单的9个Vue输入库](https://juejin.im/post/5e2e94a26fb9a02fe81861c0)
 - [vue-cli3 webpack简单性能优化](https://juejin.im/post/5e54c9d06fb9a07cd614d2a0)
+- [Vue组件化的思想](https://www.maiyewang.com/archives/86219)
 
 
 #### Vue-router
@@ -548,6 +549,7 @@
 - [系统出现高CPU的原因是什么](https://mp.weixin.qq.com/s/jsDyDJK0rgFZx7MW6NgRhw)
 - [面试题及日常小结](https://juejin.im/post/5e689b1ef265da5740643400)
 - [70个JavaScript面试题集锦，自测JS掌握程度](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484143&idx=1&sn=15b57744182bf4fef5ba9e3b283534b3)
+- [all](https://segmentfault.com/a/1190000022120350)
 
 #### css&html
 
