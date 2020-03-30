@@ -1,3 +1,58 @@
+- 2020.3.30
+  - venues n
+  - antsy adj
+  - sponsor n/vt
+  - prioritize vt
+  - athlete n
+  - spectator n
+  - optimum n/adj
+  - cancel vt | cancellation n
+
+  > all this staff is now up in the air
+
+- 2020.3.28
+  - emotion n | emotional | emotionally
+  - motion n/v
+  - identify v | unidentified adj
+  - pandemia n | pandemic adj | epidemic n/adj
+  - gasp n/v
+  - decease n/vi
+  - obit n
+  - crematorium n
+  - cemetery n
+  - coffin n
+  - evolve v
+  - surplus n/adj
+  - fend v
+  - utmost adj
+  - drastic adj
+  - mitigate v
+  - discretion n
+
+  > in a broader sense
+  > in this sense
+  > but apart from xxx
+
+- 2020.3.27
+  - aware adj ｜ awareness n
+  - halt n/v
+  - smooth | smoothly
+  - enthuse v | enthusiastic adj
+  - regress vi | regressive adj
+  - temporary adj
+  - bailout n
+  - cope with vi
+  - stimulus n
+  - elbow n/vt
+  - disinfect vt
+  - dodge n/v
+  - versus prep
+  - monger n/vt
+  - consume vt
+
+  > put xx in a corner
+  > gain the upper hand
+
 - 2020.3.26
   - cushion n
   - mortgage n/vt
@@ -27,7 +82,7 @@
 
 - 2020.3.24
   - nutrition n
-  - affect v | effect
+  - affect v | effect n | effectively adv
   - wee adj
   - rosy adj
   - reality n
@@ -40,7 +95,7 @@
   - joyous adj
   - penetrate v | penetration n
   - trauma n
-  - consensual adj
+  - consent n/vi | consensus n | consensual adj
   - strip n/v
   - coward n/adj
   - overcome v
@@ -58,7 +113,7 @@
   > It's really hard to get real-time information out of there
 
 - 2020.3.19
-  - strand n/v
+  - strand n/v | stranded adj
   - demolish vt
   - sanitation n
   - reclaim vt
@@ -77,7 +132,6 @@
   - bear n/v
   - statistic n
   - grapple n/v
-  - epidemic n/adj
   - inoculate vt
 
   > the cut was twice as large as what the Fed oridinary does
@@ -92,6 +146,7 @@
   - quarantine n/vt
   - parliamentary adj
   - bumpy adj
+  - bump n/v
   - haven n/vt
   - reconcile vt
   - facilitate vt
@@ -265,7 +320,6 @@
   - fractious adj
   - delicate adj
   - chancellery n
-  - emotion n | motion n/v
 
   > What should we make of this?
   > How is that all playing together and is reunification back on the table seriously now?
@@ -537,7 +591,7 @@
 - 2020.1.10
   - submission n
   - doorstep n
-  - intercontinental adj
+  - continent n | intercontinental adj
   - fury n
   - favorable adj
   - provocation n
@@ -1255,8 +1309,6 @@
 - 2019.10.19
   - pave vt
   - hurdle n/v
-  - consent n/vi
-  - enthusiastic adj
   - curtail vt
   - smuggling n | smuggler n
   - pertain vi
@@ -1304,7 +1356,6 @@
   - magnitude n
   - Jeez
   - raft n/v
-  - stranded adj
   - resume n/vt
   - evacuation n | evacuate v
   - dam n
@@ -1360,8 +1411,8 @@
   - relative adj
   - arrange v | arrangement n
   - terrify v | terrified adj
-  - condemnation n | condemn vt
-  - approve v | disapprove v
+  - condemnation n | condemn vt | condemned adj
+  - approve v | disapprove v | approval n
   - outcry n
   - displace vt | displaced adj
   - strident adj
@@ -1426,7 +1477,7 @@
   - heavy-handed adj
   - median n/adj
   - barely adv
-  - overwhelmingly adv | underwhelming adj | underwhelmed adj
+  - overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
   - curfew n
   - religious adj | religion n
 
@@ -1513,7 +1564,7 @@
   - adopt v
   - boost n/vt
   - fiscal adj
-  - budget n/vt/adj
+  - budget n/vt/adj | budge v
   - deficit n
   - bashful adj
   - wasteful adj
@@ -1587,7 +1638,8 @@
   > I have the final say on xxxx
 
 - 2019.9.25
-  - urgent adj | urge n/v
+  - urge n/v | urgent adj | urgently
+  - insurgent n/adj
   - spur n/v
   - extraordinary adj| ordinary adj | ordinarily
   - plastic n/adj
@@ -1881,7 +1933,6 @@
   - majority n/adj
   - minoraty n/adj
   - frighten v
-  - budge v
   - blink n/v
   - turmoil n
   - manner n
@@ -2000,7 +2051,6 @@
 - 2019.8.21
   - guaranteed adj | guarantee n/vt
   - illistrate vt
-  - insurgent n/adj
   - presumably adj
 
   > the Taliban want to have more leverage at the negotiating table
@@ -2011,7 +2061,7 @@
   - factor n/v
   - upbeat adj
   - breather n
-  - abruptly adv
+  - abrupt adj | abruptly adv
   - prosperity n | prosper v
   - tension n
   - combination n
@@ -2020,7 +2070,7 @@
   - persist vi
   - precede vt
   - anxiety n
-  - wage n
+  - wage n/v
   - decent adj
   - investor n
   - retire v
@@ -2274,7 +2324,6 @@
   - recharge vt
   - controversy n | controversial adj
   - intelligence n | intellectual n/adj | intelligent adj
-  - disapprove vi
 
   > he made a name for himself xxxx
   > he himself has done
@@ -2297,7 +2346,7 @@
   - adversary n
   - undercut vt
   - vow n/vt
-  - postpone vt
+  - postpone vt | postponement n
   - indefinitely adv
   - mandated adj | mandate n/vt
   - sector n
@@ -2377,13 +2426,12 @@
   - uninformed adj
   - candid adj
   - accurately adv | inaccuracy n
-  - effectively adv
   - hardcore
   - pretext n
   - mischievous adj
   - mischief n
   - chief n/adj/adv
-  - desperate adj | desperately adv
+  - desperate adj | desperately adv | desperation
   - ignorance n
 
   > which leads me to ask
@@ -2449,7 +2497,7 @@
 - 2019.7.9
   - comply vi | deference n
   - supplier n
-  - deny vt
+  - deny vt | denial n
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
   - standpoint
   - astronomical adj
