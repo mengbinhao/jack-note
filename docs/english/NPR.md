@@ -1,3 +1,11 @@
+- 2020.3.31
+  - portion n/vt
+  - harbor n
+  - inhibit vt
+  - tangle n/v | tangled adj
+  - contestant n
+
+  > 
 - 2020.3.30
   - venues n
   - antsy adj
