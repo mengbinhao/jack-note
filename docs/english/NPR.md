@@ -1,3 +1,23 @@
+- 2020.4.2
+  - provision n
+  - livelihood n
+  - visionary adj
+  - chase n/v
+
+  > I want to thank xx for coming together, setting aside their differences and putting America first
+  > let's cut the chase
+  > The American people deserve a goverment-wide, visionary,evidence-based response to address these threats to their lives and their livelihood
+  > in addition to all this
+
+- 2020.4.1
+  - retreat n/v
+  - contract n/v | contractor n
+  - engage v | engaged adj | engagement n
+  - symptom n
+  - mild adj
+
+  > I think that that would be on pretty much everybody's mind right now
+
 - 2020.3.31
   - portion n/vt
   - harbor n
@@ -5,7 +25,11 @@
   - tangle n/v | tangled adj
   - contestant n
 
-  > 
+  > Let's get right to the heart of this
+  > It was intended to be a sequenced process
+  > They've been unable to do their part so far in getting these peace talks moving
+  > I have bought the situation to this path
+
 - 2020.3.30
   - venues n
   - antsy adj
@@ -207,7 +231,7 @@
   - twist n/v
   - revoke vt
   - asylum n
-  - expose vt
+  - expose vt | exposure n
   - extradition n | extradite vt
 
   > up to a point
@@ -1602,7 +1626,6 @@
   - lapse n/vi
   - embroiled adj
   - mystery n/adj
-  - contractor n
   - confront vt | confrontation n
   - exten
 
@@ -2243,7 +2266,6 @@
   - garlic n
   - choke v
   - tragedy n ｜ comedy n | tragic adj
-  - engage v | engaged adj
   - residence n | resident n/adj
   - lax adj
   - spree n
@@ -2543,7 +2565,7 @@
   - impetus n
   - firmly adv | firm n/vt/adj
   - spike n/v
-  - loan n
+  - loan n/vt
   - recession n | recess n/vt
   - expansion n | expansive adj | pension n/vt
   - prospect n/vi
@@ -2580,7 +2602,7 @@
   - sue v
   - credibility n
   - suspicious n | suspicion n
-  - isolated adj | isolation n
+  - isolate n/v/adj | isolated adj | isolation n
 
   > xxxx as minor
   > mixed message

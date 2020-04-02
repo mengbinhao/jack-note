@@ -111,8 +111,9 @@
 ### JS
 
 - [Promise的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
-- [promise源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
-- [promise/aa/fetch/axios api](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
+- [Promise源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
+- [你真的懂Promise吗](https://mp.weixin.qq.com/s/zcZwMRg9nymQrp4n6FEldA)
+- [Promise/AA/Fetch/Axios API](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -305,6 +306,7 @@
 - [强化表单的9个Vue输入库](https://juejin.im/post/5e2e94a26fb9a02fe81861c0)
 - [vue-cli3 webpack简单性能优化](https://juejin.im/post/5e54c9d06fb9a07cd614d2a0)
 - [Vue组件化的思想](https://www.maiyewang.com/archives/86219)
+- [Vue传值与状态管理总结](https://juejin.im/post/5e7ad3176fb9a07c820fd4c7)
 
 
 #### Vue-router
@@ -377,6 +379,7 @@
 - [Webpack优化](https://mp.weixin.qq.com/s/WmTWXoYn_CvD60nd0_biuQ)
 - [总结几个webpack打包优化的方法](https://juejin.im/post/5ddc8a6be51d4523275838db)
 - [带你深度解锁Webpack系列(优化篇)](https://mp.weixin.qq.com/s/1BdKGW43MqWWsdQJ7MYI7w)
+- [如何使用splitChunks精细控制代码分割](https://mp.weixin.qq.com/s/PKdxW6QbmPoXg9lBHcGCLA)
 
 ### React
 
@@ -577,6 +580,7 @@
 
 #### Vue
 
+- [高级前端开发者必会的34道Vue面试题](https://juejin.im/post/5e8064c551882573a13777e2)
 - [Vue](https://juejin.im/post/5e4d24cce51d4526f76eb2ba)
 - [Vue高频基础面试题](https://segmentfault.com/a/1190000021731699)
 - [Vue面试经常会被问到的面试题](https://juejin.im/post/5dce0677e51d45083d30b7e7)
