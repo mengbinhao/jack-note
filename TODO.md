@@ -391,6 +391,7 @@
 - [在React中缩放、裁剪和缩放图像](https://segmentfault.com/a/1190000021836091)
 
 #### basic
+- [组件演进史：从Mixin到HOC，再到Hook](https://mp.weixin.qq.com/s/7oUNOuZ2QW8C4h99G8uquw)
 - [React学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
 - [简单掌握react](https://segmentfault.com/a/1190000016281174)
 - [速览React全栈](https://juejin.im/post/5d0ee2906fb9a07ea33c1f8b)
@@ -481,6 +482,7 @@
 - [mac下homebrew安装很慢的解决方案](https://segmentfault.com/a/1190000021360086)
 - [VS Code调试Node.js](https://juejin.im/post/5e042967e51d45584d239e86)
 - [JavaScript插件](https://juejin.im/post/5e437b7ff265da57472782f0)
+- [切图](https://mp.weixin.qq.com/s/A8TOwbDa1UKVTjo7JAywZA)
 
 ### JAVA
 

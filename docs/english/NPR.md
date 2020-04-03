@@ -1,4 +1,11 @@
 - 2020.4.2
+  - nudge n/v
+  - reward n/vt
+  - cocaine n
+
+  > It remains to be seen what sort of impact this is going to xxx
+
+- 2020.4.2
   - provision n
   - livelihood n
   - visionary adj
@@ -939,7 +946,7 @@
 
 - 2019.12.10
   - capable adj
-  - distraction n | distract v
+  - distraction n | distract v | traction n
   - censure n/v
   - hoax n/vt
   - obsolete n/vt/adj
@@ -1997,7 +2004,7 @@
   - appear vi | appearance n
   - territory n | terror n
   - imminent adj
-  - militant adj
+  - militant adj | military n/adj
   - depot n
   - adamant adj
   - feud n/vi
@@ -2186,7 +2193,7 @@
   - apparent adj
   - bllionaire n
   - financier n
-  - trafficking n
+  - traffic n/v
   - conspiracy n | conspire vi
   - prominent adj
   - somehow adv
@@ -2630,7 +2637,7 @@
   > there's been a wide range
 
 - 2019.6.28
-  - depose v | oust vt
+  - depose v | oust vt | ouster n
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi
