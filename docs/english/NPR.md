@@ -1,3 +1,23 @@
+- 2020.4.7
+  - breakout n
+  - confident adj
+  - community n
+  - vaccine n/adj
+  - Antarctica n
+
+  > The new cornonavirus has now been diagnosed on every continent but Antarctica. It appears to be deadly in around two percent of cases
+
+- 2020.4.5
+  - institute n/vt
+  - simultaneously adv
+  - exacerbate vt
+  - cripple v/adj
+  - campaign n/vi
+  - exceed v
+  - devastate vt
+
+  > On the other hand, they won't act in a circumstance where they look like they're weak
+
 - 2020.4.2
   - nudge n/v
   - reward n/vt
@@ -1562,7 +1582,7 @@
   - regional adj | region n
   - bolster n/vt
   - cliff n
-  - proportionate adj | dis-proportionate
+  - proportional adj| proportion | proportionate adj | dis-proportionate
   - artificial adj
   - multilateral adj
   - harassment n | harash v
@@ -2587,7 +2607,6 @@
   - drone n
   - unmanned adj
   - retaliate vi | retailatory adj
-  - proportional adj/n
   - casualty n
   - de-escalate v | escalate v | escalation n
   - negotiate v | negotiator n | negotiation n
