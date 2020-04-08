@@ -50,6 +50,7 @@
 - [HTML5](https://juejin.im/post/5df3b019518825122671c068)
 - [移动端H5开发常用技巧](https://segmentfault.com/a/1190000021767889)
 - [分享一些前端常用功能集合](https://juejin.im/post/5e49ef916fb9a07c951cd0e3)
+- [DOM扩展之HTML5](https://segmentfault.com/a/1190000022276554)
 
 ### css
 
@@ -70,6 +71,7 @@
 - [17个场景，带你入门CSS布局](https://www.jianshu.com/p/de9450088bd5)
 - [55个提高CSS开发效率的必备片段](https://segmentfault.com/a/1190000022019129)
 - [前端响应式你了解多少？](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483693&idx=1&sn=9500d4be63381bdf8e9c27412d6a799a)
+- [《CSS揭秘》实用技巧总结](https://mp.weixin.qq.com/s/36M_dnsBBN3Ge8dKtv6sqA)
 
 ### nodejs
 
@@ -184,6 +186,7 @@
 - [四个优秀实践](https://news.51cto.com/art/202004/613717.htm)
 - [JavaScript DOM 常用尺寸](https://www.maiyewang.com/archives/87705)
 - [JavaScript DOM 样式操作](https://www.maiyewang.com/archives/87706)
+- [15条高效JS技巧](https://juejin.im/post/5e8af4b66fb9a03c364f0ae9)
 
 ### mobile
 
@@ -209,6 +212,7 @@
 
 #### Vue related
 
+- [10个Vue开发技巧](https://juejin.im/post/5e8a9b1ae51d45470720bdfa)
 - [为什么Vue中不要用index作为key](https://juejin.im/post/5e8694b75188257372503722)
 - [你不知道的vue-devtools](https://juejin.im/post/5e0cbdd6e51d4541162c9493)
 - [收藏的关于Vue技巧or实践的文章](https://segmentfault.com/a/1190000021469258)
@@ -591,6 +595,7 @@
 
 #### Vue
 
+- [面试题联盟之VUE篇](https://juejin.im/post/5e8a84d36fb9a03c786f0122)
 - [高级前端开发者必会的34道Vue面试题](https://juejin.im/post/5e8064c551882573a13777e2)
 - [Vue](https://juejin.im/post/5e4d24cce51d4526f76eb2ba)
 - [Vue高频基础面试题](https://segmentfault.com/a/1190000021731699)

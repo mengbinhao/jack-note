@@ -1,3 +1,16 @@
+- 2020.4.8
+  - Danish n/adj
+  - luxury n ｜ luxurious adj
+  - lose v
+  - commerce n ｜ commercial adj
+  - ripple n/v
+  - disease n/vt
+  - tractor n
+
+  > It's had to cancel more than 50 trips to and from Asia
+  > Facroties in China are working at 50 to 60 percent of their capacity
+  > Because so much commerce is tied into what happens with China
+
 - 2020.4.7
   - breakout n
   - confident adj
@@ -627,7 +640,6 @@
   - detonate v
 
 - 2020.1.14
-  - commercial adj
   - altitude n
   - bankrupt n/vt/adj
 
@@ -1246,7 +1258,7 @@
   > Here's Trump yesterday explaining how all of this unfolded in White House
 
 - 2019.10.29
-  - origin n
+  - origin n | originate v
   - probe n/vt
   - grand adj
   - jury n
@@ -2122,7 +2134,7 @@
   - abrupt adj | abruptly adv
   - prosperity n | prosper v
   - tension n
-  - combination n
+  - combine v | combined adj | combination n
   - ominous adj
   - curve n/vt
   - persist vi
