@@ -187,6 +187,7 @@
 - [JavaScript DOM 常用尺寸](https://www.maiyewang.com/archives/87705)
 - [JavaScript DOM 样式操作](https://www.maiyewang.com/archives/87706)
 - [15条高效JS技巧](https://juejin.im/post/5e8af4b66fb9a03c364f0ae9)
+- [JavaScript面向对象编程之class](https://juejin.im/post/5e8c29f56fb9a03c423794ed)
 
 ### mobile
 
@@ -343,6 +344,7 @@
 - [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
 - [Vuex基本使用的总结](https://www.maiyewang.com/2019/11/26/vuex%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E7%9A%84%E6%80%BB%E7%BB%93-%E8%BD%AC%E8%BD%BD/)
 - [Vuex操作实录](https://juejin.im/post/5e685a3b51882549422eeb99)
+- [掌握工作中Vuex核心API用法以及基本原理](https://juejin.im/post/5e8c3d2b51882573672213cb)
 
 #### Vue-cli
 
@@ -569,6 +571,7 @@
 - [70个JavaScript面试题集锦，自测JS掌握程度](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484143&idx=1&sn=15b57744182bf4fef5ba9e3b283534b3)
 - [all](https://segmentfault.com/a/1190000022120350)
 - [再来一打Webpack面试题](https://mp.weixin.qq.com/s?__biz=Mzg2NDAzMjE5NQ==&mid=2247485446&idx=1&sn=44e1854d1a082d2d3dbed728cbc2661b)
+- [面试题](https://segmentfault.com/a/1190000022282401)
 
 #### css&html
 
@@ -595,6 +598,7 @@
 
 #### Vue
 
+- [高级前端开发者必会的34道Vue面试题](https://juejin.im/post/5e8c8d43e51d454714426c92)
 - [面试题联盟之VUE篇](https://juejin.im/post/5e8a84d36fb9a03c786f0122)
 - [高级前端开发者必会的34道Vue面试题](https://juejin.im/post/5e8064c551882573a13777e2)
 - [Vue](https://juejin.im/post/5e4d24cce51d4526f76eb2ba)

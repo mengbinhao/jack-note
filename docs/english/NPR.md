@@ -1,3 +1,16 @@
+- 2020.4.9
+  - tsunami n
+  - understaffed adj
+  - underfunded adj
+  - reminder n
+  - remain n/v
+  - obvious adj
+  - preach v
+  - absent vt/adj
+  - constant adj
+  - inexact adj
+  - secretary
+
 - 2020.4.8
   - Danish n/adj
   - luxury n ｜ luxurious adj
@@ -2511,7 +2524,7 @@
 - 2019.7.15
   - envoy n
   - backdrop n
-  - negligence n
+  - negligence n | negligent adj
   - remnant n/adj
   - aide n
   - topple v
