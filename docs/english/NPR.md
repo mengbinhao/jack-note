@@ -1,3 +1,15 @@
+- 2020.4.10
+  - deaf adj
+  - lung n
+  - underlying adj | underlie vt
+  - scientific adj
+  - upfront adj/adv
+  - greenhouse n
+  - transportation n
+  - rollback n
+
+  > the average age of vehicles on the road right now is the highest it's ever been at 12 years
+
 - 2020.4.9
   - tsunami n
   - understaffed adj
