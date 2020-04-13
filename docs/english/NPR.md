@@ -1,3 +1,23 @@
+- 2020.4.13
+  - overrun n/v
+  - podium n
+  - ashore adj/adv
+  - relieve vt
+  - grad n
+  - academy n
+  - rouse v
+  - authenticity n
+  - alternate v/adj
+  - sailor n
+  - carrier n
+  - disparage vt
+
+  > It doesn't matter how much he actually achieves on any of these fronts,or apparently it doesn't matter
+  > I want you to know that no one at my level has been ignoring the situation here from the very beginning
+  > the alternate is that he did it on purpose
+  > I spoke from the heart to xxx, and I stand by every words
+  > no one stood in his way
+
 - 2020.4.10
   - deaf adj
   - lung n
@@ -1291,7 +1311,7 @@
   - appoint v | appointed adj
   - surveillance n
   - tap n/vt | untapped adj
-  - bipartisan adj
+  - bipartisan adj | partisan adj
   - deepen v
   - profound adj
   - vehicle n
@@ -1521,7 +1541,7 @@
 - 2019.10.14
   - individual n/adj
   - firsthand
-  - qualify v
+  - qualify v | qualification n
   - interim n/adj
   - clearance n
   - accompany vt
