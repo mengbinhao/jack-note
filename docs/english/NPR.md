@@ -1,3 +1,9 @@
+- 2020.4.14
+  - deputize vi
+  - incline n/v
+  - supervision n
+  - intensive
+
 - 2020.4.13
   - overrun n/v
   - podium n
@@ -2461,7 +2467,7 @@
   - undercut vt
   - vow n/vt
   - postpone vt | postponement n
-  - indefinitely adv
+  - indefinitely adv | definitely adv
   - mandated adj | mandate n/vt
   - sector n
   - certify vt
