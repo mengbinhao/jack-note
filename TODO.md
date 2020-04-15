@@ -473,6 +473,7 @@
 ### Other
 
 - [深入理解ESLint](https://mp.weixin.qq.com/s/CKEn-luXhVFp-gQdL_XQyA)
+- [前端代码规范最佳实践](https://mp.weixin.qq.com/s/d9ELTKp-ZqQ4qdQBLQfM6A)
 - [如何在chrome中实时修改JS](https://www.zhangyangjun.com/post/chrome-source-modify-js.html)
 - [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)

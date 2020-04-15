@@ -1,8 +1,21 @@
+- 2020.4.15
+  - revise v
+  - curb vt | curbed adj
+  - liberty n
+  - expense n/v
+  - odd adj | even
+  - symbolic adj
+  - penalty n
+
+  > It will go into effect tonight and last for about a month
+  > Japan was somehow going to dodge the bullet
+  > Do you get the sense that they're comfortable with giving the goverment more power at the expense of the as individuals?
+
 - 2020.4.14
   - deputize vi
   - incline n/v
   - supervision n
-  - intensive
+  - intensive adj
 
 - 2020.4.13
   - overrun n/v
@@ -168,6 +181,7 @@
   - stimulus n
   - elbow n/vt
   - disinfect vt
+  - infectious adj
   - dodge n/v
   - versus prep
   - monger n/vt
@@ -2243,7 +2257,7 @@
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj
   - combat n/vt
-  - constitutional adj | unconstitutional
+  - constitutional adj | unconstitutional | constitution
   - constituent n
   - shortsighted adj
   - impunity adj
