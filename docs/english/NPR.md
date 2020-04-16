@@ -1,4 +1,23 @@
 - 2020.4.15
+  - primary n/adj
+  - upcoming adj
+  - desire n/v
+  - backbone n
+  - fringe adj
+  - mainstream n
+  - champion n/v
+  - numerical adj
+  - broaden v
+  - mathematically adj
+  - nominee n
+  - presumptive adj
+  - virtually adv
+  - delegate n/vt
+
+  > It caught my ear
+  > X prise Y as a whole
+
+- 2020.4.15
   - revise v
   - curb vt | curbed adj
   - liberty n
@@ -1002,7 +1021,7 @@
   - telescope n
   - mist n
   - gaze n/vi
-  - conscious adj
+  - conscious adj | consciousness n
   - innocent adj
   - spat n
   - perceive v
@@ -2375,7 +2394,7 @@
   - spree n
   - witness n/vt
   - conflicting adj | conflict n/vi
-  - ideology n
+  - ideology n | ideological adj | ideologically adv
   - shock n/vt/adj
   - devastating adj | devastation n
   - horrific adj
@@ -2795,7 +2814,7 @@
 
 - 2019.6.25
 
-  - assessment n | assess vt
+  - assessment n | assess vt | reassess
   - expertise n
   - proficiency n
   - afloat adj/adv

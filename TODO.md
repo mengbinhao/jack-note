@@ -188,6 +188,7 @@
 - [JavaScript DOM 样式操作](https://www.maiyewang.com/archives/87706)
 - [15条高效JS技巧](https://juejin.im/post/5e8af4b66fb9a03c364f0ae9)
 - [JavaScript面向对象编程之class](https://juejin.im/post/5e8c29f56fb9a03c423794ed)
+- [避免JS中过多的使用IF语句](https://developer.51cto.com/art/202004/614413.htm)
 
 ### mobile
 
@@ -339,6 +340,7 @@
 #### Vuex
 
 - [喝个茶的时间就学会了vuex](https://juejin.im/post/5a7278dc6fb9a01c9c1f59e7)
+- [vuex快速上手指北](https://juejin.im/post/5e955f29f265da480304a303)
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
 - [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
@@ -532,6 +534,7 @@
 
 ### Interview
 
+- [前端常见20道高频面试题深入解析](https://mp.weixin.qq.com/s?__biz=MzI1NTcxOTQ1Nw==&mid=2247488166&idx=1&sn=2f4b4c3a646e806f4de54c4126d041b5)
 - [输入url到页面出来经历了什么](https://mp.weixin.qq.com/s/nMlZWZO6foRUPFK34ouPhg)
 - [从地址栏输入网址到页面呈现的完整步骤](https://juejin.im/post/5e83499551882573bb78e7d9)
 - [关于前端学习路线的一些建议](https://mp.weixin.qq.com/s/8KPaJ77veo126OKCmvR8zg)

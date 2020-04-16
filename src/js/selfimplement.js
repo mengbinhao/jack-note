@@ -1,7 +1,7 @@
 //Array
 //Array
 //Array
-Array.prototype.unique1 = function() {
+Array.prototype.unique1 = function () {
 	//这里是利用对象键hash值的唯一性来去重
 	let obj = {}
 	let result = []
@@ -15,7 +15,7 @@ Array.prototype.unique1 = function() {
 	return result
 }
 
-Array.prototype.unique2 = function() {
+Array.prototype.unique2 = function () {
 	let obj = {}
 	for (let i = 0; i < this.length; i++) {
 		if (obj[this[i]]) {
@@ -30,7 +30,7 @@ Array.prototype.unique2 = function() {
 	return this
 }
 
-Array.prototype.unique3 = function() {
+Array.prototype.unique3 = function () {
 	let result = []
 	for (let i = 0; i < this.length; i++) {
 		if (!result.includes(this[i])) {
@@ -40,19 +40,19 @@ Array.prototype.unique3 = function() {
 	return result
 }
 
-Array.prototype.unique4 = function() {
+Array.prototype.unique4 = function () {
 	let result = new Set(this)
 	//return [...new Set(this)]
 	return Array.from(result)
 }
 
-Array.prototype.unique5 = function() {
+Array.prototype.unique5 = function () {
 	//利用Array.prototype.filter返回符合条件的元素
 	//利用Array.prototype.indexOf返回数组中第一次出现当前元素的索引值
 	return this.filter((item, index) => this.indexOf(item) === index)
 }
 
-Array.prototype.unique6 = arr => {
+Array.prototype.unique6 = (arr) => {
 	for (let i = 0; i < arr.length - 1; i++) {
 		for (let j = i + 1; j < arr.length; j++) {
 			if (arr[i] === arr[j]) {
@@ -65,41 +65,41 @@ Array.prototype.unique6 = arr => {
 	return arr
 }
 
-const myFlat = arr => {
-	while (arr.some(item => Array.isArray(item))) {
+const myFlat = (arr) => {
+	while (arr.some((item) => Array.isArray(item))) {
 		arr = [].concat(...arr)
 	}
 	return arr
 }
 
 //return number arr
-const myFlat2 = arr => {
+const myFlat2 = (arr) => {
 	return arr
 		.toString()
 		.split(',')
-		.map(item => Number(item))
+		.map((item) => Number(item))
 }
 
-const myIsArray = target => {
+const myIsArray = (target) => {
 	return Object.prototype.toString.call(target) === '[object Array]'
 }
 
-const sortArrayRandom = arr => arr.sort((a, b) => Math.random() - 0.5)
+const sortArrayRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5)
 
 //generate undefined array
-const undefinedArray = length => Array.apply(null, { length })
+const undefinedArray = (length) => Array.apply(null, { length })
 
 //创建特定大小的数组
 //[...Array(3).keys()]  //[0,1,2]
 
-Array.prototype.myPush = function() {
+Array.prototype.myPush = function () {
 	for (var i = 0; i < arguments.length; i++) {
 		this[this.length] = arguments[i]
 	}
 	return this.length
 }
 
-Array.prototype.myJoin = function(separator = ',') {
+Array.prototype.myJoin = function (separator = ',') {
 	let result = this[0] || ''
 	for (let i = 1, len = this.length; i < len; i++) {
 		result += separator + this[i]
@@ -107,7 +107,7 @@ Array.prototype.myJoin = function(separator = ',') {
 	return result
 }
 
-Array.prototype.mySlice = function(start, end) {
+Array.prototype.mySlice = function (start, end) {
 	var start = start || 0
 	var end = end || this.length
 	let result = []
@@ -117,7 +117,7 @@ Array.prototype.mySlice = function(start, end) {
 	return result
 }
 
-Array.prototype.mySort = function(fn) {
+Array.prototype.mySort = function (fn) {
 	//default func
 	var fn = fn || ((a, b) => a - b)
 	let len = this.length - 1
@@ -131,7 +131,7 @@ Array.prototype.mySort = function(fn) {
 	return this
 }
 
-Array.prototype.myForEach = function(fn) {
+Array.prototype.myForEach = function (fn) {
 	for (let i = 0; i < this.length; i++) {
 		//filter empty position
 		if (i in this) {
@@ -140,7 +140,7 @@ Array.prototype.myForEach = function(fn) {
 	}
 }
 
-Array.prototype.myMap = function(fn) {
+Array.prototype.myMap = function (fn) {
 	let result = []
 	for (let i = 0; i < this.length; i++) {
 		if (i in this) {
@@ -150,7 +150,7 @@ Array.prototype.myMap = function(fn) {
 	return result
 }
 
-Array.prototype.myFilter = function(fn) {
+Array.prototype.myFilter = function (fn) {
 	let result = []
 	for (let i = 0; i < this.length; i++) {
 		if (i in this) {
@@ -162,7 +162,7 @@ Array.prototype.myFilter = function(fn) {
 	return result
 }
 
-Array.prototype.myEvery = function(fn, thisArg) {
+Array.prototype.myEvery = function (fn, thisArg) {
 	for (let i = 0, len = this.length; i < len; i++) {
 		if (i in this) {
 			if (!fn.call(thisArg, this[i], i, this)) {
@@ -173,7 +173,7 @@ Array.prototype.myEvery = function(fn, thisArg) {
 	return true
 }
 
-Array.prototype.mySome = function(fn, thisArg) {
+Array.prototype.mySome = function (fn, thisArg) {
 	for (let i = 0, len = this.length; i < len; i++) {
 		if (i in this) {
 			if (fn.call(thisArg, this[i], i, this)) {
@@ -184,7 +184,7 @@ Array.prototype.mySome = function(fn, thisArg) {
 	return false
 }
 
-Array.prototype.simulateReduce = function(fn, initialValue) {
+Array.prototype.simulateReduce = function (fn, initialValue) {
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + ' is not a function')
 	}
@@ -213,7 +213,7 @@ const chunk = (arr, size) => {
 	})
 }
 
-const randonReplacementArray = array => {
+const randonReplacementArray = (array) => {
 	var len = array.length
 	var temp = []
 	while (len--) {
@@ -247,7 +247,7 @@ document.addEventListener('scroll', betterScrollThrottle)
 
 function throttle2(func, wait) {
 	let timer = null
-	return function(...args) {
+	return function (...args) {
 		if (!timer) {
 			func(...args)
 			timer = setTimeout(() => {
@@ -276,12 +276,12 @@ const betterScrollDebounce = simulatDebounce(
 )
 document.addEventListener('scroll', betterScrollDebounce)
 
-const optimizedThrottle = function(func, wait, options) {
+const optimizedThrottle = function (func, wait, options) {
 	var timeout, context, args, result
 	var previous = 0
 	if (!options) options = {}
 
-	var later = function() {
+	var later = function () {
 		previous =
 			options.leading === false ? 0 : Date.now() || new Date().getTime()
 		timeout = null
@@ -289,7 +289,7 @@ const optimizedThrottle = function(func, wait, options) {
 		if (!timeout) context = args = null
 	}
 
-	var throttled = function() {
+	var throttled = function () {
 		var now = Date.now() || new Date().getTime()
 		if (!previous && options.leading === false) previous = now
 		var remaining = wait - (now - previous)
@@ -310,7 +310,7 @@ const optimizedThrottle = function(func, wait, options) {
 		return result
 	}
 
-	throttled.cancel = function() {
+	throttled.cancel = function () {
 		clearTimeout(timeout)
 		previous = 0
 		timeout = context = args = null
@@ -326,7 +326,7 @@ function DebounceAdvanced(fn, delay = 300) {
 	let last = 0,
 		timer = null
 
-	return function() {
+	return function () {
 		let context = this
 		let args = arguments
 		let now = +new Date()
@@ -335,7 +335,7 @@ function DebounceAdvanced(fn, delay = 300) {
 			// 如果时间间隔小于我们设定的时间间隔阈值,则为本次触发操作设立一个新的定时器
 			// 总会执行一次 防止用户认为'假死'
 			timer && clearTimeout(timer)
-			timer = setTimeout(function() {
+			timer = setTimeout(function () {
 				fn.apply(context, args)
 				last = now
 			}, delay)
@@ -356,7 +356,7 @@ document.addEventListener('scroll', betterScrollThrottleAdvanced)
 // 2 window的resize、scroll事件,不断地调整浏览器的窗口大小、或者滚动时会触发对应事件,防抖让其只触发一次；
 const resizeDebounceHandler = (fn, delay = 50) => {
 	let timer = null
-	return function(...args) {
+	return function (...args) {
 		if (timer) clearTimeout(timer)
 		timer = setTimeout(() => {
 			fn.apply(this, args)
@@ -388,7 +388,7 @@ const debounceAdvance = (func, wait = 50, immediate = true) => {
 			}
 		}, wait)
 	// 这里返回的函数是每次实际调用的函数
-	return function(...params) {
+	return function (...params) {
 		// 如果没有创建延迟执行函数（later）,就创建一个
 		if (!timer) {
 			timer = later()
@@ -416,7 +416,7 @@ const debounceAdvance = (func, wait = 50, immediate = true) => {
 const resizeThrottleHandler = (fn, delay, duration) => {
 	let timer = null
 	let beginTime = +new Date()
-	return function() {
+	return function () {
 		const context = this
 		const args = arguments
 		const currentTime = +new Date()
@@ -444,7 +444,7 @@ const resizeThrottleHandler = (fn, delay, duration) => {
  *                                两者不能共存,否则函数不能执行
  * @return {function}             返回客户调用函数
  */
-const throttleAdvanceUnderscore = function(func, wait, options) {
+const throttleAdvanceUnderscore = function (func, wait, options) {
 	let context, args, result
 	let timeout = null
 	// 之前的时间戳
@@ -452,7 +452,7 @@ const throttleAdvanceUnderscore = function(func, wait, options) {
 	// 如果 options 没传则设为空对象
 	if (!options) options = {}
 	// 定时器回调函数
-	let later = function() {
+	let later = function () {
 		// 如果设置了 leading,就将 previous 设为 0
 		// 用于下面函数的第一个 if 判断
 		previous = options.leading === false ? 0 : _.now()
@@ -461,7 +461,7 @@ const throttleAdvanceUnderscore = function(func, wait, options) {
 		result = func.apply(context, args)
 		if (!timeout) context = args = null
 	}
-	return function() {
+	return function () {
 		// 获得当前时间戳
 		let now = _.now()
 		// 首次进入前者肯定为 true
@@ -503,7 +503,7 @@ const throttleAdvanceUnderscore = function(func, wait, options) {
 //闭包实现一个累加器
 const add = (() => {
 	let total = 0
-	return function(num) {
+	return function (num) {
 		total += num
 		return total
 	}
@@ -514,9 +514,9 @@ const add = (() => {
 //作用域也不会随之销毁,这时的子函数也就是闭包拥有了访问上级作用域中的变量的权限
 //上级作用域执行完成后作用域内的值也不会被销毁
 //场景  Ajax回调/事件绑定回调/setTimeout
-const fibClosure = (function() {
+const fibClosure = (function () {
 	const result = []
-	return function(num) {
+	return function (num) {
 		const cache = result[num]
 		if (cache) {
 			return cache
@@ -545,42 +545,41 @@ const fibClosure = (function() {
  * 优先级 new > call,apply,bind > 显示 > 隐式
  */
 function simulateNew() {
+	//let [Constructor, ...args] = [...arguments]
 	let Constructor = Array.prototype.shift.call(arguments)
 	//same as let obj = {}, obj.__proto__ == constructor.prototype
 	let obj = Object.create(Constructor.prototype)
 	let result = Constructor.apply(obj, arguments)
 	//in case constructor return a simple type
-	return (typeof result !== null && result === 'object') ||
-		typeof result === 'function'
+	return result && (typeof result === 'object' || typeof result === 'function')
 		? result
 		: obj
 }
 
 //无返回值
-// var testNewFun = function(name) {
-// 	this.name = name
-// }
-//又返回值
-// var testNewFun2 = function(name) {
-//   this.name = name;
-//   return {};
-// };
-// var newObj = simulateNew(testNewFun, 'foo')
-// console.log(newObj)
-// console.log(newObj instanceof testNewFun)
+var testConstructorWithoutReturn = function (name) {
+	this.name = name
+}
+//有返回值
+var testConstructorWithReturn = function (name) {
+	this.name = name
+	return {}
+}
+var newObj = simulateNew(testConstructorWithReturn, 'foo')
+console.log(newObj, newObj instanceof testConstructorWithReturn)
 
-Function.prototype.simulateCall = function(context = window) {
+Function.prototype.simulateCall = function () {
 	if (typeof this !== 'function') {
 		throw new TypeError('must be invoked by function')
 	}
+	let [context = window, ...args] = [...arguments]
 	context.fn = this
-	const args = [...arguments].slice(1)
-	const ret = context.fn(...args)
+	const result = context.fn(...args)
 	delete context.fn
-	return ret
+	return result
 }
 
-Function.prototype.simulateApply = function(context = window) {
+Function.prototype.simulateApply = function (context = window) {
 	if (typeof this !== 'function') {
 		throw new TypeError('must be invoked by function')
 	}
@@ -599,23 +598,23 @@ Function.prototype.simulateApply = function(context = window) {
 // 2 返回函数
 // 3 可以传入参数
 // 4 柯里化
-Function.prototype.simulateBind = function(context) {
+Function.prototype.simulateBind = function (context) {
 	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
 	let args = [...arguments].slice(1)
-	return function() {
+	return function () {
 		return fn.apply(context, args.concat(...arguments))
 	}
 }
 
-Function.prototype.simulateBindAdvance = function(context = window) {
+Function.prototype.simulateBindAdvance = function (context = window) {
 	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
 	let args = [...arguments].slice(1)
 
 	//if invoke by new, this is fBound
 	//if function invoke, this is context
-	let fBound = function() {
+	let fBound = function () {
 		return fn.apply(
 			this instanceof fBound ? this : context,
 			args.concat(...arguments)
@@ -642,26 +641,26 @@ new bound() // bar, [22, 33, 44]
 bound() // foo, [22, 33, 44]
 
 //将传入的对象作为原型
-Function.prototype.simulateCreate = function(obj) {
+Function.prototype.simulateCreate = function (obj) {
 	function F() {}
 	F.prototype = obj
 	F.prototype.constructor = F
 	return new F()
 }
 
-const simulateCurry = function(fn) {
+const simulateCurry = function (fn) {
 	let args = Array.prototype.slice.call(arguments, 1)
 	let _this = this
-	return function() {
+	return function () {
 		return fn.apply(_this, args.concat(Array.prototype.slice.call(arguments)))
 	}
 }
 
-const simulateCurryFormalParameter = function(fn, args) {
+const simulateCurryFormalParameter = function (fn, args) {
 	let length = fn.length,
 		_args = args || [],
 		that = this
-	return function() {
+	return function () {
 		let innerArgs = _args.concat([].slice.call(arguments))
 		if (innerArgs.length < length) {
 			return simulateCurryFormalParameter.call(that, fn, innerArgs)
@@ -674,15 +673,15 @@ const simulateCurryFormalParameter = function(fn, args) {
 //Object
 //Object
 //Object
-const isObject = obj => {
+const isObject = (obj) => {
 	return obj !== null && typeof obj === 'object'
 }
 
-const isType = type => obj => {
+const isType = (type) => (obj) => {
 	return Object.prototype.toString.call(obj) === '[object ' + type + ']'
 }
 
-const getType = obj => {
+const getType = (obj) => {
 	return Object.prototype.toString
 		.call(obj)
 		.replace(/[object\s(.+)]/, '$1')
@@ -736,12 +735,13 @@ const deepClone = (source, cache = new WeakMap()) => {
 	if (!isObject(source)) return source
 	//or return directly
 	if (cache.has(source)) throw new TypeError('circle reference')
+	//let target = new source.constructor()
 	let target = Array.isArray(source) ? [] : {}
 	cache.set(source, target)
 
 	let symKeys = Object.getOwnPropertySymbols(source)
 	if (symKeys.length) {
-		symKeys.forEach(symKey => {
+		symKeys.forEach((symKey) => {
 			if (isObject(source[symKey])) {
 				target[symKey] = deepClone(source[symKey], cache)
 			} else {
@@ -766,14 +766,14 @@ const objTest = {
 	strProperty: 'muyiy',
 	objProperty: {
 		title: "You Don't Know JS",
-		price: '45'
+		price: '45',
 	},
 	undefinedProperty: undefined,
 	nullProperty: null,
 	numberProperty: 123,
-	funcProperty: function() {},
+	funcProperty: function () {},
 	boolProperty: true,
-	arrProperty: [1, 2, 3]
+	arrProperty: [1, 2, 3],
 }
 
 //obj.circleProperty = obj
@@ -785,7 +785,7 @@ objTest[sym1] = 'localSymbol'
 objTest[sym2] = 'globalSymbol'
 //console.log(deepClone(objTest))
 
-const copyDeepClone = function(obj) {
+const copyDeepClone = function (obj) {
 	let copy
 
 	// Handle the 3 simple types, and null or undefined
@@ -806,7 +806,7 @@ const copyDeepClone = function(obj) {
 	}
 
 	if (obj instanceof Function) {
-		copy = function() {
+		copy = function () {
 			return obj.apply(this, arguments)
 		}
 		return copy
@@ -834,9 +834,9 @@ const copyDeepClone = function(obj) {
 // // 将派生类的原型的原型链挂在基类的原型上
 // Object.setPrototypeOf(Derived.prototype, Base.prototype);
 
-const similateInherit = (function() {
-	let F = function() {}
-	return function(Child, Parent) {
+const similateInherit = (function () {
+	let F = function () {}
+	return function (Child, Parent) {
 		F.prototype = Parent.prototype
 		Child.prototype = new F()
 		Child.prototype.constructor = Child
@@ -844,7 +844,7 @@ const similateInherit = (function() {
 	}
 })()
 
-const cloneShallow = source => {
+const cloneShallow = (source) => {
 	let target = {}
 	for (let key in source) {
 		if (source.hasOwnProperty(key)) {
@@ -854,7 +854,7 @@ const cloneShallow = source => {
 	return target
 }
 
-const jsonStringify = obj => {
+const jsonStringify = (obj) => {
 	let type = typeof obj
 	if (type !== 'object' || type === null) {
 		if (/string|undefined|function/.test(type)) {
@@ -892,11 +892,11 @@ const simulateInstanceOf = (left, right) => {
 	}
 }
 
-const getBuitlInType = obj => {
+const getBuitlInType = (obj) => {
 	return Object.prototype.toString.call(obj).slice(8, -1)
 }
 
-const getBuitlInType2 = obj => {
+const getBuitlInType2 = (obj) => {
 	let str = Object.prototype.toString.call(obj)
 	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
@@ -904,30 +904,30 @@ const getBuitlInType2 = obj => {
 //String
 //String
 //String
-String.prototype.myReverse = function() {
+String.prototype.myReverse = function () {
 	return Array.prototype.reverse.apply(this.split('')).join('')
 }
 
-String.prototype.myTrim = function() {
+String.prototype.myTrim = function () {
 	return this.replace(/^\s+|\s+$/g, '')
 }
 
-String.prototype.myTrim2 = function() {
+String.prototype.myTrim2 = function () {
 	return this.replace(/^\s+|\s+$/g, '')
 }
 
 //number
 //number
 //number
-const isInteger = num => {
+const isInteger = (num) => {
 	return typeof num === 'number' && num % 1 === 0
 }
 
-const isPosZero = num => {
+const isPosZero = (num) => {
 	return num === 0 && 1 / n === Infinity
 }
 
-const isNaN = num => {
+const isNaN = (num) => {
 	let ret = Number(num)
 	ret += ''
 	return ret === 'NaN' ? true : false
@@ -941,14 +941,14 @@ const addZero = (num, len = 2) => `${num}`.padStart(len, '0')
 //other
 //other
 //other
-const makeIterator = array => {
+const makeIterator = (array) => {
 	let nextIndex = 0
 	return {
-		next: function() {
+		next: function () {
 			return nextIndex < array.length
 				? { value: array[nextIndex++], done: false }
 				: { done: true }
-		}
+		},
 	}
 }
 let it = makeIterator([1, 2, 3])
@@ -970,20 +970,20 @@ let it = makeIterator([1, 2, 3])
 // }
 // xhr.send(null)
 
-const myAJAX = options => {
+const myAJAX = (options) => {
 	options = options || {}
 	options.url = options.url || ''
 	options.method = options.method.toUpperCase() || 'GET'
 	options.async = options.async || true
 	options.data = options.data || null
-	options.success = options.success || function() {}
+	options.success = options.success || function () {}
 	var xhr = null
 	if (XMLHttpRequest) {
 		xhr = new XMLHttpRequest()
 	} else {
 		xhr = new ActiveXObject('Microsoft.XMLHTTP')
 	}
-	xhr.onreadystatechange = function() {
+	xhr.onreadystatechange = function () {
 		if (xhr.readyState === 4 && xhr.status === 200) {
 			options.success(xhr.responseText)
 		}
@@ -1002,7 +1002,7 @@ const myAJAX = options => {
 	}
 }
 
-const queryURLParamaterByRegex = url => {
+const queryURLParamaterByRegex = (url) => {
 	let obj = {}
 	let reg = /([^?=&]+)=([^?=&]+)/g
 	url.replace(reg, (...arg) => {
@@ -1017,7 +1017,7 @@ const addURLParam = (url, name, value) => {
 	return url
 }
 
-Element.prototype.insertAfter = function(targerNode, afterNode) {
+Element.prototype.insertAfter = function (targerNode, afterNode) {
 	var beforeNode = afterNode.nextElementSibling
 	if (beforeNode == null) {
 		this.appendChild(targerNode)
@@ -1045,7 +1045,7 @@ const strRegTest3 = '1000000000'
 const regTest3 = /(?=(\B)(\d{3})+$)/g
 // console.log(strRegTest3.replace(regTest3, "."));
 
-const toCapitalCamelStyle = str => {
+const toCapitalCamelStyle = (str) => {
 	let arr = str.split('-'),
 		len = arr.length,
 		result = '',
@@ -1057,7 +1057,7 @@ const toCapitalCamelStyle = str => {
 	return result
 }
 
-const toCamelStyleRegexp = str => {
+const toCamelStyleRegexp = (str) => {
 	return str.replace(/-([a-z])/gi, ($0, $1) => $1.toUpperCase())
 }
 
@@ -1096,7 +1096,7 @@ class EventEmitter {
 // 测试
 let emitter = new EventEmitter()
 // 监听事件
-emitter.addListener('ages', age => {
+emitter.addListener('ages', (age) => {
 	console.log(age)
 })
 // 触发事件
@@ -1117,10 +1117,10 @@ Object.defineProperty(obj, 'text', {
 		console.log('数据更新了')
 		input.value = newVal
 		span.innerHTML = newVal
-	}
+	},
 })
 // 输入监听
-input.addEventListener('keyup', function(e) {
+input.addEventListener('keyup', function (e) {
 	obj.text = e.target.value
 })
 
@@ -1140,7 +1140,7 @@ class Route {
 	}
 	// 存储
 	storeRoute(path, cb) {
-		this.routes[path] = cb || function() {}
+		this.routes[path] = cb || function () {}
 	}
 	// 更新
 	freshRoute() {
@@ -1281,7 +1281,7 @@ function getElementTop(element) {
 
 //promise
 function sleep(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms))
+	return new Promise((resolve) => setTimeout(resolve, ms))
 }
 async function test() {
 	console.log('Hello')
@@ -1302,7 +1302,7 @@ function myRequest(url, method, params) {
 				resolve(xhr.response)
 			}
 		}
-		xhr.addEventListener('error', e => {
+		xhr.addEventListener('error', (e) => {
 			reject(error)
 		})
 		xhr.send(params)
@@ -1322,15 +1322,15 @@ var student = {
 	locate: {
 		country: 'china',
 		city: 'xiamen',
-		school: 'XMUT'
-	}
+		school: 'XMUT',
+	},
 }
 for (var key of Object.keys(student)) {
 	console.log(key + ': ' + student[key])
 }
 
 function template(html, obj) {
-	return html.replace(/\{\{(.*?)\}\}/g, function(match, key) {
+	return html.replace(/\{\{(.*?)\}\}/g, function (match, key) {
 		return obj[key.trim()]
 	})
 }
@@ -1345,19 +1345,19 @@ function MyPromise(executor) {
 	this.onResolvedCallbacks = []
 	this.onRejectedCallbacks = []
 
-	const resolve = value => {
+	const resolve = (value) => {
 		if (this.status === 'pending') {
 			this.status = 'resolved'
 			this.value = value
-			this.onResolvedCallbacks.forEach(fn => fn())
+			this.onResolvedCallbacks.forEach((fn) => fn())
 		}
 	}
 
-	const reject = reason => {
+	const reject = (reason) => {
 		if (this.status === 'pending') {
 			this.status = 'rejected'
 			this.reason = reason
-			this.onRejectedCallbacks.forEach(fn => fn())
+			this.onRejectedCallbacks.forEach((fn) => fn())
 		}
 	}
 
@@ -1369,13 +1369,14 @@ function MyPromise(executor) {
 }
 
 //then方法接受的参数是函数，而如果传递的并非是一个函数，它实际上会将其解释为then(null)，这就会导致前一个Promise的结果会穿透下面
-MyPromise.prototype.then = function(onFulfilled, onRejected) {
+MyPromise.prototype.then = function (onFulfilled, onRejected) {
 	//handle value penetration, just return the value
-	onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : value => value
+	onFulfilled =
+		typeof onFulfilled === 'function' ? onFulfilled : (value) => value
 	onRejected =
 		typeof onRejected === 'function'
 			? onRejected
-			: err => {
+			: (err) => {
 					throw err
 			  }
 
@@ -1446,14 +1447,14 @@ function resolvePromise(promise2, x, resolve, reject) {
 			if (typeof then === 'function') {
 				then.call(
 					x,
-					y => {
+					(y) => {
 						if (called) return
 						called = true
 						//recursion
 						//y is the return of previous promise
 						resolvePromise(promise2, y, resolve, reject)
 					},
-					err => {
+					(err) => {
 						if (called) return
 						called = true
 						reject(err)
@@ -1480,7 +1481,7 @@ class EventEmeitter {
 	}
 }
 
-EventEmeitter.prototype.emit = function(type, ...args) {
+EventEmeitter.prototype.emit = function (type, ...args) {
 	let hander
 	//从储存事件键值对的this._events中获取对应事件回调函数
 	handler = this._events.get(type)
@@ -1492,7 +1493,7 @@ EventEmeitter.prototype.emit = function(type, ...args) {
 	return true
 }
 
-EventEmeitter.prototype.addListener = function(type, fn) {
+EventEmeitter.prototype.addListener = function (type, fn) {
 	//将type事件以及对应的fn函数放入this._events中储存
 	if (!this._events.get(type)) {
 		this._events.set(type, fn)
@@ -1531,7 +1532,7 @@ function run(gen) {
 		let result = g.next(data)
 		if (result.done) return result.value
 		if (result.value instanceof Promise) {
-			result.value.then(data => next(data))
+			result.value.then((data) => next(data))
 		} else {
 			result.value(next)
 		}
