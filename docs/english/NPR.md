@@ -1,4 +1,13 @@
-- 2020.4.15
+- 2020.4.17
+  - subtle adj
+  - hug n/v
+  - adequate adj
+  - painkiller n
+  - clinical adj
+  - changer n
+  - supply
+
+- 2020.4.16
   - primary n/adj
   - upcoming adj
   - desire n/v
@@ -272,7 +281,7 @@
   - strand n/v | stranded adj
   - demolish vt
   - sanitation n
-  - reclaim vt
+  - claim n/v | reclaim vt | claimant n
   - demotivate v
   - humanitarian
 
@@ -1238,7 +1247,7 @@
   - accord n/v
   - aggregate n/v/adj
   - tune n/v
-  - fulfill vt
+  - fulfill vt | fulfilled
 
   > What went through your mind when you heard it yesterday?
   > turn back on them
@@ -1697,7 +1706,6 @@
 
 - 2019.10.8
   - perspective n
-  - claimant n
   - frustrate vt | frustration n | frustrated adj
   - pleased adj | displease vt
   - thrilled adj
@@ -2536,7 +2544,7 @@
   - high-profile adj
   - reserve n/v | preserve n/vt
   - constraint n | constrain v | constrained adj
-  - restriction n
+  - restrict vt | restricted adj | restriction n
 
   > he is by no means the only officail public servant doing so
   > cover one's ears
@@ -2649,7 +2657,7 @@
 
 - 2019.7.9
   - comply vi | deference n
-  - supplier n
+  - supply n/vt | supplier n
   - deny vt | denial n
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
   - standpoint
@@ -2741,7 +2749,7 @@
   - literally adv | literal adj
   - rig n/vt
   - grievance n
-  - accusation n | accuse | accusing | accuser
+  - accusation n | accuse vt | accusing | accuser
   - echo n/v
 
   > one every two or three weeks

@@ -670,6 +670,24 @@ const simulateCurryFormalParameter = function (fn, args) {
 	}
 }
 
+var compose = function (...args) {
+	var len = args.length // args函数的个数
+	var count = len - 1
+	var result
+	return function func(...args1) {
+		// func函数的args1参数枚举
+		result = args[count].call(this, args1)
+		if (count > 0) {
+			count--
+			return func.call(null, result) // result 上一个函数的返回结果
+		} else {
+			//回复count初始状态
+			count = len - 1
+			return result
+		}
+	}
+}
+
 //Object
 //Object
 //Object
