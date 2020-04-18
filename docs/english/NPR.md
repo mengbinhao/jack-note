@@ -1,3 +1,19 @@
+- 2020.4.18
+  - shrink v | shrinkage n
+  - degree n
+  - amount n/vi
+  - drop n/v
+  - wound n/v
+  - bandage n/vt
+  - wage n/v
+  - stem vt
+  - hemorrhage n/vi
+  - gasoline n
+  - prop n/vt
+
+  > as the expression goes
+  > But the drop in demand - more than twice that amount
+
 - 2020.4.17
   - subtle adj
   - hug n/v
@@ -767,7 +783,6 @@
   > point fingers
 
 - 2020.1.9
-  - amounts n/v
   - unionist n
   - loyalist n
   - psychological adj
@@ -2232,7 +2247,6 @@
   - persist vi
   - precede vt
   - anxiety n
-  - wage n/v
   - decent adj
   - investor n
   - retire v
@@ -2513,7 +2527,7 @@
   - sector n
   - certify vt
   - impose v | self-imposed adj
-  - derail v
+  - derail n/v
   - finality n
   - unauthorized adj
   - raise n/v
@@ -2831,7 +2845,6 @@
   - plot n/v
   - fierce adj | fiercely adv
   - yield n/v
-  - derail v
   - heighten v
 
   > There is no question about it
