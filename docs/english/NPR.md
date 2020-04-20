@@ -1,3 +1,18 @@
+- 2020.4.20
+  - bunch n/v
+  - trend n
+  - flare n/v
+  - rapid adj | rapidly adv
+  - revenue n
+  - overtime n/vt/adj/adv
+  - surpass vt
+
+  > Europe is still not out of woods
+  > there is a whole bunch of them
+  > and speaking of xxx
+  > Keeping a close eye on xxx
+  > It looks like that curve has gone over the peak
+
 - 2020.4.18
   - shrink v | shrinkage n
   - degree n
@@ -627,7 +642,6 @@
   - tourist n/v/adj/adv
   - steam n/v/adj
   - monarch n
-  - overdramatize vt
   - unavoidable adj
   - undertone n
   - figurehead n
@@ -2250,7 +2264,7 @@
   - decent adj
   - investor n
   - retire v
-  - drama n | dramatic adj | dramatically adv
+  - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
   - backlash n
   - grovelling adj
