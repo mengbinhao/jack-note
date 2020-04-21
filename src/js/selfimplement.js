@@ -598,7 +598,7 @@ Function.prototype.simulateApply = function (context = window) {
 // 2 返回函数
 // 3 可以传入参数
 // 4 柯里化
-Function.prototype.simulateBind = function (context) {
+Function.prototype.simulateBind = function (context = window) {
 	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
 	let args = [...arguments].slice(1)
