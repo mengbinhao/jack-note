@@ -1,3 +1,20 @@
+- 2020.4.22
+  - priority n
+  - policy n
+
+  > so what does that mean as the campaign moves ahead?
+  > Speaking to the significance of actually hearing him say it out loud today
+
+- 2020.4.21
+  - substitute v
+  - cohesive adj
+  - authority n
+  - unveil v
+  - reserves n/v
+
+  > they are just political in nature
+  > she was taken out of context
+
 - 2020.4.20
   - bunch n/v
   - trend n
@@ -521,7 +538,7 @@
   > How is that all playing together and is reunification back on the table seriously now?
 
 - 2020.3.3
-  - significant adj
+  - significant adj | significance n
   - catastrophe n
   - consolidate v
   - ruin n/vt
@@ -1222,7 +1239,7 @@
   - cling vi
   - abandon n/v
   - overhaul v
-  - awful adj
+  - awful adj | awfully adv
   - downfall n
   - accelerate v
   - shove n/vt
@@ -1637,7 +1654,7 @@
   - Athens n
   - hiatus n
   - deep-seated adj
-  - skepticism n | skeptical adj
+  - skepticism n | skeptical adj | skeptic n
   - concede v
   - long-standing adj
   - confusion n | confuing adj | confuse vt
@@ -1800,7 +1817,7 @@
   - aver vt
   - dealings n
   - imply vt | implied adj | implication n
-  - explicit adj
+  - explicit adj | explicitly adv
   - merely adv | mere adj
   - confess v | confessing n
 
@@ -1851,7 +1868,7 @@
   - lengthy adj
   - conference n
   - garner vt
-  - accumulation n | accumulate v
+  - accumulation n | accumulate v | accrue v
   - reputation n
   - embrace n/v
   - diversity n
@@ -2232,7 +2249,7 @@
   - spark n/v
   - referendum n
   - seamless adj
-  - genuine adj
+  - genuine adj | genuinely adv
   - dissident n/adj
   - worse-case
   - scenario n
@@ -2383,7 +2400,7 @@
   - legitimate adj | legitimacy n | illegitimate
   - universal n/adj
   - handful n
-  - endorse vt
+  - endorse vt | endorsement n
   - so-called adj
   - invasion n | incursion n | incur vt ｜ invade v
 
@@ -2614,6 +2631,7 @@
   - outgoing adj
   - uninformed adj
   - candid adj
+  - candidacy n
   - accurately adv | inaccuracy n
   - hardcore
   - pretext n
@@ -2799,7 +2817,7 @@
   - crackdown n | crack n/adj/v
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - convicted adj | convict n/vt | convivtion n | absolve vt
+  - convicted adj | convict n/vt | conviction n | absolve vt
   - undergo vt
   - procecutor n
   - defendant n | defend v | defensive adj
