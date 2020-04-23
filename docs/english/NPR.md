@@ -1,3 +1,13 @@
+- 2020.4.23
+  - denounce vt
+  - lobby n/v
+  - activate vt
+  - lunacy adj
+  - finance n
+  - payment n
+
+  > ther is nowhere near over
+  > it is a huge blow
 - 2020.4.22
   - priority n
   - policy n
@@ -129,6 +139,7 @@
   - tsunami n
   - understaffed adj
   - underfunded adj
+  - undercount vt
   - reminder n
   - remain n/v
   - obvious adj
@@ -650,7 +661,7 @@
   - pebble n
   - upend v
   - holdout n
-  - donation n | donate v
+  - donation n | donate v | donor n
   - continual adj | continuity n
   - gymnasium n
   - cavernous adj
@@ -757,7 +768,7 @@
 
 - 2020.1.16
   - lean n/v
-  - sovereignty n
+  - sovereign n/adj | sovereignty n
   - impending adj | impend vi
   - overall adj/adv
   - lash n/v
@@ -2557,7 +2568,7 @@
   - mandated adj | mandate n/vt
   - sector n
   - certify vt
-  - impose v | self-imposed adj
+  - impose v | self-imposed adj | imposition n
   - derail n/v
   - finality n
   - unauthorized adj
