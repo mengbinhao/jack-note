@@ -1,3 +1,17 @@
+- 2020.4.24
+  - chemical adj
+  - quash vt
+  - resort n/vi
+  - downward adj/adv
+  - advance n/v/adj
+  - criteria n
+  - telework n
+  - socialize v
+  - guidance n | guidance n
+
+  > after a lot of toing and froing
+  > they're pretty short on specifics
+
 - 2020.4.23
   - denounce vt
   - lobby n/v
@@ -30,7 +44,6 @@
   - trend n
   - flare n/v
   - rapid adj | rapidly adv
-  - revenue n
   - overtime n/vt/adj/adv
   - surpass vt
 
@@ -222,7 +235,6 @@
   > I have bought the situation to this path
 
 - 2020.3.30
-  - venues n
   - antsy adj
   - sponsor n/vt
   - prioritize vt
@@ -1229,6 +1241,7 @@
   - harm n
   - contrast n/v
   - avenue n | venue n
+  - revenue n
   - assure vt | reassure
 
   > hang in

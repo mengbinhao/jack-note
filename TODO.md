@@ -434,6 +434,7 @@
 #### hooks
 
 - [React hooks 入门和进阶](https://www.yuque.com/dillon-r2ua6/gzkcty/om31wg)
+- [10个案例彻底理解React hooks的渲染逻辑](https://mp.weixin.qq.com/s/4WdLd4mQI0v1UiRnmtBF8g)
 - [React函数式组件性能优化指南](https://mp.weixin.qq.com/s/kEExKE-Chr40z-mCc6AZ7Q)
 - [React Hooks详解+项目实战](https://juejin.im/post/5dbbdbd5f265da4d4b5fe57d)
 - [从Mixin到HOC再到Hook](https://mp.weixin.qq.com/s/zhWs9NgjvM8Wy1vOVKKhHg)
