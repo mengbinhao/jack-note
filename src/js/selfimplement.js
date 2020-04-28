@@ -226,6 +226,26 @@ const randonReplacementArray = (array) => {
 //Function
 //Function
 //Function
+
+//最后一个说了算
+//提交按钮、联想搜索、表单验证
+function simulatDebounce(fn, delay = 300) {
+	let timer
+	return function (...args) {
+		timer && clearTimeout(timer)
+
+		timer = setTimeout(() => {
+			fn.apply(this, args)
+		}, delay)
+	}
+}
+
+const betterScrollDebounce = simulatDebounce(
+	() => console.log('触发了滚动事件'),
+	1000
+)
+document.addEventListener('scroll', betterScrollDebounce)
+
 //在规定时间内只触发一次
 //第一个说了算
 //拖拽、缩放、动画
@@ -245,47 +265,15 @@ const betterScrollThrottle = simulateThrottle(
 )
 document.addEventListener('scroll', betterScrollThrottle)
 
-function throttle2(func, wait) {
-	let timer = null
-	return function (...args) {
-		if (!timer) {
-			func(...args)
-			timer = setTimeout(() => {
-				timer = null
-			}, wait)
-		}
-	}
-}
-
-//最后一个说了算
-//提交按钮、联想搜索、表单验证
-function simulatDebounce(fn, delay = 300) {
-	let timer
-	return (...args) => {
-		timer && clearTimeout(timer)
-
-		timer = setTimeout(() => {
-			fn.apply(this, args)
-		}, delay)
-	}
-}
-
-const betterScrollDebounce = simulatDebounce(
-	() => console.log('触发了滚动事件'),
-	1000
-)
-document.addEventListener('scroll', betterScrollDebounce)
-
-const optimizedThrottle = function (func, wait, options) {
+const optimizedThrottle = function (fn, wait, options = {}) {
 	var timeout, context, args, result
 	var previous = 0
-	if (!options) options = {}
 
 	var later = function () {
 		previous =
 			options.leading === false ? 0 : Date.now() || new Date().getTime()
 		timeout = null
-		result = func.apply(context, args)
+		result = fn.apply(context, args)
 		if (!timeout) context = args = null
 	}
 
@@ -301,7 +289,7 @@ const optimizedThrottle = function (func, wait, options) {
 				timeout = null
 			}
 			previous = now
-			result = func.apply(context, args)
+			result = fn.apply(context, args)
 			if (!timeout) context = args = null
 		} else if (!timeout && options.trailing !== false) {
 			// 判断是否设置了定时器和 trailing
@@ -320,8 +308,6 @@ const optimizedThrottle = function (func, wait, options) {
 }
 
 //用Throttle来优化Debounce
-//用Throttle来优化Debounce
-//用Throttle来优化Debounce
 function DebounceAdvanced(fn, delay = 300) {
 	let last = 0,
 		timer = null
@@ -329,7 +315,6 @@ function DebounceAdvanced(fn, delay = 300) {
 	return function () {
 		let context = this
 		let args = arguments
-		let now = +new Date()
 
 		if (now - last < delay) {
 			// 如果时间间隔小于我们设定的时间间隔阈值,则为本次触发操作设立一个新的定时器
@@ -337,11 +322,11 @@ function DebounceAdvanced(fn, delay = 300) {
 			timer && clearTimeout(timer)
 			timer = setTimeout(function () {
 				fn.apply(context, args)
-				last = now
+				last = +new Date()
 			}, delay)
 		} else {
 			fn.apply(context, args)
-			last = now
+			last = +new Date()
 		}
 	}
 }
@@ -350,20 +335,6 @@ const betterScrollThrottleAdvanced = DebounceAdvanced(
 	1000
 )
 document.addEventListener('scroll', betterScrollThrottleAdvanced)
-
-//debunce 在事件被触发n秒后再执行回调函数,如果在这n秒内又被触发,则重新计时。
-// 1 用户在输入框中连续输入一串字符后,只会在输入完后去执行最后一次的查询Ajax请求,这样可以有效减少请求次数,节约请求资源；
-// 2 window的resize、scroll事件,不断地调整浏览器的窗口大小、或者滚动时会触发对应事件,防抖让其只触发一次；
-const resizeDebounceHandler = (fn, delay = 50) => {
-	let timer = null
-	return function (...args) {
-		if (timer) clearTimeout(timer)
-		timer = setTimeout(() => {
-			fn.apply(this, args)
-		}, delay)
-	}
-}
-//window.onresize = resizeDebounceHandler(fn, 1000)
 
 /**
  * 防抖函数,返回函数连续调用时,空闲时间必须大于或等于 wait,func 才会执行
@@ -583,6 +554,7 @@ Function.prototype.simulateApply = function (context = window) {
 	if (typeof this !== 'function') {
 		throw new TypeError('must be invoked by function')
 	}
+	//let [context = window, ...args] = [...arguments]
 	context.fn = this
 	let result
 	if (arguments[1]) {
@@ -628,7 +600,7 @@ Function.prototype.simulateBindAdvance = function (context = window) {
 	return fBound
 }
 
-// const bar = function() {
+// let bar = function() {
 // 	console.log(this.name, arguments)
 // }
 // bar.prototype.name = 'bar'
@@ -747,9 +719,11 @@ const hasPubProperty = (attr, obj) => {
 // 3、不能序列化函数,，无法拷贝函数
 // 4、不能解决循环引用的对象 const a = {val:2}; a.target = a; 拷贝a会出现系统栈溢出，因为出现了无限递归的情况
 // 5、不能正确处理RegExp, Date, Set, Map等
-// 6、不能处理正则
-// 7、会抛弃对象的constructor。也就是深拷贝之后，不管这个对象原来的构造函数是什么，在深拷贝之后都会变成Object
+// 6、会抛弃对象的constructor。也就是深拷贝之后，不管这个对象原来的构造函数是什么，在深拷贝之后都会变成Object
 const deepClone = (source, cache = new WeakMap()) => {
+	if (source instanceof Date) return new Date(source)
+	if (source instanceof RegExp) return new RegExp(source)
+	//simple type, return directly
 	if (!isObject(source)) return source
 	//or return directly
 	if (cache.has(source)) throw new TypeError('circle reference')
@@ -757,16 +731,13 @@ const deepClone = (source, cache = new WeakMap()) => {
 	let target = Array.isArray(source) ? [] : {}
 	cache.set(source, target)
 
-	let symKeys = Object.getOwnPropertySymbols(source)
-	if (symKeys.length) {
-		symKeys.forEach((symKey) => {
-			if (isObject(source[symKey])) {
-				target[symKey] = deepClone(source[symKey], cache)
-			} else {
-				target[symKey] = source[symKey]
-			}
-		})
-	}
+	Object.getOwnPropertySymbols(source).forEach((symKey) => {
+		if (isObject(source[symKey])) {
+			target[symKey] = deepClone(source[symKey], cache)
+		} else {
+			target[symKey] = source[symKey]
+		}
+	})
 
 	for (let key in source) {
 		if (Object.prototype.hasOwnProperty.call(source, key)) {

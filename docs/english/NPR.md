@@ -1,3 +1,38 @@
+- 2020.4.28
+  - veto n
+  - unity n
+  - avert vt
+
+  > which once would have been unheard of
+  > break one's promise to xxx
+  > This is a country that live outside of law
+
+- 2020.4.27
+  - lease n/v
+  - manufacture n/vt
+  - crude n/adj
+  - intermediate adj
+  - haul n/v
+  - bonkers adj
+  - hijack vt
+  - renegade n
+  - synonym n
+
+  > I'm running out of synonyms for xxx
+  > It had never done this before
+  > you are going to take a much lower price than you want, and you might even have to pay someone to haul it away, and that's pretty much what happend to xxx
+  > if you don't have buyers at zero dollars, you have to go even lower
+
+- 2020.4.26
+  - anniversary n
+  - exchange n/v
+  - multiple adj
+  - disguise n/vt
+
+  > There was an exchange of fire with police
+  > she had been with xxx for 23 years
+  > they don't appear to have been known to him,thet do seem radom
+
 - 2020.4.24
   - chemical adj
   - quash vt
@@ -380,7 +415,7 @@
   - caution v | precaution n
   - abundance n
   - quarantine n/vt
-  - parliamentary adj
+  - parliamentary adj ｜ parliament n
   - bumpy adj
   - bump n/v
   - haven n/vt
@@ -434,7 +469,6 @@
   - attorney n
   - twist n/v
   - revoke vt
-  - asylum n
   - expose vt | exposure n
   - extradition n | extradite vt
 
@@ -518,7 +552,7 @@
   - tentative adj
   - footprint n
   - chatter n/v
-  - eventual adj
+  - eventual adj | eventually adv
 
   > xxx will be based on kind of conditions on the ground
   > Security forces had deployed in really think number across the city
@@ -954,7 +988,7 @@
 - 2019.12.24
   - observant adj
   - buttress n/vt
-  - destabilize vt
+  - destabilize vt ｜ stabilize v
   - assert vt
   - heartfelt adj
   - mediator n
@@ -1072,7 +1106,7 @@
   - illusion n
   - mystic n/adj
   - philosopher n
-  - hogwash n | nonsense n | sense n/v
+  - hogwash n | nonsense n | sense n/v | senseless adj
   - baffle vt
   - dimension n
   - oblivious adj
@@ -1426,7 +1460,6 @@
   - grand adj
   - jury n
   - collusion n
-  - appoint v | appointed adj
   - surveillance n
   - tap n/vt | untapped adj
   - bipartisan adj | partisan adj
@@ -2134,7 +2167,7 @@
   - vital adj
   - blindside vt
   - reprimand n/vt
-  - trilateral | bilateral adj
+  - trilateral | bilateral adj ｜ unilateral adj
   - chancellor n
   - mistrust n/vt
   - reluctantly adv | reluctant adj
@@ -2499,7 +2532,7 @@
   - obstruction n | obstruct vt
   - ultimately adv | ultimate adj
   - exonerate n/vt/adj
-  - motivated adj | motivation n
+  - motivated adj | motivation n | motive n
   - integrity n
   - rare adj | rarer adj | rarity n
   - porch n
@@ -2756,7 +2789,7 @@
 
 - 2019.7.5
   - federal adj/n
-  - disappointment n
+  - disappointment n | appointment n | appoint v | appointed adj
   - cite vt
   - inflation/deflation n
   - resist v
@@ -2835,7 +2868,7 @@
   - Egypt n
   - collapse n/vi
   - faint n/vi/adj
-  - trial | retrial n
+  - trial n/adj | retrial n
   - democratically adv | democratic adj | democracy n
   - jail n/vt
   - crackdown n | crack n/adj/v
