@@ -80,6 +80,14 @@ const myFlat2 = (arr) => {
 		.map((item) => Number(item))
 }
 
+const myFlat3 = (arr) => {
+	return arr.reduce(
+		(acc, val) =>
+			Array.isArray(val) ? acc.concat(myFlat3(val)) : acc.concat(val),
+		[]
+	)
+}
+
 const myIsArray = (target) => {
 	return Object.prototype.toString.call(target) === '[object Array]'
 }
@@ -228,8 +236,8 @@ const randonReplacementArray = (array) => {
 //Function
 
 //最后一个说了算
-//提交按钮、联想搜索、表单验证
-function simulatDebounce(fn, delay = 300) {
+//提交按钮、联想搜索、表单验证、浏览器缩放
+function simulateDebounce(fn, delay = 300) {
 	let timer
 	return function (...args) {
 		timer && clearTimeout(timer)
@@ -240,15 +248,46 @@ function simulatDebounce(fn, delay = 300) {
 	}
 }
 
-const betterScrollDebounce = simulatDebounce(
+const betterScrollDebounce = simulateDebounce(
 	() => console.log('触发了滚动事件'),
 	1000
 )
 document.addEventListener('scroll', betterScrollDebounce)
 
+const debounce = function (fn, wait = 300, immediate = true) {
+	let timer, result
+	let later = function (context, args) {
+		setTimeout(() => {
+			timer = null
+			if (!immediate) {
+				fn.apply(context, args)
+				context = args = null
+			}
+		}, wait)
+	}
+	let debounced = function (...args) {
+		if (!timer) {
+			timer = later(this, args)
+			if (immediate) {
+				result = fn.apply(this, args)
+			}
+		} else {
+			clearTimeout(timer)
+			timer = later(this, args)
+		}
+		return result
+	}
+
+	debounce.cancel = function () {
+		clearTimeout(timer)
+		timer = null
+	}
+	return debounced
+}
+
 //在规定时间内只触发一次
 //第一个说了算
-//拖拽、缩放、动画
+//拖拽、onscroll、按钮点击、缩放、动画、计算鼠标移动距离
 function simulateThrottle(fn, interval = 300) {
 	let last = 0
 	return (...args) => {
@@ -622,9 +661,8 @@ Function.prototype.simulateCreate = function (obj) {
 
 const simulateCurry = function (fn) {
 	let args = Array.prototype.slice.call(arguments, 1)
-	let _this = this
-	return function () {
-		return fn.apply(_this, args.concat(Array.prototype.slice.call(arguments)))
+	return () => {
+		return fn.apply(this, args.concat(Array.prototype.slice.call(arguments)))
 	}
 }
 
@@ -640,6 +678,12 @@ const simulateCurryFormalParameter = function (fn, args) {
 			return fn.apply(that, innerArgs)
 		}
 	}
+}
+
+const curry = (fn, ...args) => {
+	args.length < fn.length
+		? (...arguments) => curry(fn, ...args, ...arguments)
+		: fn(...args)
 }
 
 var compose = function (...args) {
@@ -1504,6 +1548,23 @@ function foo(data) {
 	js.src = 'http://domain:port/testJSONP?a=1&b=2&callback=foo'
 	head.appendChild(js) // 这一步会发送请求
 })()
+
+function jsonp2({ url, params, cb }) {
+	return new Promise((resolve, reject) => {
+		let script = document.createElement('script')
+		window[cb] = function (date) {
+			resolve(data)
+			document.body.removeChild(script)
+		}
+		params = { ...params, cb }
+		let arrs = []
+		for (let key in params) {
+			arrs.push(`${key}=${params[key]}`)
+		}
+		script.src = `${url}?${arrs.join('&')}`
+		document.body.appendChild(script)
+	})
+}
 
 // 后台代码
 // 因为是通过 script 标签调用的 后台返回的相当于一个 js 文件

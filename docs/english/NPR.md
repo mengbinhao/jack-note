@@ -1,3 +1,15 @@
+- 2020.4.29
+  - convenient adj
+  - rile v
+  - harvest n/v
+  - series n
+  - immigrant n
+
+  > He may decide to extend that future
+  > It's not really as bold as we expected
+  > xxx to all but yyy
+  > xxx go into effect a month ago
+
 - 2020.4.28
   - veto n
   - unity n
@@ -309,7 +321,7 @@
   - smooth | smoothly
   - enthuse v | enthusiastic adj
   - regress vi | regressive adj
-  - temporary adj
+  - temporary adj | temporarily adv
   - bailout n
   - cope with vi
   - stimulus n
@@ -938,7 +950,6 @@
   - diverse adj
   - faith n
   - amnesty n/vt
-  - citizenship n
   - criterion n
 
 - 2019.12.27
@@ -1056,7 +1067,7 @@
   > the language we use affects how we think and who we are
 
 - 2019.12.18
-  - exclusive adj | exclusion n
+  - exclusive adj | exclusion n | exclusionary adj
   - stuffing n | stuff n/v
   - imprison vt
   - transpire v
@@ -1462,7 +1473,7 @@
   - collusion n
   - surveillance n
   - tap n/vt | untapped adj
-  - bipartisan adj | partisan adj
+  - bipartisan adj | partisan adj | nonpartisan adj
   - deepen v
   - profound adj
   - vehicle n
@@ -2087,7 +2098,7 @@
   - momentous adj
   - amendment n
   - rebel n/vi
-  - compete vi | competing adj | competitive adj | competitor n
+  - compete vi | competing adj | competitive adj | competitor n | competition n
   - trick n | tricky adj
   - suspend v
   - wicked adj
@@ -2159,7 +2170,6 @@
 - 2019.9.9
   - jeopardize vt
   - prime adj
-  - embassy n
   - chant n/v
   - upbraid vt
   - pact n
@@ -2357,6 +2367,7 @@
 
 - 2019.8.19
   - consult v | consulting adj | consul n | consulate n
+  - embassy n
   - stooge n
   - emerge vi | emerging adj | emergence n
   - concrete adj
@@ -2499,7 +2510,7 @@
   - garlic n
   - choke v
   - tragedy n ｜ comedy n | tragic adj
-  - residence n | resident n/adj
+  - residence n | resident n/adj | residency
   - lax adj
   - spree n
   - witness n/vt
@@ -2617,7 +2628,7 @@
   - impose v | self-imposed adj | imposition n
   - derail n/v
   - finality n
-  - unauthorized adj
+  - unauthorized adj | authorization n
   - raise n/v
   - dispute n/v | disputed adj
   - alien n/adj
@@ -2636,7 +2647,7 @@
   - adoring adj
   - capacity n/adj
   - servant n
-  - citizen n
+  - citizen n | citizenship n
   - transgender n
   - esteemed adj
   - reiterate vt
@@ -2696,7 +2707,7 @@
   - mischief n
   - chief n/adj/adv
   - desperate adj | desperately adv | desperation
-  - ignorance n
+  - ignorance n | ignorant adj | igonre vt
 
   > which leads me to ask
   > sooner or later
