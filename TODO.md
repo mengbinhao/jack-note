@@ -537,8 +537,7 @@
 ### Interview
 
 - [前端常见20道高频面试题深入解析](https://mp.weixin.qq.com/s?__biz=MzI1NTcxOTQ1Nw==&mid=2247488166&idx=1&sn=2f4b4c3a646e806f4de54c4126d041b5) @@##$$
-- [输入url到页面出来经历了什么](https://mp.weixin.qq.com/s/nMlZWZO6foRUPFK34ouPhg)
-- [从地址栏输入网址到页面呈现的完整步骤](https://juejin.im/post/5e83499551882573bb78e7d9)
+- [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [关于前端学习路线的一些建议](https://mp.weixin.qq.com/s/8KPaJ77veo126OKCmvR8zg)
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)
 - [关于前端学习路线的一些建议（含面试自测题）](https://mp.weixin.qq.com/s/PHaNXEldr3NiQelFYnKwlg)
@@ -599,7 +598,6 @@
 
 ####  JS
 
-- [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 - [为什么外链css要放在头部，js要放在尾部](https://www.cnblogs.com/lvonve/p/11975593.html)
 

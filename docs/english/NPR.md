@@ -1,3 +1,19 @@
+- 2020.4.30
+  - besiege vt
+  - starvation n | starve v
+  - situate vt/adj | situation n
+  - painful | hurtful
+  - systematic adj
+  - nonprofit adj
+  - trove n
+  - corpse n
+  - plaintiff n
+  - jurisdiction n
+  - principle n
+  - survive v | survivor n
+
+  > It's quite clear the responsibility for that abuse goes all the way to the top
+
 - 2020.4.29
   - convenient adj
   - rile v
@@ -401,7 +417,7 @@
   - sanitation n
   - claim n/v | reclaim vt | claimant n
   - demotivate v
-  - humanitarian
+  - humane adj | humanitarian | humanity n
 
   > humanitarian crisis
   > what we're seeing now is just sort of like a hammering out of the parameters
@@ -1588,7 +1604,7 @@
   - pave vt
   - hurdle n/v
   - curtail vt
-  - smuggling n | smuggler n
+  - smuggling n | smuggler n | smuggle vt
   - pertain vi
   - slip n/v
   - ratify vt
@@ -1755,7 +1771,7 @@
   - heavy-handed adj
   - median n/adj
   - barely adv
-  - overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
+  - overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
   - curfew n
   - religious adj | religion n
 
@@ -2015,7 +2031,6 @@
   - involve v | involvement n
   - dismiss vt
   - maximum n | minimum n
-  - humane adj
   - crown n/vt
 
   > give us the context here
