@@ -1,3 +1,18 @@
+- 2020.5.6
+  - provoke vt
+  - vessel n
+  - competence n | incompetence
+  - deterrence n
+  - restore v
+  - enterprise n
+  - pure adj | purely adv
+  - instruct vt | instruction n
+  - satellite n
+  - simmer n/v
+
+  > I think today's launch prove what we've been saying all along here in the US
+  > So neither side seems to be wanting to take a step back from where we are
+
 - 2020.4.30
   - besiege vt
   - starvation n | starve v
@@ -477,7 +492,6 @@
   > Indis's capital is experiencing the worst religious violence it has seen in decades
 
 - 2020.3.12
-  - terrific adj
   - assemble v
   - undervalue vt
   - banquet n
@@ -1123,7 +1137,6 @@
   - riddle n/v
   - inspire vt
   - awe n/vt
-  - extraterrestrial adj
   - quest n/v
   - clunky adj
   - pitiful adj
@@ -1570,7 +1583,7 @@
   - compel vt
   - signature n
   - astonishing adj
-  - consistent adj
+  - consistent adj | consistently adv
   - distrust n/vt
   - norm n
 
@@ -1704,7 +1717,6 @@
   - extent n | extend v | extended adj | extension n | expand v
   - relative adj
   - arrange v | arrangement n
-  - terrify v | terrified adj
   - condemnation n | condemn vt | condemned adj
   - approve v | disapprove v | approval n
   - outcry n
@@ -1820,7 +1832,7 @@
   - proportional adj| proportion | proportionate adj | dis-proportionate
   - artificial adj
   - multilateral adj
-  - harassment n | harash v
+  - harassment n | harass vt
   - proceeding n | proceed vi
   - thereafter adv
   - breach n/vt
@@ -2254,7 +2266,10 @@
 
 - 2019.9.4
   - appear vi | appearance n
-  - territory n | terror n
+  - terrific adj
+  - terrify v | terrified adj
+  - territory n
+  - terror n | terrorist n
   - imminent adj
   - militant adj | military n/adj
   - depot n
@@ -2802,7 +2817,6 @@
   > that was go too far
 
 - 2019.7.8
-  - underwrite vt
   - doubling n
   - reception n
   - utterly adv | utter vt/adj
