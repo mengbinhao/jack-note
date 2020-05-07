@@ -1,3 +1,18 @@
+- 2020.5.7
+  - due n/adj/adv
+  - longstanding adj
+  - historical adj
+  - corporation n
+  - initial ｜ initially
+  - bore n/v | boring adj
+  - dare v
+  - arguably adv
+  - objective adj
+  - audit n/v
+  - immediate adj
+  - preparedness n
+  - trillion n
+
 - 2020.5.6
   - provoke vt
   - vessel n
@@ -690,7 +705,7 @@
 
 - 2020.2.27
   - nephew n | niece n
-  - distribute vt | distribution n
+  - distribute vt | distribution n | distributed adj
   - agressive adj | agressiveness n
   - agility n | agile adj
   - league n | legend n
@@ -2922,7 +2937,6 @@
   - mistreat vt
   - polarize v | polarization n
   - exile n/vt
-  - subdued adj
   - funeral n | funereal adj
 
   > So there's been a wide range

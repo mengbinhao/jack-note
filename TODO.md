@@ -542,12 +542,8 @@
 
 - [前端常见20道高频面试题深入解析](https://mp.weixin.qq.com/s?__biz=MzI1NTcxOTQ1Nw==&mid=2247488166&idx=1&sn=2f4b4c3a646e806f4de54c4126d041b5) @@##$$
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
-- [关于前端学习路线的一些建议](https://mp.weixin.qq.com/s/8KPaJ77veo126OKCmvR8zg)
-- [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)
-- [关于前端学习路线的一些建议（含面试自测题）](https://mp.weixin.qq.com/s/PHaNXEldr3NiQelFYnKwlg)
-- [前端面试基础问题梳理](https://blog.callmewhy.com/post/qian-duan-mian-shi-ji-chu-wen-ti-shu-li/)
-- [大前端冲刺大厂面试题集锦](https://mp.weixin.qq.com/s/qDWUTgiJhDeEUE7htxRgMw)
-- [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)
+- [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)  @@##$$
+- [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$$
 - [面试完50个人后我写下这篇总结](https://juejin.im/post/5df1e312f265da33d039d06d)
 - [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
 - [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)

@@ -88,7 +88,7 @@ const myFlat3 = (arr) => {
 	)
 }
 
-const myIsArray = (target) => {
+const simulateIsArray = (target) => {
 	return Object.prototype.toString.call(target) === '[object Array]'
 }
 
@@ -632,20 +632,23 @@ Function.prototype.simulateBindAdvance = function (context = window) {
 		)
 	}
 	//very important
-	fBound.prototype = Object.create(this.prototype)
-	// let F = function () {}
-	// F.prototype = this.prototype
-	// fBound.prototype = new F()
+	//这里有bug箭头函数没有this.prototype
+	//fBound.prototype = Object.create(this.prototype)
+	let F = function () {}
+	if (this.prototype) {
+		F.prototype = this.prototype
+	}
+	fBound.prototype = new F()
 	return fBound
 }
 
-// let bar = function() {
-// 	console.log(this.name, arguments)
-// }
-// bar.prototype.name = 'bar'
-// const foo = {
-// 	name: 'foo'
-// }
+var bar = function () {
+	console.log(this.name, arguments)
+}
+bar.prototype.name = 'bar'
+const foo = {
+	name: 'foo',
+}
 
 const bound = bar.mybind(foo, 22, 33, 44)
 new bound() // bar, [22, 33, 44]
@@ -666,6 +669,9 @@ const simulateCurry = function (fn) {
 	}
 }
 
+//延迟计算 （用闭包把传入参数保存起来，当传入参数的数量足够执行函数时，开始执行函数）
+//动态创建函数 （参数不够时会返回接受剩下参数的函数）
+//参数复用（每个参数可以多次复用）
 const simulateCurryFormalParameter = function (fn, args) {
 	let length = fn.length,
 		_args = args || [],
@@ -720,6 +726,27 @@ const getType = (obj) => {
 		.call(obj)
 		.replace(/[object\s(.+)]/, '$1')
 		.toLowerCase()
+}
+
+function getType2(obj) {
+	const str = Object.prototype.toString.call(obj)
+	const map = {
+		'[object Boolean]': 'boolean',
+		'[object Number]': 'number',
+		'[object String]': 'string',
+		'[object Function]': 'function',
+		'[object Array]': 'array',
+		'[object Date]': 'date',
+		'[object RegExp]': 'regExp',
+		'[object Undefined]': 'undefined',
+		'[object Null]': 'null',
+		'[object Object]': 'object',
+	}
+	if (obj instanceof Element) {
+		// 判断是否是dom元素，如div等
+		return 'element'
+	}
+	return map[str]
 }
 
 const hasPubProperty = (attr, obj) => {
