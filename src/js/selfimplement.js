@@ -718,7 +718,7 @@ const isObject = (obj) => {
 }
 
 const isType = (type) => (obj) => {
-	return Object.prototype.toString.call(obj) === '[object ' + type + ']'
+	return Object.prototype.toString.call(obj) === `[object ${type}]`
 }
 
 const getType = (obj) => {

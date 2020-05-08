@@ -435,6 +435,7 @@
 - [从零实现一个简单版React](https://mp.weixin.qq.com/s/0pDJXrLQJ-CF_tLltQuM3g)
 - [React Hooks 响应式布局](https://mp.weixin.qq.com/s/T4NjATvqySdXnAzTdtWoWA)
 - [提升你react和js编码的5个技巧](https://juejin.im/post/5e76eb30518825491b11ecf1)
+- [提升你react和js编码的5个技巧](https://mp.weixin.qq.com/s/3EAZaz4U2SGfBfHhzYMecg)
 
 #### hooks
 
@@ -544,9 +545,6 @@
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)  @@##$$
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$$
-- [面试完50个人后我写下这篇总结](https://juejin.im/post/5df1e312f265da33d039d06d)
-- [最新真实面试经验归纳的面试题](https://mp.weixin.qq.com/s/HGZDh7Ppcw-oPivI4uCyTA)
-- [从一道面试题来了解浏览器渲染过程](https://segmentfault.com/a/1190000020640587)
 - [前端面试题全面整理-带解析 涵盖（css、js、浏览器、vue、react、移动web、前端性能、算法、node）](https://segmentfault.com/a/1190000020738115)
 - [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
 - [大厂面试题](https://juejin.im/post/5d7aeea35188255de73521ff)

@@ -1,3 +1,25 @@
+- 2020.5.8
+  - revert n/v
+  - bounce n/v
+  - risk n/vt
+  - wrestle n/v
+  - mugger n
+  - assailant n
+  - invisible adj
+  - unexpected adj
+  - fear n/v
+  - advantage n
+  - urge n/v | urgent adj | urgently
+  - purge n/vt
+  - surge n/vi
+  - insurgent n/adj
+
+  > the fear of a second spike
+  > wrestle it to the floor
+  > the contry passed the 200 mark on death in hospital
+  > bounce back
+  > change him in any way that's apparent
+
 - 2020.5.7
   - due n/adj/adv
   - longstanding adj
@@ -207,7 +229,6 @@
   - deputize vi
   - incline n/v
   - supervision n
-  - intensive adj
 
 - 2020.4.13
   - overrun n/v
@@ -496,7 +517,7 @@
   > this makes it just about the worst page in a terrible book
 
 - 2020.3.13
-  - entertain v | entertainment
+  - entertain v | entertainment | entertainer n
   - ironic adj
   - communal adj
   - marginalize vt
@@ -1578,7 +1599,6 @@
   - concession n | concess v
   - abortion n
   - downplay vt
-  - surge n/vi
   - thrive vi
   - vice versa adv
   - forgiving adj | forgive
@@ -1684,7 +1704,6 @@
   - levee n
   - agreement n | agree v
   - asylum n
-  - purge n/vt
   - scrutiny n | scrutinize vt
   - achieve v | achievable adj
 
@@ -1957,8 +1976,6 @@
   > I have the final say on xxxx
 
 - 2019.9.25
-  - urge n/v | urgent adj | urgently
-  - insurgent n/adj
   - spur n/v
   - extraordinary adj| ordinary adj | ordinarily
   - plastic n/adj
@@ -2057,7 +2074,7 @@
   - offering n
   - involve v | involvement n
   - dismiss vt
-  - maximum n | minimum n
+  - maximum n | minimum n | minimize v
   - crown n/vt
 
   > give us the context here
