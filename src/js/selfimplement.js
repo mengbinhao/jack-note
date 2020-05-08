@@ -221,7 +221,7 @@ const chunk = (arr, size) => {
 	})
 }
 
-const randonReplacementArray = (array) => {
+const randomReplacementArray = (array) => {
 	var len = array.length
 	var temp = []
 	while (len--) {
@@ -380,7 +380,7 @@ document.addEventListener('scroll', betterScrollThrottleAdvanced)
  *
  * @param  {function} func        回调函数
  * @param  {number}   wait        表示时间窗口的间隔
- * @param  {boolean}  immediate   设置为ture时,是否立即调用函数
+ * @param  {boolean}  immediate   设置为true时,是否立即调用函数
  * @return {function}             返回客户调用函数
  */
 const debounceAdvance = (func, wait = 50, immediate = true) => {
@@ -540,9 +540,9 @@ const fibClosure = (function () {
 		}
 	}
 })()
-// console.time("caculateFibonacci");
-// console.log(caculateFibonacci(30));
-// console.timeEnd("caculateFibonacci");
+// console.time("calculateFibonacci");
+// console.log(calculateFibonacci(30));
+// console.timeEnd("calculateFibonacci");
 // console.time("fibClosure");
 // console.log(fibClosure(30));
 // console.timeEnd("fibClosure");
@@ -650,7 +650,7 @@ const foo = {
 	name: 'foo',
 }
 
-const bound = bar.mybind(foo, 22, 33, 44)
+const bound = bar.simulateBindAdvance(foo, 22, 33, 44)
 new bound() // bar, [22, 33, 44]
 bound() // foo, [22, 33, 44]
 
@@ -686,11 +686,10 @@ const simulateCurryFormalParameter = function (fn, args) {
 	}
 }
 
-const curry = (fn, ...args) => {
+const curry = (fn, ...args) =>
 	args.length < fn.length
 		? (...arguments) => curry(fn, ...args, ...arguments)
 		: fn(...args)
-}
 
 var compose = function (...args) {
 	var len = args.length // args函数的个数
@@ -747,6 +746,15 @@ function getType2(obj) {
 		return 'element'
 	}
 	return map[str]
+}
+
+const getType3 = (obj) => {
+	return Object.prototype.toString.call(obj).slice(8, -1)
+}
+
+const getType4 = (obj) => {
+	let str = Object.prototype.toString.call(obj)
+	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
 
 const hasPubProperty = (attr, obj) => {
@@ -823,7 +831,7 @@ const deepClone = (source, cache = new WeakMap()) => {
 }
 
 const objTest = {
-	strProperty: 'muyiy',
+	strProperty: 'strProp',
 	objProperty: {
 		title: "You Don't Know JS",
 		price: '45',
@@ -894,7 +902,7 @@ const copyDeepClone = function (obj) {
 // // 将派生类的原型的原型链挂在基类的原型上
 // Object.setPrototypeOf(Derived.prototype, Base.prototype);
 
-const similateInherit = (function () {
+const simulateInherit = (function () {
 	let F = function () {}
 	return function (Child, Parent) {
 		F.prototype = Parent.prototype
@@ -950,15 +958,6 @@ const simulateInstanceOf = (left, right) => {
 		if (proto === prototype) return true
 		proto = Object.getPrototypeOf(proto)
 	}
-}
-
-const getBuitlInType = (obj) => {
-	return Object.prototype.toString.call(obj).slice(8, -1)
-}
-
-const getBuitlInType2 = (obj) => {
-	let str = Object.prototype.toString.call(obj)
-	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
 
 //String
@@ -1019,7 +1018,7 @@ let it = makeIterator([1, 2, 3])
 // xhr.onreadystatechange = function(){
 //   if(xhr.readyState === 4){
 //     if(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304){
-//       conso.log('succeed')
+//       console.log('succeed')
 //     }else{
 //       consol.log('fail')
 //     }
@@ -1057,12 +1056,12 @@ const myAJAX = (options) => {
 		xhr.open(options.method, options.url, options.async)
 		xhr.send(postData)
 	} else if (options.method === 'GET') {
-		xhr.open(options.mehtod, options.url + postData.join('&'), options.async)
+		xhr.open(options.method, options.url + postData.join('&'), options.async)
 		xhr.send(null)
 	}
 }
 
-const queryURLParamaterByRegex = (url) => {
+const queryURLParameterByRegex = (url) => {
 	let obj = {}
 	let reg = /([^?=&]+)=([^?=&]+)/g
 	url.replace(reg, (...arg) => {
@@ -1077,12 +1076,12 @@ const addURLParam = (url, name, value) => {
 	return url
 }
 
-Element.prototype.insertAfter = function (targerNode, afterNode) {
+Element.prototype.insertAfter = function (targetNode, afterNode) {
 	var beforeNode = afterNode.nextElementSibling
 	if (beforeNode == null) {
-		this.appendChild(targerNode)
+		this.appendChild(targetNode)
 	} else {
-		this.insertBefore(targerNode, beforeNode)
+		this.insertBefore(targetNode, beforeNode)
 	}
 }
 
@@ -1377,12 +1376,12 @@ function myRequest(url, method, params) {
 //5 for of可与break、continue和return配合使用
 //6 for of提供遍历所有数据结构的统一操作接口
 var student = {
-	name: 'wujunchuan',
+	name: 'jack',
 	age: 22,
 	locate: {
 		country: 'china',
 		city: 'xiamen',
-		school: 'XMUT',
+		school: 'xi gong da',
 	},
 }
 for (var key of Object.keys(student)) {
@@ -1395,7 +1394,7 @@ function template(html, obj) {
 	})
 }
 
-template('{{name}}很厉name害，才{{ age }}岁', { name: 'jawil', age: '15' })
+template('{{name}}很厉name害，才{{ age }}岁', { name: 'jack', age: '15' })
 
 //implement promise
 function MyPromise(executor) {
@@ -1534,26 +1533,26 @@ function resolvePromise(promise2, x, resolve, reject) {
 	}
 }
 
-class EventEmeitter {
+class EventEmitter {
 	constructor() {
 		this._events = this._events || new Map() //储存事件/回调键值对
 		this._maxListeners = this._maxListeners || 10 //设立监听上限
 	}
 }
 
-EventEmeitter.prototype.emit = function (type, ...args) {
-	let hander
+EventEmitter.prototype.emit = function (type, ...args) {
+	let handler
 	//从储存事件键值对的this._events中获取对应事件回调函数
 	handler = this._events.get(type)
 	if (args.length > 0) {
-		hander.apply(this, args)
+		handler.apply(this, args)
 	} else {
 		handler.call(this)
 	}
 	return true
 }
 
-EventEmeitter.prototype.addListener = function (type, fn) {
+EventEmitter.prototype.addListener = function (type, fn) {
 	//将type事件以及对应的fn函数放入this._events中储存
 	if (!this._events.get(type)) {
 		this._events.set(type, fn)
