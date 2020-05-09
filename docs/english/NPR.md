@@ -1,3 +1,9 @@
+- 2020.5.9
+  - spotlight n
+  - warehouse n
+  - thrust v
+  - grocery n
+
 - 2020.5.8
   - revert n/v
   - bounce n/v
@@ -56,7 +62,7 @@
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj
-  - nonprofit adj
+  - profit n/v | nonprofit adj
   - trove n
   - corpse n
   - plaintiff n
@@ -2669,7 +2675,7 @@
   > Compared to you guys in the US, you are like open books
 
 - 2019.7.19
-  - massive adj | mass n/v
+  - massive adj | mass n/v/adj
   - cargo n
   - Pentagon n
   - ally n/vt | allied adj

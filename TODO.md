@@ -218,7 +218,6 @@
 #### Vue related
 
 - [10个Vue开发技巧](https://juejin.im/post/5e8a9b1ae51d45470720bdfa)
-- [Vue2 VS Vue3中构建相同的组件](https://mp.weixin.qq.com/s/KEnDabcOFaEh3Foasxncbw)
 - [为什么Vue中不要用index作为key](https://juejin.im/post/5e8694b75188257372503722)
 - [你不知道的vue-devtools](https://juejin.im/post/5e0cbdd6e51d4541162c9493)
 - [收藏的关于Vue技巧or实践的文章](https://segmentfault.com/a/1190000021469258)
@@ -227,7 +226,6 @@
 - [一张图理清 Vue 3.0 的响应式系统](https://mp.weixin.qq.com/s/BvpBxs8WjYHFJvzkvmjxvw)
 - [Vue中容易被忽视的知识点](https://segmentfault.com/a/1190000021229517)
 - [simpel vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
-- [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [手把手带你实现最精简Vue的data、computed、watch](https://juejin.im/post/5db6433b51882564912fc30f)
 - [从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
 - [v-slot用法](https://www.zoo.team/article/slot)
@@ -260,6 +258,12 @@
 - [耽误你的十分钟，让MVVM原理还给你](https://mp.weixin.qq.com/s/-ShpY9fSXjsqrHOuv7a7ng)
 - [Vue组件传参的八种方式总结](https://juejin.im/post/5e5deff4f265da573d61ad04)
 - [总结vue知识体系之实用技巧](https://juejin.im/post/5e5f0ef8518825490b6489a2)
+
+#### Vue 3
+
+- [从Vue2转换到Vue3](https://mp.weixin.qq.com/s/QHYOtxlpRkBJyzNQCXTiBA)
+- [Vue2 VS Vue3中构建相同的组件](https://mp.weixin.qq.com/s/KEnDabcOFaEh3Foasxncbw)
+- [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 
 #### project related
 
