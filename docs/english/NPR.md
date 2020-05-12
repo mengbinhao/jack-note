@@ -1,3 +1,14 @@
+- 2020.5.12
+  - mentor n
+  - blind n/vt/adj/adv
+  - glut n/vt
+  - spec n
+  - discount n/v
+  - Atlantic n/adj
+
+  > some of it is sent on spec
+  > it needs to stick with
+
 - 2020.5.11
   - aftermath n
   - seemingly adv
@@ -7,6 +18,17 @@
   - amplify v
   - unequivocally  adv
   - sexually adv
+  - admire v
+  - recognise vt
+  - pride n/v
+  - honour n/vt
+  - jubilant adj
+  - despair n/vi
+  - bleak adj
+  - pursuit n
+  - salute n/v
+  - rejoice v
+  - tribulation n
 
   > political pressure on him has been mounting
   > to get a sense of what her response to all of this has been
@@ -381,7 +403,6 @@
   - identify v | unidentified adj
   - pandemic adj | epidemic n/adj
   - gasp n/v
-  - decease n/vi
   - obit n
   - crematorium n
   - cemetery n
@@ -748,7 +769,7 @@
   - league n | legend n
   - jersey n
   - tribute n
-  - personality n
+  - personality n | personalize vt
   - chafe n/v
   - kin n
   - coroner n
@@ -1072,7 +1093,7 @@
   - severe adj
   - volcano n
   - rotate v/adj
-  - immunity n
+  - immune adj | immunity n
   - nominate vt
 
   > the have put the priority on getting those bodies back
@@ -1526,7 +1547,7 @@
 - 2019.10.30
   - cinematic adj
   - raid n/vt
-  - vivid adj
+  - vivid adj | vividly adv
   - dribble n/vt
   - swoop n/vi
   - tunnel n/v
@@ -1640,7 +1661,7 @@
   > fall apart
 
 - 2019.10.22
-  - ceasefire n
+  - cease v | decease n/vi | ceasefire n
   - equivalent n/adj
   - toll n/vt
   - vague adj
@@ -1767,7 +1788,7 @@
   - condemnation n | condemn vt | condemned adj
   - approve v | disapprove v | approval n
   - outcry n
-  - displace vt | displaced adj
+  - displace vt | displaced adj | place n/vt
   - strident adj
   - volatile adj
 
@@ -2110,7 +2131,7 @@
 
 - 2019.9.16
   - snap n/adj
-  - keen vi/adj
+  - keen adj
   - inflict vt
   - disaster n | disastrous adj
   - flout vt
@@ -2294,7 +2315,7 @@
   - founder n
   - swamp n
   - consumption n
-  - coastal adj
+  - coast n | coastal adj
   - nightmarish adj
   - concentrated adj
   - centrally adv | centralized adj | centrist n/adj
@@ -2319,7 +2340,6 @@
   - feud n/vi
   - nasty adj
   - mock n/adj/v
-  - offensive n/adj
   - retract vt
   - climate n
   - occasion n/vt | occasional adj
@@ -2334,6 +2354,7 @@
   - governor n
   - wrath n
   - grab v
+  - offensive n/adj
 
   > put aside xxxxx
   > but at bottom
@@ -2549,7 +2570,7 @@
   - compliance n
   - produce n/vt
   - measured
-  - invaluable adj
+  - in-valuable adj | valuable
   - brake n
   - ballistic adj
   - instability n
@@ -2581,7 +2602,7 @@
   - tragedy n ｜ comedy n | tragic adj
   - residence n | resident n/adj | residency
   - lax adj
-  - spree n
+  - spree n/vi
   - witness n/vt
   - conflicting adj | conflict n/vi
   - ideology n | ideological adj | ideologically adv

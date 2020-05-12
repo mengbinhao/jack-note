@@ -2,11 +2,10 @@
 
 - jack-note / caibaojian / 30seconds
 - zaolunzi
-- leetcode(206、24、141、142、25)
 - 极客 **react(需再看)** / **Node.js(51)** / **Vue(未总结)** / **算法** / **算法面试(7)**/ webpack / TypeScript
-- 掘金小册(**react practise and Summary**)
+- 掘金小册(**react practice and Summary**)
 
-### practise
+### practice
 - [mvc撸一个](https://github.com/taniarascia/mvc)
 - [9个项目助你在2020年成为前端大师](https://segmentfault.com/a/1190000020907687)
 - [nodejs 实战课程](http://study.163.com/course/introduction.htm?courseId=1003675016#/courseDetail?tab=1)
@@ -192,6 +191,7 @@
 - [JavaScript面向对象编程之class](https://juejin.im/post/5e8c29f56fb9a03c423794ed)
 - [避免JS中过多的使用IF语句](https://developer.51cto.com/art/202004/614413.htm)
 - [前端最佳实践之可维护性](https://mp.weixin.qq.com/s/-_07EP43yiOjyg29RVhgJA)
+- [javascript正则深入以及10个非常有意思的正则实战](https://juejin.im/post/5eb65cde51882560d56d6fb9)
 
 ### mobile
 
@@ -221,13 +221,13 @@
 
 - [10个Vue开发技巧](https://juejin.im/post/5e8a9b1ae51d45470720bdfa)
 - [为什么Vue中不要用index作为key](https://juejin.im/post/5e8694b75188257372503722)
-- [你不知道的vue-devtools](https://juejin.im/post/5e0cbdd6e51d4541162c9493)
+- [你不知道的vue-Devtool](https://juejin.im/post/5e0cbdd6e51d4541162c9493)
 - [收藏的关于Vue技巧or实践的文章](https://segmentfault.com/a/1190000021469258)
 - [Vue数据双向绑定原理和实现](https://segmentfault.com/a/1190000021327394)
 - [v-show原理](http://www.alloyteam.com/2019/12/14124/)
 - [一张图理清 Vue 3.0 的响应式系统](https://mp.weixin.qq.com/s/BvpBxs8WjYHFJvzkvmjxvw)
 - [Vue中容易被忽视的知识点](https://segmentfault.com/a/1190000021229517)
-- [simpel vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
+- [simple vue2 implement](https://mp.weixin.qq.com/s/fRFnuBqdHn5kBgWiPQR7ew)
 - [手把手带你实现最精简Vue的data、computed、watch](https://juejin.im/post/5db6433b51882564912fc30f)
 - [从一个简单的list组件搞懂Vue插槽](https://juejin.im/post/5da72b3fe51d4524cf450f8e)
 - [v-slot用法](https://www.zoo.team/article/slot)
@@ -256,7 +256,7 @@
 - [Vue使用Jest单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
 - [Vue实现一个全屏加载插件](https://juejin.im/post/5e3307145188252c30002fa7)
 - [vue and vuex source](https://segmentfault.com/a/1190000021717329)
-- [使用混合Mixins和插件开发](https://segmentfault.com/a/1190000021679760)
+- [使用混合Mixin和插件开发](https://segmentfault.com/a/1190000021679760)
 - [耽误你的十分钟，让MVVM原理还给你](https://mp.weixin.qq.com/s/-ShpY9fSXjsqrHOuv7a7ng)
 - [Vue组件传参的八种方式总结](https://juejin.im/post/5e5deff4f265da573d61ad04)
 - [总结vue知识体系之实用技巧](https://juejin.im/post/5e5f0ef8518825490b6489a2)
@@ -325,7 +325,7 @@
 - [Vue.js的动态组件模板](https://segmentfault.com/a/1190000019763034)
 - [基于Vue的两层吸顶踩坑总结](https://mp.weixin.qq.com/s/QoKZYVa3yBy4pdXxSgXTYA)
 - [手把手教你实现一个渲染海量数据的tree组件](https://segmentfault.com/a/1190000021228976)
-- [tree-componet](https://github.com/cxuhwiuefhuefu/tree-componet)
+- [tree-component](https://github.com/cxuhwiuefhuefu/tree-componet)
 - [table component](https://juejin.im/post/5e218ce75188254dc74a4285)
 - [强化表单的9个Vue输入库](https://juejin.im/post/5e2e94a26fb9a02fe81861c0)
 - [vue-cli3 webpack简单性能优化](https://juejin.im/post/5e54c9d06fb9a07cd614d2a0)
@@ -350,7 +350,7 @@
 #### Vuex
 
 - [喝个茶的时间就学会了vuex](https://juejin.im/post/5a7278dc6fb9a01c9c1f59e7)
-- [vuex快速上手指北](https://juejin.im/post/5e955f29f265da480304a303)
+- [Vuex快速上手指北](https://juejin.im/post/5e955f29f265da480304a303)
 - [Vuex优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)
 - [如何大大简化你的Vuex Store](https://juejin.im/post/5d3ac87ef265da1bce3e1791)
 - [Redux 和 Vuex 的对比](https://juejin.im/post/5d6a6997e51d4561a54b69f6)
@@ -607,6 +607,7 @@
 
 #### Vue
 
+- [30道Vue面试题](https://juejin.im/post/5d59f2a451882549be53b170)
 - [Vue.js](https://juejin.im/post/5e9800f751882573b0474b7c)
 - [一万两千字总结的36个Vue开发面经](https://mp.weixin.qq.com/s/m_-7orUpVqBWtESc-zJk6w)
 - [高级前端开发者必会的34道Vue面试题](https://juejin.im/post/5e8c8d43e51d454714426c92)
