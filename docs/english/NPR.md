@@ -1,3 +1,14 @@
+- 2020.5.13
+  - eager adj
+  - distrack vt
+  - propaganda n
+  - vain adj
+  - defecor n
+  - daring n/adj
+  - infiltrate v
+
+  > this whole thing doesn't really added up, It doesn't make a lot of sense
+
 - 2020.5.12
   - mentor n
   - blind n/vt/adj/adv
@@ -855,7 +866,7 @@
   - shrapnel n
   - grieve v | grieving adj
   - furious adj
-  - assassination n
+  - assassination n | assassinate vt
   - irresponsible n/adj/adv
   - honor n/vt | dishonor n/vt
   - dissent n/vi
@@ -2561,7 +2572,7 @@
   - handful n
   - endorse vt | endorsement n
   - so-called adj
-  - invasion n | incursion n | incur vt ｜ invade v
+  - invasion n | incursion n | incur vt ｜ invade v | invader
 
 - 2019.8.8
   - treaty n

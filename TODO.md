@@ -119,6 +119,7 @@
 - [Promise源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
 - [你真的懂Promise吗](https://mp.weixin.qq.com/s/zcZwMRg9nymQrp4n6FEldA)
 - [Promise/AA/Fetch/Axios API](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
+- [Promises的5种最佳实践](https://juejin.im/post/5eb8faa76fb9a043877cdf88)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
@@ -260,12 +261,14 @@
 - [耽误你的十分钟，让MVVM原理还给你](https://mp.weixin.qq.com/s/-ShpY9fSXjsqrHOuv7a7ng)
 - [Vue组件传参的八种方式总结](https://juejin.im/post/5e5deff4f265da573d61ad04)
 - [总结vue知识体系之实用技巧](https://juejin.im/post/5e5f0ef8518825490b6489a2)
+- [前后端分离那些事Vue](https://juejin.im/post/5eaa3e29e51d454dab604701)
 
 #### Vue 3
 
 - [从Vue2转换到Vue3](https://mp.weixin.qq.com/s/QHYOtxlpRkBJyzNQCXTiBA)
 - [Vue2 VS Vue3中构建相同的组件](https://mp.weixin.qq.com/s/KEnDabcOFaEh3Foasxncbw)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
+- [10个小练习，快速入门Vue3.0核心新特性](https://segmentfault.com/a/1190000022612964)
 
 #### project related
 
