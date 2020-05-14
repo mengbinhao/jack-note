@@ -1,3 +1,11 @@
+- 2020.5.14
+  - recuse vt
+  - graphic adj
+  - leak n/v
+  - bureau n
+  - murder n/v
+  - jog n/v | jogger
+
 - 2020.5.13
   - eager adj
   - distrack vt
@@ -687,7 +695,7 @@
 - 2020.3.5
   - naval n
   - centric adj
-  - suspect n
+  - suspect n/v/adj
   - chronic adj
   - culmination n
   - soil n

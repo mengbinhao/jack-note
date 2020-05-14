@@ -410,6 +410,7 @@
 - [总结几个webpack打包优化的方法](https://juejin.im/post/5ddc8a6be51d4523275838db)
 - [带你深度解锁Webpack系列(优化篇)](https://mp.weixin.qq.com/s/1BdKGW43MqWWsdQJ7MYI7w)
 - [如何使用splitChunks精细控制代码分割](https://mp.weixin.qq.com/s/PKdxW6QbmPoXg9lBHcGCLA)
+- [webpack打包优化](https://mp.weixin.qq.com/s?__biz=MzI2NTk2NzUxNg==&mid=2247485080&idx=2&sn=56424d7a0b9ea9b7af1059fdb7f8ba2c)
 
 ### React
 
@@ -553,12 +554,7 @@
 - [前端常见20道高频面试题深入解析](https://mp.weixin.qq.com/s?__biz=MzI1NTcxOTQ1Nw==&mid=2247488166&idx=1&sn=2f4b4c3a646e806f4de54c4126d041b5) @@##$$
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)  @@##$$
-- [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$$
-- [前端面试题全面整理-带解析 涵盖（css、js、浏览器、vue、react、移动web、前端性能、算法、node）](https://segmentfault.com/a/1190000020738115)
-- [简历这么写才能获得面试官的青睐](https://mp.weixin.qq.com/s/c3Nh1cWx3Z_Np_lCriHzyQ)
-- [大厂面试题](https://juejin.im/post/5d7aeea35188255de73521ff)
-- [za](https://segmentfault.com/a/1190000019946154)
-- [大厂面试题](https://mp.weixin.qq.com/s/sBk9j7GYh877nEKvuBQIAA)
+- [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$
 - [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
 - [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273)
 - [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
