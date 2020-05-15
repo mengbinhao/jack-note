@@ -555,9 +555,6 @@
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)  @@##$$
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$
-- [一个前端失业者的面试之旅](https://juejin.im/post/5d2bf33a6fb9a07eae2a8dd6)
-- [面试题深入解析周刊系列](https://segmentfault.com/a/1190000019429273)
-- [金三银四大厂](https://juejin.im/post/5cb87f9df265da03555c78ec)
 - [interview front](https://juejin.im/post/5cb92d9a5188254160581b87)
 - [一名【合格】前端工程师的自检清单](https://segmentfault.com/a/1190000018992363)
 - [拿不到 offer 算我输](https://juejin.im/post/5cbff661e51d456e693f48ec)

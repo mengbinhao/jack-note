@@ -1,3 +1,12 @@
+- 2020.5.15
+  - thumb n/v
+  - material n/adj
+  - classify vt | declassified
+  - revolve v
+
+  > take a look at xxx from top to bottom
+  > it came to the conclusion that xxx
+
 - 2020.5.14
   - recuse vt
   - graphic adj
@@ -929,7 +938,7 @@
 
 - 2020.1.19
   - convene v
-  - guilty adj | guilt n
+  - guilt n | guilty adj
   - shortage n
   - verge n
   - nonchalant adj
@@ -1801,7 +1810,7 @@
   - fleet n/v
   - neutralize vt | neutrality n | neutral adj
   - fatality n
-  - extent n | extend v | extended adj | extension n | expand v
+  - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
   - relative adj
   - arrange v | arrangement n
   - condemnation n | condemn vt | condemned adj
@@ -1886,7 +1895,7 @@
   - reference n/vt
   - mention n/vt
   - civics n | civic adj
-  - plea | plead v | pleading n/adj
+  - plea n | plead v | pleading n/adj
   - oath n
   - chatty adj
 
@@ -2649,7 +2658,7 @@
   - refer v
   - brevity n
   - obstruction n | obstruct vt
-  - ultimately adv | ultimate adj
+  - ultimate adj | ultimately adv
   - exonerate n/vt/adj
   - motivated adj | motivation n | motive n
   - integrity n
@@ -2760,7 +2769,7 @@
   - esteemed adj
   - reiterate vt
   - forum n
-  - conduct n/v | misconduct n
+  - conduct n/v | mis-conduct n
   - contrary n/adj/adv
   - high-profile adj
   - reserve n/v | preserve n/vt
