@@ -1,3 +1,24 @@
+- 2020.5.18
+  - virus n
+  - timeline n
+  - wand n
+  - destruct v | destruction n
+  - brand n/v
+  - ambivalent adj
+  - valet nn/v
+
+  > as the day go by
+  > xxx at odds with yyy
+  > although overall
+
+- 2020.5.16
+  - peer n
+  - relapse n/vi
+  - pierce v | piercing adj
+
+  > backward looking
+  > and so based upon that
+
 - 2020.5.15
   - thumb n/v
   - material n/adj
@@ -459,7 +480,7 @@
   - stimulus n
   - elbow n/vt
   - disinfect vt
-  - infectious adj
+  - infect vt | infectious adj
   - dodge n/v
   - versus prep
   - monger n/vt
@@ -1620,7 +1641,7 @@
   - spill n/v
   - cannon n/v
   - hike n/v
-  - transit n/vt/adj | transitional adj
+  - transit n/vt/adj | transitional adj | transition
   - repression n
   - lambaste vt
   - dissatisfaction n
@@ -2533,7 +2554,7 @@
   - scale n/vt
   - panicky adj
   - disseminate vt
-  - hospitalize vt
+  - hospitalize vt | hospitality n
   - specialist n/adj
   - outsider n
   - anthem n
@@ -2926,7 +2947,7 @@
   - firmly adv | firm n/vt/adj
   - spike n/v
   - loan n/vt
-  - recession n | recess n/vt
+  - recession n | recess n/vt | depression n
   - expansion n | expansive adj | pension n/vt
   - prospect n/vi
   - debate n/v

@@ -87,7 +87,6 @@
 
 - [前端首屏耗时测量方法](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483755&idx=2&sn=03985684a9901e4f2a3b801339f708b7)
 - [前端面试必备——权限控制](https://segmentfault.com/a/1190000020887109)
-- [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/Ov84B6t-xJNv6G8de-yHIw)
 - [http缓存实战](https://segmentfault.com/a/1190000021374783)
 - [前端 resource](https://segmentfault.com/a/1190000016420985)
 - [前端 resource](http://0313.name/archives/485)
@@ -102,12 +101,14 @@
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)
 - [每个前端工程师都应该了解的图片知识](https://segmentfault.com/a/1190000019231550)
 - [XSS Cheat Sheet](http://byd.dropsec.xyz/2019/10/24/xss-tips-payloads/)
-- [CSS浏览器兼容处理](https://zhuanlan.zhihu.com/p/97418850)
 - [优化CSS并加速网站的21种方法](https://mp.weixin.qq.com/s/dGH_13zG9nN1onE2zZP1-Q)
 - [客户端渲染与服务端渲染](https://juejin.im/post/5e2130415188254ca22bb70e)
 - [HTTP所有头](https://segmentfault.com/a/1190000021624813)
 - [还分不清Cookie、Session、Token、JWT](https://mp.weixin.qq.com/s/sF96Vgcp9FU--oeRlh4IdA)
+- [CSS浏览器兼容处理](https://zhuanlan.zhihu.com/p/97418850)
 - [浏览器的工作原理](https://mp.weixin.qq.com/s/gcKSR-Z7sm6WCZXTjtw8tA)
+- [浏览器渲染原理](https://mp.weixin.qq.com/s/qPxDYVpzmazZaSIcaVWMpQ)
+- [一文搞懂浏览器缓存机制](https://mp.weixin.qq.com/s/Ov84B6t-xJNv6G8de-yHIw)
 - [快速开发一个Antd级别的组件库](https://mp.weixin.qq.com/s/nuwSW8cAv0izEk4GIofI7w)
 - [熟悉面试中常见的的web安全问题](https://mp.weixin.qq.com/s/VSB4FnbEmH9yZ84pgRnaBw)
 - [在前端重构中获取到的一些经验总结](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484881&idx=1&sn=e07796111adc419836d88cbf15a2b42d)
@@ -555,8 +556,6 @@
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)  @@##$$
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$
-- [interview front](https://juejin.im/post/5cb92d9a5188254160581b87)
-- [一名【合格】前端工程师的自检清单](https://segmentfault.com/a/1190000018992363)
 - [拿不到 offer 算我输](https://juejin.im/post/5cbff661e51d456e693f48ec)
 - [前端实习面试记录](https://juejin.im/post/5cbbd2a0e51d456e8a12efaa)
 - [记 2019 前端面经](https://segmentfault.com/a/1190000018736404)
