@@ -556,7 +556,6 @@
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$
 - [阿里P6手写](https://mp.weixin.qq.com/s/eEHKyneyPqnQjnFr_Dt16A)  @@##$$
 - [十几道含答案的大厂面试题总结](https://mp.weixin.qq.com/s/dKCtX-S6-UyojTfTiqxNww)  @@##$
-- [拿不到 offer 算我输](https://juejin.im/post/5cbff661e51d456e693f48ec)
 - [前端实习面试记录](https://juejin.im/post/5cbbd2a0e51d456e8a12efaa)
 - [记 2019 前端面经](https://segmentfault.com/a/1190000018736404)
 - [大厂 interview 思考](https://segmentfault.com/a/1190000017949080)
