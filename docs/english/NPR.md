@@ -1,3 +1,23 @@
+- 2020.5.21
+  - dealer n
+  - lend v
+  - auction n/v
+  - debt n
+
+- 2020.5.19
+  - squander vt
+  - guideline n
+  - advertise vt
+  - hesitate v
+  - restaurant n
+  - colossal adj
+  - elementary adj
+  - construction n
+  - outline n/v
+  - course n/vt
+
+  > we've been through the initial peek, but it's coming down the mountain that is often more dangerous
+
 - 2020.5.18
   - virus n
   - timeline n
@@ -237,7 +257,6 @@
   - cohesive adj
   - authority n
   - unveil v
-  - reserves n/v
 
   > they are just political in nature
   > she was taken out of context
@@ -1490,7 +1509,7 @@
   - stark adj
   - agonize v
   - meddling n/v
-  - bluntly adj | blunt adj/vt
+  - blunt adj/vt | bluntly adj
 
   > to put bluntly
   > Why didn't that ever come to pass?
@@ -1832,6 +1851,7 @@
   - neutralize vt | neutrality n | neutral adj
   - fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
+  - expanse n | expansion n | expansive adj | pension n/vt
   - relative adj
   - arrange v | arrangement n
   - condemnation n | condemn vt | condemned adj
@@ -1985,7 +2005,7 @@
   - adopt v
   - boost n/vt
   - fiscal adj
-  - budget n/vt/adj | budge v
+  - budget n/vt | budge v
   - deficit n
   - bashful adj
   - wasteful adj
@@ -2058,7 +2078,8 @@
 
 - 2019.9.25
   - spur n/v
-  - extraordinary adj| ordinary adj | ordinarily
+  - ordinary adj | ordinarily
+  - extraordinary adj | extraordinarily
   - plastic n/adj
   - renewable adj
   - accountable adj | unaccounted adj | accountability n
@@ -2487,7 +2508,7 @@
   - precede vt
   - anxiety n
   - decent adj
-  - investor n
+  - investor n | invest v
   - retire v
   - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
@@ -2620,7 +2641,7 @@
   - produce n/vt
   - measured
   - in-valuable adj | valuable
-  - brake n
+  - brake n/v
   - ballistic adj
   - instability n
   - peril n
@@ -2940,7 +2961,7 @@
   - cite vt
   - inflation/deflation n
   - resist v
-  - sustainable adj | sustained adj | sustain vt
+  - sustainable adj | sustained adj | sustain vt | unsustainable
   - concern n/vt | concerned adj | concerning adj
   - pace n/v
   - impetus n
@@ -2948,7 +2969,6 @@
   - spike n/v
   - loan n/vt
   - recession n | recess n/vt | depression n
-  - expansion n | expansive adj | pension n/vt
   - prospect n/vi
   - debate n/v
   - staggering adj
@@ -2972,7 +2992,7 @@
 
 - 2019.7.2
   - intention | intentional | intentionally
-  - loose n/vt/adj
+  - loose n/vt/adj | loosen v
   - conciliatory adj
   - tactical adj | tactic n
   - hawkish adj
