@@ -113,6 +113,7 @@
 - [熟悉面试中常见的的web安全问题](https://mp.weixin.qq.com/s/VSB4FnbEmH9yZ84pgRnaBw)
 - [在前端重构中获取到的一些经验总结](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484881&idx=1&sn=e07796111adc419836d88cbf15a2b42d)
 - [使用Webpack配置React和Vue开发环境](https://juejin.im/post/5e8759d4e51d4546e26375de)
+- [大规格文件的上传优化](https://mp.weixin.qq.com/s/0oVi1qYNe0QNiPmThco2qg)
 
 ### JS
 
@@ -412,6 +413,7 @@
 - [带你深度解锁Webpack系列(优化篇)](https://mp.weixin.qq.com/s/1BdKGW43MqWWsdQJ7MYI7w)
 - [如何使用splitChunks精细控制代码分割](https://mp.weixin.qq.com/s/PKdxW6QbmPoXg9lBHcGCLA)
 - [webpack打包优化](https://mp.weixin.qq.com/s?__biz=MzI2NTk2NzUxNg==&mid=2247485080&idx=2&sn=56424d7a0b9ea9b7af1059fdb7f8ba2c)
+- [前端性能优化——webpack篇](https://mp.weixin.qq.com/s/8sY_vWtilbexKDzAb8bDjg)
 
 ### React
 

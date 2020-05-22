@@ -104,6 +104,7 @@
 4. `queryObjects(Person)`
 5. `getEventListeners($(‘selector’))` //查找与DOM中的元素关联的事件
 6. `document.body.contentEditable=true `   //将浏览器转换为编辑器
+7. `document.designMode='on'`
 
 ### 5.Sources
 - {} => format

@@ -1,3 +1,11 @@
+- 2020.5.22
+  - retribution n
+  - unlawful adj
+  - retaliate
+
+  > in a nutshell
+  > That was a quote from that piece
+
 - 2020.5.21
   - dealer n
   - lend v
@@ -767,7 +775,6 @@
   - swap n/v
   - percentage n
   - entity n
-  - contender n
   - usual adj
   - pillar n/v
   - fractious adj
@@ -1390,7 +1397,7 @@
   - scene n
   - curious adj
   - renounce vt
-  - principally adj
+  - principal n/adj | principally adv
   - applause n
   - industrialization n | industrial adj
 
@@ -2063,7 +2070,7 @@
   - lecture n/v
   - portfolio n
   - plate n
-  - contend v
+  - contend v | contender n
   - razor n
   - profile
   - elsewhere
@@ -2114,7 +2121,7 @@
   - modest adj
   - insurance n
   - stride n/vt
-  - blasted adj | blast n/vt | blasting
+  - blast n/vt | blasted adj | blasting
   - notable n/adj
   - architect n
   - unnerving adj
@@ -2619,7 +2626,7 @@
   - alliance n
   - disintegrate v | disintegrating | integrate v
   - division n
-  - retaliation n | revenge n/v
+  - retaliation n | revenge n/v | retaliate vi | retaliatory adj
   - mend v
   - fence n/v
 
@@ -2957,7 +2964,7 @@
 
 - 2019.7.5
   - federal adj/n
-  - disappointment n | appointment n | appoint v | appointed adj
+  - disappointment n | appointment n | appoint v | appointed adj | appointee n
   - cite vt
   - inflation/deflation n
   - resist v
@@ -2980,7 +2987,6 @@
 - 2019.7.4
   - drone n
   - unmanned adj
-  - retaliate vi | retaliatory adj
   - casualty n
   - de-escalate v | escalate v | escalation n
   - negotiate v | negotiator n | negotiation n
