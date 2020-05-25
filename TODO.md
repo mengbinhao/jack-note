@@ -271,6 +271,7 @@
 - [Vue2 VS Vue3中构建相同的组件](https://mp.weixin.qq.com/s/KEnDabcOFaEh3Foasxncbw)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [10个小练习，快速入门Vue3.0核心新特性](https://segmentfault.com/a/1190000022612964)
+- [记一次vue3.0技术分享会](https://segmentfault.com/a/1190000022719461)
 
 #### project related
 
@@ -282,6 +283,7 @@
 - [Vue中的项目优化](https://juejin.im/post/5d9939d0e51d45781332e949)
 - [Vue CLI 首屏优化技巧](https://mp.weixin.qq.com/s/Mi42xwB3wsARILhi5hi4fQ)
 - [Vue项目性能优化—实践指南](https://juejin.im/post/5d548b83f265da03ab42471d)
+- [Vue项目优化技巧](https://juejin.im/post/5ec730bae51d4578732e61b6)
 - [axios二次封装/请求按模块合并/global.js/Vue组件动态注册/Hiper/Vue抽象组件封装/gzip](https://mp.weixin.qq.com/s/qYpBaJmiw6b2YvMnzsO4NQ)
 - [Axios封装](https://juejin.im/post/5d89c75651882509662c55b1)
 - [Vue项目中使用Axios封装http请求](https://www.helloweba.net/javascript/617.html)
@@ -475,6 +477,7 @@
 - [十个案例学会React Hooks](https://mp.weixin.qq.com/s/3pW0KxnOV-5HSdZhFNqQQA)
 - [什么时候使用useMemo和useCallback](https://mp.weixin.qq.com/s/JP7vP9VF8k2IytgqSRFT2w)
 - [写React Hooks前必读](https://zhuanlan.zhihu.com/p/113216415)
+- [精读《React Hooks 最佳实践》](https://segmentfault.com/a/1190000020329053)
 
 #### React Router
 - [React Router使用](https://segmentfault.com/a/1190000020471085)

@@ -1,3 +1,13 @@
+- 2020.5.25
+  - flame n/v
+  - imperative adj
+  - moral n/adj
+  - pretend v
+  - curtain n/vt
+  - tear v/n
+
+  > Why go after him?
+
 - 2020.5.22
   - retribution n
   - unlawful adj
@@ -321,7 +331,7 @@
   - mathematically adj
   - nominee n
   - presumptive adj
-  - virtually adv
+  - virtual adj | virtually adv
   - delegate n/vt
 
   > It caught my ear
@@ -537,7 +547,7 @@
   - adjust v | adjustment n
   - peculiar adj
   - hotspot n
-  - muddle n/v | muddled adj
+  - muddle n/v | muddled adj | muddy v/adj
 
   > He's been widely criticized for an initial slow and muddled response to the outbreak
   > but they seemed to have recognized that some adjustment was necessary
@@ -1062,7 +1072,6 @@
 
 - 2020.1.9
   - unionist n
-  - loyalist n
   - psychological adj
   - burden n/vt
   - integral adj
@@ -1208,6 +1217,7 @@
   - pursue v
   - silly adj
   - baseless adj
+  - basement n
   - resurgence n
   - district n
   - acquiesce n/vi/adj
@@ -1239,7 +1249,7 @@
   - worthwhile adj
   - comprehensive adj
   - exclamation n
-  - gross adj
+  - gross adj | grossly adv
 
   > can't help but do sth
   > the language we use affects how we think and who we are
@@ -1502,7 +1512,7 @@
   - cough v
   - respiratory adj
   - advisory n
-  - routine n | ritual n/adj
+  - routine n | ritual n/adj | routinely adv
   - outskirt n
 
   > go wrong
@@ -1591,7 +1601,7 @@
   - comeback n
   - influential adj | influence n/vt
   - drown v
-  - loyal adj
+  - loyal adj | loyalty n | loyalist n
   - outright adj/adv
   - detached adj
   - furrow v/adj
@@ -1688,7 +1698,6 @@
 - 2019.10.26
   - fallout n
   - compartment vt/n
-  - basement n
   - classified adj
   - stall n/v
   - ethic n
@@ -2463,7 +2472,7 @@
   - demonstration n | demonstrate v
   - interfere vi | interference n | intervene vi | intervention n
   - contrary n/adj/adv
-  - criminality n | crime n
+  - criminality n | crime n | criminal n/adj
   - exaggerated adj
   - culprit n
   - exploit n/vt
@@ -2701,6 +2710,7 @@
   > step down
 
 - 2019.7.30
+  - shady adj
   - shadow n/vt/adj
   - presidency n
   - committee n | commitment n | committed adj
@@ -2854,7 +2864,7 @@
   - cable n/vt
   - ambassador n
   - inept adj
-  - in-competent adj
+  - competent adj | incompetent adj
   - radiate v
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
