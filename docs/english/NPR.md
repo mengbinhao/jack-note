@@ -1,3 +1,9 @@
+- 2020.5.26
+  - suppress vt
+  - severity n
+  - gist n
+  - complicit adj
+
 - 2020.5.25
   - flame n/v
   - imperative adj
@@ -2643,7 +2649,7 @@
   - massacre n/vt
   - legislation n | legislative adj | legislature n | legislator n
   - legitimate adj | legitimacy n | illegitimate
-  - universal n/adj
+  - universal n/adj ｜ universally
   - handful n
   - endorse vt | endorsement n
   - so-called adj
@@ -2749,7 +2755,7 @@
 - 2019.7.25
   - enrollment n | enrol v
   - roughly adv | rough adj
-  - essential n/adj | essence n | essentially adv
+  - essence n | essential n/adj | essentially adv
   - prescription n
   - repeal vt/n
   - affordable adj | afford vt

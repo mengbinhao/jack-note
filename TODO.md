@@ -195,6 +195,7 @@
 - [避免JS中过多的使用IF语句](https://developer.51cto.com/art/202004/614413.htm)
 - [前端最佳实践之可维护性](https://mp.weixin.qq.com/s/-_07EP43yiOjyg29RVhgJA)
 - [javascript正则深入以及10个非常有意思的正则实战](https://juejin.im/post/5eb65cde51882560d56d6fb9)
+- [js一些工具函数](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484756&idx=1&sn=970d60c1368b2c1c7a39e2cb8b68631b)
 
 ### mobile
 
