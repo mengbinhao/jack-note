@@ -1,3 +1,10 @@
+- 2020.5.27
+  - brunt n
+  - allowance n
+  - generous adj
+
+  > People can stay on their feet
+
 - 2020.5.26
   - suppress vt
   - severity n
@@ -973,7 +980,6 @@
   - ferry n/v
   - brace n/vt | bracing adj
   - dub vt
-  - stampede n/v
   - burial n/adj
   - explosion n
   - counterattack n
@@ -2026,7 +2032,7 @@
   - blueprint n
   - adopt v
   - boost n/vt
-  - fiscal adj
+  - fiscal adj | fiscally
   - budget n/vt | budge v
   - deficit n
   - bashful adj
