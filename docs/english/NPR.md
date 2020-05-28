@@ -1,3 +1,15 @@
+- 2020.5.28
+  - sufficient adj | sufficiently
+  - toilet n
+  - convert v
+  - shelter n/v
+  - delta n
+  - protect vt | protective adj
+  - cyclone n
+  - shred n/v
+
+  > but even in those
+
 - 2020.5.27
   - brunt n
   - allowance n
@@ -1829,7 +1841,7 @@
   - Jeez
   - raft n/v
   - resume n/vt
-  - evacuation n | evacuate v
+  - evacuation n | evacuate v | evacuee n
   - dam n
   - levee n
   - agreement n | agree v
@@ -2596,7 +2608,7 @@
 - 2019.8.15
   - arctic n/adj
   - sketchy adj | sketch n/v
-  - contamination n | contaminated adj
+  - contamination n | contaminated adj | contaminate vt
   - contradictory adj | contradict v
   - terse adj
   - comparison n
