@@ -266,6 +266,7 @@
 - [Vue组件传参的八种方式总结](https://juejin.im/post/5e5deff4f265da573d61ad04)
 - [总结vue知识体系之实用技巧](https://juejin.im/post/5e5f0ef8518825490b6489a2)
 - [前后端分离那些事Vue](https://juejin.im/post/5eaa3e29e51d454dab604701)
+- [Vue数据更新了但页面没有更新的7种情况汇总及延伸总结](https://segmentfault.com/a/1190000022772025)
 
 #### Vue 3
 
@@ -274,6 +275,7 @@
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [10个小练习，快速入门Vue3.0核心新特性](https://segmentfault.com/a/1190000022612964)
 - [记一次vue3.0技术分享会](https://segmentfault.com/a/1190000022719461)
+- [1.1万字从零解读Vue3.0源码响应式系统](https://mp.weixin.qq.com/s/A6WgCjQj3KsaKC6kSLy-1A)
 
 #### project related
 
@@ -584,6 +586,7 @@
 - [all](https://segmentfault.com/a/1190000022120350)
 - [再来一打Webpack面试题](https://mp.weixin.qq.com/s?__biz=Mzg2NDAzMjE5NQ==&mid=2247485446&idx=1&sn=44e1854d1a082d2d3dbed728cbc2661b)
 - [面试题](https://segmentfault.com/a/1190000022282401)
+- [最惨前端面经](https://mp.weixin.qq.com/s/gT9MF1l52HuKUpmeNIByCQ)
 
 #### css&html
 

@@ -1,3 +1,18 @@
+- 2020.5.29
+  - recusal n
+  - trash n/vt
+  - endure v
+  - poll n/v | ballot n/v
+  - focal adj
+  - override vt
+  - refuse v
+  - reinforce n/v
+  - congregate v
+  - therapy n
+
+  > I deem it essential to be with you
+  > the numbers might be cooked to make it look bad
+
 - 2020.5.28
   - sufficient adj | sufficiently
   - toilet n
@@ -138,7 +153,6 @@
   - despair n/vi
   - bleak adj
   - pursuit n
-  - salute n/v
   - rejoice v
   - tribulation n
 
@@ -420,7 +434,7 @@
   - remain n/v
   - obvious adj
   - preach v
-  - absent vt/adj
+  - absent vt/adj | absentee n
   - constant adj
   - inexact adj
   - secretary
@@ -1202,7 +1216,7 @@
   - volcano n
   - rotate v/adj
   - immune adj | immunity n
-  - nominate vt
+  - nominate vt | nomination
 
   > the have put the priority on getting those bodies back
   > working on a very tight clock there
@@ -2549,7 +2563,7 @@
   - anxiety n
   - decent adj
   - investor n | invest v
-  - retire v
+  - retire v | retirement n
   - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
   - backlash n
@@ -2973,7 +2987,7 @@
   - supply n/vt | supplier n
   - deny vt | denial n
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
-  - standpoint
+  - standpoint n
   - astronomical adj
   - fine adj/adv/vt/n
   - waiver n
