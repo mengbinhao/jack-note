@@ -1,3 +1,12 @@
+- 2020.6.1
+  - aviation n
+  - wreckage n
+  - scarf n
+  - cacophony n
+  - onboard adj
+
+  > all the hospital are on an emergency footing
+
 - 2020.5.29
   - recusal n
   - trash n/vt
@@ -2724,7 +2733,7 @@
   - garlic n
   - choke v
   - tragedy n ｜ comedy n | tragic adj
-  - residence n | resident n/adj | residency
+  - residence n | resident n/adj | residency | residential adj
   - lax adj
   - spree n/vi
   - witness n/vt
