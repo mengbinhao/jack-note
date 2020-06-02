@@ -1,3 +1,13 @@
+- 2020.6.2
+  - loudspeaker n
+  - dictate n/v
+  - flatter vt
+  - mogul n
+  - regulatory adj
+  - consecutive adj
+
+  > while the media deals with nonsense, I will continue to lead Israel on the issue that really matter to you
+
 - 2020.6.1
   - aviation n
   - wreckage n
@@ -1528,7 +1538,7 @@
 
 - 2019.11.14
   - fraud n
-  - persecute vt
+  - persecute v | persecution n
   - victor n
   - finding n
   - regularity n | irregularity
@@ -2017,7 +2027,7 @@
 - 2019.10.9
   - tout n/vt
   - patriot n | patriotism | unpatriotic adj
-  - barrier n/vt
+  - barrier n/vt | barricade n/vt
   - subsidy n | subsidize vt
   - manipulation n
   - dumping n | dump n/v
@@ -2516,7 +2526,7 @@
   - mobilize vt
   - corrode v
   - dampen vt
-  - demonstration n | demonstrate v
+  - demonstration n | demonstrate v | demonstrator
   - interfere vi | interference n | intervene vi | intervention n
   - contrary n/adj/adv
   - criminality n | crime n | criminal n/adj
