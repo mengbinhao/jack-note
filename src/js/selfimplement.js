@@ -868,7 +868,7 @@ const copyDeepClone = function (obj) {
 	if (obj instanceof Array) {
 		copy = []
 		for (let i = 0, len = obj.length; i < len; i++) {
-			copy[i] = deepClone(obj[i])
+			copy[i] = copyDeepClone(obj[i])
 		}
 		return copy
 	}
@@ -883,13 +883,56 @@ const copyDeepClone = function (obj) {
 	if (obj instanceof Object) {
 		copy = {}
 		for (let attr in obj) {
-			if (obj.hasOwnProperty(attr)) copy[attr] = deepClone(obj[attr])
+			if (obj.hasOwnProperty(attr)) copy[attr] = copyDeepClone(obj[attr])
 		}
 		return copy
 	}
 	throw new Error(
 		"Unable to copy obj as type isn't supported " + obj.constructor.name
 	)
+}
+
+function deepClone2(data) {
+	let result = {}
+	const keys = [
+		...Object.getOwnPropertyNames(data),
+		...Object.getOwnPropertySymbols(data),
+	]
+	if (!keys.length) return data
+	keys.forEach((key) => {
+		let item = data[key]
+		if (item && typeof item === 'object') {
+			result[key] = deepClone2(item)
+		} else {
+			result[key] = item
+		}
+	})
+	return result
+}
+
+function deepClone2Advanced(obj) {
+	let map = new WeakMap()
+	function deep(data) {
+		let result = {}
+		const keys = [
+			...Object.getOwnPropertyNames(data),
+			...Object.getOwnPropertySymbols(data),
+		]
+		if (!keys.length) return data
+		const exist = map.get(data)
+		if (exist) return exist
+		map.set(data, result)
+		keys.forEach((key) => {
+			let item = data[key]
+			if (typeof item === 'object' && item) {
+				result[key] = deep(item)
+			} else {
+				result[key] = item
+			}
+		})
+		return result
+	}
+	return deep(obj)
 }
 
 //inheritinheritinheritinheritinheritinherit

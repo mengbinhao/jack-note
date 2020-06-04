@@ -1,3 +1,36 @@
+- 2020.6.4
+  - reckon v
+  - calamity n
+  - casualties n
+  - grasp n/v
+  - comprise vt
+  - skew n/v/adj
+  - evaluate v | evaluation n
+  - population n
+
+  > to put in place social distancing
+  > Four out of five whose lives ended were 65 or older
+  > get xxx down to a very low level
+  > He admits that he missed the mark
+  > the weight of calamity is going to become much more apparent to poeple in the upcoming days and weeks
+  > while the country tries getting back on its feed
+
+- 2020.6.3
+  - align v
+  - boast n/vt
+  - contrive v
+  - relish n/v
+  - greet vt
+  - palace n
+  - subvert vt
+  - deride vt
+  - erect vt/adj
+  - vacant adj
+  - tally n/v
+
+  > Health systems are hanging by a thread
+  > xxx dive in without a mask
+
 - 2020.6.2
   - loudspeaker n
   - dictate n/v
@@ -69,7 +102,6 @@
 
 - 2020.5.22
   - retribution n
-  - unlawful adj
   - retaliate
 
   > in a nutshell
@@ -164,7 +196,7 @@
   - amplify v
   - unequivocally  adv
   - sexually adv
-  - admire v
+  - admire v | admiration n
   - recognise vt
   - pride n/v
   - honour n/vt
@@ -241,7 +273,7 @@
   - starvation n | starve v
   - situate vt/adj | situation n
   - painful | hurtful
-  - systematic adj
+  - systematic adj | systematically
   - nonprofit adj
   - trove n
   - corpse n
@@ -481,7 +513,6 @@
   > The new virus has now been diagnosed on every continent but Antarctica. It appears to be deadly in around two percent of cases
 
 - 2020.4.5
-  - institute n/vt
   - simultaneously adv
   - exacerbate vt
   - cripple v/adj
@@ -523,7 +554,7 @@
   - harbor n
   - inhibit vt
   - tangle n/v | tangled adj
-  - contestant n
+  - contestant n | contest n/v
 
   > Let's get right to the heart of this
   > It was intended to be a sequenced process
@@ -887,7 +918,6 @@
   - present n/v/adj | represent vt | representative n/adj
   - clap n/v
   - bitterly adj
-  - stunt n/v
 
   > I was not elected to do small things and shy away from big problems
   > There is a sense that this is not even worth anybody's time
@@ -1062,7 +1092,7 @@
   - restraint n
   - comfortable adj | uncomfortable
   - distinction n | distinct adj | distinctive adj
-  - stun vt
+  - stun n/vt
   - momentum n
   - tent n
 
@@ -1230,7 +1260,7 @@
   - compensation n
   - unenviable adj
   - retrieve v
-  - eruption n | erupted v
+  - eruption n | erupt v
   - severe adj
   - volcano n
   - rotate v/adj
@@ -1550,6 +1580,7 @@
   - abandon n/v
   - overhaul v
   - awful adj | awfully adv
+  - unlawful adj
   - downfall n
   - accelerate v
   - shove n/vt
@@ -1650,7 +1681,7 @@
   > It's not clear whether xxx
 
 - 2019.11.1
-  - tilt n/vi
+  - tilt n
   - giant n/adj
   - astute adj
   - pragmatic adj
@@ -1987,12 +2018,11 @@
   - conceal vt | concealed adj
   - bothersome adj
   - properly adv | improperly adv | improper adj
-  - erupt vi
   - spontaneously adv
   - disperse v | dispersed adj
   - heavy-handed adj
   - median n/adj
-  - barely adv
+  - bare adj | barely adv
   - overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
   - curfew n
   - religious adj | religion n
@@ -2410,7 +2440,7 @@
   - vital adj
   - blindside vt
   - reprimand n/vt
-  - trilateral | bilateral adj ｜ unilateral adj
+  - unilateral adj | bilateral adj | trilateral adj
   - chancellor n
   - mistrust n/vt
   - reluctantly adv | reluctant adj
@@ -2486,7 +2516,7 @@
   - retract vt
   - climate n
   - occasion n/vt | occasional adj
-  - shrug n/vt
+  - shrug n/v
   - stretch n/v
   - incidentally adv
   - crucial adj
@@ -2511,6 +2541,7 @@
   - deputy n
   - opportunism n
   - blistering adj
+  - institute n/vt
   - institution n | institutional adj
   - respect | disrespect n/vt
   - defiant adj
@@ -2520,7 +2551,6 @@
   - decree n/vt
   - dismayed adj | dismay n/vt
   - stance n
-  - admiration n
   - underestimated adj | estimate n/vt
   - tackle n/vt
   - mobilize vt
@@ -2819,13 +2849,12 @@
   - carpet n/vt
   - fuel n/v
   - trembling n
-  - cite vt
   - nerve n
   - figure n/vt
   - reveal vt
   - transparent adj | transparency n | in-transparency n
   - exhausting adj | exhausted adj
-  - sympathetic adj | sympathize vi |pathetic adj
+  - sympathy n | sympathetic adj | sympathize vi | pathetic adj
   - footage n
   - dis adj
   - recharge vt
@@ -2863,7 +2892,7 @@
   - finality n
   - unauthorized adj | authorization n
   - raise n/v
-  - dispute n/v | disputed adj
+  - dispute n/v | disputed adj | undisputed
   - alien n/adj
   - strategist n
 
@@ -2970,7 +2999,7 @@
   > it is hard to swallow
 
 - 2019.7.11
-  - soar vi
+  - soar n/vi
   - ploy n
   - soften v
   - tremendous adj
