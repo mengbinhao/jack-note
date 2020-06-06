@@ -1,3 +1,25 @@
+- 2020.6.6
+  - knee n
+  - curse n/v
+
+  > you know, we don't want to, if it comes to that, we have to
+  > they have been overwhelmed
+
+- 2020.6.5
+  - widen v
+  - fault n
+  - deserve v
+  - thug n
+  - executive n/adj
+  - glorify vt
+
+  > Twitter is not back down
+  > This executive order is probably not legally going to carry much weight
+  > put xxx in the mix
+  > play out
+  > depending how this goes, xxxx
+  > That's the thing he's been saying for a while now
+
 - 2020.6.4
   - reckon v
   - calamity n
@@ -815,7 +837,7 @@
   > xxx has risen by a third in the past year alone
 
 - 2020.3.9
-  - politicization n
+  - politicization n | politicize vt
   - unfounded adj
   - mishandle vt
   - rein n/v
@@ -2874,7 +2896,6 @@
   - Pentagon n
   - ally n/vt | allied adj
   - defy vt | defiance n
-  - standoff n
   - acquire vt | acquisition n
   - stealth n/adj
   - maintenance n
@@ -3159,7 +3180,7 @@
   - stockpile n/vt
   - enrich v | enriched adj | enrichment n
   - altogether adv
-  - reactor adv
+  - reactor adv | react | reaction
   - headline n/vt
   - relief n
   - abide vi
