@@ -1,3 +1,13 @@
+- 2020.6.8
+  - contingent n
+  - standby n
+  - enforce vt | enforcement
+  - lawless adj | lawlessness n
+  - bluster n/v
+
+  > in large degree
+  > which raises really interesting question
+
 - 2020.6.6
   - knee n
   - curse n/v
@@ -937,7 +947,7 @@
   - purposely adv
   - slim adj
   - suburb n
-  - present n/v/adj | represent vt | representative n/adj
+  - present n/v/adj | represent vt | representative n/adj | presence n
   - clap n/v
   - bitterly adj
 

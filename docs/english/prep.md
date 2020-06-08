@@ -21,7 +21,7 @@ The light is on
 I'm working on my computer
 My heart will go on and on and on
 ```
-6. 表示动作、行为、事物所指向的对象same as about
+6. 表示动作、行为、事物所指向的对象(same as about)
 ```
 Please be easy on the door
 This book is on/about China
@@ -33,7 +33,7 @@ I will keep an eye on my phone
 `in the morning/afternoon/evening`
 2. 表示具体事件之后
 `in 3 minutes`
-3. 固定用法，表示等一会
+3. 固定用法,表示等一会
 `in a minute/second/moment`
 4. 在...里面
 5. 表示沉浸、陷入
@@ -45,7 +45,10 @@ in a good mood
 in happiness
 ```
 7. 表示形状
-`in a rectangle`
+```
+in a rectangle
+in large degree
+```
 8. 表示份数
 `I cut off the cake in two`
 
@@ -88,7 +91,7 @@ what are you doing up
 go over to your friend's place
 take over your company
 ```
-2. 从状态不好到状态好，克服
+2. 从状态不好到状态好,克服
 `get over`
 3. 覆盖、笼罩
 `cover over`
