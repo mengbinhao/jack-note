@@ -1,3 +1,12 @@
+- 2020.6.9
+  - protein n
+  - inject vt | injection
+  - diagnostic adj
+  - genetic adj
+  - antibody n
+  - contract
+
+
 - 2020.6.8
   - contingent n
   - standby n
@@ -1590,7 +1599,7 @@
   - contrast n/v
   - avenue n | venue n
   - revenue n
-  - assure vt | reassure
+  - assure vt | reassure vt
 
   > hang in
   > by any means
