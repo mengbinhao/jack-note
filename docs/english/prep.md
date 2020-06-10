@@ -1,3 +1,6 @@
+![](./prep.png)
+
+
 #### on
 1. on sth surface
 2. 具体某一天`on friday / on Jan 1st`
@@ -113,6 +116,7 @@ I come here for a gift
 I send him to the hospital
 I go to the park
 I brought a cake for her
+ten to ten
 ```
 2. for表示原因
 `he was  put into prison for no reason`
@@ -237,4 +241,40 @@ I feel down today
 1. 脱离某个状态
 ```
 Dad took off his pants
+```
+
+#### by
+1. 在静态的空间位置上有“在旁边、靠近”的意思(next to/near/beside)
+```
+Stanley lives by the sea.(可以看得见海的那种)
+Stanley lives near the sea.(差不多住在几公里以外)
+```
+2. 在动态的空间运动上有“通过、经过(through or through the medium)”的意思
+`They came in by the back door.`
+3. 引申出时间关系，表示“不晚于某一时间(no later than; at or before)”
+`The application needs to be in by the 31st to be accepted.`
+4. 凭借(某种交通工具) 
+```
+by air/bus/bike/boat
+My parents have never travelled by plane before.
+```
+5. 通过(某种通讯手段)
+`by telephone/post/email/fax`
+6. 支付手段
+```
+by credit card/cheque
+Can I pay by credit card? No. You must pay in cash.
+```
+1. 以…的方式
+```
+by doing something
+I killed the cockroach by hitting it.
+I killed the cockroach with my shoe
+I got where I am by hard work. No you didn’t. You got there with your wife’s money
+```
+
+#### despite(in spite of)
+```
+We understood him in spite of his accent
+We understood him although he had a strong accent
 ```

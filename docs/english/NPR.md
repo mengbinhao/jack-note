@@ -1,3 +1,15 @@
+- 2020.6.10
+  - dispersal n
+  - contentious adj
+  - nation n
+  - fitness n
+  - inflection n
+  - coincide vi
+
+  > once in a while
+  > in a clear with xxx
+  > an inflection point
+
 - 2020.6.9
   - protein n
   - inject vt | injection
@@ -5,7 +17,6 @@
   - genetic adj
   - antibody n
   - contract
-
 
 - 2020.6.8
   - contingent n
@@ -268,7 +279,7 @@
   - unexpected adj
   - fear n/v
   - advantage n
-  - urge n/v | urgent adj | urgently
+  - urge n/v | urgent adj | urgently | dire adj
   - purge n/vt
   - surge n/vi
   - insurgent n/adj
@@ -404,7 +415,6 @@
 - 2020.4.21
   - substitute v
   - cohesive adj
-  - authority n
   - unveil v
 
   > they are just political in nature
@@ -458,7 +468,6 @@
   - mainstream n
   - champion n/v
   - numerical adj
-  - broaden v
   - mathematically adj
   - nominee n
   - presumptive adj
@@ -647,7 +656,7 @@
   - stimulus n
   - elbow n/vt
   - disinfect vt
-  - infect vt | infectious adj
+  - infect vt | infectious adj | infection
   - dodge n/v
   - versus prep
   - monger n/vt
@@ -915,7 +924,7 @@
   - swap n/v
   - percentage n
   - entity n
-  - usual adj
+  - usual adj | unusual
   - pillar n/v
   - fractious adj
   - delicate adj
@@ -978,7 +987,6 @@
 - 2020.2.27
   - nephew n | niece n
   - distribute vt | distribution n | distributed adj
-  - aggressive adj | aggressiveness n
   - agility n | agile adj
   - league n | legend n
   - jersey n
@@ -1826,7 +1834,6 @@
 
 - 2019.10.26
   - fallout n
-  - compartment vt/n
   - classified adj
   - stall n/v
   - ethic n
@@ -2041,7 +2048,7 @@
   - withdrawal n | withdraw v | withhold vt
   - decimate vt
   - patrol n/vt
-  - harshly adv
+  - harshly adv | harsh adj
 
   > he admitted that after one month hiatus the two sides had a lot of catching up to do
   > they have very little room to work with
@@ -2118,7 +2125,7 @@
   - breach n/vt
   - restrained adj
   - caucus n/vi
-  - premature adj
+  - premature n/adj | mature v/adj
   - deflect v
 
   > xxx in pointing fingers at Iran
@@ -2263,11 +2270,11 @@
   - architect n
   - unnerving adj
   - rebound vi
-  - appropriate adj
+  - appropriate adj | inappropriate
   - offset vt
   - precisely adv | precise adj
   - nonetheless adv
-  - broadly adj | broad
+  - broadly adj | broad | broaden v
 
   > the US economy still has a lot going for it
   > this is the second time in seven weeks xxx
@@ -2854,7 +2861,6 @@
 
 - 2019.7.26
   - conservative n/adj | conservation n | conservatism n
-  - dire adj
   - daunting/daunted adj
   - can-do
   - divisive adj
@@ -2930,7 +2936,7 @@
   - impose v | self-imposed adj | imposition n
   - derail n/v
   - finality n
-  - unauthorized adj | authorization n
+  - authority n | unauthorized adj | authorization n
   - raise n/v
   - dispute n/v | disputed adj | undisputed
   - alien n/adj
@@ -3133,7 +3139,7 @@
   > it does kind of raise questions about how xxxx
 
 - 2019.7.2
-  - intention | intentional | intentionally
+  - intent | intention | intentional | intentionally
   - loose n/vt/adj | loosen v
   - conciliatory adj
   - tactical adj | tactic n
@@ -3218,7 +3224,7 @@
   - departure n | depart v
   - personnel n
   - tenure n
-  - aggressive adj | aggressively adv | aggression n
+  - aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe
   - insult n/vt
   - resolutely adj

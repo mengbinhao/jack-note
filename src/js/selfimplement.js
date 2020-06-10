@@ -519,6 +519,25 @@ const add = (() => {
 	}
 })()
 
+//add(1) // 1
+//add(1)(2)// 3
+//add(1, 2)(3, 4, 5)(6) // 21
+var add = (...args) => {
+	let arr = args
+	let fn = (...newArgs) => {
+		arr = [...arr, ...newArgs]
+		return fn
+	}
+
+	fn.toString = fn.valueOf = function () {
+		return arr.reduce((acc, cur) => {
+			return acc + cur
+		})
+	}
+
+	return fn
+}
+
 //在JS中只有全局和函数作用域,函数作用域在函数执行完成后就会销毁,内存随之回收
 //闭包是建立在函数内部的子函数,由于其可以访问上级作用域的原因,即使上级函数执行完
 //作用域也不会随之销毁,这时的子函数也就是闭包拥有了访问上级作用域中的变量的权限
