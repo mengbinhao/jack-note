@@ -511,6 +511,7 @@
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
 - [如何撤销Git操作](http://www.ruanyifeng.com/blog/2019/12/git-undo.html)
 - [Git高级用法小抄](https://mp.weixin.qq.com/s/IElzbmcJUFue0NFWAz_soA)
+- [一份值得收藏的Git异常处理清单](https://mp.weixin.qq.com/s/zpAqx3MOa9qDX7cZxRE7Wg)
 - [提高效率的10个Git小技巧](https://segmentfault.com/a/1190000020099456)
 - [vscode项目配置eslint+prettier](https://juejin.im/post/5be5429de51d4511a808f4ac)
 - [提交git时自动格式化并通过ESlint检测prettier + husky + lint-staged + eslint](https://juejin.im/post/5d565ffdf265da03f12e55bb)
