@@ -1,3 +1,14 @@
+- 2020.6.11
+  - dual adj
+  - deport vt
+  - nightmare n
+  - furlough n/vt
+  - privacy n
+  - detention n
+  - custody
+
+  > We have to leave it there, I'm afraid
+
 - 2020.6.10
   - dispersal n
   - contentious adj
@@ -173,7 +184,7 @@
   - restaurant n
   - colossal adj
   - elementary adj
-  - construction n
+  - construction n | construct vt | constructive adj
   - outline n/v
   - course n/vt
 
@@ -555,7 +566,7 @@
 
 - 2020.4.7
   - breakout n
-  - confident adj
+  - confident adj | confidence n/adj
   - community n
   - vaccine n/adj
   - Antarctica n
@@ -761,7 +772,6 @@
   - bump n/v
   - haven n/vt
   - reconcile vt
-  - facilitate vt
 
   > that's the name of the game
   > tip the scales
@@ -2513,7 +2523,6 @@
   - thwart n/vt/prep
   - seize v
   - agenda n
-  - confidence n/adj
   - potential n/adj
   - sideline n/vt
   - majority n/adj
@@ -2924,7 +2933,7 @@
   - acquire vt | acquisition n
   - stealth n/adj
   - maintenance n
-  - facility n
+  - facility n | facilitate vt | facilitation
   - adversary n
   - undercut vt
   - vow n/vt
