@@ -1,3 +1,17 @@
+- 2020.6.15
+  - blanket n
+  - circulate v
+  - aberration n
+  - swift adj
+  - elicit vt
+  - apology n
+  - unarmed adj
+  - halfway adj/adv
+
+  > lead by example
+  > It's been all over the Israeli news
+  > The apology does not matter to us
+
 - 2020.6.11
   - dual adj
   - deport vt
@@ -336,7 +350,7 @@
   - starvation n | starve v
   - situate vt/adj | situation n
   - painful | hurtful
-  - systematic adj | systematically
+  - systematic adj | systematically | systematize vt
   - nonprofit adj
   - trove n
   - corpse n
@@ -1575,7 +1589,7 @@
   - mythical adj
   - ultimatum n
   - fruitless adj
-  - remorse n
+  - remorse n | remorseful
   - contrition n
   - minor n/adj
   - prostitution n
@@ -2398,7 +2412,7 @@
   - betray vt | betrayal n
   - bitter n/adj/vt
   - injustice n | justice n
-  - oppressive adj
+  - oppress vt | oppressive adj
   - savage n/adj/vt
   - vibrant adj
   - revolution n | evolution n | revolutionary n/adj
