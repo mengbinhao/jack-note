@@ -272,6 +272,7 @@
 
 #### Vue 3
 
+- [10个小练习，快速入门Vue3核心新特性](https://mp.weixin.qq.com/s/wdw77mRplCukQzTuHW2U4g)
 - [从Vue2转换到Vue3](https://mp.weixin.qq.com/s/QHYOtxlpRkBJyzNQCXTiBA)
 - [Vue2 VS Vue3中构建相同的组件](https://mp.weixin.qq.com/s/KEnDabcOFaEh3Foasxncbw)
 - [一张图理清Vue3的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
