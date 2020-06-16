@@ -149,16 +149,24 @@ Array.prototype.myForEach = function (fn) {
 }
 
 Array.prototype.myMap = function (fn) {
-	let result = []
+	if (typeof fn !== 'function') {
+		throw new TypeError(fn + 'is not a function')
+	}
+
+	let ret = []
 	for (let i = 0; i < this.length; i++) {
 		if (i in this) {
-			result.push(fn.call(undefined, this[i], i, this))
+			ret.push(fn.call(undefined, this[i], i, this))
 		}
 	}
-	return result
+	return ret
 }
 
 Array.prototype.myFilter = function (fn) {
+	if (typeof fn !== 'function') {
+		throw new TypeError(fn + 'is not a function')
+	}
+
 	let result = []
 	for (let i = 0; i < this.length; i++) {
 		if (i in this) {
@@ -192,7 +200,7 @@ Array.prototype.mySome = function (fn, thisArg) {
 	return false
 }
 
-Array.prototype.simulateReduce = function (fn, initialValue) {
+Array.prototype.myReduce = function (fn, initialValue) {
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + ' is not a function')
 	}
@@ -209,10 +217,10 @@ Array.prototype.simulateReduce = function (fn, initialValue) {
 	return value
 }
 
-Array.prototype.simulateReduce2 = (f, acc, arr) => {
+Array.prototype.myReduce2 = (f, acc, arr) => {
 	if (arr.length === 0) return acc
 	const [head, ...tail] = arr
-	return reduce(f, f(head, acc), tail)
+	return myReduce2(f, f(head, acc), tail)
 }
 
 const chunk = (arr, size) => {
@@ -298,6 +306,19 @@ function simulateThrottle(fn, interval = 300) {
 		}
 	}
 }
+
+function simulateThrottle2(fn, interval = 300) {
+	let timer = null
+	return (...args) => {
+		if (!timer) {
+			timer = setTimeout(() => {
+				fn.apply(this, args)
+				timer = null
+			}, interval)
+		}
+	}
+}
+
 const betterScrollThrottle = simulateThrottle(
 	() => console.log('触发了滚动事件'),
 	1000
@@ -580,7 +601,8 @@ function simulateNew() {
 	let obj = Object.create(Constructor.prototype)
 	let result = Constructor.apply(obj, arguments)
 	//in case constructor return a simple type
-	return result && (typeof result === 'object' || typeof result === 'function')
+	return result !== null &&
+		(typeof result === 'object' || typeof result === 'function')
 		? result
 		: obj
 }

@@ -1,3 +1,14 @@
+- 2020.6.16
+  - character n | characterization n
+
+  > What are the big takeaways?
+  > His job approval rating is at 41%
+  > It's down a couple points since March, but about where it's been
+  > All that's put X in a big hole against Y
+  > Let's dig a little more deeply into what people think about xxxx
+  > Americans as a whole don't agree with his characterization of them
+  > as ..... as opposed to ...
+
 - 2020.6.15
   - blanket n
   - circulate v
@@ -131,7 +142,7 @@
   - recusal n
   - trash n/vt
   - endure v
-  - poll n/v | ballot n/v
+  - poll n/v | ballot n/v | pollster n
   - focal adj
   - override vt
   - refuse v
@@ -1221,7 +1232,7 @@
   - doorstep n
   - continent n | intercontinental adj
   - fury n
-  - favorable adj
+  - favor n/vt | favorable adj | unfavorable
   - provocation n
   - lump n
   - peninsula n
@@ -1653,7 +1664,7 @@
   - abandon n/v
   - overhaul v
   - awful adj | awfully adv
-  - unlawful adj
+  - unlawful adj | lawful
   - downfall n
   - accelerate v
   - shove n/vt
@@ -2728,7 +2739,7 @@
   - inspiration n
   - vice n/adj
   - expel vt
-  - intensive adj | intensify v | intense adj ｜ tense n/v/adj
+  - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj
@@ -3000,7 +3011,7 @@
   - activist n
   - joint adj
   - council n
-  - civilian n/adj | civilization n
+  - civilian n/adj | civilization n | civil adj
   - clash n/v
   - coup n
   - sole adj/n/vt
