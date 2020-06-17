@@ -1,3 +1,16 @@
+- 2020.6.17
+  - sprint n/v | marathon n/v/dj
+  - shield n/v
+  - diligent adj
+  - promote v
+  - strategy n
+  - voluntarily adv
+
+  > all hands
+  > water cooler chat
+  > who's been the front man of the crisis
+  > its unusual approach is sure to remain in the spotlight
+
 - 2020.6.16
   - character n | characterization n
 
@@ -2531,7 +2544,7 @@
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - interpret v | interpreter n | interpretation n
+  - interpret v | interpreter n | interpretation n | overinterpreted
   - articulate vt/adj
 
   > seconds matter

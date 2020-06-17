@@ -646,6 +646,7 @@
 - [Vue常见面试题](https://segmentfault.com/a/1190000020518331)
 - [Vue Router](https://www.itwork.club/2019/09/29/vue-interview-router/)
 - [Vuex面试题汇总](https://juejin.im/post/5dba91e4518825647e4ef18b)
+- [58道Vue入門面试题](https://juejin.im/post/5ee6d3c16fb9a047cd65d9dc)
 
 #### Node
 
