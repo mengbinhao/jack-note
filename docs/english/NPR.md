@@ -1,3 +1,16 @@
+- 2020.6.18
+  - assign vt | assignment
+  - recovery n
+  - dig v
+  - pinpoint n/vt/adj
+  - downturn n
+  - shade n/v | shaded
+  - practical adj | practice
+  - crawl n/v
+
+  > which shrank a little bit in the first quarter, is expected to fall off a cliff in the current quarter
+  > it took a long time after that to dig out of the hole
+
 - 2020.6.17
   - sprint n/v | marathon n/v/dj
   - shield n/v
@@ -312,7 +325,7 @@
   > to get a sense of what her response to all of this has been
 
 - 2020.5.9
-  - spotlight n
+  - spotlight n/vt | hotspot n | spot n/vt
   - warehouse n
   - thrust v
   - grocery n
@@ -484,7 +497,7 @@
   > It looks like that curve has gone over the peak
 
 - 2020.4.18
-  - shrink v | shrinkage n
+  - shrink v | shrinkage n | contraction n
   - degree n
   - amount n/vi
   - drop n/v
@@ -595,6 +608,7 @@
   - lose v
   - commerce n ｜ commercial adj
   - ripple n/v
+  - cripple v/adj
   - disease n/vt
   - tractor n
 
@@ -614,7 +628,6 @@
 - 2020.4.5
   - simultaneously adv
   - exacerbate vt
-  - cripple v/adj
   - campaign n/vi
   - exceed v
   - devastate vt
@@ -734,7 +747,6 @@
   - folk n
   - adjust v | adjustment n
   - peculiar adj
-  - hotspot n
   - muddle n/v | muddled adj | muddy v/adj
 
   > He's been widely criticized for an initial slow and muddled response to the outbreak
@@ -1163,7 +1175,8 @@
   - scramble n/v | scrambling
   - repercussion n
   - sectarian adj
-  - definitive adj
+  - definitive adj | definitely | indefinitely adv
+  - definition n
 
   > I've got to be honest here
   > but it did have language with xxx
@@ -1462,6 +1475,7 @@
   - metaphor n
   - defer vt
   - exemplify n/vt
+  - fraction n
   - infraction n
   - robust adj
   - unanimously adv
@@ -2976,7 +2990,6 @@
   - undercut vt
   - vow n/vt
   - postpone vt | postponement n
-  - indefinitely adv | definitely adv
   - mandated adj | mandate n/vt
   - sector n
   - certify vt
