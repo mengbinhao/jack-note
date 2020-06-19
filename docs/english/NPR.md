@@ -1,3 +1,10 @@
+- 2020.6.19
+  - globe n/vt
+  - reticent adj
+  - tip n/v
+
+  > it does feel worth just pausing and emphasizing that xxx
+
 - 2020.6.18
   - assign vt | assignment
   - recovery n
@@ -477,7 +484,7 @@
 - 2020.4.21
   - substitute v
   - cohesive adj
-  - unveil v
+  - veil n/vt | unveil v | unveiled adj
 
   > they are just political in nature
   > she was taken out of context
@@ -598,7 +605,7 @@
   - obvious adj
   - preach v
   - absent vt/adj | absentee n
-  - constant adj
+  - constant adj | constantly
   - inexact adj
   - secretary
 
@@ -779,7 +786,7 @@
   - maneuver n/v
   - throne n/v
   - rumor n/v
-  - commentator n
+  - comment n/v | commentator n | commentary n
   - overthrow n/vt
   - brook n/vt
 
@@ -831,7 +838,7 @@
 - 2020.3.16
   - gamble n
   - implicit adj
-  - combative adj
+  - combat n/vt | combative adj
 
   > it is not at all clear where things go from here
   > let's start with where things stand at the moment
@@ -1066,7 +1073,7 @@
   - highness n
 
 - 2020.2.25
-  - fundamental n | fund n/vt
+  - fund n/vt | fundamental n | fundamentally
   - highflier n
   - household n
   - hastiness n | haste n/v | hasty adj
@@ -1442,7 +1449,7 @@
   - eavesdrop vi
   - cavalier adj
   - petition n
-  - bias n/v/adj
+  - bias n/vt/adj/adv
   - worthwhile adj
   - comprehensive adj
   - exclamation n
@@ -2494,7 +2501,7 @@
   - rover n
   - pole n
   - approach n/v
-  - narrate vt
+  - narrate vt | narrative n
   - orbiter n
   - excitement
   - eerily adv
@@ -2685,7 +2692,7 @@
   - contingency n/adj
   - steer v | steering n/adj
   - grim adj
-  - predict v | prediction n
+  - predict v | prediction n | predictable adj
   - disruption n | disrupt vt
   - spark n/v
   - referendum n
@@ -2748,7 +2755,6 @@
   - problematic adj
   - remedy n/vt
   - forefront n
-  - suffer v
   - Soviet n/adj
 
   > he's going to have to catch on fast
@@ -2770,7 +2776,6 @@
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj
-  - combat n/vt
   - constitutional adj | unconstitutional | constitution
   - constituent n
   - shortsighted adj
@@ -3202,7 +3207,7 @@
   - intent | intention | intentional | intentionally
   - loose n/vt/adj | loosen v
   - conciliatory adj
-  - tactical adj | tactic n
+  - tactic n | tactical adj
   - hawkish adj
   - coherent adj
   - crippling adj
@@ -3250,7 +3255,7 @@
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - convicted adj | convict n/vt | conviction n | absolve vt
-  - undergo vt
+  - undergo vt | suffer v
   - prosecutor n
   - defendant n | defend v | defensive adj
   - Turkish adj/n
