@@ -424,6 +424,7 @@
 - [webpack打包优化](https://mp.weixin.qq.com/s?__biz=MzI2NTk2NzUxNg==&mid=2247485080&idx=2&sn=56424d7a0b9ea9b7af1059fdb7f8ba2c)
 - [前端性能优化——webpack篇](https://mp.weixin.qq.com/s/8sY_vWtilbexKDzAb8bDjg)
 - [再来一打Webpack面试题](https://mp.weixin.qq.com/s/WfW_L0Qs1X1wx730XmHKxw)
+- [总结18个webpack插件](https://mp.weixin.qq.com/s/VIXfl8JRbaWOwGdDpKOz6A)
 
 ### React
 

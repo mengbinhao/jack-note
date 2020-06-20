@@ -1,3 +1,12 @@
+- 2020.6.20
+  - upset n/v/adj
+  - encounter n/vt
+  - wrangle n/vi | argue
+  - bystander n
+  - sobriety n
+
+  > the chief of police has now stepped down in the weak of that
+
 - 2020.6.19
   - globe n/vt
   - reticent adj
@@ -1044,7 +1053,7 @@
 - 2020.2.28
   - era n
   - infuse v
-  - chaotic adj | chaos n
+  - chaos n | chaotic adj
   - intersect v
   - secede v
   - horizon n
@@ -1100,7 +1109,6 @@
   - associate n/v/adj | association n
   - staffer n
   - crux n
-  - wrangle n/vi
 
   > I explained my reasoning for my choice this way
   > and, of course, that's what this impeachment process has all been about
@@ -1509,7 +1517,7 @@
   - illusion n
   - mystic n/adj
   - philosopher n
-  - hogwash n | nonsense n | sense n/v | senseless adj
+  - hogwash n | nonsense n | sense n/v | senseless adj | sensitive adj
   - baffle vt
   - dimension n
   - oblivious adj
@@ -2937,7 +2945,7 @@
   - undoubtedly adv
   - successor n
   - hard-line adj
-  - appealing adj | appeal n/v
+  - appeal n/v | appealing adj
   - liken vt
   - never-ending adj
   - elite n/adj
