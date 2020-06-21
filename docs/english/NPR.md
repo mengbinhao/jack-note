@@ -1,3 +1,13 @@
+- 2020.6.21
+  - chill n/vt/adj
+  - evasion n
+  - libel n/v | libelous adj
+  - portal n
+
+  > Freedom of the press is the foundation of every single right you have as a xxx citizen
+  > where is xxxx in all of this?
+  > that's a chilling remark
+
 - 2020.6.20
   - upset n/v/adj
   - encounter n/vt
@@ -907,7 +917,7 @@
   - usher n/vt
   - commemorate vt
   - stern adj
-  - intimidate vt
+  - intimidate vt | intimidation n
 
   > controversial measure
 
@@ -2003,7 +2013,6 @@
   - acquit vt | acquittal n
   - grassroots n
   - arrest n/vt
-  - bail n/v
   - verdict n
   - dialogue n/v
   - minority n | majority n
@@ -3263,6 +3272,7 @@
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - convicted adj | convict n/vt | conviction n | absolve vt
+  - bail n/v
   - undergo vt | suffer v
   - prosecutor n
   - defendant n | defend v | defensive adj
