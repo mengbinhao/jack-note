@@ -1,3 +1,10 @@
+- 2020.6.22
+  - surgery n
+  - selfie n
+  - marine n/adj
+
+  > nothing's certain
+
 - 2020.6.21
   - chill n/vt/adj
   - evasion n
@@ -1555,7 +1562,7 @@
   - mist n
   - gaze n/vi
   - conscious adj | consciousness n
-  - innocent adj
+  - innocent n/adj
   - spat n
   - perceive v
   - pique n/vt
@@ -2536,7 +2543,7 @@
   - indigenous adj
   - Dutch n/adj
   - relinquish vt
-  - sham n/adj/vt
+  - sham n/vt
   - status n
   - decade n
   - torture n/vt
@@ -2778,7 +2785,7 @@
 
 - 2019.8.16
   - bid n/v
-  - strained adj
+  - strain n/v | strained adj
   - eligible adj
   - sick n/vt/adj
   - turnout n | turnover n
@@ -2831,7 +2838,7 @@
   - prominent adj
   - somehow adv
   - inquiry n
-  - appalled adj
+  - appall vt | appalled adj
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj
   - minor n/adj
