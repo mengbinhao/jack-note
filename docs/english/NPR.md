@@ -1,3 +1,13 @@
+- 2020.6.23
+  - cohesion n
+  - pronounce v | pronouncement n
+  - belligerent adj
+  - station n/vt
+  - contribute v
+
+  > The odd thing is the Pentagon is not saying much, Officials are referring to question to the White House
+  > let me throw this last one to you
+
 - 2020.6.22
   - surgery n
   - selfie n
@@ -2138,7 +2148,8 @@
   - confusion n | confusing adj | confuse vt
   - triple adj
   - short-term adj
-  - withdrawal n | withdraw v | withhold vt
+  - withdrawal n | withdraw v
+  - withhold v
   - decimate vt
   - patrol n/vt
   - harshly adv | harsh adj
@@ -2177,7 +2188,7 @@
 - 2019.10.10
   - memo n
   - notion n
-  - reference n/vt
+  - reference n/vt | refer v
   - mention n/vt
   - civics n | civic adj
   - plea n | plead v | pleading n/adj
@@ -2939,7 +2950,6 @@
   - shadow n/vt/adj
   - presidency n
   - committee n | commitment n | committed adj
-  - refer v
   - brevity n
   - obstruction n | obstruct vt
   - ultimate adj | ultimately adv
