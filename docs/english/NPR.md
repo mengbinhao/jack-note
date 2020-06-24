@@ -1,3 +1,10 @@
+- 2020.6.24
+  - plausible adj
+
+  > That sounds almost plausible
+  > a plausible salesman/liar
+  > word on the street is xxxx
+
 - 2020.6.23
   - cohesion n
   - pronounce v | pronouncement n
