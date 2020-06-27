@@ -1,3 +1,11 @@
+- 2020.6.27
+  - interaction n
+  - addict n/vt | addiction n
+  - excessive adj
+  - persuade v
+  - incentive n
+  - credential | certify vt | certification n
+
 - 2020.6.24
   - plausible adj
 
@@ -1850,7 +1858,6 @@
   - influential adj | influence n/vt
   - drown v
   - loyal adj | loyalty n | loyalist n
-  - outright adj/adv
   - detached adj
   - furrow v/adj
   - brow n
@@ -2377,7 +2384,7 @@
   - insurance n
   - stride n/vt
   - blast n/vt | blasted adj | blasting
-  - notable n/adj
+  - notable n/adj | notably adv
   - architect n
   - unnerving adj
   - rebound vi
@@ -2455,7 +2462,7 @@
   - energize vt
   - poster n
   - pose n/v
-  - mutual adj
+  - mutual adj | mutually adv
 
   > to tip the scales and determine who will
   > has Trump in his pocket
@@ -3038,7 +3045,6 @@
   - postpone vt | postponement n
   - mandated adj | mandate n/vt
   - sector n
-  - certify vt
   - impose v | self-imposed adj | imposition n
   - derail n/v
   - finality n
@@ -3144,7 +3150,7 @@
   - swallow v/n
   - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
-  - encouraging adj | encouragement n
+  - encouraging adj | encouragement n | encourage vt
   - tariff n/vt
   - consequence n | conclusion n | conclude v | in-conclusive adj
 

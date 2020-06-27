@@ -181,3 +181,17 @@ express --view=ejs ./xxx && cd ./xxx
 npm i
 npm start
 ```
+
+#### others
+```
+brew install tldr
+brew install curl
+brew install wget
+brew cast install java
+brew install tree
+brew install the_silver_searcher
+brew install node
+brew install htop
+brew install pstree
+
+```
