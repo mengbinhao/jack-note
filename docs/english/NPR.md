@@ -1,3 +1,12 @@
+- 2020.6.28
+  - snub n/vt/adj
+  - appease vt
+  - conversation n
+
+  > at the same time,it takes quite seriously. they say they're going to hold xx responsible for this action
+  > if they stage more provocations, they're going to respond strongly
+  > this is a return to ab old playbook
+
 - 2020.6.27
   - interaction n
   - addict n/vt | addiction n
@@ -184,7 +193,7 @@
   > Four out of five whose lives ended were 65 or older
   > get xxx down to a very low level
   > He admits that he missed the mark
-  > the weight of calamity is going to become much more apparent to poeple in the upcoming days and weeks
+  > the weight of calamity is going to become much more apparent to people in the upcoming days and weeks
   > while the country tries getting back on its feed
 
 - 2020.6.3
@@ -339,10 +348,8 @@
 
 - 2020.5.13
   - eager adj
-  - distrack vt
   - propaganda n
   - vain adj
-  - defecor n
   - daring n/adj
   - infiltrate v
 
@@ -415,6 +422,7 @@
   - longstanding adj
   - historical adj
   - corporation n
+  - cooperation n
   - initial ｜ initially
   - bore n/v | boring adj
   - dare v
@@ -1271,7 +1279,8 @@
   - sovereign n/adj | sovereignty n
   - impending adj | impend vi
   - overall adj/adv
-  - lash n/v
+  - lash n/v | backlash n
+  - clash n/v
   - injury n
   - militia n
   - jeopardy n
@@ -1529,7 +1538,7 @@
   > but that shouldn't be the way sex's supposed to be~It should be free and fun
 
 - 2019.12.17
-  - metaphor n
+  - metaphor n | metaphorically adv
   - defer vt
   - exemplify n/vt
   - fraction n
@@ -1634,7 +1643,7 @@
   - designate vt
   - discriminate v | discrimination n | discriminatory adj
   - awkward adj
-  - defection n | defect n/vi
+  - defection n | defect n/vi | defector n
   - coordinate vt | coordination n | coordinated
   - corroborate vt | corroboration n
 
@@ -2284,7 +2293,7 @@
   - welfare n | fare n
   - outcome n
   - hardship n
-  - balloon n/
+  - balloon n/v/adj
   - gimmick n
   - unrealistic adj | realistic adj
 
@@ -2387,7 +2396,7 @@
   - notable n/adj | notably adv
   - architect n
   - unnerving adj
-  - rebound vi
+  - bound n/v/adj | rebound vi
   - appropriate adj | inappropriate
   - offset vt
   - precisely adv | precise adj
@@ -2614,7 +2623,7 @@
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - interpret v | interpreter n | interpretation n | overinterpreted
+  - interpret v | interpreter n | interpretation n
   - articulate vt/adj
 
   > seconds matter
@@ -2672,7 +2681,7 @@
   - territory n
   - terror n | terrorist n
   - imminent adj
-  - militant adj | military n/adj
+  - militant adj | military n/adj | demilitarize
   - depot n
   - adamant adj
   - feud n/vi
@@ -2763,7 +2772,7 @@
 
 - 2019.8.20
   - falter vi
-  - factor n/v
+  - factor n/v | facto adj
   - upbeat adj
   - breather n
   - abrupt adj | abruptly adv
@@ -2780,7 +2789,6 @@
   - retire v | retirement n
   - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
-  - backlash n
   - grovelling adj
   - interior n/adj
   - stormy adj
@@ -2920,7 +2928,6 @@
   - anonymous adj | anonymously adv
   - heir n
   - murky adj
-  - propaganda n
   - recite v
   - fiery adj
   - grooming n
@@ -3087,10 +3094,9 @@
   - violence n
   - ruling adj
   - activist n
-  - joint adj
+  - joint adj | jointly
   - council n
   - civilian n/adj | civilization n | civil adj
-  - clash n/v
   - coup n
   - sole adj/n/vt
   - compromise n/v
@@ -3275,7 +3281,6 @@
   - prejudice n/vt
   - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj
   - rally n/v
-  - metaphorically adv
   - literally adv | literal adj
   - rig n/vt
   - grievance n
