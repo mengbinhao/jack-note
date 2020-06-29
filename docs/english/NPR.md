@@ -1,3 +1,8 @@
+- 2020.6.29
+  - herd n/v
+
+  > xxx turn the page on yyy, we don't have the final answer on that
+
 - 2020.6.28
   - snub n/vt/adj
   - appease vt
@@ -686,7 +691,7 @@
   - breakout n
   - confident adj | confidence n/adj
   - community n
-  - vaccine n/adj
+  - vaccine n/adj | vaccination n
   - Antarctica n
 
   > The new virus has now been diagnosed on every continent but Antarctica. It appears to be deadly in around two percent of cases
@@ -895,7 +900,7 @@
   > a key thing to look at here is what happens in two weeks
 
 - 2020.3.16
-  - gamble n
+  - gamble n/v
   - implicit adj
   - combat n/vt | combative adj
 
@@ -1440,7 +1445,7 @@
   - severe adj
   - volcano n
   - rotate v/adj
-  - immune adj | immunity n
+  - immune n/adj | immunity n
   - nominate vt | nomination
 
   > the have put the priority on getting those bodies back

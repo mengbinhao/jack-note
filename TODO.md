@@ -73,6 +73,7 @@
 - [《CSS揭秘》实用技巧总结](https://mp.weixin.qq.com/s/36M_dnsBBN3Ge8dKtv6sqA)
 - [前端换肤的N种方案](https://mp.weixin.qq.com/s/sCy3Fwif5dnoFM4FAsbLUQ)
 - [css-规则](https://segmentfault.com/a/1190000022752365)
+- [不常见但却非常实用的css属性](https://mp.weixin.qq.com/s/UGUSWTrmVVhlPuCXRYyJcg)
 
 
 ### nodejs
@@ -86,6 +87,7 @@
 
 ### front
 
+- [让你受益匪浅的前端技术干货系列](https://mp.weixin.qq.com/s/G8b2SRG0FqI5taGwjH35aw)
 - [前端首屏耗时测量方法](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483755&idx=2&sn=03985684a9901e4f2a3b801339f708b7)
 - [前端面试必备——权限控制](https://segmentfault.com/a/1190000020887109)
 - [http缓存实战](https://segmentfault.com/a/1190000021374783)
@@ -510,6 +512,7 @@
 - [深入理解ESLint](https://mp.weixin.qq.com/s/CKEn-luXhVFp-gQdL_XQyA)
 - [前端代码规范最佳实践](https://mp.weixin.qq.com/s/d9ELTKp-ZqQ4qdQBLQfM6A)
 - [如何在chrome中实时修改JS](https://www.zhangyangjun.com/post/chrome-source-modify-js.html)
+- [提升Chrome使用效率的30个快捷键、16个扩展插件与12个前端调试方法](https://mp.weixin.qq.com/s/oPDb_VuwkA5XLaHKef7uZA)
 - [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
