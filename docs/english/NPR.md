@@ -1,3 +1,11 @@
+- 2020.6.30
+  - ambiguous adj | unambiguous
+  - threshold n
+  - landscape
+
+  > Do they get on board?
+  > it does not go far enough
+
 - 2020.6.29
   - herd n/v
 
@@ -970,7 +978,7 @@
   - bestow vt
   - miscarriage n
   - juror n
-  - foundation n
+  - foundation n | foundational
   - tamper v
   - crouch vi
   - shoulder v
@@ -2151,7 +2159,7 @@
 - 2019.10.14
   - individual n/adj
   - firsthand
-  - qualify v | qualification n
+  - qualify v | qualification n | qualified
   - interim n/adj
   - clearance n
   - accompany vt
@@ -3055,7 +3063,7 @@
   - undercut vt
   - vow n/vt
   - postpone vt | postponement n
-  - mandated adj | mandate n/vt
+  - mandate n/vt | mandated adj
   - sector n
   - impose v | self-imposed adj | imposition n
   - derail n/v
