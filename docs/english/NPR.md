@@ -1,3 +1,10 @@
+- 2020.7.2
+  > It saw 60 percent reduction in a certain type of pollution that it saw in the same period last year
+  > on the plus side....on the minus side...
+
+- 2020.7.1
+  - mysterious adj
+
 - 2020.6.30
   - ambiguous adj | unambiguous
   - threshold n
@@ -1963,6 +1970,7 @@
   - forging n
   - alleviate vt
   - inequality n | equality n
+  - quality n/adj
 
   > what should we be looking for in terms of this coming to an end?
   > a sense of his out of touch
@@ -2349,7 +2357,7 @@
 - 2019.9.26
   - hostage n
   - indicate vt | indicator n | indication n
-  - reduced adj | reduce v | reduction n
+  - reduce v | reduction n | reduced adj
   - revolving adj
   - lecture n/v
   - portfolio n
@@ -2668,7 +2676,7 @@
 
 - 2019.9.5
   - plague n/vt
-  - pollution n | polluter n
+  - pollute vt | pollution n | polluter n | pollutant n | polluted adj
   - structure n | structural adj
   - infrastructure n
   - feasible adj

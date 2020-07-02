@@ -1,3 +1,12 @@
+- 2020.7.2
+  - U r in no position to question me(to do sth)
+  - U r in a position to question me(to do sth)
+  - dumb down 贬
+  - The media was accused of dumbing down the issue
+
+- 2020.7.1
+  - get/have/gain the upper hand
+
 1. dwell on the past
 
 > u can not always dwell on the past
@@ -19,7 +28,7 @@
 
 6. what's done is done
 
-> Don't thinl too much, what's done is done
+> Don't think too much, what's done is done
 
 7. get over
 
