@@ -1,3 +1,7 @@
+- 2020.7.3
+  - the wrong side of the tracks
+  - stand up sb
+
 - 2020.7.2
   - U r in no position to question me(to do sth)
   - U r in a position to question me(to do sth)
