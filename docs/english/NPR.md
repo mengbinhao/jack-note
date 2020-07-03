@@ -1,3 +1,7 @@
+- 2020.7.3
+  - commodity n
+  > This would let them continue with normal life without as many restriction as other people might be
+
 - 2020.7.2
   > It saw 60 percent reduction in a certain type of pollution that it saw in the same period last year
   > on the plus side....on the minus side...
