@@ -1,3 +1,17 @@
+- 2020.7.6
+  - nervous adj
+  - firsthand n
+  - liability n
+  - fume n/v
+  - censor n/vt
+  - pretext n/vt
+  - disclose vt
+  - memoir n
+  - publication n
+
+  > so taking all of that into account
+  > xxx is actually going to succeed in preventing that from happening
+
 - 2020.7.3
   - commodity n
   > This would let them continue with normal life without as many restriction as other people might be
@@ -1110,6 +1124,7 @@
   - sharp adj
   - weird adj
   - riff n
+  - tariff n/vt
   - teleprompter n
   - unscripted adj
   - purposely adv
@@ -2170,7 +2185,6 @@
 
 - 2019.10.14
   - individual n/adj
-  - firsthand
   - qualify v | qualification n | qualified
   - interim n/adj
   - clearance n
@@ -2272,7 +2286,7 @@
   - artificial adj
   - multilateral adj
   - harassment n | harass vt
-  - proceeding n | proceed vi
+  - proceeding n | proceed vi/n
   - thereafter adv
   - breach n/vt
   - restrained adj
@@ -3152,7 +3166,6 @@
   - candidacy n
   - accurately adv | inaccuracy n
   - hardcore
-  - pretext n
   - mischievous adj
   - mischief n
   - chief n/adj/adv
@@ -3182,7 +3195,6 @@
   - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n | encourage vt
-  - tariff n/vt
   - consequence n | conclusion n | conclude v | in-conclusive adj
 
   > it is hard to swallow
