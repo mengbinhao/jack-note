@@ -1,3 +1,19 @@
+- 2020.7.9
+  - swarm n/v
+  - geological adj
+  - survey n/v
+  - shelf n/v
+  - aisle n
+
+  > It gave us the perfect amount of time to get out into the street
+  > put in place
+
+- 2020.7.8
+  - suspend v | suspense n
+  - spouse n/vt
+  - hence adv
+  - immigrate v | immigration n
+
 - 2020.7.6
   - nervous adj
   - firsthand n
@@ -461,7 +477,7 @@
   - historical adj
   - corporation n
   - cooperation n
-  - initial ｜ initially
+  - initial adj/n/vt ｜ initially
   - bore n/v | boring adj
   - dare v
   - arguably adv
@@ -626,7 +642,7 @@
   - supply
 
 - 2020.4.16
-  - primary n/adj
+  - primary n/adj | primarily
   - upcoming adj
   - desire n/v
   - backbone n
@@ -1939,7 +1955,7 @@
   - dribble n/vt
   - swoop n/vi
   - tunnel n/v
-  - recruit n/v | recruiting
+  - recruit n/v
   - sophisticated adj
   - counterargument n
   - scattered adj
@@ -2577,7 +2593,6 @@
   - rebel n/vi
   - compete vi | competing adj | competitive adj | competitor n | competition n
   - trick n | tricky adj
-  - suspend v
   - wicked adj
   - incredible adj
   - crafty adj
@@ -2915,7 +2930,7 @@
   - abuse n/vt | abusive adj
   - minor n/adj
   - disturbing adj
-  - prosecutor n | prosecute v | prosecution n | inspector n
+  - prosecutor n | prosecute v | prosecution n | inspector n | inspection n
   - emphasize vt | emphasis n
   - redact v
 

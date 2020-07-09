@@ -271,6 +271,7 @@
 - [总结vue知识体系之实用技巧](https://juejin.im/post/5e5f0ef8518825490b6489a2)
 - [前后端分离那些事Vue](https://juejin.im/post/5eaa3e29e51d454dab604701)
 - [Vue数据更新了但页面没有更新的7种情况汇总及延伸总结](https://segmentfault.com/a/1190000022772025)
+- [Vue小技巧](https://mp.weixin.qq.com/s/oxxZdRCIjG7BltlfEK8cGg)
 
 #### Vue 3
 
@@ -362,6 +363,7 @@
 - [带你全面分析vue-router源码](https://juejin.im/post/5e456513f265da573c0c6d4b)
 - [前端路由实现原理](https://www.limitcode.com/detail/5e5e603810dcbf0b1852b3c0.html)
 - [简易版的VueRouter实现](https://juejin.im/post/5e722f00f265da574a1ed105)
+- [使用Vue路由Hash模式引发的一场血案](https://mp.weixin.qq.com/s/jFXQSrtPVwcTs9Nv6AaCIA)
 
 #### Vuex
 
@@ -427,6 +429,7 @@
 - [前端性能优化——webpack篇](https://mp.weixin.qq.com/s/8sY_vWtilbexKDzAb8bDjg)
 - [再来一打Webpack面试题](https://mp.weixin.qq.com/s/WfW_L0Qs1X1wx730XmHKxw)
 - [总结18个webpack插件](https://mp.weixin.qq.com/s/VIXfl8JRbaWOwGdDpKOz6A)
+- [6项webpack的性能优化](https://mp.weixin.qq.com/s/ZU2VOPJ5mqPGzVGa9YpHCQ)
 
 ### React
 
