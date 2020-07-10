@@ -1,3 +1,13 @@
+- 2020.7.10
+  - participate v
+  - slight adj/v/vt
+  - extremism n
+  - supremacist n
+  - traitor n
+
+  > there is a need for better data
+  > the short answer is we don't have a good handle on the scope
+
 - 2020.7.9
   - swarm n/v
   - geological adj
@@ -2243,7 +2253,6 @@
   - dirt n
   - wrongdoing n
   - pureview n
-  - transcript n
   - covert adj
   - conceal vt | concealed adj
   - bothersome adj
@@ -2468,7 +2477,6 @@
   - phenomenon n
   - finalize vt
   - variety n
-  - personnel n
   - admission n | admit v
 
   > I don't think anybody expects it to become less so
@@ -2921,7 +2929,7 @@
   - bllionaire n
   - financier n
   - traffic n/v
-  - conspiracy n | conspire vi
+  - conspire vi | conspiracy n
   - prominent adj
   - somehow adv
   - inquiry n
