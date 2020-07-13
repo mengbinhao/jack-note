@@ -1,3 +1,10 @@
+- 2020.7.13
+  - deter vt
+  - sporadic adj
+  - bounty n/vt
+
+  > They have been up to a lot
+
 - 2020.7.10
   - participate v
   - slight adj/v/vt
@@ -1990,7 +1997,6 @@
   - deepen v
   - profound adj
   - vehicle n
-  - revenge n
 
   > There are no details on when that change was made or what prompted it
   > first off | at first | first of all | in the first place | first and foremost
@@ -2743,7 +2749,7 @@
   - territory n
   - terror n | terrorist n
   - imminent adj
-  - militant adj | military n/adj | demilitarize
+  - militant adj/n | military n/adj | demilitarize
   - depot n
   - adamant adj
   - feud n/vi
@@ -2813,7 +2819,7 @@
   - steer v | steering n/adj
   - grim adj
   - predict v | prediction n | predictable adj
-  - disruption n | disrupt vt
+  - disrupt vt | disruption n
   - spark n/v
   - referendum n
   - seamless adj
@@ -3065,7 +3071,7 @@
 
 - 2019.7.25
   - enrollment n | enrol v
-  - roughly adv | rough adj
+  - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
   - prescription n
   - repeal vt/n
@@ -3117,7 +3123,7 @@
   - impose v | self-imposed adj | imposition n
   - derail n/v
   - finality n
-  - authority n | unauthorized adj | authorization n
+  - authority n | authorized | unauthorized adj | authorization n
   - raise n/v
   - dispute n/v | disputed adj | undisputed
   - alien n/adj
@@ -3420,7 +3426,7 @@
   - expertise n
   - proficiency n
   - afloat adj/adv
-  - speculation n | speculate v
+  - speculate v | speculation n
   - takeaway n
   - plot n/v
   - fierce adj | fiercely adv

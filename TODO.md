@@ -84,6 +84,7 @@
 - [用优雅的代码武装我们的koa2项目](https://juejin.im/post/5d255d05518825424d656e11)
 - [耗时两个月，网上最全的原创nodejs深入系列文章](https://blog.5udou.cn/blog)
 - [Node.js入门指南和实践](https://segmentfault.com/a/1190000021368102)
+- [使用Node开发服务器项目时如何高效地打日志](https://mp.weixin.qq.com/s/AZnKieARdpqBh0wx3ZAZvg)
 
 ### front
 
