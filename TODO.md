@@ -206,6 +206,7 @@
 
 ### mobile
 
+- [6种移动端1px问题的解决方案](https://mp.weixin.qq.com/s/Dv3zewnfARnzNSXQKfAYSw)
 - [12个前端必会H5问题及解决方法](https://mp.weixin.qq.com/s/9CcNm7CbUp86XM2zi1FxKg)
 - [移动端开发的几点建议](https://segmentfault.com/a/1190000021278840)
 - [关于移动端适配](https://segmentfault.com/a/1190000019207842)
@@ -385,6 +386,7 @@
 
 #### compare
 
+- [React和Vue的20个区别](https://mp.weixin.qq.com/s/_zCM9Qh-S_aQ3emRcJemvQ)
 - [React.js和Vue.js的语法并列比较](https://mp.weixin.qq.com/s?__biz=MzI0MDIwNTQ1Mg==&mid=2676493160&idx=1&sn=cc87d24be24277c38e1e34670fc0d00b)
 - [从React切换到Vue.js](https://www.infoq.cn/article/22jiqjCXXcs0DajEFT0h)
 - [关于Vue和React的一些对比及个人思考（上）](https://juejin.im/post/5e153e096fb9a048297390c1)

@@ -1,3 +1,12 @@
+- 2020.7.14
+  - limit n/vt | limitation
+  - rob v | robbery n
+  - kidnap vt
+  - county n
+  - mechanic n/adj
+
+  > and I want to warn people before we get going that some of details you're about to hear may be graphic
+
 - 2020.7.13
   - deter vt
   - sporadic adj
@@ -304,7 +313,7 @@
 
 - 2020.5.29
   - recusal n
-  - trash n/vt
+  - trash n/vt | garbage n
   - endure v
   - poll n/v | ballot n/v | pollster n
   - focal adj
@@ -1018,7 +1027,6 @@
   - tarnish n/v | mar vt
   - benevolent adj
   - martial adj
-  - garbage n
   - decorate v
   - stagnation n | stagnate vi
   - edifice n
@@ -1250,7 +1258,7 @@
   - tourist n/v/adj/adv
   - steam n/v/adj
   - monarch n
-  - unavoidable adj
+  - avoid v | unavoidable adj
   - undertone n
   - figurehead n
   - outspoken adj
@@ -2583,7 +2591,7 @@
   - frail adj
   - betray vt | betrayal n
   - bitter n/adj/vt
-  - injustice n | justice n
+  - justice n | injustice n
   - oppress vt | oppressive adj
   - savage n/adj/vt
   - vibrant adj
