@@ -1,3 +1,17 @@
+- 2020.7.15
+  - sanction n/vt
+  - watershed n
+  - thief n
+  - inevitable adj
+  - village n
+  - heaven n
+  - ladder n/v
+  - proposal
+
+  > xxx doesn't matter to me, I'm not for or against, It's all political games
+  > watershed moment
+  > I'm not optimistic because I've seen the way that the world has behaved when it's come to xxx in the past
+
 - 2020.7.14
   - limit n/vt | limitation
   - rob v | robbery n
@@ -473,7 +487,7 @@
   - spotlight n/vt | hotspot n | spot n/vt
   - warehouse n
   - thrust v
-  - grocery n
+  - grocer n | grocery n
 
 - 2020.5.8
   - revert n/v
@@ -486,7 +500,7 @@
   - unexpected adj
   - fear n/v
   - advantage n
-  - urge n/v | urgent adj | urgently | dire adj
+  - urge n/v | urgent adj | urgently | dire adj | urgency n
   - purge n/vt
   - surge n/vi
   - insurgent n/adj
@@ -1318,7 +1332,6 @@
 - 2020.2.4
   - formula n
   - scramble n/v | scrambling
-  - repercussion n
   - sectarian adj
   - definitive adj | definitely | indefinitely adv
   - definition n
