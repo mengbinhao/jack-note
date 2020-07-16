@@ -1,3 +1,11 @@
+- 2020.7.16
+  - quote v
+  - cede vt
+  - malicious adj
+
+  > take effect
+  > xxx has given yyy no other choice
+
 - 2020.7.15
   - sanction n/vt
   - watershed n
@@ -1496,7 +1504,7 @@
   - criterion n
 
 - 2019.12.27
-  - vocal adj
+  - vocal adj/n
   - erode v
   - fruition n
   - carbon n

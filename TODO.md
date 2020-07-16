@@ -533,6 +533,7 @@
 - [提交git时自动格式化并通过ESlint检测prettier + husky + lint-staged + eslint](https://juejin.im/post/5d565ffdf265da03f12e55bb)
 - [docker](https://segmentfault.com/a/1190000018810837)
 - [前端工程师Docker入门](https://segmentfault.com/a/1190000019898011)
+- [Mac如何使用Nginx](https://juejin.im/post/5e9ae7506fb9a03c8f6cb8e0)
 - [NGINX](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
 - [NGINX入门](https://segmentfault.com/a/1190000017940311)
 - [NGINX与前端开发](https://juejin.im/post/5bacbd395188255c8d0fd4b2)
