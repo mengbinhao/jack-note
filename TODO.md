@@ -524,6 +524,7 @@
 - [提升Chrome使用效率的30个快捷键、16个扩展插件与12个前端调试方法](https://mp.weixin.qq.com/s/oPDb_VuwkA5XLaHKef7uZA)
 - [Mac高效开发之iTerm2和Solarized主题](https://segmentfault.com/a/1190000020889764)
 - [Git自救指南](https://segmentfault.com/a/1190000019373841)
+- [Git 10个最需要常备的后悔药](https://mp.weixin.qq.com/s/CijCYy-CMCw0Ug5Gds5XdQ)
 - [Git问题和操作清单](https://mp.weixin.qq.com/s/KD8UeunsBit4jOxPZ02yQQ)
 - [如何撤销Git操作](http://www.ruanyifeng.com/blog/2019/12/git-undo.html)
 - [Git高级用法小抄](https://mp.weixin.qq.com/s/IElzbmcJUFue0NFWAz_soA)
