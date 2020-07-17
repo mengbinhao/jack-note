@@ -1,3 +1,17 @@
+- 2020.7.17
+  - envelope n
+  - dubious adj
+  - pipeline n
+  - donkey n
+  - scorn n/vt
+  - deposit n/v
+  - drill n/v
+  - mediterranean n
+  - oversea adj/adv
+
+  > It must have been a slip of the tongue
+  > At the heart of this dispute are two very different pictures of the eastern Mediterranean
+
 - 2020.7.16
   - quote v
   - cede vt
@@ -152,7 +166,7 @@
   > that's a chilling remark
 
 - 2020.6.20
-  - upset n/v/adj
+  - upset n/v/adj | upsetting
   - encounter n/vt
   - wrangle n/vi | argue
   - bystander n
@@ -469,7 +483,6 @@
   > it needs to stick with
 
 - 2020.5.11
-  - aftermath n
   - seemingly adv
   - pounce n/vi
   - archive n/v | archives n
@@ -698,7 +711,8 @@
   - mainstream n
   - champion n/v
   - numerical adj
-  - mathematically adj
+  - aftermath n
+  - mathematical adj | mathematically adj
   - nominee n
   - presumptive adj
   - virtual adj | virtually adv
@@ -2136,7 +2150,7 @@
   - curtail vt
   - smuggling n | smuggler n | smuggle vt
   - pertain vi
-  - slip n/v
+  - slip n/v/adj
   - ratify vt
   - amid prep | amidst prep
   - melancholy n/adj
@@ -2665,7 +2679,7 @@
   - lunar adj
   - comfort n/vt
   - spirit n/vt
-  - unexplored adj
+  - unexplored adj | exploration n
   - quell vt
   - cellular adj
   - racial adj | racially adv | biracial adj
@@ -3118,7 +3132,7 @@
   - figure n/vt
   - reveal vt
   - transparent adj | transparency n | in-transparency n
-  - exhausting adj | exhausted adj
+  - exhausting adj | exhausted adj | exhaust v
   - sympathy n | sympathetic adj | sympathize vi | pathetic adj
   - footage n
   - dis adj
