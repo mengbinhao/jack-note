@@ -74,6 +74,7 @@
 - [前端换肤的N种方案](https://mp.weixin.qq.com/s/sCy3Fwif5dnoFM4FAsbLUQ)
 - [css-规则](https://segmentfault.com/a/1190000022752365)
 - [不常见但却非常实用的css属性](https://mp.weixin.qq.com/s/UGUSWTrmVVhlPuCXRYyJcg)
+- [这33个超级好用的CSS选择器，你可能见都没见过](https://mp.weixin.qq.com/s/o1ECWAYh_Atuk8iVmCibjw)
 
 
 ### nodejs

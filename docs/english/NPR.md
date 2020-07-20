@@ -1,3 +1,12 @@
+- 2020.7.20
+  - bet n/vt
+  - culture | cultural adj
+  - heal v | cure n/v
+  - trample n/v
+  - statue n/v
+  - mob n
+  - justice
+
 - 2020.7.17
   - envelope n
   - dubious adj
@@ -1846,7 +1855,7 @@
   - ambulance n
   - fragmented adj
   - harmony n
-  - harm n
+  - harm n/vt | harmless adj
   - contrast n/v
   - avenue n | venue n
   - revenue n
@@ -2805,7 +2814,7 @@
   - stretch n/v
   - incidentally adv
   - crucial adj
-  - stake n/vt
+  - stake n/v
   - squabble vi
   - tone n
   - petty adj
@@ -3392,7 +3401,6 @@
   - rally n/v
   - literally adv | literal adj
   - rig n/vt
-  - grievance n
   - accusation n | accuse vt | accusing | accuser
   - echo n/v
 
