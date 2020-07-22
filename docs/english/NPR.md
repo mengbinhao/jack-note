@@ -1,3 +1,39 @@
+- 2020.7.22
+  - flu n
+  - scoff n/v
+  - classic adj
+  - mandatory adj
+  - habit n
+  - regret n/v
+  - dose n/v
+  - ache n/vi
+  - reveal
+  - challenge n/vt
+  - disclosure n | nondisclosure
+  - pilot n
+  - silence n /v | silent adj/n
+  - spectrum n
+  - humiliate vt
+  - portrait n
+  - obtain v
+  - laundry n
+
+  > what a turn of events here
+  > Social media is buzzing
+  > it is an airing of the family's dirty laundry
+  > NPR obtained this book ahead of its publication, which is set for July 14
+
+- 2020.7.21
+  - induce vt
+  - scheme n/v
+  - magnet n
+  - suicide n/v/adj
+
+  > this case has generated a ton of public interest
+  > this is not the end of the road
+  > she faces six counts in all
+  > the investigation into what he was doing has continued
+
 - 2020.7.20
   - bet n/vt
   - culture | cultural adj
@@ -13,7 +49,7 @@
   - pipeline n
   - donkey n
   - scorn n/vt
-  - deposit n/v
+  - deposit n/v | deposition n
   - drill n/v
   - mediterranean n
   - oversea adj/adv
@@ -295,7 +331,7 @@
   - deserve v
   - thug n
   - executive n/adj
-  - glorify vt
+  - glorify vt | glorious adj
 
   > Twitter is not back down
   > This executive order is probably not legally going to carry much weight
@@ -546,7 +582,7 @@
   - longstanding adj
   - historical adj
   - corporation n
-  - cooperation n
+  - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
   - bore n/v | boring adj
   - dare v
@@ -584,7 +620,7 @@
   - plaintiff n
   - jurisdiction n
   - principle n
-  - survive v | survivor n
+  - survive v | survivor n | survival n
 
   > It's quite clear the responsibility for that abuse goes all the way to the top
 
@@ -775,7 +811,7 @@
   - scientific adj
   - upfront adj/adv
   - greenhouse n
-  - transportation n
+  - transportation n | transport vt
   - rollback n
 
   > the average age of vehicles on the road right now is the highest it's ever been at 12 years
@@ -788,7 +824,7 @@
   - remain n/v
   - obvious adj
   - preach v
-  - absent vt/adj | absentee n
+  - absent adj/vt | absentee n
   - constant adj | constantly
   - inexact adj
   - secretary
@@ -809,7 +845,7 @@
 
 - 2020.4.7
   - breakout n
-  - confident adj | confidence n/adj
+  - confident adj | confidence n/adj | confidante n
   - community n
   - vaccine n/adj | vaccination n
   - Antarctica n
@@ -946,7 +982,7 @@
 
 - 2020.3.24
   - nutrition n
-  - affect v | effect n | effectively adv
+  - affect v | effect n | effectively adv | effectiveness n
   - wee adj
   - rosy adj
   - reality n
@@ -1105,7 +1141,7 @@
   - stringent adj
   - detection n | detect vt
   - manifesto n
-  - absurd adj
+  - absurd adj/n
   - evident adj
   - belief n
   - accomplice n
@@ -1432,7 +1468,7 @@
 
 - 2020.1.13
   - slam n/v | whip v/adj | smash n/v
-  - normalcy n
+  - normalize n/v | normalcy n
   - excerpt n/vt
   - archipelago n
 
@@ -1631,7 +1667,7 @@
   - omission n
   - eavesdrop vi
   - cavalier adj
-  - petition n
+  - petition n/v
   - bias n/vt/adj/adv
   - worthwhile adj
   - comprehensive adj
@@ -1663,7 +1699,6 @@
 
 - 2019.12.17
   - metaphor n | metaphorically adv
-  - defer vt
   - exemplify n/vt
   - fraction n
   - infraction n
@@ -1819,13 +1854,13 @@
   - fruitless adj
   - remorse n | remorseful
   - contrition n
-  - minor n/adj
+  - minor n/adj | underage
   - prostitution n
   - solicit v
   - toxic adj
   - patron n
   - charity n
-  - offender n
+  - offend v | offender n
   - sever v | severed adj
   - foreseeable adj
   - taint n/v | tainted adj
@@ -1956,7 +1991,6 @@
   - portray vt
   - permanent adj | permanently adv
   - illegality n
-  - deposition n
 
   > The only thing we're interested in here is figuring out what the facts are
   > He said that the question of illegality wasn't Sb's call to make
@@ -2254,7 +2288,7 @@
   - fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
   - expanse n | expansion n | expansive adj | pension n/vt
-  - relative adj
+  - relative adj/n
   - arrange v | arrangement n
   - condemnation n | condemn vt | condemned adj
   - approve v | disapprove v | approval n
@@ -2276,7 +2310,6 @@
   - subpoena n/vt
   - oversight n
 
-  > take effect
   > step forward
   > there is no date set as of yet
   > kick off
@@ -2551,7 +2584,6 @@
   - wrinkle n/v
   - oven n
   - hearsay n
-  - glorious adj
   - enormous adj
   - stir n/v
   - ignite vt
@@ -2762,8 +2794,6 @@
   - agenda n
   - potential n/adj
   - sideline n/vt
-  - majority n/adj
-  - minoraty n/adj
   - frighten v
   - blink n/v
   - turmoil n
@@ -2987,7 +3017,7 @@
   - bllionaire n
   - financier n
   - traffic n/v
-  - conspire vi | conspiracy n
+  - conspire vi | conspiracy n | conspirator
   - prominent adj
   - somehow adv
   - inquiry n
@@ -2995,7 +3025,7 @@
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj
   - minor n/adj
-  - disturbing adj
+  - disturbing adj | disturb v
   - prosecutor n | prosecute v | prosecution n | inspector n | inspection n
   - emphasize vt | emphasis n
   - redact v
@@ -3050,7 +3080,7 @@
   - murky adj
   - recite v
   - fiery adj
-  - grooming n
+  - grooming n | groom  n/v
   - coalition n
   - hierarchical adj
   - owe vt
@@ -3142,7 +3172,8 @@
   - reveal vt
   - transparent adj | transparency n | in-transparency n
   - exhausting adj | exhausted adj | exhaust v
-  - sympathy n | sympathetic adj | sympathize vi | pathetic adj
+  - sympathy n | sympathetic adj | sympathize vi
+  - pathetic adj
   - footage n
   - dis adj
   - recharge vt
@@ -3313,9 +3344,9 @@
   > that may easier said than done
 
 - 2019.7.9
-  - comply vi | deference n
+  - comply vi | deference n | defer v
   - supply n/vt | supplier n
-  - deny vt | denial n
+  - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
   - standpoint n
   - astronomical adj
@@ -3440,7 +3471,7 @@
   - stockpile n/vt
   - enrich v | enriched adj | enrichment n
   - altogether adv
-  - reactor adv | react | reaction
+  - reactor adv | react | reaction | action | inaction
   - headline n/vt
   - relief n
   - abide vi
@@ -3464,7 +3495,7 @@
   - insult n/vt
   - resolutely adj
   - predecessor n
-  - embarrassing adj ｜ embarrass v
+  - embarrassing adj ｜ embarrass v | embarrassment n
   - corps n
   - countless n
   - sentiment n
