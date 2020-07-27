@@ -51,7 +51,7 @@
 - [分享一些前端常用功能集合](https://juejin.im/post/5e49ef916fb9a07c951cd0e3)
 - [DOM扩展之HTML5](https://segmentfault.com/a/1190000022276554)
 
-### css
+### CSS
 
 - [20个让你效率更高的CSS代码技巧](https://segmentfault.com/a/1190000019542534)
 - [css填坑常用代码](https://segmentfault.com/a/1190000002515272)
@@ -75,6 +75,7 @@
 - [css-规则](https://segmentfault.com/a/1190000022752365)
 - [不常见但却非常实用的css属性](https://mp.weixin.qq.com/s/UGUSWTrmVVhlPuCXRYyJcg)
 - [这33个超级好用的CSS选择器，你可能见都没见过](https://mp.weixin.qq.com/s/o1ECWAYh_Atuk8iVmCibjw)
+- [CSS揭秘实用技巧总结](https://mp.weixin.qq.com/s/QYgdWu86UHx_NMEAKVdGNg)
 
 
 ### nodejs

@@ -1,3 +1,23 @@
+- 2020.7.24
+- registration n
+- fraught adj
+- grip n/v
+- sniff n/v
+- defame v
+- manhunt n
+- respect
+
+  > xxx will become just the way things go
+  > they just kind of have to find the way to reach the middle
+
+- 2020.7.23
+  - benefit n
+  - opinion n
+  - inquire n
+  - dynamic n/adj
+  - climb n/v
+  - turnaround n
+
 - 2020.7.22
   - flu n
   - scoff n/v
@@ -793,7 +813,7 @@
   - academy n
   - rouse v
   - authenticity n
-  - alternate v/adj
+  - alternate v/adj | alternative n/adj
   - sailor n
   - carrier n
   - disparage vt
@@ -846,7 +866,7 @@
 - 2020.4.7
   - breakout n
   - confident adj | confidence n/adj | confidante n
-  - community n
+  - community n | communal adj | communism
   - vaccine n/adj | vaccination n
   - Antarctica n
 
@@ -1068,7 +1088,6 @@
 - 2020.3.13
   - entertain v | entertainment | entertainer n
   - ironic adj
-  - communal adj
   - marginalize vt
   - atmosphere n
   - enshrine vt
@@ -1909,7 +1928,6 @@
   - finding n
   - regularity n | irregularity
   - custody n
-  - ballot n/v
   - fuse n/v
   - desert n/v | dessert n
   - cling vi
@@ -2228,7 +2246,7 @@
   - inundate vt
   - hard-hit
   - prefecture n
-  - vary v | varied adj
+  - vary v | variation n
   - Panamanian n/adj
   - anchor n/vt
   - bay n
@@ -2599,7 +2617,7 @@
   > whose problem does this become?
 
 - 2019.9.18
-  - unprecedented adj
+  - unprecedented adj | precedent
   - installation n
   - barrel n
   - slice n
@@ -2618,7 +2636,6 @@
 - 2019.9.17
   - survival n
   - narrowly adv
-  - alternative n/adj
   - resentment n
   - poke n/v
   - energize vt
@@ -3261,7 +3278,7 @@
   > I think what we can be certain of is that ...
 
 - 2019.7.16
-  - criticism n | critic n | critical adj
+  - criticism n | critic n | critical adj | criticize v
   - cable n/vt
   - ambassador n
   - inept adj
@@ -3326,7 +3343,6 @@
 - 2019.7.10
   - shore n/vt
   - foe n
-  - democracy n
   - tough n/adj/adv
   - neighborhood n | neighboring adj
   - begrudgingly adv
