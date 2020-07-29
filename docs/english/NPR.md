@@ -1,11 +1,47 @@
+- 2020.7.29
+  - audience n
+  - excellent adj
+  - incident n | incidentally adv
+  - vendor n
+  - spread n/v/adj
+  - authenticity n
+  - authentication n
+  - headquarter n
+  - kingdom n
+  - album n
+  - scam n/v | scammer
+
+- 2020.7.28
+  - prestige n
+  - blame n/vt
+  - cozy adj
+  - malware n
+  - simultaneous adj
+  - persistent adj
+  - plural n/adj
+  - hack | hacker
+  - hurdle n
+  - realize vt
+  - tuition n
+  - undertake vt
+  - campus n
+  - wrench n/vt
+  - onerous adj
+  - duration n
+  - flexibility n
+  - semester n
+
+  > they don't want to get caught off guard again as they were last week
+  > go into effect
+  > she's been working around the clock to help students
+
 - 2020.7.24
-- registration n
-- fraught adj
-- grip n/v
-- sniff n/v
-- defame v
-- manhunt n
-- respect
+  - registration n
+  - fraught adj
+  - grip n/v
+  - sniff n/v
+  - defame v
+  - manhunt n
 
   > xxx will become just the way things go
   > they just kind of have to find the way to reach the middle
@@ -311,7 +347,7 @@
 - 2020.6.10
   - dispersal n
   - contentious adj
-  - nation n
+  - nation n | nationalize vt | nationalism
   - fitness n
   - inflection n
   - coincide vi
@@ -645,7 +681,9 @@
   > It's quite clear the responsibility for that abuse goes all the way to the top
 
 - 2020.4.29
-  - convenient adj
+  - convenient adj | convenience n/vt | inconvenience
+  - convene v
+  - convention n
   - rile v
   - harvest n/v
   - series n
@@ -812,7 +850,6 @@
   - grad n
   - academy n
   - rouse v
-  - authenticity n
   - alternate v/adj | alternative n/adj
   - sailor n
   - carrier n
@@ -1061,7 +1098,7 @@
   - belly n/v
   - excel v
   - embolden vt
-  - caution v | precaution n
+  - caution v | precaution n | cautious | cautiously
   - abundance n
   - quarantine n/vt
   - parliamentary adj ｜ parliament n
@@ -1435,7 +1472,6 @@
   > He was the No.2 to me
 
 - 2020.1.19
-  - convene v
   - guilt n | guilty adj
   - shortage n
   - verge n
@@ -1598,7 +1634,6 @@
   - reverberation n
   - tremor n/v
   - revamp n/vt
-  - nationalize vt
   - landscape n
 
   > I will put an end to all that nonsense
@@ -1682,7 +1717,6 @@
   - justify vt | justification n
   - recommendation n
   - debunk vt
-  - respective adj
   - omission n
   - eavesdrop vi
   - cavalier adj
@@ -2482,7 +2516,7 @@
   - bullet n
   - weaponry n
   - explanation n
-  - vulnerable adj
+  - vulnerable adj | vulnerability n
   - lapse n/vi
   - embroiled adj
   - mystery n/adj
@@ -2657,7 +2691,6 @@
   - superme adj
   - lame adj
   - disorder n/vt
-  - convention n
 
   > he said no can do
   > for the second time in a week
@@ -2716,7 +2749,7 @@
   - ridicule n/vt | ridiculous adj
   - invitation n
   - remarkable adj | hallmark n/vt | remark n
-  - electorate n
+  - electorate n | electoral adj
 
   > to my knowledge
   > how much time does xxx have to get this all sorted out?
@@ -2859,7 +2892,6 @@
   - occasion n/vt | occasional adj
   - shrug n/v
   - stretch n/v
-  - incidentally adv
   - crucial adj
   - stake n/v
   - squabble vi
@@ -2884,7 +2916,7 @@
   - blistering adj
   - institute n/vt
   - institution n | institutional adj
-  - respect | disrespect n/vt
+  - respect | disrespect n/vt| respective adj
   - defiant adj
   - get-go n
   - wary adj
@@ -3169,7 +3201,7 @@
   > to some degree
 
 - 2019.7.25
-  - enrollment n | enrol v
+  - enrollment n | enroll v
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
   - prescription n
@@ -3211,7 +3243,7 @@
   - ally n/vt | allied adj
   - defy vt | defiance n
   - acquire vt | acquisition n
-  - stealth n/adj
+  - stealth n/adj | steal n/v
   - maintenance n
   - facility n | facilitate vt | facilitation
   - adversary n

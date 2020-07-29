@@ -76,6 +76,7 @@
 - [不常见但却非常实用的css属性](https://mp.weixin.qq.com/s/UGUSWTrmVVhlPuCXRYyJcg)
 - [这33个超级好用的CSS选择器，你可能见都没见过](https://mp.weixin.qq.com/s/o1ECWAYh_Atuk8iVmCibjw)
 - [CSS揭秘实用技巧总结](https://mp.weixin.qq.com/s/QYgdWu86UHx_NMEAKVdGNg)
+- [40个CSS布局技巧](https://mp.weixin.qq.com/s/6jZibuthus7l5PlhAbpHEQ)
 
 
 ### nodejs
