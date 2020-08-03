@@ -1,3 +1,28 @@
+- 2020.8.3
+  - earnest adj/n
+  - various adj
+
+  > It's a mouthful, but it covers a lot of areas
+  > I imagine 200 is going to be a lot of lower than Democrats want to go, just reflecting on his reaction
+
+- 2020.7.31
+  - spontaneous adj
+  - candidate n
+  - offense n
+  - plentiful adj
+  - overreach
+  - eliminate vt | repeal n/vt | abolish vt
+  - adhere vi
+  - fist n/vt
+  - yell n/v
+  - snipe n/v
+  - socialist n
+  - rip  n/v
+  - summit n
+
+  > sticking point
+  > this sounds very much the opposite
+
 - 2020.7.29
   - audience n
   - excellent adj
@@ -64,7 +89,7 @@
   - dose n/v
   - ache n/vi
   - reveal
-  - challenge n/vt
+  - challenge n/vt | unchallenged
   - disclosure n | nondisclosure
   - pilot n
   - silence n /v | silent adj/n
@@ -367,7 +392,7 @@
 - 2020.6.8
   - contingent n
   - standby n
-  - enforce vt | enforcement
+  - enforce vt | enforcement | enforceable adj
   - lawless adj | lawlessness n
   - bluster n/v
 
@@ -450,12 +475,12 @@
 
 - 2020.5.29
   - recusal n
-  - trash n/vt | garbage n
+  - trash n/vt | garbage n | rubbish n/v/adj
   - endure v
   - poll n/v | ballot n/v | pollster n
   - focal adj
   - override vt
-  - refuse v
+  - refuse v | refusal n
   - reinforce n/v
   - congregate v
   - therapy n
@@ -618,7 +643,7 @@
   - wrestle n/v
   - mugger n
   - assailant n
-  - invisible adj
+  - invisible adj | visibility
   - unexpected adj
   - fear n/v
   - advantage n
@@ -696,7 +721,7 @@
 
 - 2020.4.28
   - veto n
-  - unity n
+  - unity n | disunity
   - avert vt
 
   > which once would have been unheard of
@@ -1114,7 +1139,7 @@
 
 - 2020.3.16
   - gamble n/v
-  - implicit adj
+  - implicit adj | implicitly
   - combat n/vt | combative adj
 
   > it is not at all clear where things go from here
@@ -1307,7 +1332,7 @@
   - unscripted adj
   - purposely adv
   - slim adj
-  - suburb n
+  - suburb n | suburban adj/n
   - present n/v/adj | represent vt | representative n/adj | presence n
   - clap n/v
   - bitterly adj
@@ -1345,7 +1370,6 @@
   - renovate vt
   - celebrity n
   - carve v
-  - monarchy n
   - highness n
 
 - 2020.2.25
@@ -1479,7 +1503,7 @@
   - fawn vi | fawning adj
 
 - 2020.1.17
-  - restraint n
+  - restraint n | restrained adj
   - comfortable adj | uncomfortable
   - distinction n | distinct adj | distinctive adj
   - stun n/vt
@@ -1756,7 +1780,7 @@
   - fraction n
   - infraction n
   - robust adj
-  - unanimously adv
+  - unanimous n | unanimously adv
   - waist n
   - anal adj
   - pubic adj
@@ -2292,7 +2316,7 @@
   - evacuation n | evacuate v | evacuee n
   - dam n
   - levee n
-  - agreement n | agree v
+  - agreement n | agree v | disagreement
   - asylum n
   - scrutiny n | scrutinize vt
   - achieve v | achievable adj
@@ -2457,7 +2481,6 @@
   - proceeding n | proceed vi/n
   - thereafter adv
   - breach n/vt
-  - restrained adj
   - caucus n/vi
   - premature n/adj | mature v/adj
   - deflect v
@@ -2490,7 +2513,7 @@
   - adopt v
   - boost n/vt
   - fiscal adj | fiscally
-  - budget n/vt | budge v
+  - budget n/vt
   - deficit n
   - bashful adj
   - wasteful adj
@@ -2875,7 +2898,7 @@
   > It has had a problem with too much rainwater coming in
 
 - 2019.9.4
-  - appear vi | appearance n
+  - appear vi | appearance n | disappearance
   - terrific adj
   - terrify v | terrified adj
   - territory n
@@ -3062,7 +3085,7 @@
   > what are the highlights so far?
 
 - 2019.8.14
-  - apparent adj
+  - apparent adj |apparently adj
   - bllionaire n
   - financier n
   - traffic n/v
@@ -3265,7 +3288,6 @@
   > it's done trying
 
 - 2019.7.18
-  - unanimous n
   - lawsuit n
   - comedian n
   - bully n/vt | bullying n/adj
@@ -3303,7 +3325,6 @@
   - reservation n
   - opt vi
   - stumble n/vt | stumbling adj | tumble n/vi
-  - radical adj
   - gradual adj
 
   > you mentioned an election will happen down the road
@@ -3355,7 +3376,7 @@
   - swallow v/n
   - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
-  - encouraging adj | encouragement n | encourage vt
+  - encouraging adj | encouragement n | encourage vt | discourage
   - consequence n | conclusion n | conclude v | in-conclusive adj
 
   > it is hard to swallow
@@ -3527,7 +3548,6 @@
   - provocative adj
   - arena n
   - dilute vt/adj
-  - strain n/vt
 
   > But as I said earlier | as you mentioned
   > be fall apart altogether
