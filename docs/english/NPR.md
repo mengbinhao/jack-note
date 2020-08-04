@@ -1,3 +1,13 @@
+- 2020.8.4
+  - recognize vt
+  - crossroad n
+  - regime n
+  - authoritarian adj/n
+
+  > It wasn't long ago that XXX's days appeared to be numbered
+  > XXX claims these bosses were paid off to switch sides
+  > XXX is going to be at a crossroad
+
 - 2020.8.3
   - earnest adj/n
   - various adj
@@ -1098,7 +1108,7 @@
   - strand n/v | stranded adj
   - demolish vt
   - sanitation n
-  - claim n/v | reclaim vt | claimant n
+  - claim n/v | reclaim vt | claimant n | proclaim vt
   - demotivate v
   - humane adj | humanitarian | humanity n
 
