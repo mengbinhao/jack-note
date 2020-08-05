@@ -1,3 +1,10 @@
+- 2020.8.5
+  - pressure n/vt
+  - aid n/v
+
+  > Democrats on the panel say xxx
+  > He didn't have any other than his common sense
+
 - 2020.8.4
   - recognize vt
   - crossroad n
@@ -949,7 +956,6 @@
   - exacerbate vt
   - campaign n/vi
   - exceed v
-  - devastate vt
 
   > On the other hand, they won't act in a circumstance where they look like they're weak
 
@@ -1078,7 +1084,6 @@
   - wee adj
   - rosy adj
   - reality n
-  - violent adj
   - hint n/v
 
 - 2020.3.23
@@ -3182,7 +3187,7 @@
   - conflicting adj | conflict n/vi
   - ideology n | ideological adj | ideologically adv
   - shock n/vt/adj
-  - devastating adj | devastation n
+  - devastate vt | devastating adj | devastation n
   - horrific adj
 
   > it turned out
@@ -3323,7 +3328,7 @@
 
 - 2019.7.17
   - protest n | protester
-  - violence n
+  - violence n | violent adj
   - ruling adj
   - activist n
   - joint adj | jointly
@@ -3528,7 +3533,7 @@
   - collapse n/vi
   - faint n/vi/adj
   - trial n/adj | retrial n
-  - democratically adv | democratic adj | democracy n
+  - democratically adv | democratic adj | democracy n | democrat
   - jail n/vt
   - crackdown n | crack n/adj/v
   - circumstance n | circumspect adj | circumstantial adj
