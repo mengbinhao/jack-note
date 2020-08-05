@@ -222,6 +222,7 @@
 - [Vue mobile project optimization](https://juejin.im/post/5b80f4e36fb9a019ce148fe9)
 - [vue移动端开发总结](https://juejin.im/post/5e0f01fd5188253a8511b9c0)
 - [总结几个移动端H5软键盘的大坑](https://segmentfault.com/a/1190000022115177)
+- [轻松搞定移动端适配](https://mp.weixin.qq.com/s/IFJyfOm4Sv4n4nWiS2BY3w)
 
 ### source
 - [vuex and others](https://mp.weixin.qq.com/s/6TGSWEsMu4lzoXTUshGrEg)
@@ -637,6 +638,7 @@
 
 #### Vue
 
+- [史上最强vue总结](https://mp.weixin.qq.com/s/mrlbl98pz879QBPfSu2VoQ)
 - [30道Vue面试题](https://juejin.im/post/5d59f2a451882549be53b170)
 - [Vue.js](https://juejin.im/post/5e9800f751882573b0474b7c)
 - [一万两千字总结的36个Vue开发面经](https://mp.weixin.qq.com/s/m_-7orUpVqBWtESc-zJk6w)
