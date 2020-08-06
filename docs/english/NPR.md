@@ -1,3 +1,9 @@
+- 2020.8.6
+  - misstep n/vi
+
+  > It's more of a pause
+  > Can xxx do what they say they are going to do?
+
 - 2020.8.5
   - pressure n/vt
   - aid n/v
@@ -292,7 +298,6 @@
   > let me throw this last one to you
 
 - 2020.6.22
-  - surgery n
   - selfie n
   - marine n/adj
 
@@ -668,6 +673,7 @@
   - purge n/vt
   - surge n/vi
   - insurgent n/adj
+  - surgery n
 
   > the fear of a second spike
   > wrestle it to the floor
@@ -707,7 +713,7 @@
   > So neither side seems to be wanting to take a step back from where we are
 
 - 2020.4.30
-  - besiege vt
+  - besiege vt | siege n/vt
   - starvation n | starve v
   - situate vt/adj | situation n
   - painful | hurtful
