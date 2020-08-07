@@ -1,3 +1,21 @@
+- 2020.8.7
+  - episode n
+  - humble adj/vt
+  - impression n
+  - nuance n
+  - discourse n
+  - grill n/v
+  - tale n
+  - emperor n
+
+  > We got a first taste of xxx
+  > but a big chunk of hearing had nothing to do with that
+  > which actually prompted a bit of an interesting moment
+  > take a dig at xxx
+  > One was the key focus, how the tech giants may have grown at the expense of others
+  > how they throw their weight around to bully competitors out od the way
+  > Companies essentially argued bad episodes were outliers
+
 - 2020.8.6
   - misstep n/vi
 
@@ -1047,7 +1065,7 @@
   - bailout n
   - cope with vi
   - stimulus n
-  - elbow n/vt
+  - elbow n/vt | bow n/v
   - disinfect vt
   - infect vt | infectious adj | infection
   - dodge n/v
@@ -3097,7 +3115,7 @@
   - outsider n
   - anthem n
   - salute n/vt
-  - premise n
+  - premise n/v
   - penetrate v
 
   > its full scope
@@ -3290,7 +3308,7 @@
   - stealth n/adj | steal n/v
   - maintenance n
   - facility n | facilitate vt | facilitation
-  - adversary n
+  - adversary n | adversarial adj
   - undercut vt
   - vow n/vt
   - postpone vt | postponement n
