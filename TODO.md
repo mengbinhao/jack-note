@@ -77,6 +77,7 @@
 - [这33个超级好用的CSS选择器，你可能见都没见过](https://mp.weixin.qq.com/s/o1ECWAYh_Atuk8iVmCibjw)
 - [CSS揭秘实用技巧总结](https://mp.weixin.qq.com/s/QYgdWu86UHx_NMEAKVdGNg)
 - [40个CSS布局技巧](https://mp.weixin.qq.com/s/6jZibuthus7l5PlhAbpHEQ)
+- [只要一行代码，实现五种CSS经典布局](https://mp.weixin.qq.com/s/DxR-kBOR_vgFxD7Bhe5GWg)
 
 
 ### nodejs
@@ -123,6 +124,7 @@
 - [使用Webpack配置React和Vue开发环境](https://juejin.im/post/5e8759d4e51d4546e26375de)
 - [大规格文件的上传优化](https://mp.weixin.qq.com/s/0oVi1qYNe0QNiPmThco2qg)
 - [十五张图带你彻底搞懂从URL到页面展示发生的故事](https://mp.weixin.qq.com/s/wJLmui0mlLpgNVT1XBNz2w)
+- [九种不同姿势解决跨域](https://mp.weixin.qq.com/s/bje2AAk7ejj2vawP7kAXdg)
 
 ### JS
 
@@ -587,6 +589,7 @@
 
 ### Interview
 
+- [大厂面试过程复盘](https://mp.weixin.qq.com/s/T5Phh8p_xJWC_bh-7yWhMQ)
 - [一个前端自学者从面试被吊打](https://mp.weixin.qq.com/s/JtCKwuCC9BtwKHFEW2KZ-A)
 - [前端常见20道高频面试题深入解析](https://mp.weixin.qq.com/s?__biz=MzI1NTcxOTQ1Nw==&mid=2247488166&idx=1&sn=2f4b4c3a646e806f4de54c4126d041b5) @@##$$
 - [手写js](https://mp.weixin.qq.com/s?__biz=MzA4Nzg0MDM5Nw==&mid=2247484702&idx=1&sn=b29da04b46c7036b6362f988070717b1)  @@##$$

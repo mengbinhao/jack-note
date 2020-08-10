@@ -1,3 +1,16 @@
+- 2020.8.10
+  - dentist n
+  - category n | categorize vt
+  - fragile adj
+  - resumption n
+  - recall n/vt
+  - confirm vt | confirmation
+
+  > a number from government makes it clear just how bad
+  > this was led by a sharp drop in consumer spending
+  > the office has been booked solid
+  > In a broad sense, It's been well spend
+
 - 2020.8.7
   - episode n
   - humble adj/vt
@@ -427,7 +440,6 @@
   - diagnostic adj
   - genetic adj
   - antibody n
-  - contract
 
 - 2020.6.8
   - contingent n
@@ -847,7 +859,7 @@
   > It looks like that curve has gone over the peak
 
 - 2020.4.18
-  - shrink v | shrinkage n | contraction n
+  - shrink v | shrinkage n | contraction n | contract n/v | contractor n
   - degree n
   - amount n/vi
   - drop n/v
@@ -1003,7 +1015,6 @@
 
 - 2020.4.1
   - retreat n/v
-  - contract n/v | contractor n
   - engage v | engaged adj | engagement n
   - symptom n
   - mild adj
