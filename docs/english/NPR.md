@@ -1,3 +1,14 @@
+- 2020.8.11
+  - tend v
+  - sow v
+  - cunning adj/n
+  - coincident adj | coincidental | coincidentally
+  - purview n
+  - extreme adj/n
+
+  > Walk uo through it
+  > the one real bright spot was that xxx
+
 - 2020.8.10
   - dentist n
   - category n | categorize vt
@@ -1922,7 +1933,7 @@
 
 - 2019.12.10
   - capable adj
-  - distraction n | distract v | traction n
+  - distraction n | distract v
   - censure n/v
   - hoax n/vt
   - obsolete n/vt/adj
@@ -2030,7 +2041,7 @@
   > It's time to try something new
 
 - 2019.11.14
-  - fraud n
+  - fraud n | fraudulent adj
   - persecute v | persecution n
   - victor n
   - finding n
@@ -2834,7 +2845,7 @@
   - rover n
   - pole n
   - approach n/v
-  - narrate vt | narrative n
+  - narrate v | narrative n/adj
   - orbiter n
   - excitement
   - eerily adv
@@ -3105,7 +3116,7 @@
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj
-  - constitutional adj | unconstitutional | constitution
+  - constitutional adj | unconstitutional | constitution | constitutionally
   - constituent n
   - shortsighted adj
   - impunity adj
@@ -3245,7 +3256,7 @@
   - committee n | commitment n | committed adj
   - brevity n
   - obstruction n | obstruct vt
-  - ultimate adj | ultimately adv
+  - ultimate n/adj | ultimately adv
   - exonerate n/vt/adj
   - motivated adj | motivation n | motive n
   - integrity n
