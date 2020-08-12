@@ -1,3 +1,11 @@
+- 2020.8.12
+  - landfall n
+  - ocean n | oceanic adj
+  - material n/adj | materialize v
+  - Atlantic
+
+  > It was the equivalent of a Category 5 hurricane
+
 - 2020.8.11
   - tend v
   - sow v
@@ -558,7 +566,6 @@
   - shelter n/v
   - delta n
   - protect vt | protective adj
-  - cyclone n
   - shred n/v
 
   > but even in those
@@ -1212,7 +1219,7 @@
   - entertain v | entertainment | entertainer n
   - ironic adj
   - marginalize vt
-  - atmosphere n
+  - atmosphere n | atmospheric adj
   - enshrine vt
   - tacit adj
 
@@ -2357,7 +2364,7 @@
   > frankly speaking
 
 - 2019.10.17
-  - typhoon n | hurricane n
+  - typhoon n | hurricane n | cyclone n
   - scary adj | scare n/v/adj
   - archipelago n
   - diminished adj | diminish v
