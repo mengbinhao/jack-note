@@ -125,6 +125,7 @@
 - [大规格文件的上传优化](https://mp.weixin.qq.com/s/0oVi1qYNe0QNiPmThco2qg)
 - [十五张图带你彻底搞懂从URL到页面展示发生的故事](https://mp.weixin.qq.com/s/wJLmui0mlLpgNVT1XBNz2w)
 - [九种不同姿势解决跨域](https://mp.weixin.qq.com/s/bje2AAk7ejj2vawP7kAXdg)
+- [为什么cookie会有httponly属性?真实案例解释XSS的三种攻击](https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A)
 
 ### JS
 
@@ -522,6 +523,7 @@
 - [TypeScript和JavaScript混合开发](https://mp.weixin.qq.com/s/L_3z5rlXFTDdwvHpN9tI6g)
 - [小讲Typescript](https://juejin.im/post/5e3408e851882526185252c1)
 - [全网最全的TypeScript踩坑集锦](https://mp.weixin.qq.com/s/NLI5B3F6qo0TpRBgjZz-Ng)
+- [全网最全的TypeScript踩坑集锦](https://mp.weixin.qq.com/s/SfPlhB_4ywfiYLANax1VwQ)
 
 ### Other
 
