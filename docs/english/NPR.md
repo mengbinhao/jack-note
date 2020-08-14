@@ -1,3 +1,23 @@
+- 2020.8.14
+  - march n/v
+  - shatter n/v | shattered
+  - litter n/v
+  - disfunction
+  - metric n/adj
+  - catastrophic adj
+  - crush n/v
+  - wasteland n
+  - aerial adj
+
+  > What's happening on the ground?
+
+- 2020.8.13
+  - disposal n
+  - inherit v | inheritance
+  - rifle n
+  - expedition n
+  - legacy n
+
 - 2020.8.12
   - landfall n
   - ocean n | oceanic adj
@@ -79,7 +99,7 @@
   > I imagine 200 is going to be a lot of lower than Democrats want to go, just reflecting on his reaction
 
 - 2020.7.31
-  - spontaneous adj
+  - spontaneous adj | spontaneously adv
   - candidate n
   - offense n
   - plentiful adj
@@ -833,7 +853,7 @@
   - advance n/v/adj
   - criteria n
   - socialize v
-  - guidance n | guidance n
+  - guidance n
 
   > they're pretty short on specifics
 
@@ -2147,7 +2167,7 @@
   - sweep n/v | sweeping adj
   - hurdle n/v
   - behind-the-scenes adj
-  - bargain n/v | bargaining
+  - bargain n/v | bargaining | barter v
   - class n/v
   - assuage vt | diffuse v/adj | undermine vt
   - reform n/v
@@ -2492,7 +2512,6 @@
   - conceal vt | concealed adj
   - bothersome adj
   - properly adv | improperly adv | improper adj
-  - spontaneously adv
   - disperse v | dispersed adj
   - heavy-handed adj
   - median n/adj
@@ -3247,7 +3266,7 @@
 
 - 2019.7.31
   - testify v | testimony n
-  - bombshell n
+  - bombshell n | bomb n/v
   - congressional adj
   - collegial adj
   - despite prep
@@ -3465,7 +3484,7 @@
   - shore n/vt
   - foe n
   - tough n/adj/adv
-  - neighborhood n | neighboring adj
+  - neighborhood n | neighboring adj |　neighbor n/adj
   - begrudgingly adv
   - grudge n/vt | grudging adj
   - duty-fee n
