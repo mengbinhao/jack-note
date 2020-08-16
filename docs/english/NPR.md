@@ -1,3 +1,19 @@
+- 2020.8.16
+  - misinformation
+  - slave | slaver | slavery n
+  - downtown n
+  - plain adj
+  - rebellion n | riot n/vi
+
+  > Let's back up a little bit here
+
+- 2020.8.15
+  - charm n
+  - commission | commissioner
+  - colleague n
+  - shame n/vt | shameful adj
+  - nod n/v
+
 - 2020.8.14
   - march n/v
   - shatter n/v | shattered
@@ -457,7 +473,6 @@
   - furlough n/vt
   - privacy n
   - detention n
-  - custody
 
   > We have to leave it there, I'm afraid
 
@@ -668,7 +683,6 @@
   - revolve v
 
   > take a look at xxx from top to bottom
-  > it came to the conclusion that xxx
 
 - 2020.5.14
   - recuse vt
@@ -981,7 +995,7 @@
   - deaf adj
   - lung n
   - underlying adj | underlie vt
-  - scientific adj
+  - scientific adj | science n
   - upfront adj/adv
   - greenhouse n
   - transportation n | transport vt
@@ -1153,7 +1167,7 @@
 
 - 2020.3.24
   - nutrition n
-  - affect v | effect n | effectively adv | effectiveness n
+  - affect v | effect n | effective | effectively | effectiveness n
   - wee adj
   - rosy adj
   - reality n
@@ -1295,7 +1309,6 @@
   - miscarriage n
   - juror n
   - foundation n | foundational
-  - tamper v
   - crouch vi
   - shoulder v
   - underneath prep
@@ -2032,7 +2045,7 @@
   - repaid v/adj
   - bribery n
   - preliminary n/adj
-  - brutal adj
+  - brutal adj | brutality n
   - abduct n/vt
 
 - 2019.12.2
@@ -2055,7 +2068,7 @@
   - ambulance n
   - fragmented adj
   - harmony n
-  - harm n/vt | harmless adj
+  - harm n/vt | harmless adj | harmful adj
   - contrast n/v
   - avenue n | venue n
   - revenue n
@@ -2090,7 +2103,7 @@
   - bend v
   - perilous adj
   - arson n
-  - loot n/v
+  - loot n/v | looter
   - severe adj
   - divert v
   - monument n
@@ -2138,7 +2151,6 @@
 
   > What went through your mind when you heard it yesterday?
   > turn back on them
-  > it come to the conclusion that xxx
   > sort of seen
 - 2019.11.7
   - acknowledge vt
@@ -2254,7 +2266,6 @@
 - 2019.10.28
   - Chile n
   - metro n/adj
-  - riot n/vi
   - helmet n
   - revive v
   - dictatorship n | dictator n
@@ -2752,7 +2763,6 @@
   - rescue n/vt
   - dumb adj
   - judicial adj | judiciary n
-  - tamp vt
   - craziness n
 
   > but on than that, xxxxx
