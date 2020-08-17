@@ -1,3 +1,18 @@
+- 2020.8.17
+  - misgovernment n
+  - removal n
+  - suit n/v
+  - entrench v | entrenched adj
+  - upheaval n
+  - heed n/v
+
+  > this explosion happened just as millions have been driven into poverty by an economic collapse
+  > this is seen as being just too little too late
+  > window dressing
+  > XXX have been here before
+  > there is no talk of xxx
+  > it was a way to make peace, and it did kind of provide a way forward
+
 - 2020.8.16
   - misinformation
   - slave | slaver | slavery n
@@ -1991,7 +2006,6 @@
   - midst n/prep
   - misgiving n
   - plunder n/v
-  - vacuum n
   - caretaker n
   - inevitably adv
   - compassionate n/adj/adv | compassion n
@@ -2050,7 +2064,7 @@
 
 - 2019.12.2
   - unravel v
-  - spoiler n | spoil v
+  - spoiler n | spoil n/v
   - deterioration n
   - solidarity n
   - ration n/vt
@@ -2220,7 +2234,7 @@
   - ecstatic adj
   - eerie adj
   - uncharted adj
-  - vacuum n/vt
+  - vacuum n/vt/adj
   - certain
 
   > it's something that we have not seen before
