@@ -1,3 +1,9 @@
+- 2020.8.18
+  - medication n
+  - heroic adj
+  - unimagined adj
+  - diagnose v
+
 - 2020.8.17
   - misgovernment n
   - removal n
@@ -214,7 +220,7 @@
   - ache n/vi
   - reveal
   - challenge n/vt | unchallenged
-  - disclosure n | nondisclosure
+  - disclosure n | nondisclosure | closure n/vt
   - pilot n
   - silence n /v | silent adj/n
   - spectrum n
@@ -2631,7 +2637,6 @@
   - wasteful adj
   - efficient adj | inefficient
   - well-being n
-  - Medicaid n
   - welfare n | fare n
   - outcome n
   - hardship n
