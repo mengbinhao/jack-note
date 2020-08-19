@@ -1,4 +1,10 @@
 - 2020.8.18
+  - biography n
+  - mate n/v
+
+  > Prior to that, xxx
+
+- 2020.8.18
   - medication n
   - heroic adj
   - unimagined adj
@@ -137,7 +143,7 @@
 
 - 2020.7.31
   - spontaneous adj | spontaneously adv
-  - candidate n
+  - candidate n | candidacy n
   - offense n
   - plentiful adj
   - overreach
@@ -463,7 +469,7 @@
   > its unusual approach is sure to remain in the spotlight
 
 - 2020.6.16
-  - character n | characterization n
+  - character n | characterization n | characterize vt
 
   > What are the big takeaways?
   > His job approval rating is at 41%
@@ -474,7 +480,7 @@
   > as ..... as opposed to ...
 
 - 2020.6.15
-  - blanket n
+  - blanket n/v/adj
   - circulate v
   - aberration n
   - swift adj
@@ -787,7 +793,7 @@
 - 2020.5.7
   - due n/adj/adv
   - longstanding adj
-  - historical adj
+  - historical adj | historic | historically
   - corporation n
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
@@ -3461,7 +3467,6 @@
   - outgoing adj
   - uninformed adj
   - candid adj
-  - candidacy n
   - accurately adv | inaccuracy n
   - hardcore
   - mischievous adj
