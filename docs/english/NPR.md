@@ -1,3 +1,13 @@
+- 2020.8.19
+  - lofty adj
+  - aspiration n
+  - pro-xxx n
+  - threat n | threaten v
+  - tie n
+
+  > Now the ice has been broken
+  > As the saying goes, my enemy's enemy is my friend, and so xxx are the one who are paying the price for this
+
 - 2020.8.18
   - biography n
   - mate n/v
@@ -987,7 +997,7 @@
   - liberty n
   - expense n/v
   - odd adj | even
-  - symbolic adj
+  - symbolic adj | symbolical | symbolically
   - penalty n
 
   > It will go into effect tonight and last for about a month
@@ -1544,7 +1554,7 @@
   - cavernous adj
   - overlook v
   - dot v/adj
-  - tourist n/v/adj/adv
+  - tourist n/v/adj | tourism n
   - steam n/v/adj
   - monarch n
   - avoid v | unavoidable adj
@@ -2031,7 +2041,8 @@
   > but it could have been much worse
 
 - 2019.12.6
-  - scene n
+  - scene n | scenario n
+  - behind-the-scenes adj
   - curious adj
   - renounce vt
   - principal n/adj | principally adv
@@ -2188,7 +2199,7 @@
 - 2019.11.5
   - resolution n
   - phase n
-  - formalize vt
+  - formalize vt | formal adj
   - gear n/v
   - portray vt
   - permanent adj | permanently adv
@@ -2204,7 +2215,6 @@
 - 2019.11.4
   - sweep n/v | sweeping adj
   - hurdle n/v
-  - behind-the-scenes adj
   - bargain n/v | bargaining | barter v
   - class n/v
   - assuage vt | diffuse v/adj | undermine vt
@@ -3102,7 +3112,6 @@
   - genuine adj | genuinely adv
   - dissident n/adj
   - worse-case
-  - scenario n
 
   > xxxxx, but more importantly, xxxxx
 
@@ -3149,7 +3158,6 @@
 
 - 2019.8.19
   - consult v | consulting adj | consul n | consulate n
-  - embassy n
   - stooge n
   - emerge vi | emerging adj | emergence n
   - concrete adj
@@ -3455,7 +3463,7 @@
 - 2019.7.16
   - criticism n | critic n | critical adj | criticize v
   - cable n/vt
-  - ambassador n
+  - ambassador n | embassy n
   - inept adj
   - competent adj | incompetent adj
   - radiate v
