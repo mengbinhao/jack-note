@@ -1,3 +1,10 @@
+- 2020.8.22
+  - underground adj
+  - scholar n
+  - monarchy n
+  - discipline n/vt | disciplined adj
+
+
 - 2020.8.19
   - lofty adj
   - aspiration n
@@ -1205,6 +1212,7 @@
 - 2020.3.24
   - nutrition n
   - affect v | effect n | effective | effectively | effectiveness n
+  - effectual adj | ineffectual
   - wee adj
   - rosy adj
   - reality n
@@ -1951,7 +1959,7 @@
   - unfurl v
   - billionaire n
   - penalize vt
-  - dismantle vt
+  - dismantle vt | mantle n/v
   - revolt n/v
   - gridlock n
 
@@ -2197,7 +2205,7 @@
 
   > as of now
 - 2019.11.5
-  - resolution n
+  - resolution n | solution | dissolution
   - phase n
   - formalize vt | formal adj
   - gear n/v
@@ -3147,7 +3155,6 @@
   - stormy adj
   - hostile adj | hostility n
   - itinerary n
-  - irresistible adj
   - annexation n | annex n/vt
   - settlement n | settle n/v | settling | un-setting
   - pendulum n
@@ -3574,7 +3581,7 @@
   - disappointment n | appointment n | appoint v | appointed adj | appointee n
   - cite vt
   - inflation/deflation n
-  - resist v
+  - resist v | resistance n | resistible | irresistible adj
   - sustainable adj | sustained adj | sustain vt | unsustainable
   - concern n/vt | concerned adj | concerning adj
   - pace n/v
