@@ -1,9 +1,17 @@
+- 2020.8.24
+  - sphere n/v/adj |　hemisphere n
+  - geopolitics n
+
+- 2020.8.23
+  - nightfall n
+  - inward adj
+
+
 - 2020.8.22
   - underground adj
   - scholar n
   - monarchy n
   - discipline n/vt | disciplined adj
-
 
 - 2020.8.19
   - lofty adj
@@ -145,7 +153,6 @@
   - recognize vt
   - crossroad n
   - regime n
-  - authoritarian adj/n
 
   > It wasn't long ago that XXX's days appeared to be numbered
   > XXX claims these bosses were paid off to switch sides
@@ -237,7 +244,7 @@
   - scoff n/v
   - classic adj
   - mandatory adj
-  - habit n
+  - habit n | inhabit vt
   - regret n/v
   - dose n/v
   - ache n/vi
@@ -2318,7 +2325,6 @@
   - cannon n/v
   - hike n/v
   - transit n/vt/adj | transitional adj | transition
-  - repression n
   - lambaste vt
   - dissatisfaction n
   - disenchantment n
@@ -2768,7 +2774,7 @@
   - architect n
   - unnerving adj
   - bound n/v/adj | rebound vi
-  - appropriate adj | inappropriate
+  - appropriate adj | inappropriate | appropriately
   - offset vt
   - precisely adv | precise adj
   - nonetheless adv
@@ -3184,7 +3190,6 @@
   - poverty n
   - unchecked adj
   - detain vt
-  - hemisphere n
   - inspiration n
   - vice n/adj
   - expel vt
@@ -3415,7 +3420,7 @@
   - impose v | self-imposed adj | imposition n
   - derail n/v
   - finality n
-  - authority n | authorized | unauthorized adj | authorization n
+  - authority n | authorized | unauthorized adj | authorization n |authoritarian adj/n
   - raise n/v
   - dispute n/v | disputed adj | undisputed
   - alien n/adj
@@ -3656,7 +3661,8 @@
   - trial n/adj | retrial n
   - democratically adv | democratic adj | democracy n | democrat
   - jail n/vt
-  - crackdown n | crack n/adj/v
+  - crackdown n | crack n/adj/v | repression n
+  - insurgency n
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - convicted adj | convict n/vt | conviction n | absolve vt
