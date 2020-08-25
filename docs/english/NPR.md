@@ -1,11 +1,16 @@
+- 2020.8.25
+  - abundant adj
+  - ancestor n
+  - museum n
+  - fold n/v
+
 - 2020.8.24
-  - sphere n/v/adj |　hemisphere n
+  - sphere n/v/adj | hemisphere n
   - geopolitics n
 
 - 2020.8.23
   - nightfall n
   - inward adj
-
 
 - 2020.8.22
   - underground adj
@@ -1176,6 +1181,9 @@
   - enthuse v | enthusiastic adj
   - regress vi | regressive adj
   - temporary adj | temporarily adv
+  - temperature n
+  - temptation n
+  - temper n/v | tempered adj
   - bailout n
   - cope with vi
   - stimulus n
@@ -1205,7 +1213,6 @@
   - reliable adj | rely vi
   - forehead n
   - gauge n
-  - temperature n
   - stress n/vt
   - folk n
   - adjust v | adjustment n
@@ -2007,7 +2014,6 @@
   > It's the first time I can say, hand and heart,xxx
 
 - 2019.12.12
-  - temptation n
   - reverse n/v/adj
 
   > the president leaves us no choice but to act
@@ -3035,7 +3041,7 @@
   - nightmarish adj
   - concentrated adj
   - centrally adv | centralized adj | centrist n/adj
-  - tropical adj
+  - tropical adj | frigid adj
   - deforestation n | forest n
   - sparsely adv
 
@@ -3672,7 +3678,7 @@
   - defendant n | defend v | defensive adj
   - Turkish adj/n
   - mistreat vt
-  - polarize v | polarization n
+  - polar n/adj | polarize v | polarization n
   - exile n/vt
   - funeral n | funereal adj
 
