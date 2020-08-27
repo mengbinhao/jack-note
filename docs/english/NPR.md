@@ -1,3 +1,18 @@
+- 2020.8.27
+  - lid n
+  - seed n/v
+  - midway
+
+  > It's step in that direction, but there is still no word on xxx
+
+- 2020.8.26
+  - rural adj
+  - directive n/adj
+  - initiative n
+  - allude vi
+  - organize | organization | organizational | reorganize
+  - transform v | transformation
+
 - 2020.8.25
   - abundant adj
   - ancestor n
@@ -66,7 +81,7 @@
 
 - 2020.8.15
   - charm n
-  - commission | commissioner
+  - commission | commissioner |decommission
   - colleague n
   - shame n/vt | shameful adj
   - nod n/v
@@ -601,7 +616,7 @@
   > while the country tries getting back on its feed
 
 - 2020.6.3
-  - align v
+  - align v | alignment | realignment
   - boast n/vt
   - contrive v
   - relish n/v
@@ -1862,7 +1877,6 @@
   - arrogant adj
   - expire n/v
   - hinder v
-  - meddle vi
   - asshole n
   - crap n/vi
   - invent vt
@@ -2238,7 +2252,8 @@
   - hurdle n/v
   - bargain n/v | bargaining | barter v
   - class n/v
-  - assuage vt | diffuse v/adj | undermine vt
+  - assuage vt | undermine vt
+  - diffuse v/adj
   - reform n/v
 
   > That's harder to do than it is to say
@@ -3105,7 +3120,7 @@
   - corrode v
   - dampen vt
   - demonstration n | demonstrate v | demonstrator
-  - interfere vi | interference n | intervene vi | intervention n
+  - interfere vi | interference n | intervene vi | intervention n | meddle vi
   - contrary n/adj/adv
   - criminality n | crime n | criminal n/adj
   - exaggerated adj
