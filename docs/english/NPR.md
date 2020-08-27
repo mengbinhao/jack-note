@@ -3,7 +3,7 @@
   - seed n/v
   - midway
 
-  > It's step in that direction, but there is still no word on xxx
+  > It's a step in that direction, but there is still no word on xxx
 
 - 2020.8.26
   - rural adj
