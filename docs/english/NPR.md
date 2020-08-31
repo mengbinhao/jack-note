@@ -1,3 +1,20 @@
+- 2020.8.31
+  - attempt n/vt
+  - similar | similarity
+  - coma n
+  - dissent n/v | dissident n/adj
+  - funnel n/v
+
+  > in a coma
+
+- 2020.8.28
+  - insider n
+  - unquestionably adv
+  - invoice n/v
+  - penny n
+
+  > xxx was very much trying to distance himself from both A and B
+
 - 2020.8.27
   - lid n
   - seed n/v
@@ -53,7 +70,6 @@
   - medication n
   - heroic adj
   - unimagined adj
-  - diagnose v
 
 - 2020.8.17
   - misgovernment n
@@ -562,7 +578,7 @@
 - 2020.6.9
   - protein n
   - inject vt | injection
-  - diagnostic adj
+  - diagnose v | diagnostic adj
   - genetic adj
   - antibody n
 
@@ -953,7 +969,7 @@
   > there is nowhere near over
   > it is a huge blow
 - 2020.4.22
-  - priority n
+  - priority n | prioritize vt | prior adj
   - policy n
 
   > so what does that mean as the campaign moves ahead?
@@ -1159,7 +1175,6 @@
 - 2020.3.30
   - antsy adj
   - sponsor n/vt
-  - prioritize vt
   - athlete n
   - spectator n
   - optimum n/adj
@@ -1503,7 +1518,6 @@
   - weird adj
   - riff n
   - tariff n/vt
-  - teleprompter n
   - unscripted adj
   - purposely adv
   - slim adj
@@ -1621,7 +1635,6 @@
   - assassination n | assassinate vt
   - irresponsible n/adj/adv
   - honor n/vt | dishonor n/vt
-  - dissent n/vi
   - cruise n/v
   - televise v
   - investigator n
@@ -2153,7 +2166,7 @@
   > It's time to try something new
 
 - 2019.11.14
-  - fraud n | fraudulent adj
+  - fraud n | fraudulent adj | defraud
   - persecute v | persecution n
   - victor n
   - finding n
@@ -2989,7 +3002,6 @@
   - incoherent adj
   - rampage n/vt
   - postal adj
-  - prior adj
   - alcohol n
   - tobacco n | cigarette n
   - mourn v
@@ -3145,7 +3157,6 @@
   - referendum n
   - seamless adj
   - genuine adj | genuinely adv
-  - dissident n/adj
   - worse-case
 
   > xxxxx, but more importantly, xxxxx
