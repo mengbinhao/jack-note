@@ -1,3 +1,9 @@
+- 2020.9.1
+  - restate vt
+  - vicinity n
+
+  > They take a deadly turn
+
 - 2020.8.31
   - attempt n/vt
   - similar | similarity
@@ -3492,7 +3498,7 @@
   - activist n
   - joint adj | jointly
   - council n
-  - civilian n/adj | civilization n | civil adj
+  - civilian n/adj | civil adj | civilization n
   - coup n
   - sole adj/n/vt
   - compromise n/v
