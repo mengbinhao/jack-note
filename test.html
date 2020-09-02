@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.min.js"></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1"
+			rel="stylesheet"
+			type="text/css"
+		/>
+	</head>
+	<body>
+		<!DOCTYPE html>
+		<html lang="en">
+			<head>
+				<meta charset="UTF-8" />
+				<meta
+					name="viewport"
+					content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+				/>
+				<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+				<title>Document</title>
+			</head>
+			<body>
+				<div id="app">
+					<p>vue中动画组</p>
+					<input type="text" v-model="content" />
+					<transition-group
+						enter-active-class="animated bounceInLeft"
+						leave-active-class="animated bounceOutRight"
+					>
+						<li v-for="arr in computedArr" :key="arr">{{ arr }}</li>
+					</transition-group>
+				</div>
+				<script>
+					let vm = new Vue({
+						el: '#app',
+						data() {
+							return {
+								content: '',
+								arrs: ['abc', 'basd', 'zxcw', 'awqec', 'kjea'],
+							}
+						},
+						methods: {
+							handleShow() {
+								this.isShow = !this.isShow
+							},
+						},
+						computed: {
+							computedArr() {
+								return this.arrs.filter((item) => item.includes(this.content))
+							},
+						},
+					})
+				</script>
+				<style>
+					li {
+						width: 200px;
+						background-color: blue;
+						line-height: 35px;
+					}
+				</style>
+			</body>
+		</html>
+	</body>
+</html>

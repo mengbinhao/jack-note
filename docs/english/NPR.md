@@ -1,3 +1,9 @@
+- 2020.9.2
+  - destiny n
+  - cherish vt | cherished adj
+
+  > The messages were kind of all over the place
+
 - 2020.9.1
   - restate vt
   - vicinity n
@@ -97,7 +103,7 @@
   - slave | slaver | slavery n
   - downtown n
   - plain adj
-  - rebellion n | riot n/vi
+  - rebellion n | riot n/vi | rioter
 
   > Let's back up a little bit here
 
@@ -830,7 +836,7 @@
 - 2020.5.9
   - spotlight n/vt | hotspot n | spot n/vt
   - warehouse n
-  - thrust v
+  - thrust n/v
   - grocer n | grocery n
 
 - 2020.5.8
@@ -1039,7 +1045,6 @@
   - numerical adj
   - aftermath n
   - mathematical adj | mathematically adj
-  - nominee n
   - presumptive adj
   - virtual adj | virtually adv
   - delegate n/vt
@@ -1549,7 +1554,7 @@
 
 - 2020.2.27
   - nephew n | niece n
-  - distribute vt | distribution n | distributed adj
+  - distribute vt | distribution n | distributed adj | redistribute
   - agility n | agile adj
   - league n | legend n
   - jersey n
@@ -1873,7 +1878,7 @@
   - volcano n
   - rotate v/adj
   - immune n/adj | immunity n
-  - nominate vt | nomination
+  - nominate vt | nomination | nominee n
 
   > the have put the priority on getting those bodies back
   > working on a very tight clock there
@@ -2779,7 +2784,7 @@
   - renewable adj
   - accountable adj | unaccounted adj | accountability n
   - sit-in n
-  - progressive n/adj
+  - progressive n/adj | progress n/vi
 
   > and then even a week from tomorrow, xxxx
   > but it hasn't gotten anywhere in congress yet
@@ -3738,7 +3743,7 @@
   - departure n | depart v
   - personnel n
   - tenure n
-  - aggressive adj | aggressively adv | aggression n | aggressiveness n
+  - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe
   - insult n/vt
   - resolutely adj

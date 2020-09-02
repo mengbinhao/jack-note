@@ -495,6 +495,7 @@
 
 #### hooks
 
+- [写React Hooks前必读](https://mp.weixin.qq.com/s/bUcsqBYdK0DHhvbJ_yTyqQ)
 - [React Hooks 最佳实践](https://mp.weixin.qq.com/s/HwlnvAh18saKwXC_nZwSHw)
 - [React hooks 入门和进阶](https://www.yuque.com/dillon-r2ua6/gzkcty/om31wg)
 - [10个案例彻底理解React hooks的渲染逻辑](https://mp.weixin.qq.com/s/4WdLd4mQI0v1UiRnmtBF8g)
@@ -688,6 +689,7 @@
 
 #### Vue
 
+- [万字总结Vue(包含全家桶)](https://mp.weixin.qq.com/s/jcAWvAI1n5QdhJIW_WPhcg)
 - [史上最强vue总结](https://mp.weixin.qq.com/s/mrlbl98pz879QBPfSu2VoQ)
 - [30道Vue面试题](https://juejin.im/post/5d59f2a451882549be53b170)
 - [Vue.js](https://juejin.im/post/5e9800f751882573b0474b7c)
