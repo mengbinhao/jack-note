@@ -1,3 +1,13 @@
+- 2020.9.3
+  - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist
+  - shareholder n
+  - preside v
+  - friction n
+  - buddy n
+
+  > They are going to build it from scratch because there's no one like that on the horizon
+  > A lot of gains of this growth went to corporations and shareholders and not wage earners
+
 - 2020.9.2
   - destiny n
   - cherish vt | cherished adj
@@ -207,7 +217,7 @@
   > XXX is going to be at a crossroad
 
 - 2020.8.3
-  - earnest adj/n
+  - earnest adj/n | earn vt
   - various adj
 
   > It's a mouthful, but it covers a lot of areas
@@ -224,7 +234,6 @@
   - fist n/vt
   - yell n/v
   - snipe n/v
-  - socialist n
   - rip  n/v
   - summit n
 
@@ -250,7 +259,7 @@
   - cozy adj
   - malware n
   - simultaneous adj
-  - persistent adj
+  - persist vi | persistent adj
   - plural n/adj
   - hack | hacker
   - hurdle n
@@ -578,7 +587,7 @@
 - 2020.6.10
   - dispersal n
   - contentious adj
-  - nation n | nationalize vt | nationalism
+  - nation n | nationalize vt
   - fitness n
   - inflection n
   - coincide vi
@@ -1483,10 +1492,8 @@
   > we can't achieve justice, without justice itself
 
 - 2020.3.4
-  - nativist n | native adj
+  - native adj
   - struggle n/v
-  - imperialist n
-  - populist n | populism n
   - popularity n
   - reunification | unify vt
   - swap n/v
@@ -1728,7 +1735,6 @@
   - perimeter n
   - ungovernable adj
   - insurrection n
-  - extremist n
   - liberal adj
   - intersection n
   - soak n/v
@@ -1772,7 +1778,6 @@
   > point fingers
 
 - 2020.1.9
-  - unionist n
   - psychological adj
   - burden n/vt
   - integral adj
@@ -2472,7 +2477,6 @@
   - showdown n
 
 - 2019.10.18
-  - separatist n/adj
   - deem vt
   - pile n/v
   - commute n/vi
@@ -2951,7 +2955,7 @@
   - ostensibly adv | ostensible adj
   - deadlock n/vt | stalemate n
   - momentous adj
-  - amendment n
+  - amend v | amendment n
   - rebel n/vi
   - compete vi | competing adj | competitive adj | competitor n | competition n
   - trick n | tricky adj
@@ -3092,7 +3096,7 @@
   - terrific adj
   - terrify v | terrified adj
   - territory n
-  - terror n | terrorist n
+  - terror n
   - imminent adj
   - militant adj/n | military n/adj | demilitarize
   - depot n
@@ -3191,7 +3195,6 @@
   - combine v | combined adj | combination n
   - ominous adj
   - curve n/vt
-  - persist vi
   - precede vt
   - anxiety n
   - decent adj
@@ -3297,7 +3300,7 @@
   - reckless adj | recklessness n
   - colonial adj | colony n | colonialism n | colonize vt
   - spiral n/vi/adj
-  - alliance n
+  - ally n/vt | allied adj | alliance n
   - disintegrate v | disintegrating | integrate v
   - division n
   - retaliation n | revenge n/v | retaliate vi | retaliatory adj
@@ -3384,7 +3387,7 @@
   - exonerate n/vt/adj
   - motivated adj | motivation n | motive n
   - integrity n
-  - rare adj | rarer adj | rarity n
+  - rare adj | rarity n
   - porch n
 
 - 2019.7.26
@@ -3448,7 +3451,6 @@
   - massive adj | mass n/v
   - cargo n
   - Pentagon n
-  - ally n/vt | allied adj
   - defy vt | defiance n
   - acquire vt | acquisition n
   - stealth n/adj | steal n/v
@@ -3740,7 +3742,7 @@
   > there is a couple of reasons
 
 - 2019.6.26
-  - departure n | depart v
+  - departure n | depart v/adj
   - personnel n
   - tenure n
   - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
