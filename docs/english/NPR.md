@@ -1,3 +1,22 @@
+- 2020.9.7
+  - analyst n
+  - festive | festival
+  - era n
+  - attend
+
+  > It was a milestone, it held a lot of symbolic meaning
+  > It was the most exciting flight they've ever taken
+  > we spoke at length about it
+  > also to further position themselves as a regional leader
+
+- 2020.9.4
+  - incomplete
+  - devolve v
+  - spray n/v
+  - edge n/v
+
+  > I know the details are still coming in, but can u just take us through the events as they unfold last night?
+
 - 2020.9.3
   - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist
   - shareholder n
@@ -60,7 +79,7 @@
 
 - 2020.8.24
   - sphere n/v/adj | hemisphere n
-  - geopolitics n
+  - geopolitics n | geopolitical
 
 - 2020.8.23
   - nightfall n
@@ -1259,7 +1278,7 @@
   > Does xx have any other options if these moves don't have the desired effect?
 
 - 2020.3.25
-  - attend v | attendance n
+  - attend v | attendance n |attendee
   - reliable adj | rely vi
   - forehead n
   - gauge n
@@ -2070,7 +2089,7 @@
   - endgame n
   - flip n/v/adj
   - miraculous adj | miracle n
-  - cue n/vt | clue n n/vt
+  - cue n/vt | clue n n/vt | clueless
 
 - 2019.12.10
   - capable adj
@@ -2691,7 +2710,7 @@
   - perspective n
   - frustrate vt | frustration n | frustrated adj
   - pleased adj | displease vt
-  - thrilled adj
+  - thrilled adj | thrill
   - disdain n/vt
   - ambiguity n
   - indecisive adj | decisive adj | decisively adv
@@ -3397,7 +3416,6 @@
   - divisive adj
   - off-putting adj
   - gut n
-  - detractor n
   - fond adj
   - undoubtedly adv
   - successor n
@@ -3572,7 +3590,7 @@
   - ploy n
   - soften v
   - tremendous adj
-  - considerable adj
+  - consider v | considerable adj | considerably
   - reversal n | invert vt | inversion n
 
   > so all in all
