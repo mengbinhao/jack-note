@@ -1,8 +1,10 @@
+- 2020.9.8
+  - fact | factual | factually
+
 - 2020.9.7
   - analyst n
   - festive | festival
   - era n
-  - attend
 
   > It was a milestone, it held a lot of symbolic meaning
   > It was the most exciting flight they've ever taken
@@ -177,7 +179,7 @@
   - cunning adj/n
   - coincident adj | coincidental | coincidentally
   - purview n
-  - extreme adj/n
+  - extreme adj/n | extremely
 
   > Walk uo through it
   > the one real bright spot was that xxx
@@ -626,7 +628,7 @@
   - contingent n
   - standby n
   - enforce vt | enforcement | enforceable adj
-  - lawless adj | lawlessness n
+  - lawless adj | lawlessness n | unlawful adj | lawful | lawsuit n
   - bluster n/v
 
   > in large degree
@@ -2213,7 +2215,6 @@
   - abandon n/v
   - overhaul v
   - awful adj | awfully adv
-  - unlawful adj | lawful
   - downfall n
   - accelerate v
   - shove n/vt
@@ -3114,7 +3115,7 @@
   - appear vi | appearance n | disappearance
   - terrific adj
   - terrify v | terrified adj
-  - territory n
+  - territory n | terrain n
   - terror n
   - imminent adj
   - militant adj/n | military n/adj | demilitarize
@@ -3493,7 +3494,6 @@
   > it's done trying
 
 - 2019.7.18
-  - lawsuit n
   - comedian n
   - bully n/vt | bullying n/adj
   - ex n
