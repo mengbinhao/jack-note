@@ -1,3 +1,19 @@
+- 2020.9.9
+  - deceptive adj
+  - sleeve n/vt
+  - impact n/v | impactful
+  - fake n/v/adj
+  - journalist n
+  - inexperienced adj
+  - duplicate n/vt/adj
+  - introduce vt
+  - playbook n
+  - support | supportive
+  - cover | uncover v
+
+  > It slips through the cracks
+  > It's a constant game of cat and mouse
+
 - 2020.9.8
   - fact | factual | factually
 
@@ -130,7 +146,7 @@
   > it was a way to make peace, and it did kind of provide a way forward
 
 - 2020.8.16
-  - misinformation
+  - misinformation | disinformation
   - slave | slaver | slavery n
   - downtown n
   - plain adj
@@ -1989,7 +2005,6 @@
   - doctoral adj
   - dissertation n
   - espionage n
-  - bogus adj
   - sabbatical n/adj
   - rapprochement n
   - beneficiary n
