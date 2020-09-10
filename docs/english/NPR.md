@@ -1,3 +1,9 @@
+- 2020.9.10
+  - tail | trail n/v
+  - correspondent n
+
+  > to my knowledge
+
 - 2020.9.9
   - deceptive adj
   - sleeve n/vt
@@ -31,6 +37,7 @@
   - incomplete
   - devolve v
   - spray n/v
+  - pray v
   - edge n/v
 
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
@@ -1664,7 +1671,6 @@
   - steam n/v/adj
   - monarch n
   - avoid v | unavoidable adj
-  - undertone n
   - figurehead n
   - outspoken adj
   - commonwealth n
@@ -1978,7 +1984,7 @@
 
 - 2019.12.19
   - enlist v
-  - justify vt | justification n
+  - justify vt | justification n | justifiable
   - recommendation n
   - debunk vt
   - omission n
@@ -2449,7 +2455,7 @@
   - abortion n
   - downplay vt
   - thrive vi
-  - vice versa adv
+  - vice n/adj
   - forgiving adj | forgive
   - loom vi
 
@@ -3147,7 +3153,7 @@
   - crucial adj
   - stake n/v
   - squabble vi
-  - tone n
+  - tone n | undertone n
   - petty adj
   - governor n
   - wrath n
@@ -3272,7 +3278,6 @@
   - unchecked adj
   - detain vt
   - inspiration n
-  - vice n/adj
   - expel vt
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj
   - pledge n/vt
@@ -3345,7 +3350,7 @@
 - 2019.8.12
   - massacre n/vt
   - legislation n | legislative adj | legislature n | legislator n
-  - legitimate adj | legitimacy n | illegitimate
+  - legitimate adj | legitimacy n | illegitimate | legitimize vt
   - universal n/adj ｜ universally
   - handful n
   - endorse vt | endorsement n
