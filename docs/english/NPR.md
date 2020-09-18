@@ -1,3 +1,48 @@
+- 2020.9.18
+  - ash n/v
+  - salvage n/vt
+  - soap n/v
+  - filthy adj
+  - overcrowd adj
+
+
+- 2020.9.16
+  - instrument n
+  - galaxy n
+  - craze n/v | crazy adj | craziness
+  - profession | professional
+
+- 2020.9.15
+  - magnetic adj
+  - spit n/v
+
+  > I need soften the language here
+  > His tone alternates between taking accountability for his own behavior and trying to describe what he found so magnetic in Trump
+
+- 2020.9.14
+  - berate vt
+  - wield vt
+  - aspire vi
+
+  > I'm just taking that in
+  > that's sort of thing
+
+- 2020.9.13
+  - revelation n
+  - hush n/v
+  - famous adj | infamous
+
+  > she drop a bombshell
+  > he has no plans to step aside
+  > victims will be for nothing
+
+- 2020.9.11
+  - medical n/adj | medically
+  - wean vt
+  - verbal adj
+  - stimulus n
+  - cubic adj
+
 - 2020.9.10
   - tail | trail n/v
   - correspondent n
@@ -464,7 +509,6 @@
   - immigrate v | immigration n
 
 - 2020.7.6
-  - nervous adj
   - firsthand n
   - liability n
   - fume n/v
@@ -651,6 +695,7 @@
   - contingent n
   - standby n
   - enforce vt | enforcement | enforceable adj
+  - reinforce n/v
   - lawless adj | lawlessness n | unlawful adj | lawful | lawsuit n
   - bluster n/v
 
@@ -739,7 +784,6 @@
   - focal adj
   - override vt
   - refuse v | refusal n
-  - reinforce n/v
   - congregate v
   - therapy n
 
@@ -969,7 +1013,7 @@
   - rile v
   - harvest n/v
   - series n
-  - immigrant n
+  - immigrant n | migrant n
 
   > He may decide to extend that future
   > It's not really as bold as we expected
@@ -1523,7 +1567,7 @@
   - naval n
   - centric adj
   - suspect n/v/adj
-  - chronic adj
+  - chronic adj | chronically
   - culmination n
   - soil n
   - elude vt
@@ -1662,7 +1706,7 @@
   - upend v
   - holdout n
   - donation n | donate v | donor n
-  - continual adj | continuity n
+  - continue | continual adj | continuity n | continuous adj
   - gymnasium n
   - cavernous adj
   - overlook v
@@ -1720,7 +1764,7 @@
   - brace n/vt | bracing adj
   - dub vt
   - burial n/adj
-  - explosion n
+  - explode v | explosion n
   - counterattack n
 
   > No word of other casualties yet
@@ -2188,7 +2232,7 @@
   - repaid v/adj
   - bribery n
   - preliminary n/adj
-  - brutal adj | brutality n
+  - brutal adj | brutality n | brute adj
   - abduct n/vt
 
 - 2019.12.2
@@ -2342,7 +2386,7 @@
   - comeback n
   - influential adj | influence n/vt
   - drown v
-  - loyal adj | loyalty n | loyalist n
+  - loyal adj | loyalty n | loyalist n | disloyal
   - detached adj
   - furrow v/adj
   - brow n
@@ -2472,7 +2516,7 @@
   - triumphant adj
   - compel vt
   - signature n
-  - astonishing adj
+  - astonishing adj | astonish v
   - consistent adj | consistently adv
   - distrust n/vt
   - norm n
@@ -2608,7 +2652,7 @@
   - condemnation n | condemn vt | condemned adj
   - approve v | disapprove v | approval n
   - outcry n
-  - displace vt | displaced adj | place n/vt
+  - displace vt | displaced adj | place n/vt | displacement n
   - strident adj
   - volatile adj
 
@@ -2902,7 +2946,6 @@
   - rescue n/vt
   - dumb adj
   - judicial adj | judiciary n
-  - craziness n
 
   > but on than that, xxxxx
   > In what sense?
@@ -2932,8 +2975,8 @@
   - resentment n
   - poke n/v
   - energize vt
-  - poster n
-  - pose n/v
+  - poster n | postal adj
+  - pose n/v | posture n/v
   - mutual adj | mutually adv
 
   > to tip the scales and determine who will
@@ -3021,7 +3064,7 @@
   - pole n
   - approach n/v
   - narrate v | narrative n/adj
-  - orbiter n
+  - orbiter n | orbit n/v
   - excitement
   - eerily adv
   - cap n
@@ -3057,7 +3100,6 @@
   - ramblings n
   - incoherent adj
   - rampage n/vt
-  - postal adj
   - alcohol n
   - tobacco n | cigarette n
   - mourn v
@@ -3276,7 +3318,7 @@
   - turnout n | turnover n
   - poverty n
   - unchecked adj
-  - detain vt
+  - detain vt | detention n
   - inspiration n
   - expel vt
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj
@@ -3466,7 +3508,7 @@
   - carpet n/vt
   - fuel n/v
   - trembling n
-  - nerve n
+  - nerve n | nervous adj
   - figure n/vt
   - reveal vt
   - transparent adj | transparency n | in-transparency n
@@ -3538,7 +3580,7 @@
 
 - 2019.7.17
   - protest n | protester
-  - violence n | violent adj
+  - violence n | violent adj | violently
   - ruling adj
   - activist n
   - joint adj | jointly
@@ -3642,7 +3684,7 @@
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
   - standpoint n
-  - astronomical adj
+  - astronomical adj | astronomer n | astronomy n
   - fine adj/adv/vt/n
   - waiver n
   - snake n/vt
