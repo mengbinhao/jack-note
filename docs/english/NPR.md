@@ -1,10 +1,17 @@
+- 2020.9.21
+  - dialect n/adj
+  - glance n/v
+  - aircraft n
+  - assistance | assistant | assist
+
+  > So that's pretty telling
+
 - 2020.9.18
   - ash n/v
   - salvage n/vt
   - soap n/v
   - filthy adj
   - overcrowd adj
-
 
 - 2020.9.16
   - instrument n
@@ -1808,7 +1815,6 @@
 
 - 2020.1.16
   - lean n/v
-  - sovereign n/adj | sovereignty n
   - impending adj | impend vi
   - overall adj/adv
   - lash n/v | backlash n
@@ -2272,7 +2278,7 @@
   - persecute v | persecution n
   - victor n
   - finding n
-  - regularity n | irregularity
+  - regularity n | irregularity | regular | regularly
   - custody n
   - fuse n/v
   - desert n/v | dessert n
@@ -2616,7 +2622,7 @@
 
 - 2019.10.16
   - agricultural adj
-  - anxious adj | anxiously
+  - anxious adj | anxiously | anxiety n
   - piecemeal adj
   - devil n
   - outstanding adj
@@ -3063,7 +3069,7 @@
   - rover n
   - pole n
   - approach n/v
-  - narrate v | narrative n/adj
+  - narrate v | narrative n/adj | narration
   - orbiter n | orbit n/v
   - excitement
   - eerily adv
@@ -3279,7 +3285,6 @@
   - ominous adj
   - curve n/vt
   - precede vt
-  - anxiety n
   - decent adj
   - investor n | invest v
   - retire v | retirement n
@@ -3423,7 +3428,6 @@
   - recite v
   - fiery adj
   - grooming n | groom  n/v
-  - coalition n
   - hierarchical adj
   - owe vt
   - allegiance n

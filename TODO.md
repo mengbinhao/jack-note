@@ -542,6 +542,7 @@
 
 ### TypeScript
 
+- [1.8W字」TS学习指南，从零学到熟练](https://mp.weixin.qq.com/s/Zxu6CQBwdBXGAd-D-UtVhQ)
 - [TypeScript笔记:React和泛型](https://segmentfault.com/a/1190000019898092)
 - [TypeScript完全手册](https://zhuanlan.zhihu.com/p/83689446)
 - [Typescript那些好用的技巧](https://mp.weixin.qq.com/s/01d93y7wtlw0_jYDf3sV1Q)
