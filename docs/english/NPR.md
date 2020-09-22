@@ -1,3 +1,11 @@
+- 2020.9.22
+  - possibility n
+  - discuss | discussion
+  - sheriff n
+
+  > we're all set
+  > on first name basis
+
 - 2020.9.21
   - dialect n/adj
   - glance n/v
@@ -1718,7 +1726,7 @@
   - cavernous adj
   - overlook v
   - dot v/adj
-  - tourist n/v/adj | tourism n
+  - tourist n/v/adj | tourism n | tour n/v
   - steam n/v/adj
   - monarch n
   - avoid v | unavoidable adj
