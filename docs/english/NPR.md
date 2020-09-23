@@ -1,3 +1,13 @@
+- 2020.9.23
+  - politic | political | politician
+  - consummate vt/adj
+  - implement n/vt
+  - scratch n/v/adj
+  - sudden adj/n
+
+  > I was born without ties to power, so I jumped into politics and started from scratch
+  > No one wants to see a return of that
+
 - 2020.9.22
   - possibility n
   - discuss | discussion
@@ -222,7 +232,7 @@
   > Let's back up a little bit here
 
 - 2020.8.15
-  - charm n
+  - charm n/vt
   - commission | commissioner |decommission
   - colleague n
   - shame n/vt | shameful adj
@@ -984,7 +994,7 @@
   - bore n/v | boring adj
   - dare v
   - arguably adv
-  - objective adj
+  - objective adj/n | objectively
   - audit n/v
   - immediate adj
   - preparedness n
@@ -1721,7 +1731,7 @@
   - upend v
   - holdout n
   - donation n | donate v | donor n
-  - continue | continual adj | continuity n | continuous adj
+  - continue | continual adj | continuous adj | continuity n
   - gymnasium n
   - cavernous adj
   - overlook v
@@ -3349,7 +3359,7 @@
   - sketchy adj | sketch n/v
   - contamination n | contaminated adj | contaminate vt
   - contradictory adj | contradict v
-  - terse adj
+  - terse adj | tersely
   - comparison n
   - scale n/vt
   - panicky adj

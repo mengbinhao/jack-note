@@ -305,6 +305,7 @@
 
 #### project related
 
+- [Vue项目里戳中你痛点的问题及解决办法](https://mp.weixin.qq.com/s/wHmGez1K_Qnnnmu2oiCrBw)
 - [Vue最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
 - [Vue 使用中的小技巧](http://www.imooc.com/article/293570)
 - [Github上36个最实用的Vue开源库](https://zhuanlan.zhihu.com/p/83707128)
