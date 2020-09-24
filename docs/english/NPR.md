@@ -1,3 +1,7 @@
+- 2020.9.24
+  - prevent | preventable
+  - faulty adj
+
 - 2020.9.23
   - politic | political | politician
   - consummate vt/adj
@@ -377,7 +381,7 @@
   - plural n/adj
   - hack | hacker
   - hurdle n
-  - realize vt
+  - realize vt | realization n
   - tuition n
   - undertake vt
   - campus n
@@ -816,7 +820,7 @@
   > the numbers might be cooked to make it look bad
 
 - 2020.5.28
-  - sufficient adj | sufficiently
+  - sufficient adj | sufficiently | insufficient
   - toilet n
   - convert v
   - shelter n/v
@@ -1150,7 +1154,7 @@
 - 2020.4.17
   - subtle adj
   - hug n/v
-  - adequate adj
+  - adequate adj | adequately | inadequately
   - painkiller n
   - clinical adj
   - changer n
@@ -2524,7 +2528,7 @@
   - downplay vt
   - thrive vi
   - vice n/adj
-  - forgiving adj | forgive
+  - forgive | forgivable | unforgivable
   - loom vi
 
   > It's pretty incredible to watch
@@ -2644,7 +2648,6 @@
   - piecemeal adj
   - devil n
   - outstanding adj
-  - property n
   - treasury n
   - secretary n
   - state-owned adj
@@ -2728,9 +2731,10 @@
   - wrongdoing n
   - pureview n
   - covert adj
-  - conceal vt | concealed adj
+  - conceal vt | concealed adj | concealment n
   - bothersome adj
-  - properly adv | improperly adv | improper adj
+  - properly adv | improperly adv | improper adj | proper adj
+  - property n
   - disperse v | dispersed adj
   - heavy-handed adj
   - median n/adj
@@ -3426,7 +3430,7 @@
   - treaty n
   - resurrect vt
   - violate vt | violation n
-  - compliance n
+  - compliance n | compliant adj
   - produce n/vt
   - measured
   - in-valuable adj | valuable
@@ -3665,6 +3669,7 @@
   - proposed adj | proposal n | propose v
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n | encourage vt | discourage
+  - courage n
   - consequence n | conclusion n | conclude v | in-conclusive adj
 
   > it is hard to swallow
