@@ -1,3 +1,12 @@
+- 2020.9.25
+  - nature n | natural adj
+  - environment | environmental | environmentally
+  - discover v
+  - analysis n | analyst n
+
+  > Two big stories in Germany which might not seem related suddenly are
+  > That could mean putting an end to xxx
+
 - 2020.9.24
   - prevent | preventable
   - faulty adj
@@ -98,7 +107,6 @@
   - fact | factual | factually
 
 - 2020.9.7
-  - analyst n
   - festive | festival
   - era n
 
@@ -423,7 +431,6 @@
   - regret n/v
   - dose n/v
   - ache n/vi
-  - reveal
   - challenge n/vt | unchallenged
   - disclosure n | nondisclosure | closure n/vt
   - pilot n
