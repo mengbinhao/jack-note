@@ -215,6 +215,7 @@
 - [前端二进制](https://mp.weixin.qq.com/s/_FU8gBmq2XFIhwRpHNpPww)
 - [你不知道的Blob](https://mp.weixin.qq.com/s/MPTTMUXLRK0boeMDYzmaLA)
 - [我是如何将业务代码写优雅的](https://mp.weixin.qq.com/s/wFOEn0TaFrGEOvyQcxn6ig)
+- [灵活运用JS开发技巧](https://juejin.im/post/6844903838449664013)
 
 ### mobile
 
