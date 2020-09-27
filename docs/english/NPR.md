@@ -1,3 +1,10 @@
+
+- 2020.9.27
+  - spare v/adj
+
+  > We will spare no effort in developing vaccine
+  > xxx remain in place for six month
+
 - 2020.9.25
   - nature n | natural adj
   - environment | environmental | environmentally
@@ -846,6 +853,7 @@
 
 - 2020.5.26
   - suppress vt
+  - curb vt | curbed adj
   - severity n
   - gist n
   - complicit adj
@@ -1187,7 +1195,6 @@
 
 - 2020.4.15
   - revise v
-  - curb vt | curbed adj
   - liberty n
   - expense n/v
   - odd adj | even
@@ -1400,6 +1407,7 @@
 - 2020.3.24
   - nutrition n
   - affect v | effect n | effective | effectively | effectiveness n
+  - affection | affectionate adj
   - effectual adj | ineffectual
   - wee adj
   - rosy adj
@@ -1447,7 +1455,7 @@
   - monetary adj
   - outbreak n
   - bear n/v
-  - statistic n
+  - statistic n/adj
   - grapple n/v
   - inoculate vt
 
