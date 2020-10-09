@@ -1,3 +1,6 @@
+- 2020.10.9
+  - poet n
+  - endanger vt | endangerment
 
 - 2020.9.27
   - spare v/adj
@@ -1246,7 +1249,7 @@
   - understaffed adj
   - underfunded adj
   - reminder n
-  - remain n/v
+  - remain n/v | remainder
   - obvious adj
   - preach v
   - absent adj/vt | absentee n
