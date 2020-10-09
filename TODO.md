@@ -303,6 +303,7 @@
 - [10个小练习，快速入门Vue3.0核心新特性](https://segmentfault.com/a/1190000022612964)
 - [记一次vue3.0技术分享会](https://segmentfault.com/a/1190000022719461)
 - [1.1万字从零解读Vue3.0源码响应式系统](https://mp.weixin.qq.com/s/A6WgCjQj3KsaKC6kSLy-1A)
+- [一篇文章上手Vue3中新增的API](https://mp.weixin.qq.com/s/Iwo-fvQTeUO5H8mhf1sRRw)
 
 #### project related
 
