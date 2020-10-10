@@ -692,6 +692,7 @@
 
 ####  JS
 
+- [由浅入深，66条JavaScript面试知识点](https://mp.weixin.qq.com/s/gDFHkFUT5gCFy6XCU2Pbjw)
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 - [为什么外链css要放在头部，js要放在尾部](https://www.cnblogs.com/lvonve/p/11975593.html)
 

@@ -1,3 +1,10 @@
+- 2020.10.10
+  - backer n
+  - inaugurate vt
+
+  > an election the US and its European allies saw was nether free nor fair
+  > whether they still want to be served by him is another quesiton
+
 - 2020.10.9
   - poet n
   - endanger vt | endangerment
@@ -485,7 +492,6 @@
   - deposit n/v | deposition n
   - drill n/v
   - mediterranean n
-  - oversea adj/adv
 
   > It must have been a slip of the tongue
   > At the heart of this dispute are two very different pictures of the eastern Mediterranean
@@ -1191,7 +1197,7 @@
   - mathematical adj | mathematically adj
   - presumptive adj
   - virtual adj | virtually adv
-  - delegate n/vt
+  - delegate n/vt | delegation
 
   > It caught my ear
   > X prise Y as a whole
@@ -3071,7 +3077,7 @@
   - vibrant adj
   - revolution n | evolution n | revolutionary n/adj
   - unfettered adj
-  - oversee vt
+  - oversee vt | oversea adj/adv
   - decline n/v
   - immersed adj
   - vanity n
@@ -3505,7 +3511,7 @@
 - 2019.7.30
   - shady adj
   - shadow n/vt/adj
-  - presidency n
+  - presidency n | president | presidential
   - committee n | commitment n | committed adj
   - brevity n
   - obstruction n | obstruct vt
