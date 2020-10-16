@@ -78,6 +78,7 @@
 - [CSS揭秘实用技巧总结](https://mp.weixin.qq.com/s/QYgdWu86UHx_NMEAKVdGNg)
 - [40个CSS布局技巧](https://mp.weixin.qq.com/s/6jZibuthus7l5PlhAbpHEQ)
 - [只要一行代码，实现五种CSS经典布局](https://mp.weixin.qq.com/s/DxR-kBOR_vgFxD7Bhe5GWg)
+- [简单实用又不花里胡哨的鼠标滑过样式](https://mp.weixin.qq.com/s/txEHnEcseSoar-VXRE-gEQ)
 
 
 ### nodejs
@@ -92,6 +93,7 @@
 
 ### front
 
+- [JavaScript工程项目的一系列最佳实践策略(git、doc、env、dependence、test、code style、log、API)](https://mp.weixin.qq.com/s/A8dBb4ux1kv_bxTefQ7oOw)
 - [code-review之前端代码规范及优化](https://mp.weixin.qq.com/s/u7hp-Plw_H2fZg6tmKFJQQ)
 - [让你受益匪浅的前端技术干货系列](https://mp.weixin.qq.com/s/G8b2SRG0FqI5taGwjH35aw)
 - [前端首屏耗时测量方法](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483755&idx=2&sn=03985684a9901e4f2a3b801339f708b7)
@@ -219,6 +221,8 @@
 
 ### mobile
 
+- [移动端的适配操作](https://mp.weixin.qq.com/s/fMn1BQR1mVaUsSDzzh2AXw)
+- [H5移动端调试全攻略](https://mp.weixin.qq.com/s/LDAomNIrSmIimRF8GjFcYw)
 - [6种移动端1px问题的解决方案](https://mp.weixin.qq.com/s/Dv3zewnfARnzNSXQKfAYSw)
 - [移动端1px问题解决方案](https://mp.weixin.qq.com/s/yJjUAHe0y8EAi0DBFoO5SA)
 - [12个前端必会H5问题及解决方法](https://mp.weixin.qq.com/s/9CcNm7CbUp86XM2zi1FxKg)
@@ -249,6 +253,7 @@
 
 #### Vue related
 
+- [10个实用技巧让你的Vue代码更优雅](https://mp.weixin.qq.com/s/s1GxDbyQ21ENlsFemcIcUw)
 - [10个Vue开发技巧](https://juejin.im/post/5e8a9b1ae51d45470720bdfa)
 - [为什么Vue中不要用index作为key](https://juejin.im/post/5e8694b75188257372503722)
 - [你不知道的vue-Devtool](https://juejin.im/post/5e0cbdd6e51d4541162c9493)

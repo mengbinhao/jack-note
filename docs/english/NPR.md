@@ -1,3 +1,14 @@
+- 2020.10.11
+  - apply v
+  - density n
+  - dean n
+  - fortunate | unfortunate
+  - convey vt
+  - protocol n
+  - maritime adj
+
+  > They are in a holding pattern
+
 - 2020.10.10
   - backer n
   - inaugurate vt
@@ -510,7 +521,7 @@
   - thief n
   - inevitable adj
   - village n
-  - heaven n
+  - heaven n | heave n/v
   - ladder n/v
   - proposal
 
@@ -2964,7 +2975,7 @@
   - offset vt
   - precisely adv | precise adj
   - nonetheless adv
-  - broadly adj | broad | broaden v
+  - broad adj | broadly adv | broaden v
 
   > the US economy still has a lot going for it
   > this is the second time in seven weeks xxx
