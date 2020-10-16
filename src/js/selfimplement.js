@@ -41,9 +41,8 @@ Array.prototype.unique3 = function () {
 }
 
 Array.prototype.unique4 = function () {
-	let result = new Set(this)
 	//return [...new Set(this)]
-	return Array.from(result)
+	return Array.from(new Set(this))
 }
 
 Array.prototype.unique5 = function () {
@@ -87,6 +86,10 @@ const myFlat3 = (arr) => {
 		[]
 	)
 }
+
+const myFlat4 = JSON.parse(
+	'[' + JSON.stringify(arr).replace(/\[|\]/g, '') + ']'
+)
 
 const simulateIsArray = (target) => {
 	return Object.prototype.toString.call(target) === '[object Array]'
@@ -1654,12 +1657,12 @@ function jsonp({ url, params, cb, timeout = 300 }) {
 		}
 		//combine params
 		params = { ...params, cb }
-		let arrs = []
+		let arrays = []
 		for (let key in params) {
-			arrs.push(`${key}=${params[key]}`)
+			arrays.push(`${key}=${params[key]}`)
 		}
 		scriptNode = document.createElement('script')
-		scriptNode.src = `${url}?${arrs.join('&')}`
+		scriptNode.src = `${url}?${arrays.join('&')}`
 		document.body.appendChild(scriptNode)
 		//handle timeout
 		timer = setTimeout(() => {
@@ -1718,3 +1721,38 @@ output:
 2
 3
 **/
+
+//渲染几万条数据不卡住页面
+setTimeout(() => {
+	// 插入十万条数据
+	const total = 100000
+	// 一次插入的数据
+	const once = 20
+	// 插入数据需要的次数
+	const loopCount = Math.ceil(total / once)
+	let countOfRender = 0
+	const ul = document.querySelector('ul')
+	// 添加数据的方法
+	function add() {
+		const fragment = document.createDocumentFragment()
+		for (let i = 0; i < once; i++) {
+			const li = document.createElement('li')
+			li.innerText = Math.floor(Math.random() * total)
+			fragment.appendChild(li)
+		}
+		ul.appendChild(fragment)
+		countOfRender += 1
+		loop()
+	}
+	function loop() {
+		if (countOfRender < loopCount) {
+			window.requestAnimationFrame(add)
+		}
+	}
+	loop()
+}, 0)
+
+//打印出当前网页使用了多少种HTML元素
+const fn = () => {
+  return [...new Set([...document.querySelectorAll('*')].map(el => el.tagName))].length;
+}

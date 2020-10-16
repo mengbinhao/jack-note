@@ -648,6 +648,7 @@
 
 ### Interview
 
+- [2020年前端面试复习必读文章](https://mp.weixin.qq.com/s/fBKwP3Xb-i0Ot-tGS9PqWA)
 - [大厂面试过程复盘](https://mp.weixin.qq.com/s/T5Phh8p_xJWC_bh-7yWhMQ)
 - [一个前端自学者从面试被吊打](https://mp.weixin.qq.com/s/JtCKwuCC9BtwKHFEW2KZ-A)
 - [前端常见20道高频面试题深入解析](https://mp.weixin.qq.com/s?__biz=MzI1NTcxOTQ1Nw==&mid=2247488166&idx=1&sn=2f4b4c3a646e806f4de54c4126d041b5) @@##$$
