@@ -1,3 +1,13 @@
+- 2020.10.19
+  - ransom n/vt
+  - specific adj/n
+  - balk n/v
+  - evidence n/vt
+  - accent n/vt
+
+  > clear something up for me
+  > This has actually been in the works for a very long time
+
 - 2020.10.11
   - apply v
   - density n
@@ -738,7 +748,7 @@
 - 2020.6.10
   - dispersal n
   - contentious adj
-  - nation n | nationalize vt
+  - nation n | nationalize vt | national n/adj
   - fitness n
   - inflection n
   - coincide vi
