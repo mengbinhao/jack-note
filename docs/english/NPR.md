@@ -1,3 +1,14 @@
+- 2020.10.20
+  - encrypt vt
+  - noteworthy n
+  - confiscate vt
+  - rug n
+  - chilling adj
+  - tyrant n
+  - confidential adj
+  - particular n/adj
+  - radar n
+
 - 2020.10.19
   - ransom n/vt
   - specific adj/n
@@ -136,7 +147,7 @@
   - introduce vt
   - playbook n
   - support | supportive
-  - cover | uncover v
+  - cover | uncover v | undercover
 
   > It slips through the cracks
   > It's a constant game of cat and mouse
@@ -1559,7 +1570,7 @@
 
 - 2020.3.11
   - rap n/v
-  - tarnish n/v | mar vt
+  - tarnish n/v
   - benevolent adj
   - martial adj
   - decorate v
@@ -1969,7 +1980,7 @@
 
 - 2020.1.4
   - overturn n/v
-  - purse n
+  - purse v
 
   > they're based on this that they reached back in July
   > if u had more research, may be would find more solutions that would be more politically acceptable to more people
@@ -2306,7 +2317,6 @@
   - bribery n
   - preliminary n/adj
   - brutal adj | brutality n | brute adj
-  - abduct n/vt
 
 - 2019.12.2
   - unravel v
@@ -3259,7 +3269,7 @@
   - adamant adj
   - feud n/vi
   - nasty adj
-  - mock n/adj/v
+  - mock n/v/adj
   - retract vt
   - climate n
   - occasion n/vt | occasional adj
