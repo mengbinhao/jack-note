@@ -218,6 +218,7 @@
 - [你不知道的Blob](https://mp.weixin.qq.com/s/MPTTMUXLRK0boeMDYzmaLA)
 - [我是如何将业务代码写优雅的](https://mp.weixin.qq.com/s/wFOEn0TaFrGEOvyQcxn6ig)
 - [灵活运用JS开发技巧](https://juejin.im/post/6844903838449664013)
+- [了解 JS 压缩图片，这一篇就够了](https://mp.weixin.qq.com/s/WfoPDASlASboweIu471YjQ)
 
 ### mobile
 

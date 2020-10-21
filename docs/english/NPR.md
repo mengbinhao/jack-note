@@ -1,3 +1,12 @@
+- 2020.10.21
+  - muscle n/v
+  - hillside n
+  - airlift n/vt
+  - famine n
+
+  > the work of organization goes far beyond food
+  > day in and day out
+
 - 2020.10.20
   - encrypt vt
   - noteworthy n
@@ -169,7 +178,7 @@
   - devolve v
   - spray n/v
   - pray v
-  - edge n/v
+  - edge n/v | brink n
 
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
 
@@ -844,6 +853,7 @@
 - 2020.6.2
   - loudspeaker n
   - dictate n/v
+  - flat n/adj/adv | flatten v
   - flatter vt
   - mogul n
   - regulatory adj
