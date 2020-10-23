@@ -1,3 +1,22 @@
+- 2020.10.23
+  - breeze n/vi
+  - depict vt
+  - honesty | dishonesty
+  - embezzle vt
+  - estate n
+  - pope n
+
+  > I lost my temper and yelled at him
+
+- 2020.10.22
+  - allocate v
+  - permit n/v
+  - electricity n
+  - cattle n
+  - award n/v
+  - ethnic adj
+  - deadlock
+
 - 2020.10.21
   - muscle n/v
   - hillside n
@@ -1224,7 +1243,6 @@
   - painkiller n
   - clinical adj
   - changer n
-  - supply
 
 - 2020.4.16
   - primary n/adj | primarily
@@ -2030,7 +2048,7 @@
   - vocal adj/n
   - erode v
   - fruition n
-  - carbon n
+  - carbon n/adj
   - pivot n/v/adj
   - heel n
   - emitter n
@@ -3130,7 +3148,7 @@
 - 2019.9.12
   - blow n/v
   - ostensibly adv | ostensible adj
-  - deadlock n/vt | stalemate n
+  - deadlock n/vt | stalemate n/v | impasse n
   - momentous adj
   - amend v | amendment n
   - rebel n/vi
@@ -3328,7 +3346,7 @@
   - criminality n | crime n | criminal n/adj
   - exaggerated adj
   - culprit n
-  - exploit n/vt
+  - exploit n/vt | exploitation
   - mineral n/adj
 
   > now it is in the hands of xxx
@@ -3484,7 +3502,7 @@
 - 2019.8.12
   - massacre n/vt
   - legislation n | legislative adj | legislature n | legislator n
-  - legitimate adj | legitimacy n | illegitimate | legitimize vt
+  - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - universal n/adj ｜ universally
   - handful n
   - endorse vt | endorsement n
@@ -3511,7 +3529,6 @@
 - 2019.8.7
   - anonymous adj | anonymously adv
   - heir n
-  - murky adj
   - recite v
   - fiery adj
   - grooming n | groom  n/v
@@ -3624,7 +3641,7 @@
   - cargo n
   - Pentagon n
   - defy vt | defiance n
-  - acquire vt | acquisition n
+  - acquire vt | acquisition n | acquired
   - stealth n/adj | steal n/v
   - maintenance n
   - facility n | facilitate vt | facilitation
