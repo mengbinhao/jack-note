@@ -1270,6 +1270,18 @@ input.addEventListener('keyup', function (e) {
 	obj.text = e.target.value
 })
 
+// proxy版本
+const handler = {
+	set(target, key, value) {
+		target[key] = value
+		// 数据变化 --> 修改视图
+		input.value = value
+		span.innerHTML = value
+		return value
+	},
+}
+const proxy = newProxy(data)
+
 // 实现一个简单路由
 // hash路由
 class Route {
@@ -1754,5 +1766,7 @@ setTimeout(() => {
 
 //打印出当前网页使用了多少种HTML元素
 const fn = () => {
-  return [...new Set([...document.querySelectorAll('*')].map(el => el.tagName))].length;
+	return [
+		...new Set([...document.querySelectorAll('*')].map((el) => el.tagName)),
+	].length
 }

@@ -1,3 +1,11 @@
+- 2020.10.26
+  - mess n/vt
+  - confine n/vt | coop v | confinement
+  - process n/v
+  - inhabitant n
+
+
+
 - 2020.10.23
   - breeze n/vi
   - depict vt
@@ -2966,7 +2974,6 @@
   - contend v | contender n
   - razor n
   - profile
-  - elsewhere
 
   > which is what I was kind of known for
   > how does the US move ahead on these issues?
