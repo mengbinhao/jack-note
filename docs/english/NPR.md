@@ -1,10 +1,12 @@
+- 2020.10.27
+  - screw n/v
+  - flock n/v
+
 - 2020.10.26
   - mess n/vt
   - confine n/vt | coop v | confinement
   - process n/v
   - inhabitant n
-
-
 
 - 2020.10.23
   - breeze n/vi
@@ -3053,7 +3055,7 @@
 - 2019.9.19
   - impeach vt | impeachment n
   - essay n/vt
-  - adapt v | adapted adj
+  - adapt v | adapted adj | adaption | adaptation
   - columnist n
   - wrinkle n/v
   - oven n
@@ -3882,7 +3884,7 @@
   - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj
   - rally n/v
   - literally adv | literal adj
-  - rig n/vt
+  - rig n/vt | rigged adj
   - accusation n | accuse vt | accusing | accuser
   - echo n/v
 
