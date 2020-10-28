@@ -79,6 +79,7 @@
 - [40个CSS布局技巧](https://mp.weixin.qq.com/s/6jZibuthus7l5PlhAbpHEQ)
 - [只要一行代码，实现五种CSS经典布局](https://mp.weixin.qq.com/s/DxR-kBOR_vgFxD7Bhe5GWg)
 - [简单实用又不花里胡哨的鼠标滑过样式](https://mp.weixin.qq.com/s/txEHnEcseSoar-VXRE-gEQ)
+- [104道CSS面试题，助你查漏补缺（下）](https://mp.weixin.qq.com/s/V1_XQwvxDbk8qeuxT0S7nQ)
 
 
 ### nodejs
@@ -611,6 +612,7 @@
 - [mac下homebrew安装很慢的解决方案](https://segmentfault.com/a/1190000021360086)
 - [JavaScript插件](https://juejin.im/post/5e437b7ff265da57472782f0)
 - [切图](https://mp.weixin.qq.com/s/A8TOwbDa1UKVTjo7JAywZA)
+- [让Jenkins自动布署你的Vue项目](https://mp.weixin.qq.com/s/2MFpJr32hVy0HBK9Y_WOqQ)
 
 
 ### JAVA

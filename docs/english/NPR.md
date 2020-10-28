@@ -1,3 +1,10 @@
+- 2020.10.28
+  - surrender n/v
+  - horror n
+  - chorus vt
+  - pack n/v
+  - prophet n
+
 - 2020.10.27
   - screw n/v
   - flock n/v
@@ -3486,7 +3493,7 @@
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj
   - minor n/adj
-  - disturbing adj | disturb v
+  - disturb v | disturbed | disturbing adj
   - prosecutor n | prosecute v | prosecution n | inspector n | inspection n
   - emphasize vt | emphasis n
   - redact v
