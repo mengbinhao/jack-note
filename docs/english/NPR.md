@@ -1,3 +1,9 @@
+- 2020.10.29
+  - bracket n/v
+  - rhythm n
+  - intonation n
+  - whereas conj
+
 - 2020.10.28
   - surrender n/v
   - horror n
@@ -804,7 +810,7 @@
 - 2020.6.10
   - dispersal n
   - contentious adj
-  - nation n | nationalize vt | national n/adj
+  - nation n | nationalize vt | national n/adj | nationalization
   - fitness n
   - inflection n
   - coincide vi
@@ -3450,7 +3456,7 @@
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
-  - congratulatory adj
+  - congratulatory adj | congratulate vt
   - constitutional adj | unconstitutional | constitution | constitutionally
   - constituent n
   - shortsighted adj
