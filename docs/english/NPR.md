@@ -1,3 +1,12 @@
+- 2020.10.30
+  - spite n/vt
+  - collateral n
+  - responsibly | irresponsibly
+  - disruptive adj
+  - destructive adj
+
+  > I say it is still a valuable thing to do
+
 - 2020.10.29
   - bracket n/v
   - rhythm n
