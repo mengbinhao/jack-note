@@ -1,3 +1,10 @@
+- 2020.10.1
+  - innovation n
+  - consumer n
+  - squeeze n/v
+
+  > this is a long road that we're going to be on
+
 - 2020.10.30
   - spite n/vt
   - collateral n
@@ -1543,7 +1550,6 @@
   - demolish vt
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt
-  - demotivate v
   - humane adj | humanitarian | humanity n
 
   > humanitarian crisis
@@ -1887,7 +1893,7 @@
   - honor n/vt | dishonor n/vt
   - cruise n/v
   - televise v
-  - investigator n
+  - investigator n | investigation | investigate
   - sift v
   - condolence n
   - sincere adj
@@ -2034,7 +2040,7 @@
   - sloppy adj
   - impugn vt
   - purport n/vt
-  - flaw n
+  - flaw n | flawed
   - parade n/v
   - thorough adj
 
@@ -3606,7 +3612,7 @@
   - obstruction n | obstruct vt
   - ultimate n/adj | ultimately adv
   - exonerate n/vt/adj
-  - motivated adj | motivation n | motive n
+  - motivated adj | motivation n | motive n | demotivate v
   - integrity n
   - rare adj | rarity n
   - porch n
@@ -3792,7 +3798,7 @@
   - ploy n
   - soften v
   - tremendous adj
-  - consider v | considerable adj | considerably
+  - consider v | considerable adj | considerably | consideration
   - reversal n | invert vt | inversion n
 
   > so all in all
