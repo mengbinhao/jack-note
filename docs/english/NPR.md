@@ -1,4 +1,8 @@
-- 2020.10.1
+- 2020.11.2
+  - affluent n/adj
+  - disband v
+
+- 2020.11.1
   - innovation n
   - consumer n
   - squeeze n/v
@@ -1886,7 +1890,7 @@
 
 - 2020.2.7
   - shrapnel n
-  - grieve v | grieving adj
+  - grieve v | grieving adj | grievance n
   - furious adj
   - assassination n | assassinate vt
   - irresponsible n/adj/adv
