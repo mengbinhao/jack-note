@@ -1,3 +1,8 @@
+- 2020.11.3
+  - foist vt
+  - skirt n/v
+  - abound vi
+
 - 2020.11.2
   - affluent n/adj
   - disband v
@@ -1993,7 +1998,7 @@
 
 - 2020.1.13
   - slam n/v | whip v/adj | smash n/v
-  - normalize n/v | normalcy n
+  - normalize n/v | normalcy n | normalization
   - excerpt n/vt
   - archipelago n
 
