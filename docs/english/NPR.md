@@ -1,3 +1,14 @@
+- 2020.11.4
+  - deadline n
+  - regard n/v | regardless
+  - mosque n
+  - repel vt
+  - dispatch n/vt
+  - farewell n
+  - shopkeeper n
+  - bury vt
+  - kindness n
+
 - 2020.11.3
   - foist vt
   - skirt n/v
@@ -43,7 +54,6 @@
 - 2020.10.26
   - mess n/vt
   - confine n/vt | coop v | confinement
-  - process n/v
   - inhabitant n
 
 - 2020.10.23
@@ -1532,7 +1542,9 @@
   - hint n/v
 
 - 2020.3.23
-  - procedure n
+  - process n/v
+  - procedure n | procedural adj
+  - proceeding n | proceed vi/n
   - ramble n/v | rambling adj
   - joyous adj
   - penetrate v | penetration n
@@ -2565,7 +2577,7 @@
   - eerie adj
   - uncharted adj
   - vacuum n/vt/adj
-  - certain
+  - certain | uncertain
 
   > it's something that we have not seen before
   > we've never been through that before
@@ -2918,7 +2930,6 @@
   - artificial adj
   - multilateral adj
   - harassment n | harass vt
-  - proceeding n | proceed vi/n
   - thereafter adv
   - breach n/vt
   - caucus n/vi
