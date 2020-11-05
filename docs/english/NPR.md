@@ -1,3 +1,13 @@
+- 2020.11.5
+  - academic n/adj
+  - superior n/adj
+  - doctrine n
+  - impartial adj
+  - priest n/vt
+  - embarrass
+
+  > xxx hold their superiors to account
+
 - 2020.11.4
   - deadline n
   - regard n/v | regardless
@@ -1056,7 +1066,7 @@
   - recuse vt
   - graphic adj
   - leak n/v
-  - bureau n
+  - bureau n | bureaucracy n
   - murder n/v
   - jog n/v | jogger
 
@@ -2740,7 +2750,6 @@
   - acquit vt | acquittal n
   - grassroots n
   - arrest n/vt
-  - verdict n
   - dialogue n/v
   - minority n | majority n
 
@@ -3532,7 +3541,7 @@
   - inquiry n
   - appall vt | appalled adj
   - allegation n | alleged adj | allegedly adv | allege vt
-  - abuse n/vt | abusive adj
+  - abuse n/vt | abusive adj | abuser
   - minor n/adj
   - disturb v | disturbed | disturbing adj
   - prosecutor n | prosecute v | prosecution n | inspector n | inspection n
