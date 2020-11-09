@@ -1,3 +1,7 @@
+- 2020.11.9
+  - lethal adj
+  - bipolar adj
+
 - 2020.11.5
   - academic n/adj
   - superior n/adj
@@ -384,7 +388,7 @@
   - slave | slaver | slavery n
   - downtown n
   - plain adj
-  - rebellion n | riot n/vi | rioter
+  - rebellion n | riot n/v | rioter
 
   > Let's back up a little bit here
 
@@ -1673,7 +1677,7 @@
   - decorate v
   - stagnation n | stagnate vi
   - edifice n
-  - brick n
+  - brick n/vt/adj
   - ministry n | minister n
   - sway n/v
   - usher n/vt
@@ -2272,6 +2276,7 @@
   - extrapolate vt
   - teem vi
   - illusion n
+  - illustrate vt
   - mystic n/adj
   - philosopher n
   - hogwash n | nonsense n | sense n/v | senseless adj | sensitive adj
@@ -3273,7 +3278,6 @@
 - 2019.9.10
   - distressed adj
   - mental adj
-  - illustrate vt
   - ramblings n
   - incoherent adj
   - rampage n/vt
