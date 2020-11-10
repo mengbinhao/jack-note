@@ -1,3 +1,9 @@
+- 2020.11.10
+  - editorial adj
+  - guard | guardian
+  - slit n/v
+  - throat n
+
 - 2020.11.9
   - lethal adj
   - bipolar adj
@@ -3939,7 +3945,7 @@
 
 - 2019.6.28
   - establishment n | establish vt
-  - radical adj/n
+  - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
   - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj
