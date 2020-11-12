@@ -133,6 +133,7 @@
 - [九种不同姿势解决跨域](https://mp.weixin.qq.com/s/bje2AAk7ejj2vawP7kAXdg)
 - [为什么cookie会有httponly属性?真实案例解释XSS的三种攻击](https://mp.weixin.qq.com/s/w0N-jxJ7S6C7bFC8g3NP3A)
 - [前端优化](https://mp.weixin.qq.com/s/ZsYVjzwZm9dG20f3OjMAWw)
+- [前端性能优化24条建议（2020）](https://mp.weixin.qq.com/s/b5HWMd6YTSrPuuWQ3ZnGBA)
 
 
 ### JS
@@ -255,6 +256,8 @@
 
 #### Vue related
 
+- [聊聊对Vue.js框架的理解](https://mp.weixin.qq.com/s/7kbbLah-kcCRArNHUm3lpg)
+- [34条我能告诉你的Vue之实操篇](https://mp.weixin.qq.com/s/WD72I5XqbFyIvs3TkOYc0A)
 - [10个实用技巧让你的Vue代码更优雅](https://mp.weixin.qq.com/s/s1GxDbyQ21ENlsFemcIcUw)
 - [10个Vue开发技巧](https://juejin.im/post/5e8a9b1ae51d45470720bdfa)
 - [为什么Vue中不要用index作为key](https://juejin.im/post/5e8694b75188257372503722)

@@ -1,3 +1,7 @@
+- 2020.11.12
+  - variant n/adj | variety n | various adj | vary v | variation n
+  - rave n/v/adj
+
 - 2020.11.10
   - editorial adj
   - guard | guardian
@@ -499,7 +503,6 @@
 
 - 2020.8.3
   - earnest adj/n | earn vt
-  - various adj
 
   > It's a mouthful, but it covers a lot of areas
   > I imagine 200 is going to be a lot of lower than Democrats want to go, just reflecting on his reaction
@@ -2777,7 +2780,6 @@
   - inundate vt
   - hard-hit
   - prefecture n
-  - vary v | variation n
   - Panamanian n/adj
   - anchor n/vt
   - bay n
@@ -3111,7 +3113,6 @@
   - complex n/adj
   - phenomenon n
   - finalize vt
-  - variety n
   - admission n | admit v
 
   > I don't think anybody expects it to become less so
