@@ -29,9 +29,9 @@
 - 宏任务
   - script(整体代码)
   - setTimeout、setInterval、setImmediate (Node.js)
-  - I/O 操作
-  - 事件、用户交互操作
-  - UI 渲染
+  - 用户交互事件（如鼠标点击、滚动页面、放大缩小等）
+  - UI 渲染（如解析 DOM、计算布局、绘制）
+  - 网络请求完成、文件读写(I/O操作)完成事件
   - MessageChannel
   - postMessage
 - 微任务

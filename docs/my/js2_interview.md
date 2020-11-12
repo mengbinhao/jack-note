@@ -83,7 +83,9 @@ bindEvent(div1, 'click', function (e) {
 #### XMLHttpRequest
 
 ```javascript
+//1:新建XMLHttpRequest请求对象
 var xhr = new XMLHttpRequest()
+//2:注册相关事件回调处理函数
 xhr.onreadystatechange = function () {
     if (xhr.readyState == 4) {
         if (xhr.status == 200) {
@@ -91,8 +93,23 @@ xhr.onreadystatechange = function () {
         }
     }
 }
-xhr.open("GET", "/api", false)
+xhr.ontimeout = function(e) {
+    console.log('ontimeout')
+}
+xhr.onerror = function(e) {
+    console.log('onerror')
+}
+//3:打开请求
+xhr.open("GET", "/api", true)
+
+//4:配置参数
+xhr.timeout = 3000
+//text、json、document、blob、arraybuffer
+xhr.responseType = "text"
+xhr.setRequestHeader("X_TEST","time.geekbang")
 xhr.send(null)
+
+//注意跨域和HTTPS Mix问题
 ```
 
 - 0 -代理被创建,但尚未调用 open() 方法
