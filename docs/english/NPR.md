@@ -1,3 +1,9 @@
+- 2020.11.13
+  - mercy n
+  - herald n/vi
+  - uniform n/adj
+  - faculty n
+
 - 2020.11.12
   - variant n/adj | variety n | various adj | vary v | variation n
   - rave n/v/adj
@@ -1825,7 +1831,6 @@
   - suburb n | suburban adj/n
   - present n/v/adj | represent vt | representative n/adj | presence n
   - clap n/v
-  - bitterly adj
 
   > I was not elected to do small things and shy away from big problems
   > There is a sense that this is not even worth anybody's time
@@ -2379,7 +2384,6 @@
   - defeat n/vt
   - medal n
   - resonance n
-  - carnage n
   - stab n/vt
 
   > Both described as very thoughtful,compassionate and having bright future
@@ -2431,7 +2435,7 @@
 
 - 2019.12.2
   - unravel v
-  - spoiler n | spoil n/v
+  - spoil n/v | spoiler n
   - deterioration n
   - solidarity n
   - ration n/vt
@@ -2794,7 +2798,7 @@
   - agreement n | agree v | disagreement
   - asylum n
   - scrutiny n | scrutinize vt
-  - achieve v | achievable adj
+  - achieve v | achievable adj | achievement
 
   > Transportation really ground to a halt
   > the result of that was xxxx
@@ -3207,7 +3211,7 @@
   - palatial adj
   - frail adj
   - betray vt | betrayal n
-  - bitter n/adj/vt
+  - bitter n/vt/adj | bitterly adj
   - justice n | injustice n
   - oppress vt | oppressive adj
   - savage n/adj/vt
@@ -3577,7 +3581,7 @@
   - fence n/v
 
 - 2019.8.12
-  - massacre n/vt
+  - massacre n/vt | carnage n
   - legislation n | legislative adj | legislature n | legislator n
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - universal n/adj ｜ universally
@@ -3623,7 +3627,7 @@
   - residence n | resident n/adj | residency | residential adj
   - lax adj
   - spree n/vi
-  - witness n/vt
+  - witness n/vt | eyewitness
   - conflicting adj | conflict n/vi
   - ideology n | ideological adj | ideologically adv
   - shock n/vt/adj
