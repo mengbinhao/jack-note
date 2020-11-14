@@ -1,3 +1,10 @@
+- 2020.11.14
+  - relative n/adj | relatively | | relevant
+  - passerby n
+  - alleyway n
+
+  > Our world is anything but safe
+
 - 2020.11.13
   - mercy n
   - herald n/vi
@@ -924,7 +931,7 @@
   > That's the thing he's been saying for a while now
 
 - 2020.6.4
-  - reckon v
+  - reckon v | reckoning
   - calamity n
   - casualties n
   - grasp n/v
@@ -2365,7 +2372,7 @@
   - hoax n/vt
   - obsolete n/vt/adj
   - designate vt
-  - discriminate v | discrimination n | discriminatory adj
+  - discriminate v | discrimination n | discriminatory adj | indiscriminate
   - awkward adj
   - defection n | defect n/vi | defector n
   - coordinate vt | coordination n | coordinated
@@ -2661,7 +2668,6 @@
   - lambaste vt
   - dissatisfaction n
   - disenchantment n
-  - ammunition n
   - forging n
   - alleviate vt
   - inequality n | equality n
@@ -2842,7 +2848,6 @@
   - fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
   - expanse n | expansion n | expansive adj | pension n/vt
-  - relative adj/n
   - arrange v | arrangement n
   - condemnation n | condemn vt | condemned adj
   - approve v | disapprove v | approval n
@@ -3164,7 +3169,7 @@
 
 - 2019.9.17
   - survival n
-  - narrowly adv
+  - narrow n/v/adj | narrowly adv
   - resentment n
   - poke n/v
   - energize vt
