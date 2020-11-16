@@ -1,3 +1,8 @@
+- 2020.11.16
+  - impulse n/v
+  - loaf n/v
+  - universe n
+
 - 2020.11.14
   - relative n/adj | relatively | | relevant
   - passerby n
@@ -703,7 +708,6 @@
   - geological adj
   - survey n/v
   - shelf n/v
-  - aisle n
 
   > It gave us the perfect amount of time to get out into the street
   > put in place
@@ -1410,7 +1414,7 @@
   - underfunded adj
   - reminder n
   - remain n/v | remainder
-  - obvious adj
+  - obvious adj | obviously
   - preach v
   - absent adj/vt | absentee n
   - constant adj | constantly
@@ -1479,7 +1483,7 @@
   - harbor n
   - inhibit vt
   - tangle n/v | tangled adj
-  - contestant n | contest n/v
+  - contest n/v | contestant n
 
   > Let's get right to the heart of this
   > It was intended to be a sequenced process
@@ -3587,7 +3591,7 @@
 
 - 2019.8.12
   - massacre n/vt | carnage n
-  - legislation n | legislative adj | legislature n | legislator n
+  - legislation n | legislative adj | legislature n | legislator n | legislatively
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - universal n/adj ｜ universally
   - handful n

@@ -143,6 +143,7 @@
 - [你真的懂Promise吗](https://mp.weixin.qq.com/s/zcZwMRg9nymQrp4n6FEldA)
 - [Promise/AA/Fetch/Axios API](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
 - [Promises的5种最佳实践](https://juejin.im/post/5eb8faa76fb9a043877cdf88)
+- [浏览器与Node环境下的Event Loop](https://mp.weixin.qq.com/s/Rdu5uhPwgoz5PSV7aOWVOw)
 - [JavaScript代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
 - [灵活运用JS开发技巧](https://segmentfault.com/a/1190000020749133)
