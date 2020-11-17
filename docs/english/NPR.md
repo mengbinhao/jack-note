@@ -1,3 +1,13 @@
+- 2020.11.17
+  - lame adj | blame n/vt | flame n/v
+  - praise n/v
+  - childish adj
+  - fate n
+
+  > There were mixed reviews
+  > There were mixed views on whether that actually would happen
+  > How much of a surprise is this? It was certainly sudden
+
 - 2020.11.16
   - impulse n/v
   - loaf n/v
@@ -163,7 +173,7 @@
   - inaugurate vt
 
   > an election the US and its European allies saw was nether free nor fair
-  > whether they still want to be served by him is another quesiton
+  > whether they still want to be served by him is another question
 
 - 2020.10.9
   - poet n
@@ -557,7 +567,6 @@
 
 - 2020.7.28
   - prestige n
-  - blame n/vt
   - cozy adj
   - malware n
   - simultaneous adj
@@ -1027,7 +1036,6 @@
   - complicit adj
 
 - 2020.5.25
-  - flame n/v
   - imperative adj
   - moral n/adj
   - pretend v
@@ -2031,7 +2039,6 @@
   - crumble vi
   - perimeter n
   - ungovernable adj
-  - insurrection n
   - liberal adj
   - intersection n
   - soak n/v
@@ -2188,7 +2195,6 @@
 - 2019.12.24
   - observant adj
   - buttress n/vt
-  - destabilize vt ｜ stabilize v
   - assert vt
   - heartfelt adj
   - mediator n
@@ -2434,7 +2440,7 @@
   - solicit v
   - toxic adj
   - patron n
-  - charity n
+  - charity n | charitable
   - offend v | offender n
   - sever v | severed adj
   - foreseeable adj
@@ -3193,7 +3199,6 @@
   - flout vt
   - loophole n
   - superme adj
-  - lame adj
   - disorder n/vt
 
   > he said no can do
@@ -3609,7 +3614,8 @@
   - in-valuable adj | valuable
   - brake n/v
   - ballistic adj
-  - instability n
+  - stability | instability n
+  - destabilize vt ｜ stabilize v
   - peril n
   - sleepwalking n
   - forecast n/vt | forecaster n
@@ -3702,7 +3708,7 @@
 
 - 2019.7.22
   - grueling adj
-  - insistent adj
+  - insistent adj | insist v | insistence n
   - carpet n/vt
   - fuel n/v
   - trembling n
@@ -3735,7 +3741,6 @@
   - stealth n/adj | steal n/v
   - maintenance n
   - facility n | facilitate vt | facilitation
-  - adversary n | adversarial adj
   - undercut vt
   - vow n/vt
   - postpone vt | postponement n
