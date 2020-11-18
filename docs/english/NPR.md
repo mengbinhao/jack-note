@@ -1,3 +1,7 @@
+- 2020.11.18
+  - mountain n | mountainous adj
+  - tiny adj
+
 - 2020.11.17
   - lame adj | blame n/vt | flame n/v
   - praise n/v
@@ -1832,7 +1836,7 @@
   > Where do things stand right now in the grand scheme of things?
 
 - 2020.3.2
-  - stick n/v
+  - stick n/v | sticking
   - wistful n/adj/adv | wistfulness n
   - rotten adj
   - phony n/adj
@@ -1925,7 +1929,7 @@
   - upend v
   - holdout n
   - donation n | donate v | donor n
-  - continue | continual adj | continuous adj | continuity n
+  - continue | continual adj | continuous adj | continuity n | continuation
   - gymnasium n
   - cavernous adj
   - overlook v
@@ -2740,7 +2744,7 @@
   > fall apart
 
 - 2019.10.22
-  - cease v | decease n/vi | ceasefire n
+  - cease v | ceasefire n | decease n/vi
   - equivalent n/adj
   - toll n/vt
   - vague adj
@@ -3384,7 +3388,7 @@
   - appear vi | appearance n | disappearance
   - terrific adj
   - terrify v | terrified adj
-  - territory n | terrain n
+  - territory n | territorial adj
   - terror n
   - imminent adj
   - militant adj/n | military n/adj | demilitarize
@@ -3875,7 +3879,7 @@
   - standoff n
   - elsewhere adv
   - exemption n
-  - dominate v | dominant adj | dominance n
+  - dominate v | dominant adj | dominance n | domination n
   - moderate adj/n/vt
 
   > take sides
