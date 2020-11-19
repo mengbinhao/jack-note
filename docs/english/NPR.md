@@ -1,3 +1,9 @@
+- 2020.11.19
+  - widespread adj
+
+  > The vast majority of them are.But they are walking a fine line
+  > The big picture here is (that) ...
+
 - 2020.11.18
   - mountain n | mountainous adj
   - tiny adj
@@ -204,6 +210,8 @@
 
 - 2020.9.23
   - politic | political | politician
+  - geopolitics n | geopolitical
+  - politicize vt | depoliticize | politicization n
   - consummate vt/adj
   - implement n/vt
   - scratch n/v/adj
@@ -377,7 +385,6 @@
 
 - 2020.8.24
   - sphere n/v/adj | hemisphere n
-  - geopolitics n | geopolitical
 
 - 2020.8.23
   - nightfall n
@@ -738,7 +745,6 @@
   - censor n/vt
   - pretext n/vt
   - disclose vt
-  - memoir n
   - publication n
 
   > so taking all of that into account
@@ -783,7 +789,7 @@
   - excessive adj
   - persuade v
   - incentive n
-  - credential | certify vt | certification n
+  - credential | certify vt | certified | certification n
 
 - 2020.6.24
   - plausible adj
@@ -1754,7 +1760,6 @@
   > xxx has risen by a third in the past year alone
 
 - 2020.3.9
-  - politicization n | politicize vt
   - unfounded adj
   - mishandle vt
   - rein n/v
@@ -2491,7 +2496,7 @@
   - persecute v | persecution n
   - victor n
   - finding n
-  - regularity n | irregularity | regular | regularly
+  - regularity n | irregularity n| regular | regularly adv
   - custody n
   - fuse n/v
   - desert n/v | dessert n
@@ -2937,7 +2942,7 @@
   > rather than giving ut to Congress as the law seemed to require
 
 - 2019.10.10
-  - memo n
+  - memo n | memoir n
   - notion n
   - reference n/vt | refer v
   - mention n/vt
@@ -4002,7 +4007,7 @@
   - bail n/v
   - undergo vt | suffer v
   - prosecutor n
-  - defendant n | defend v | defensive adj
+  - defend v | defensive adj | defendant n
   - Turkish adj/n
   - mistreat vt
   - polar n/adj | polarize v | polarization n
