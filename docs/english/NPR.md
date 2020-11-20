@@ -1,3 +1,8 @@
+- 2020.11.20
+  - tremble n/v
+  - battlefield n
+  - slaughter n/vt
+
 - 2020.11.19
   - widespread adj
 
@@ -1724,7 +1729,6 @@
   - brick n/vt/adj
   - ministry n | minister n
   - sway n/v
-  - usher n/vt
   - commemorate vt
   - stern adj
   - intimidate vt | intimidation n
@@ -2206,6 +2210,7 @@
   - buttress n/vt
   - assert vt
   - heartfelt adj
+  - heartless n
   - mediator n
   - havoc n/v
   - dim v/adj
@@ -2426,7 +2431,7 @@
 
 - 2019.12.5
   - cafeteria n
-  - mortality n
+  - mortal n/adj | mortality n
   - prolong vt
   - fossil n/adj
   - bulb n
@@ -2457,7 +2462,7 @@
   - repaid v/adj
   - bribery n
   - preliminary n/adj
-  - brutal adj | brutality n | brute adj
+  - brutal adj | brute adj | brutality n
 
 - 2019.12.2
   - unravel v
@@ -3237,7 +3242,7 @@
   - bitter n/vt/adj | bitterly adj
   - justice n | injustice n
   - oppress vt | oppressive adj
-  - savage n/adj/vt
+  - savage n/vt/adj
   - vibrant adj
   - revolution n | evolution n | revolutionary n/adj
   - unfettered adj
@@ -3662,7 +3667,7 @@
 
 - 2019.7.31
   - testify v | testimony n
-  - bombshell n | bomb n/v
+  - bomb n/v | bombshell n
   - congressional adj
   - collegial adj
   - despite prep
