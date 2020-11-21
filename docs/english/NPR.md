@@ -1,5 +1,15 @@
+- 2020.11.21
+  - backstage n
+  - refrain vi
+  - jeer n/v
+  - standard n/adj
+  - atom n
+
+  > There is a tendency to see which way the wind is blowing before speaking out
+
 - 2020.11.20
   - tremble n/v
+  - trample n/v
   - battlefield n
   - slaughter n/vt
 
@@ -482,7 +492,7 @@
   > It was the equivalent of a Category 5 hurricane
 
 - 2020.8.11
-  - tend v
+  - tend v | tendency n
   - sow v
   - cunning adj/n
   - coincident adj | coincidental | coincidentally
@@ -662,7 +672,6 @@
   - bet n/vt
   - culture | cultural adj
   - heal v | cure n/v
-  - trample n/v
   - statue n/v
   - mob n
   - justice
@@ -966,7 +975,6 @@
   - comprise vt
   - skew n/v/adj
   - evaluate v | evaluation n
-  - population n
 
   > to put in place social distancing
   > Four out of five whose lives ended were 65 or older
@@ -1815,6 +1823,7 @@
 - 2020.3.4
   - native adj
   - struggle n/v
+  - population n
   - popularity n
   - reunification | unify vt
   - swap n/v
@@ -2683,7 +2692,7 @@
   - metro n/adj
   - helmet n
   - revive v
-  - dictatorship n | dictator n
+  - dictator n | dictatorship n
   - armored adj
   - spill n/v
   - cannon n/v
