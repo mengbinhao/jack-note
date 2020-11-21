@@ -79,7 +79,7 @@
 - [40个CSS布局技巧](https://mp.weixin.qq.com/s/6jZibuthus7l5PlhAbpHEQ)
 - [只要一行代码，实现五种CSS经典布局](https://mp.weixin.qq.com/s/DxR-kBOR_vgFxD7Bhe5GWg)
 - [简单实用又不花里胡哨的鼠标滑过样式](https://mp.weixin.qq.com/s/txEHnEcseSoar-VXRE-gEQ)
-- [104道CSS面试题，助你查漏补缺（下）](https://mp.weixin.qq.com/s/V1_XQwvxDbk8qeuxT0S7nQ)
+- [伪元素&伪类的妙用](https://juejin.cn/post/6894444655233105927)
 
 
 ### nodejs
@@ -138,6 +138,7 @@
 
 ### JS
 
+- [手把手Promise](https://juejin.cn/post/6894115068633350158)
 - [Promise的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
 - [Promise源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
 - [你真的懂Promise吗](https://mp.weixin.qq.com/s/zcZwMRg9nymQrp4n6FEldA)
@@ -359,6 +360,7 @@
 - [代码规范化之Vue篇](https://juejin.im/post/5e2d3af65188254e1d4398fa)
 - [vue中利用iscroll.js解决pc端滚动问题](https://juejin.im/post/5e4506dc51882549417fbdd5)
 - [vue必须掌握之组件通信（7种方法）](https://www.maiyewang.com/archives/80712)
+- [Vue 项目一些常见问题的解决方案](https://juejin.cn/post/6895497352120008717)
 
 #### component related
 
@@ -703,6 +705,7 @@
 - [面试](https://juejin.im/post/5c7f5923f265da2dd218f195)
 - [经常会被问到的面试题](https://segmentfault.com/a/1190000020181662)
 - [html/css](https://juejin.im/post/5e43d800f265da575b1bafdc)
+- [104道CSS面试题，助你查漏补缺（下）](https://mp.weixin.qq.com/s/V1_XQwvxDbk8qeuxT0S7nQ)
 
 
 ####  JS
