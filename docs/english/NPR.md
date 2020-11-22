@@ -1,3 +1,15 @@
+- 2020.11.22
+  - toy n/vi/adj
+  - dole n
+  - shaky adj
+  - acute adj | acutely
+  - frequent | frequently
+  - alumnus n
+
+  > Ron is someone who has been in Biden's orbit for a while now
+  > This signifies a return to the past
+  > I shine under pressure, like a diamond
+
 - 2020.11.21
   - backstage n
   - refrain vi
@@ -1493,7 +1505,7 @@
 - 2020.4.2
   - provision n
   - livelihood n
-  - visionary adj
+  - vision n /vt | visionary adj
   - chase n/v
 
   > I want to thank xx for coming together, setting aside their differences and putting America first
@@ -1839,6 +1851,7 @@
   > How is that all playing together and is reunification back on the table seriously now?
 
 - 2020.3.3
+  - signify vt
   - significant adj | significance n
   - catastrophe n
   - consolidate v
@@ -1934,7 +1947,7 @@
 - 2020.2.24
   - summon vt
   - associate n/v/adj | association n
-  - staffer n
+  - staff n/v/adj | staffer n
   - crux n
 
   > I explained my reasoning for my choice this way
@@ -2078,7 +2091,7 @@
 
 - 2020.1.13
   - slam n/v | whip v/adj | smash n/v
-  - normalize n/v | normalcy n | normalization
+  - normal n/adj | normalize v | normalization | normalcy n
   - excerpt n/vt
   - archipelago n
 
@@ -2285,7 +2298,7 @@
 
 - 2019.12.18
   - exclusive adj | exclusion n | exclusionary adj
-  - stuffing n | stuff n/v
+  - stuff n/v | stuffing n
   - imprison vt
   - transpire v
   - groundless adj
@@ -2803,7 +2816,7 @@
   - pile n/v
   - commute n/vi
   - airline n
-  - anticipate v | anticipation n | anticipated adj
+  - anticipate v | anticipated adj | anticipation n
   - acquit vt | acquittal n
   - grassroots n
   - arrest n/vt
@@ -3103,7 +3116,7 @@
   - extraordinary adj | extraordinarily
   - plastic n/adj
   - renewable adj
-  - accountable adj | unaccounted adj | accountability n
+  - account n/v | accountable adj | unaccounted adj | accountability n
   - sit-in n
   - progressive n/adj | progress n/vi
 
@@ -3527,7 +3540,8 @@
   > it's often seen as xxxxx
 
 - 2019.8.19
-  - consult v | consulting adj | consul n | consulate n
+  - consult v | consulting adj | consultant
+  - consul n | consulate n
   - stooge n
   - emerge vi | emerging adj | emergence n
   - concrete adj
@@ -3634,7 +3648,7 @@
   - compliance n | compliant adj
   - produce n/vt
   - measured
-  - in-valuable adj | valuable
+  - valuable | invaluable adj
   - brake n/v
   - ballistic adj
   - stability | instability n
@@ -3688,7 +3702,7 @@
 - 2019.7.30
   - shady adj
   - shadow n/vt/adj
-  - presidency n | president | presidential
+  - president | presidency n | presidential adj
   - committee n | commitment n | committed adj
   - brevity n
   - obstruction n | obstruct vt
