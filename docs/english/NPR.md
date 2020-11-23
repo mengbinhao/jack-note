@@ -1,3 +1,11 @@
+- 2020.11.23
+  - swing n/v/adj
+  - hail n/v
+  - languish vi
+  - integrate n/vi/adj | integration n | disintegrate v
+  - breakthrough n
+  - encompass vt
+
 - 2020.11.22
   - toy n/vi/adj
   - dole n
@@ -2291,7 +2299,7 @@
   - worthwhile adj
   - comprehensive adj
   - exclamation n
-  - gross adj | grossly adv
+  - gross n/vt/adj | grossly adv
 
   > can't help but do sth
   > the language we use affects how we think and who we are
@@ -2505,7 +2513,7 @@
   - overnight n
   - ambulance n
   - fragmented adj
-  - harmony n
+  - harmony n | harmonize n/v
   - harm n/vt | harmless adj | harmful adj
   - contrast n/v
   - avenue n | venue n
@@ -2763,7 +2771,7 @@
 - 2019.10.23
   - poised v | poised adj
   - foil | foiled adj
-  - triumphant adj
+  - triumph n/vi | triumphant adj
   - compel vt
   - signature n
   - astonishing adj | astonish v
@@ -3625,7 +3633,6 @@
   - colonial adj | colony n | colonialism n | colonize vt
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
-  - disintegrate v | disintegrating | integrate v
   - division n
   - retaliation n | revenge n/v | retaliate vi | retaliatory adj
   - mend v
