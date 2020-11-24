@@ -1,3 +1,6 @@
+- 2020.11.24
+  - fatigue n/v/adj
+
 - 2020.11.23
   - swing n/v/adj
   - hail n/v
@@ -1644,7 +1647,6 @@
   - strip n/v
   - coward n/adj
   - overcome v
-  - obnoxious adj
   - obscene adj
 
 - 2020.3.20
@@ -1661,7 +1663,7 @@
   - strand n/v | stranded adj
   - demolish vt
   - sanitation n
-  - claim n/v | reclaim vt | claimant n | proclaim vt
+  - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
   - humane adj | humanitarian | humanity n
 
   > humanitarian crisis
@@ -1890,7 +1892,7 @@
   - unscripted adj
   - purposely adv
   - slim adj
-  - suburb n | suburban adj/n
+  - suburb n | suburban adj/n | urban adj
   - present n/v/adj | represent vt | representative n/adj | presence n
   - clap n/v
 
