@@ -137,6 +137,10 @@
 - [前端性能优化 24 条建议](https://mp.weixin.qq.com/s/b5HWMd6YTSrPuuWQ3ZnGBA)
 - [代码规范之-理解 ESLint、Prettier、EditorConfig](https://mp.weixin.qq.com/s/kJ14P828NHUdvA9JSoUQzg)
 
+### Algorithm
+
+- [记一次数据结构在实际工作中的运用](https://mp.weixin.qq.com/s/YZaMrhj-FlzV6ZlwAGFO2w)
+
 ### JS
 
 - [手把手 Promise](https://juejin.cn/post/6894115068633350158)
@@ -577,6 +581,7 @@
 - [Nginx 反向代理与负载均衡](https://juejin.im/post/5b01336af265da0b8a67e5c9)
 - [Nginx 的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab)
 - [前端工程师不可不知的 Nginx 知识](https://mp.weixin.qq.com/s/zlq-KhyuAbp8bRpPtRp0IQ)
+- [前端看得懂的《Nginx 入门指南》](https://mp.weixin.qq.com/s/NFxAK9DM1-LV1p8dFXz1dA)
 
 ### Git
 

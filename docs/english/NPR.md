@@ -1,3 +1,6 @@
+- 2020.11.25
+  - cram v
+
 - 2020.11.24
   - fatigue n/v/adj
 
@@ -1373,7 +1376,11 @@
   > It looks like that curve has gone over the peak
 
 - 2020.4.18
-  - shrink v | shrinkage n | contraction n | contract n/v | contractor n
+  - shrink v | shrinkage n
+  - contract n/v | contraction n | contractor n
+  - contrary n/adj/adv
+  - contrast n/v
+  - contradict v | contradictory n/adj | contradiction n
   - degree n
   - amount n/vi
   - drop n/v
@@ -2517,7 +2524,6 @@
   - fragmented adj
   - harmony n | harmonize n/v
   - harm n/vt | harmless adj | harmful adj
-  - contrast n/v
   - avenue n | venue n
   - revenue n
   - assure vt | reassure vt
@@ -3278,7 +3284,8 @@
   - vibrant adj
   - revolution n | evolution n | revolutionary n/adj
   - unfettered adj
-  - oversee vt | oversea adj/adv
+  - oversee vt
+  - oversea adj/adv
   - decline n/v
   - immersed adj
   - vanity n
@@ -3483,7 +3490,6 @@
   - dampen vt
   - demonstration n | demonstrate v | demonstrator
   - interfere vi | interference n | intervene vi | intervention n | meddle vi
-  - contrary n/adj/adv
   - criminality n | crime n | criminal n/adj
   - exaggerated adj
   - culprit n
@@ -3587,7 +3593,6 @@
   - arctic n/adj
   - sketchy adj | sketch n/v
   - contamination n | contaminated adj | contaminate vt
-  - contradictory adj | contradict v
   - terse adj | tersely
   - comparison n
   - scale n/vt
@@ -3818,7 +3823,6 @@
   - reiterate vt
   - forum n
   - conduct n/v | mis-conduct n
-  - contrary n/adj/adv
   - high-profile adj
   - reserve n/v | preserve n/vt
   - constraint n | constrain v | constrained adj
