@@ -615,6 +615,9 @@
 - [mac 下 homebrew 安装很慢的解决方案](https://segmentfault.com/a/1190000021360086)
 - [JavaScript 插件](https://juejin.im/post/5e437b7ff265da57472782f0)
 - [切图](https://mp.weixin.qq.com/s/A8TOwbDa1UKVTjo7JAywZA)
+- [一文带你快速上手 Rollup](https://mp.weixin.qq.com/s/S-WgcO9aFrYp2tvnMMsRPg)
+- [Postman 入门](https://mp.weixin.qq.com/s/FZNxtA2vOhVV-rtOi_oyBQ)
+- [超详细教程（Jenkins、Github Actions）](https://mp.weixin.qq.com/s/uTy4budBUCl1vziBHDnmvQ)
 - [让 Jenkins 自动布署你的 Vue 项目](https://mp.weixin.qq.com/s/2MFpJr32hVy0HBK9Y_WOqQ)
 
 ### JAVA
@@ -776,7 +779,7 @@ Python(主要是接口测试和 UI 自动化测试)
 
 java 的 Junit、testNG,C#的 NUnit ,python 的 unittest、pytest PyUnit 等,几乎所有的主流语言,都会有其对应的单元测试框架
 
-jenkens 8082
+jenkins 8082
 testlink 88
 jira 8081/8006
 

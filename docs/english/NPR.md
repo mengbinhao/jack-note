@@ -1,3 +1,10 @@
+- 2020.11.26
+  - burst v
+  - wheat n
+  - concoct vt
+  - Peru n
+  - strenuous adj
+
 - 2020.11.25
   - cram v
 
@@ -413,7 +420,6 @@
 - 2020.8.26
   - rural adj
   - directive n/adj
-  - initiative n
   - allude vi
   - organize | organization | organizational | reorganize
   - transform v | transformation
@@ -1235,6 +1241,7 @@
   - corporation n
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
+  - initiative n
   - bore n/v | boring adj
   - dare v
   - arguably adv
@@ -2501,7 +2508,7 @@
   - repaid v/adj
   - bribery n
   - preliminary n/adj
-  - brutal adj | brute adj | brutality n
+  - brute n/adj | brutal adj | brutality n
 
 - 2019.12.2
   - unravel v
@@ -2566,7 +2573,7 @@
   - cough v
   - respiratory adj
   - advisory n
-  - routine n | ritual n/adj | routinely adv
+  - routine n | routinely adv
   - outskirt n
 
   > go wrong
@@ -3620,7 +3627,6 @@
   - prominent adj
   - somehow adv
   - inquiry n
-  - appall vt | appalled adj
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj | abuser
   - minor n/adj
@@ -3824,7 +3830,7 @@
   - forum n
   - conduct n/v | mis-conduct n
   - high-profile adj
-  - reserve n/v | preserve n/vt
+  - reserve n/v | preserve n/vt | reserved | unreservedly
   - constraint n | constrain v | constrained adj
   - restrict vt | restricted adj | restriction n
 
