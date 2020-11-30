@@ -1,3 +1,16 @@
+- 2020.11.30
+  - documentary n
+  - soccer n
+  - glimpse n/vi
+  - annual n/adj
+  - sacred adj
+  - barometer n
+  - pardon n/vt
+  - sober adj/vt
+
+  > He highlighted what made each of them unique
+  > There were a few less jokes than usual
+
 - 2020.11.26
   - burst v
   - wheat n
@@ -651,7 +664,7 @@
   - fraught adj
   - grip n/v
   - sniff n/v
-  - defame v
+  - fame n/vt | defame v
   - manhunt n
 
   > xxx will become just the way things go
@@ -892,7 +905,6 @@
   - dig v
   - pinpoint n/vt/adj
   - downturn n
-  - shade n/v | shaded
   - practical adj | practice
   - crawl n/v
 
@@ -2445,6 +2457,7 @@
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
   - awkward adj
   - defection n | defect n/vi | defector n
+  - deflect v
   - coordinate vt | coordination n | coordinated
   - corroborate vt | corroboration n
 
@@ -2626,7 +2639,7 @@
   - gear n/v
   - portray vt
   - permanent adj | permanently adv
-  - illegality n
+  - legal adj | illegal | illegality n
 
   > The only thing we're interested in here is figuring out what the facts are
   > He said that the question of illegality wasn't Sb's call to make
@@ -2690,7 +2703,7 @@
 - 2019.10.30
   - cinematic adj
   - raid n/vt
-  - vivid adj | vividly adv
+  - vivid adj | vividly
   - dribble n/vt
   - swoop n/vi
   - tunnel n/v
@@ -3034,7 +3047,6 @@
   - breach n/vt
   - caucus n/vi
   - premature n/adj | mature v/adj
-  - deflect v
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
@@ -3720,8 +3732,7 @@
   > step down
 
 - 2019.7.30
-  - shady adj
-  - shadow n/vt/adj
+  - shade n/v | shaded | shady adj | shadow n/vt/adj | shadowy adj
   - president | presidency n | presidential adj
   - committee n | commitment n | committed adj
   - brevity n
@@ -3885,7 +3896,6 @@
   > the xx had a ton in the paper today
 
 - 2019.7.15
-  - envoy n
   - backdrop n
   - negligence n | negligent adj
   - remnant n/adj
@@ -4025,7 +4035,7 @@
   - prejudice n/vt
   - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj
   - rally n/v
-  - literally adv | literal adj
+  - literal adj | literally adv
   - rig n/vt | rigged adj
   - accusation n | accuse vt | accusing | accuser
   - echo n/v
