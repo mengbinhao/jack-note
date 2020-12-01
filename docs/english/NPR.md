@@ -1,3 +1,14 @@
+- 2020.12.1
+  - delicious adj
+  - rope n/v
+  - rude adj
+  - crude n/adj
+  - creep n/vi
+  - thought | thoughtful
+  - obnoxious adj
+  - mosquito n
+  - bastard n/adj
+
 - 2020.11.30
   - documentary n
   - soccer n
@@ -117,7 +128,6 @@
   - doctrine n
   - impartial adj
   - priest n/vt
-  - embarrass
 
   > xxx hold their superiors to account
 
@@ -1320,7 +1330,6 @@
 - 2020.4.27
   - lease n/v
   - manufacture n/vt
-  - crude n/adj
   - intermediate adj
   - haul n/v
   - bonkers adj
@@ -2455,7 +2464,6 @@
   - obsolete n/vt/adj
   - designate vt
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
-  - awkward adj
   - defection n | defect n/vi | defector n
   - deflect v
   - coordinate vt | coordination n | coordinated
@@ -3328,7 +3336,7 @@
   - plus n/adj/conj
   - sizable adj
   - ridicule n/vt | ridiculous adj
-  - invitation n
+  - invite n/vt | invitation n
   - remarkable adj | hallmark n/vt | remark n
   - electorate n | electoral adj
 
@@ -3556,7 +3564,7 @@
   - ominous adj
   - curve n/vt
   - precede vt
-  - decent adj
+  - decent adj | decency n
   - investor n | invest v
   - retire v | retirement n
   - drama n | dramatic adj | dramatically adv | overdramatize vt
@@ -4100,7 +4108,8 @@
   - insult n/vt
   - resolutely adj
   - predecessor n
-  - embarrassing adj ｜ embarrass v | embarrassment n
+  - embarrass v | embarrassing adj ｜ embarrassment n
+  - awkward adj | awkwardness n
   - corps n
   - countless n
   - sentiment n
