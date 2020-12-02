@@ -1,3 +1,12 @@
+- 2020.12.2
+  - insulate vt
+  - singular n/adj
+  - worship v
+  - cast n/v
+  - enlarge vi
+  - rant v
+  - counsel n/v
+
 - 2020.12.1
   - delicious adj
   - rope n/v
@@ -644,7 +653,6 @@
   - headquarter n
   - kingdom n
   - album n
-  - scam n/v | scammer
 
 - 2020.7.28
   - prestige n
@@ -949,7 +957,7 @@
   - blanket n/v/adj
   - circulate v
   - aberration n
-  - swift adj
+  - swift adj | swiftly
   - elicit vt
   - apology n
   - unarmed adj
@@ -2563,7 +2571,8 @@
   > It's time to try something new
 
 - 2019.11.14
-  - fraud n | fraudulent adj | defraud
+  - fraud n | fraudulent adj
+  - scam n/v | scammer
   - persecute v | persecution n
   - victor n
   - finding n
@@ -3043,6 +3052,8 @@
   - theft n
   - puppet n
   - rail n/v
+  - frail adj
+  - derail n/v
   - menacing adj
   - regional adj | region n
   - bolster n/vt
@@ -3302,7 +3313,6 @@
   - ruthless adj
   - autocrat n
   - palatial adj
-  - frail adj
   - betray vt | betrayal n
   - bitter n/vt/adj | bitterly adj
   - justice n | injustice n
@@ -3823,7 +3833,6 @@
   - mandate n/vt | mandated adj
   - sector n
   - impose v | self-imposed adj | imposition n
-  - derail n/v
   - finality n
   - authority n | authorized | unauthorized adj | authorization n |authoritarian adj/n
   - raise n/v
@@ -3895,6 +3904,7 @@
   - mischievous adj
   - mischief n
   - chief n/adj/adv
+  - commander n
   - desperate adj | desperately adv | desperation
   - ignorance n | ignorant adj | ignore vt
 
