@@ -143,6 +143,9 @@ Array.prototype.mySort = function (fn) {
 }
 
 Array.prototype.myForEach = function (fn) {
+	if (typeof fn !== 'function') {
+		throw new TypeError(fn + 'is not a function')
+	}
 	for (let i = 0; i < this.length; i++) {
 		//filter empty position
 		if (i in this) {
@@ -182,6 +185,9 @@ Array.prototype.myFilter = function (fn) {
 }
 
 Array.prototype.myEvery = function (fn, thisArg) {
+	if (typeof fn !== 'function') {
+		throw new TypeError(fn + 'is not a function')
+	}
 	for (let i = 0, len = this.length; i < len; i++) {
 		if (i in this) {
 			if (!fn.call(thisArg, this[i], i, this)) {
@@ -193,6 +199,9 @@ Array.prototype.myEvery = function (fn, thisArg) {
 }
 
 Array.prototype.mySome = function (fn, thisArg) {
+	if (typeof fn !== 'function') {
+		throw new TypeError(fn + 'is not a function')
+	}
 	for (let i = 0, len = this.length; i < len; i++) {
 		if (i in this) {
 			if (fn.call(thisArg, this[i], i, this)) {
