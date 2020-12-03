@@ -1,3 +1,7 @@
+- 2020.12.3
+  - witch n/vt
+  - gullible adj
+
 - 2020.12.2
   - insulate vt
   - singular n/adj
@@ -135,7 +139,6 @@
   - academic n/adj
   - superior n/adj
   - doctrine n
-  - impartial adj
   - priest n/vt
 
   > xxx hold their superiors to account
@@ -877,7 +880,7 @@
 
 - 2020.6.23
   - cohesion n
-  - pronounce v | pronouncement n
+  - pronounce v | pronouncement n | pronounced adj
   - belligerent adj
   - station n/vt
   - contribute v
@@ -1989,6 +1992,7 @@
   - delighted adj | delight n/v
   - hammer n/v
   - partial adj
+  - impartial adj
   - magnate n
   - casino n
 
@@ -3065,7 +3069,7 @@
   - thereafter adv
   - breach n/vt
   - caucus n/vi
-  - premature n/adj | mature v/adj
+  - premature n/adj | mature v/adj | immature adj
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
@@ -4078,7 +4082,7 @@
   - insurgency n
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - convicted adj | convict n/vt | conviction n | absolve vt
+  - convict n/vt | convicted adj | conviction n | absolve vt
   - bail n/v
   - undergo vt | suffer v
   - prosecutor n
