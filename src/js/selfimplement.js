@@ -91,6 +91,18 @@ const myFlat4 = JSON.parse(
 	'[' + JSON.stringify(arr).replace(/\[|\]/g, '') + ']'
 )
 
+const myFlat5 = (arr) => {
+	let result = []
+	for (let i = 0, len = arr.length; i < len; i++) {
+		if (Array.isArray(arr[i])) {
+			result = result.concat(flatten(arr[i]))
+		} else {
+			result.push(arr[i])
+		}
+	}
+	return result
+}
+
 const simulateIsArray = (target) => {
 	return Object.prototype.toString.call(target) === '[object Array]'
 }
@@ -848,9 +860,9 @@ const hasPubProperty = (attr, obj) => {
 // 缺点：
 // 1、会忽略undefined
 // 2、会忽略symbol
-// 3、不能序列化函数,，无法拷贝函数
+// 3、不能序列化函数,，RegExp/函数不会拷贝
 // 4、不能解决循环引用的对象 const a = {val:2}; a.target = a; 拷贝a会出现系统栈溢出，因为出现了无限递归的情况
-// 5、不能正确处理RegExp, Date, Set, Map等
+// 5、不能正确处理,new Date()会被转成字符串, Set, Map等
 // 6、会抛弃对象的constructor。也就是深拷贝之后，不管这个对象原来的构造函数是什么，在深拷贝之后都会变成Object
 const deepClone = (source, cache = new WeakMap()) => {
 	if (source instanceof Date) return new Date(source)
@@ -1008,14 +1020,22 @@ const simulateInherit = (function () {
 	}
 })()
 
-const cloneShallow = (source) => {
+//otherStar={...obj}
+//Object.assign({},obj)
+const cloneShallow = (obj) => {
 	let target = {}
-	for (let key in source) {
-		if (source.hasOwnProperty(key)) {
-			target[key] = source[key]
+	for (let key in obj) {
+		if (obj.hasOwnProperty(key)) {
+			target[key] = obj[key]
 		}
 	}
 	return target
+}
+
+const cloneShallow2 = (obj) => {
+	let result = Array.isArray(obj) ? [] : {}
+	Object.keys(obj).forEach((key) => (result[key] = obj[key]))
+	return result
 }
 
 const jsonStringify = (obj) => {
@@ -1778,4 +1798,29 @@ const fn = () => {
 	return [
 		...new Set([...document.querySelectorAll('*')].map((el) => el.tagName)),
 	].length
+}
+
+//发布订阅模式
+class Observer {
+	constructor() {
+		this.events = {} //事件中心
+	}
+	publish(eventName, ...args) {
+		//发布=>调用事件中心中对应的函数
+		if (this.events[eventName])
+			this.events[eventName].forEach((cb) => cb.apply(this, args))
+	}
+	subscribe(eventName, callback) {
+		//订阅=>向事件中心中添加事件
+		if (this.events[eventName]) {
+			this.events[eventName].push(callback)
+		} else {
+			this.events[eventName] = [callback]
+		}
+	}
+	unSubscribe(eventName, callback) {
+		//取消订阅
+		if (events[eventName])
+			events[eventName] = events[eventName].filter((cb) => cb !== callback)
+	}
 }

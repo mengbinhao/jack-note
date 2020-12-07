@@ -1,3 +1,9 @@
+- 2020.12.7
+  - uranium n
+  - nuclear adj
+
+  > The economy is in very bad shape
+
 - 2020.12.3
   - witch n/vt
   - gullible adj
@@ -107,6 +113,7 @@
   - impulse n/v
   - loaf n/v
   - universe n
+  - universal n/adj ｜ universally
 
 - 2020.11.14
   - relative n/adj | relatively | | relevant
@@ -1134,7 +1141,6 @@
 
 - 2020.5.22
   - retribution n
-  - retaliate
 
   > in a nutshell
   > That was a quote from that piece
@@ -2048,7 +2054,7 @@
   - shrapnel n
   - grieve v | grieving adj | grievance n
   - furious adj
-  - assassination n | assassinate vt
+  - assassination n | assassinate vt | assassin
   - irresponsible n/adj/adv
   - honor n/vt | dishonor n/vt
   - cruise n/v
@@ -3438,7 +3444,7 @@
   - epic n/adj
   - brawl n/vi
   - toddler n
-  - opponent n | opposite n/adj/adv/prep | opposition n | oppose vt
+  - oppose vt | opponent n | opposite n/adj/adv/prep | opposition n
   - thwart n/vt/prep
   - seize v
   - agenda n
@@ -3689,7 +3695,6 @@
   - massacre n/vt | carnage n
   - legislation n | legislative adj | legislature n | legislator n | legislatively
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
-  - universal n/adj ｜ universally
   - handful n
   - endorse vt | endorsement n
   - so-called adj
