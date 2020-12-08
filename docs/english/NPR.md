@@ -1,3 +1,12 @@
+- 2020.12.8
+  - seige n/v
+  - gang n | gangster n
+  - tile n
+  - elaborate v/adj
+  - draft n/vt | redraft n/vt
+  - physical adj
+  - psychological adj
+
 - 2020.12.7
   - uranium n
   - nuclear adj
@@ -195,7 +204,7 @@
 - 2020.10.28
   - surrender n/v
   - horror n
-  - chorus vt
+  - chorus n/vt
   - pack n/v
   - prophet n
 
@@ -532,7 +541,7 @@
 
 - 2020.8.15
   - charm n/vt
-  - commission | commissioner |decommission
+  - commission n | commissioner | decommission
   - colleague n
   - shame n/vt | shameful adj
   - nod n/v
@@ -2081,7 +2090,7 @@
   - brace n/vt | bracing adj
   - dub vt
   - burial n/adj
-  - explode v | explosion n
+  - explode v | explosion n | explosive n/adj
   - counterattack n
 
   > No word of other casualties yet
@@ -2180,7 +2189,6 @@
   > point fingers
 
 - 2020.1.9
-  - psychological adj
   - burden n/vt
   - integral adj
   - whatsoever pron
@@ -2949,7 +2957,7 @@
   > one of the important thing to point out here is that
 
 - 2019.10.15
-  - assault n/vt
+  - assault n/v
   - crisis n
   - flee v
   - fleet n/v
@@ -3643,7 +3651,7 @@
   - terse adj | tersely
   - comparison n
   - scale n/vt
-  - panicky adj
+  - panic n/adj | panicky adj
   - disseminate vt
   - hospitalize vt | hospitality n
   - specialist n/adj

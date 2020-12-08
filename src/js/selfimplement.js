@@ -788,7 +788,7 @@ const isType = (type) => (obj) => {
 const getType = (obj) => {
 	return Object.prototype.toString
 		.call(obj)
-		.replace(/[object\s(.+)]/, '$1')
+		.replace(/\[object (.+)\]/, '$1')
 		.toLowerCase()
 }
 
@@ -815,11 +815,6 @@ function getType2(obj) {
 
 const getType3 = (obj) => {
 	return Object.prototype.toString.call(obj).slice(8, -1)
-}
-
-const getType4 = (obj) => {
-	let str = Object.prototype.toString.call(obj)
-	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
 
 const hasPubProperty = (attr, obj) => {
