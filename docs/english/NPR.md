@@ -1,3 +1,6 @@
+- 2020.12.9
+  - dull v/adj
+
 - 2020.12.8
   - seige n/v
   - gang n | gangster n
@@ -3910,7 +3913,7 @@
   - radiate v
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
-  - substantial adj | substantially adv | substantive adj | substantively adv
+  - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial
   - substance n
   - clumsy adj
   - outgoing adj
