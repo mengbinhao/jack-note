@@ -82,6 +82,7 @@
 - [只要一行代码，实现五种 CSS 经典布局](https://mp.weixin.qq.com/s/DxR-kBOR_vgFxD7Bhe5GWg)
 - [简单实用又不花里胡哨的鼠标滑过样式](https://mp.weixin.qq.com/s/txEHnEcseSoar-VXRE-gEQ)
 - [伪元素&伪类的妙用](https://juejin.cn/post/6894444655233105927)
+- [良好的 CSS 编码习惯](https://mp.weixin.qq.com/s/HsF0l05VGN_lgi_PfWFQJw)
 
 ### nodejs
 
