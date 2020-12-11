@@ -1,3 +1,14 @@
+- 2020.12.10
+  - jealousy n
+  - pregnant adj
+
+  > but it's never taken that option off the table
+
+- 2020.12.10
+  - centigrade n
+  - novel n/adj
+  - delivery n
+
 - 2020.12.9
   - dull v/adj
 
@@ -18,6 +29,7 @@
 
 - 2020.12.3
   - witch n/vt
+  - creature n
   - gullible adj
 
 - 2020.12.2
@@ -38,7 +50,7 @@
   - thought | thoughtful
   - obnoxious adj
   - mosquito n
-  - bastard n/adj
+  - bastard n/adj | jerk n
 
 - 2020.11.30
   - documentary n
@@ -307,7 +319,7 @@
   > That could mean putting an end to xxx
 
 - 2020.9.24
-  - prevent | preventable
+  - prevent v | preventable adj | prevention n
   - faulty adj
 
 - 2020.9.23
@@ -1740,8 +1752,7 @@
   - monetary adj
   - outbreak n
   - bear n/v
-  - statistic n/adj
-  - grapple n/v
+  - statistic n/adj | statistical adj
   - inoculate vt
 
   > the cut was twice as large as what the Fed ordinary does
@@ -2533,7 +2544,7 @@
   - bulb n
 
 - 2019.12.3
-  - devote v | devoted adj/adv
+  - devote v | devoted adj/adv | devotion n
   - swell n/v
   - bandit n
   - ferocious adj
@@ -2635,7 +2646,6 @@
   > in the process of doing that
 
 - 2019.11.13
-  - stark adj
   - agonize v
   - meddling n/v
   - blunt adj/vt | bluntly adj
@@ -3010,7 +3020,7 @@
   - withhold v
   - decimate vt
   - patrol n/vt
-  - harshly adv | harsh adj
+  - harsh adj | harshly
 
   > he admitted that after one month hiatus the two sides had a lot of catching up to do
   > they have very little room to work with
@@ -3565,7 +3575,7 @@
   - contingency n/adj
   - steer v | steering n/adj
   - grim adj
-  - predict v | prediction n | predictable adj
+  - predict v | predictable adj | prediction n
   - disrupt vt | disruption n
   - spark n/v
   - referendum n
@@ -3919,7 +3929,7 @@
   - outgoing adj
   - uninformed adj
   - candid adj
-  - accurately adv | inaccuracy n
+  - accurate adj | accurately | inaccuracy n
   - hardcore
   - mischievous adj
   - mischief n
