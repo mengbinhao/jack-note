@@ -1118,6 +1118,7 @@
 - 2020.5.29
   - recusal n
   - trash n/vt | garbage n | rubbish n/v/adj
+  - rash n/adj
   - endure v
   - poll n/v | ballot n/v | pollster n
   - focal adj
@@ -1703,7 +1704,7 @@
 
 - 2020.3.24
   - nutrition n
-  - affect v | effect n | effective | effectively | effectiveness n
+  - affect v | effect n | effective | effectively | effectiveness n | ineffective
   - affection | affectionate adj
   - effectual adj | ineffectual
   - wee adj
@@ -1852,7 +1853,6 @@
   - throughout prep
   - poison n/v/adj
   - society n
-  - dignity n
   - differentiate v
   - differ v
   - heritage n
@@ -3092,7 +3092,7 @@
   - proportional adj| proportion | proportionate adj | dis-proportionate
   - artificial adj
   - multilateral adj
-  - harassment n | harass vt
+  - harass vt | harassment n
   - thereafter adv
   - breach n/vt
   - caucus n/vi
@@ -3544,6 +3544,7 @@
   - institute n/vt
   - institution n | institutional adj
   - respect | disrespect n/vt| respective adj
+  - dignity n
   - defiant adj
   - get-go n
   - wary adj
