@@ -233,6 +233,7 @@
 - [JS 数组和对象相互转换方法](https://mp.weixin.qq.com/s/omEsm2lMpGwKUypm3Z6e4Q)
 - [JS 数组奇巧淫技](https://mp.weixin.qq.com/s/m6WAEZL590zsztzb8H78qQ)
 - [全面分析 toString 与 valueOf](https://mp.weixin.qq.com/s/Mg2aDU0FNY0a16leSjQX4Q)
+- [我的代码简洁之道](https://mp.weixin.qq.com/s/1X37gyRL1ub9qyUaFKmOqg)
 
 ### mobile
 

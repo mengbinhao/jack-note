@@ -154,15 +154,19 @@ Array.prototype.mySort = function (fn) {
 	return this
 }
 
-Array.prototype.myForEach = function (fn) {
+Array.prototype.myForEach = function (fn, context) {
+	context = context || arguments[1]
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + 'is not a function')
 	}
-	for (let i = 0; i < this.length; i++) {
-		//filter empty position
-		if (i in this) {
-			fn.call(undefined, this[i], i, this)
+	const len = this.length
+	let k = 0
+	while (k < len) {
+		//note！！filter empty position
+		if (k in this) {
+			fn.call(context, this[k], k, this)
 		}
+		k++
 	}
 }
 

@@ -1,3 +1,16 @@
+- 2020.12.16
+  - foul n/v/adj/adv
+  - grouchy adj
+  - contagious adj
+  - lightheaded adj
+
+  > Especially chaotic in an already chaotic place
+
+- 2020.12.15
+  - punish v
+  - rebuff n/vt
+  - monopoly n
+
 - 2020.12.10
   - jealousy n
   - pregnant adj
@@ -1101,7 +1114,6 @@
   - flat n/adj/adv | flatten v
   - flatter vt
   - mogul n
-  - regulatory adj
   - consecutive adj
 
   > while the media deals with nonsense, I will continue to lead Israel on the issue that really matter to you
@@ -2608,7 +2620,7 @@
   - persecute v | persecution n
   - victor n
   - finding n
-  - regularity n | irregularity n| regular | regularly adv
+  - regularity n | irregularity n| regular n/adj/adv | regularly adv |  regulation n/adj | regulatory adj
   - custody n
   - fuse n/v
   - desert n/v | dessert n
@@ -2800,7 +2812,7 @@
   - disenchantment n
   - forging n
   - alleviate vt
-  - inequality n | equality n
+  - inequality n | equality n | equation n
   - quality n/adj
 
   > what should we be looking for in terms of this coming to an end?
@@ -2933,7 +2945,6 @@
   - levee n
   - agreement n | agree v | disagreement
   - asylum n
-  - scrutiny n | scrutinize vt
   - achieve v | achievable adj | achievement
 
   > Transportation really ground to a halt
@@ -3203,7 +3214,7 @@
   - renewable adj
   - account n/v | accountable adj | unaccounted adj | accountability n
   - sit-in n
-  - progressive n/adj | progress n/vi
+  - progress n/vi | progressive n/adj
 
   > and then even a week from tomorrow, xxxx
   > but it hasn't gotten anywhere in congress yet
@@ -3958,7 +3969,7 @@
 
 - 2019.7.12
   - swallow v/n
-  - proposed adj | proposal n | propose v
+  - propose v | proposed adj | proposal n
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n | encourage vt | discourage
   - courage n
@@ -4008,7 +4019,6 @@
   - waiver n
   - snake n/vt
   - rival n/vt
-  - regulation n/adj
   - complaint n | complain v
   - nevertheless adv
 
@@ -4052,7 +4062,7 @@
   - unmanned adj
   - casualty n
   - de-escalate v | escalate v | escalation n
-  - negotiate v | negotiator n | negotiation n
+  - negotiate v | negotiator n | negotiation n | negotiable adj
 
   > so he goes back and forth
   > and that's pretty much what has been happening for the past few weeks
