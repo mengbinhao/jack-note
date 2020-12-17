@@ -1,3 +1,7 @@
+- 2020.12.17
+  - roam n/v
+  - reject | rejection
+
 - 2020.12.16
   - foul n/v/adj/adv
   - grouchy adj
@@ -242,7 +246,7 @@
 
 - 2020.10.26
   - mess n/vt
-  - confine n/vt | coop v | confinement
+  - confine n/vt | confinement n | coop v
   - inhabitant n
 
 - 2020.10.23
@@ -736,7 +740,7 @@
   > they just kind of have to find the way to reach the middle
 
 - 2020.7.23
-  - benefit n
+  - benefit n/v | beneficial adj
   - opinion n
   - inquire n
   - dynamic n/adj
@@ -1490,7 +1494,7 @@
   - upcoming adj
   - desire n/v
   - backbone n
-  - fringe adj
+  - fringe n/vt/adj
   - mainstream n
   - champion n/v
   - numerical adj
@@ -2379,7 +2383,6 @@
   - enlist v
   - justify vt | justification n | justifiable
   - recommendation n
-  - debunk vt
   - omission n
   - eavesdrop vi
   - cavalier adj
@@ -3519,7 +3522,7 @@
   - territory n | territorial adj
   - terror n
   - imminent adj
-  - militant adj/n | military n/adj | demilitarize
+  - militant n/adj | military n/adj | demilitarize vt
   - depot n
   - adamant adj
   - feud n/vi
