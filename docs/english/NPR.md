@@ -1,3 +1,9 @@
+- 2020.12.18
+  - ripe adj
+  - resistant n/adj | resistance n
+  - relent adj | relentless n
+  - commend v
+
 - 2020.12.17
   - roam n/v
   - reject | rejection
@@ -413,6 +419,9 @@
 
 - 2020.9.10
   - tail | trail n/v
+  - rail n/v
+  - frail adj
+  - derail n/v
   - correspondent n
 
   > to my knowledge
@@ -3096,9 +3105,6 @@
   - dumping n | dump n/v
   - theft n
   - puppet n
-  - rail n/v
-  - frail adj
-  - derail n/v
   - menacing adj
   - regional adj | region n
   - bolster n/vt
@@ -3811,7 +3817,6 @@
   - conservative n/adj | conservation n | conservatism n
   - daunting/daunted adj
   - can-do
-  - divisive adj
   - off-putting adj
   - gut n
   - fond adj
@@ -4154,9 +4159,8 @@
   > there is a couple of reasons
 
 - 2019.6.26
-  - departure n | depart v/adj
+  - depart v/adj | departure n
   - personnel n
-  - tenure n
   - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe
   - insult n/vt
