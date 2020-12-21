@@ -234,6 +234,7 @@
 - [JS 数组奇巧淫技](https://mp.weixin.qq.com/s/m6WAEZL590zsztzb8H78qQ)
 - [全面分析 toString 与 valueOf](https://mp.weixin.qq.com/s/Mg2aDU0FNY0a16leSjQX4Q)
 - [我的代码简洁之道](https://mp.weixin.qq.com/s/1X37gyRL1ub9qyUaFKmOqg)
+- [为什么不推荐用 for...in 遍历数组](https://mp.weixin.qq.com/s/L_svxUWy2odFxhMfkhomyw)
 
 ### mobile
 
@@ -597,6 +598,7 @@
 - [Git 高级用法小抄](https://mp.weixin.qq.com/s/IElzbmcJUFue0NFWAz_soA)
 - [一份值得收藏的 Git 异常处理清单](https://mp.weixin.qq.com/s/zpAqx3MOa9qDX7cZxRE7Wg)
 - [提高效率的 10 个 Git 小技巧](https://segmentfault.com/a/1190000020099456)
+- [送你一份玩转 Github 的秘诀](https://mp.weixin.qq.com/s/HdYSJwr5deeQ9E4o1MFwCg)
 
 ### blog tool
 

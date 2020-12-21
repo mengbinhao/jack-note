@@ -1,3 +1,8 @@
+- 2020.12.21
+  - solidify v
+  - affirm v
+  - college n
+
 - 2020.12.18
   - ripe adj
   - resistant n/adj | resistance n
@@ -2257,7 +2262,6 @@
   - thorough adj
 
 - 2020.1.4
-  - overturn n/v
   - purse v
 
   > they're based on this that they reached back in July
@@ -2290,7 +2294,7 @@
   - vandalize vt
   - census n
   - diverse adj
-  - faith n
+  - faith n | faithless n
   - amnesty n/vt
   - criterion n
 
@@ -2430,7 +2434,7 @@
   - fraction n
   - infraction n
   - robust adj
-  - unanimous n | unanimously adv
+  - unanimous adj | unanimously adv
   - waist n
   - anal adj
   - pubic adj
@@ -3302,7 +3306,7 @@
   > whose problem does this become?
 
 - 2019.9.18
-  - unprecedented adj | precedent
+  - precedent n/adj | unprecedented adj
   - installation n
   - barrel n
   - slice n
@@ -3467,7 +3471,7 @@
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n
   - mistrust n/vt
-  - reluctantly adv | reluctant adj
+  - reluctant adj | reluctantly adv
   - collective adj
   - replicate n/adj/vt
   - resemble vt
