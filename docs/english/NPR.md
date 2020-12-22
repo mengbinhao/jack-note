@@ -1,3 +1,9 @@
+- 2020.12.22
+  - determine v | determination n
+  - divorce n/v
+
+  > I'm so sorry about the fact that everything is so last minute
+
 - 2020.12.21
   - solidify v
   - affirm v
@@ -233,7 +239,6 @@
   - spite n/vt
   - collateral n
   - responsibly | irresponsibly
-  - disruptive adj
   - destructive adj
 
   > I say it is still a valuable thing to do
@@ -1315,7 +1320,6 @@
   - invisible adj | visibility
   - unexpected adj
   - fear n/v
-  - advantage n
   - urge n/v | urgent adj | urgently | dire adj | urgency n
   - purge n/vt
   - surge n/vi
@@ -3137,6 +3141,7 @@
   - indecisive adj | decisive adj | decisively adv
   - obfuscate vt
   - slap n/v/adj
+  - advantage n | disadvantage
 
   > let's put aside that xxx
   > take advantage of
@@ -3576,7 +3581,7 @@
   - decree n/vt
   - dismayed adj | dismay n/vt
   - stance n
-  - underestimated adj | estimate n/vt
+  - estimate n/vt | underestimate vt/v
   - tackle n/vt
   - mobilize vt
   - corrode v
@@ -3601,7 +3606,7 @@
   - steer v | steering n/adj
   - grim adj
   - predict v | predictable adj | prediction n
-  - disrupt vt | disruption n
+  - disrupt vt | disruptive adj | disruption n
   - spark n/v
   - referendum n
   - seamless adj

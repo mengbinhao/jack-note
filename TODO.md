@@ -137,6 +137,7 @@
 - [前端优化](https://mp.weixin.qq.com/s/ZsYVjzwZm9dG20f3OjMAWw)
 - [前端性能优化 24 条建议](https://mp.weixin.qq.com/s/b5HWMd6YTSrPuuWQ3ZnGBA)
 - [代码规范之-理解 ESLint、Prettier、EditorConfig](https://mp.weixin.qq.com/s/kJ14P828NHUdvA9JSoUQzg)
+- [前端性能优化](https://mp.weixin.qq.com/s/V4letLIbbiuxRWAwlObt5w)
 
 ### Algorithm
 
