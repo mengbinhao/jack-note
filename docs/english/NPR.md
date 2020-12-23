@@ -1,3 +1,11 @@
+- 2020.12.23
+  - painstaking adj
+  - summary n/adj | summarize vt
+  - period n | periodic adj
+  - horrify vt | horrifying adj
+  - burglar n
+  - manipulate vt | manipulation n
+
 - 2020.12.22
   - determine v | determination n
   - divorce n/v
@@ -1891,7 +1899,7 @@
   - differ v
   - heritage n
   - stringent adj
-  - detection n | detect vt
+  - detect vt | detection n | undetected
   - manifesto n
   - absurd adj/n
   - evident adj
@@ -2423,7 +2431,6 @@
   - Eurasian adj
   - doctoral adj
   - dissertation n
-  - espionage n
   - sabbatical n/adj
   - rapprochement n
   - beneficiary n
@@ -2788,7 +2795,7 @@
   - swoop n/vi
   - tunnel n/v
   - recruit n/v
-  - sophisticated adj
+  - sophisticate n/ajd/v | sophisticated adj
   - counterargument n
   - scattered adj
   - one-off n/adj
@@ -3109,7 +3116,6 @@
   - patriot n | patriotism | unpatriotic adj
   - barrier n/vt | barricade n/vt
   - subsidy n | subsidize vt
-  - manipulation n
   - dumping n | dump n/v
   - theft n
   - puppet n
@@ -3318,7 +3324,7 @@
   - offering n
   - involve v | involvement n
   - dismiss vt
-  - maximum n | minimum n | minimize v
+  - maximum n | minimum n | minimize v | minimal adj
   - crown n/vt
 
   > give us the context here
@@ -3407,7 +3413,7 @@
   - sizable adj
   - ridicule n/vt | ridiculous adj
   - invite n/vt | invitation n
-  - remarkable adj | hallmark n/vt | remark n
+  - remarkable adj | remark n
   - electorate n | electoral adj
 
   > to my knowledge
@@ -3590,7 +3596,6 @@
   - interfere vi | interference n | intervene vi | intervention n | meddle vi
   - criminality n | crime n | criminal n/adj
   - exaggerated adj
-  - culprit n
   - exploit n/vt | exploitation
   - mineral n/adj
 
@@ -3702,7 +3707,6 @@
   - anthem n
   - salute n/vt
   - premise n/v
-  - penetrate v
 
   > its full scope
   > try to piece together what really happened
@@ -3878,7 +3882,7 @@
   > Compared to you guys in the US, you are like open books
 
 - 2019.7.19
-  - massive adj | mass n/v
+  - mass n/v | massive adj
   - cargo n
   - Pentagon n
   - defy vt | defiance n

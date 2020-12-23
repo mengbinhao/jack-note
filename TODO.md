@@ -151,6 +151,7 @@
 - [你真的懂 Promise 吗](https://mp.weixin.qq.com/s/zcZwMRg9nymQrp4n6FEldA)
 - [Promise/AA/Fetch/Axios API](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
 - [Promises 的 5 种最佳实践](https://juejin.im/post/5eb8faa76fb9a043877cdf88)
+- [15 道 Promise 练习题，助你快速理解 Promise](https://mp.weixin.qq.com/s/rslrMX_IPzB8RMjTh05nbw)
 - [浏览器与 Node 环境下的 Event Loop](https://mp.weixin.qq.com/s/Rdu5uhPwgoz5PSV7aOWVOw)
 - [JavaScript 代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
 - [JavaScript 复杂判断的更优雅写法优化冗余](https://segmentfault.com/a/1190000020878915)
@@ -589,6 +590,7 @@
 - [Nginx 的几个常用配置和技巧](https://mp.weixin.qq.com/s?__biz=MzU5MDY1MzcyOQ==&mid=2247484021&idx=1&sn=493ceaf414ad579d166f98c22db9a5ab)
 - [前端工程师不可不知的 Nginx 知识](https://mp.weixin.qq.com/s/zlq-KhyuAbp8bRpPtRp0IQ)
 - [前端看得懂的《Nginx 入门指南》](https://mp.weixin.qq.com/s/NFxAK9DM1-LV1p8dFXz1dA)
+- [搞懂 Nginx 一篇文章就够了](https://mp.weixin.qq.com/s/Heexjv5Ip5mJm28JRMNQBQ)
 
 ### Git
 
