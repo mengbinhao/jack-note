@@ -1,3 +1,9 @@
+- 2020.12.24
+  - liaison n
+  - leaflet n
+  - commie n
+  - prohibit vt
+
 - 2020.12.23
   - painstaking adj
   - summary n/adj | summarize vt
@@ -246,7 +252,7 @@
 - 2020.10.30
   - spite n/vt
   - collateral n
-  - responsibly | irresponsibly
+  - responsibly | irresponsible n/adj/adv
   - destructive adj
 
   > I say it is still a valuable thing to do
@@ -1256,7 +1262,6 @@
 
 - 2020.5.15
   - thumb n/v
-  - material n/adj
   - classify vt | declassified
   - revolve v
 
@@ -2120,7 +2125,6 @@
   - grieve v | grieving adj | grievance n
   - furious adj
   - assassination n | assassinate vt | assassin
-  - irresponsible n/adj/adv
   - honor n/vt | dishonor n/vt
   - cruise n/v
   - televise v
@@ -2924,7 +2928,7 @@
   - pave vt
   - hurdle n/v
   - curtail vt
-  - smuggling n | smuggler n | smuggle vt
+  - smuggler n | smuggle vt | smuggling n
   - pertain vi
   - slip n/v/adj
   - ratify vt
@@ -3114,7 +3118,7 @@
 - 2019.10.9
   - tout n/vt
   - patriot n | patriotism | unpatriotic adj
-  - barrier n/vt | barricade n/vt
+  - bar n/vt | barrier n/vt | barricade n/vt
   - subsidy n | subsidize vt
   - dumping n | dump n/v
   - theft n
@@ -3319,7 +3323,7 @@
 - 2019.9.18
   - precedent n/adj | unprecedented adj
   - installation n
-  - barrel n
+  - barrel n/v
   - slice n
   - offering n
   - involve v | involvement n
