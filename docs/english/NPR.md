@@ -1,3 +1,7 @@
+- 2020.12.25
+  - furniture n
+  - tidy adj
+
 - 2020.12.24
   - liaison n
   - leaflet n
@@ -131,7 +135,6 @@
   - hail n/v
   - languish vi
   - integrate n/vi/adj | integration n | disintegrate v
-  - breakthrough n
   - encompass vt
 
 - 2020.11.22
@@ -647,7 +650,7 @@
   - purview n
   - extreme adj/n | extremely
 
-  > Walk uo through it
+  > Walk up through it
   > the one real bright spot was that xxx
 
 - 2020.8.10
@@ -783,7 +786,6 @@
 - 2020.7.22
   - flu n
   - scoff n/v
-  - classic adj
   - mandatory adj
   - habit n | inhabit vt
   - regret n/v
@@ -1262,7 +1264,7 @@
 
 - 2020.5.15
   - thumb n/v
-  - classify vt | declassified
+  - class n/v | classic adj | classify vt | declassified | classification n
   - revolve v
 
   > take a look at xxx from top to bottom
@@ -1318,10 +1320,10 @@
   > to get a sense of what her response to all of this has been
 
 - 2020.5.9
-  - spotlight n/vt | hotspot n | spot n/vt
+  - spotlight n/vt | hotspot n | spot n/vt | spotless adj
   - warehouse n
   - thrust n/v
-  - grocer n | grocery n
+  - grocer n | grocery n | chore n
 
 - 2020.5.8
   - revert n/v
@@ -1383,7 +1385,7 @@
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
-  - nonprofit adj
+  - profit n/v | nonprofit adj
   - trove n
   - corpse n
   - plaintiff n
@@ -1649,7 +1651,10 @@
   > in addition to all this
 
 - 2020.4.1
+  - treat n/v | treatment n
+  - mistreat vt
   - retreat n/v
+  - treaty n
   - engage v | engaged adj | engagement n
   - symptom n
   - mild adj
@@ -1897,7 +1902,7 @@
   - shoulder v
   - underneath prep
   - tongue n
-  - throughout prep
+  - through prep/adj/adv | throughout prep/adv | breakthrough n | thorough adj
   - poison n/v/adj
   - society n
   - differentiate v
@@ -2609,7 +2614,7 @@
   - sever v | severed adj
   - foreseeable adj
   - taint n/v | tainted adj
-  - repaid v/adj
+  - repaid v/adj | unpaid adj
   - bribery n
   - preliminary n/adj
   - brute n/adj | brutal adj | brutality n
@@ -2740,10 +2745,9 @@
   > be about to
 
 - 2019.11.4
-  - sweep n/v | sweeping adj
+  - sweep n/v | mop v
   - hurdle n/v
   - bargain n/v | bargaining | barter v
-  - class n/v
   - assuage vt | undermine vt
   - diffuse v/adj
   - reform n/v
@@ -2856,7 +2860,6 @@
 
 - 2019.10.26
   - fallout n
-  - classified adj
   - stall n/v
   - ethic n
   - deliberation n | deliberately adv | deliberate v/adj
@@ -3019,7 +3022,9 @@
   - neutralize vt | neutrality n | neutral adj
   - fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
-  - expanse n | expansion n | expansive adj | pension n/vt
+  - expanse n | expansion n | expansive adj
+  - expend vt | expenditure n
+  - pension n/vt
   - arrange v | arrangement n
   - condemnation n | condemn vt | condemned adj
   - approve v | disapprove v | approval n
@@ -3760,7 +3765,6 @@
   - invasion n | incursion n | incur vt ｜ invade v | invader
 
 - 2019.8.8
-  - treaty n
   - resurrect vt
   - violate vt | violation n
   - compliance n | compliant adj
@@ -4066,7 +4070,7 @@
   - cite vt
   - inflation/deflation n
   - resist v | resistance n | resistible | irresistible adj
-  - sustainable adj | sustained adj | sustain vt | unsustainable
+  - sustain vt | sustainable adj | sustained adj | unsustainable
   - concern n/vt | concerned adj | concerning adj
   - pace n/v
   - impetus n
@@ -4150,7 +4154,6 @@
   - prosecutor n
   - defend v | defensive adj | defendant n
   - Turkish adj/n
-  - mistreat vt
   - polar n/adj | polarize v | polarization n
   - exile n/vt
   - funeral n | funereal adj
