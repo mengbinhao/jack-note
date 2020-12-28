@@ -1,18 +1,44 @@
-var sortedSquares = function (A) {
-	const len = A.length,
-		ans = Array(len)
-	for (let i = 0, j = len - 1, pos = len - 1; i <= j; ) {
-		if (A[i] * A[i] > A[j] * A[j]) {
-			ans[pos] = A[i] * A[i]
-			i++
-		} else {
-			ans[pos] = A[j] * A[j]
-			j--
-		}
-		pos--
-	}
+const compose = function (...funcs) {
+	const length = funcs.length
+	let count = length - 1,
+		result
 
-	return ans
+	return function f1() {
+		result = funcs[count]()
+		if (count <= 0) {
+			count = length - 1
+			return result
+		}
+		count--
+		return f1(result)
+	}
+}
+function aa() {
+	console.log(11)
 }
 
-sortedSquares([-7, -3, 2, 3, 11])
+function bb() {
+	console.log(22)
+}
+function cc() {
+	console.log(33)
+	return 33
+}
+
+const ret = compose(aa, bb, cc)
+//ret()
+
+function compose2(...funcs) {
+	if (funcs.length === 0) {
+		return (arg) => arg
+	}
+
+	if (funcs.length === 1) {
+		return funcs[0]
+	}
+	debugger
+	return funcs.reduce((a, b) => (...args) => a(b(...args)))
+}
+
+const ret2 = compose2(aa, bb, cc)
+ret2()

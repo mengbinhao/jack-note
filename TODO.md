@@ -138,6 +138,7 @@
 - [前端性能优化 24 条建议](https://mp.weixin.qq.com/s/b5HWMd6YTSrPuuWQ3ZnGBA)
 - [代码规范之-理解 ESLint、Prettier、EditorConfig](https://mp.weixin.qq.com/s/kJ14P828NHUdvA9JSoUQzg)
 - [前端性能优化](https://mp.weixin.qq.com/s/V4letLIbbiuxRWAwlObt5w)
+- [10 个有用的 HTML 文件上传技巧](https://mp.weixin.qq.com/s/7g_PsmcDn47CIh5zaXBSlQ)
 
 ### Algorithm
 
@@ -163,12 +164,9 @@
 - [常见数据结构和 Javascript 实现总结](https://segmentfault.com/a/1190000020011987)
 - [28 个 JavaScript 实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
 - [实现 25 个数组方法](https://segmentfault.com/a/1190000020389596)
-- [axios 切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
 - [详解手写原生 Ajax 的实现](https://mp.weixin.qq.com/s/BBdEBUVU1aRIqQV2XOgJjQ)
 - [封装 AJAX](https://juejin.im/post/5c2839566fb9a049fa0fd926)
 - [AJAX 原理（含常见面试题）](https://juejin.im/post/5e882ca8f265da47cb3109e1)
-- [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
-- [axios 基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
 - [2019 年常用 JavaScript 正则大全](https://juejin.im/post/5d245d4151882555300feb77)
 - [JS 正则表达式完整教程](https://juejin.im/post/5965943ff265da6c30653879)
 - [如何优雅处理前端异常](https://mp.weixin.qq.com/s/bOohIxkx7A3OiilkgvjvXg)
@@ -195,7 +193,6 @@
 - [轻轻松松实现高难度懒加载、吸顶、触底](https://mp.weixin.qq.com/s/uRMYrxaduPaMkc97Upjkqg)
 - [lodash 的 debounce 与 throttle](https://segmentfault.com/a/1190000020958470)
 - [前端图片相关的知识总结](https://juejin.im/post/5dced5c15188254eb23dd689)
-- [如何写一个像 axios 那样优秀的请求库](https://mp.weixin.qq.com/s/DoniYaHhs3dO3FClC7ZMRw)
 - [纯 JS 实现放大缩小拖拽采坑之旅](https://segmentfault.com/a/1190000021100977)
 - [为什么需要在 JavaScript 中使用严格模式？](https://mp.weixin.qq.com/s/rvbv2h5WLeQCx1oVpD3xsw)
 - [一个多层 if/else 嵌套的代码重构案例](https://juejin.im/post/5dde8ea1f265da05b52e88cd)
@@ -205,12 +202,10 @@
 - [编程风格,编程实践](https://segmentfault.com/a/1190000021368904)
 - [常见内存泄露及如何避免](https://juejin.im/post/5e10a97f5188253a765ec7e1)
 - [一道不一样的前端架构师最终面试题](https://segmentfault.com/a/1190000021490239)
-- [学习 axios 源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
 - [NaN](https://segmentfault.com/a/1190000021576994)
 - [javaScript 的 Object 构造函数](https://juejin.im/post/5e1e887b6fb9a02fd67ea0b2)
 - [全面总结 JavaScript 类型相关知识点](https://juejin.im/post/5e1ef846f265da3e2e4f5268)
 - [你真的懂 Array 吗]（https://juejin.im/post/5e1d919f5188254c3c275145）
-- [编写一个 axios 这样的库](https://juejin.im/post/5e16e5d76fb9a02fd742a92b)
 - [JavaScript 中的类型检查](https://mp.weixin.qq.com/s/2J6IK7NAUR3ctNnsL5UN3A)
 - [ES6 之 Proxy 巧用](https://mp.weixin.qq.com/s/VtdL7x7Lisy0YR65ghEVEQ)
 - [您可能不知道的原生 JavaScript 方法](https://juejin.im/post/5e4bc03cf265da572446685a)
@@ -322,6 +317,7 @@
 - [前后端分离那些事 Vue](https://juejin.im/post/5eaa3e29e51d454dab604701)
 - [Vue 数据更新了但页面没有更新的 7 种情况汇总及延伸总结](https://segmentfault.com/a/1190000022772025)
 - [Vue 小技巧](https://mp.weixin.qq.com/s/oxxZdRCIjG7BltlfEK8cGg)
+- [8 个非常实用的 Vue 自定义指令](https://segmentfault.com/a/1190000038475001)
 
 #### Vue 3
 
@@ -351,6 +347,13 @@
 - [Axios 封装](https://juejin.im/post/5d89c75651882509662c55b1)
 - [Vue 项目中使用 Axios 封装 http 请求](https://www.helloweba.net/javascript/617.html)
 - [main.js 精简/axios 二次封装](https://segmentfault.com/a/1190000019187560)
+- [axios 切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
+- [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
+- [axios 基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
+- [如何写一个像 axios 那样优秀的请求库](https://mp.weixin.qq.com/s/DoniYaHhs3dO3FClC7ZMRw)
+- [学习 axios 源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
+- [编写一个 axios 这样的库](https://juejin.im/post/5e16e5d76fb9a02fd742a92b)
+- [二次封装 axios](https://mp.weixin.qq.com/s/0RMLSi2ODe2nJsTU8pBWVA)
 - [Vue/Vue-router/Vuex 延迟和动态加载](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490577&idx=1&sn=1a2edeb23fa04328ea1fd5dcba0c0a79&)
 - [骨架屏](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651554237&idx=1&sn=9111c0a9e365433cde02d265d5607b63)
 - [更友好的前端骨架屏自动生成方案](https://segmentfault.com/a/1190000020309764)

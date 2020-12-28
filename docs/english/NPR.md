@@ -1,3 +1,19 @@
+- 2020.12.28
+  - collar n
+
+- 2020.12.27
+  - unwell adj
+  - transmit v | transportation n | transport vt | transit n/vt/adj
+  - transitional adj | transition
+  - transparent adj | transparency n | in-transparency n
+  - transform v | transformation
+  - transpire v
+  - disruptive
+
+- 2020.12.26
+  - mutate v | mutation n
+  - freight n/vt
+
 - 2020.12.25
   - furniture n
   - tidy adj
@@ -278,7 +294,7 @@
   - flock n/v
 
 - 2020.10.26
-  - mess n/vt
+  - mess n/vt | messy adj
   - confine n/vt | confinement n | coop v
   - inhabitant n
 
@@ -541,7 +557,6 @@
   - directive n/adj
   - allude vi
   - organize | organization | organizational | reorganize
-  - transform v | transformation
 
 - 2020.8.25
   - abundant adj
@@ -646,7 +661,7 @@
   - tend v | tendency n
   - sow v
   - cunning adj/n
-  - coincident adj | coincidental | coincidentally
+  - coincide vi | coincident adj | coincidental | coincidentally
   - purview n
   - extreme adj/n | extremely
 
@@ -1069,7 +1084,6 @@
   - nation n | nationalize vt | national n/adj | nationalization
   - fitness n
   - inflection n
-  - coincide vi
 
   > once in a while
   > in a clear with xxx
@@ -1583,7 +1597,6 @@
   - scientific adj | science n
   - upfront adj/adv
   - greenhouse n
-  - transportation n | transport vt
   - rollback n
 
   > the average age of vehicles on the road right now is the highest it's ever been at 12 years
@@ -2353,7 +2366,6 @@
   - unenviable adj
   - retrieve v
   - eruption n | erupt v
-  - severe adj
   - volcano n
   - rotate v/adj
   - immune n/adj | immunity n
@@ -2434,7 +2446,6 @@
   - exclusive adj | exclusion n | exclusionary adj
   - stuff n/v | stuffing n
   - imprison vt
-  - transpire v
   - groundless adj
   - specialize vi
   - Eurasian adj
@@ -2611,7 +2622,7 @@
   - patron n
   - charity n | charitable
   - offend v | offender n
-  - sever v | severed adj
+  - sever v | severed adj | severe adj
   - foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj | unpaid adj
@@ -2674,13 +2685,12 @@
   - perilous adj
   - arson n
   - loot n/v | looter
-  - severe adj
   - divert v
   - monument n
   - skyscraper n
   - noxious adj
   - pungent adj
-  - cough v
+  - cough v | sneeze n/v
   - respiratory adj
   - advisory n
   - routine n | routinely adv
@@ -2841,7 +2851,6 @@
   - spill n/v
   - cannon n/v
   - hike n/v
-  - transit n/vt/adj | transitional adj | transition
   - lambaste vt
   - dissatisfaction n
   - disenchantment n
@@ -3704,7 +3713,7 @@
 - 2019.8.15
   - arctic n/adj
   - sketchy adj | sketch n/v
-  - contamination n | contaminated adj | contaminate vt
+  - contaminate vt | contaminated adj | contamination n
   - terse adj | tersely
   - comparison n
   - scale n/vt
@@ -3872,7 +3881,6 @@
   - nerve n | nervous adj
   - figure n/vt
   - reveal vt
-  - transparent adj | transparency n | in-transparency n
   - exhausting adj | exhausted adj | exhaust v
   - sympathy n | sympathetic adj | sympathize vi
   - pathetic adj
@@ -3923,7 +3931,6 @@
   - capacity n/adj
   - servant n
   - citizen n | citizenship n
-  - transgender n
   - esteemed adj
   - reiterate vt
   - forum n
