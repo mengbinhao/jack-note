@@ -1,3 +1,6 @@
+- 2020.12.29
+  - enact vt
+
 - 2020.12.28
   - collar n
 
@@ -1883,7 +1886,8 @@
   - twist n/v
   - revoke vt
   - expose vt | exposure n
-  - extradition n | extradite vt
+  - extradite vt | extradition n
+  - tradition n | traditional | traditionally
 
   > up to a point
   > I said it might happened by the end of the year if at all
