@@ -499,6 +499,7 @@
 - [react-cloud-music-doc](https://sanyuan0704.github.io/react-cloud-music/chapter1/)
 - [如何用 120 行代码，实现一个交互完整的拖拽上传组件？](https://mp.weixin.qq.com/s/cPW8Sr2pShJumnCtXsk-ww)
 - [在 React 中缩放、裁剪和缩放图像](https://segmentfault.com/a/1190000021836091)
+- [1.5W 字进阶年终送给 react 开发者的八条优化建议](https://mp.weixin.qq.com/s/w-jyNHXEjlgZeZmO_PqqJg)
 
 #### basic
 

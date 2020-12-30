@@ -1,3 +1,6 @@
+- 2020.12.30
+  - friction n | frictionless n
+
 - 2020.12.29
   - enact vt
 
@@ -306,7 +309,7 @@
   - depict vt
   - honesty | dishonesty
   - embezzle vt
-  - estate n
+  - state n/vt/adj | restate vt | estate n
   - pope n
 
   > I lost my temper and yelled at him
@@ -513,7 +516,6 @@
   - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist
   - shareholder n
   - preside v
-  - friction n
   - buddy n
 
   > They are going to build it from scratch because there's no one like that on the horizon
@@ -526,7 +528,6 @@
   > The messages were kind of all over the place
 
 - 2020.9.1
-  - restate vt
   - vicinity n
 
   > They take a deadly turn
@@ -1562,7 +1563,7 @@
   - liberty n
   - expense n/v
   - odd adj | even
-  - symbolic adj | symbolical | symbolically
+  - symbol n | symbolic adj | symbolical adj | symbolically | symbolism
   - penalty n
 
   > It will go into effect tonight and last for about a month
@@ -1643,7 +1644,7 @@
 - 2020.4.5
   - simultaneously adv
   - exacerbate vt
-  - campaign n/vi
+  - campaign n/vi | campaigner n
   - exceed v
 
   > On the other hand, they won't act in a circumstance where they look like they're weak
@@ -2344,7 +2345,6 @@
   - pivot n/v/adj
   - heel n
   - emitter n
-  - landmark n
 
   > this would erode the kind of action that actually is needed on the ground
   > this is a disagreement over how we move forward
@@ -3635,7 +3635,6 @@
   - predict v | predictable adj | prediction n
   - disrupt vt | disruptive adj | disruption n
   - spark n/v
-  - referendum n
   - seamless adj
   - genuine adj | genuinely adv
   - worse-case
