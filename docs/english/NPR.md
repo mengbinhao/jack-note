@@ -1,4 +1,12 @@
 - 2020.12.30
+  - uphill adj
+  - forge n/v
+  - dissolve n/v
+  - complicated adj
+
+  > xxxx in paly here, but bottom line, xxx
+
+- 2020.12.30
   - friction n | frictionless n
 
 - 2020.12.29
@@ -51,7 +59,6 @@
 
 - 2020.12.18
   - ripe adj
-  - resistant n/adj | resistance n
   - relent adj | relentless n
   - commend v
 
@@ -321,7 +328,6 @@
   - cattle n
   - award n/v
   - ethnic adj
-  - deadlock
 
 - 2020.10.21
   - muscle n/v
@@ -3129,6 +3135,7 @@
   > xxx in return
   > in the past couple of months after xxx
   > in the middle of this
+  > at the center of attention
   > so on one hand, xxxxx, on the other hand, xxxx
   > more or less
   > it doesn't necessarily have to become public, but given the way things are appearing, it seems quite possible that it will
@@ -3171,7 +3178,7 @@
   - slap n/v/adj
   - advantage n | disadvantage
 
-  > let's put aside that xxx
+  > let's put/set aside that xxx
   > take advantage of
   > slap down against xxx
   > he was out of line in asking the queen to approve the move
@@ -3586,7 +3593,6 @@
   - grab v
   - offensive n/adj
 
-  > put aside xxxxx
   > but at bottom
   > in a very offensive way
   > well, at one level, xxx
@@ -4079,7 +4085,7 @@
   - disappointment n | appointment n | appoint v | appointed adj | appointee n
   - cite vt
   - inflation/deflation n
-  - resist v | resistance n | resistible | irresistible adj
+  - resist v | resistance n | resistible | irresistible adj | resistant n/adj
   - sustain vt | sustainable adj | sustained adj | unsustainable
   - concern n/vt | concerned adj | concerning adj
   - pace n/v
