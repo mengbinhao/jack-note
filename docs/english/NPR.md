@@ -1,3 +1,27 @@
+- 2021.1.3
+  - domino n
+  - church n
+  - Catholic adj/n
+  - visually adj
+  - legalize vt
+  - dome n/vi | domed adj
+
+  > He was making clear he realize how much at stake and reversing his position
+  > Argentina is the first country to go so far
+
+- 2021.1.2
+  - grateful adj
+  - acquaint vt
+  - axle n
+  - rental n/adj
+  - duplex adj
+  - tissue n/vt
+
+- 2021.1.1
+  - grace n/vt | disgrace n/vt
+  - aisle n
+  - crease n/v | decrease n/v
+
 - 2020.12.30
   - uphill adj
   - forge n/v
@@ -476,7 +500,6 @@
   - tail | trail n/v
   - rail n/v
   - frail adj
-  - derail n/v
   - correspondent n
 
   > to my knowledge
@@ -694,7 +717,7 @@
 - 2020.8.7
   - episode n
   - humble adj/vt
-  - impression n
+  - impress n/v | impression n | impressive adj
   - nuance n
   - discourse n
   - grill n/v
@@ -952,7 +975,6 @@
 - 2020.6.30
   - ambiguous adj | unambiguous
   - threshold n
-  - landscape
 
   > Do they get on board?
   > it does not go far enough
@@ -1344,7 +1366,7 @@
   > to get a sense of what her response to all of this has been
 
 - 2020.5.9
-  - spotlight n/vt | hotspot n | spot n/vt | spotless adj
+  - spotlight n/vt | hotspot n | spot n/vt | spotless adj | spotted adj
   - warehouse n
   - thrust n/v
   - grocer n | grocery n | chore n
@@ -1569,7 +1591,7 @@
   - liberty n
   - expense n/v
   - odd adj | even
-  - symbol n | symbolic adj | symbolical adj | symbolically | symbolism
+  - symbol n | symbolic adj | symbolical adj | symbolically | symbolism | symbolize vt
   - penalty n
 
   > It will go into effect tonight and last for about a month
@@ -1864,7 +1886,7 @@
 
 - 2020.3.13
   - entertain v | entertainment | entertainer n
-  - ironic adj
+  - iron n | ironic adj | irony n
   - marginalize vt
   - atmosphere n | atmospheric adj
   - enshrine vt
@@ -2157,7 +2179,7 @@
   - honor n/vt | dishonor n/vt
   - cruise n/v
   - televise v
-  - investigator n | investigation | investigate
+  - investigator n | investigation | investigate | investigative adj
   - sift v
   - condolence n
   - sincere adj
@@ -3421,7 +3443,6 @@
   - decline n/v
   - immersed adj
   - vanity n
-  - irony n
   - dagger n
   - veteran n/adj
   - alongside prep/adv
@@ -3754,7 +3775,7 @@
   - minor n/adj
   - disturb v | disturbed | disturbing adj
   - prosecutor n | prosecute v | prosecution n | inspector n | inspection n
-  - emphasize vt | emphasis n
+  - emphasize vt | emphasis n | emphatic adj
   - redact v
 
   > in a clear reference to xxx
