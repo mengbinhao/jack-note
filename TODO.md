@@ -101,6 +101,8 @@
 - [让你受益匪浅的前端技术干货系列](https://mp.weixin.qq.com/s/G8b2SRG0FqI5taGwjH35aw)
 - [前端首屏耗时测量方法](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247483755&idx=2&sn=03985684a9901e4f2a3b801339f708b7)
 - [前端面试必备——权限控制](https://segmentfault.com/a/1190000020887109)
+- [Vue 要做权限管理该怎么做？控制到按钮级别的权限怎么做？](https://mp.weixin.qq.com/s/7d4maMFy_L2ho23DD_tdTw)
+- [Vue 实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
 - [http 缓存实战](https://segmentfault.com/a/1190000021374783)
 - [前端 resource](https://segmentfault.com/a/1190000016420985)
 - [前端 resource](http://0313.name/archives/485)
@@ -232,6 +234,7 @@
 - [全面分析 toString 与 valueOf](https://mp.weixin.qq.com/s/Mg2aDU0FNY0a16leSjQX4Q)
 - [我的代码简洁之道](https://mp.weixin.qq.com/s/1X37gyRL1ub9qyUaFKmOqg)
 - [为什么不推荐用 for...in 遍历数组](https://mp.weixin.qq.com/s/L_svxUWy2odFxhMfkhomyw)
+- [总结了工作中常用的 ES6 代码片段，整理后的 24 个值得拥有](https://mp.weixin.qq.com/s/DqNPu0oOfVwbP8eaNMj48g)
 
 ### mobile
 
@@ -409,7 +412,6 @@
 
 #### Vue-router
 
-- [Vue 实现前端权限控制](https://juejin.im/post/5d22bac55188255d7439ad5a)
 - [前端路由跳转基本原理](https://mp.weixin.qq.com/s/IyPpSix7haY_NfNJg10ilg)
 - [vue-router 实现](https://juejin.im/post/5d7e2f43f265da0391354593)
 - [addRoutes 的刷新 404 和重复路由的解决方案](https://juejin.im/post/5d730f50518825770c43a6da)

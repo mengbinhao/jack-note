@@ -79,19 +79,11 @@ const myFlat2 = (arr) => {
 		.map((item) => Number(item))
 }
 
-const myFlat3 = (arr) => {
-	return arr.reduce(
-		(acc, val) =>
-			Array.isArray(val) ? acc.concat(myFlat3(val)) : acc.concat(val),
-		[]
-	)
-}
-
-const myFlat4 = JSON.parse(
+const myFlat3 = JSON.parse(
 	'[' + JSON.stringify(arr).replace(/\[|\]/g, '') + ']'
 )
 
-const myFlat5 = (arr) => {
+const myFlat4 = (arr) => {
 	let result = []
 	for (let i = 0, len = arr.length; i < len; i++) {
 		if (Array.isArray(arr[i])) {
@@ -101,6 +93,17 @@ const myFlat5 = (arr) => {
 		}
 	}
 	return result
+}
+
+const myFlatFinal = (arr, depth = 1) => {
+	return depth > 0
+		? arr.reduce((acc, cur) => {
+				if (Array.isArray(cur)) {
+					return [...acc, ...flat(cur, depth - 1)]
+				}
+				return [...acc, cur]
+		  }, [])
+		: arr
 }
 
 const simulateIsArray = (target) => {

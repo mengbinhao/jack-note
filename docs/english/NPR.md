@@ -1,3 +1,6 @@
+- 2021.1.4
+  - necessary n/adj | necessity n
+
 - 2021.1.3
   - domino n
   - church n
@@ -2185,7 +2188,7 @@
   - sincere adj
   - mechanical adj
   - mistakenly adv
-  - appetite n
+  - appetite n | appetizing adj
   - underscore vt
   - demean vt | demeaning n | demeanor n
   - warrant n/vt | warranted adj
@@ -3080,7 +3083,6 @@
 
 - 2019.10.14
   - individual n/adj
-  - qualify v | qualification n | qualified
   - interim n/adj
   - clearance n
   - accompany vt
@@ -3722,7 +3724,7 @@
 - 2019.8.16
   - bid n/v
   - strain n/v | strained adj
-  - eligible adj
+  - qualify v | qualification n | qualified | eligible adj
   - sick n/vt/adj
   - turnout n | turnover n
   - poverty n
@@ -4154,7 +4156,7 @@
   > foolish move
 
 - 2019.6.28
-  - establishment n | establish vt
+  - establish vt | establishment n
   - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
