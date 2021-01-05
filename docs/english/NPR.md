@@ -1,3 +1,7 @@
+- 2021.1.5
+  - fever n
+  - ingredient n
+
 - 2021.1.4
   - necessary n/adj | necessity n
 
@@ -387,7 +391,7 @@
   > This has actually been in the works for a very long time
 
 - 2020.10.11
-  - apply v
+  - apply v | application n
   - density n
   - dean n
   - fortunate | unfortunate
@@ -1127,7 +1131,7 @@
 - 2020.6.9
   - protein n
   - inject vt | injection
-  - diagnose v | diagnostic adj
+  - diagnose v | diagnostic adj | diagnosis n
   - genetic adj
   - antibody n
 
@@ -2237,7 +2241,7 @@
 
 - 2020.1.17
   - restraint n | restrained adj
-  - comfortable adj | uncomfortable
+  - comfort n/vt | discomfort n | comfortable adj | uncomfortable
   - distinction n | distinct adj | distinctive adj
   - stun n/vt
   - momentum n
@@ -3485,7 +3489,6 @@
   - cap n
   - huddle vt | huddled adj
   - lunar adj
-  - comfort n/vt
   - spirit n/vt
   - unexplored adj | exploration n
   - quell vt
@@ -3713,6 +3716,7 @@
   - consul n | consulate n
   - stooge n
   - emerge vi | emerging adj | emergence n
+  - emergency n
   - concrete adj
   - problematic adj
   - remedy n/vt

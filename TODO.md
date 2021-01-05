@@ -633,6 +633,7 @@
 - [切图](https://mp.weixin.qq.com/s/A8TOwbDa1UKVTjo7JAywZA)
 - [一文带你快速上手 Rollup](https://mp.weixin.qq.com/s/S-WgcO9aFrYp2tvnMMsRPg)
 - [Postman 入门](https://mp.weixin.qq.com/s/FZNxtA2vOhVV-rtOi_oyBQ)
+- [一文带你全面解析 postman 工具的使用](https://mp.weixin.qq.com/s/G1qHddMluNI7CKpH_MxVGw)
 - [超详细教程（Jenkins、Github Actions）](https://mp.weixin.qq.com/s/uTy4budBUCl1vziBHDnmvQ)
 - [让 Jenkins 自动布署你的 Vue 项目](https://mp.weixin.qq.com/s/2MFpJr32hVy0HBK9Y_WOqQ)
 - [SSH 教程](https://wangdoc.com/ssh/basic.html)

@@ -1,7 +1,42 @@
 //Array
 //Array
 //Array
+//不使用其他数据结构
+const removeDuplicates1 = (nums) => {
+	nums.sort()
+	let len = 1
+	for (let i = 1; i < nums.length; i++)
+		if (nums[i] != nums[i - 1]) nums[len++] = nums[i]
+	// 删除重复项
+	nums.splice(len)
+	return nums
+}
+
+const removeDuplicates2 = (nums) => {
+	let len = nums.length - 1
+	for (let i = len; i >= 0; i--) {
+		//往前放
+		if (nums.indexOf(nums[i]) != i) {
+			nums[i] = nums[len--]
+		}
+	}
+	nums.splice(len + 1)
+	return nums
+}
+
+//使用其他数据结构
 Array.prototype.unique1 = function () {
+	//return [...new Set(this)]
+	return Array.from(new Set(this))
+}
+
+Array.prototype.unique2 = function () {
+	//利用Array.prototype.filter返回符合条件的元素
+	//利用Array.prototype.indexOf返回数组中第一次出现当前元素的索引值
+	return this.filter((item, index) => this.indexOf(item) === index)
+}
+
+Array.prototype.unique3 = function () {
 	//这里是利用对象键hash值的唯一性来去重
 	let obj = {}
 	let result = []
@@ -15,7 +50,7 @@ Array.prototype.unique1 = function () {
 	return result
 }
 
-Array.prototype.unique2 = function () {
+Array.prototype.unique4 = function () {
 	let obj = {}
 	for (let i = 0; i < this.length; i++) {
 		if (obj[this[i]]) {
@@ -30,7 +65,7 @@ Array.prototype.unique2 = function () {
 	return this
 }
 
-Array.prototype.unique3 = function () {
+Array.prototype.unique5 = function () {
 	let result = []
 	for (let i = 0; i < this.length; i++) {
 		if (!result.includes(this[i])) {
@@ -38,17 +73,6 @@ Array.prototype.unique3 = function () {
 		}
 	}
 	return result
-}
-
-Array.prototype.unique4 = function () {
-	//return [...new Set(this)]
-	return Array.from(new Set(this))
-}
-
-Array.prototype.unique5 = function () {
-	//利用Array.prototype.filter返回符合条件的元素
-	//利用Array.prototype.indexOf返回数组中第一次出现当前元素的索引值
-	return this.filter((item, index) => this.indexOf(item) === index)
 }
 
 Array.prototype.unique6 = (arr) => {
