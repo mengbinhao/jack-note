@@ -3,6 +3,7 @@
 //Array
 //不使用其他数据结构
 const removeDuplicates1 = (nums) => {
+	//precondition
 	nums.sort()
 	let len = 1
 	for (let i = 1; i < nums.length; i++)

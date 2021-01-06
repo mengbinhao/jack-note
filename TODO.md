@@ -148,6 +148,7 @@
 
 ### JS
 
+- [JavaScript 那些写出来会被同事揍的骚操作](https://mp.weixin.qq.com/s/rfsHwY6lNA1pn6BftgZH4Q)
 - [手把手 Promise](https://juejin.cn/post/6894115068633350158)
 - [Promise 的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
 - [Promise 源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
@@ -726,6 +727,7 @@
 
 #### Vue
 
+- [一次关于 Vue 的自我模拟面试](https://mp.weixin.qq.com/s/OIyV5QC4HsTvZtabblLvUw)
 - [VUE 面试题解析，半年出一篇](https://mp.weixin.qq.com/s/CrfgtDSutz99TLDuHY0qGQ)
 - [万字真经：Vue 的 36 个面试技巧](https://mp.weixin.qq.com/s/kispJC8r96BVquKNlFLs5A)
 - [万字总结 Vue(包含全家桶)](https://mp.weixin.qq.com/s/jcAWvAI1n5QdhJIW_WPhcg)

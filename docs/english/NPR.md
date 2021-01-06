@@ -1,3 +1,6 @@
+- 2021.1.6
+  - faction n
+
 - 2021.1.5
   - fever n
   - ingredient n
@@ -658,7 +661,7 @@
   - slave | slaver | slavery n
   - downtown n
   - plain adj
-  - rebellion n | riot n/v | rioter
+  - rebel n/vi | rebellion n | riot n/v | rioter
 
   > Let's back up a little bit here
 
@@ -1853,7 +1856,7 @@
   > They're looking at a very tough time ahead
 
 - 2020.3.18
-  - gather n/v
+  - gather n/v | gathering n/adj
   - monetary adj
   - outbreak n
   - bear n/v
@@ -2041,8 +2044,9 @@
   > How is that all playing together and is reunification back on the table seriously now?
 
 - 2020.3.3
+  - sign n/v | signature n
+  - significant n/adj | significance n
   - signify vt
-  - significant adj | significance n
   - catastrophe n
   - consolidate v
   - ruin n/vt
@@ -2854,7 +2858,7 @@
   - recruit n/v
   - sophisticate n/ajd/v | sophisticated adj
   - counterargument n
-  - scattered adj
+  - scatter n/v | scattered adj
   - one-off n/adj
   - jihad n
   - countervailing adj
@@ -2943,7 +2947,6 @@
   - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt
-  - signature n
   - astonishing adj | astonish v
   - consistent adj | consistently adv
   - distrust n/vt
@@ -3459,7 +3462,6 @@
   - deadlock n/vt | stalemate n/v | impasse n
   - momentous adj
   - amend v | amendment n
-  - rebel n/vi
   - compete vi | competing adj | competitive adj | competitor n | competition n
   - trick n | tricky adj
   - wicked adj
@@ -4100,7 +4102,6 @@
   - doubling n
   - reception n
   - utterly adv | utter vt/adj
-  - gathering n/adj
   - underway adj
   - counterpart n
   - gesture n/vt
@@ -4142,7 +4143,7 @@
   > it does kind of raise questions about how xxxx
 
 - 2019.7.2
-  - intent | intention | intentional | intentionally
+  - intent n/adj | intention n | intentional | intentionally
   - loose n/vt/adj | loosen v
   - conciliatory adj
   - tactic n | tactical adj
