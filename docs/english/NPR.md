@@ -491,7 +491,6 @@
   > that's sort of thing
 
 - 2020.9.13
-  - revelation n
   - hush n/v
   - famous adj | infamous
 
@@ -2705,8 +2704,7 @@
   > It's time to try something new
 
 - 2019.11.14
-  - fraud n | fraudulent adj
-  - scam n/v | scammer
+  - fraud n | fraudulent adj | scam n/v | scammer
   - persecute v | persecution n
   - victor n
   - finding n
@@ -3918,7 +3916,7 @@
   - trembling n
   - nerve n | nervous adj
   - figure n/vt
-  - reveal vt
+  - reveal vt | revelation n
   - exhausting adj | exhausted adj | exhaust v
   - sympathy n | sympathetic adj | sympathize vi
   - pathetic adj
