@@ -148,6 +148,7 @@
 
 ### JS
 
+- [学习 async，defer 和动态脚本，本文就够了](https://mp.weixin.qq.com/s/VUN9TJyH411fLkEnJZclow)
 - [JavaScript 那些写出来会被同事揍的骚操作](https://mp.weixin.qq.com/s/rfsHwY6lNA1pn6BftgZH4Q)
 - [手把手 Promise](https://juejin.cn/post/6894115068633350158)
 - [Promise 的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)

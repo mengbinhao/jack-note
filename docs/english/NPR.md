@@ -1,3 +1,18 @@
+- 2021.1.7
+  - literature n
+  - compress vt | decompress vt
+  - attitude n
+  - compound v
+  - product n | productive adj | productivity n
+  - suck v
+  - bottle n/vt
+  - ridge n/vt
+  - vowel n/adj
+  - certify
+
+  > Either way, Congress will have completed that step on January 6th
+  > I get stressed and my productivity drops
+
 - 2021.1.6
   - faction n
 
@@ -267,7 +282,7 @@
   - faculty n
 
 - 2020.11.12
-  - variant n/adj | variety n | various adj | vary v | variation n
+  - vary v | various adj | variant n/adj | variety n | variation n
   - rave n/v/adj
 
 - 2020.11.10
@@ -302,7 +317,6 @@
 - 2020.11.3
   - foist vt
   - skirt n/v
-  - abound vi
 
 - 2020.11.2
   - affluent n/adj
@@ -377,7 +391,6 @@
   - noteworthy n
   - confiscate vt
   - rug n
-  - chilling adj
   - tyrant n
   - confidential adj
   - particular n/adj
@@ -1008,7 +1021,7 @@
   - excessive adj
   - persuade v
   - incentive n
-  - credential | certify vt | certified | certification n
+  - certify vt | certified adj | credential n | certification n
 
 - 2020.6.24
   - plausible adj
@@ -1034,7 +1047,7 @@
   > nothing's certain
 
 - 2020.6.21
-  - chill n/vt/adj
+  - chill n/vt/adj | chilling adj
   - evasion n
   - libel n/v | libelous adj
   - portal n
@@ -3330,7 +3343,8 @@
   - notable n/adj | notably adv
   - architect n
   - unnerving adj
-  - bound n/v/adj | rebound vi
+  - abound vi
+  - bound n/v/adj | rebound vi | boundary n
   - appropriate adj | inappropriate | appropriately
   - offset vt
   - precisely adv | precise adj
