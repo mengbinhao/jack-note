@@ -1,3 +1,9 @@
+- 2021.1.11
+  - square n/v/adj
+  - fabricate vt
+  - missile adj
+  - avenge vt
+
 - 2021.1.7
   - literature n
   - compress vt | decompress vt
@@ -2114,7 +2120,7 @@
   - league n | legend n
   - jersey n
   - tribute n
-  - personality n | personalize vt
+  - personality n | personalize vt | personnel n | personal n/adj
   - chafe n/v
   - kin n
   - coroner n
@@ -3871,7 +3877,7 @@
 
 - 2019.7.31
   - testify v | testimony n
-  - bomb n/v | bombshell n
+  - bomb n/v | bombshell n | bomber
   - congressional adj
   - collegial adj
   - despite prep
@@ -4236,7 +4242,6 @@
 
 - 2019.6.26
   - depart v/adj | departure n
-  - personnel n
   - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe
   - insult n/vt
