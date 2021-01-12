@@ -1788,7 +1788,6 @@
   - temperature n
   - temptation n
   - temper n/v | tempered adj
-  - bailout n
   - cope with vi
   - stimulus n
   - elbow n/vt | bow n/v
@@ -3944,7 +3943,7 @@
   - dis adj
   - recharge vt
   - controversy n | controversial adj
-  - intelligence n | intellectual n/adj | intelligent adj
+  - intellect n | intelligence n | intellectual n/adj | intelligent adj
 
   > he made a name for himself xxxx
   > he himself has done
@@ -4139,7 +4138,7 @@
   - firmly adv | firm n/vt/adj
   - spike n/v
   - loan n/vt
-  - recession n | recess n/vt | depression n
+  - recession n | recess n/vt | depression n | depress vt
   - prospect n/vi
   - debate n/v
   - staggering adj
@@ -4211,7 +4210,6 @@
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - convict n/vt | convicted adj | conviction n | absolve vt
-  - bail n/v
   - undergo vt | suffer v
   - prosecutor n
   - defend v | defensive adj | defendant n
