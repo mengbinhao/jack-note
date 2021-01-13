@@ -1,3 +1,13 @@
+- 2021.1.13
+  - beforehand adv
+  - wrist n/vt
+  - deceive v | deception n
+  - sacrifice n/vt
+
+  > XXX is letting xxx off the hook
+  > a slap on the wrist
+  > There's nobody being held accountable personally
+
 - 2021.1.11
   - square n/v/adj
   - fabricate vt
@@ -1591,7 +1601,7 @@
 - 2020.4.17
   - subtle adj
   - hug n/v
-  - adequate adj | adequately | inadequately
+  - adequate adj | adequately | inadequate | inadequately
   - painkiller n
   - clinical adj
   - changer n
@@ -2722,7 +2732,7 @@
   > It's time to try something new
 
 - 2019.11.14
-  - fraud n | fraudulent adj | scam n/v | scammer
+  - fraud n | fraudulent adj/adv | scam n/v | scammer
   - persecute v | persecution n
   - victor n
   - finding n
@@ -3601,7 +3611,7 @@
   - coast n | coastal adj
   - nightmarish adj
   - concentrated adj
-  - centrally adv | centralized adj | centrist n/adj
+  - central adj | centrally adv | centralized adj | centrist n/adj
   - tropical adj | frigid adj
   - deforestation n | forest n
   - sparsely adv
@@ -3723,7 +3733,7 @@
   - hostile adj | hostility n
   - itinerary n
   - annexation n | annex n/vt
-  - settlement n | settle n/v | settling | un-setting
+  - settle n/v | settlement n | settling | un-setting
   - pendulum n
 
   > it was seen as a breather for the trade war
