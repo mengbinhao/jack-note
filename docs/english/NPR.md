@@ -1,3 +1,7 @@
+- 2021.1.14
+  - cater vt
+  - lead vt | mislead vt
+
 - 2021.1.13
   - beforehand adv
   - wrist n/vt
@@ -44,7 +48,6 @@
   - church n
   - Catholic adj/n
   - visually adj
-  - legalize vt
   - dome n/vi | domed adj
 
   > He was making clear he realize how much at stake and reversing his position
@@ -1690,7 +1693,7 @@
   - lose v
   - commerce n ｜ commercial adj
   - ripple n/v
-  - cripple v/adj
+  - cripple v/adj | crippling adj
   - disease n/vt
   - tractor n
 
@@ -1932,7 +1935,7 @@
   > Indians capital is experiencing the worst religious violence it has seen in decades
 
 - 2020.3.12
-  - assemble v
+  - assemble v | reassemble
   - undervalue vt
   - banquet n
   - lavish adj
@@ -2814,7 +2817,7 @@
   - gear n/v
   - portray vt
   - permanent adj | permanently adv
-  - legal adj | illegal | illegality n
+  - legal adj | legally | illegal | illegality n | legalize vt
 
   > The only thing we're interested in here is figuring out what the facts are
   > He said that the question of illegality wasn't Sb's call to make
@@ -2845,7 +2848,7 @@
   - pragmatic adj
   - seasoned adj
   - comeback n
-  - influential adj | influence n/vt
+  - influence n/vt | influential adj
   - drown v
   - loyal adj | loyalty n | loyalist n | disloyal
   - detached adj
@@ -4176,7 +4179,6 @@
   - tactic n | tactical adj
   - hawkish adj
   - coherent adj
-  - crippling adj
   - assumption n | assume v
   - sue v
   - credibility n
