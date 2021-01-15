@@ -1,3 +1,8 @@
+- 2021.1.15
+  - fortress n/vt
+  - incite vt | incitement n
+  - descend v
+
 - 2021.1.14
   - cater vt
   - lead vt | mislead vt
@@ -70,7 +75,7 @@
   - uphill adj
   - forge n/v
   - dissolve n/v
-  - complicated adj
+  - complicate | complicated adj
 
   > xxxx in paly here, but bottom line, xxx
 
@@ -943,7 +948,6 @@
   - village n
   - heaven n | heave n/v
   - ladder n/v
-  - proposal
 
   > xxx doesn't matter to me, I'm not for or against, It's all political games
   > watershed moment
@@ -1445,7 +1449,7 @@
   - bore n/v | boring adj
   - dare v
   - arguably adv
-  - objective adj/n | objectively
+  - objective adj/n | objectively | object | objection n
   - audit n/v
   - immediate adj
   - preparedness n
