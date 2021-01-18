@@ -1,7 +1,17 @@
+- 2021.1.18
+  - headache n
+
+- 2021.1.17
+  - paycheck n | salary n
+
+- 2021.1.16
+  - dive n/v | diver n
+  - velocity n
+
 - 2021.1.15
   - fortress n/vt
   - incite vt | incitement n
-  - descend v
+  - descend v | descent n
 
 - 2021.1.14
   - cater vt
@@ -697,7 +707,7 @@
   - slave | slaver | slavery n
   - downtown n
   - plain adj
-  - rebel n/vi | rebellion n | riot n/v | rioter
+  - rebel n/vi | rebellion n | riot n/vi | rioter
 
   > Let's back up a little bit here
 
@@ -1462,10 +1472,9 @@
   - deterrence n
   - restore v
   - enterprise n
-  - pure adj | purely adv
+  - pure adj | purely adv | purity n
   - instruct vt | instruction n
   - satellite n
-  - simmer n/v
 
   > I think today's launch prove what we've been saying all along here in the US
   > So neither side seems to be wanting to take a step back from where we are
@@ -1488,7 +1497,6 @@
 
 - 2020.4.29
   - convenient adj | convenience n/vt | inconvenience
-  - convene v
   - convention n
   - rile v
   - harvest n/v
@@ -2031,7 +2039,6 @@
   - warlord n
   - notorious adj
   - parallel n/vt/adj
-  - incumbent adj
   - intra n/prep
   - drawdown n
   - tentative adj
@@ -2282,7 +2289,6 @@
   - comfort n/vt | discomfort n | comfortable adj | uncomfortable
   - distinction n | distinct adj | distinctive adj
   - stun n/vt
-  - momentum n
   - tent n
 
   > It sounds to me like these people intend to stay outside of the US embassy for a while. Is that the impression you're getting?
@@ -2319,7 +2325,7 @@
 
 - 2020.1.13
   - slam n/v | whip v/adj | smash n/v
-  - normal n/adj | normalize v | normalization | normalcy n
+  - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
   - archipelago n
 
@@ -2405,7 +2411,7 @@
 - 2019.12.28
   - vandalize vt
   - census n
-  - diverse adj
+  - diverse adj | diversity n
   - faith n | faithless n
   - amnesty n/vt
   - criterion n
@@ -3110,7 +3116,7 @@
   - expend vt | expenditure n
   - pension n/vt
   - arrange v | arrangement n
-  - condemnation n | condemn vt | condemned adj
+  - condemn vt | condemned adj | condemnation n
   - approve v | disapprove v | approval n
   - outcry n
   - displace vt | displaced adj | place n/vt | displacement n
@@ -3348,7 +3354,6 @@
   - accumulation n | accumulate v | accrue v
   - reputation n
   - embrace n/v
-  - diversity n
   - refugee n
   - racism n
   - fracture n/v
@@ -3391,6 +3396,7 @@
   > fall apart
 
 - 2019.9.19
+  - peach n
   - impeach vt | impeachment n
   - essay n/vt
   - adapt v | adapted adj | adaption | adaptation
@@ -3865,7 +3871,6 @@
 - 2019.8.7
   - anonymous adj | anonymously adv
   - heir n
-  - recite v
   - fiery adj
   - grooming n | groom  n/v
   - hierarchical adj
@@ -4145,7 +4150,7 @@
 - 2019.7.5
   - federal adj/n
   - disappointment n | appointment n | appoint v | appointed adj | appointee n
-  - cite vt
+  - cite vt | recite v
   - inflation/deflation n
   - resist v | resistance n | resistible | irresistible adj | resistant n/adj
   - sustain vt | sustainable adj | sustained adj | unsustainable
@@ -4259,7 +4264,7 @@
   - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe
   - insult n/vt
-  - resolutely adj
+  - resolute adj | resolutely adv
   - predecessor n
   - embarrass v | embarrassing adj ｜ embarrassment n
   - awkward adj | awkwardness n
