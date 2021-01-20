@@ -1,8 +1,13 @@
+- 2021.1.20
+  - fail | failure n
+  - illness n
+  - sight n/vt/adj | insight n | oversight n | shortsighted adj
+
 - 2021.1.18
   - headache n
 
 - 2021.1.17
-  - paycheck n | salary n
+  - paycheck n | salary n | wage n/v
 
 - 2021.1.16
   - dive n/v | diver n
@@ -1049,7 +1054,6 @@
   > this is a return to ab old playbook
 
 - 2020.6.27
-  - interaction n
   - addict n/vt | addiction n
   - excessive adj
   - persuade v
@@ -1604,7 +1608,6 @@
   - drop n/v
   - wound n/v
   - bandage n/vt
-  - wage n/v
   - stem vt
   - hemorrhage n/vi
   - gasoline n
@@ -2640,7 +2643,7 @@
 
 - 2019.12.10
   - capable adj
-  - distraction n | distract v
+  - distract v | distraction n
   - censure n/v
   - hoax n/vt
   - obsolete n/vt/adj
@@ -2864,7 +2867,6 @@
   - detached adj
   - furrow v/adj
   - brow n
-  - insight n
 
   > I think that would be going a little too far
   > This is not the case with this administration,they'll take a different position
@@ -3133,7 +3135,6 @@
   - clearance n
   - accompany vt
   - subpoena n/vt
-  - oversight n
 
   > step forward
   > there is no date set as of yet
@@ -3784,7 +3785,6 @@
   - congratulatory adj | congratulate vt
   - constitutional adj | unconstitutional | constitution | constitutionally
   - constituent n
-  - shortsighted adj
   - impunity adj
   - pessimistic adj | optimistic adj | optimism n ｜ pessimis n
 
@@ -4245,7 +4245,7 @@
   - stockpile n/vt
   - enrich v | enriched adj | enrichment n
   - altogether adv
-  - reactor adv | react | reaction | action | inaction
+  - reactor adv | react | reaction | action | inaction | interaction n
   - headline n/vt
   - relief n
   - abide vi
