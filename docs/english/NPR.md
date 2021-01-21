@@ -1,3 +1,11 @@
+- 2021.1.21
+  - gratitude n
+  - goodness n
+  - treasure n/vt
+  - passion n | passionate adj
+  - precious adj
+  - foster vt/adj
+
 - 2021.1.20
   - fail | failure n
   - illness n
@@ -777,7 +785,7 @@
 
 - 2020.8.7
   - episode n
-  - humble adj/vt
+  - humble vt/adj
   - impress n/v | impression n | impressive adj
   - nuance n
   - discourse n
@@ -1078,7 +1086,7 @@
   > let me throw this last one to you
 
 - 2020.6.22
-  - selfie n
+  - selfish adj | selfless adj
   - marine n/adj
 
   > nothing's certain
@@ -2024,7 +2032,7 @@
 - 2020.3.9
   - unfounded adj
   - mishandle vt
-  - rein n/v
+  - rein n/v | reign n/vi
   - pinpoint n/vi/adj
   - appreciate v
 
@@ -2826,7 +2834,7 @@
 - 2019.11.5
   - resolution n | solution | dissolution
   - phase n
-  - formalize vt | formal adj
+  - formalize vt | formal adj | formation n
   - gear n/v
   - portray vt
   - permanent adj | permanently adv
@@ -3624,7 +3632,7 @@
   - consumption n
   - coast n | coastal adj
   - nightmarish adj
-  - concentrated adj
+  - concentrate v | concentrated adj
   - central adj | centrally adv | centralized adj | centrist n/adj
   - tropical adj | frigid adj
   - deforestation n | forest n
@@ -3935,7 +3943,7 @@
   - never-ending adj
   - elite n/adj
   - celibrity n
-  - privileged adj
+  - privilege n/vt | privileged adj
 
   > to some degree
 
@@ -4085,7 +4093,7 @@
   - propose v | proposed adj | proposal n
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n | encourage vt | discourage
-  - courage n
+  - courage n | courageous n/adj/adv
   - consequence n | conclusion n | conclude v | in-conclusive adj
 
   > it is hard to swallow
