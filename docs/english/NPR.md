@@ -1,3 +1,9 @@
+- 2021.1.22
+  - doom n/v/adj
+  - unknown n/adj
+  - master v
+  - rigid adj
+
 - 2021.1.21
   - gratitude n
   - goodness n
@@ -42,7 +48,7 @@
 
 - 2021.1.11
   - square n/v/adj
-  - fabricate vt
+  - fabricate vt | fabricated
   - missile adj
   - avenge vt
 
@@ -2097,7 +2103,7 @@
 
 - 2020.3.3
   - sign n/v | signature n
-  - significant n/adj | significance n
+  - significant n/adj | significance n | insignificant
   - signify vt
   - catastrophe n
   - consolidate v

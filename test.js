@@ -41,3 +41,12 @@ arr.myForEach((item) => {
 		arr.push(5)
 	}
 })
+
+function f1() {
+	if (false) {
+		var a = 1 + 2 + 3
+		console.log(a)
+	}
+}
+
+f1()
