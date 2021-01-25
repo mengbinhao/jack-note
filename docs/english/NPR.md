@@ -1,3 +1,8 @@
+- 2021.1.25
+  - distinguish v | distinguished adj
+  - collide v
+  - drift n/v
+
 - 2021.1.22
   - doom n/v/adj
   - unknown n/adj
@@ -1969,7 +1974,6 @@
   - banquet n
   - lavish adj
   - elusive adj
-  - pomp n
   - cremation n
   - petal n
   - sprinkle n/v
@@ -3050,7 +3054,6 @@
 - 2019.10.18
   - deem vt
   - pile n/v
-  - commute n/vi
   - airline n
   - anticipate v | anticipated adj | anticipation n
   - acquit vt | acquittal n
@@ -3349,7 +3352,7 @@
   - ordinary adj | ordinarily
   - extraordinary adj | extraordinarily
   - plastic n/adj
-  - renewable adj
+  - renew v | renewable adj | renewal n
   - account n/v | accountable adj | unaccounted adj | accountability n
   - sit-in n
   - progress n/vi | progressive n/adj

@@ -566,6 +566,7 @@
 - [React Hooks 踩坑分享](https://mp.weixin.qq.com/s/w9XhwjF3F6oJBUdD1rp2BQ)
 - [useEffect](https://mp.weixin.qq.com/s/rXlVWlfFAA-OGIlttZHtJA)
 - [关于 useState 的一切](https://mp.weixin.qq.com/s/htuG8JDQ0HRmztil3pP_tg)
+- [useEffect 引起的 React Hooks 深入了解](https://mp.weixin.qq.com/s/O7qvU0bM-_ZpmgdIILxbKQ)
 
 #### React Router
 
