@@ -1,3 +1,13 @@
+- 2021.1.26
+  - sting n/v
+  - equal n/vt/adj | equity n | inequity | equivalent n/adj
+  - equality n | inequality | equation n
+  - inaugural adj | inauguration n
+  - decry vt
+  - deface vt
+  - mall n
+  - lawn n
+
 - 2021.1.25
   - distinguish v | distinguished adj
   - collide v
@@ -731,7 +741,7 @@
   - slave | slaver | slavery n
   - downtown n
   - plain adj
-  - rebel n/vi | rebellion n | riot n/vi | rioter
+  - rebel n/vi | rebellion n | riot n/vi | rioter | riotous adj
 
   > Let's back up a little bit here
 
@@ -950,7 +960,7 @@
   - culture | cultural adj
   - heal v | cure n/v
   - statue n/v
-  - mob n
+  - mob n/vt
   - justice
 
 - 2020.7.17
@@ -2958,7 +2968,6 @@
   - disenchantment n
   - forging n
   - alleviate vt
-  - inequality n | equality n | equation n
   - quality n/adj
 
   > what should we be looking for in terms of this coming to an end?
@@ -3017,7 +3026,6 @@
 
 - 2019.10.22
   - cease v | ceasefire n | decease n/vi
-  - equivalent n/adj
   - toll n/vt
   - vague adj
   - empower vt
@@ -3860,7 +3868,7 @@
   - fence n/v
 
 - 2019.8.12
-  - massacre n/vt | carnage n
+  - massacre n/vt
   - legislation n | legislative adj | legislature n | legislator n | legislatively
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - handful n
