@@ -1,3 +1,9 @@
+- 2021.1.27
+  - drawback n
+  - pharmacy n
+  - clinic n | clinical adj
+  - strife n
+
 - 2021.1.26
   - sting n/v
   - equal n/vt/adj | equity n | inequity | equivalent n/adj
@@ -373,7 +379,7 @@
 
 - 2020.11.4
   - deadline n
-  - regard n/v | regardless
+  - regard n/v | regardless adv
   - mosque n
   - repel vt
   - dispatch n/vt
@@ -1042,7 +1048,7 @@
   - firsthand n
   - liability n
   - fume n/v
-  - censor n/vt
+  - censor n/vt | censorship
   - pretext n/vt
   - disclose vt
   - publication n
@@ -1650,7 +1656,6 @@
   - hug n/v
   - adequate adj | adequately | inadequate | inadequately
   - painkiller n
-  - clinical adj
   - changer n
 
 - 2020.4.16
@@ -2213,7 +2218,7 @@
 
 - 2020.2.24
   - summon vt
-  - associate n/v/adj | association n
+  - associate n/v/adj | association n | associated
   - staff n/v/adj | staffer n
   - crux n
 
