@@ -1,3 +1,7 @@
+- 2021.1.28
+  - arouse v
+  - absorb vt
+
 - 2021.1.27
   - drawback n
   - pharmacy n
@@ -343,7 +347,7 @@
   - universal n/adj ｜ universally
 
 - 2020.11.14
-  - relative n/adj | relatively | | relevant
+  - relative n/adj | relatively | | relevant adj
   - passerby n
   - alleyway n
 
@@ -1680,7 +1684,7 @@
   - revise v
   - liberty n
   - expense n/v
-  - odd adj | even
+  - odd n/adj | even adj
   - symbol n | symbolic adj | symbolical adj | symbolically | symbolism | symbolize vt
   - penalty n
 
@@ -3385,7 +3389,7 @@
   - accumulation n | accumulate v | accrue v
   - reputation n
   - embrace n/v
-  - refugee n
+  - refuge n/v | refugee n
   - racism n
   - fracture n/v
 
