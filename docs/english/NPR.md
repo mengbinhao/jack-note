@@ -2,7 +2,7 @@
   - stroll n/v
   - backpack n
 
-  > Is this pure coincidence ?
+  > Is this a pure coincidence ?
 
 - 2021.1.28
   - arouse v
