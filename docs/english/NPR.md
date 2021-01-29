@@ -1,3 +1,9 @@
+- 2021.1.29
+  - stroll n/v
+  - backpack n
+
+  > Is this pure coincidence ?
+
 - 2021.1.28
   - arouse v
   - absorb vt
@@ -794,7 +800,7 @@
   - tend v | tendency n
   - sow v
   - cunning adj/n
-  - coincide vi | coincident adj | coincidental | coincidentally
+  - coincide vi | coincident adj | coincidental adj | coincidentally | coincidence n
   - purview n
   - extreme adj/n | extremely
 
@@ -2734,7 +2740,6 @@
   - mull n/v
   - convince vt | convinced adj | convincing | unconvincing
   - mythical adj
-  - ultimatum n
   - fruitless adj
   - remorse n | remorseful
   - contrition n
@@ -4145,7 +4150,6 @@
   - grudge n/vt | grudging adj
   - duty-fee n
   - ongoing n/adj
-  - standoff n
   - elsewhere adv
   - exemption n
   - dominate v | dominant adj | dominance n | domination n
