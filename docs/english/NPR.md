@@ -1,3 +1,13 @@
+- 2021.2.1
+  - flake n/v | snowflake
+  - immense adj
+  - multitask n
+  - entire | entirely
+  - civil
+
+> roll back what former President Trump had done
+> hurt one's message
+
 - 2021.1.29
   - stroll n/v
   - backpack n
@@ -1099,7 +1109,6 @@
   > this is a return to ab old playbook
 
 - 2020.6.27
-  - addict n/vt | addiction n
   - excessive adj
   - persuade v
   - incentive n
@@ -1888,7 +1897,7 @@
   - reliable adj | rely vi
   - forehead n
   - gauge n
-  - stress n/vt
+  - stress n/vt | distressed adj
   - folk n
   - adjust v | adjustment n
   - peculiar adj
@@ -3108,7 +3117,7 @@
   - evacuation n | evacuate v | evacuee n
   - dam n
   - levee n
-  - agreement n | agree v | disagreement
+  - agree v | disagree | agreement n | disagreement
   - asylum n
   - achieve v | achievable adj | achievement
 
@@ -3594,7 +3603,6 @@
   > what many would consider xxx
 
 - 2019.9.10
-  - distressed adj
   - mental adj
   - ramblings n
   - incoherent adj
@@ -3740,7 +3748,8 @@
   > on the economic front
 
 - 2019.8.30
-  - obsessed adj | obsess v
+  - obsess v | obsessed adj
+  - addict n/vt | addiction n
 
 - 2019.8.26
   - contingency n/adj
@@ -4066,7 +4075,7 @@
   - activist n
   - joint adj | jointly
   - council n
-  - civilian n/adj | civil adj | civilization n
+  - civilian n/adj | civilization n | civil adj | uncivil
   - coup n
   - sole adj/n/vt
   - compromise n/v
