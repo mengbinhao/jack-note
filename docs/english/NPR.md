@@ -1,9 +1,19 @@
+- 2021.2.2
+  - mankind n
+  - relay n/v
+  - sink n/v
+  - polite | politely
+  - trillion
+
+  > public opinion is turning against holding the Olympics
+  > xxx at earliest
+  > If I begin to feel even slightly unsure at this stage, it will affect everything
+
 - 2021.2.1
   - flake n/v | snowflake
   - immense adj
   - multitask n
   - entire | entirely
-  - civil
 
 > roll back what former President Trump had done
 > hurt one's message
@@ -116,7 +126,7 @@
   - ingredient n
 
 - 2021.1.4
-  - necessary n/adj | necessity n
+  - necessary n/adj | necessity n | unnecessary
 
 - 2021.1.3
   - domino n
@@ -1521,7 +1531,7 @@
   - audit n/v
   - immediate adj
   - preparedness n
-  - trillion n
+  - trillion n | million | billion | billionaire
 
 - 2020.5.6
   - provoke vt
@@ -2472,7 +2482,6 @@
   - criterion n
 
 - 2019.12.27
-  - vocal adj/n
   - erode v
   - fruition n
   - carbon n/adj
@@ -2635,7 +2644,6 @@
   - procession n
   - misery n
   - unfurl v
-  - billionaire n
   - penalize vt
   - dismantle vt | mantle n/v
   - revolt n/v
@@ -4198,7 +4206,7 @@
   - federal adj/n
   - disappointment n | appointment n | appoint v | appointed adj | appointee n
   - cite vt | recite v
-  - inflation/deflation n
+  - inflation | deflation n
   - resist v | resistance n | resistible | irresistible adj | resistant n/adj
   - sustain vt | sustainable adj | sustained adj | unsustainable
   - concern n/vt | concerned adj | concerning adj
