@@ -389,6 +389,7 @@
 - [vue 中利用 iscroll.js 解决 pc 端滚动问题](https://juejin.im/post/5e4506dc51882549417fbdd5)
 - [vue 必须掌握之组件通信（7 种方法）](https://www.maiyewang.com/archives/80712)
 - [Vue 项目一些常见问题的解决方案](https://juejin.cn/post/6895497352120008717)
+- [揭秘 Vue.js 九个性能优化技巧](https://mp.weixin.qq.com/s/a3V4kmgKuY3tkMrdw_SOLw)
 
 #### component related
 

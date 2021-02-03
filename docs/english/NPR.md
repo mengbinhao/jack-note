@@ -1,3 +1,14 @@
+- 2021.2.3
+  - vest n
+  - stomach n/vt
+  - accessory n
+  - candle n
+  - glow n/vi
+  - murmur n/v
+
+  > big bombings have slowed to a trickle
+  > There was a time when such attacks were horrifyingly common in Baghdad
+
 - 2021.2.2
   - mankind n
   - relay n/v
@@ -1380,7 +1391,7 @@
   - moral n/adj
   - pretend v
   - curtain n/vt
-  - tear v/n
+  - tear v/n | tearful adj
 
   > Why go after him?
 
@@ -2379,7 +2390,6 @@
   - belongings n
   - splatter n/v
   - workweek n
-  - detonate v
 
 - 2020.1.14
   - altitude n
@@ -2429,7 +2439,7 @@
   - recur vi
   - bloodthirsty adj
   - ailing adj
-  - concert n/v
+  - concert n/v | concerted
 
 - 2020.1.6
   - bravo n
@@ -3814,7 +3824,7 @@
   - consult v | consulting adj | consultant
   - consul n | consulate n
   - stooge n
-  - emerge vi | emerging adj | emergence n
+  - emerge vi | emerging adj | emergence n | reemerge
   - emergency n
   - concrete adj
   - problematic adj
@@ -3944,7 +3954,7 @@
   - lax adj
   - spree n/vi
   - witness n/vt | eyewitness
-  - conflicting adj | conflict n/vi
+  - conflict n/vi | conflicting adj
   - ideology n | ideological adj | ideologically adv
   - shock n/vt/adj
   - devastate vt | devastating adj | devastation n
