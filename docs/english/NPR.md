@@ -1,3 +1,10 @@
+- 2021.2.4
+  - possess vt | possession n
+  - aspect n
+
+  > It's mostly symbolic in nature
+  > this is a first step toward a difficult goal
+
 - 2021.2.3
   - vest n
   - stomach n/vt
@@ -200,7 +207,7 @@
   - liaison n
   - leaflet n
   - commie n
-  - prohibit vt
+  - prohibit vt | prohibition
 
 - 2020.12.23
   - painstaking adj
@@ -2766,6 +2773,7 @@
   - reliance n
   - mull n/v
   - convince vt | convinced adj | convincing | unconvincing
+  - convict n/vt | convicted adj | conviction n | absolve vt
   - mythical adj
   - fruitless adj
   - remorse n | remorseful
@@ -3900,7 +3908,7 @@
   - boycott n/vt
   - cabinet n
   - reckless adj | recklessness n
-  - colonial adj | colony n | colonialism n | colonize vt
+  - colony n | colonial adj | colonialism n | colonize vt
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
   - division n
@@ -4295,7 +4303,6 @@
   - insurgency n
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - convict n/vt | convicted adj | conviction n | absolve vt
   - undergo vt | suffer v
   - prosecutor n
   - defend v | defensive adj | defendant n
