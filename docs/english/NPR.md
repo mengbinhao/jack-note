@@ -1,3 +1,9 @@
+- 2021.2.5
+  - behave v
+  - castle n/v
+  - taxpayer n
+  - release n/vt
+
 - 2021.2.4
   - possess vt | possession n
   - aspect n
@@ -3034,7 +3040,7 @@
   - deliberation n | deliberately adv | deliberate v/adj
   - liberator n | liberation n | liberate vt
   - prevail vi
-  - vast adj
+  - vast adj | vastness
   - clip n/vt
 
   > we've got to handle in a better fashion
