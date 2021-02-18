@@ -1,3 +1,8 @@
+- 2021.2.18
+  - replaceable adj | irreplaceable
+  - grumble n/vt
+  - amulet n
+
 - 2021.2.5
   - behave v
   - castle n/v
@@ -538,7 +543,7 @@
   - apply v | application n
   - density n
   - dean n
-  - fortunate | unfortunate
+  - fortunate | unfortunate | fortunately
   - convey vt
   - protocol n
   - maritime adj
@@ -1744,7 +1749,6 @@
 - 2020.4.14
   - deputize vi
   - incline n/v
-  - supervision n
 
 - 2020.4.13
   - overrun n/v
@@ -1828,9 +1832,11 @@
   > It remains to be seen what sort of impact this is going to xxx
 
 - 2020.4.2
-  - provision n
   - livelihood n
   - vision n /vt | visionary adj
+  - division n
+  - provision n
+  - supervision n
   - chase n/v
 
   > I want to thank xx for coming together, setting aside their differences and putting America first
@@ -2141,7 +2147,6 @@
 
 - 2020.3.5
   - naval n
-  - centric adj
   - suspect n/v/adj
   - chronic adj | chronically
   - culmination n
@@ -2791,7 +2796,7 @@
   - patron n
   - charity n | charitable
   - offend v | offender n
-  - sever v | severed adj | severe adj
+  - severed adj | severe adj
   - foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj | unpaid adj
@@ -3053,6 +3058,7 @@
   - concession n
   - abortion n
   - downplay vt
+  - underplay
   - thrive vi
   - vice n/adj
   - forgive | forgivable | unforgivable
@@ -3704,7 +3710,7 @@
   - coast n | coastal adj
   - nightmarish adj
   - concentrate v | concentrated adj
-  - central adj | centrally adv | centralized adj | centrist n/adj
+  - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n
   - tropical adj | frigid adj
   - deforestation n | forest n
   - sparsely adv
@@ -3733,7 +3739,6 @@
   - stretch n/v
   - crucial adj
   - stake n/v
-  - squabble vi
   - tone n | undertone n
   - petty adj
   - governor n
@@ -3917,7 +3922,6 @@
   - colony n | colonial adj | colonialism n | colonize vt
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
-  - division n
   - retaliation n | revenge n/v | retaliate vi | retaliatory adj
   - mend v
   - fence n/v
@@ -3997,7 +4001,7 @@
   - exonerate n/vt/adj
   - motivated adj | motivation n | motive n | demotivate v
   - integrity n
-  - rare adj | rarity n
+  - rare adj | rarely | rarity n
   - porch n
 
 - 2019.7.26
@@ -4060,7 +4064,7 @@
   - Pentagon n
   - defy vt | defiance n
   - acquire vt | acquisition n | acquired
-  - stealth n/adj | steal n/v
+  - steal n/v | stealth n/adj
   - maintenance n
   - facility n | facilitate vt | facilitation
   - undercut vt

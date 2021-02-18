@@ -1,20 +1,21 @@
 ### vscode
 
 #### Hotkey
-- `F1` or `ctrl + shift + p`
-- `ctrl + p` file jump
-- `ctrl + tab` open file jump
-- `alt + left/right` 前后操作记录跳转
-- `ctrl + g` go to file target line
-- `ctrl + d` find same content one by one
-- `ctrl + shift + l` find multi content in one time
-- `alt + up/down`  change line
-- `alt + shift + up/down`
-- `ctrl + \`  分屏
-- `ctrl + [shift] + /` 注释
-- `ctrl + [shift] + f/h`
-- `alt + click / ctrl + alt + up/down` 选择多列
-- `ctrl + [shift] + space` intellisense
+- `F1` or `Ctrl[Command] + Shift + p`
+- `Ctrl[Command] + p` file jump
+- `Ctrl[Command] + Tab` open file jump
+- `Alt + left/right` 前后操作记录跳转
+- `Ctrl[Command] + g` go to file target line
+- `Ctrl[Command] + d` find same content one by one
+- `Ctrl[Command] + Shift + l` find multi content in one time
+- `Alt[option] + up/down`  change line
+- `Alt[option] + Shift + up/down` copy line
+- `Ctrl[Command] + \`  分屏
+- `Ctrl[Command] + [Shift] + /` 注释
+- `Ctrl[Command] + [Shift] + f/h`
+- `Alt + click / Shift + Alt[Option] + up/down` select block
+- `Ctrl[Command] + [Shift] + space` intellisense
+- `Ctrl + backspace | Option + delete` delete previous word
 
 #### debug
 ![](../images/vscode_1.png)
@@ -109,7 +110,7 @@
 
 4. invoke : eslint index.js
 
-    ​ eslint index.js --fix
+     eslint index.js --fix
 
 5. .eslintignore
 

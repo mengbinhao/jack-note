@@ -537,6 +537,7 @@
 - [提升你 react 和 js 编码的 5 个技巧](https://juejin.im/post/5e76eb30518825491b11ecf1)
 - [提升你 react 和 js 编码的 5 个技巧](https://mp.weixin.qq.com/s/3EAZaz4U2SGfBfHhzYMecg)
 - [我在大厂写 React 学到了什么？性能优化篇](https://mp.weixin.qq.com/s/miWXL8DKb5-dJPhwO8pIZQ)
+- [10 个 React 安全最佳实践](https://mp.weixin.qq.com/s/pzswP4ac0aIGOi5mkA0D1g)
 
 #### hooks
 
