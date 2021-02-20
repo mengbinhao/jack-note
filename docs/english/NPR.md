@@ -1,3 +1,18 @@
+- 2021.2.20
+  - deplorable adj
+
+  > It's an agreement that's about to expire, so time was ticking
+
+- 2021.2.19
+  - cricket n
+  - scrap n/v
+  - meager adj
+  - agriculture n | agricultural adj | agrarian n
+  - fort n
+  - rod n
+  - bamboo n
+  - route n/vt
+
 - 2021.2.18
   - replaceable adj | irreplaceable
   - grumble n/vt
@@ -1074,7 +1089,6 @@
 - 2020.7.13
   - deter vt
   - sporadic adj
-  - bounty n/vt
 
   > They have been up to a lot
 
@@ -1098,7 +1112,7 @@
   > put in place
 
 - 2020.7.8
-  - suspend v | suspense n
+  - suspend v | suspense n | suspension
   - spouse n/vt
   - hence adv
   - immigrate v | immigration n
@@ -1949,8 +1963,7 @@
 
 - 2020.3.24
   - nutrition n
-  - affect v | effect n | effective | effectively | effectiveness n | ineffective
-  - affection | affectionate adj
+  - affect v | effect n | effective | effectively | effectiveness n | ineffective | affection | affectionate adj
   - effectual adj | ineffectual
   - wee adj
   - rosy adj
@@ -2328,7 +2341,7 @@
   - investigator n | investigation | investigate | investigative adj
   - sift v
   - condolence n
-  - sincere adj
+  - sincere adj | sincerely
   - mechanical adj
   - mistakenly adv
   - appetite n | appetizing adj
@@ -2840,7 +2853,8 @@
   - persecute v | persecution n
   - victor n
   - finding n
-  - regularity n | irregularity n| regular n/adj/adv | regularly adv |  regulation n/adj | regulatory adj
+  - regularity n | irregularity n| regular n/adj | regularly adv |  regulation n/adj | regulatory adj
+  - regulate v | deregulate v
   - custody n
   - fuse n/v
   - desert n/v | dessert n
@@ -3170,7 +3184,6 @@
   > there's a bit of a delay on the line
 
 - 2019.10.16
-  - agricultural adj
   - anxious adj | anxiously | anxiety n
   - piecemeal adj
   - devil n
@@ -3689,7 +3702,7 @@
   - agenda n
   - potential n/adj
   - sideline n/vt
-  - frighten v
+  - frighten v | fright n | frighted adj
   - blink n/v
   - turmoil n
   - manner n
@@ -3802,7 +3815,7 @@
   > xxxxx, but more importantly, xxxxx
 
 - 2019.8.21
-  - guaranteed adj | guarantee n/vt
+  - guarantee n/vt | guaranteed adj
   - illistrate vt
   - presumably adj
 
@@ -3950,7 +3963,6 @@
   - sleepwalking n
   - forecast n/vt | forecaster n
   - advocate n/vt | advocacy n
-  - arsenal n
 
 - 2019.8.7
   - anonymous adj | anonymously adv
@@ -4028,7 +4040,6 @@
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
   - prescription n
-  - repeal vt/n
   - affordable adj | afford vt
 
   > Fore in five of them would come from working families
@@ -4243,7 +4254,7 @@
   - firmly adv | firm n/vt/adj
   - spike n/v
   - loan n/vt
-  - recession n | recess n/vt | depression n | depress vt
+  - recess n/vt | recession n | depress vt | depression n
   - prospect n/vi
   - debate n/v
   - staggering adj
