@@ -1,3 +1,22 @@
+- 2020.2.20
+  - how to cancel plans?
+  > I'm sorry, but I'm going to have to cancel xxx
+  > I won't be able to make xxx
+  > I was really looking forward to xxx, but something has come up / I swamped with xxx
+  > Can we reschedule?
+  > flake = someone who cancels a lot
+
+
+  - Interrupting politely
+  > Sorry for interrupting, Can I just say/add/mention something here
+  > Before you move on, I'd like to say something
+  > Sorry to interrupt, but I'd like to add something
+
+  > Is there something you'd like to say?
+  > Let me finish what I am saying
+  > I.m almost finished my point
+
+
 - 2020.7.3
   - the wrong side of the tracks
   - stand up sb
