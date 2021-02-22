@@ -1,3 +1,22 @@
+- 2021.2.22
+  - amateur n/adj
+  - outwit vt
+  - fortune n/v
+
+  > XXX tried to stop the wild ride, but more twists and turns
+  > If the stock tumble back to earth, like, where it was at the beginning of this year
+  > double standard against xxx
+  > It's a huge shift, the power was in the hand of small investor for once
+  > xxx got the upper hand, but we don't know where this is headed
+
+- 2021.2.21
+  - comprehensive adj | comprehension n
+  - refine vt
+  - idiot n
+  - stamp n/v
+  - infringe v
+  - Netherland
+
 - 2021.2.20
   - deplorable adj
 
@@ -70,7 +89,7 @@
 
 - 2021.1.28
   - arouse v
-  - absorb vt
+  - absorb vt | absorbed
 
 - 2021.1.27
   - drawback n
@@ -1141,7 +1160,7 @@
   - mysterious adj
 
 - 2020.6.30
-  - ambiguous adj | unambiguous
+  - ambiguous adj | unambiguous | ambiguity n
   - threshold n
 
   > Do they get on board?
@@ -1521,7 +1540,6 @@
   - recognise vt
   - pride n/v
   - honour n/vt
-  - jubilant adj
   - despair n/vi
   - bleak adj
   - pursuit n
@@ -2623,7 +2641,6 @@
   - petition n/v
   - bias n/vt/adj/adv
   - worthwhile adj
-  - comprehensive adj
   - exclamation n
   - gross n/vt/adj | grossly adv
 
@@ -2704,7 +2721,7 @@
   - telescope n
   - mist n
   - gaze n/vi
-  - conscious adj | consciousness n
+  - conscious adj | consciousness n | unconscious | consciously | unconsciously
   - innocent n/adj
   - spat n
   - perceive v
@@ -2762,7 +2779,6 @@
   - midst n/prep
   - misgiving n
   - plunder n/v
-  - caretaker n
   - inevitably adv
   - compassionate n/adj/adv | compassion n
   - defeat n/vt
@@ -2798,7 +2814,7 @@
   - mull n/v
   - convince vt | convinced adj | convincing | unconvincing
   - convict n/vt | convicted adj | conviction n | absolve vt
-  - mythical adj
+  - myth n | mythical adj
   - fruitless adj
   - remorse n | remorseful
   - contrition n
@@ -3323,7 +3339,7 @@
   - bolster n/vt
   - cliff n
   - proportional adj| proportion | proportionate adj | dis-proportionate
-  - artificial adj
+  - artificial adj | artificially
   - multilateral adj
   - harass vt | harassment n
   - thereafter adv
@@ -3342,7 +3358,6 @@
   - pleased adj | displease vt
   - thrilled adj | thrill
   - disdain n/vt
-  - ambiguity n
   - indecisive adj | decisive adj | decisively adv
   - obfuscate vt
   - slap n/v/adj
@@ -3877,7 +3892,7 @@
   - detain vt | detention n
   - inspiration n
   - expel vt
-  - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj
+  - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj | intensely
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj | congratulate vt
@@ -4219,7 +4234,7 @@
   - comply vi | deference n | defer v
   - supply n/vt | supplier n
   - deny vt | denial n | denier
-  - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj
+  - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj
   - standpoint n
   - astronomical adj | astronomer n | astronomy n
   - fine adj/adv/vt/n

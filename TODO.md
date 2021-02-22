@@ -709,6 +709,7 @@
 - [再来一打 Webpack 面试题](https://mp.weixin.qq.com/s?__biz=Mzg2NDAzMjE5NQ==&mid=2247485446&idx=1&sn=44e1854d1a082d2d3dbed728cbc2661b)
 - [面试题](https://segmentfault.com/a/1190000022282401)
 - [最惨前端面经](https://mp.weixin.qq.com/s/gT9MF1l52HuKUpmeNIByCQ)
+- [高频前端开发面试问题及答案整理](https://mp.weixin.qq.com/s/CIZfUBmO9Ju-eHnZ2fZsxg)
 
 #### css&html
 
