@@ -1,3 +1,8 @@
+- 2021.2.23
+  - sore adj | sorely
+  - wise adj
+  - ability n | inability
+
 - 2021.2.22
   - amateur n/adj
   - outwit vt
@@ -969,7 +974,7 @@
 - 2020.7.29
   - audience n
   - excellent adj
-  - incident n | incidentally adv
+  - incident n | incidentally adv | incidence n
   - vendor n
   - spread n/v/adj
   - authenticity n
@@ -1843,7 +1848,7 @@
   - breakout n
   - confident adj | confidence n/adj | confidante n
   - community n | communal adj | communism
-  - vaccine n/adj | vaccination n
+  - vaccine n/adj | vaccination n | vaccinate vt
   - Antarctica n
 
   > The new virus has now been diagnosed on every continent but Antarctica. It appears to be deadly in around two percent of cases
