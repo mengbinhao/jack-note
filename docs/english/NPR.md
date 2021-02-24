@@ -1,3 +1,10 @@
+- 2021.2.24
+  - convene v
+  - unfold v
+  - upload v
+
+  > get to the bottom of xxx
+
 - 2021.2.23
   - sore adj | sorely
   - wise adj
@@ -617,6 +624,7 @@
 
 - 2020.9.24
   - prevent v | preventable adj | prevention n
+  - pretend v
   - faulty adj
 
 - 2020.9.23
@@ -788,6 +796,7 @@
 - 2020.8.25
   - abundant adj
   - ancestor n
+  - muse v
   - museum n
   - fold n/v
 
@@ -1445,7 +1454,6 @@
 - 2020.5.25
   - imperative adj
   - moral n/adj
-  - pretend v
   - curtain n/vt
   - tear v/n | tearful adj
 
@@ -1573,7 +1581,7 @@
   - urge n/v | urgent adj | urgently | dire adj | urgency n
   - purge n/vt
   - surge n/vi
-  - insurgent n/adj
+  - insurgent n/adj | insurgency n
   - surgery n
 
   > the fear of a second spike
@@ -2109,7 +2117,6 @@
   - rap n/v
   - tarnish n/v
   - benevolent adj
-  - martial adj
   - decorate v
   - stagnation n | stagnate vi
   - edifice n
@@ -4129,6 +4136,7 @@
   - conduct n/v | mis-conduct n
   - high-profile adj
   - reserve n/v | preserve n/vt | reserved | unreservedly
+  - retain vt
   - constraint n | constrain v | constrained adj
   - restrict vt | restricted adj | restriction n
 
@@ -4341,7 +4349,6 @@
   - democratically adv | democratic adj | democracy n | democrat
   - jail n/vt
   - crackdown n | crack n/adj/v | repression n
-  - insurgency n
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - undergo vt | suffer v
