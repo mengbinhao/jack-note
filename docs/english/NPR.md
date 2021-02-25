@@ -1,3 +1,12 @@
+- 2021.2.25
+  - fester v
+  - ought to do sth
+  - pore n/v
+  - gush n/v
+  - torrent n
+
+  > xxx doesn't happened by accident
+
 - 2021.2.24
   - convene v
   - unfold v
@@ -282,7 +291,7 @@
 
 - 2020.12.21
   - solidify v
-  - affirm v
+  - affirm v | reaffirm
   - college n
 
 - 2020.12.18
@@ -428,7 +437,7 @@
   > The big picture here is (that) ...
 
 - 2020.11.18
-  - mountain n | mountainous adj
+  - mountain n | mountainous adj | hill
   - tiny adj
 
 - 2020.11.17
@@ -4193,7 +4202,7 @@
 
 - 2019.7.15
   - backdrop n
-  - negligence n | negligent adj
+  - neglect n/vt | negligence n | negligent adj
   - remnant n/adj
   - aide n
   - topple v
