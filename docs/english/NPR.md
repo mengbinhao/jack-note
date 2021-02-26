@@ -1,3 +1,11 @@
+- 2021.2.26
+  - deflection n
+  - entail vt/n
+  - condition | uncondition | conditional | conditionally | precondition
+
+  > xxx will result in a favorable outcome
+  > Would that still be the case?
+
 - 2021.2.25
   - fester v
   - ought to do sth
@@ -164,7 +172,6 @@
 
 - 2021.1.15
   - fortress n/vt
-  - incite vt | incitement n
   - descend v | descent n
 
 - 2021.1.14
@@ -231,7 +238,7 @@
   - tissue n/vt
 
 - 2021.1.1
-  - grace n/vt | disgrace n/vt
+  - grace n/vt | disgrace n/vt | disgraceful
   - aisle n
   - crease n/v | decrease n/v
 
@@ -1245,7 +1252,7 @@
 - 2020.6.20
   - upset n/v/adj | upsetting
   - encounter n/vt
-  - wrangle n/vi | argue
+  - argue v
   - bystander n
   - sobriety n
 
@@ -1617,7 +1624,7 @@
   - trillion n | million | billion | billionaire
 
 - 2020.5.6
-  - provoke vt
+  - provoke vt | incite vt | incitement n
   - vessel n
   - competence n | incompetence
   - deterrence n
@@ -1988,6 +1995,7 @@
 
 - 2020.3.25
   - attend v | attendance n |attendee
+  - liable adj
   - reliable adj | rely vi
   - forehead n
   - gauge n
@@ -2835,6 +2843,7 @@
   - mull n/v
   - convince vt | convinced adj | convincing | unconvincing
   - convict n/vt | convicted adj | conviction n | absolve vt
+  - acquit vt | acquittal n
   - myth n | mythical adj
   - fruitless adj
   - remorse n | remorseful
@@ -3176,7 +3185,6 @@
   - pile n/v
   - airline n
   - anticipate v | anticipated adj | anticipation n
-  - acquit vt | acquittal n
   - grassroots n
   - arrest n/vt
   - dialogue n/v
@@ -3328,7 +3336,7 @@
 - 2019.10.10
   - memo n | memoir n
   - notion n
-  - reference n/vt | refer v
+  - refer v | reference n/vt
   - mention n/vt
   - civics n | civic adj
   - plea n | plead v | pleading n/adj
@@ -3956,7 +3964,7 @@
   - abuse n/vt | abusive adj | abuser
   - minor n/adj
   - disturb v | disturbed | disturbing adj
-  - prosecutor n | prosecute v | prosecution n | inspector n | inspection n
+  - prosecutor n | prosecute v | prosecution n | inspect | inspector n | inspection n
   - emphasize vt | emphasis n | emphatic adj
   - redact v
 
@@ -3982,12 +3990,12 @@
   - handful n
   - endorse vt | endorsement n
   - so-called adj
-  - invasion n | incursion n | incur vt ｜ invade v | invader
+  - invasion n | invade v | invader | incur vt | incursion n
 
 - 2019.8.8
   - resurrect vt
   - violate vt | violation n
-  - compliance n | compliant adj
+  - comply vi | compliant adj | compliance n | defer v | deference n
   - produce n/vt
   - measured
   - valuable | invaluable adj
@@ -4253,7 +4261,6 @@
   > that may easier said than done
 
 - 2019.7.9
-  - comply vi | deference n | defer v
   - supply n/vt | supplier n
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj

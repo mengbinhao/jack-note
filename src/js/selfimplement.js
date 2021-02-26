@@ -323,6 +323,7 @@ function simulateDebounce(fn, delay = 300) {
 
 		timer = setTimeout(() => {
 			fn.apply(this, args)
+			timer = null
 		}, delay)
 	}
 }
