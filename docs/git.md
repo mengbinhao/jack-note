@@ -52,10 +52,10 @@
 > chore  琐碎的修改
 
 ```bash
-git commit -m 'add: 上传文件功能' 
-# 修复了一个线上问题 
-$ git commit -m 'fix: **页面数字取值问题' 
-# 对某些代码进行了重构 
+git commit -m 'add: 上传文件功能'
+# 修复了一个线上问题
+$ git commit -m 'fix: **页面数字取值问题'
+# 对某些代码进行了重构
 $ git commit -m 'refactor: 重构商品列表页'
 # docs 表示这是对文档进行的修改
 $ git commit -m 'docs: 更新接口文档'
@@ -157,6 +157,9 @@ git branch -av
 
 # 新建一个分支,但依然停留在当前分支
 git branch newBranchName
+
+# 重命名branch
+git branch -m daily/0.0.0 daily/0.0.1
 
 # 新建一个分支,并切换到该分支
 git checkout -b newBranchName
@@ -391,7 +394,7 @@ git stash list
 
 # 命令可以通过名字指定那个stash,默认指定最近的（stash@{0}）
 # 不同于pop它不移除
-git stash apply 
+git stash apply
 
 # 相当于出栈,并将对应修改应用到当前的工作目录中
 git stash pop

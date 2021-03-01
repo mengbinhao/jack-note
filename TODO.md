@@ -593,6 +593,7 @@
 - [全网最全的 TypeScript 踩坑集锦](https://mp.weixin.qq.com/s/NLI5B3F6qo0TpRBgjZz-Ng)
 - [全网最全的 TypeScript 踩坑集锦](https://mp.weixin.qq.com/s/SfPlhB_4ywfiYLANax1VwQ)
 - [你不知道的 TypeScript 高级技巧](https://mp.weixin.qq.com/s/HTn6RbyneNsGkqcTm1ypcg)
+- [使用 Typescript 的一些注意事项](https://mp.weixin.qq.com/s/WBVXTnKk0Zw42zkTSyUAkw)
 
 ### Nginx
 

@@ -1,3 +1,29 @@
+- 2021.3.1
+  - exorbitant adj
+  - tug n/v
+  - utility n
+
+  > it makes her sick to her stomach to think about it
+  > I don't even necessarily know what my cost for a day is
+  > bear with me
+- 2021.2.28
+  - uphold vt
+  - mushroom n/vi/adj
+  - astonish vt | astonished
+  - hate | hateful
+  - strait n/adj
+  - premier adj/n
+  - hall n
+
+  > xxx when possible
+  > Despite the large number if detentions, xxx says they're not wavering in their demands
+  > take a hard line
+
+- 2021.2.27
+  - dilemma n
+  - climax n
+  - dwindle v
+
 - 2021.2.26
   - deflection n
   - entail vt/n
@@ -491,7 +517,6 @@
   - bipolar adj
 
 - 2020.11.5
-  - academic n/adj
   - superior n/adj
   - doctrine n
   - priest n/vt
@@ -982,7 +1007,6 @@
 - 2020.7.31
   - spontaneous adj | spontaneously adv
   - candidate n | candidacy n
-  - offense n
   - plentiful adj
   - overreach
   - eliminate vt | repeal n/vt | abolish vt
@@ -1060,7 +1084,7 @@
   - ache n/vi
   - challenge n/vt | unchallenged
   - disclosure n | nondisclosure | closure n/vt
-  - pilot n
+  - pilot n | autopilot
   - silence n /v | silent adj/n
   - spectrum n
   - humiliate vt
@@ -1213,7 +1237,6 @@
 - 2020.6.27
   - excessive adj
   - persuade v
-  - incentive n
   - certify vt | certified adj | credential n | certification n
 
 - 2020.6.24
@@ -1718,7 +1741,7 @@
   - activate vt
   - lunacy adj
   - finance n
-  - payment n
+  - payment n | nonpayment
 
   > there is nowhere near over
   > it is a huge blow
@@ -1817,7 +1840,7 @@
   - ashore adj/adv
   - relieve vt
   - grad n
-  - academy n
+  - academy n | academic n/adj
   - rouse v
   - alternate v/adj | alternative n/adj
   - sailor n
@@ -1950,7 +1973,6 @@
   - coffin n
   - evolve v
   - surplus n/adj
-  - fend v
   - utmost adj
   - drastic adj
   - mitigate v
@@ -1964,7 +1986,7 @@
   - aware adj ｜ awareness n
   - halt n/v
   - smooth | smoothly
-  - enthuse v | enthusiastic adj
+  - enthuse v | enthusiastic adj | enthusiasm n
   - regress vi | regressive adj
   - temporary adj | temporarily adv
   - temperature n
@@ -2734,7 +2756,6 @@
   - penalize vt
   - dismantle vt | mantle n/v
   - revolt n/v
-  - gridlock n
 
   > I says I'm having none of it
   > he want to take away what little the working class has
@@ -3745,7 +3766,6 @@
   - seize v
   - agenda n
   - potential n/adj
-  - sideline n/vt
   - frighten v | fright n | frighted adj
   - blink n/v
   - turmoil n
@@ -3801,7 +3821,7 @@
   - governor n
   - wrath n
   - grab v
-  - offensive n/adj
+  - offense n | offensive n/adj
 
   > but at bottom
   > in a very offensive way
@@ -3829,7 +3849,6 @@
   - tackle n/vt
   - mobilize vt
   - corrode v
-  - dampen vt
   - demonstration n | demonstrate v | demonstrator
   - interfere vi | interference n | intervene vi | intervention n | meddle vi
   - criminality n | crime n | criminal n/adj
@@ -4213,7 +4232,6 @@
   - neglect n/vt | negligence n | negligent adj
   - remnant n/adj
   - aide n
-  - topple v
   - horrendous adj
   - lessen v
 
@@ -4326,7 +4344,7 @@
   - tactic n | tactical adj
   - hawkish adj
   - coherent adj
-  - assumption n | assume v
+  - assume v | assumption n
   - sue v
   - credibility n
   - suspicious n | suspicion n
@@ -4341,7 +4359,7 @@
   - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
-  - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj
+  - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj | rampage n/vi
   - rally n/v
   - literal adj | literally adv
   - rig n/vt | rigged adj
@@ -4364,7 +4382,7 @@
   - trial n/adj | retrial n
   - democratically adv | democratic adj | democracy n | democrat
   - jail n/vt
-  - crackdown n | crack n/adj/v | repression n
+  - crackdown n | crack n/adj/v | repress v | repression n | dampen vt
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - undergo vt | suffer v
@@ -4418,7 +4436,7 @@
   - afloat adj/adv
   - speculate v | speculation n
   - takeaway n
-  - plot n/v
+  - plot n/v | plotter
   - fierce adj | fiercely adv
   - yield n/v
   - heighten v
