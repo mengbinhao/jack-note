@@ -845,14 +845,7 @@ const isType = (type) => (obj) => {
 	return Object.prototype.toString.call(obj) === `[object ${type}]`
 }
 
-const getType = (obj) => {
-	return Object.prototype.toString
-		.call(obj)
-		.replace(/\[object (.+)\]/, '$1')
-		.toLowerCase()
-}
-
-function getType2(obj) {
+function getType(obj) {
 	const str = Object.prototype.toString.call(obj)
 	const map = {
 		'[object Boolean]': 'boolean',
@@ -865,6 +858,8 @@ function getType2(obj) {
 		'[object Undefined]': 'undefined',
 		'[object Null]': 'null',
 		'[object Object]': 'object',
+		'[object HTMLDocument]': 'document',
+		'[object Window]': 'window',
 	}
 	if (obj instanceof Element) {
 		// 判断是否是dom元素，如div等
@@ -873,8 +868,11 @@ function getType2(obj) {
 	return map[str]
 }
 
-const getType3 = (obj) => {
-	return Object.prototype.toString.call(obj).slice(8, -1)
+//typeof返回的是小写需注意
+const getTypeFinal = (obj) => {
+	const type = typeof obj
+	if (type !== 'object') return type
+	return Object.prototype.toString.call(obj).replace(/^\[object (\S+)\]$/, '$1')
 }
 
 const hasPubProperty = (attr, obj) => {
@@ -1122,6 +1120,7 @@ jsonStringify({ b: undefined }) // "{"b":"undefined"}"
 
 const simulateInstanceOf = (left, right) => {
 	//can not write like -> let proto = left.__proto__
+	if (left === null || typeof left !== 'object') return false
 	let proto = Object.getPrototypeOf(left)
 	let prototype = right.prototype
 	while (true) {
