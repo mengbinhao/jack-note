@@ -1,3 +1,14 @@
+- 2021.3.3
+  - overvalued | undervalued adj
+  - predate vt
+
+- 2021.3.2
+  - turtle n
+  - shiny adj
+  - seashell n
+  - tar n/vt
+  - cleanup n
+
 - 2021.3.1
   - exorbitant adj
   - tug n/v
@@ -1785,7 +1796,7 @@
   - drop n/v
   - wound n/v
   - bandage n/vt
-  - stem vt
+  - stem n/vt
   - hemorrhage n/vi
   - gasoline n
   - prop n/vt
@@ -2476,7 +2487,6 @@
   - overall adj/adv
   - lash n/v | backlash n
   - clash n/v
-  - injury n
   - militia n
   - jeopardy n
 
@@ -3082,6 +3092,7 @@
   - origin n | originate v
   - probe n/vt
   - grand adj
+  - injury n
   - jury n
   - collusion n
   - surveillance n
@@ -3461,7 +3472,6 @@
 
 - 2019.9.27
   - Ukraine n
-  - indict vt | indictment n
   - whistle-blower n
   - corrupt v | corruption n
   - aver vt
@@ -3983,7 +3993,7 @@
   - abuse n/vt | abusive adj | abuser
   - minor n/adj
   - disturb v | disturbed | disturbing adj
-  - prosecutor n | prosecute v | prosecution n | inspect | inspector n | inspection n
+  - prosecutor n | prosecute v | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
   - emphasize vt | emphasis n | emphatic adj
   - redact v
 
@@ -4345,7 +4355,6 @@
   - hawkish adj
   - coherent adj
   - assume v | assumption n
-  - sue v
   - credibility n
   - suspicious n | suspicion n
   - isolate n/v/adj | isolated adj | isolation n
@@ -4386,7 +4395,6 @@
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - undergo vt | suffer v
-  - prosecutor n
   - defend v | defensive adj | defendant n
   - Turkish adj/n
   - polar n/adj | polarize v | polarization n

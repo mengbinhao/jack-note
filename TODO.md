@@ -273,6 +273,7 @@
 - [网站优化，这些工具你一定用得着](https://mp.weixin.qq.com/s/olrFz3nrgCPSbQff-L_SlQ)
 - [如何在 chrome 中实时修改 JS](https://www.zhangyangjun.com/post/chrome-source-modify-js.html)
 - [提升 Chrome 使用效率的 30 个快捷键、16 个扩展插件与 12 个前端调试方法](https://mp.weixin.qq.com/s/oPDb_VuwkA5XLaHKef7uZA)
+- [chrome 开发者工具各种骚技巧](https://mp.weixin.qq.com/s/hXjJMtfi_npah32ic4aESw)
 
 ### Vue
 
