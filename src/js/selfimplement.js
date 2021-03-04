@@ -747,11 +747,9 @@ Function.prototype.simulateBindAdvance = function (context = window) {
 	//very important
 	//这里有bug箭头函数没有this.prototype
 	//fBound.prototype = Object.create(this.prototype)
-	let F = function () {}
 	if (this.prototype) {
-		F.prototype = this.prototype
+		fBound.prototype = Object.create(this.prototype)
 	}
-	fBound.prototype = new F()
 	return fBound
 }
 
@@ -909,21 +907,24 @@ const hasPubProperty = (attr, obj) => {
 //所有以 symbol 为属性键的属性都会被完全忽略掉，即便 replacer 参数中强制指定包含了它们
 
 //JSON.parse(JSON.stringify(obj))
-//JSON只能处理string、boolean、number、null、object、array
+//只能处理string、boolean、number、null、object、array
 // 缺点：
-// 1、会忽略undefined
-// 2、会忽略symbol
-// 3、不能序列化函数,，RegExp/函数不会拷贝
-// 4、不能解决循环引用的对象 const a = {val:2}; a.target = a; 拷贝a会出现系统栈溢出，因为出现了无限递归的情况
-// 5、不能正确处理,new Date()会被转成字符串, Set, Map等
-// 6、会抛弃对象的constructor。也就是深拷贝之后，不管这个对象原来的构造函数是什么，在深拷贝之后都会变成Object
+// 1、会忽略undefined、symbol、function
+// 2、Date引用类型会被变成字符串
+// 3、RegExp引用类型会变成空对象
+// 4、无法拷贝不可枚举的属性
+// 5、无法拷贝对象的原型链
+// 6、不能解决循环引用的
+// 7、对象中含有 NaN、Infinity 以及 -Infinity，结果都变成 null
 const deepClone = (source, cache = new WeakMap()) => {
 	if (source instanceof Date) return new Date(source)
 	if (source instanceof RegExp) return new RegExp(source)
-	//simple type, return directly
+
 	if (!isObject(source)) return source
-	//or return directly
-	if (cache.has(source)) throw new TypeError('circle reference')
+
+	//根据需求是否抛
+	//if (cache.has(source)) throw new TypeError('circular reference')
+	if (cache.has(source)) return cache.get(source)
 	//let target = new source.constructor()
 	let target = Array.isArray(source) ? [] : {}
 	cache.set(source, target)
@@ -948,28 +949,56 @@ const deepClone = (source, cache = new WeakMap()) => {
 	return target
 }
 
-const objTest = {
-	strProperty: 'strProp',
-	objProperty: {
-		title: "You Don't Know JS",
-		price: '45',
-	},
-	undefinedProperty: undefined,
-	nullProperty: null,
-	numberProperty: 123,
-	funcProperty: function () {},
-	boolProperty: true,
-	arrProperty: [1, 2, 3],
+const isComplexDataType = (obj) => typeof obj === 'object' && obj !== null
+
+const deepClone = function (obj, hash = new WeakMap()) {
+	if (obj.constructor === Date) return new Date(obj)
+	if (obj.constructor === RegExp) return new RegExp(obj)
+
+	//如果循环引用了就用 weakMap 来解决
+	if (hash.has(obj)) return hash.get(obj)
+	//遍历传入参数所有键的特性
+	let allDesc = Object.getOwnPropertyDescriptors(obj)
+	//继承原型链
+	let cloneObj = Object.create(Object.getPrototypeOf(obj))
+
+	hash.set(obj, cloneObj)
+	//遍历自身可枚举不可枚举和symbol
+	for (let key of Reflect.ownKeys(obj)) {
+		cloneObj[key] = isComplexDataType(obj[key])
+			? deepClone(obj[key], hash)
+			: obj[key]
+	}
+	return cloneObj
 }
 
-//obj.circleProperty = obj
+let objTest = {
+	num: 0,
+	str: '',
+	boolean: true,
+	unf: undefined,
+	nul: null,
+	obj: { name: '我是一个对象', id: 1 },
+	arr: [0, 1, 2],
+	func: function () {
+		console.log('我是一个函数')
+	},
+	date: new Date(0),
+	reg: new RegExp('/我是一个正则/ig'),
+	[Symbol('1')]: 1,
+}
 
-const sym1 = Symbol('a')
-const sym2 = Symbol.for('b')
+Object.defineProperty(objTest, 'innumerable', {
+	enumerable: false,
+	value: '不可枚举属性',
+})
 
-objTest[sym1] = 'localSymbol'
-objTest[sym2] = 'globalSymbol'
-//console.log(deepClone(objTest))
+//obj = Object.create(obj, Object.getOwnPropertyDescriptors(obj))
+objTest.loop = objTest
+let cloneObj = deepClone(objTest)
+cloneObj.arr.push(4)
+console.log('obj', objTest)
+console.log('cloneObj', cloneObj)
 
 const copyDeepClone = function (obj) {
 	let copy
@@ -1075,20 +1104,28 @@ const simulateInherit = (function () {
 
 //otherStar={...obj}
 //Object.assign({},obj)
-const cloneShallow = (obj) => {
-	let target = {}
-	for (let key in obj) {
-		if (obj.hasOwnProperty(key)) {
-			target[key] = obj[key]
+const shallowClone = (obj) => {
+	if (typeof obj !== null && typeof obj === 'object') {
+		const target = Array.isArray(obj) ? [] : {}
+		for (let prop in obj) {
+			if (obj.hasOwnProperty(prop)) {
+				target[prop] = obj[prop]
+			}
 		}
+		return target
+	} else {
+		return obj
 	}
-	return target
 }
 
-const cloneShallow2 = (obj) => {
-	let result = Array.isArray(obj) ? [] : {}
-	Object.keys(obj).forEach((key) => (result[key] = obj[key]))
-	return result
+const shallowClone2 = (obj) => {
+	if (typeof obj !== null && typeof obj === 'object') {
+		const target = Array.isArray(obj) ? [] : {}
+		Object.keys(obj).forEach((key) => (target[key] = obj[key]))
+		return target
+	} else {
+		return obj
+	}
 }
 
 const jsonStringify = (obj) => {

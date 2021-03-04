@@ -1,5 +1,27 @@
+- 2021.3.4
+  - equilibrium n
+  - bubble n/v
+  - needle n/v
+
+  > I'm going to ask you to take a step back xxx
+  > so my read of xxx
+
 - 2021.3.3
   - overvalued | undervalued adj
+  - overstep vt
+  - overcrowd adj
+  - overreach
+  - overrun n/v
+  - overtime n/vt/adj/adv
+  - overcome v
+  - override vt
+  - overthrow n/vt
+  - overlook v
+  - overall adj/adv
+  - overnight n
+  - overhaul v
+  - overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
+  - oversee vt | oversea adj/adv
   - predate vt
 
 - 2021.3.2
@@ -712,7 +734,6 @@
   - salvage n/vt
   - soap n/v
   - filthy adj
-  - overcrowd adj
 
 - 2020.9.16
   - instrument n
@@ -770,6 +791,16 @@
   - playbook n
   - support | supportive
   - cover | uncover v | undercover
+  - underground adj
+  - undertake vt
+  - underlying adj | underlie vt
+  - understaffed adj
+  - underfunded adj
+  - underneath prep
+  - underscore vt
+  - undermine vt
+  - undercut vt
+  - underway adj
 
   > It slips through the cracks
   > It's a constant game of cat and mouse
@@ -860,7 +891,6 @@
   - inward adj
 
 - 2020.8.22
-  - underground adj
   - scholar n
   - monarchy n
   - discipline n/vt | disciplined adj
@@ -962,7 +992,7 @@
   - fragile adj
   - resumption n
   - recall n/vt
-  - confirm vt | confirmation
+  - confirm vt | confirmation | unconfirmed
 
   > a number from government makes it clear just how bad
   > this was led by a sharp drop in consumer spending
@@ -1019,7 +1049,6 @@
   - spontaneous adj | spontaneously adv
   - candidate n | candidacy n
   - plentiful adj
-  - overreach
   - eliminate vt | repeal n/vt | abolish vt
   - adhere vi
   - fist n/vt
@@ -1054,7 +1083,6 @@
   - hurdle n
   - realize vt | realization n
   - tuition n
-  - undertake vt
   - campus n
   - wrench n/vt
   - onerous adj
@@ -1468,7 +1496,6 @@
   - endure v
   - poll n/v | ballot n/v | pollster n
   - focal adj
-  - override vt
   - refuse v | refusal n
   - congregate v
   - therapy n
@@ -1776,7 +1803,6 @@
   - trend n
   - flare n/v
   - rapid adj | rapidly adv
-  - overtime n/vt/adj/adv
   - surpass vt
 
   > Europe is still not out of woods
@@ -1846,7 +1872,6 @@
   - incline n/v
 
 - 2020.4.13
-  - overrun n/v
   - podium n
   - ashore adj/adv
   - relieve vt
@@ -1867,7 +1892,6 @@
 - 2020.4.10
   - deaf adj
   - lung n
-  - underlying adj | underlie vt
   - scientific adj | science n
   - upfront adj/adv
   - greenhouse n
@@ -1877,8 +1901,6 @@
 
 - 2020.4.9
   - tsunami n
-  - understaffed adj
-  - underfunded adj
   - reminder n
   - remain n/v | remainder
   - obvious adj | obviously
@@ -2062,7 +2084,6 @@
   - consent n/vi | consensus n | consensual adj
   - strip n/v
   - coward n/adj
-  - overcome v
   - obscene adj
 
 - 2020.3.20
@@ -2070,7 +2091,6 @@
   - throne n/v
   - rumor n/v
   - comment n/v | commentator n | commentary n
-  - overthrow n/vt
   - brook n/vt
 
   > It's really hard to get real-time information out of there
@@ -2138,7 +2158,6 @@
 
 - 2020.3.12
   - assemble v | reassemble
-  - undervalue vt
   - banquet n
   - lavish adj
   - elusive adj
@@ -2186,7 +2205,6 @@
   - foundation n | foundational
   - crouch vi
   - shoulder v
-  - underneath prep
   - tongue n
   - through prep/adj/adv | throughout prep/adv | breakthrough n | thorough adj
   - poison n/v/adj
@@ -2386,7 +2404,6 @@
   - continue | continual adj | continuous adj | continuity n | continuation
   - gymnasium n
   - cavernous adj
-  - overlook v
   - dot v/adj
   - tourist n/v/adj | tourism n | tour n/v
   - steam n/v/adj
@@ -2425,7 +2442,6 @@
   - mechanical adj
   - mistakenly adv
   - appetite n | appetizing adj
-  - underscore vt
   - demean vt | demeaning n | demeanor n
   - warrant n/vt | warranted adj
   - deed n
@@ -2475,7 +2491,7 @@
   - restraint n | restrained adj
   - comfort n/vt | discomfort n | comfortable adj | uncomfortable
   - distinction n | distinct adj | distinctive adj
-  - stun n/vt
+  - stun n/vt | stunning
   - tent n
 
   > It sounds to me like these people intend to stay outside of the US embassy for a while. Is that the impression you're getting?
@@ -2484,7 +2500,6 @@
 - 2020.1.16
   - lean n/v
   - impending adj | impend vi
-  - overall adj/adv
   - lash n/v | backlash n
   - clash n/v
   - militia n
@@ -2527,7 +2542,7 @@
   - continent n | intercontinental adj
   - fury n
   - favor n/vt | favorable adj | unfavorable
-  - provocation n
+  - provocation n | provocative adj
   - lump n
   - peninsula n
   - standstill n
@@ -2910,7 +2925,6 @@
   > whether that lasts remains to be seen
 
 - 2019.11.16
-  - overnight n
   - ambulance n
   - fragmented adj
   - harmony n | harmonize n/v
@@ -2937,7 +2951,6 @@
   - desert n/v | dessert n
   - cling vi
   - abandon n/v
-  - overhaul v
   - awful adj | awfully adv
   - downfall n
   - accelerate v
@@ -3022,7 +3035,7 @@
   - sweep n/v | mop v
   - hurdle n/v
   - bargain n/v | bargaining | barter v
-  - assuage vt | undermine vt
+  - assuage vt
   - diffuse v/adj
   - reform n/v
 
@@ -3149,8 +3162,7 @@
   - outright adj/adv
   - concession n
   - abortion n
-  - downplay vt
-  - underplay
+  - downplay vt | underplay
   - thrive vi
   - vice n/adj
   - forgive | forgivable | unforgivable
@@ -3355,7 +3367,6 @@
   - heavy-handed adj
   - median n/adj
   - bare adj | barely adv
-  - overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
   - curfew n
   - religious adj | religion n
 
@@ -3662,8 +3673,6 @@
   - vibrant adj
   - revolution n | evolution n | revolutionary n/adj
   - unfettered adj
-  - oversee vt
-  - oversea adj/adv
   - decline n/v
   - immersed adj
   - vanity n
@@ -3741,7 +3750,6 @@
   > set him off
 
 - 2019.9.9
-  - jeopardize vt
   - prime adj
   - chant n/v
   - upbraid vt
@@ -4151,7 +4159,6 @@
   - steal n/v | stealth n/adj
   - maintenance n
   - facility n | facilitate vt | facilitation
-  - undercut vt
   - vow n/vt
   - postpone vt | postponement n
   - mandate n/vt | mandated adj
@@ -4307,7 +4314,6 @@
   - doubling n
   - reception n
   - utterly adv | utter vt/adj
-  - underway adj
   - counterpart n
   - gesture n/vt
 
@@ -4394,7 +4400,7 @@
   - crackdown n | crack n/adj/v | repress v | repression n | dampen vt
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
-  - undergo vt | suffer v
+  - suffer v | undergo vt
   - defend v | defensive adj | defendant n
   - Turkish adj/n
   - polar n/adj | polarize v | polarization n
@@ -4412,7 +4418,6 @@
   - relief n
   - abide vi
   - exert vt
-  - provocative adj
   - arena n
   - dilute vt/adj
 
