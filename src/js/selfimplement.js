@@ -89,7 +89,23 @@ Array.prototype.unique6 = (arr) => {
 	return arr
 }
 
-const myFlat = (arr) => {
+const simulateFlatten1 = (arr) => {
+  let result = []
+  for(let i = 0; i < arr.length; i++) {
+    if(Array.isArray(arr[i])) {
+      result = result.concat(simulateFlatten1(arr[i]))
+    } else {
+      result.push(arr[i])
+    }
+  }
+  return result
+}
+
+const  simulateFlatten2 = (arr) => {
+    return arr.reduce((prev, next) => rev.concat(Array.isArray(next) ? simulateFlatten2(next) : next), [])
+}
+
+const simulateFlatten3 = (arr) => {
 	while (arr.some((item) => Array.isArray(item))) {
 		arr = [].concat(...arr)
 	}
@@ -97,34 +113,22 @@ const myFlat = (arr) => {
 }
 
 //return number arr
-const myFlat2 = (arr) => {
+const simulateFlatten4 = (arr) => {
 	return arr
 		.toString()
 		.split(',')
 		.map((item) => Number(item))
 }
 
-const myFlat3 = JSON.parse(
+const simulateFlatten5 = JSON.parse(
 	'[' + JSON.stringify(arr).replace(/\[|\]/g, '') + ']'
 )
 
-const myFlat4 = (arr) => {
-	let result = []
-	for (let i = 0, len = arr.length; i < len; i++) {
-		if (Array.isArray(arr[i])) {
-			result = result.concat(flatten(arr[i]))
-		} else {
-			result.push(arr[i])
-		}
-	}
-	return result
-}
-
-const myFlatFinal = (arr, depth = 1) => {
+const simulateFlattenFinal = (arr, depth = 1) => {
 	return depth > 0
 		? arr.reduce((acc, cur) => {
 				if (Array.isArray(cur)) {
-					return [...acc, ...flat(cur, depth - 1)]
+					return [...acc, ...simulateFlattenFinal(cur, depth - 1)]
 				}
 				return [...acc, cur]
 		  }, [])
@@ -199,6 +203,9 @@ Array.prototype.myForEach = function (fn, context) {
 }
 
 Array.prototype.myMap = function (fn) {
+	if (this === null || this === undefined) {
+    throw new TypeError("Cannot read property 'map' of null");
+  }
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + 'is not a function')
 	}
@@ -257,6 +264,9 @@ Array.prototype.mySome = function (fn, thisArg) {
 }
 
 Array.prototype.myReduce = function (fn, initialValue) {
+  if (this === null || this === undefined) {
+    throw new TypeError("Cannot read property 'reduce' of null");
+  }
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + ' is not a function')
 	}
@@ -1154,6 +1164,53 @@ const jsonStringify = (obj) => {
 jsonStringify({ x: 5 }) // "{"x":5}"
 jsonStringify([1, 'false', false]) // "[1,"false",false]"
 jsonStringify({ b: undefined }) // "{"b":"undefined"}"
+
+const jsonStringify2 =  (data) {
+	let type = typeof data
+
+	if (type !== 'object') {
+		let result = data
+
+		//data 可能是基础数据类型的情况在这里处理
+		if (Number.isNaN(data) || data === Infinity || data === -Infinity) {
+			//NaN 和 Infinity 序列化返回 "null"
+			result = 'null'
+		} else if (
+			type === 'function' ||
+			type === 'undefined' ||
+			type === 'symbol'
+		) {
+			// 由于 function 序列化返回 undefined，因此和 undefined、symbol 一起处理
+			return undefined
+		} else if (type === 'string') {
+			result = '"' + data + '"'
+		}
+		return String(result)
+	} else if (type === 'object') {
+		if (data === null) {
+			return 'null'
+		} else if (data.toJSON && typeof data.toJSON === 'function') {
+			return jsonStringify(data.toJSON())
+		} else if (data instanceof Array) {
+			let result = []
+			//如果是数组，那么数组里面的每一项类型又有可能是多样的
+			data.forEach((item, index) => {
+				result[index] = jsonStringify(item)
+			})
+			result = '[' + result + ']'
+			return result.replace(/'/g, '"')
+		} else {
+			// 处理普通对象
+			let result = []
+			Object.keys(data).forEach((item, index) => {
+				if (typeof item !== 'symbol') {
+					result.push('"' + item + '"' + ':' + jsonStringify(data[item]))
+				}
+			})
+			return ('{' + result + '}').replace(/'/g, '"')
+		}
+	}
+}
 
 const simulateInstanceOf = (left, right) => {
 	//can not write like -> let proto = left.__proto__
