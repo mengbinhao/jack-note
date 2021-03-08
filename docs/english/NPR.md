@@ -1,3 +1,12 @@
+- 2021.3.8
+  - absence n
+  - rubber n/v/adj
+  - wade v
+
+  > one other thing to keep in mind
+  > they'll accept nothing less
+  > it's a big ask
+
 - 2021.3.4
   - equilibrium n
   - bubble n/v
@@ -2403,7 +2412,7 @@
   - donation n | donate v | donor n
   - continue | continual adj | continuous adj | continuity n | continuation
   - gymnasium n
-  - cavernous adj
+  - cave n/v | cavernous adj
   - dot v/adj
   - tourist n/v/adj | tourism n | tour n/v
   - steam n/v/adj
@@ -2488,7 +2497,7 @@
   - fawn vi | fawning adj
 
 - 2020.1.17
-  - restraint n | restrained adj
+  - restrain vt | restraint n | restrained adj
   - comfort n/vt | discomfort n | comfortable adj | uncomfortable
   - distinction n | distinct adj | distinctive adj
   - stun n/vt | stunning
@@ -2901,7 +2910,7 @@
   - patron n
   - charity n | charitable
   - offend v | offender n
-  - severed adj | severe adj
+  - severe adj | severely
   - foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj | unpaid adj
@@ -2926,7 +2935,7 @@
 
 - 2019.11.16
   - ambulance n
-  - fragmented adj
+  - fragment n/v | fragmented adj
   - harmony n | harmonize n/v
   - harm n/vt | harmless adj | harmful adj
   - avenue n | venue n
@@ -3653,7 +3662,6 @@
 - 2019.9.15
   - strengthen v
   - applaud v
-  - fragmented adj
   - leverage n/vt | lever n/vt
   - prompt adj/vt | promptly adv
 

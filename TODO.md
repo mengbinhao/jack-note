@@ -259,6 +259,7 @@
 - [vue 移动端开发总结](https://juejin.im/post/5e0f01fd5188253a8511b9c0)
 - [总结几个移动端 H5 软键盘的大坑](https://segmentfault.com/a/1190000022115177)
 - [轻松搞定移动端适配](https://mp.weixin.qq.com/s/IFJyfOm4Sv4n4nWiS2BY3w)
+- [中高级前端须注意的 40 条移动端 H5 坑位指南](https://mp.weixin.qq.com/s/nge9FPgVS6FZcuVOTxCBtQ)
 
 ### source
 
