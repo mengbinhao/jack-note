@@ -1,3 +1,7 @@
+- 2021.3.9
+  - ankle n
+  - bribe n/vt | bribery
+
 - 2021.3.8
   - absence n
   - rubber n/v/adj
@@ -2914,7 +2918,6 @@
   - foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj | unpaid adj
-  - bribery n
   - preliminary n/adj
   - brute n/adj | brutal adj | brutality n
 
