@@ -1,3 +1,10 @@
+- 2021.3.10
+  - unwanted adj
+  - tease n/vt
+  - welcome adj | unwelcome
+
+  > xxx is taking heat from a lot of sides these days
+
 - 2021.3.9
   - ankle n
   - bribe n/vt | bribery
@@ -1536,7 +1543,6 @@
 
 - 2020.5.26
   - suppress vt
-  - curb vt | curbed adj
   - severity n
   - gist n
   - complicit adj
@@ -1966,7 +1972,7 @@
   - vision n /vt | visionary adj
   - division n
   - provision n
-  - supervision n
+  - supervision n | supervisor
   - chase n/v
 
   > I want to thank xx for coming together, setting aside their differences and putting America first
@@ -3334,7 +3340,6 @@
   - interim n/adj
   - clearance n
   - accompany vt
-  - subpoena n/vt
 
   > step forward
   > there is no date set as of yet
@@ -3777,7 +3782,7 @@
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
-  - interpret v | interpreter n | interpretation n
+  - interpret v | interpreter n | interpretation n | misinterpret
   - articulate vt/adj
 
   > seconds matter
@@ -3937,7 +3942,7 @@
   - hostile adj | hostility n
   - itinerary n
   - annexation n | annex n/vt
-  - settle n/v | settlement n | settling | un-setting
+  - settle n/v | settlement n | settling | unsettle | unsettling
   - pendulum n
 
   > it was seen as a breather for the trade war
@@ -4408,7 +4413,8 @@
   - trial n/adj | retrial n
   - democratically adv | democratic adj | democracy n | democrat
   - jail n/vt
-  - crackdown n | crack n/adj/v | repress v | repression n | dampen vt
+  - crack n/adj/v
+  - crackdown n | repress v | repression n | dampen vt | curb vt | curbed adj
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - suffer v | undergo vt
