@@ -1,3 +1,11 @@
+- 2021.3.11
+  - opportunity n
+  - deterrent n
+  - asset n
+  - previous | previously
+
+  > you know, having that strength in numbers, working with friends to address these issues
+
 - 2021.3.10
   - unwanted adj
   - tease n/vt
