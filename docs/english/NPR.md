@@ -1,3 +1,8 @@
+- 2021.3.12
+  - romance n/vi
+
+  > xxx is a failed state in every single measure
+
 - 2021.3.11
   - opportunity n
   - deterrent n
@@ -725,7 +730,7 @@
   > That could mean putting an end to xxx
 
 - 2020.9.24
-  - prevent v | preventable adj | prevention n
+  - prevent v | preventable adj | prevention n | hamper nt/n
   - pretend v
   - faulty adj
 
@@ -1407,7 +1412,7 @@
 
 - 2020.6.11
   - dual adj
-  - deport vt
+  - deport vt | deportation
   - nightmare n
   - furlough n/vt
   - privacy n
@@ -2127,7 +2132,7 @@
   - demolish vt
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
-  - humane adj | humanitarian | humanity n
+  - human n/adj | humane adj | humanitarian | humanity n | inhumane
 
   > humanitarian crisis
   > what we're seeing now is just sort of like a hammering out of the parameters
@@ -4422,7 +4427,7 @@
   - democratically adv | democratic adj | democracy n | democrat
   - jail n/vt
   - crack n/adj/v
-  - crackdown n | repress v | repression n | dampen vt | curb vt | curbed adj
+  - crackdown n | repress v | repression n | dampen vt | curb vt | curbed adj | repressive adj
   - circumstance n | circumspect adj | circumstantial adj
   - ban vt | banner n
   - suffer v | undergo vt
