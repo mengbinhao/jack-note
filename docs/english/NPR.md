@@ -1,3 +1,10 @@
+- 2021.3.15
+  - chord n
+  - manage v
+  - broadcast n/v
+
+  > The broadcast has struck in such a chord here in the US
+
 - 2021.3.12
   - romance n/vi
 
@@ -619,7 +626,6 @@
   - spite n/vt
   - collateral n
   - responsibly | irresponsible n/adj/adv
-  - destructive adj
 
   > I say it is still a valuable thing to do
 
@@ -1598,7 +1604,7 @@
   - virus n
   - timeline n
   - wand n
-  - destruct v | destruction n
+  - destruct v | destruction n | destructive adj
   - brand n/v
   - ambivalent adj
   - valet nn/v
@@ -2890,7 +2896,7 @@
   - compassionate n/adj/adv | compassion n
   - defeat n/vt
   - medal n
-  - resonance n
+  - resonate v | resonance n | resonant adj
   - stab n/vt
 
   > Both described as very thoughtful,compassionate and having bright future
@@ -3143,7 +3149,7 @@
   - tap n/vt | untapped adj
   - bipartisan adj | partisan adj | nonpartisan adj
   - deepen v
-  - profound adj
+  - profound adj | profoundly
   - vehicle n
 
   > There are no details on when that change was made or what prompted it

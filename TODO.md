@@ -477,6 +477,7 @@
 
 - [一文看懂 Babel](https://juejin.im/post/5e477139f265da574c566dda)
 - [关于 Babel 你必须知道的基础知识](https://mp.weixin.qq.com/s/LebuHrsSSwJUw1CYc1d5hA)
+- [Babel 最全上手指南](https://mp.weixin.qq.com/s/pnnjhfEIF3osRmgK_m-uxA)
 
 ### webpack
 
