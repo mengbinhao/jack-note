@@ -1,3 +1,13 @@
+- 2021.3.16
+  - turbine n
+  - plant n/v
+  - coal | carbon
+  - garage n/vt
+  - combustion n
+  - fireplace n
+  - generator n
+  - portable adj
+
 - 2021.3.15
   - chord n
   - manage v
@@ -2657,7 +2667,6 @@
 - 2019.12.27
   - erode v
   - fruition n
-  - carbon n/adj
   - pivot n/v/adj
   - heel n
   - emitter n
