@@ -118,6 +118,7 @@
 - [大规格文件的上传优化](https://mp.weixin.qq.com/s/0oVi1qYNe0QNiPmThco2qg)
 - [前端性能优化](https://mp.weixin.qq.com/s/vewTtt78t-RhclALX7a8TQ)
 - [前端性能优化实践](https://mp.weixin.qq.com/s/cHfIXOyOJ5Ig1tE4tmFvAw)
+- [前端性能优化24条建议](https://mp.weixin.qq.com/s/Jgem71HGx2EkveEyEmlQOg)
 - [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
 - [网站性能优化实战](https://mp.weixin.qq.com/s/8Jl2l5tvP4vcYH920lm7bg)
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)

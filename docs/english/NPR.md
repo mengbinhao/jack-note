@@ -1,4 +1,11 @@
 - 2021.3.16
+  - stockholder n
+  - shower n/v
+  - insure v | insured | uninsured
+
+  > and to put that into perspective
+
+- 2021.3.16
   - turbine n
   - plant n/v
   - coal | carbon
@@ -342,7 +349,7 @@
   - grateful adj
   - acquaint vt
   - axle n
-  - rental n/adj
+  - rent n/v | rental n/adj
   - duplex adj
   - tissue n/vt
 
@@ -2710,7 +2717,6 @@
   - heartfelt adj
   - heartless n
   - mediator n
-  - havoc n/v
   - dim v/adj
 
   > well, u know, it went go hours and hours and didn't break up until after midnight
