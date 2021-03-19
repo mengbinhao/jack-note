@@ -1,3 +1,11 @@
+- 2021.3.19
+  - attract v
+
+- 2021.3.18
+  - embitter vt
+  - navigate v
+  - rule n/v
+
 - 2021.3.16
   - stockholder n
   - shower n/v
@@ -2682,7 +2690,7 @@
   > this is a disagreement over how we move forward
 
 - 2019.12.26
-  - reverberation n
+  - reverberate n/v/adj | reverberation n
   - tremor n/v
   - revamp n/vt
   - landscape n
@@ -3556,7 +3564,6 @@
   - plate n
   - contend v | contender n
   - razor n
-  - profile
 
   > which is what I was kind of known for
   > how does the US move ahead on these issues?
@@ -4237,7 +4244,7 @@
   - reiterate vt
   - forum n
   - conduct n/v | mis-conduct n
-  - high-profile adj
+  - profile n | high-profile adj
   - reserve n/v | preserve n/vt | reserved | unreservedly
   - retain vt
   - constraint n | constrain v | constrained adj
