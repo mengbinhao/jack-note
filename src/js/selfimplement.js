@@ -401,6 +401,24 @@ function simulateThrottle2(fn, interval = 300) {
 	}
 }
 
+function throttled3(fn, delay) {
+    let timer = null
+    let startTime = Date.now()
+    return function () {
+        let curTime = Date.now() // 当前时间
+        let remaining = delay - (curTime - startTime)  // 从上一次到现在，还剩下多少多余时间
+        let context = this
+        let args = arguments
+        clearTimeout(timer)
+        if (remaining <= 0) {
+            fn.apply(context, args)
+            startTime = Date.now()
+        } else {
+            timer = setTimeout(fn, remaining);
+        }
+    }
+}
+
 const betterScrollThrottle = simulateThrottle(
 	() => console.log('触发了滚动事件'),
 	1000
@@ -1971,4 +1989,31 @@ class Observer {
 		if (events[eventName])
 			events[eventName] = events[eventName].filter((cb) => cb !== callback)
 	}
+}
+
+function isInViewPortOfOne (el) {
+    // viewPortHeight 兼容所有浏览器写法
+    const viewPortHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+    const offsetTop = el.offsetTop
+    const scrollTop = document.documentElement.scrollTop
+    const top = offsetTop - scrollTop
+    return top <= viewPortHeight
+}
+
+function isInViewPort(element) {
+  const viewWidth = window.innerWidth || document.documentElement.clientWidth;
+  const viewHeight = window.innerHeight || document.documentElement.clientHeight;
+  const {
+    top,
+    right,
+    bottom,
+    left,
+  } = element.getBoundingClientRect();
+
+  return (
+    top >= 0 &&
+    left >= 0 &&
+    right <= viewWidth &&
+    bottom <= viewHeight
+  );
 }

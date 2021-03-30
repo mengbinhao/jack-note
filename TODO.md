@@ -118,7 +118,7 @@
 - [大规格文件的上传优化](https://mp.weixin.qq.com/s/0oVi1qYNe0QNiPmThco2qg)
 - [前端性能优化](https://mp.weixin.qq.com/s/vewTtt78t-RhclALX7a8TQ)
 - [前端性能优化实践](https://mp.weixin.qq.com/s/cHfIXOyOJ5Ig1tE4tmFvAw)
-- [前端性能优化24条建议](https://mp.weixin.qq.com/s/Jgem71HGx2EkveEyEmlQOg)
+- [前端性能优化 24 条建议](https://mp.weixin.qq.com/s/Jgem71HGx2EkveEyEmlQOg)
 - [首页白屏优化实践](https://segmentfault.com/a/1190000020383064)
 - [网站性能优化实战](https://mp.weixin.qq.com/s/8Jl2l5tvP4vcYH920lm7bg)
 - [自动化构建与性能优化](https://juejin.im/post/5c13804bf265da61553ab692)
@@ -150,6 +150,8 @@
 
 ### JS
 
+- [JavaScript 工具函数大全](https://mp.weixin.qq.com/s/2zTn8rZ3uA_pbo8DKfZtjA)
+- [JS 一些工具函数](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484756&idx=1&sn=970d60c1368b2c1c7a39e2cb8b68631b)
 - [学习 async，defer 和动态脚本，本文就够了](https://mp.weixin.qq.com/s/VUN9TJyH411fLkEnJZclow)
 - [JavaScript 那些写出来会被同事揍的骚操作](https://mp.weixin.qq.com/s/rfsHwY6lNA1pn6BftgZH4Q)
 - [手把手 Promise](https://juejin.cn/post/6894115068633350158)
@@ -168,7 +170,6 @@
 - [灵活运用 JS 开发技巧](https://segmentfault.com/a/1190000020749133)
 - [玩 DOM 也要专业范儿](https://mp.weixin.qq.com/s/v9zEpg8uDWEBAwppl45Y1Q)
 - [深入了解强大的 ES6...运算符](https://segmentfault.com/a/1190000020612737)
-- [JavaScript 工具函数大全](https://mp.weixin.qq.com/s/YmMq1THEObpYU38JlWZGdw)
 - [5 个 JS 不良编码习惯](https://segmentfault.com/a/1190000020685959)
 - [常见数据结构和 Javascript 实现总结](https://segmentfault.com/a/1190000020011987)
 - [28 个 JavaScript 实现](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
@@ -230,7 +231,6 @@
 - [避免 JS 中过多的使用 IF 语句](https://developer.51cto.com/art/202004/614413.htm)
 - [前端最佳实践之可维护性](https://mp.weixin.qq.com/s/-_07EP43yiOjyg29RVhgJA)
 - [javascript 正则深入以及 10 个非常有意思的正则实战](https://juejin.im/post/5eb65cde51882560d56d6fb9)
-- [JS 一些工具函数](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484756&idx=1&sn=970d60c1368b2c1c7a39e2cb8b68631b)
 - [前端二进制](https://mp.weixin.qq.com/s/_FU8gBmq2XFIhwRpHNpPww)
 - [你不知道的 Blob](https://mp.weixin.qq.com/s/MPTTMUXLRK0boeMDYzmaLA)
 - [我是如何将业务代码写优雅的](https://mp.weixin.qq.com/s/wFOEn0TaFrGEOvyQcxn6ig)
@@ -623,6 +623,7 @@
 - [一份值得收藏的 Git 异常处理清单](https://mp.weixin.qq.com/s/zpAqx3MOa9qDX7cZxRE7Wg)
 - [提高效率的 10 个 Git 小技巧](https://segmentfault.com/a/1190000020099456)
 - [送你一份玩转 Github 的秘诀](https://mp.weixin.qq.com/s/HdYSJwr5deeQ9E4o1MFwCg)
+- [提高国内访问 GitHub 的速度的 9 种方案](https://mp.weixin.qq.com/s/jdvW4H2o8N9S-ve7_Zy54A)
 
 ### blog tool
 

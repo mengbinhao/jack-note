@@ -1,3 +1,20 @@
+- 2021.3.30
+  - enormity n
+  - degrade v | degradation n
+  - shriek n/vt
+  - kidnap
+
+- 2021.3.29
+  - cruel adj
+  - accompany
+
+  > They're beyond capacity
+
+- 2021.3.27
+  - abduct vt | kidnap vt
+
+  > Anger over this is not confined to London, it's spread across the country
+
 - 2021.3.19
   - attract v
 
@@ -85,7 +102,7 @@
   - overall adj/adv
   - overnight n
   - overhaul v
-  - overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
+  - overwhelmed | overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
   - oversee vt | oversea adj/adv
   - predate vt
 
@@ -415,7 +432,7 @@
   - manipulate vt | manipulation n
 
 - 2020.12.22
-  - determine v | determination n
+  - determine v | determination n | indeterminate adj
   - divorce n/v
 
   > I'm so sorry about the fact that everything is so last minute
@@ -1256,7 +1273,6 @@
 - 2020.7.14
   - limit n/vt | limitation
   - rob v | robbery n
-  - kidnap vt
   - county n
   - mechanic n/adj
 
@@ -1658,7 +1674,7 @@
   - graphic adj
   - leak n/v
   - bureau n | bureaucracy n
-  - murder n/v
+  - murder n/v | murderous
   - jog n/v | jogger
 
 - 2020.5.13
@@ -1688,7 +1704,7 @@
   - sake n
   - amplify v
   - unequivocally  adv
-  - sexually adv
+  - sexually adv | sexual adj
   - admire v | admiration n
   - recognise vt
   - pride n/v
@@ -2289,7 +2305,7 @@
 
 - 2020.3.9
   - unfounded adj
-  - mishandle vt
+  - handle | mishandle vt
   - rein n/v | reign n/vi
   - pinpoint n/vi/adj
   - appreciate v
@@ -2468,7 +2484,7 @@
   - gymnasium n
   - cave n/v | cavernous adj
   - dot v/adj
-  - tourist n/v/adj | tourism n | tour n/v
+  - tour n/v | tourist n/v/adj | tourism n
   - steam n/v/adj
   - monarch n
   - avoid v | unavoidable adj
@@ -2633,7 +2649,6 @@
   - bravo n
   - taunt n/vt
   - terminate v
-  - indeterminate adj
   - slapdash adj
   - sloppy adj
   - impugn vt
@@ -3256,7 +3271,6 @@
   - empower vt
   - occupation n | occupy v
   - mad adj | madness n
-  - influx n
   - intend v | intended adj | unintended adj
 
   > in the past week
@@ -3381,7 +3395,7 @@
   - individual n/adj
   - interim n/adj
   - clearance n
-  - accompany vt
+  - accompany vt | accompanied | unaccompanied
 
   > step forward
   > there is no date set as of yet
@@ -4149,7 +4163,7 @@
   - obstruction n | obstruct vt
   - ultimate n/adj | ultimately adv
   - exonerate n/vt/adj
-  - motivated adj | motivation n | motive n | demotivate v
+  - motivate v | motivated adj | motivation n | motive n | demotivate v
   - integrity n
   - rare adj | rarely | rarity n
   - porch n
