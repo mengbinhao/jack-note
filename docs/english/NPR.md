@@ -1,3 +1,12 @@
+- 2021.3.31
+  - susceptible adj
+  - bulk n/vt
+  - theory n
+  - hypothesis n
+  - pamphlet n
+  - label n/v
+  - clot n/v
+
 - 2021.3.30
   - enormity n
   - degrade v | degradation n
