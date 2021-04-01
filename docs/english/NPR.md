@@ -1,3 +1,9 @@
+- 2021.4.1
+  - existence n
+
+  > The law enforcement went to great lengths to say that xxx
+  > at the root of a lot of that is racism
+
 - 2021.3.31
   - susceptible adj
   - bulk n/vt
@@ -1139,7 +1145,8 @@
   - spontaneous adj | spontaneously adv
   - candidate n | candidacy n
   - plentiful adj
-  - eliminate vt | repeal n/vt | abolish vt
+  - eliminate vt
+  - repeal n/vt | abolish vt
   - adhere vi
   - fist n/vt
   - yell n/v
@@ -3186,7 +3193,7 @@
   > Here's Trump yesterday explaining how all of this unfolded in White House
 
 - 2019.10.29
-  - origin n | originate v
+  - origin n | originate v | original | originally
   - probe n/vt
   - grand adj
   - injury n
