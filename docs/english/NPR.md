@@ -1,3 +1,13 @@
+- 2021.4.2
+  - tangible adj/n
+  - resolve n/v
+  - rub n/v | rubber n/v/adj
+  - wrap n/v
+  - announce v | unannounced
+  - fork n.v
+
+  > The US is at a fork in the road
+
 - 2021.4.1
   - existence n
 
@@ -88,7 +98,6 @@
 
 - 2021.3.8
   - absence n
-  - rubber n/v/adj
   - wade v
 
   > one other thing to keep in mind
@@ -1013,7 +1022,6 @@
   - unimagined adj
 
 - 2020.8.17
-  - misgovernment n
   - removal n
   - suit n/v
   - entrench v | entrenched adj
@@ -1301,7 +1309,7 @@
   > They have been up to a lot
 
 - 2020.7.10
-  - participate v
+  - participate v | participation
   - slight adj/v/vt
   - extremism n
   - supremacist n
@@ -2603,7 +2611,7 @@
 - 2020.1.15
   - crumble vi
   - perimeter n
-  - ungovernable adj
+  - ungovernable adj | governor n | misgovernment n
   - liberal adj
   - intersection n
   - soak n/v
@@ -3769,7 +3777,6 @@
 
 - 2019.9.12
   - blow n/v
-  - ostensibly adv | ostensible adj
   - deadlock n/vt | stalemate n/v | impasse n
   - momentous adj
   - amend v | amendment n
@@ -3923,7 +3930,6 @@
   - stake n/v
   - tone n | undertone n
   - petty adj
-  - governor n
   - wrath n
   - grab v
   - offense n | offensive n/adj
