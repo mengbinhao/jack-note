@@ -1,3 +1,20 @@
+- 2021.4.6
+  - wildlife n
+  - downpour n | rainfall n
+  - blaze n/vi
+
+  > Even as rain subsides, the floodwater will still pose trouble for weeks to come
+  > We don't actually have a clear image of xxx
+  > xxx trying to make it through yyy
+- 2021.4.5
+  - soul n/adj
+  - gain n/vt
+  - brave | bravery n
+  - sag vi
+  - compatible adj | incompatible
+
+  > But nothing that appears to get at the root cause of this problem
+
 - 2021.4.2
   - tangible adj/n
   - resolve n/v
@@ -1845,7 +1862,6 @@
   - intermediate adj
   - haul n/v
   - bonkers adj
-  - hijack vt
   - renegade n
   - synonym n
 
@@ -1976,7 +1992,6 @@
 
 - 2020.4.13
   - podium n
-  - ashore adj/adv
   - relieve vt
   - grad n
   - academy n | academic n/adj
@@ -2077,7 +2092,6 @@
 
 - 2020.3.31
   - portion n/vt
-  - harbor n
   - inhibit vt
   - tangle n/v | tangled adj
   - contest n/v | contestant n
@@ -2123,7 +2137,6 @@
   - halt n/v
   - smooth | smoothly
   - enthuse v | enthusiastic adj | enthusiasm n
-  - regress vi | regressive adj
   - temporary adj | temporarily adv
   - temperature n
   - temptation n
@@ -2199,7 +2212,6 @@
   > It's really hard to get real-time information out of there
 
 - 2020.3.19
-  - strand n/v | stranded adj
   - demolish vt
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
@@ -2539,6 +2551,7 @@
   - cruise n/v
   - televise v
   - investigator n | investigation | investigate | investigative adj
+  - investor n | invest v
   - sift v
   - condolence n
   - sincere adj | sincerely
@@ -3339,6 +3352,7 @@
 - 2019.10.17
   - typhoon n | hurricane n | cyclone n
   - scary adj | scare n/v/adj
+  - scarce adj/adv
   - archipelago n
   - diminished adj | diminish v
   - valley n
@@ -3633,7 +3647,7 @@
   - lengthy adj
   - conference n
   - garner vt
-  - accumulation n | accumulate v | accrue v
+  - accumulate v | accumulation n
   - reputation n
   - embrace n/v
   - refuge n/v | refugee n
@@ -4009,7 +4023,6 @@
   - curve n/vt
   - precede vt
   - decent adj | decency n
-  - investor n | invest v
   - retire v | retirement n
   - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
@@ -4371,7 +4384,7 @@
   > a lot of progress has been made
 
 - 2019.7.10
-  - shore n/vt
+  - shore n/vt | ashore adj/adv
   - foe n
   - tough n/adj/adv
   - neighborhood n | neighboring adj |　neighbor n/adj
