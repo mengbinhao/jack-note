@@ -1,10 +1,19 @@
+- 2021.4.7
+  - increase | increment | incremental
+  - submarine n
+  - evade v
+  - payload n
+
+  > quite some time ago now with the time difference
+  > XXX will have a tougher time shrugging those off
+
 - 2021.4.6
   - wildlife n
   - downpour n | rainfall n
   - blaze n/vi
 
   > Even as rain subsides, the floodwater will still pose trouble for weeks to come
-  > We don't actually have a clear image of xxx
+  > We don't actually have a clear image of how much has just been damaged and destroyed
   > xxx trying to make it through yyy
 - 2021.4.5
   - soul n/adj
@@ -373,7 +382,7 @@
 - 2021.1.11
   - square n/v/adj
   - fabricate vt | fabricated
-  - missile adj
+  - missile n/adj
   - avenge vt
 
 - 2021.1.7
@@ -2658,7 +2667,6 @@
   - continent n | intercontinental adj
   - fury n
   - favor n/vt | favorable adj | unfavorable
-  - provocation n | provocative adj
   - lump n
   - peninsula n
   - standstill n
@@ -3236,7 +3244,7 @@
   - helmet n
   - revive v
   - dictator n | dictatorship n
-  - armored adj
+  - armored adj | arm n/v | disarm
   - spill n/v
   - cannon n/v
   - hike n/v
