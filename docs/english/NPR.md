@@ -1,3 +1,15 @@
+- 2021.4.8
+  - wedge n/v
+  - axis n
+  - rotate v/adj  | rotation n | rotational
+  - forthcoming adj
+  - compensate v
+  - empire n
+  - sideway adj/adv
+  - canal n/vt
+
+  > There will be a lot of lessons to be learnt here
+
 - 2021.4.7
   - increase | increment | incremental
   - submarine n
@@ -75,7 +87,6 @@
   - rule n/v
 
 - 2021.3.16
-  - stockholder n
   - shower n/v
   - insure v | insured | uninsured
 
@@ -251,6 +262,7 @@
   - rod n
   - bamboo n
   - route n/vt
+  - passage n
 
 - 2021.2.18
   - replaceable adj | irreplaceable
@@ -457,7 +469,6 @@
   - transparent adj | transparency n | in-transparency n
   - transform v | transformation
   - transpire v
-  - disruptive
 
 - 2020.12.26
   - mutate v | mutation n
@@ -4002,6 +4013,7 @@
   - steer v | steering n/adj
   - grim adj
   - predict v | predictable adj | prediction n
+  - disturb v | disturbed | disturbing adj
   - disrupt vt | disruptive adj | disruption n
   - spark n/v
   - seamless adj
@@ -4114,7 +4126,6 @@
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj | abuser
   - minor n/adj
-  - disturb v | disturbed | disturbing adj
   - prosecutor n | prosecute v | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
   - emphasize vt | emphasis n | emphatic adj
   - redact v
@@ -4330,7 +4341,7 @@
   > I think what we can be certain of is that ...
 
 - 2019.7.16
-  - criticism n | critic n | critical adj | criticize v
+  - critic n | critical adj | criticize v | criticism n
   - cable n/vt
   - ambassador n | embassy n
   - inept adj
@@ -4525,7 +4536,7 @@
   > So there's been a wide range
 
 - 2019.6.27
-  - stockpile n/vt
+  - stock n/v/adj | stockpile n/vt | stockholder n
   - enrich v | enriched adj | enrichment n
   - altogether adv
   - reactor adv | react | reaction | action | inaction | interaction n
