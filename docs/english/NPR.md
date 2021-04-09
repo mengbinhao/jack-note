@@ -1,3 +1,8 @@
+- 2021.4.9
+  - unusable | usable adj
+  - fling n/v
+  - interrogate vt
+
 - 2021.4.8
   - wedge n/v
   - axis n
@@ -4499,7 +4504,7 @@
   - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
-  - rage n/v | raging adj | enraged v/adj | outrage n/vt | outraged adj | rampage n/vi
+  - rage n/vi | raging adj | enraged v/adj | outrage n/vt | outraged adj | rampage n/vi
   - rally n/v
   - literal adj | literally adv
   - rig n/vt | rigged adj
