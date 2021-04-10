@@ -1,3 +1,14 @@
+- 2021.4.10
+  - recipe n
+  - define vt
+  - sack n/vt
+  - uneasy adj
+  - outlet n
+  - boil n/v
+  - exodus n
+
+  > It's certainly got a lot messier
+
 - 2021.4.9
   - unusable | usable adj
   - fling n/v
@@ -1273,7 +1284,7 @@
   - pilot n | autopilot
   - silence n /v | silent adj/n
   - spectrum n
-  - humiliate vt
+  - humiliate vt |humiliation
   - portrait n
   - obtain v
   - laundry n
@@ -1771,7 +1782,7 @@
   - amplify v
   - unequivocally  adv
   - sexually adv | sexual adj
-  - admire v | admiration n
+  - admire v | admiration n | admirer
   - recognise vt
   - pride n/v
   - honour n/vt
@@ -2195,7 +2206,7 @@
   - reliable adj | rely vi
   - forehead n
   - gauge n
-  - stress n/vt | distressed adj
+  - stress n/vt | distress n/vt | distressed adj
   - folk n
   - adjust v | adjustment n
   - peculiar adj
@@ -3283,7 +3294,7 @@
   - fallout n
   - stall n/v
   - ethic n
-  - deliberation n | deliberately adv | deliberate v/adj
+  - deliberation n | deliberate v/adj | deliberately adv
   - liberator n | liberation n | liberate vt
   - prevail vi
   - vast adj | vastness
@@ -3538,7 +3549,7 @@
   - patriot n | patriotism | unpatriotic adj
   - bar n/vt | barrier n/vt | barricade n/vt
   - subsidy n | subsidize vt
-  - dumping n | dump n/v
+  - dump n/v | dumping
   - theft n
   - puppet n
   - menacing adj
@@ -3743,7 +3754,7 @@
   - slice n
   - offering n
   - involve v | involvement n
-  - dismiss vt
+  - dismiss vt |dismissal n
   - maximum n | minimum n | minimize v | minimal adj
   - crown n/vt
 
@@ -3964,7 +3975,7 @@
   - occasion n/vt | occasional adj
   - shrug n/v
   - stretch n/v
-  - crucial adj
+  - crucial adj | crucially
   - stake n/v
   - tone n | undertone n
   - petty adj
