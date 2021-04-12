@@ -1,3 +1,15 @@
+- 2021.4.12
+  - offspring n
+  - sheer adj
+
+  > ripple effect
+
+- 2021.4.11
+  - teenage n
+  - uproar n
+
+  > The parallels are chilling
+
 - 2021.4.10
   - recipe n
   - define vt
@@ -1008,7 +1020,7 @@
   - attempt n/vt
   - similar | similarity
   - coma n
-  - dissent n/v | dissident n/adj
+  - dissent n/vi | dissident n/adj
   - funnel n/v
 
   > in a coma
@@ -2251,7 +2263,7 @@
   - demolish vt
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
-  - human n/adj | humane adj | humanitarian | humanity n | inhumane
+  - human n/adj | humanitarian | humanity n | humane adj | inhumane
 
   > humanitarian crisis
   > what we're seeing now is just sort of like a hammering out of the parameters
@@ -3559,7 +3571,7 @@
   - proportional adj| proportion | proportionate adj | dis-proportionate
   - artificial adj | artificially
   - multilateral adj
-  - harass vt | harassment n
+  - harass vt | harassed | harassment n
   - thereafter adv
   - breach n/vt
   - caucus n/vi
@@ -4180,7 +4192,7 @@
   - brake n/v
   - ballistic adj
   - stability | instability n
-  - destabilize vt ｜ stabilize v
+  - stabilize v | destabilize vt
   - peril n
   - sleepwalking n
   - forecast n/vt | forecaster n
@@ -4317,7 +4329,7 @@
 
 - 2019.7.18
   - comedian n
-  - bully n/vt | bullying n/adj
+  - bully n/vt
   - ex n
   - chamber n
   - adoring adj
@@ -4346,7 +4358,7 @@
   - council n
   - civilian n/adj | civilization n | civil adj | uncivil
   - coup n
-  - sole adj/n/vt
+  - sole adj/n/vt | solely
   - compromise n/v
   - reservation n
   - opt vi
@@ -4591,7 +4603,7 @@
   - afloat adj/adv
   - speculate v | speculation n
   - takeaway n
-  - plot n/v | plotter
+  - plot n/v | plotter n
   - fierce adj | fiercely adv
   - yield n/v
   - heighten v
