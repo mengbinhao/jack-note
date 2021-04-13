@@ -1,3 +1,18 @@
+- 2021.4.13
+  - dawn n/v
+  - noble n/vt/adj
+  - blade n
+  - realm n
+  - glory n/vi
+  - theatre n
+  - recede v
+  - precede vt
+  - phrase n/vt
+  - pint n
+  - cautions adj
+
+  > It's reached the point where no one is able to speak or express an opinion on anything without being bullied, arrested, harassed, and threatened
+
 - 2021.4.12
   - offspring n
   - sheer adj
@@ -435,7 +450,6 @@
   - bottle n/vt
   - ridge n/vt
   - vowel n/adj
-  - certify
 
   > Either way, Congress will have completed that step on January 6th
   > I get stressed and my productivity drops
@@ -1062,7 +1076,7 @@
 
 - 2020.8.22
   - scholar n
-  - monarchy n
+  - monarch n | monarchy n
   - discipline n/vt | disciplined adj
 
 - 2020.8.19
@@ -1445,7 +1459,7 @@
 - 2020.6.27
   - excessive adj
   - persuade v
-  - certify vt | certified adj | credential n | certification n
+  - certify vt | certified adj | credential n | certification n | certificate n
 
 - 2020.6.24
   - plausible adj
@@ -2091,7 +2105,7 @@
   > Because so much commerce is tied into what happens with China
 
 - 2020.4.7
-  - breakout n
+  - break n/v | breakout n | outbreak n
   - confident adj | confidence n/adj | confidante n
   - community n | communal adj | communism
   - vaccine n/adj | vaccination n | vaccinate vt
@@ -2273,7 +2287,6 @@
 - 2020.3.18
   - gather n/v | gathering n/adj
   - monetary adj
-  - outbreak n
   - bear n/v
   - statistic n/adj | statistical adj
   - inoculate vt
@@ -2565,12 +2578,11 @@
   - holdout n
   - donation n | donate v | donor n
   - continue | continual adj | continuous adj | continuity n | continuation
-  - gymnasium n
+  - gym | gymnasium n
   - cave n/v | cavernous adj
   - dot v/adj
   - tour n/v | tourist n/v/adj | tourism n
   - steam n/v/adj
-  - monarch n
   - avoid v | unavoidable adj
   - figurehead n
   - outspoken adj
@@ -3227,7 +3239,7 @@
 
 - 2019.10.31
   - tender n/v/adj
-  - segregate vt
+  - segregate vt | segregation
   - paralyze vt | paralysis n
   - penalize vt
   - ecstatic adj
@@ -4069,7 +4081,6 @@
   - combine v | combined adj | combination n
   - ominous adj
   - curve n/vt
-  - precede vt
   - decent adj | decency n
   - retire v | retirement n
   - drama n | dramatic adj | dramatically adv | overdramatize vt
@@ -4214,7 +4225,7 @@
   - garlic n
   - choke v
   - tragedy n ｜ comedy n | tragic adj
-  - residence n | resident n/adj | residency | residential adj
+  - reside vi | residence n | resident n/adj | residency | residential adj
   - lax adj
   - spree n/vi
   - witness n/vt | eyewitness
