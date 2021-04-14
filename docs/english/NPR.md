@@ -1,3 +1,9 @@
+- 2021.4.14
+  - shuttle n/v
+
+  > And judging from that
+  > Maximalist demands are not going to get up anywhere
+
 - 2021.4.13
   - dawn n/v
   - noble n/vt/adj
@@ -1056,7 +1062,7 @@
 
 - 2020.8.26
   - rural adj
-  - directive n/adj
+  - direct v/adj | indirect | directive n/adj | direction
   - allude vi
   - organize | organization | organizational | reorganize
 
@@ -4327,7 +4333,7 @@
   - postpone vt | postponement n
   - mandate n/vt | mandated adj
   - sector n
-  - impose v | self-imposed adj | imposition n
+  - impose v | self-imposed adj | imposition n | reimpose
   - finality n
   - authority n | authorized | unauthorized adj | authorization n |authoritarian adj/n
   - raise n/v
