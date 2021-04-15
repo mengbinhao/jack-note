@@ -1,3 +1,11 @@
+- 2021.4.15
+  - celebrate v | celebration
+  - rational adj
+  - disproportion n/vt | disproportionate adj | disproportionately
+  - apart adj/adv
+  - kit n
+  - ghost n
+
 - 2021.4.14
   - shuttle n/v
 
@@ -305,7 +313,7 @@
 - 2021.2.19
   - cricket n
   - scrap n/v
-  - meager adj
+  - eager adj
   - agriculture n | agricultural adj | agrarian n
   - fort n
   - rod n
@@ -1152,7 +1160,7 @@
 - 2020.8.13
   - disposal n
   - inherit v | inheritance
-  - rifle n
+  - rifle n | pistol n/vt
   - expedition n
   - legacy n
 
@@ -1787,7 +1795,6 @@
   - jog n/v | jogger
 
 - 2020.5.13
-  - eager adj
   - propaganda n
   - vain adj
   - daring n/adj
@@ -3856,7 +3863,7 @@
 
 - 2019.9.12
   - blow n/v
-  - deadlock n/vt | stalemate n/v | impasse n
+  - deadlock n/vt | impasse n
   - momentous adj
   - amend v | amendment n
   - compete vi | competing adj | competitive adj | competitor n | competition n
