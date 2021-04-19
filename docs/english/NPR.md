@@ -1,3 +1,11 @@
+- 2021.4.19
+  - abate v
+
+  > This was supposed to be put to rest
+
+- 2021.4.16
+  - fiction n
+
 - 2021.4.15
   - celebrate v | celebration
   - rational adj
@@ -1008,7 +1016,6 @@
 
 - 2020.9.7
   - festive | festival
-  - era n
 
   > It was a milestone, it held a lot of symbolic meaning
   > It was the most exciting flight they've ever taken
@@ -1432,7 +1439,7 @@
   - fume n/v
   - censor n/vt | censorship
   - pretext n/vt
-  - disclose vt
+  - disclose vt | undisclosed
   - publication n
 
   > so taking all of that into account
@@ -2189,7 +2196,7 @@
 - 2020.3.28
   - emotion n | emotional | emotionally
   - motion n/v
-  - identify v | unidentified adj
+  - identify v | unidentified adj | identity n
   - pandemic adj | epidemic n/adj
   - gasp n/v
   - obit n
@@ -2275,11 +2282,11 @@
   - consent n/vi | consensus n | consensual adj
   - strip n/v
   - coward n/adj
-  - obscene adj
 
 - 2020.3.20
   - maneuver n/v
-  - throne n/v
+  - throne n/v | crown n/vt
+  - heir n
   - rumor n/v
   - comment n/v | commentator n | commentary n
   - brook n/vt
@@ -2464,7 +2471,7 @@
   - native adj
   - struggle n/v
   - population n
-  - popularity n
+  - popularity n | popular | unpopular
   - reunification | unify vt
   - swap n/v
   - percentage n
@@ -3051,6 +3058,7 @@
 
 - 2019.12.6
   - scene n | scenario n
+  - obscene adj
   - behind-the-scenes adj
   - curious adj
   - renounce vt
@@ -3433,7 +3441,7 @@
   - prefecture n
   - Panamanian n/adj
   - anchor n/vt
-  - bay n
+  - bay n/v
   - landslide n | slide n/v
   - magnitude n
   - Jeez
@@ -3793,7 +3801,6 @@
   - involve v | involvement n
   - dismiss vt |dismissal n
   - maximum n | minimum n | minimize v | minimal adj
-  - crown n/vt
 
   > give us the context here
   > up until just recently
@@ -4224,7 +4231,6 @@
 
 - 2019.8.7
   - anonymous adj | anonymously adv
-  - heir n
   - fiery adj
   - grooming n | groom  n/v
   - hierarchical adj
@@ -4509,7 +4515,7 @@
   - firmly adv | firm n/vt/adj
   - spike n/v
   - loan n/vt
-  - recess n/vt | recession n | depress vt | depression n
+  - recess n/vt | recession n | depress vt | depression n | depressed
   - prospect n/vi
   - debate n/v
   - staggering adj
