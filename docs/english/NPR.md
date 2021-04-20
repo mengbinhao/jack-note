@@ -1,3 +1,10 @@
+- 2021.4.20
+  - discharge n/v
+  - tank n/v
+  - perception n
+
+  > Our opposition to the move will never change, not even one bit
+
 - 2021.4.19
   - abate v
 
@@ -1686,7 +1693,7 @@
 
 - 2020.6.1
   - aviation n
-  - wreckage n
+  - wreck n/v | wreckage n
   - scarf n
   - cacophony n
   - onboard adj
@@ -2041,7 +2048,7 @@
 - 2020.4.16
   - primary n/adj | primarily
   - upcoming adj
-  - desire n/v
+  - desire n/v | desirable
   - backbone n
   - fringe n/vt/adj
   - mainstream n
@@ -3374,7 +3381,7 @@
   - compel vt
   - astonishing adj | astonish v
   - consistent adj | consistently adv
-  - distrust n/vt
+  - distrust n/vt | mistrust n/vt
   - norm n
 
   > in some ways, xxx
@@ -3649,7 +3656,7 @@
   - hardship n
   - balloon n/v/adj
   - gimmick n
-  - unrealistic adj | realistic adj
+  - realistic adj | unrealistic adj
 
   > xxx that we can no longer afford
   > we are clearly on the wrong path
@@ -3947,7 +3954,6 @@
   - reprimand n/vt
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n
-  - mistrust n/vt
   - reluctant adj | reluctantly adv
   - collective adj
   - replicate n/adj/vt
@@ -4155,7 +4161,7 @@
 - 2019.8.15
   - arctic n/adj
   - sketchy adj | sketch n/v
-  - contaminate vt | contaminated adj | contamination n
+  - contaminate vt | contaminated adj | contamination n | contaminant
   - terse adj | tersely
   - comparison n
   - scale n/vt
@@ -4393,7 +4399,7 @@
   - reservation n
   - opt vi
   - stumble n/vt | stumbling adj | tumble n/vi
-  - gradual adj
+  - gradual adj | gradually
 
   > you mentioned an election will happen down the road
   > I think what we can be certain of is that ...
@@ -4578,7 +4584,7 @@
   - collapse n/vi
   - faint n/vi/adj
   - trial n/adj | retrial n
-  - democratically adv | democratic adj | democracy n | democrat
+  - democratically adv | democratic adj | democracy n | democrat | undemocratic
   - jail n/vt
   - crack n/adj/v
   - crackdown n | repress v | repression n | dampen vt | curb vt | curbed adj | repressive adj
