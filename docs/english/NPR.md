@@ -1,3 +1,11 @@
+- 2021.4.21
+  - liquid n/adj | solid
+  - melt n/v
+  - adversary | adversarial
+  - stable n/adj
+
+  > It doesn't expect for those to go away overnight
+
 - 2021.4.20
   - discharge n/v
   - tank n/v
@@ -1039,7 +1047,7 @@
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
 
 - 2020.9.3
-  - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist
+  - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist | opportunism n | racism n
   - shareholder n
   - preside v
   - buddy n
@@ -2446,7 +2454,7 @@
   - seal n/v
   - validity n | valid adj
   - warlord n
-  - notorious adj
+  - notorious adj | notoriously
   - parallel n/vt/adj
   - intra n/prep
   - drawdown n
@@ -3738,7 +3746,6 @@
   - reputation n
   - embrace n/v
   - refuge n/v | refugee n
-  - racism n
   - fracture n/v
 
   > I am hoping that my apology is going to be enough
@@ -4042,7 +4049,6 @@
   - scathing adj
   - rebuke vt
   - deputy n
-  - opportunism n
   - blistering adj
   - institute n/vt
   - institution n | institutional adj
@@ -4051,7 +4057,6 @@
   - defiant adj
   - get-go n
   - wary adj
-  - mordernism n
   - decree n/vt
   - dismayed adj | dismay n/vt
   - stance n
@@ -4072,13 +4077,13 @@
 
 - 2019.8.30
   - obsess v | obsessed adj
-  - addict n/vt | addiction n
+  - addict n/vt | addicted | addiction n
 
 - 2019.8.26
   - contingency n/adj
   - steer v | steering n/adj
   - grim adj
-  - predict v | predictable adj | prediction n
+  - predict v | predictable adj | prediction n | unpredictable | predictability | unpredictability
   - disturb v | disturbed | disturbing adj
   - disrupt vt | disruptive adj | disruption n
   - spark n/v
