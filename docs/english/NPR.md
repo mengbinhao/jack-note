@@ -1,3 +1,8 @@
+- 2021.4.22
+  - contain v
+
+  > US did what it set out to do in Afghanistan
+
 - 2021.4.21
   - liquid n/adj | solid
   - melt n/v
