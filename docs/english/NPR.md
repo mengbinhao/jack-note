@@ -1,3 +1,9 @@
+- 2021.4.23
+  - carrot n
+
+  > xxx seems to be walking a fine line
+  > these are sticks that we're talking about now
+
 - 2021.4.22
   - contain v
 
@@ -2217,6 +2223,7 @@
   - emotion n | emotional | emotionally
   - motion n/v
   - identify v | unidentified adj | identity n
+  - entity n
   - pandemic adj | epidemic n/adj
   - gasp n/v
   - obit n
@@ -2495,7 +2502,6 @@
   - reunification | unify vt
   - swap n/v
   - percentage n
-  - entity n
   - usual adj | unusual
   - pillar n/v
   - fractious adj
@@ -2786,6 +2792,7 @@
   - taunt n/vt
   - terminate v
   - slapdash adj
+  - slap n/v/adj
   - sloppy adj
   - impugn vt
   - purport n/vt
@@ -3643,7 +3650,6 @@
   - disdain n/vt
   - indecisive adj | decisive adj | decisively adv
   - obfuscate vt
-  - slap n/v/adj
   - advantage n | disadvantage
 
   > let's put/set aside that xxx
