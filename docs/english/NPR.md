@@ -1,3 +1,25 @@
+- 2021.4.27
+  - exhale v
+  - burger n
+
+  > It feels like everyone took a collective breath
+
+- 2021.4.26
+  - theater n
+  - tide n/vt
+
+- 2021.4.24
+  - evaporate v
+  - greed n | greedy adj
+  - instant n/adj
+  - goose n
+  - nail n/vt
+  - accustom vt | accustomed
+
+  > And none of those are in great shape right now
+  > You've got it nail on the head
+  > It rare ends well
+
 - 2021.4.23
   - carrot n
 
@@ -225,7 +247,6 @@
   - bribe n/vt | bribery
 
 - 2021.3.8
-  - absence n
   - wade v
 
   > one other thing to keep in mind
@@ -1235,7 +1256,6 @@
   - impress n/v | impression n | impressive adj
   - nuance n
   - discourse n
-  - grill n/v
   - tale n
   - emperor n
 
@@ -1599,7 +1619,7 @@
   - aberration n
   - swift adj | swiftly
   - elicit vt
-  - apology n
+  - apology n | apologize v
   - unarmed adj
   - halfway adj/adv
 
@@ -1657,6 +1677,7 @@
   - widen v
   - fault n
   - deserve v
+  - serve v
   - thug n
   - executive n/adj
   - glorify vt | glorious adj
@@ -2303,7 +2324,7 @@
   - procedure n | procedural adj
   - proceeding n | proceed vi/n
   - ramble n/v | rambling adj
-  - joyous adj
+  - joyous adj | joy n/v
   - penetrate v | penetration n
   - trauma n
   - consent n/vi | consensus n | consensual adj
@@ -2373,7 +2394,6 @@
   - entertain v | entertainment | entertainer n
   - iron n | ironic adj | irony n
   - marginalize vt
-  - atmosphere n | atmospheric adj
   - enshrine vt
   - tacit adj
 
@@ -2545,7 +2565,7 @@
   - purposely adv
   - slim adj
   - suburb n | suburban adj/n | urban adj
-  - present n/v/adj | represent vt | representative n/adj | presence n
+  - present n/v/adj | represent vt | representative n/adj | presence n | absence
   - clap n/v
 
   > I was not elected to do small things and shy away from big problems
@@ -2722,7 +2742,7 @@
 - 2020.1.16
   - lean n/v
   - impending adj | impend vi
-  - lash n/v | backlash n
+  - lash n/v
   - clash n/v
   - militia n
   - jeopardy n
@@ -2761,7 +2781,7 @@
 - 2020.1.10
   - submission n
   - doorstep n
-  - continent n | intercontinental adj
+  - continent n/adj | intercontinental adj | continental adj
   - fury n
   - favor n/vt | favorable adj | unfavorable
   - lump n
@@ -3973,7 +3993,7 @@
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n
   - reluctant adj | reluctantly adv
-  - collective adj
+  - collective adj | collect
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
@@ -4559,7 +4579,7 @@
   > it does kind of raise questions about how xxxx
 
 - 2019.7.2
-  - intent n/adj | intention n | intentional | intentionally
+  - intent n/adj | intention n | intentional | intentionally | unintentional
   - loose n/vt/adj | loosen v
   - conciliatory adj
   - tactic n | tactical adj
@@ -4605,6 +4625,7 @@
   - crack n/adj/v
   - crackdown n | repress v | repression n | dampen vt | curb vt | curbed adj | repressive adj
   - circumstance n | circumspect adj | circumstantial adj
+  - atmosphere n | atmospheric adj
   - ban vt | banner n
   - suffer v | undergo vt
   - defend v | defensive adj | defendant n
