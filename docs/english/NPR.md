@@ -1,3 +1,10 @@
+- 2021.4.28
+  - expensive adj
+  - peril n/vt | perilous adj
+  - emission n
+
+  > It's notable they have not laid out a clear path to get there
+
 - 2021.4.27
   - exhale v
   - burger n
@@ -79,7 +86,6 @@
   - precede vt
   - phrase n/vt
   - pint n
-  - cautions adj
 
   > It's reached the point where no one is able to speak or express an opinion on anything without being bullied, arrested, harassed, and threatened
 
@@ -522,9 +528,6 @@
 
   > Either way, Congress will have completed that step on January 6th
   > I get stressed and my productivity drops
-
-- 2021.1.6
-  - faction n
 
 - 2021.1.5
   - fever n
@@ -2366,7 +2369,7 @@
   - belly n/v
   - excel v
   - embolden vt
-  - caution v | precaution n | cautious | cautiously
+  - caution n/vt | precaution n | cautious adj | cautiously
   - abundance n
   - quarantine n/vt
   - parliamentary adj ｜ parliament n
@@ -2982,6 +2985,7 @@
 - 2019.12.17
   - metaphor n | metaphorically adv
   - exemplify n/vt
+  - faction n
   - fraction n
   - infraction n
   - robust adj
@@ -3198,7 +3202,6 @@
   - lurk n/vi
   - takeover n
   - bend v
-  - perilous adj
   - arson n
   - loot n/v | looter
   - divert v
@@ -4266,7 +4269,6 @@
   - ballistic adj
   - stability | instability n
   - stabilize v | destabilize vt
-  - peril n
   - sleepwalking n
   - forecast n/vt | forecaster n
   - advocate n/vt | advocacy n
