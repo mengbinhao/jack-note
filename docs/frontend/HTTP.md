@@ -45,21 +45,16 @@ URI是一个用于标识互联网资源名称的字符串，最常见的形式�
 HTTP请求的报文一般是由 协议行、可选的请求头部、请求体组成
 
 - 请求：
-Request line
-包括：请求方法、请求的资源、HTTP协议的版本号
-Request header
-包括：Cache头域、Client头域、Cookie/Login头域、Entity头域、Miscellaneous头域、Transport头域等
-空行
-Request body
-Response响应
+1. Request line(请求方法、请求地址、HTTP协议版本号)
+2. Request header(Cache头域、Client头域、Cookie/Login头域、Entity头域、Miscellaneous头域、Transport头域等, 浏览器的信息、接受的语言格式等一些浏览器的信息和想要发送给服务器的信息比如身份验证信息，**可选**)
+3. 空行
+4. Request body(发送服务器的数据、内容，**可选**，get方式没有请求主体)
 
 - 回包：
-Response line
-包括：HTTP协议的版本号、状态码、消息
-Response header
-包括：Cache头域、Cookie/Login头域、Entity头域、Miscellaneous头域、Transport头域、Location头域等
-空行
-Response body
+1. Response line(HTTP协议的版本号、状态码、消息)
+2. Response header(Cache头域、Cookie/Login头域、Entity头域、Miscellaneous头域、Transport头域、Location头域等, 服务器的信息以及服务器想要告诉浏览器的一些信息)
+3. 空行
+4. Response body(正常用户看到的内容)
 
 ##### 3 请求的过程
 一个完整的HTTP请求过程如下：
@@ -70,6 +65,12 @@ Response body
 - 握手成功后建立TCP通道，发起HTTP请求
 - 服务器响应HTTP请求，返回对应的响应报文
 - 客户端开始解析渲染
+  - 解析html文件，生成dom树
+  - 解析css文件，生成style树
+  - 结合dom树和style树，生成render tree
+  - layout布局渲染
+  - GPU像素绘制页面
+
 ##### 4 状态码
 
 ###### basic

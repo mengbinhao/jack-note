@@ -14,203 +14,197 @@
 
 // 空数组遍历不到
 // undefined可以遍历
-let arrayEmpty = [, , ,];
-let arrayUndefined = [undefined,undefined,undefined];
+let arrayEmpty = [, , ,]
+let arrayUndefined = [undefined, undefined, undefined]
 // 不产生任何输出
 arrayEmpty.forEach(function (x, i) {
-  console.log(i + '. ' + x);
+	console.log(i + '. ' + x)
 })
 // 不产生任何输出
 for (let i in arrayEmpty) {
-  console.log(i);
+	console.log(i)
 }
-Object.keys(arrayEmpty);
-
+Object.keys(arrayEmpty)
 
 // 1 不能区分'4'和4
 // 2 对象一律得到的是[object Object]
-let arrayMergeAndRemoveRepetition =  () => {
-    //ES6
-    let arr = [].concat.apply([], arguments);
-    //Array.from(new Set(arr))
-    return [...new Set(arr)];
+let arrayMergeAndRemoveRepetition = () => {
+	//ES6
+	let arr = [].concat.apply([], arguments)
+	//Array.from(new Set(arr))
+	return [...new Set(arr)]
 
-    //ES5
-    // let len = arguments.length,
-    //     arr = [];
-    // concat
-    // for (let index = 0; index < len; index++) {
-    //     arr = arr.concat(arguments[index]);
-    // }
-    // remove repetition
-    // let result = [],
-    //     obj = {};
-    // for (let index = 0; index < arr.length; index++) {
-    //     if (!obj[arr[index]]) {
-    //         obj[arr[index]] = true;
-    //         result.push(arr[index]);
-    //     }
-    // }
-    // return result;
+	//ES5
+	// let len = arguments.length,
+	//     arr = [];
+	// concat
+	// for (let index = 0; index < len; index++) {
+	//     arr = arr.concat(arguments[index]);
+	// }
+	// remove repetition
+	// let result = [],
+	//     obj = {};
+	// for (let index = 0; index < arr.length; index++) {
+	//     if (!obj[arr[index]]) {
+	//         obj[arr[index]] = true;
+	//         result.push(arr[index]);
+	//     }
+	// }
+	// return result;
 
-
-    let test = (arr) => {
-        for (let i = 0; i < arr.length - 1; i++) {
-            for (let j = i+1; j < arr.length; j++) {
-                if (arr[i] === arr[j]) {
-                    arr.splice(j, 1)
-                    //in case like [2,2]
-                    j--
-                }
-            }
-        }
-        return arr
-    }
+	let test = (arr) => {
+		for (let i = 0; i < arr.length - 1; i++) {
+			for (let j = i + 1; j < arr.length; j++) {
+				if (arr[i] === arr[j]) {
+					arr.splice(j, 1)
+					//in case like [2,2]
+					j--
+				}
+			}
+		}
+		return arr
+	}
 }
 
+let arr1 = 'john'.split('')
+let arr2 = arr1.reverse()
+let arr3 = 'jones'.split('')
+arr2.push(arr3)
+console.log('array 1: length=' + arr1.length + ' last=' + arr1.slice(-1))
+console.log('array 2: length=' + arr2.length + ' last=' + arr2.slice(-1))
 
-let arr1 = "john".split('');
-let arr2 = arr1.reverse();
-let arr3 = "jones".split('');
-arr2.push(arr3);
-console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
-console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
-
-
-let randonReplacementArray =  (array) => {
-    let len = array.length;
-    let temp = [];
-    while (len--) {
-        let ran = Math.floor(Math.random() * len);
-        temp.push((array.splice(ran, 1))[0]);
-    }
-    return temp;
+let randonReplacementArray = (array) => {
+	let len = array.length
+	let temp = []
+	while (len--) {
+		let ran = Math.floor(Math.random() * len)
+		temp.push(array.splice(ran, 1)[0])
+	}
+	return temp
 }
-randonReplacementArray([1, 5, 9, 6, 2, 6]);
-
+randonReplacementArray([1, 5, 9, 6, 2, 6])
 
 //Function------------------------
 function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms))
+	return new Promise((resolve) => setTimeout(resolve, ms))
 }
 async function test() {
-    console.log("Hello")
-    await sleep(1000)
-    console.log("World")
+	console.log('Hello')
+	await sleep(1000)
+	console.log('World')
 }
 //test()
 
-
 let splat = (fn) => {
-    return function (array) {
-        return fn.apply(null, array);
-    };
+	return function (array) {
+		return fn.apply(null, array)
+	}
 }
 let addArrayElements = splat(function (x, y) {
-    return x + y;
-});
-addArrayElements([1,2]);
-
+	return x + y
+})
+addArrayElements([1, 2])
 
 //safe constrctor
 function Person(name, age, job) {
-    //ES6
-    //new.target === Person
-    if (this instanceof Person) {
-        this.name = name;
-        this.age = age;
-        this.job = job;
-    } else {
-        return new Person(name, age, job);
-    }
+	//ES6
+	//new.target === Person
+	if (this instanceof Person) {
+		this.name = name
+		this.age = age
+		this.job = job
+	} else {
+		return new Person(name, age, job)
+	}
 }
-
 
 // 1 指定this
 // 2 返回函数
 // 3 可以传入参数
 // 4 柯里化
 Function.prototype.simulateBind = function (context) {
-    if (typeof this !== 'function') throw new Error('Function.prototype.bind')
-    let fn = this;
-    let args = [].slice.call(arguments, 1);
-    return function () {
-        return fn.apply(context, args.concat([].slice.call(arguments, 0)));
-    }
+	if (typeof this !== 'function') throw new Error('Function.prototype.bind')
+	let fn = this
+	let args = [].slice.call(arguments, 1)
+	return function () {
+		return fn.apply(context, args.concat([].slice.call(arguments, 0)))
+	}
 }
 
 Function.prototype.simulateBindAdvance = function (context) {
-    if (typeof this !== 'function') throw new Error('need function invoke')
-    let fn = this
-    let args = [].slice.call(arguments, 1)
+	if (typeof this !== 'function') throw new Error('need function invoke')
+	let fn = this
+	let args = [].slice.call(arguments, 1)
 
-    let F = function () {}
+	let F = function () {}
 
-    //judge this
-    //if invoke by new, this is bar
-    //if function invoke, this is context
-    let fBound = function () {
-        let bindArgs = [].slice.call(arguments)
-        return fn.apply(this instanceof fBound ? this : context, args.concat(bindArgs))
-    }
-    //fBound.prototype = Object.create(this.prototype);
-    F.prototype = this.prototype
-    fBound.prototype = new F()
-    return fBound
+	//judge this
+	//if invoke by new, this is bar
+	//if function invoke, this is context
+	let fBound = function () {
+		let bindArgs = [].slice.call(arguments)
+		return fn.apply(
+			this instanceof fBound ? this : context,
+			args.concat(bindArgs)
+		)
+	}
+	//fBound.prototype = Object.create(this.prototype);
+	F.prototype = this.prototype
+	fBound.prototype = new F()
+	return fBound
 }
 
-
 function simulateNew(constructor, params) {
-    let obj = Object.create(constructor.prototype);
-    let result = constructor.call(obj, params);
-    //in case constructor return a simple type
-    return (typeof result === 'object' && result != null) ? result : obj;
+	let obj = Object.create(constructor.prototype)
+	let result = constructor.call(obj, params)
+	//in case constructor return a simple type
+	return typeof result === 'object' && result != null ? result : obj
 }
 
 let curry = function (fn) {
-    let args = [].slice.call(arguments, 1);
-    let that = this;
-    return function () {
-        return fn.apply(that, args.concat([].slice.call(arguments)));
-    }
+	let args = [].slice.call(arguments, 1)
+	let that = this
+	return function () {
+		return fn.apply(that, args.concat([].slice.call(arguments)))
+	}
 }
 
 let curryFormalParameter = function (fn, args) {
-    let length = fn.length,
-        _args = args || [];
-    that = this;
-    return function () {
-        let innerArgs = _args.concat([].slice.call(arguments));
-        if (innerArgs.length < length) {
-            return curryFormalParameter.call(that, fn, innerArgs)
-        } else {
-            return fn.apply(that, innerArgs);
-        }
-    }
+	let length = fn.length,
+		_args = args || []
+	that = this
+	return function () {
+		let innerArgs = _args.concat([].slice.call(arguments))
+		if (innerArgs.length < length) {
+			return curryFormalParameter.call(that, fn, innerArgs)
+		} else {
+			return fn.apply(that, innerArgs)
+		}
+	}
 }
 
 Function.prototype.simulateCall = function (context) {
-    var context = context || window;
-    context.fn = this;
-    let args = [].slice.call(arguments, 1);
-    let result = eval("context.fn(" + args + ")");
-    //delete temporary attribute
-    delete context.fn;
-    return result;
+	var context = context || window
+	context.fn = this
+	let args = [].slice.call(arguments, 1)
+	let result = eval('context.fn(' + args + ')')
+	//delete temporary attribute
+	delete context.fn
+	return result
 }
 
 Function.prototype.simulateApply = function (context, arr) {
-    var context = context || window;
-    context.fn = this;
-    let result;
-    if (!arr) {
-        result = context.fn();
-    } else {
-        let args = [].slice.call(arguments, 0);
-        result = eval("context.fn(" + args + ")");
-    }
-    delete context.fn;
-    return result;
+	var context = context || window
+	context.fn = this
+	let result
+	if (!arr) {
+		result = context.fn()
+	} else {
+		let args = [].slice.call(arguments, 0)
+		result = eval('context.fn(' + args + ')')
+	}
+	delete context.fn
+	return result
 }
 // let name = "jack";
 // function test() {
@@ -218,75 +212,71 @@ Function.prototype.simulateApply = function (context, arr) {
 // }
 //test.simulateCall({name : 123});
 
-
 //RegExp------------------------
 // $1第一个括号匹配的内容
-const strRegTest1 = "the-first-name";
-const regTest1 = /-(\w)/g;
-strRegTest1.replace(regTest1, function($,$1) {
-    return $1.toUpperCase();
-});
+const strRegTest1 = 'the-first-name'
+const regTest1 = /-(\w)/g
+strRegTest1.replace(regTest1, function ($, $1) {
+	return $1.toUpperCase()
+})
 
-
-const strRegTest2 = "aaaabbbbcccc";
+const strRegTest2 = 'aaaabbbbcccc'
 //反向引用
-const regTest2 = /(\w)\1*/g;
+const regTest2 = /(\w)\1*/g
 // console.log(strRegTest2.replace(regTest2, "$1"));
 
-
-const strRegTest3 = "1000000000";
+const strRegTest3 = '1000000000'
 // //从后面往前查,最前面是空,正向匹配非单词边界的那么多个数字
-const regTest3 = /(?=(\B)(\d{3})+$)/g;
+const regTest3 = /(?=(\B)(\d{3})+$)/g
 // console.log(strRegTest3.replace(regTest3, "."));
 
-
 let toCamelStyleRegexp = (str) => {
-    return str.replace(/-([a-z])/ig, ($0, $1) => $1.toUpperCase());
+	return str.replace(/-([a-z])/gi, ($0, $1) => $1.toUpperCase())
 }
-
 
 //Event------------------------
-let liCol = document.getElementsByTagName("li");
+let liCol = document.getElementsByTagName('li')
 for (let i = 0; i < liCol.length; i++) {
-    (function(j){
-        liCol[i].addEventListener("click", function() {
-            console.log(j)
-        }, false);
-    }(i));
+	;(function (j) {
+		liCol[i].addEventListener(
+			'click',
+			function () {
+				console.log(j)
+			},
+			false
+		)
+	})(i)
 }
-
 
 let addListener = (ele, type, handle) => {
-    if (ele.addEventListener) {
-        ele.addEventListener(type, handle, false);
-    } else if (ele.attachEvent) {
-        ele.attachEvent("on" + type, () => handle.call(ele));
-    } else {
-        ele["on" + type] = handle;
-    }
+	if (ele.addEventListener) {
+		ele.addEventListener(type, handle, false)
+	} else if (ele.attachEvent) {
+		ele.attachEvent('on' + type, () => handle.call(ele))
+	} else {
+		ele['on' + type] = handle
+	}
 }
 
-
-
 let bindEvent = (ele, type, selector, handler) => {
-    //addEvent(ele, type, fn)
-    //addEvent(ele, type, proxydom, fn)
-    if (handler == null) {
-        handler = selector
-        selector = null
-    }
+	//addEvent(ele, type, fn)
+	//addEvent(ele, type, proxydom, fn)
+	if (handler == null) {
+		handler = selector
+		selector = null
+	}
 
-    ele.addEventListener(type, function (e) {
-        let target
-        if (selector) {
-            target = e.target
-            if (target.matches(selector)) {
-                handler.call(target, e)
-            }
-        } else {
-            handler.call(ele, e)
-        }
-    })
+	ele.addEventListener(type, function (e) {
+		let target
+		if (selector) {
+			target = e.target
+			if (target.matches(selector)) {
+				handler.call(target, e)
+			}
+		} else {
+			handler.call(ele, e)
+		}
+	})
 }
 // bindEvent(document.querySelector('div'), 'click', 'li', function (e) {
 //     console.log(this)
@@ -296,194 +286,187 @@ let bindEvent = (ele, type, selector, handler) => {
 //     console.log(this)
 // })
 
-
 //distinguish click or mousedown
-let firstTime = 0;
-let sencondTime = 0;
-let flag = false;
-document.onclick = function() {
-    if (flag) {
-        console.log("onclick");
-        flag = false;
-    }
+let firstTime = 0
+let sencondTime = 0
+let flag = false
+document.onclick = function () {
+	if (flag) {
+		console.log('onclick')
+		flag = false
+	}
 }
-document.onmousedown = function() {
-    firstTime = new Date().getTime();
+document.onmousedown = function () {
+	firstTime = new Date().getTime()
 }
-document.onmouseup = function() {
-    secondTime = new Date().getTime();
-    if (sencondTime - firstTime < 300) {
-        flag = true;
-    }
+document.onmouseup = function () {
+	secondTime = new Date().getTime()
+	if (sencondTime - firstTime < 300) {
+		flag = true
+	}
 }
-
 
 //DOM------------------------
-let div = document.createElement("div");
-let p = document.createElement("p");
-div.setAttribute("class", "xxx");
-p.setAttribute("class", "yyy");
-let text = document.createTextNode("Jack");
-p.appendChild(text);
-div.appendChild(p);
-document.body.appendChild(div);
-
+let div = document.createElement('div')
+let p = document.createElement('p')
+div.setAttribute('class', 'xxx')
+p.setAttribute('class', 'yyy')
+let text = document.createTextNode('Jack')
+p.appendChild(text)
+div.appendChild(p)
+document.body.appendChild(div)
 
 function Traverse(p_element, p_callback) {
-    p_callback(p_element);
-    let list = p_element.children;
-    for (let i = 0; i < list.length; i++) {
-        Traverse(list[i], p_callback);
-    }
+	p_callback(p_element)
+	let list = p_element.children
+	for (let i = 0; i < list.length; i++) {
+		Traverse(list[i], p_callback)
+	}
 }
-
 
 Element.prototype.insertAfter = function (targerNode, afterNode) {
-    let beforeNode = afterNode.nextElementSibling;
-    if (beforeNode == null) {
-        this.appendChild(targerNode);
-    } else {
-        this.insertBefore(targerNode, beforeNode);
-    }
+	let beforeNode = afterNode.nextElementSibling
+	if (beforeNode == null) {
+		this.appendChild(targerNode)
+	} else {
+		this.insertBefore(targerNode, beforeNode)
+	}
 }
-
 
 //分批次添加DOM
 let rescursionByCount = () => {
-    let container = document.querySelector('.list');
-    if (!container) return;
+	let container = document.querySelector('.list')
+	if (!container) return
 
-    const total = 10000;
-    batchSize = 4; // 每批插入的节点次数，越大越卡
-    batchCount = total / batchSize; // 需要批量处理多少次
-    let batchDone = 0,
-        i;
+	const total = 10000
+	batchSize = 4 // 每批插入的节点次数，越大越卡
+	batchCount = total / batchSize // 需要批量处理多少次
+	let batchDone = 0,
+		i
 
-    function appendItems() {
-        const fragment = document.createDocumentFragment();
-        for (let i = 0; i < batchSize; i++) {
-            const li = document.createElement('li');
-            li.innerText = (batchDone * batchSize) + i + 1;
-            fragment.appendChild(li);
-        }
+	function appendItems() {
+		const fragment = document.createDocumentFragment()
+		for (let i = 0; i < batchSize; i++) {
+			const li = document.createElement('li')
+			li.innerText = batchDone * batchSize + i + 1
+			fragment.appendChild(li)
+		}
 
-        container.appendChild(fragment);
+		container.appendChild(fragment)
 
-        batchDone += 1;
-        doBatchAppend();
-    }
+		batchDone += 1
+		doBatchAppend()
+	}
 
-    function doBatchAppend() {
-        if (batchDone < batchCount) {
-            window.requestAnimationFrame(appendItems);
-        }
-    }
+	function doBatchAppend() {
+		if (batchDone < batchCount) {
+			window.requestAnimationFrame(appendItems)
+		}
+	}
 
-    // kickoff
-    doBatchAppend();
+	// kickoff
+	doBatchAppend()
 
-    //采用事件委托
-    //addEventlisener处理函数中this指的是实际的dom
-    //也可以通过外层let定义循环变量
-    //addEventListener与onclick
-    //   1 允许注册多个事件
-    //   2 可以控制事件捕获还是冒泡
-    //   3 对任何DOM元素都有效
-    container.addEventListener('click', (e) => {
-        const target = e.target;
-        if (target.tagName.toLowerCase() === 'li') {
-            console.log(target.innerText);
-        }
-    });
-};
-
+	//采用事件委托
+	//addEventlisener处理函数中this指的是实际的dom
+	//也可以通过外层let定义循环变量
+	//addEventListener与onclick
+	//   1 允许注册多个事件
+	//   2 可以控制事件捕获还是冒泡
+	//   3 对任何DOM元素都有效
+	container.addEventListener('click', (e) => {
+		const target = e.target
+		if (target.tagName.toLowerCase() === 'li') {
+			console.log(target.innerText)
+		}
+	})
+}
 
 //arithmetic------------------------
 let sortStrByCount = (str) => {
-    if (!(typeof str === "string")) return str;
-    return str.split("").sort().join("").match(/(.)\1*/g)
-        .sort((a, b) => {
-            return a.length - b.length;
-        }).join("");
+	if (!(typeof str === 'string')) return str
+	return str
+		.split('')
+		.sort()
+		.join('')
+		.match(/(.)\1*/g)
+		.sort((a, b) => {
+			return a.length - b.length
+		})
+		.join('')
 }
-sortStrByCount("dddbbbiiiiiicccca");
-
+sortStrByCount('dddbbbiiiiiicccca')
 
 //素数
 let isPrimeNumber = (num) => {
-    if (num <= 1 || num % 1 !== 0) {
-        return false;
-    }
-    let n = 2;
-    while (n < num) {
-        if (num % n++ === 0) {
-            return false;
-        }
-    }
-    return true;
+	if (num <= 1 || num % 1 !== 0) {
+		return false
+	}
+	let n = 2
+	while (n < num) {
+		if (num % n++ === 0) {
+			return false
+		}
+	}
+	return true
 }
 //console.log(isPrimeNumber(997));
 
 // return  n & 1 === 1
-let isOdd = (num) => Math.abs(num % 2) === 1;
-
+let isOdd = (num) => Math.abs(num % 2) === 1
 
 let getByteLength = (str) => {
-    let len = str.length,
-        count = len,
-        i;
-    for (i = 0; i < len; i++) {
-        // in case has chinese
-        if (str.charCodeAt(i) > 255) {
-            count++;
-        }
-    }
-    return count;
+	let len = str.length,
+		count = len,
+		i
+	for (i = 0; i < len; i++) {
+		// in case has chinese
+		if (str.charCodeAt(i) > 255) {
+			count++
+		}
+	}
+	return count
 }
-
 
 //2的n次幂
 let caculatePower = (n) => {
-    let result = 1;
-    while (n > 0) {
-        result *= 2;
-        n--;
-    }
-    return result;
+	let result = 1
+	while (n > 0) {
+		result *= 2
+		n--
+	}
+	return result
 }
-
 
 //n的阶乘
 let caculatefactorial = (n) => {
-    if (n === 0 || n === 1) {
-        return 1;
-    }
-    return n * caculatefactorial(n - 1);
+	if (n === 0 || n === 1) {
+		return 1
+	}
+	return n * caculatefactorial(n - 1)
 }
-
 
 let caculateFibonacci = (n) => {
-    if (!(typeof n === "number") || n % 1 !== 0) return;
-    if (n === 0 || n === 1) {
-        return 1;
-    }
-    return caculateFibonacci(n - 1) + caculateFibonacci(n - 2);
+	if (!(typeof n === 'number') || n % 1 !== 0) return
+	if (n === 0 || n === 1) {
+		return 1
+	}
+	return caculateFibonacci(n - 1) + caculateFibonacci(n - 2)
 }
-
 
 function memorize(fn) {
-    let cache = {};
-    return function () {
-        key = arguments.length + [].join.call(arguments);
-        if (cache[key]) {
-            return cache[key];
-        } else {
-            cache[key] = fn.apply(this, arguments);
-            return cache[key];
-        }
-    }
+	let cache = {}
+	return function () {
+		key = arguments.length + [].join.call(arguments)
+		if (cache[key]) {
+			return cache[key]
+		} else {
+			cache[key] = fn.apply(this, arguments)
+			return cache[key]
+		}
+	}
 }
-let newFactorial = memorize(caculatefactorial);
+let newFactorial = memorize(caculatefactorial)
 // console.time("first");
 // console.log(newFactorial(10));
 // console.timeEnd("first");
@@ -494,104 +477,98 @@ let newFactorial = memorize(caculatefactorial);
 // console.log(newFactorial(10));
 // console.timeEnd("third");
 
-
 //handle \W character and and case sensitive
 let isPalindrome = (str) => {
-    if (!(typeof str === "string")) return false;
-    let temp = str.replace(/\W/g, "").toLowerCase();
-    return temp == temp.split("").reverse().join("");
+	if (!(typeof str === 'string')) return false
+	let temp = str.replace(/\W/g, '').toLowerCase()
+	return temp == temp.split('').reverse().join('')
 }
 // console.log(isPalindrome("level"))
 // console.log(isPalindrome("levels"));
 // console.log(isPalindrome("A car, a man, a maraca"));
 
-
 //arguments
 function sum(x, y) {
-    if (y !== undefined) {
-        return x + y;
-    } else {
-        return function (y) {
-            return x + y;
-        }
-    }
+	if (y !== undefined) {
+		return x + y
+	} else {
+		return function (y) {
+			return x + y
+		}
+	}
 }
 // console.log(sum(2)(3));
 // console.log(sum(2, 3));
 
-
-
 //Object------------------------
-let isType = type => obj => {
-  return Object.prototype.toString.call( obj ) === '[object ' + type + ']';
-};
+let isType = (type) => (obj) => {
+	return Object.prototype.toString.call(obj) === '[object ' + type + ']'
+}
 //isType('String')('123')
 let JackGlobal = {
-    namespace: function (ns) {
-        let parts = ns.split("."),
-            object = this,
-            len = parts.length,
-            i;
-        for (i = 0; i < len; i++) {
-            if (!object[parts[i]]) {
-                object[parts[i]] = {};
-            }
-            object = object[parts[i]];
-        }
-        return object;
-    }
-};
+	namespace: function (ns) {
+		let parts = ns.split('.'),
+			object = this,
+			len = parts.length,
+			i
+		for (i = 0; i < len; i++) {
+			if (!object[parts[i]]) {
+				object[parts[i]] = {}
+			}
+			object = object[parts[i]]
+		}
+		return object
+	},
+}
 //JackGlobal.namespace("caofei.wife");
 
-
 let utils = (function ($) {
-    function m1() {};
+	function m1() {}
 
-    function m2() {};
+	function m2() {}
 
-    function m3() {
-        this.m1();
-        this.m2()
-    };
+	function m3() {
+		this.m1()
+		this.m2()
+	}
 
-    return {
-        m1: m1,
-        m2: m2,
-        m3: m3
-    };
-})(JQuery='$' || {});
+	return {
+		m1: m1,
+		m2: m2,
+		m3: m3,
+	}
+})((JQuery = '$' || {}))
 
-
-let MYAPP = {};
-MYAPP.dom = {};
+let MYAPP = {}
+MYAPP.dom = {}
 MYAPP.dom.Text = function (url) {
-    this.url = url;
-    this.insert = function (where) {
-        let txt = document.createTextNode(this.url);
-        where.appendChild(txt);
-        MYAPP.dom.LineBreak();
-    };
-};
+	this.url = url
+	this.insert = function (where) {
+		let txt = document.createTextNode(this.url)
+		where.appendChild(txt)
+		MYAPP.dom.LineBreak()
+	}
+}
 
 MYAPP.dom.Link = function (url) {
-    this.url = url;
-    this.insert = function (where) {
-        let link = document.createElement('a');
-        link.href = this.url;
-        link.appendChild(document.createTextNode(this.url));
-        where.appendChild(link);
-        MYAPP.dom.LineBreak();
-    };
-};
+	this.url = url
+	this.insert = function (where) {
+		let link = document.createElement('a')
+		link.href = this.url
+		link.appendChild(document.createTextNode(this.url))
+		where.appendChild(link)
+		MYAPP.dom.LineBreak()
+	}
+}
 
 MYAPP.dom.LineBreak = function () {
-    let br = document.createElement('br');
-    document.body.appendChild(br);
-};
+	let br = document.createElement('br')
+	document.body.appendChild(br)
+}
 
 MYAPP.dom.factory = function (type, url) {
-    return new MYAPP.dom[type](url);
-};
+	return new MYAPP.dom[type](url)
+}
 // let url = 'http://www.jack.com';
 // let o = new MYAPP.dom.Text(url);
 // o.insert(document.body);
@@ -599,7 +576,6 @@ MYAPP.dom.factory = function (type, url) {
 // o.insert(document.body);
 // let o = new MYAPP.dom.factory('Link',url);
 // o.insert(document.body);
-
 
 //CSS------------------------
 //body默认margin=8px;
@@ -616,109 +592,111 @@ MYAPP.dom.factory = function (type, url) {
 //     background-color:red;
 // }
 
-
 //async implement-----------------------------------------------------
 //promise
 let getNewsPromise = (url) => {
-    let promise = new Promise((resolve, reject) => {
-        let xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function () {
-            // if(xhr.readyState === 4 && xhr.status === 200) not correct
-            if(xhr.readyState === 4){
-                if(xhr.status === 200){
-                    let news = xhr.response;
-                    resolve(news);
-                }else{
-                    reject('请求失败了。。。');
-                }
-            }
-        };
-        xhr.responseType = 'json';
-        xhr.open("GET", url);
-        xhr.send();
-    })
-    return promise;
+	let promise = new Promise((resolve, reject) => {
+		let xhr = new XMLHttpRequest()
+		xhr.onreadystatechange = function () {
+			// if(xhr.readyState === 4 && xhr.status === 200) not correct
+			if (xhr.readyState === 4) {
+				if (xhr.status === 200) {
+					let news = xhr.response
+					resolve(news)
+				} else {
+					reject('请求失败了。。。')
+				}
+			}
+		}
+		xhr.responseType = 'json'
+		xhr.open('GET', url)
+		xhr.send()
+	})
+	return promise
 }
 
 getNewsPromise('http://localhost:3000/news?id=2')
-    .then((news) => {
-        return getNewsPromise('http://localhost:3000' + news.commentsUrl);
-    }, (error) => {
-        console.log(error);
-    })
-    .then((comments) => {
-        console.log(comments);
-    }, (error) => {
-        console.log(error);
-    })
-
+	.then(
+		(news) => {
+			return getNewsPromise('http://localhost:3000' + news.commentsUrl)
+		},
+		(error) => {
+			console.log(error)
+		}
+	)
+	.then(
+		(comments) => {
+			console.log(comments)
+		},
+		(error) => {
+			console.log(error)
+		}
+	)
 
 //generator
 function* sendXmlGenerator() {
-  // url为next传参进来的数据
-  let url = yield getNewsGenerator('http://localhost:3000/news?newsId=2');
-  yield getNews(url);
+	// url为next传参进来的数据
+	let url = yield getNewsGenerator('http://localhost:3000/news?newsId=2')
+	yield getNews(url)
 }
 function getNewsGenerator(url) {
-//   $.get(url, function (data) {
-//     console.log(data);
-//     let commentsUrl = data.commentsUrl;
-//     let url = 'http://localhost:3000' + commentsUrl;
-//     sx.next(url);
-//   })
+	//   $.get(url, function (data) {
+	//     console.log(data);
+	//     let commentsUrl = data.commentsUrl;
+	//     let url = 'http://localhost:3000' + commentsUrl;
+	//     sx.next(url);
+	//   })
 }
 
-let sx = sendXmlGenerator();
+let sx = sendXmlGenerator()
 // 发送请求获取新闻内容
-sx.next();
-
+sx.next()
 
 //async
 async function sendXmlAsync(url) {
-  return new Promise((resolve, reject) => {
-    // $.ajax({
-    //   url,
-    //   type: 'GET',
-    //   success: data =>  resolve(data),
-    //   //if request fail
-    //   //error: error => resolve(false)
-    //   error: error => reject(error)
-    // })
-  })
+	return new Promise((resolve, reject) => {
+		// $.ajax({
+		//   url,
+		//   type: 'GET',
+		//   success: data =>  resolve(data),
+		//   //if request fail
+		//   //error: error => resolve(false)
+		//   error: error => reject(error)
+		// })
+	})
 }
 
 async function getNewsAsync(url) {
-  let result = await sendXmlAsync(url);
-  if (!result) {
-      console.log('xxxx')
-      return
-  }
-  let result2 = await sendXmlAsync(url);
-  console.log(result, result2);
+	let result = await sendXmlAsync(url)
+	if (!result) {
+		console.log('xxxx')
+		return
+	}
+	let result2 = await sendXmlAsync(url)
+	console.log(result, result2)
 }
 getNewsAsync('http://localhost:3000/news?id=2')
 
-
 //real question------------------------
 function Foo() {
-    //global variable
-    getName = function () {
-        console.log("1")
-    };
-    return this;
+	//global variable
+	getName = function () {
+		console.log('1')
+	}
+	return this
 }
 Foo.getName = function () {
-    console.log("2")
+	console.log('2')
 }
 Foo.prototype.getName = function () {
-    console.log("3")
+	console.log('3')
 }
 var getName = function () {
-    console.log("4")
+	console.log('4')
 }
 //hoist
 function getName() {
-    console.log("5")
+	console.log('5')
 }
 //console.log(Foo.getName()); //2
 //console.log(getName()); //4
@@ -730,59 +708,63 @@ function getName() {
 //console.log(new Foo().getName());  //(new Foo()).getName()
 //console.log(new new Foo().getName()); //new ((new Foo()).getName)()
 
-
 //promise 简单说就是一个容器,里面保存着某个未来才会结束的事件的结果
 //promise也是一个对象 从它可以获取异步操作的信息
 //promise提供统一的API 各种操作都可以用同样的方法处理
 //开发者不需要再关注其底层的时序和结果
 //promise状态具有不可逆和不受外界影响
 
-
 let queryURLParamaterByRegex = (url) => {
-    let obj = {}
-    let reg = /([^?=&]+)=([^?=&]+)/g;
-    url.replace(reg, (...arg) => {
-        obj[arg[1]] = arg[2];
-    })
-    return obj;
+	let obj = {}
+	let reg = /([^?=&]+)=([^?=&]+)/g
+	url.replace(reg, (...arg) => {
+		obj[arg[1]] = arg[2]
+	})
+	return obj
 }
-
 
 let addURLParam = (url, name, value) => {
-    url += (url.indexOf("?") == -1 ? "?" : "&");
-    url += encodeURIComponent(name) + "=" + encodeURIComponent(value);
-    return url;
+	url += url.indexOf('?') == -1 ? '?' : '&'
+	url += encodeURIComponent(name) + '=' + encodeURIComponent(value)
+	return url
 }
 
+function render(template, data) {
+	const reg = /\{\{(\w+)\}\}/ // 模板字符串正则
+	if (reg.test(template)) {
+		// 判断模板里是否有模板字符串
+		const name = reg.exec(template)[1] // 查找当前模板里第一个模板字符串的字段
+		template = template.replace(reg, data[name]) // 将第一个模板字符串渲染
+		return render(template, data) // 递归的渲染并返回渲染后的结构
+	}
+	return template
+}
 
 function getBuitlInType(obj) {
-    let str = Object.prototype.toString.call(obj);
-    return str.match(/\[object (.*?)\]/)[1].toLowerCase();
+	let str = Object.prototype.toString.call(obj)
+	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
-
 
 //key is length
 let arrLike = {
-    "2" : "a",
-    "3" : "b",
-    length : 2,
-    push : Array.prototype.push
+	2: 'a',
+	3: 'b',
+	length: 2,
+	push: Array.prototype.push,
 }
-arrLike.push("c");
-arrLike.push("d");
-
+arrLike.push('c')
+arrLike.push('d')
 
 let sendAjax = () => {
-    let xhr = new XMLHttpRequest()
-    xhr.onreadystatechange = function() {
-        if (xhr.readyState === 4 && xhr.state === 200) {
-            console.log(xhr.responseText);
-        }
-    }
-    xhr.open('GET', '/api', false)
-    xhr.send(null)
+	let xhr = new XMLHttpRequest()
+	xhr.onreadystatechange = function () {
+		if (xhr.readyState === 4 && xhr.state === 200) {
+			console.log(xhr.responseText)
+		}
+	}
+	xhr.open('GET', '/api', false)
+	xhr.send(null)
 }
-
 
 /*
     undefined 代表定义但未赋值
@@ -792,18 +774,15 @@ let sendAjax = () => {
     结束前设置变量为null便于垃圾回收
 */
 
-
 //打开数组
-let arrTest = [1,[2,[3]],4,[5]];
+let arrTest = [1, [2, [3]], 4, [5]]
 JSON.parse(`[${arrTest.toString()}]`)
 JSON.parse(`[${arrTest.join()}]`)
 arrTest.join().split(',')
 
-
 //clone array
-arrTest.concat();
-arrTest.slice(0);
-
+arrTest.concat()
+arrTest.slice(0)
 
 //find max in an array
 //1.自己实现一个冒泡算法，实现就不多说了
@@ -811,7 +790,6 @@ arrTest.slice(0);
 //Math.max.apply(null, arrTest);
 //3.利用Array的sort方法先排序再取值
 //list.sort((a, b) => {return a-b;})
-
 
 //输出什么
 // if (!(b in window)) {
@@ -838,7 +816,6 @@ arrTest.slice(0);
 // }
 // show(fn);
 
-
 //作用域
 // let fn = () => {
 //     console.log(fn);
@@ -851,8 +828,6 @@ arrTest.slice(0);
 // }
 // obj.fn2()
 
-
-
 //写出一些前端性能优化的方式
 // 1.减少dom操作
 // 2.部署前，图片压缩，代码压缩
@@ -861,7 +836,6 @@ arrTest.slice(0);
 // 5.使用内容分发cdn加速
 // 6.静态资源缓存
 // 7.图片延迟加载
-
 
 //cookie、sessionStorage和localStorage的区别
 // 1 存储时效来说：
@@ -883,7 +857,6 @@ arrTest.slice(0);
 // cookie在发送http请求时，会将本地的cookie作为http头部信息传递给服务器
 // cookie可以由服务器通过http来设定
 
-
 //get vs post
 // 因为GET方法请求的参数都是放在请求的url上的，所以它与POST有以下明显的区别：
 // GET请求可以被添加到书签中，也可保存在浏览器历史记录中，POST不能
@@ -893,7 +866,6 @@ arrTest.slice(0);
 // 在语义上两个方法也有区别：
 // GET 代表获取指定服务器上资源
 // POST 代表向指定的资源提交要被处理的数据
-
 
 //http状态码
 // 1xx ：1开头的状态码表示临时的响应
@@ -914,7 +886,6 @@ arrTest.slice(0);
 // 503 ： Service Unavailable 服务不可用，服务器由于维护或者负载过中未能应答。
 // 504 ： Gateway Timeout 网关超时， 作为代理或网关的服务器不能及时的应答。
 
-
 //iframe有那些缺点
 // 1 iframe会阻塞主页面的Onload事件；
 // 2 搜索引擎的检索程序无法解读这种页面，不利于SEO;
@@ -925,15 +896,11 @@ arrTest.slice(0);
 //Etag和Last-Modified???
 //Etag和Last-Modified???
 
-
-
 //回流(Layout) 前面我们通过构造渲染树，我们将可见DOM节点以及它对应的样式结合起来，可是我们还需要计算它们在设备视口(viewport)内的确切位置和大小，这个计算的阶段就是回流。
 //为了弄清每个对象在网站上的确切大小和位置，浏览器从渲染树的根节点开始遍历,而在回流这个阶段，我们就需要根据视口具体的宽度，将其转为实际的像素值
 
-
 //重绘(Painting) 通过回流(Layout)阶段，我们知道了所有的可见节点的样式和具体的几何信息(位置、大小)，
 //那么我们就可以将渲染树的每个节点都转换为屏幕上的实际像素，这个阶段就叫做重绘节点。
-
 
 //何时发生回流重绘 回流阶段是计算节点的几何信息和位置，那么当页面布局或者几何信息发生改变时，就需要回流。
 //添加或者删除可见的DOM元素
@@ -942,7 +909,6 @@ arrTest.slice(0);
 //浏览器的视口尺寸大小发生改变(因为回流是根据浏览器视口的大小来计算元素的位置和尺寸大小)
 //注意：回流一定会触发重绘，而重绘(非几何信息的样式发生改变)不一定会回流, reflow回流的成本开销要高于repaint重绘，一个节点的回流往往回导致子节点以及同级节点的回流；
 
-
 //CSS 与 JS 是这样阻塞 DOM 解析和渲染的
 //通过<script>与<link>引入外部资源，当解析到该标签的时候，会进行下载
 //CSS脚本的加载不会阻塞 DOM 解析过程，但是会阻塞渲染过程(painting)
@@ -950,7 +916,6 @@ arrTest.slice(0);
 //JS脚本的加载中，如果你确定没必要阻塞 DOM 解析的话，不妨按需要加上 defer 或者 async 属性，此时脚本下载的过程中是不会阻塞 DOM 解析的。
 //浏览器遇到 <script>且没有 defer 或 async 属性的标签时，为了为<script>标签内部的js提供最新的信息，会触发页面的回流、重绘过程。因而如果前面 CSS 资源尚未加载完毕时，浏览器会等待它加载完毕之后再执行脚本。
 //所以<script>最好放底部(防止阻塞DOM解析)。<link>最好放头部(为渲染过程提供样式)。如果头部同时有<script>与<link>的情况下，最好将<script>放在<link>上面(为了防止CSS脚本加载时间过长，使js等待时间也很长)
-
 
 //三栏布局  居中  圣杯  双飞翼
 //粘帖布局
@@ -971,3 +936,139 @@ arrTest.slice(0);
 // 		动过property
 // 			attribute不会同步property
 // 			property不会同步attribute
+
+//闭包：假如一个函数能访问外部的变量，那么这个函数它就是一个闭包，而不是一定要返回一个函数
+//当前函数持有访问其他函数环境的引用
+
+function add() {
+	// 第一次执行时，定义一个数组专门用来存储所有的参数
+	var _args = Array.prototype.slice.call(arguments)
+
+	// 在内部声明一个函数，利用闭包的特性保存_args并收集所有的参数值
+	var _adder = function () {
+		_args.push(...arguments)
+		return _adder
+	}
+
+	// 利用toString隐式转换的特性，当最后执行时隐式转换，并计算最终的值返回
+	_adder.toString = function () {
+		return _args.reduce(function (a, b) {
+			return a + b
+		})
+	}
+	return _adder
+}
+
+add(1)(2)(3) // 6
+add(1, 2, 3)(4) // 10
+add(1)(2)(3)(4)(5) // 15
+add(2, 6)(1) // 9
+
+//practise
+var xiaoming = {
+	name: '小明',
+	age: 12,
+	sex: '男',
+	friends: [
+		{
+			name: '小红',
+			age: 13,
+		},
+		{
+			name: '小强',
+			age: 14,
+		},
+		{
+			name: '小刚炮',
+			age: 18,
+		},
+	],
+}
+
+//题目1：不允许更改小明！返回一个新对象，这个对象和小明相同，仅让小明的年龄变为15岁！
+var xiaoming = {
+	name: '小明',
+	age: 12,
+	sex: '男',
+	friends: [
+		{
+			name: '小红',
+			age: 13,
+		},
+		{
+			name: '小强',
+			age: 14,
+		},
+		{
+			name: '小刚炮',
+			age: 18,
+		},
+	],
+}
+
+var xiaoming2 = {
+	...xiaoming,
+	age: 15,
+}
+
+//题目2：不允许更改小明！让小强的age变为22。
+var xiaoming2 = {
+	...xiaoming,
+	friends: xiaoming.friends.map(function (item) {
+		//如果这一项的name是小强，此时返回别的项都不改，只改变age项
+		if (item.name == '小强') {
+			return {
+				...item,
+				age: 22,
+			}
+		}
+
+		//反之，返回原来的项
+		return item
+	}),
+}
+
+//题目3：不允许更改小明！让小明的只有15岁以下的朋友。
+var xiaoming2 = {
+	...xiaoming,
+	friends: xiaoming.friends.filter(function (item) {
+		return item.age < 15
+	}),
+}
+
+//题目4：不允许更改小明！小明增加一个朋友，老王，88岁
+var xiaoming2 = {
+	...xiaoming,
+	friends: [
+		...xiaoming.friends,
+		{
+			name: '老王',
+			age: 88,
+		},
+	],
+}
+
+//题目5：不允许更改小明！增加一个朋友并且自动编号：
+var xiaoming2 = {
+	...xiaoming,
+	friends: [
+		...xiaoming.friends,
+		{
+			id:
+				xiaoming.friends.reduce(function (a, b) {
+					return a.id > b.id ? a : b
+				}).id + 1,
+			name: '老王',
+			age: 88,
+		},
+	],
+}
+
+let arrTest = [1, [2, 3], [4, 5, 6, [7, 8, 9]]]
+const newArr = function (arr) {
+	return arr.reduce(
+		(pre, cur) => pre.concat(Array.isArray(cur) ? newArr(cur) : cur),
+		[]
+	)
+}
+console.log(newArr(arrTest))

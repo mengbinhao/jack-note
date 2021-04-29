@@ -96,20 +96,20 @@ a.length = 10 // [empty × 10]
 #### 操作的不统一
 > ES5 对空位的处理，已经很不一致了，大多数情况下会忽略空位。
 
-> forEach(), filter(), reduce(), every() 和 some() 都会跳过空位。
-> map() 会跳过空位，但会保留这个值。
-> join() 和 toString() 会将空位视为 undefined，而 undefined 和 null 会被处理成空字符串。
+> forEach(), filter(), reduce(), every() 和 some() 都会跳过空位
+> map() 会跳过空位，但会保留这个值
+> join() 和 toString() 会将空位视为 undefined，而 undefined 和 null 会被处理成空字符串
 
-> ES6 则是明确将空位转为 undefined。
+> ES6 则是明确将空位转为 undefined
 
-> Array.from 方法会将数组的空位，转为 undefined。
-> 扩展运算符（...）也会将空位转为 undefined。
-> copyWithin() 会连空位一起拷贝。
-> fill() 会将空位视为正常的数组位置。
-> for...of 循环也会遍历空位。
-> entries()、keys()、values()、find()和 findIndex() 会将空位处理成 undefined。
+> Array.from 方法会将数组的空位，转为 undefined
+> 扩展运算符（...）也会将空位转为 undefined
+> copyWithin() 会连空位一起拷贝
+> fill() 会将空位视为正常的数组位置
+> for...of 循环也会遍历空位
+> entries()、keys()、values()、find()和 findIndex() 会将空位处理成 undefined
 
-**注意： 操作的不统一可能会有产生很多意料之外的结果，所以“墙裂”建议不要创建和使用稀疏数组。**
+**注意： 操作的不统一可能会有产生很多意料之外的结果，所以墙裂建议不要创建和使用稀疏数组**
 
 可以参考以下方法来创建：
 

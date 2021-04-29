@@ -4,19 +4,19 @@
 
 
 
-| 生命周期钩子  | 组件状态                                                     | 最佳实践                                                    |
-| ------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
-| beforeCreate  | 实例初始化之后，this指向创建的实例，不能访问到data、computed、watch、methods上的方法和数据 | 常用于初始化非响应式变量                                    |
-| created       | 实例创建完成，可访问data、computed、watch、methods上的方法和数据，未挂载到DOM，不能访问到$el属性，$ref属性内容为空数组 | 常用于简单的ajax请求，页面的初始化                          |
-| beforeMount   | 在挂载开始之前被调用，beforeMount之前，会找到对应的template，并编译成render函数 |                                                             |
-| mounted       | 实例挂载到DOM上，此时可以通过DOM API获取到DOM节点，$ref属性可以访问 | 常用于获取VNode信息和操作，ajax请求                         |
-| beforeupdate  | 响应式数据更新时调用，发生在虚拟DOM打补丁之前                | 适合在更新之前访问现有的DOM，比如手动移除已添加的事件监听器 |
-| updated       | 虚拟 DOM 重新渲染和打补丁之后调用，组件DOM已经更新，可执行依赖于DOM的操作 | 避免在这个钩子函数中操作数据，可能陷入死循环                |
-| beforeDestroy | 实例销毁之前调用。这一步，实例仍然完全可用，this仍能获取到实例 | 常用于销毁定时器、解绑全局事件、销毁插件对象等操作          |
-| destroyed     | 实例销毁后调用，调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁 |                                                             |
-| activated     | keep-alive 组件激活时调用                                    |                                                             |
-| deactivated   | keep-alive 组件停用时调用                                    |                                                             |
-| errorCaptured | 当捕获一个来自子孙组件的错误时被调用。此钩子会收到三个参数：错误对象、发生错误的组件实例以及一个包含错误来源信息的字符串。此钩子可以返回 `false` 以阻止该错误继续向上传播。 |                                                             |
+| 生命周期钩子  | 组件状态                                                     | 最佳实践                                                     |
+| ------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| beforeCreate  | 实例初始化之后，this指向创建的实例，不能访问到data、computed、watch、methods上的方法和数据 | 常用于初始化非响应式变量                                     |
+| created       | 实例创建完成，可访问data、computed、watch、methods上的方法和数据，未挂载到DOM，不能访问到\$el属性，​\$ref属性内容为空数组 | 常用于简单的ajax请求，页面的初始化                           |
+| beforeMount   | 在挂载开始之前被调用，beforeMount之前，会找到对应的template，并编译成render函数 |                                                              |
+| mounted       | 实例挂载到DOM上，此时可以通过DOM API获取到DOM节点，\$el、\$ref属性可以访问 | 常用于获取VNode信息和操作，ajax请求                          |
+| beforeupdate  | 响应式数据更新时调用，发生在虚拟DOM打补丁之前                | 适合在更新之前访问现有的DOM，比如手动移除已添加的事件监听器  |
+| updated       | 虚拟 DOM 重新渲染和打补丁之后调用，组件DOM已经更新，可执行依赖于DOM的操作 | 避免在这个钩子函数中操作数据，可能陷入死循环                 |
+| beforeDestroy | 实例销毁之前调用。这一步，实例仍然完全可用，this仍能获取到实例 | 常用于销毁定时器、解绑全局事件、销毁插件对象、第三方对象等操作 |
+| destroyed     | 实例销毁后调用，调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁 |                                                              |
+| activated     | keep-alive 组件激活时调用                                    |                                                              |
+| deactivated   | keep-alive 组件停用时调用                                    |                                                              |
+| errorCaptured | 当捕获一个来自子孙组件的错误时被调用。此钩子会收到三个参数：错误对象、发生错误的组件实例以及一个包含错误来源信息的字符串。此钩子可以返回 `false` 以阻止该错误继续向上传播 |                                                              |
 
 **注意**
 
@@ -36,7 +36,7 @@
 </template>
 ```
 
-```vue
+```javascript
 export default {
     data() {
         return {
@@ -87,9 +87,9 @@ export default {
 3. 当切换组件（当前组件未缓存）时，会执行beforeDestory/destroyed钩子函数
 4. **初始化和销毁时的生命钩子函数均只会执行一次，beforeUpdate/updated可多次执行**
 
-### 父子组件的生命周期
+### 父子组件的生命周期(import,先外后内在外)
 
-```vue
+```javascript
 props: {
     compName: {
         type: String,
@@ -115,7 +115,7 @@ beforeCreate() {
 </template>
 ```
 
-```vue
+```javascript
 const COMPONENT_NAME = 'complex'
 
 import LifecycleSingle from './LifeCycleSingle'
@@ -189,7 +189,7 @@ export default {
 
 添加一个mixin.js文件
 
-```vue
+```javascript
 const COMPONENT_NAME = 'lifecycleMixin'
 export default {
     name: COMPONENT_NAME,
@@ -222,7 +222,7 @@ export default {
 
 
 
-```
+```javascript
 import lifecycleMixin from './mixin'
 
 export default {

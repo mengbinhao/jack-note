@@ -5,7 +5,13 @@
 	- -webkit-box
 	- -webkit-flex / flex
 
+| 类型     | 属性                                                         |
+| -------- | ------------------------------------------------------------ |
+| 容器属性 | flex-direction、flex-wrap、flex-flow（前两个简写row nowrap）、justify-content、align-items、align-content |
+| 项目属性 | order、flex-grow、flex-shrink、flex-basis、flex（前三简写，auto（1 1 auto） none（0 0 auto））、align-self |
+
 ### 注意点
+
 - 我们都知道新版本的flex要比老版本的flex强大很多，有没有必要学习老版本的flex？
   - 移动端开发者必须要关注老版本的flex
   - 因为很多移动端设备内核低只老版本的flex
@@ -22,24 +28,24 @@
 3. 富裕空间的管理(只决定富裕空间的位置，不会给项目区分配空间)
 	- 主轴(-webkit-box-pack)
     	- 主轴是x轴
-        	- start：在右边
-        	- end:	在左边
-        	- center：在两边
-        	- justify：在项目之间
+             	- start：在右边
+             	- end:	在左边
+             	- center：在两边
+             	- justify：在项目之间
     	- 主轴是y轴
-        	- start：在下边
-        	- end：在上边
-        	- center：在两边
-        	- justify：在项目之间
+             	- start：在下边
+             	- end：在上边
+             	- center：在两边
+             	- justify：在项目之间
 	- 侧轴(-webkit-box-algin)
     	- 侧轴是x轴
-        	- start：在右边
-        	- end：  在左边
-        	- center：在两边
+             	- start：在右边
+             	- end：  在左边
+             	- center：在两边
     	- 侧轴是y轴
-        	- start：在下边
-        	- end：   在上边
-        	- center：在两边
+             	- start：在下边
+             	- end：   在上边
+             	- center：在两边
 4. 项目
 	- 弹性空间管理(-webkit-box-flex：弹性因子（默认值为0）)
 
@@ -48,31 +54,31 @@
 	- 容器的布局方向
 	- 容器的排列方向(flex-direction)
     	- 控制主轴是哪一根，控制主轴的方向
-        	- row;		从左往右的x轴
-        	- row-reverse;从右往左的x轴
-        	- column;		从上往下的y轴
-        	- column-reverse;从下往上的y轴
+             	- row;		从左往右的x轴
+             	- row-reverse;从右往左的x轴
+             	- column;		从上往下的y轴
+             	- column-reverse;从下往上的y轴
 	- 富裕空间的管理(只决定富裕空间的位置，不会给项目区分配空间)
     	- 主轴(justify-content)
-        	- flex-start：		在主轴的正方向
+             	- flex-start：		在主轴的正方向
           	- flex-end:		在主轴的反方向
           	- center：			在两边
           	- space-between：	在项目之间
           	- space-around：  在项目两边
     	- 侧轴(align-items)
-        	- flex-start：在侧轴的正方向
-        	- flex-end：    在侧轴的反方向
-        	- center：		在两边
-        	- base#ne    基线对齐
-        	- stretch		等高布局（项目没有高度）
+             	- flex-start：在侧轴的正方向
+             	- flex-end：    在侧轴的反方向
+             	- center：		在两边
+             	- base#ne    基线对齐
+             	- stretch		等高布局（项目没有高度）
 2. 项目
 	- 弹性空间管理(flex-grow：弹性因子（默认值为0）)
 3. 新版本新增的
 	- 容器
     	- flex-wrap：控制的是侧轴的方向
-        	- nowrap 不换行
-        	- wrap   侧轴方向由上而下 			（flex-shrink失效）
-        	- wrap-reverse 侧轴方向由下而上 	（flex-shrink失效）
+             	- nowrap 不换行
+             	- wrap   侧轴方向由上而下 			（flex-shrink失效）
+             	- wrap-reverse 侧轴方向由下而上 	（flex-shrink失效）
     	- align-content：多行/列时侧轴富裕空间的管理（把多行/列看成一个整体）
     	- flex-flow：flex-direction和flex-wrap的简写属性
 			本质上控制了主轴和侧轴分别是哪一根，以及他们的方向
@@ -90,11 +96,11 @@
      - 每项伸缩大小 = (伸缩基准值flex-basis + (可扩展空间 x flex-grow值))
    - flex-shrink（默认值为1）
      - 计算收缩因子与基准值乘的总和
-​		   	`var a = 每一项flex-shrink*flex-basis之和`
+			​		   	`var a = 每一项flex-shrink*flex-basis之和`
      - 计算收缩因数(收缩因数=（项目的收缩因子*项目基准值）/第一步计算总和)
-​		    `var b =  (flex-shrink*flex-basis)/a`
+			​		    `var b =  (flex-shrink*flex-basis)/a`
      - 移除空间的计算(移除空间= 项目收缩因数 x 负溢出的空间)
-​		    `var c =    b * 溢出的空间`
+			​		    `var c =    b * 溢出的空间`
 
 5. 侧轴富裕空间的管理
    - 单行单列

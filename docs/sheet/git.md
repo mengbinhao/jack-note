@@ -1,4 +1,7 @@
+![](../images/git_1.png)
+
 ### 常用基础指令
+
 - git init 初始化项目
 - git add 添加项目到暂存区
 - git commit -m '备注' 提交项目到版本库（必须写上备注）
@@ -28,8 +31,6 @@
 - git merge [-m '备注' --no-ff] 分支名 合并分支（默认以Fast-forwar 模式合并）
 - git push -u origin 分支名 关联远程分支
 - git push origin --delete 分支名 删除指定远程分支（或使用git push origin :分支名）
-
-
 
 ### 标签操作
 - git tag <tagName>创建轻量标签

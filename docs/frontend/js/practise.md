@@ -868,19 +868,51 @@ const getCarsByState2 = (state) => {
 - callback: u define, u donot invoke, but it is invoked afterwards
 
 - 分号注意：
-    - 小括号开头的前一条语句
-    - 中括号开头的前一条语句
-    - js合并的时候一般最开始加分号
+    - 以小括号开头的前一条语句
+    ```javascript
+    (function(a){
+        console.log(a);
+    })()/* 这里没有被自动插入分号 */
+    (function(a){
+        console.log(a);
+    })()
+    ```
+    - 以中括号开头的前一条语句
+    ```javascript
+    var a = [[]]/* 这里没有被自动插入分号 */
+    [3, 2, 1, 0].forEach(e => console.log(e))
+    ```
+    - 以正则开头的前一条语句
+    ```javascript
+    var x = 1, g = {test:()=>0}, b = 1/* 这里没有被自动插入分号 */
+    /(a)/g.test("abc")
+    console.log(RegExp.$1)
+    ```
+    - 以`Template`开头的前一条语句
+    ```javascript
+    var f = function(){
+      return "";
+    }
+    var g = f/* 这里没有被自动插入分号 */
+    `Template`.match(/(a)/);
+    console.log(RegExp.$1)
+    ```
+    - js文件合并的时候最好开始加分号,或`void function()()`
     - do...while有分号
     - 函数表达式有分号
 
-- ### this
+- `use strict`只能出现在脚本、模块和函数体的最前面
+- debug border
+```javascript
 
-    1. new 调用：绑定到新创建的对象，注意：显示return函数或对象，返回值不是新创建的对象，而是显式返回的函数或对象
-    2. call 或者 apply（ 或者 bind） 调用：严格模式下，绑定到指定的第一个参数。非严格模式下，null和undefined，指向全局对象（浏览器中是window），其余值指向被new Object()包装的对象
-    3. 对象上的函数调用：绑定到那个对象
-    4. 普通函数调用： 在严格模式下绑定到 undefined，否则绑定到全局对象。
-        - ES6 中的箭头函数：不会使用上文的四条标准的绑定规则， 而是根据当前的词法作用域来决定this， 具体来说， 箭头函数会继承外层函数，调用的 this 绑定(无论 this 绑定到什么)，没有外层函数，则是绑定到全局对象(浏览器中是window)。 这其实和 ES6 之前代码中的 self = this 机制一样
-        - DOM事件函数：一般指向绑定事件的DOM元素，但有些情况绑定到全局对象（比如IE6~IE8的attachEvent）
-        - 一定要注意，有些调用可能在无意中使用普通函数绑定规则。如果想“ 更安全” 地忽略 this 绑定，你可以使用一个对象，比如 ø = Object.create(null)，以保护全局对象
-        - 优先级`new 调用 > call、apply、bind 调用 > 对象上的函数调用 > 普通函数调用`
+[].forEach.call($$("*"), dom => {
+    dom.style.outline = "1px solid #" + (~~(Math.random() * (1 << 24))).toString(16);
+});
+```
+- 优雅处理aa
+```javascript
+function AsyncTo(promise) {
+    return promise.then(data => [null, data]).catch(err => [err]);
+}
+const [err, res] = await AsyncTo(Func())
+```

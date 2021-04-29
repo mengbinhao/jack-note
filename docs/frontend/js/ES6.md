@@ -1,5 +1,5 @@
 ### ES6
-
+- [some summary](https://juejin.im/post/5d9bf530518825427b27639d)
 1. 模板字符串,可保留多行格式，可以调用函数
 
    ```javascript
@@ -27,21 +27,19 @@
       1. `Array.prototype.slice.call(arguments).sort() to const sortNumbers = (...numbers) => numbers.sort()`
       2. 与解构赋值组合使用`var [a,b,...c] = array;`
    3. 箭头函数
-      > 1 没有 this,函数体里面的 this 是箭头函数定义时所在对象,不是运行时(this 看上一级，若是箭头函数继续上找,作用域是栈内存不是堆内存)
+      > 1 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若是箭头函数继续上找), call / apply / bind也改变不了
       >
       > 2 没有 arguments,但有...
       >
       > 3 不能用作构造函数,new 调用
       >
-      > 4 不可用 yield,因此不能用 Generator 函数
+      > 4 没有原型对象
       >
-      > 5 不能改变 this 绑定,即使通过 call / apply / bind
+      > 5 没有自己的 super 和 new.target 绑定
       >
-      > 6 形参名称不能重复
+      > 6 不可用 yield,因此不能用 Generator 函数
       >
-      > 7 没有原型对象
-      >
-      > 8 没有自己的 super 和 new.target 绑定
+      > 7 形参名称不能重复
 
 3. 解构(数组、对象、函数参数、解构不成功`undefined`,比如不对称解构)
    1. 排除对象不需要的属性、提取 JSON 数据、Map 解构、解析模块方法
@@ -327,46 +325,115 @@ newObj.b.c = -1 // output: GET...
 
 14. module(服务器环境)
 
-    1.  export
+    1.  `import`
         ```javascript
-        var num2 = 2; export {num2}
-        export var num1 = 1;
-        export { a as xxx, b as yyy}
-        export default const a = 12;//只有default export的东西import的时候不加大括号，import的时候名字随便起
-        export default const example2 = {
-            name : 'my name',
-            age : 'my age',
-            getName  = function(){  return 'my name' }
-        ```
-    2.  import
+        //CommonJs模块输出的是一个值的拷贝，ES6模块输出的是值的只读引用
+        //CommonJs模块是运行时加载，ES6模块是编译时输出接口
         //相对/绝对路径
+        //输入的变量都是只读的,当然可以给对象添加属性,但是最好不要这样做
+        //具有提升效果
+        //静态分析，不能使用表达式和变量
+        //Singleton模式
         //只会导入一次 无论引入多少次
+
         //相当于引入文件
-        import "https://code.jquery.com/jquery-3.3.1.min.js";
+        import "https://code.jquery.com/jquery-3.3.1.min.js"
 
-            import {a as xxx,b as yyyy} './App.js'
+        import x from "./a.js" 引入模块中导出的默认值
 
-            import {* as xxx} from './App.js'
+        import {a as x, modify} from "./a.js"; 引入模块中的变量
 
-            import * as obj from './App.js'
+        import * as x from "./a.js" 把模块中所有的变量以类似对象属性的方式引入
 
-            import a, {x,y} from './App.js'
+        //语法要求不带 as 的默认值永远在最前。注意，这里的变量实际上仍然可以受到原来模块的控制
+        import d, {a as x, modify} from "./a.js"
 
-            import {num1,num2} from './App.js'
+        import d, * as x from "./a.js"
 
-            import会提升
+        // 导入样式
+        import './index.less'
 
-            导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
+        // 导入类库
+        import 'lodash'
 
-            import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise （按需加载 动态路径 可写if里）
+        //自执行导入
+        import "person"
+        //import会提升
+        //导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
+        //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise(按需加载/动态路径可写if里)
+
+        // 当动态import时，返回的是一个promise
+        import('lodash')
+          .then((lodash) => {
+            //...
+          });
+
+        // 上面这句实际等同于
+        const lodash = await import('lodash')
+
+
+        //export和import复合写法
+        export { foo, bar } from 'my_module'
+
+        //可以简单理解为
+        import { foo, bar } from 'my_module'
+        export { foo, bar }
+
+        export { es6 as default } from './someModule'
+
+        // 等同于
+        import { es6 } from './someModule'
+        export default es6
+        ```
+    2.  `export`
+        ```javascript
+        // export 1  error
+        // const m = 1; export m;  error
+        //Named exports
+        //also var const
+        export const m = 1
+        export let num1 = 1, num2 = 2
+        const m = 1
+        export {m}
+        export {m as mm};
+        //include function(含async、generator)
+        export function funName(){}
+        export () => {}
+        export class ClassName {}
+        export {a, b, c}
+        export { a as xxx, b as yyy}
+        //class也可以這樣寫,没有名字
+        export default () => {xxx}
+
+        export const {nama1, name2, name3} = obj
+
+        //export default
+        //default exports
+        //export default const a = 1  error
+        export default expression
+        export default function (…) { … } // also class, function*
+        export default function name1(…) { … } // also class, function*
+        export { name1 as default, … }
+
+        export function add(a,b) { return a + b; }
+        //这里导出的是值,以后a的变化与导出的值就无关了
+        var a = {}; export {a}
+
+        //在import语句前无法加入export，但是我们可以直接使用export from语法
+        // Aggregating modules
+        export a from "a.js"
+        export * from xxx
+        export * as name1 from xxx
+        export { name1, name2, …, nameN } from xxx
+        export { import1 as name1, import2 as name2, …, nameN } from xxx
+        export { default } from xxx
+        ```
 
         总结:
-
-        1. 当用 export default people 导出时,就用 import people 导入(不带大括号)
+        1. 当用 export default people 导出时,就用 import people 导入(不带大括号)，当用 export name 时,就用 import { name }导入(带大括号)
         2. 一个文件里,有且只能有一个 export default,但可以有多个 export
-        3. 当用 export name 时,就用 import { name }导入(带大括号)
-        4. 当一个文件里,既有一个 export default people,又有多个 export name 或者 export age 时,导入就用 import people, { name, age }
-        5. 当一个文件里出现 n 多个 export 导出很多模块,导入时除了一个一个导入,也可以用 import \* as example
+        3. 当一个文件里,既有一个 export default people,又有多个 export name 或者 export age 时,导入就用 import people, { name, age }
+        4. 当一个文件里出现 n 多个 export 导出很多模块,导入时除了一个一个导入,也可以用 import \* as example
 
     3.  和 CommonJS 区别
         1. 前者支持动态导入，也就是 require(\${path}/xx.js)，后者目前不支持，但是已有提案 import(xxx)

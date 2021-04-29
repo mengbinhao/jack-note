@@ -16,6 +16,11 @@
       #test.demo {
         color: blue;
       }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
     </style>
   </head>
 
@@ -35,64 +40,64 @@
     <button id="t1">ttt1111</button>
     <script>
       const isObject = obj => {
-        return obj !== null && typeof obj === 'object'
-      }
+        return obj !== null && typeof obj === "object";
+      };
       let deepClone22 = (target, origin) => {
         var target = target || {},
           toStr = Object.prototype.toString,
-          arrStr = '[object Array]',
-          prop
+          arrStr = "[object Array]",
+          prop;
         for (prop in origin) {
-          prop = origin[prop]
+          prop = origin[prop];
           if (prop === target) {
-            continue
+            continue;
           }
           if (origin.hasOwnProperty(prop)) {
-            if (origin[prop] != null && typeof origin[prop] === 'object') {
-              target[prop] = toStr.call(origin[prop]) === arrStr ? [] : {}
-              deepClone22(target[prop], origin[prop])
+            if (origin[prop] != null && typeof origin[prop] === "object") {
+              target[prop] = toStr.call(origin[prop]) === arrStr ? [] : {};
+              deepClone22(target[prop], origin[prop]);
             } else {
-              target[prop] = origin[prop]
+              target[prop] = origin[prop];
             }
           }
         }
-      }
+      };
 
       const deepClone = (source, hash = new WeakMap()) => {
-        if (!isObject(source)) return source
+        if (!isObject(source)) return source;
         //maybe return
-        if (hash.has(source)) throw TypeError('circle reference')
-        let target = Array.isArray(source) ? [] : {}
-        hash.set(source, target)
+        if (hash.has(source)) throw TypeError("circle reference");
+        let target = Array.isArray(source) ? [] : {};
+        hash.set(source, target);
 
-        let symKeys = Object.getOwnPropertySymbols(source)
+        let symKeys = Object.getOwnPropertySymbols(source);
         if (symKeys.length) {
           symKeys.forEach(symKey => {
             if (isObject(source[symKey])) {
-              target[symKey] = deepClone(source[symKey], hash)
+              target[symKey] = deepClone(source[symKey], hash);
             } else {
-              target[symKey] = source[symKey]
+              target[symKey] = source[symKey];
             }
-          })
+          });
         }
 
         for (let key in source) {
           if (Object.prototype.hasOwnProperty.call(source, key)) {
             if (isObject(source[key])) {
-              target[key] = deepClone(source[key], hash)
+              target[key] = deepClone(source[key], hash);
             } else {
-              target[key] = source[key]
+              target[key] = source[key];
             }
           }
         }
-        return target
-      }
+        return target;
+      };
 
       let obj = {
-        strProperty: 'muyiy',
+        strProperty: "muyiy",
         objProperty: {
           title: "You Don't Know JS",
-          price: '45'
+          price: "45"
         },
         undefinedProperty: undefined,
         nullProperty: null,
@@ -100,17 +105,17 @@
         funcProperty: function() {},
         boolProperty: true,
         arrProperty: [1, 2, 3]
-      }
+      };
 
       //obj.circleProperty = obj
 
-      let sym1 = Symbol('a')
-      let sym2 = Symbol.for('b')
+      let sym1 = Symbol("a");
+      let sym2 = Symbol.for("b");
 
-      obj[sym1] = 'localSymbol'
-      obj[sym2] = 'globalSymbol'
-      let ret = deepClone(obj)
-      console.log(ret)
+      obj[sym1] = "localSymbol";
+      obj[sym2] = "globalSymbol";
+      let ret = deepClone(obj);
+      console.log(ret);
     </script>
   </body>
 </html>

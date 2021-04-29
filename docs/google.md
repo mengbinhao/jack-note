@@ -1,4 +1,4 @@
-### 完整匹配
+### Exact match only
 - `mysql foreign key`
 > 在Google的输入框里,所有的**空格**都被理解为加号
 >
@@ -6,7 +6,7 @@
 
 - `"mysql foreign key"` 完整匹配
 
-### 筛选
+### Exclude words from search
 - `"mysql foreign key" -nodejs`
 
 ### 通配符
@@ -14,9 +14,19 @@
 
 ### 站内搜索
 - `"mysql foreign key" site:stackoverflow.com`
+- `site:.gov covid-19`
 
 ### 文档搜索
 - `filetype:doc 5G`
 
 ### 电影/书籍/小说搜索
 - `《万历十五年》`
+
+### others
+- stopwatch
+- rgb 50 50 50
+- 6 inches to cm
+- 5 usd to cny
+- my ip
+- Japan time 5pm
+- @iori

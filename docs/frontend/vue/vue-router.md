@@ -258,7 +258,10 @@ const Foo = {
 11. 触发 DOM 更新
 12. 用创建好的实例调用 `beforeRouteEnter` 守卫中传给 `next` 的回调函数
 
+![](../images/router_1.png)
+
 ### 总结(k->v 前端就是组件 后端就是回调函数)
+
 - 原理就是onhashchange(#xxx)
 - router.addRoutes 比构造函数配置更灵活
 - \$route  只读 / \$router  只写

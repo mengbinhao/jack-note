@@ -1,5 +1,7 @@
 ![](../images/vue-MVVM-2.png)
 
+![](../images/vue-MVVM-3.png)
+
 ### 1 数据代理
 
 - 通过一个对象代理对另一个对象中属性的操作
