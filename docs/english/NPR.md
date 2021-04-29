@@ -1,3 +1,12 @@
+- 2021.4.29
+  - oblige v | obliged
+  - tube n/v
+  - oxygen n
+
+  > XXX has broken that record three days in a row now
+  > This is just caught everyone by surprise
+  > This was a point of pride
+
 - 2021.4.28
   - expensive adj
   - peril n/vt | perilous adj
@@ -188,7 +197,6 @@
 
 - 2021.3.29
   - cruel adj
-  - accompany
 
   > They're beyond capacity
 
@@ -1084,7 +1092,6 @@
 - 2020.9.3
   - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist | opportunism n | racism n
   - shareholder n
-  - preside v
   - buddy n
 
   > They are going to build it from scratch because there's no one like that on the horizon
@@ -1933,7 +1940,7 @@
   - objective adj/n | objectively | object | objection n
   - audit n/v
   - immediate adj
-  - preparedness n
+  - prepare v | prepared | unprepared | preparedness n
   - trillion n | million | billion | billionaire
 
 - 2020.5.6
@@ -3099,6 +3106,7 @@
   - plunder n/v
   - inevitably adv
   - compassionate n/adj/adv | compassion n
+  - feat n/adj
   - defeat n/vt
   - medal n
   - resonate v | resonance n | resonant adj
@@ -3142,7 +3150,6 @@
   - prostitution n
   - solicit v
   - toxic adj
-  - patron n
   - charity n | charitable
   - offend v | offender n
   - severe adj | severely
@@ -3585,7 +3592,6 @@
   - withdrawal n | withdraw v
   - withhold v
   - decimate vt
-  - patrol n/vt
   - harsh adj | harshly
 
   > he admitted that after one month hiatus the two sides had a lot of catching up to do
@@ -3641,6 +3647,7 @@
 
 - 2019.10.9
   - tout n/vt
+  - patrol n/vt
   - patriot n | patriotism | unpatriotic adj
   - bar n/vt | barrier n/vt | barricade n/vt
   - subsidy n | subsidize vt
@@ -3648,7 +3655,7 @@
   - theft n
   - puppet n
   - menacing adj
-  - regional adj | region n
+  - region n | regional adj
   - bolster n/vt
   - cliff n
   - proportional adj| proportion | proportionate adj | dis-proportionate
@@ -4180,7 +4187,7 @@
 - 2019.8.16
   - bid n/v
   - strain n/v | strained adj
-  - qualify v | qualification n | qualified | eligible adj
+  - qualify v | qualification n | qualified | eligible adj | eligibility
   - sick n/vt/adj
   - turnout n | turnover n
   - poverty n
@@ -4313,6 +4320,7 @@
 
 - 2019.7.30
   - shade n/v | shaded | shady adj | shadow n/vt/adj | shadowy adj
+  - preside v
   - president | presidency n | presidential adj
   - committee n | commitment n | committed adj
   - brevity n
@@ -4523,7 +4531,7 @@
   > that may easier said than done
 
 - 2019.7.9
-  - supply n/vt | supplier n
+  - supply n/vt | supplier n | resupply
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj
   - standpoint n
@@ -4562,7 +4570,7 @@
   - recess n/vt | recession n | depress vt | depression n | depressed
   - prospect n/vi
   - debate n/v
-  - staggering adj
+  - stagger n/v/adj | staggering adj
 
   > that is very much on their mind at the moment
   > as noted above

@@ -2,22 +2,21 @@
 
 - Jack/Male/1983/Married
 - Tel:18591953989
-- Email:mengbinhao2018@gmail.com
+- Email:3170673@qq.com
 - Blog:[gitbook](https://jackmeng.gitbook.io/note/)
 - Education: Xi'an Polytechnic University/Computer Science & Technology
 - Expected work city: Xi'an
 - Expected position: automated test engineer
-- Expected salary: 23K/month
 - Notice Period: 1 Month
 
 # Employment History
 
 | Employment Period | Employer                         | Position Held                 |
 | ----------------- | -------------------------------- | ----------------------------- |
-| 2018.05 - Present | Our United RT                    | automation test engineer      |
-| 2016.04 - 2017.12 | Emerson Xi’an Engineering Center | test and development engineer |
-| 2014.05 - 2015.06 | Xi'an ACTIVE Network             | application support           |
-| 2009.03 - 2014.04 | Shan'xi electric power Company   | web development engineer      |
+| 2018.05 - Present | Our United RT                    | Automation Test Engineer      |
+| 2016.04 - 2017.12 | Emerson Xi’an Engineering Center | Test and Development Engineer |
+| 2014.05 - 2015.06 | Xi'an ACTIVE Network             | Application Support           |
+| 2009.03 - 2014.04 | Shaan'Xi Electric Power Company  | Web Development Engineer      |
 
 # Work Experience
 
@@ -27,21 +26,20 @@
 
 #### Description
 
-The product is a stand-alone software program. It is designed to complement standard diagnostic CT, MRI, and ultrasound scanners by adding the capability to perform computerized contouring of selected patient anatomy based on the anatomical density. This is an off-line procedure performed after the scan is completed and the patient has been released. The contoured images are available for export to other radiotherapy treatment planning systems
+TPS combines external radiation virtual simulation and 3D treatment planning technology, It is a full-featured and powerful radiation treatment planning software. It provides an efficient solution for CT simulation and make treatment planning
 
 #### Role & Responsibility
 
-1. Technology selectiong for automation project and built environment (TestComplete)
-2. Write automation scripts and maintain cases(ES6)
+1. Technical selection for TPS automation and building environment (TestComplete)
+2. Write automation scripts and maintain them(JavaScript)
 3. Set up CI environment(Jenkins、git)
-4. Excute automation for each build
+4. Execute automation for each software build
 5. Analyze test report and bug tracking(JIRA)
-6. Design manual case and review(Testlink)
 
 #### Accomplishments
 
-1. Over 50% manual case are turned into automation
-2. Improve 40% work efficiency for test team
+1. Over 60% manual case are turned into automation
+2. Improve 50% work efficiency for test team
 
 ## Emerson Xi’an Engineering Center (2016/4 ~ 2017/12)
 
@@ -49,18 +47,16 @@ The product is a stand-alone software program. It is designed to complement stan
 
 #### Description
 
-Oxygen is an automation testing solution platform, it runs test cases based on target system data model、target system activities and its automated test case, then generate test report to users
+Oxygen is an automation testing solution platform, It runs test cases based on target system's data model、system activities and its automated test case, At last generates test report to users
 
 #### Role & Responsibility
 
-1. Work in Agile team(planning、grooming、retrospectives)
-2. Enhance automation framework(Selenium + JAVA)
-3. Encapsulated target system business activities
-4. Implement target system page defiend
-5. Write automation scripts and maintain cases
+1. Work in Agile team(planning、grooming、retrospective)
+2. Enhance automation framework(Selenium、JAVA)
+4. Implement target system page defined and its business activities
+5. Write automation scripts and maintain them
 6. Set up CI environment
 7. Analyze test report and bug tracking
-8. Develop other web system
 
 #### Accomplishments
 
@@ -73,11 +69,11 @@ Oxygen is an automation testing solution platform, it runs test cases based on t
 
 #### Description
 
-Agency publishes various activities, then the end customers look the events which they like to join or cancel them
+Agents publish various customized online activities and advertisements on target page, and end-users participate, cancel、subscribe those events they are interested in from agency website
 
 #### Role & Responsibility
 
-1. Provide solution for customer issue
+1. Provide solution for customer issues
 2. Analyze the root cause of each issue
 3. Deploy and upgrade system
 4. 24 hours on-call
@@ -85,32 +81,32 @@ Agency publishes various activities, then the end customers look the events whic
 #### Accomplishments
 
 1. Over 90% customer issue are resolved on time
-2. Share and summarize hot issue
+2. At least 5 cases handled per day
 
-## Shanxi electric power Company (2009/3 ~ 2014/4)
+## Shaan'xi electric power Company (2009/3 ~ 2014/4)
 
 ### economic law project
 
 #### Description
 
-Implementation of contract management from the traditional manual approach to modern information technology, expedite contract approval
+Implementation the contract management from the traditional manual way to the modern information way, and realize the standardization of contract management by contract formation, approval, signing, filing and other modules to achieve the goal of "integrated" contract management
 
 #### Role & Responsibility
 
-1. Be responsible for the interface between other systems
-2. Deploy new system version
+1. Be responsible for the interface between economic law and other systems
+2. Deploy and upgrade new system version
 3. Training key customers
 4. Resolve production issue
 
 #### Accomplishments
 
 1. Implement different interface for different region
-2. 100% handle customer issue
+2. 100% handling customer issue
 
 # Skills
 
 - Language: JavaScript / Node.js / Java
-- Unit Test: Mocha / Chai
+- Unit Test: Mocha
 - CI: Jenkins
 - Version Control System: Git
 - Front Framework: Vue / Vue Router / VueX / Axios
