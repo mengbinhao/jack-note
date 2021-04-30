@@ -53,10 +53,10 @@ Oxygen is an automation testing solution platform, It runs test cases based on t
 
 1. Work in Agile team(planning、grooming、retro)
 2. Enhance automation framework(Selenium、JAVA)
-3. Implement target system page defined and its business activities
-4. Write automation scripts and maintain them
-5. Set up CI environment
-6. Analyze test report and bug tracking
+4. Implement target system page defined and its business activities
+5. Write automation scripts and maintain them
+6. Set up CI environment
+7. Analyze test report and bug tracking
 
 #### Accomplishments
 
@@ -106,11 +106,11 @@ Implementation the contract management from the traditional manual way to the mo
 # Skills
 
 - Language: JavaScript / Node.js / Java
-- Unit Test: Mocha
+- Be Familar with algorithm
 - CI: Jenkins
 - Version Control System: Git
 - Front Framework: Vue / Vue Router / VueX / Axios
 - Bundler: Webpack
+- Unit Test: Mocha
 - Be Familar with Linux command
 - Be Familar with SQL / NOSQL
-- Be Familar with algorithm

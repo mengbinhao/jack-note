@@ -1,3 +1,11 @@
+- 2021.4.30
+  - dormant adj
+  - official | unofficial
+  - entrance n
+  - unstoppable adj
+
+  > What's the overall context here?
+
 - 2021.4.29
   - oblige v | obliged
   - tube n/v
@@ -1073,7 +1081,7 @@
   - fact | factual | factually
 
 - 2020.9.7
-  - festive | festival
+  - festive adj | festival n/adj
 
   > It was a milestone, it held a lot of symbolic meaning
   > It was the most exciting flight they've ever taken
@@ -1944,7 +1952,7 @@
   - trillion n | million | billion | billionaire
 
 - 2020.5.6
-  - provoke vt | incite vt | incitement n
+  - provoke vt | incite vt | incitement n | unprovoked
   - vessel n
   - competence n | incompetence
   - deterrence n
@@ -2897,7 +2905,7 @@
   - compensation n
   - unenviable adj
   - retrieve v
-  - eruption n | erupt v
+  - erupt v | eruption n
   - volcano n
   - rotate v/adj
   - immune n/adj | immunity n
