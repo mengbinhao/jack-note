@@ -1,3 +1,30 @@
+- 2021.5.11
+  - fair | fairness
+
+  > There are a lot of factors here at play, the government did back down on raising taxes
+  > It's kind of a mix of things
+
+- 2021.5.10
+  - leaderless
+
+- 2021.5.9
+  - exasperate vt
+
+  > Israeli politics may be  slowly taking an important turn
+
+- 2021.5.8
+  > xxx has never been recognized as an independent state by anyone other than Turkey
+  > Whether the sides will be any closer to a resolution by then remains unclear
+
+- 2021.5.7
+  - police n/vt
+  - execution n
+  - snippet n
+
+- 2021.5.6
+  - demon n
+  - stand n/v
+
 - 2021.4.30
   - dormant adj
   - official | unofficial
@@ -375,7 +402,7 @@
   > xxx got the upper hand, but we don't know where this is headed
 
 - 2021.2.21
-  - comprehensive adj | comprehension n
+  - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
   - refine vt
   - idiot n
   - stamp n/v
@@ -676,7 +703,7 @@
   - elaborate v/adj
   - draft n/vt | redraft n/vt
   - physical adj
-  - psychological adj
+  - psychological adj | psychotic adj
 
 - 2020.12.7
   - uranium n
@@ -858,7 +885,7 @@
 - 2020.10.30
   - spite n/vt
   - collateral n
-  - responsibly | irresponsible n/adj/adv
+  - responsibly | responsible | irresponsible n/adj/adv
 
   > I say it is still a valuable thing to do
 
@@ -1259,7 +1286,6 @@
   - dentist n
   - category n | categorize vt
   - fragile adj
-  - resumption n
   - recall n/vt
   - confirm vt | confirmation | unconfirmed
 
@@ -1299,7 +1325,6 @@
   > He didn't have any other than his common sense
 
 - 2020.8.4
-  - recognize vt
   - crossroad n
   - regime n
 
@@ -1870,7 +1895,6 @@
   - propaganda n
   - vain adj
   - daring n/adj
-  - infiltrate v
 
   > this whole thing doesn't really added up, It doesn't make a lot of sense
 
@@ -1895,6 +1919,7 @@
   - sexually adv | sexual adj
   - admire v | admiration n | admirer
   - recognise vt
+  - recognize vt | recognition n
   - pride n/v
   - honour n/vt
   - despair n/vi
@@ -1987,7 +2012,7 @@
   - rile v
   - harvest n/v
   - series n
-  - immigrant n | migrant n
+  - immigrant n | migrant n/adj
 
   > He may decide to extend that future
   > It's not really as bold as we expected
@@ -2116,7 +2141,7 @@
   - mathematical adj | mathematically adj
   - presumptive adj
   - virtual adj | virtually adv
-  - delegate n/vt | delegation
+  - delegate n/vt | delegation n
 
   > It caught my ear
   > X prise Y as a whole
@@ -2907,7 +2932,6 @@
   - retrieve v
   - erupt v | eruption n
   - volcano n
-  - rotate v/adj
   - immune n/adj | immunity n
   - nominate vt | nomination | nominee n
 
@@ -3597,7 +3621,7 @@
   - confusion n | confusing adj | confuse vt
   - triple adj
   - short-term adj
-  - withdrawal n | withdraw v
+  - withdraw v | withdrawal n
   - withhold v
   - decimate vt
   - harsh adj | harshly
@@ -3872,7 +3896,6 @@
   > but no word yet on the extent of the damage
 
 - 2019.9.17
-  - survival n
   - narrow n/v/adj | narrowly adv
   - resentment n
   - poke n/v
@@ -4111,7 +4134,7 @@
   - stance n
   - estimate n/vt | underestimate vt/v
   - tackle n/vt
-  - mobilize vt
+  - mobilize vt | mobilization
   - corrode v
   - demonstration n | demonstrate v | demonstrator
   - interfere vi | interference n | intervene vi | intervention n | meddle vi
@@ -4295,7 +4318,6 @@
   - hierarchical adj
   - owe vt
   - allegiance n
-  - recognition n
 
   > it turned out
 
@@ -4447,7 +4469,6 @@
   - joint adj | jointly
   - council n
   - civilian n/adj | civilization n | civil adj | uncivil
-  - coup n
   - sole adj/n/vt | solely
   - compromise n/v
   - reservation n
@@ -4504,7 +4525,7 @@
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n | encourage vt | discourage
   - courage n | courageous n/adj/adv
-  - consequence n | conclusion n | conclude v | in-conclusive adj
+  - consequence n | conclusion n | conclude v | conclusive adj | in-conclusive
 
   > it is hard to swallow
 
@@ -4663,7 +4684,6 @@
   - relief n
   - abide vi
   - exert vt
-  - arena n
   - dilute vt/adj
 
   > But as I said earlier | as you mentioned
