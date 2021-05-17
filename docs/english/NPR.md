@@ -1,3 +1,20 @@
+- 2021.5.17
+  - siren n
+  - unseen adj
+
+  > xxx continue to rain down on the streets and on people
+
+- 2021.5.14
+  - abroad adj/adv
+  - prolific adj
+  - feed v
+
+  > We're not seeing any sharp jumps
+  > In contrast, xxx
+
+- 2021.5.13
+  > they fell just one seat short of majority
+
 - 2021.5.11
   - fair | fairness
 
@@ -403,7 +420,7 @@
 
 - 2021.2.21
   - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
-  - refine vt
+  - refine vt | refined
   - idiot n
   - stamp n/v
   - infringe v
@@ -765,6 +782,7 @@
 - 2020.11.23
   - swing n/v/adj
   - hail n/v
+  - anguish n
   - languish vi
   - integrate n/vi/adj | integration n | disintegrate v
   - encompass vt
@@ -1843,7 +1861,7 @@
 
 - 2020.5.19
   - squander vt
-  - guideline n
+  - guideline n | guidance n
   - advertise vt
   - hesitate v
   - restaurant n
@@ -2060,7 +2078,6 @@
   - advance n/v/adj
   - criteria n
   - socialize v
-  - guidance n
 
   > they're pretty short on specifics
 
@@ -2292,7 +2309,6 @@
   - gasp n/v
   - obit n
   - crematorium n
-  - cemetery n
   - coffin n
   - evolve v
   - surplus n/adj
@@ -2367,7 +2383,7 @@
   - procedure n | procedural adj
   - proceeding n | proceed vi/n
   - ramble n/v | rambling adj
-  - joyous adj | joy n/v
+  - joy n/v | joyous adj
   - penetrate v | penetration n
   - trauma n
   - consent n/vi | consensus n | consensual adj
@@ -2837,7 +2853,6 @@
 - 2020.1.9
   - burden n/vt
   - integral adj
-  - whatsoever pron
   - ease n/v
 
   > Brexit is at hand
@@ -4014,7 +4029,6 @@
   - mental adj
   - ramblings n
   - incoherent adj
-  - rampage n/vt
   - alcohol n
   - tobacco n | cigarette n
   - mourn v
@@ -4593,7 +4607,7 @@
   - concern n/vt | concerned adj | concerning adj
   - pace n/v
   - impetus n
-  - firmly adv | firm n/vt/adj
+  - firm n/vt/adj | firmly adv
   - spike n/v
   - loan n/vt
   - recess n/vt | recession n | depress vt | depression n | depressed
