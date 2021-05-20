@@ -1,3 +1,21 @@
+- 2021.5.20
+  - private adj/n | privately
+
+  > on top of that
+  > We're in the middle of xxx, but millions are out of work, They're still struggling
+  > xxx into balance
+
+- 2021.5.19
+  - incentive n
+  - appliance n
+  - rise v/n
+  - steady v/adj
+  - towel n/v
+  - bacon n
+
+  > Don't make promise you can't keep
+  > She's been through enough
+
 - 2021.5.17
   - siren n
   - unseen adj
@@ -1316,7 +1334,7 @@
   - episode n
   - humble vt/adj
   - impress n/v | impression n | impressive adj
-  - nuance n
+  - nuance n | nuanced
   - discourse n
   - tale n
   - emperor n
@@ -1964,7 +1982,7 @@
   - assailant n
   - invisible adj | visibility
   - unexpected adj
-  - fear n/v
+  - fear n/v | fearful
   - urge n/v | urgent adj | urgently | dire adj | urgency n
   - purge n/vt
   - surge n/vi
@@ -1991,7 +2009,7 @@
   - objective adj/n | objectively | object | objection n
   - audit n/v
   - immediate adj
-  - prepare v | prepared | unprepared | preparedness n
+  - prepare v | prepared | unprepared | preparedness n | preparation
   - trillion n | million | billion | billionaire
 
 - 2020.5.6
@@ -2242,7 +2260,6 @@
 
 - 2020.4.5
   - simultaneously adv
-  - exacerbate vt
   - campaign n/vi | campaigner n
   - exceed v
 
@@ -4383,7 +4400,7 @@
   - off-putting adj
   - gut n
   - fond adj
-  - undoubtedly adv
+  - doubt n/v | undoubtedly adv
   - successor n
   - hard-line adj
   - appeal n/v | appealing adj
