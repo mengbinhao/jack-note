@@ -1,3 +1,18 @@
+- 2021.5.24
+  - solar n/adj
+  - diesel n/adj
+
+  > There is a window of opportunity
+  > It really gets attention in a lot of corners
+
+- 2021.5.21
+  - advice n
+  - brush n/v
+  - ditch n/v
+
+  > I've heard a range of views
+  > that could be a formula for confusion
+
 - 2021.5.20
   - private adj/n | privately
 
@@ -2960,7 +2975,6 @@
 
 - 2019.12.25
   - compensation n
-  - unenviable adj
   - retrieve v
   - erupt v | eruption n
   - volcano n
@@ -4132,7 +4146,7 @@
   - mock n/v/adj
   - retract vt
   - climate n
-  - occasion n/vt | occasional adj
+  - occasion n/vt | occasional adj | occasionally
   - shrug n/v
   - stretch n/v
   - crucial adj | crucially
