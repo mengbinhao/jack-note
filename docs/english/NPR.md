@@ -1,3 +1,13 @@
+- 2021.5.25
+  - barge n
+  - shear n/vt
+  - shift n/v
+  - inland n/adj
+  - gust n/vi
+  - topple v
+  - crane n/v
+  - hurricane
+
 - 2021.5.24
   - solar n/adj
   - diesel n/adj
@@ -3159,7 +3169,7 @@
   - grave n/adj | gravely adv
   - endgame n
   - flip n/v/adj
-  - miraculous adj | miracle n
+  - miracle n | miraculous adj | miraculously
   - cue n/vt | clue n n/vt | clueless
 
 - 2019.12.10
@@ -3582,7 +3592,7 @@
   - Jeez
   - raft n/v
   - resume n/vt
-  - evacuation n | evacuate v | evacuee n
+  - evacuate v | evacuee n | evacuation n
   - dam n
   - levee n
   - agree v | disagree | agreement n | disagreement

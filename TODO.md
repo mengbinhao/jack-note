@@ -243,6 +243,7 @@
 - [我的代码简洁之道](https://mp.weixin.qq.com/s/1X37gyRL1ub9qyUaFKmOqg)
 - [为什么不推荐用 for...in 遍历数组](https://mp.weixin.qq.com/s/L_svxUWy2odFxhMfkhomyw)
 - [总结了工作中常用的 ES6 代码片段，整理后的 24 个值得拥有](https://mp.weixin.qq.com/s/DqNPu0oOfVwbP8eaNMj48g)
+- [JavaScript 代码整洁之道-复杂判断](https://juejin.cn/post/6961324184655888392)
 
 ### mobile
 
@@ -740,6 +741,7 @@
 
 #### JS
 
+- [一文帮你搞定 90%的 JS 手写题](https://mp.weixin.qq.com/s?__biz=MzI0MzIyMDM5Ng==&mid=2649835016&idx=1&sn=9541743407661170a02e7dd0cc7a51df)
 - [由浅入深，66 条 JavaScript 面试知识点](https://mp.weixin.qq.com/s/gDFHkFUT5gCFy6XCU2Pbjw)
 - [面试之道之性能篇](https://juejin.im/post/5d801598e51d4561ce5a1cfd)
 - [为什么外链 css 要放在头部，js 要放在尾部](https://www.cnblogs.com/lvonve/p/11975593.html)
