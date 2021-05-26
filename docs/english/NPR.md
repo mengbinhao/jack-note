@@ -1,3 +1,8 @@
+- 2021.5.26
+  - declare v | declared
+
+  > but we do know that there are a lot of serious issues on both side that still have to get worked out
+
 - 2021.5.25
   - barge n
   - shear n/vt
@@ -622,6 +627,7 @@
   - literature n
   - compress vt | decompress vt
   - attitude n
+  - pound n/v
   - compound v
   - product n | productive adj | productivity n
   - suck v
@@ -1910,7 +1916,7 @@
   - restaurant n
   - colossal adj
   - elementary adj
-  - construction n | construct vt | constructive adj
+  - construct vt | constructive adj | construction n
   - outline n/v
   - course n/vt
 
@@ -2443,7 +2449,6 @@
   > It's really hard to get real-time information out of there
 
 - 2020.3.19
-  - demolish vt
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
   - human n/adj | humanitarian | humanity n | humane adj | inhumane
@@ -4004,7 +4009,7 @@
   - revolution n | evolution n | revolutionary n/adj
   - unfettered adj
   - decline n/v
-  - immersed adj
+  - immerse vt | immersed adj
   - vanity n
   - dagger n
   - veteran n/adj
@@ -4333,7 +4338,7 @@
 - 2019.8.13
   - preferred adj
   - boycott n/vt
-  - cabinet n
+  - cabinet n/adj
   - reckless adj | recklessness n
   - colony n | colonial adj | colonialism n | colonize vt
   - spiral n/vi/adj
@@ -4397,7 +4402,7 @@
   - bomb n/v | bombshell n | bomber
   - congressional adj
   - collegial adj
-  - despite prep
+  - despite prep/n
   - briefing n | brief n/vt/adj | briefly adv
 
   > at odds with sb
