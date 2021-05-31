@@ -156,6 +156,7 @@
 - [学习 async，defer 和动态脚本，本文就够了](https://mp.weixin.qq.com/s/VUN9TJyH411fLkEnJZclow)
 - [JavaScript 那些写出来会被同事揍的骚操作](https://mp.weixin.qq.com/s/rfsHwY6lNA1pn6BftgZH4Q)
 - [手把手 Promise](https://juejin.cn/post/6894115068633350158)
+- [结果这道 Promise 面试题让我失眠好一会](https://mp.weixin.qq.com/s/OVwdmTu2ynho7x1DK4qVUg)
 - [Promise 的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
 - [Promise 源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
 - [一步一步手写完美符合 PromiseA+规范的 Promise](https://mp.weixin.qq.com/s/or_hjEdzvDmbKKlbCL9Fvg)

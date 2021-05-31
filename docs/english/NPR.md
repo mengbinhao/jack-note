@@ -1,3 +1,9 @@
+- 2021.5.31
+  - pattern n/vt
+  - addition n
+
+  > but now her office has decided otherwise
+
 - 2021.5.26
   - declare v | declared
 
@@ -2683,7 +2689,6 @@
   - era n
   - infuse v
   - chaos n | chaotic adj
-  - intersect v
   - secede v
   - horizon n
   - cape n
@@ -2782,7 +2787,7 @@
   - honor n/vt | dishonor n/vt
   - cruise n/v
   - televise v
-  - investigator n | investigation | investigate | investigative adj
+  - investigator n | investigation | investigate vt | investigative adj
   - investor n | invest v
   - sift v
   - condolence n
@@ -2858,7 +2863,7 @@
   - perimeter n
   - ungovernable adj | governor n | misgovernment n
   - liberal adj
-  - intersection n
+  - intersect v | intersection n
   - soak n/v
   - belongings n
   - splatter n/v
