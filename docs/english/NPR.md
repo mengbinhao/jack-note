@@ -1,3 +1,13 @@
+- 2021.6.1
+  - sadden v
+  - breakdown n
+  - evasive adj
+
+  > This was the most memorable line
+  > There were three of us in this marriage, so it was a bit crowded
+  > severely injured, probably scarred
+  > in the current climate
+
 - 2021.5.31
   - pattern n/vt
   - addition n
@@ -384,7 +394,7 @@
 - 2021.3.3
   - overvalued | undervalued adj
   - overstep vt
-  - overcrowd adj
+  - crowd | crowded | overcrowd adj
   - overreach
   - overrun n/v
   - overtime n/vt/adj/adv
@@ -3834,7 +3844,7 @@
   - dealings n
   - imply vt | implied adj | implication n
   - explicit adj | explicitly adv
-  - merely adv | mere adj
+  - mere adj | merely adv
   - confess v | confessing n
 
   > Now, all of this, we should explain the background
@@ -4451,7 +4461,7 @@
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
   - prescription n
-  - affordable adj | afford vt
+  - afford vt | affordable adj
 
   > Fore in five of them would come from working families
 
@@ -4634,7 +4644,7 @@
   - waiver n
   - snake n/vt
   - rival n/vt
-  - complaint n | complain v
+  - complain v | complaint n
   - nevertheless adv
 
   > that was go too far
