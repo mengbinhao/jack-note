@@ -1,3 +1,10 @@
+- 2021.6.6
+  - catalyst n
+  - chemistry n
+
+- 2021.6.5
+  - alter v
+
 - 2021.6.1
   - sadden v
   - breakdown n
@@ -189,7 +196,7 @@
 - 2021.4.15
   - celebrate v | celebration
   - rational adj
-  - disproportion n/vt | disproportionate adj | disproportionately
+  - proportion n/vt | disproportion n/vt | disproportionate adj | disproportionately
   - apart adj/adv
   - kit n
   - ghost n
@@ -1133,7 +1140,6 @@
 - 2020.9.14
   - berate vt
   - wield vt
-  - aspire vi
 
   > I'm just taking that in
   > that's sort of thing
@@ -1277,7 +1283,7 @@
 
 - 2020.8.19
   - lofty adj
-  - aspiration n
+  - aspire vi | aspiration n
   - pro-xxx n
   - threat n | threaten v
   - tie n
@@ -2894,7 +2900,7 @@
 
 - 2020.1.12
   - fantastic adj
-  - maintain vt
+  - maintain vt | maintenance n
   - grisly adj
   - dispose n/v
   - dismember vt
@@ -2973,6 +2979,7 @@
   - vandalize vt
   - census n
   - diverse adj | diversity n
+  - divert v | diversion n
   - faith n | faithless n
   - amnesty n/vt
   - criterion n
@@ -3319,7 +3326,6 @@
   - bend v
   - arson n
   - loot n/v | looter
-  - divert v
   - monument n
   - skyscraper n
   - noxious adj
@@ -4497,7 +4503,6 @@
   - defy vt | defiance n
   - acquire vt | acquisition n | acquired
   - steal n/v | stealth n/adj
-  - maintenance n
   - facility n | facilitate vt | facilitation
   - vow n/vt
   - postpone vt | postponement n
