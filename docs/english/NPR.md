@@ -1,3 +1,13 @@
+- 2021.6.8
+  - camp n/v | campus n
+  - tribe n
+  - wipe n/v
+
+- 2021.6.7
+  - comb n/v
+  - beg v
+  - damn n/v/adj/adv
+
 - 2021.6.6
   - catalyst n
   - chemistry n
@@ -624,7 +634,7 @@
 
 - 2021.1.15
   - fortress n/vt
-  - descend v | descent n
+  - descend v | descent n | descendant
 
 - 2021.1.14
   - cater vt
@@ -884,7 +894,7 @@
   - tremble n/v
   - trample n/v
   - battlefield n
-  - slaughter n/vt
+  - slaughter n/vt | genocide n
 
 - 2020.11.19
   - widespread adj
@@ -1175,7 +1185,7 @@
   - journalist n
   - inexperienced adj
   - duplicate n/vt/adj
-  - introduce vt
+  - intro | introduce vt
   - playbook n
   - support | supportive
   - cover | uncover v | undercover
@@ -1466,7 +1476,6 @@
   - hurdle n
   - realize vt | realization n
   - tuition n
-  - campus n
   - wrench n/vt
   - onerous adj
   - duration n
@@ -1908,7 +1917,7 @@
   - suppress vt
   - severity n
   - gist n
-  - complicit adj
+  - complicit n/adj
 
 - 2020.5.25
   - imperative adj
@@ -2001,7 +2010,7 @@
 - 2020.5.11
   - seemingly adv
   - pounce n/vi
-  - archive n/v | archives n
+  - archive n/v
   - sake n
   - amplify v
   - unequivocally  adv
@@ -2081,7 +2090,7 @@
 
 - 2020.4.30
   - besiege vt | siege n/vt
-  - starvation n | starve v
+  - starve v | starvation n
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
@@ -2455,7 +2464,6 @@
   - ramble n/v | rambling adj
   - joy n/v | joyous adj
   - penetrate v | penetration n
-  - trauma n
   - consent n/vi | consensus n | consensual adj
   - strip n/v
   - coward n/adj
@@ -2634,7 +2642,6 @@
   - culmination n
   - soil n
   - elude vt
-  - genocide n
   - thorny adj | thorn n
   - clarify v | clarification n
 
@@ -2681,10 +2688,9 @@
   - wistful n/adj/adv | wistfulness n
   - rotten adj
   - phony n/adj
-  - reconciliation n
   - rebuttal n
   - horrible adj
-  - vicious adj
+  - vicious adj | viciously
   - sharp adj
   - weird adj
   - riff n
@@ -2712,7 +2718,7 @@
 
 - 2020.2.27
   - nephew n | niece n
-  - distribute vt | distribution n | distributed adj | redistribute
+  - distribute vt | distribution n | distributed adj | redistribute | redistribution
   - agility n | agile adj
   - league n | legend n
   - jersey n
@@ -2806,7 +2812,6 @@
   - investigator n | investigation | investigate vt | investigative adj
   - investor n | invest v
   - sift v
-  - condolence n
   - sincere adj | sincerely
   - mechanical adj
   - mistakenly adv
@@ -4157,7 +4162,7 @@
   - consumption n
   - coast n | coastal adj
   - nightmarish adj
-  - concentrate v | concentrated adj
+  - concentrate v | concentrated adj | concentration
   - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n
   - tropical adj | frigid adj
   - deforestation n | forest n
@@ -4175,7 +4180,7 @@
   - terror n
   - imminent adj
   - militant n/adj | military n/adj | demilitarize vt
-  - depot n
+  - depot n/vt/adj
   - adamant adj
   - feud n/vi
   - nasty adj
