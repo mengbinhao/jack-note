@@ -1,3 +1,16 @@
+- 2021.6.9
+  - tract n
+  - transplant n/vt
+  - organ n
+  - fertile adj
+  - discolor v
+  - havoc n/v
+  - prey n/vi
+  - jaw n
+  - numb vt/adj | numbness
+  - cheek n
+  - prescribe v
+
 - 2021.6.8
   - camp n/v | campus n
   - tribe n
@@ -2049,7 +2062,7 @@
   - purge n/vt
   - surge n/vi
   - insurgent n/adj | insurgency n
-  - surgery n
+  - surgery n | surgeon n
 
   > the fear of a second spike
   > wrestle it to the floor
@@ -4164,7 +4177,7 @@
   - nightmarish adj
   - concentrate v | concentrated adj | concentration
   - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n
-  - tropical adj | frigid adj
+  - tropic n | tropical adj | frigid adj
   - deforestation n | forest n
   - sparsely adv
 
