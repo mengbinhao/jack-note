@@ -1,3 +1,6 @@
+- 2021.6.10
+  - mayor | mayoral
+
 - 2021.6.9
   - tract n
   - transplant n/vt
@@ -2102,7 +2105,7 @@
   > So neither side seems to be wanting to take a step back from where we are
 
 - 2020.4.30
-  - besiege vt | siege n/vt
+  - siege n/vt | besiege vt
   - starve v | starvation n
   - situate vt/adj | situation n
   - painful | hurtful
@@ -4208,7 +4211,7 @@
   - tone n | undertone n
   - petty adj
   - wrath n
-  - grab v
+  - grab n/v
   - offense n | offensive n/adj
 
   > but at bottom
