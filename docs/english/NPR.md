@@ -1,3 +1,7 @@
+- 2021.6.13
+  - flounder vi
+  - ultra adj/n
+
 - 2021.6.10
   - mayor | mayoral
 
@@ -2999,7 +3003,7 @@
 - 2019.12.28
   - vandalize vt
   - census n
-  - diverse adj | diversity n
+  - diverse adj | diversity n | divisive
   - divert v | diversion n
   - faith n | faithless n
   - amnesty n/vt
@@ -3550,7 +3554,6 @@
   - thrive vi
   - vice n/adj
   - forgive | forgivable | unforgivable
-  - loom vi
 
   > It's pretty incredible to watch
   > in a lot of ways
@@ -4754,7 +4757,7 @@
   > there's been a wide range
 
 - 2019.6.28
-  - depose v | oust vt | ouster n
+  - depose v | oust vt | ouster n | unseat
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi
