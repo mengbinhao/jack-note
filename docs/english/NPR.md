@@ -1,3 +1,7 @@
+- 2021.6.14
+  - misuse n/vt
+  - launder n/v
+
 - 2021.6.13
   - flounder vi
   - ultra adj/n
@@ -2200,7 +2204,6 @@
 
 - 2020.4.21
   - substitute v
-  - cohesive adj
   - veil n/vt | unveil v | unveiled adj
 
   > they are just political in nature
@@ -3766,7 +3769,6 @@
   - notion n
   - refer v | reference n/vt
   - mention n/vt
-  - civics n | civic adj
   - plea n | plead v | pleading n/adj
   - oath n
   - chatty adj
@@ -4443,7 +4445,7 @@
   > it turned out
 
 - 2019.7.31
-  - testify v | testimony n
+  - testify v
   - bomb n/v | bombshell n | bomber
   - congressional adj
   - collegial adj
@@ -4534,7 +4536,7 @@
   - sector n
   - impose v | self-imposed adj | imposition n | reimpose
   - finality n
-  - authority n | authorized | unauthorized adj | authorization n |authoritarian adj/n
+  - authority n | authorized | unauthorized adj | authorization n
   - raise n/v
   - dispute n/v | disputed adj | undisputed
   - alien n/adj
