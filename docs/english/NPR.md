@@ -1,3 +1,11 @@
+- 2021.6.15
+  - presume v
+  - scrutinize vt
+  - strict adj
+  - upper adj
+  - frame n/v/adj
+  - gravity n
+
 - 2021.6.14
   - misuse n/vt
   - launder n/v
@@ -2862,7 +2870,7 @@
   - formula n
   - scramble n/v | scrambling
   - sectarian adj
-  - definitive adj | definitely | indefinitely adv
+  - definitive adj | definitely | indefinitely adv | definite adj
   - definition n
 
   > I've got to be honest here
@@ -3945,7 +3953,7 @@
   - bound n/v/adj | rebound vi | boundary n
   - appropriate adj | inappropriate | appropriately
   - offset vt
-  - precisely adv | precise adj
+  - precise adj | precisely adv
   - nonetheless adv
   - broad adj | broadly adv | broaden v
 
@@ -4657,7 +4665,7 @@
   - duty-fee n
   - ongoing n/adj
   - elsewhere adv
-  - exemption n
+  - exempt vt/adj/n | exemption n
   - dominate v | dominant adj | dominance n | domination n
   - moderate adj/n/vt
 
