@@ -1,3 +1,6 @@
+- 2021.6.16
+  - levy n/vt
+
 - 2021.6.15
   - presume v
   - scrutinize vt
@@ -6,6 +9,7 @@
   - frame n/v/adj
   - gravity n
 
+  > They create more questions than they answer
 - 2021.6.14
   - misuse n/vt
   - launder n/v
@@ -2093,7 +2097,7 @@
   - due n/adj/adv
   - longstanding adj
   - historical adj | historic | historically
-  - corporation n
+  - corporate adj | corporation n | company | firm n/vt/adj | firmly adv
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
   - initiative n
@@ -2126,7 +2130,7 @@
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
-  - profit n/v | nonprofit adj
+  - profit n/v | nonprofit adj | profitable
   - trove n
   - corpse n
   - plaintiff n
@@ -2539,7 +2543,6 @@
   - parliamentary adj ｜ parliament n
   - bumpy adj
   - bump n/v
-  - haven n/vt
   - reconcile vt
 
   > that's the name of the game
@@ -4707,7 +4710,6 @@
   - concern n/vt | concerned adj | concerning adj
   - pace n/v
   - impetus n
-  - firm n/vt/adj | firmly adv
   - spike n/v
   - loan n/vt
   - recess n/vt | recession n | depress vt | depression n | depressed
