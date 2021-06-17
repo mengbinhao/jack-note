@@ -1,3 +1,13 @@
+- 2021.6.17
+  - petroleum n
+  - movement n
+  - landmark n
+
+  > The reactions are nothing short of xxx
+  > It's become to symbolize a lot more than what is was
+  > xxx really put all their chips on doing sth
+  > from what I understand
+
 - 2021.6.16
   - levy n/vt
 
@@ -929,7 +939,7 @@
 - 2020.11.20
   - tremble n/v
   - trample n/v
-  - battlefield n
+  - battle n/v | battlefield n
   - slaughter n/vt | genocide n
 
 - 2020.11.19
@@ -2536,7 +2546,6 @@
   - lure n/vt
   - belly n/v
   - excel v
-  - embolden vt
   - caution n/vt | precaution n | cautious adj | cautiously
   - abundance n
   - quarantine n/vt
@@ -3028,7 +3037,7 @@
   - fruition n
   - pivot n/v/adj
   - heel n
-  - emitter n
+  - emit vt | emitter n
 
   > this would erode the kind of action that actually is needed on the ground
   > this is a disagreement over how we move forward
