@@ -1,3 +1,7 @@
+- 2021.6.18
+  - seaside n/adj
+  - charter n/vt
+
 - 2021.6.17
   - petroleum n
   - movement n
@@ -751,7 +755,6 @@
   - uphill adj
   - forge n/v
   - dissolve n/v
-  - complicate | complicated adj
 
   > xxxx in paly here, but bottom line, xxx
 
@@ -1412,7 +1415,6 @@
   - landfall n
   - ocean n | oceanic adj
   - material n/adj | materialize v
-  - Atlantic
 
   > It was the equivalent of a Category 5 hurricane
 
@@ -1963,7 +1965,6 @@
   - suppress vt
   - severity n
   - gist n
-  - complicit n/adj
 
 - 2020.5.25
   - imperative adj
@@ -4427,6 +4428,9 @@
   - resurrect vt
   - violate vt | violation n
   - comply vi | compliant adj | compliance n | defer v | deference n
+  - compliment n/vt
+  - complicit n/adj
+  - complicate | complicated adj
   - produce n/vt
   - measured
   - valuable | invaluable adj
@@ -4543,7 +4547,7 @@
   > Compared to you guys in the US, you are like open books
 
 - 2019.7.19
-  - mass n/v | massive adj
+  - mass n/v/adj | massive adj
   - cargo n
   - Pentagon n
   - defy vt | defiance n
