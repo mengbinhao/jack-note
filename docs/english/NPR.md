@@ -1,3 +1,11 @@
+- 2021.6.21
+  - quiz n
+  - bottleneck n
+
+- 2021.6.20
+  - ashamed adj | unashamed
+  - indispensable adj/n | dispensable
+
 - 2021.6.18
   - seaside n/adj
   - charter n/vt
@@ -392,7 +400,6 @@
   - attract v
 
 - 2021.3.18
-  - embitter vt
   - navigate v
   - rule n/v
 
@@ -1026,7 +1033,6 @@
 
 - 2020.11.1
   - innovation n
-  - consumer n
   - squeeze n/v
 
   > this is a long road that we're going to be on
@@ -1153,7 +1159,6 @@
   - politic | political | politician
   - geopolitics n | geopolitical
   - politicize vt | depoliticize | politicization n
-  - consummate vt/adj
   - implement n/vt
   - scratch n/v/adj
   - sudden adj/n
@@ -2383,7 +2388,6 @@
 - 2020.4.2
   - livelihood n
   - vision n /vt | visionary adj
-  - division n
   - provision n
   - supervision n | supervisor
   - chase n/v
@@ -2463,7 +2467,8 @@
   - dodge n/v
   - versus prep
   - monger n/vt
-  - consume vt
+  - consume vt | consumer n | consumption n
+  - consummate vt/adj
 
   > put xx in a corner
   > gain the upper hand
@@ -3462,7 +3467,6 @@
   - tilt n
   - giant n/adj
   - astute adj
-  - pragmatic adj
   - seasoned adj
   - comeback n
   - influence n/vt | influential adj
@@ -4069,7 +4073,7 @@
   - autocrat n
   - palatial adj
   - betray vt | betrayal n
-  - bitter n/vt/adj | bitterly adj
+  - bitter n/vt/adj | bitterly adj | embitter vt
   - justice n | injustice n
   - oppress vt | oppressive adj
   - savage n/vt/adj
@@ -4201,7 +4205,6 @@
   - feasible adj
   - founder n
   - swamp n
-  - consumption n
   - coast n | coastal adj
   - nightmarish adj
   - concentrate v | concentrated adj | concentration
@@ -4444,7 +4447,6 @@
 
 - 2019.8.7
   - anonymous adj | anonymously adv
-  - fiery adj
   - grooming n | groom  n/v
   - hierarchical adj
   - owe vt

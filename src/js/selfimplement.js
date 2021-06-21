@@ -899,6 +899,7 @@ function getType(obj) {
 const getTypeFinal = (obj) => {
 	const type = typeof obj
 	if (type !== 'object') return type
+	//return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase()
 	return Object.prototype.toString.call(obj).replace(/^\[object (\S+)\]$/, '$1')
 }
 
