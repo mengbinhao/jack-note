@@ -1,8 +1,15 @@
+- 2021.6.22
+  - verify vt | verification
+  - attribute n/vt
+
+  > So given the depth and breadth of tensions with Moscow
+
 - 2021.6.21
   - quiz n
   - bottleneck n
 
 - 2021.6.20
+  - shame n/vt | shameful adj
   - ashamed adj | unashamed
   - indispensable adj/n | dispensable
 
@@ -1393,7 +1400,6 @@
   - charm n/vt
   - commission n | commissioner | decommission
   - colleague n
-  - shame n/vt | shameful adj
   - nod n/v
 
 - 2020.8.14
@@ -3749,7 +3755,7 @@
   - Athens n
   - hiatus n
   - deep-seated adj
-  - skepticism n | skeptical adj | skeptic n
+  - skeptic n | skeptical adj | skepticism n
   - concede v
   - long-standing adj
   - confusion n | confusing adj | confuse vt
