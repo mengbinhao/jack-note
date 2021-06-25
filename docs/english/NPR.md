@@ -1,3 +1,9 @@
+- 2021.6.25
+  - income n
+  - victory n
+  - fashion n/vt
+  - race n/v
+
 - 2021.6.22
   - verify vt | verification
   - attribute n/vt
@@ -4108,7 +4114,7 @@
   - ridicule n/vt | ridiculous adj
   - invite n/vt | invitation n
   - remarkable adj | remark n
-  - electorate n | electoral adj
+  - elect n/vt/adj | electorate n
 
   > to my knowledge
   > how much time does xxx have to get this all sorted out?
@@ -4355,7 +4361,7 @@
 - 2019.8.16
   - bid n/v
   - strain n/v | strained adj
-  - qualify v | qualification n | qualified | eligible adj | eligibility
+  - qualify v | disqualify vt | qualification n | qualified | eligible adj | eligibility
   - sick n/vt/adj
   - turnout n | turnover n
   - poverty n
@@ -4377,7 +4383,7 @@
   - sketchy adj | sketch n/v
   - contaminate vt | contaminated adj | contamination n | contaminant
   - terse adj | tersely
-  - comparison n
+  - compare |n/v  comparable adj | comparison n
   - scale n/vt
   - panic n/adj | panicky adj
   - disseminate vt
@@ -4509,7 +4515,7 @@
   - gut n
   - fond adj
   - doubt n/v | undoubtedly adv
-  - successor n
+  - succeed v | successor n
   - hard-line adj
   - appeal n/v | appealing adj
   - liken vt
