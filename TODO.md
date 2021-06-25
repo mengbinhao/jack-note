@@ -521,6 +521,7 @@
 
 #### basic
 
+- [一名 Vue 程序员总结的 React 基础](https://mp.weixin.qq.com/s/eZgZpSIo9DoobKMGVyAaCA)
 - [组件演进史：从 Mixin 到 HOC，再到 Hook](https://mp.weixin.qq.com/s/7oUNOuZ2QW8C4h99G8uquw)
 - [React 学习路线](https://mp.weixin.qq.com/s?__biz=MzUxMzcxMzE5Ng==&mid=2247490135&idx=1&sn=dbbb12b2c7c4469aec6bb4b3a4a3b65e)
 - [简单掌握 react](https://segmentfault.com/a/1190000016281174)
