@@ -1,3 +1,11 @@
+- 2021.6.26
+  - concur vi
+  - interested | uninterested
+  - preexist v
+  - lack n/v
+
+  > never say never
+
 - 2021.6.25
   - income n
   - victory n
@@ -1164,7 +1172,7 @@
   > That could mean putting an end to xxx
 
 - 2020.9.24
-  - prevent v | preventable adj | prevention n | hamper nt/n
+  - prevent v | preventable adj | prevention n | hamper nt/n | preventive
   - pretend v
   - faulty adj
 
@@ -2400,7 +2408,7 @@
 - 2020.4.2
   - livelihood n
   - vision n /vt | visionary adj
-  - provision n
+  - provision n/vt
   - supervision n | supervisor
   - chase n/v
 
