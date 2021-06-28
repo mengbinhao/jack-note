@@ -1,3 +1,11 @@
+- 2021.6.28
+  - autonomy n
+  - austerity n
+
+  > Which I think really captures the message he's trying to send
+  > People were fed up with politicians
+  > There was a tipping point
+
 - 2021.6.26
   - concur vi
   - interested | uninterested
@@ -867,7 +875,7 @@
 - 2020.12.10
   - centigrade n
   - novel n/adj
-  - delivery n
+  - deliver v | delivery n
 
 - 2020.12.9
   - dull v/adj
@@ -2933,7 +2941,7 @@
 - 2020.1.17
   - restrain vt | restraint n | restrained adj
   - comfort n/vt | discomfort n | comfortable adj | uncomfortable
-  - distinction n | distinct adj | distinctive adj
+  - distinct adj | distinctive adj | distinction n
   - stun n/vt | stunning
   - tent n
 
@@ -3055,7 +3063,6 @@
   - diverse adj | diversity n | divisive
   - divert v | diversion n
   - faith n | faithless n
-  - amnesty n/vt
   - criterion n
 
 - 2019.12.27
@@ -4677,7 +4684,7 @@
   - domestic n/adj | domestical adj | domestically adv
   - encouraging adj | encouragement n | encourage vt | discourage
   - courage n | courageous n/adj/adv
-  - consequence n | conclusion n | conclude v | conclusive adj | in-conclusive
+  - consequence n | consequential adj | conclude v | conclusion n | conclusive adj | in-conclusive
 
   > it is hard to swallow
 
