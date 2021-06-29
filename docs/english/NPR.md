@@ -1,3 +1,9 @@
+- 2021.6.29
+  - adventure n/v
+
+  > So suffice it to say that xxx
+  > xxx had a different view
+
 - 2021.6.28
   - autonomy n
   - austerity n
@@ -1977,7 +1983,7 @@
   > the numbers might be cooked to make it look bad
 
 - 2020.5.28
-  - sufficient adj | sufficiently | insufficient
+  - suffice v | sufficient adj | sufficiently | insufficient
   - toilet n
   - convert v
   - shelter n/v
