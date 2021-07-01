@@ -1,3 +1,17 @@
+- 2021.7.1
+  - patient n/adj | patience n
+  - rigorous adj
+  - repair n/v
+
+  > at no point
+  > It never even crossed my mind
+
+- 2021.6.30
+  - satisfy v
+  - agitate v
+
+  > Timing will be a really big part of this
+
 - 2021.6.29
   - adventure n/v
 
@@ -410,7 +424,7 @@
   - susceptible adj
   - bulk n/vt
   - theory n
-  - hypothesis n
+  - hypothesis n |　hypotheses n
   - pamphlet n
   - label n/v
   - clot n/v
@@ -1212,7 +1226,6 @@
 - 2020.9.21
   - dialect n/adj
   - glance n/v
-  - aircraft n
   - assistance | assistant | assist
 
   > So that's pretty telling
@@ -2466,7 +2479,7 @@
 - 2020.3.28
   - emotion n | emotional | emotionally
   - motion n/v
-  - identify v | unidentified adj | identity n
+  - identify v | unidentified adj | identity n | identical adj
   - entity n
   - pandemic adj | epidemic n/adj
   - gasp n/v
@@ -2485,7 +2498,7 @@
   > but apart from xxx
 
 - 2020.3.27
-  - aware adj ｜ awareness n
+  - aware adj ｜ awareness n | unaware adj
   - halt n/v
   - smooth | smoothly
   - enthuse v | enthusiastic adj | enthusiasm n
@@ -3180,6 +3193,7 @@
   - imprison vt
   - groundless adj
   - specialize vi
+  - specialist n/adj
   - Eurasian adj
   - doctoral adj
   - dissertation n
@@ -4129,7 +4143,9 @@
   - trick n | tricky adj
   - wicked adj
   - incredible adj
+  - craft n/vt
   - crafty adj
+  - aircraft n
   - plus n/adj/conj
   - sizable adj
   - ridicule n/vt | ridiculous adj
@@ -4371,7 +4387,7 @@
   - stooge n
   - emerge vi | emerging adj | emergence n | reemerge
   - emergency n
-  - concrete adj
+  - concrete adj/v/n
   - problematic adj
   - remedy n/vt
   - forefront n
@@ -4409,7 +4425,6 @@
   - panic n/adj | panicky adj
   - disseminate vt
   - hospitalize vt | hospitality n
-  - specialist n/adj
   - outsider n
   - anthem n
   - salute n/vt
