@@ -1,3 +1,9 @@
+- 2021.7.2
+  - seriousness n
+  - prove v | unproven
+
+  > What's so shocking is the fact that it has just continued on the same tune
+
 - 2021.7.1
   - patient n/adj | patience n
   - rigorous adj
