@@ -1,3 +1,6 @@
+- 2021.7.5
+  - weight n/v
+
 - 2021.7.2
   - seriousness n
   - prove v | unproven
@@ -814,7 +817,6 @@
   - crease n/v | decrease n/v
 
 - 2020.12.30
-  - uphill adj
   - forge n/v
   - dissolve n/v
 
@@ -3425,7 +3427,7 @@
   - abandon n/v
   - awful adj | awfully adv
   - downfall n
-  - accelerate v
+  - accelerate v | accelerator
   - shove n/vt
   - victim n
   - lurk n/vi
