@@ -1,5 +1,50 @@
+### why async
+
+- CB
+
+- Promise
+
+    - 解决问题
+
+        - 多层嵌套的问题
+
+        - 每种任务的处理结果存在两种可能性（成功或失败），那么需要在每种任务执行结束后分别处理这两种可能性
+        - Promise.resolve、Promise.reject、Promise.all、Promise.race、Promise.any、Promise.allSettled
+
+    - 如何解决
+
+        - 回调函数延迟绑定
+
+        - 返回值穿透
+
+        - 错误冒泡
+
+- Generator
+
+    ```javascript
+    function* gen() {
+        let a = yield 111;
+        console.log(a);
+        let b = yield 222;
+        console.log(b);
+        let c = yield 333;
+        console.log(c);
+        let d = yield 444;
+        console.log(d);
+    }
+    let t = gen();
+    t.next(1); //第一次调用next函数时，传递的参数无效，故无打印结果
+    t.next(2); // a输出2;
+    t.next(3); // b输出3; 
+    t.next(4); // c输出4;
+    t.next(5); // d输出5;
+    ```
+
+- AA
+
 ### async
-`async`函数返回的是一个`Promise`对象。`async`函数（包含函数语句、函数表达式、Lambda表达式）会返回一个`Promise`对象，如果在函数中`return`一个直接量，`async`会把这个直接量通过`Promise.resolve()`封装成`Promise`对象。
+
+`async`函数返回的是一个`Promise`对象。`async`函数（包含函数语句、函数表达式、Lambda表达式）会返回一个`Promise`对象，如果在函数中`return`一个直接量，`async`会把这个直接量通过`Promise.resolve()`封装成`Promise`对象
 
 如果`async`函数没有返回值， 它会返回`Promise.resolve(undefined)`
 
@@ -26,9 +71,7 @@ getBooksByAuthor2(authorId) {
 ### async确保返回的是promise
 ```javascript
 getBooksByAuthor2(authorId) {
-    if (！authorId){
-        return null
-    }
+    if (!authorId) return null
     return bookModel.fetchAll()
             .then(books => books.filter(b => b.authorId === authorId))
 }
