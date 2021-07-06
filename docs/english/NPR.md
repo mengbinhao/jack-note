@@ -1,3 +1,8 @@
+- 2021.7.6
+  - eternal adj
+
+  > Rwanda is setting numbers that are off the charts for them
+
 - 2021.7.5
   - weight n/v
 
@@ -3017,7 +3022,7 @@
 - 2020.1.10
   - submission n
   - doorstep n
-  - continent n/adj | intercontinental adj | continental adj
+  - continent n/adj | continental adj | intercontinental adj
   - fury n
   - favor n/vt | favorable adj | unfavorable
   - lump n

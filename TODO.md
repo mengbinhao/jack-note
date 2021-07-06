@@ -99,6 +99,7 @@
 ### front
 
 - [CORS 完全手册之 CORS 详解](https://mp.weixin.qq.com/s/PnwUfjk2QPuLU7hbquL88w)
+- [这个文件下载问题难住了我至少三位同事](https://mp.weixin.qq.com/s/EmjC646G-KdCkKLbOS24fg)
 - [JavaScript 工程项目的一系列最佳实践策略(git、doc、env、dependence、test、code style、log、API)](https://mp.weixin.qq.com/s/A8dBb4ux1kv_bxTefQ7oOw)
 - [code-review 之前端代码规范及优化](https://mp.weixin.qq.com/s/u7hp-Plw_H2fZg6tmKFJQQ)
 - [让你受益匪浅的前端技术干货系列](https://mp.weixin.qq.com/s/G8b2SRG0FqI5taGwjH35aw)
