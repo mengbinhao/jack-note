@@ -1,3 +1,9 @@
+- 2021.7.7
+  - corridor n
+  - capture | recapture
+
+  > Everything we were receiving contradicts what we've received previously
+
 - 2021.7.6
   - eternal adj
 
@@ -327,7 +333,8 @@
 - 2021.4.15
   - celebrate v | celebration
   - rational adj
-  - proportion n/vt | disproportion n/vt | disproportionate adj | disproportionately
+  - proportion n/vt | proportional adj | proportionate adj/vt | disproportion n/vt | disproportionate adj | disproportionately
+  - portion n/vt
   - apart adj/adv
   - kit n
   - ghost n
@@ -2176,7 +2183,7 @@
   - corporate adj | corporation n | company | firm n/vt/adj | firmly adv
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
-  - initiative n
+  - initiate vt/n/ajd | initiative n
   - bore n/v | boring adj
   - dare v
   - arguably adv
@@ -2469,7 +2476,6 @@
   > I think that that would be on pretty much everybody's mind right now
 
 - 2020.3.31
-  - portion n/vt
   - inhibit vt
   - tangle n/v | tangled adj
   - contest n/v | contestant n
@@ -3883,7 +3889,6 @@
   - region n | regional adj
   - bolster n/vt
   - cliff n
-  - proportional adj| proportion | proportionate adj | dis-proportionate
   - artificial adj | artificially
   - multilateral adj
   - harass vt | harassed | harassment n
