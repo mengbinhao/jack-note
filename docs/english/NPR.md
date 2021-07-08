@@ -1,3 +1,7 @@
+- 2021.7.8
+  - bonus n
+  - protract vt
+
 - 2021.7.7
   - corridor n
   - capture | recapture
@@ -2734,7 +2738,7 @@
   - wobbly adj
   - entice vt
   - bakery n
-  - seal n/v
+  - seal n/v | unseal vt | unsealed
   - validity n | valid adj
   - warlord n
   - notorious adj | notoriously
