@@ -1,3 +1,11 @@
+- 2021.7.13
+  - hedge n/v
+  - enclose vt
+  - lift n/v
+
+- 2021.7.12
+  - souvenir n/vt
+
 - 2021.7.8
   - bonus n
   - protract vt
@@ -2064,7 +2072,7 @@
 
 - 2020.5.19
   - squander vt
-  - guideline n | guidance n
+  - guide n/vt | guideline n | guidance n
   - advertise vt
   - hesitate v
   - restaurant n
