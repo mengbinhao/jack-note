@@ -1,3 +1,6 @@
+- 2021.7.14
+  - mortal n/adk | mortally
+
 - 2021.7.13
   - hedge n/v
   - enclose vt
@@ -194,7 +197,9 @@
 
 - 2021.5.21
   - advice n
+  - rush
   - brush n/v
+  - crush n/v
   - ditch n/v
 
   > I've heard a range of views
@@ -1272,6 +1277,7 @@
   - instrument n
   - galaxy n
   - craze n/v | crazy adj | craziness
+  - profess v
   - profession | professional
 
 - 2020.9.15
@@ -1482,7 +1488,6 @@
   - disfunction
   - metric n/adj
   - catastrophic adj
-  - crush n/v
   - wasteland n
   - aerial adj
 
@@ -2172,7 +2177,6 @@
   - risk n/vt
   - wrestle n/v
   - mugger n
-  - assailant n
   - invisible adj | visibility
   - unexpected adj
   - fear n/v | fearful
@@ -4290,7 +4294,6 @@
   - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n
   - tropic n | tropical adj | frigid adj
   - deforestation n | forest n
-  - sparsely adv
 
   > I have lived in the area for quite some time
   > enough is enough
