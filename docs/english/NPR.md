@@ -1,3 +1,8 @@
+- 2021.7.15
+  - arise v
+  - outage n
+  - banish vt
+
 - 2021.7.14
   - mortal n/adk | mortally
 
@@ -568,6 +573,7 @@
   - overhaul v
   - overwhelmed | overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
   - oversee vt | oversea adj/adv
+  - overcharge n/vt
   - predate vt
 
 - 2021.3.2
@@ -2232,7 +2238,6 @@
   - profit n/v | nonprofit adj | profitable
   - trove n
   - corpse n
-  - plaintiff n
   - jurisdiction n
   - principle n
   - survive v | survivor n | survival n
