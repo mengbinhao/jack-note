@@ -594,7 +594,7 @@
 - 2021.2.28
   - uphold vt
   - mushroom n/vi/adj
-  - astonish vt | astonished
+  - astonish v | astonished | astonishing
   - hate | hateful
   - strait n/adj
   - premier adj/n
@@ -3682,7 +3682,6 @@
   - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt
-  - astonishing adj | astonish v
   - consistent adj | consistently adv
   - distrust n/vt | mistrust n/vt
   - norm n
