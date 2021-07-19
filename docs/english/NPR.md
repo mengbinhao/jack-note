@@ -1,3 +1,8 @@
+- 2021.7.19
+  - cylinder n
+  - ward n/vt
+  - engulf vt
+
 - 2021.7.15
   - arise v
   - outage n
@@ -2373,7 +2378,6 @@
   - mainstream n
   - champion n/v
   - numerical adj
-  - aftermath n
   - mathematical adj | mathematically adj
   - presumptive adj
   - virtual adj | virtually adv
@@ -2491,7 +2495,7 @@
   - retreat n/v
   - treaty n
   - engage v | engaged adj | engagement n
-  - symptom n
+  - symptom n | symptomatic
   - mild adj
 
   > I think that that would be on pretty much everybody's mind right now
