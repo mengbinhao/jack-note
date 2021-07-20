@@ -481,7 +481,6 @@
   - enormity n
   - degrade v | degradation n
   - shriek n/vt
-  - kidnap
 
 - 2021.3.29
   - cruel adj
@@ -1241,7 +1240,6 @@
 - 2020.9.25
   - nature n | natural adj
   - environment | environmental | environmentally
-  - discover v
   - analysis n | analyst n
 
   > Two big stories in Germany which might not seem related suddenly are
@@ -1339,7 +1337,8 @@
   - intro | introduce vt
   - playbook n
   - support | supportive
-  - cover | uncover v | undercover
+  - cover | uncover v | uncovered | undercover adj
+  - discover v
   - underground adj
   - undertake vt
   - underlying adj | underlie vt
