@@ -1,3 +1,6 @@
+- 2021.7.21
+  - unthinkable adj
+
 - 2021.7.19
   - cylinder n
   - ward n/vt
