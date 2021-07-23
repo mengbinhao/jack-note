@@ -1,3 +1,11 @@
+- 2021.7.23
+  - wine n
+  - ancient n/adj
+  - perch n/v
+  - mark n/v
+
+  > Dozens of people are unaccounted for
+
 - 2021.7.21
   - unthinkable adj
 
@@ -4433,7 +4441,6 @@
   - concrete adj/v/n
   - problematic adj
   - remedy n/vt
-  - forefront n
   - Soviet n/adj
 
   > he's going to have to catch on fast
