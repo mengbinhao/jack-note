@@ -1323,7 +1323,7 @@
   > victims will be for nothing
 
 - 2020.9.11
-  - medical n/adj | medically
+  - medical n/adj | medically | medication n | medicine
   - wean vt
   - verbal adj
   - stimulus n
@@ -1469,7 +1469,6 @@
   > Prior to that, xxx
 
 - 2020.8.18
-  - medication n
   - heroic adj
   - unimagined adj
 
@@ -1590,7 +1589,7 @@
   > XXX is going to be at a crossroad
 
 - 2020.8.3
-  - earnest adj/n | earn vt
+  - earn vt | earnest adj/n
 
   > It's a mouthful, but it covers a lot of areas
   > I imagine 200 is going to be a lot of lower than Democrats want to go, just reflecting on his reaction
@@ -2870,7 +2869,7 @@
   - nephew n | niece n
   - distribute vt | distribution n | distributed adj | redistribute | redistribution
   - agility n | agile adj
-  - league n | legend n
+  - league n | legend n | legendary
   - jersey n
   - tribute n
   - personality n | personalize vt | personnel n | personal n/adj
