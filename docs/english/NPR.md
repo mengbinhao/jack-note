@@ -1,3 +1,9 @@
+- 2021.7.27
+  - parachute n/v
+  - gently adv
+  - reusable adj
+  - maze n/vt
+
 - 2021.7.23
   - wine n
   - ancient n/adj
@@ -4100,7 +4106,8 @@
   - hearsay n
   - enormous adj
   - stir n/v
-  - ignite vt
+  - ignite vt | ignition n
+  - dignity n
   - rescue n/vt
   - dumb adj
   - judicial adj | judiciary n
@@ -4194,9 +4201,10 @@
   - trick n | tricky adj
   - wicked adj
   - incredible adj
-  - craft n/vt
   - crafty adj
-  - aircraft n
+  - craft n/vt | aircraft n | spacecraft
+  - astronomer n | astronomy n | astronomical adj
+  - astronaut n
   - plus n/adj/conj
   - sizable adj
   - ridicule n/vt | ridiculous adj
@@ -4216,7 +4224,7 @@
   - approach n/v
   - narrate v | narrative n/adj | narration
   - orbiter n | orbit n/v
-  - excitement
+  - excite v | excitement n
   - eerily adv
   - cap n
   - huddle vt | huddled adj
@@ -4355,7 +4363,6 @@
   - institute n/vt
   - institution n | institutional adj
   - respect | disrespect n/vt| respective adj
-  - dignity n
   - defiant adj
   - get-go n
   - wary adj
@@ -4682,7 +4689,7 @@
   - forum n
   - conduct n/v | mis-conduct n
   - profile n | high-profile adj
-  - reserve n/v | preserve n/vt | reserved | unreservedly
+  - reserve n/v | preserve n/vt | reserved | unreservedly | reservation
   - retain vt
   - constraint n | constrain v | constrained adj
   - restrict vt | restricted adj | restriction n
@@ -4793,7 +4800,6 @@
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj
   - standpoint n
-  - astronomical adj | astronomer n | astronomy n
   - fine adj/adv/vt/n
   - waiver n
   - snake n/vt
