@@ -1,3 +1,12 @@
+- 2021.7.28
+  - outset n
+  - spout n/v
+  - cultivate vt
+  - chair n/v
+
+  > hush money scheme
+  > Is xxx the last shoe to drop, or is more coming?
+
 - 2021.7.27
   - parachute n/v
   - gently adv
@@ -1899,7 +1908,7 @@
   - diligent adj
   - promote v
   - strategy n
-  - voluntarily adv
+  - voluntary adj | voluntarily adv
 
   > all hands
   > water cooler chat

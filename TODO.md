@@ -96,6 +96,8 @@
 - [耗时两个月，网上最全的原创 nodejs 深入系列文章](https://blog.5udou.cn/blog)
 - [Node.js 入门指南和实践](https://segmentfault.com/a/1190000021368102)
 - [使用 Node 开发服务器项目时如何高效地打日志](https://mp.weixin.qq.com/s/AZnKieARdpqBh0wx3ZAZvg)
+- [2021 年最值得了解的 Node.js 工具](https://mp.weixin.qq.com/s/DGzPPSyBfhn8xL72fPc3bw)
+- [让你 nodejs 水平暴增的 debugger 技巧](https://mp.weixin.qq.com/s?__biz=MzkzMTIzMDUwMg==&mid=2247484382&idx=1&sn=0f198fd0360871a638f31fe0c2b28b37)
 
 ### front
 
