@@ -157,6 +157,7 @@
 
 ### JS
 
+- [这 16 种原生函数和属性的区别，你真的知道吗？](https://mp.weixin.qq.com/s/qxDm2T5uUAQjef1jQvpgdA)
 - [JavaScript 工具函数大全](https://mp.weixin.qq.com/s/2zTn8rZ3uA_pbo8DKfZtjA)
 - [JS 一些工具函数](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484756&idx=1&sn=970d60c1368b2c1c7a39e2cb8b68631b)
 - [学习 async，defer 和动态脚本，本文就够了](https://mp.weixin.qq.com/s/VUN9TJyH411fLkEnJZclow)

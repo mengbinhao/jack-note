@@ -1,3 +1,13 @@
+- 2021.7.29
+  - fit v/adj | misfit
+  - grind n/v
+  - accomplish vt
+  - devoid adj
+  - province | provincial
+
+  > xxx held that point
+  > If we don't fit that expectation of what people think we're supposed to be. That just means we're the ones who get to change it
+
 - 2021.7.28
   - outset n
   - spout n/v
@@ -968,6 +978,7 @@
 - 2020.12.10
   - centigrade n
   - novel n/adj
+  - novelty n
   - deliver v | delivery n
 
 - 2020.12.9
@@ -1631,8 +1642,7 @@
   - incident n | incidentally adv | incidence n
   - vendor n
   - spread n/v/adj
-  - authenticity n
-  - authentication n
+  - authenticity n | authentication n
   - headquarter n
   - kingdom n
   - album n
@@ -2275,7 +2285,7 @@
 
 - 2020.4.29
   - convenient adj | convenience n/vt | inconvenience
-  - convention n
+  - convention n | conventional | unconventional
   - rile v
   - harvest n/v
   - series n
@@ -2693,6 +2703,7 @@
 - 2020.3.13
   - entertain v | entertainment | entertainer n
   - iron n | ironic adj | irony n
+  - margin n/vt
   - marginalize vt
   - enshrine vt
   - tacit adj
@@ -2770,7 +2781,7 @@
 - 2020.3.9
   - unfounded adj
   - handle | mishandle vt
-  - rein n/v | reign n/vi
+  - reign n/vi
   - pinpoint n/vi/adj
   - appreciate v
 
@@ -3149,7 +3160,7 @@
   - census n
   - diverse adj | diversity n | divisive
   - divert v | diversion n
-  - faith n | faithless n
+  - faith n | faithless n | faithful | faithfully
   - criterion n
 
 - 2019.12.27
