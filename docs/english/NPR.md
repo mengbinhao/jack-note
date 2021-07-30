@@ -1,3 +1,6 @@
+- 2021.7.30
+  - bypass n/vt
+
 - 2021.7.29
   - fit v/adj | misfit
   - grind n/v
@@ -4095,7 +4098,6 @@
   - appropriate adj | inappropriate | appropriately
   - offset vt
   - precise adj | precisely adv
-  - nonetheless adv
   - broad adj | broadly adv | broaden v
 
   > the US economy still has a lot going for it
@@ -4353,7 +4355,7 @@
   - imminent adj
   - militant n/adj | military n/adj | demilitarize vt
   - depot n/vt/adj
-  - adamant adj
+  - adamant adj | adamantly
   - feud n/vi
   - nasty adj
   - mock n/v/adj
