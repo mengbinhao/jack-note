@@ -1,3 +1,9 @@
+- 2021.8.2
+  - economic adj | economical | economically
+  - nostalgia n
+
+  > It's more about the perception of things
+
 - 2021.7.30
   - bypass n/vt
 
@@ -223,7 +229,7 @@
   > but now her office has decided otherwise
 
 - 2021.5.26
-  - declare v | declared
+  - declare v | declaration
 
   > but we do know that there are a lot of serious issues on both side that still have to get worked out
 
@@ -2683,7 +2689,7 @@
   - caution n/vt | precaution n | cautious adj | cautiously
   - abundance n
   - quarantine n/vt
-  - parliamentary adj ｜ parliament n
+  - parliament n
   - bumpy adj
   - bump n/v
   - reconcile vt
@@ -2983,6 +2989,7 @@
   - shrapnel n
   - grieve v | grieving adj | grievance n
   - furious adj
+  - fury
   - assassination n | assassinate vt | assassin
   - honor n/vt | dishonor n/vt
   - cruise n/v
@@ -3092,7 +3099,6 @@
   - submission n
   - doorstep n
   - continent n/adj | continental adj | intercontinental adj
-  - fury n
   - favor n/vt | favorable adj | unfavorable
   - lump n
   - peninsula n
@@ -3460,7 +3466,6 @@
 - 2019.12.2
   - unravel v
   - spoil n/v | spoiler n
-  - deterioration n
   - solidarity n
   - ration n/vt
   - coercive adj
@@ -3505,7 +3510,6 @@
   - shove n/vt
   - victim n
   - lurk n/vi
-  - takeover n
   - bend v
   - arson n
   - loot n/v | looter
@@ -3562,7 +3566,7 @@
 
   > as of now
 - 2019.11.5
-  - resolution n | solution | dissolution
+  - resolution n | solution
   - phase n
   - formalize vt | formal adj | formation n
   - gear n/v
@@ -3704,7 +3708,6 @@
 - 2019.10.24
   - scandal n
   - roil v
-  - outright adj/adv
   - concession n
   - abortion n
   - downplay vt | underplay
@@ -4205,7 +4208,7 @@
   - oppress vt | oppressive adj
   - savage n/vt/adj
   - vibrant adj
-  - revolution n | evolution n | revolutionary n/adj
+  - revolution n | revolutionary n/adj | evolution n
   - unfettered adj
   - decline n/v
   - immerse vt | immersed adj
@@ -4632,7 +4635,6 @@
   - succeed v | successor n
   - hard-line adj
   - appeal n/v | appealing adj
-  - liken vt
   - never-ending adj
   - elite n/adj
   - celibrity n
@@ -4811,7 +4813,7 @@
   - elsewhere adv
   - exempt vt/adj/n | exemption n
   - dominate v | dominant adj | dominance n | domination n
-  - moderate adj/n/vt
+  - moderate adj/v
 
   > take sides
   > it very well may
