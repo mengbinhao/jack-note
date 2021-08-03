@@ -1,3 +1,9 @@
+- 2021.8.3
+  - trip n/v
+  - parrot n/vt
+
+  > They can break free of that cycle this time
+
 - 2021.8.2
   - economic adj | economical | economically
   - nostalgia n
@@ -2268,7 +2274,7 @@
   - vessel n
   - competence n | incompetence
   - deterrence n
-  - restore v
+  - restore v | restoration
   - enterprise n
   - pure adj | purely adv | purity n
   - instruct vt | instruction n
@@ -2750,7 +2756,6 @@
   - tarnish n/v
   - benevolent adj
   - decorate v
-  - stagnation n | stagnate vi
   - edifice n
   - brick n/vt/adj
   - ministry n | minister n
@@ -3694,7 +3699,7 @@
 
 - 2019.10.26
   - fallout n
-  - stall n/v
+  - stall n/v | stalled
   - ethic n
   - deliberation n | deliberate v/adj | deliberately adv
   - liberator n | liberation n | liberate vt
@@ -3989,6 +3994,7 @@
   - adopt v
   - boost n/vt
   - fiscal adj | fiscally
+  - budge v
   - budget n/vt
   - deficit n
   - bashful adj
@@ -4147,7 +4153,7 @@
   - installation n
   - barrel n/v
   - slice n
-  - offering n
+  - offer n/v | offering n
   - involve v | involvement n
   - dismiss vt |dismissal n
   - maximum n | minimum n | minimize v | minimal adj
