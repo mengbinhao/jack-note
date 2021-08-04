@@ -1,3 +1,8 @@
+- 2021.8.4
+  - basis n
+  - drought n
+  - tire n/v
+
 - 2021.8.3
   - trip n/v
   - parrot n/vt
@@ -52,11 +57,10 @@
 - 2021.7.19
   - cylinder n
   - ward n/vt
-  - engulf vt
+  - gulf n/v | engulf vt
 
 - 2021.7.15
   - arise v
-  - outage n
   - banish vt
 
 - 2021.7.14
@@ -2807,7 +2811,7 @@
   - apparatus n
   - wobbly adj
   - entice vt
-  - bakery n
+  - bake v | bakery n
   - seal n/v | unseal vt | unsealed
   - validity n | valid adj
   - warlord n
