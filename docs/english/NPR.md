@@ -1,5 +1,11 @@
+- 2021.8.5
+  - verdict n
+  - wonder n/v
+  - holy adj
+  - adjourn v
+  - obedient adj
+
 - 2021.8.4
-  - basis n
   - drought n
   - tire n/v
 
@@ -513,6 +519,9 @@
   - rub n/v | rubber n/v/adj
   - wrap n/v
   - announce v | unannounced
+  - renounce vt
+  - denounce vt
+  - pronounce v | pronouncement n | pronounced adj
   - fork n.v
 
   > The US is at a fork in the road
@@ -1222,7 +1231,6 @@
   - breeze n/vi
   - depict vt
   - honesty | dishonesty
-  - embezzle vt
   - state n/vt/adj | restate vt | estate n
   - pope n
 
@@ -1879,7 +1887,6 @@
 
 - 2020.6.23
   - cohesion n
-  - pronounce v | pronouncement n | pronounced adj
   - belligerent adj
   - station n/vt
   - contribute v
@@ -2360,7 +2367,6 @@
   > they're pretty short on specifics
 
 - 2020.4.23
-  - denounce vt
   - lobby n/v
   - activate vt
   - lunacy adj
@@ -2488,7 +2494,6 @@
   - remain n/v | remainder
   - obvious adj | obviously
   - preach v
-  - absent adj/vt | absentee n
   - constant adj | constantly
   - inexact adj
   - secretary
@@ -2892,6 +2897,7 @@
   - purposely adv
   - slim adj
   - suburb n | suburban adj/n | urban adj
+  - absent adj/vt | absentee n
   - present n/v/adj | represent vt | representative n/adj | presence n | absence
   - clap n/v
 
@@ -3249,7 +3255,7 @@
 - 2019.12.20
   - pursue v
   - silly adj
-  - baseless adj
+  - basis n | baseless adj
   - basement n
   - resurgence n
   - district n
@@ -3433,7 +3439,6 @@
   - obscene adj
   - behind-the-scenes adj
   - curious adj
-  - renounce vt
   - principal n/adj | principally adv
   - applause n
   - industrialization n | industrial adj
