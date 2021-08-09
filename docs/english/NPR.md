@@ -1,3 +1,18 @@
+- 2021.8.9
+  - shake n/v | shaky adj
+  - smear n/v
+  - credit n/vt | discredit n/vt
+  - grope v
+  - exhaustive adj
+  - understand vt | misunderstand vt
+
+  > I would expect those carry a lot of weight
+
+- 2021.8.7
+  - coach n/v
+
+  > It's not hard to lie to someone who wants to believe
+
 - 2021.8.5
   - verdict n
   - wonder n/v
@@ -25,7 +40,8 @@
   - bypass n/vt
 
 - 2021.7.29
-  - fit v/adj | misfit
+  - fit v/adj | misfit n/vt | unfit adj/vt
+  - fitness n
   - grind n/v
   - accomplish vt
   - devoid adj
@@ -62,7 +78,6 @@
 
 - 2021.7.19
   - cylinder n
-  - ward n/vt
   - gulf n/v | engulf vt
 
 - 2021.7.15
@@ -518,10 +533,13 @@
   - resolve n/v
   - rub n/v | rubber n/v/adj
   - wrap n/v
+  - ounce n
   - announce v | unannounced
   - renounce vt
   - denounce vt
   - pronounce v | pronouncement n | pronounced adj
+  - pounce n/vi
+  - bounce n/v
   - fork n.v
 
   > The US is at a fork in the road
@@ -1241,7 +1259,6 @@
   - permit n/v
   - electricity n
   - cattle n
-  - award n/v
   - ethnic adj
 
 - 2020.10.21
@@ -1498,7 +1515,6 @@
 
 - 2020.8.23
   - nightfall n
-  - inward adj
 
 - 2020.8.22
   - scholar n
@@ -1939,7 +1955,7 @@
   > it took a long time after that to dig out of the hole
 
 - 2020.6.17
-  - sprint n/v | marathon n/v/dj
+  - sprint n/v | sprinter
   - shield n/v
   - diligent adj
   - promote v
@@ -1990,7 +2006,6 @@
   - dispersal n
   - contentious adj
   - nation n | nationalize vt | national n/adj | nationalization
-  - fitness n
   - inflection n
 
   > once in a while
@@ -2216,7 +2231,6 @@
 
 - 2020.5.11
   - seemingly adv
-  - pounce n/vi
   - archive n/v
   - sake n
   - amplify v
@@ -2244,7 +2258,6 @@
 
 - 2020.5.8
   - revert n/v
-  - bounce n/v
   - risk n/vt
   - wrestle n/v
   - mugger n
@@ -2283,7 +2296,6 @@
 - 2020.5.6
   - provoke vt | incite vt | incitement n | unprovoked
   - vessel n
-  - competence n | incompetence
   - deterrence n
   - restore v | restoration
   - enterprise n
@@ -2359,7 +2371,11 @@
   - chemical adj
   - quash vt
   - resort n/vi
-  - downward adj/adv
+  - ward n/vt
+  - award n/v
+  - inward adj | downward adj/adv | upward
+  - reward n/vt
+  - coward n/adj
   - advance n/v/adj
   - criteria n
   - socialize v
@@ -2530,7 +2546,6 @@
 
 - 2020.4.2
   - nudge n/v
-  - reward n/vt
   - cocaine n
 
   > It remains to be seen what sort of impact this is going to xxx
@@ -2666,7 +2681,6 @@
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
   - strip n/v
-  - coward n/adj
 
 - 2020.3.20
   - maneuver n/v
@@ -2886,7 +2900,6 @@
   - wistful n/adj/adv | wistfulness n
   - rotten adj
   - phony n/adj
-  - rebuttal n
   - horrible adj
   - vicious adj | viciously
   - sharp adj
@@ -3200,7 +3213,6 @@
 - 2019.12.26
   - reverberate n/v/adj | reverberation n
   - tremor n/v
-  - revamp n/vt
   - landscape n
 
   > I will put an end to all that nonsense
@@ -3261,7 +3273,6 @@
   - district n
   - acquiesce n/vi/adj
   - insane adj
-  - categorical adj
   - knot n/v
   - lace n
   - ludicrous adj
@@ -3282,7 +3293,7 @@
   - eavesdrop vi
   - cavalier adj
   - petition n/v
-  - bias n/vt/adj/adv
+  - bias n/vt/adj/adv | biased adj
   - worthwhile adj
   - exclamation n
   - gross n/vt/adj | grossly adv
@@ -3414,7 +3425,7 @@
   - defection n | defect n/vi | defector n
   - deflect v
   - coordinate vt | coordination n | coordinated
-  - corroborate vt | corroboration n
+  - corroborate n/vt | corroboration n
 
 - 2019.12.9
   - intermediary n
@@ -3970,7 +3981,7 @@
   - cliff n
   - artificial adj | artificially
   - multilateral adj
-  - harass vt | harassed | harassment n
+  - harass vt | harassed adj | harassment n
   - thereafter adv
   - breach n/vt
   - caucus n/vi
@@ -4238,6 +4249,7 @@
   - momentous adj
   - amend v | amendment n
   - compete vi | competing adj | competitive adj | competitor n | competition n
+  - competent adj | incompetent adj | competence n | incompetence n
   - trick n | tricky adj
   - wicked adj
   - incredible adj
@@ -4759,7 +4771,6 @@
   - cable n/vt
   - ambassador n | embassy n
   - inept adj
-  - competent adj | incompetent adj
   - radiate v
   - insecurity n
   - diplomatic adj | diplomat n | diplomacy n
