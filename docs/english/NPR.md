@@ -1,3 +1,6 @@
+- 2021.8.10
+  - administer vt
+
 - 2021.8.9
   - shake n/v | shaky adj
   - smear n/v
@@ -3230,7 +3233,7 @@
   - retrieve v
   - erupt v | eruption n
   - volcano n
-  - immune n/adj | immunity n
+  - immune n/adj | immunity n | immunize vt
   - nominate vt | nomination | nominee n
 
   > the have put the priority on getting those bodies back
