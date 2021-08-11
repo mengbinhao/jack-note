@@ -1,3 +1,6 @@
+- 2021.8.11
+  - rein n
+
 - 2021.8.10
   - administer vt
 
@@ -2671,7 +2674,6 @@
   - affect v | effect n | effective | effectively | effectiveness n | ineffective | affection | affectionate adj
   - effectual adj | ineffectual
   - wee adj
-  - rosy adj
   - reality n
   - hint n/v
 
@@ -4087,7 +4089,7 @@
 
 - 2019.9.25
   - spur n/v
-  - ordinary adj | ordinarily
+  - ordinary n/adj | ordinarily
   - extraordinary adj | extraordinarily
   - plastic n/adj
   - renew v | renewable adj | renewal n
@@ -4819,7 +4821,7 @@
   > it is hard to swallow
 
 - 2019.7.11
-  - soar n/vi
+  - soar vi
   - ploy n
   - soften v
   - tremendous adj
@@ -4913,7 +4915,7 @@
   - coherent adj
   - assume v | assumption n
   - credibility n
-  - suspicious n | suspicion n
+  - suspicion n | suspicious adj
   - isolate n/v/adj | isolated adj | isolation n
 
   > xxxx as minor
