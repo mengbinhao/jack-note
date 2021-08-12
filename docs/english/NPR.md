@@ -1,3 +1,13 @@
+- 2021.8.12
+  - fahrenheit n | centigrade n
+  - hose n
+  - desolate adj
+  - smother n/v
+  - olive n/adj
+  - scorch n/v
+
+ > They burned an area three times the size of what typically burns in an average year
+
 - 2021.8.11
   - rein n
 
@@ -652,6 +662,7 @@
 - 2021.3.3
   - overvalued | undervalued adj
   - overstep vt
+  - overtake v
   - crowd | crowded | overcrowd adj
   - overreach
   - overrun n/v
@@ -1144,7 +1155,7 @@
   > The big picture here is (that) ...
 
 - 2020.11.18
-  - mountain n | mountainous adj | hill
+  - mountain n | mountainous adj | hill | hillside
   - tiny adj
 
 - 2020.11.17
@@ -1269,7 +1280,6 @@
 
 - 2020.10.21
   - muscle n/v
-  - hillside n
   - airlift n/vt
   - famine n
 
@@ -1804,7 +1814,7 @@
   - watershed n
   - thief n
   - inevitable adj
-  - village n
+  - villa n | village n
   - heaven n | heave n/v
   - ladder n/v
 
@@ -3100,7 +3110,7 @@
 - 2020.1.15
   - crumble vi
   - perimeter n
-  - ungovernable adj | governor n | misgovernment n
+  - govern v | governor n | ungovernable adj | misgovernment n
   - liberal adj
   - intersect v | intersection n
   - soak n/v
