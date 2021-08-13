@@ -65,7 +65,7 @@ $ git commit -m 'docs: 更新接口文档'
 
 ```bash
 # create new SSH key
-ssh-keygen -t rsa -C "youremail@example.com"
+ssh-keygen -t rsa -C "mengbinhao2018@gmail.com"
 # copy then goto git to add this rsa
 pbcopy < ~/.ssh/id_rsa.pub
 # Testing your SSH connection
@@ -79,8 +79,8 @@ ls -al ~/.ssh
 git config [--global] -l
 # check value
 git config [--global] xxx
-git config [--global] user.name "Your Name"
-git config [--global] user.email "Your email"
+git config --global user.name "JackM"
+git config --global user.email "mengbinhao2018@gmail.com"
 
 # unset
 git config --global --unset user.name

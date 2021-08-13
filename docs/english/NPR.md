@@ -1,4 +1,8 @@
 - 2021.8.12
+  - stare v
+  - magnificent adj
+
+- 2021.8.12
   - fahrenheit n | centigrade n
   - hose n
   - desolate adj
@@ -1369,7 +1373,7 @@
 - 2020.9.21
   - dialect n/adj
   - glance n/v
-  - assistance | assistant | assist
+  - assist v | assistance n | assistant n
 
   > So that's pretty telling
 
@@ -1514,7 +1518,7 @@
   > It's a step in that direction, but there is still no word on xxx
 
 - 2020.8.26
-  - rural adj
+  - rural adj | urban adj | suburb n | suburban adj/n
   - direct v/adj | indirect | directive n/adj | direction
   - allude vi
   - organize | organization | organizational | reorganize
@@ -2924,7 +2928,6 @@
   - unscripted adj
   - purposely adv
   - slim adj
-  - suburb n | suburban adj/n | urban adj
   - absent adj/vt | absentee n
   - present n/v/adj | represent vt | representative n/adj | presence n | absence
   - clap n/v
@@ -3430,7 +3433,7 @@
   - cue n/vt | clue n n/vt | clueless
 
 - 2019.12.10
-  - capable adj
+  - capable adj | capability n
   - distract v | distraction n
   - censure n/v
   - hoax n/vt
@@ -4382,7 +4385,7 @@
   - swamp n
   - coast n | coastal adj
   - nightmarish adj
-  - concentrate v | concentrated adj | concentration
+  - concentrate v | concentrated adj | concentration n
   - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n
   - tropic n | tropical adj | frigid adj
   - deforestation n | forest n
@@ -5009,7 +5012,7 @@
 
   - assessment n | assess vt | reassess
   - expertise n
-  - proficiency n
+  - proficient adj | proficiency n
   - afloat adj/adv
   - speculate v | speculation n
   - takeaway n
