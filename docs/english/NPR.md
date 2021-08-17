@@ -1,3 +1,19 @@
+- 2021.8.17
+  - thereby adv
+
+- 2021.8.16
+  - gum n/v
+  - chew n/v
+  - intrinsic adj
+
+  > It's his best area
+
+- 2021.8.15
+  - accessible adj
+
+  > Extreme droughts could double or quadruple in frequency
+  > It's pretty clear that the scientists tried to make this report more accessible to the general public
+
 - 2021.8.12
   - stare v
   - magnificent adj
@@ -265,7 +281,6 @@
 
 - 2021.6.1
   - sadden v
-  - breakdown n
   - evasive adj
 
   > This was the most memorable line
@@ -1130,7 +1145,7 @@
   - dole n
   - shaky adj
   - acute adj | acutely
-  - frequent | frequently
+  - frequent | frequently | frequency n
   - alumnus n
 
   > Ron is someone who has been in Biden's orbit for a while now
@@ -1414,7 +1429,6 @@
 
 - 2020.9.11
   - medical n/adj | medically | medication n | medicine
-  - wean vt
   - verbal adj
   - stimulus n
   - cubic adj
@@ -1835,7 +1849,6 @@
   > and I want to warn people before we get going that some of details you're about to hear may be graphic
 
 - 2020.7.13
-  - deter vt
   - sporadic adj
 
   > They have been up to a lot
@@ -2118,7 +2131,6 @@
 - 2020.6.1
   - aviation n
   - wreck n/v | wreckage n
-  - scarf n
   - cacophony n
   - onboard adj
 
@@ -2550,6 +2562,7 @@
 
 - 2020.4.7
   - break n/v | breakout n | outbreak n
+  - breakdown n
   - confident adj | confidence n/adj | confidante n
   - community n | communal adj | communism
   - vaccine n/adj | vaccination n | vaccinate vt
@@ -3829,7 +3842,9 @@
 - 2019.10.17
   - typhoon n | hurricane n | cyclone n
   - scary adj | scare n/v/adj
+  - scar n/vt
   - scarce adj/adv
+  - scarf n
   - archipelago n
   - diminished adj | diminish v
   - valley n
@@ -4344,7 +4359,7 @@
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n
   - reluctant adj | reluctantly adv
-  - collective adj | collect
+  - collect v | collective adj
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
@@ -4509,7 +4524,7 @@
   > it's often seen as xxxxx
 
 - 2019.8.19
-  - consult v | consulting adj | consultant
+  - consult v | consulting adj | consultant | consultancy
   - consul n | consulate n
   - stooge n
   - emerge vi | emerging adj | emergence n | reemerge
@@ -4594,7 +4609,7 @@
 
 - 2019.8.12
   - massacre n/vt
-  - legislation n | legislative adj | legislature n | legislator n | legislatively
+  - legislation n | legislature n | legislator n
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - handful n
   - endorse vt | endorsement n
@@ -5010,7 +5025,7 @@
 
 - 2019.6.25
 
-  - assessment n | assess vt | reassess
+  - assess vt | reassess | assessment n | reassessment
   - expertise n
   - proficient adj | proficiency n
   - afloat adj/adv
