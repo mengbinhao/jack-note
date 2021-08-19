@@ -1,3 +1,6 @@
+- 2021.8.18
+  - inclusive adj
+
 - 2021.8.17
   - thereby adv
 
@@ -3047,8 +3050,7 @@
 - 2020.2.7
   - shrapnel n
   - grieve v | grieving adj | grievance n
-  - furious adj
-  - fury
+  - furious adj | fury n
   - assassination n | assassinate vt | assassin
   - honor n/vt | dishonor n/vt
   - cruise n/v
