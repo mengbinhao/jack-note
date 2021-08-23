@@ -1,3 +1,15 @@
+- 2021.8.23
+  - deteriorate vi
+  - theme n
+  - alike adj/adv
+
+  > XXX seems to be trying to refocus and scale back, and he is sticking to that plan despite what has happened these past few days
+
+- 2021.8.19
+  - convoy n
+  - ravage n/v
+  - quarrel n/vi
+
 - 2021.8.18
   - inclusive adj
 
@@ -450,6 +462,7 @@
 
 - 2021.4.21
   - liquid n/adj | solid
+  - solidify v | solidarity n | consolidate v
   - melt n/v
   - adversary | adversarial
   - stable n/adj
@@ -559,7 +572,7 @@
   > xxx trying to make it through yyy
 - 2021.4.5
   - soul n/adj
-  - gain n/vt
+  - gain n/vt | regain
   - brave | bravery n
   - sag vi
   - compatible adj | incompatible
@@ -1028,7 +1041,6 @@
   > I'm so sorry about the fact that everything is so last minute
 
 - 2020.12.21
-  - solidify v
   - affirm v | reaffirm
   - college n
 
@@ -1963,7 +1975,7 @@
   > that's a chilling remark
 
 - 2020.6.20
-  - upset n/v/adj | upsetting
+  - upset n/v/adj
   - encounter n/vt
   - argue v
   - bystander n
@@ -2684,7 +2696,7 @@
   > Does xx have any other options if these moves don't have the desired effect?
 
 - 2020.3.25
-  - attend v | attendance n |attendee
+  - attend v | attendance n | attendee
   - liable adj
   - reliable adj | rely vi
   - forehead n
@@ -2918,7 +2930,6 @@
   - significant n/adj | significance n | insignificant
   - signify vt
   - catastrophe n
-  - consolidate v
   - ruin n/vt
   - sneak n/v/adj
   - righteous adj
@@ -3524,7 +3535,6 @@
 - 2019.12.2
   - unravel v
   - spoil n/v | spoiler n
-  - solidarity n
   - ration n/vt
   - coercive adj
   - elderly adj
@@ -3561,7 +3571,7 @@
   - fuse n/v
   - desert n/v | dessert n
   - cling vi
-  - abandon n/v
+  - abandon n/v | abandoned
   - awful adj | awfully adv
   - downfall n
   - accelerate v | accelerator

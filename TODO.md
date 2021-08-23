@@ -410,6 +410,7 @@
 #### component related
 
 - **[Vue component zaolunzi](https://juejin.im/post/5c036e4fe51d451b80257c45)**
+- [8 张脑图快速了解 Vue 组件](https://mp.weixin.qq.com/s/kO_uJQCjST2FRYTOK1lV2g)
 - [撸 Button 组件](https://juejin.im/post/5e253ec56fb9a0301828d1ce)
 - [Vue 最简单递归组件的使用](https://juejin.im/post/5bed05ac6fb9a04a053f3d60)
 - [Vue 自定义指令完善 Select 组件](https://juejin.im/post/5b03e610f265da0b873ad64e)
