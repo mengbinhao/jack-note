@@ -1,3 +1,10 @@
+- 2021.8.24
+  - basin n
+  - beach n
+  - yacht n
+  - sail n/v | sailboat | sailor n
+  - pine n/vi
+
 - 2021.8.23
   - deteriorate vi
   - theme n
@@ -565,7 +572,6 @@
 - 2021.4.6
   - wildlife n
   - downpour n | rainfall n
-  - blaze n/vi
 
   > Even as rain subsides, the floodwater will still pose trouble for weeks to come
   > We don't actually have a clear image of how much has just been damaged and destroyed
@@ -949,7 +955,7 @@
   - compress vt | decompress vt
   - attitude n
   - pound n/v
-  - compound v
+  - compound v | compounded
   - product n | productive adj | productivity n
   - suck v
   - bottle n/vt
@@ -1194,6 +1200,8 @@
 
 - 2020.11.17
   - lame adj | blame n/vt | flame n/v
+  - flare n/v
+  - blaze n/vi
   - praise n/v
   - childish adj
   - fate n
@@ -2455,7 +2463,6 @@
 - 2020.4.20
   - bunch n/v
   - trend n
-  - flare n/v
   - rapid adj | rapidly adv
   - surpass vt
 
@@ -2531,7 +2538,6 @@
   - academy n | academic n/adj
   - rouse v
   - alternate v/adj | alternative n/adj
-  - sailor n
   - carrier n
   - disparage vt
 
@@ -3515,7 +3521,7 @@
   - convince vt | convinced adj | convincing | unconvincing
   - convict n/vt | convicted adj | conviction n | absolve vt
   - acquit vt | acquittal n
-  - myth n | mythical adj
+  - myth n | mythic adj | mythical adj
   - fruitless adj
   - remorse n | remorseful
   - contrition n
