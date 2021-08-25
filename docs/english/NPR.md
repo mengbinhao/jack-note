@@ -1,3 +1,8 @@
+- 2021.8.25
+  - pend v | pending adj
+
+  > give us the top line
+
 - 2021.8.24
   - basin n
   - beach n
@@ -594,7 +599,7 @@
   - announce v | unannounced
   - renounce vt
   - denounce vt
-  - pronounce v | pronouncement n | pronounced adj
+  - pronounce v | pronounced adj | pronouncement n
   - pounce n/vi
   - bounce n/v
   - fork n.v
@@ -2179,7 +2184,7 @@
   - convert v
   - shelter n/v
   - delta n
-  - protect vt | protective adj
+  - protect vt | protective adj | protection
   - shred n/v
 
   > but even in those
