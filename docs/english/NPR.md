@@ -1,3 +1,7 @@
+- 2021.8.26
+  - swear n/v
+  - loom n/v
+
 - 2021.8.25
   - pend v | pending adj
 
@@ -3166,7 +3170,7 @@
   > it's not clear at all that will lead to any changes
 
 - 2020.1.13
-  - slam n/v | whip v/adj | smash n/v
+  - slam n/v | whip n/v | smash n/v
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
   - archipelago n
@@ -3379,7 +3383,6 @@
   - exemplify n/vt
   - faction n
   - fraction n
-  - infraction n
   - robust adj
   - unanimous adj | unanimously adv
   - waist n
@@ -4497,7 +4500,6 @@
   - addict n/vt | addicted | addiction n
 
 - 2019.8.26
-  - contingency n/adj
   - steer v | steering n/adj
   - grim adj
   - predict v | predictable adj | prediction n | unpredictable | predictability | unpredictability
@@ -4824,11 +4826,11 @@
 
 - 2019.7.16
   - critic n | critical adj | criticize v | criticism n
-  - cable n/vt
+  - cable n/v
   - ambassador n | embassy n
   - inept adj
   - radiate v
-  - insecurity n
+  - secure v/adj | security | insecurity
   - diplomatic adj | diplomat n | diplomacy n
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial
   - substance n
