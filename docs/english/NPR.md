@@ -1,3 +1,8 @@
+- 2021.8.27
+  - outage n
+  - saturate vt | saturated adj
+  - inch n
+
 - 2021.8.26
   - swear n/v
   - loom n/v
@@ -1060,7 +1065,7 @@
   - college n
 
 - 2020.12.18
-  - ripe adj
+  - ripe adj/v
   - relent adj | relentless n
   - commend v
 
@@ -1612,7 +1617,6 @@
   - suit n/v
   - entrench v | entrenched adj
   - upheaval n
-  - heed n/v
 
   > this explosion happened just as millions have been driven into poverty by an economic collapse
   > this is seen as being just too little too late
@@ -4480,7 +4484,7 @@
   - decree n/vt
   - dismayed adj | dismay n/vt
   - stance n
-  - estimate n/vt | underestimate vt/v
+  - estimate n/vt | underestimate vt/v | estimation
   - tackle n/vt
   - mobilize vt | mobilization
   - corrode v
@@ -4855,7 +4859,6 @@
 - 2019.7.15
   - backdrop n
   - neglect n/vt | negligence n | negligent adj
-  - remnant n/adj
   - aide n
   - horrendous adj
   - lessen v
@@ -4886,7 +4889,7 @@
   > a lot of progress has been made
 
 - 2019.7.10
-  - shore n/vt | ashore adj/adv
+  - shore n/vt | ashore adj/adv | shoreline
   - foe n
   - tough n/adj/adv
   - neighborhood n | neighboring adj |　neighbor n/adj
