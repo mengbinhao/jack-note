@@ -1,5 +1,10 @@
+- 2021.8.30
+  - merchant n
+  - perish v
+  - gentle adj/vt/n
+
 - 2021.8.27
-  - outage n
+  - outage n | shortage n
   - saturate vt | saturated adj
   - inch n
 
@@ -1912,7 +1917,7 @@
   - suspend v | suspense n | suspension
   - spouse n/vt
   - hence adv
-  - immigrate v | immigration n
+  - immigrate v | immigration n | emigrate vt
 
 - 2020.7.6
   - firsthand n
@@ -1997,7 +2002,7 @@
 
 - 2020.6.20
   - upset n/v/adj
-  - encounter n/vt
+  - encounter vt/n
   - argue v
   - bystander n
   - sobriety n
@@ -2218,7 +2223,6 @@
   > Why go after him?
 
 - 2020.5.22
-  - retribution n
 
   > in a nutshell
   > That was a quote from that piece
@@ -3132,7 +3136,6 @@
 
 - 2020.1.19
   - guilt n | guilty adj
-  - shortage n
   - verge n
   - nonchalant adj
   - fawn vi | fawning adj
@@ -3704,7 +3707,6 @@
 - 2019.10.31
   - tender n/v/adj
   - segregate vt | segregation
-  - paralyze vt | paralysis n
   - penalize vt
   - ecstatic adj
   - eerie adj
@@ -4941,7 +4943,7 @@
   - impetus n
   - spike n/v
   - loan n/vt
-  - recess n/vt | recession n | depress vt | depression n | depressed
+  - recess n/vt | recession n | depress vt | depression n | depressed adj
   - prospect n/vi
   - debate n/v
   - stagger n/v/adj | staggering adj
