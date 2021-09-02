@@ -1,3 +1,6 @@
+- 2021.9.2
+  - trumpet n/v
+
 - 2021.8.30
   - merchant n
   - perish v
@@ -4049,7 +4052,6 @@
   - harass vt | harassed adj | harassment n
   - thereafter adv
   - breach n/vt
-  - caucus n/vi
   - premature n/adj | mature v/adj | immature adj
 
   > xxx in pointing fingers at Iran
@@ -4183,7 +4185,7 @@
   - modest adj
   - insurance n
   - stride n/vt
-  - blast n/vt | blasted adj | blasting
+  - blast n/v | blasted adj | blasting
   - notable n/adj | notably adv
   - architect n
   - unnerving adj
@@ -4722,7 +4724,7 @@
   - off-putting adj
   - gut n
   - fond adj
-  - doubt n/v | undoubtedly adv
+  - doubt n/v | undoubtedly adv | doubtful
   - succeed v | successor n
   - hard-line adj
   - appeal n/v | appealing adj
