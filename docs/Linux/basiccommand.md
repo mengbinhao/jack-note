@@ -2,12 +2,16 @@
 
 - init 3 //服务器终端登录
 - init 0 //关机
-- clear
 - env
-- ctrl + c 终止
-- ctrl + u 清空至行首
-- ctrl + k 清空至行尾
-- ctrl + l/clear 清屏
+- ==ctrl + c== 终止加换行
+- ==ctrl + u== 清空命令至行首
+- ctrl + k 清空命令至行尾
+- ==clear== 清屏
+- ==tab== 一次或两次补全
+- 复制文本
+      windows/Linux下：Ctrl + insert，Mac下：command + c
+- 粘贴文本
+      windows/Linux下：Shift + insert，Mac下：command + v
 - ctrl + r 搜索执行过的命令
 - `type command`
 - `which command`
