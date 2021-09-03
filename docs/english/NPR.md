@@ -1,3 +1,16 @@
+- 2021.9.3
+  - annoy vt | annoying
+  - fur n/vt
+  - counter n/v
+  - counterpart n
+  - encounter vt/n
+  - counterattack n
+  - counterargument n
+  - countervailing adj
+  - quantity n
+
+  > They're keeping the details in the shadow
+
 - 2021.9.2
   - trumpet n/v
 
@@ -520,7 +533,6 @@
   - portion n/vt
   - apart adj/adv
   - kit n
-  - ghost n
 
 - 2021.4.14
   - shuttle n/v
@@ -1145,6 +1157,7 @@
   - crude n/adj
   - creep n/vi
   - thought | thoughtful
+  - though adv
   - obnoxious adj
   - mosquito n
   - bastard n/adj | jerk n
@@ -1329,7 +1342,7 @@
 - 2020.10.23
   - breeze n/vi
   - depict vt
-  - honesty | dishonesty
+  - honesty n | dishonesty | honest adj
   - state n/vt/adj | restate vt | estate n
   - pope n
 
@@ -2005,7 +2018,6 @@
 
 - 2020.6.20
   - upset n/v/adj
-  - encounter vt/n
   - argue v
   - bystander n
   - sobriety n
@@ -2100,7 +2112,7 @@
   - contingent n
   - standby n
   - enforce vt | enforcement | enforceable adj
-  - reinforce n/v
+  - reinforce n/v | reinforced
   - lawless adj | lawlessness n | unlawful adj | lawful | lawsuit n
   - bluster n/v
 
@@ -2589,7 +2601,7 @@
 
 - 2020.4.8
   - Danish n/adj
-  - luxury n ｜ luxurious adj
+  - luxury n/adj ｜ luxurious adj
   - lose v
   - commerce n ｜ commercial adj
   - ripple n/v
@@ -2723,6 +2735,7 @@
 
 - 2020.3.25
   - attend v | attendance n | attendee
+  - attentive adj
   - liable adj
   - reliable adj | rely vi
   - forehead n
@@ -2777,7 +2790,6 @@
 
 - 2020.3.18
   - gather n/v | gathering n/adj
-  - monetary adj
   - bear n/v
   - statistic n/adj | statistical adj
   - inoculate vt
@@ -2893,7 +2905,7 @@
   - handle | mishandle vt
   - reign n/vi
   - pinpoint n/vi/adj
-  - appreciate v
+  - appreciate v | appreciative adj
 
   > This tension has been in the works
   > X said that was not on account of the president tweeting
@@ -3114,7 +3126,6 @@
   - dub vt
   - burial n/adj
   - explode v | explosion n | explosive n/adj
-  - counterattack n
 
   > No word of other casualties yet
 
@@ -3730,11 +3741,9 @@
   - tunnel n/v
   - recruit n/v
   - sophisticate n/ajd/v | sophisticated adj
-  - counterargument n
   - scatter n/v | scattered adj
   - one-off n/adj
   - jihad n
-  - countervailing adj
 
   > what struck me was some of the things he said about xxxxx
   > this level of detail
@@ -3939,7 +3948,7 @@
   - flee v
   - fleet n/v
   - neutralize vt | neutrality n | neutral adj
-  - fatality n
+  - fatal adj | fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
   - expanse n | expansion n | expansive adj
   - expend vt | expenditure n
@@ -4080,7 +4089,6 @@
   - blueprint n
   - adopt v
   - boost n/vt
-  - fiscal adj | fiscally
   - budge v
   - budget n/vt
   - deficit n
@@ -4131,7 +4139,6 @@
   > My generation
 
 - 2019.9.26
-  - hostage n
   - indicate vt | indicator n | indication n
   - reduce v | reduction n | reduced adj
   - revolving adj
@@ -4546,6 +4553,9 @@
   - grovelling adj
   - interior n/adj
   - stormy adj
+  - host n/v
+  - hostage n
+  - ghost n
   - hostile adj | hostility n
   - itinerary n
   - annexation n | annex n/vt
@@ -4778,7 +4788,7 @@
   - steal n/v | stealth n/adj
   - facility n | facilitate vt | facilitation
   - vow n/vt
-  - postpone vt | postponement n
+  - postpone vt | postponement n | postponed
   - mandate n/vt | mandated adj
   - sector n
   - impose v | self-imposed adj | imposition n | reimpose
@@ -4821,7 +4831,8 @@
   - activist n
   - joint adj | jointly
   - council n
-  - civilian n/adj | civilization n | civil adj | uncivil
+  - civilian n/adj | civil adj
+  - civilize v | civilization n | uncivil | civilized
   - sole adj/n/vt | solely
   - compromise n/v
   - reservation n
@@ -4928,7 +4939,6 @@
   - doubling n
   - reception n
   - utterly adv | utter vt/adj
-  - counterpart n
   - gesture n/vt
 
   > and in return

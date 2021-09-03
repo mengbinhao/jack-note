@@ -399,7 +399,7 @@
 
 > CentOS、RedHat使用yum包管理器，软件包安装格式为rpm
 >
-> Debain、Unbuntu使用apt包管理器，软件包安装格式为deb
+> Debian、Ubuntu使用apt包管理器，软件包安装格式为deb
 
 #### rpm
 
