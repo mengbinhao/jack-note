@@ -1,3 +1,6 @@
+- 2021.9.6
+  - flight n
+
 - 2021.9.3
   - annoy vt | annoying
   - fur n/vt
@@ -788,7 +791,9 @@
   - dwindle v
 
 - 2021.2.26
+  - reflection n
   - deflection n
+  - inflection n
   - entail vt/n
   - condition | uncondition | conditional | conditionally | precondition
 
@@ -1539,6 +1544,7 @@
 
 - 2020.9.4
   - incomplete
+  - completion n
   - devolve v
   - spray n/v
   - pray v
@@ -1848,7 +1854,7 @@
   - induce vt
   - scheme n/v
   - magnet n
-  - suicide n/v/adj
+  - suicide n/vt/adj
 
   > this case has generated a ton of public interest
   > this is not the end of the road
@@ -2095,7 +2101,6 @@
   - dispersal n
   - contentious adj
   - nation n | nationalize vt | national n/adj | nationalization
-  - inflection n
 
   > once in a while
   > in a clear with xxx
@@ -4646,7 +4651,7 @@
   - colony n | colonial adj | colonialism n | colonize vt
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
-  - retaliation n | revenge n/v | retaliate vi | retaliatory adj
+  - revenge n/v | retaliate vi | retaliatory adj | retaliation n
   - mend v
   - fence n/v
 
@@ -5021,7 +5026,7 @@
   - democratically adv | democratic adj | democracy n | democrat | undemocratic
   - jail n/vt
   - crack n/adj/v
-  - crackdown n | repress v | repression n | dampen vt | curb vt | curbed adj | repressive adj
+  - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
   - circumstance n | circumspect adj | circumstantial adj
   - atmosphere n | atmospheric adj
   - ban vt | banner n
