@@ -1,3 +1,6 @@
+- 2021.9.7
+  - baggage n
+
 - 2021.9.6
   - flight n
 
@@ -2273,7 +2276,6 @@
   - wand n
   - destruct v | destruction n | destructive adj
   - brand n/v
-  - ambivalent adj
   - valet nn/v
 
   > as the day go by
@@ -3843,7 +3845,7 @@
 - 2019.10.22
   - cease v | ceasefire n | decease n/vi
   - toll n/vt
-  - vague adj
+  - vague adj | vaguely
   - empower vt
   - occupation n | occupy v
   - mad adj | madness n
@@ -4823,7 +4825,7 @@
   - profile n | high-profile adj
   - reserve n/v | preserve n/vt | reserved | unreservedly | reservation
   - retain vt
-  - constraint n | constrain v | constrained adj
+  - constrain v | constraint n | constrained adj
   - restrict vt | restricted adj | restriction n
 
   > he is by no means the only official public servant doing so
@@ -4877,7 +4879,6 @@
   > the xx had a ton in the paper today
 
 - 2019.7.15
-  - backdrop n
   - neglect n/vt | negligence n | negligent adj
   - aide n
   - horrendous adj
