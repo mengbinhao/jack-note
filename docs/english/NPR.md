@@ -1,3 +1,8 @@
+- 2021.9.8
+  - cluster n/v
+  - lick n/v
+  - paradise n
+
 - 2021.9.7
   - baggage n
 
@@ -177,7 +182,6 @@
 
 - 2021.7.19
   - cylinder n
-  - gulf n/v | engulf vt
 
 - 2021.7.15
   - arise v
@@ -902,7 +906,7 @@
 - 2021.2.1
   - flake n/v | snowflake
   - immense adj
-  - multitask n
+  - multiple adj | multitask n | multilateral adj | multitude n
   - entire | entirely
 
 > roll back what former President Trump had done
@@ -1503,6 +1507,7 @@
   - tail | trail n/v
   - rail n/v
   - frail adj
+  - correspond vi
   - correspondent n
 
   > to my knowledge
@@ -1896,6 +1901,7 @@
 - 2020.7.15
   - sanction n/vt
   - watershed n
+  - watery adj
   - thief n
   - inevitable adj
   - villa n | village n
@@ -2454,7 +2460,6 @@
 - 2020.4.26
   - anniversary n
   - exchange n/v
-  - multiple adj
   - disguise n/vt
 
   > There was an exchange of fire with police
@@ -3180,7 +3185,7 @@
   - jeopardy n
 
 - 2020.1.15
-  - crumble vi
+  - crumble v
   - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
   - liberal adj
@@ -3905,6 +3910,7 @@
   - Panamanian n/adj
   - anchor n/vt
   - bay n/v
+  - gulf n/v | engulf vt
   - landslide n | slide n/v
   - magnitude n
   - Jeez
@@ -4064,7 +4070,6 @@
   - bolster n/vt
   - cliff n
   - artificial adj | artificially
-  - multilateral adj
   - harass vt | harassed adj | harassment n
   - thereafter adv
   - breach n/vt
@@ -4445,7 +4450,7 @@
   - infrastructure n
   - feasible adj
   - founder n
-  - swamp n
+  - swamp n | marsh n/adj
   - coast n | coastal adj
   - nightmarish adj
   - concentrate v | concentrated adj | concentration n
@@ -4910,7 +4915,7 @@
   > a lot of progress has been made
 
 - 2019.7.10
-  - shore n/vt | ashore adj/adv | shoreline
+  - shore n/vt | ashore adj/adv | shoreline | offshore | onshore
   - foe n
   - tough n/adj/adv
   - neighborhood n | neighboring adj |　neighbor n/adj
