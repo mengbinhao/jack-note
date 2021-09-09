@@ -1,3 +1,19 @@
+- 2021.9.9
+  - napkin n
+  - vulgar adj
+  - bathroom | restroom
+  - skim n/v/adj
+  - cream n | creamy adj
+  - scissor n/v
+  - fizzy adj
+  - hilarious adj
+  - slang n/v/adj
+  - couch n/v
+  - tennis n/vi/adj
+  - misread vt
+
+  > We need to sort that out
+
 - 2021.9.8
   - cluster n/v
   - lick n/v
@@ -2981,7 +2997,7 @@
   - signify vt
   - catastrophe n
   - ruin n/vt
-  - sneak n/v/adj
+  - sneak n/v/adj | sneaker
   - righteous adj
   - ovation n
   - heady adj
@@ -4956,7 +4972,8 @@
 
 - 2019.7.5
   - federal adj/n
-  - disappointment n | appointment n | appoint v | appointed adj | appointee n
+  - appoint v | appointed adj | appointment n | appointee n
+  - disappoint vt | disappointed | disappointment n
   - cite vt | recite v
   - inflation | deflation n
   - resist v | resistance n | resistible | irresistible adj | resistant n/adj
