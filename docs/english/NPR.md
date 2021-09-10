@@ -1,3 +1,11 @@
+- 2021.9.10
+  - bond n/v
+  - division n
+  - stubborn adj | stubbornly
+  - cloud n/v
+
+  > XXX consumed by domestic politics
+
 - 2021.9.9
   - napkin n
   - vulgar adj
@@ -124,7 +132,7 @@
   - credit n/vt | discredit n/vt
   - grope v
   - exhaustive adj
-  - understand vt | misunderstand vt
+  - understand vt | misunderstand vt | understandable
 
   > I would expect those carry a lot of weight
 

@@ -16,7 +16,7 @@
     - [动画相关属性](docs/frontend/css/动画相关属性.md)
     - [响应式页面](docs/frontend/css/响应式页面.md)
     - [深入浅出 css](docs/frontend/css/深入浅出css.md)
-    - [隐藏元素s](docs/frontend/css/隐藏元素.md)
+    - [隐藏元素 s](docs/frontend/css/隐藏元素.md)
     - [basicconcept](docs/frontend/css/basicconcept.md)
     - [BFC](docs/frontend/css/BFC.md)
     - [flex_vs_grid](docs/frontend/css/flex_vs_grid.md)
@@ -98,6 +98,7 @@
   - [managecommand](docs/Linux/managecommand.md)
   - [nginx](docs/Linux/nginx.md)
   - [Shell](docs/Linux/Shell.md)
+  - [tmux](docs/Linux/tmux.md)
   - [vi](docs/Linux/vi.md)
 - Others
   - [pythonLib]()
