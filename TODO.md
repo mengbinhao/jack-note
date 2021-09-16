@@ -160,6 +160,7 @@
 
 - [8 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/nsitnjbHVMPkvTdeeCbmQg)
 - [8 个工程必备的 JavaScript 代码片段 2](https://mp.weixin.qq.com/s/Kaep1hajAxnXvdz0LTHRUg)
+- [使用 JS 给图片打马](https://mp.weixin.qq.com/s?__biz=MzI2MjcxNTQ0Nw==&mid=2247495145&idx=1&sn=904b8f36d05781176f1d5e4a552d7c4c)
 - [这 16 种原生函数和属性的区别，你真的知道吗？](https://mp.weixin.qq.com/s/qxDm2T5uUAQjef1jQvpgdA)
 - [JavaScript 工具函数大全](https://mp.weixin.qq.com/s/2zTn8rZ3uA_pbo8DKfZtjA)
 - [JS 一些工具函数](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484756&idx=1&sn=970d60c1368b2c1c7a39e2cb8b68631b)

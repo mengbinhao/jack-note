@@ -1,3 +1,6 @@
+- 2021.9.16
+  - resist
+
 - 2021.9.10
   - bond n/v
   - division n
@@ -306,6 +309,7 @@
 - 2021.6.18
   - seaside n/adj
   - charter n/vt
+  - uncharted adj
 
 - 2021.6.17
   - petroleum n
@@ -703,12 +707,12 @@
   - attract v
 
 - 2021.3.18
-  - navigate v
+  - navigate v | navigation n
   - rule n/v
 
 - 2021.3.16
   - shower n/v
-  - insure v | insured | uninsured
+  - insure v | insured | uninsured | insurance n
 
   > and to put that into perspective
 
@@ -3105,7 +3109,6 @@
   - mask n
   - pebble n
   - upend v
-  - holdout n
   - donation n | donate v | donor n
   - continue | continual adj | continuous adj | continuity n | continuation
   - gym | gymnasium n
@@ -3760,7 +3763,6 @@
   - penalize vt
   - ecstatic adj
   - eerie adj
-  - uncharted adj
   - vacuum n/vt/adj
   - certain | uncertain
 
@@ -4226,7 +4228,6 @@
 
 - 2019.9.23
   - modest adj
-  - insurance n
   - stride n/vt
   - blast n/v | blasted adj | blasting
   - notable n/adj | notably adv
