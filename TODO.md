@@ -256,6 +256,8 @@
 - [为什么不推荐用 for...in 遍历数组](https://mp.weixin.qq.com/s/L_svxUWy2odFxhMfkhomyw)
 - [总结了工作中常用的 ES6 代码片段，整理后的 24 个值得拥有](https://mp.weixin.qq.com/s/DqNPu0oOfVwbP8eaNMj48g)
 - [JavaScript 代码整洁之道-复杂判断](https://juejin.cn/post/6961324184655888392)
+- [JavaScript 极短日期时间代码片段](https://mp.weixin.qq.com/s/lqj8jL5MZSH2rOitDEo31A)
+- [16 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/jjgWezXvVqIymsNYACMlnQ)
 
 ### mobile
 
