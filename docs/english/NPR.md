@@ -1,5 +1,9 @@
-- 2021.9.16
-  - resist
+- 2021.9.17
+  - frank | frankly
+  - split n/v/adj
+  - blush n/vi
+  - slot n/vt
+  - conquer v
 
 - 2021.9.10
   - bond n/v
@@ -1088,7 +1092,7 @@
   - unwell adj
   - transmit v | transportation n | transport vt | transit n/vt/adj
   - transitional adj | transition
-  - transparent adj | transparency n | in-transparency n
+  - transparent adj | transparency n
   - transform v | transformation
   - transpire v
 
