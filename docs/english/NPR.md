@@ -876,6 +876,7 @@
   - refine vt | refined
   - idiot n
   - stamp n/v
+  - fringe n/vt/adj
   - infringe v
   - Netherland
 
@@ -1447,7 +1448,7 @@
 
 - 2020.10.9
   - poet n
-  - endanger vt | endangerment
+  - danger n | dangerous | endanger vt | endangerment
 
 - 2020.9.27
   - spare v/adj
@@ -1585,7 +1586,9 @@
 - 2020.9.4
   - incomplete
   - completion n
+  - evolve v
   - devolve v
+  - revolve v
   - spray n/v
   - pray v
   - edge n/v | brink n
@@ -2167,7 +2170,7 @@
 
 - 2020.6.6
   - knee n
-  - curse n/v
+  - curse n/v | cursed adj
 
   > you know, we don't want to, if it comes to that, we have to
   > they have been overwhelmed
@@ -2331,7 +2334,6 @@
 - 2020.5.15
   - thumb n/v
   - class n/v | classic adj | classify vt | declassified | classification n
-  - revolve v
 
   > take a look at xxx from top to bottom
 
@@ -2579,7 +2581,6 @@
   - upcoming adj
   - desire n/v | desirable
   - backbone n
-  - fringe n/vt/adj
   - mainstream n
   - champion n/v
   - numerical adj
@@ -2733,7 +2734,6 @@
   - obit n
   - crematorium n
   - coffin n
-  - evolve v
   - surplus n/adj
   - utmost adj
   - drastic adj
@@ -3530,6 +3530,7 @@
 
 - 2019.12.11
   - silicon n
+  - gravel n/vt
   - grave n/adj | gravely adv
   - endgame n
   - flip n/v/adj
@@ -4536,6 +4537,7 @@
   - decree n/vt
   - dismayed adj | dismay n/vt
   - stance n
+  - substance n
   - estimate n/vt | underestimate vt/v | estimation
   - tackle n/vt
   - mobilize vt | mobilization
@@ -4598,7 +4600,6 @@
   - hostage n
   - ghost n
   - hostile adj | hostility n
-  - itinerary n
   - annexation n | annex n/vt
   - settle n/v | settlement n | settling | unsettle | unsettling
   - pendulum n
@@ -4893,7 +4894,6 @@
   - secure v/adj | security | insecurity
   - diplomatic adj | diplomat n | diplomacy n
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial
-  - substance n
   - clumsy adj
   - outgoing adj
   - uninformed adj
@@ -5019,7 +5019,7 @@
 
 - 2019.7.2
   - intent n/adj | intention n | intentional | intentionally | unintentional
-  - loose n/vt/adj | loosen v
+  - loose n/vt/adj | loosen v | loosely
   - conciliatory adj
   - tactic n | tactical adj
   - hawkish adj
