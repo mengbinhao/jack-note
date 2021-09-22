@@ -1,3 +1,12 @@
+- 2021.9.22
+  - clamp n/vt
+  - nowadays n
+  - mood n
+  - cheese n
+  - attach v | attachment
+  - shaft n
+  - escape | escapee
+
 - 2021.9.17
   - frank | frankly
   - split n/v/adj
@@ -178,7 +187,7 @@
   - fit v/adj | misfit n/vt | unfit adj/vt
   - fitness n
   - grind n/v
-  - accomplish vt
+  - accomplish vt | accomplishment
   - devoid adj
   - province | provincial
 
@@ -1857,7 +1866,6 @@
   - grip n/v
   - sniff n/v
   - fame n/vt | defame v
-  - manhunt n
 
   > xxx will become just the way things go
   > they just kind of have to find the way to reach the middle
@@ -3766,7 +3774,6 @@
   - tender n/v/adj
   - segregate vt | segregation
   - penalize vt
-  - ecstatic adj
   - eerie adj
   - vacuum n/vt/adj
   - certain | uncertain
@@ -3819,7 +3826,7 @@
   - armored adj | arm n/v | disarm
   - spill n/v
   - cannon n/v
-  - hike n/v
+  - hike n/v | hiker
   - lambaste vt
   - dissatisfaction n
   - disenchantment n
@@ -5042,7 +5049,7 @@
   - rally n/v
   - literal adj | literally adv
   - rig n/vt | rigged adj
-  - accusation n | accuse vt | accusing | accuser
+  - accuse vt | accusing | accuser | accusation n
   - echo n/v
 
   > one every two or three weeks

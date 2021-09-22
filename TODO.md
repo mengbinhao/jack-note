@@ -151,6 +151,7 @@
 - [代码规范之-理解 ESLint、Prettier、EditorConfig](https://mp.weixin.qq.com/s/kJ14P828NHUdvA9JSoUQzg)
 - [前端性能优化](https://mp.weixin.qq.com/s/V4letLIbbiuxRWAwlObt5w)
 - [10 个有用的 HTML 文件上传技巧](https://mp.weixin.qq.com/s/7g_PsmcDn47CIh5zaXBSlQ)
+- [写给中高级前端关于性能优化的 9 大策略和 6 大指](https://mp.weixin.qq.com/s/nES0HWRyTVg05sfxj25WJQ)
 
 ### Algorithm
 
@@ -765,6 +766,7 @@
 
 #### Vue
 
+- [「自我检验」熬夜总结 50 个 Vue 知识点](https://mp.weixin.qq.com/s/wX6M6To1Hs0uQegtFMQZiA)
 - [一次关于 Vue 的自我模拟面试](https://mp.weixin.qq.com/s/OIyV5QC4HsTvZtabblLvUw)
 - [VUE 面试题解析，半年出一篇](https://mp.weixin.qq.com/s/CrfgtDSutz99TLDuHY0qGQ)
 - [万字真经：Vue 的 36 个面试技巧](https://mp.weixin.qq.com/s/kispJC8r96BVquKNlFLs5A)
