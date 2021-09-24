@@ -1,3 +1,8 @@
+- 2021.9.24
+
+  > Jack kind of set the tone for xxx
+  > Jack's shifted his position a lot on that
+
 - 2021.9.22
   - clamp n/vt
   - nowadays n
@@ -843,7 +848,7 @@
   - deflection n
   - inflection n
   - entail vt/n
-  - condition | uncondition | conditional | conditionally | precondition
+  - condition | uncondition | conditional | unconditional | conditionally | precondition
 
   > xxx will result in a favorable outcome
   > Would that still be the case?
@@ -1080,7 +1085,6 @@
 
 - 2021.1.1
   - grace n/vt | disgrace n/vt | disgraceful
-  - aisle n
   - crease n/v | decrease n/v
 
 - 2020.12.30
@@ -2745,7 +2749,6 @@
   - surplus n/adj
   - utmost adj
   - drastic adj
-  - mitigate v
   - discretion n
 
   > in a broader sense
@@ -4646,7 +4649,7 @@
   - constitutional adj | unconstitutional | constitution | constitutionally
   - constituent n
   - impunity adj
-  - pessimistic adj | optimistic adj | optimism n ｜ pessimis n
+  - optimistic adj | optimism n ｜ pessimis n | pessimistic adj
 
 - 2019.8.15
   - arctic n/adj
