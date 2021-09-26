@@ -1,3 +1,6 @@
+- 2021.9.26
+  - unveil
+
 - 2021.9.24
 
   > Jack kind of set the tone for xxx
@@ -288,7 +291,6 @@
   > xxx had a different view
 
 - 2021.6.28
-  - autonomy n
   - austerity n
 
   > Which I think really captures the message he's trying to send
@@ -1892,6 +1894,8 @@
   - ache n/vi
   - challenge n/vt | unchallenged
   - disclosure n | nondisclosure | closure n/vt
+  - autonomy n
+  - autocrat n
   - pilot n | autopilot
   - silence n /v | silent adj/n
   - spectrum n
@@ -2223,7 +2227,6 @@
   - align v | alignment | realignment
   - boast n/vt
   - contrive v
-  - relish n/v
   - greet vt
   - palace n
   - subvert vt
@@ -3121,7 +3124,7 @@
 
 - 2020.2.21
   - Indonesia n
-  - mask n
+  - mask n | unmask
   - pebble n
   - upend v
   - donation n | donate v | donor n
@@ -4352,7 +4355,6 @@
 
 - 2019.9.14
   - ruthless adj
-  - autocrat n
   - palatial adj
   - betray vt | betrayal n
   - bitter n/vt/adj | bitterly adj | embitter vt
@@ -4610,7 +4612,7 @@
   - hostage n
   - ghost n
   - hostile adj | hostility n
-  - annexation n | annex n/vt
+  - annex n/vt | annexation n
   - settle n/v | settlement n | settling | unsettle | unsettling
   - pendulum n
 

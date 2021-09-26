@@ -298,6 +298,7 @@
 
 #### Vue related
 
+- [建立和维护大型 Vue.js 项目的 10 个最佳实践](https://mp.weixin.qq.com/s/XHQ8aNZqMWwFbcAeN34tww)
 - [说说你对 keep-alive 的理解是什么？怎么缓存当前的组件？缓存后怎么更新？](https://mp.weixin.qq.com/s/LGKVWXxm4ICI4FTbIK5dOQ)
 - [聊聊对 Vue.js 框架的理解](https://mp.weixin.qq.com/s/7kbbLah-kcCRArNHUm3lpg)
 - [34 条我能告诉你的 Vue 之实操篇](https://mp.weixin.qq.com/s/WD72I5XqbFyIvs3TkOYc0A)
