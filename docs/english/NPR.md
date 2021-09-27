@@ -1,5 +1,7 @@
-- 2021.9.26
-  - unveil
+- 2021.9.27
+  - augment n/vt
+  - advise v | advisable | advisory n
+  - likelihood n
 
 - 2021.9.24
 
@@ -100,7 +102,6 @@
   - pine n/vi
 
 - 2021.8.23
-  - deteriorate vi
   - theme n
   - alike adj/adv
 
@@ -760,7 +761,8 @@
 
 - 2021.3.11
   - opportunity n
-  - deterrent n
+  - deteriorate vi
+  - deterrent n/adj | deterrence n
   - asset n
   - previous | previously
 
@@ -2445,7 +2447,6 @@
 - 2020.5.6
   - provoke vt | incite vt | incitement n | unprovoked
   - vessel n
-  - deterrence n
   - restore v | restoration
   - enterprise n
   - pure adj | purely adv | purity n
@@ -2642,7 +2643,7 @@
 - 2020.4.10
   - deaf adj
   - lung n
-  - scientific adj | science n
+  - science n | scientific adj
   - upfront adj/adv
   - greenhouse n
   - rollback n
@@ -3212,7 +3213,9 @@
   - fawn vi | fawning adj
 
 - 2020.1.17
+  - strain n/v | strained adj
   - restrain vt | restraint n | restrained adj
+  - constrain v | constraint n | constrained adj
   - comfort n/vt | discomfort n | comfortable adj | uncomfortable
   - distinct adj | distinctive adj | distinction n
   - stun n/vt | stunning
@@ -3425,7 +3428,7 @@
 - 2019.12.19
   - enlist v
   - justify vt | justification n | justifiable
-  - recommendation n
+  - recommend v | recommendation n
   - omission n
   - eavesdrop vi
   - cavalier adj
@@ -3680,7 +3683,6 @@
   - pungent adj
   - cough v | sneeze n/v
   - respiratory adj
-  - advisory n
   - routine n | routinely adv
   - outskirt n
 
@@ -3851,7 +3853,7 @@
 - 2019.10.26
   - fallout n
   - stall n/v | stalled
-  - ethic n
+  - ethic n | ethical
   - deliberation n | deliberate v/adj | deliberately adv
   - liberator n | liberation n | liberate vt
   - prevail vi
@@ -4635,7 +4637,6 @@
 
 - 2019.8.16
   - bid n/v
-  - strain n/v | strained adj
   - qualify v | disqualify vt | qualification n | qualified | eligible adj | eligibility
   - sick n/vt/adj
   - turnout n | turnover n
@@ -4838,8 +4839,8 @@
   - cargo n
   - Pentagon n
   - defy vt | defiance n
-  - acquire vt | acquisition n | acquired
-  - steal n/v | stealth n/adj
+  - acquire vt | acquired adj | acquisition n
+  - steal n/v
   - facility n | facilitate vt | facilitation
   - vow n/vt
   - postpone vt | postponement n | postponed
@@ -4872,7 +4873,6 @@
   - profile n | high-profile adj
   - reserve n/v | preserve n/vt | reserved | unreservedly | reservation
   - retain vt
-  - constrain v | constraint n | constrained adj
   - restrict vt | restricted adj | restriction n
 
   > he is by no means the only official public servant doing so
