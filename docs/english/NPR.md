@@ -1,3 +1,12 @@
+- 2021.9.28
+  - leap n/v
+  - fluid n/adj
+  - durable adj | durability
+  - hollow n/v/adj
+
+  > He's kind of been getting it from all directions recently
+  > They can't just talk the talk, they actually have to walk the walk
+
 - 2021.9.27
   - augment n/vt
   - advise v | advisable | advisory n
@@ -126,7 +135,8 @@
   > It's his best area
 
 - 2021.8.15
-  - accessible adj
+  - accessory n
+  - access | accessible adj | accessibility
 
   > Extreme droughts could double or quadruple in frequency
   > It's pretty clear that the scientists tried to make this report more accessible to the general public
@@ -627,7 +637,7 @@
 
 - 2021.4.10
   - recipe n
-  - define vt
+  - define vt | redefine
   - sack n/vt
   - uneasy adj
   - outlet n
@@ -935,7 +945,6 @@
 - 2021.2.3
   - vest n
   - stomach n/vt
-  - accessory n
   - candle n
   - glow n/vi
   - murmur n/v
@@ -2762,7 +2771,7 @@
 - 2020.3.27
   - aware adj ｜ awareness n | unaware adj
   - halt n/v
-  - smooth | smoothly
+  - smooth n/v/adj | smoothly
   - enthuse v | enthusiastic adj | enthusiasm n
   - temporary adj | temporarily adv
   - temperature n
@@ -4281,7 +4290,7 @@
   - peach n
   - impeach vt | impeachment n
   - essay n/vt
-  - adapt v | adapted adj | adaption | adaptation
+  - adapt v | adapted adj | adaption | adaptation | adaptive
   - columnist n
   - wrinkle n/v
   - oven n
@@ -5046,7 +5055,7 @@
   > foolish move
 
 - 2019.6.28
-  - establish vt | establishment n
+  - establish vt | establishment n | disestablishment
   - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
