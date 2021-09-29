@@ -298,6 +298,7 @@
 
 #### Vue related
 
+- [11 个高级 Vue 编码技巧](https://mp.weixin.qq.com/s/zVOTindmgMBQ8ClvBZ9FNg)
 - [10 个技巧！实现 Vue.js 极致性能优化](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247525077&idx=1&sn=b42cec26edefb616f9370c73310cea7f)
 - [建立和维护大型 Vue.js 项目的 10 个最佳实践](https://mp.weixin.qq.com/s/XHQ8aNZqMWwFbcAeN34tww)
 - [说说你对 keep-alive 的理解是什么？怎么缓存当前的组件？缓存后怎么更新？](https://mp.weixin.qq.com/s/LGKVWXxm4ICI4FTbIK5dOQ)

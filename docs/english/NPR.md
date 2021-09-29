@@ -1,3 +1,8 @@
+- 2021.9.29
+  - stunt n/v
+  - create | creative | creature n
+  - fountain n
+
 - 2021.9.28
   - leap n/v
   - fluid n/adj
@@ -460,7 +465,6 @@
   > xxx into balance
 
 - 2021.5.19
-  - incentive n
   - appliance n
   - rise v/n
   - steady v/adj
@@ -1179,7 +1183,7 @@
 
 - 2020.12.10
   - jealousy n
-  - pregnant adj
+  - pregnant adj | pregnancy
 
   > but it's never taken that option off the table
 
@@ -1209,7 +1213,6 @@
 
 - 2020.12.3
   - witch n/vt
-  - creature n
   - gullible adj
 
 - 2020.12.2
@@ -2985,7 +2988,7 @@
   - entice vt
   - bake v | bakery n
   - seal n/v | unseal vt | unsealed
-  - validity n | valid adj
+  - validity n | valid adj | validate vt | invalidate
   - warlord n
   - notorious adj | notoriously
   - parallel n/vt/adj
@@ -4372,7 +4375,6 @@
   - justice n | injustice n
   - oppress vt | oppressive adj
   - savage n/vt/adj
-  - vibrant adj
   - revolution n | revolutionary n/adj | evolution n
   - unfettered adj
   - decline n/v
