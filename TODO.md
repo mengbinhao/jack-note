@@ -159,8 +159,12 @@
 
 ### JS
 
+- [这 16 种原生函数和属性的区别](https://mp.weixin.qq.com/s/1Byb0gtmPvX6-akIrlqMHg)
+- [30+ 个工作中常用到的前端小知识](https://mp.weixin.qq.com/s/EKz1CvXafc6wy4epTzLy6g)
+- [私藏的这些高级工具函数](https://mp.weixin.qq.com/s/xNjtwxVDG1C3jI5F9EEyrg)
 - [8 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/nsitnjbHVMPkvTdeeCbmQg)
 - [8 个工程必备的 JavaScript 代码片段 2](https://mp.weixin.qq.com/s/Kaep1hajAxnXvdz0LTHRUg)
+- [20 个杀手级 JavaScript 单行代码](https://mp.weixin.qq.com/s/UFX5Wylxk2Xnx07You1yTg)
 - [使用 JS 给图片打马](https://mp.weixin.qq.com/s?__biz=MzI2MjcxNTQ0Nw==&mid=2247495145&idx=1&sn=904b8f36d05781176f1d5e4a552d7c4c)
 - [这 16 种原生函数和属性的区别，你真的知道吗？](https://mp.weixin.qq.com/s/qxDm2T5uUAQjef1jQvpgdA)
 - [JavaScript 工具函数大全](https://mp.weixin.qq.com/s/2zTn8rZ3uA_pbo8DKfZtjA)

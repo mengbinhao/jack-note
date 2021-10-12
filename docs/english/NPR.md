@@ -1,3 +1,14 @@
+- 2021.10.12
+  - glare n/v
+
+- 2021.10.11
+  - perfect | imperfect
+  - lodge n/v
+  - common | uncommon
+
+  > This is part of what we've been hearing from this panel for weeks now, that they're serious about getting to the bottom of what happened on January 6
+  > I want to make sure I'm clear on what's going on here
+
 - 2021.9.29
   - stunt n/v
   - create | creative | creature n
@@ -1017,7 +1028,7 @@
   - gratitude n
   - goodness n
   - treasure n/vt
-  - passion n | passionate adj
+  - passion n | passionate adj | passionately
   - precious adj
   - foster vt/adj
 
@@ -1275,7 +1286,7 @@
   - dole n
   - shaky adj
   - acute adj | acutely
-  - frequent | frequently | frequency n
+  - frequent | frequently | frequency n | infrequent
   - alumnus n
 
   > Ron is someone who has been in Biden's orbit for a while now
@@ -1376,7 +1387,7 @@
 
 - 2020.11.2
   - affluent n/adj
-  - disband v
+  - band n/v | disband v
 
 - 2020.11.1
   - innovation n
@@ -2985,7 +2996,6 @@
 - 2020.3.6
   - apparatus n
   - wobbly adj
-  - entice vt
   - bake v | bakery n
   - seal n/v | unseal vt | unsealed
   - validity n | valid adj | validate vt | invalidate
@@ -3521,7 +3531,6 @@
 - 2019.12.13
   - obey v
   - distant adj
-  - intimately adj
   - separate v
   - grain n
   - telescope n
@@ -3796,7 +3805,7 @@
   - penalize vt
   - eerie adj
   - vacuum n/vt/adj
-  - certain | uncertain
+  - certain | uncertain | uncertainly
 
   > it's something that we have not seen before
   > we've never been through that before
@@ -3960,7 +3969,7 @@
   - scarce adj/adv
   - scarf n
   - archipelago n
-  - diminished adj | diminish v
+  - diminish v | diminished adj
   - valley n
   - inundate vt
   - hard-hit
