@@ -1,4 +1,10 @@
 - 2021.10.12
+  - yolk n
+  - dizzy vt/adj | dizziness
+  - mixture n
+  - pacific n/adj
+
+- 2021.10.12
   - glare n/v
 
 - 2021.10.11
@@ -3703,7 +3709,6 @@
   - noxious adj
   - pungent adj
   - cough v | sneeze n/v
-  - respiratory adj
   - routine n | routinely adv
   - outskirt n
 
