@@ -1,3 +1,7 @@
+- 2021.10.14
+  - ink n
+  - whilst conj
+
 - 2021.10.12
   - yolk n
   - dizzy vt/adj | dizziness
