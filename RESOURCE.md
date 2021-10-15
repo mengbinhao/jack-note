@@ -24,58 +24,51 @@
 
 - [vuelidate](https://github.com/vuelidate/vuelidate)
 - [Ajv](https://www.npmjs.com/package/ajv)
-  - 在需要验证JSON时使用(比如来自web请求)
-  - 您希望与应用程序的其他非JS部分共享这些验证规则(因为它是JSON,所以您可以这样做)
+  - 在需要验证 JSON 时使用(比如来自 web 请求)
+  - 您希望与应用程序的其他非 JS 部分共享这些验证规则(因为它是 JSON,所以您可以这样做)
 - [Joi](https://www.npmjs.com/package/joi)
-  - 在需要验证输入时使用,并且喜欢链式调用的风格,而不是在JSON中定义验证规则
-  - 您正在使用Hapi(Hapi自带Joi)
+  - 在需要验证输入时使用,并且喜欢链式调用的风格,而不是在 JSON 中定义验证规则
+  - 您正在使用 Hapi(Hapi 自带 Joi)
   ```javascript
   const schema = joi.object().keys({
-    id: joi
-      .string()
-      .guid()
-      .required(),
-    username: joi
-      .string()
-      .alphanum()
-      .min(8)
-      .required()
+  	id: joi.string().guid().required(),
+  	username: joi.string().alphanum().min(8).required(),
   })
   ```
 
 ### Authentication(身份认证)
 
 - [Passport](https://www.npmjs.com/package/passport)
-  - 当您需要为您的网站或API使用身份验证中间件时使用
+  - 当您需要为您的网站或 API 使用身份验证中间件时使用
   - 您希望能够在多种身份验证类型(Oauth,Facebook 等)之间进行选择
   - 您需要管理会话
 
 ### Asynchronous(异步)
 
 - Async
-  - 当您需要使用旧版本的Node,而该版本的Node支持只支持回调而不支持 Promises时
-- ES6原生Promises
+  - 当您需要使用旧版本的 Node,而该版本的 Node 支持只支持回调而不支持 Promises 时
+- ES6 原生 Promises
 - async / await
 
 ### Database
 
 - [mysql](https://www.npmjs.com/package/mysql) /[node-postgres](https://no de-postgres.com/)
-  - 当您不需要完整的ORM,而是需要使用原始SQL查询数据库时使用(这些是驱动程序)
+  - 当您不需要完整的 ORM,而是需要使用原始 SQL 查询数据库时使用(这些是驱动程序)
 - [node-mongodb-native](https://github.com/mongodb/node-mongodb-native)
-  - 当您不需要一个完整的ORM,而是要直接查询MongoDB时使用
+  - 当您不需要一个完整的 ORM,而是要直接查询 MongoDB 时使用
 - [Mongoose](https://www.npmjs.com/package/mongoose)
-  - 当您希望为MongoDB使用ORM时使用
+  - 当您希望为 MongoDB 使用 ORM 时使用
 - [Knex](https://www.npmjs.com/package/knex)
-  - 当您不需要一个完整的ORM解决方案,而只是需要一些工具使编写查询代码更容易,可以使用它
-  - Knex是一个生成SQL的查询生成器
-  - 您拥有Postgres、MSSQL、MySQL、MariaDB、SQLite3、Oracle 或 Amazon Redshift数据库
+  - 当您不需要一个完整的 ORM 解决方案,而只是需要一些工具使编写查询代码更容易,可以使用它
+  - Knex 是一个生成 SQL 的查询生成器
+  - 您拥有 Postgres、MSSQL、MySQL、MariaDB、SQLite3、Oracle 或 Amazon Redshift 数据库
 - [Objection.js](https://www.npmjs.com/package/objection)
-  - 您希望ORM支持Knex支持的所有东西,不使用查询DSL(因此您编写的代码更接近原始SQL),具有基于Promise的API和良好的文档
+  - 您希望 ORM 支持 Knex 支持的所有东西,不使用查询 DSL(因此您编写的代码更接近原始 SQL),具有基于 Promise 的 API 和良好的文档
 
 ### API documentation
 
 - [Swagger-node](https://github.com/swagger-api/swagger-node)
-  - 当您需要记录REST API并能够针对端点测试请求时使用
+  - 当您需要记录 REST API 并能够针对端点测试请求时使用
 
 ### bundle scripts
 
@@ -103,9 +96,9 @@
   - 当您需要证明您的单元测试中的断言时
   - 注意:这将与 Mocha 一起使用
 - [Chai-as-promised](https://www.npmjs.com/package/chai-as-promised)
-  - 当您希望在Promises上证明您的断言时,而不是将断言放在then或catch中使用
+  - 当您希望在 Promises 上证明您的断言时,而不是将断言放在 then 或 catch 中使用
 - [Sinon](https://sinonjs.org/)
-  - 当您需要用于测试的mock库时使用
+  - 当您需要用于测试的 mock 库时使用
 - [Karma](http://karma-runner.github.io/latest/index.html)
 - [Jest](https://jestjs.io/docs/en/getting-started.html)
 - [vue-test-utils](https://vue-test-utils.vuejs.org/)
@@ -114,19 +107,19 @@
 - ava
 - React Testing Library
 
-
 ### UI component
 
 - buefy
 - bulma 纯 CSS
 - [iview](https://iviewui.com/docs/guide/install):一套基于 Vue.js 的高质量 UI 组件库(PC 端)
 - iView Admin:搭配使用 iView UI 组件库形成的一套后台集成解决方案(PC 端)
-- [Element UI](https://element.eleme.io/#/zh-CN/component/installation):一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库(PC 端)
+- [==Element UI==](https://element.eleme.io/#/zh-CN/component/installation):一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库(PC 端)
 - Vue Antd:Ant Design 的 Vue 实现,开发和服务于企业级后台产品(PC 端)
 - VueStrap:一款 Bootstrap 风格的 Vue UI 库(PC 端)
 - Mint UI:由饿了么前端开发的基于 Vue.js 的移动端组件库(移动端)
 - Vonic:一个基于 vue.js 和 ionic 样式的 UI 框架,用于快速构建移动端单页应用(移动端)
-- Vant:轻量、可靠的移动端 Vue 组件库(移动端)
+- ==Vant==:轻量、可靠的移动端 Vue 组件库(移动端)
+- ==View UI==
 - Cube UI:基于 Vue.js 实现的精致移动端组件库(移动端)
 - vuetify:google 材质设计的实现
 - vue-material:另一个 google 材质设计的实现
@@ -143,28 +136,30 @@
 - [Winston](https://www.npmjs.com/package/winston)
   - 当您需要一个日志库并需要不同的日志输出格式时使用
 - [Bunyan](https://www.npmjs.com/package/bunyan)
-  - 当您需要一个日志库,并以JSON作为唯一日志输出格式时使用
+  - 当您需要一个日志库,并以 JSON 作为唯一日志输出格式时使用
   - 您希望为不同的组件、请求或函数使用不同的日志记录器(也就是说,这些日志记录器可能以不同的方式解析事件)
 - [Morgan](https://www.npmjs.com/package/morgan)
-  - 当您使用Express并且想要记录HTTP请求时使用
-  - 注意:这将与Winston或Bunyan一起使用.由于它是中间件,它知道如何处理请求并记录它,但不处理Winston和Bunyan所做的日志输出的传输
+  - 当您使用 Express 并且想要记录 HTTP 请求时使用
+  - 注意:这将与 Winston 或 Bunyan 一起使用.由于它是中间件,它知道如何处理请求并记录它,但不处理 Winston 和 Bunyan 所做的日志输出的传输
 
 ### Templating(前端模板)
 
 - [Pug(原 Jade)](https://pugjs.org/api/getting-started.html)
   - 当您需要服务器端模板引擎时,请使用该引擎,该引擎易于阅读,并且支持开箱即用的子组件代码块. 您只需要输出 HTML
 - [EJS](https://www.npmjs.com/package/ejs)
-  - 当您需要一个服务器端模板引擎,该引擎完全使用JS,并且允许空格缩进(Pug 不允许)
-  - 注意:不支持异步JS函数
+  - 当您需要一个服务器端模板引擎,该引擎完全使用 JS,并且允许空格缩进(Pug 不允许)
+  - 注意:不支持异步 JS 函数
 
 ### 通用函数库
 
 - [microjs](http://microjs.com/#)
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 - [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
-- [Lodash](https://www.npmjs.com/package/lodash)
-  - 当您需要JS实用程序库时使用
-  - 您使用了大量的OOP(面向对象编程)
+- [==Day.js==](https://github.com/iamkun/dayjs)
+- [==Lodash.js==](https://www.npmjs.com/package/lodash)
+  - 当您需要 JS 实用程序库时使用
+  - 您使用了大量的 OOP(面向对象编程)
+- ==timeago.js==
 - [Ramda](https://www.npmjs.com/package/ramda)
   - 当您希望使用函数式的编程风格时
   - 您想要像 lodash 这样的东西,但是在函数式编程范式中
@@ -185,7 +180,6 @@
   - 在需要解析、验证、操作和显示日期/时间时使用
 - [UUID](https://www.npmjs.com/package/uuid)
   - 当您需要随机的、唯一的、难以破解的 id 时使用
-- [day.js](https://github.com/iamkun/dayjs)
 - [Sugar](https://github.com/andrewplummer/Sugar)
 - [polished](https://polished.js.org/)
   > A lightweight toolset for writing styles in JavaScript
@@ -201,9 +195,10 @@
 - [Dotenv](https://www.npmjs.com/package/dotenv)
   - 当您需要将`.env`文件中的环境变量加载到`process.env`时使用
 - [fabric.js](http://fabricjs.com/)
-  -  一个强大而简单的 JS Canvas 库
+  - 一个强大而简单的 JS Canvas 库
 
 ### CLI
+
 - Commander
   - 你要构建一个 CLI 实用程序，将所有参数作为命令行上的标志时就用它。
 - Inquirer
@@ -233,16 +228,16 @@
 - [axios](https://www.npmjs.com/package/axios)当您需要基于`Promise`的`HTTP`请求时可选择它
 - [Request](https://www.npmjs.com/package/request)当您需要基于回调的`HTTP`请求时可选择它,例如从一个`REST`服务连接到另一个
 - [ky](https://github.com/sindresorhus/ky)
-  - 基于浏览器Fetch API的简洁优雅HTTP客户端
+  - 基于浏览器 Fetch API 的简洁优雅 HTTP 客户端
 
 ### 工具
 
 - [ESdoc](https://www.npmjs.com/package/esdoc)
   - 当您想从您的代码中生成 API 文档,并且您正在使用最新的 JS 版本时
-  - 默认情况下支持当前版本的JS(支持 class),因此如果在代码中使用 prototypes,请使用JSdoc
+  - 默认情况下支持当前版本的 JS(支持 class),因此如果在代码中使用 prototypes,请使用 JSdoc
 - JSdoc(jsdoc)
-  - 当您需要支持ES6的代码API文档生成器时使用
-  - 支持classes和prototypes
+  - 当您需要支持 ES6 的代码 API 文档生成器时使用
+  - 支持 classes 和 prototypes
 - ESlint
 
 ### Prototype
@@ -251,7 +246,7 @@
 
 ### 动画库
 
-- [Animate.css](https://daneden.github.io/animate.css/)
+- [==Animate.css==](https://daneden.github.io/animate.css/)
 - [animejs](http://animejs.com/)
 - [Hover.css](http://ianlunn.github.io/Hover/)
 - [wow.js](https://wowjs.uk/)
@@ -264,10 +259,12 @@
 - hammer.js 手势
 
 ### 图像
+
 - [sharp](https://sharp.pixelplumbing.com/en/stable/)
 
 ### 数据可视化
-- [ECharts](https://echarts.apache.org/zh/index.html)
+
+- [==ECharts==](https://echarts.apache.org/zh/index.html)
 - [v-charts](https://github.com/ElemeFE/v-charts)
 - Chart.js、three.js、Dygraphs.js、D3.js、InfoVis、Springy.js
 - vanilla-tilt.js 3D 瓦片
@@ -275,9 +272,12 @@
 - tui.chart
 - vue-chartjs
 - Proton 一个轻量级的 Javascript 粒子动画库
+- ==Markdown(Meditor.md)==
 
 ### calendar
-- [11个顶级JavaScript日历插件](https://mp.weixin.qq.com/s?__biz=MzI3NzIzMDY0NA==&mid=2247487050&idx=1&sn=e1cf667260041a9a8df4b41be68b73ee)
+
+- [11 个顶级 JavaScript 日历插件](https://mp.weixin.qq.com/s?__biz=MzI3NzIzMDY0NA==&mid=2247487050&idx=1&sn=e1cf667260041a9a8df4b41be68b73ee)
+
 ### 时间选择器
 
 - [layDate](https://aigodata.github.io/layDate/index.html)
@@ -286,6 +286,7 @@
 
 - [lozad](https://github.com/ApoorvSaxena/lozad.js)
 - [lazyload](https://github.com/verlok/lazyload)
+- ==vue-lazyload==
 
 ### other
 
@@ -293,8 +294,7 @@
 - [图片缩放](http://www.dowebok.com/demo/223/)
 - [图片占位符](https://github.com/imsky/holder)
 - [Mark Text](https://marktext.app/)
-- progress-estimator 记录进度条并估算Promise完成所需的时间
-
+- progress-estimator 记录进度条并估算 Promise 完成所需的时间
 
 ### 代码高亮
 
@@ -302,14 +302,15 @@
 
 ### 滚动库
 
+- ==mescroll.js==
 - [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 - [iscroll](https://github.com/cubiq/iscroll)
 - [ScrollTrigger](https://terwanerik.github.io/ScrollTrigger/)
-  - 根据当前滚动位置触发类。 例如。 当元素进入视口时，将其淡入。可以为每个元素添加自定义偏移量，或在视口上设置偏移量（例如，始终在元素达到视口的20％之后触发）
+  - 根据当前滚动位置触发类。 例如。 当元素进入视口时，将其淡入。可以为每个元素添加自定义偏移量，或在视口上设置偏移量（例如，始终在元素达到视口的 20％之后触发）
 
 ### 轮播图
 
-- [Swiper](http://idangero.us/swiper/)
+- [==Swiper==](http://idangero.us/swiper/)
 - [vue-awesome-swiper](https://github.com/surmon-china/vue-awesome-swiper)
 
 ### 输入提示
@@ -332,12 +333,12 @@
 
 ### 表单验证
 
-- [validator.js](https://github.com/ansman/validate.js)
+- [==validator.js==](https://github.com/ansman/validate.js)
 - [vee-validate](https://github.com/baianat/vee-validate)
 
 ### 拖拽
 
-- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+- [==Vue.Draggable==](https://github.com/SortableJS/Vue.Draggable)
 - [dragula](https://github.com/bevacqua/dragula)
 - [Draggabilly](https://github.com/desandro/draggabilly)
 - [draggable](https://shopify.github.io/draggable/)
@@ -346,6 +347,7 @@
 
 - [WebUploader](http://fex.baidu.com/webuploader/)
 - fine-uploader
+- ==vue-simple-upload==
 
 ### 复制粘贴插件
 
@@ -403,9 +405,10 @@
   - 当您需要`Web Sockets`但又不想被束缚在特定的`Web Sockets`实现时使用
 
 ### 富文本编辑器
-- [wangEditor](http://www.wangeditor.com/) 
+
+- [wangEditor](http://www.wangeditor.com/)
 - [KindEditor](http://kindeditor.net/demo.php)
-- [Simditor](https://simditor.tower.im/) 
+- [Simditor](https://simditor.tower.im/)
 - [Summernote](https://summernote.org/)
 - [Slate](https://www.slatejs.org/#/rich-text)
 - [MEditor.md](https://pandao.github.io/editor.md/)
@@ -429,3 +432,17 @@
 ### 二维码插件
 
 ### 地图
+
+### 验证码
+
+- ==Vue-qr==
+
+### 剪切
+
+- ==Vue-cropper==
+
+### Others
+
+- ant design
+- react bootstrap
+- material UI
