@@ -1,3 +1,6 @@
+- 2021.10.15
+  - drain n/v
+
 - 2021.10.14
   - ink n
   - whilst conj
