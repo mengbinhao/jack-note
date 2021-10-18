@@ -1,3 +1,7 @@
+- 2021.10.16
+  - spy n/v
+  - propulsion n
+
 - 2021.10.15
   - drain n/v
 
@@ -3555,7 +3559,6 @@
   - perceive v
   - pique n/vt
   - impromptu n/adj
-  - rift n/v | fissure n/v
 
   > out of sight, out if mind
   > because I breathe in that experience
@@ -4060,7 +4063,6 @@
 - 2019.10.14
   - individual n/adj
   - interim n/adj
-  - clearance n
   - accompany vt | accompanied | unaccompanied
 
   > step forward
@@ -4096,7 +4098,6 @@
   - dirt n
   - wrongdoing n
   - pureview n
-  - covert adj
   - conceal vt | concealed adj | concealment n
   - bothersome adj
   - properly adv | improperly adv | improper adj | proper adj
