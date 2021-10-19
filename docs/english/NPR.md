@@ -1,3 +1,7 @@
+- 2021.10.17
+  > Those of types of arrests are top of mind this week
+  > so just step back for a second
+
 - 2021.10.16
   - spy n/v
   - propulsion n
