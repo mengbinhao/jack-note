@@ -1,22 +1,20 @@
-### Basic Concept
+### 1 Basic Concept
 
-1. Version（2.7 / 3.x）
+1. Version（2.x / 3.x）
 
-- 标准版(解释程序 + 标准库)
-- 发行版(集成许多第三方库anaconda)
+   - 标准版(解释程序 + 标准库)
+   - 发行版(集成许多第三方库anaconda)
 
-2. 解释器
-
-- CPython 、IPython、PyPy、Jython、IronPython
+2. 解释器（CPython 、IPython、PyPy、Jython、IronPython）
 
 3. 区分大小写
 4. 标识符可以包括英文、数字以及下划线(_)，但不能以数字开头
 5. 语句无分号，但有这个操作符
 6. **.py起名不要和系统文件重名**
-7. 单行注释#加个空格，多行注释    """xxxxx"""
-8. 冒号缩进代替开始和结束大括号, 4个空格
-9. 弱类型(变量或参数无需声明)（整数、浮点数、字符串（转义\、unicode、格式化）布尔值、空值None）
-   - `r'' `     不转义
+7. 单行注释#加个空格，多行注释    """xxx"""
+8. 冒号**缩进**代替开始和结束大括号, 4个空格
+9. 弱类型(**变量或参数无需提前声明**)（整数、浮点数、字符串（转义\、unicode、格式化）布尔值、空值None）
+   - `r'' `     **不转义**
    - `'''...'''`  多行
    - `r'''...'''`  混用
    - 布尔值（True  False）（and or not 与或非运算符）
@@ -40,15 +38,20 @@ global xxxx
 
     > python -m pydoc -p 1111
 
-15. ``#!/usr/bin/env python3      # -*- coding: utf-8 -*-``
+15. py文件前面约定必须写
 
-### 基础数据类型
+    ```python
+    #! /usr/bin/env python3 (可以./xxx.py执行)
+    # -*- coding: cp1252 -*-
+    ```
+
+### 2 基础数据类型
 
 ![](./images/python.png)
 
 - 单双引号对字符串都可以,当字符串有单引号时使用双引号
 
-### 序列和元组
+### 3 序列和元组
 
 ![](./images/python2.png)
 
@@ -56,7 +59,7 @@ global xxxx
 
 - 列表可改变，元组不可变
 
-### 字典
+### 4 字典
 
 - **dict**(类似于map)   /    set   **dict的key必须是不可变对象(str int 元组)  set也只能放不可变对象**
 
@@ -81,7 +84,7 @@ freshfruit = [' banana', ' loganberry ', 'passion fruit ']
 [weapon.strip() for weapon in freshfruit]
 ```
 
-### Data Type
+### 5 Data Type
 
 Python3 中有六个标准的数据类型：
 
@@ -99,7 +102,7 @@ Python3 的六个标准数据类型中：
 
  None是个特殊值
 
-### 控制语句
+### 6 控制语句
 
 if(express value **只要x是非零数值、非空字符串、非空list()等，就判断为True，否则为False**)、for、while、break、continue
 
@@ -112,13 +115,13 @@ else:
    print count, " is not less than 5"
 ```
 
-### 文件操作
+### 7 文件操作
 
 - open()、read([x])、readline()、readlines()、write()、close()
 - tell()
 - seek(x, [y]) // y为0表示文件开头，1当前位置，2文件结尾
 
-### 异常
+### 8 异常
 
 ```python
 try:
@@ -140,7 +143,7 @@ finally:
     print('finally...')
 ```
 
-### Function
+### 9 Function
 
 1. 定义
 
@@ -323,7 +326,7 @@ finally:
 
   
 
-### Advance Function
+### 10 Advance Function
 
 1. 闭包
 
@@ -362,7 +365,7 @@ finally:
 
 3. 自定义上下文管理器`with`
 
-4. **切片**
+4. **切片**（左开右闭）
 
    ```python
    L = [1,2,3,4,5]
@@ -394,7 +397,7 @@ finally:
 -  Python的`for`循环本质上就是通过不断调用`next()`函数实现的
 
 
-### Module
+### 11 Module
 
 1. 模块名要遵循Python变量命名规范，不要使用中文、特殊字符
 
@@ -423,14 +426,14 @@ finally:
    ```
 
 
-### Package
+### 12 Package
 
 1. 包中的 __init__.py 代码定义了一个名为 __all__ 的列表,__all__ = ["echo", "surround", "reverse"]
 
 2. `from Package import func1 [,fun2....]`
 
 
-### Class
+### 13 Class
 
 ```python
 class Player():
@@ -501,7 +504,7 @@ p2.show()
    - 不要对实例属性和类属性使用相同的名字,因为相同名称的实例属性将屏蔽掉类属性
 
 
-### Advance Class
+### 14 Advance Class
 
 1. 动态绑定方法到类或实例
 
@@ -524,7 +527,7 @@ p2.show()
    - @staticmethod
    - @test
 
-### 多线程
+### 15 多线程
 
 ```python
 import threading
@@ -545,7 +548,7 @@ t1.join()
 print(current_thread().getName(), 'end')
 ```
 
-### 常用内建模块
+### 16 常用内建模块
 
 1. re
 
@@ -670,7 +673,7 @@ print(current_thread().getName(), 'end')
     min(...) # 求最小值
     ```
 
-### 常用第三方模块
+### 17 常用第三方模块
 
 1. requests
 2. BeautifulSoup
@@ -684,12 +687,12 @@ print(current_thread().getName(), 'end')
    - aiomysql
    - aiohttp
 
-### PEP8
+### 18 PEP8
 
 - `pip3 install autopep8`
 - integrate with PyCharm
 
-### PIP
+### 19 PIP
 
 - pip list [--outdated]
 - pip install xxx
@@ -698,14 +701,14 @@ print(current_thread().getName(), 'end')
 - pip uninstall xxx
 - pip -h
 
-### Debug
+### 20 Debug
 
 - print()
 - assert
 - import logging
 - IDE
 
-### Unit Test
+### 21 Unit Test
 
 1. 单元测试可以有效地测试某个程序模块的行为，是未来重构代码的信心保证
 2. 单元测试的测试用例要覆盖常用的输入组合、边界条件和异常
@@ -715,7 +718,7 @@ print(current_thread().getName(), 'end')
 6. `pip install nose`
 7. `pip install pytest  `
 
-### virtualenv(“隔离”Python运行环境)
+### 22 virtualenv(“隔离”Python运行环境)
 
 1. pip install virtualenv
 
