@@ -1,3 +1,10 @@
+- 2021.10.20
+  - mandarin n
+  - casual adj
+  - casualty n
+  - optical adj
+  - vertical adj
+
 - 2021.10.17
   > Those of types of arrests are top of mind this week
   > so just step back for a second
@@ -1594,7 +1601,6 @@
 - 2020.9.11
   - medical n/adj | medically | medication n | medicine
   - verbal adj
-  - stimulus n
   - cubic adj
 
 - 2020.9.10
@@ -2256,7 +2262,6 @@
 - 2020.6.4
   - reckon v | reckoning
   - calamity n
-  - casualties n
   - grasp n/v
   - comprise vt
   - skew n/v/adj
@@ -2813,7 +2818,6 @@
   - temptation n
   - temper n/v | tempered adj
   - cope with vi
-  - stimulus n
   - elbow n/vt | bow n/v
   - disinfect vt
   - infect vt | infectious adj | infection
@@ -5057,7 +5061,6 @@
 - 2019.7.4
   - drone n
   - unmanned adj
-  - casualty n
   - de-escalate v | escalate v | escalation n
   - negotiate v | negotiator n | negotiation n | negotiable adj
 
