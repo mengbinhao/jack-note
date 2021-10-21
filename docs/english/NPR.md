@@ -1,3 +1,8 @@
+- 2021.10.21
+  - chunk n
+  - component n
+  - petroleum n | gasoline n | gallon n
+
 - 2021.10.20
   - mandarin n
   - casual adj
@@ -387,7 +392,6 @@
   - uncharted adj
 
 - 2021.6.17
-  - petroleum n
   - movement n
   - landmark n
 
@@ -1945,7 +1949,7 @@
   - dose n/v
   - ache n/vi
   - challenge n/vt | unchallenged
-  - disclosure n | nondisclosure | closure n/vt
+  - disclosure n | nondisclosure adj | closure n/vt
   - autonomy n
   - autocrat n
   - pilot n | autopilot
