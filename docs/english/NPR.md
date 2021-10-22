@@ -581,7 +581,6 @@
 - 2021.4.28
   - expensive adj
   - peril n/vt | perilous adj
-  - emission n
 
   > It's notable they have not laid out a clear path to get there
 
@@ -777,7 +776,7 @@
   > They're beyond capacity
 
 - 2021.3.27
-  - abduct vt | kidnap vt
+  - kidnap vt | abduct vt/n
 
   > Anger over this is not confined to London, it's spread across the country
 
@@ -1777,6 +1776,10 @@
 
 - 2020.8.15
   - charm n/vt
+  - submission n
+  - missionary n
+  - emission n
+  - admit v | admission n
   - commission n | commissioner | decommission
   - colleague n
   - nod n/v
@@ -3284,6 +3287,7 @@
   - jeopardy n
 
 - 2020.1.15
+  - crumb n/vt
   - crumble v
   - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
@@ -3315,7 +3319,7 @@
   - dismember vt
 
 - 2020.1.10
-  - submission n
+
   - doorstep n
   - continent n/adj | continental adj | intercontinental adj
   - favor n/vt | favorable adj | unfavorable
@@ -3480,7 +3484,6 @@
   - enlist v
   - justify vt | justification n | justifiable
   - recommend v | recommendation n
-  - omission n
   - eavesdrop vi
   - cavalier adj
   - petition n/v
@@ -4315,7 +4318,6 @@
   - complex n/adj
   - phenomenon n
   - finalize vt
-  - admission n | admit v
 
   > I don't think anybody expects it to become less so
   > what have you learned about that?

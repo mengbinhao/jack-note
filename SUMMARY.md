@@ -98,6 +98,7 @@
   - [managecommand](docs/Linux/managecommand.md)
   - [nginx](docs/Linux/nginx.md)
   - [Shell](docs/Linux/Shell.md)
+  - [ssh](docs/Linux/ssh.md)
   - [tmux](docs/Linux/tmux.md)
   - [vi](docs/Linux/vi.md)
 - Others
