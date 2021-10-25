@@ -1,3 +1,7 @@
+- 2021.10.25
+  - stalk n/v
+  - disgust n/vt | disgusting
+
 - 2021.10.21
   - chunk n
   - component n
@@ -226,7 +230,6 @@
   > It's not hard to lie to someone who wants to believe
 
 - 2021.8.5
-  - verdict n
   - wonder n/v
   - holy adj
   - adjourn v
@@ -1184,7 +1187,6 @@
   - prohibit vt | prohibition
 
 - 2020.12.23
-  - painstaking adj
   - summary n/adj | summarize vt
   - period n | periodic adj
   - horrify vt | horrifying adj
