@@ -1,3 +1,15 @@
+- 2021.10.27
+  - plateau n
+  - fluctuate vi
+
+- 2021.10.26
+  - option | optional
+  - segment n/v
+  - simple adj | simplify vt
+  - lane n
+
+  > So stay tuned on that score
+
 - 2021.10.25
   - stalk n/v
   - disgust n/vt | disgusting
@@ -391,8 +403,9 @@
 
 - 2021.6.18
   - seaside n/adj
-  - charter n/vt
-  - uncharted adj
+  - charter n/vt | uncharted adj
+
+  > uncharted water
 
 - 2021.6.17
   - movement n
@@ -3740,7 +3753,6 @@
   - outskirt n
 
   > go wrong
-  > uncharted water
   > the next in line
   > the situation on the ground is unstable
   > if I could call it that

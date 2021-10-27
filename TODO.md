@@ -773,6 +773,7 @@
 
 #### Vue
 
+- [详解 30 道 Vue 面试题](https://mp.weixin.qq.com/s/yUl78yJ-3E9KFx1bWKZzzA)
 - [2021 全新 最火 Vue 面试题](https://mp.weixin.qq.com/s/GvE1eS-Wq0sYCrAqsErCzw)
 - [「自我检验」熬夜总结 50 个 Vue 知识点](https://mp.weixin.qq.com/s/wX6M6To1Hs0uQegtFMQZiA)
 - [一次关于 Vue 的自我模拟面试](https://mp.weixin.qq.com/s/OIyV5QC4HsTvZtabblLvUw)
