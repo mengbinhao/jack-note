@@ -1,3 +1,7 @@
+- 2021.10.28
+  - blot n/v
+  - attain n/v
+
 - 2021.10.27
   - plateau n
   - fluctuate vi
@@ -360,7 +364,7 @@
   > Timing will be a really big part of this
 
 - 2021.6.29
-  - adventure n/v
+  - venture n/v | adventure n/v
 
   > So suffice it to say that xxx
   > xxx had a different view
@@ -388,7 +392,6 @@
 
 - 2021.6.22
   - verify vt | verification
-  - attribute n/vt
 
   > So given the depth and breadth of tensions with Moscow
 
@@ -2135,7 +2138,6 @@
   - cohesion n
   - belligerent adj
   - station n/vt
-  - contribute v
 
   > The odd thing is the Pentagon is not saying much, Officials are referring to question to the White House
   > let me throw this last one to you
@@ -2592,7 +2594,7 @@
   - quash vt
   - resort n/vi
   - ward n/vt
-  - award n/v
+  - award n/v | awarded
   - inward adj | downward adj/adv | upward
   - reward n/vt
   - coward n/adj
@@ -3141,11 +3143,13 @@
 
 - 2020.2.27
   - nephew n | niece n
+  - tribute n
+  - contribute v
+  - attribute n/vt
   - distribute vt | distribution n | distributed adj | redistribute | redistribution
   - agility n | agile adj
   - league n | legend n | legendary
   - jersey n
-  - tribute n
   - personality n | personalize vt | personnel n | personal n/adj
   - chafe n/v
   - kin n
