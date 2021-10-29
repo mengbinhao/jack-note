@@ -1,3 +1,6 @@
+- 2021.10.29
+  - envoy n
+
 - 2021.10.28
   - blot n/v
   - attain n/v
@@ -405,6 +408,7 @@
   - indispensable adj/n | dispensable
 
 - 2021.6.18
+  - aside
   - seaside n/adj
   - charter n/vt | uncharted adj
 
@@ -498,7 +502,6 @@
   - shift n/v
   - inland n/adj
   - gust n/vi
-  - topple v
   - crane n/v
   - hurricane
 
@@ -1183,7 +1186,7 @@
 - 2020.12.27
   - unwell adj
   - transmit v | transportation n | transport vt | transit n/vt/adj
-  - transitional adj | transition
+  - transition n | transitional adj
   - transparent adj | transparency n
   - transform v | transformation
   - transpire v
@@ -1972,7 +1975,6 @@
   - challenge n/vt | unchallenged
   - disclosure n | nondisclosure adj | closure n/vt
   - autonomy n
-  - autocrat n
   - pilot n | autopilot
   - silence n /v | silent adj/n
   - spectrum n
@@ -2020,7 +2022,6 @@
 
 - 2020.7.16
   - quote v
-  - cede vt
   - malicious adj
 
   > take effect
@@ -3069,6 +3070,7 @@
   - culmination n
   - soil n
   - elude vt
+  - horn n
   - thorny adj | thorn n
   - clarify v | clarification n
 
@@ -3362,7 +3364,7 @@
   - recur vi
   - bloodthirsty adj
   - ailing adj
-  - concert n/v | concerted
+  - concert n/v | concerted | disconcert
 
 - 2020.1.6
   - bravo n
@@ -5055,7 +5057,7 @@
 - 2019.7.8
   - doubling n
   - reception n
-  - utterly adv | utter vt/adj
+  - utter vt/adj | utterly adv
   - gesture n/vt
 
   > and in return
@@ -5129,7 +5131,7 @@
   > there's been a wide range
 
 - 2019.6.28
-  - depose v | oust vt | ouster n | unseat
+  - depose v | oust vt | ouster n | unseat | topple v
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi
