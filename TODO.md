@@ -159,6 +159,7 @@
 
 ### JS
 
+- [56 个 JavaScript 实用工具函数助你提升开发效率](https://mp.weixin.qq.com/s/jJ1bowDBsRBuCk-oyUPE-Q)
 - [这 16 种原生函数和属性的区别](https://mp.weixin.qq.com/s/1Byb0gtmPvX6-akIrlqMHg)
 - [30+ 个工作中常用到的前端小知识](https://mp.weixin.qq.com/s/EKz1CvXafc6wy4epTzLy6g)
 - [私藏的这些高级工具函数](https://mp.weixin.qq.com/s/xNjtwxVDG1C3jI5F9EEyrg)

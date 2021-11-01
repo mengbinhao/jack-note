@@ -1,3 +1,11 @@
+- 2021.11.1
+  - adolescent n/adj
+  - outlook n/v
+  - headache n | chill n/vt/adj | ache n/vi | sore adj/n
+  - outweigh vt
+
+  > from my perspective
+
 - 2021.10.29
   - envoy n
 
@@ -952,7 +960,6 @@
   > get to the bottom of xxx
 
 - 2021.2.23
-  - sore adj | sorely
   - wise adj
   - ability n | inability
 
@@ -1089,9 +1096,6 @@
   - fail | failure n
   - illness n
   - sight n/vt/adj | insight n | oversight n | shortsighted adj
-
-- 2021.1.18
-  - headache n
 
 - 2021.1.17
   - paycheck n | salary n | wage n/v
@@ -1971,7 +1975,6 @@
   - habit n | inhabit vt
   - regret n/v
   - dose n/v
-  - ache n/vi
   - challenge n/vt | unchallenged
   - disclosure n | nondisclosure adj | closure n/vt
   - autonomy n
@@ -2150,7 +2153,6 @@
   > nothing's certain
 
 - 2020.6.21
-  - chill n/vt/adj | chilling adj
   - evasion n
   - libel n/v | libelous adj
   - portal n
@@ -4915,7 +4917,7 @@
   - sector n
   - impose v | self-imposed adj | imposition n | reimpose
   - finality n
-  - authority n | authorized | unauthorized adj | authorization n
+  - authorize vt | authority n | authorized adj | unauthorized adj | authorization n
   - raise n/v
   - dispute n/v | disputed adj | undisputed
   - alien n/adj
