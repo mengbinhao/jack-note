@@ -1,3 +1,8 @@
+- 2021.11.2
+  > They're all within our reach
+  > There's complicated twists and turns
+  > Macron was enraged to the point where he recalled France's ambassador to the US
+
 - 2021.11.1
   - adolescent n/adj
   - outlook n/v
@@ -1317,7 +1322,7 @@
   > There were a few less jokes than usual
 
 - 2020.11.26
-  - burst v
+  - burst n/v
   - wheat n
   - concoct vt
   - Peru n
@@ -4728,7 +4733,7 @@
   - sketchy adj | sketch n/v
   - contaminate vt | contaminated adj | contamination n | contaminant
   - terse adj | tersely
-  - compare |n/v  comparable adj | comparison n
+  - compare n/v | comparable adj | comparison n
   - scale n/vt
   - panic n/adj | panicky adj
   - disseminate vt
@@ -5118,7 +5123,7 @@
   - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
-  - rage n/vi | raging adj | enraged v/adj | outrage n/vt | outraged adj | rampage n/vi
+  - rage n/vi | raging adj | outrage n/vt | outraged adj | rampage n/vi
   - rally n/v
   - literal adj | literally adv
   - rig n/vt | rigged adj
