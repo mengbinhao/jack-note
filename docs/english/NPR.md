@@ -1,3 +1,6 @@
+- 2021.11.3
+  - outlier n
+
 - 2021.11.2
   > They're all within our reach
   > There's complicated twists and turns
@@ -1704,7 +1707,7 @@
   > A lot of gains of this growth went to corporations and shareholders and not wage earners
 
 - 2020.9.2
-  - destiny n
+  - destine v | destiny n
   - cherish vt | cherished adj
 
   > The messages were kind of all over the place
@@ -2082,7 +2085,7 @@
   > put in place
 
 - 2020.7.8
-  - suspend v | suspense n | suspension
+  - suspend v | suspended | suspense n | suspension
   - spouse n/vt
   - hence adv
   - immigrate v | immigration n | emigrate vt
@@ -3597,6 +3600,7 @@
   - mist n
   - gaze n/vi
   - conscious adj | consciousness n | unconscious | consciously | unconsciously
+  - conscience n
   - innocent n/adj
   - spat n
   - perceive v
