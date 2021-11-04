@@ -1,53 +1,63 @@
-### 1.Start Exit Reload Restart
+### 1 [Jenkins系列文章 ](https://wiki.eryajf.net/pages/2415.html)
 
-- http://localhost:8082/restart
-- http://localhost:8082/reload
-- http://localhost:8082/exit
-- locate jenkins.war folder，run cmd : `java -jar jenkins.war --httpPort=8082
+### 2.Start Exit Reload Restart
 
-### 2.Configure
+- http://localhost:8888/restart
+- http://localhost:8888/reload
+- http://localhost:8888/exit
+- locate jenkins.war folder，run cmd : `java -jar jenkins.war --httpPort=8888
 
-1. change httpPort while starting as windows service
+### 3.Configure
 
-> locate  jenkins.xml-->  change --httpPort=8082
+#### 1 plugin related
 
-2. This Jenkins instance uses deprecated protocols: JNLP3-connect. It may impact stability of the instance. If newer protocol versions are supported by all system components (agents, CLI and other clients), it is highly recommended to disable the deprecated protocols
+- 替换升级站点
 
->  protocol Configuration→Agents→unselect deprecated protocols
+![](..\others\images\jenkins_update_url.png)
 
-3. smtp server (==Note: sys-administror's email must be same as below user name==)
+- 必装插件
+  - Email Extension Plugin
+  - Git
+  - Workspace Cleanup
+  - Mailer
+  - Email Extension
 
-    535 用户名和密码不对
+#### 2 change httpPort
 
-   ![](.\images\jenkins_smtp_configure.png)
+> locate  jenkins.xml-->  change --httpPort=8888
 
-4.  install Locale plugin to change language (zh_CN)
+#### 3 disable the deprecated protocols
 
-   ![](.\images\locale_language_configure.png)
+> This Jenkins instance uses deprecated protocols: JNLP3-connect. It may impact stability of the instance. If newer protocol versions are supported by all system components (agents, CLI and other clients), it is highly recommended to disable the deprecated protocols
+>
+> protocol Configuration→Agents→unselect deprecated protocols
 
-### 3.TroubleShooting
+#### 4 smtp server 
+
+==Note: sys-administror's email must be same as below user name==
+
+535 用户名和密码不对
+
+![](..\others\images\jenkins_smtp_configure.png)
+
+### 4.TroubleShooting
 
 1. install windows service fail
 
-![](./images/jenkins_install_windows_service_fail.png)
+   locate jenkins.war folder, run cmd as administrator, then install
 
-​       solution:  locate jenkins.war folder, run cmd as administrator, then install
+![](../others/images/jenkins_install_windows_service_fail.png)
 
-2. Jenkins cannot restart itself as currently configured.
-
-solution:  上面问题解决就可以了
-
-### 4.Env_variable
+### 5.Env_variable
 
 - JAVA_HOME        javac
 - ANT_HOME         ant -v
 - GRADLE_HOME    gradle -v
 - MAVEN_HOME      mvn -v
 
-### 5.Item
+### 6.Item
 
-1. 项目前缀_说明-Job类型
-
+命名规则：项目前缀_说明-Job类型
 
 
 

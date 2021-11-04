@@ -1,3 +1,7 @@
+- 2021.11.4
+  > That's a giant step forward
+  > close the gap
+
 - 2021.11.3
   - outlier n
 
@@ -1823,7 +1827,7 @@
   - litter n/v
   - disfunction
   - metric n/adj
-  - catastrophic adj
+  - catastrophe n | catastrophic adj
   - wasteland n
   - aerial adj
 
@@ -3109,7 +3113,6 @@
   - sign n/v | signature n
   - significant n/adj | significance n | insignificant
   - signify vt
-  - catastrophe n
   - ruin n/vt
   - sneak n/v/adj | sneaker
   - righteous adj
@@ -3676,7 +3679,7 @@
   - curious adj
   - principal n/adj | principally adv
   - applause n
-  - industrialization n | industrial adj
+  - industrial adj | industrialization n
 
 - 2019.12.5
   - cafeteria n
