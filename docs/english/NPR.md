@@ -1,3 +1,7 @@
+- 2021.11.8
+  - hinge n/vt
+  - outlaw n/vt
+
 - 2021.11.4
   > That's a giant step forward
   > close the gap
@@ -447,7 +451,7 @@
   - levy n/vt
 
 - 2021.6.15
-  - presume v
+  - presume v | presumption n | presumptive adj | presumably adv
   - scrutinize vt
   - strict adj
   - upper adj
@@ -2689,7 +2693,6 @@
   - champion n/v
   - numerical adj
   - mathematical adj | mathematically adj
-  - presumptive adj
   - virtual adj | virtually adv
   - delegate n/vt | delegation n
 
@@ -3820,7 +3823,7 @@
   - gear n/v
   - portray vt
   - permanent adj | permanently adv
-  - legal adj | legally | illegal | illegality n | legalize vt
+  - legal adj | legally | illegal | legality | illegality n | legalize vt
 
   > The only thing we're interested in here is figuring out what the facts are
   > He said that the question of illegality wasn't Sb's call to make
@@ -4446,7 +4449,7 @@
   - oppress vt | oppressive adj
   - savage n/vt/adj
   - revolution n | revolutionary n/adj | evolution n
-  - unfettered adj
+  - fetter n/vt | unfettered adj
   - decline n/v
   - immerse vt | immersed adj
   - vanity n
@@ -4668,7 +4671,6 @@
 - 2019.8.21
   - guarantee n/vt | guaranteed adj
   - illistrate vt
-  - presumably adj
 
   > the Taliban want to have more leverage at the negotiating table
   > the lack of clarify on what's been happening at these peace talks
@@ -4761,7 +4763,7 @@
   - financier n
   - traffic n/v
   - conspire vi | conspiracy n | conspirator
-  - prominent adj
+  - prominent adj | prominence n
   - somehow adv
   - inquiry n
   - allegation n | alleged adj | allegedly adv | allege vt
