@@ -1,3 +1,6 @@
+- 2021.11.9
+  - midterm adj
+
 - 2021.11.8
   - hinge n/vt
   - outlaw n/vt
@@ -2859,7 +2862,6 @@
   - temperature n
   - temptation n
   - temper n/v | tempered adj
-  - cope with vi
   - elbow n/vt | bow n/v
   - disinfect vt
   - infect vt | infectious adj | infection
@@ -2915,7 +2917,7 @@
   - joy n/v | joyous adj
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
-  - strip n/v
+  - strip n/v | stripped
 
 - 2020.3.20
   - maneuver n/v
@@ -3156,7 +3158,9 @@
   - chaos n | chaotic adj
   - secede v
   - horizon n
+  - cap n
   - cape n
+  - cope n/v
   - pour v
 
 - 2020.2.27
@@ -4133,7 +4137,6 @@
   - long-standing adj
   - confusion n | confusing adj | confuse vt
   - triple adj
-  - short-term adj
   - withdraw v | withdrawal n
   - withhold v
   - decimate vt
@@ -4492,7 +4495,6 @@
   - orbiter n | orbit n/v
   - excite v | excitement n
   - eerily adv
-  - cap n
   - huddle vt | huddled adj
   - lunar adj
   - spirit n/vt
@@ -4987,7 +4989,7 @@
   - inept adj
   - radiate v
   - secure v/adj | security | insecurity
-  - diplomatic adj | diplomat n | diplomacy n
+  - diplomat n | diplomacy n | diplomatic adj
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial
   - clumsy adj
   - outgoing adj
@@ -5192,7 +5194,7 @@
   - insult n/vt
   - resolute adj | resolutely adv
   - predecessor n
-  - embarrass v | embarrassing adj ｜ embarrassment n
+  - embarrass v | embarrassed adj ｜ embarrassment n
   - awkward adj | awkwardness n
   - corps n
   - countless n
