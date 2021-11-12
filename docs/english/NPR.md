@@ -1,3 +1,6 @@
+- 2021.11.12
+  - lag n/v/adj
+
 - 2021.11.9
   - midterm adj
 
@@ -914,7 +917,7 @@
   - overall adj/adv
   - overnight n
   - overhaul v
-  - overwhelmed | overwhelming | overwhelmingly adv | underwhelming adj | underwhelmed adj | overwhelm vt
+  - overwhelm vt | overwhelmed | underwhelmed adj
   - oversee vt | oversea adj/adv
   - overcharge n/vt
   - predate vt
@@ -1646,7 +1649,7 @@
   > victims will be for nothing
 
 - 2020.9.11
-  - medical n/adj | medically | medication n | medicine
+  - medic n | medical n/adj | medically | medication n | medicine
   - verbal adj
   - cubic adj
 
@@ -3384,7 +3387,7 @@
   - recur vi
   - bloodthirsty adj
   - ailing adj
-  - concert n/v | concerted | disconcert
+  - concert n/v | concerted adj | disconcert
 
 - 2020.1.6
   - bravo n
