@@ -166,14 +166,14 @@ systemctl disable jenkins.service
 > http://mirror.xmission.com/jenkins/updates/current/update-center.json
 
 - 一些推荐插件
-  - Git / Git Parameter
-  - GitHub Branch Source
-  - Workspace Cleanup
-  - Build Timeout
-  - Timestamper
-  - Monitoring
+  - Git / Git Parameter / Rebuilder / GitHub Branch Source
   - Mailer Plugin / Email Extension Plugin
-  - Matrix
+  - Timestamper、Ansicolor、Workspace Cleanup
+  - Monitoring、Project statistics、Test Result Analyzer Plugin
+  - Matrix Authorization Stratery Plugin
+  - ThinBackup
+  - Folders
+  - ...
 
 #### 3 change httpPort
 
