@@ -1,3 +1,8 @@
+- 2021.11.15
+  - extinct vt/adj | extinction
+
+  > XXX has stepped up a lot of pressure
+
 - 2021.11.12
   - lag n/v/adj
 
@@ -1677,7 +1682,7 @@
   - discover v
   - underground adj
   - undertake vt
-  - underlying adj | underlie vt
+  - underlie vt | underlying adj
   - understaffed adj
   - underfunded adj
   - underneath prep
@@ -2755,7 +2760,6 @@
   - preach v
   - constant adj | constantly
   - inexact adj
-  - secretary
 
 - 2020.4.8
   - Danish n/adj
@@ -3478,7 +3482,7 @@
 - 2019.12.24
   - observant adj
   - buttress n/vt
-  - assert vt
+  - assert vt | asserted
   - heartfelt adj
   - heartless n
   - mediator n
@@ -4080,7 +4084,7 @@
   - devil n
   - outstanding adj
   - treasury n
-  - secretary n
+  - secrecy n | secretary n
   - state-owned adj
   - blacklist n/vt
   - backtrack vi
@@ -4571,7 +4575,6 @@
   - blink n/v
   - turmoil n
   - manner n
-  - foment vt
 
   > just to zoom out, remain us what is stake here
   > enough is enough
@@ -4862,7 +4865,7 @@
   - president | presidency n | presidential adj
   - committee n | commitment n | committed adj
   - brevity n
-  - obstruction n | obstruct vt
+  - obstruct vt | obstruction n
   - ultimate n/adj | ultimately adv
   - exonerate n/vt/adj
   - motivate v | motivated adj | motivation n | motive n | demotivate v
