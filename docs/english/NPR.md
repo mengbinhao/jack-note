@@ -1,3 +1,6 @@
+- 2021.11.16
+  - wire n/v
+
 - 2021.11.15
   - extinct vt/adj | extinction
 
@@ -4241,7 +4244,8 @@
 
 - 2019.9.30
   - blueprint n
-  - adopt v
+  - adopt v | adoption
+  - adapt v | adapted adj | adaption | adaptation | adaptive
   - boost n/vt
   - budge v
   - budget n/vt
@@ -4376,7 +4380,6 @@
   - peach n
   - impeach vt | impeachment n
   - essay n/vt
-  - adapt v | adapted adj | adaption | adaptation | adaptive
   - columnist n
   - wrinkle n/v
   - oven n
