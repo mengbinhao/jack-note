@@ -1,3 +1,12 @@
+- 2021.11.17
+  - surface n/v/adj
+  - nowhere n/adj/adv
+  - trap n/vt | trapped
+  - tomb n | cemetery n
+  - wreath n/v
+  - awesome adj
+  - separable adj | inseparable adj
+
 - 2021.11.16
   - wire n/v
 
@@ -1767,7 +1776,7 @@
   - rural adj | urban adj | suburb n | suburban adj/n
   - direct v/adj | indirect | directive n/adj | direction
   - allude vi
-  - organize | organization | organizational | reorganize
+  - organize | organization | organizational | reorganize | unorganized
 
 - 2020.8.25
   - abundant adj
@@ -2222,7 +2231,7 @@
   - sprint n/v | sprinter
   - shield n/v
   - diligent adj
-  - promote v
+  - promote v | promoter
   - strategy n
   - voluntary adj | voluntarily adv
 
@@ -3357,7 +3366,7 @@
   > it's not clear at all that will lead to any changes
 
 - 2020.1.13
-  - slam n/v | whip n/v | smash n/v
+  - slam n/v | whip n/v | smash n/v | slammed adj
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
   - archipelago n
@@ -3664,7 +3673,7 @@
   - censure n/v
   - hoax n/vt
   - obsolete n/vt/adj
-  - designate vt
+  - designate vt | designated
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
   - defection n | defect n/vi | defector n
   - deflect v
@@ -4145,7 +4154,7 @@
   - skeptic n | skeptical adj | skepticism n
   - concede v
   - long-standing adj
-  - confusion n | confusing adj | confuse vt
+  - confusion n | confusing adj | confuse vt | confused
   - triple adj
   - withdraw v | withdrawal n
   - withhold v
@@ -4181,7 +4190,7 @@
   > rather than giving ut to Congress as the law seemed to require
 
 - 2019.10.10
-  - memo n | memoir n
+  - memo n | memoir n | memorial adj
   - notion n
   - refer v | reference n/vt
   - mention n/vt
