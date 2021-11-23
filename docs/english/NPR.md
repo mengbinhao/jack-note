@@ -1,3 +1,6 @@
+- 2021.11.22
+  > It remains unknown
+
 - 2021.11.17
   - surface n/v/adj
   - nowhere n/adj/adv
@@ -369,7 +372,6 @@
 
 - 2021.7.13
   - hedge n/v
-  - enclose vt
   - lift n/v
 
 - 2021.7.12
@@ -2127,6 +2129,7 @@
   - fume n/v
   - censor n/vt | censorship
   - pretext n/vt
+  - enclose vt
   - disclose vt | undisclosed
   - publication n
 
@@ -3722,7 +3725,7 @@
   - reliance n
   - mull n/v
   - convince vt | convinced adj | convincing | unconvincing
-  - convict n/vt | convicted adj | conviction n | absolve vt
+  - convict n/vt | convicted adj | conviction n
   - acquit vt | acquittal n
   - myth n | mythic adj | mythical adj
   - fruitless adj
@@ -4297,7 +4300,7 @@
   - corrupt v | corruption n
   - aver vt
   - dealings n
-  - imply vt | implied adj | implication n
+  - imply vt | implied adj | implicate vt | implication n
   - explicit adj | explicitly adv
   - mere adj | merely adv
   - confess v | confessing n
@@ -4879,7 +4882,6 @@
   - brevity n
   - obstruct vt | obstruction n
   - ultimate n/adj | ultimately adv
-  - exonerate n/vt/adj
   - motivate v | motivated adj | motivation n | motive n | demotivate v
   - integrity n
   - rare adj | rarely | rarity n
