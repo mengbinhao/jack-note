@@ -1,3 +1,10 @@
+- 2021.11.24
+  - tape n/v
+  - coverage n
+  - borrow v
+
+  > It appears on track to pass
+
 - 2021.11.22
   > It remains unknown
 
@@ -1179,7 +1186,6 @@
   - suck v
   - bottle n/vt
   - ridge n/vt
-  - vowel n/adj
 
   > Either way, Congress will have completed that step on January 6th
   > I get stressed and my productivity drops
@@ -3308,7 +3314,7 @@
   - formula n
   - scramble n/v | scrambling
   - sectarian adj
-  - definitive adj | definitely | indefinitely adv | definite adj
+  - definitive adj | definite adj | definitely | indefinitely adv
   - definition n
 
   > I've got to be honest here
@@ -4948,6 +4954,7 @@
   - steal n/v
   - facility n | facilitate vt | facilitation
   - vow n/vt
+  - vowel n/adj
   - postpone vt | postponement n | postponed
   - mandate n/vt | mandated adj
   - sector n
