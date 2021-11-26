@@ -1,3 +1,10 @@
+- 2021.11.26
+  - dedicate vt | dedicated
+  - blend vt/n
+  - synthetic n/adj
+
+  > I want to break it down a little bit for you
+
 - 2021.11.24
   - tape n/v
   - coverage n
@@ -1463,7 +1470,6 @@
   - throat n
 
 - 2020.11.9
-  - lethal adj
   - bipolar adj
 
 - 2020.11.5
@@ -2867,7 +2873,7 @@
   - motion n/v
   - identify v | unidentified adj | identity n | identical adj
   - entity n
-  - pandemic adj | epidemic n/adj
+  - pandemic adj
   - gasp n/v
   - obit n
   - crematorium n
@@ -4037,7 +4043,7 @@
   - pave vt
   - hurdle n/v
   - curtail vt
-  - smuggler n | smuggle vt | smuggling n
+  - smuggle vt | smuggler n | smuggling n
   - pertain vi
   - slip n/v/adj
   - ratify vt
