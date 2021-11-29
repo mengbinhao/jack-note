@@ -1,3 +1,7 @@
+- 2021.11.29
+  - chalk n/v/adj
+  - retell vt
+
 - 2021.11.26
   - dedicate vt | dedicated
   - blend vt/n
@@ -1744,7 +1748,7 @@
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
 
 - 2020.9.3
-  - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist | opportunism n | racism n
+  - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist | opportunism n | racism n | extremism n
   - shareholder n
   - buddy n
 
@@ -2113,8 +2117,6 @@
 - 2020.7.10
   - participate v | participation
   - slight adj/v/vt
-  - extremism n
-  - supremacist n
   - traitor n
 
   > there is a need for better data
@@ -3290,7 +3292,6 @@
   - assassination n | assassinate vt | assassin
   - honor n/vt | dishonor n/vt
   - cruise n/v
-  - televise v
   - investigator n | investigation | investigate vt | investigative adj
   - investor n | invest v
   - sift v
@@ -3980,7 +3981,7 @@
   - fallout n
   - stall n/v | stalled
   - ethic n | ethical
-  - deliberation n | deliberate v/adj | deliberately adv
+  - deliberate v/adj | deliberately adv | deliberation n
   - liberator n | liberation n | liberate vt
   - prevail vi
   - vast adj | vastness
@@ -4537,7 +4538,7 @@
   - cellular adj
   - racial adj | racially adv | biracial adj
   - unrest n
-  - torch n/vt
+  - torch n/v
   - indigenous adj
   - Dutch n/adj
   - relinquish vt
@@ -4797,7 +4798,7 @@
   - bllionaire n
   - financier n
   - traffic n/v
-  - conspire vi | conspiracy n | conspirator
+  - conspire v | conspiracy n | conspirator
   - prominent adj | prominence n
   - somehow adv
   - inquiry n
@@ -5065,7 +5066,7 @@
   - soar vi
   - ploy n
   - soften v
-  - tremendous adj
+  - tremendous adj | tremendously
   - consider v | considerable adj | considerably | consideration
   - reversal n | invert vt | inversion n
 
