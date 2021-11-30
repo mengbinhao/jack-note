@@ -1,3 +1,10 @@
+- 2021.11.30
+  - cab n/vi
+  - dense adj
+  - smog n
+  - crop n/v
+  - moisture n
+
 - 2021.11.29
   - chalk n/v/adj
   - retell vt
@@ -61,7 +68,7 @@
 - 2021.11.1
   - adolescent n/adj
   - outlook n/v
-  - headache n | chill n/vt/adj | ache n/vi | sore adj/n
+  - headache n | chill n/vt/adj | ache n/vi | sore adj/n | cough n/v | sneeze n/v
   - outweigh vt
 
   > from my perspective
@@ -2711,7 +2718,6 @@
   - bandage n/vt
   - stem n/vt
   - hemorrhage n/vi
-  - gasoline n
   - prop n/vt
 
   > as the expression goes
@@ -3810,7 +3816,6 @@
   - skyscraper n
   - noxious adj
   - pungent adj
-  - cough v | sneeze n/v
   - routine n | routinely adv
   - outskirt n
 
@@ -4589,7 +4594,6 @@
 
 - 2019.9.6
   - divide n/v
-  - paramount adj
   - drawn-out adj
   - epic n/adj
   - brawl n/vi
