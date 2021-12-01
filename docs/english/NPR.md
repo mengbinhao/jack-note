@@ -1,3 +1,6 @@
+- 2021.12.1
+  - random adv | randomly
+
 - 2021.11.30
   - cab n/vi
   - dense adj
@@ -218,6 +221,9 @@
 - 2021.9.3
   - annoy vt | annoying
   - fur n/vt
+  - county n
+  - countless n
+  - discount n/v
   - counter n/v
   - counterpart n
   - encounter vt/n
@@ -913,8 +919,10 @@
 
 - 2021.3.11
   - opportunity n
+  - deter vt
   - deteriorate vi
   - deterrent n/adj | deterrence n
+  - determine v | determination n | indeterminate adj
   - asset n
   - previous | previously
 
@@ -1282,7 +1290,6 @@
   - manipulate vt | manipulation n
 
 - 2020.12.22
-  - determine v | determination n | indeterminate adj
   - divorce n/v
 
   > I'm so sorry about the fact that everything is so last minute
@@ -2111,7 +2118,6 @@
 - 2020.7.14
   - limit n/vt | limitation
   - rob v | robbery n
-  - county n
   - mechanic n/adj
 
   > and I want to warn people before we get going that some of details you're about to hear may be graphic
@@ -2190,7 +2196,7 @@
   > this is a return to ab old playbook
 
 - 2020.6.27
-  - excessive adj
+  - excess n/adj | excessive adj
   - persuade v
   - certify vt | certified adj | credential n | certification n | certificate n
 
@@ -2513,7 +2519,6 @@
   - blind n/vt/adj/adv
   - glut n/vt
   - spec n
-  - discount n/v
   - Atlantic n/adj
 
   > some of it is sent on spec
@@ -5210,7 +5215,8 @@
   > So there's been a wide range
 
 - 2019.6.27
-  - stock n/v/adj | stockpile n/vt | stockholder n
+  - stock n/v/adj | stockholder n
+  - stockpile n/vt
   - enrich v | enriched adj | enrichment n
   - altogether adv
   - reactor adv | react | reaction | action | inaction | interaction n
@@ -5235,7 +5241,6 @@
   - embarrass v | embarrassed adj ｜ embarrassment n
   - awkward adj | awkwardness n
   - corps n
-  - countless n
   - sentiment n
 
   > I can speak to my own personal experience
