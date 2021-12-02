@@ -1,3 +1,7 @@
+- 2021.12.2
+  - refund n/vt
+  - instance n
+
 - 2021.12.1
   - random adv | randomly
 
@@ -746,8 +750,8 @@
 - 2021.4.15
   - celebrate v | celebration
   - rational adj
-  - proportion n/vt | proportional adj | proportionate adj/vt | disproportion n/vt | disproportionate adj | disproportionately
   - portion n/vt
+  - proportion n/vt | proportional adj | proportionate adj/vt | disproportion n/vt | disproportionate adj | disproportionately
   - apart adj/adv
   - kit n
 
@@ -1555,7 +1559,8 @@
   - breeze n/vi
   - depict vt
   - honesty n | dishonesty | honest adj
-  - state n/vt/adj | restate vt | estate n
+  - estate n
+  - state n/vt/adj | restate vt
   - pope n
 
   > I lost my temper and yelled at him
@@ -2106,7 +2111,7 @@
   - watershed n
   - watery adj
   - thief n
-  - inevitable adj
+  - inevitable adj | inevitably adv | inevitability n
   - villa n | village n
   - heaven n | heave n/v
   - ladder n/v
@@ -2606,7 +2611,7 @@
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
-  - profit n/v | nonprofit adj | profitable
+  - profit n/v | nonprofit adj | profitable adj
   - trove n
   - corpse n
   - jurisdiction n
@@ -3270,7 +3275,7 @@
   - mask n | unmask
   - pebble n
   - upend v
-  - donation n | donate v | donor n
+  - donate v | donation n | donor n
   - continue | continual adj | continuous adj | continuity n | continuation
   - gym | gymnasium n
   - cave n/v | cavernous adj
@@ -3714,7 +3719,6 @@
   - midst n/prep
   - misgiving n
   - plunder n/v
-  - inevitably adv
   - compassionate n/adj/adv | compassion n
   - feat n/adj
   - defeat n/vt
@@ -4060,7 +4064,6 @@
   - ratify vt
   - amid prep | amidst prep
   - melancholy n/adj
-  - inevitability n
   - alienate vt | alienated adj
   - showdown n
 
@@ -4681,7 +4684,7 @@
   - dismayed adj | dismay n/vt
   - stance n
   - substance n
-  - estimate n/vt | underestimate vt/v | estimation
+  - estimate n/vt | underestimate vt/v | estimation n
   - tackle n/vt
   - mobilize vt | mobilization
   - corrode v
@@ -4780,6 +4783,7 @@
   - constitutional adj | unconstitutional | constitution | constitutionally
   - constituent n
   - impunity adj
+  - optimize v
   - optimistic adj | optimism n ｜ pessimis n | pessimistic adj
 
 - 2019.8.15
