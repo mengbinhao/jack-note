@@ -1,6 +1,12 @@
+- 2021.12.3
+  - cement n
+  - captive n/adj
+
 - 2021.12.2
   - refund n/vt
+  - stance n
   - instance n
+  - substance n
 
 - 2021.12.1
   - random adv | randomly
@@ -3354,7 +3360,7 @@
 
 - 2020.1.19
   - guilt n | guilty adj
-  - verge n
+  - verge n/v
   - nonchalant adj
   - fawn vi | fawning adj
 
@@ -3470,7 +3476,6 @@
   - retail n/v/adj
   - oval adj
   - unspecified adj
-  - truce n/v
 
   > I was in salesman mode this morning
   > pretty soon, they've already stepped it up
@@ -4682,8 +4687,6 @@
   - wary adj
   - decree n/vt
   - dismayed adj | dismay n/vt
-  - stance n
-  - substance n
   - estimate n/vt | underestimate vt/v | estimation n
   - tackle n/vt
   - mobilize vt | mobilization

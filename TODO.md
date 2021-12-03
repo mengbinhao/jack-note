@@ -684,6 +684,7 @@
 - [超详细教程（Jenkins、Github Actions）](https://mp.weixin.qq.com/s/uTy4budBUCl1vziBHDnmvQ)
 - [让 Jenkins 自动布署你的 Vue 项目](https://mp.weixin.qq.com/s/2MFpJr32hVy0HBK9Y_WOqQ)
 - [SSH 教程](https://wangdoc.com/ssh/basic.html)
+- [手把手来搭建 Git 私服](https://mp.weixin.qq.com/s/8m5zK29sX0D9NM_YB8KDNQ)
 
 ### JAVA
 
