@@ -754,7 +754,9 @@
   - fiction n
 
 - 2021.4.15
+  - celebrity n
   - celebrate v | celebration
+  - ceremony n | ceremonial
   - rational adj
   - portion n/vt
   - proportion n/vt | proportional adj | proportionate adj/vt | disproportion n/vt | disproportionate adj | disproportionately
@@ -907,7 +909,7 @@
 
 - 2021.3.16
   - turbine n
-  - plant n/v
+  - plant n/v | plantation n
   - coal | carbon
   - garage n/vt
   - combustion n
@@ -1559,7 +1561,6 @@
 - 2020.10.26
   - mess n/vt | messy adj
   - confine n/vt | confinement n | coop v
-  - inhabitant n
 
 - 2020.10.23
   - breeze n/vi
@@ -2054,7 +2055,8 @@
   - flu n
   - scoff n/v
   - mandatory adj
-  - habit n | inhabit vt
+  - habit n
+  - inhabit v | inhabited adj | uninhabited | inhabitant n
   - regret n/v
   - dose n/v
   - challenge n/vt | unchallenged
@@ -3050,7 +3052,6 @@
   - cremation n
   - petal n
   - sprinkle n/v
-  - ceremony n
   - escort n/vt
   - stadium n
   - mega adj
@@ -3239,7 +3240,6 @@
   > There was a lot ahead of him and makes it doubly tragic that he's gone at 41
 - 2020.2.26
   - renovate vt
-  - celebrity n
   - carve v
   - highness n
 
