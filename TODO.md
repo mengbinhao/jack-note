@@ -264,6 +264,7 @@
 - [JavaScript 代码整洁之道-复杂判断](https://juejin.cn/post/6961324184655888392)
 - [JavaScript 极短日期时间代码片段](https://mp.weixin.qq.com/s/lqj8jL5MZSH2rOitDEo31A)
 - [16 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/jjgWezXvVqIymsNYACMlnQ)
+- [私藏的这些高级工具函数，你拥有几个?](https://mp.weixin.qq.com/s/jQnOnyLjF5KGPiox66tvaA)
 
 ### mobile
 

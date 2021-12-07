@@ -1,3 +1,6 @@
+- 2021.12.4
+  > for the time being
+
 - 2021.12.3
   - cement n
   - captive n/adj
@@ -156,6 +159,7 @@
 - 2021.9.29
   - stunt n/v
   - create | creative | creature n
+  - recreation n
   - fountain n
 
 - 2021.9.28
