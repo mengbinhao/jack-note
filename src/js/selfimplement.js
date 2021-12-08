@@ -720,30 +720,25 @@ var testConstructorWithReturn = function (name) {
 var newObj = simulateNew(testConstructorWithReturn, 'foo')
 console.log(newObj, newObj instanceof testConstructorWithReturn)
 
-Function.prototype.simulateCall = function () {
-	if (typeof this !== 'function') {
-		throw new TypeError('must be invoked by function')
-	}
-	let [context = window, ...args] = [...arguments]
-	context.fn = this
-	const result = context.fn(...args)
-	delete context.fn
+Function.prototype.simulateCall = function (context, ...args) {
+	if (typeof this !== 'function') throw new TypeError('must be invoked by function')
+	let ctx = context || window
+	//let [ctx = window, ...args] = [...arguments]
+	let func = Symbol()
+	ctx[func] = this
+	args = args ? args : []
+	const result = args.length > 0 ? ctx[func](...args) : ctx[func]()
+	delete ctx[func]
 	return result
 }
 
-Function.prototype.simulateApply = function (context = window) {
-	if (typeof this !== 'function') {
-		throw new TypeError('must be invoked by function')
-	}
-	//let [context = window, ...args] = [...arguments]
-	context.fn = this
-	let result
-	if (arguments[1]) {
-		result = context.fn(...arguments[1])
-	} else {
-		result = context.fn()
-	}
-	delete context.fn
+Function.prototype.simulateApply = function (context, args = []) {
+	if (typeof this !== 'function') throw new TypeError('must be invoked by function')
+	let cxt = context || window
+	let func = Symbol()
+	ctx[func] = this
+	const result = args.length > 0 ? ctx[func](...args) : ctx[func]()
+	delete ctx[func]
 	return result
 }
 
@@ -751,26 +746,26 @@ Function.prototype.simulateApply = function (context = window) {
 // 2 返回函数
 // 3 可以传入参数
 // 4 柯里化
-Function.prototype.simulateBind = function (context = window) {
+Function.prototype.simulateBind = function (context = window, ...args) {
 	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
-	let args = [...arguments].slice(1)
+	args = args ? args : []
 	return function () {
-		return fn.apply(context, args.concat(...arguments))
+		return fn.apply(context, [...args, ...arguments])
 	}
 }
 
-Function.prototype.simulateBindAdvance = function (context = window) {
+Function.prototype.simulateBindAdvance = function (context = window, ...args) {
 	if (typeof this !== 'function') throw new TypeError('this must be a function')
 	let fn = this
-	let args = [...arguments].slice(1)
+	args = args ? args : []
 
 	//if invoke by new, this is fBound
 	//if function invoke, this is context
 	let fBound = function () {
 		return fn.apply(
 			this instanceof fBound ? this : context,
-			args.concat(...arguments)
+			[...args, ...arguments]
 		)
 	}
 	//very important
@@ -1185,7 +1180,7 @@ jsonStringify({ x: 5 }) // "{"x":5}"
 jsonStringify([1, 'false', false]) // "[1,"false",false]"
 jsonStringify({ b: undefined }) // "{"b":"undefined"}"
 
-const jsonStringify2 =  (data) {
+const jsonStringify2 =  (data) => {
 	let type = typeof data
 
 	if (type !== 'object') {
@@ -1233,7 +1228,7 @@ const jsonStringify2 =  (data) {
 }
 
 const simulateInstanceOf = (left, right) => {
-	//can not write like -> let proto = left.__proto__
+	//can not code like -> let proto = left.__proto__
 	if (left === null || typeof left !== 'object') return false
 	let proto = Object.getPrototypeOf(left)
 	let prototype = right.prototype
@@ -1313,7 +1308,7 @@ let it = makeIterator([1, 2, 3])
 // }
 // xhr.send(null)
 
-const myAJAX = (options) => {
+const simulateAJAX = (options) => {
 	options = options || {}
 	options.url = options.url || ''
 	options.method = options.method.toUpperCase() || 'GET'
@@ -1645,22 +1640,26 @@ async function test() {
 }
 
 //使用XMLHttpRequest实现一个Promise的ajax
-function myRequest(url, method, params) {
+function simulateAJAX2(url, method, body, headers) {
 	return new Promise((resolve, reject) => {
 		let xhr = new XMLHttpRequest()
 		xhr.open(method, url)
+		for(let key in headers){
+			req.setRequestHeader(key,headers[key])
+		}
 		xhr.onreadystatechange = () => {
-			if (xhr.readyState != 4) {
-				return
-			}
-			if (xhr.state === 200) {
-				resolve(xhr.response)
+			if (xhr.readyState === 4) {
+				if (xhr.state >= 200 && xhr.state <= 300) {
+					resolve(xhr.response)
+				} else {
+					reject(xhr)
+				}
 			}
 		}
 		xhr.addEventListener('error', (e) => {
 			reject(error)
 		})
-		xhr.send(params)
+		xhr.send(body)
 	})
 }
 

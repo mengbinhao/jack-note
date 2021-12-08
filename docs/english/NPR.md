@@ -289,7 +289,8 @@
   - quarrel n/vi
 
 - 2021.8.18
-  - inclusive adj
+  - include v | inclusive adj
+  - exclude vt | exclusive adj | exclusion n | exclusionary adj
 
 - 2021.8.17
   - thereby adv
@@ -939,6 +940,7 @@
   - deteriorate vi
   - deterrent n/adj | deterrence n
   - determine v | determination n | indeterminate adj
+  - terminate v
   - asset n
   - previous | previously
 
@@ -3207,7 +3209,7 @@
   - purposely adv
   - slim adj
   - absent adj/vt | absentee n
-  - present n/v/adj | represent vt | representative n/adj | presence n | absence
+  - present n/v/adj | represent vt | representative n/adj | representation | presence n | absence
   - clap n/v
 
   > I was not elected to do small things and shy away from big problems
@@ -3450,13 +3452,12 @@
 - 2020.1.6
   - bravo n
   - taunt n/vt
-  - terminate v
   - slapdash adj
   - slap n/v/adj
   - sloppy adj
   - impugn vt
   - purport n/vt
-  - flaw n | flawed
+  - flaw n | flawed adj
   - parade n/v
   - thorough adj
 
@@ -3597,7 +3598,6 @@
   > the language we use affects how we think and who we are
 
 - 2019.12.18
-  - exclusive adj | exclusion n | exclusionary adj
   - stuff n/v | stuffing n
   - imprison vt
   - groundless adj
@@ -4115,7 +4115,6 @@
   - dam n
   - levee n
   - agree v | disagree | agreement n | disagreement
-  - asylum n
   - achieve v | achievable adj | achievement
 
   > Transportation really ground to a halt
@@ -4939,7 +4938,7 @@
   > to some degree
 
 - 2019.7.25
-  - enrollment n | enroll v
+  - enroll v | enrollment n
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
   - prescription n
@@ -5079,6 +5078,7 @@
   - encouraging adj | encouragement n | encourage vt | discourage
   - courage n | courageous n/adj/adv
   - consequence n | consequential adj | conclude v | conclusion n | conclusive adj | in-conclusive
+  - sequent adj/n | subsequent adj | subsequently
 
   > it is hard to swallow
 
