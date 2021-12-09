@@ -1,3 +1,10 @@
+- 2021.12.9
+  - develop v | development n
+  - ship n/v | shipment n
+  - honey n/v/adj
+  - bee n
+  - insect n
+
 - 2021.12.4
   > for the time being
 
@@ -792,8 +799,6 @@
   - offspring n
   - sheer adj
 
-  > ripple effect
-
 - 2021.4.11
   - teenage n
   - uproar n
@@ -1187,7 +1192,7 @@
 - 2021.1.20
   - fail | failure n
   - illness n
-  - sight n/vt/adj | insight n | oversight n | shortsighted adj
+  - sight n/vt | insight n | oversight n | shortsighted adj
 
 - 2021.1.17
   - paycheck n | salary n | wage n/v
@@ -2830,6 +2835,7 @@
   - disease n/vt
   - tractor n
 
+  > ripple effect
   > It's had to cancel more than 50 trips to and from Asia
   > Factories in China are working at 50 to 60 percent of their capacity
   > Because so much commerce is tied into what happens with China
