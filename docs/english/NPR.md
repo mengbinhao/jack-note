@@ -1,3 +1,6 @@
+- 2021.12.10
+  - behalf n
+
 - 2021.12.9
   - develop v | development n
   - ship n/v | shipment n
@@ -128,7 +131,7 @@
   - mandarin n
   - casual adj
   - casualty n
-  - optical adj
+  - optic n/adj | optical adj
   - vertical adj
 
 - 2021.10.17
@@ -156,7 +159,7 @@
   - glare n/v
 
 - 2021.10.11
-  - perfect | imperfect
+  - perfect | imperfect | imperfectly
   - lodge n/v
   - common | uncommon
 
@@ -1445,6 +1448,7 @@
   > I shine under pressure, like a diamond
 
 - 2020.11.21
+  - stage n/v
   - backstage n
   - refrain vi
   - jeer n/v
@@ -2212,7 +2216,6 @@
 
 - 2020.6.28
   - snub n/vt/adj
-  - appease vt
   - conversation n
 
   > at the same time,it takes quite seriously. they say they're going to hold xx responsible for this action
