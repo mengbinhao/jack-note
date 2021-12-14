@@ -30,6 +30,8 @@
   - smog n
   - crop n/v
   - moisture n
+  - distant adj
+  - haze n/v
 
 - 2021.11.29
   - chalk n/v/adj
@@ -1166,6 +1168,7 @@
 - 2021.1.26
   - sting n/v
   - equal n/vt/adj | equity n | inequity | equivalent n/adj
+  - quality n/adj
   - equality n | inequality | equation n
   - inaugural adj | inauguration n
   - decry vt
@@ -3672,7 +3675,6 @@
 
 - 2019.12.13
   - obey v
-  - distant adj
   - separate v
   - grain n
   - telescope n
@@ -3999,7 +4001,6 @@
   - disenchantment n
   - forging n
   - alleviate vt
-  - quality n/adj
 
   > what should we be looking for in terms of this coming to an end?
   > a sense of his out of touch

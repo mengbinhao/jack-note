@@ -265,6 +265,7 @@
 - [JavaScript 极短日期时间代码片段](https://mp.weixin.qq.com/s/lqj8jL5MZSH2rOitDEo31A)
 - [16 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/jjgWezXvVqIymsNYACMlnQ)
 - [私藏的这些高级工具函数，你拥有几个?](https://mp.weixin.qq.com/s/jQnOnyLjF5KGPiox66tvaA)
+- [彻底理清 JS 中 this 指向问题](https://mp.weixin.qq.com/s/B-yVmcNjkPGOAVBDN9cQ7Q)
 
 ### mobile
 
