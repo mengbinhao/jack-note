@@ -1,3 +1,9 @@
+- 2021.12.16
+  - belt n
+  - mud n | muddy v/adj
+  - muddle n/v | muddled adj
+  - flow v
+
 - 2021.12.10
   - behalf n
 
@@ -109,7 +115,6 @@
   - attain n/v
 
 - 2021.10.27
-  - plateau n
   - fluctuate vi
 
 - 2021.10.26
@@ -1209,7 +1214,7 @@
 
 - 2021.1.15
   - fortress n/vt
-  - descend v | descent n | descendant
+  - descend v | descent n | descendant n/adj
 
 - 2021.1.14
   - cater vt
@@ -1473,7 +1478,6 @@
   > The big picture here is (that) ...
 
 - 2020.11.18
-  - mountain n | mountainous adj | hill | hillside
   - tiny adj
 
 - 2020.11.17
@@ -1693,7 +1697,6 @@
   > So that's pretty telling
 
 - 2020.9.18
-  - ash n/v
   - salvage n/vt
   - soap n/v
   - filthy adj
@@ -1881,7 +1884,6 @@
 - 2020.8.17
   - removal n
   - suit n/v
-  - entrench v | entrenched adj
   - upheaval n
 
   > this explosion happened just as millions have been driven into poverty by an economic collapse
@@ -2824,6 +2826,8 @@
 
 - 2020.4.9
   - tsunami n
+  - trench n/v
+  - entrench v | entrenched adj
   - reminder n
   - remain n/v | remainder
   - obvious adj | obviously
@@ -2973,7 +2977,6 @@
   - folk n
   - adjust v | adjustment n
   - peculiar adj
-  - muddle n/v | muddled adj | muddy v/adj
 
   > He's been widely criticized for an initial slow and muddled response to the outbreak
   > but they seemed to have recognized that some adjustment was necessary
@@ -2990,7 +2993,6 @@
 - 2020.3.23
   - process n/v
   - procedure n | procedural adj
-  - proceeding n | proceed vi/n
   - ramble n/v | rambling adj
   - joy n/v | joyous adj
   - penetrate v | penetration n
@@ -3295,7 +3297,6 @@
   > and, of course, that's what this impeachment process has all been about
 
 - 2020.2.21
-  - Indonesia n
   - mask n | unmask
   - pebble n
   - upend v
@@ -3425,7 +3426,6 @@
   - slam n/v | whip n/v | smash n/v | slammed adj
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
-  - archipelago n
 
 - 2020.1.12
   - fantastic adj
@@ -3538,7 +3538,9 @@
   - compensation n
   - retrieve v
   - erupt v | eruption n
-  - volcano n
+  - volcano n | volcanic adj
+  - ash n/v
+  - mountain n | mountainous adj | hill | hillside
   - immune n/adj | immunity n | immunize vt
   - nominate vt | nomination | nominee n
 
@@ -4106,7 +4108,6 @@
   - scar n/vt
   - scarce adj/adv
   - scarf n
-  - archipelago n
   - diminish v | diminished adj
   - valley n
   - inundate vt
@@ -4358,7 +4359,7 @@
   - revolving adj
   - lecture n/v
   - portfolio n
-  - plate n
+  - plate n | plateau n
   - contend v | contender n
   - razor n
 
@@ -4870,6 +4871,7 @@
   - complicit n/adj
   - complicate | complicated adj
   - produce n/vt
+  - proceed vi/n | proceeding n
   - measured
   - valuable | invaluable adj
   - brake n/v
