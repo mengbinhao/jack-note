@@ -1,3 +1,6 @@
+- 2021.12.17
+  - describe v | describable | indescribable
+
 - 2021.12.16
   - belt n
   - mud n | muddy v/adj
@@ -1789,7 +1792,7 @@
   - devolve v
   - revolve v
   - spray n/v
-  - pray v
+  - pray v | prayer n
   - edge n/v | brink n
 
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
@@ -2826,6 +2829,7 @@
 
 - 2020.4.9
   - tsunami n
+  - tornado n
   - trench n/v
   - entrench v | entrenched adj
   - reminder n
@@ -3195,7 +3199,7 @@
 
 - 2020.3.3
   - sign n/v | signature n
-  - significant n/adj | significance n | insignificant
+  - significant n/adj | significance n | insignificant | significantly
   - signify vt
   - ruin n/vt
   - sneak n/v/adj | sneaker
