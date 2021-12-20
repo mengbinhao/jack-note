@@ -3443,6 +3443,7 @@
   - doorstep n
   - continent n/adj | continental adj | intercontinental adj
   - favor n/vt | favorable adj | unfavorable
+  - favorite adj/n
   - lump n
   - peninsula n
   - standstill n
@@ -4050,7 +4051,7 @@
   - poised v | poised adj
   - foil | foiled adj
   - triumph n/vi | triumphant adj
-  - compel vt
+  - compel vt | compelled adj
   - consistent adj | consistently adv
   - distrust n/vt | mistrust n/vt
   - norm n
@@ -4839,7 +4840,7 @@
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj | abuser
   - minor n/adj
-  - prosecutor n | prosecute v | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
+  - prosecute v | prosecutor n | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
   - emphasize vt | emphasis n | emphatic adj
   - redact v
 
@@ -5091,7 +5092,7 @@
   - swallow v/n
   - propose v | proposed adj | proposal n
   - domestic n/adj | domestical adj | domestically adv
-  - encouraging adj | encouragement n | encourage vt | discourage
+  - encourage vt | discourage | encouraging adj | encouragement n
   - courage n | courageous n/adj/adv
   - consequence n | consequential adj | conclude v | conclusion n | conclusive adj | in-conclusive
   - sequent adj/n | subsequent adj | subsequently
