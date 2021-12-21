@@ -1,3 +1,6 @@
+- 2021.12.21
+  - enhance vt | enhancement
+
 - 2021.12.17
   - describe v | describable | indescribable
 
@@ -897,7 +900,7 @@
   - susceptible adj
   - bulk n/vt
   - theory n
-  - hypothesis n |　hypotheses n
+  - hypothesis n | hypotheses n
   - pamphlet n
   - label n/v
   - clot n/v
@@ -1298,6 +1301,9 @@
   - collar n
 
 - 2020.12.27
+  - wellness n
+  - swell n/v
+  - farewell n
   - unwell adj
   - transmit v | transportation n | transport vt | transit n/vt/adj
   - transition n | transitional adj
@@ -1520,7 +1526,7 @@
 
 - 2020.11.10
   - editorial adj
-  - guard | guardian
+  - guard | guardian | safeguard n/vt
   - slit n/v
   - throat n
 
@@ -1540,7 +1546,6 @@
   - mosque n
   - repel vt
   - dispatch n/vt
-  - farewell n
   - shopkeeper n
   - bury vt
   - kindness n
@@ -3306,7 +3311,7 @@
   - upend v
   - donate v | donation n | donor n
   - continue | continual adj | continuous adj | continuity n | continuation
-  - gym | gymnasium n
+  - gym | gymnast | gymnastics
   - cave n/v | cavernous adj
   - dot v/adj
   - tour n/v | tourist n/v/adj | tourism n
@@ -3421,7 +3426,7 @@
 
 - 2020.1.14
   - altitude n
-  - bankrupt n/vt/adj
+  - bankrupt n/vt/adj | bankruptcy
 
   > Authorities always pledged to get to the bottom of things
   > it's not clear at all that will lead to any changes
@@ -3774,7 +3779,6 @@
 
 - 2019.12.3
   - devote v | devoted adj/adv | devotion n
-  - swell n/v
   - bandit n
   - ferocious adj
   - reliance n
@@ -4098,7 +4102,6 @@
   - pile n/v
   - airline n
   - anticipate v | anticipated adj | anticipation n
-  - grassroots n
   - arrest n/vt
   - dialogue n/v
   - minority n | majority n
@@ -4315,7 +4318,6 @@
   - bashful adj
   - wasteful adj
   - efficient adj | inefficient
-  - well-being n
   - welfare n | fare n
   - outcome n
   - hardship n
