@@ -1,5 +1,13 @@
+- 2021.12.23
+  - rehearsal n
+  - interrupt v | interrupted
+  - bulletin n/vt
+
 - 2021.12.21
   - enhance vt | enhancement
+
+  > It's not too much from their perspective
+  > He's just not there yet
 
 - 2021.12.17
   - describe v | describable | indescribable
@@ -222,7 +230,6 @@
 
 - 2021.9.10
   - bond n/v
-  - division n
   - stubborn adj | stubbornly
   - cloud n/v
 
@@ -945,7 +952,7 @@
 
 - 2021.3.15
   - chord n
-  - manage v
+  - manage v | manageable
   - broadcast n/v
 
   > The broadcast has struck in such a chord here in the US
@@ -1419,7 +1426,7 @@
   - bastard n/adj | jerk n
 
 - 2020.11.30
-  - documentary n
+  - documentary n | undocumented
   - soccer n
   - glimpse n/vi
   - annual n/adj
@@ -1455,7 +1462,6 @@
 - 2020.11.22
   - toy n/vi/adj
   - dole n
-  - shaky adj
   - acute adj | acutely
   - frequent | frequently | frequency n | infrequent
   - alumnus n
@@ -2337,7 +2343,6 @@
 
 - 2020.6.11
   - dual adj
-  - deport vt | deportation
   - nightmare n
   - furlough n/vt
   - privacy n
@@ -2884,6 +2889,7 @@
 
 - 2020.4.2
   - livelihood n
+  - division n
   - vision n /vt | visionary adj
   - provision n/vt
   - supervision n | supervisor
@@ -3232,7 +3238,7 @@
   - purposely adv
   - slim adj
   - absent adj/vt | absentee n
-  - present n/v/adj | represent vt | representative n/adj | representation | presence n | absence
+  - present n/v/adj | presence n | represent vt | representative n/adj | representation | absence
   - clap n/v
 
   > I was not elected to do small things and shy away from big problems
