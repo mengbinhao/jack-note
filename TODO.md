@@ -161,6 +161,7 @@
 
 - [56 个 JavaScript 实用工具函数助你提升开发效率](https://mp.weixin.qq.com/s/jJ1bowDBsRBuCk-oyUPE-Q)
 - [这 16 种原生函数和属性的区别](https://mp.weixin.qq.com/s/1Byb0gtmPvX6-akIrlqMHg)
+- [阅读 axios 源码，发现了这些实用的基础工具函数](https://mp.weixin.qq.com/s/bFmRDNDNj2qXyWT_6eTDtg)
 - [30+ 个工作中常用到的前端小知识](https://mp.weixin.qq.com/s/EKz1CvXafc6wy4epTzLy6g)
 - [私藏的这些高级工具函数](https://mp.weixin.qq.com/s/xNjtwxVDG1C3jI5F9EEyrg)
 - [8 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/nsitnjbHVMPkvTdeeCbmQg)
@@ -305,6 +306,9 @@
 
 #### Vue related
 
+- [12 个 Vue 开发中的性能优化小技巧](https://mp.weixin.qq.com/s/YxGq5m5GC1hXej8v3eN_Rw)
+- [DIff 算法看不懂就一起来锤我](https://mp.weixin.qq.com/s/PHvmhzuimOlpw1SWeSyHuw)
+- [源码之 Diff 流程](https://segmentfault.com/a/1190000020658020)
 - [11 个高级 Vue 编码技巧](https://mp.weixin.qq.com/s/zVOTindmgMBQ8ClvBZ9FNg)
 - [10 个技巧！实现 Vue.js 极致性能优化](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247525077&idx=1&sn=b42cec26edefb616f9370c73310cea7f)
 - [建立和维护大型 Vue.js 项目的 10 个最佳实践](https://mp.weixin.qq.com/s/XHQ8aNZqMWwFbcAeN34tww)
@@ -329,7 +333,6 @@
 - [Vue.js 技术揭秘](https://ustbhuangyi.github.io/Vue-analysis/)
 - [生命钩子](https://juejin.im/post/5afd7eb16fb9a07ac5605bb3)
 - [VirtualDom](https://finget.github.io/2018/05/22/virtualDom/)
-- [源码之 Diff 流程](https://segmentfault.com/a/1190000020658020)
 - [key 在 Vue 列表渲染时究竟起到了什么作用](https://juejin.im/post/5cb98b926fb9a0688e0677f9)
 - [Vue 的 render 函数](https://segmentfault.com/a/1190000010913794)
 - [Vue 使用 JSX](https://juejin.im/post/5affa64df265da0b93488fdd)
@@ -372,6 +375,7 @@
 
 #### project related
 
+- [22 个 Vue3 的实用技巧](https://mp.weixin.qq.com/s/2xC85Kzjvh1AIytDQR3DFA)
 - [Vue 项目里戳中你痛点的问题及解决办法](https://mp.weixin.qq.com/s/wHmGez1K_Qnnnmu2oiCrBw)
 - [Vue 最佳实践](https://juejin.im/post/5daa70096fb9a04dd95e8fc4)
 - [Vue 使用中的小技巧](http://www.imooc.com/article/293570)
@@ -389,6 +393,7 @@
 - [axios 切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
 - [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
 - [axios 基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
+- [封装 Axios 只看这一篇文章就行了](https://mp.weixin.qq.com/s/BUPFZhQORGIBDzgzqoOpFw)
 - [如何写一个像 axios 那样优秀的请求库](https://mp.weixin.qq.com/s/DoniYaHhs3dO3FClC7ZMRw)
 - [学习 axios 源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
 - [编写一个 axios 这样的库](https://juejin.im/post/5e16e5d76fb9a02fd742a92b)
@@ -466,6 +471,7 @@
 
 #### Vuex
 
+- [手把手教你使用 Vuex，猴子都能看懂的教程](https://mp.weixin.qq.com/s/7L0cpfQp1MifzFnZxY8bKA)
 - [喝个茶的时间就学会了 vuex](https://juejin.im/post/5a7278dc6fb9a01c9c1f59e7)
 - [Vuex 快速上手指北](https://juejin.im/post/5e955f29f265da480304a303)
 - [Vuex 优化总结](https://juejin.im/post/5c3c911ce51d455231347a7a)

@@ -1,3 +1,24 @@
+- 2021.2.7
+  > I'll take you back to last spring
+  > Every single emotion that you could imagine just running through your body at that moment
+
+- 2021.12.29
+  - noon n
+
+- 2021.12.28
+  - bold adj | boldly adv
+  - mammal n
+  - accident n
+  - dolphin n
+
+- 2021.12.27
+  - ecosystem n
+
+- 2021.12.25
+  - pinch v/n
+
+  > Every cent counts
+
 - 2021.12.23
   - rehearsal n
   - interrupt v | interrupted
@@ -59,6 +80,7 @@
 
 - 2021.11.26
   - dedicate vt | dedicated
+  - lend v
   - blend vt/n
   - synthetic n/adj
 
@@ -189,6 +211,7 @@
 
 - 2021.9.29
   - stunt n/v
+  - stun n/vt | stunning
   - create | creative | creature n
   - recreation n
   - fountain n
@@ -898,7 +921,7 @@
   > The US is at a fork in the road
 
 - 2021.4.1
-  - existence n
+  - existence n | existential adj
 
   > The law enforcement went to great lengths to say that xxx
   > at the root of a lot of that is racism
@@ -1030,7 +1053,7 @@
 - 2021.3.1
   - exorbitant adj
   - tug n/v
-  - utility n
+  - utility n | utilize vt
 
   > it makes her sick to her stomach to think about it
   > I don't even necessarily know what my cost for a day is
@@ -1051,7 +1074,7 @@
 - 2021.2.27
   - dilemma n
   - climax n
-  - dwindle v
+  - dwindle vi
 
 - 2021.2.26
   - reflection n
@@ -1782,7 +1805,6 @@
   - undercut vt
   - underway adj
 
-  > It slips through the cracks
   > It's a constant game of cat and mouse
 
 - 2020.9.8
@@ -1852,7 +1874,7 @@
   > It's a step in that direction, but there is still no word on xxx
 
 - 2020.8.26
-  - rural adj | urban adj | suburb n | suburban adj/n
+  - rural adj | urban adj | suburb n
   - direct v/adj | indirect | directive n/adj | direction
   - allude vi
   - organize | organization | organizational | reorganize | unorganized
@@ -1873,7 +1895,7 @@
 - 2020.8.22
   - scholar n
   - monarch n | monarchy n
-  - discipline n/vt | disciplined adj
+  - discipline n/v | disciplined adj
 
 - 2020.8.19
   - lofty adj
@@ -1911,7 +1933,7 @@
   - misinformation | disinformation
   - slave | slaver | slavery n
   - downtown n
-  - plain adj
+  - plain adj | plainly
   - rebel n/vi | rebellion n | riot n/vi | rioter | riotous adj
 
   > Let's back up a little bit here
@@ -2138,7 +2160,6 @@
   - drill n/v
   - mediterranean n
 
-  > It must have been a slip of the tongue
   > At the heart of this dispute are two very different pictures of the eastern Mediterranean
 
 - 2020.7.16
@@ -2500,7 +2521,6 @@
 
 - 2020.5.21
   - dealer n
-  - lend v
   - auction n/v
   - debt n
 
@@ -2797,7 +2817,6 @@
 
 - 2020.4.15
   - revise v
-  - liberty n
   - expense n/v
   - odd n/adj | even adj
   - symbol n | symbolic adj | symbolical adj | symbolically | symbolism | symbolize vt
@@ -2813,7 +2832,6 @@
 
 - 2020.4.13
   - podium n
-  - relieve vt
   - grad n
   - academy n | academic n/adj
   - rouse v
@@ -2892,7 +2910,7 @@
   - division n
   - vision n /vt | visionary adj
   - provision n/vt
-  - supervision n | supervisor
+  - supervise v | supervisor | supervision
   - chase n/v
 
   > I want to thank xx for coming together, setting aside their differences and putting America first
@@ -2985,7 +3003,10 @@
   - attend v | attendance n | attendee
   - attentive adj
   - liable adj
-  - reliable adj | rely vi
+  - rely vi | reliable adj | reliance n
+  - relieve vt | relief n
+  - religion n | religious adj
+  - relinquish vt
   - forehead n
   - gauge n
   - stress n/vt | distress n/vt | distressed adj
@@ -3107,7 +3128,6 @@
 - 2020.3.11
   - rap n/v
   - tarnish n/v
-  - benevolent adj
   - decorate v
   - edifice n
   - brick n/vt/adj
@@ -3266,7 +3286,7 @@
   - agility n | agile adj
   - league n | legend n | legendary
   - jersey n
-  - personality n | personalize vt | personnel n | personal n/adj
+  - personality n | personalize vt | personnel n | personal n/adj | persona n
   - chafe n/v
   - kin n
   - coroner n
@@ -3353,7 +3373,6 @@
   - sift v
   - sincere adj | sincerely
   - mechanical adj
-  - mistakenly adv
   - appetite n | appetizing adj
   - demean vt | demeaning n | demeanor n
   - warrant n/vt | warranted adj
@@ -3404,7 +3423,6 @@
   - constrain v | constraint n | constrained adj
   - comfort n/vt | discomfort n | comfortable adj | uncomfortable
   - distinct adj | distinctive adj | distinction n
-  - stun n/vt | stunning
   - tent n
 
   > It sounds to me like these people intend to stay outside of the US embassy for a while. Is that the impression you're getting?
@@ -3423,7 +3441,6 @@
   - crumble v
   - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
-  - liberal adj
   - intersect v | intersection n
   - soak n/v
   - belongings n
@@ -3787,7 +3804,6 @@
   - devote v | devoted adj/adv | devotion n
   - bandit n
   - ferocious adj
-  - reliance n
   - mull n/v
   - convince vt | convinced adj | convincing | unconvincing
   - convict n/vt | convicted adj | conviction n
@@ -4032,6 +4048,8 @@
   - stall n/v | stalled
   - ethic n | ethical
   - deliberate v/adj | deliberately adv | deliberation n
+  - liberal adj
+  - liberty n
   - liberator n | liberation n | liberate vt
   - prevail vi
   - vast adj | vastness
@@ -4044,7 +4062,7 @@
   - scandal n
   - roil v
   - concession n
-  - abortion n
+  - abort v | abortion n
   - downplay vt | underplay
   - thrive vi
   - vice n/adj
@@ -4102,6 +4120,9 @@
   - melancholy n/adj
   - alienate vt | alienated adj
   - showdown n
+
+  > It must have been a slip of the tongue
+  > It slips through the cracks
 
 - 2019.10.18
   - deem vt
@@ -4243,7 +4264,6 @@
   - median n/adj
   - bare adj | barely adv
   - curfew n
-  - religious adj | religion n
 
   > impossible to know where this might go next
   > as far as I can work out
@@ -4302,7 +4322,7 @@
   - pleased adj | displease vt
   - thrilled adj | thrill
   - disdain n/vt
-  - indecisive adj | decisive adj | decisively adv
+  - decisive adj | decisively adv | indecisive adj
   - obfuscate vt
   - advantage n | disadvantage
 
@@ -4551,7 +4571,7 @@
   - wicked adj
   - incredible adj
   - crafty adj
-  - craft n/vt | aircraft n | spacecraft
+  - craft n/vt | aircraft n | spacecraft n
   - astronomer n | astronomy n | astronomical adj
   - astronaut n
   - plus n/adj/conj
@@ -4586,7 +4606,6 @@
   - torch n/v
   - indigenous adj
   - Dutch n/adj
-  - relinquish vt
   - sham n/vt
   - status n
   - decade n
@@ -4874,7 +4893,7 @@
   - handful n
   - endorse vt | endorsement n
   - so-called adj
-  - invasion n | invade v | invader | incur vt | incursion n
+  - invasion n | invade v | invader | incur vt | incursion n | invasive adj
 
 - 2019.8.8
   - resurrect vt
@@ -5024,7 +5043,7 @@
   - comedian n
   - bully n/vt
   - ex n
-  - chamber n
+  - chamber n/adh/vt
   - adoring adj
   - capacity n/adj
   - servant n
@@ -5123,7 +5142,7 @@
   - shore n/vt | ashore adj/adv | shoreline | offshore | onshore
   - foe n
   - tough n/adj/adv
-  - neighborhood n | neighboring adj |　neighbor n/adj
+  - neighborhood n | neighboring adj | neighbor n/adj
   - begrudgingly adv
   - grudge n/vt | grudging adj
   - duty-fee n
@@ -5257,7 +5276,6 @@
   - altogether adv
   - reactor adv | react | reaction | action | inaction | interaction n
   - headline n/vt
-  - relief n
   - abide vi
   - exert vt
   - dilute vt/adj
