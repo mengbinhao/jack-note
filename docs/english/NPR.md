@@ -1,3 +1,7 @@
+- 2021.2.8
+  > The majority of Americans agree across the board, regardless of partisanship
+  > all of a sudden
+
 - 2021.2.7
   > I'll take you back to last spring
   > Every single emotion that you could imagine just running through your body at that moment
@@ -1777,7 +1781,6 @@
   - rail n/v
   - frail adj
   - correspond vi
-  - correspondent n
 
   > to my knowledge
 
@@ -3250,7 +3253,7 @@
   - phony n/adj
   - horrible adj
   - vicious adj | viciously
-  - sharp adj
+  - sharp adj | sharply
   - weird adj
   - riff n
   - tariff n/vt
@@ -4732,7 +4735,7 @@
   - get-go n
   - wary adj
   - decree n/vt
-  - dismayed adj | dismay n/vt
+  - dismay n/vt | dismayed adj
   - estimate n/vt | underestimate vt/v | estimation n
   - tackle n/vt
   - mobilize vt | mobilization
@@ -5253,7 +5256,7 @@
   - collapse n/vi
   - faint n/vi/adj
   - trial n/adj | retrial n
-  - democratically adv | democratic adj | democracy n | democrat | undemocratic
+  - democrat n | democracy n |  democratic adj | undemocratic | democratically adv
   - jail n/vt
   - crack n/adj/v
   - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
