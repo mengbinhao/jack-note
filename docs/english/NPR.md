@@ -1127,7 +1127,6 @@
   - idiot n
   - stamp n/v
   - fringe n/vt/adj
-  - infringe v
   - Netherland
 
 - 2021.2.20
@@ -4684,7 +4683,7 @@
   - coast n | coastal adj
   - nightmarish adj
   - concentrate v | concentrated adj | concentration n
-  - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n
+  - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n | decentralize
   - tropic n | tropical adj | frigid adj
   - deforestation n | forest n
 
@@ -5044,7 +5043,6 @@
 
 - 2019.7.18
   - comedian n
-  - bully n/vt
   - ex n
   - chamber n/adh/vt
   - adoring adj
