@@ -1,3 +1,7 @@
+- 2021.2.10
+  > The two sides seem to be really talking past one another
+  > Speaking of that
+
 - 2021.2.8
   > The majority of Americans agree across the board, regardless of partisanship
   > all of a sudden
@@ -4601,7 +4605,6 @@
   - lunar adj
   - spirit n/vt
   - unexplored adj | exploration n
-  - quell vt
   - cellular adj
   - racial adj | racially adv | biracial adj
   - unrest n
@@ -5204,7 +5207,7 @@
 - 2019.7.4
   - drone n
   - unmanned adj
-  - de-escalate v | escalate v | escalation n
+  - escalate v | de-escalate v | escalation n
   - negotiate v | negotiator n | negotiation n | negotiable adj
 
   > so he goes back and forth
