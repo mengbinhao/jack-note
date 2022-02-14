@@ -1,3 +1,16 @@
+- 2021.2.14
+  - breathtaking | majestic | fabulous
+  - withstand vt | notwithstanding prep
+  - calculation | miscalculation n
+  - crystal n/adj
+
+  > Let's break this down
+  > XXX be crystal clear on this point
+
+- 2021.2.11
+  > Didn't that already happen?
+  > my gosh, high drama
+
 - 2021.2.10
   > The two sides seem to be really talking past one another
   > Speaking of that
@@ -1267,7 +1280,7 @@
   - beforehand adv
   - wrist n/vt
   - deceive v | deception n
-  - sacrifice n/vt
+  - sacrifice n/v
 
   > XXX is letting xxx off the hook
   > a slap on the wrist
@@ -2394,7 +2407,6 @@
   - antibody n
 
 - 2020.6.8
-  - contingent n
   - standby n
   - enforce vt | enforcement | enforceable adj
   - reinforce n/v | reinforced
@@ -3313,7 +3325,6 @@
   - scapegoat n
   - groundwork n
   - slump n/vi
-  - notwithstanding prep
   - numerous adj
   - steep n/v/adj
   - delighted adj | delight n/v
@@ -3450,7 +3461,6 @@
   - intersect v | intersection n
   - soak n/v
   - belongings n
-  - splatter n/v
   - workweek n
 
 - 2020.1.14
@@ -4415,7 +4425,7 @@
   - ordinary n/adj | ordinarily
   - extraordinary adj | extraordinarily
   - plastic n/adj
-  - renew v | renewable adj | renewal n
+  - renew v | renewed adj | renewable adj | renewal n
   - account n/v | accountable adj | unaccounted adj | accountability n
   - sit-in n
   - progress n/vi | progressive n/adj
