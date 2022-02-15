@@ -1,3 +1,8 @@
+- 2021.2.15
+  - acid n/adj
+  - coat n/v
+  - blackout n
+
 - 2021.2.14
   - breathtaking | majestic | fabulous
   - withstand vt | notwithstanding prep
@@ -523,7 +528,7 @@
 
 - 2021.7.1
   - patient n/adj | patience n
-  - rigorous adj
+  - rigorous adj | rigorously
   - repair n/v
 
   > at no point
@@ -902,7 +907,7 @@
 
 - 2021.4.7
   - increase | increment | incremental
-  - submarine n
+  - marine n/adj | submarine n
   - evade v
   - payload n
 
@@ -2303,7 +2308,6 @@
 
 - 2020.6.22
   - selfish adj | selfless adj
-  - marine n/adj
 
   > nothing's certain
 
