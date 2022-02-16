@@ -1,3 +1,8 @@
+- 2021.2.16
+  - bench n
+  - raw adj
+  - elevate vt | elevated
+
 - 2021.2.15
   - acid n/adj
   - coat n/v
@@ -2467,7 +2472,7 @@
   - subvert vt
   - deride vt
   - erect vt/adj
-  - vacant adj
+  - vacant adj | vacancy n
   - tally n/v
 
   > Health systems are hanging by a thread
@@ -2881,7 +2886,6 @@
   - tsunami n
   - tornado n
   - trench n/v
-  - entrench v | entrenched adj
   - reminder n
   - remain n/v | remainder
   - obvious adj | obviously
@@ -3695,7 +3699,6 @@
   - glove n
   - vagina n | vaginal intercourse | virgin n | penis n
   - skill-set n
-  - benchwarmer n
   - orgasm n
 
 - 2019.12.16
