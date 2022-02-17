@@ -9,7 +9,7 @@
   - blackout n
 
 - 2021.2.14
-  - breathtaking | majestic | fabulous
+  - breathtaking | majestic | fabulous | fantastic adj
   - withstand vt | notwithstanding prep
   - calculation | miscalculation n
   - crystal n/adj
@@ -1972,7 +1972,7 @@
   - submission n
   - missionary n
   - emission n
-  - admit v | admission n
+  - admit v | admission n | admitted adj | admittedly
   - commission n | commissioner | decommission
   - colleague n
   - nod n/v
@@ -2845,7 +2845,7 @@
 - 2020.4.15
   - revise v
   - expense n/v
-  - odd n/adj | even adj
+  - odd n/adj | even adj | uneven
   - symbol n | symbolic adj | symbolical adj | symbolically | symbolism | symbolize vt
   - penalty n
 
@@ -3484,7 +3484,6 @@
   - excerpt n/vt
 
 - 2020.1.12
-  - fantastic adj
   - maintain vt | maintenance n
   - grisly adj
   - dispose n/v
@@ -3712,7 +3711,7 @@
   - extrapolate vt
   - teem vi
   - illusion n
-  - illustrate vt
+  - illustrate vt | illustration
   - mystic n/adj
   - philosopher n
   - hogwash n | nonsense n | sense n/v | senseless adj | sensitive adj
