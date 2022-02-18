@@ -1,3 +1,7 @@
+- 2021.2.18
+  - sovereign n | sovereignty
+  - radioactive adj
+
 - 2021.2.16
   - bench n
   - raw adj
@@ -2978,7 +2982,7 @@
 - 2020.3.28
   - emotion n | emotional | emotionally
   - motion n/v
-  - identify v | unidentified adj | identity n | identical adj
+  - identify v | identity n | identical adj | unidentified adj
   - entity n
   - pandemic adj
   - gasp n/v
@@ -4754,7 +4758,7 @@
   - wary adj
   - decree n/vt
   - dismay n/vt | dismayed adj
-  - estimate n/vt | underestimate vt/v | estimation n
+  - estimate n/vt | estimation n | underestimate vt/v
   - tackle n/vt
   - mobilize vt | mobilization
   - corrode v
