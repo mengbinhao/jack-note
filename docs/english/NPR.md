@@ -3180,8 +3180,7 @@
   - through prep/adj/adv | throughout prep/adv | breakthrough n | thorough adj
   - poison n/v/adj
   - society n
-  - differentiate v
-  - differ v
+  - differ v | differentiate v
   - heritage n
   - stringent adj
   - detect vt | detection n | undetected
@@ -4626,7 +4625,7 @@
   - spirit n/vt
   - unexplored adj | exploration n
   - cellular adj
-  - racial adj | racially adv | biracial adj
+  - racial adj | racially adv
   - unrest n
   - torch n/v
   - indigenous adj
