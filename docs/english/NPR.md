@@ -1,3 +1,7 @@
+- 2021.2.23
+  > Just tell us what went down
+  > This case will center on it
+
 - 2021.2.18
   - sovereign n | sovereignty
   - radioactive adj
@@ -206,7 +210,6 @@
   - petroleum n | gasoline n | gallon n
 
 - 2021.10.20
-  - mandarin n
   - casual adj
   - casualty n
   - optic n/adj | optical adj
@@ -716,7 +719,9 @@
   - appliance n
   - rise v/n
   - steady v/adj
+  - tow n/v
   - towel n/v
+  - bestow vt
   - bacon n
 
   > Don't make promise you can't keep
@@ -2143,7 +2148,6 @@
 - 2020.7.22
   - flu n
   - scoff n/v
-  - mandatory adj
   - habit n
   - inhabit v | inhabited adj | uninhabited | inhabitant n
   - regret n/v
@@ -3170,7 +3174,6 @@
   > controversial measure
 
 - 2020.3.10
-  - bestow vt
   - miscarriage n
   - juror n
   - foundation n | foundational
@@ -3424,7 +3427,7 @@
   - formula n
   - scramble n/v | scrambling
   - sectarian adj
-  - definitive adj | definite adj | definitely | indefinitely adv
+  - definite adj | definitive adj | definitely | indefinitely adv
   - definition n
 
   > I've got to be honest here
@@ -4255,7 +4258,7 @@
   > xxxx but remains, as you said, anonymous
 
 - 2019.10.12
-  - sicken v | sickening adj
+  - sick n/vt/adj | sicken v | sickening adj
   - Athens n
   - hiatus n
   - deep-seated adj
@@ -4343,7 +4346,7 @@
 
 - 2019.10.8
   - perspective n
-  - frustrate vt | frustration n | frustrated adj
+  - frustrate vt | frustrated adj | frustration n
   - pleased adj | displease vt
   - thrilled adj | thrill
   - disdain n/vt
@@ -4842,7 +4845,6 @@
 - 2019.8.16
   - bid n/v
   - qualify v | disqualify vt | qualification n | qualified | eligible adj | eligibility
-  - sick n/vt/adj
   - turnout n | turnover n
   - poverty n
   - unchecked adj
@@ -5050,7 +5052,8 @@
   - vow n/vt
   - vowel n/adj
   - postpone vt | postponement n | postponed
-  - mandate n/vt | mandated adj
+  - mandarin n
+  - mandate n/vt | mandated adj | mandatory adj
   - sector n
   - impose v | self-imposed adj | imposition n | reimpose
   - finality n

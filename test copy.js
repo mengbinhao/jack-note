@@ -1,28 +1,15 @@
-var luckyNumbers = function (matrix) {
-	const m = matrix.length,
-		n = matrix[0].length
-	const ret = []
-	for (let i = 0; i < m; i++) {
-		for (let j = 0; j < n; j++) {
-			let isMin = true,
-				isMax = true
-			for (let k = 0; k < n; k++) {
-				if (matrix[i][k] < matrix[i][j]) {
-					isMin = false
-					break
-				}
-			}
-			if (!isMin) continue
-			for (let k = 0; k < m; k++) {
-				if (matrix[k][j] > matrix[i][j]) {
-					isMax = false
-					break
-				}
-			}
-			if (isMax) {
-				ret.push(matrix[i][j])
-			}
-		}
+var reverseOnlyLetters = function (s) {
+	const len = s.length
+	const arr = [...s]
+	let left = 0,
+		right = len - 1
+	while (true) {
+		while (left < right && !/^[a-zA-Z]+$/.test(s[left])) left++
+		while (right > left && !/^[a-zA-Z]+$/.test(s[right])) right--
+		if (left >= right) break
+		;[arr[left++], arr[right--]] = [arr[right], arr[left]]
 	}
-	return ret
+	return arr.join('')
 }
+
+console.log(reverseOnlyLetters('Test1ng-Leet=code-Q!'))
