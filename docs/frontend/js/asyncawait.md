@@ -7,17 +7,116 @@
     - 解决问题
 
         - 多层嵌套的问题
-
-        - 每种任务的处理结果存在两种可能性（成功或失败），那么需要在每种任务执行结束后分别处理这两种可能性
-        - Promise.resolve、Promise.reject、Promise.all、Promise.race、Promise.any、Promise.allSettled
+        - 每种任务的处理结果存在两种可能性（fulfilled or rejected, default is pending），那么需要在每种任务执行结束后分别处理这两种可能性
 
     - 如何解决
 
         - 回调函数延迟绑定
-
         - 返回值穿透
-
         - 错误冒泡
+
+    - 缺点
+
+        - 无法取消Promise,一旦新建它就会立即执行，无法中途取消
+        - 如果不设置回调函数，promise内部抛出的错误，不会反应到外部
+        - 当处于pending状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）
+
+    - API
+
+        - Promise.resolve
+
+            - 若参数是`Promise`实例，那么`Promise.resolve`将不做任何修改，原封不动地返回这个实例
+            - 若参数是`thenable`对象，`Promise.resolve`方法会将这个对象转为`Promise`对象，然后就立即执行`thenable`对象的`then`方法
+            - 若参数是一个原始值，或是一个不具有`then`方法的对象，则`Promise.resolve`方法返回一个新的 `Promise` 对象，状态为`resolved`
+            - 若不带有任何参数，直接返回一个`resolved`状态的 Promise 对象
+
+        - Promise.reject（`Promise.reject()`方法的参数，会原封不动地作为`reject`的理由，变成后续方法的参数。这一点与`Promise.resolve`方法不一致）
+
+        - Promise.race
+
+            - 适合场景：把异步操作和定时器放到一起，如果定时器先触发，认为超时，告知用户
+
+                ```javascript
+                const timeOut = time => {
+                    return result = new Promise((resolve,reject) => {
+                        setTimeout(() => {
+                            resolve("请求超时")
+                        }, time)
+                    });
+                }
+                
+                Promise.race([timeOut(200), fetch('xxx')]).then(val => {})
+                ```
+
+            - 适合场景：如果图片等资源有多个存放路径，但是不确定哪个路径的资源更快，可以用该方法同时请求多个路径，哪个路径的资源最先拿到，使用哪个资源
+
+            - 适合场景：如果指定时间内没有获得结果，就将 Promise 的状态变为`reject`，否则变为`resolve`
+
+                ```javascript
+                const p = Promise.race([
+                  fetch('/xxxx'),
+                  new Promise((resolve, reject) => {
+                    setTimeout(() => reject(new Error('request timeout')), 5000)
+                  })
+                ])
+                
+                p.then(console.log).catch(console.error)
+                ```
+
+        - Promise.all（其中任意一个 `promise` 被 `reject` ，`Promise.all` 就会立即被 `reject` ，数组中其它未执行完的 `promise` 依然在执行， `Promise.all` 没有任何措施可以取消它们的执行）
+
+            - 适合场景：彼此相互依赖，其中任何一个被 `reject` ，其它都失去了实际价值
+
+        - Promise.allSettled（大多数场景中，我们期望传入的这组 `promise` 无论执行失败或成功，都能获取每个 `promise` 的执行结果）
+
+            - 适合场景：彼此互不依赖，其中任何一个被 `reject` ，对其它都没有影响
+
+            - 适合场景：期望知道每个 `promise` 的执行结果
+
+                ```javascript
+                const promises = [
+                  fetch('/api-1'),
+                  fetch('/api-2'),
+                  fetch('/api-3'),
+                ];
+                const results = await Promise.allSettled(promises)
+                // 过滤出成功的请求
+                const successfulPromises = results.filter(p => p.status === 'fulfilled');
+                
+                // 过滤出失败的请求，并输出原因
+                const errors = results
+                  .filter(p => p.status === 'rejected')
+                  .map(p => p.reason);
+                
+                removeLoadingIndicator();// 移除加载的滚动图标
+                ```
+
+        - Promise.any
+
+        - Promise.prototype.then
+
+        - Promise.prototype.finally
+
+            - 由于无法知道`promise`的最终状态，所以`finally`的回调函数中不接收任何参数，仅用于无论最终结果如何都要执行的情况
+            - 与`Promise.resolve(2).then(() => {}, () => {})` （resolved的结果为`undefined`）不同，`Promise.resolve(2).finally(() => {})` resolved的结果为 `2`，同样的`Promise.reject(3).finally(() => {})`rejected 的结果为 `3`
+
+    - Knowledge Point
+
+        - 三种状态：`pending`、`fulfilled`和`rejected`
+
+        - 初始状态是`pending`, 执行了`resolve`，`Promise`状态会变成`fulfilled`; 执行了`reject`，`Promise`状态会变成`rejected`
+
+        - Promise只以第一次为准，第一次成功就永久为`fulfilled`，第一次失败就永远状态为`rejected`
+
+        - Promise中有`throw`的话，就相当于执行了`reject`
+
+        - Promise里没有执行`resolve`、`reject`以及`throw`的话，这个promise的状态也是`pending`
+
+        - 基于上一条，`pending`状态下的promise不会执行`then`中的回调函数
+
+        - 必须给`Promise`对象传入一个执行函数，否则报错
+
+            
 
 - Generator
 

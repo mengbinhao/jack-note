@@ -1,3 +1,10 @@
+- 2021.2.25
+  - prelude n
+
+- 2021.2.24
+  - whisper n/v
+  - currency n
+
 - 2021.2.23
   > Just tell us what went down
   > This case will center on it
@@ -1231,7 +1238,6 @@
 
 - 2021.1.29
   - stroll n/v
-  - backpack n
 
   > Is this a pure coincidence ?
 
@@ -2674,7 +2680,7 @@
 - 2020.5.7
   - due n/adj/adv
   - longstanding adj
-  - historical adj | historic | historically
+  - historical adj | historic | historically | historian
   - corporate adj | corporation n | company | firm n/vt/adj | firmly adv
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
@@ -2840,7 +2846,7 @@
   - upcoming adj
   - desire n/v | desirable
   - backbone n
-  - mainstream n
+  - stream n/v | mainstream n
   - champion n/v
   - numerical adj
   - mathematical adj | mathematically adj
@@ -4337,7 +4343,7 @@
   - harass vt | harassed adj | harassment n
   - thereafter adv
   - breach n/vt
-  - premature n/adj | mature v/adj | immature adj
+  - mature v/adj | immature adj | premature n/adj
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
