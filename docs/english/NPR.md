@@ -8,6 +8,8 @@
 - 2021.2.23
   > Just tell us what went down
   > This case will center on it
+  > So I want to pivot
+  > It's a very different story
 
 - 2021.2.18
   - sovereign n | sovereignty
@@ -1071,7 +1073,7 @@
   > so my read of xxx
 
 - 2021.3.3
-  - overvalued | undervalued adj
+  - overvalued | undervalued adj | revaluate
   - overstep vt
   - overtake v
   - crowd | crowded | overcrowd adj
