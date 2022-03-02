@@ -1,3 +1,6 @@
+- 2021.3.2
+  - hover vi
+
 - 2021.2.25
   - prelude n
 
@@ -384,7 +387,6 @@
   > XXX seems to be trying to refocus and scale back, and he is sticking to that plan despite what has happened these past few days
 
 - 2021.8.19
-  - convoy n
   - ravage n/v
   - quarrel n/vi
 
@@ -2151,7 +2153,6 @@
   - inquire n
   - dynamic n/adj
   - climb n/v
-  - turnaround n
 
 - 2020.7.22
   - flu n
@@ -2241,7 +2242,7 @@
   > They have been up to a lot
 
 - 2020.7.10
-  - participate v | participation
+  - participate v | participation | participant
   - slight adj/v/vt
   - traitor n
 
@@ -3345,7 +3346,11 @@
   - hastiness n | haste n/v | hasty adj
   - aloofness n
   - scapegoat n
+  - surround n/vt/adj
+  - turnaround n
   - groundwork n
+  - groundless adj
+  - workaround n
   - slump n/vi
   - numerous adj
   - steep n/v/adj
@@ -3684,7 +3689,6 @@
 - 2019.12.18
   - stuff n/v | stuffing n
   - imprison vt
-  - groundless adj
   - specialize vi
   - specialist n/adj
   - Eurasian adj
@@ -3934,7 +3938,6 @@
 
 - 2019.11.12
   - extortion n
-  - workaround n
   - fellow n
 
   > This is a major step
@@ -4730,7 +4733,6 @@
   - terrify v | terrified adj
   - territory n | territorial adj
   - terror n
-  - imminent adj
   - militant n/adj | military n/adj | demilitarize vt
   - depot n/vt/adj
   - adamant adj | adamantly
@@ -5120,7 +5122,7 @@
   - inept adj
   - radiate v
   - secure v/adj | security | insecurity
-  - diplomat n | diplomacy n | diplomatic adj
+  - diplomat n | diplomatic adj | diplomacy n
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial
   - clumsy adj
   - outgoing adj
