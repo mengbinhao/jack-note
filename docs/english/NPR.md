@@ -1,3 +1,8 @@
+- 2021.3.3
+  - sweeten v
+
+  > No prosecutor's been willing to take on that fight
+
 - 2021.3.2
   - hover vi
 
@@ -4497,7 +4502,7 @@
   - muffled adj
   - complex n/adj
   - phenomenon n
-  - finalize vt
+  - finalize v
 
   > I don't think anybody expects it to become less so
   > what have you learned about that?
