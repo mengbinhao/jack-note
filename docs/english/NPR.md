@@ -1,3 +1,11 @@
+- 2021.3.4
+  - commence v
+  - purchase n/v
+  - finance n/v | financier n
+
+  > This is a landmark move
+  > xxx erupted into applause
+
 - 2021.3.3
   - sweeten v
 
@@ -113,7 +121,6 @@
   - captive n/adj
 
 - 2021.12.2
-  - refund n/vt
   - stance n
   - instance n
   - substance n
@@ -2793,7 +2800,6 @@
   - lobby n/v
   - activate vt
   - lunacy adj
-  - finance n
   - payment n | nonpayment
 
   > there is nowhere near over
@@ -3345,6 +3351,7 @@
   - highness n
 
 - 2020.2.25
+  - refund n/vt
   - fund n/vt | fundamental n | fundamentally
   - highflier n
   - household n
@@ -3418,7 +3425,7 @@
   - honor n/vt | dishonor n/vt
   - cruise n/v
   - investigator n | investigation | investigate vt | investigative adj
-  - investor n | invest v
+  - invest v | investor n
   - sift v
   - sincere adj | sincerely
   - mechanical adj
@@ -4899,7 +4906,6 @@
 - 2019.8.14
   - apparent adj |apparently adj
   - bllionaire n
-  - financier n
   - traffic n/v
   - conspire v | conspiracy n | conspirator
   - prominent adj | prominence n
