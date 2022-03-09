@@ -1,3 +1,21 @@
+- 2021.3.9
+  - freak n | freaked out
+  - superficial adj | superficially
+  - extinguish vt
+
+- 2021.3.8
+  - gorgeous adj
+  - sob n/v | sober adj/vt
+  - fixate v
+
+- 2021.3.4
+  - sleep | sleepy adj
+  - howl n/v
+
+  > xxx takes a toll
+  > xxx on the horizon
+  > If it's a 50-50 split, Vice President could break the tie
+
 - 2021.3.4
   - commence v
   - purchase n/v
@@ -346,6 +364,9 @@
 
 - 2021.9.6
   - flight n
+  - delight n/v | delighted adj
+  - lightheaded adj
+  - slight adj/v/vt
 
 - 2021.9.3
   - annoy vt | annoying
@@ -658,7 +679,6 @@
 - 2021.6.9
   - tract n
   - transplant n/vt
-  - organ n
   - fertile adj
   - discolor v
   - havoc n/v
@@ -1111,7 +1131,7 @@
   - shiny adj
   - seashell n
   - tar n/vt
-  - cleanup n
+  - cleanup n | cleanse vt
 
 - 2021.3.1
   - exorbitant adj
@@ -1445,7 +1465,6 @@
   - foul n/v/adj/adv
   - grouchy adj
   - contagious adj
-  - lightheaded adj
 
   > Especially chaotic in an already chaotic place
 
@@ -1517,7 +1536,6 @@
   - sacred adj
   - barometer n
   - pardon n/vt
-  - sober adj/vt
 
   > He highlighted what made each of them unique
   > There were a few less jokes than usual
@@ -1937,6 +1955,7 @@
   - rural adj | urban adj | suburb n
   - direct v/adj | indirect | directive n/adj | direction
   - allude vi
+  - organ n
   - organize | organization | organizational | reorganize | unorganized
 
 - 2020.8.25
@@ -2255,7 +2274,6 @@
 
 - 2020.7.10
   - participate v | participation | participant
-  - slight adj/v/vt
   - traitor n
 
   > there is a need for better data
@@ -2358,7 +2376,6 @@
   - upset n/v/adj
   - argue v
   - bystander n
-  - sobriety n
 
   > the chief of police has now stepped down in the weak of that
 
@@ -2704,7 +2721,7 @@
   - dare v
   - arguably adv
   - objective adj/n | objectively | object | objection n
-  - audit n/v
+  - audit n/v | audition n/v
   - immediate adj
   - prepare v | prepared | unprepared | preparedness n | preparation
   - trillion n | million | billion | billionaire
@@ -3366,7 +3383,6 @@
   - slump n/vi
   - numerous adj
   - steep n/v/adj
-  - delighted adj | delight n/v
   - hammer n/v
   - partial adj
   - impartial adj
@@ -4649,8 +4665,7 @@
   - huddle vt | huddled adj
   - lunar adj
   - spirit n/vt
-  - unexplored adj | exploration n
-  - cellular adj
+  - explore v | unexplored adj | exploration n
   - racial adj | racially adv
   - unrest n
   - torch n/v
@@ -5275,7 +5290,7 @@
   > foolish move
 
 - 2019.6.28
-  - establish vt | establishment n | disestablishment
+  - establish vt | establishment n
   - radical adj/n | radicalize vt
   - hatred n
   - prejudice n/vt
