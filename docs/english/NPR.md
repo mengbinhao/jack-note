@@ -1,12 +1,24 @@
+- 2021.3.21
+  - dislike n/vt
+  - genius n
+  - payment n | nonpayment | repay v
+  - debt n
+  - loan n/vt
+  - linger vi
+
+- 2021.3.15
+  - ease n/v
+  - lease n/v
+  - crease n/v | decrease n/v
+  - tease n/vt
+
 - 2021.3.9
   - freak n | freaked out
   - superficial adj | superficially
   - extinguish vt
 
 - 2021.3.8
-  - gorgeous adj
   - sob n/v | sober adj/vt
-  - fixate v
 
 - 2021.3.4
   - sleep | sleepy adj
@@ -31,9 +43,6 @@
 
 - 2021.3.2
   - hover vi
-
-- 2021.2.25
-  - prelude n
 
 - 2021.2.24
   - whisper n/v
@@ -60,7 +69,6 @@
   - blackout n
 
 - 2021.2.14
-  - breathtaking | majestic | fabulous | fantastic adj
   - withstand vt | notwithstanding prep
   - calculation | miscalculation n
   - crystal n/adj
@@ -585,7 +593,7 @@
 - 2021.7.1
   - patient n/adj | patience n
   - rigorous adj | rigorously
-  - repair n/v
+  - repair n/v | disrepair
 
   > at no point
   > It never even crossed my mind
@@ -1082,7 +1090,6 @@
 
 - 2021.3.10
   - unwanted adj
-  - tease n/vt
   - welcome adj | unwelcome
 
   > xxx is taking heat from a lot of sides these days
@@ -1302,6 +1309,7 @@
   - distinguish v | distinguished adj
   - collide v
   - drift n/v
+  - draft n/vt | redraft n/vt
 
 - 2021.1.22
   - doom n/v/adj
@@ -1394,7 +1402,6 @@
 
 - 2021.1.1
   - grace n/vt | disgrace n/vt | disgraceful
-  - crease n/v | decrease n/v
 
 - 2020.12.30
   - forge n/v
@@ -1493,7 +1500,6 @@
   - gang n | gangster n
   - tile n
   - elaborate v/adj
-  - draft n/vt | redraft n/vt
   - physical adj
   - psychological adj | psychotic adj
 
@@ -2595,7 +2601,7 @@
 - 2020.5.21
   - dealer n
   - auction n/v
-  - debt n
+
 
 - 2020.5.19
   - squander vt
@@ -2724,7 +2730,7 @@
   - audit n/v | audition n/v
   - immediate adj
   - prepare v | prepared | unprepared | preparedness n | preparation
-  - trillion n | million | billion | billionaire
+  - million | billion | trillion n | billionaire
 
 - 2020.5.6
   - provoke vt | incite vt | incitement n | unprovoked
@@ -2776,7 +2782,6 @@
   > This is a country that live outside of law
 
 - 2020.4.27
-  - lease n/v
   - manufacture n/vt
   - intermediate adj
   - haul n/v
@@ -2817,7 +2822,6 @@
   - lobby n/v
   - activate vt
   - lunacy adj
-  - payment n | nonpayment
 
   > there is nowhere near over
   > it is a huge blow
@@ -3098,7 +3102,8 @@
   - hint n/v
 
 - 2020.3.23
-  - process n/v
+  - process n/v | processor
+  - procession n
   - procedure n | procedural adj
   - ramble n/v | rambling adj
   - joy n/v | joyous adj
@@ -3292,7 +3297,6 @@
   - pillar n/v
   - fractious adj
   - delicate adj
-  - chancellery n
 
   > What should we make of this?
   > How is that all playing together and is reunification back on the table seriously now?
@@ -3340,7 +3344,7 @@
   - infuse v
   - chaos n | chaotic adj
   - secede v
-  - horizon n
+  - horizon n |horizontal
   - cap n
   - cape n
   - cope n/v
@@ -3552,7 +3556,6 @@
 - 2020.1.9
   - burden n/vt
   - integral adj
-  - ease n/v
 
   > Brexit is at hand
   > The argument is that Northern Ireland having a foot in both camps will get the best of both worlds and potentially become a HongKong
@@ -3764,7 +3767,6 @@
   - baffle vt
   - dimension n
   - oblivious adj
-  - procession n
   - misery n
   - unfurl v
   - penalize vt
@@ -3977,7 +3979,7 @@
   - accord n/v
   - aggregate n/v/adj
   - tune n/v
-  - fulfill vt | fulfilled
+  - fulfill vt | fulfilled | fulfillment
 
   > What went through your mind when you heard it yesterday?
   > turn back on them
@@ -4244,7 +4246,6 @@
   - anxious adj | anxiously | anxiety n
   - piecemeal adj
   - devil n
-  - outstanding adj
   - treasury n
   - secrecy n | secretary n
   - state-owned adj
@@ -4271,7 +4272,7 @@
   - fatal adj | fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
   - expanse n | expansion n | expansive adj
-  - expend vt | expenditure n
+  - expend vt | expenditure n | expendable
   - pension n/vt
   - arrange v | arrangement n
   - condemn vt | condemned adj | condemnation n
@@ -4376,7 +4377,7 @@
   - harass vt | harassed adj | harassment n
   - thereafter adv
   - breach n/vt
-  - mature v/adj | immature adj | premature n/adj
+  - mature v/adj | immature adj
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
@@ -4555,6 +4556,10 @@
   > whose problem does this become?
 
 - 2019.9.18
+  - majestic adj
+  - gorgeous adj
+  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding
+  - credible adj
   - precedent n/adj | unprecedented adj
   - installation n
   - barrel n/v
@@ -4636,7 +4641,6 @@
   - competent adj | incompetent adj | competence n | incompetence n
   - trick n | tricky adj
   - wicked adj
-  - incredible adj
   - crafty adj
   - craft n/vt | aircraft n | spacecraft n
   - astronomer n | astronomy n | astronomical adj
@@ -4704,7 +4708,7 @@
   - blindside vt
   - reprimand n/vt
   - unilateral adj | bilateral adj | trilateral adj
-  - chancellor n
+  - chancellor n | chancellery n
   - reluctant adj | reluctantly adv
   - collect v | collective adj
   - replicate n/adj/vt
@@ -5252,7 +5256,6 @@
   - pace n/v
   - impetus n
   - spike n/v
-  - loan n/vt
   - recess n/vt | recession n | depress vt | depression n | depressed adj
   - prospect n/vi
   - debate n/v
