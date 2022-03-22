@@ -1,3 +1,17 @@
+- 2021.3.22
+  - butt n
+  - crash n/v
+  - library n
+  - massage n
+  - jungle n
+  - perform v
+  - spoon n
+  - cherry n
+  - worm n/v
+  - pigeon n
+
+  > I'm trained for nothing
+
 - 2021.3.21
   - dislike n/vt
   - genius n
@@ -5,6 +19,11 @@
   - debt n
   - loan n/vt
   - linger vi
+
+  > It's not about ideology, It's about style
+  > but more to the point here
+  > so to some degree
+  > XXX is in a bind
 
 - 2021.3.15
   - ease n/v
@@ -334,6 +353,8 @@
 
 - 2021.9.17
   - frank | frankly
+  - spit n/v
+  - spite n/vt
   - split n/v/adj
   - blush n/vi
   - slot n/vt
@@ -1115,6 +1136,7 @@
 
 - 2021.3.3
   - overvalued | undervalued adj | revaluate
+  - valuable | invaluable adj
   - overstep vt
   - overtake v
   - crowd | crowded | overcrowd adj
@@ -1222,7 +1244,6 @@
 
 - 2021.2.19
   - cricket n
-  - scrap n/v
   - eager adj
   - agriculture n | agricultural adj | agrarian n
   - fort n
@@ -1451,7 +1472,7 @@
   - manipulate vt | manipulation n
 
 - 2020.12.22
-  - divorce n/v
+  - divorce n/v | divorced
 
   > I'm so sorry about the fact that everything is so last minute
 
@@ -1460,7 +1481,6 @@
   - college n
 
 - 2020.12.18
-  - ripe adj/v
   - relent adj | relentless n
   - commend v
 
@@ -1679,7 +1699,6 @@
   > this is a long road that we're going to be on
 
 - 2020.10.30
-  - spite n/vt
   - collateral n
   - responsibly | responsible | irresponsible n/adj/adv
 
@@ -1832,7 +1851,6 @@
 
 - 2020.9.15
   - magnetic adj
-  - spit n/v
 
   > I need soften the language here
   > His tone alternates between taking accountability for his own behavior and trying to describe what he found so magnetic in Trump
@@ -2137,6 +2155,9 @@
   - yell n/v
   - snipe n/v
   - rip  n/v
+  - ripe adj/v
+  - ripple n/v
+  - cripple v/adj | crippling adj
   - summit n
 
   > sticking point
@@ -2569,7 +2590,6 @@
   - shelter n/v
   - delta n
   - protect vt | protective adj | protection
-  - shred n/v
 
   > but even in those
 
@@ -2947,8 +2967,6 @@
   - luxury n/adj ｜ luxurious adj
   - lose v
   - commerce n ｜ commercial adj
-  - ripple n/v
-  - cripple v/adj | crippling adj
   - disease n/vt
   - tractor n
 
@@ -3655,7 +3673,6 @@
 
 - 2019.12.24
   - observant adj
-  - buttress n/vt
   - assert vt | asserted
   - heartfelt adj
   - heartless n
@@ -3672,6 +3689,7 @@
   - hinder v
   - asshole n
   - crap n/vi
+  - scrap n/v
   - invent vt
   - ambition n/vt | ambitious adj
 
@@ -4558,7 +4576,7 @@
 - 2019.9.18
   - majestic adj
   - gorgeous adj
-  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding
+  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | wondrous
   - credible adj
   - precedent n/adj | unprecedented adj
   - installation n
@@ -4843,7 +4861,7 @@
 - 2019.8.20
   - falter vi
   - factor n/v | facto adj
-  - upbeat adj
+  - upbeat adj/n
   - breather n
   - abrupt adj | abruptly adv
   - prosperity n | prosper v
@@ -4971,7 +4989,6 @@
   - produce n/vt
   - proceed vi/n | proceeding n
   - measured
-  - valuable | invaluable adj
   - brake n/v
   - ballistic adj
   - stability | instability n
