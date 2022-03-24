@@ -1,3 +1,12 @@
+- 2021.3.24
+  - deficient adj | deficiency n
+  - buckle n/v | unbuckle
+  - prone adj
+  - cabin n/v | cabinet n/adj
+
+  > This has all been cast aside
+  > in the direction again the wind
+
 - 2021.3.22
   - butt n
   - crash n/v
@@ -1002,7 +1011,7 @@
 
 - 2021.4.6
   - wildlife n
-  - downpour n | rainfall n
+  - downpour n | rainfall n | pour v
 
   > Even as rain subsides, the floodwater will still pose trouble for weeks to come
   > We don't actually have a clear image of how much has just been damaged and destroyed
@@ -2775,7 +2784,7 @@
   - corpse n
   - jurisdiction n
   - principle n
-  - survive v | survivor n | survival n
+  - survive v | survivor n | survival n | survivable
 
   > It's quite clear the responsibility for that abuse goes all the way to the top
 
@@ -3165,8 +3174,7 @@
   - abundance n
   - quarantine n/vt
   - parliament n
-  - bumpy adj
-  - bump n/v
+  - bump n/v | bumpy adj
   - reconcile vt
 
   > that's the name of the game
@@ -3177,7 +3185,7 @@
 - 2020.3.16
   - gamble n/v
   - implicit adj | implicitly
-  - combat n/vt | combative adj
+  - combat n/vt | combative adj | combatant
 
   > it is not at all clear where things go from here
   > let's start with where things stand at the moment
@@ -3366,7 +3374,6 @@
   - cap n
   - cape n
   - cope n/v
-  - pour v
 
 - 2020.2.27
   - nephew n | niece n
@@ -3548,7 +3555,7 @@
   > it's not clear at all that will lead to any changes
 
 - 2020.1.13
-  - slam n/v | whip n/v | smash n/v | slammed adj
+  - slam n/v | whip n/v | smash n/v | slammed adj | slash
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
 
@@ -4047,7 +4054,6 @@
   - seasoned adj
   - comeback n
   - influence n/vt | influential adj
-  - drown v
   - loyal adj | loyalty n | loyalist n | disloyal
   - detached adj
   - furrow v/adj
@@ -4447,7 +4453,6 @@
   - jam n/vt | jamming n
   - spew n/v
   - bullet n
-  - weaponry n
   - explanation n
   - vulnerable adj | vulnerability n
   - lapse n/vi
@@ -4961,7 +4966,6 @@
 - 2019.8.13
   - preferred adj
   - boycott n/vt
-  - cabinet n/adj
   - reckless adj | recklessness n
   - colony n | colonial adj | colonialism n | colonize vt
   - spiral n/vi/adj
@@ -5009,6 +5013,7 @@
 - 2019.8.1
   - garlic n
   - choke v
+  - drown v
   - tragedy n ｜ comedy n | tragic adj
   - reside vi | residence n | resident n/adj | residency | residential adj
   - lax adj
@@ -5285,7 +5290,7 @@
 - 2019.7.4
   - drone n
   - unmanned adj
-  - escalate v | de-escalate v | escalation n
+  - escalate v | de-escalate v | escalation n | escalator
   - negotiate v | negotiator n | negotiation n | negotiable adj
 
   > so he goes back and forth

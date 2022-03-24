@@ -366,6 +366,7 @@
 
 #### Vue 3
 
+- [还不会 Vue3 ？一篇笔记带你快速入门](https://mp.weixin.qq.com/s/GZG5TPuYRDUYAlPdjkbNYw)
 - [10 个小练习，快速入门 Vue3 核心新特性](https://mp.weixin.qq.com/s/wdw77mRplCukQzTuHW2U4g)
 - [从 Vue2 转换到 Vue3](https://mp.weixin.qq.com/s/QHYOtxlpRkBJyzNQCXTiBA)
 - [Vue2 VS Vue3 中构建相同的组件](https://mp.weixin.qq.com/s/KEnDabcOFaEh3Foasxncbw)
