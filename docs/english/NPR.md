@@ -1,3 +1,12 @@
+- 2021.3.28
+  - marathon n/vi/adj
+
+- 2021.3.25
+  - tray n
+  - leisure n/adj
+
+  > Mirroring the cost of gas, it's taken off over the past year
+
 - 2021.3.24
   - deficient adj | deficiency n
   - buckle n/v | unbuckle
@@ -2191,7 +2200,6 @@
   - persist vi | persistent adj
   - plural n/adj
   - hack | hacker
-  - hurdle n
   - realize vt | realization n
   - tuition n
   - wrench n/vt
@@ -3602,7 +3610,6 @@
   - purport n/vt
   - flaw n | flawed adj
   - parade n/v
-  - thorough adj
 
 - 2020.1.4
   - purse v
@@ -4034,7 +4041,6 @@
 
 - 2019.11.4
   - sweep n/v | mop v
-  - hurdle n/v
   - bargain n/v | bargaining | barter v
   - assuage vt
   - diffuse v/adj
@@ -4203,7 +4209,6 @@
 
 - 2019.10.19
   - pave vt
-  - hurdle n/v
   - curtail vt
   - smuggle vt | smuggler n | smuggling n
   - pertain vi
@@ -4912,7 +4917,7 @@
   - turnout n | turnover n
   - poverty n
   - unchecked adj
-  - detain vt | detention n
+  - detain vt | detention n | detainee
   - inspiration n
   - expel vt
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj | intensely
