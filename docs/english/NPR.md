@@ -1,3 +1,19 @@
+- 2021.3.30
+  - curl n/v
+  - sperm n
+  - plug n/v
+  - maid n/v
+  - tan n/v | tanned
+  - dinosaur n
+
+  > I never thought I'd be here.....Hmmm, me either
+
+- 2021.3.29
+  - broom n/vt
+  - anecdote n
+  - snack n/vi
+  - dread n/v/adj
+
 - 2021.3.28
   - marathon n/vi/adj
 
@@ -322,9 +338,6 @@
   - dizzy vt/adj | dizziness
   - mixture n
   - pacific n/adj
-
-- 2021.10.12
-  - glare n/v
 
 - 2021.10.11
   - perfect | imperfect | imperfectly
@@ -3816,7 +3829,7 @@
   - grain n
   - telescope n
   - mist n
-  - gaze n/vi
+  - gaze n/vi | glare n/v
   - conscious adj | consciousness n | unconscious | consciously | unconsciously
   - conscience n
   - innocent n/adj
@@ -4054,7 +4067,7 @@
   > It's not clear whether xxx
 
 - 2019.11.1
-  - tilt n
+  - tilt n/v
   - giant n/adj
   - astute adj
   - seasoned adj
