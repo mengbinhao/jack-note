@@ -1,3 +1,8 @@
+- 2021.4.1
+  - contempt n
+
+  > xxx start in may, and they're going to stretch into summer
+
 - 2021.3.30
   - curl n/v
   - sperm n
@@ -1721,7 +1726,7 @@
 
 - 2020.11.2
   - affluent n/adj
-  - band n/v | disband v
+  - band n/v | disband v | brand n/v
 
 - 2020.11.1
   - innovation n
@@ -2672,7 +2677,6 @@
   - timeline n
   - wand n
   - destruct v | destruction n | destructive adj
-  - brand n/v
   - valet nn/v
 
   > as the day go by
@@ -4156,7 +4160,6 @@
   > show no sign of stopping
 
 - 2019.10.26
-  - fallout n
   - stall n/v | stalled
   - ethic n | ethical
   - deliberate v/adj | deliberately adv | deliberation n
@@ -4691,7 +4694,7 @@
   - ridicule n/vt | ridiculous adj
   - invite n/vt | invitation n
   - remarkable adj | remark n
-  - elect n/vt/adj | electorate n
+  - elect n/vt/adj | electorate n | electoral adj
 
   > to my knowledge
   > how much time does xxx have to get this all sorted out?
