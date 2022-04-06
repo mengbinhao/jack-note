@@ -1,3 +1,23 @@
+- 2021.4.6
+  - talent | talented
+  - longing n/adj
+  - curly adj
+
+- 2021.4.2
+  - redemption n
+  - ingenious adj | inventive adj
+  - cereal n
+  - entitle vt | entitled
+  - ego n | egocentric
+  - commonality n
+  - shave n/v
+  - condone vt
+  - slapdash adj | slap n/v/adj | smack n/v
+  - palm n
+  - balcony n
+
+  > It was hard for us to absorb
+
 - 2021.4.1
   - contempt n
 
@@ -1329,7 +1349,7 @@
 
 - 2021.2.1
   - flake n/v | snowflake
-  - immense adj
+  - immense adj | immensely
   - multiple adj | multitask n | multilateral adj | multitude n
   - entire | entirely
 
@@ -2241,7 +2261,7 @@
   > they just kind of have to find the way to reach the middle
 
 - 2020.7.23
-  - benefit n/v | beneficial adj
+  - benefit n/v | beneficial adj | beneficiary n
   - opinion n
   - inquire n
   - dynamic n/adj
@@ -3261,7 +3281,7 @@
   - ministry n | minister n
   - sway n/v
   - commemorate vt
-  - stern adj
+  - stern adj | sternly
   - intimidate vt | intimidation n
 
   > controversial measure
@@ -3620,8 +3640,6 @@
 - 2020.1.6
   - bravo n
   - taunt n/vt
-  - slapdash adj
-  - slap n/v/adj
   - sloppy adj
   - impugn vt
   - purport n/vt
@@ -3776,7 +3794,6 @@
   - dissertation n
   - sabbatical n/adj
   - rapprochement n
-  - beneficiary n
 
   > should we get the usual?
   > or maybe something a little more adventurous?
@@ -3993,7 +4010,7 @@
   - bend v
   - arson n
   - loot n/v | looter
-  - monument n
+  - monument n | monumental
   - skyscraper n
   - noxious adj
   - pungent adj
@@ -4569,7 +4586,7 @@
 - 2019.9.20
   - muffled adj
   - complex n/adj
-  - phenomenon n
+  - phenomenon n | phenomenal
   - finalize v
 
   > I don't think anybody expects it to become less so
@@ -4754,7 +4771,7 @@
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n | chancellery n
   - reluctant adj | reluctantly adv
-  - collect v | collective adj
+  - collect v | collective adj | collectively
   - replicate n/adj/vt
   - resemble vt
   - intercept vt
