@@ -1,3 +1,11 @@
+- 2021.4.7
+  - gracious adj
+  - sweat n/v
+  - whichever
+  - everlasting adj
+
+  > you put everything you have into them, to have other people recognize it
+
 - 2021.4.6
   - talent | talented
   - longing n/adj
@@ -1991,7 +1999,6 @@
 - 2020.9.3
   - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist | opportunism n | racism n | extremism n
   - shareholder n
-  - buddy n
 
   > They are going to build it from scratch because there's no one like that on the horizon
   > A lot of gains of this growth went to corporations and shareholders and not wage earners
@@ -2078,7 +2085,6 @@
 
 - 2020.8.17
   - removal n
-  - suit n/v
   - upheaval n
 
   > this explosion happened just as millions have been driven into poverty by an economic collapse
@@ -2547,6 +2553,8 @@
   - standby n
   - enforce vt | enforcement | enforceable adj
   - reinforce n/v | reinforced
+  - suit n/v
+  - pursuit n
   - lawless adj | lawlessness n | unlawful adj | lawful | lawsuit n
   - bluster n/v
 
@@ -2756,7 +2764,6 @@
   - honour n/vt
   - despair n/vi
   - bleak adj
-  - pursuit n
   - rejoice v
   - tribulation n
 
@@ -4878,7 +4885,7 @@
   > on the economic front
 
 - 2019.8.30
-  - obsess v | obsessed adj
+  - obsess v | obsessed adj | obsessive | obsessively
   - addict n/vt | addicted | addiction n
 
 - 2019.8.26
