@@ -1,4 +1,11 @@
-- 2021.4.7
+- 2022.4.11
+  - powder n/v
+  - junction n
+
+- 2022.4.8
+  - adore vt
+
+- 2022.4.7
   - gracious adj
   - sweat n/v
   - whichever
@@ -6,12 +13,12 @@
 
   > you put everything you have into them, to have other people recognize it
 
-- 2021.4.6
+- 2022.4.6
   - talent | talented
   - longing n/adj
   - curly adj
 
-- 2021.4.2
+- 2022.4.2
   - redemption n
   - ingenious adj | inventive adj
   - cereal n
@@ -26,12 +33,12 @@
 
   > It was hard for us to absorb
 
-- 2021.4.1
+- 2022.4.1
   - contempt n
 
   > xxx start in may, and they're going to stretch into summer
 
-- 2021.3.30
+- 2022.3.30
   - curl n/v
   - sperm n
   - plug n/v
@@ -41,22 +48,22 @@
 
   > I never thought I'd be here.....Hmmm, me either
 
-- 2021.3.29
+- 2022.3.29
   - broom n/vt
   - anecdote n
   - snack n/vi
   - dread n/v/adj
 
-- 2021.3.28
+- 2022.3.28
   - marathon n/vi/adj
 
-- 2021.3.25
+- 2022.3.25
   - tray n
   - leisure n/adj
 
   > Mirroring the cost of gas, it's taken off over the past year
 
-- 2021.3.24
+- 2022.3.24
   - deficient adj | deficiency n
   - buckle n/v | unbuckle
   - prone adj
@@ -65,7 +72,7 @@
   > This has all been cast aside
   > in the direction again the wind
 
-- 2021.3.22
+- 2022.3.22
   - butt n
   - crash n/v
   - library n
@@ -79,7 +86,7 @@
 
   > I'm trained for nothing
 
-- 2021.3.21
+- 2022.3.21
   - dislike n/vt
   - genius n
   - payment n | nonpayment | repay v
@@ -92,21 +99,21 @@
   > so to some degree
   > XXX is in a bind
 
-- 2021.3.15
+- 2022.3.15
   - ease n/v
   - lease n/v
   - crease n/v | decrease n/v
   - tease n/vt
 
-- 2021.3.9
+- 2022.3.9
   - freak n | freaked out
   - superficial adj | superficially
   - extinguish vt
 
-- 2021.3.8
+- 2022.3.8
   - sob n/v | sober adj/vt
 
-- 2021.3.4
+- 2022.3.4
   - sleep | sleepy adj
   - howl n/v
 
@@ -114,7 +121,7 @@
   > xxx on the horizon
   > If it's a 50-50 split, Vice President could break the tie
 
-- 2021.3.4
+- 2022.3.4
   - commence v
   - purchase n/v
   - finance n/v | financier n
@@ -122,39 +129,39 @@
   > This is a landmark move
   > xxx erupted into applause
 
-- 2021.3.3
+- 2022.3.3
   - sweeten v
 
   > No prosecutor's been willing to take on that fight
 
-- 2021.3.2
+- 2022.3.2
   - hover vi
 
-- 2021.2.24
+- 2022.2.24
   - whisper n/v
   - currency n
 
-- 2021.2.23
+- 2022.2.23
   > Just tell us what went down
   > This case will center on it
   > So I want to pivot
   > It's a very different story
 
-- 2021.2.18
+- 2022.2.18
   - sovereign n | sovereignty
   - radioactive adj
 
-- 2021.2.16
+- 2022.2.16
   - bench n
   - raw adj
   - elevate vt | elevated
 
-- 2021.2.15
+- 2022.2.15
   - acid n/adj
   - coat n/v
   - blackout n
 
-- 2021.2.14
+- 2022.2.14
   - withstand vt | notwithstanding prep
   - calculation | miscalculation n
   - crystal n/adj
@@ -162,19 +169,19 @@
   > Let's break this down
   > XXX be crystal clear on this point
 
-- 2021.2.11
+- 2022.2.11
   > Didn't that already happen?
   > my gosh, high drama
 
-- 2021.2.10
+- 2022.2.10
   > The two sides seem to be really talking past one another
   > Speaking of that
 
-- 2021.2.8
+- 2022.2.8
   > The majority of Americans agree across the board, regardless of partisanship
   > all of a sudden
 
-- 2021.2.7
+- 2022.2.7
   > I'll take you back to last spring
   > Every single emotion that you could imagine just running through your body at that moment
 
@@ -1272,7 +1279,7 @@
   > xxx doesn't happened by accident
 
 - 2021.2.24
-  - convene v
+  - convene v | reconvene
   - unfold v
   - upload v
 
