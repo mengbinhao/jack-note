@@ -1,3 +1,7 @@
+- 2022.4.12
+  > It's defined as xxx
+  > The rapid raise in prices for the things we buy has grown by its fastest pace in 40 years
+
 - 2022.4.11
   - powder n/v
   - junction n
@@ -1404,7 +1408,7 @@
   - draft n/vt | redraft n/vt
 
 - 2021.1.22
-  - doom n/v/adj
+  - doom n/vt
   - unknown n/adj
   - master v
   - rigid adj
@@ -2804,7 +2808,7 @@
   > change him in any way that's apparent
 
 - 2020.5.7
-  - due n/adj/adv
+  - due n/adj/adv | overdue
   - longstanding adj
   - historical adj | historic | historically | historian
   - corporate adj | corporation n | company | firm n/vt/adj | firmly adv
@@ -3969,7 +3973,7 @@
   - charity n | charitable
   - offend v | offender n
   - severe adj | severely
-  - foreseeable adj
+  - foresee v | foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj | unpaid adj
   - preliminary n/adj
@@ -4464,7 +4468,7 @@
   - perspective n
   - frustrate vt | frustrated adj | frustration n
   - pleased adj | displease vt
-  - thrilled adj | thrill
+  - thrill n/v | thrilled adj
   - disdain n/vt
   - decisive adj | decisively adv | indecisive adj
   - obfuscate vt
@@ -5271,7 +5275,8 @@
   - ploy n
   - soften v
   - tremendous adj | tremendously
-  - consider v | considerable adj | considerably | consideration
+  - consider v | consideration
+  - considerable adj | considerably
   - reversal n | invert vt | inversion n
 
   > so all in all

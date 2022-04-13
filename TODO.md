@@ -162,6 +162,7 @@
 
 ### JS
 
+- [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/u1JZkGltjxUvs2c4xSvPYw)
 - [56 个 JavaScript 实用工具函数助你提升开发效率](https://mp.weixin.qq.com/s/jJ1bowDBsRBuCk-oyUPE-Q)
 - [这 16 种原生函数和属性的区别](https://mp.weixin.qq.com/s/1Byb0gtmPvX6-akIrlqMHg)
 - [阅读 axios 源码，发现了这些实用的基础工具函数](https://mp.weixin.qq.com/s/bFmRDNDNj2qXyWT_6eTDtg)
@@ -366,6 +367,7 @@
 
 #### Vue 3
 
+- [vue3 中可以帮助你早点下班的 9 个开发技巧](https://mp.weixin.qq.com/s/Z2fFAdJeOeahUmO6_MDLOg)
 - [还不会 Vue3 ？一篇笔记带你快速入门](https://mp.weixin.qq.com/s/GZG5TPuYRDUYAlPdjkbNYw)
 - [10 个小练习，快速入门 Vue3 核心新特性](https://mp.weixin.qq.com/s/wdw77mRplCukQzTuHW2U4g)
 - [从 Vue2 转换到 Vue3](https://mp.weixin.qq.com/s/QHYOtxlpRkBJyzNQCXTiBA)
