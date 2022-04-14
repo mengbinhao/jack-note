@@ -1,3 +1,7 @@
+- 2022.4.14
+  - stripe n/vt
+  - runoff n/adj
+
 - 2022.4.12
   > It's defined as xxx
   > The rapid raise in prices for the things we buy has grown by its fastest pace in 40 years
@@ -2799,6 +2803,7 @@
   - purge n/vt
   - surge n/vi
   - insurgent n/adj | insurgency n
+  - resurgence n
   - surgery n | surgeon n
 
   > the fear of a second spike
@@ -3147,7 +3152,6 @@
   - infect vt | infectious adj | infection
   - dodge n/v
   - versus prep
-  - monger n/vt
   - consume vt | consumer n | consumption n
   - consummate vt/adj
 
@@ -3751,7 +3755,6 @@
   > he's not in good shape at home
 
 - 2019.12.23
-  - arrogant adj
   - expire n/v
   - hinder v
   - asshole n
@@ -3771,7 +3774,6 @@
   - silly adj
   - basis n | baseless adj
   - basement n
-  - resurgence n
   - district n
   - acquiesce n/vi/adj
   - insane adj
@@ -4243,7 +4245,7 @@
   - toll n/vt
   - vague adj | vaguely
   - empower vt
-  - occupation n | occupy v
+  - occupy v | occupation n
   - mad adj | madness n
   - intend v | intended adj | unintended adj
 
@@ -4656,7 +4658,7 @@
 
 - 2019.9.17
   - narrow n/v/adj | narrowly adv
-  - resentment n
+  - resent vt | resentment n
   - poke n/v
   - energize vt
   - poster n | postal adj
