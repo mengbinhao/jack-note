@@ -1,3 +1,6 @@
+- 2022.4.15
+  - possible | impossible
+
 - 2022.4.14
   - stripe n/vt
   - runoff n/adj
@@ -5088,7 +5091,6 @@
 - 2019.7.31
   - testify v
   - bomb n/v | bombshell n | bomber
-  - congressional adj
   - collegial adj
   - despite prep/n
   - briefing n | brief n/vt/adj | briefly adv
