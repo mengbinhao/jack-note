@@ -1,3 +1,10 @@
+- 2022.4.18
+  - radiate v | radiation
+  - dazzle n/v
+  - particle n
+  - filament n/adj
+  - coronal n/adj
+
 - 2022.4.15
   - possible | impossible
 
@@ -1568,6 +1575,7 @@
 
 - 2020.12.17
   - roam n/v
+  - eject vt | ejection
   - reject | rejection
 
 - 2020.12.16
@@ -1932,8 +1940,6 @@
   - profession | professional
 
 - 2020.9.15
-  - magnetic adj
-
   > I need soften the language here
   > His tone alternates between taking accountability for his own behavior and trying to describe what he found so magnetic in Trump
 
@@ -2069,9 +2075,6 @@
   - muse v
   - museum n
   - fold n/v
-
-- 2020.8.24
-  - sphere n/v/adj | hemisphere n
 
 - 2020.8.23
   - nightfall n
@@ -2317,7 +2320,6 @@
 - 2020.7.21
   - induce vt
   - scheme n/v
-  - magnet n
   - suicide n/vt/adj
 
   > this case has generated a ton of public interest
@@ -4235,7 +4237,7 @@
   - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt | compelled adj
-  - consistent adj | consistently adv
+  - consist vi | consistent adj | consistently adv
   - distrust n/vt | mistrust n/vt
   - norm n
 
@@ -5406,6 +5408,7 @@
   - crack n/adj/v
   - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
   - circumstance n | circumspect adj | circumstantial adj
+  - magnet | magnetic adj | geomagnetic
   - atmosphere n | atmospheric adj
   - ban vt | banner n
   - suffer v | undergo vt
