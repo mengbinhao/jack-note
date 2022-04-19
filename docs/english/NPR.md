@@ -1,3 +1,6 @@
+- 2022.4.19
+  > Is there a silver lining to this?
+
 - 2022.4.18
   - radiate v | radiation
   - dazzle n/v
@@ -223,7 +226,6 @@
 - 2021.12.23
   - rehearsal n
   - interrupt v | interrupted
-  - bulletin n/vt
 
 - 2021.12.21
   - enhance vt | enhancement
@@ -1176,7 +1178,7 @@
 
 - 2021.3.15
   - chord n
-  - manage v | manageable
+  - manage v | manageable adj
   - broadcast n/v
 
   > The broadcast has struck in such a chord here in the US
@@ -4516,6 +4518,7 @@
   - jam n/vt | jamming n
   - spew n/v
   - bullet n
+  - bulletin n/vt
   - explanation n
   - vulnerable adj | vulnerability n
   - lapse n/vi
