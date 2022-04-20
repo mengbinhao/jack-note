@@ -1,3 +1,11 @@
+- 2022.4.20
+  - jump n/v | hop n/v
+  - flux n
+
+  > xxx will pay 5200 more this year that it did last year for the exact same things
+  > the increase in price is greater than the additional money in their pockets
+  > In normal times, you would be screaming from the rooftops
+
 - 2022.4.19
   > Is there a silver lining to this?
 
@@ -2945,7 +2953,7 @@
 
 - 2020.4.20
   - bunch n/v
-  - trend n
+  - trend n/vi
   - rapid adj | rapidly adv
   - surpass vt
 
@@ -5058,7 +5066,7 @@
   - complicate | complicated adj
   - produce n/vt
   - proceed vi/n | proceeding n
-  - measured
+  - measure | measured | measurement
   - brake n/v
   - ballistic adj
   - stability | instability n
@@ -5226,7 +5234,7 @@
   - compromise n/v
   - reservation n
   - opt vi
-  - stumble n/vt | stumbling adj | tumble n/vi
+  - stumble n/vt | tumble n/vi
   - gradual adj | gradually
 
   > you mentioned an election will happen down the road
