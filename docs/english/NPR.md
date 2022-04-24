@@ -1003,7 +1003,6 @@
   - solidify v | solidarity n | consolidate v
   - melt n/v
   - adversary | adversarial
-  - stable n/adj
 
   > It doesn't expect for those to go away overnight
 
@@ -1046,7 +1045,6 @@
   - glory n/vi
   - theatre n
   - recede v
-  - precede vt
   - phrase n/vt
   - pint n
 
@@ -1581,7 +1579,6 @@
 
 - 2020.12.18
   - relent adj | relentless n
-  - commend v
 
 - 2020.12.17
   - roam n/v
@@ -1659,7 +1656,6 @@
   - soccer n
   - glimpse n/vi
   - annual n/adj
-  - sacred adj
   - barometer n
   - pardon n/vt
 
@@ -3807,7 +3803,6 @@
 - 2019.12.19
   - enlist v
   - justify vt | justification n | justifiable
-  - recommend v | recommendation n
   - eavesdrop vi
   - cavalier adj
   - petition n/v
@@ -3950,7 +3945,6 @@
   - defeat n/vt
   - medal n
   - resonate v | resonance n | resonant adj
-  - stab n/vt
 
   > Both described as very thoughtful,compassionate and having bright future
   > but it could have been much worse
@@ -4305,6 +4299,7 @@
 
 - 2019.10.17
   - typhoon n | hurricane n | cyclone n
+  - sacred adj
   - scary adj | scare n/v/adj
   - scar n/vt
   - scarce adj/adv
@@ -4657,6 +4652,7 @@
   - gorgeous adj
   - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | wondrous
   - credible adj
+  - precede vt
   - precedent n/adj | unprecedented adj
   - installation n
   - barrel n/v
@@ -4733,6 +4729,9 @@
   - blow n/v
   - deadlock n/vt | impasse n
   - momentous adj
+  - commend v
+  - recommend v | recommendation n
+  - mend v
   - amend v | amendment n
   - compete vi | competing adj | competitive adj | competitor n | competition n
   - competent adj | incompetent adj | competence n | incompetence n
@@ -5045,7 +5044,6 @@
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
   - revenge n/v | retaliate vi | retaliatory adj | retaliation n
-  - mend v
   - fence n/v
 
 - 2019.8.12
@@ -5069,6 +5067,8 @@
   - measure | measured | measurement
   - brake n/v
   - ballistic adj
+  - stab n/vt
+  - stable n/adj
   - stability | instability n
   - stabilize v | destabilize vt
   - sleepwalking n
