@@ -1,3 +1,10 @@
+- 2022.4.25
+  - in'finitive | sub'junctive | The present/past 'participle | the helping verb
+  - inter'mediate
+  - adjacent adj
+
+  > They weren't laid off or fired
+
 - 2022.4.20
   - jump n/v | hop n/v
   - flux n
@@ -2526,7 +2533,7 @@
   > its unusual approach is sure to remain in the spotlight
 
 - 2020.6.16
-  - character n | characterization n | characterize vt
+  - character n | characterization n | characterize vt | characteristic adj/n
 
   > What are the big takeaways?
   > His job approval rating is at 41%
