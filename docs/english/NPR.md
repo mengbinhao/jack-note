@@ -1,3 +1,20 @@
+- 2022.5.6
+  - union n | unionize
+  - crust n/v
+  - patent vt/adj/n
+  - courtyard n
+  - notice n/v | noticeable
+  - obstacle n
+  - exterior adj
+  - sigh n/v
+  - deprive vt
+
+  > we study this in depth
+  > They held their nose and voted for five more years of Macron
+  > We are more determined than ever
+  > It would have been a huge blow to the bloc at such a crucial time
+  > So that is dragging on
+
 - 2022.4.25
   - in'finitive | sub'junctive | The present/past 'participle | the helping verb
   - inter'mediate
@@ -3120,7 +3137,7 @@
 - 2020.3.31
   - inhibit vt
   - tangle n/v | tangled adj
-  - contest n/v | contestant n
+  - contest n/v | contestant n | contested
 
   > Let's get right to the heart of this
   > It was intended to be a sequenced process
@@ -3812,7 +3829,6 @@
   - justify vt | justification n | justifiable
   - eavesdrop vi
   - cavalier adj
-  - petition n/v
   - bias n/vt/adj/adv | biased adj
   - worthwhile adj
   - exclamation n
@@ -4087,7 +4103,7 @@
   > turn back on them
   > sort of seen
 - 2019.11.7
-  - acknowledge vt
+  - acknowledge vt | acknowledged
   - guerrilla n
   - mercenary n
   - repulse n/vt
@@ -4740,6 +4756,7 @@
   - recommend v | recommendation n
   - mend v
   - amend v | amendment n
+  - petition n/v
   - compete vi | competing adj | competitive adj | competitor n | competition n
   - competent adj | incompetent adj | competence n | incompetence n
   - trick n | tricky adj
@@ -4930,7 +4947,7 @@
   - disturb v | disturbed | disturbing adj
   - disrupt vt | disruptive adj | disruption n
   - spark n/v
-  - seamless adj
+  - seam | seamless adj
   - genuine adj | genuinely adv
   - worse-case
 
@@ -4953,7 +4970,7 @@
   - tension n
   - combine v | combined adj | combination n
   - ominous adj
-  - curve n/vt
+  - curve n/vt | curved
   - decent adj | decency n
   - retire v | retirement n
   - drama n | dramatic adj | dramatically adv | overdramatize vt
@@ -4974,7 +4991,7 @@
   > it's often seen as xxxxx
 
 - 2019.8.19
-  - consult v | consulting adj | consultant | consultancy
+  - consult v | consulting adj | consultant | consultancy | consultation
   - consul n | consulate n
   - stooge n
   - emerge vi | emerging adj | emergence n | reemerge
