@@ -1,7 +1,19 @@
+- 2022.5.10
+  - curriculum n
+  - respondent n
+
+  > This rosy view is a bit at odds with what we know from test scores and attendance
+  > A lot of children do have learning to catch up on
+  > xxx, but when you zoom in closer, xxx
+  > more than 4 our 5 said xxx
+  > more than three-quarters of respondents agreed xxx
+  > In each of those cases, It was fewer 1 in 5 parents who told us, I'm concerned
+  > about 1 in 3 in each case said they don't know
+  > What pronouns do you prefer to use to refer to yourself?
+
 - 2022.5.9
   - buzz v/n
   - ownership n
-  - tremendous
 
 - 2022.5.7
   > We need contribute xxx to make their courage and sacrifice have purpose
@@ -2815,7 +2827,7 @@
   - sake n
   - amplify v
   - unequivocally  adv
-  - sexually adv | sexual adj
+  - sexually adv | sexual adj | sexuality
   - admire v | admiration n | admirer
   - recognise vt
   - recognize vt | recognition n
