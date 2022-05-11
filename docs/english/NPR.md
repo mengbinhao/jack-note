@@ -1,3 +1,8 @@
+- 2022.5.11
+  > The cost of living in America has gone up significantly over the past year as prices on the things we buy have reminiscent
+  > The thinking goes that xxx
+  > That's what's behind its decision on Wednesday to raise interest rates
+
 - 2022.5.10
   - curriculum n
   - respondent n
@@ -1948,7 +1953,7 @@
   > That could mean putting an end to xxx
 
 - 2020.9.24
-  - prevent v | preventable adj | prevention n | hamper nt/n | preventive
+  - prevent v | preventable adj | prevention n | hamper vt/n | preventive
   - pretend v
   - faulty adj
 
