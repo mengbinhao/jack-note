@@ -1,3 +1,6 @@
+- 2022.5.12
+  - reproductive adj
+
 - 2022.5.11
   > The cost of living in America has gone up significantly over the past year as prices on the things we buy have reminiscent
   > The thinking goes that xxx
