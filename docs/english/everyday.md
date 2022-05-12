@@ -1,14 +1,15 @@
 - 加班
   > I am working late [tonight]
   > The project ended up being a lot more work than we expected. We had to **work overtime** for a few weeks to make deadlines（描述已经加班或总加班）
-  > I was making up all these scenarios in my mind, My imagination was working overtime
+  > I was making up all these scenarios in my mind, My imagination was working overtime（想象放飞）
   > Do you offer overtime?
-  > If you want to be a doctor, expect to **work long hours**
-  > I am trying to pick up more shifts to cover my expenses
-  > I need to cover for her tomorrow
+  > If you want to be a doctor, expect to **work long hours** （总加班）
+  > I am trying to pick up [extra shift] | more shifts to cover my expenses
+  > I need to cover for sb tomorrow
 
 
 - 2020.2.20
+  
   - how to cancel plans?
   > I'm sorry, but I'm going to have to cancel xxx
   > I won't be able to make xxx
