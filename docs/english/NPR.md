@@ -4351,8 +4351,10 @@
 
 - 2019.10.17
   - typhoon n | hurricane n | cyclone n
+  - acre n
   - sacred adj
-  - scary adj | scare n/v/adj
+  - massacre n/vt
+  - scary adj | scare n/v/adj | scared v/adj
   - scar n/vt
   - scarce adj/adv
   - scarf n
@@ -5100,7 +5102,6 @@
   - fence n/v
 
 - 2019.8.12
-  - massacre n/vt
   - legislation n | legislature n | legislator n
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - handful n
