@@ -1,4 +1,9 @@
 - 2022.5.12
+  - canteen n
+  - ballet n
+  - bark n/v
+
+- 2022.5.12
   - reproductive adj
 
 - 2022.5.11
@@ -3597,7 +3602,7 @@
   - shrapnel n
   - grieve v | grieving adj | grievance n
   - furious adj | fury n
-  - assassination n | assassinate vt | assassin
+  - assassinate vt | assassination n | assassin
   - honor n/vt | dishonor n/vt
   - cruise n/v
   - investigator n | investigation | investigate vt | investigative adj
