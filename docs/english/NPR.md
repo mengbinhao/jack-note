@@ -1,3 +1,14 @@
+
+- 2022.5.16
+  - brainwash n/v | whitewash n/vt
+  - dynasty n
+  - uprise n/vi
+  - front-runner
+
+  > Filipinos took it in stride because it's a watershed election
+  > and ever since
+  > What that illustrates is how facts just don't seem to matter here
+
 - 2022.5.12
   - canteen n
   - ballet n
@@ -2685,6 +2696,7 @@
 
 - 2020.6.3
   - align v | alignment | realignment
+  - malign vt/adj
   - boast n/vt
   - contrive v
   - greet vt
@@ -4430,7 +4442,6 @@
   - approve v | disapprove v | approval n
   - outcry n
   - displace vt | displaced adj | place n/vt | displacement n
-  - strident adj
   - volatile adj
 
   > on behalf of
@@ -4658,6 +4669,7 @@
 - 2019.9.23
   - modest adj
   - stride n/vt
+  - strident adj
   - blast n/v | blasted adj | blasting
   - notable n/adj | notably adv
   - architect n
@@ -4818,7 +4830,7 @@
   - rover n
   - pole n
   - approach n/v
-  - narrate v | narrative n/adj | narration
+  - narrative n/adj
   - orbiter n | orbit n/v
   - excite v | excitement n
   - eerily adv
@@ -5008,7 +5020,7 @@
   - ominous adj
   - curve n/vt | curved
   - decent adj | decency n
-  - retire v | retirement n
+  - retire v | retirement n | retiree
   - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
   - grovelling adj
