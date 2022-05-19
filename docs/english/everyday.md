@@ -1,3 +1,13 @@
+- 下贱
+  > clout chaser
+  > doing sth for the clout
+  > xxx is pathetic, she is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)
+
+- 其他
+  > Don't comment on your coworkers appearance
+  > Your comment/behavior/remark is extremely misogynistic/racist/inappropriate
+  > If you don't apologize or change your behavior, I'm going to have a talk with HR
+
 - 加班
   > I am working late [tonight]
   > The project ended up being a lot more work than we expected. We had to **work overtime** for a few weeks to make deadlines（描述已经加班或总加班）

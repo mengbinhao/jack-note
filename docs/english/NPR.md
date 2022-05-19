@@ -1,3 +1,10 @@
+- 2022.5.19
+  - console n/vt
+  - vein n
+  - solitary adj
+
+  > but the downside is xxx
+
 - 2022.5.16
   - brainwash n/v | whitewash n/vt
   - dynasty n
