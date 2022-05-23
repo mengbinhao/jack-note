@@ -298,9 +298,6 @@
   - accident n
   - dolphin n
 
-- 2021.12.27
-  - ecosystem n
-
 - 2021.12.25
   - pinch v/n
 
@@ -2918,6 +2915,7 @@
 
 - 2020.5.6
   - provoke vt | incite vt | incitement n | unprovoked
+  - cite vt | recite v
   - vessel n
   - restore v | restoration
   - enterprise n
@@ -2934,6 +2932,7 @@
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
+  - ecosystem n
   - profit n/v | nonprofit adj | profitable adj
   - trove n
   - corpse n
@@ -5421,7 +5420,6 @@
   - federal adj/n
   - appoint v | appointed adj | appointment n | appointee n
   - disappoint vt | disappointed | disappointment n
-  - cite vt | recite v
   - inflation | deflation n
   - resist v | resistance n | resistible | irresistible adj | resistant n/adj
   - sustain vt | sustainable adj | sustained adj | unsustainable
