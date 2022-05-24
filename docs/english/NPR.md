@@ -1,3 +1,6 @@
+- 2022.5.24
+  - gloomy adj
+
 - 2022.5.19
   - console n/vt
   - vein n
@@ -3056,7 +3059,6 @@
   - subtle adj
   - hug n/v
   - adequate adj | adequately | inadequate | inadequately
-  - painkiller n
   - changer n
 
 - 2020.4.16
@@ -3157,7 +3159,6 @@
 
 - 2020.4.2
   - nudge n/v
-  - cocaine n
 
   > It remains to be seen what sort of impact this is going to xxx
 
