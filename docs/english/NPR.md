@@ -7,6 +7,7 @@
   - solitary adj
 
   > but the downside is xxx
+  > As of now
 
 - 2022.5.16
   - brainwash n/v | whitewash n/vt
@@ -181,7 +182,6 @@
 
 - 2022.3.22
   - butt n
-  - crash n/v
   - library n
   - massage n
   - jungle n
@@ -1894,7 +1894,7 @@
 
 - 2020.10.26
   - mess n/vt | messy adj
-  - confine n/vt | confinement n | coop v
+  - confine n/vt | confined | confinement n | coop v
 
 - 2020.10.23
   - breeze n/vi
@@ -2736,6 +2736,7 @@
 
 - 2020.5.29
   - recusal n
+  - crash n/v
   - trash n/vt | garbage n | rubbish n/v/adj
   - rash n/adj
   - endure v
@@ -3328,7 +3329,7 @@
   - abundance n
   - quarantine n/vt
   - parliament n
-  - bump n/v | bumpy adj
+  - bump n/v/adv | bumpy adj
   - reconcile vt
 
   > that's the name of the game
@@ -4160,7 +4161,6 @@
   - mercenary n
   - repulse n/vt
 
-  > as of now
 - 2019.11.5
   - resolution n | solution
   - phase n
@@ -5509,7 +5509,6 @@
 
 - 2019.6.27
   - stock n/v/adj | stockholder n
-  - stockpile n/vt
   - enrich v | enriched adj | enrichment n
   - altogether adv
   - reactor adv | react | reaction | action | inaction | interaction n
