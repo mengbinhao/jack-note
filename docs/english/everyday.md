@@ -1,11 +1,26 @@
+- 开门/关门
+  > What are you [store] hours [today]?
+  > We're open from 10-5 on week days, On the weekend is 1-5
+  > When/What time do you close today/tonight?
+  > How late are you open?
+  > What time are you open until? I need to return an item I got and I won't get off work until 8pm
+  > When/What time are you open?
+  > Are you open everyday?
+  > Are you open on weekend?
+
+- 神
+  > atheist
+  > eloquent
+  > I am not religious, but I respect all religion
+
 - 下贱
   > clout chaser
   > doing sth for the clout
-  > xxx is pathetic, she is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)
+  > **Jack is pathetic, He is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)**
 
 - 其他
   > Don't comment on your coworkers appearance
-  > Your comment/behavior/remark is extremely misogynistic/racist/inappropriate
+  > Your comment/behavior/remark is extremely inappropriate/misogynistic/racist
   > If you don't apologize or change your behavior, I'm going to have a talk with HR
 
 - 加班
