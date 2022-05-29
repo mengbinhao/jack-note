@@ -1,9 +1,13 @@
+- 2022.5.24
+  - gloomy adj
+
 - 2022.5.19
   - console n/vt
   - vein n
   - solitary adj
 
   > but the downside is xxx
+  > As of now
 
 - 2022.5.16
   - brainwash n/v | whitewash n/vt
@@ -178,7 +182,6 @@
 
 - 2022.3.22
   - butt n
-  - crash n/v
   - library n
   - massage n
   - jungle n
@@ -297,9 +300,6 @@
   - mammal n
   - accident n
   - dolphin n
-
-- 2021.12.27
-  - ecosystem n
 
 - 2021.12.25
   - pinch v/n
@@ -1894,7 +1894,7 @@
 
 - 2020.10.26
   - mess n/vt | messy adj
-  - confine n/vt | confinement n | coop v
+  - confine n/vt | confined | confinement n | coop v
 
 - 2020.10.23
   - breeze n/vi
@@ -2736,6 +2736,7 @@
 
 - 2020.5.29
   - recusal n
+  - crash n/v
   - trash n/vt | garbage n | rubbish n/v/adj
   - rash n/adj
   - endure v
@@ -2918,6 +2919,7 @@
 
 - 2020.5.6
   - provoke vt | incite vt | incitement n | unprovoked
+  - cite vt | recite v
   - vessel n
   - restore v | restoration
   - enterprise n
@@ -2934,6 +2936,7 @@
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
+  - ecosystem n
   - profit n/v | nonprofit adj | profitable adj
   - trove n
   - corpse n
@@ -3057,7 +3060,6 @@
   - subtle adj
   - hug n/v
   - adequate adj | adequately | inadequate | inadequately
-  - painkiller n
   - changer n
 
 - 2020.4.16
@@ -3158,7 +3160,6 @@
 
 - 2020.4.2
   - nudge n/v
-  - cocaine n
 
   > It remains to be seen what sort of impact this is going to xxx
 
@@ -3328,7 +3329,7 @@
   - abundance n
   - quarantine n/vt
   - parliament n
-  - bump n/v | bumpy adj
+  - bump n/v/adv | bumpy adj
   - reconcile vt
 
   > that's the name of the game
@@ -4160,7 +4161,6 @@
   - mercenary n
   - repulse n/vt
 
-  > as of now
 - 2019.11.5
   - resolution n | solution
   - phase n
@@ -5421,7 +5421,6 @@
   - federal adj/n
   - appoint v | appointed adj | appointment n | appointee n
   - disappoint vt | disappointed | disappointment n
-  - cite vt | recite v
   - inflation | deflation n
   - resist v | resistance n | resistible | irresistible adj | resistant n/adj
   - sustain vt | sustainable adj | sustained adj | unsustainable
@@ -5510,7 +5509,6 @@
 
 - 2019.6.27
   - stock n/v/adj | stockholder n
-  - stockpile n/vt
   - enrich v | enriched adj | enrichment n
   - altogether adv
   - reactor adv | react | reaction | action | inaction | interaction n
