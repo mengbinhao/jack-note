@@ -1,3 +1,7 @@
+- 2022.5.30
+  - atheist n
+  - eloquent adj
+
 - 2022.5.24
   - gloomy adj
 
@@ -8,6 +12,7 @@
 
   > but the downside is xxx
   > As of now
+  > xxx at every turn
 
 - 2022.5.16
   - brainwash n/v | whitewash n/vt
@@ -4577,7 +4582,6 @@
   - budge v
   - budget n/vt
   - deficit n
-  - bashful adj
   - wasteful adj
   - efficient adj | inefficient
   - welfare n | fare n
