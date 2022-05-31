@@ -1,3 +1,12 @@
+- 2022.5.31
+  - brittle adj
+  - harbor n
+
+  > as demand outpaces supply
+  > xxx get passed on to the consumer
+  > xxx have to pass it on to the consumer
+  > people shop around more
+
 - 2022.5.30
   - atheist n
   - eloquent adj
@@ -458,7 +467,7 @@
 - 2021.10.21
   - chunk n
   - component n
-  - petroleum n | gasoline n | gallon n
+  - petroleum n | gasoline n | gallon n | diesel n/adj
 
 - 2021.10.20
   - casual adj
@@ -944,7 +953,6 @@
 
 - 2021.5.24
   - solar n/adj
-  - diesel n/adj
 
   > There is a window of opportunity
   > It really gets attention in a lot of corners
@@ -1087,7 +1095,6 @@
   > It doesn't expect for those to go away overnight
 
 - 2021.4.20
-  - discharge n/v
   - tank n/v
   - perception n
 
@@ -5246,7 +5253,7 @@
   - pathetic adj
   - footage n
   - dis adj
-  - recharge vt
+  - recharge vt | surcharge n/vt | discharge n/v
   - controversy n | controversial adj
   - intellect n | intelligence n | intellectual n/adj | intelligent adj
 
