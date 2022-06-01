@@ -1,3 +1,11 @@
+- 2022.6.1
+  - infant n
+  - Atlantic n/adj
+
+  > xxx's working around the clock to get it to people in need
+  > take action
+  > to some extend
+
 - 2022.5.31
   - brittle adj
   - harbor n
