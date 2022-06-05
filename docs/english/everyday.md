@@ -1,3 +1,75 @@
+- 包容
+  > Accept and lice with each other's flaws
+
+- 我走了
+  > I'm leaving
+  > I gotta go
+  > I gotta get going
+  > I'm heading out
+
+- 我出去了
+  > I'm out today
+  > I'm out for the day
+  > I'm out of town
+  > I'm not in town
+
+- 涨价
+  > Gas is up again today
+  > Gas went up 50 cents overnight
+  > Gas price jumped 50 cents overnight
+  > They raised the price on groceries
+  > Gas price is still climbing
+  > skyrocket / blow up
+  > surge / soar
+  > Groceries keep surging/soaring
+  > Groceries are still surging/soaring
+  > Groceries continue to surge/soar
+  > doubled / tripled / quadrupled
+
+- 下班了
+  > I'm out of work 失业
+  > I just got [out] off work
+  > I'm getting off [work] at 6 [o'clock] today
+  > I'll meet you there when I get off work
+  > I'm off
+  > I'm just leaving work now. I'll see you there ib 20 [minutes]
+  > I just got done with work
+  > I'm done for the day
+  > I'm just finishing up [work right now]
+
+- 欺负人
+  > prey on the weak
+  > Stop preying on the weak
+  > Stop/You're taking it out on me
+  > I don't deserve this
+  > I deserve better
+  > Stop picking on me/teasing me/mess with me
+  > cut it out
+  > pick one sb 针对谁
+  > You are doing on purpose
+
+- 人太多
+  > too many people (我觉得太多不好)
+  > This place is too crowded/busy
+  > This place is packed/jam-packed 满员了
+  > This place is filled up
+  > This place is crammed
+
+- 挂电话
+  > I'am hanging up now. I don't wanna talk to you anymore
+  > I'am hanging up now. Is there anything else you'd like to talk about?
+  > It was really nice talking to you. I'll let you go now
+  > I gotta go
+  > I gotta call you back. Something's come up
+
+- 内卷
+  > I'm/I feel stuck in the rat race
+  > doing perpetual work with no way out
+  > No matter how hard you work, someone out there is working harder than you
+  > No matter how much resources and how many connections you've built through years of hard work, someone out there is already born into it
+  > born into something(wealth/high society)    x二代
+  > They have more connections and resources at their disposal than you
+
 - 开门/关门
   > What are you [store] hours [today]?
   > We're open from 10-5 on week days, On the weekend is 1-5
@@ -14,14 +86,11 @@
   > I am not religious, but I respect all religion
 
 - 下贱
-  > clout chaser
-  > doing sth for the clout
-  > **Jack is pathetic, He is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)**
+  > people pleaser 讨好别人
+  > clout chaser  只为了追逐名利而讨好他人
+  > doing sth for the clout 为名利做某事
+  > **Jack is so pathetic, He is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)**
 
-- 其他
-  > Don't comment on your coworkers appearance
-  > Your comment/behavior/remark is extremely inappropriate/misogynistic/racist
-  > If you don't apologize or change your behavior, I'm going to have a talk with HR
 
 - 加班
   > I am working late [tonight]
@@ -33,8 +102,34 @@
   > I need to cover for sb tomorrow
 
 
+- 其他
+  > Don't comment on your coworkers appearance
+  > Your comment/behavior/remark is extremely inappropriate/misogynistic/racist
+  > If you don't apologize or change your behavior, I'm going to have a talk with HR
+  > It feels like a roller coaster
+  > get around 出门/外出
+  > public transport
+  > Something's gross
+  > Something makes me self-conscious
+  > unheard of
+  > I've heard so much about you. only good things I hope
+  > It's so great to finally put a face to the name. I know. It's been a long time coming
+  > I don't condone violence in any capacity
+  > I was sicken/disgusted/repelled by the standing ovation
+  > I fell like Hollywood is spineless
+  > I gonna be ubiquitous
+  > It cast a pall over everyone's shinning moment
+  > Prior to the role of marketing manager, I worked as ... for 5 years
+  > I have 10 years of experience in xxx, During the past 10 yeas, I was lucky to have participated/ be part of many cool/exiting/groundbreaking projects
+  > One of the most lessons I've learned in the past 10 years of being in this field is that effective communication is the key to the success of any projects
+  > I know you're looking for who can effective manage this team, I believe that I align with what you're looking for
+  > I've always been interested in this field
+  > Ever since I can remember, fashion has been something that interested me, I mean I live and breath this stuff
+  > One thing that you should know about me is that xxx
+  > I came from a family of 3
+
+
 - 2020.2.20
-  
   - how to cancel plans?
   > I'm sorry, but I'm going to have to cancel xxx
   > I won't be able to make xxx
