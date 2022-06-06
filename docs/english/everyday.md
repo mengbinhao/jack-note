@@ -1,3 +1,20 @@
+- hobby
+  > What do you like to do in ur free time?
+  > What is ur favorite/top 3 movie?
+  >
+- show
+  > This show has a cult following
+  > This show peaked in season one, The ending was anticlimactic, S3 was just utterly unwatchable
+  > This show has a lot of plot holes
+  > The story is not coherent
+  > It has a really good opening.It was very enticing. Then it became repetitive
+  > The show got really repetitive and a little predictable, so I dropped it
+  > I binge watched the entire season of squid game
+- me too
+  > So do I
+  > likewise
+  > same
+
 - 包容
   > Accept and live with each other's flaws
 
@@ -127,6 +144,10 @@
   > Ever since I can remember, fashion has been something that interested me, I mean I live and breath this stuff
   > One thing that you should know about me is that xxx
   > I came from a family of 3
+  > You should put one more layers
+  > You might wanna loose that jacket
+  > What do you do for a living? What line of work are you in?
+  
 
 
 - 2020.2.20

@@ -4883,7 +4883,7 @@
 - 2019.9.10
   - mental adj
   - ramblings n
-  - incoherent adj
+  - coherent adj | incoherent adj
   - alcohol n
   - tobacco n | cigarette n
   - mourn v
@@ -5473,7 +5473,6 @@
   - conciliatory adj
   - tactic n | tactical adj
   - hawkish adj
-  - coherent adj
   - assume v | assumption n
   - credibility n
   - suspicion n | suspicious adj
