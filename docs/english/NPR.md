@@ -5,6 +5,7 @@
   > xxx's working around the clock to get it to people in need
   > take action
   > to some extend
+  > All of this has xxx on edge
 
 - 2022.5.31
   - brittle adj
@@ -2741,7 +2742,6 @@
   - dictate n/v
   - flat n/adj/adv | flatten v
   - flatter vt
-  - mogul n
   - consecutive adj
 
   > while the media deals with nonsense, I will continue to lead Israel on the issue that really matter to you
@@ -3942,7 +3942,7 @@
   - orgasm n
 
 - 2019.12.16
-  - riddle n/v
+  - riddle n/v | riddled adj
   - inspire vt
   - awe n/vt
   - quest n/v
