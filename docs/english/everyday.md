@@ -1,5 +1,5 @@
 - 包容
-  > Accept and lice with each other's flaws
+  > Accept and live with each other's flaws
 
 - 我走了
   > I'm leaving
