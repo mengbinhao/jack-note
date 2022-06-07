@@ -1,7 +1,18 @@
+- salary
+  > Hi, xxx, I hope you're having a great day. It's been almost two years since I started working here. I really enjoyed working here and I look forward to many more years to come. I'd like to set up a meeting with you to talk about my salary situation
+  > I would like to request a pay raise by five percent, which would put my compensation in line with industry standard
+  > When I first got started on my position, I was responsible for A,B and C. I successfully completed all these tasks, and now I have picked up A and B, And I believe I'm doing a good job on it, I say this because I have achieved this and this
+  > I've done a little bit of research on my own
+  > I found that market compensation for people in my position with similar years of experience are in this range
+  > I'd like to be somewhere in the middle
+  > I think a raised by five percent is appropriate
+  > I love working here and I like to stay with this company, but can you level with me as to my future prospects here in this company?
+  > I'd like to revisit this conversation in three to six months. In the meanwhile, could you tell me what would merit this raise?
+
 - hobby
   > What do you like to do in ur free time?
   > What is ur favorite/top 3 movie?
-  >
+
 - show
   > This show has a cult following
   > This show peaked in season one, The ending was anticlimactic, S3 was just utterly unwatchable
@@ -10,6 +21,7 @@
   > It has a really good opening.It was very enticing. Then it became repetitive
   > The show got really repetitive and a little predictable, so I dropped it
   > I binge watched the entire season of squid game
+
 - me too
   > So do I
   > likewise
@@ -118,7 +130,6 @@
   > I am trying to pick up [extra shift] | more shifts to cover my expenses
   > I need to cover for sb tomorrow
 
-
 - 其他
   > Don't comment on your coworkers appearance
   > Your comment/behavior/remark is extremely inappropriate/misogynistic/racist
@@ -147,8 +158,34 @@
   > You should put one more layers
   > You might wanna loose that jacket
   > What do you do for a living? What line of work are you in?
-  
-
+  > Please help yourself / Make yourself at home
+  > We talked for hours, but it turns out to be all in vain, He didn't understand/remember anything
+  > It was all in vain
+  > Whatever I tell him is in one ear and out the other
+  > All done / done and done / It's all wrapped up!
+  > I finish my part of the project 2 weeks ago
+  > I got done with xxx
+  > I'm done for xxx / I'm finished  我玩完了
+  > I'm done with this project
+  > Regarding this issue, What do you make of that? I want to know your opinion on that
+  > What do you have in mind?
+  > What do you say?
+  > Where do you stand on that?
+  > You got a minute? / Can I talk to you for a sec? Are you busy?
+  > It was at most mediocre / To me he's just an average looking person
+  > I wasn't aware of that
+  > I'll definitely keep that in my mind next time
+  > I wasn't involved in this part of the project. But please let me know the correct way to do/handle this for future reference
+  > I did it that way because...
+  > I this there is some confusion about this.Can you talk about this at a team meeting?
+  > Is the price negotiable at all?
+  > Is there any room for negotiation?
+  > If you could lower the price to 20K out the door, I could do all cash tody
+  > Come on, you got to meet me in the middle here
+  > What's your best offer?
+  > Can you throw this one in?
+  > I saw this from xxx for yyy, If you can price match that for me. I'll buy it from you
+  > Is there any discount if I pay cash?
 
 - 2020.2.20
   - how to cancel plans?

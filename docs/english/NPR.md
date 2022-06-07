@@ -6,6 +6,7 @@
   > take action
   > to some extend
   > All of this has xxx on edge
+  > Evil swept across xxx yesterday. To say the least, xxx has been shaken to its core
 
 - 2022.5.31
   - brittle adj
@@ -885,7 +886,6 @@
 - 2021.6.15
   - presume v | presumption n | presumptive adj | presumably adv
   - scrutinize vt
-  - strict adj
   - upper adj
   - frame n/v/adj
   - gravity n
@@ -1729,7 +1729,7 @@
 - 2020.12.2
   - insulate vt
   - singular n/adj
-  - worship v
+  - worship v | into sth | look up to
   - cast n/v
   - enlarge vi
   - rant v
@@ -3882,7 +3882,6 @@
   - silly adj
   - basis n | baseless adj
   - basement n
-  - district n
   - acquiesce n/vi/adj
   - insane adj
   - knot n/v
@@ -5313,6 +5312,8 @@
   - reserve n/v | preserve n/vt | reserved | unreservedly | reservation
   - retain vt
   - restrict vt | restricted adj | restriction n
+  - strict adj
+  - district n
 
   > he is by no means the only official public servant doing so
   > cover one's ears
