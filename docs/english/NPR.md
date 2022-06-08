@@ -1,3 +1,8 @@
+- 2022.6.8
+  - sensation n
+
+   > It's one of those things that you wouldn't choose to repeat but donn't regret
+
 - 2022.6.1
   - infant n
   - Atlantic n/adj
@@ -545,7 +550,7 @@
   - nowadays n
   - mood n
   - cheese n
-  - attach v | attachment
+  - attach v | attachment | attached
   - shaft n
   - escape | escapee
 
@@ -4166,6 +4171,7 @@
   > It has not come to much
 
 - 2019.11.7
+  - cord n/vt
   - accord n/v
   - aggregate n/v/adj
   - tune n/v
@@ -4880,7 +4886,7 @@
   > what many would consider xxx
 
 - 2019.9.10
-  - mental adj
+  - mental adj | mentally
   - ramblings n
   - coherent adj | incoherent adj
   - alcohol n
