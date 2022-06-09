@@ -1,3 +1,8 @@
+- 2022.6.9
+  - overlap n/v
+
+  > And those all are set up so that they can chill dissent, silence dissent, and either imprison or drive into exile the people who refuse to be quiet
+
 - 2022.6.8
   - sensation n
 
@@ -2546,7 +2551,6 @@
   > xxx turn the page on yyy, we don't have the final answer on that
 
 - 2020.6.28
-  - snub n/vt/adj
   - conversation n
 
   > at the same time,it takes quite seriously. they say they're going to hold xx responsible for this action
@@ -2733,7 +2737,6 @@
   - contrive v
   - greet vt
   - palace n
-  - subvert vt
   - deride vt
   - erect vt/adj
   - vacant adj | vacancy n
@@ -3564,6 +3567,7 @@
   - agility n | agile adj
   - league n | legend n | legendary
   - jersey n
+  - customize vt
   - personality n | personalize vt | personnel n | personal n/adj | persona n
   - chafe n/v
   - kin n
@@ -5093,7 +5097,7 @@
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj | intensely
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
-  - congratulatory adj | congratulate vt
+  - congratulatory adj | congratulate vt | congratulation n | congrats
   - constitutional adj | unconstitutional | constitution | constitutionally
   - constituent n
   - impunity adj
@@ -5258,7 +5262,7 @@
   - carpet n/vt
   - fuel n/v
   - trembling n
-  - nerve n | nervous adj
+  - nerve n | nervous adj | nervously
   - figure n/vt
   - reveal vt | revelation n
   - exhausting adj | exhausted adj | exhaust v

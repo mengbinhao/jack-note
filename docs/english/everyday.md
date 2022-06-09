@@ -1,3 +1,65 @@
+- learnlearnlearnlearnlearnlearnlearnlearn
+  > Did I use that word right?
+  > Was I making sense?
+  > How would you word that?
+  > Is there a better way to say that?
+  > I have very high tolerance of xxx language, It's like if someone is speaking broken Chinese to me, I can pick up the pieces, find out the most important information in that sentence and make sense on my own
+  > It does not matter how slowly you go, as long as you do not stop
+  > Constantly use the new word in future conversation and form a muscle memory
+  > Don't stay within your own bubble
+
+- 我还在做
+  > We're just fine-tuning/polishing up a few details
+  > We're close to the finish line
+  > We've got the biggest part of the project taken care of
+  > After that it'll be smooth sailing
+  > It's all downhill from there
+
+- 我做完了
+  > All done / done and done / It's all wrapped up!
+  > I finish my part of the project 2 weeks ago
+  > I got done with xxx
+  > I'm done for xxx / I'm finished  我玩完了/混不下去了
+  > I'm done with this project 受够这个项目了
+
+- 你的想法/立场
+  > Regarding this issue, What do you make of that? I want to know your opinion on that
+  > What do you have in mind?
+  > What do you say?
+  > Where do you stand on that?
+
+- 解释自己
+  > I wasn't aware of that
+  > I'll definitely keep that in my mind next time
+  > I wasn't involved in this part of the project. But please let me know the correct way to do/handle this for future reference
+  > I did it that way because...
+  > I this there is some confusion about this.Can you talk about this at a team meeting?
+
+- 纠正某人行为
+  > Don't comment on your coworkers appearance
+  > Your comment/behavior/remark is extremely inappropriate/misogynistic/racist
+  > If you don't apologize or change your behavior, I'm going to have a talk with HR
+  > I'm looking at page 5 of this document you sent me. Something is not quite matching up for me. Can we take a quick look at this part together?
+  > I see that you're xxx, Do you think bringing them early on would help streamline the process?
+  > We ran into a similar problem with the other project we dealt with a couple months back, We've actually dealt with a similar situation a couple months back. I'd be happy to show you how we were able to work that out
+
+- 砍价
+  > Is the price negotiable at all?
+  > Is there any room for negotiation?
+  > If you could lower the price to 20K out the door, I could do all cash today
+  > Come on, you got to meet me in the middle here
+  > What's your best offer?
+  > Can you throw this one in?
+  > I saw this from xxx for yyy, If you can price match that for me. I'll buy it from you
+  > Is there any discount if I pay cash?
+
+- 谁说不是呢
+  > I can't agree with you more
+  > True dat
+  > touche
+  > well said
+  > You said it best
+
 - salary
   > Hi, xxx, I hope you're having a great day. It's been almost two years since I started working here. I really enjoyed working here and I look forward to many more years to come. I'd like to set up a meeting with you to talk about my salary situation
   > I would like to request a pay raise by five percent, which would put my compensation in line with industry standard
@@ -10,8 +72,8 @@
   > I'd like to revisit this conversation in three to six months. In the meanwhile, could you tell me what would merit this raise?
 
 - hobby
-  > What do you like to do in ur free time?
-  > What is ur favorite/top 3 movie?
+  > What do you like to do in your free time?
+  > What is your favorite/top 3 movie?
 
 - show
   > This show has a cult following
@@ -26,9 +88,6 @@
   > So do I
   > likewise
   > same
-
-- 包容
-  > Accept and live with each other's flaws
 
 - 我走了
   > I'm leaving
@@ -109,11 +168,6 @@
   > Are you open everyday?
   > Are you open on weekend?
 
-- 神
-  > atheist
-  > eloquent
-  > I am not religious, but I respect all religion
-
 - 下贱
   > people pleaser 讨好别人
   > clout chaser  只为了追逐名利而讨好他人
@@ -130,23 +184,12 @@
   > I am trying to pick up [extra shift] | more shifts to cover my expenses
   > I need to cover for sb tomorrow
 
-- 其他
-  > Don't comment on your coworkers appearance
-  > Your comment/behavior/remark is extremely inappropriate/misogynistic/racist
-  > If you don't apologize or change your behavior, I'm going to have a talk with HR
-  > It feels like a roller coaster
-  > get around 出门/外出
-  > public transport
-  > Something's gross
-  > Something makes me self-conscious
-  > unheard of
-  > I've heard so much about you. only good things I hope
-  > It's so great to finally put a face to the name. I know. It's been a long time coming
-  > I don't condone violence in any capacity
-  > I was sicken/disgusted/repelled by the standing ovation
-  > I fell like Hollywood is spineless
-  > I gonna be ubiquitous
-  > It cast a pall over everyone's shinning moment
+- 徒劳的
+  > We talked for hours, but it turns out to be all in vain, He didn't understand/remember anything
+  > It was all in vain
+  > Whatever I tell him is in one ear and out the other
+
+- interview
   > Prior to the role of marketing manager, I worked as ... for 5 years
   > I have 10 years of experience in xxx, During the past 10 yeas, I was lucky to have participated/ be part of many cool/exiting/groundbreaking projects
   > One of the most lessons I've learned in the past 10 years of being in this field is that effective communication is the key to the success of any projects
@@ -155,37 +198,36 @@
   > Ever since I can remember, fashion has been something that interested me, I mean I live and breath this stuff
   > One thing that you should know about me is that xxx
   > I came from a family of 3
+
+- 好莱坞打人感想
+  > I don't condone violence in any capacity
+  > I was sicken/disgusted/repelled by the standing ovation
+  > I fell like Hollywood is spineless
+  > I gonna be ubiquitous
+  > It cast a pall over everyone's shinning moment
+
+- 久仰
+  > I've heard so much about you. only good things I hope
+  > It's so great to finally put a face to the name. I know. It's been a long time coming
+
+- 其他
+  > It feels like a roller coaster
+  > get around 出门/外出
+  > public transport
+  > Something's gross
+  > Something makes me self-conscious
+  > unheard of
   > You should put one more layers
   > You might wanna loose that jacket
   > What do you do for a living? What line of work are you in?
   > Please help yourself / Make yourself at home
-  > We talked for hours, but it turns out to be all in vain, He didn't understand/remember anything
-  > It was all in vain
-  > Whatever I tell him is in one ear and out the other
-  > All done / done and done / It's all wrapped up!
-  > I finish my part of the project 2 weeks ago
-  > I got done with xxx
-  > I'm done for xxx / I'm finished  我玩完了
-  > I'm done with this project
-  > Regarding this issue, What do you make of that? I want to know your opinion on that
-  > What do you have in mind?
-  > What do you say?
-  > Where do you stand on that?
   > You got a minute? / Can I talk to you for a sec? Are you busy?
   > It was at most mediocre / To me he's just an average looking person
-  > I wasn't aware of that
-  > I'll definitely keep that in my mind next time
-  > I wasn't involved in this part of the project. But please let me know the correct way to do/handle this for future reference
-  > I did it that way because...
-  > I this there is some confusion about this.Can you talk about this at a team meeting?
-  > Is the price negotiable at all?
-  > Is there any room for negotiation?
-  > If you could lower the price to 20K out the door, I could do all cash tody
-  > Come on, you got to meet me in the middle here
-  > What's your best offer?
-  > Can you throw this one in?
-  > I saw this from xxx for yyy, If you can price match that for me. I'll buy it from you
-  > Is there any discount if I pay cash?
+  > Accept and live with each other's flaws 包容
+  > I am not religious, but I respect all religion
+  > I'm fully aware of what's going on/the situation
+  > absolutely + adj / highly + adj / perfectly normal / reasonably priced / utterly + 不好的adj / widely accepted / deeply offended / actively involved
+
 
 - 2020.2.20
   - how to cancel plans?
