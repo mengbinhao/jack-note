@@ -1,3 +1,17 @@
+- 2022.6.13
+  - lethal adj/n
+  - dove n
+  - ranch n
+
+  > xxx completely put of step with xxx
+  > get rid of
+
+- 2022.6.10
+  - tier n/v
+  - ideal adj/n | idealize v
+
+  > We are doing what we had signaled was likely to happen
+
 - 2022.6.9
   - overlap n/v
 
@@ -295,7 +309,7 @@
 - 2022.2.16
   - bench n
   - raw adj
-  - elevate vt | elevated
+  - elevate vt | elevated | elevation
 
 - 2022.2.15
   - acid n/adj
@@ -4542,6 +4556,7 @@
   - refer v | reference n/vt
   - mention n/vt
   - plea n | plead v | pleading n/adj
+  - pleased adj | displease vt
   - oath n
   - chatty adj
 
@@ -4584,7 +4599,6 @@
 - 2019.10.8
   - perspective n
   - frustrate vt | frustrated adj | frustration n
-  - pleased adj | displease vt
   - thrill n/v | thrilled adj
   - disdain n/vt
   - decisive adj | decisively adv | indecisive adj

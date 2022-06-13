@@ -210,6 +210,11 @@
   > I've heard so much about you. only good things I hope
   > It's so great to finally put a face to the name. I know. It's been a long time coming
 
+- 理想化
+  > We often idealize the life of a celebrity. We expect everything in their lives to be perfect, which is not the case
+  > We romanticized our opponent. We expected them to have a basic understanding if the rules, and we assume that they would follow them
+  > You paint a rosy picture of him and you fail to see any flaw of his
+
 - 其他
   > It feels like a roller coaster
   > get around 出门/外出
@@ -227,6 +232,8 @@
   > I am not religious, but I respect all religion
   > I'm fully aware of what's going on/the situation
   > absolutely + adj / highly + adj / perfectly normal / reasonably priced / utterly + 不好的adj / widely accepted / deeply offended / actively involved
+  > You are in no position to comment on this matter / to make the rules
+  > How dare you? You hae no right to do something
 
 
 - 2020.2.20
