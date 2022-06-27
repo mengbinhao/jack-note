@@ -1,3 +1,7 @@
+- 2022.6.27
+  > but he did stop short of endorsing it until it's all put into writing
+  > xxx weren't going to weight on in it until they see the full bill
+
 - 2022.6.13
   - lethal adj/n
   - dove n
@@ -5556,7 +5560,7 @@
   - altogether adv
   - reactor adv | react | reaction | action | inaction | interaction n
   - headline n/vt
-  - abide vi
+  - abide vi | abiding
   - exert vt
   - dilute vt/adj
 
