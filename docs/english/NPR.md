@@ -1,3 +1,11 @@
+- 2022.6.28
+  - hemisphere n
+  - atmosphere n | atmospheric adj
+  - gigantic adj
+
+  > Is xxx up to the challenge?
+  > You had the sense that it was something quite historic
+
 - 2022.6.27
   > but he did stop short of endorsing it until it's all put into writing
   > xxx weren't going to weight on in it until they see the full bill
@@ -5543,7 +5551,6 @@
   - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
   - circumstance n | circumspect adj | circumstantial adj
   - magnet | magnetic adj | geomagnetic
-  - atmosphere n | atmospheric adj
   - ban vt | banner n
   - suffer v | undergo vt
   - defend v | defensive adj | defendant n
