@@ -166,6 +166,7 @@
 
 ### JS
 
+- [十个关于 Reduce 必须知道的 JavaScript 技巧](https://developer.51cto.com/article/711059.html)
 - [49 个常用的 JavaScript 方法封装](https://mp.weixin.qq.com/s/i7FBCYaVenvrNycfTdtLuQ)
 - [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/u1JZkGltjxUvs2c4xSvPYw)
 - [56 个 JavaScript 实用工具函数助你提升开发效率](https://mp.weixin.qq.com/s/jJ1bowDBsRBuCk-oyUPE-Q)
