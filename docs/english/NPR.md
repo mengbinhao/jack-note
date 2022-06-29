@@ -1,3 +1,8 @@
+- 2022.6.29
+  - appall vt | appalled
+  - embody vt
+  - congress | congressional
+
 - 2022.6.28
   - hemisphere n
   - atmosphere n | atmospheric adj
@@ -5124,7 +5129,7 @@
   - pledge n/vt
   - obligate vt | obligatory adj | obligation n
   - congratulatory adj | congratulate vt | congratulation n | congrats
-  - constitutional adj | unconstitutional | constitution | constitutionally
+  - constitution n | constitutional adj | unconstitutional | constitutionally
   - constituent n
   - impunity adj
   - optimize v
@@ -5553,7 +5558,7 @@
   - magnet | magnetic adj | geomagnetic
   - ban vt | banner n
   - suffer v | undergo vt
-  - defend v | defensive adj | defendant n
+  - defend v | defense n | defensive adj
   - Turkish adj/n
   - polar n/adj | polarize v | polarization n
   - exile n/vt
