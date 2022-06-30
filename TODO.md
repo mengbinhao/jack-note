@@ -316,6 +316,8 @@
 
 #### Vue related
 
+- [v-model 与.sync 修饰符的区别](https://mp.weixin.qq.com/s/Ov5vte3WAvNcABPt0aAoag)
+- [十分钟，让你学会 Vue 的这些巧妙冷技巧](https://juejin.cn/post/7103066172530098206)
 - [12 个 Vue 开发中的性能优化小技巧](https://mp.weixin.qq.com/s/YxGq5m5GC1hXej8v3eN_Rw)
 - [DIff 算法看不懂就一起来锤我](https://mp.weixin.qq.com/s/PHvmhzuimOlpw1SWeSyHuw)
 - [源码之 Diff 流程](https://segmentfault.com/a/1190000020658020)

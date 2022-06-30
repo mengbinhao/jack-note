@@ -1,3 +1,10 @@
+- 2022.6.30
+  - brew vt/n | beer
+  - overturn n/v
+
+  > I mean, it remains to be seen. They would like to
+  > We're in the early days here
+
 - 2022.6.29
   - appall vt | appalled
   - embody vt
@@ -1668,7 +1675,7 @@
   - friction n | frictionless n
 
 - 2020.12.29
-  - enact vt
+  - enact vt | act | acting n/adj
 
 - 2020.12.28
   - collar n
@@ -4547,7 +4554,6 @@
   > to use a word a second time
 
 - 2019.10.11
-  - acting n/adj
   - dirt n
   - wrongdoing n
   - pureview n
