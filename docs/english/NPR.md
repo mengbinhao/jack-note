@@ -1,3 +1,17 @@
+- 2022.7.4
+  - algorithm | algorithmic
+  - compute n/v
+
+  > What it'll do in the months ahead is anyone's guess
+  > Price spiking and crashing
+
+- 2022.7.1
+  - neat adj
+  - zeal n
+  - novice n
+
+  > A golden vision of hop on the horizon
+
 - 2022.6.30
   - brew vt/n | beer
   - overturn n/v
@@ -2973,7 +2987,7 @@
   - corporate adj | corporation n | company | firm n/vt/adj | firmly adv
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
-  - initiate vt/n/ajd | initiative n
+  - initiate vt/n/adj | initiative n
   - bore n/v | boring adj
   - dare v
   - arguably adv
@@ -4296,7 +4310,7 @@
   - swoop n/vi
   - tunnel n/v
   - recruit n/v
-  - sophisticate n/ajd/v | sophisticated adj
+  - sophisticate n/adj/v | sophisticated adj
   - scatter n/v | scattered adj
   - one-off n/adj
   - jihad n
@@ -4965,7 +4979,7 @@
   - epic n/adj
   - brawl n/vi
   - toddler n
-  - oppose vt | opponent n | opposite n/adj/adv/prep | opposition n
+  - oppose vt | opponent n | opposite n/adj/adv/prep | opposition n | converse adj/vi/n
   - thwart n/vt/prep
   - seize v
   - agenda n
@@ -5080,7 +5094,6 @@
   > the lack of clarify on what's been happening at these peace talks
 
 - 2019.8.20
-  - falter vi
   - factor n/v | facto adj
   - upbeat adj/n
   - breather n
