@@ -1,3 +1,7 @@
+- 2022.7.5
+  - snore n/vi
+
+
 - 2022.7.4
   - algorithm | algorithmic
   - compute n/v
@@ -3747,6 +3751,7 @@
 
   > for me, this was the line that was crossed and let me to act
   > He was the No.2 to me
+  > toss and turn
 
 - 2020.1.19
   - guilt n | guilty adj
@@ -5617,7 +5622,6 @@
 - 2019.6.25
 
   - assess vt | reassess | assessment n | reassessment
-  - expertise n
   - proficient adj | proficiency n
   - afloat adj/adv
   - speculate v | speculation n
@@ -5628,5 +5632,4 @@
   - heighten v
 
   > There is no question about it
-  >
   > at the very time
