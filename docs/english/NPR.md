@@ -1,6 +1,10 @@
+- 2022.7.7
+  - overly adv
+
+  > but they are still stretched very thin
+
 - 2022.7.5
   - snore n/vi
-
 
 - 2022.7.4
   - algorithm | algorithmic
@@ -2539,7 +2543,6 @@
 - 2020.7.14
   - limit n/vt | limitation
   - rob v | robbery n
-  - mechanic n/adj
 
   > and I want to warn people before we get going that some of details you're about to hear may be graphic
 
@@ -3341,7 +3344,7 @@
   > Does xx have any other options if these moves don't have the desired effect?
 
 - 2020.3.25
-  - attend v | attendance n | attendee
+  - attend v | attendance n | attendee | attendant n
   - attentive adj
   - liable adj
   - rely vi | reliable adj | reliance n
@@ -3713,7 +3716,7 @@
   - invest v | investor n
   - sift v
   - sincere adj | sincerely
-  - mechanical adj
+  - mechanic n/adj | mechanical adj
   - appetite n | appetizing adj
   - demean vt | demeaning n | demeanor n
   - warrant n/vt | warranted adj
