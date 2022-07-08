@@ -1,3 +1,11 @@
+- 2022.7.8
+  - bacteria n
+  - molecule n
+  - headset n
+  - experiment | experimental
+
+  > That in itself is a new concept
+
 - 2022.7.7
   - overly adv
 
