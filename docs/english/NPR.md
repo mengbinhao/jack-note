@@ -1,4 +1,8 @@
 - 2022.7.8
+  - species n
+  - instinct n
+
+- 2022.7.8
   - bacteria n
   - molecule n
   - headset n
@@ -940,7 +944,7 @@
 - 2021.6.20
   - shame n/vt | shameful adj
   - ashamed adj | unashamed
-  - indispensable adj/n | dispensable
+  - dispensable adj | indispensable adj/n
 
 - 2021.6.18
   - aside
@@ -1535,7 +1539,7 @@
   - release n/vt
 
 - 2021.2.4
-  - possess vt | possession n
+  - possess vt | possession n | possessed
   - aspect n
 
   > It's mostly symbolic in nature
@@ -2032,7 +2036,8 @@
 
 - 2020.10.19
   - ransom n/vt
-  - specific adj/n
+  - specify v | specific adj/n | unspecified
+  - specialize vi | specialist n/adj
   - balk n/v
   - evidence n/vt
   - accent n/vt
@@ -2910,7 +2915,7 @@
   > although overall
 
 - 2020.5.16
-  - peer n
+  - peer n/v
   - relapse n/vi
   - pierce v | piercing adj
 
@@ -2981,7 +2986,7 @@
   - mugger n
   - invisible adj | visibility
   - unexpected adj
-  - fear n/v | fearful
+  - fear n/v | fearful | fearsome adj
   - urge n/v | urgent adj | urgently | dire adj | urgency n
   - purge n/vt
   - surge n/vi
@@ -3872,7 +3877,6 @@
   - allot vt
   - retail n/v/adj
   - oval adj
-  - unspecified adj
 
   > I was in salesman mode this morning
   > pretty soon, they've already stepped it up
@@ -3989,8 +3993,6 @@
 - 2019.12.18
   - stuff n/v | stuffing n
   - imprison vt
-  - specialize vi
-  - specialist n/adj
   - Eurasian adj
   - doctoral adj
   - dissertation n
@@ -4776,7 +4778,7 @@
   - architect n
   - unnerving adj
   - abound vi
-  - bound n/v/adj | rebound vi | boundary n
+  - bound n/v/adj | rebound vi | boundary n | boundless adj
   - appropriate adj | inappropriate | appropriately
   - offset vt
   - precise adj | precisely adv
@@ -5114,7 +5116,8 @@
   - upbeat adj/n
   - breather n
   - abrupt adj | abruptly adv
-  - prosperity n | prosper v
+  - prosper v | prosperity n
+  - prospect n/vi | prosperous adj
   - tension n
   - combine v | combined adj | combination n
   - ominous adj
@@ -5525,7 +5528,6 @@
   - impetus n
   - spike n/v
   - recess n/vt | recession n | depress vt | depression n | depressed adj
-  - prospect n/vi
   - debate n/v
   - stagger n/v/adj | staggering adj
 
