@@ -1,4 +1,16 @@
-- 2022.7.8
+- 2022.7.18
+  - magic n/adj/v | magician
+  - music | musician
+  - exhibit v/n | exhibition n
+  - collaborate | collaboration
+  - pump n/v
+  - diameter n
+  - Saturn n
+
+- 2022.7.12
+  - lumber n/v
+
+- 2022.7.11
   - species n
   - instinct n
 
@@ -367,7 +379,7 @@
 - 2022.2.16
   - bench n
   - raw adj
-  - elevate vt | elevated | elevation
+  - elevate vt | elevated | elevation | elevator
 
 - 2022.2.15
   - acid n/adj
@@ -2483,7 +2495,7 @@
   - flu n
   - scoff n/v
   - habit n
-  - inhabit v | inhabited adj | uninhabited | inhabitant n
+  - inhabit v | inhabited adj | uninhabited | inhabitant n | habitant n
   - regret n/v
   - dose n/v
   - challenge n/vt | unchallenged
@@ -2683,7 +2695,7 @@
   - dig v
   - pinpoint n/vt/adj
   - downturn n
-  - practical adj | practice
+  - practical adj | practically | practice
   - crawl n/v
 
   > which shrank a little bit in the first quarter, is expected to fall off a cliff in the current quarter
@@ -3525,7 +3537,7 @@
   - handle | mishandle vt
   - reign n/vi
   - pinpoint n/vi/adj
-  - appreciate v | appreciative adj
+  - appreciate v | appreciation | appreciative adj
 
   > This tension has been in the works
   > X said that was not on account of the president tweeting
@@ -4934,7 +4946,7 @@
   - pole n
   - approach n/v
   - narrative n/adj
-  - orbiter n | orbit n/v
+  - orbit n/v | orbiter n
   - excite v | excitement n
   - eerily adv
   - huddle vt | huddled adj
@@ -5522,6 +5534,7 @@
   - disappoint vt | disappointed | disappointment n
   - inflation | deflation n
   - resist v | resistance n | resistible | irresistible adj | resistant n/adj
+  - stain n/v | stainless n
   - sustain vt | sustainable adj | sustained adj | unsustainable
   - concern n/vt | concerned adj | concerning adj
   - pace n/v

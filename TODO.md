@@ -390,6 +390,7 @@
 
 #### project related
 
+- [vue 项目开发，我遇到了这些问题](https://juejin.cn/post/7119018849353072677)
 - [12 个 Vue 开发中的性能优化小技巧](https://mp.weixin.qq.com/s/eplCRv9eOjvTLmgDfUcoYA)
 - [22 个 Vue3 的实用技巧](https://mp.weixin.qq.com/s/2xC85Kzjvh1AIytDQR3DFA)
 - [Vue 项目里戳中你痛点的问题及解决办法](https://mp.weixin.qq.com/s/wHmGez1K_Qnnnmu2oiCrBw)
