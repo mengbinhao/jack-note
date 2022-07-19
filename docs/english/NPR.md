@@ -1,3 +1,10 @@
+- 2022.7.19
+  - judge | judgement
+  - homemade adj
+  - coalition n
+
+  > XXX cautioned us that we need to reserve judgement and not point fingers until more details of this case become clear
+
 - 2022.7.18
   - magic n/adj/v | magician
   - music | musician
@@ -3583,7 +3590,7 @@
   - struggle n/v
   - population n
   - popularity n | popular | unpopular
-  - reunification | unify vt
+  - unify vt | unification | reunification
   - swap n/v
   - percentage n
   - usual adj | unusual
