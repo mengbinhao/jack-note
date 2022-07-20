@@ -1,3 +1,8 @@
+- 2022.7.20
+  - born | unborn
+
+  > There are several factors behind rising home price and the record high costs of rent
+
 - 2022.7.19
   - judge | judgement
   - homemade adj
@@ -2216,7 +2221,6 @@
   - incomplete
   - completion n
   - evolve v
-  - devolve v
   - revolve v
   - spray n/v
   - pray v | prayer n
