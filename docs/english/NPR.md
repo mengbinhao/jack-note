@@ -190,7 +190,6 @@
   - courtyard n
   - notice n/v | noticeable
   - obstacle n
-  - exterior adj
   - sigh n/v
   - deprive vt
 
@@ -3812,8 +3811,6 @@
 - 2020.1.16
   - lean n/v
   - impending adj | impend vi
-  - lash n/v
-  - clash n/v
   - militia n
   - jeopardy n
 
@@ -3835,6 +3832,8 @@
   > it's not clear at all that will lead to any changes
 
 - 2020.1.13
+  - lash n/v
+  - clash n/v
   - slam n/v | whip n/v | smash n/v | slammed adj | slash
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
@@ -4368,7 +4367,6 @@
   - injury n
   - jury n
   - collusion n
-  - surveillance n
   - tap n/vt | untapped adj
   - bipartisan adj | partisan adj | nonpartisan adj
   - deepen v
@@ -5150,7 +5148,7 @@
   - drama n | dramatic adj | dramatically adv | overdramatize vt
   - scuttle n/v
   - grovelling adj
-  - interior n/adj
+  - interior n/adj | exterior n/adj
   - stormy adj
   - host n/v
   - hostage n

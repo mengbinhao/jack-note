@@ -1,12 +1,59 @@
-- learnlearnlearnlearnlearnlearnlearnlearn
+- ask how to say
   > Did I use that word right?
   > Was I making sense?
   > How would you word that?
   > Is there a better way to say that?
-  > I have very high tolerance of xxx language, It's like if someone is speaking broken Chinese to me, I can pick up the pieces, find out the most important information in that sentence and make sense on my own
+  > XXX have very high tolerance of xxx language, It's like if someone is speaking broken Chinese to me, I can pick up the pieces, find out the most important information in that sentence and make sense on my own
   > It does not matter how slowly you go, as long as you do not stop
   > Constantly use the new word in future conversation and form a muscle memory
   > Don't stay within your own bubble
+
+- 其他
+  > There are 3/4 of us in my family
+  > It feels like a roller coaster
+  > get around 出门/外出
+  > public transport
+  > Something's gross
+  > Something makes me self-conscious
+  > unheard of
+  > You should put one more layers
+  > You might wanna loose that jacket
+  > What do you do for a living? What line of work are you in?
+  > Please help yourself / Make yourself at home
+  > You got a minute? / Can I talk to you for a sec? Are you busy?
+  > It was at most mediocre / To me he's just an average looking person
+  > Accept and live with each other's flaws 包容
+  > I am not religious, but I respect all religion
+  > I'm fully aware of what's going on/the situation
+  > absolutely + adj / highly + adj / perfectly normal / reasonably priced / utterly + 不好的adj / widely accepted / deeply offended / actively involved
+  > You are in no position to comment on this matter / to make the rules
+  > How dare you? You hae no right to do something
+
+- interview
+  > Prior to the role of marketing manager, I worked as ... for 5 years
+  > I have 10 years of experience in xxx, During the past 10 yeas, I was lucky to have participated/ be part of many cool/exiting/groundbreaking projects
+  > One of the most lessons I've learned in the past 10 years of being in this field is that effective communication is the key to the success of any projects
+  > I know you're looking for who can effective manage this team, I believe that I align with what you're looking for
+  > I've always been interested in this field
+  > Ever since I can remember, fashion has been something that interested me, I mean I live and breath this stuff
+  > One thing that you should know about me is that xxx
+  > I came from a family of 3
+  > The import thing that I like the most about this company is your core value
+  > I want new career challenges / to advanced my career, and I think this job offers more opportunity for me to do that
+  > My salary expectations are in line with my experience and qualifications. I believe that you will pay your employee fairly
+  > Hi, I'm Jack. I'm new kid on the block. I'm very glad to be here/part of this team. Thank you for the warm welcome.I look forward to know and work with each one of you, and at the same time contribute to this team in all my abilities. I look forward to learn and grow with all of you, Again I'm very exited to be here. Thank you!
+
+- 不用谢
+  > You are welcome
+  > No problem
+  > You got it
+  > No worries
+
+- 我来了
+  > Coming!
+  > Be right there!
+  > Just a sec!
+  > In a minute!
 
 - 我还在做
   > We're just fine-tuning/polishing up a few details
@@ -189,16 +236,6 @@
   > It was all in vain
   > Whatever I tell him is in one ear and out the other
 
-- interview
-  > Prior to the role of marketing manager, I worked as ... for 5 years
-  > I have 10 years of experience in xxx, During the past 10 yeas, I was lucky to have participated/ be part of many cool/exiting/groundbreaking projects
-  > One of the most lessons I've learned in the past 10 years of being in this field is that effective communication is the key to the success of any projects
-  > I know you're looking for who can effective manage this team, I believe that I align with what you're looking for
-  > I've always been interested in this field
-  > Ever since I can remember, fashion has been something that interested me, I mean I live and breath this stuff
-  > One thing that you should know about me is that xxx
-  > I came from a family of 3
-
 - 好莱坞打人感想
   > I don't condone violence in any capacity
   > I was sicken/disgusted/repelled by the standing ovation
@@ -214,26 +251,6 @@
   > We often idealize the life of a celebrity. We expect everything in their lives to be perfect, which is not the case
   > We romanticized our opponent. We expected them to have a basic understanding if the rules, and we assume that they would follow them
   > You paint a rosy picture of him and you fail to see any flaw of his
-
-- 其他
-  > It feels like a roller coaster
-  > get around 出门/外出
-  > public transport
-  > Something's gross
-  > Something makes me self-conscious
-  > unheard of
-  > You should put one more layers
-  > You might wanna loose that jacket
-  > What do you do for a living? What line of work are you in?
-  > Please help yourself / Make yourself at home
-  > You got a minute? / Can I talk to you for a sec? Are you busy?
-  > It was at most mediocre / To me he's just an average looking person
-  > Accept and live with each other's flaws 包容
-  > I am not religious, but I respect all religion
-  > I'm fully aware of what's going on/the situation
-  > absolutely + adj / highly + adj / perfectly normal / reasonably priced / utterly + 不好的adj / widely accepted / deeply offended / actively involved
-  > You are in no position to comment on this matter / to make the rules
-  > How dare you? You hae no right to do something
 
 
 - 2020.2.20
