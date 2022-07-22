@@ -1,3 +1,10 @@
+- 2022.7.22
+  - discard n/v | discarded
+  - waste n/vt | junk n | trash n/vt | litter n/v | rubbish n/adj | garbage n
+  - wasteful adj | wasteland n
+  - devise vt
+  - door knob n | vanity n | hallway n | water fountain n
+
 - 2022.7.20
   - born | unborn
 
@@ -624,7 +631,6 @@
   - stun n/vt | stunning
   - create | creative | creature n
   - recreation n
-  - fountain n
 
 - 2021.9.28
   - leap n/v
@@ -2344,17 +2350,15 @@
 - 2020.8.14
   - march n/v
   - shatter n/v | shattered
-  - litter n/v
   - disfunction
   - metric n/adj
   - catastrophe n | catastrophic adj
-  - wasteland n
   - aerial adj
 
   > What's happening on the ground?
 
 - 2020.8.13
-  - disposal n
+  - dispose v | disposal n
   - inherit v | inheritance
   - rifle n | pistol n/vt
   - expedition n
@@ -2859,7 +2863,6 @@
 - 2020.5.29
   - recusal n
   - crash n/v
-  - trash n/vt | garbage n | rubbish n/v/adj
   - rash n/adj
   - endure v
   - poll n/v | ballot n/v | pollster n
@@ -3841,7 +3844,6 @@
 - 2020.1.12
   - maintain vt | maintenance n
   - grisly adj
-  - dispose n/v
   - dismember vt
 
 - 2020.1.10
@@ -4696,7 +4698,6 @@
   - budge v
   - budget n/vt
   - deficit n
-  - wasteful adj
   - efficient adj | inefficient
   - welfare n | fare n
   - outcome n
@@ -4915,7 +4916,6 @@
   - fetter n/vt | unfettered adj
   - decline n/v
   - immerse vt | immersed adj
-  - vanity n
   - dagger n
   - veteran n/adj
   - alongside prep/adv
