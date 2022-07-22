@@ -73,7 +73,7 @@ arr2.push(arr3)
 console.log('array 1: length=' + arr1.length + ' last=' + arr1.slice(-1))
 console.log('array 2: length=' + arr2.length + ' last=' + arr2.slice(-1))
 
-let randonReplacementArray = (array) => {
+let randomReplacementArray = (array) => {
 	let len = array.length
 	let temp = []
 	while (len--) {
@@ -82,7 +82,7 @@ let randonReplacementArray = (array) => {
 	}
 	return temp
 }
-randonReplacementArray([1, 5, 9, 6, 2, 6])
+randomReplacementArray([1, 5, 9, 6, 2, 6])
 
 //Function------------------------
 function sleep(ms) {
@@ -105,7 +105,7 @@ let addArrayElements = splat(function (x, y) {
 })
 addArrayElements([1, 2])
 
-//safe constrctor
+//safe constructor
 function Person(name, age, job) {
 	//ES6
 	//new.target === Person
@@ -260,7 +260,7 @@ let addListener = (ele, type, handle) => {
 
 let bindEvent = (ele, type, selector, handler) => {
 	//addEvent(ele, type, fn)
-	//addEvent(ele, type, proxydom, fn)
+	//addEvent(ele, type, proxyDOM, fn)
 	if (handler == null) {
 		handler = selector
 		selector = null
@@ -288,7 +288,7 @@ let bindEvent = (ele, type, selector, handler) => {
 
 //distinguish click or mousedown
 let firstTime = 0
-let sencondTime = 0
+let secondTime = 0
 let flag = false
 document.onclick = function () {
 	if (flag) {
@@ -301,7 +301,7 @@ document.onmousedown = function () {
 }
 document.onmouseup = function () {
 	secondTime = new Date().getTime()
-	if (sencondTime - firstTime < 300) {
+	if (secondTime - firstTime < 300) {
 		flag = true
 	}
 }
@@ -324,17 +324,17 @@ function Traverse(p_element, p_callback) {
 	}
 }
 
-Element.prototype.insertAfter = function (targerNode, afterNode) {
+Element.prototype.insertAfter = function (targetNode, afterNode) {
 	let beforeNode = afterNode.nextElementSibling
 	if (beforeNode == null) {
-		this.appendChild(targerNode)
+		this.appendChild(targetNode)
 	} else {
-		this.insertBefore(targerNode, beforeNode)
+		this.insertBefore(targetNode, beforeNode)
 	}
 }
 
 //分批次添加DOM
-let rescursionByCount = () => {
+let recursionByCount = () => {
 	let container = document.querySelector('.list')
 	if (!container) return
 
@@ -368,7 +368,7 @@ let rescursionByCount = () => {
 	doBatchAppend()
 
 	//采用事件委托
-	//addEventlisener处理函数中this指的是实际的dom
+	//addEventlistener处理函数中this指的是实际的dom
 	//也可以通过外层let定义循环变量
 	//addEventListener与onclick
 	//   1 允许注册多个事件
@@ -429,7 +429,7 @@ let getByteLength = (str) => {
 }
 
 //2的n次幂
-let caculatePower = (n) => {
+let calculatePower = (n) => {
 	let result = 1
 	while (n > 0) {
 		result *= 2
@@ -439,19 +439,19 @@ let caculatePower = (n) => {
 }
 
 //n的阶乘
-let caculatefactorial = (n) => {
+let calculateFactorial = (n) => {
 	if (n === 0 || n === 1) {
 		return 1
 	}
-	return n * caculatefactorial(n - 1)
+	return n * calculateFactorial(n - 1)
 }
 
-let caculateFibonacci = (n) => {
+let calculateFibonacci = (n) => {
 	if (!(typeof n === 'number') || n % 1 !== 0) return
 	if (n === 0 || n === 1) {
 		return 1
 	}
-	return caculateFibonacci(n - 1) + caculateFibonacci(n - 2)
+	return calculateFibonacci(n - 1) + calculateFibonacci(n - 2)
 }
 
 function memorize(fn) {
@@ -466,7 +466,7 @@ function memorize(fn) {
 		}
 	}
 }
-let newFactorial = memorize(caculatefactorial)
+let newFactorial = memorize(calculateFibonacci)
 // console.time("first");
 // console.log(newFactorial(10));
 // console.timeEnd("first");
@@ -714,7 +714,7 @@ function getName() {
 //开发者不需要再关注其底层的时序和结果
 //promise状态具有不可逆和不受外界影响
 
-let queryURLParamaterByRegex = (url) => {
+let queryURLParameterByRegex = (url) => {
 	let obj = {}
 	let reg = /([^?=&]+)=([^?=&]+)/g
 	url.replace(reg, (...arg) => {
@@ -740,7 +740,7 @@ function render(template, data) {
 	return template
 }
 
-function getBuitlInType(obj) {
+function getBuiltInType(obj) {
 	let str = Object.prototype.toString.call(obj)
 	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
 }
@@ -775,19 +775,19 @@ let sendAjax = () => {
 */
 
 //打开数组
-let arrTest = [1, [2, [3]], 4, [5]]
-JSON.parse(`[${arrTest.toString()}]`)
-JSON.parse(`[${arrTest.join()}]`)
-arrTest.join().split(',')
+let arrayTest = [1, [2, [3]], 4, [5]]
+JSON.parse(`[${arrayTest.toString()}]`)
+JSON.parse(`[${arrayTest.join()}]`)
+arrayTest.join().split(',')
 
 //clone array
-arrTest.concat()
-arrTest.slice(0)
+arrayTest.concat()
+arrayTest.slice(0)
 
 //find max in an array
 //1.自己实现一个冒泡算法，实现就不多说了
 //2.利用Math的max方法
-//Math.max.apply(null, arrTest);
+//Math.max.apply(null, arrayTest);
 //3.利用Array的sort方法先排序再取值
 //list.sort((a, b) => {return a-b;})
 
@@ -964,7 +964,7 @@ add(1, 2, 3)(4) // 10
 add(1)(2)(3)(4)(5) // 15
 add(2, 6)(1) // 9
 
-//practise
+//practice
 var xiaoming = {
 	name: '小明',
 	age: 12,

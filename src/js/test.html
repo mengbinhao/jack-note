@@ -1,121 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>test</title>
-    <style>
-      .div1.div2 {
-        color: red;
-      }
 
-      /* .div2 {
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>test</title>
+  <style>
+    .div1.div2 {
+      color: red;
+    }
+
+    /* .div2 {
             color: blue;
         } */
-      #test.demo {
-        color: blue;
+    #test.demo {
+      color: blue;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>li1</li>
+    <li>li2</li>
+    <li>li3</li>
+  </ul>
+  <div class="div1">div1</div>
+  <div class="div2">div2</div>
+  <div id="test2">
+    test
+    <div class="demo2">demo</div>
+  </div>
+  <div id="test" class="demo">demo</div>
+  <button id="t1">ttt1111</button>
+  <script>
+    const isObject = obj => {
+      return obj !== null && typeof obj === "object";
+    };
+    let deepClone22 = (target, origin) => {
+      var target = target || {},
+        toStr = Object.prototype.toString,
+        arrStr = "[object Array]",
+        prop;
+      for (prop in origin) {
+        prop = origin[prop];
+        if (prop === target) {
+          continue;
+        }
+        if (origin.hasOwnProperty(prop)) {
+          if (origin[prop] != null && typeof origin[prop] === "object") {
+            target[prop] = toStr.call(origin[prop]) === arrStr ? [] : {};
+            deepClone22(target[prop], origin[prop]);
+          } else {
+            target[prop] = origin[prop];
+          }
+        }
       }
-      html,
-      body {
-        width: 100%;
-        height: 100%;
+    };
+
+    const deepClone = (source, hash = new WeakMap()) => {
+      if (!isObject(source)) return source;
+      //maybe return
+      if (hash.has(source)) throw TypeError("circle reference");
+      let target = Array.isArray(source) ? [] : {};
+      hash.set(source, target);
+
+      let symKeys = Object.getOwnPropertySymbols(source);
+      if (symKeys.length) {
+        symKeys.forEach(symKey => {
+          if (isObject(source[symKey])) {
+            target[symKey] = deepClone(source[symKey], hash);
+          } else {
+            target[symKey] = source[symKey];
+          }
+        });
       }
-    </style>
-  </head>
 
-  <body>
-    <ul>
-      <li>li1</li>
-      <li>li2</li>
-      <li>li3</li>
-    </ul>
-    <div class="div1">div1</div>
-    <div class="div2">div2</div>
-    <div id="test2">
-      test
-      <div class="demo2">demo</div>
-    </div>
-    <div id="test" class="demo">demo</div>
-    <button id="t1">ttt1111</button>
-    <script>
-      const isObject = obj => {
-        return obj !== null && typeof obj === "object";
-      };
-      let deepClone22 = (target, origin) => {
-        var target = target || {},
-          toStr = Object.prototype.toString,
-          arrStr = "[object Array]",
-          prop;
-        for (prop in origin) {
-          prop = origin[prop];
-          if (prop === target) {
-            continue;
-          }
-          if (origin.hasOwnProperty(prop)) {
-            if (origin[prop] != null && typeof origin[prop] === "object") {
-              target[prop] = toStr.call(origin[prop]) === arrStr ? [] : {};
-              deepClone22(target[prop], origin[prop]);
-            } else {
-              target[prop] = origin[prop];
-            }
+      for (let key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          if (isObject(source[key])) {
+            target[key] = deepClone(source[key], hash);
+          } else {
+            target[key] = source[key];
           }
         }
-      };
+      }
+      return target;
+    };
 
-      const deepClone = (source, hash = new WeakMap()) => {
-        if (!isObject(source)) return source;
-        //maybe return
-        if (hash.has(source)) throw TypeError("circle reference");
-        let target = Array.isArray(source) ? [] : {};
-        hash.set(source, target);
+    let obj = {
+      strProperty: "string",
+      objProperty: {
+        title: "You Don't Know JS",
+        price: "45"
+      },
+      undefinedProperty: undefined,
+      nullProperty: null,
+      numberProperty: 123,
+      funcProperty: function () { },
+      boolProperty: true,
+      arrProperty: [1, 2, 3]
+    };
 
-        let symKeys = Object.getOwnPropertySymbols(source);
-        if (symKeys.length) {
-          symKeys.forEach(symKey => {
-            if (isObject(source[symKey])) {
-              target[symKey] = deepClone(source[symKey], hash);
-            } else {
-              target[symKey] = source[symKey];
-            }
-          });
-        }
+    //obj.circleProperty = obj
 
-        for (let key in source) {
-          if (Object.prototype.hasOwnProperty.call(source, key)) {
-            if (isObject(source[key])) {
-              target[key] = deepClone(source[key], hash);
-            } else {
-              target[key] = source[key];
-            }
-          }
-        }
-        return target;
-      };
+    let sym1 = Symbol("a");
+    let sym2 = Symbol.for("b");
 
-      let obj = {
-        strProperty: "muyiy",
-        objProperty: {
-          title: "You Don't Know JS",
-          price: "45"
-        },
-        undefinedProperty: undefined,
-        nullProperty: null,
-        numberProperty: 123,
-        funcProperty: function() {},
-        boolProperty: true,
-        arrProperty: [1, 2, 3]
-      };
+    obj[sym1] = "localSymbol";
+    obj[sym2] = "globalSymbol";
+    let ret = deepClone(obj);
+    console.log(ret);
+  </script>
+</body>
 
-      //obj.circleProperty = obj
-
-      let sym1 = Symbol("a");
-      let sym2 = Symbol.for("b");
-
-      obj[sym1] = "localSymbol";
-      obj[sym2] = "globalSymbol";
-      let ret = deepClone(obj);
-      console.log(ret);
-    </script>
-  </body>
 </html>

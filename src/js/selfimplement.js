@@ -90,19 +90,23 @@ Array.prototype.unique6 = (arr) => {
 }
 
 const simulateFlatten1 = (arr) => {
-  let result = []
-  for(let i = 0; i < arr.length; i++) {
-    if(Array.isArray(arr[i])) {
-      result = result.concat(simulateFlatten1(arr[i]))
-    } else {
-      result.push(arr[i])
-    }
-  }
-  return result
+	let result = []
+	for (let i = 0; i < arr.length; i++) {
+		if (Array.isArray(arr[i])) {
+			result = result.concat(simulateFlatten1(arr[i]))
+		} else {
+			result.push(arr[i])
+		}
+	}
+	return result
 }
 
-const  simulateFlatten2 = (arr) => {
-    return arr.reduce((prev, next) => rev.concat(Array.isArray(next) ? simulateFlatten2(next) : next), [])
+const simulateFlatten2 = (arr) => {
+	return arr.reduce(
+		(prev, next) =>
+			rev.concat(Array.isArray(next) ? simulateFlatten2(next) : next),
+		[]
+	)
 }
 
 const simulateFlatten3 = (arr) => {
@@ -204,8 +208,8 @@ Array.prototype.myForEach = function (fn, context) {
 
 Array.prototype.myMap = function (fn) {
 	if (this === null || this === undefined) {
-    throw new TypeError("Cannot read property 'map' of null");
-  }
+		throw new TypeError("Cannot read property 'map' of null")
+	}
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + 'is not a function')
 	}
@@ -264,9 +268,9 @@ Array.prototype.mySome = function (fn, thisArg) {
 }
 
 Array.prototype.myReduce = function (fn, initialValue) {
-  if (this === null || this === undefined) {
-    throw new TypeError("Cannot read property 'reduce' of null");
-  }
+	if (this === null || this === undefined) {
+		throw new TypeError("Cannot read property 'reduce' of null")
+	}
 	if (typeof fn !== 'function') {
 		throw new TypeError(fn + ' is not a function')
 	}
@@ -402,21 +406,21 @@ function simulateThrottle2(fn, interval = 300) {
 }
 
 function throttled3(fn, delay) {
-    let timer = null
-    let startTime = Date.now()
-    return function () {
-        let curTime = Date.now() // 当前时间
-        let remaining = delay - (curTime - startTime)  // 从上一次到现在，还剩下多少多余时间
-        let context = this
-        let args = arguments
-        clearTimeout(timer)
-        if (remaining <= 0) {
-            fn.apply(context, args)
-            startTime = Date.now()
-        } else {
-            timer = setTimeout(fn, remaining);
-        }
-    }
+	let timer = null
+	let startTime = Date.now()
+	return function () {
+		let curTime = Date.now() // 当前时间
+		let remaining = delay - (curTime - startTime) // 从上一次到现在，还剩下多少多余时间
+		let context = this
+		let args = arguments
+		clearTimeout(timer)
+		if (remaining <= 0) {
+			fn.apply(context, args)
+			startTime = Date.now()
+		} else {
+			timer = setTimeout(fn, remaining)
+		}
+	}
 }
 
 const betterScrollThrottle = simulateThrottle(
@@ -643,7 +647,7 @@ const add = (() => {
 //add(1) // 1
 //add(1)(2)// 3
 //add(1, 2)(3, 4, 5)(6) // 21
-var add = (...args) => {
+var add2 = (...args) => {
 	let arr = args
 	let fn = (...newArgs) => {
 		arr = [...arr, ...newArgs]
@@ -721,7 +725,8 @@ var newObj = simulateNew(testConstructorWithReturn, 'foo')
 console.log(newObj, newObj instanceof testConstructorWithReturn)
 
 Function.prototype.simulateCall = function (context, ...args) {
-	if (typeof this !== 'function') throw new TypeError('must be invoked by function')
+	if (typeof this !== 'function')
+		throw new TypeError('must be invoked by function')
 	let ctx = context || window
 	//let [ctx = window, ...args] = [...arguments]
 	let func = Symbol()
@@ -733,7 +738,8 @@ Function.prototype.simulateCall = function (context, ...args) {
 }
 
 Function.prototype.simulateApply = function (context, args = []) {
-	if (typeof this !== 'function') throw new TypeError('must be invoked by function')
+	if (typeof this !== 'function')
+		throw new TypeError('must be invoked by function')
 	let cxt = context || window
 	let func = Symbol()
 	ctx[func] = this
@@ -763,10 +769,10 @@ Function.prototype.simulateBindAdvance = function (context = window, ...args) {
 	//if invoke by new, this is fBound
 	//if function invoke, this is context
 	let fBound = function () {
-		return fn.apply(
-			this instanceof fBound ? this : context,
-			[...args, ...arguments]
-		)
+		return fn.apply(this instanceof fBound ? this : context, [
+			...args,
+			...arguments,
+		])
 	}
 	//very important
 	//这里有bug箭头函数没有this.prototype
@@ -853,7 +859,11 @@ function compose2(...funcs) {
 		return funcs[0]
 	}
 
-	return funcs.reduce((a, b) => (...args) => a(b(...args)))
+	return funcs.reduce(
+		(a, b) =>
+			(...args) =>
+				a(b(...args))
+	)
 }
 
 //Object
@@ -976,7 +986,7 @@ const deepClone = (source, cache = new WeakMap()) => {
 
 const isComplexDataType = (obj) => typeof obj === 'object' && obj !== null
 
-const deepClone = function (obj, hash = new WeakMap()) {
+const deepClone2 = function (obj, hash = new WeakMap()) {
 	if (obj.constructor === Date) return new Date(obj)
 	if (obj.constructor === RegExp) return new RegExp(obj)
 
@@ -991,7 +1001,7 @@ const deepClone = function (obj, hash = new WeakMap()) {
 	//遍历自身可枚举不可枚举和symbol
 	for (let key of Reflect.ownKeys(obj)) {
 		cloneObj[key] = isComplexDataType(obj[key])
-			? deepClone(obj[key], hash)
+			? deepClone2(obj[key], hash)
 			: obj[key]
 	}
 	return cloneObj
@@ -1107,7 +1117,7 @@ function deepClone2Advanced(obj) {
 	return deep(obj)
 }
 
-//inheritinheritinheritinheritinheritinherit
+//inherit
 // function Base() {
 // }
 // // 派生类
@@ -1180,7 +1190,7 @@ jsonStringify({ x: 5 }) // "{"x":5}"
 jsonStringify([1, 'false', false]) // "[1,"false",false]"
 jsonStringify({ b: undefined }) // "{"b":"undefined"}"
 
-const jsonStringify2 =  (data) => {
+const jsonStringify2 = (data) => {
 	let type = typeof data
 
 	if (type !== 'object') {
@@ -1644,8 +1654,8 @@ function simulateAJAX2(url, method, body, headers) {
 	return new Promise((resolve, reject) => {
 		let xhr = new XMLHttpRequest()
 		xhr.open(method, url)
-		for(let key in headers){
-			req.setRequestHeader(key,headers[key])
+		for (let key in headers) {
+			req.setRequestHeader(key, headers[key])
 		}
 		xhr.onreadystatechange = () => {
 			if (xhr.readyState === 4) {
@@ -1992,29 +2002,22 @@ class Observer {
 	}
 }
 
-function isInViewPortOfOne (el) {
-    // viewPortHeight 兼容所有浏览器写法
-    const viewPortHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
-    const offsetTop = el.offsetTop
-    const scrollTop = document.documentElement.scrollTop
-    const top = offsetTop - scrollTop
-    return top <= viewPortHeight
+function isInViewPortOfOne(el) {
+	// viewPortHeight 兼容所有浏览器写法
+	const viewPortHeight =
+		window.innerHeight ||
+		document.documentElement.clientHeight ||
+		document.body.clientHeight
+	const offsetTop = el.offsetTop
+	const scrollTop = document.documentElement.scrollTop
+	const top = offsetTop - scrollTop
+	return top <= viewPortHeight
 }
 
 function isInViewPort(element) {
-  const viewWidth = window.innerWidth || document.documentElement.clientWidth;
-  const viewHeight = window.innerHeight || document.documentElement.clientHeight;
-  const {
-    top,
-    right,
-    bottom,
-    left,
-  } = element.getBoundingClientRect();
+	const viewWidth = window.innerWidth || document.documentElement.clientWidth
+	const viewHeight = window.innerHeight || document.documentElement.clientHeight
+	const { top, right, bottom, left } = element.getBoundingClientRect()
 
-  return (
-    top >= 0 &&
-    left >= 0 &&
-    right <= viewWidth &&
-    bottom <= viewHeight
-  );
+	return top >= 0 && left >= 0 && right <= viewWidth && bottom <= viewHeight
 }
