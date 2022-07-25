@@ -43,6 +43,46 @@
   > My salary expectations are in line with my experience and qualifications. I believe that you will pay your employee fairly
   > Hi, I'm Jack. I'm new kid on the block. I'm very glad to be here/part of this team. Thank you for the warm welcome.I look forward to know and work with each one of you, and at the same time contribute to this team in all my abilities. I look forward to learn and grow with all of you, Again I'm very exited to be here. Thank you!
 
+
+- 打电话
+  > This is Jack
+  > Jack's speaking, May I ask who is calling?
+  > This is her/him(speaking)
+  > I'm so glad to hear from you, how are u doing?
+  > I'm doing great, How about yourself?
+  > I'm doing awesome, Thanks for asking.
+  > May I ask what this is regarding?
+  > I'm not interested. pls take me off the list. Thank you
+  > I'm sorry. You are breaking up. Can u repeat that?
+  > I'm having really bad reception. Can u repeat that?
+  > Hang on a sec / Would you mind hold on a moment pls?
+  > Could you please speak a little more slowly?
+  > Would you mind spelling that for me?
+  > Would you mind speaking up, pls?
+  > I'm calling to do sth / I'm calling about sth
+  > Can I leave a message?
+  > when is a good time to call?
+  > It's been great talking to you. Have a good day!
+
+- 缘分
+  > It's fate,It's fate that brought us together
+  > I guess we were just in the right place at the right time
+
+- 辛苦了
+  > Thank you! I really appreciate it
+  > I couldn't have done without you
+  > I don't know what I'd do without you
+  > good/great/fantastic job, we did it!
+  > I'm forever grateful for you!
+
+- 太热了
+  > It's hot out
+  > heat wave
+  > hot and humid
+  > worst combination
+  > scorching|sizzling|blazing|boiling hot out
+  > I'm soaked/drenched in sweat
+
 - 不用谢
   > You are welcome
   > No problem
@@ -90,6 +130,11 @@
   > I see that you're xxx, Do you think bringing them early on would help streamline the process?
   > We ran into a similar problem with the other project we dealt with a couple months back, We've actually dealt with a similar situation a couple months back. I'd be happy to show you how we were able to work that out
 
+- 默契
+  > We really get each other. We’re (totally) at the point where we can finish each other’s sentences
+  > We have a bond of understanding between us. (We have a strong bond)
+  > We have (this) connection between us. Words can’t explain
+
 - 砍价
   > Is the price negotiable at all?
   > Is there any room for negotiation?
@@ -131,6 +176,39 @@
   > The show got really repetitive and a little predictable, so I dropped it
   > I binge watched the entire season of squid game
 
+- 加油
+  > You got this!
+  > Go get them!
+  > Hang in there
+  > Giving up is not an option
+  > Giving up should not be in your vocabulary
+
+- 身体不适
+  > My stomach is feeling weird
+  > My stomach is not feeling so well/hot
+  > My stomach is killing me
+  > I'm feeling a little dizzy
+  > I'm feeling a little nauseated
+  > I feel like I'm gonna throw up/vomit
+  > stuffy nose / My nose is stuffy
+  > runny rose and sore throat
+  > minor/severe chest pain
+  > I've been having insomnia/trouble sleeping lately 失眠
+  > I haven't been sleeping well 睡不好
+  > I have allergic to xxx
+  > I have scratched on my arm
+  > I sprained my ankle
+  > My whole body is so sore
+  > I got heat-stroke
+  > I choked on the water
+  > I got stomach cramps while running
+
+- 回忆
+  > In retrospect, I should've studied harder. I couldn't see it then, but I see it now
+  > I've been reminiscing about the past a lot
+  > I'm feeling nostalgic right now
+  > I'm having so much nostalgia
+
 - me too
   > So do I
   > likewise
@@ -160,6 +238,28 @@
   > Groceries are still surging/soaring
   > Groceries continue to surge/soar
   > doubled / tripled / quadrupled
+
+
+- taste
+  > delicious / delish
+  > yummy / yum
+  > appetizing
+  > mouthwatering
+  > My mouth is watering
+  > Jiggly Q弹的 / soft / fluffy 松软的
+  > Gooey 胶黏的
+  > creamy 浓稠奶油的
+  > sour
+  > crumbly 易碎的
+  > crunchy potato chips 发嘎吱嘎吱声的
+  > crispy 酥脆的 / juicy
+  > greasy
+  > slimy 粘滑的
+  > salty
+  > garlicky
+  > bitter
+  > chewy
+  > spicy
 
 - 下班了
   > I'm out of work 失业

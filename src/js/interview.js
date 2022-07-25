@@ -1,7 +1,7 @@
 //Array------------------------
-//会改变自身的方法：copyWithin、fill、pop、push、reverse、shift、sort、splice、unshift
+//会改变自身的方法：push、pop、shift、unshift、sort、reverse、splice、fill、copyWithin
 //不会改变自身的方法：concat、includes、join、slice、toString、indexOf、lastIndexOf
-//遍历方法：forEach、map、every、some、filter、find、findIndex、reduce、reduceRight、keys、entries、values
+//遍历方法：forEach、map、every、some、filter、find、findIndex、reduce、reduceRight、keys、values、entries
 
 //创建过去七天的数组，如果将代码中的减号换成加号，你将得到未来7天的数组集合
 //[...Array(7).keys()].map(days => new Date(Date.now() - 86400000 * days))
@@ -12,97 +12,79 @@
 //创建特定大小的数组
 //[...Array(3).keys()]
 
-// 空数组遍历不到
-// undefined可以遍历
-let arrayEmpty = [, , ,]
-let arrayUndefined = [undefined, undefined, undefined]
-// 不产生任何输出
-arrayEmpty.forEach(function (x, i) {
-	console.log(i + '. ' + x)
-})
-// 不产生任何输出
-for (let i in arrayEmpty) {
-	console.log(i)
-}
-Object.keys(arrayEmpty)
+// 空数组遍历跳过、undefined不跳
+const arrayEmpty = [, , ,]
+const arrayUndefined = [undefined, undefined, undefined]
+arrayEmpty.forEach((val, idx) => console.log(idx + '-' + val))
+for (let i in arrayEmpty) console.log(i)
+Object.keys(arrayEmpty) //[]
 
 // 1 不能区分'4'和4
 // 2 对象一律得到的是[object Object]
-let arrayMergeAndRemoveRepetition = () => {
+const arrayMergeAndRemoveRepetition = () => {
 	//ES6
-	let arr = [].concat.apply([], arguments)
+	const arr = [].concat.apply([], arguments)
 	//Array.from(new Set(arr))
 	return [...new Set(arr)]
 
 	//ES5
-	// let len = arguments.length,
-	//     arr = [];
-	// concat
-	// for (let index = 0; index < len; index++) {
-	//     arr = arr.concat(arguments[index]);
+	// let arr = []
+	// for (let i = 0, len = arguments.length,; i < len; i++) {
+	//     arr = arr.concat(arguments[i]);
 	// }
 	// remove repetition
 	// let result = [],
-	//     obj = {};
-	// for (let index = 0; index < arr.length; index++) {
-	//     if (!obj[arr[index]]) {
-	//         obj[arr[index]] = true;
-	//         result.push(arr[index]);
+	//     obj = {}
+	// for (let i = 0; i < arr.length; i++) {
+	//     if (!obj[arr[i]]) {
+	//         obj[arr[i]] = true
+	//         result.push(arr[i])
 	//     }
 	// }
-	// return result;
+	// return result
+}
 
-	let test = (arr) => {
-		for (let i = 0; i < arr.length - 1; i++) {
-			for (let j = i + 1; j < arr.length; j++) {
-				if (arr[i] === arr[j]) {
-					arr.splice(j, 1)
-					//in case like [2,2]
-					j--
-				}
+//double loop
+const arrayMergeAndRemoveRepetition2 = (arr) => {
+	for (let i = 0; i < arr.length - 1; i++) {
+		for (let j = i + 1; j < arr.length; j++) {
+			if (arr[i] === arr[j]) {
+				arr.splice(j, 1)
+				j--
 			}
 		}
-		return arr
 	}
+	return arr
 }
 
-let arr1 = 'john'.split('')
-let arr2 = arr1.reverse()
-let arr3 = 'jones'.split('')
-arr2.push(arr3)
-console.log('array 1: length=' + arr1.length + ' last=' + arr1.slice(-1))
-console.log('array 2: length=' + arr2.length + ' last=' + arr2.slice(-1))
-
-let randomReplacementArray = (array) => {
+const randomReplaceArray = (array) => {
 	let len = array.length
-	let temp = []
+	const tmp = []
 	while (len--) {
-		let ran = Math.floor(Math.random() * len)
-		temp.push(array.splice(ran, 1)[0])
+		const random = Math.floor(Math.random() * len)
+		tmp.push(array.splice(random, 1)[0])
 	}
-	return temp
+	console.log(tmp)
 }
-randomReplacementArray([1, 5, 9, 6, 2, 6])
+randomReplaceArray([1, 5, 9, 6, 2, 6])
 
 //Function------------------------
-function sleep(ms) {
-	return new Promise((resolve) => setTimeout(resolve, ms))
-}
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 async function test() {
 	console.log('Hello')
 	await sleep(1000)
 	console.log('World')
 }
-//test()
 
-let splat = (fn) => {
+//HOF
+const splat = (fn) => {
 	return function (array) {
 		return fn.apply(null, array)
 	}
 }
-let addArrayElements = splat(function (x, y) {
-	return x + y
-})
+
+const addArrayElements = splat((x, y) => x + y)
+
 addArrayElements([1, 2])
 
 //safe constructor
@@ -118,12 +100,36 @@ function Person(name, age, job) {
 	}
 }
 
+Function.prototype.simulateCall = function (context) {
+	var context = context || window
+	context.fn = this
+	let args = [].slice.call(arguments, 1)
+	let result = eval('context.fn(' + args + ')')
+	//delete temporary attribute
+	delete context.fn
+	return result
+}
+
+Function.prototype.simulateApply = function (context, arr) {
+	var context = context || window
+	context.fn = this
+	let result
+	if (!arr) {
+		result = context.fn()
+	} else {
+		let args = [].slice.call(arguments, 0)
+		result = eval('context.fn(' + args + ')')
+	}
+	delete context.fn
+	return result
+}
+
 // 1 指定this
 // 2 返回函数
 // 3 可以传入参数
 // 4 柯里化
 Function.prototype.simulateBind = function (context) {
-	if (typeof this !== 'function') throw new Error('Function.prototype.bind')
+	if (typeof this !== 'function') throw new Error('params invalid')
 	let fn = this
 	let args = [].slice.call(arguments, 1)
 	return function () {
@@ -132,7 +138,7 @@ Function.prototype.simulateBind = function (context) {
 }
 
 Function.prototype.simulateBindAdvance = function (context) {
-	if (typeof this !== 'function') throw new Error('need function invoke')
+	if (typeof this !== 'function') throw new Error('params invalid')
 	let fn = this
 	let args = [].slice.call(arguments, 1)
 
@@ -161,7 +167,7 @@ function simulateNew(constructor, params) {
 	return typeof result === 'object' && result != null ? result : obj
 }
 
-let curry = function (fn) {
+const curry = function (fn) {
 	let args = [].slice.call(arguments, 1)
 	let that = this
 	return function () {
@@ -169,7 +175,7 @@ let curry = function (fn) {
 	}
 }
 
-let curryFormalParameter = function (fn, args) {
+const curryFormalParameter = function (fn, args) {
 	let length = fn.length,
 		_args = args || []
 	that = this
@@ -183,29 +189,6 @@ let curryFormalParameter = function (fn, args) {
 	}
 }
 
-Function.prototype.simulateCall = function (context) {
-	var context = context || window
-	context.fn = this
-	let args = [].slice.call(arguments, 1)
-	let result = eval('context.fn(' + args + ')')
-	//delete temporary attribute
-	delete context.fn
-	return result
-}
-
-Function.prototype.simulateApply = function (context, arr) {
-	var context = context || window
-	context.fn = this
-	let result
-	if (!arr) {
-		result = context.fn()
-	} else {
-		let args = [].slice.call(arguments, 0)
-		result = eval('context.fn(' + args + ')')
-	}
-	delete context.fn
-	return result
-}
 // let name = "jack";
 // function test() {
 //     console.log(this.name);

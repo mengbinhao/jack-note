@@ -1,3 +1,13 @@
+- 2022.7.25
+  - surname n/v
+  - purify v
+  - shuffle | reshuffle
+
+- 2022.7.23
+  - yummy adj/n
+  - auxiliary verb | modal verb
+  - intonation n
+
 - 2022.7.22
   - discard n/v | discarded
   - waste n/vt | junk n | trash n/vt | litter n/v | rubbish n/adj | garbage n
@@ -21,7 +31,7 @@
   - magic n/adj/v | magician
   - music | musician
   - exhibit v/n | exhibition n
-  - collaborate | collaboration
+  - collaborate | collaboration | collaborator
   - pump n/v
   - diameter n
   - Saturn n
@@ -1549,6 +1559,7 @@
 - 2021.2.19
   - cricket n
   - eager adj
+  - culture | cultural adj
   - agriculture n | agricultural adj | agrarian n
   - fort n
   - rod n
@@ -2010,7 +2021,6 @@
 - 2020.10.29
   - bracket n/v
   - rhythm n
-  - intonation n
   - whereas conj
 
 - 2020.10.28
@@ -2540,7 +2550,6 @@
 
 - 2020.7.20
   - bet n/vt
-  - culture | cultural adj
   - heal v | cure n/v
   - statue n/v
   - mob n/vt
@@ -3510,7 +3519,7 @@
 - 2020.3.11
   - rap n/v
   - tarnish n/v
-  - decorate v
+  - decorate v | decoration | decor
   - edifice n
   - brick n/vt/adj
   - ministry n | minister n
@@ -4126,7 +4135,7 @@
   - obsolete n/vt/adj
   - designate vt | designated
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
-  - defection n | defect n/vi | defector n
+  - defect n/vi | defection n | defector n | defective product
   - deflect v
   - coordinate vt | coordination n | coordinated
   - corroborate n/vt | corroboration n
@@ -4614,7 +4623,7 @@
   - pureview n
   - conceal vt | concealed adj | concealment n
   - bothersome adj
-  - properly adv | improperly adv | improper adj | proper adj
+  - proper adj | improper adj | properly | improperly
   - property n
   - disperse v | dispersed adj
   - heavy-handed adj
@@ -5590,7 +5599,7 @@
   - prejudice n/vt
   - rage n/vi | raging adj | outrage n/vt | outraged adj | rampage n/vi
   - rally n/v
-  - literal adj | literally adv
+  - literal adj | literally adv | figurative | figuratively
   - rig n/vt | rigged adj
   - accuse vt | accusing | accuser | accusation n
   - echo n/v
