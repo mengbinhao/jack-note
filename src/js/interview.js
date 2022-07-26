@@ -19,6 +19,7 @@ arrayEmpty.forEach((val, idx) => console.log(idx + '-' + val))
 for (let i in arrayEmpty) console.log(i)
 Object.keys(arrayEmpty) //[]
 
+// 数组去重
 // 1 不能区分'4'和4
 // 2 对象一律得到的是[object Object]
 const arrayMergeAndRemoveRepetition = () => {
@@ -32,7 +33,7 @@ const arrayMergeAndRemoveRepetition = () => {
 	// for (let i = 0, len = arguments.length,; i < len; i++) {
 	//     arr = arr.concat(arguments[i]);
 	// }
-	// remove repetition
+	//remove repetition
 	// let result = [],
 	//     obj = {}
 	// for (let i = 0; i < arr.length; i++) {
@@ -44,6 +45,7 @@ const arrayMergeAndRemoveRepetition = () => {
 	// return result
 }
 
+// 数组去重
 //double loop
 const arrayMergeAndRemoveRepetition2 = (arr) => {
 	for (let i = 0; i < arr.length - 1; i++) {
@@ -64,16 +66,15 @@ const randomReplaceArray = (array) => {
 		const random = Math.floor(Math.random() * len)
 		tmp.push(array.splice(random, 1)[0])
 	}
-	console.log(tmp)
+	return tmp
 }
-randomReplaceArray([1, 5, 9, 6, 2, 6])
 
 //Function------------------------
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 async function test() {
 	console.log('Hello')
 	await sleep(1000)
-	console.log('World')
+	console.log('Jack')
 }
 
 //HOF
@@ -82,9 +83,7 @@ const splat = (fn) => {
 		return fn.apply(null, array)
 	}
 }
-
 const addArrayElements = splat((x, y) => x + y)
-
 addArrayElements([1, 2])
 
 //safe constructor
@@ -100,26 +99,24 @@ function Person(name, age, job) {
 	}
 }
 
-Function.prototype.simulateCall = function (context) {
-	var context = context || window
+Function.prototype.simulateCall = function (context, ...args) {
+	if (typeof this !== 'function') throw new Error('params invalid')
+	context = context || window
 	context.fn = this
-	let args = [].slice.call(arguments, 1)
-	let result = eval('context.fn(' + args + ')')
+	//let args = [].slice.call(arguments, 1)
+	//let args = [...arguments].slice(1)
+	//let result = eval('context.fn(' + args + ')')
+	const result = context.fn(...args)
 	//delete temporary attribute
 	delete context.fn
 	return result
 }
 
-Function.prototype.simulateApply = function (context, arr) {
-	var context = context || window
+Function.prototype.simulateApply = function (context, arr = []) {
+	if (typeof this !== 'function') throw new Error('params invalid')
+	context = context || window
 	context.fn = this
-	let result
-	if (!arr) {
-		result = context.fn()
-	} else {
-		let args = [].slice.call(arguments, 0)
-		result = eval('context.fn(' + args + ')')
-	}
+	const result = context.fn(args)
 	delete context.fn
 	return result
 }
@@ -128,41 +125,41 @@ Function.prototype.simulateApply = function (context, arr) {
 // 2 返回函数
 // 3 可以传入参数
 // 4 柯里化
-Function.prototype.simulateBind = function (context) {
+Function.prototype.simulateBind = function (context, ...args) {
 	if (typeof this !== 'function') throw new Error('params invalid')
-	let fn = this
-	let args = [].slice.call(arguments, 1)
-	return function () {
-		return fn.apply(context, args.concat([].slice.call(arguments, 0)))
+	const fn = this
+	//let args = [].slice.call(arguments, 1)
+	return function (...newArgs) {
+		//return fn.apply(context, args.concat([].slice.call(arguments, 0)))
+		return fn.apply(context, [...args, ...newArgs])
 	}
 }
 
-Function.prototype.simulateBindAdvance = function (context) {
+Function.prototype.simulateBindAdvance = function (context, ...args) {
 	if (typeof this !== 'function') throw new Error('params invalid')
-	let fn = this
-	let args = [].slice.call(arguments, 1)
-
-	let F = function () {}
+	const fn = this
+	//let args = [].slice.call(arguments, 1)
 
 	//judge this
 	//if invoke by new, this is bar
 	//if function invoke, this is context
-	let fBound = function () {
+	const fBound = function () {
 		let bindArgs = [].slice.call(arguments)
 		return fn.apply(
 			this instanceof fBound ? this : context,
 			args.concat(bindArgs)
 		)
 	}
-	//fBound.prototype = Object.create(this.prototype);
+	//fBound.prototype = Object.create(this.prototype)
+	const F = function () {}
 	F.prototype = this.prototype
 	fBound.prototype = new F()
 	return fBound
 }
 
-function simulateNew(constructor, params) {
-	let obj = Object.create(constructor.prototype)
-	let result = constructor.call(obj, params)
+function simulateNew(constructor, ...args) {
+	const obj = Object.create(constructor.prototype)
+	const result = constructor.apply(obj, args)
 	//in case constructor return a simple type
 	return typeof result === 'object' && result != null ? result : obj
 }

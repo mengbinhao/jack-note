@@ -2,7 +2,14 @@
   > Did I use that word right?
   > Was I making sense?
   > How would you word that?
+  > What's the word for it?
+  > It was on the tip of my tongue / I had it a moment ago / I [totally] lost my train of thoughts
+  > What's the best way to put this?
   > Is there a better way to say that?
+  > So basically, what I'm trying to say is ...
+  > Let me put it in this way ...
+  > Let me get back to you on that
+  > I need a little bit more information before I can give you a certain answer
   > XXX have very high tolerance of xxx language, It's like if someone is speaking broken Chinese to me, I can pick up the pieces, find out the most important information in that sentence and make sense on my own
   > It does not matter how slowly you go, as long as you do not stop
   > Constantly use the new word in future conversation and form a muscle memory
@@ -30,8 +37,17 @@
   > How dare you? You hae no right to do something
 
 - interview
-  > Prior to the role of marketing manager, I worked as ... for 5 years
+  > I graduated from xxx University with a Bachelor's/Master's/PHD degree in (major) in (year). I started off my career as (this position) with XYZ company
+  > I was in charge of script writing, as well as ...
+  > I also assisted with ...
+  > I was responsible for ...
+  > My duties include ...
   > I have 10 years of experience in xxx, During the past 10 yeas, I was lucky to have participated/ be part of many cool/exiting/groundbreaking projects
+  > I was in that position for 2 years. Then I went on to be the xxx for xxx company
+  > After the implementation of the new system, we saw a 2% increase in customer conversion rate
+  > I have a hard time balancing work and life. I work too hard sometimes
+  > Prior to the role of marketing manager, I worked as ... for 5 years
+  > Like I said, I was in charge of ... for 3 years. I can hit tge ground running it. I know a great deal about something. So based on all that, I think this position is right up my alley and I have a lot to offer to your company
   > One of the most lessons I've learned in the past 10 years of being in this field is that effective communication is the key to the success of any projects
   > I know you're looking for who can effective manage this team, I believe that I align with what you're looking for
   > I've always been interested in this field
@@ -39,10 +55,75 @@
   > One thing that you should know about me is that xxx
   > I came from a family of 3
   > The import thing that I like the most about this company is your core value
+  > I/ve had an amazing experience in this position, I've learned a lot. I think I am ready for next step, for a bigger challenge
   > I want new career challenges / to advanced my career, and I think this job offers more opportunity for me to do that
   > My salary expectations are in line with my experience and qualifications. I believe that you will pay your employee fairly
   > Hi, I'm Jack. I'm new kid on the block. I'm very glad to be here/part of this team. Thank you for the warm welcome.I look forward to know and work with each one of you, and at the same time contribute to this team in all my abilities. I look forward to learn and grow with all of you, Again I'm very exited to be here. Thank you!
+  > I was let go after a change in management
+  > I was let go due to company downsizing
+  > I was not a great fit as a ... because my strengths were in ... so I'm going to focus on from this point on
 
+- salary
+  > Hi, xxx, I hope you're having a great day. It's been almost two years since I started working here. I really enjoyed working here and I look forward to many more years to come. I'd like to set up a meeting with you to talk about my salary situation
+  > I would like to request a pay raise by five percent, which would put my compensation in line with industry standard
+  > When I first got started on my position, I was responsible for A,B and C. I successfully completed all these tasks, and now I have picked up A and B, And I believe I'm doing a good job on it, I say this because I have achieved this and this
+  > I've done a little bit of research on my own
+  > I found that market compensation for people in my position with similar years of experience are in this range
+  > I'd like to be somewhere in the middle
+  > I think a raised by five percent is appropriate
+  > I love working here and I like to stay with this company, but can you level with me as to my future prospects here in this company?
+  > I'd like to revisit this conversation in three to six months. In the meanwhile, could you tell me what would merit this raise?
+
+- 下班了
+  > I'm out of work 失业
+  > I just got [out] off work
+  > I'm getting off [work] at 6 [o'clock] today
+  > I'll meet you there when I get off work
+  > I'm off
+  > I'm just leaving work now. I'll see you there ib 20 [minutes]
+  > I just got done with work
+  > I'm done for the day
+  > I'm just finishing up [work right now]
+
+- 加班
+  > I am working late [tonight]
+  > The project ended up being a lot more work than we expected. We had to **work overtime** for a few weeks to make deadlines（描述已经加班或总加班）
+  > I was making up all these scenarios in my mind, My imagination was working overtime（想象放飞）
+  > Do you offer overtime?
+  > If you want to be a doctor, expect to **work long hours** （总加班）
+  > I am trying to pick up [extra shift] | more shifts to cover my expenses
+  > I need to cover for sb tomorrow
+
+- 我还在做
+  > We're just fine-tuning/polishing up a few details
+  > We're close to the finish line
+  > We've got the biggest part of the project taken care of
+  > After that it'll be smooth sailing
+  > It's all downhill from there
+
+- 我做完了
+  > All done / done and done / It's all wrapped up!
+  > I finish my part of the project 2 weeks ago
+  > I got done with xxx
+  > I'm done for xxx / I'm finished  我玩完了/混不下去了
+  > I'm done with this project 受够这个项目了
+
+- 同意
+  > Well said
+  > Sounds good to me
+  > I'm in
+  > It works for me
+  > I'm on board
+  > I can't agree with you more
+  > It'll do
+  > I like the sound of that
+
+- 谁说不是呢
+  > I can't agree with you more
+  > well said
+  > True dat
+  > touche
+  > You said it best
 
 - 打电话
   > This is Jack
@@ -95,20 +176,6 @@
   > Just a sec!
   > In a minute!
 
-- 我还在做
-  > We're just fine-tuning/polishing up a few details
-  > We're close to the finish line
-  > We've got the biggest part of the project taken care of
-  > After that it'll be smooth sailing
-  > It's all downhill from there
-
-- 我做完了
-  > All done / done and done / It's all wrapped up!
-  > I finish my part of the project 2 weeks ago
-  > I got done with xxx
-  > I'm done for xxx / I'm finished  我玩完了/混不下去了
-  > I'm done with this project 受够这个项目了
-
 - 你的想法/立场
   > Regarding this issue, What do you make of that? I want to know your opinion on that
   > What do you have in mind?
@@ -144,24 +211,6 @@
   > Can you throw this one in?
   > I saw this from xxx for yyy, If you can price match that for me. I'll buy it from you
   > Is there any discount if I pay cash?
-
-- 谁说不是呢
-  > I can't agree with you more
-  > True dat
-  > touche
-  > well said
-  > You said it best
-
-- salary
-  > Hi, xxx, I hope you're having a great day. It's been almost two years since I started working here. I really enjoyed working here and I look forward to many more years to come. I'd like to set up a meeting with you to talk about my salary situation
-  > I would like to request a pay raise by five percent, which would put my compensation in line with industry standard
-  > When I first got started on my position, I was responsible for A,B and C. I successfully completed all these tasks, and now I have picked up A and B, And I believe I'm doing a good job on it, I say this because I have achieved this and this
-  > I've done a little bit of research on my own
-  > I found that market compensation for people in my position with similar years of experience are in this range
-  > I'd like to be somewhere in the middle
-  > I think a raised by five percent is appropriate
-  > I love working here and I like to stay with this company, but can you level with me as to my future prospects here in this company?
-  > I'd like to revisit this conversation in three to six months. In the meanwhile, could you tell me what would merit this raise?
 
 - hobby
   > What do you like to do in your free time?
@@ -261,17 +310,6 @@
   > chewy
   > spicy
 
-- 下班了
-  > I'm out of work 失业
-  > I just got [out] off work
-  > I'm getting off [work] at 6 [o'clock] today
-  > I'll meet you there when I get off work
-  > I'm off
-  > I'm just leaving work now. I'll see you there ib 20 [minutes]
-  > I just got done with work
-  > I'm done for the day
-  > I'm just finishing up [work right now]
-
 - 欺负人
   > prey on the weak
   > Stop preying on the weak
@@ -320,16 +358,6 @@
   > clout chaser  只为了追逐名利而讨好他人
   > doing sth for the clout 为名利做某事
   > **Jack is so pathetic, He is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)**
-
-
-- 加班
-  > I am working late [tonight]
-  > The project ended up being a lot more work than we expected. We had to **work overtime** for a few weeks to make deadlines（描述已经加班或总加班）
-  > I was making up all these scenarios in my mind, My imagination was working overtime（想象放飞）
-  > Do you offer overtime?
-  > If you want to be a doctor, expect to **work long hours** （总加班）
-  > I am trying to pick up [extra shift] | more shifts to cover my expenses
-  > I need to cover for sb tomorrow
 
 - 徒劳的
   > We talked for hours, but it turns out to be all in vain, He didn't understand/remember anything
