@@ -3,6 +3,8 @@
   - purify v
   - shuffle | reshuffle
 
+  > the highest of any month in history
+
 - 2022.7.23
   - yummy adj/n
   - auxiliary verb | modal verb
@@ -674,6 +676,7 @@
   - frank | frankly
   - spit n/v
   - spite n/vt
+  - despite prep/n
   - split n/v/adj
   - blush n/vi
   - slot n/vt
@@ -5309,7 +5312,6 @@
   - testify v
   - bomb n/v | bombshell n | bomber
   - collegial adj
-  - despite prep/n
   - briefing n | brief n/vt/adj | briefly adv
 
   > at odds with sb

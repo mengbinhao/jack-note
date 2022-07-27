@@ -174,8 +174,8 @@ const curry = function (fn) {
 
 const curryFormalParameter = function (fn, args) {
 	let length = fn.length,
-		_args = args || []
-	that = this
+		_args = args || [],
+		that = this
 	return function () {
 		let innerArgs = _args.concat([].slice.call(arguments))
 		if (innerArgs.length < length) {
@@ -331,7 +331,6 @@ let recursionByCount = () => {
 			li.innerText = batchDone * batchSize + i + 1
 			fragment.appendChild(li)
 		}
-
 		container.appendChild(fragment)
 
 		batchDone += 1
@@ -379,9 +378,7 @@ sortStrByCount('dddbbbiiiiiicccca')
 
 //素数
 let isPrimeNumber = (num) => {
-	if (num <= 1 || num % 1 !== 0) {
-		return false
-	}
+	if (num <= 1 || num % 1 !== 0) return false
 	let n = 2
 	while (n < num) {
 		if (num % n++ === 0) {
@@ -390,7 +387,7 @@ let isPrimeNumber = (num) => {
 	}
 	return true
 }
-//console.log(isPrimeNumber(997));
+//console.log(isPrimeNumber(997))
 
 // return  n & 1 === 1
 let isOdd = (num) => Math.abs(num % 2) === 1
@@ -401,9 +398,7 @@ let getByteLength = (str) => {
 		i
 	for (i = 0; i < len; i++) {
 		// in case has chinese
-		if (str.charCodeAt(i) > 255) {
-			count++
-		}
+		if (str.charCodeAt(i) > 255) count++
 	}
 	return count
 }
@@ -879,10 +874,10 @@ arrayTest.slice(0)
 //回流(Layout) 前面我们通过构造渲染树，我们将可见DOM节点以及它对应的样式结合起来，可是我们还需要计算它们在设备视口(viewport)内的确切位置和大小，这个计算的阶段就是回流。
 //为了弄清每个对象在网站上的确切大小和位置，浏览器从渲染树的根节点开始遍历,而在回流这个阶段，我们就需要根据视口具体的宽度，将其转为实际的像素值
 
-//重绘(Painting) 通过回流(Layout)阶段，我们知道了所有的可见节点的样式和具体的几何信息(位置、大小)，
+//重绘(Painting) 通过回流(Layout)阶段，我们知道了所有的可见节点的样式和具体的几何信息(位置、大小)
 //那么我们就可以将渲染树的每个节点都转换为屏幕上的实际像素，这个阶段就叫做重绘节点。
 
-//何时发生回流重绘 回流阶段是计算节点的几何信息和位置，那么当页面布局或者几何信息发生改变时，就需要回流。
+//何时发生回流重绘 回流阶段是计算节点的几何信息和位置，那么当页面布局或者几何信息发生改变时，就需要回流
 //添加或者删除可见的DOM元素
 //元素的位置、尺寸发生变化
 //页面开始渲染的时候(这肯定避免不了)
@@ -893,8 +888,8 @@ arrayTest.slice(0)
 //通过<script>与<link>引入外部资源，当解析到该标签的时候，会进行下载
 //CSS脚本的加载不会阻塞 DOM 解析过程，但是会阻塞渲染过程(painting)
 //JS脚本的加载会阻塞 DOM 解析过程
-//JS脚本的加载中，如果你确定没必要阻塞 DOM 解析的话，不妨按需要加上 defer 或者 async 属性，此时脚本下载的过程中是不会阻塞 DOM 解析的。
-//浏览器遇到 <script>且没有 defer 或 async 属性的标签时，为了为<script>标签内部的js提供最新的信息，会触发页面的回流、重绘过程。因而如果前面 CSS 资源尚未加载完毕时，浏览器会等待它加载完毕之后再执行脚本。
+//JS脚本的加载中，如果你确定没必要阻塞 DOM 解析的话，不妨按需要加上 defer 或者 async 属性，此时脚本下载的过程中是不会阻塞 DOM 解析的
+//浏览器遇到 <script>且没有 defer 或 async 属性的标签时，为了给<script>标签内部的js提供最新的信息，会触发页面的回流、重绘过程。因而如果前面 CSS 资源尚未加载完毕时，浏览器会等待它加载完毕之后再执行脚本
 //所以<script>最好放底部(防止阻塞DOM解析)。<link>最好放头部(为渲染过程提供样式)。如果头部同时有<script>与<link>的情况下，最好将<script>放在<link>上面(为了防止CSS脚本加载时间过长，使js等待时间也很长)
 
 //三栏布局  居中  圣杯  双飞翼
@@ -1008,7 +1003,7 @@ var xiaoming2 = {
 	}),
 }
 
-//题目3：不允许更改小明！让小明的只有15岁以下的朋友。
+//题目3：不允许更改小明！让小明的只有15岁以下的朋友
 var xiaoming2 = {
 	...xiaoming,
 	friends: xiaoming.friends.filter(function (item) {
