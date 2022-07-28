@@ -1,20 +1,18 @@
-function add() {
-	// 第一次执行时，定义一个数组专门用来存储所有的参数
-	var _args = Array.prototype.slice.call(arguments)
-
-	// 在内部声明一个函数，利用闭包的特性保存_args并收集所有的参数值
-	var _adder = function () {
-		_args.push(...arguments)
-		return _adder
+var arrayRankTransform = function (arr) {
+	const sortedArr = new Array(arr.length).fill(0)
+	sortedArr.splice(0, arr.length, ...arr)
+	sortedArr.sort((a, b) => a - b)
+	const ranks = new Map()
+	const ans = new Array(arr.length).fill(0)
+	for (const a of sortedArr) {
+		if (!ranks.has(a)) {
+			ranks.set(a, ranks.size + 1)
+		}
 	}
-
-	// 利用toString隐式转换的特性，当最后执行时隐式转换，并计算最终的值返回
-	_adder.toString = function () {
-		return _args.reduce(function (a, b) {
-			return a + b
-		})
+	for (let i = 0; i < arr.length; i++) {
+		ans[i] = ranks.get(arr[i])
 	}
-	return _adder
+	return ans
 }
 
-console.log(add(1, 2, 3)(4, 5).toString())
+arrayRankTransform([37, 12, 28, 9, 100, 56, 80, 5, 12])

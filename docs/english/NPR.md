@@ -2850,7 +2850,6 @@
   - deride vt
   - erect vt/adj
   - vacant adj | vacancy n
-  - tally n/v
 
   > Health systems are hanging by a thread
   > xxx dive in without a mask
@@ -3782,7 +3781,7 @@
   - brace n/vt | bracing adj
   - dub vt
   - burial n/adj
-  - explode v | explosion n | explosive n/adj
+  - explode v | explosive n/adj | explosion n
 
   > No word of other casualties yet
 
