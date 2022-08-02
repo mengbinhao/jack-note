@@ -1,9 +1,15 @@
+- 2022.8.2
+  - accommodate vt
+  - kinetic adj
+  - tidal
+
 - 2022.7.25
   - surname n/v
   - purify v
   - shuffle | reshuffle
 
   > the highest of any month in history
+  > How far they go is the unknown here
 
 - 2022.7.23
   - yummy adj/n
@@ -146,9 +152,6 @@
   - atheist n
   - eloquent adj
 
-- 2022.5.24
-  - gloomy adj
-
 - 2022.5.19
   - console n/vt
   - vein n
@@ -172,9 +175,6 @@
   - canteen n
   - ballet n
   - bark n/v
-
-- 2022.5.12
-  - reproductive adj
 
 - 2022.5.11
   > The cost of living in America has gone up significantly over the past year as prices on the things we buy have reminiscent
@@ -393,7 +393,7 @@
   - hover vi
 
 - 2022.2.24
-  - whisper n/v
+  - whisper n/v | mumble n/v | enunciate vt | chat | chatter n/v | yell n/v | scream | whine n/v | ramble n/v | curse n/v | potty month
   - currency n
 
 - 2022.2.23
@@ -535,7 +535,6 @@
   - trap n/vt | trapped
   - tomb n | cemetery n
   - wreath n/v
-  - awesome adj
   - separable adj | inseparable adj
 
 - 2021.11.16
@@ -797,7 +796,6 @@
 
 - 2021.8.12
   - stare v
-  - magnificent adj
 
 - 2021.8.12
   - fahrenheit n | centigrade n
@@ -1194,7 +1192,7 @@
 
 - 2021.4.26
   - theater n
-  - tide n/vt
+  - tide n/vt | tidal adj
 
 - 2021.4.24
   - evaporate v
@@ -1305,6 +1303,7 @@
   - empire n
   - sideway adj/adv
   - canal n/vt
+  - strait n/adj
 
   > There will be a lot of lessons to be learnt here
 
@@ -1492,7 +1491,6 @@
   - mushroom n/vi/adj
   - astonish v | astonished | astonishing
   - hate | hateful
-  - strait n/adj
   - premier adj/n
   - hall n
 
@@ -2459,7 +2457,6 @@
   - repeal n/vt | abolish vt
   - adhere vi
   - fist n/vt
-  - yell n/v
   - snipe n/v
   - rip  n/v
   - ripe adj/v
@@ -2472,7 +2469,6 @@
 
 - 2020.7.29
   - audience n
-  - excellent adj
   - incident n | incidentally adv | incidence n
   - vendor n
   - spread n/v/adj
@@ -2804,7 +2800,6 @@
 
 - 2020.6.6
   - knee n
-  - curse n/v | cursed adj
 
   > you know, we don't want to, if it comes to that, we have to
   > they have been overwhelmed
@@ -3423,7 +3418,6 @@
   - process n/v | processor
   - procession n
   - procedure n | procedural adj
-  - ramble n/v | rambling adj
   - joy n/v | joyous adj
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
@@ -3580,7 +3574,6 @@
   - drawdown n
   - tentative adj
   - footprint n
-  - chatter n/v
   - eventual adj | eventually adv
 
   > xxx will be based on kind of conditions on the ground
@@ -4647,7 +4640,6 @@
   - plea n | plead v | pleading n/adj
   - pleased adj | displease vt
   - oath n
-  - chatty adj
 
   > a lot to follow, and the story changing by minute
   > the story is moving so quickly
@@ -4723,7 +4715,6 @@
 
 - 2019.9.29
   - emirate n
-  - enunciate vt
   - jam n/vt | jamming n
   - spew n/v
   - bullet n
@@ -4773,7 +4764,6 @@
 - 2019.9.25
   - spur n/v
   - ordinary n/adj | ordinarily
-  - extraordinary adj | extraordinarily
   - plastic n/adj
   - renew v | renewed adj | renewable adj | renewal n
   - account n/v | accountable adj | unaccounted adj | accountability n
@@ -4824,7 +4814,7 @@
 - 2019.9.20
   - muffled adj
   - complex n/adj
-  - phenomenon n | phenomenal
+  - phenomenon n | phenomenal adj
   - finalize v
 
   > I don't think anybody expects it to become less so
@@ -4857,7 +4847,7 @@
 - 2019.9.18
   - majestic adj
   - gorgeous adj
-  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | wondrous
+  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | wondrous | excellent | awesome | extraordinary adj | extraordinarily | brilliant | remarkable | magnificent
   - credible adj
   - precede vt
   - precedent n/adj | unprecedented adj
@@ -4952,7 +4942,7 @@
   - sizable adj
   - ridicule n/vt | ridiculous adj
   - invite n/vt | invitation n
-  - remarkable adj | remark n
+  - remark n
   - elect n/vt/adj | electorate n | electoral adj
 
   > to my knowledge
@@ -4966,7 +4956,7 @@
   - pole n
   - approach n/v
   - narrative n/adj
-  - orbit n/v | orbiter n
+  - orbit n/v | orbital adj | orbiter n
   - excite v | excitement n
   - eerily adv
   - huddle vt | huddled adj
@@ -5126,6 +5116,7 @@
 - 2019.8.26
   - steer v | steering n/adj
   - grim adj
+  - gloomy adj
   - predict v | predictable adj | prediction n | unpredictable | predictability | unpredictability
   - disturb v | disturbed | disturbing adj
   - disrupt vt | disruptive adj | disruption n
@@ -5296,7 +5287,6 @@
   - drown v
   - tragedy n ｜ comedy n | tragic adj
   - reside vi | residence n | resident n/adj | residency | residential adj
-  - lax adj
   - spree n/vi
   - witness n/vt | eyewitness
   - conflict n/vi | conflicting adj
@@ -5452,7 +5442,7 @@
   - cable n/v
   - ambassador n | embassy n
   - inept adj
-  - radiate v
+  - radiate v | radiant adj | radiation
   - secure v/adj | security | insecurity
   - diplomat n | diplomatic adj | diplomacy n
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial

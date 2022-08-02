@@ -63,6 +63,30 @@
   > I was let go due to company downsizing
   > I was not a great fit as a ... because my strengths were in ... so I'm going to focus on from this point on
 
+- 好
+  > good
+  > great
+  > amazing
+  > awesome
+  > excellent
+  > extraordinary
+  > brilliant
+  > outstanding
+  > remarkable
+  > marvelous
+  > splendid
+  > unbelievable
+  > magnificent
+  > exquisite
+  > impeccable
+  > sublime
+  > superb
+  > sensational
+  > phenomenal
+  > fabulous
+  > fantastic
+  > incredible
+
 - salary
   > Hi, xxx, I hope you're having a great day. It's been almost two years since I started working here. I really enjoyed working here and I look forward to many more years to come. I'd like to set up a meeting with you to talk about my salary situation
   > I would like to request a pay raise by five percent, which would put my compensation in line with industry standard
@@ -125,6 +149,16 @@
   > touche
   > You said it best
 
+- 信号不好
+  > I'm losing you
+  > I can not hear you anymore/ very well
+  > I'm sorry. You are breaking up. Can u repeat that?
+  > Would you mind repeating that,please?
+  > I've got bad reception
+  > I only have one bar
+  > I've got weak signal here
+  > We've got a bad connection
+
 - 打电话
   > This is Jack
   > Jack's speaking, May I ask who is calling?
@@ -144,6 +178,7 @@
   > Can I leave a message?
   > when is a good time to call?
   > It's been great talking to you. Have a good day!
+  > I have a missed call from this number. WHo an I speaking with?
 
 - 缘分
   > It's fate,It's fate that brought us together
