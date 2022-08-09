@@ -1,3 +1,11 @@
+- 2022.8.9
+  - layoff n
+
+- 2022.8.8
+  - imminent adj
+  - whirl v
+  - tutor vt/n
+
 - 2022.8.2
   - accommodate vt
   - kinetic adj
@@ -1850,7 +1858,6 @@
   - gullible adj
 
 - 2020.12.2
-  - insulate vt
   - singular n/adj
   - worship v | into sth | look up to
   - cast n/v
@@ -3772,6 +3779,7 @@
 - 2020.2.5
   - ferry n/v
   - brace n/vt | bracing adj
+  - embrace n/v
   - dub vt
   - burial n/adj
   - explode v | explosive n/adj | explosion n
@@ -4342,7 +4350,7 @@
   - penalize vt
   - eerie adj
   - vacuum n/vt/adj
-  - certain | uncertain | uncertainly
+  - certain | uncertain | uncertainly | uncertainty
 
   > it's something that we have not seen before
   > we've never been through that before
@@ -4438,7 +4446,6 @@
   > It was a tight race against the opposition Conservatives
 
 - 2019.10.23
-  - poised v | poised adj
   - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt | compelled adj
@@ -4784,7 +4791,6 @@
   - garner vt
   - accumulate v | accumulation n
   - reputation n
-  - embrace n/v
   - refuge n/v | refugee n
   - fracture n/v
 
@@ -5577,7 +5583,7 @@
   - assume v | assumption n
   - credibility n
   - suspicion n | suspicious adj
-  - isolate n/v/adj | isolated adj | isolation n
+  - isolate n/v/adj | isolated adj | isolation n | insulate vt
 
   > xxxx as minor
   > mixed message

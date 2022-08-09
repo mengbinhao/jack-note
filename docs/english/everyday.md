@@ -6,6 +6,7 @@
   > It was on the tip of my tongue / I had it a moment ago / I [totally] lost my train of thoughts
   > What's the best way to put this?
   > Is there a better way to say that?
+  > I got so caught up in what I was saying / I forgot where I was. Where was I? 忘记说到哪了
   > So basically, what I'm trying to say is ...
   > Let me put it in this way ...
   > Let me get back to you on that
@@ -16,6 +17,7 @@
   > Don't stay within your own bubble
 
 - 其他
+  > When it comes to ... 说道某事时
   > There are 3/4 of us in my family
   > It feels like a roller coaster
   > get around 出门/外出
@@ -86,6 +88,7 @@
   > fabulous
   > fantastic
   > incredible
+  > He/She was born to do sth/to be a xxx
 
 - salary
   > Hi, xxx, I hope you're having a great day. It's been almost two years since I started working here. I really enjoyed working here and I look forward to many more years to come. I'd like to set up a meeting with you to talk about my salary situation
@@ -127,7 +130,7 @@
 
 - 我做完了
   > All done / done and done / It's all wrapped up!
-  > I finish my part of the project 2 weeks ago
+  > I finish my part of this project 2 weeks ago
   > I got done with xxx
   > I'm done for xxx / I'm finished  我玩完了/混不下去了
   > I'm done with this project 受够这个项目了
@@ -180,9 +183,12 @@
   > It's been great talking to you. Have a good day!
   > I have a missed call from this number. WHo an I speaking with?
 
-- 缘分
-  > It's fate,It's fate that brought us together
-  > I guess we were just in the right place at the right time
+- 挂电话
+  > I'am hanging up now. I don't wanna talk to you anymore
+  > I'am hanging up now. Is there anything else you'd like to talk about?
+  > It was really nice talking to you. I'll let you go now
+  > I gotta go
+  > I gotta call you back. Something's come up
 
 - 辛苦了
   > Thank you! I really appreciate it
@@ -190,6 +196,21 @@
   > I don't know what I'd do without you
   > good/great/fantastic job, we did it!
   > I'm forever grateful for you!
+
+- 崩溃
+  > I'm about to lose it
+  > I'm freaking out
+  > I'm reaching the breaking point
+  > I'm on the brink of z nervous/mental breakdown
+
+- 状态不好
+  > I haven't been myself lately
+  > Today is not my day
+  > It hasn't been my day/week/month/year
+
+- 缘分
+  > It's fate,It's fate that brought us together
+  > I guess we were just in the right place at the right time
 
 - 太热了
   > It's hot out
@@ -216,6 +237,11 @@
   > What do you have in mind?
   > What do you say?
   > Where do you stand on that?
+
+- bye
+  > Later
+  > I gotta run, Catch/see/talk to u later
+  > I's getting late now, we should probably head home
 
 - 解释自己
   > I wasn't aware of that
@@ -323,7 +349,6 @@
   > Groceries continue to surge/soar
   > doubled / tripled / quadrupled
 
-
 - taste
   > delicious / delish
   > yummy / yum
@@ -363,13 +388,6 @@
   > This place is filled up
   > This place is crammed
 
-- 挂电话
-  > I'am hanging up now. I don't wanna talk to you anymore
-  > I'am hanging up now. Is there anything else you'd like to talk about?
-  > It was really nice talking to you. I'll let you go now
-  > I gotta go
-  > I gotta call you back. Something's come up
-
 - 内卷
   > I'm/I feel stuck in the rat race
   > doing perpetual work with no way out
@@ -392,7 +410,7 @@
   > people pleaser 讨好别人
   > clout chaser  只为了追逐名利而讨好他人
   > doing sth for the clout 为名利做某事
-  > **Jack is so pathetic, He is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)**
+  > Jack is so pathetic, He is such a people pleaser, she will do whatever it takes to get the other person to like her(She goes out of her way to make the other person like her)
 
 - 徒劳的
   > We talked for hours, but it turns out to be all in vain, He didn't understand/remember anything

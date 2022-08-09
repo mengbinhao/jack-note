@@ -1,18 +1,40 @@
-var arrayRankTransform = function (arr) {
-	const sortedArr = new Array(arr.length).fill(0)
-	sortedArr.splice(0, arr.length, ...arr)
-	sortedArr.sort((a, b) => a - b)
-	const ranks = new Map()
-	const ans = new Array(arr.length).fill(0)
-	for (const a of sortedArr) {
-		if (!ranks.has(a)) {
-			ranks.set(a, ranks.size + 1)
-		}
-	}
-	for (let i = 0; i < arr.length; i++) {
-		ans[i] = ranks.get(arr[i])
-	}
-	return ans
+const red = () => {
+	console.log('red')
 }
 
-arrayRankTransform([37, 12, 28, 9, 100, 56, 80, 5, 12])
+const yellow = () => {
+	console.log('yellow')
+}
+
+const green = () => {
+	console.log('green')
+}
+
+const light = (timer, cb) => {
+	return new Promise((resolve, reject) => {
+		setTimeout(() => {
+			cb()
+			resolve()
+		}, timer)
+	})
+}
+
+let count = 0
+const start = () => {
+	if (count++ === 5) return
+	Promise.resolve()
+		.then(() => {
+			return light(3000, red)
+		})
+		.then(() => {
+			return light(2000, yellow)
+		})
+		.then(() => {
+			return light(1000, green)
+		})
+		.then(() => {
+			start()
+		})
+}
+
+start()
