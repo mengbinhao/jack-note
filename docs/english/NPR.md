@@ -365,6 +365,7 @@
 - 2022.3.15
   - ease n/v
   - lease n/v
+  - release n/vt
   - crease n/v | decrease n/v
   - tease n/vt
 
@@ -1282,6 +1283,7 @@
 
 - 2021.4.11
   - teenage n
+  - roar n/v
   - uproar n
 
   > The parallels are chilling
@@ -1585,7 +1587,6 @@
   - behave v
   - castle n/v
   - taxpayer n
-  - release n/vt
 
 - 2021.2.4
   - possess vt | possession n | possessed
@@ -3498,7 +3499,6 @@
   - assemble v | reassemble
   - banquet n
   - lavish adj
-  - elusive adj
   - cremation n
   - petal n
   - sprinkle n/v
@@ -4707,7 +4707,6 @@
   - boost n/vt
   - budge v
   - budget n/vt
-  - deficit n
   - efficient adj | inefficient
   - welfare n | fare n
   - outcome n
@@ -4776,6 +4775,7 @@
   - account n/v | accountable adj | unaccounted adj | accountability n
   - sit-in n
   - progress n/vi | progressive n/adj
+  - moderate adj/v
 
   > and then even a week from tomorrow, xxxx
   > but it hasn't gotten anywhere in congress yet
@@ -5515,7 +5515,6 @@
   - elsewhere adv
   - exempt vt/adj/n | exemption n
   - dominate v | dominant adj | dominance n | domination n
-  - moderate adj/v
 
   > take sides
   > it very well may
