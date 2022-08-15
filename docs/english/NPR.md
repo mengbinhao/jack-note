@@ -1,3 +1,9 @@
+- 2022.8.15
+  - reel n/v
+  - evict vt | eviction
+
+  > With no end in sight
+ac,  c
 - 2022.8.9
   - layoff n
 
@@ -102,7 +108,7 @@
   - congress | congressional
 
 - 2022.6.28
-  - hemisphere n
+  - sphere n/vt/adj | hemisphere n
   - atmosphere n | atmospheric adj
   - gigantic adj
 
