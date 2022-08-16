@@ -476,9 +476,15 @@ function sum(x, y) {
 // console.log(sum(2, 3));
 
 //Object------------------------
+const getType = (value) => {
+	const match = Object.prototype.toString.call(value).match(/ (\w+)]/)
+	return match[1].toLocaleLowerCase()
+}
+
 let isType = (type) => (obj) => {
 	return Object.prototype.toString.call(obj) === '[object ' + type + ']'
 }
+
 //isType('String')('123')
 let JackGlobal = {
 	namespace: function (ns) {

@@ -1,9 +1,12 @@
 - 2022.8.15
+  - receipt n/vt
+
+- 2022.8.15
   - reel n/v
   - evict vt | eviction
 
   > With no end in sight
-ac,  c
+
 - 2022.8.9
   - layoff n
 
