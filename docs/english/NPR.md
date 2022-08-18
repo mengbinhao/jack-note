@@ -1,4 +1,15 @@
-- 2022.8.15
+- 2022.8.18
+  - hunger n/v
+  - detractor n | critic | supporter
+  - secondary adj
+  - outfit n
+  - mute adj/vt
+  - takeover n
+
+- 2022.8.17
+  - chess n
+
+- 2022.8.16
   - receipt n/vt
 
 - 2022.8.15
@@ -657,7 +668,7 @@
 
 - 2021.9.29
   - stunt n/v
-  - stun n/vt | stunning
+  - stun n/vt
   - create | creative | creature n
   - recreation n
 
@@ -1508,7 +1519,7 @@
 - 2021.2.28
   - uphold vt
   - mushroom n/vi/adj
-  - astonish v | astonished | astonishing
+  - astonish v | astonished adj
   - hate | hateful
   - premier adj/n
   - hall n
@@ -1947,7 +1958,6 @@
   - slaughter n/vt | genocide n
 
 - 2020.11.19
-  - widespread adj
 
   > The vast majority of them are.But they are walking a fine line
   > The big picture here is (that) ...
@@ -2488,7 +2498,6 @@
   - audience n
   - incident n | incidentally adv | incidence n
   - vendor n
-  - spread n/v/adj
   - authenticity n | authentication n
   - headquarter n
   - kingdom n
@@ -2871,7 +2880,6 @@
   - dictate n/v
   - flat n/adj/adv | flatten v
   - flatter vt
-  - consecutive adj
 
   > while the media deals with nonsense, I will continue to lead Israel on the issue that really matter to you
 
@@ -2908,7 +2916,6 @@
   > but even in those
 
 - 2020.5.27
-  - brunt n
   - allowance n
   - generous adj
 
@@ -4308,7 +4315,7 @@
 - 2019.11.5
   - resolution n | solution
   - phase n
-  - formalize vt | formal adj | formation n
+  - formalize vt | formal adj | formation n | informal | formally | informally
   - gear n/v
   - portray vt
   - permanent adj | permanently adv
@@ -4636,6 +4643,8 @@
   - bothersome adj
   - proper adj | improper adj | properly | improperly
   - property n
+  - spread n/v/adj
+  - widespread adj
   - disperse v | dispersed adj
   - heavy-handed adj
   - median n/adj
