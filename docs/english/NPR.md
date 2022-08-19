@@ -1,5 +1,5 @@
 - 2022.8.18
-  - hunger n/v
+  - hunger n/v | hungry adj
   - detractor n | critic | supporter
   - secondary adj
   - outfit n
