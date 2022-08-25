@@ -1,3 +1,7 @@
+- 2022.8.23
+  - standoff n/adj
+  - despise vt
+
 - 2022.8.18
   - hunger n/v | hungry adj
   - detractor n | critic | supporter
@@ -5,6 +9,7 @@
   - outfit n
   - mute adj/vt
   - takeover n
+  - dwell vi
 
 - 2022.8.17
   - chess n
@@ -88,7 +93,6 @@
   > That in itself is a new concept
 
 - 2022.7.7
-  - overly adv
 
   > but they are still stretched very thin
 
@@ -111,7 +115,6 @@
 
 - 2022.6.30
   - brew vt/n | beer
-  - overturn n/v
 
   > I mean, it remains to be seen. They would like to
   > We're in the early days here
@@ -148,7 +151,6 @@
   > We are doing what we had signaled was likely to happen
 
 - 2022.6.9
-  - overlap n/v
 
   > And those all are set up so that they can chill dissent, silence dissent, and either imprison or drive into exile the people who refuse to be quiet
 
@@ -1369,8 +1371,8 @@
   - wrap n/v
   - ounce n
   - announce v | unannounced
+  - denounce v
   - renounce vt
-  - denounce vt
   - pronounce v | pronounced adj | pronouncement n
   - pounce n/vi
   - bounce n/v
@@ -1481,6 +1483,9 @@
   > so my read of xxx
 
 - 2021.3.3
+  - overlap n/v
+  - overturn n/v
+  - overly adv
   - overvalued | undervalued adj | revaluate
   - valuable | invaluable adj
   - overstep vt
@@ -2818,7 +2823,7 @@
   - reinforce n/v | reinforced
   - suit n/v
   - pursuit n
-  - lawless adj | lawlessness n | unlawful adj | lawful | lawsuit n
+  - lawless adj | lawlessness n | lawful | unlawful adj | lawsuit n
   - bluster n/v
 
   > in large degree
@@ -2979,7 +2984,7 @@
 
 - 2020.5.15
   - thumb n/v
-  - class n/v | classic adj | classify vt | declassified | classification n
+  - class n/v | classic adj | classify vt | classified | declassified | classification n
 
   > take a look at xxx from top to bottom
 
@@ -4871,7 +4876,7 @@
 - 2019.9.18
   - majestic adj
   - gorgeous adj
-  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | wondrous | excellent | awesome | extraordinary adj | extraordinarily | brilliant | remarkable | magnificent
+  - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | excellent | awesome | extraordinary adj | brilliant | remarkable | magnificent | dynamite
   - credible adj
   - precede vt
   - precedent n/adj | unprecedented adj
