@@ -1,3 +1,18 @@
+- 2022.8.29
+  - propagate v
+  - conception | misconception
+  - cosmic adj
+  - propel vt
+  - jelly n/v
+  - pitch | intonation | syllable | stress | glide n/v | reduction | contraction | content words | function words
+
+  > If I can step back a bit, ...
+
+- 2022.8.27
+  - imitate vt
+  - melody n
+  - intonation n
+
 - 2022.8.23
   - standoff n/adj
   - despise vt
@@ -47,7 +62,6 @@
 - 2022.7.23
   - yummy adj/n
   - auxiliary verb | modal verb
-  - intonation n
 
 - 2022.7.22
   - discard n/v | discarded
@@ -1957,6 +1971,7 @@
   > There is a tendency to see which way the wind is blowing before speaking out
 
 - 2020.11.20
+  - ample adj
   - tremble n/v
   - trample n/v
   - battle n/v | battlefield n
@@ -3426,7 +3441,8 @@
   - relinquish vt
   - forehead n
   - gauge n
-  - stress n/vt | distress n/vt | distressed adj
+  - stress n/vt
+  - distress n/vt | distressed adj
   - folk n
   - adjust v | adjustment n
   - peculiar adj
@@ -4106,7 +4122,7 @@
   > the quest for knowledge and understanding never gets dull
 
 - 2019.12.13
-  - obey v
+  - obey v | disobey
   - separate v
   - grain n
   - telescope n
@@ -4153,7 +4169,7 @@
 
 - 2019.12.10
   - capable adj | capability n
-  - distract v | distraction n
+  - distract v | distracted | distraction n
   - censure n/v
   - hoax n/vt
   - obsolete n/vt/adj
