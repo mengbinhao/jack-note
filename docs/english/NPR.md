@@ -7,6 +7,7 @@
   - pitch | intonation | syllable | stress | glide n/v | reduction | contraction | content words | function words
 
   > If I can step back a bit, ...
+  > They haven't risen enough to **keep pace** with inflation
 
 - 2022.8.27
   - imitate vt
@@ -1566,7 +1567,6 @@
   - fester v
   - ought to do sth
   - pore n/v
-  - gush n/v
   - torrent n
 
   > xxx doesn't happened by accident
@@ -2868,7 +2868,6 @@
 
 - 2020.6.4
   - reckon v | reckoning
-  - calamity n
   - grasp n/v
   - comprise vt
   - skew n/v/adj
@@ -3887,6 +3886,7 @@
   - lash n/v
   - clash n/v
   - slam n/v | whip n/v | smash n/v | slammed adj | slash
+  - norm n
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
 
@@ -4488,7 +4488,6 @@
   - compel vt | compelled adj
   - consist vi | consistent adj | consistently adv
   - distrust n/vt | mistrust n/vt
-  - norm n
 
   > in some ways, xxx
   > sb had something else in mind
@@ -5202,7 +5201,7 @@
   - ghost n
   - hostile adj | hostility n
   - annex n/vt | annexation n
-  - settle n/v | settlement n | settling | unsettle | unsettling
+  - settle n/v unsettle | settled | unsettled| settlement n
   - pendulum n
 
   > it was seen as a breather for the trade war
