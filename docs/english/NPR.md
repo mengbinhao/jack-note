@@ -1,3 +1,9 @@
+- 2022.9.6
+  - fascinate vt | fascination
+
+  > Cost can be a barrier where there are day use fees
+  > xxx really make us have to constantly focus our attention to kind of navigate around those obstacles
+
 - 2022.8.29
   - propagate v
   - conception | misconception
@@ -3078,6 +3084,7 @@
   - due n/adj/adv | overdue
   - longstanding adj
   - historical adj | historic | historically | historian
+  - incorporate vt
   - corporate adj | corporation n | company | firm n/vt/adj | firmly adv
   - cooperate vi | cooperation n
   - initial adj/n/vt ｜ initially
