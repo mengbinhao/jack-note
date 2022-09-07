@@ -1,3 +1,6 @@
+- 2022.9.7
+  > I believe American is at an inflection point, one of those moments that determine the shape of everything that's to come after
+
 - 2022.9.6
   - fascinate vt | fascination
 
@@ -1562,7 +1565,6 @@
 - 2021.2.26
   - reflection n
   - deflection n
-  - inflection n
   - entail vt/n
   - condition | uncondition | conditional | unconditional | conditionally | precondition
 
