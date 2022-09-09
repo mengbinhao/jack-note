@@ -1,3 +1,6 @@
+- 2022.9.9
+  - consecutive adj
+
 - 2022.9.7
   > I believe American is at an inflection point, one of those moments that determine the shape of everything that's to come after
 
