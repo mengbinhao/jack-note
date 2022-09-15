@@ -39,6 +39,7 @@ Array.prototype.unique2 = function () {
 
 Array.prototype.unique3 = function () {
 	//这里是利用对象键hash值的唯一性来去重
+	//使用obj区别不了1和'1'
 	let obj = {}
 	let result = []
 	for (let i = 0; i < this.length; i++) {
@@ -54,6 +55,7 @@ Array.prototype.unique3 = function () {
 Array.prototype.unique4 = function () {
 	let obj = {}
 	for (let i = 0; i < this.length; i++) {
+		//使用obj区别不了1和'1'
 		if (obj[this[i]]) {
 			this.splice(i, 1)
 			this.length--
@@ -103,8 +105,7 @@ const simulateFlatten1 = (arr) => {
 
 const simulateFlatten2 = (arr) => {
 	return arr.reduce(
-		(prev, next) =>
-			rev.concat(Array.isArray(next) ? simulateFlatten2(next) : next),
+		(acc, cur) => acc.concat(Array.isArray(cur) ? simulateFlatten2(cur) : cur),
 		[]
 	)
 }
@@ -123,10 +124,6 @@ const simulateFlatten4 = (arr) => {
 		.split(',')
 		.map((item) => Number(item))
 }
-
-const simulateFlatten5 = JSON.parse(
-	'[' + JSON.stringify(arr).replace(/\[|\]/g, '') + ']'
-)
 
 const simulateFlattenFinal = (arr, depth = 1) => {
 	return depth > 0
@@ -149,7 +146,7 @@ const sortArrayRandom = (arr) => arr.sort((a, b) => Math.random() - 0.5)
 const undefinedArray = (length) => Array.apply(null, { length })
 
 //创建特定大小的数组
-//[...Array(3).keys()]  //[0,1,2]
+//[...Array(3).keys()]
 
 Array.prototype.myPush = function () {
 	for (var i = 0; i < arguments.length; i++) {
@@ -192,9 +189,7 @@ Array.prototype.mySort = function (fn) {
 
 Array.prototype.myForEach = function (fn, context) {
 	context = context || arguments[1]
-	if (typeof fn !== 'function') {
-		throw new TypeError(fn + 'is not a function')
-	}
+	if (typeof fn !== 'function') throw new TypeError(fn + 'is not a function')
 	const len = this.length
 	let k = 0
 	while (k < len) {
@@ -285,12 +280,6 @@ Array.prototype.myReduce = function (fn, initialValue) {
 	}
 
 	return value
-}
-
-Array.prototype.myReduce2 = (f, acc, arr) => {
-	if (arr.length === 0) return acc
-	const [head, ...tail] = arr
-	return myReduce2(f, f(head, acc), tail)
 }
 
 const chunk = (arr, size) => {
@@ -804,23 +793,23 @@ Function.prototype.simulateCreate = function (obj) {
 }
 
 const simulateCurry = function (fn) {
-	let args = Array.prototype.slice.call(arguments, 1)
-	return () => {
-		return fn.apply(this, args.concat(Array.prototype.slice.call(arguments)))
+	let args = [].slice.call(arguments, 1)
+	let that = this
+	return function () {
+		return fn.apply(that, args.concat([].slice.call(arguments)))
 	}
 }
 
 //延迟计算 （用闭包把传入参数保存起来，当传入参数的数量足够执行函数时，开始执行函数）
 //动态创建函数 （参数不够时会返回接受剩下参数的函数）
 //参数复用（每个参数可以多次复用）
-const simulateCurryFormalParameter = function (fn, args) {
+const curryAdvanced = function (fn, args = []) {
 	let length = fn.length,
-		_args = args || [],
 		that = this
 	return function () {
-		let innerArgs = _args.concat([].slice.call(arguments))
+		let innerArgs = args.concat([].slice.call(arguments))
 		if (innerArgs.length < length) {
-			return simulateCurryFormalParameter.call(that, fn, innerArgs)
+			return curryAdvanced.call(that, fn, innerArgs)
 		} else {
 			return fn.apply(that, innerArgs)
 		}
@@ -1142,11 +1131,7 @@ const simulateInherit = (function () {
 const shallowClone = (obj) => {
 	if (typeof obj !== null && typeof obj === 'object') {
 		const target = Array.isArray(obj) ? [] : {}
-		for (let prop in obj) {
-			if (obj.hasOwnProperty(prop)) {
-				target[prop] = obj[prop]
-			}
-		}
+		for (let prop in obj) if (obj.hasOwnProperty(prop)) target[prop] = obj[prop]
 		return target
 	} else {
 		return obj
@@ -1260,10 +1245,6 @@ String.prototype.myTrim = function () {
 	return this.replace(/^\s+|\s+$/g, '')
 }
 
-String.prototype.myTrim2 = function () {
-	return this.replace(/^\s+|\s+$/g, '')
-}
-
 //number
 //number
 //number
@@ -1302,21 +1283,26 @@ const makeIterator = (array) => {
 let it = makeIterator([1, 2, 3])
 
 //Ajax
-// const xhr = new XMLHttpRequest()
-// xhr.open('get', url, true)
-// xhr.onreadystatechange = function(){
-//   if(xhr.readyState === 4){
-//     if(xhr.status >= 200 && xhr.status < 300 || xhr.status === 304){
-//       console.log('succeed')
-//     }else{
-//       consol.log('fail')
-//     }
-//   }
-// }
-// xhr.onerror = function(e) {
-//   console.log('error')
-// }
-// xhr.send(null)
+function promiseAJAX(url, method, body, headers) {
+	return new Promise((resolve, reject) => {
+		let xhr = new XMLHttpRequest()
+		xhr.open(method, url)
+		for (let key in headers) xhr.setRequestHeader(key, headers[key])
+		xhr.onreadystatechange = () => {
+			if (xhr.readyState === 4) {
+				if ((xhr.state >= 200 && xhr.state < 300) || xhr.status === 304) {
+					resolve(xhr.responseText)
+				} else {
+					reject(xhr)
+				}
+			}
+		}
+		xhr.onerror = function (error) {
+			reject(error)
+		}
+		xhr.send(body)
+	})
+}
 
 const simulateAJAX = (options) => {
 	options = options || {}
@@ -1348,6 +1334,14 @@ const simulateAJAX = (options) => {
 		xhr.open(options.method, options.url + postData.join('&'), options.async)
 		xhr.send(null)
 	}
+}
+
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
+
+async function test() {
+	console.log('Hello')
+	await sleep(1000)
+	console.log('World')
 }
 
 const queryURLParameterByRegex = (url) => {
@@ -1639,40 +1633,6 @@ function getElementTop(element) {
 	return actualTop
 }
 
-//promise
-function sleep(ms) {
-	return new Promise((resolve) => setTimeout(resolve, ms))
-}
-async function test() {
-	console.log('Hello')
-	await sleep(1000)
-	console.log('World')
-}
-
-//使用XMLHttpRequest实现一个Promise的ajax
-function simulateAJAX2(url, method, body, headers) {
-	return new Promise((resolve, reject) => {
-		let xhr = new XMLHttpRequest()
-		xhr.open(method, url)
-		for (let key in headers) {
-			req.setRequestHeader(key, headers[key])
-		}
-		xhr.onreadystatechange = () => {
-			if (xhr.readyState === 4) {
-				if (xhr.state >= 200 && xhr.state <= 300) {
-					resolve(xhr.response)
-				} else {
-					reject(xhr)
-				}
-			}
-		}
-		xhr.addEventListener('error', (e) => {
-			reject(error)
-		})
-		xhr.send(body)
-	})
-}
-
 //for in vs for off
 //1 循环对象属性的时候，使用for...in,在遍历数组的时候的时候使用for...of
 //2 for...in循环出的是key，for...of循环出的是value
@@ -1699,170 +1659,7 @@ function template(html, obj) {
 	})
 }
 
-template('{{name}}很厉name害，才{{ age }}岁', { name: 'jack', age: '15' })
-
-//implement promise
-function MyPromise(executor) {
-	this.status = 'pending'
-	this.value = undefined
-	this.reason = undefined
-	this.onResolvedCallbacks = []
-	this.onRejectedCallbacks = []
-
-	const resolve = (value) => {
-		if (this.status === 'pending') {
-			this.status = 'resolved'
-			this.value = value
-			this.onResolvedCallbacks.forEach((fn) => fn())
-		}
-	}
-
-	const reject = (reason) => {
-		if (this.status === 'pending') {
-			this.status = 'rejected'
-			this.reason = reason
-			this.onRejectedCallbacks.forEach((fn) => fn())
-		}
-	}
-
-	try {
-		executor(resolve, reject)
-	} catch (e) {
-		reject(e)
-	}
-}
-
-//then方法接受的参数是函数，而如果传递的并非是一个函数，它实际上会将其解释为then(null)，这就会导致前一个Promise的结果会穿透下面
-MyPromise.prototype.then = function (onFulfilled, onRejected) {
-	//handle value penetration, just return the value
-	onFulfilled =
-		typeof onFulfilled === 'function' ? onFulfilled : (value) => value
-	onRejected =
-		typeof onRejected === 'function'
-			? onRejected
-			: (err) => {
-					throw err
-			  }
-
-	let promise2
-	if (this.status === 'resolved') {
-		promise2 = new MyPromise((resolve, reject) => {
-			setTimeout(() => {
-				//executor的try不能捕获到sync,所以这里加下try
-				try {
-					let x = onFulfilled(this.value)
-					resolvePromise(promise2, x, resolve, reject)
-				} catch (e) {
-					reject(e)
-				}
-			})
-		})
-	}
-
-	if (this.status === 'rejected') {
-		promise2 = new MyPromise((resolve, reject) => {
-			setTimeout(() => {
-				try {
-					let x = onRejected(this.reason)
-					resolvePromise(promise2, x, resolve, reject)
-				} catch (e) {
-					reject(e)
-				}
-			})
-		})
-	}
-
-	if (this.status === 'pending') {
-		promise2 = new MyPromise((resolve, reject) => {
-			this.onResolvedCallbacks.push(() => {
-				setTimeout(() => {
-					try {
-						let x = onFulfilled(this.value)
-						resolvePromise(promise2, x, resolve, reject)
-					} catch (e) {
-						reject(e)
-					}
-				})
-			})
-
-			this.onRejectedCallbacks.push(() => {
-				setTimeout(() => {
-					try {
-						let x = onRejected(this.reason)
-						resolvePromise(promise2, x, resolve, reject)
-					} catch (e) {
-						reject(e)
-					}
-				})
-			})
-		})
-	}
-	return promise2
-}
-
-function resolvePromise(promise2, x, resolve, reject) {
-	if (promise2 === x) {
-		return reject(new TypeError('circular reference'))
-	}
-	let called
-	if (x !== null && (typeof x === 'object' || typeof x === 'function')) {
-		try {
-			let then = x.then
-			if (typeof then === 'function') {
-				then.call(
-					x,
-					(y) => {
-						if (called) return
-						called = true
-						//recursion
-						//y is the return of previous promise
-						resolvePromise(promise2, y, resolve, reject)
-					},
-					(err) => {
-						if (called) return
-						called = true
-						reject(err)
-					}
-				)
-			} else {
-				resolve(x)
-			}
-		} catch (e) {
-			if (called) return
-			called = true
-			reject(e)
-		}
-	} else {
-		//normal value
-		resolve(x)
-	}
-}
-
-class EventEmitter {
-	constructor() {
-		this._events = this._events || new Map() //储存事件/回调键值对
-		this._maxListeners = this._maxListeners || 10 //设立监听上限
-	}
-}
-
-EventEmitter.prototype.emit = function (type, ...args) {
-	let handler
-	//从储存事件键值对的this._events中获取对应事件回调函数
-	handler = this._events.get(type)
-	if (args.length > 0) {
-		handler.apply(this, args)
-	} else {
-		handler.call(this)
-	}
-	return true
-}
-
-EventEmitter.prototype.addListener = function (type, fn) {
-	//将type事件以及对应的fn函数放入this._events中储存
-	if (!this._events.get(type)) {
-		this._events.set(type, fn)
-	}
-}
+template('{{name}}很厉name害,才{{ age }}岁', { name: 'jack', age: '15' })
 
 function jsonp({ url, params, cb, timeout = 300 }) {
 	return new Promise((resolve, reject) => {
@@ -1980,15 +1777,13 @@ const fn = () => {
 //发布订阅模式
 class Observer {
 	constructor() {
-		this.events = {} //事件中心
+		this.events = {}
 	}
 	publish(eventName, ...args) {
-		//发布=>调用事件中心中对应的函数
 		if (this.events[eventName])
 			this.events[eventName].forEach((cb) => cb.apply(this, args))
 	}
 	subscribe(eventName, callback) {
-		//订阅=>向事件中心中添加事件
 		if (this.events[eventName]) {
 			this.events[eventName].push(callback)
 		} else {
@@ -1996,7 +1791,6 @@ class Observer {
 		}
 	}
 	unSubscribe(eventName, callback) {
-		//取消订阅
 		if (events[eventName])
 			events[eventName] = events[eventName].filter((cb) => cb !== callback)
 	}

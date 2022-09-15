@@ -1,3 +1,6 @@
+- 2022.9.15
+  - glue n/vt
+
 - 2022.9.9
   - consecutive adj
 

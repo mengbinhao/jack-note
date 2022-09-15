@@ -28,12 +28,18 @@ var car = new Car('BMW')
 //4 给子类型原型添加属性和方法必须在替换原型之后
 //Car.prototype = new Vehicle()重写了原型对象
 
-//借用构造函数Vehicle.call(this, 'gasoline')
+//借用构造函数
+//Vehicle.call(this, 'gasoline')
 //1 上面1.2.4问题不存在
 //2 不会继承原型run方法，除非全写在constrictor里
 
 //组合
 //上面2问题不存在，调用了2次父类构造函数，存在多余的一份同名属性
+function Child(name, like) {
+	Parent.call(this, name, like) // 核心   第二次
+	this.like = like
+}
+Child.prototype = new Parent() // 核心   第一次
 
 //原型式
 //寄生式

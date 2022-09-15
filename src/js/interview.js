@@ -3,14 +3,14 @@
 //不会改变自身的方法：concat、includes、join、slice、toString、indexOf、lastIndexOf
 //遍历方法：forEach、map、every、some、filter、find、findIndex、reduce、reduceRight、keys、values、entries
 
+//创建特定大小的数组
+//[...Array(3).keys()]
+
 //创建过去七天的数组，如果将代码中的减号换成加号，你将得到未来7天的数组集合
 //[...Array(7).keys()].map(days => new Date(Date.now() - 86400000 * days))
 
 //本地时间
 //<body onload="setInterval(()=>document.body.innerHTML=new Date().toLocaleString().slice(10,19))"></body>
-
-//创建特定大小的数组
-//[...Array(3).keys()]
 
 // 空数组遍历跳过、undefined不跳
 const arrayEmpty = [, , ,]
@@ -20,18 +20,16 @@ for (let i in arrayEmpty) console.log(i)
 Object.keys(arrayEmpty) //[]
 
 // 数组去重
-// 1 不能区分'4'和4
-// 2 对象一律得到的是[object Object]
-const arrayMergeAndRemoveRepetition = () => {
+// obj不能区分'4'和4, map可以
+const arrayMergeAndRemoveRepetition = (arr) => {
 	//ES6
-	const arr = [].concat.apply([], arguments)
 	//Array.from(new Set(arr))
 	return [...new Set(arr)]
 
 	//ES5
 	// let arr = []
-	// for (let i = 0, len = arguments.length,; i < len; i++) {
-	//     arr = arr.concat(arguments[i]);
+	// for (let i = 0, len = arr.length,; i < len; i++) {
+	//     arr = arr.concat(arr[i]);
 	// }
 	//remove repetition
 	// let result = [],
@@ -99,6 +97,14 @@ function Person(name, age, job) {
 	}
 }
 
+function simulateNew(Constructor, ...args) {
+	const obj = Object.create(Constructor.prototype)
+	const ret = Constructor.apply(obj, args)
+	return ret !== null && (typeof ret === 'object' || typeof ret === 'function')
+		? ret
+		: obj
+}
+
 Function.prototype.simulateCall = function (context, ...args) {
 	if (typeof this !== 'function') throw new Error('params invalid')
 	context = context || window
@@ -112,7 +118,7 @@ Function.prototype.simulateCall = function (context, ...args) {
 	return result
 }
 
-Function.prototype.simulateApply = function (context, arr = []) {
+Function.prototype.simulateApply = function (context, args = []) {
 	if (typeof this !== 'function') throw new Error('params invalid')
 	context = context || window
 	context.fn = this
@@ -157,13 +163,6 @@ Function.prototype.simulateBindAdvance = function (context, ...args) {
 	return fBound
 }
 
-function simulateNew(constructor, ...args) {
-	const obj = Object.create(constructor.prototype)
-	const result = constructor.apply(obj, args)
-	//in case constructor return a simple type
-	return typeof result === 'object' && result != null ? result : obj
-}
-
 const curry = function (fn) {
 	let args = [].slice.call(arguments, 1)
 	let that = this
@@ -172,14 +171,13 @@ const curry = function (fn) {
 	}
 }
 
-const curryFormalParameter = function (fn, args) {
+const curryAdvanced = function (fn, args = []) {
 	let length = fn.length,
-		_args = args || [],
 		that = this
 	return function () {
-		let innerArgs = _args.concat([].slice.call(arguments))
+		let innerArgs = args.concat([].slice.call(arguments))
 		if (innerArgs.length < length) {
-			return curryFormalParameter.call(that, fn, innerArgs)
+			return curryAdvanced.call(that, fn, innerArgs)
 		} else {
 			return fn.apply(that, innerArgs)
 		}
@@ -321,8 +319,7 @@ let recursionByCount = () => {
 	const total = 10000
 	batchSize = 4 // 每批插入的节点次数，越大越卡
 	batchCount = total / batchSize // 需要批量处理多少次
-	let batchDone = 0,
-		i
+	let batchDone = 0
 
 	function appendItems() {
 		const fragment = document.createDocumentFragment()
@@ -481,7 +478,7 @@ const getType = (value) => {
 	return match[1].toLocaleLowerCase()
 }
 
-let isType = (type) => (obj) => {
+const isType = (type) => (obj) => {
 	return Object.prototype.toString.call(obj) === '[object ' + type + ']'
 }
 
@@ -572,47 +569,6 @@ MYAPP.dom.factory = function (type, url) {
 //     margin-top:-50px;
 //     background-color:red;
 // }
-
-//async implement-----------------------------------------------------
-//promise
-let getNewsPromise = (url) => {
-	let promise = new Promise((resolve, reject) => {
-		let xhr = new XMLHttpRequest()
-		xhr.onreadystatechange = function () {
-			// if(xhr.readyState === 4 && xhr.status === 200) not correct
-			if (xhr.readyState === 4) {
-				if (xhr.status === 200) {
-					let news = xhr.response
-					resolve(news)
-				} else {
-					reject('请求失败了。。。')
-				}
-			}
-		}
-		xhr.responseType = 'json'
-		xhr.open('GET', url)
-		xhr.send()
-	})
-	return promise
-}
-
-getNewsPromise('http://localhost:3000/news?id=2')
-	.then(
-		(news) => {
-			return getNewsPromise('http://localhost:3000' + news.commentsUrl)
-		},
-		(error) => {
-			console.log(error)
-		}
-	)
-	.then(
-		(comments) => {
-			console.log(comments)
-		},
-		(error) => {
-			console.log(error)
-		}
-	)
 
 //generator
 function* sendXmlGenerator() {
@@ -721,11 +677,6 @@ function render(template, data) {
 	return template
 }
 
-function getBuiltInType(obj) {
-	let str = Object.prototype.toString.call(obj)
-	return str.match(/\[object (.*?)\]/)[1].toLowerCase()
-}
-
 //key is length
 let arrLike = {
 	2: 'a',
@@ -736,20 +687,9 @@ let arrLike = {
 arrLike.push('c')
 arrLike.push('d')
 
-let sendAjax = () => {
-	let xhr = new XMLHttpRequest()
-	xhr.onreadystatechange = function () {
-		if (xhr.readyState === 4 && xhr.state === 200) {
-			console.log(xhr.responseText)
-		}
-	}
-	xhr.open('GET', '/api', false)
-	xhr.send(null)
-}
-
 /*
     undefined 代表定义但未赋值
-    null 定义且赋值了,只是值为null
+    null 定义且赋值了,只是此时值为null
 
     初始赋值表明是一个对象 赋值为null
     结束前设置变量为null便于垃圾回收
