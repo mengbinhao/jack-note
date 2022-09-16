@@ -377,6 +377,7 @@
 
 #### Vue 3
 
+- [Vue3.0 通关秘籍](https://juejin.cn/post/7142769223041974286)
 - [vue3 中可以帮助你早点下班的 9 个开发技巧](https://mp.weixin.qq.com/s/Z2fFAdJeOeahUmO6_MDLOg)
 - [还不会 Vue3 ？一篇笔记带你快速入门](https://mp.weixin.qq.com/s/GZG5TPuYRDUYAlPdjkbNYw)
 - [10 个小练习，快速入门 Vue3 核心新特性](https://mp.weixin.qq.com/s/wdw77mRplCukQzTuHW2U4g)
@@ -388,6 +389,7 @@
 - [1.1 万字从零解读 Vue3.0 源码响应式系统](https://mp.weixin.qq.com/s/A6WgCjQj3KsaKC6kSLy-1A)
 - [一篇文章上手 Vue3 中新增的 API](https://mp.weixin.qq.com/s/Iwo-fvQTeUO5H8mhf1sRRw)
 - [一文让你 30 分钟快速掌握 Vue3](https://mp.weixin.qq.com/s/E_SDmH9hgvRLTB6bsFx9tg)
+- [Vue3 3 种 diff](https://juejin.cn/post/7139034950598131720)
 
 #### project related
 
