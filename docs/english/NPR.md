@@ -1,3 +1,7 @@
+- 2022.9.16
+  - companion n
+  - ascend v
+
 - 2022.9.15
   - glue n/vt
 
@@ -464,6 +468,7 @@
   > It's a very different story
 
 - 2022.2.18
+  - reign n/vi
   - sovereign n | sovereignty
   - radioactive adj
 
@@ -3611,7 +3616,6 @@
 - 2020.3.9
   - unfounded adj
   - handle | mishandle vt
-  - reign n/vi
   - pinpoint n/vi/adj
   - appreciate v | appreciation | appreciative adj
 
