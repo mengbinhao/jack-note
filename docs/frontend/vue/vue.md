@@ -29,16 +29,16 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - ...
 
 ### grammar
-#### vue属性
+#### Vue属性
 - el
 - data
 - template
 - methods
 - components
 - filters
-- watch -> singel data
-- computed -> mutiple data
-  - `computed`是计算一个新的属性,并将该属性挂载到vm上,而`watch`是监听已经存在且已挂载到`vm`上的数据, 计算属性不需要在data里面提前define,watch需要,所以用`watch`同样可以监听`computed`计算属性的变化(其它还有 `data`、`props`)
+- watch -> single data
+- computed -> multiple data
+  - `computed`是计算一个新的属性,并将该属性挂载到`vm`上,而`watch`是监听已经存在且已挂载到`vm`上的数据, 计算属性不需要在data里面提前define,watch则需要,所以用`watch`同样可以监听`computed`计算属性的变化(其它还有 `data`、`props`)
   - `computed`本质是一个惰性求值的观察者,具有缓存性,只有当依赖变化后,第一次访问`computed`属性,才会计算新的值,而`watch`则是当数据发生变化便会调用执行函数
   - 从使用场景上说,`computed`适用一个数据被多个数据影响,而`watch`适用一个数据影响多个数据,`watch`适合异步或开销大的场景
   - `methods`没有缓存
@@ -53,7 +53,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   - `<p :style="styleObject">test style2</p>`
   - `<p :style="[baseStyles, overridingStyles]">test style2</p>`
 
-#### 访问vue实例属性
+#### 访问Vue实例属性
 - `$el、$options`
 - `$attrs、$listeners`
 - `$root、$children、$parent`
@@ -95,7 +95,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
 #### v-slot(2.6)
 
-```javascript
+```vue
 <template v-slot:default>
   <p>A paragraph for the main content.</p>
   <p>And another one.</p>
@@ -159,7 +159,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 ### 组件
 - 属性
   - 自定义属性 props
-  - 原声属性自动挂载到组件根元素上  //可以设置inheritAttrs = false关闭
+  - 原生属性自动挂载到组件根元素上  //可以设置inheritAttrs = false关闭
   - 特殊属性class / style / ref / key
 - 事件
     - 普通事件
@@ -167,14 +167,14 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - 插槽
     - 普通
     - 作用域
-```javascript
-Vue.component(‘componentName',{
-  props:[‘p1’,’p2’],
-  template: ‘<li>{{ p1 }}</li>'
+```vue
+Vue.component('componentName',{
+  props:['p1','p2'],
+  template: '<li>{{ p1 }}</li>'
 })
 ```
 #### [生命周期](./lifecycle.md)
-- `beforeCreate/created、beforeMount/mounted、beforeUpdate/updated、beforeDestory/destoryed、errorCaptured`
+- `beforeCreate/created、beforeMount/mounted、beforeUpdate/updated、beforeDestroyed/destroyed、errorCaptured`
 - `activated/deactivated、errorCaptured`
 #### [组件通信](./component-communicate.md)
 

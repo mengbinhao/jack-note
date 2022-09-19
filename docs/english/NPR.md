@@ -4259,7 +4259,6 @@
 - 2019.12.2
   - unravel v
   - spoil n/v | spoiler n
-  - ration n/vt
   - coercive adj
   - elderly adj
 
