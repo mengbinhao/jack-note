@@ -1,3 +1,6 @@
+- 2022.9.20
+  - frontier n/adj
+
 - 2022.9.16
   - companion n
   - ascend v
@@ -3473,6 +3476,7 @@
 - 2020.3.24
   - nutrition n
   - affect v | effect n | effective | effectively | effectiveness n | ineffective | affection | affectionate adj
+  - efficient adj | inefficient
   - effectual adj | ineffectual
   - wee adj
   - reality n
@@ -4763,7 +4767,6 @@
   - boost n/vt
   - budge v
   - budget n/vt
-  - efficient adj | inefficient
   - welfare n | fare n
   - outcome n
   - hardship n
