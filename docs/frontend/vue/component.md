@@ -1,14 +1,14 @@
 #### 1 局部/全局注册
 
-> 全局加载的组件可以从应用程序中的任何模板访问。它限制了将全局组件导入子组件的次数。它会使你的应用程序膨胀，即使不使用，它仍然会包含在你的 Webpack 构建中。
+> 全局加载的组件可以从应用程序中的任何模板访问。它限制了将全局组件导入子组件的次数。它会使你的应用程序膨胀，即使不使用，它仍然会包含在你的 Webpack 构建中
 >
-> 局部加载组件使你能够隔离组件，并且只在必要时加载它们。当与 Webpack 结合使用时，你可以只在使用组件时延迟加载它们。这使你的应用程序初始文件较小，并减少了初始加载时间。
+> 局部加载组件使你能够隔离组件，并且只在必要时加载它们。当与webpack结合使用时，你可以只在使用组件时延迟加载它们。这使你的应用程序初始文件较小，并减少了初始加载时间
 
 ```javascript
 import Vue from 'vue';
 import Editor from './componetns/Editor.vue'
  
-Vue.component('editor', Editor);
+Vue.component('editor', Editor)
 ```
 
 ```javascript
@@ -31,7 +31,7 @@ export default {
 
 #### 2 延迟加载/异步组件
 
-> 使用 Webpack 的动态导入来延迟加载组件。Vue 支持在渲染时延迟加载组件和代码分割。这些优化让你可以只在需要时加载组件代码，从而减少 HTTP 请求、文件大小，并自动提高性能。这个特性的重要之处在于，它既可以处理全局加载的组件，也可以处理局部加载的组件。
+> 使用 webpack的动态导入来延迟加载组件。Vue.js 支持在渲染时延迟加载组件和代码分割。这些优化让你可以只在需要时加载组件代码，从而减少 HTTP 请求、文件大小，并自动提高性能。这个特性的重要之处在于，它既可以处理全局加载的组件，也可以处理局部加载的组件。
 
 ```javascript
 import Vue from 'vue';
@@ -63,7 +63,7 @@ export default {
 #### 3 props对象写法
 
 ```javascript
-oneProp: {
+propName: {
     type: Object,
     required: true,
     default: function () {

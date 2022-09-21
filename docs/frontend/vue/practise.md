@@ -505,8 +505,6 @@ export default {
 </script>
 ```
 
-
-
 #### 7 common filter
 
 ```javascript
@@ -786,8 +784,6 @@ computed: {
 </template>
 ```
 
-
-
 ### vue-router
 
 #### router key路由组件刷新
@@ -838,7 +834,7 @@ methods () {
 }
 
 //给router-view添加一个唯一的key，这样即使是公用组件，只要url变化了，就一定会重新创建这个组件
-//一般应用在子路由里面，这样才可以不避免大量重绘，假设app.vue根目录添加这个属性，那么每次点击改变地址都会重绘，还是得不偿失的！
+//一般应用在子路由里面，这样才可以不避免大量重绘，假设app.vue根目录添加这个属性，那么每次点击改变地址都会重绘，还是得不偿失的
 <router-view :key="$route.fullpath"></router-view>
 ```
 
@@ -896,7 +892,6 @@ export default {
       this.testData = JSON.parse(tempData)
     } else {
       this.testData = this.$route.params
-
       localStorage.setItem('tempData', JSON.stringify(this.$route.params))
     }
   },
@@ -907,9 +902,7 @@ export default {
 </script>
 ```
 
-
-
-### vuex
+### Vuex
 
 #### 精简vuex的modules引入
 
@@ -978,7 +971,7 @@ export default new Vuex.Store({
 })
 ```
 
-#### 刷新页面vuex数据丢失
+#### 刷新页面Vuex数据丢失
 
 ```javascript
 ////将状态保存在localStorage 
@@ -1043,7 +1036,6 @@ const unsubscribe = store.watch(
 unsubscribe();
 
 
-
 //SubscribeAction
 //指定订阅处理函数的被调用时机应该在一个 action 分发之前还是之后 (默认行为是之前)
 const unsubscribe2 = store.subscribeAction({
@@ -1059,10 +1051,6 @@ const unsubscribe2 = store.subscribeAction({
 unsubscribe2();
 
 ```
-
-
-
-
 
 ### optimization
 
@@ -1122,7 +1110,7 @@ provinceList.forEach(pro => {
 })
 ```
 
-#### 4 vuex按需加载
+#### 4 Vuex按需加载
 
 ```javascript
 // store.js
@@ -1159,8 +1147,6 @@ export default {
   }
 }
 ```
-
-
 
 #### webpack
 

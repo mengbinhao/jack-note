@@ -1,6 +1,6 @@
 ### get started
 1. define router component
-2. register router in main.js(\$route只读 $router只写)
+2. register router in main.js(`\$route`只读 `$router`只写)
 3. \<router-link>  and \<router-view>
 
 ### how to use
@@ -207,7 +207,7 @@ redirect:'/params/:newsId(\\d+)/:newsTitle'
 - `router.beforeEach`全局前置
 - `router.beforeResolve` 全局解析
 - `router.afterEach` 全局后置
-- 路由独享守卫
+- 路由独享守卫（路由配置）
 ```javascript
 const router = new VueRouter({
   routes: [
@@ -264,5 +264,5 @@ const Foo = {
 
 - 原理就是onhashchange(#xxx)
 - router.addRoutes 比构造函数配置更灵活
-- \$route  只读 / \$router  只写
+- `$route` 只读 `$router` 只写
 - 路由meta元数据-->meta是对于路由规则是否需要权限验证等其他自定义属性的配置

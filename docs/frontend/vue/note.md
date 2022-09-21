@@ -1,4 +1,4 @@
-### vue
+### Vue.js
 - 如何触发data的更新
     - 响应式
     - 模板使用到
@@ -259,10 +259,10 @@ data: {
 ```javascript
 <template>
 	<div class="app">
-        <div ref="contentDiv">{{content}}</div>
-        <div>在nextTick执行前获取内容:{{content1}}</div>
-        <div>在nextTick执行之后获取内容:{{content2}}</div>
-        <div>在nextTick执行前获取内容:{{content3}}</div>
+        <div ref="contentDiv">{{content}}</div>   ---After NextTick
+        <div>在nextTick执行前获取内容:{{content1}}</div>   ---Before NextTick
+        <div>在nextTick执行之后获取内容:{{content2}}</div> ---After NextTick
+        <div>在nextTick执行前获取内容:{{content3}}</div>   ---Before NextTick
     </div>
 </template>
 
@@ -285,7 +285,7 @@ data: {
                 this.content3 = this.$refs.contentDiv.innerHTML
             }
         },
-        mount () {
+        mounted () {
             this.changeContent()
         }
     }
@@ -343,7 +343,7 @@ requireComponent.keys().forEach(fileName => {
 		readonly
 		@focus="handleFocusEvent"
 	/>
-
+	
 	methods: {
 		handleFocusEvent(event) {
 			event.target && event.target.removeAttribute('readonly')
@@ -393,10 +393,10 @@ requireComponent.keys().forEach(fileName => {
 			*/
 			formatArray: function f(sources, arrayed) {
 				if (!sources) return []
-
+	
 				const arr = arrayed || []
 				const len = sources.length
-
+	
 				for (let i = 0; i < len; i++) {
 					const childs = sources[i].list || []
 					arr.push(sources[i])

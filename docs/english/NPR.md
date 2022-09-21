@@ -1,6 +1,8 @@
 - 2022.9.20
   - frontier n/adj
 
+  > xxx is becoming less and less likely
+
 - 2022.9.16
   - companion n
   - ascend v

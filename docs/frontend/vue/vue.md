@@ -53,11 +53,11 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   - `<p :style="styleObject">test style2</p>`
   - `<p :style="[baseStyles, overridingStyles]">test style2</p>`
 
-#### 访问Vue实例属性
+#### Vue实例属性
 - `$el、$options`
 - `$attrs、$listeners`
 - `$root、$children、$parent`
-- `$ref`
+- `$refs`
 - `$scopedSlots、$slots`
 
 #### 插值表达式
