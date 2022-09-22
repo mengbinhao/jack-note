@@ -1,3 +1,7 @@
+
+- 2022.9.22
+  - cathedral n
+
 - 2022.9.20
   - frontier n/adj
 
@@ -2067,7 +2071,8 @@
   - repel vt
   - dispatch n/vt
   - shopkeeper n
-  - bury vt
+  - bury vt | burial n/adj
+  - funeral n | funereal adj
   - kindness n
 
 - 2020.11.3
@@ -3494,7 +3499,6 @@
   - strip n/v | stripped
 
 - 2020.3.20
-  - maneuver n/v
   - throne n/v | crown n/vt
   - heir n
   - rumor n/v
@@ -3842,7 +3846,6 @@
   - brace n/vt | bracing adj
   - embrace n/v
   - dub vt
-  - burial n/adj
   - explode v | explosive n/adj | explosion n
 
   > No word of other casualties yet
@@ -5053,7 +5056,7 @@
   - coherent adj | incoherent adj
   - alcohol n
   - tobacco n | cigarette n
-  - mourn v
+  - mourn v | mourning
   - grief n
 
   > set him off
@@ -5687,7 +5690,6 @@
   - Turkish adj/n
   - polar n/adj | polarize v | polarization n
   - exile n/vt
-  - funeral n | funereal adj
 
   > So there's been a wide range
 
