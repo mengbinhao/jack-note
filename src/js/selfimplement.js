@@ -1468,6 +1468,9 @@ input.addEventListener('keyup', function (e) {
 
 // proxy版本
 const handler = {
+	get() {
+		return target[key]
+	},
 	set(target, key, value) {
 		target[key] = value
 		// 数据变化 --> 修改视图
@@ -1476,7 +1479,7 @@ const handler = {
 		return value
 	},
 }
-const proxy = newProxy(data)
+const proxy = new Proxy(data, handler)
 
 // 实现一个简单路由
 // hash路由

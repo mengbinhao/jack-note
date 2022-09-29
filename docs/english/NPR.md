@@ -1,3 +1,5 @@
+- 2022.9.29
+  - thrash v
 
 - 2022.9.22
   - cathedral n
@@ -48,7 +50,7 @@
 
 - 2022.8.18
   - hunger n/v | hungry adj
-  - detractor n | critic | supporter
+  - detract v | detractor n | critic | supporter
   - secondary adj
   - outfit n
   - mute adj/vt
@@ -489,7 +491,6 @@
 - 2022.2.15
   - acid n/adj
   - coat n/v
-  - blackout n
 
 - 2022.2.14
   - withstand vt | notwithstanding prep
@@ -818,7 +819,7 @@
   - gentle adj/vt/n
 
 - 2021.8.27
-  - outage n | shortage n
+  - outage n | shortage n | blackout n
   - saturate vt | saturated adj
   - inch n
 
@@ -1082,7 +1083,6 @@
 
 - 2021.6.15
   - presume v | presumption n | presumptive adj | presumably adv
-  - scrutinize vt
   - upper adj
   - frame n/v/adj
   - gravity n

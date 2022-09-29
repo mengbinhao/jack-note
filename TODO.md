@@ -377,6 +377,7 @@
 
 #### Vue 3
 
+- [Vue2 到 Vue3，重学这 5 个常用的 API](https://mp.weixin.qq.com/s/G-6EsuMVOQDFdiq7GrZsQA)
 - [Vue3.0 通关秘籍](https://juejin.cn/post/7142769223041974286)
 - [vue3 中可以帮助你早点下班的 9 个开发技巧](https://mp.weixin.qq.com/s/Z2fFAdJeOeahUmO6_MDLOg)
 - [还不会 Vue3 ？一篇笔记带你快速入门](https://mp.weixin.qq.com/s/GZG5TPuYRDUYAlPdjkbNYw)
