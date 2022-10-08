@@ -1,3 +1,7 @@
+- 2022.10.8
+  > make no mistake 毫无疑问
+  > XXX can read the room and learn from xxx's mistakes
+
 - 2022.9.29
   - thrash v
 
@@ -2365,7 +2369,6 @@
 - 2020.8.26
   - rural adj | urban adj | suburb n
   - direct v/adj | indirect | directive n/adj | direction
-  - allude vi
   - organ n
   - organize | organization | organizational | reorganize | unorganized
 
@@ -3895,7 +3898,6 @@
 
 - 2020.1.15
   - crumb n/vt
-  - crumble v
   - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
   - intersect v | intersection n
@@ -5096,7 +5098,6 @@
   - potential n/adj
   - frighten v | fright n | frighted adj
   - blink n/v
-  - turmoil n
   - manner n
 
   > just to zoom out, remain us what is stake here
