@@ -1,3 +1,6 @@
+- 2022.10.9
+  - collision n
+
 - 2022.10.8
   > make no mistake 毫无疑问
   > XXX can read the room and learn from xxx's mistakes
@@ -1588,7 +1591,7 @@
 
 - 2021.2.26
   - reflection n
-  - deflection n
+  - deflect v | deflection n
   - entail vt/n
   - condition | uncondition | conditional | unconditional | conditionally | precondition
 
@@ -2368,7 +2371,7 @@
 
 - 2020.8.26
   - rural adj | urban adj | suburb n
-  - direct v/adj | indirect | directive n/adj | direction
+  - direct v/adj | indirect | directive n/adj | direction | redirect
   - organ n
   - organize | organization | organizational | reorganize | unorganized
 
@@ -3366,8 +3369,6 @@
   > On the other hand, they won't act in a circumstance where they look like they're weak
 
 - 2020.4.2
-  - nudge n/v
-
   > It remains to be seen what sort of impact this is going to xxx
 
 - 2020.4.2
@@ -4206,7 +4207,6 @@
   - designate vt | designated
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
   - defect n/vi | defection n | defector n | defective product
-  - deflect v
   - coordinate vt | coordination n | coordinated
   - corroborate n/vt | corroboration n
 
@@ -5169,7 +5169,7 @@
   - tackle n/vt
   - mobilize vt | mobilization
   - corrode v
-  - demonstration n | demonstrate v | demonstrator
+  - demonstrate v | demonstrator | demonstration n
   - interfere vi | interference n | intervene vi | intervention n | meddle vi
   - criminality n | crime n | criminal n/adj
   - exaggerated adj
