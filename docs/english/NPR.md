@@ -1,3 +1,7 @@
+- 2022.10.10
+  - dock n/v
+  - precision adj
+
 - 2022.10.9
   - collision n
 
@@ -2140,7 +2144,7 @@
   - ethnic adj
 
 - 2020.10.21
-  - muscle n/v
+  - muscle n/v | muscular adj
   - airlift n/vt
   - famine n
 
@@ -5334,7 +5338,6 @@
   - proceed vi/n | proceeding n
   - measure | measured | measurement
   - brake n/v
-  - ballistic adj
   - stab n/vt
   - stable n/adj
   - stability | instability n
