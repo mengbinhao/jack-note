@@ -1,3 +1,8 @@
+- 2022.10.11
+  - autumn | fall
+  - spice n/vt
+  - equator n
+
 - 2022.10.10
   - dock n/v
   - precision adj
@@ -1406,6 +1411,9 @@
 - 2021.4.6
   - wildlife n
   - downpour n | rainfall n | pour v
+  - nightfall n
+  - landfall n
+  - downfall n
 
   > Even as rain subsides, the floodwater will still pose trouble for weeks to come
   > We don't actually have a clear image of how much has just been damaged and destroyed
@@ -2301,7 +2309,7 @@
   - underlie vt | underlying adj
   - understaffed adj
   - underfunded adj
-  - underneath prep
+  - underneath prep | beneath
   - underscore vt
   - undermine vt
   - undercut vt
@@ -2386,9 +2394,6 @@
   - museum n
   - fold n/v
 
-- 2020.8.23
-  - nightfall n
-
 - 2020.8.22
   - scholar n
   - monarch n | monarchy n
@@ -2462,7 +2467,6 @@
   - legacy n
 
 - 2020.8.12
-  - landfall n
   - ocean n | oceanic adj
   - material n/adj | materialize v
 
@@ -4311,7 +4315,6 @@
   - cling vi
   - abandon n/v | abandoned
   - awful adj | awfully adv
-  - downfall n
   - accelerate v | accelerator
   - shove n/vt
   - victim n
@@ -4897,7 +4900,6 @@
   > what have you learned about that?
   > and it wasn't until then that we began to hear reports
   > be right in front of the stage
-  > fall apart
 
 - 2019.9.19
   - peach n
@@ -5163,7 +5165,7 @@
   - blistering adj
   - institute n/vt
   - institution n | institutional adj
-  - respect | disrespect n/vt| respective adj
+  - respect | disrespect n/vt| respective adj | respectively
   - defiant adj
   - get-go n
   - wary adj
