@@ -1,3 +1,6 @@
+- 2022.10.17
+  - disable | enable
+
 - 2022.10.13
   - playground n
 
@@ -2993,7 +2996,7 @@
 
 - 2020.5.25
   - imperative adj
-  - moral n/adj
+  - moral n/adj | morality n
   - curtain n/vt
   - tear v/n | tearful adj
 
@@ -4084,7 +4087,6 @@
   - lace n
   - ludicrous adj
   - innovative adj
-  - savvy n/v
 
   > Now up until that moment
   > in keeping with today's theme
@@ -4588,7 +4590,7 @@
   - scary adj | scare n/v/adj | scared v/adj
   - scar n/vt
   - scarce adj/adv
-  - scarf n
+  - scarf n | headscarf
   - diminish v | diminished adj
   - valley n
   - inundate vt
@@ -5169,7 +5171,6 @@
   - institute n/vt
   - institution n | institutional adj
   - respect | disrespect n/vt| respective adj | respectively
-  - defiant adj
   - get-go n
   - wary adj
   - decree n/vt
@@ -5454,7 +5455,7 @@
   - mass n/v/adj | massive adj
   - cargo n
   - Pentagon n
-  - defy vt | defiance n
+  - defy vt | defiance n | defiant adj
   - acquire vt | acquired adj | acquisition n
   - steal n/v
   - facility n | facilitate vt | facilitation
