@@ -38,9 +38,6 @@
 - 2022.9.15
   - glue n/vt
 
-- 2022.9.9
-  - consecutive adj
-
 - 2022.9.7
   > I believe American is at an inflection point, one of those moments that determine the shape of everything that's to come after
 
@@ -3907,7 +3904,7 @@
 
 - 2020.1.16
   - lean n/v
-  - impending adj | impend vi
+  - impend vi | impending adj
   - militia n
   - jeopardy n
 
