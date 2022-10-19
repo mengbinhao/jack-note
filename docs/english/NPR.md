@@ -5010,7 +5010,7 @@
   - mend v
   - amend v | amendment n
   - petition n/v
-  - compete vi | competing adj | competitive adj | competitor n | competition n
+  - compete vi | competitive adj | competitor n | competition n
   - competent adj | incompetent adj | competence n | incompetence n
   - trick n | tricky adj
   - wicked adj
