@@ -1,3 +1,6 @@
+- 2022.10.20
+  - surveil vt | surveillance n
+
 - 2022.10.17
   - disable | enable
 
@@ -4154,7 +4157,6 @@
   - misery n
   - unfurl v
   - penalize vt
-  - dismantle vt | mantle n/v
   - revolt n/v
 
   > I says I'm having none of it
@@ -4455,7 +4457,6 @@
   - grand adj
   - injury n
   - jury n
-  - collusion n
   - tap n/vt | untapped adj
   - bipartisan adj | partisan adj | nonpartisan adj
   - deepen v
