@@ -1,3 +1,8 @@
+- 2022.10.21
+  - digest v
+  - feast n/v
+  - weed n/v
+
 - 2022.10.20
   - surveil vt | surveillance n
 
@@ -3778,6 +3783,7 @@
   - household n
   - hastiness n | haste n/v | hasty adj
   - aloofness n
+  - goat n
   - scapegoat n
   - surround n/vt/adj
   - turnaround n
