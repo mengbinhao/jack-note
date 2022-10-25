@@ -1,3 +1,6 @@
+- 2022.10.25
+  - score n/v
+
 - 2022.10.21
   - digest v
   - feast n/v
@@ -257,7 +260,6 @@
 - 2022.5.19
   - console n/vt
   - vein n
-  - solitary adj
 
   > but the downside is xxx
   > As of now
@@ -2995,7 +2997,6 @@
   > People can stay on their feet
 
 - 2020.5.26
-  - suppress vt
   - severity n
   - gist n
 
@@ -5696,6 +5697,7 @@
   - jail n/vt
   - crack n/adj/v
   - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
+  - suppress vt
   - circumstance n | circumspect adj | circumstantial adj
   - magnet | magnetic adj | geomagnetic
   - ban vt | banner n
