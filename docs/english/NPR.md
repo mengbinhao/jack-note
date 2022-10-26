@@ -1,3 +1,6 @@
+- 2022.10.26
+  - inventory n
+
 - 2022.10.25
   - score n/v
 
@@ -3075,7 +3078,6 @@
 - 2020.5.12
   - mentor n
   - blind n/vt/adj/adv
-  - glut n/vt
   - spec n
   - Atlantic n/adj
 
@@ -5368,7 +5370,7 @@
 
 - 2019.8.1
   - garlic n
-  - choke v
+  - choke v | choked
   - drown v
   - tragedy n ｜ comedy n | tragic adj
   - reside vi | residence n | resident n/adj | residency | residential adj
