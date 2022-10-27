@@ -1,3 +1,6 @@
+- 2022.10.27
+  - pathway n
+
 - 2022.10.26
   - inventory n
 
@@ -5518,7 +5521,7 @@
   - compromise n/v
   - reservation n
   - opt vi
-  - stumble n/vt | tumble n/vi
+  - tumble n/vi | stumble n/vt
   - gradual adj | gradually
 
   > you mentioned an election will happen down the road
