@@ -1,3 +1,9 @@
+- 2022.10.31
+  - nickname n
+
+  > There's money to be made, Let's not dance around that
+  > The contrast is very stark
+
 - 2022.10.27
   - pathway n
 
@@ -4063,7 +4069,7 @@
 
 - 2019.12.24
   - observant adj
-  - assert vt | asserted
+  - assert vt | asserted | assertive
   - heartfelt adj
   - heartless n
   - mediator n
