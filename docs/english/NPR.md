@@ -1,3 +1,6 @@
+- 2022.11.2
+  - workforce n
+
 - 2022.10.31
   - nickname n
 
@@ -3746,7 +3749,7 @@
   - tariff n/vt
   - unscripted adj
   - purposely adv
-  - slim adj
+  - slim adj/vi
   - absent adj/vt | absentee n
   - present n/v/adj | presence n | represent vt | representative n/adj | representation | absence
   - clap n/v
