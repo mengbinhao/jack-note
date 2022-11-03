@@ -1,6 +1,8 @@
 - 2022.11.2
   - workforce n
 
+  > The feeling of abandonment runs deep here
+
 - 2022.10.31
   - nickname n
 
@@ -1254,7 +1256,7 @@
   > they fell just one seat short of majority
 
 - 2021.5.11
-  - fair | fairness
+  - fair | fairness | unfair | unfairly
 
   > There are a lot of factors here at play, the government did back down on raising taxes
   > It's kind of a mix of things
@@ -4338,7 +4340,7 @@
   - fuse n/v
   - desert n/v | dessert n
   - cling vi
-  - abandon n/v | abandoned
+  - abandon n/v | abandoned | abandonment
   - awful adj | awfully adv
   - accelerate v | accelerator
   - shove n/vt
