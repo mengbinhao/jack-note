@@ -209,7 +209,7 @@ Array.prototype.myMap = function (fn) {
 		throw new TypeError(fn + 'is not a function')
 	}
 
-	let ret = []
+	const ret = []
 	for (let i = 0; i < this.length; i++) {
 		if (i in this) {
 			ret.push(fn.call(undefined, this[i], i, this))
@@ -632,7 +632,6 @@ const add = (() => {
 		return total
 	}
 })()
-
 //add(1) // 1
 //add(1)(2)// 3
 //add(1, 2)(3, 4, 5)(6) // 21
@@ -650,6 +649,34 @@ var add2 = (...args) => {
 	}
 
 	return fn
+}
+
+const sum = (...args) => {
+	let params = args
+	const _sum = (...newArgs) => {
+		if (newArgs.length === 0) {
+			return params.reduce((pre, cur) => pre + cur, 0)
+		} else {
+			params = [...params, ...newArgs]
+			return _sum
+		}
+	}
+	return _sum
+}
+
+// console.log(sum(1, 2)(3)()) // 6
+// console.log(sum(1)(2)(3)()) // 6
+// console.log(sum(1, 2, 4)(4)()) // 11
+
+const once = (fn) => {
+	let res,
+		isFirst = true
+	return function (...args) {
+		if (!isFirst) return res
+		res = fn.call(this, ...args)
+		isFirst = false
+		return res
+	}
 }
 
 //在JS中只有全局和函数作用域,函数作用域在函数执行完成后就会销毁,内存随之回收
@@ -1416,33 +1443,66 @@ const addListener = (ele, type, handler) => {
 	}
 }
 
-// 实现一个基本的 Event Bus
+// 发布订阅者
 class EventEmitter {
 	constructor() {
-		// 存储事件
-		this.events = new Map()
+		// key: 事件名
+		// value: callback [] 回调数组
+		this.events = {}
 	}
-	// 监听事件
-	addListener(type, fn) {
-		if (!this.events.get(type)) {
-			this.events.set(type, fn)
+	on(name, callback) {
+		if (this.events[name]) {
+			this.events[name].push(callback)
+		} else {
+			this.events[name] = [callback]
 		}
 	}
-	// 触发事件
-	emit(type) {
-		let handle = this.events.get(type)
-		handle.apply(this, [...arguments].slice(1))
+	off(name, callback) {
+		if (!this.message[name]) return
+		if (!callback) {
+			// 如果没有callback,就删掉整个事件
+			this.message[name] = undefined
+		}
+		this.message[name] = this.message[name].filter((item) => item !== callback)
+	}
+	emit(name, ...args) {
+		if (!this.events[name]) return
+		this.events[name].forEach((cb) => cb(...args))
 	}
 }
 
-// 测试
-let emitter = new EventEmitter()
-// 监听事件
-emitter.addListener('ages', (age) => {
-	console.log(age)
-})
-// 触发事件
-emitter.emit('ages', 18)
+//观察者
+class Observed {
+	constructor() {
+		// 我要看看到底有多少人在观察俺
+		this.observerList = []
+	}
+	addObserver(observer) {
+		// 添加一个观察俺的人
+		this.observerList.push(observer)
+	}
+	notify() {
+		// 我要闹点动静，所有观察者都会知道这个信息，具体怎么做就是他们自己的事情了
+		this.observerList.forEach((observer) => observer.update())
+	}
+}
+
+class Observer {
+	constructor(doSome) {
+		// 观察到小白鼠有动静之后，观察者做的事情
+		this.doSome = doSome
+	}
+	update() {
+		console.log(this.doSome)
+	}
+}
+
+// const ob1 = new Observer('我是ob1，我观察到小白鼠有反应了，太饿了，我得去吃个饭了')
+// const ob2 = new Observer('我是ob2，我观察到小白鼠有反应了，我要继续工作！')
+// const xiaoBaiShu = new Observed()
+// xiaoBaiShu.addObserver(ob1)
+// xiaoBaiShu.addObserver(ob2)
+// xiaoBaiShu.notify() // .... ....
 
 //实现一个双向数据绑定
 let obj = {}
@@ -1732,6 +1792,7 @@ function* gen() {
 	console.log(b)
 	yield func.bind(null, a + b)
 }
+once
 run(gen)
 /**
 output:
