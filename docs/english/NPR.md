@@ -1,3 +1,6 @@
+- 2022.11.7
+  - shortcoming n
+
 - 2022.11.2
   - workforce n
 
