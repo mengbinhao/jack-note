@@ -14,7 +14,7 @@
 | Employment Period | Employer                         | Position Held                 |
 | ----------------- | -------------------------------- | ----------------------------- |
 | 2018.05 - Present | Our United RT                    | Automation Test Engineer      |
-| 2016.04 - 2017.12 | Emerson Xi’an Engineering Center | Test and Development Engineer |
+| 2016.04 - 2018.2  | Emerson Xi’an Engineering Center | Test and Development Engineer |
 | 2014.05 - 2015.06 | Xi'an ACTIVE Network             | Application Support           |
 | 2009.03 - 2014.04 | Shaan'Xi Electric Power Company  | Web Development Engineer      |
 
@@ -41,7 +41,7 @@ TPS combines external radiation virtual simulation and 3D treatment planning tec
 1. Over 60% manual case are turned into automation
 2. Improve 50% work efficiency for test team
 
-## Emerson Xi’an Engineering Center (2016/4 ~ 2017/12)
+## Emerson Xi’an Engineering Center (2016/4 ~ 2018/2)
 
 ### Oxygen
 
@@ -112,5 +112,5 @@ Implementation the contract management from the traditional manual way to the mo
 - Front Framework: Vue / Vue Router / VueX / Axios
 - Bundler: Webpack
 - Be Familar with Linux command
-- Be Familar with SQL / NOSQL
+- Be Familar with SQL
 - Be Familar with algorithm
