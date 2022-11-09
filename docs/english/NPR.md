@@ -1,3 +1,7 @@
+- 2022.11.9
+  - graze v
+  - dial n/v
+
 - 2022.11.7
   - shortcoming n
 
@@ -3653,7 +3657,6 @@
   - poison n/v/adj
   - society n
   - differ v | differentiate v
-  - heritage n
   - stringent adj
   - detect vt | detection n | undetected
   - manifesto n
