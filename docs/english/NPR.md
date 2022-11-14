@@ -1,3 +1,9 @@
+- 2022.11.14
+  - distort v
+  - warfare n
+
+  > by and large
+
 - 2022.11.9
   - graze v
   - dial n/v
@@ -4880,7 +4886,7 @@
   - account n/v | accountable adj | unaccounted adj | accountability n
   - sit-in n
   - progress n/vi | progressive n/adj
-  - moderate adj/v
+  - moderate adj/v | moderation
 
   > and then even a week from tomorrow, xxxx
   > but it hasn't gotten anywhere in congress yet
@@ -5715,7 +5721,7 @@
   - collapse n/vi
   - faint n/vi/adj
   - trial n/adj | retrial n
-  - democrat n | democracy n |  democratic adj | undemocratic | democratically adv
+  - democrat n | democracy n |  democratic adj | undemocratic | democratically adv | democratize
   - jail n/vt
   - crack n/adj/v
   - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
