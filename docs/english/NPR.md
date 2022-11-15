@@ -4773,7 +4773,6 @@
   > it doesn't necessarily have to become public, but given the way things are appearing, it seems quite possible that it will
 
 - 2019.10.9
-  - tout n/vt
   - patrol n/vt
   - patriot n | patriotism | unpatriotic adj
   - bar n/vt | barrier n/vt | barricade n/vt
