@@ -1,3 +1,9 @@
+- 2022.11.17
+  - tyranny n
+
+  > he went big and vacated the entire program
+  > Actually, the plan ran into a wall late yesterday
+
 - 2022.11.14
   - distort v
   - warfare n
@@ -5133,7 +5139,6 @@
   - drawn-out adj
   - epic n/adj
   - brawl n/vi
-  - toddler n
   - oppose vt | opponent n | opposite n/adj/adv/prep | opposition n | converse adj/vi/n
   - thwart n/vt/prep
   - seize v
