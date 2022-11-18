@@ -4055,7 +4055,7 @@
 - 2019.12.27
   - erode v
   - fruition n
-  - pivot n/v/adj
+  - pivot n/v/adj | pivotal
   - heel n
   - emit vt | emitter n
 
