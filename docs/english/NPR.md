@@ -1,3 +1,8 @@
+- 2022.11.23
+  - capsule n
+  - splash v
+  - scrub v
+
 - 2022.11.17
   - tyranny n
 
