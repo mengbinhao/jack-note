@@ -1,3 +1,7 @@
+- 2022.11.28
+  - premature adj
+  - tourney n | tournament n
+
 - 2022.11.23
   - capsule n
   - splash v
@@ -785,7 +789,7 @@
 
 - 2021.9.29
   - stunt n/v
-  - stun n/vt
+  - stun n/vt | stunned
   - create | creative | creature n
   - recreation n
 
@@ -949,7 +953,7 @@
   - desolate adj
   - smother n/v
   - olive n/adj
-  - scorch n/v
+  - scorch n/v | scorching
 
  > They burned an area three times the size of what typically burns in an average year
 
@@ -964,7 +968,6 @@
   - smear n/v
   - credit n/vt | discredit n/vt
   - grope v
-  - exhaustive adj
   - understand vt | misunderstand vt | understandable
 
   > I would expect those carry a lot of weight
@@ -5477,7 +5480,7 @@
   - nerve n | nervous adj | nervously
   - figure n/vt
   - reveal vt | revelation n
-  - exhausting adj | exhausted adj | exhaust v
+  - exhaust v | exhausting adj | exhausted adj | exhaustive adj
   - sympathy n | sympathetic adj | sympathize vi
   - pathetic adj
   - footage n
