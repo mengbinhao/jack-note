@@ -1,3 +1,8 @@
+- 2022.12.1
+  - subdue vt
+
+  > Controversy took center stage and football risked becoming a sideshow
+
 - 2022.11.28
   - premature adj
   - tourney n | tournament n
@@ -5010,7 +5015,6 @@
 - 2019.9.16
   - snap n/adj
   - keen adj
-  - inflict vt
   - disaster n | disastrous adj
   - flout vt
   - loophole n
