@@ -1,3 +1,8 @@
+- 2022.12.2
+  - straight adj/adv
+
+  > get nowhere
+
 - 2022.12.1
   - subdue vt
 
@@ -5092,7 +5097,6 @@
   - orbit n/v | orbital adj | orbiter n
   - excite v | excitement n
   - eerily adv
-  - huddle vt | huddled adj
   - lunar adj
   - spirit n/vt
   - explore v | unexplored adj | exploration n
