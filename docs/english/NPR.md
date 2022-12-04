@@ -1,3 +1,7 @@
+- 2022.12.4
+  - hurry n/vt
+  - deliberate
+
 - 2022.12.2
   - straight adj/adv
 
