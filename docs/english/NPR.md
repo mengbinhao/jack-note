@@ -1,6 +1,7 @@
 - 2022.12.4
   - hurry n/vt
-  - deliberate
+  - select | selective
+  - dip v
 
 - 2022.12.2
   - straight adj/adv
@@ -3505,7 +3506,6 @@
   - surplus n/adj
   - utmost adj
   - drastic adj
-  - discretion n
 
   > in a broader sense
   > in this sense
