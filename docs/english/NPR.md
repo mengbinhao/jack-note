@@ -12,6 +12,7 @@
   - subdue vt
 
   > Controversy took center stage and football risked becoming a sideshow
+  > I've held off on buying, but my resolve is weakening
 
 - 2022.11.28
   - premature adj
@@ -54,9 +55,6 @@
 
 - 2022.10.27
   - pathway n
-
-- 2022.10.26
-  - inventory n
 
 - 2022.10.25
   - score n/v
@@ -135,7 +133,6 @@
   - intonation n
 
 - 2022.8.23
-  - standoff n/adj
   - despise vt
 
 - 2022.8.18
