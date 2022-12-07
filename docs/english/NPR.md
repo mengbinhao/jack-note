@@ -1,3 +1,6 @@
+- 2022.12.7
+  - slope n/v
+
 - 2022.12.4
   - hurry n/vt
   - select | selective
