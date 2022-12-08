@@ -5345,7 +5345,7 @@
   - disseminate vt
   - hospitalize vt | hospitality n
   - outsider n
-  - anthem n
+  - anthem n/vt
   - salute n/vt
   - premise n/v
 
