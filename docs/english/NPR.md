@@ -1,3 +1,7 @@
+- 2022.12.12
+  - shutter n
+  - sour adj/v
+
 - 2022.12.7
   - slope n/v
 
@@ -411,7 +415,6 @@
   - possible | impossible
 
 - 2022.4.14
-  - stripe n/vt
   - runoff n/adj
 
 - 2022.4.12
@@ -3550,7 +3553,7 @@
   - religion n | religious adj
   - relinquish vt
   - forehead n
-  - gauge n
+  - gauge n/vt
   - stress n/vt
   - distress n/vt | distressed adj
   - folk n
@@ -3577,6 +3580,7 @@
   - joy n/v | joyous adj
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
+  - stripe n/vt
   - strip n/v | stripped
 
 - 2020.3.20
