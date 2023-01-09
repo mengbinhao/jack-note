@@ -1,3 +1,8 @@
+- 2022.12.13
+  - turbulent adj
+
+  > Hundreds of companies went under
+
 - 2022.12.12
   - shutter n
   - sour adj/v
@@ -2191,6 +2196,7 @@
 
 - 2020.10.29
   - bracket n/v
+  - rhyme n/v
   - rhythm n
   - whereas conj
 
@@ -4192,6 +4198,7 @@
   - exemplify n/vt
   - faction n
   - fraction n
+  - bust v
   - robust adj
   - unanimous adj | unanimously adv
   - waist n
@@ -4347,7 +4354,6 @@
   - brute n/adj | brutal adj | brutality n
 
 - 2019.12.2
-  - unravel v
   - spoil n/v | spoiler n
   - coercive adj
   - elderly adj
