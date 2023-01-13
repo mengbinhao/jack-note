@@ -1,3 +1,13 @@
+- 2022.1.13
+  - junior | senior | seniority
+  - allot vt
+
+  > Basically, It dates back to xxx
+  > and to keep lawyers to time
+ss
+- 2022.1.12
+  - commute n/v
+
 - 2022.12.13
   - turbulent adj
 
@@ -3143,6 +3153,7 @@
 - 2020.5.12
   - mentor n
   - blind n/vt/adj/adv
+  - blindside vt
   - spec n
   - Atlantic n/adj
 
@@ -4065,7 +4076,6 @@
 - 2019.12.30
   - pale v/adj
   - plunge n/v
-  - allot vt
   - retail n/v/adj
   - oval adj
 
@@ -5149,7 +5159,6 @@
   - pact n
   - animosity n
   - vital adj
-  - blindside vt
   - reprimand n/vt
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n | chancellery n
