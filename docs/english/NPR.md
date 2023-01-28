@@ -1,3 +1,7 @@
+- 2022.1.28
+  - prick vt/n | prick adj
+  - fool v/n
+
 - 2022.1.13
   - junior | senior | seniority
   - allot vt
@@ -1600,7 +1604,6 @@ ss
 
 - 2021.3.11
   - opportunity n
-  - deter vt
   - deteriorate vi
   - deterrent n/adj | deterrence n
   - determine v | determination n | indeterminate adj
@@ -5585,7 +5588,6 @@ ss
   - civilize v | civilization n | uncivil | civilized
   - sole adj/n/vt | solely
   - compromise n/v
-  - reservation n
   - opt vi
   - tumble n/vi | stumble n/vt
   - gradual adj | gradually
