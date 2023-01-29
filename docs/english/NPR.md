@@ -2,6 +2,8 @@
   - prick vt/n | prick adj
   - fool v/n
 
+  > Our system is built on checks and balances
+
 - 2022.1.13
   - junior | senior | seniority
   - allot vt
@@ -5483,7 +5485,6 @@ ss
   - daunting/daunted adj
   - can-do
   - off-putting adj
-  - gut n
   - fond adj
   - doubt n/v | undoubtedly adv | doubtful
   - succeed v | successor n
