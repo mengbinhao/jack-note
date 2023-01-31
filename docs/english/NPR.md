@@ -3,6 +3,7 @@
   - fool v/n
 
   > Our system is built on checks and balances
+  > So that was top of everyone's minds yesterday
 
 - 2022.1.13
   - junior | senior | seniority
@@ -2912,7 +2913,7 @@ ss
   - sprint n/v | sprinter
   - shield n/v
   - diligent adj
-  - promote v | promoter
+  - promote v | promoter | promotion
   - strategy n
   - voluntary adj | voluntarily adv
 
@@ -3820,6 +3821,7 @@ ss
   - slim adj/vi
   - absent adj/vt | absentee n
   - present n/v/adj | presence n | represent vt | representative n/adj | representation | absence
+  - presentation
   - clap n/v
 
   > I was not elected to do small things and shy away from big problems
