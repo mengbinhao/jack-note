@@ -1,3 +1,8 @@
+- 2022.2.1
+  - testy adj
+
+  > and it was willing to accept some waste
+
 - 2022.1.28
   - prick vt/n | prick adj
   - fool v/n
@@ -1428,7 +1433,6 @@ ss
   - fiction n
 
 - 2021.4.15
-  - celebrity n
   - celebrate v | celebration
   - ceremony n | ceremonial
   - rational adj
@@ -3058,7 +3062,6 @@ ss
   - poll n/v | ballot n/v | pollster n
   - focal adj
   - refuse v | refusal n
-  - congregate v
   - therapy n
 
   > I deem it essential to be with you
@@ -3941,7 +3944,6 @@ ss
   - sincere adj | sincerely
   - mechanic n/adj | mechanical adj
   - appetite n | appetizing adj
-  - demean vt | demeaning n | demeanor n
   - warrant n/vt | warranted adj
   - deed n
   - shed n/vt
