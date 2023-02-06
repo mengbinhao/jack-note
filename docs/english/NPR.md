@@ -1,3 +1,9 @@
+- 2022.2.6
+  - brag v
+
+- 2022.2.2
+  - mindset n
+
 - 2022.2.1
   - testy adj
 
@@ -5685,7 +5691,7 @@ ss
   - fine adj/adv/vt/n
   - waiver n
   - snake n/vt
-  - rival n/vt
+  - rival n/vt | rivalry n
   - complain v | complaint n
   - nevertheless adv
 
