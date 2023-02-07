@@ -1,3 +1,15 @@
+- 2022.2.7
+  - infuse v
+  - diffuse v/adj
+  - refuse v | refusal n
+  - fuse v/n | fusion
+  - fine adj/adv/vt/n
+  - define vt | redefine
+  - confine n/vt | confined | confinement n | coop v
+  - refine vt | refined
+  - harness v/n
+  - hydrogen n
+
 - 2022.2.6
   - brag v
 
@@ -1479,7 +1491,6 @@ ss
 
 - 2021.4.10
   - recipe n
-  - define vt | redefine
   - sack n/vt
   - uneasy adj
   - outlet n
@@ -1738,7 +1749,6 @@ ss
 - 2021.2.22
   - amateur n/adj
   - outwit vt
-  - fortune n/v
 
   > XXX tried to stop the wild ride, but more twists and turns
   > If the stock tumble back to earth, like, where it was at the beginning of this year
@@ -1748,7 +1758,6 @@ ss
 
 - 2021.2.21
   - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
-  - refine vt | refined
   - idiot n
   - stamp n/v
   - fringe n/vt/adj
@@ -2239,7 +2248,6 @@ ss
 
 - 2020.10.26
   - mess n/vt | messy adj
-  - confine n/vt | confined | confinement n | coop v
 
 - 2020.10.23
   - breeze n/vi
@@ -2475,6 +2483,7 @@ ss
 
 - 2020.8.28
   - insider n
+  - quest n/v
   - unquestionably adv
   - invoice n/v
   - penny n
@@ -3067,7 +3076,6 @@ ss
   - endure v
   - poll n/v | ballot n/v | pollster n
   - focal adj
-  - refuse v | refusal n
   - therapy n
 
   > I deem it essential to be with you
@@ -3840,7 +3848,6 @@ ss
 
 - 2020.2.28
   - era n
-  - infuse v
   - chaos n | chaotic adj
   - secede v
   - horizon n |horizontal
@@ -4239,7 +4246,6 @@ ss
   - riddle n/v | riddled adj
   - inspire vt
   - awe n/vt
-  - quest n/v
   - clunky adj
   - pitiful adj
   - obliterate vt
@@ -4412,7 +4418,6 @@ ss
   - regularity n | irregularity n| regular n/adj | regularly adv |  regulation n/adj | regulatory adj
   - regulate v | deregulate v
   - custody n
-  - fuse n/v
   - desert n/v | dessert n
   - cling vi
   - abandon n/v | abandoned | abandonment
@@ -4460,6 +4465,7 @@ ss
   - accord n/v
   - aggregate n/v/adj
   - tune n/v
+  - fortune n/v
   - fulfill vt | fulfilled | fulfillment
 
   > What went through your mind when you heard it yesterday?
@@ -4491,7 +4497,6 @@ ss
   - sweep n/v | mop v
   - bargain n/v | bargaining | barter v
   - assuage vt
-  - diffuse v/adj
   - reform n/v
 
   > That's harder to do than it is to say
@@ -5179,7 +5184,6 @@ ss
   - chancellor n | chancellery n
   - reluctant adj | reluctantly adv
   - collect v | collective adj | collectively
-  - replicate n/adj/vt
   - resemble vt
   - intercept vt
   - interpret v | interpreter n | interpretation n | misinterpret
@@ -5688,7 +5692,6 @@ ss
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj
   - standpoint n
-  - fine adj/adv/vt/n
   - waiver n
   - snake n/vt
   - rival n/vt | rivalry n
