@@ -10,6 +10,8 @@
   - harness v/n
   - hydrogen n
 
+  > We are happy with the roles that we are in
+
 - 2022.2.6
   - brag v
 
@@ -734,6 +736,7 @@ ss
 
 - 2021.11.24
   - tape n/v
+  - tap n/vt | untapped adj
   - coverage n
   - borrow v
 
@@ -3617,6 +3620,8 @@ ss
   - process n/v | processor
   - procession n
   - procedure n | procedural adj
+  - concession n
+  - recess n/vt | recession n | depress vt | depression n | depressed adj
   - joy n/v | joyous adj
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
@@ -3727,6 +3732,9 @@ ss
 - 2020.3.10
   - miscarriage n
   - juror n
+  - unfounded adj
+  - founder n
+  - profound adj | profoundly
   - foundation n | foundational
   - crouch vi
   - shoulder v
@@ -3748,7 +3756,6 @@ ss
   > xxx has risen by a third in the past year alone
 
 - 2020.3.9
-  - unfounded adj
   - handle | mishandle vt
   - pinpoint n/vi/adj
   - appreciate v | appreciation | appreciative adj
@@ -4560,10 +4567,8 @@ ss
   - grand adj
   - injury n
   - jury n
-  - tap n/vt | untapped adj
   - bipartisan adj | partisan adj | nonpartisan adj
   - deepen v
-  - profound adj | profoundly
   - vehicle n
 
   > There are no details on when that change was made or what prompted it
@@ -4610,7 +4615,6 @@ ss
 - 2019.10.24
   - scandal n
   - roil v
-  - concession n
   - abort v | abortion n
   - downplay vt | underplay
   - thrive vi
@@ -5215,7 +5219,6 @@ ss
   - structure n | structural adj
   - infrastructure n
   - feasible adj
-  - founder n
   - swamp n | marsh n/adj
   - coast n | coastal adj
   - nightmarish adj
@@ -5720,7 +5723,6 @@ ss
   - pace n/v
   - impetus n
   - spike n/v
-  - recess n/vt | recession n | depress vt | depression n | depressed adj
   - debate n/v
   - stagger n/v/adj | staggering adj
 
