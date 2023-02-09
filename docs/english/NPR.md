@@ -1,3 +1,12 @@
+- 2022.2.9
+  - freeway n
+  - shrimp n/vi/adj
+  - snow | snowy
+
+  > As the name implies
+  > xxx if no action is taken
+  > Let me be absolutely clear, We are not going to let that happen
+
 - 2022.2.7
   - infuse v
   - diffuse v/adj
@@ -6,7 +15,7 @@
   - fine adj/adv/vt/n
   - define vt | redefine
   - confine n/vt | confined | confinement n | coop v
-  - refine vt | refined
+  - refine vt | refined | refinery
   - harness v/n
   - hydrogen n
 

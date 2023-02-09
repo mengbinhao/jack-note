@@ -319,6 +319,8 @@
 
 #### Vue related
 
+- [这 22 个 Vue3 的实用技巧，你可能还不知道！](https://mp.weixin.qq.com/s/FpulFz2YjurgVYrZS60N3A)
+- [揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
 - [v-model 与.sync 修饰符的区别](https://mp.weixin.qq.com/s/Ov5vte3WAvNcABPt0aAoag)
 - [十分钟，让你学会 Vue 的这些巧妙冷技巧](https://juejin.cn/post/7103066172530098206)
 - [12 个 Vue 开发中的性能优化小技巧](https://mp.weixin.qq.com/s/YxGq5m5GC1hXej8v3eN_Rw)
