@@ -1,3 +1,8 @@
+- 2022.2.10
+  - former adj | formerly
+  - luncheon n
+  - evolve
+
 - 2022.2.9
   - freeway n
   - shrimp n/vi/adj
@@ -181,7 +186,7 @@ ss
 
 - 2022.8.29
   - propagate v
-  - conception | misconception
+  - concept | conception | misconception
   - cosmic adj
   - propel vt
   - jelly n/v
@@ -5043,6 +5048,7 @@ ss
 - 2019.9.18
   - majestic adj
   - gorgeous adj
+  - fantasy n/v
   - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | excellent | awesome | extraordinary adj | brilliant | remarkable | magnificent | dynamite
   - credible adj
   - precede vt
@@ -5587,7 +5593,7 @@ ss
   - ex n
   - chamber n/adh/vt
   - adoring adj
-  - capacity n/adj
+  - capacity n/adj | incapacity | incapacitate
   - servant n
   - citizen n | citizenship n
   - esteemed adj
