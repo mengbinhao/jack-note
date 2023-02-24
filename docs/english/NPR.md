@@ -1,3 +1,6 @@
+- 2022.2.24
+  - sorrow n
+
 - 2022.2.10
   - former adj | formerly
   - luncheon n
@@ -1469,7 +1472,7 @@ ss
 
 - 2021.4.15
   - celebrate v | celebration
-  - ceremony n | ceremonial
+  - ceremony n | ceremonial | ceremonially
   - rational adj
   - portion n/vt
   - proportion n/vt | proportional adj | proportionate adj/vt | disproportion n/vt | disproportionate adj | disproportionately
@@ -2222,8 +2225,6 @@ ss
   - repel vt
   - dispatch n/vt
   - shopkeeper n
-  - bury vt | burial n/adj
-  - funeral n | funereal adj
   - kindness n
 
 - 2020.11.3
@@ -3287,7 +3288,6 @@ ss
   - ecosystem n
   - profit n/v | nonprofit adj | profitable adj
   - trove n
-  - corpse n
   - jurisdiction n
   - principle n
   - survive v | survivor n | survival n | survivable
@@ -3706,7 +3706,7 @@ ss
   > Indians capital is experiencing the worst religious violence it has seen in decades
 
 - 2020.3.12
-  - assemble v | reassemble
+  - assemble v | reassemble | assembly n
   - banquet n
   - lavish adj
   - cremation n
@@ -4331,6 +4331,10 @@ ss
   - silicon n
   - gravel n/vt
   - grave n/adj | gravely adv
+  - bury vt | burial n/adj
+  - funeral n | funereal adj
+  - mourn v | mourning
+  - corpse n
   - endgame n
   - flip n/v/adj
   - miracle n | miraculous adj | miraculously
@@ -5186,7 +5190,6 @@ ss
   - coherent adj | incoherent adj
   - alcohol n
   - tobacco n | cigarette n
-  - mourn v | mourning
   - grief n
 
   > set him off
