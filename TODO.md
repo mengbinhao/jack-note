@@ -55,6 +55,7 @@
 
 ### CSS
 
+- [细数那些惊艳一时的 CSS 属性](https://mp.weixin.qq.com/s/52BXTOtw_lj0agg-N87vqw)
 - [理解 margin 塌陷和 margin 合并及其解决方案](https://mp.weixin.qq.com/s/3YPFQkTTy3mty5UfgEdxLQ)
 - [20 个让你效率更高的 CSS 代码技巧](https://segmentfault.com/a/1190000019542534)
 - [css 填坑常用代码](https://segmentfault.com/a/1190000002515272)
@@ -381,6 +382,7 @@
 
 #### Vue 3
 
+- [一起玩转 Vue 中的 JSX：让你一次性掌握它的特性!](https://mp.weixin.qq.com/s/5lMvGwaiCoh4Em6cWuk_Yg)
 - [Vue2 到 Vue3，重学这 5 个常用的 API](https://mp.weixin.qq.com/s/G-6EsuMVOQDFdiq7GrZsQA)
 - [Vue3.0 通关秘籍](https://juejin.cn/post/7142769223041974286)
 - [vue3 中可以帮助你早点下班的 9 个开发技巧](https://mp.weixin.qq.com/s/Z2fFAdJeOeahUmO6_MDLOg)
