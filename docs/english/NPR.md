@@ -1,3 +1,7 @@
+- 2022.3.1
+  - aggravate vt
+  - bowl n/v
+
 - 2022.2.24
   - sorrow n
 
@@ -564,7 +568,7 @@ ss
   - library n
   - massage n
   - jungle n
-  - perform v
+  - perform v | performance
   - spoon n
   - cherry n
   - worm n/v
