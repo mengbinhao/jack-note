@@ -2,6 +2,8 @@
   - aggravate vt
   - bowl n/v
 
+  > The trip is taking on new meaning
+
 - 2022.2.24
   - sorrow n
 
@@ -1027,6 +1029,7 @@ ss
 - 2021.8.15
   - accessory n
   - access | accessible adj | accessibility
+  - accession n
 
   > Extreme droughts could double or quadruple in frequency
   > It's pretty clear that the scientists tried to make this report more accessible to the general public
@@ -2999,7 +3002,6 @@ ss
 
 - 2020.6.10
   - dispersal n
-  - contentious adj
   - nation n | nationalize vt | national n/adj | nationalization
 
   > once in a while
@@ -3809,7 +3811,7 @@ ss
   - soil n
   - elude vt
   - horn n
-  - thorny adj | thorn n
+  - thorn n | thorny adj
   - clarify v | clarification n
 
   > I am going to carry it out to u because I have no choice
@@ -4337,7 +4339,7 @@ ss
   - grave n/adj | gravely adv
   - bury vt | burial n/adj
   - funeral n | funereal adj
-  - mourn v | mourning
+  - mourn v
   - corpse n
   - endgame n
   - flip n/v/adj
@@ -4687,7 +4689,6 @@ ss
   - smuggle vt | smuggler n | smuggling n
   - pertain vi
   - slip n/v/adj
-  - ratify vt
   - amid prep | amidst prep
   - melancholy n/adj
   - alienate vt | alienated adj
@@ -5604,7 +5605,6 @@ ss
   - servant n
   - citizen n | citizenship n
   - esteemed adj
-  - reiterate vt
   - forum n
   - conduct n/v | mis-conduct n
   - profile n | high-profile adj
@@ -5677,7 +5677,7 @@ ss
   - domestic n/adj | domestical adj | domestically adv
   - encourage vt | discourage | encouraging adj | encouragement n
   - courage n | courageous n/adj/adv
-  - consequence n | consequential adj | conclude v | conclusion n | conclusive adj | in-conclusive
+  - consequence n | consequential adj | conclude v | conclusion n | conclusive adj | inconclusive
   - sequent adj/n | subsequent adj | subsequently
 
   > it is hard to swallow
