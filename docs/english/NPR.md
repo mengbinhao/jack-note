@@ -3,6 +3,7 @@
   - bowl n/v
 
   > The trip is taking on new meaning
+  > but we are in much better shape than we were two months ago
 
 - 2022.2.24
   - sorrow n
@@ -92,7 +93,6 @@ ss
   > I've held off on buying, but my resolve is weakening
 
 - 2022.11.28
-  - premature adj
   - tourney n | tournament n
 
 - 2022.11.23
@@ -2136,6 +2136,8 @@ ss
   - anguish n
   - languish vi
   - integrate n/vi/adj | integration n | disintegrate v
+  - integral adj
+  - integrity n
   - encompass vt
 
 - 2020.11.22
@@ -3301,7 +3303,7 @@ ss
   > It's quite clear the responsibility for that abuse goes all the way to the top
 
 - 2020.4.29
-  - convenient adj | convenience n/vt | inconvenience
+  - convenient adj | convenience n/vt | inconvenience | convenientlt
   - convention n | conventional | unconventional
   - rile v
   - harvest n/v
@@ -4088,7 +4090,6 @@ ss
 
 - 2020.1.9
   - burden n/vt
-  - integral adj
 
   > Brexit is at hand
   > The argument is that Northern Ireland having a foot in both camps will get the best of both worlds and potentially become a HongKong
@@ -5516,7 +5517,6 @@ ss
   - obstruct vt | obstruction n
   - ultimate n/adj | ultimately adv
   - motivate v | motivated adj | motivation n | motive n | demotivate v
-  - integrity n
   - rare adj | rarely | rarity n
   - porch n
 
