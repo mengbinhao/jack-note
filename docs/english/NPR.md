@@ -1,3 +1,6 @@
+- 2022.3.7
+  - stiff adj/v
+
 - 2022.3.1
   - aggravate vt
   - bowl n/v
@@ -4558,7 +4561,6 @@ ss
 
 - 2019.10.31
   - tender n/v/adj
-  - segregate vt | segregation
   - penalize vt
   - eerie adj
   - vacuum n/vt/adj
