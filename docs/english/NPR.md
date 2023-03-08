@@ -1,6 +1,10 @@
 - 2022.3.7
   - stiff adj/v
 
+  > Rising inflation means that your twenty dollars just don't get you as much as it used to
+  > And part of this is because so many factors contribute to what make up inflation
+  > Families are spending nearly four hundred dollars more a month this year than they did last year on the same goods and services because of inflation
+
 - 2022.3.1
   - aggravate vt
   - bowl n/v
