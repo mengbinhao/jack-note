@@ -188,16 +188,11 @@
 - [JS 一些工具函数](https://mp.weixin.qq.com/s?__biz=MzUzNjk5MTE1OQ==&mid=2247484756&idx=1&sn=970d60c1368b2c1c7a39e2cb8b68631b)
 - [学习 async，defer 和动态脚本，本文就够了](https://mp.weixin.qq.com/s/VUN9TJyH411fLkEnJZclow)
 - [JavaScript 那些写出来会被同事揍的骚操作](https://mp.weixin.qq.com/s/rfsHwY6lNA1pn6BftgZH4Q)
-- [手把手 Promise](https://juejin.cn/post/6894115068633350158)
-- [结果这道 Promise 面试题让我失眠好一会](https://mp.weixin.qq.com/s/OVwdmTu2ynho7x1DK4qVUg)
-- [Promise 的一些点](https://juejin.im/post/5d039703f265da1b8f1abe40)
-- [Promise 源码详解](]https://juejin.im/post/5b6e5cbf51882519ad61b67e)
-- [一步一步手写完美符合 PromiseA+规范的 Promise](https://mp.weixin.qq.com/s/or_hjEdzvDmbKKlbCL9Fvg)
 - [请用 JS 实现 Ajax 并发请求控制](https://mp.weixin.qq.com/s/XqZGuZQtvtqrNEN4TzkwYg)
 - [你真的懂 Promise 吗](https://mp.weixin.qq.com/s/zcZwMRg9nymQrp4n6FEldA)
 - [你是怎么理解 ES6 中 Promise 的？使用场景？](https://mp.weixin.qq.com/s/H9WIqrHpbMEej-szovKMVA)
+- [结果这道 Promise 面试题让我失眠好一会](https://mp.weixin.qq.com/s/OVwdmTu2ynho7x1DK4qVUg)
 - [Promise/AA/Fetch/Axios API](https://mp.weixin.qq.com/s/4kygklSNrM1nKg7Pnjr-lQ)
-- [Promises 的 5 种最佳实践](https://juejin.im/post/5eb8faa76fb9a043877cdf88)
 - [15 道 Promise 练习题，助你快速理解 Promise](https://mp.weixin.qq.com/s/rslrMX_IPzB8RMjTh05nbw)
 - [浏览器与 Node 环境下的 Event Loop](https://mp.weixin.qq.com/s/Rdu5uhPwgoz5PSV7aOWVOw)
 - [JavaScript 代码性能优化-从排查到处理](https://juejin.im/post/5dc42210e51d45381a4a91a5)
@@ -383,6 +378,7 @@
 
 #### Vue 3
 
+- [Vue2 与 Vue3 响应式原理与依赖收集详解]（https://mp.weixin.qq.com/s/guMRG3C1cyyY3_HAQu-MHQ）
 - [一起玩转 Vue 中的 JSX：让你一次性掌握它的特性!](https://mp.weixin.qq.com/s/5lMvGwaiCoh4Em6cWuk_Yg)
 - [Vue2 到 Vue3，重学这 5 个常用的 API](https://mp.weixin.qq.com/s/G-6EsuMVOQDFdiq7GrZsQA)
 - [Vue3.0 通关秘籍](https://juejin.cn/post/7142769223041974286)
