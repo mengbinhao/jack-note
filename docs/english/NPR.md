@@ -1148,6 +1148,9 @@ ss
 
 - 2021.7.13
   - hedge n/v
+  - wedge n/v
+  - edge n/v | brink n
+  - verge n/v
   - lift n/v
 
 - 2021.7.12
@@ -1539,7 +1542,6 @@ ss
   - interrogate vt
 
 - 2021.4.8
-  - wedge n/v
   - axis n
   - rotate v/adj  | rotation n | rotational
   - forthcoming adj
@@ -2484,7 +2486,6 @@ ss
   - revolve v
   - spray n/v
   - pray v | prayer n
-  - edge n/v | brink n
 
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
 
@@ -4032,7 +4033,6 @@ ss
 
 - 2020.1.19
   - guilt n | guilty adj
-  - verge n/v
   - nonchalant adj
   - fawn vi | fawning adj
 
@@ -4054,7 +4054,6 @@ ss
   - jeopardy n
 
 - 2020.1.15
-  - crumb n/vt
   - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
   - intersect v | intersection n
