@@ -38,7 +38,7 @@
   - [JS]()
     - [advancefunction](docs/frontend/js/advancefunction.md)
     - [array](docs/frontend/js/array.md)
-    - [asyncawait](docs/frontend/js/asyncawait.md)
+    - [async](docs/frontend/js/asyncawait.md)
     - [best-practise](docs/frontend/js/best-practise.md)
     - [cmd&amd&umd&es6](docs/frontend/js/cmd&amd&umd&es6.md)
     - [DOM](docs/frontend/js/DOM.md)
