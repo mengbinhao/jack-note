@@ -6,7 +6,7 @@
 4. 多行文本框输入：允许回车换行、保存后再显示能够保存输入的格式、仅输入回车换行，检查能否正确保存（若能，检查保存结果，若不能，查看是否有正常提示）
 5. 安全性检查：输入特殊字符串
 ```
-（null,NULL, ,javascript,<script>,</script>,<title>,<html>,<td>）、输入脚本函数(<script>alert("abc")</script>)、doucment.write("abc")、<b>hello</b>）
+（null,NULL, ,javascript,<script>,</script>,<title>,<html>,<td>）、输入脚本函数(<script>alert("abc")</script>)、document.write("abc")、<b>hello</b>）
 ```
 #### 数值型输入框
 1. 边界值：最大值、最小值、最大值+1、最小值-1

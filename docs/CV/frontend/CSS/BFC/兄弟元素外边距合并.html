@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>兄弟元素外边距合并</title>
+</head>
+<style>
+  body {
+    background: gray;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 600px;
+    height: 600px;
+    background: yellow;
+  }
+
+  .box1 {
+    width: 200px;
+    height: 200px;
+    background: green;
+    margin-bottom: 50px;
+  }
+
+  .box2 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin-top: 100px;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+  </div>
+</body>
+
+</html>

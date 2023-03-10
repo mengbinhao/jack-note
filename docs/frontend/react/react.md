@@ -257,7 +257,7 @@ axios.get('/user', {
 
 axios.post('/user', {
     firstName: 'Fred',
-    lastName: 'Flintstone'
+    lastName: 'Jack'
 })
 .then(function (response) {
   console.log(response);

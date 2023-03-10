@@ -244,7 +244,7 @@ all.css 的内容：  `@import url(imported.css);`
 
 ```html
 <!-- 这部分 JavaScript 代码下载完后会立即执行 -->
-<script src="i-need-to-block-dom-but-DONT-need-to-query-cssom.js"></script>
+<script src="i-need-to-block-dom-but-DON'T-need-to-query-cssom.js"></script>
 
 <link rel="stylesheet" href="app.css" />
 
@@ -428,7 +428,3 @@ I如果浏览器不支持这种特性，也不会损害页面的性能。整个�
         - 将它放置于 CSS 之后
 - 仅加载 DOM 依赖的 CSS
     - 这将提高初次渲染的速度使让页面逐步渲染
-
-#### 注意
-
-本文叙述的内容都遵循规范或根据浏览器的行为推导得出，然而，你应该亲自进行测试。尽管理论上是正确的，但在实践中可能会有所不同。记得好好[测试](https://csswizardry.com/2018/10/three-types-of-performance-testing/)

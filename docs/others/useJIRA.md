@@ -35,7 +35,7 @@ default-collation = utf8_bin
       - project leader
         - version
         - manage component(component default assigner)
-        - defualt assigner of this project
+        - default assigner of this project
         - add user to system role (can not edit system /custom role)
         - edit workflow for issue type
 
@@ -53,7 +53,7 @@ default-collation = utf8_bin
 
    5. Screens  / Screen scheme  / issue type screen scheme
 
-   6. custom field (assine to screen)/ field configuration / field configuration scheme
+   6. custom field (assign to screen)/ field configuration / field configuration scheme
 
    7. status
 
@@ -87,6 +87,6 @@ default-collation = utf8_bin
 
 ### 5.question
 
-       	1. if u want to see a project you must have the right first, even you are adminstrator
+       	1. if u want to see a project you must have the right first, even you are administrator
        	2. 如何动态assigner到上一节点处理人
        	3. 如何条件显示节点

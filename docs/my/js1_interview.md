@@ -1,7 +1,7 @@
-### varibale type
+### variable type
 Boolean、Number、String、Undefined、Null、Symbol and Object
 
-typeof => undefiend, string, number, boolean, object, function, symbol
+typeof => undefined, string, number, boolean, object, function, symbol
 
 //是否在原型链上
 A instanceof B, B.prototype是否在A.__proto__的原型链上
@@ -64,7 +64,7 @@ for (var i = 0; i < list.length; i++) {
 ### 作用域 / 作用域链
 ```javascript
 if (true) {
-    var name = 'zhangsan'
+    var name = 'Jack'
 }
 console.log(name)
 ```
@@ -148,11 +148,11 @@ F1()
     ```
     * DOM对象与JS对象相互引用
     ```javascript
-    function Encapsulator(element) {
+    function Encapsulation(element) {
         this.elementReference = element;
         element.myProp = this;
     }
-    new Encapsulator(document.getElementById('myDiv'));
+    new Encapsulation(document.getElementById('myDiv'));
     ```
     * 从外到内执行appendChild
     ```javascript
@@ -173,8 +173,8 @@ F1()
 
 ### 箭头函数
 ### Promise
-- resolved状态的Promis会回调后面的第一个then
-- rejected状态的Promis会回调后面的第一个catch
+- resolved状态的Promise会回调后面的第一个then
+- rejected状态的Promise会回调后面的第一个catch
 - 任何一个rejected状态且后面没有catch的Promise都会造成浏览器/node环境的全局错误
 - 执行then和catch会返回一个新的Promise，该Promise的最终状态根据then和catch的回调函数的执行结果决定
   - 若最终是throw则该Promise是rejected状态
@@ -304,21 +304,21 @@ console.log(arrLike)
 ```javascript
 // 空数组遍历不到
 // undefined可以遍历
-let arrEmpety = [, , ,];
+let arrEmpty = [, , ,];
 let arrUndefined = [undefined,undefined,undefined];
 // 不产生任何输出
-arrEmpety.forEach(function (x, i) {
+arrEmpty.forEach(function (x, i) {
   console.log(i + '. ' + x);
 })
 // 不产生任何输出
-for (var i in arrEmpety) {
+for (var i in arrEmpty) {
   console.log(i);
 }
-// console.log(Object.keys(arrEmpety));
+// console.log(Object.keys(arrEmpty));
 ```
 
 ```javascript
-//safe constrctor
+//safe constructor
 function Person(name, age, job) {
     //ES6
     //new.target === Person
@@ -335,7 +335,7 @@ function Person(name, age, job) {
 ```javascript
 //resolve click and mousedown
 // var firstTime = 0;
-// var sencondTime = 0;
+// var secondTime = 0;
 // var flag = false;
 // document.onclick = function() {
 //     if (flag) {
@@ -348,7 +348,7 @@ function Person(name, age, job) {
 // }
 // document.onmouseup = function() {
 //     secondTime = new Date().getTime();
-//     if (sencondTime - firstTime < 300) {
+//     if (secondTime - firstTime < 300) {
 //         flag = true;
 //     }
 // }
@@ -432,12 +432,12 @@ console.log(sortStrByCount("dddbbbiiiiiicccca"))
 ```
 
 ```javascript
-Element.prototype.insertAfter = function (targerNode, afterNode) {
+Element.prototype.insertAfter = function (targetNode, afterNode) {
     var beforeNode = afterNode.nextElementSibling
     if (beforeNode == null) {
-        this.appendChild(targerNode)
+        this.appendChild(targetNode)
     } else {
-        this.insertBefore(targerNode, beforeNode)
+        this.insertBefore(targetNode, beforeNode)
     }
 }
 ```
@@ -479,7 +479,7 @@ const addByBatch = (() => {
     doBatchAppend()
 
     //采用事件委托
-    //addEventlisener处理函数中this指的是实际的dom
+    //addEventListener处理函数中this指的是实际的dom
     //也可以通过外层let定义循环变量
     //addEventListener与onclick
     //   1 允许注册多个事件

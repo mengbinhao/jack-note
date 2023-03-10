@@ -5,12 +5,12 @@
 ### vue组件间通信方式
 
 #### 1 props/$emit
-```javascript
+```vue
 //父组件
 <Child :title="title" @changeTitle="title = $event" />
   or
 <Child :title="title" @changeTitle="handler" />
- 
+
  methods: {
   onEnlargeText: function (newTitle) {
     this.title = newTitle
@@ -113,19 +113,19 @@ Vue.component('child',{
     inject:['for'],//得到父组件传递过来的数据
     data(){
         return {
-            mymessage:this.for
+            myMessage:this.for
         }
     },
     template:`
         <div>
-        <input type="tet" v-model="mymessage">
+        <input type="tet" v-model="myMessage">
         </div>`
 })
 
 Vue.component('parent',{
     template:`
         <div>
-        <p>this is parent compoent!</p>
+        <p>this is parent component!</p>
         <Child></Child>
         </div>
         `,
@@ -180,7 +180,7 @@ export default {
   },
   data () {
     return {
-      input: 'jijijijjijiji',
+      input: 'Jack',
       output: {
         name: '王文健',
         age: '18'
@@ -258,7 +258,7 @@ this.$children[index].$children[index]
 
 #### 8 Vuex
 
-![](/Users/jack/git_repo/jack-note/docs/frontend/images/vue-3.png)
+![](../images/vue-3.png)
 
 1. vuex分模块：项目不同模块间维护各自的vuex数据
 2. Mutation ：是修改State数据的唯一推荐方法，且只能进行同步操作
@@ -347,7 +347,7 @@ export default {
 ![](/Users/jack/git_repo/jack-note/docs/frontend/images/vue-4.gif)
 
 
-#### 9 localStorage，sessionStorage，cooikes
+#### 9 localStorage，sessionStorage，cookies
 
 #### 10 通过共同的父级页面转换成父子通信
 

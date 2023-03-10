@@ -60,7 +60,7 @@ class HttpBaseError extends Error {
 
 try {
 // 直接抛出定义好的错误即可
-  throw new HttpBaseError(404, '资源不存在', 10000, 'resouse is not found');
+  throw new HttpBaseError(404, '资源不存在', 10000, 'resource is not found');
 } catch (e) {
   console.log(e.message);
   console.log(e.httpStatusCode);
@@ -103,7 +103,7 @@ function handler(options) {
     }
 }
 ```
-除了可预知的错误，还有未知的类型的错误，此时需要一个unknow error handler进行剩余错误的处理
+除了可预知的错误，还有未知的类型的错误，此时需要一个unknown error handler进行剩余错误的处理
 ```javascript
 function unKnowErrorHandler(options) {
     return function (err, req, res, next) {

@@ -28,7 +28,7 @@
 - git reset --hard HEAD/commitId 切换分支版本
 - git log [--pretty=oneline] 查看提交历史记录,可选参数--pretty=oneline
 - git log --graph --pretty=oneline --abbrev-commit 以时间轴形式展示简洁提交记录信息
-- git merge [-m '备注' --no-ff] 分支名 合并分支（默认以Fast-forwar 模式合并）
+- git merge [-m '备注' --no-ff] 分支名 合并分支（默认以Fast-forward 模式合并）
 - git push -u origin 分支名 关联远程分支
 - git push origin --delete 分支名 删除指定远程分支（或使用git push origin :分支名）
 

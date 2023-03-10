@@ -73,7 +73,7 @@ docker [container] stop CONTAINER
 docker [container] restart CONTAINER
 
 # 创建并启动一个容器
-docker [contaienr] run -itd ubuntu:20.04
+docker [container] run -itd ubuntu:20.04
 
 # 进入容器
 docker [container] attach CONTAINER
@@ -120,7 +120,7 @@ docker update CONTAINER --memory 500MB
 
 
 ```bash
-# 1 进入AC Termina
+# 1 进入AC Terminal
 
 # 2 将镜像上传到自己租的云端服务器
 scp /var/lib/acwing/docker/images/docker_lesson_1_0.tar server_name:

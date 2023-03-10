@@ -17,7 +17,7 @@ text-align:center;
 ### 居中元素不定宽高
 
     - absolute + transform
-    - lineheight
+    - line-height
     - writing-mode
     - table
     - css-table
@@ -124,7 +124,7 @@ text-align:center;
 }
 ```
 
-#### lineheight
+#### line-height
 
 ```html
 <div class="wp">
@@ -279,7 +279,7 @@ text-align:center;
 | absolute + calc        | 是                 | ie9+, chrome19+, firefox4+   | 安卓4.4+, iOS6+   |
 | absolute + transform   | 否                 | ie9+, chrome4+, firefox3.5+  | 安卓3+, iOS6+     |
 | writing-mode           | 否                 | ie6+, chrome4+, firefox3.5+  | 安卓2.3+, iOS5.1+ |
-| lineheight             | 否                 | ie6+, chrome4+, firefox2+    | 安卓2.3+, iOS6+   |
+| line-height             | 否                 | ie6+, chrome4+, firefox2+    | 安卓2.3+, iOS6+   |
 | table                  | 否                 | ie6+, chrome4+, firefox2+    | 安卓2.3+, iOS6+   |
 | css-table              | 否                 | ie8+, chrome4+, firefox2+    | 安卓2.3+, iOS6+   |
 | flex                   | 否                 | ie10+, chrome4+, firefox2+   | 安卓2.3+, iOS6+   |

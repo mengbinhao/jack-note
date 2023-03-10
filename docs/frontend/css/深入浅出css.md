@@ -186,7 +186,7 @@
 以前布局
 - normal flow
 - float + clear
-- position reletive + absolute
+- position relative + absolute
 - display inline-block
 - 负margin
 
@@ -346,7 +346,7 @@ example:
 
 - left top right bottom width height 默认值为auto
 - margin padding 默认值 0
-- boder-width 如果不存在border-style
+- border-width 如果不存在border-style
 
 ### 属性是否可继承
 

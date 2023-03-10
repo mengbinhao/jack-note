@@ -262,9 +262,9 @@
 所有一一对应的关系都可以用表来做
 ```javascript
     function howManyDays(month) {
-        if (mounth === 1) {
+        if (month === 1) {
             return 2
-        } else if (mounth === 2) {
+        } else if (month === 2) {
             return 2
         } else {
             return 3

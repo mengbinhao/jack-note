@@ -1742,11 +1742,9 @@ function jsonp({ url, params, cb, timeout = 300 }) {
 		scriptNode = document.createElement('script')
 		scriptNode.src = `${url}?${arrays.join('&')}`
 		document.body.appendChild(scriptNode)
-		//handle timeout
 		timer = setTimeout(() => {
 			reject('network issue')
 		}, timeout)
-		//handle exception
 		scriptNode.onerror = function (e) {
 			reject(e)
 		}

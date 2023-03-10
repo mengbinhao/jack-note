@@ -4,7 +4,7 @@
 3. div     ID元素
 4. *       通配
 5. [id]/[id="xxx"]
-6. div span em / .ouuter .inner em(父子选择器只要关系成立就行,其下所有满足关系的dom都影响,浏览器自右向左查找)
+6. div span em / .outer .inner em(父子选择器只要关系成立就行,其下所有满足关系的dom都影响,浏览器自右向左查找)
 7. div > span 直接子元素
 8. div.demo  并列选择器，必须没空格,同时成立
 9.  .demo1, .demo2  分组选择权
@@ -103,7 +103,7 @@
    ```
    伪元素可用于定位文档中包含的文本，为与伪类进行区分，伪元素使用双冒号 :: 定义，但单冒号 : 也能被识别。
    ::before
-   ::after ：使用 contnet 属性生成额外的内容并插入在标记中
+   ::after ：使用 content 属性生成额外的内容并插入在标记中
    a[href^=http]::after {content:"link"} //在页面的a链接的后面插入文字link
    ::first-line：匹配文本首行
    ::first-letter：匹配文本首字母

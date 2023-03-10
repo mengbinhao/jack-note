@@ -62,7 +62,7 @@
 - That's kind of expensive
 - Can u give me a discount?
 - How about two for $10?
-- I'll gicve you 10$, this is my last offer
+- I'll give you 10$, this is my last offer
 - two for $10 or no deal
 - If u give me a good deal, I'll by more
 - You throw in that sth
@@ -71,9 +71,9 @@
 
 
 ### native english
-1. Ordering or asking somethong
-> I want/need -> Can/Could I have  a glass of water? Plese
-2. when you reject or disagree somethong(acknowledgement + bug/however)
+1. Ordering or asking something
+> I want/need -> Can/Could I have  a glass of water? Please
+2. when you reject or disagree something(acknowledgement + bug/however)
 > That's so sweet of you, but ...
 > I see where you come from/ I hear you, but I have a concern
 3. express dislike

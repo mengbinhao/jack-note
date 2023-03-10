@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+</head>
+
+<body>
+  <div><input type="text" id="a"><span id="b"></span></div>
+  <button onclick="changeModel()">change</button>
+</body>
+<script>
+  const obj = {}
+  let val = 'Jack'
+  const a = document.querySelector('#a')
+  const b = document.querySelector('#b')
+  Object.defineProperty(obj, 'prop', {
+    configurable: true,
+    enumerable: true,
+    get() {
+      return val
+    },
+    set(newVal) {
+      if (val !== newVal) {
+        val = newVal
+        a.value = val
+        b.textContent = val
+      }
+    }
+  })
+  a.addEventListener('keyup', (e) => {
+    obj.prop = e.target.value
+  })
+  function changeModel(val) {
+    obj.prop = obj.prop !== 'changed' ? 'changed' : 'changed back'
+  }
+</script>
+
+</html>

@@ -48,7 +48,7 @@ module: {
     {
             test: /\.js$/,
             <!--引入的第三方模块不转码-->
-            exclude: /node_modules/, 
+            exclude: /node_modules/,
             use: [{
                 loader: 'babel-loader',
                 options: {
@@ -105,7 +105,7 @@ module: {
     ["@babel/preset-env", {
       "targets": "ie >= 8"
     }]API
-  ]    
+  ]
 }
 ```
 #### @babel/preset-env
@@ -210,7 +210,7 @@ Babel在配置了上面的`babel-preset-env`之后，只能转换语法，而对
       "useBuiltIns": "entry",
       "targets": "ie >= 8"
     }]
-  ]    
+  ]
 }
 ```
 #### @babel/runtime & @babel/plugin-transform-runtime

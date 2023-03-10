@@ -44,7 +44,7 @@ props: {
 	},
     propG: {
 		type: Array,
-         default: () => [] 
+         default: () => []
 	}
 }
 ```
@@ -157,7 +157,7 @@ computed: {
 </keep-alive>
 ```
 
-- inhertAttrs:false
+- inheritAttrs:false
 
 - mixins(Vue.extend策略和mixins相同)
   - 混入属性发生冲突时,以组件数据优先(一层属性深度浅合并)
@@ -343,7 +343,7 @@ requireComponent.keys().forEach(fileName => {
 		readonly
 		@focus="handleFocusEvent"
 	/>
-	
+
 	methods: {
 		handleFocusEvent(event) {
 			event.target && event.target.removeAttribute('readonly')
@@ -393,14 +393,14 @@ requireComponent.keys().forEach(fileName => {
 			*/
 			formatArray: function f(sources, arrayed) {
 				if (!sources) return []
-	
+
 				const arr = arrayed || []
 				const len = sources.length
-	
+
 				for (let i = 0; i < len; i++) {
-					const childs = sources[i].list || []
+					const children = sources[i].list || []
 					arr.push(sources[i])
-					if (childs.length > 0) {
+					if (children.length > 0) {
 						f(sources[i].list, arr)
 					}
 				}
@@ -422,9 +422,9 @@ requireComponent.keys().forEach(fileName => {
 						// 其实就是行索引
 						this.pos = 0
 					} else {
-						// 如果当前对象和上一个对象的 appkey 相等
+						// 如果当前对象和上一个对象的 appKey 相等
 						// 说明需要合并
-						if (data[i].appkey === data[i - 1].appkey) {
+						if (data[i].appKey === data[i - 1].appKey) {
 							this.spanArr[this.pos] += 1
 							this.spanArr.push(0)
 						} else {
@@ -612,7 +612,7 @@ methods: {
 }
 ```
 
-- 事件常量代替moutation类型,放到单独文件中
+- 事件常量代替mutation类型,放到单独文件中
 
 ```javascript
 //mutation-types.js
@@ -628,7 +628,7 @@ const store = new Vuex.Store({
     mutation: {
         [SOME_MUTATION](state) {
             //...
-        }          
+        }
     }
 })
 ```

@@ -69,7 +69,7 @@
 - [灵活运用 CSS 开发技巧 66 个实用技巧](https://juejin.im/post/5d4d0ec651882549594e7293)
 - [灵活运用 CSS 66 个实用技巧](https://segmentfault.com/a/1190000020899202)
 - [关于 CSS margin](https://segmentfault.com/a/1190000021681363)
-- [我写 CSS 的常用套路(附 demo 的效果实现与源码）](https://mp.weixin.qq.com/s/dYCWYeM629DwiSqmaaAs1w)
+- [我写 CSS 的常用套路(附 demo 的效果实现）](https://mp.weixin.qq.com/s/dYCWYeM629DwiSqmaaAs1w)
 - [CSS 故障艺术](https://mp.weixin.qq.com/s/HR9OMdDrfquGN_N6M9xJPw)
 - [17 个场景，带你入门 CSS 布局](https://www.jianshu.com/p/de9450088bd5)
 - [55 个提高 CSS 开发效率的必备片段](https://segmentfault.com/a/1190000022019129)
@@ -387,10 +387,10 @@
 - [一张图理清 Vue3 的响应式原理](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247487523&idx=2&sn=faf50c37aa0cc021ce72c1730f49db7b)
 - [10 个小练习，快速入门 Vue3.0 核心新特性](https://segmentfault.com/a/1190000022612964)
 - [记一次 vue3.0 技术分享会](https://segmentfault.com/a/1190000022719461)
-- [1.1 万字从零解读 Vue3.0 源码响应式系统](https://mp.weixin.qq.com/s/A6WgCjQj3KsaKC6kSLy-1A)
 - [一篇文章上手 Vue3 中新增的 API](https://mp.weixin.qq.com/s/Iwo-fvQTeUO5H8mhf1sRRw)
 - [一文让你 30 分钟快速掌握 Vue3](https://mp.weixin.qq.com/s/E_SDmH9hgvRLTB6bsFx9tg)
 - [Vue3 3 种 diff](https://juejin.cn/post/7139034950598131720)
+- [1.1 万字从零解读 Vue3.0 源码响应式系统](https://mp.weixin.qq.com/s?__biz=MzkwODIwMDY2OQ==&mid=2247488228&idx=1&sn=9e8543159882ade6216416d545a037a9)
 
 #### project related
 

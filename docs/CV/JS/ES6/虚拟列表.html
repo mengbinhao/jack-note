@@ -1,0 +1,46 @@
+<!-- 1 for循环 -->
+<!-- 2 虚拟列表 scroll、IntersectionObserver -->
+<!-- 3 时间分片
+  setTimeout当快速刷新页面会出现闪屏或白屏,因浏览器刷新频率60Hz，setTimeout回调执行时机不确定，即造成丢帧
+  requestAnimationFrame由系统决定回调时机
+  createDocumentFragment
+-->
+
+<!DOCTYPE html>
+
+<head>
+  <title>test</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <ul id="box"></ul>
+</body>
+<script type="text/javascript">
+  function wrapper() {
+    const ul = document.querySelector('#box')
+    const totalCount = 121
+    const pageCount = 30
+    let idx = 1,
+      curPage = 1
+    //const totalPage = Math.ceil(totalCount / pageCount)
+    function loop() {
+      if (idx > totalCount) return
+      let curPageCount = Math.min(totalCount - idx + 1, pageCount)
+      let fragment = document.createDocumentFragment()
+      for (let i = 1; i <= curPageCount; i++) {
+        const li = document.createElement('li')
+        li.innerText = `total idx is ${idx++}, 这是第${curPage}页的第${i}个`
+        fragment.appendChild(li)
+      }
+      ul.appendChild(fragment)
+      curPage++
+      window.requestAnimationFrame(loop)
+    }
+    window.requestAnimationFrame(loop)
+  }
+  wrapper()
+</script>
+
+</html>

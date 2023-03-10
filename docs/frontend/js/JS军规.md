@@ -201,7 +201,7 @@ while (node) {
 ```javascript
 function init() {
     var el = document.getElementById('app')
-    el.onclick = funciton() {
+    el.onclick = function() {
         //...
     }
 }
@@ -213,7 +213,7 @@ init()
 //solution 1
 function init() {
     var el = document.getElementById('app')
-    el.onclick = funciton() {
+    el.onclick = function() {
         //...
     }
     el = null
@@ -235,7 +235,7 @@ init()
 26. 释放dom元素占用的内存`el.innerHTML = ''`
 27. 释放javascript对象
 - 对象：`obj = null`
-- 对象属性：`delete obj.myproperty`
+- 对象属性：`delete obj.prop`
 - 数组item：使用数组的splice方法释放数组中不用的item
 28. 避免string的隐式装箱
 29. 性能方面的注意事项

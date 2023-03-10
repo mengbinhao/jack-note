@@ -15,15 +15,15 @@
 6. curry
 ```javascript
     let curry = function (fn, args) {
-        let outterArgs = args || []
+        let outerArgs = args || []
             length = fn.length
             _this = this
         return function function() {
-            let innerArgs = outterArgs.concat([].slice.call(arguments))
+            let innerArgs = outerArgs.concat([].slice.call(arguments))
             if (innerArgs.length < length) {
                 return curry.call(_this, fn, innerArgs)
             } else {
-                return fn.appy(_this, innerArgs)
+                return fn.apply(_this, innerArgs)
             }
         }
     }
@@ -82,21 +82,21 @@
             this.age = yyy
         }
 
-        function soilder() {
+        function soldier() {
             this.type = '特种兵'
         }
 
         /*
             this.__proto__ == Person.prototype
         */
-        soilder.prototype = new Person()
+        soldier.prototype = new Person()
 
         function FakePerson() {}
         FakePerson.prototype = Person.prototype
-        soilder.prototype = new FakePerson()  //understand!!!!!!!
-        soilder.prototype.__proto__ === FakePerson.prototype === Person.prototype
+        soldier.prototype = new FakePerson()  //understand!!!!!!!
+        soldier.prototype.__proto__ === FakePerson.prototype === Person.prototype
         //ES6
-        soilder.prototype = Object.create(Person.prototype)
+        soldier.prototype = Object.create(Person.prototype)
     ```
 
     ```javascript
@@ -104,7 +104,7 @@
             let F = function(){}
             return function(Target, Origin) {
                 F.prototype = Origin.prototype
-                Target.prtotype = new F()
+                Target.prototype = new F()
                 Target.prototype.constructor = Target
                 Target.uber = Origin.prototype
             }

@@ -84,7 +84,7 @@
     npm i babel-polyfill --D  (默认只转换语法,这个转换API )
     npm i babel-plugin-transform-runtime --D  (解决重复引用工具方法导致打包js过大的问题)
     npm i babel-runtime --save  (解决重复引用工具方法导致打包js过大的问题)
-    
+
     npm i -D style-loader css-loader  (css-loader)
     npm i -D npm i file-loader url-loader  (image-loader)
     npm i -D less-loader  less(less-loader)
@@ -225,7 +225,7 @@ module: {
   "scripts": {
     "dev": "webpack-dev-server --open"
   }
-  
+
   //webpack.config.js
   const webpack = require('webpack')
   module.export = {
@@ -244,14 +244,14 @@ module: {
       //compress: true,
       //open: true
       //overlay: true,// 如果代码出错,会在浏览器页面弹出“浮动层”类似于vue-cli等脚手架
-      proxy: { 
-        '/comments': { 
+      proxy: {
+        '/comments': {
             target: 'https://xxx.cn',
             changeOrigin: true,
             logLevel: 'debug',
-            headers: { 
-                Cookie: '' 
-            } 
+            headers: {
+                Cookie: ''
+            }
         }
       }
       //historyApiFallback
@@ -269,17 +269,17 @@ module: {
   const express = require('express')
   const wepback = require('wepback')
   const weppackDevMiddleware = require('weppack-dev-middleware')
-  
+
   const app = expess()
   const config = require('./webpack.config.js')
   const compile = wepback(config)
-  
+
   app.use(weppackDevMiddleware(compile,{
       publicPath:config.output.publicPath
   }))
-  
+
   app.listen(3000,() => {
-      console.log('server is runnning on 3000')
+      console.log('server is running on 3000')
   })
   ```
 
@@ -296,7 +296,7 @@ module: {
   //抽取css文件,webpack4的plugin,支持css chunk
   //与style-loader功能互斥,不能一起使用
   const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-  
+
   module.exports = {
       entry: {
           index: './src/index.js',
@@ -451,7 +451,7 @@ module: {
   }
   ```
 
-- `npm i px2rem-loader -D` 
+- `npm i px2rem-loader -D`
 
 - `npm i lib-flexible -S`(动态计算根元素font-size,打开页面时就计算)
 
@@ -771,14 +771,14 @@ module.exports = {
       ...
 }
     ```
-    
+
     ![](images/webpack-3.png)
 
 #### 11 webpack integrate eslint
 
 - eslint-config-airbnb、eslint-config-airbnb-base
 
-- integrate with CI/CD 
+- integrate with CI/CD
 
 - integrate with webpack
 
@@ -796,7 +796,7 @@ module.exports = {
             ]
         }
     }
-    
+
     //.eslintrc.js
     // npm i babel-eslint -D
     module.exports = {
@@ -928,15 +928,15 @@ if (process.env.NODE_ENV === 'production') {
           const entry = {};
           const htmlWebpackPlugins = [];
           const entryFiles = glob.sync(path.join(__dirname,'./src/*/index-server.js'));
-      
+
           Object.keys(entryFiles)
               .map((index) => {
                   const entryFile = entryFiles[index];
                   // '/Users/cpselvis/my-project/src/index/index.js'
-      
+
                   const match = entryFile.match(/src\/(.*)\/index-server\.js/);
                   const pageName = match && match[1];
-      
+
                   if (pageName) {
                       entry[pageName] = entryFile;
                       htmlWebpackPlugins.push(
@@ -958,18 +958,18 @@ if (process.env.NODE_ENV === 'production') {
                       );
                   }
               });
-      
+
           return {
               entry,
               htmlWebpackPlugins
           }
       }
       ...
-      
-      
+
+
       //index-server.js
       'use strict';
-      
+
       // import React from 'react';
       // import largeNumber from 'large-number';
       // import logo from './images/logo.png';
@@ -978,17 +978,17 @@ if (process.env.NODE_ENV === 'production') {
       const largeNumber = require('large-number');
       const logo = require('./images/logo.png');
       require('./search.less');
-      
+
       class Search extends React.Component {
-      
+
           constructor() {
               super(...arguments);
-      
+
               this.state = {
                   Text: null
               };
           }
-      
+
           loadComponent() {
               import('./text.js').then((Text) => {
                   this.setState({
@@ -996,7 +996,7 @@ if (process.env.NODE_ENV === 'production') {
                   });
               });
           }
-      
+
           render() {
               const { Text } = this.state;
               const addResult = largeNumber('999','1');
@@ -1009,15 +1009,15 @@ if (process.env.NODE_ENV === 'production') {
               </div>;
           }
       }
-      
+
       module.exports = <Search />;
-      
-      
+
+
       //server/index.js
       if (typeof window === 'undefined') {
           global.window = {};
       }
-      
+
       const fs = require('fs');
       const path = require('path');
       const express = require('express');
@@ -1025,23 +1025,23 @@ if (process.env.NODE_ENV === 'production') {
       const SSR = require('../dist/search-server');
       const template = fs.readFileSync(path.join(__dirname,'../dist/search.html'),'utf-8');
       const data = require('./data.json');
-      
+
       const server = (port) => {
           const app = express();
-      
+
           app.use(express.static('dist'));
           app.get('/search',(req,res) => {
               const html = renderMarkup(renderToString(SSR));
               res.status(200).send(html);
           });
-      
+
           app.listen(port,() => {
               console.log('Server is running on port:' + port);
           });
       };
-      
+
       server(process.env.PORT || 3000);
-      
+
       const renderMarkup = (str) => {
           const dataStr = JSON.stringify(data);
           return template.replace('<!--HTML_PLACEHOLDER-->',str)
@@ -1069,7 +1069,7 @@ plugin: [
             process.exit(1);
           }
      })
-  }   
+  }
 ]
 ```
 
@@ -1112,7 +1112,7 @@ console.log($);
         NODE_ENV: JSON.stringify(process.env.NODE_ENV)
       }
     })
-    
+
     //source code
     if(process.env.NODE_ENV === 'production'){
         ...
@@ -1120,7 +1120,7 @@ console.log($);
         ...
     }
     ```
-    
+
 - `PrefetchPlugin`
 
 - `webpack-md5-hash`
@@ -1331,9 +1331,9 @@ plugins: [
 
    ```javascript
    const SpeedMeasurePlugin = require("speed-measure-webpack-plugin")
-   
+
    const smp = new SpeedMeasurePlugin()
-   
+
    const webpackConfig = smp.wrap({
      plugins: [
        new MyPlugin(),
@@ -1369,7 +1369,7 @@ plugins: [
    //使用DllPlugin分包,DllReferencePlugin引用指定目录生成的manifest.json
    const path = require('path');
    const webpack = require('webpack');
-   
+
    module.exports = {
        entry: {
            library: [
@@ -1389,7 +1389,7 @@ plugins: [
            })
        ]
    };
-   
+
    //webpack.prod,js
    plugins: [
      ...
@@ -1471,7 +1471,7 @@ plugins: [
                 use: [
                   MiniCssExtractPlugin.loader,
                   'css-loader',
-                   'less-loader'       
+                   'less-loader'
                 ]
               }
          	]
@@ -1556,7 +1556,7 @@ plugins: [
         module: {
           //noParse: (content) => /jquery|lodash/.test(content)
           //react.min.js经过构建,已经是可以直接运行在浏览器的、非模块化的文件
-          noParse:[/jquery|chartjs/,/react\.min\.js$/] 
+          noParse:[/jquery|chartjs/,/react\.min\.js$/]
         }
       }
       ```
@@ -1569,7 +1569,7 @@ plugins: [
           /moment[/\]locale$/,
           /de|fr|hu/
         )
-      
+
         //IgnorePlugin
         new Webpack.IgnorePlugin(/.\/locale/,/moment/)
         //忽略后源码需要手动引入

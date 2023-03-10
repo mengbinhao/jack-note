@@ -22,7 +22,7 @@
    - 不可用yield,因此不能用Generator函数
 5. IIFE无论在哪执行`this`是`window`
 6. 数组的`forEach map reduce`等函数里面的函数ES5写法this始终是window,箭头函数写法this则取决于外部执行环境
-7. practise
+7. practice
 ```javascript
 let a = {
   a: 'a'

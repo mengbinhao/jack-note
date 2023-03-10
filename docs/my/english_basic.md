@@ -111,6 +111,6 @@ Implementation the contract management from the traditional manual way to the mo
 - Version Control System: Git
 - Front Framework: Vue / Vue Router / VueX / Axios
 - Bundler: Webpack
-- Be Familar with Linux command
-- Be Familar with SQL
-- Be Familar with algorithm
+- Be Familiar with Linux command
+- Be Familiar with SQL
+- Be Familiar with algorithm

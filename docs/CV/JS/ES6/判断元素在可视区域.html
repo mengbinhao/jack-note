@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+  <title>判断元素在可视区域</title>
+  <style>
+    .div {
+      height: 2000px;
+    }
+
+    p {
+      height: 200px;
+      background: red;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div"></div>
+  <p id="p">我出现啦</p>
+</body>
+
+<!--
+  1 图片懒加载
+  2 列表无限滚动
+  3 计算广告元素曝光
+
+1 offsetTop、 scrollTop + 监听浏览器滚动事件
+  公式：元素的offsetTop - 页面的scrollTop <= 页面的高度
+	元素的上外边框至包含元素的上内边框之间的像素距离
+  元素的偏移量不会随着滚动条的滚动而发生改变。并且是相对于定位父元素(offsetParent)的位置计算的
+  如果没有定位的父元素就获取的是到窗口的距离，从元素的外边框计算到父元素的内边框
+2 getBoundingClientRect(返回一个DOMRect对象,返回元素的大小及其相对于视口的位置) + 监听浏览器滚动事件
+3 IntersectionObserver
+-->
+
+
+<script>
+  const p = document.getElementById('p')
+  //clientHeight = content height + vertical padding
+  //offsetHeight = content height + vertical padding + vertical borders + vertical scrollbar (if it's available)
+  //scrollHeight = content height (including the content which isn't visible on the screen) + the vertical padding
+  //元素的offsetTop - 页面的scrollTop <= 页面的高度
+  // function isInViewPort(dom) {
+  //   const viewPortHeight =
+  //     window.innerHeight ||
+  //     document.documentElement.clientHeight ||
+  //     document.body.clientHeight
+  //   const scrollTop = document.documentElement.scrollTop
+  //   const offsetTop = dom.offsetTop
+  //   return offsetTop - scrollTop <= viewPortHeight
+  // }
+  // window.onscroll = () => {
+  //   if (isInViewPort(p)) {
+  //     document.body.style.backgroundColor = 'blue'
+  //   } else {
+  //     document.body.style.backgroundColor = 'green'
+  //   }
+  // }
+
+  // function isInViewPort(dom) {
+  //   const viewPortHeight =
+  //     window.innerHeight || document.documentElement.clientHeight
+  //   const viewPortWidth =
+  //     window.innerWidth || document.documentElement.clientWidth
+  //   // 当滚动条滚动时top, left, bottom, right同步改变
+  //   const { top, right, bottom, left } = dom.getBoundingClientRect()
+  //   //全部显示在视口
+  //   return (
+  //     top >= 0 && left >= 0 && right <= viewPortWidth && bottom <= viewPortHeight
+  //   )
+  // }
+  // window.onscroll = () => {
+  //   if (isInViewPort(p)) {
+  //     document.body.style.backgroundColor = 'blue'
+  //   } else {
+  //     document.body.style.backgroundColor = 'green'
+  //   }
+  // }
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      //if (entries[0].intersectionRatio <= 0) return
+      if (entries[0].isIntersecting) {
+        document.body.style.backgroundColor = 'blue'
+      } else {
+        document.body.style.backgroundColor = 'green'
+      }
+    },
+    { threshold: 0.2 }
+  )
+  observer.observe(p)
+  //observer.unobserve(el)
+  //observer.disconnect()
+
+</script>
+
+</html>

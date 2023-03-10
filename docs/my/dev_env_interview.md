@@ -63,7 +63,7 @@ git push origin master
 - 浏览器端: 模块需要提前编译打包处理    browserify实现
 
 ```javascript
-module.expoets = yyy
+module.exports = yyy
 exports.xxx = yyy
 
 require(xxx) //第三方 / 自定义
@@ -81,12 +81,12 @@ define(function() {
 })
 
 //有依赖
-define(['moudle1', 'module2'], function(m1, m2) {
+define(['module1', 'module2'], function(m1, m2) {
     return xxx
 })
 
 
-requirejs(['moudle1', 'module2'], function(m1, m2) {
+requirejs(['module1', 'module2'], function(m1, m2) {
     //使用m1  m2
 })
 ```

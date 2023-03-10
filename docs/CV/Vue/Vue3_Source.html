@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+<script>
+  //收集起来，当依赖发生变化后执行副作用函数，即实现依赖收集和依赖更新
+  let activeEffect
+  const effect = (fn) => {
+    const _effect = function () {
+      activeEffect = _effect
+      fn()
+    }
+    _effect()
+  }
+
+  const targetMap = new WeakMap()
+  const track = (target, key) => {
+    let depsMap = targetMap.get(target)
+    if (!depsMap) {
+      depsMap = new Map()
+      targetMap.set(target, depsMap)
+    }
+    let deps = depsMap.get(key)
+    if (!deps) {
+      deps = new Set()
+      depsMap.set(key, deps)
+    }
+    deps.add(activeEffect)
+  }
+
+  const trigger = (target, key) => {
+    const depsMap = targetMap.get(target)
+    const deps = depsMap.get(key)
+    deps.forEach(effect => effect())
+  }
+
+  const reactive = (target) => {
+    return new Proxy(target, {
+      get(target, key, receiver) {
+        let res = Reflect.get(target, key, receiver)
+        track(target, key)
+        return res
+      },
+      set(target, key, value, receiver) {
+        let res = Reflect.set(target, key, value, receiver)
+        trigger(target, key)
+        return res
+      },
+    })
+  }
+
+  const user = reactive({
+    name: 'Jack',
+    age: 33,
+  })
+
+  effect(() => {
+    document.querySelector('#app').innerText = `${user.name} - ${user.age}`
+  })
+
+  setTimeout(() => {
+    user.name = 'Iori'
+  }, 2000)
+</script>
+
+</html>

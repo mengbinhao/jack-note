@@ -24,7 +24,7 @@
     - history.push(): 添加一个新的历史记录
     - history.replace(): 用一个新的历史记录替换当前的记录
     - history.goBack(): 回退到上一个历史记录
-    - history.goForword(): 前进到下一个历史记录
+    - history.goForward(): 前进到下一个历史记录
     - history.listen(function(location){}): 监视历史记录的变化
 
 #### react-router API

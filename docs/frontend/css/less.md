@@ -10,10 +10,10 @@ LESS既可以在客户端上运行 ,也可以借助Node.js在服务端运行
 - 以//开头的注释,不会被编译到css文件中
 - 以/**/包裹的注释会被编译到css文件中
 
-### grammer
+### grammar
 
 #### variable
-##### variable grammer
+##### variable grammar
 ```less
 @width : 100px;
 .w {

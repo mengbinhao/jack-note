@@ -25,7 +25,7 @@ After finishing the automation project, we saw a 40% increase in test team effic
 
 Scrum teams are my customer, they told me the synchronization tools saves lots of their time.
 
-I mean I am proud of delivering the synchronization tool between starteam and rally to the scrum team.
+I mean I am proud of delivering the synchronization tool between startteam and rally to the scrum team.
 
 ### talk about project
 - background
@@ -41,7 +41,7 @@ The TPS automated project is to build for testing the target desktop application
 Do you know about TPS? the basic process of how to use it is
 1. import standard DICOM images
 2. contour some volumes, it means point out where the tumour located and point put some key organ
-3. calculater the dose, the rediation dose
+3. calculate the dose, the radiation dose
 4. the doctor checks the report, if it is fine, export it then treat patient, it it not, re-contour and re-calculate until it can be accepted
 
 We use TC, a commercial automated tool, to test the UI function of the application, the purpose of TPS automated project is to save the time of tester from manual test.
@@ -53,10 +53,10 @@ For now, I have finished over 50% percent of automated scripts. Our team saw a 4
 From this project, I have learned a lot of javascript knowledge, I use it more skilled. but there is a little regret, most of the scripts written by ES5 grammar,if I have enough time, I will refactor it to ES6 grammar, this is the trend, furthermore, I did not write full of unit test for my business code, if I have the opportunity, I will add them as well.
 
 ##### technology selection
-- leanrning cost, TC support lots of script language, js、python and other script language, I am familiar with it, so this is a factor
+- learning cost, TC support lots of script language, js、python and other script language, I am familiar with it, so this is a factor
 - price, my company is a small company, although it has several branch company, but it can not spent lots of money on test team
-- can resolve current work problem, the target application developt by QT5, TC can recognize the component/object on it to do UI automated testing
-- easily reading offical doc, I spent a lot of time, less one month to learn how to use TC
+- can resolve current work problem, the target application developed by QT5, TC can recognize the component/object on it to do UI automated testing
+- easily reading official doc, I spent a lot of time, less one month to learn how to use TC
 - community, I requested several topic there and I found a bug of TC, TC built a hot-fix for this bug
 - popular or not, like UFT
 
@@ -72,13 +72,13 @@ From this project, I have learned a lot of javascript knowledge, I use it more s
 - object mapping
 - global event
 write business code first, then automated case invoke them
-encapsulate common function(like get data from different table. gotomainUI)
-each single case test cycle is, launch target app first, do some operation to go to the checkpoint, at last checkproperty to see if it is the case expected. exit app
+encapsulate common function(like get data from different table. goto mainUI)
+each single case test cycle is, launch target app first, do some operation to go to the checkpoint, at last check property to see if it is the case expected. exit app
 
 #### oxygen(encapsulation、poly'morphism)
 This is an automated test framework developed by Emerson, Automation team, it is used to test different web system. Oxygen resolves lots of xml files to related bean to execute automated cases, after test complete, generate report then send to related people. the main technology stacks are java and selenium, JAVA encapsulates selenium.
 
-more precisely speaking, it is a semi-finished product, Oxygen defines many types of web components, but all of them are abstract class.(suah as button、link、table、checkbox、text_input and others) which means the target system has to implement those components if needed.
+more precisely speaking, it is a semi-finished product, Oxygen defines many types of web components, but all of them are abstract class.(such as button、link、table、checkbox、text_input and others) which means the target system has to implement those components if needed.
 
 actually, I do not totally understand each technical point, because when I joined the group, the framework has already in shape, what I did is to enhance framework and write automated test scripts and define components, but I am clear that how it works, the workflow of Oxygen, Is this fine that I show you this information?
 
@@ -105,7 +105,7 @@ From this project, I learned lots of automation knowledge, the automated test ca
 - parameters: indicate to which value will be parameter for specified method, multiple values are separated by comma
 
 #### Selenium
-- browswe
+- browser
   - declare browser object
   - open/visit/close/switch website
   - browser tab
@@ -113,24 +113,24 @@ From this project, I learned lots of automation knowledge, the automated test ca
 - DOM related
   - find DOM
   - interactive with DOM
-  - DOM attributes(id, location, tagname, size)
+  - DOM attributes(id, location, tagName, size)
 - cookies setting
 - frame related
-- excute js
+- execute js
 - wait(implicit、explicit)
 - exception
 
 ### questions
 - what does this position do? to resolve what? what is the responsibility?
 - what is the technology stack?tool?need any key skills?
-- what knid of person you look for?
+- what kind of person you look for?
 - this position is new position or someone left?why did previous person leave?
 - report to whom? the structure of department? how many person in department?how many tester? how many dev?
-- offive location?
-- Can I visit goole using company network?
-- the importce of frontend / test in project?
+- office location?
+- Can I visit google using company network?
+- the importance of frontend / test in project?
 - talk about project?
-- Dose team often work overtime or business traval?
+- Dose team often work overtime or business travel?
 - Does company have any training or any way to help new member be part of team quickly?
 - Is my English level fine for this position/vacancy?
 - Do you think any thing that I need to improve?

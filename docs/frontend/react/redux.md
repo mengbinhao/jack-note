@@ -128,7 +128,7 @@ export default combineReducers({
 ```javascript
 //被包裹的组件都可以得到state数据
 <Provider store={store}>
-  <Todolist />
+  <TodoList />
   <OtherComponent1>
   <OtherComponent2>
   ...
@@ -154,14 +154,14 @@ const mapStateToprops = state => {
 ```
 4. mapDispatchToProps()
 ```javascript
-const mapDispatchToProps = disptch => {
+const mapDispatchToProps = dispatch => {
   return {
     changeVal(e) {
       const action = {
         type: 'changeVal',
         value: e.target.value
       }
-      disptch(action)
+      dispatch(action)
     }
     ...
 }

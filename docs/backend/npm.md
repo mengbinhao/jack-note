@@ -7,7 +7,7 @@ npm config set init.author.url "http://github.com/mengbinhao"
 npm config set init.license "MIT"
 npm config set init.version "0.0.1"
 ```
-3. `npm cache clean [--force]` 慎用该命令excute when meet strange error
+3. `npm cache clean [--force]` 慎用该命令execute when meet strange error
 4. install path
 ```bash
 # macos

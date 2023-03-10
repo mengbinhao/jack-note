@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>simple _Vue</title>
+</head>
+
+<body>
+  <div>
+    <div id="app">
+      <input type="text" v-model="name" />
+      <p>{{ name }} {{ age }}</p>
+      <p>{{ age }}</p>
+      <!-- <p> {{ obj.prop }} </p> -->
+    </div>
+    <button onclick="changeName()">change name</button>
+  </div>
+</body>
+<script type="text/javascript" src="./dep.js"></script>
+<script type="text/javascript" src="./observer.js"></script>
+<script type="text/javascript" src="./watcher.js"></script>
+<script type="text/javascript" src="./compile.js"></script>
+<script type="text/javascript" src="./_Vue.js"></script>
+<script>
+  let vm = new _Vue({
+    el: '#app',
+    data: {
+      name: 'Jack',
+      age: 33,
+    }
+  })
+
+  const changeName = () => {
+    vm.name = 'changed'
+  }
+</script>
+
+</html>

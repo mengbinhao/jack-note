@@ -3311,7 +3311,7 @@ ss
   > It's quite clear the responsibility for that abuse goes all the way to the top
 
 - 2020.4.29
-  - convenient adj | convenience n/vt | inconvenience | convenientlt
+  - convenient adj | convenience n/vt | inconvenience | conveniently
   - convention n | conventional | unconventional
   - rile v
   - harvest n/v

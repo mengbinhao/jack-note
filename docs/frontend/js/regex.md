@@ -71,7 +71,7 @@ console.log( string.match(regex2) );
 
 ### RegExp的方法
 #### exec()
-- 非全局检索：与String.macth()非全局检索相同，返回一个数组或null。
+- 非全局检索：与String.match()非全局检索相同，返回一个数组或null。
 - 全局检索：尽管是全局匹配的正则表达式，但是exec方法只对指定的字符串进行一次匹配。但是可以反复调用来实现全局检索。在 RegExpObject的lastIndex属性指定的字符处开始检索字符串；匹配后，将更新lastIndex为匹配文本的最后一个字符的下一个位置；再也找不到匹配的文本时，将返回null，并把 lastIndex 属性重置为 0。
 
 ```javascript
@@ -147,7 +147,7 @@ str.match(reg2); // ["a"]
 
 ```javascript
 var str="Is this all there is";
-var patern=/is(?= all)/g;
+var pattern=/is(?= all)/g;
 console.log(str.match(pattern));  //["is"]
 
 var s = "i am jay";

@@ -253,10 +253,10 @@ Stanley lives near the sea.(差不多住在几公里以外)
 `They came in by the back door.`
 3. 引申出时间关系，表示“不晚于某一时间(no later than; at or before)”
 `The application needs to be in by the 31st to be accepted.`
-4. 凭借(某种交通工具) 
+4. 凭借(某种交通工具)
 ```
 by air/bus/bike/boat
-My parents have never travelled by plane before.
+My parents have never traveled by plane before.
 ```
 5. 通过(某种通讯手段)
 `by telephone/post/email/fax`

@@ -939,7 +939,6 @@ var xiaoming2 = {
 				age: 22,
 			}
 		}
-
 		//反之，返回原来的项
 		return item
 	}),
@@ -980,12 +979,3 @@ var xiaoming2 = {
 		},
 	],
 }
-
-let arrTest = [1, [2, 3], [4, 5, 6, [7, 8, 9]]]
-const newArr = function (arr) {
-	return arr.reduce(
-		(pre, cur) => pre.concat(Array.isArray(cur) ? newArr(cur) : cur),
-		[]
-	)
-}
-console.log(newArr(arrTest))

@@ -28,7 +28,7 @@ CSS变量是浏览器中直接可用的CSS属性，而预处理中的变量是�
 }
 @keyframes bubbling {
   0% {
-    transform: translatey(var(--direction-y));
+    transform: translate(var(--direction-y));
     opacity: var(--transparency);
   }
   40% {

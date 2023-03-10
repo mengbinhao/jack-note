@@ -8,13 +8,13 @@ const [ sex , setSex ] = useState('男')
 const [ work , setWork ] = useState('前端程序员')
 ```
 4. `useEffect`
-   1. `React`首次渲染和之后的每次渲染都会调用一遍`useEffec`t函数，而之前我们要用两个生命周期函数分别表示首次渲染`componentDidMonut`和更新导致的重新渲染`componentDidUpdate`
+   1. `React`首次渲染和之后的每次渲染都会调用一遍`useEffect`t函数，而之前我们要用两个生命周期函数分别表示首次渲染`componentDidMount`和更新导致的重新渲染`componentDidUpdate`
     ```javascript
     useEffect(()=>{
         console.log(`useEffect=>You clicked ${count} times`)
     })
     ```
-   2. `useEffect`中定义的函数的执行不会阻碍浏览器更新视图，也就是说这些函数时异步执行的，而`componentDidMonut`和`componentDidUpdate`中的代码都是同步执行的。个人认为这个有好处也有坏处吧，比如我们要根据页面的大小，然后绘制当前弹出窗口的大小，如果时异步的就不好操作了
+   2. `useEffect`中定义的函数的执行不会阻碍浏览器更新视图，也就是说这些函数时异步执行的，而`componentDidMount`和`componentDidUpdate`中的代码都是同步执行的。个人认为这个有好处也有坏处吧，比如我们要根据页面的大小，然后绘制当前弹出窗口的大小，如果时异步的就不好操作了
    3. 模拟`componentWillUnMount`注意的坑,`useEffect`第二个参数的用法
     ```javascript
     useEffect(() => {

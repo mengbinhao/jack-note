@@ -11,7 +11,7 @@
 | 选择器             | 示例               | 实例说明                                   |
 | ------------------ | ------------------ | ------------------------------------------ |
 | .class             | .intro             | 选择所有class="intro"的元素                |
-| #id                | #firstname         | 选择所有id="firstname"的元素               |
+| #id                | #firstName         | 选择所有id="firstName"的元素               |
 | *                  | *                  | 选择所有元素                               |
 | element            | p                  | 选择所有<p>元素                            |
 | element,element    | div,p              | 选择所有<div>元素和<p>元素                 |
@@ -61,8 +61,8 @@
 | ----------------------- | --------------------------------------------- | ------------------------ |
 | `$parent.append($ele)`  | `parent.appendChild(ele)`                     | 在被选元素的结尾插入内容 |
 | `$parent.prepend($ele)` | `parent.insertBefore(ele, parent.firstChild)` | 在被选元素的开头插入内容 |
-| `$ele.after(html)`      | `ele.insertAdjacentHTML("afterend", html)`    | 在被选元素之后插入内容   |
-| `$ele.before(html)`     | `ele.insertAdjacentHTML("beforebegin", html)` | 在被选元素之前插入内容   |
+| `$ele.after(html)`      | `ele.insertAdjacentHTML("afterEnd", html)`    | 在被选元素之后插入内容   |
+| `$ele.before(html)`     | `ele.insertAdjacentHTML("beforeBegin", html)` | 在被选元素之前插入内容   |
 | `$ele.remove()`         | `ele.parentNode.removeChild(ele)`             | 删除被选元素及其子元素   |
 | `$ele.empty()`          | `ele.innerHTML = null`                        | 从被选元素中删除子元素   |
 | `$ele.clone()`          | `ele.cloneNode(true)`                         | 拷贝被选元素             |
@@ -129,7 +129,7 @@ ele.addEventListener("click", evt => {
 
 #### 解除绑定
 
-**jQuery ** 
+**jQuery **
 
 ```javascript
 $ele.off("click");
@@ -145,7 +145,7 @@ ele.removeEventListener("click", func);
 
 #### 模拟触发
 
-**jQuery ** 
+**jQuery **
 
 ```javascript
 $ele.trigger("click");
@@ -258,7 +258,7 @@ fetch(request)
 | ------------------------------------- | -------------------------------- | ---------------------- |
 | `$.isArray(array)`                    | `Array.isArray(array)`           | 判断参数是否为一个数组 |
 | `$.inArray(item, array)`              | `array.includes(item)`           | 判断值是否在指定数组中 |
-| `$.makeArray(objlist)`                | `Array.from(objlist)`            | 将类数组对象转换为数组 |
+| `$.makeArray(objList)`                | `Array.from(objList)`            | 将类数组对象转换为数组 |
 | `$.merge(array1, array2)`             | `array1.concat(array2)`          | 合并两个数组（有区别） |
 | `$.each(array, function (i, item) {}` | `array.forEach((item, i) => {})` | 遍历指定的对象和数组   |
 
@@ -271,7 +271,7 @@ fetch(request)
 | `$.now()`                             | `Date.now()`                 | 返回当前时间戳             |
 | `$.trim(context)`                     | `context.trim()`             | 移除字符串头尾空白         |
 | `$.type(parameter)`                   | `typeof parameter`           | 检测参数的内部类型         |
-| `$.parseJSON(jsonstr)`                | `JSON.parse(jsonstr)`        | 将JSON转换为JS对象         |
+| `$.parseJSON(jsonStr)`                | `JSON.parse(jsonStr)`        | 将JSON转换为JS对象         |
 | `$ele.data("key", "value")`           | `ele.dataset.key = "value"`  | 在指定的元素上存储数据     |
 | `$.map(array, function (item, i) {})` | `array.map((item, i) => {})` | 将数组转化为处理后的新数组 |
 

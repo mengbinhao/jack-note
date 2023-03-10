@@ -218,7 +218,7 @@
     position:absolute;
     left:50%;
     top:50%;
-    transform:tranplate(-50%,-50%);
+    transform:translate(-50%,-50%);
 }
 ```
 （3）优缺点
@@ -353,7 +353,7 @@
     <div class="left">
         <p>left</p>
     </div>
-    <div class="rigth-fix">
+    <div class="right-fix">
         <div class="right">
             <p>right</p>
             <p>right</p>
@@ -667,7 +667,7 @@ l = w * n + g * (n-1) -> l = w * n + g * n - g -> l + g = （w + g） * n`
 2. 使用table
 （1）原理、用法
 
-- 原理：通过增加一个父框的修正框，增大其宽度，并将父框转换为table，将子框转换为tabel-cell进行布局。
+- 原理：通过增加一个父框的修正框，增大其宽度，并将父框转换为table，将子框转换为table-cell进行布局。
 - 用法：先将父框的修正框设置为margin-left: -*px，再设置父框display: table、width:100%、table-layout: fixed，设置子框display: table-cell、padding-left。
 （2）代码实例
 ```html
@@ -782,7 +782,7 @@ p{
 2. 使用table
 （1）原理、用法
 
-原理：将父框转化为tabel，将子框转化为tabel-cell布局，以达到定宽+自适应+两块高度一样高。
+原理：将父框转化为table，将子框转化为table-cell布局，以达到定宽+自适应+两块高度一样高。
 用法：先将父框设置为display:table、width:100%、table-layout:fixed，再设置左右框为display:table-cell，最后设置左框width、padding-right。
 （2）代码实例
 ```html

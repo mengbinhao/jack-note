@@ -67,7 +67,7 @@
   -  `1,$s/word1/word2/gc`：将全文的word1替换为word2，且在替换前要求用户确认
 - vim file1 file2 同时打开两个文件， 第一个文件使用yy复制， 使用:next 打开下一个文件 ，使用p命令粘贴，返回上一个文件使用:prev
 
-### best practise
+### best practice
 
 - `gg=G`：将全文代码格式化
 - `Ctrl + q`：当vim卡死时，可以取消当前正在执行的命令
@@ -76,7 +76,7 @@
   - 找到正在打开该文件的程序，并退出
   - 直接删掉该swp文件即可
 
-### configration
+### configuration
 
 - /etc/virc、/etc/vimrc
   - add`set nu` in last row
