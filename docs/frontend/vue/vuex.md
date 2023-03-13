@@ -21,7 +21,7 @@
 - state: 驱动应用的数据源
 - view: 以声明方式将state映射到视图
 - actions: 响应在view上的用户输入导致的状态变化(包含n个更新状态的方法)
-![](./images/vuex-1.png)
+![](../images/vuex-1.png)
 
 #### 把数据存入 Vuex 的理由
 
@@ -39,7 +39,7 @@
    - 将数据以及操作数据的行为都定义在父组件
    - 将数据以及操作数据的行为传递给需要的各个子组件(有可能需要多级传递)
 
-![](./images/vuex-2.png)
+![](../images/vuex-2.png)
 
 #### state
 Vuex 管理的状态对象
@@ -287,4 +287,4 @@ methods: {
 #### in real project
 
 以下没区分模块，创建一个store文件夹,一个index.js、state.js、action.js、mutation.js、getter.js、mutation-types.js
-![](./images/vuex-3.png)
+![](../images/vuex-3.png)

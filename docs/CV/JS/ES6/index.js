@@ -296,11 +296,12 @@ const copyAllOwnProperties = (original) => {
 //	1 JSON.parse(JSON.stringify(original))
 //		若obj里有Date对象，转换后时间只是字符串而不是对象
 //		若obj里有RegExp、Error对象，转换后得到空对象
-//		若obj里有function、undefined，转换后会丢失
+//		若obj里有function、undefined，Symbol转换后直接丢失,若以上三个作为数组元素转换后是null,若单独转化则是undefined
 //		若obj里有NaN、Infinity和-Infinity，转换后变成null
-//		若对象中存在循环引用的情况也无法正确实现深拷贝
-//		JSON.stringify()只能序列化对象的可枚举的自有属性，若obj中的对象是由构造函数生成的，则使用JSON.parse(JSON.stringify(obj))会丢弃对象的constructor
-//	结论：JSON.parse(JSON.stringify(X))，其中X只能是Number, String, Boolean, Array, 扁平对象
+//		若对象中存在循环引用的转换报错
+//		对象toJSON属性
+//		JSON.stringify()只能序列化对象的可枚举的自有属性
+//	结论：只能处理string、boolean、number、null、object、array
 //  2 手动实现
 const deepClone = (source, cache = new WeakMap()) => {
 	const isObject = (obj) => {
@@ -381,7 +382,6 @@ const simulateAJAX = (options) => {
 		if (status >= 200 && status < 400) {
 			options.success(xhr.responseText)
 		} else {
-
 		}
 	}
 	xhr.onerror = function () {
@@ -389,14 +389,18 @@ const simulateAJAX = (options) => {
 	}
 	xhr.responseType = 'json'
 	let postData = []
-	Object.keys(options.data).forEach(key => {
+	Object.keys(options.data).forEach((key) => {
 		postData.push(key + '=' + options.data[key])
 	})
 	if (options.method === 'POST') {
 		xhr.open(options.method, options.url, options.async)
 		xhr.send(postData)
 	} else if (options.method === 'GET') {
-		xhr.open(options.method, `${options.url}?` + postData.join('&'), options.async)
+		xhr.open(
+			options.method,
+			`${options.url}?` + postData.join('&'),
+			options.async
+		)
 		//xhr.send("foo=bar&lorem=ipsum")
 		//xhr.send(document)
 		//xhr.send('string')
@@ -673,3 +677,28 @@ const fn = () => {
 		...new Set([...document.querySelectorAll('*')].map((el) => el.tagName)),
 	].length
 }
+
+let starks = ['Eddard Stark', 'Catelyn Stark', 'Rickard Stark']
+
+function* repeatedArr(arr) {
+	let i = 0
+	while (true) {
+		yield arr[i++ % arr.length]
+	}
+}
+
+let infiniteNameList = repeatedArr(starks)
+
+let sleep = (ms) =>
+	new Promise((resolve) => {
+		setTimeout(() => {
+			resolve()
+		}, ms)
+	})
+
+;(async () => {
+	for (const name of infiniteNameList) {
+		await sleep(1000)
+		console.log(name)
+	}
+})()

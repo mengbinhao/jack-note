@@ -10,18 +10,17 @@
 ```javascript
 //在列表项消失前，如果快速地点击多次列表元素，在控制台上会出现异常信息
 //Failed to execute 'removeChild' on 'Node'
-const list = document.querySelector('ul');
-const buttons = list.querySelectorAll('button');
+const list = document.querySelector('ul')
+const buttons = list.querySelectorAll('button')
 buttons.forEach((button) => {
-  button.addEventListener('click', (evt) => {
-    const target = evt.target;
-    target.parentNode.className = 'completed';
-    setTimeout(() => {
-      list.removeChild(target.parentNode);
-    }, 2000);
-  });
-});
-
+	button.addEventListener('click', (evt) => {
+		const target = evt.target
+		target.parentNode.className = 'completed'
+		setTimeout(() => {
+			list.removeChild(target.parentNode)
+		}, 2000)
+	})
+})
 ```
 
 2. some methods
@@ -53,33 +52,6 @@ const once = (fn,replace = null) => {
       replace.apply(this, args)
     }
   }
-}
-```
-
-#### throttle && debounce
-```javascript
-function throttle(fn, ms = 100) {
-  let throttleTimer = null;
-  return function (...args) {
-    if(!throttleTimer) {
-      const ret = fn.apply(this, args);
-      throttleTimer = setTimeout(() => {
-        throttleTimer = null;
-      }, ms);
-      return ret;
-    }
-  };
-}
-
-function debounce(fn, ms) {
-  let debounceTimer = null;
-  return function (...args) {
-    if(debounceTimer) clearTimeout(debounceTimer);
-
-    debounceTimer = setTimeout(() => {
-      fn.apply(this, args);
-    }, ms);
-  };
 }
 ```
 

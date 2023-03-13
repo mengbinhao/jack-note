@@ -127,7 +127,7 @@ getBooksByAuthor2(authorId) {
 let p1 = Promise.reject(100)
 async function fn1() {
   let result = await p1
-  console.log(1) //这行代码不会执行
+  console.log(1) //dead code
 }
 ```
 
@@ -273,5 +273,120 @@ const errors = results
   .map(p => p.reason);
 
 removeLoadingIndicator();// 移除加载的滚动图标
+```
+
+#### 红黄绿灯
+
+```javascript
+const red = () => console.log('red')
+const yellow = () => console.log('yellow')
+const green = () => console.log('green')
+
+const light = (cb, timeout) => {
+	return new Promise((resolve, reject) => {
+		setTimeout(() => {
+			cb()
+			resolve()
+		}, timeout)
+	})
+}
+
+let endCnt = 0
+const start = () => {
+	if (endCnt++ >= 3) {
+		console.log('finish lighting~~')
+		return
+	}
+	Promise.resolve()
+		.then(() => {
+			return light(red, 3000)
+		})
+		.then(() => {
+			return light(yellow, 2000)
+		})
+		.then(() => {
+			return light(green, 1000)
+		})
+		.then(() => {
+			start()
+		})
+}
+
+start()
+```
+
+#### 异步执行函数
+
+```javascript
+const repeat = (cb, times, delay = 1000) => {
+	return async function (...args) {
+		for (let i = 0; i < times; i++) {
+			await new Promise((resolve, reject) => {
+				setTimeout(() => {
+					cb.call(null, ...args)
+					resolve()
+				}, delay)
+			})
+		}
+	}
+}
+const repeatFn = repeat(console.log, 4, 1000)
+repeatFn('hello')
+```
+
+#### generator实现
+
+```javascript
+function* repeatedArr(arr) {
+	let i = 0
+	while (true) {
+		yield arr[i++ % arr.length]
+	}
+}
+
+let infiniteNameList = repeatedArr(starks)
+
+let sleep = (ms) =>
+	new Promise((resolve) => {
+		setTimeout(() => {
+			resolve()
+		}, ms)
+	})
+
+;(async () => {
+	for (const name of infiniteNameList) {
+		await sleep(1000)
+		console.log(name)
+	}
+})()
+```
+
+#### PromiseQueue
+
+```javascript
+class PromiseQueue {
+	constructor(tasks, concurrentCount = 1) {
+		this.totals = tasks.length
+		this.todo = tasks
+		this.count = concurrentCount
+		this.running = []
+		this.complete = []
+	}
+
+	runNext() {
+		return this.running.length < this.count && this.todo.length
+	}
+
+	run() {
+		while (this.runNext()) {
+			let promise = this.todo.shift()
+			promise.then(() => {
+				this.complete.push(this.running.shift())
+				this.run()
+			})
+			this.running.push(promise)
+		}
+	}
+}
 ```
 

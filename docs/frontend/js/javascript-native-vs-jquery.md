@@ -3,7 +3,7 @@
 - `document.querySelector` 返回第一个匹配的 Element
 - `document.querySelectorAll` 返回所有匹配的 Element 组成的 NodeList
 
-**jQuery**  `var $ele = $("selector");`
+**jQuery**  `let $ele = $("selector");`
 **Native**  `let ele = document.querySelectorAll("selector");`
 
 #### 选择器模式

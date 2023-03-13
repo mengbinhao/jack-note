@@ -176,7 +176,7 @@
 - [写好 JavaScript 异步代码的几个推荐做法](https://mp.weixin.qq.com/s/u1JZkGltjxUvs2c4xSvPYw)
 - [56 个 JavaScript 实用工具函数助你提升开发效率](https://mp.weixin.qq.com/s/jJ1bowDBsRBuCk-oyUPE-Q)
 - [这 16 种原生函数和属性的区别](https://mp.weixin.qq.com/s/1Byb0gtmPvX6-akIrlqMHg)
-- [学习 axios 源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw)
+- [学习 axios 源码整体架构](https://mp.weixin.qq.com/s/AtRkVlrYx2zyKs5AXL2rlw) ------
 - [30+ 个工作中常用到的前端小知识](https://mp.weixin.qq.com/s/EKz1CvXafc6wy4epTzLy6g)
 - [私藏的这些高级工具函数](https://mp.weixin.qq.com/s/xNjtwxVDG1C3jI5F9EEyrg)
 - [8 个工程必备的 JavaScript 代码片段](https://mp.weixin.qq.com/s/nsitnjbHVMPkvTdeeCbmQg)
@@ -235,7 +235,6 @@
 - [一个多层 if/else 嵌套的代码重构案例](https://juejin.im/post/5dde8ea1f265da05b52e88cd)
 - [重构 if...else if...else...](https://mp.weixin.qq.com/s/ZSXeQf50CKa0rZf4azaU7Q)
 - [使用 JS 来动态操作 css](https://segmentfault.com/a/1190000021169316)
-- [你不知道的 JSON.stringify()](https://segmentfault.com/a/1190000021230185)
 - [编程风格,编程实践](https://segmentfault.com/a/1190000021368904)
 - [常见内存泄露及如何避免](https://juejin.im/post/5e10a97f5188253a765ec7e1)
 - [一道不一样的前端架构师最终面试题](https://segmentfault.com/a/1190000021490239)
@@ -320,7 +319,6 @@
 - [十分钟，让你学会 Vue 的这些巧妙冷技巧](https://juejin.cn/post/7103066172530098206)
 - [12 个 Vue 开发中的性能优化小技巧](https://mp.weixin.qq.com/s/YxGq5m5GC1hXej8v3eN_Rw)
 - [DIff 算法看不懂就一起来锤我](https://mp.weixin.qq.com/s/PHvmhzuimOlpw1SWeSyHuw)
-- [源码之 Diff 流程](https://segmentfault.com/a/1190000020658020)
 - [11 个高级 Vue 编码技巧](https://mp.weixin.qq.com/s/zVOTindmgMBQ8ClvBZ9FNg)
 - [10 个技巧！实现 Vue.js 极致性能优化](https://mp.weixin.qq.com/s?__biz=MzI2NDU4OTExOQ==&mid=2247525077&idx=1&sn=b42cec26edefb616f9370c73310cea7f)
 - [建立和维护大型 Vue.js 项目的 10 个最佳实践](https://mp.weixin.qq.com/s/XHQ8aNZqMWwFbcAeN34tww)
@@ -363,7 +361,6 @@
 - [Vue Prop 中的 null vs undefined](https://juejin.im/post/5ddcf5f4e51d4532db416149)
 - [Vue 使用 Jest 单元测试](https://juejin.im/post/5df74948f265da33a55f9d85)
 - [Vue 实现一个全屏加载插件](https://juejin.im/post/5e3307145188252c30002fa7)
-- [vue and vuex source](https://segmentfault.com/a/1190000021717329)
 - [使用混合 Mixin 和插件开发](https://segmentfault.com/a/1190000021679760)
 - [耽误你的十分钟，让 MVVM 原理还给你](https://mp.weixin.qq.com/s/-ShpY9fSXjsqrHOuv7a7ng)
 - [Vue 组件传参的八种方式总结](https://juejin.im/post/5e5deff4f265da573d61ad04)
@@ -390,7 +387,7 @@
 - [一篇文章上手 Vue3 中新增的 API](https://mp.weixin.qq.com/s/Iwo-fvQTeUO5H8mhf1sRRw)
 - [一文让你 30 分钟快速掌握 Vue3](https://mp.weixin.qq.com/s/E_SDmH9hgvRLTB6bsFx9tg)
 - [Vue3 3 种 diff](https://juejin.cn/post/7139034950598131720)
-- [1.1 万字从零解读 Vue3.0 源码响应式系统](https://mp.weixin.qq.com/s?__biz=MzkwODIwMDY2OQ==&mid=2247488228&idx=1&sn=9e8543159882ade6216416d545a037a9) ----
+- [1.1 万字从零解读 Vue3.0 源码响应式系统](https://mp.weixin.qq.com/s?__biz=MzkwODIwMDY2OQ==&mid=2247488228&idx=1&sn=9e8543159882ade6216416d545a037a9) ------
 
 #### project related
 

@@ -1,96 +1,6 @@
 //Array
 //Array
 //Array
-//不使用其他数据结构
-const removeDuplicates1 = (nums) => {
-	//precondition
-	nums.sort()
-	let len = 1
-	for (let i = 1; i < nums.length; i++)
-		if (nums[i] != nums[i - 1]) nums[len++] = nums[i]
-	// 删除重复项
-	nums.splice(len)
-	return nums
-}
-
-const removeDuplicates2 = (nums) => {
-	let len = nums.length - 1
-	for (let i = len; i >= 0; i--) {
-		//往前放
-		if (nums.indexOf(nums[i]) != i) {
-			nums[i] = nums[len--]
-		}
-	}
-	nums.splice(len + 1)
-	return nums
-}
-
-//使用其他数据结构
-Array.prototype.unique1 = function () {
-	//return [...new Set(this)]
-	return Array.from(new Set(this))
-}
-
-Array.prototype.unique2 = function () {
-	//利用Array.prototype.filter返回符合条件的元素
-	//利用Array.prototype.indexOf返回数组中第一次出现当前元素的索引值
-	return this.filter((item, index) => this.indexOf(item) === index)
-}
-
-Array.prototype.unique3 = function () {
-	//这里是利用对象键hash值的唯一性来去重
-	//使用obj区别不了1和'1'
-	let obj = {}
-	let result = []
-	for (let i = 0; i < this.length; i++) {
-		if (!obj[this[i]]) {
-			obj[this[i]] = true
-			result.push(this[i])
-		}
-	}
-	obj = null
-	return result
-}
-
-Array.prototype.unique4 = function () {
-	let obj = {}
-	for (let i = 0; i < this.length; i++) {
-		//使用obj区别不了1和'1'
-		if (obj[this[i]]) {
-			this.splice(i, 1)
-			this.length--
-			i--
-		} else {
-			obj[this[i]] = true
-		}
-	}
-	obj = null
-	return this
-}
-
-Array.prototype.unique5 = function () {
-	let result = []
-	for (let i = 0; i < this.length; i++) {
-		if (!result.includes(this[i])) {
-			result.push(this[i])
-		}
-	}
-	return result
-}
-
-Array.prototype.unique6 = (arr) => {
-	for (let i = 0; i < arr.length - 1; i++) {
-		for (let j = i + 1; j < arr.length; j++) {
-			if (arr[i] === arr[j]) {
-				arr.splice(j, 1)
-				//in case like [2,2]
-				j--
-			}
-		}
-	}
-	return arr
-}
-
 const simulateFlatten1 = (arr) => {
 	let result = []
 	for (let i = 0; i < arr.length; i++) {
@@ -928,45 +838,8 @@ const hasPubProperty = (attr, obj) => {
 	return attr in obj && obj.hasOwnProperty(attr) === false
 }
 
-//第一大特性
-//undefined、任意的函数以及 symbol 作为对象属性值时 JSON.stringify() 对跳过（忽略）它们进行序列化
-//undefined、任意的函数以及 symbol 作为数组元素值时，JSON.stringify() 将会将它们序列化为 null
-//undefined、任意的函数以及 symbol 被 JSON.stringify() 作为单独的值进行序列化时，都会返回 undefined
-
-//第二大特性
-//非数组对象的属性不能保证以特定的顺序出现在序列化后的字符串中
-
-//第三大特性
-//转换值如果有 toJSON() 函数，该函数返回什么值，序列化结果就是什么值，并且忽略其他属性的值
-
-//第四大特性
-//JSON.stringify() 将会正常序列化Date的值
-
-//第五大特性
-//NaN和Infinity格式的数值及null都会被当做null
-
-//第六大特性
-//布尔值、数字、字符串的包装对象在序列化过程中会自动转换成对应的原始值
-
-//第七大特性
-//其他类型的对象，包括 Map/Set/WeakMap/WeakSet，仅会序列化可枚举的属性
-
-//第八大特性
-//对包含循环引用的对象（对象之间相互引用，形成无限循环）执行此方法，会抛出错误
-
-//第九大特性
-//所有以 symbol 为属性键的属性都会被完全忽略掉，即便 replacer 参数中强制指定包含了它们
-
 //JSON.parse(JSON.stringify(obj))
 //只能处理string、boolean、number、null、object、array
-// 缺点：
-// 1、会忽略undefined、symbol、function
-// 2、Date引用类型会被变成字符串
-// 3、RegExp引用类型会变成空对象
-// 4、无法拷贝不可枚举的属性
-// 5、无法拷贝对象的原型链
-// 6、不能解决循环引用的
-// 7、对象中含有 NaN、Infinity 以及 -Infinity，结果都变成 null
 const deepClone = (source, cache = new WeakMap()) => {
 	if (source instanceof Date) return new Date(source)
 	if (source instanceof RegExp) return new RegExp(source)
