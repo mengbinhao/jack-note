@@ -1,508 +1,531 @@
-### ES6
-- [some summary](https://juejin.im/post/5d9bf530518825427b27639d)
-1. 模板字符串,可保留多行格式，可以调用函数
+### 数据类型
 
-   ```javascript
-   ;`http://localhost:3000/api/messages/${id}`
+- number、boolean、string、null、undefined
+- Object（`Array`、`Function`、`Date`、`RegExp`、`Error`)）
+- Symbol、BigInt
 
-   function test(str, age) {
-     return `${str[0]}${age} lala`
-   }
-   let arr = [1, 2, 3]
-   //note below two way the params is defferent
-   //note below two way the params is defferent
-   let a = `${test(1, 2)}`
-   let b = test`this is 33 ${age}`
-   ```
+### const、let、块级作用域{}
 
-2. 函数增强
+- 不允许重复声明
+- 不存在变量提升
+- 暂时性死区
 
-   1. 参数默认值
-      //不能再用 let const 定义函数形参,函数默认参数是一个作用域,找不到往上层找
-      //强制要求参数
-      const required = () => {throw new Error('Missing parameter')}
-      const add = (a = required(), b = required()) => a + b;
-      add()
-   2. 剩余参数
-      1. `Array.prototype.slice.call(arguments).sort() to const sortNumbers = (...numbers) => numbers.sort()`
-      2. 与解构赋值组合使用`var [a,b,...c] = array;`
-   3. 箭头函数
-      > 1 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若是箭头函数继续上找), call / apply / bind也改变不了
-      >
-      > 2 没有 arguments,但有...
-      >
-      > 3 不能用作构造函数,new 调用
-      >
-      > 4 没有原型对象
-      >
-      > 5 没有自己的 super 和 new.target 绑定
-      >
-      > 6 不可用 yield,因此不能用 Generator 函数
-      >
-      > 7 形参名称不能重复
+### 字符串扩展
 
-3. 解构(数组、对象、函数参数、解构不成功`undefined`,比如不对称解构)
-   1. 排除对象不需要的属性、提取 JSON 数据、Map 解构、解析模块方法
-      ```javascript
-      let {
-        child: { name: xinming = 'Jack', age }
-      } = obj
-      let { id, status, data: number } = jsonData
-      //for (let [key,] of map)
-      //for (let [,value] of map)
-      for (let [key, value] of map) {
-        console.log(key + 'is' + value)
-      }
-      const { SourceMapConsumer, SourceNode } = require('source-map')
-      ```
-   2. 数值交换`let [p1, p2] = [p2, p1]`
-   3. 接收函数返回值
-      ```javascript
-      //有序
-      function f([x, y, z]) {...}
-      f([1, 2, 3])
-      //无序
-      function f({x, y, z}) {...}
-      f({z: 3, y: 2, z: 1})
-      ```
-   4. 合并对象 let merged = {...obj1, ...obj2} //注意重复属性后面覆盖前面
-4. 对象增强
+	- includes
+	- repeat
+	- startWith
+	- endWith
 
-   1. `class new constructor extends super get set static`
+### 模板字符串
 
-   ```javascript
-   class Animal {
-     constructor() {
-       this.species = '动物'
-     }
-     move() {
-       console.log('move')
-     }
-   }
+### ==解构赋值==
 
-   class Person extends Animal {
-     constructor(name, age) {
-       super()
-       this.name = name
-       this.age = age
-       this._private = 'private'
-     }
-     walk() {
-       console.log('I can walk')
-     }
-     get private() {
-       return this._private
-     }
-     set private(val) {
-       this._private = val
-     }
-     static staticMethod() {
-       return 'static'
-     }
-   }
-   ```
+- 解构不成功`undefined`
 
-   1. 不要用箭头
-   2. 函数、属性简写
-   3. 对象键可以使用变量 `obj = {[n+1*2]:'a'}`
-5. ES6 class 和 ES5 的类区别
-   1. `class`声明会提升,但不会初始化赋值,类似`const、let`
-   ```javascript
-		var bar = new Bar()
+- 解构赋值规则：只要等号右边的值不是对象或数组，就先将其转为对象，`undefined`和`null`无法转为对象，因此无法进行解构
 
-		function Bar() {
-			this.bar = 42
-		}
-		//Uncaught ReferenceError: Cannot access 'Foo' before initialization
-		var foo = new Foo()
-		class Foo {
-			constructor(){
-				this.foo = 42
-			}
-		}
-   ```
-	 2. `class`内部默认严格模式
-   ```javascript
-		function Bar() {
-			baz = 42; // it's ok
-		}
-		const bar = new Bar();
+- 字符串解构：`const [a, b, c, d, e] = "hello"`
 
-		class Foo {
-			constructor() {
-				fol = 42; // ReferenceError: fol is not defined
-			}
-		}
-		const foo = new Foo();
-   ```
-	 3. `class`的所有方法(包括静态方法和实例方法)都是不可枚举的
-   ```javascript
-		function Bar() {
-			this.bar = 42;
-		}
-		Bar.answer = function() {
-			return 42;
-		};
-		Bar.prototype.print = function() {
-			console.log(this.bar);
-		};
-		const barKeys = Object.keys(Bar); // ['answer']
-		const barProtoKeys = Object.keys(Bar.prototype); // ['print']
+- 数值解构：`const { toString: s } = 123`
 
-		class Foo {
-			constructor() {
-				this.foo = 42;
-			}
-			static answer() {
-				return 42;
-			}
-			print() {
-				console.log(this.foo);
-			}
-		}
-		const fooKeys = Object.keys(Foo); // []
-		const fooProtoKeys = Object.keys(Foo.prototype); // []
-   ```
-	 4. `class`的所有方法(包括静态方法和实例方法)都没有原型对象 prototype，所以也没有`[[construct]]`，不能使用`new`来调用
-   ```javascript
-   function Bar() {
-     this.bar = 42;
-   }
-   Bar.prototype.print = function() {
-     console.log(this.bar);
-   };
+- 布尔解构：`const { toString: b } = true`
 
-   const bar = new Bar();
-   const barPrint = new bar.print(); // it's ok
+- 对象解构
+  - 形式：`const { x, y } = { x: 1, y: 2 }`
+  - 默认：`const { x, y = 2 } = { x: 1 }`
+  - 重命名：`const { x, y: z } = { x: 1, y: 2 }`
+  - `;({ name: user.name, email: user.email, ...userDetails } = obj)`
+  
+- 数组解构
 
-   class Foo {
-     constructor() {
-       this.foo = 42;
-     }
-     print() {
-       console.log(this.foo);
-     }
-   }
-   const foo = new Foo();
-   const fooPrint = new foo.print(); // TypeError: foo.print is not a constructor
-   ```
-	 5. 必须使用`new`调用`class`
-   ```javascript
-	 	function Bar() {
-			this.bar = 42;
-		}
-		const bar = Bar(); // it's ok
+  ```javascript
+  const csvFileLine = '1997,John Doe,US,john@doe.com,New York'
+  const { 2: country, 4: state } = csvFileLine.split(',')
+  ```
 
-		class Foo {
-			constructor() {
-				this.foo = 42;
-			}
-		}
-		const foo = Foo(); // TypeError: Class constructor Foo cannot be invoked without 'new'
-   ```
-	 6. `class`内部无法重写类名
-   ```javascript
-		function Bar() {
-			Bar = 'Baz'; // it's ok
-			this.bar = 42;
-		}
-		const bar = new Bar();
-		// Bar: 'Baz'
-		// bar: Bar {bar: 42}
+- 函数参数解构
 
-		class Foo {
-			constructor() {
-				this.foo = 42;
-				Foo = 'Fol'; // TypeError: Assignment to constant variable
-			}
-		}
-		const foo = new Foo();
-		Foo = 'Fol'; // it's ok
-   ```
-   - `ES6 class`子类必须在构造函数中调用`super()`,这样才有`this`对象;`ES5`中类继承的关系是相反的,先有子类的`this`,然后用父类的方法应用在`this`上
-   - `ES6 class`有两个原型链
-   - `B.__proto__ === A //核心目的是实现静态方法继承`
-   - `B.prototype.__proto__ === A.prototype`
+  - `function Func([x = 0, y = 1]) {}`
+  - `function Func({ x = 0, y = 1 } = {}) {}`
 
-6. let & const
+- 应用场景
 
-   1. 作用域为{}
-   2. TDZ
-   3. 重复 let 会 error
-   4. const 还有 let 只有一次赋值机会,必须在声明的时候立马赋值
-   5. 关于是否变量提升:
-      > let 的「创建」过程被提升了，但是初始化没有提升
-      >
-      > var 的「创建」和「初始化」都被提升了
-      >
-      > function 的「创建」「初始化」和「赋值」都被提升了
+  - 排除对象不需要的属性：`const {prop1, prop2, ...otherProps} = obj`
+  - 交换变量值：`[x, y] = [y, x]`
+  - 返回函数多个值：`const [x, y, z] = Func()`
+  - 定义函数参数：
+    - `Func([1, 2]){}` 数组有序
+    - `Func({x, y, z}) {}` 对象可无序
+  - 提取 JSON 数据：`const { name, version } = packageJson`
+  - 定义函数参数默认值：`function Func({ x = 1, y = 2 } = {}) {}`
+  - 遍历 Map 结构：`for (let [k, v] of Map) {}`
+  - 输入模块指定属性和方法：`const { readFile, writeFile } = require("fs")`
 
-7. new API
-   - String
-     - includes
-     - repeat
-     - startWith
-     - endWith
-   - Number
-     - Number.isNaN
-     - Number.parseInt
-     - Number.parseFloat
-     - Number.isInteger
-     - Number.isSafeInteger
-     - Number.isFinite
-     - Number.EPSILON
-   - Array
-     - Array.from
-     - Array.of
-     - Array.isArray(arr)
-     - fill
-     - includes
-     - copyWithin
-     - find(fn)、findIndex(fn)
-     - keys、values、entries
-   - Object
-     - Object.is
-     - Object.assign //shadow copy
-     - keys(自身可枚举)、entries、values
-     - Object.getOwnPropertyNames //自身可枚举不可枚举属性
-   - Math
-     - Math.trunc //parseInt
-     - Math.sign
-     - Math.acosh
-     - Math.hypot
-     - Math.imul
-8. Symbol `可创建对象私有属性`
-9.  Set`唯一包括原始值和引用值`、WeakSet、Map`任何值可以作为key` WeakMap
-10. Iterator
-   ```javascript
-   let makeIterator = array => {
-     let nextIndex = 0
-     return {
-       next: function() {
-         return nextIndex < array.length
-           ? { value: array[nextIndex++], done: false }
-           : { done: true }
-       }
-     }
-   }
-   let it = makeIterator([1, 2, 3])
-   ```
-11. generator
-    ```javascript
-    function* idMaker() {
-      let index = 0
-      while (true) {
-        yield index++
-      }
-    }
-    ```
-12. Promise
-13. Reflect
-14. Proxy
+#### for of 可迭代对象原理Symbol.iterator
 
 ```javascript
-const handler = {
-  // receiver 指向 proxy 实例
-  get(target, property, receiver) {
-    console.log(`GET: target is ${target}, property is ${property}`)
-    return Reflect.get(target, property, receiver)
-  },
-  set(target, property, value, receiver) {
-    console.log(`SET: target is ${target}, property is ${property}`)
-    return Reflect.set(target, property, value)
-  }
+let obj = {
+	current: 0,
+	max: 5,
+	[Symbol.iterator]() {
+		return {
+			current: this.current,
+			max: this.max,
+			next() {
+				if (this.current === this.max) {
+					return { value: undefined, done: true }
+				} else {
+					return { value: this.current++, done: false }
+				}
+			},
+		}
+	},
 }
 
-const obj = { a: 1, b: { c: 0, d: { e: -1 } } }
-const newObj = new Proxy(obj, handler)
-
-newObj.a // output: GET...
-newObj.b.c // output: GET...
-
-newObj.a = 123 // output: SET...
-newObj.b.c = -1 // output: GET...
+for (let c of obj) console.log(c)
 ```
 
-14. module(服务器环境)
+#### Iterator
 
-    1.  `import`
-        ```javascript
-        //CommonJs模块输出的是一个值的拷贝，ES6模块输出的是值的只读引用
-        //CommonJs模块是运行时加载，ES6模块是编译时输出接口
-        //相对/绝对路径
-        //输入的变量都是只读的,当然可以给对象添加属性,但是最好不要这样做
-        //具有提升效果
-        //静态分析，不能使用表达式和变量
-        //Singleton模式
-        //只会导入一次 无论引入多少次
+```javascript
+//手写迭代器
+function makeIterator(array) {
+	let nextIdx = 0
+	return {
+		next() {
+			return nextIdx < array.length
+				? { value: array[nextIdx++], done: false }
+				: { value: undefined, done: true }
+		},
+	}
+}
 
-        //相当于引入文件
-        import "https://code.jquery.com/jquery-3.3.1.min.js"
+let it = makeIterator(['a', 'b'])
+it.next() // { value: "a", done: false }
+it.next() // { value: "b", done: false }
+it.next() // { value: undefined, done: true }
+```
 
-        import x from "./a.js" 引入模块中导出的默认值
+### 数值扩展
 
-        import {a as x, modify} from "./a.js"; 引入模块中的变量
+- Number.EPSILON
+- Number.MIN_SAFE_INTEGER
+- Number.MAX_SAFE_INTEGER
+- Number.parseInt()
+- Number.parseFloat()
+- Number.isFinite()
+- Number.isNaN()
+- Number.isInteger()
+- Number.isSafeInteger()
 
-        import * as x from "./a.js" 把模块中所有的变量以类似对象属性的方式引入
+### 对象扩展
 
-        //语法要求不带 as 的默认值永远在最前。注意，这里的变量实际上仍然可以受到原来模块的控制
-        import d, {a as x, modify} from "./a.js"
+- 简洁表示
+- 属性名可使用表达式
+- API
+  - Object.is()
+  - Object.assign()
+  - Object.keys()、Object.values()、Object.entries()
+  - Object.getPrototypeOf()
+  - Object.setPrototypeOf()
+  - Object.getOwnPropertyDescriptors()
+  - Object.entries()
+  - Object.fromEntries()
+- 属性遍历
+  - for-in
+  - Object.keys()、Object.values()
+  - Object.getOwnPropertyNames()
+  - Object.getOwnPropertySymbols()
+  - Reflect.ownKeys()
+    - 规则
+      - 首先遍历所有数值键，按照数值升序排列
+      - 其次遍历所有字符串键，按照加入时间升序排列
+      - 最后遍历所有Symbol键，按照加入时间升序排列
+- 链判断操作符(?.)：是否存在对象属性(不存在返回`undefined`且不再往下执行)
+  - 对象属性：obj?.prop、obj?.[expr]
+  - 函数调用：func?.(...args)
+- 空判断操作符(??)：是否值为 undefined 或 null，是则使用默认值
 
-        import d, * as x from "./a.js"
+### 数组扩展
 
-        // 导入样式
-        import './index.less'
+#### ==扩展运算符(...)==
 
-        // 导入类库
-        import 'lodash'
+- 浅克隆数组(对象)：`const arr = [...arr1]`
+- 浅合并数组(对象)：`const arr = [...arr1, ...arr2]`
+- 拼接数组：`arr.push(...arr1)`
+- 代替 apply：`Math.max.apply(null, [x, y]) => Math.max(...[x, y])`
+- 转换字符串为数组：`[..."hello"]`
+- 转换字符串为对象：`{ ..."hello" }`
+- 转换数组为对象：`{ ...[1, 2] }`
+- 转换类数组为数组：`[...Arguments, ...NodeList]`
+- 转换可遍历对象为数组：`[...String, ...Set, ...Map, ...Generator]`
+- 与数组解构赋值结合：`const [x, ...rest] = [1, 2, 3]`
+- 对象克隆(同Object.assign):`const objCopy = { ...obj, ...objOthers }`
+- 与对象解构赋值结合：`const { x, ...rest } = { x: 1, y: 2, z: 3 }`
+- 修改现有对象部分属性：`const obj = { x: 1, ...{ x: 2 } }`
 
-        //自执行导入
-        import "person"
-        //import会提升
-        //导出去模块内容,如果里面有定时器更改，外面也会改动，不像Common规范有缓存
-        //import()   类似node里面require，可以动态引入，默认import语法不能写在if里面，返回值是个promise(按需加载/动态路径可写if里)
+#### API
 
-        // 当动态import时，返回的是一个promise
-        import('lodash')
-          .then((lodash) => {
-            //...
-          });
+- **Array.from()**
+- Array.isArray
+- Array.of()
+- keys()、values()、entries() 返回遍历器对象，可用`for-of`自动遍历或`next()`手动遍历
+- includes()
+- fill()
+- find()、findIndex()
+- flat()
 
-        // 上面这句实际等同于
-        const lodash = await import('lodash')
+### ==函数扩展==
 
+#### 参数默认值
 
-        //export和import复合写法
-        export { foo, bar } from 'my_module'
+- 指定某个参数不能省略
+  ```javascript
+  const required = () => {
+  	throw new Error('Missing parameter')
+  }
+  const add = (a = required(), b = required()) => a + b
+  ```
 
-        //可以简单理解为
-        import { foo, bar } from 'my_module'
-        export { foo, bar }
+#### rest/spread 剩余参数
 
-        export { es6 as default } from './someModule'
+```javascript
+const sortNumbers = (...numbers) => numbers.sort()
+```
 
-        // 等同于
-        import { es6 } from './someModule'
-        export default es6
-        ```
-    2.  `export`
-        ```javascript
-        // export 1  error
-        // const m = 1; export m;  error
-        //Named exports
-        //also var const
-        export const m = 1
-        export let num1 = 1, num2 = 2
-        const m = 1
-        export {m}
-        export {m as mm};
-        //include function(含async、generator)
-        export function funName(){}
-        export () => {}
-        export class ClassName {}
-        export {a, b, c}
-        export { a as xxx, b as yyy}
-        //class也可以這樣寫,没有名字
-        export default () => {xxx}
+#### 箭头函数
 
-        export const {nama1, name2, name3} = obj
+1. 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若上级是箭头函数继续往上找), 作用域是栈内存不是堆内存
+2. 不能改变this绑定,即使通过call、apply、bind
+3. 不能用作构造函数
+4. 没有原型对象
+5. 没有自己的 super 和 new.target 绑定
+6. 没有 arguments,但有...
+7. 形参名称不能重复
+8. 返回对象时必须在对象外面加上括号
+9. 不可用 yield,因此不能用 Generator 函数
 
-        //export default
-        //default exports
-        //export default const a = 1  error
-        export default expression
-        export default function (…) { … } // also class, function*
-        export default function name1(…) { … } // also class, function*
-        export { name1 as default, … }
+### Symbol
 
-        export function add(a,b) { return a + b; }
-        //这里导出的是值,以后a的变化与导出的值就无关了
-        var a = {}; export {a}
+	- const s = Symbol(str)
+	- Symbol.for()
+	- Symbol.keyFor()
+	- Symbol.toPrimitive
+	- `Symbol值`作为对象属性名时，只能用方括号运算符(`[]`)读取，不能用点运算符(`.`)读取
 
-        //在import语句前无法加入export，但是我们可以直接使用export from语法
-        // Aggregating modules
-        export a from "a.js"
-        export * from xxx
-        export * as name1 from xxx
-        export { name1, name2, …, nameN } from xxx
-        export { import1 as name1, import2 as name2, …, nameN } from xxx
-        export { default } from xxx
-        ```
+### Set
 
-        总结:
-        1. 当用 export default people 导出时,就用 import people 导入(不带大括号)，当用 export name 时,就用 import { name }导入(带大括号)
-        2. 一个文件里,有且只能有一个 export default,但可以有多个 export
-        3. 当一个文件里,既有一个 export default people,又有多个 export name 或者 export age 时,导入就用 import people, { name, age }
-        4. 当一个文件里出现 n 多个 export 导出很多模块,导入时除了一个一个导入,也可以用 import \* as example
+- 去重字符串：`[...new Set(str)].join("")`
+- 去重数组：`[...new Set(arr)]或Array.from(new Set(arr))`
+- 集合数组
+  - 声明：`const a = new Set(arr1)、const b = new Set(arr2)`
+  - 并集：`new Set([...a, ...b])`
+  - 交集：`new Set([...a].filter(v => b.has(v)))`
+  - 差集：`new Set([...a].filter(v => !b.has(v)))`
+- WeakSet
+- 遍历顺序：插入顺序
+- 添加多个`NaN`时，只会存在一个`NaN`
+- 添加相同的对象时，会认为是不同的对象
 
-    3.  和 CommonJS 区别
-        1. 前者支持动态导入，也就是 require(\${path}/xx.js)，后者目前不支持，但是已有提案 import(xxx)
-        2. 前者是同步导入，因为用于服务端，文件都在本地，同步导入即使卡住主线程影响也不大。而后者是异步导入，因为用于浏览器，需要下载文件，如果也采用同步导入会对渲染有很大影响
-        3. 前者在导出时都是值的浅拷贝，就算导出的值变了，导入的值也不会改变，所以如果想更新值，必须重新导入一次。但是后者采用输出值的引用，导入导出的值都指向同一个内存地址，所以导入值会跟随导出值变化
-        4. 后者会编译成 require/exports 来执行的
+### Map
 
-15. 扩展运算符
-    1.  代替 apply `Math.max.apply(null,array); Math.max(...array)`
-    2.  代替数组 push、concat`Array.prototype.push.apply(arr1, arr2); arr1.push(...arr2)`
-    3.  拷贝数组或对象`var array1 = [...array0]; var obj2 = {...obj};`
-    4.  将伪数组转化为数组`console.log([...nodeList]);`
+- 遍历顺序：插入顺序
+- 添加多个以`NaN`作为键时，只会存在一个以`NaN`作为键的值
+- `Object结构`提供`字符串—值`的对应，`Map结构`提供`值—值`的对应
 
-### ES7
+### ==Promise==(见实现)
 
-1. asyn 函数
+### Proxy & Reflect
 
-   await 多个 async 函数
+- 定义：修改某些操作的默认行为
 
-   `await Promise.all([anAsyncCall(), thisIsAlsoAsync(), oneMore()])`
+  ```javascript
+  const user = {
+  	_name: 'Guest',
+  	get name() {
+  		return this._name
+  	},
+  }
+  
+  handler = {
+    //读取未知属性报错、读取数组负数索引的值、封装链式操作、生成DOM嵌套节点
+  	get(target, key, receiver) {
+  		//return target[key]
+      //receiver指向proxy或继承于它的对象
+  		return Reflect.get(target, key, receiver)
+  	},
+    //数据绑定(Vue数据绑定实现原理)、确保属性值设置符合要求、防止内部属性被外部读写
+  	set(target, key, val, receiver) {
+  		return Reflect.set(target, key, val, receiver)
+  	},
+  	//k in obj 隐藏内部属性不被发现、排除不符合属性条件的对象
+  	has() {},
+    //保护内部属性不被删除
+    deleteProperty() {},
+  	//for in  保护内部属性不被遍历
+  	ownKeys() {},
+  	construct() {},
+    //拦截函数
+  	apply() {},
+  }
+  
+  const userProxy = new Proxy(user, handler)
+  
+  let admin = {
+  	__proto__: userProxy,
+  	_name: 'Admin',
+  }
+  
+  console.log(admin.name)
+  ```
 
-   ```javascript
-   async function getData() {
-     const result = await axios.get('https://dube.io/service/ping')
-     const data = result.data
-     console.log('data', data)
-     return data
-   }
-   getData()
-   ```
+### ==Class==
 
-   ```javascript
-   async function fetchData(dataSet) {
-     for (entry of dataSet) {
-       const result = await axios.get(
-         `https://ironhack-pokeapi.herokuapp.com/pokemon/${entry.id}`
-       )
-       const newData = result.data
-       updateData(newData)
-       console.log(myData)
-     }
-   }
-   ```
+> 1 class`声明会提升,但不会初始化赋值,类似`const、let`
+>
+> 2 `class`内部默认严格模式
+>
+> 3 `class`的所有方法(包括静态方法和实例方法)都是不可枚举的
+>
+> 4 `class`的所有方法(包括静态方法和实例方法)都没有原型对象`prototype`
+>
+> 5 必须使用`new`调用`class`
+>
+> 6 `class`内部无法重写类名
 
-   ```javascript
-   import axios from 'axios'
+- constructor
+  - ES5 实质：先创造子类实例的 this,再将父类的属性方法添加到 this 上`Parent.apply(this)`
+  - ES6 实质：先将父类实例的属性方法加到 this 上(调用 super()),再用子类构造函数修改 this
+- extends
 
-   let myData = [{ id: 0 }, { id: 1 }, { id: 2 }, { id: 3 }]
-   async function fetchData(dataSet) {
-     const pokemonPromises = dataSet.map(entry => {
-       return axios.get(
-         `https://ironhack-pokeapi.herokuapp.com/pokemon/${entry.id}`
-       )
-     })
-     const results = await Promise.all(pokemonPromises)
-     results.forEach(result => {
-       updateData(result.data)
-     })
-     console.log(myData)
-   }
-   function updateData(newData) {
-     myData = myData.map(el => {
-       if (el.id === newData.id) return newData
-       return el
-     })
-   }
-   fetchData(myData)
-   ```
+- super
+  - 在普通方法中指向父类的原型对象,在静态方法中指向父类
+- static
 
-2. Decorator 修饰器
-3. 幂运算符
-4. array.includes()
+- ==`class`有两条原型链==
+
+  - Child.\_\_proto\_\_ === Parent //核心目的是实现静态方法继承
+  - Child.prototype.\_\_proto\_\_ === Parent.prototype
+
+- new.target
+
+### ==Module==
+
+- export
+  - 默认导出：`export default Person`(导入时可指定模块任意名称,无需知晓内部真实名称,只能使用一次)
+  - 单独导出：`export const name = "Jack"`
+  - 按需导出：`export { age, name, sex }`(推荐)
+  - 改名导出：`export { name as newName }`
+
+- import
+  - 默认导入：`import anyName from "module1"`
+  - 整体导入：`import * as Person from "module1"`
+  - 按需导入：`import { age, name, sex } from "module1"`
+  - 改名导入：`import { xxx, name as newName} from "module1"`
+  - 自执导入：`import "module1"`
+  - 引入文件：`import "xxxx.js"`
+  - 复合导入：`import anyName, { name } from "module1"`
+
+- 复合模式
+
+- CommonJS（同步） vs ESM（浏览器、服务器）
+
+  - 导出方式不同
+
+    - **具名**导出/导入: `Named Import/Export`
+
+    - **默认**导出/导入: `Default Import/Export`
+
+      ```javascript
+      // Named export/import
+      export { sum }
+      import { sum } from 'sum'
+    
+      // Default export/import
+      export default sum
+      import sum from 'sum'
+    
+      //CommonJS中，导入导出的只有一种
+      module.exports = sum
+    
+      //exports仅仅是module.exports的引用而已
+      //exports = module.exports
+      // 以下两个是等价的
+      exports.a = 3
+      module.exports.a = 3
+      ```
+
+  - **动态依赖与静态依赖（export/import 提升，必须定义在顶层）**：前者建立模块依赖关系是在运行时,后者是在编译时
+
+    - require的模块路径可以动态指定，支持传入一个表达式，甚至可以通过if语句判断是否加载某个模块
+
+      ```javascript
+      // calculator.js
+      module.exports = {
+          name: 'calculator'
+      }
+      // index.js
+      const name = require('./calculator.js').name
+      ```
+
+  - **输出值得拷贝 vs 输出值得引用（read-only）**
+
+    ```javascript
+    //CommonJS
+    // a.js
+    let a = 1
+    let b = { num: 1 }
+    setTimeout(() => {
+    	a = 2
+    	b = { num: 2 }
+    }, 200)
+    module.exports = {
+    	a,
+    	b,
+    }
+
+    // main.js
+    let { a, b } = require('./a')
+    console.log(a, b)
+    setTimeout(() => {
+    	console.log(a, b)
+    }, 500)
+    ```
+
+    ```javascript
+    //ESM
+    // a.mjs
+    let a = 1
+    let b = { num: 1 }
+    setTimeout(() => {
+    	a = 2
+    	b = { num: 2 }
+    }, 200)
+    export { a, b }
+
+    // main.mjs
+    import { a, b } from './a.mjs'
+    console.log(a, b)
+    setTimeout(() => {
+    	console.log(a, b) // 2 { num: 2 }
+    }, 500)
+    ```
+
+    ```javascript
+    //ESM
+    //export {<变量>}这种方式一般称为命名式导出或者具名导出，导出的是一个变量的引用
+    //export default这种方式称为默认导出或者匿名导出，导出的是一个值
+    // a.js
+    let x = 10
+    let y = 20
+    setTimeout(() => {
+    	x = 100
+    	y = 200
+    }, 100)
+    export { x }
+    export default y
+
+    // main.mjs
+    import y, { x } from './a.mjs'
+    setTimeout(() => {
+    	console.log(x, y) // 100,20
+    }, 200)
+    ```
+
+    ```javascript
+    //ESM
+    // a.mjs
+    export let count = 1
+    export function add() {
+      count++
+    }
+    export function get() {
+      return count
+    }
+
+    // main.mjs
+    import { count, add, get } from './a.mjs'
+    console.log(count)  // 1
+    add()
+    console.log(count)  // 2
+    console.log(get())  // 2
+    ```
+
+    ```javascript
+    //CommonJS
+    // a.js
+    let count = 1
+    module.exports = {
+      count,
+      add() {
+        count++
+      },
+      get() {
+        return count
+      },
+    }
+
+    // main.js
+    const { count, add, get } = require('./a')
+    console.log(count)  // 1
+    add()
+    console.log(count)  // 1
+    console.log(get())  // 2
+    ```
+
+  - 都可解决循环依赖
+
+    - CommonJS使用的是**模块缓存**
+      - 对应值得拷贝 -> 开辟新的内存
+
+    - ESM使用的**模块记录**
+
+      ```javascript
+      // CommonJS
+      // main.js
+      const bar = require('./bar.js')
+      console.log('当前是main.js内:', bar) // {}
+      module.exports = '在main.js内'
+    
+      // bar.js
+      const main = require('./main.js')
+      console.log('当前是bar.js内:', main)
+      module.exports = 'bar.js内'
+    
+      // 执行 node ./main.js  ， 输出：
+      当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
+      当前是main.js内: bar.js内
+      ```
+
+      ```javascript
+      // ESM
+      // main.js
+      const bar = require('./bar.js')
+      console.log('当前是main.js内:', bar) // {}
+      module.exports = '在main.js内'
+    
+      // bar.js
+      const main = require('./main.js')
+      console.log('当前是bar.js内:', main)
+      module.exports = 'bar.js内'
+    
+      // 执行 node ./main.js  ， 输出：
+      当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
+      当前是main.js内: bar.js内
+      ```
+
+  - CommonJS的export和module.export指向同一块内存，但由于最后导出的是module.export，所以不能直接给export赋值，会导致指向丢失
+
+  - CommonJS查找模块时，核心模块和文件模块的查找都比较简单，对于react/vue这种第三方模块，会从当前目录下的node_module文件下开始，递归往上查找，找到该包后，根据package.json的main字段找到入口文件
+
+- 加载实现
+  - 传统加载
+    - 同步加载：`<script src=""></script>`
+    - defer 异步加载：`<script src="" defer></script>`(顺序加载,渲染完再执行)
+    - async 异步加载：`<script src="" async></script>`(乱序加载,下载完就执行)
+  - 模块加载：`<script type="module" src=""></script>`(默认是defer加载)
+
+- import()：动态导入
+  - require()同步加载，import()异步加载
+  - 按需加载、条件加载、模块路径动态化

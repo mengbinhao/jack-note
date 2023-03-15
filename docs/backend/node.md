@@ -27,7 +27,7 @@
 
 ### 7. module
 
-      1. 单次加载 (modules/firstmodule.js)
+      1. 单次加载 (modules/firstModule.js)
       2. 导出对象 (modules/hello.js)
       3. 一个文件就是一个模块
       4. 相对`require(./x.js)` ,绝对`require(/x/y/z.js)`,`require(x.js)`  加载核心模块
@@ -44,9 +44,9 @@
 ### 9. build-in module
 
       1. `Global`
-    
+
       2. **Buffer**
-    
+
       1. 专门存储/操作二进制数据流(TPC/图像/文件/网络),js数组不行,数组效率也不行
       2. 直接使用不需要引入
       3. buffer中存储的数据都是二进制,但是显示是16进制
@@ -55,46 +55,46 @@
       6. buffer大小一旦确定,不能修改,实际上是对内存的直接操作
       7. some API
          - `buf.write(string[, offset[, length]][, encoding])`
-    
+
          - `buf.toString([encoding[, start[, end]]])`
-    
+
          - `buf.toJSON()`
-    
+
          - `buf.slice([start[, end]])`
-    
+
          - `buf.copy(target[, targetStart[, sourceStart[, sourceEnd]]])`
-    
+
          - `Buffer.concat(list[, totalLength])`
-    
+
          - `Buffer.isEncoding(encoding)`
-    
+
          - `Buffer.isBuffer(obj)`
-    
+
          - `Buffer.byteLength(string[, encoding])` 字符串长度 / 字节长度
-    
+
       3. **Stream**
         - data/readable/end/close/error
         - pause() / resume()
         - readable / writable / duplex / transform  ---> pipe()
       4. Net
       5. assert
-    
+
       6. **url**
         - `url.parse(urlString[, parseQueryString[, slashesDenoteHost]])`
         - url.format()
         - url.resolve()
-    
+
       7. **path**`join()、resolve()、parse()`
-    
+
       8. crypto
-    
+
       9. **querystring**
         - querystring.stringify({name:'jack',age:33})
         - querystring.parse('name=jack&age=33')
         - querystring.escape('<哈哈>')
         - querystring.unescape('%3C%E5%93%88%E5%93%88%3E')
-    
-      10. Process 
+
+      10. Process
    ```javascript
 // process.js
 const {argv, execPath, env} = process
@@ -128,10 +128,10 @@ console.log(process.cwd())
           ```javascript
           let ws = fs.createWriteStream('xxx')
           ws.once('open', function() {
-       
+
           })
           ws.once('close', function() {
-       
+
           })
           ws.write('xxxxxxxxxxxxxxxx')
           //ws.close()
@@ -157,7 +157,7 @@ console.log(process.cwd())
 
 
       15. **Http**
-    
+
           1. `http.Server`的事件 (request、connection、close)
           2. `http.serverRequest `   `http.IncomingMessage`的一个实例
               - `httpVersion`

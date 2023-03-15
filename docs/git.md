@@ -65,7 +65,7 @@ $ git commit -m 'docs: 更新接口文档'
 
 ```bash
 # create new SSH key
-ssh-keygen -t rsa -C "youremail@example.com"
+ssh-keygen -t rsa -C "mengbinhao2018@gmail.com"
 # copy then goto git to add this rsa
 pbcopy < ~/.ssh/id_rsa.pub
 # Testing your SSH connection
@@ -75,12 +75,12 @@ ls -al ~/.ssh
 
 # --local  对某个仓库有效，缺省值
 # --system 对系统所有登录用户有效
-# --global
+# --global 信息记录在~/.gitconfig文件中
 git config [--global] -l
 # check value
 git config [--global] xxx
-git config [--global] user.name "Your Name"
-git config [--global] user.email "Your email"
+git config --global user.name "JackM"
+git config --global user.email "mengbinhao2018@gmail.com"
 
 # unset
 git config --global --unset user.name
@@ -104,15 +104,12 @@ git status
 # 把当前目录及其子目录下所有变更都加入到暂存区
 git add .
 
-# 把仓库内所有变更都假如到暂存区
-git add -A
-
 git add file1 file2...
 
 # 添加指定目录到暂存区,包括子目录
 git add dir
 
-# 删除工作区文件,并将删除放入暂存区
+# 将文件从仓库索引目录中删掉
 git rm file1 file2...
 
 # rename file
@@ -180,14 +177,28 @@ git branch newBranchName existBranchName
 git branch --set-upstream name origin/name
 
 # 删除本地分支
-git branch -d｜-D branchName
+git branch -d branchName
+
+# 设置本地的branch_name分支对应远程仓库的branch_name分支
+git push --set-upstream origin branch_name
 
 # 删除远程分支
 git push origin --delete branchName
 git branch -dr remote/branch
+# 删除远程仓库的branch_name分支
+git push -d origin branch_name
+
+# 将远程仓库的branch_name分支与本地仓库的当前分支合并
+git pull origin branch_name
+
+# 将远程的branch_name1分支与本地的branch_name2分支对应
+git branch --set-upstream-to=origin/branch_name1 branch_name2
 
 # 删除远端origin已不存在的所有本地分支
 git remote prune origin
+
+# 将远程的branch_name分支拉取到本地
+git checkout -t origin/branch_name
 ```
 
 ### 10. merge
@@ -280,6 +291,14 @@ git blame file
 ### 14. remote sync
 
 ```bash
+# 将本地仓库关联到远程仓库
+git remote add origin git@git.acwing.com:xxx/XXX.git
+
+# 将当前分支推送到远程仓库
+git push -u (第一次需要-u以后不需要)
+# 将本地的某个分支推送到远程仓库
+git push origin branch_name
+
 # 取回远程仓库的变化,并与本地分支合并
 git pull origin branchName
 
@@ -320,10 +339,15 @@ git checkout .
 git checkout commit-SHA file
 
 # 重置暂存区的指定文件,与上一次commit保持一致,但工作区不变
+
 git reset HEAD|fileName|commit
 
 # 重置暂存区和工作区到某个commit，并消除commit记录，慎用！
 git reset --hard [commit-SHA]
+git reset --hard HEAD^
+	git reset --hard HEAD^^：往上回滚两次，以此类推
+	git reset --hard HEAD~100：往上回滚100个版本
+	git reset --hard 版本号：回滚到某一特定版本
 
 # 新建一个commit,用来撤销指定commit，后者的所有变化都将被前者抵消,并且应用到当前分支
 git revert commit-SHA
@@ -401,6 +425,9 @@ git stash pop
 
 # 取回某次 stash 的变更
 git stash pop stash @{数字n}
+
+# 删除栈顶存储的修改
+git stash drop
 
 # 移除相应的stash
 git stash drop xxx

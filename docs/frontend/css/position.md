@@ -326,7 +326,7 @@ clear属性只对块级元素有效，但是::after等伪元素默认都是内�
 #### 5.CSS世界的结界——BFC
 
 ##### 5.1 BFC的定义
-BFC全称`block formatting contex`t，中文为**块级格式化上下文**。BFC的表现原则为：如果一个元素具有BFC，那么它的内部子元素再怎么翻江倒海，都不会影响外部的元素。因此，BFC元素是不可能发生margin重叠的，另外，BFC元素也可以用来清除浮动的影响。
+BFC全称`block formatting context`t，中文为**块级格式化上下文**。BFC的表现原则为：如果一个元素具有BFC，那么它的内部子元素再怎么翻江倒海，都不会影响外部的元素。因此，BFC元素是不可能发生margin重叠的，另外，BFC元素也可以用来清除浮动的影响。
 
 那么满足什么条件才会有BFC呢？只要满足下面任意一个条件就会触发BFC:
 
@@ -366,7 +366,7 @@ p {
 ![](../images/position-10.png)
 
 
-**利用BFC能消除margin重叠，谨记：只有当元素在同一个BFC中时，垂直方向上的margin才会clollpase**。如果它们属于不同的BFC，则不会有margin重叠。因此我们可以再建立一个BFC去阻止margin重叠的发生。所以为了让他们的margin变成20px，我们只需要用div,建立一个BFC，令p元素处于不同BFC即可。请看例子：
+**利用BFC能消除margin重叠，谨记：只有当元素在同一个BFC中时，垂直方向上的margin才会collapse**。如果它们属于不同的BFC，则不会有margin重叠。因此我们可以再建立一个BFC去阻止margin重叠的发生。所以为了让他们的margin变成20px，我们只需要用div,建立一个BFC，令p元素处于不同BFC即可。请看例子：
 
 ```html
 <div class="parent">
@@ -621,7 +621,7 @@ document.getElementById("aa").style.display = "block"
 ```
 此时，元素水平方向相对特性丢失，具有了绝对定位特性，而垂直方向的定位依然保持了相对特性。
 
-以上面的这个例子举例，当只有left或者right属性的时候，由于包裹性，此时div的宽度是0。但是，如果同时设置`left:0;right:0`的时候，宽度表现为"格式化宽度"，宽度自适应于.box包含快的content-box，换句话说，如果包含快的conent-box宽度发生变化，则`.box`的宽度也会跟着一起变。举个例子：
+以上面的这个例子举例，当只有left或者right属性的时候，由于包裹性，此时div的宽度是0。但是，如果同时设置`left:0;right:0`的时候，宽度表现为"格式化宽度"，宽度自适应于.box包含快的content-box，换句话说，如果包含快的content-box宽度发生变化，则`.box`的宽度也会跟着一起变。举个例子：
 
 ```
 <div class='box'></div>
@@ -670,7 +670,7 @@ document.getElementById("aa").style.display = "block"
     background-size: contain;
 }
 ```
-本例中，利用:before伪元素，在其前面插入一个空格（2002）,然后设置text-aligin: right，则空格对齐主结构的右侧边缘，后面的固定定位元素（同绝对定位元素）由于"无依赖定位"特性，左边缘正好就是主结构的右边缘，自然就跑到主结构的外面显示了,这种布局在实际开发中用处非常大.
+本例中，利用:before伪元素，在其前面插入一个空格（2002）,然后设置text-align: right，则空格对齐主结构的右侧边缘，后面的固定定位元素（同绝对定位元素）由于"无依赖定位"特性，左边缘正好就是主结构的右边缘，自然就跑到主结构的外面显示了,这种布局在实际开发中用处非常大.
 
 #### 2.absolute与clip
 在实际开发过程中，很多时候我们为了更好的SEO和无障碍识别，都会将页面中的一些元素隐藏，例如隐藏下面代码中的本网站名字这几个字：

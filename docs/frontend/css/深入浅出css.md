@@ -69,7 +69,7 @@
     display:flex;
     justify-content: center
     align-items: center;
-
+    
     //或者子DIV
     margin: auto;
     width: 定宽;
@@ -186,7 +186,7 @@
 以前布局
 - normal flow
 - float + clear
-- position reletive + absolute
+- position relative + absolute
 - display inline-block
 - 负margin
 
@@ -209,14 +209,14 @@
 - 尽量用高级语法，如 calc、flex
 - 如果是 IE，就全部写死
 
-#### 口诀
+#### ==口诀==
 
 1. float
     - 儿子全加 float
     - 老子加 .clearfix
 2. flex
     - 老子加 display: flex
-    - 老子加 justify-content: space-between;
+    - 老子加 justify-content: space-between
 
 如果宽度不够，可以用 margin: 0 -4px;
 
@@ -346,7 +346,7 @@ example:
 
 - left top right bottom width height 默认值为auto
 - margin padding 默认值 0
-- boder-width 如果不存在border-style
+- border-width 如果不存在border-style
 
 ### 属性是否可继承
 

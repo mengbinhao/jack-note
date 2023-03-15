@@ -82,13 +82,13 @@ app.listen(3333, ()=>{
     const convert = require('koa-convert')
     const loggerGenerator  = require('./middleware/logger-generator')
     const app = new Koa()
-    
+
     app.use(convert(loggerGenerator()))
-    
+
     app.use(( ctx ) => {
         ctx.body = 'hello world!'
     })
-    
+
     app.listen(3000)
     console.log('the server is starting at port 3000')
     ```
@@ -100,7 +100,7 @@ app.listen(3333, ()=>{
     function log( ctx ) {
         console.log( ctx.method, ctx.header.host + ctx.url )
     }
-    
+
     module.exports = function () {
       return async function ( ctx, next ) {
         log(ctx);
@@ -114,13 +114,13 @@ app.listen(3333, ()=>{
     const Koa = require('koa') // koa v2
     const loggerAsync  = require('./middleware/logger-async')
     const app = new Koa()
-    
+
     app.use(loggerAsync())
-    
+
     app.use(( ctx ) => {
         ctx.body = 'hello world!'
     })
-    
+
     app.listen(3000)
     console.log('middleware demo is running at port 3000')
     ```
@@ -188,17 +188,17 @@ router.all('/', async (ctx, next) => {
 
 ```javascript
 router.get('user', '/users/:id', function (ctx, next) {
-  // ... 
+  // ...
 });
 
 router.url('user', 3);
-// => 生成路由 "/users/3" 
- 
+// => 生成路由 "/users/3"
+
 router.url('user', { id: 3 });
-// => 生成路由 "/users/3" 
- 
+// => 生成路由 "/users/3"
+
 router.use(function (ctx, next) {
-  // 重定向到路由名称为 “sign-in” 的页面 
+  // 重定向到路由名称为 “sign-in” 的页面
   ctx.redirect(ctx.router.url('sign-in'));
 })
 ```
@@ -228,11 +228,11 @@ router.get(
 ```javascript
 var forums = new Router();
 var posts = new Router();
- 
+
 posts.get('/', function (ctx, next) {...});
 posts.get('/:pid', function (ctx, next) {...});
 forums.use('/forums/:fid/posts', posts.routes(), posts.allowedMethods());
- 
+
 // 可以匹配到的路由为 "/forums/123/posts" 或者 "/forums/123/posts/123"
 app.use(forums.routes());
 ```
@@ -243,9 +243,9 @@ app.use(forums.routes());
 var router = new Router({
   prefix: '/users'
 });
- 
-router.get('/', ...); // 匹配路由 "/users" 
-router.get('/:id', ...); // 匹配路由 "/users/:id" 
+
+router.get('/', ...); // 匹配路由 "/users"
+router.get('/:id', ...); // 匹配路由 "/users/:id"
 ```
 
 #### URL 参数
@@ -253,7 +253,7 @@ router.get('/:id', ...); // 匹配路由 "/users/:id"
 ```javascript
 router.get('/:category/:title', function (ctx, next) {
   console.log(ctx.params);
-  // => { category: 'programming', title: 'how-to-node' } 
+  // => { category: 'programming', title: 'how-to-node' }
 });
 ```
 
@@ -332,12 +332,12 @@ app.use( async ( ctx ) => {
 function parsePostData( ctx ) {
   return new Promise((resolve, reject) => {
     try {
-      let postdata = "";
+      let postData = "";
       ctx.req.addListener('data', (data) => {
-        postdata += data
+        postData += data
       })
       ctx.req.addListener("end",function(){
-        let parseData = parseQueryStr( postdata )
+        let parseData = parseQueryStr( postData )
         resolve( parseData )
       })
     } catch ( err ) {
@@ -543,7 +543,7 @@ function dir ( url, reqPath ) {
 
   let html = `<ul>`
   for ( let [ index, item ] of contentList.entries() ) {
-    html = `${html}<li><a href="${url === '/' ? '' : url}/${item}">${item}</a>` 
+    html = `${html}<li><a href="${url === '/' ? '' : url}/${item}">${item}</a>`
   }
   html = `${html}</ul>`
 
@@ -560,7 +560,7 @@ const fs = require('fs')
 /**
  * 读取文件方法
  * @param  {string} 文件本地的绝对路径
- * @return {string|binary} 
+ * @return {string|binary}
  */
 function file ( filePath ) {
 
@@ -678,7 +678,7 @@ app.use( async ( ctx ) => {
 
   if ( ctx.url === '/index' ) {
     ctx.cookies.set(
-      'cid', 
+      'cid',
       'hello world',
       {
         domain: 'localhost',  // 写cookie所在的域名
@@ -691,7 +691,7 @@ app.use( async ( ctx ) => {
     )
     ctx.body = 'cookie is ok'
   } else {
-    ctx.body = 'hello world' 
+    ctx.body = 'hello world'
   }
 
 })
@@ -804,7 +804,7 @@ app.use(views(path.join(__dirname, './view'), {
 }))
 
 app.use( async ( ctx ) => {
-  let title = 'hello koa2 templeta engine'
+  let title = 'hello koa2 template engine'
   await ctx.render('index', {
     title
   })
@@ -847,13 +847,13 @@ app.use(nunjucks({
 
 - filter ` {{ foo | title }}   {{ foo | join(",") }}   {{ foo | replace("foo", "bar") | capitalize }}`
 
-- if 
+- if
 
     ```
     {% if variable %}
       It is true
     {% endif %}
-    
+
     {% if hungry %}
       I am hungry
     {% elif tired %}
@@ -877,7 +877,7 @@ app.use(nunjucks({
     </ul>
     ```
 
-- `macro` 
+- `macro`
 
     ```
     {% macro field(name, value='', type='text') %}
@@ -886,7 +886,7 @@ app.use(nunjucks({
       value="{{ value | escape }}" />
     </div>
     {% endmacro %}
-    
+
     {{ field('user') }}
     {{ field('pass', type='password') }}
     ```
@@ -900,20 +900,20 @@ app.use(nunjucks({
           {% block head %}
           <link rel="stylesheet">
           {% endblock %}
-        </head>  
+        </head>
         <body>
           {% block header %}
           <h1>this is header</h1>
           {% endblock %}
-    
+
           {% block body %}
           <h1>this is body</h1>
           {% endblock %}
-    
+
           {% block footer %}
-          <h1>this is footer</h1>  
+          <h1>this is footer</h1>
           {% endblock %}
-    
+
           {% block content %}
           <script>
             //this is place for javascript
@@ -926,15 +926,15 @@ app.use(nunjucks({
     ```
     //home.html
     {% extends 'layout.html' %}
-    
+
     {% block head %}
     <link href="home.css">
     {% endblock %}
-    
+
     {% block body %}
     <h1>home 页面内容</h1>
     {% endblock %}
-    
+
     {% block content %}
     <script src="home.js"></script>
     {% endblock%}
@@ -945,14 +945,14 @@ app.use(nunjucks({
      <html>
         <head>
           <link href="home.css">
-        </head>  
+        </head>
         <body>
           <h1>this is header</h1>
-    
+
           <h1>home 页面内容</h1>
-    
-          <h1>this is footer</h1>  
-    
+
+          <h1>this is footer</h1>
+
           <script src="home.js"></script>
         </body>
       </html>
@@ -964,7 +964,7 @@ app.use(nunjucks({
 
 ```javascript
 //npm i busboy用来解析POST请求，node原生req中的文件流
-const inspect = require('util').inspect 
+const inspect = require('util').inspect
 const path = require('path')
 const fs = require('fs')
 const Busboy = require('busboy')
@@ -1047,7 +1047,7 @@ function getSuffixName( fileName ) {
  * 上传文件
  * @param  {object} ctx     koa上下文
  * @param  {object} options 文件上传参数 fileType文件类型， path文件存放路径
- * @return {promise}         
+ * @return {promise}
  */
 function uploadFile( ctx, options) {
   let req = ctx.req
@@ -1061,7 +1061,7 @@ function uploadFile( ctx, options) {
 
   return new Promise((resolve, reject) => {
     console.log('文件上传中...')
-    let result = { 
+    let result = {
       success: false,
       formData: {},
     }
@@ -1106,7 +1106,7 @@ function uploadFile( ctx, options) {
     req.pipe(busboy)
   })
 
-} 
+}
 
 
 module.exports =  {
@@ -1259,7 +1259,7 @@ function getSuffixName( fileName ) {
  * 上传文件
  * @param  {object} ctx     koa上下文
  * @param  {object} options 文件上传参数 fileType文件类型， path文件存放路径
- * @return {promise}         
+ * @return {promise}
  */
 function uploadFile( ctx, options) {
   let req = ctx.req
@@ -1273,7 +1273,7 @@ function uploadFile( ctx, options) {
 
   return new Promise((resolve, reject) => {
     console.log('文件上传中...')
-    let result = { 
+    let result = {
       success: false,
       message: '',
       data: null
@@ -1315,7 +1315,7 @@ function uploadFile( ctx, options) {
     req.pipe(busboy)
   })
 
-} 
+}
 
 module.exports =  {
   uploadFile
@@ -1384,13 +1384,13 @@ function requestEvent( options ) {
 
       if ( xhr.readyState === 4 && xhr.status === 200 ) {
         options.success(JSON.parse(xhr.responseText))
-      } 
+      }
     }
 
     xhr.upload.onprogress = function(evt) {
       let loaded = evt.loaded
       let tot = evt.total
-      let per = Math.floor(100 * loaded / tot) 
+      let per = Math.floor(100 * loaded / tot)
       options.progress(per)
     }
     xhr.open('post', '/api/picture/upload.json')
@@ -1402,7 +1402,7 @@ function requestEvent( options ) {
 
 /**
  * 上传事件
- * @param  {object} options 上传参数      
+ * @param  {object} options 上传参数
  */
 function uploadEvent ( options ){
   let file
@@ -1421,14 +1421,14 @@ function uploadEvent ( options ){
       success: options.success,
       fail: options.fail,
       progress: options.progress
-    })  
+    })
   }
 
 }
 
 /**
  * 上传操作
- * @param  {object} options 上传参数     
+ * @param  {object} options 上传参数
  */
 function uploadAction( options ) {
   if ( !UtilType.isJSON( options ) ) {
@@ -1455,19 +1455,19 @@ function uploadAction( options ) {
 //npm i mysql
 const mysql = require('mysql')
 const connection = mysql.createConnection({
-  host     : '127.0.0.1', 
+  host     : '127.0.0.1',
   user     : 'root',
   password : 'root',
   database : 'test'
 })
 
-// 执行sql脚本对数据库进行读写 
+// 执行sql脚本对数据库进行读写
 connection.query('SELECT * FROM my_table',  (error, results, fields) => {
   if (error) throw error
-  // connected! 
+  // connected!
 
   // 结束会话
-  connection.release() 
+  connection.release()
 });
 ```
 
@@ -1604,7 +1604,7 @@ function getSqlContent( fileName,  path ) {
 
 /**
  * 封装所有sql文件脚本内容
- * @return {object} 
+ * @return {object}
  */
 function getSqlContentMap () {
   let sqlMap = getSqlMap()
@@ -1625,7 +1625,7 @@ const walkFile = require('./walk-file')
 
 /**
  * 获取sql目录下的文件目录数据
- * @return {object} 
+ * @return {object}
  */
 function getSqlMap () {
   let basePath = __dirname
@@ -1705,7 +1705,7 @@ const createAllTables = async () => {
         if ( result.serverStatus * 1 === 2 ) {
           eventLog( null,  key, i)
         } else {
-          eventLog( true,  key, i) 
+          eventLog( true,  key, i)
         }
       }
     }
@@ -1871,7 +1871,7 @@ const server = async ( ctx, next ) => {
     data: null
   }
 
-  if ( ctx.method === 'GET' ) { 
+  if ( ctx.method === 'GET' ) {
     if ( ctx.url === '/getString.json' ) {
       result.data = 'this is string data'
     } else if ( ctx.url === '/getNumber.json' ) {
@@ -1949,7 +1949,7 @@ module.exports = ( options ) => {
     log4js.configure({
       appenders: { cheese: { type: 'file', filename: 'cheese.log' } },
       categories: { default: { appenders: ['cheese'], level: 'info' } }
-    }); 
+    });
     const logger = log4js.getLogger('cheese');
     await next()
     const end = Date.now()
@@ -1970,10 +1970,10 @@ module.exports = () => {
   log4js.configure({
     appenders: { cheese: { type: 'file', filename: 'cheese.log' } },
     categories: { default: { appenders: ['cheese'], level: 'info' } }
-  }); 
- 
+  });
+
   const logger = log4js.getLogger('cheese');
-  
+
   return async (ctx, next) => {
   	 // 记录请求开始的时间
     const start = Date.now()

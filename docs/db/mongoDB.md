@@ -122,7 +122,7 @@ sc.exe create MongoDB binPath= "\"mongod的bin目录\mongod.exe\" --service --co
 
 3. update
 
-    - update `db.collecion.update(query, update[, options] )`
+    - update `db.collection.update(query, update[, options] )`
 
         - query : 必选，查询条件，类似find中的查询条件。
         - update : 必选，update的对象和一些更新的操作符（如$,$inc...）等
@@ -138,7 +138,7 @@ sc.exe create MongoDB binPath= "\"mongod的bin目录\mongod.exe\" --service --co
     ```
     //如果集合中已经存在一个_id为123的文档，则更新对应字段;否则插入
     //如果更新对象不存在_id，系统会自动生成并作为新的文档插入
-    db.article.save({_id: 123, title: "mongodb"}) 
+    db.article.save({_id: 123, title: "mongodb"})
     ```
     - 更新操作符
         - 更新特定字段（$set）

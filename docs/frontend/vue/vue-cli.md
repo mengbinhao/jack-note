@@ -24,7 +24,7 @@ serve -s dist
 ```javascript
 //webpack.prod.config.js
 output: {
-    publickPath: 'xxx'
+    publicPath: 'xxx'
 }
 //修改dist为打包文件夹名
 //copy到tomcat下
@@ -55,14 +55,14 @@ module.exports = {
            .set('@', resolve('src'))
            .set('assets', resolve('src/assets'))
            .set('components', resolve('src/components'))
-         
+
         // 修改静态资源打包方式，下例为超过10k才用文件导入的方式，否则为base64.默认为4k
         // config.module
         //    .rule('images')
         //    .use('url-loader')
         //    .loader('url-loader')
         //    .tap(options => Object.assign(options, { limit: 10240 }))
-    }  
+    }
   },
   // webpack自定义配置
   configureWebpack: config => {
@@ -152,7 +152,7 @@ module.exports = {
         preProcessor: 'stylus',,
         'patterns': [
             //注意：试过不能使用别名路径
-            path.resolve(__dirname, 'src/styles/abstracts/*.styl'),
+            path.resolve(__dirname, 'src/styles/abstracts/*.style'),
        ]
      }
   }

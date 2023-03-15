@@ -16,10 +16,10 @@ same as less, but more powerful than less
 `sass --update inFolder:outFolder`
 
 `.scss`和`.sass`两种后缀,`.sass`没分号与大括号
-### grammer
+### grammar
 
 #### variable
-##### variable grammer
+##### variable grammar
 ```scss
 $highlight-color: #F90;
 $basic-border: 1px solid black;

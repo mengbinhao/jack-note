@@ -1,97 +1,65 @@
-### Shell
+### 1 概论
 ![](./images/learn-20.png)
-Shell 是一个命令行解释器,它为用户提供了一个向 Linux 内核发送请求以便运行程序的界面系统级程序,用户可以用 Shell 来启动、挂起、停止甚至是编写一些程序
+shell是我们通过命令行与操作系统沟通的语言
 
-- `cat /etc/shells`
-- `echo $SHELL`
+shell脚本可以直接在命令行中执行，也可以将一套逻辑组织成一个文件，方便复用
 
-### Type
-- Bourne Shell（/usr/bin/sh或/bin/sh）
+Linux中常见的shell脚本有很多种，常见的有：
+
+- Bourne Shell（/usr/bin/sh or /bin/sh）
+
 - Bourne Again Shell（/bin/bash）
+
 - C Shell（/usr/bin/csh）
+
 - K Shell（/usr/bin/ksh）
-- Shell for Root（/sbin/sh）
 
-  > 在一般情况下，并不区分Bourne Shell和Bourne Again Shell，所以像#!/bin/sh，它同样也可以改为#!/bin/bash
+- zsh
 
-### 执行方式
+- ...
 
-1. `bash ./xxx.sh``  执行时开启一个子进程，执行完退出，不对当前Shell生效，不需要x权限
-2. `./xxx.sh`  执行时开启一个子进程，执行完退出，不对当前Shell生效，需要x权限，使用系统默认shell执行，然后里面根据脚本里的sha-bang解释器解释
-3. `source ./xxx.sh  ` 对当前Shell生效
-4. `. ./xxx.sh ` 对当前Shell生效
+  > 在一般情况下，并不区分Bourne Shell和Bourne Again Shell，所以像#!/bin/sh，可以改为#!/bin/bash
 
-**运行时一定要写成./test.sh，因为直接写test.sh，linux会去PATH里寻找，而一般只有/bin,/sbin,/usr/bin,/usr/sbin等在PATH中，所以使用./test.sh告诉系统，就在本目录下找**
+### 2 运行方式
 
-### 内建命令和外部命令的区别
+- 作为可执行文件
+
+  ```bash
+  acs@9e0ebfcd82d7:~$ chmod +x test.sh  # 使脚本具有可执行权限
+  acs@9e0ebfcd82d7:~$ ./test.sh  # 当前路径下执行
+  acs@9e0ebfcd82d7:~$ /home/acs/test.sh  # 绝对路径下执行
+  acs@9e0ebfcd82d7:~$ ~/test.sh  # 家目录路径下执行
+  ```
+
+  > 运行时一定要写成./test.sh，因为直接写test.sh，Linux会去PATH里寻找，而一般只有/bin,/sbin,/usr/bin,/usr/sbin等在PATH中，所以使用./test.sh告诉系统，就在本目录下找
+
+- 解释器执行
+
+  ```bash
+  acs@9e0ebfcd82d7:~$ bash test.sh
+  ```
+
+### 3 注释
+
+- 单行注释 每行中#之后的内容均是注释
+
+- 多行注释
+
+  ```bash
+  # 其中EOF可以换成其它任意字符串
+  :<<EOF
+  第一行注释
+  第二行注释
+  第三行注释
+  EOF
+  ```
+
+### 4 内建命令和外部命令
 
 - 内建命令不需要创建子进程
 - 内建命令对当前Shell生效
 
-### 管道和重定向
-
-#### 管道
-
-- 将前一个命令的结果传递给后面的命令
-- `car xxx | more`
-- `cat | ps -f`
-- 其为前后两个命令建立两个子进程，内部命令的结果不会传递给子Shell，因此使用管道的时候规避使用内建命令
-
-#### 重定向
-
-- 一个进程默认会打开标准输入、标准输出、错误输出3个文件描述符
-- <
-  - `read var < file`
-
-- \>、\>\>、2\>、&\>
-  - `echo 123 > file`
-- `cat > file << EOF`
-
-### Shell特殊字符
-
-#### {}
-
-```bash
-mkdir {0..9}
-echo {0..9}
-```
-
-#### 通配符
-
-- *代表多个字母或数字
-- ?代表一个字母或数字
-`ls a* ls a? ls f080[1-6].tif`
-
-#### 转义字符\
-
-`ls /mnt/win1/My\Documents`
-
-#### 单引号：不处理任何变量和命令
-
-`echo 'Welcome $NAME, the date is date'`
-
-#### 双引号：处理变量但不处理命令
-
-`echo "Welcome $NAME, the date is date"`
-
-#### 反引号：把引号中的每个单词作为一个命令,如果是变量则先求值然后作为一个命令处理
-
-```bash
-NAME=pwd
-echo "Welcome `$NAME`, the date is `date`"
-```
-
-### 注释
-```bash
-# 单行
-# 多行
-:<<!
-e21e1e1
-13213131
-!
-```
-### 变量(系统变量、用户变量)
-
+### 5 变量
 
 #### 变量命名规则
 
@@ -103,13 +71,28 @@ e21e1e1
 
 
 ```bash
-# 不允许使用空格，默认都是字符串类型
-echo "PATH=$PATH"
-A=100
-echo "A=$A"
-# 删除
-unset A
-echo "A=$A"
+# 定义变量
+name1='yxc'  # 单引号定义字符串
+name2="yxc"  # 双引号定义字符串
+name3=yxc    # 也可以不加引号，同样表示字符串
+
+# 使用变量
+name=yxc
+echo $name  # 输出yxc
+echo ${name}  # 输出yxc
+echo ${name}acwing  # 输出yxcacwing
+
+# 只读变量
+name=yxc
+readonly name
+declare -r name  # 两种写法均可
+name=abc  # 会报错，因为此时name只读
+
+# 删除变量
+name=yxc
+unset name
+echo $name  # 输出空行
+
 # 静态变量不能unset
 readonly B=99
 # 命令结果赋值
@@ -117,56 +100,104 @@ C = `ls -al`
 D = $(ls -al)
 ```
 
-####系统变量 
+#### 变量类型
 
-- \$HOME、\$PATH、\$PWD、\$USER、\$SHELL、\$PS1
-- set or env
+ - 自定义变量（局部变量，子进程不能访问的变量 ）
 
-#### 查看变量
+ - 环境变量（全局变量，子进程可以访问的变量）
 
-```bash
-# 查看变量 部分情况下可省略{}
-echo ${NAME}
-```
+    - `$HOME、$PATH、$PWD、$USER、$SHELL、\$PS1`
 
-#### 变量作用范围
+ - 自定义变量改成环境变量
 
-- 默认作用范围
-- 使用source执行xxx.sh的时候子进程可以获取父进程的变量
-- `export xxxx` # 子进程可以获取父进程变量,临时加入一个系统路径
-- `source xxx`  使生效
+   ```bash
+   acs@9e0ebfcd82d7:~$ name=yxc  # 定义变量
+   acs@9e0ebfcd82d7:~$ export name  # 第一种方法
+   acs@9e0ebfcd82d7:~$ declare -x name  # 第二种方法
+   ```
+
+- 环境变量改为自定义变量
+
+  ```bash
+  acs@9e0ebfcd82d7:~$ export name=yxc  # 定义环境变量
+  acs@9e0ebfcd82d7:~$ declare +x name  # 改为自定义变量
+  ```
+
+#### 字符串
+
+字符串可以用单引号，也可以用双引号，也可以不用引号
+
+- 单引号与双引号的区别
+   - 单引号中的内容会原样输出，不会执行、不会取变量
+
+   - 双引号中的内容可以执行、可以取变量
+
+     ```bash
+     name=yxc  # 不用引号
+     echo 'hello, $name \"hh\"'  # 单引号字符串，输出 hello, $name \"hh\"
+     echo "hello, $name \"hh\""  # 双引号字符串，输出 hello, yxc "hh"
+     ```
+
+- 获取字符串长度
+
+  ```bash
+  name="yxc"
+  echo ${#name}  # 输出3
+  ```
+
+- 提取子串
+
+  ```bash
+  name="hello, yxc"
+  echo ${name:0:5}  # 提取从0开始的5个字符
+  ```
 
 #### 预定义变量
 
-- \$$  当前进程PID
-- \$!  后台运行的最后进程号
-- \$?  最后一次执行命令的返回状态,0正确,非0执行不正确
-- \$0 执行的环境
+ - 文件参数变量（在执行shell脚本时，可以向脚本传递参数。$1是第一个参数，$2是第二个参数，10以上大括号包含\${10}，以此类推。特殊的，$0是文件名包含路径
 
-#### 位置参数变量
+   创建文件test.sh：
 
-- \$n  n为数字 $0命令本身 \$1-\$9, 十以上大括号包含\${10}
-- \$*  所有参数
-- \$@  所有参数,用于遍历
-- \$#  参数个数
+   ```bash
+   #! /bin/bash
+   
+   echo "文件名："$0
+   echo "第一个参数："$1
+   echo "第二个参数："$2
+   echo "第三个参数："$3
+   echo "第四个参数："$4
+   ```
 
-```bash
-echo "$0 $1 $2"
-echo "$*"
-echo "$@"
-echo "$#"
+   然后执行该脚本：
 
-# 当传值使用，当空赋值为_
-pos=${2-_}
-```
+   ```bash
+   acs@9e0ebfcd82d7:~$ chmod +x test.sh 
+   acs@9e0ebfcd82d7:~$ ./test.sh 1 2 3 4
+   文件名：./test.sh
+   第一个参数：1
+   第二个参数：2
+   第三个参数：3
+   第四个参数：4
+   ```
 
-#### 环境变量配置文件(数字代表加载顺序，第二列数字是nologin加载顺序)
+ - 其它参数相关变量
 
-- /etc/profile          1
-- /etc/profile.d/
-- ~/.bash_profile   2 
-- ~/.bashrc            3        1
-- /etc/bashrc         4        2
+   | 参数              | 说明                                                         |
+   | ----------------- | ------------------------------------------------------------ |
+   | `$#`              | 代表文件传入的参数个数，如上例中值为4                        |
+   | `$*`              | 由所有参数构成的用空格隔开的字符串，如上例中值为"$1 $2 $3 $4" |
+   | `$@`              | 每个参数分别用双引号括起来的字符串，如上例中值为"$1" "$2" "$3" "$4" |
+   | `$$`              | 当前进程PID                                                  |
+   | `$?`              | 上一条命令的退出状态（注意不是stdout，而是exit code）。0表示正常退出，其他值表示错误 |
+   | `$(command) 	` | 返回command这条命令的stdout（可嵌套）                        |
+   | \`command\`       | 返回command这条命令的stdout（不可嵌套）                      |
+
+- 环境变量配置文件(数字代表加载顺序，第二列数字是nologin加载顺序)
+  - /etc/profile          1
+  - /etc/profile.d/
+  - ~/.bash_profile   2 
+  - ~/.bashrc            3        1
+  - /etc/bashrc         4        2
 
 > etc下面代表所有用户通用配置
 >
@@ -174,25 +205,42 @@ pos=${2-_}
 >
 > su - root  带减号login shell
 
-### 数组
-- 定义
-`array_name=( value0 value1 value2 value3 )` # 使用空格分隔元素
+### 6 shell特殊字符
 
-​      `array_name[0]=value0 / array_name[1]=value1 `# 下标可以不连续
-- 读取
-  - 单个读取：${array_name[index]}
-  - 全部读取：${array_name[@]}
-- 获取长度：
-  - 数组长度：length=\${#array_name[@]}
-  - 单个元素长度：lengthn=${#array_name[n]}
+- `{}`
 
-### 运算符
+```bash
+mkdir {0..9}
+echo {0..9}
+```
+
+- 通配符
+
+  - `*`代表多个字母或数字
+  - `?`代表一个字母或数字 `ls a* ls a? ls f080[1-6].tif`
+
+- 转义字符`\`   `ls /mnt/win1/My\Documents`
+
+- 单引号：不处理任何变量和命令 `echo 'Welcome $NAME, the date is date'`
+
+- 双引号：处理变量但不处理命令 `echo "Welcome $NAME, the date is date"`
+
+- 反引号：把引号中的每个单词作为一个命令,如果是变量则先求值然后作为一个命令处理
+
+  ```bash
+  NAME=pwd
+  echo "Welcome `$NAME`, the date is `date`"
+  ```
+
+### 7 运算符
+
 - \$((运算式)) or $[运算式]
 - expr m + n (+、-、*、/、**、%)   # expr运算符间要有空格
+
 ```bash
 # 双圆括号是let命令简化
 RESULT1=$(((2+3)×4))
-# 推荐推荐推荐
+# 推荐
 RESULT2=$[(2+3)×4]
 
 TEMP=`expr 2 + 3`
@@ -201,217 +249,884 @@ RESULT3=`expr $TEMP \* 4`
 SUM=$[$1+$2]
 ```
 
-### test利用程序是否正常退出返回0或1
-**Shell里0表示True 非0表示false**
+### 8 数组
 
-- 文件测试
-
-  - 按照文件权限(-r可读权限 -w可写权限 -x执行权限)
-  - 按照文件类型(-f存在并是常规文件 -e文件存在 -d存在并是目录)
-
-- 整数比较测试(-lt -le -eq -gt -ge -ne)
-
-- 字符串测试
-
-  > 多条件判断(&& 表示前一条命令执行成功时,才执行后一条命令,|| 表示上一条命令执行失败后,才执行下一条命令)
+数组中可以存放多个不同类型的值，只支持一维数组，初始化时不需要指明数组大小。
+数组下标从0开始
 
 ```bash
-# 一般中括号可以用test替换test $num = $num2
-# 两个中括号才能使用<>
-[ $var -eq 0 ]
-# 文件是否存在
-[ -e $var ]
-# 是否是目录
-[ -d $var ]
-# 两个字符串是否相同
-[[ $var1 = $var2 ]]
+# 数组用小括号表示，元素之间用空格隔开
+array=(1 abc "def" yxc)
 
--a/-o：and/or
--e : exist
--r : 是否可读
--w : 是否可写
--n ：判断字符串长度是否非0
--z ：判断字符串长度是否为0
-$ :判断字符串是否非空
+# 也可以直接定义数组中某个元素的值
+array[0]=1
+array[1]=abc
+array[2]="def"
+array[100]=yxc
+
+# 读取数组中某个元素的值
+echo ${array[index]}
+
+# 读取整个数组
+echo ${array[@]}  # 第一种写法
+echo ${array[*]}  # 第二种写法
+
+# 数组长度
+${#array[@]}  # 第一种写法
+${#array[*]}  # 第二种写法
 ```
 
-### 流程控制
-#### if
-```bash
-# if后要有空格
-# [ 条件判断式 ]中括号和条件判断式之间必须有空格
-# 条件非空即为true,[ atguigu ]返回true,[] 返回false
-if [ "ok" = "ok" ]  
-then
-    echo "equal"
-fi
+### 9 expr命令
 
-if [ 23 -gt 22 ]
-then
-    echo "dayu"
-fi
+- expr 表达式
+  - 用空格隔开每一项
+  - 用反斜杠放在shell特定的字符前面（发现表达式运行错误时，可以试试转义）
+  - 对包含空格和其他特殊字符的字符串要用引号括起来
+  - expr会在stdout中输出结果。如果为逻辑关系表达式，则结果为真，stdout为1，否则为0
+  - expr的exit code：如果为逻辑关系表达式，则结果为真，exit code为0，否则为1
 
-if [ -e /root/shell/aaa.txt ]
-then
-    echo "existing"
-fi
+- 字符串表达式
 
-if [ $1 -ge 60 ]
-then
-    echo "xxx"
-else [ $1 -lt 60 ]
-    echo "yyy"
-fi
+  - `length STRING`
 
-if [ $1 -ge 60 ]
-then
-    echo "xxx"
-elif [ $1 -lt 60 ]
-then
-    echo "yyy"
-else
-		echo "zzz"
-fi
-```
-#### case
-```bash
-case "$1" in
-  "a")
-      echo "a"
-  ;;
-  "b")
-      echo "b"
-  ;;
-  *)
-      echo "other"
-  ;;
-esac
-```
-1. case行尾必须为单词“in”,每一个模式匹配必须以右括号“）”结束
-2. 双分号“;;”表示命令序列结束,相当于java中的break
-3. 最后的“*）”表示默认模式,相当于java中的default
+  - `index STRING CHARSET` CHARSET中任意单个字符在STRING中最前面的字符位置，下标从1开始。如果在STRING中完全不存在CHARSET中的字符，则返回0
 
+  - `substr STRING POSITION LENGTH` 返回STRING字符串中从POSITION开始，长度最大为LENGTH的子串。如果POSITION或LENGTH为负数，0或非数值，则返回空字符串
 
-#### for
-```bash
-for i in "$*"
-do
-    echo "$i"
-done
+    ```bash
+    str="Hello World!"
+    
+    echo `expr length "$str"`  # ``不是单引号，表示执行该命令，输出12
+    echo `expr index "$str" aWd`  # 输出7，下标从1开始
+    echo `expr substr "$str" 2 3`  # 输出 ell
+    ```
 
-for j in "$@"
-do
-    echo "$j"
-done
+- 整数表达式
 
-# for sc_name in /etc/profile.d/*.sh
-for $filename in `ls *.mp3`
-do
-	mv $filename $(basename $filename .mp3).mp4 
-done
+  - expr支持普通的算术操作，算术表达式优先级低于字符串表达式，高于逻辑关系表达式
 
-# advanced-language style
-SUM=0
-for((i=1;i<=100;i++))
-do
-    SUM=$[$SUM+$i]
-done
-echo "sum=$SUM"
-```
-> \$*和\$@都表示传递给函数或脚本的所有参数,不被双引号包含时,都以\$1 \$2 …\$n的形式输出所有参数,当它们被双引号包含时,\$\*会将所有的参数作为一个整体,以"\$1 \$2 …\$n"的形式输出所有参数；$@会将各个参数分开,以“\$1” “\$2”…”\$n”的形式输出所有参数
->
-> 使用反引号或\$()方式执行命令，命令的结果到做参数列表
->
-> 列表包含多个变量，变量使用空格分隔
->
-> 对文本处理，要使用文本查看命令取出文本内容，默认逐行处理，若文本出现空格会当作多行处理
+  - `+ -` 加减运算。两端参数会转换为整数，如果转换失败则报错
 
-#### while(until：与while相反操作，条件为true时退出循环)
-```bash
-a=1
-while [ $a -lt 10 ]
-do
-		((a++))
-    echo $a
-done
+  - `* / %` 乘，除，取模运算。两端参数会转换为整数，如果转换失败则报错
 
-# 构建死循环
-while :
-do
-	echo xxxx
-done
-```
+  - `()` 表示优先级，但需要用反斜杠转义
 
-#### break、continue
+    ```bash
+    a=3
+    b=4
+    
+    echo `expr $a + $b`  # 输出7
+    echo `expr $a - $b`  # 输出-1
+    echo `expr $a \* $b`  # 输出12，*需要转义
+    echo `expr $a / $b`  # 输出0，整除
+    echo `expr $a % $b` # 输出3
+    echo `expr \( $a + 1 \) \* \( $b + 1 \)`  # 输出20，值为(a + 1) * (b + 1)
+    ```
 
-### function
-#### 系统函数
+- 逻辑关系表达式
 
-- /etc/init.d/fucntions   系统函数脚本
+  - `|` 如果第一个参数非空且非0，则返回第一个参数的值，否则返回第二个参数的值，但要求第二个参数的值也是非空或非0，否则返回0。如果第一个参数是非空或非0时，不会计算第二个参数
+
+  - `&` 如果两个参数都非空且非0，则返回第一个参数，否则返回0。如果第一个参为0或为空，则不会计算第二个参数
+
+  - `< <= = == != >= >` 比较两端的参数，如果为true，则返回1，否则返回0。”==”是”=”的同义词。”expr”首先尝试将两端参数转换为整数，并做算术比较，如果转换失败，则按字符集排序规则做字符比较
+
+  - `()` 表示优先级，但需要用反斜杠转义
+
+    ```bash
+    a=3
+    b=4
+    
+    echo `expr $a \> $b`  # 输出0，>需要转义
+    echo `expr $a '<' $b`  # 输出1，也可以将特殊字符用引号引起来
+    echo `expr $a '>=' $b`  # 输出0
+    echo `expr $a \<\= $b`  # 输出1
+    
+    c=0
+    d=5
+    
+    echo `expr $c \& $d`  # 输出0
+    echo `expr $a \& $b`  # 输出3
+    echo `expr $c \| $d`  # 输出5
+    echo `expr $a \| $b`  # 输出3
+    ```
+
+### 10 read命令
+
+read命令用于从标准输入中读取单行数据。当读到文件结束符时，exit code为1，否则为0
+
+参数说明
+
+	- `-p`: 后面可以接提示信息
+	- `-t`：后面跟秒数，定义输入字符的等待时间，超过等待时间后会自动忽略此命令
 
 ```bash
-# '导入'直接用
-source /etc/init.d/fucntions
-xxxx
-
-basename /home/aaa/test.txt
-basename /home/aaa/test.txt .txt
-dirname /home/aaa/test.txt
+acs@9e0ebfcd82d7:~$ read name  # 读入name的值
+acwing yxc  # 标准输入
+acs@9e0ebfcd82d7:~$ echo $name  # 输出name的值
+acwing yxc  #标准输出
+acs@9e0ebfcd82d7:~$ read -p "Please input your name: " -t 30 name  # 读入name的值，等待时间30秒
+Please input your name: acwing yxc  # 标准输入
+acs@9e0ebfcd82d7:~$ echo $name  # 输出name的值
+acwing yxc  # 标准输出
 ```
 
-#### 自定义函数
-```bash
-# function可省略
-function fname() {
-	Action;
-	[return int;]
-}
-fname
-unset fname
+### 11 echo命令
 
-cdls() {
-	cd $1
-	ls
-}
-cdls
-
-checkpid() {
- 	local i
- 	for i in $*:
- 	do
- 		[ -d "/proc/$i" ] && return 0
- 	done
- 	return 1
-}
-```
-- 必须在调用函数地方之前,先声明函数,shell脚本是逐行运行，不会像其它语言一样先编译
-
-- 函数返回值,只能通过\$?系统变量获得,可以显示加：return返回,如果不加,将以最后一条命令运行结果,作为返回值。return后跟数值n(0-255)
-
-- 局部变量local修饰，不进行修饰那么函数执行后，其他地方也可以使用
-- 函数的参数\$1 \$2 ... \$n
-
-### 信号
-
-- kill默认发送15信号给应用程序
-
-- ctrl + c发送2信号给应用程序
-
-- 9信号不可阻塞
+- 显示普通字符串
 
   ```bash
-  trap "echo sig 15" 15
-  trap "echo sig 2" 2
+  echo "Hello AC Terminal"
+  echo Hello AC Terminal  # 引号可以省略
+  ```
+
+- 显示转义字符
+
+  ```bash
+  echo "\"Hello AC Terminal\""  # 注意只能使用双引号，如果使用单引号，则不转义
+  echo \"Hello AC Terminal\"  # 也可以省略双引号
+  ```
+
+- 显示变量
+
+  ```bash
+  name=yxc
+  echo "My name is $name"  # 输出 My name is yxc
+  ```
+
+- 显示换行
+
+  ```bash
+  echo -e "Hi\n"  # -e 开启转义
+  echo "acwing"
+  ```
+
+- 显示不换行
+
+  ```bash
+  echo -e "Hi \c" # -e 开启转义 \c 不换行
+  echo "acwing"
+  ```
+
+- 显示结果定向至文件
+
+  ```bash
+  echo "Hello World" > output.txt
+  ```
+
+- 原样输出字符串，不进行转义或取变量(用单引号)
+
+  ```bash
+  name=acwing
+  echo '$name\"'
+  ```
+
+- 显示命令的执行结果
+
+  ```bash
+  echo `date`
+  ```
+
+### 12 printf命令
+
+`printf format-string [arguments...]`     默认不会在字符串末尾添加换行符
+
+```bash
+printf "%10d.\n" 123  # 占10位，右对齐
+printf "%-10.2f.\n" 123.123321  # 占10位，保留2位小数，左对齐
+printf "My name is %s\n" "yxc"  # 格式化输出字符串
+printf "%d * %d = %d\n"  2 3 `expr 2 \* 3` # 表达式的值作为参数
+```
+
+### 13 test命令与判断符号[]
+
+- 逻辑运算符&&和||
+
+  - && 表示与，|| 表示或
+
+  - 二者具有短路原则
+
+    > expr1 && expr2：当expr1为假时，直接忽略expr2
+    > expr1 || expr2：当expr1为真时，直接忽略expr2
+
+  - 表达式的exit code为0，表示真；为非零，表示假
+
+- test命令
+
+  - 在命令行中输入man test，可以查看test命令的用法
+
+  - test命令用于判断文件类型，以及对变量做比较
+
+  - test命令用exit code返回结果，而不是使用stdout。0表示真，非0表示假
+
+    ```bash
+    test 2 -lt 3  # 为真，返回值为0
+    echo $?  # 输出上个命令的返回值，输出0
+    
+    acs@9e0ebfcd82d7:~$ ls  # 列出当前目录下的所有文件
+    homework  output.txt  test.sh  tmp
+    acs@9e0ebfcd82d7:~$ test -e test.sh && echo "exist" || echo "Not exist"
+    exist  # test.sh 文件存在
+    acs@9e0ebfcd82d7:~$ test -e test2.sh && echo "exist" || echo "Not exist"
+    Not exist  # testh2.sh 文件不存在
+    ```
+
+  - 文件类型判断 `test -e filename  # 判断文件是否存在`
+
+    | 参数 | 代表意义     |
+    | ---- | ------------ |
+    | -e   | 文件是否存在 |
+    | -f   | 是否为文件   |
+    | -d   | 是否为目录   |
+
+  - 文件权限判断 `test -r filename  # 判断文件是否可读`
+
+    | 参数 | 代表意义       |
+    | ---- | -------------- |
+    | -r   | 文件是否可读   |
+    | -w   | 文件是否可写   |
+    | -x   | 文件是否可执行 |
+    | -s   | 是否为非空文件 |
+
+  - 整数间的比较 `test $a -eq $b  # a是否等于b`
+
+    | 参数 | 代表意义       |
+    | ---- | -------------- |
+    | -eq  | a是否等于b     |
+    | -ne  | a是否不等于b   |
+    | -gt  | a是否大于b     |
+    | -lt  | a是否小于b     |
+    | -ge  | a是否大于等于b |
+    | -le  | a是否小于等于b |
+
+  - 字符串比较
   
-  echo $$
+    | 参数              | 代表意义                                               |
+    | ----------------- | ------------------------------------------------------ |
+    | test -z STRING    | 判断STRING是否为空，如果为空，则返回true               |
+    | test -n STRING    | 判断STRING是否非空，如果非空，则返回true（-n可以省略） |
+    | test str1 == str2 | 判断str1是否等于str2                                   |
+    | test str1 != str2 | 判断str1是否不等于str2                                 |
   
-  while :
+  - 多重条件判定 `test -r filename -a -x filename`
+  
+    | 参数 | 代表意义                                            |
+    | ---- | --------------------------------------------------- |
+    | -a   | 两条件是否同时成立                                  |
+    | -o   | 两条件是否至少一个成立                              |
+    | !    | 取反。如 test ! -x file，当file不可执行时，返回true |
+
+- 判断符号[]
+
+  []与test用法几乎一模一样，更常用于if语句中。另外[[]]是[]的加强版，支持的特性更多
+
+  ```bash
+  [ 2 -lt 3 ]  # 为真，返回值为0
+  echo $?  # 输出上个命令的返回值，输出0
+  
+  acs@9e0ebfcd82d7:~$ ls  # 列出当前目录下的所有文件
+  homework  output.txt  test.sh  tmp
+  acs@9e0ebfcd82d7:~$ [ -e test.sh ] && echo "exist" || echo "Not exist"
+  exist  # test.sh 文件存在
+  acs@9e0ebfcd82d7:~$ [ -e test2.sh ] && echo "exist" || echo "Not exist"
+  Not exist  # testh2.sh 文件不存在
+  
+  # example
+  [ $var -eq 0 ]
+  # 文件是否存在
+  [ -e $var ]
+  # 是否是目录
+  [ -d $var ]
+  # 两个字符串是否相同
+  [[ $var1 = $var2 ]]
+  ```
+  
+  > []内的每一项都要用空格隔开
+  >
+  > 中括号内的变量，最好用双引号括起来
+  >
+  > 中括号内的常数，最好用单或双引号括起来
+  
+  ```bash
+  name="acwing yxc"
+  [ $name == "acwing yxc" ]  # 错误，等价于 [ acwing yxc == "acwing yxc" ]，参数太多
+  [ "$name" == "acwing yxc" ]  # 正确
+  ```
+
+### 14 判断语句
+
+> if后要有空格
+>
+> [ 条件判断式 ]中括号和条件判断式之间必须有空格
+>
+> 条件非空即为true,[ atguigu ]返回true,[] 返回false
+
+- 单层if
+
+  ```bash
+  if condition
+  then
+      语句1
+      语句2
+      ...
+  fi
+  
+  # example
+  a=3
+  b=4
+  
+  if [ "$a" -lt "$b" ] && [ "$a" -gt 2 ]
+  then
+      echo ${a}在范围内
+  fi
+  
+  if [ "ok" = "ok" ]  
+  then
+      echo "equal"
+  fi
+  
+  if [ 23 -gt 22 ]
+  then
+      echo "dayu"
+  fi
+  
+  if [ -e /root/shell/aaa.txt ]
+  then
+      echo "existing"
+  fi
+  ```
+
+- 单层if-else
+
+  ```bash
+  if condition
+  then
+      语句1
+      语句2
+      ...
+  else
+      语句1
+      语句2
+      ...
+  fi
+  
+  # example
+  a=3
+  b=4
+  
+  if ! [ "$a" -lt "$b" ]
+  then
+      echo ${a}不小于${b}
+  else
+      echo ${a}小于${b}
+  fi
+  
+  if [ $1 -ge 60 ]
+  then
+      echo "xxx"
+  else [ $1 -lt 60 ]
+      echo "yyy"
+  fi
+  ```
+
+- 多层if-elif-elif-else
+
+  ```bash
+  if condition
+  then
+      语句1
+      语句2
+      ...
+  elif condition
+  then
+      语句1
+      语句2
+      ...
+  elif condition
+  then
+      语句1
+      语句2
+  else
+      语句1
+      语句2
+      ...
+  fi
+  
+  # example
+  a=4
+  
+  if [ $a -eq 1 ]
+  then
+      echo ${a}等于1
+  elif [ $a -eq 2 ]
+  then
+      echo ${a}等于2
+  elif [ $a -eq 3 ]
+  then
+      echo ${a}等于3
+  else
+      echo 其他
+  fi
+  
+  if [ $1 -ge 60 ]
+  then
+      echo "xxx"
+  elif [ $1 -lt 60 ]
+  then
+      echo "yyy"
+  else
+  		echo "zzz"
+  fi
+  ```
+
+- case…esac形式
+
+  ```bash
+  case $变量名称 in
+      值1)
+          语句1
+          语句2
+          ...
+          ;;  # 类似于C/C++中的break
+      值2)
+          语句1
+          语句2
+          ...
+          ;;
+      *)  # 类似于C/C++中的default
+          语句1
+          语句2
+          ...
+          ;;
+  esac
+  
+  # example
+  a=4
+  
+  case $a in
+      1)
+          echo ${a}等于1
+          ;;  
+      2)
+          echo ${a}等于2
+          ;;  
+      3)                                                
+          echo ${a}等于3
+          ;;  
+      *)
+          echo 其他
+          ;;  
+  esac
+  
+  case "$1" in
+    "a")
+        echo "a"
+    ;;
+    "b")
+        echo "b"
+    ;;
+    *)
+        echo "other"
+    ;;
+  esac
+  ```
+
+### 15 循环语句
+
+- for…in…do…done
+
+  ```bash
+  for var in val1 val2 val3
   do
-  	:
+      语句1
+      语句2
+      ...
+  done
+  
+  # example
+  for i in a 2 cc
+  do
+      echo $i
+  done
+  
+  for file in `ls`
+  do
+      echo $file
+  done
+  
+  for i in $(seq 1 10)
+  do
+      echo $i
+  done
+  
+  for i in {a..z}
+  do
+      echo $i
+  done
+  
+  for i in "$*"
+  do
+      echo "$i"
+  done
+  
+  for j in "$@"
+  do
+      echo "$j"
+  done
+  
+  # for sc_name in /etc/profile.d/*.sh
+  for $filename in `ls *.mp3`
+  do
+  	mv $filename $(basename $filename .mp3).mp4 
   done
   ```
 
-### 文本操作
+- for ((…;…;…)) do…done
+
+  ```bash
+  for ((expression; condition; expression))
+  do
+      语句1
+      语句2
+  done
+  
+  # example
+  for ((i=1; i<=10; i++))
+  do
+      echo $i
+  done
+  
+  SUM=0
+  for((i=1;i<=100;i++))
+  do
+      SUM=$[$SUM+$i]
+  done
+  echo "sum=$SUM"
+  ```
+
+- while…do…done循环
+
+  ```bash
+  while condition
+  do
+      语句1
+      语句2
+      ...
+  done
+  
+  # example
+  # 文件结束符为Ctrl+d，输入文件结束符后read指令返回false。
+  while read name
+  do
+      echo $name
+  done
+  
+  a=1
+  while [ $a -lt 10 ]
+  do
+  		((a++))
+      echo $a
+  done
+  
+  # 构建死循环
+  while :
+  do
+  	echo xxxx
+  done
+  ```
+
+- until…do…done循环(当条件为真时结束)
+
+  ```bash
+  until condition
+  do
+      语句1
+      语句2
+      ...
+  done
+  
+  # 当用户输入yes或者YES时结束，否则一直等待读入
+  until [ "${word}" == "yes" ] || [ "${word}" == "YES" ]
+  do
+      read -p "Please input yes/YES to stop this program: " word
+  done
+  ```
+
+- break命令(跳出当前一层循环，注意与C/C++不同的是：break不能跳出case语句)
+
+  ```bash
+  # 该示例每读入非EOF的字符串，会输出一遍1-7
+  # 该程序可以输入Ctrl+d文件结束符来结束，也可以直接用Ctrl+c杀掉该进程
+  while read name
+  do
+      for ((i=1;i<=10;i++))
+      do
+          case $i in
+              8)
+                  break
+                  ;;
+              *)
+                  echo $i
+                  ;;
+          esac
+      done
+  done
+  ```
+
+- continue命令
+
+  ```bash
+  # 该程序输出1-10中的所有奇数
+  for ((i=1;i<=10;i++))
+  do
+      if [ `expr $i % 2` -eq 0 ]
+      then
+          continue
+      fi
+      echo $i
+  done
+  ```
+
+- 死循环的处理方式
+
+  - 使用top命令找到进程的PID，输入kill -9 PID即可关掉此进程
+  - Ctrl+c
+
+### 16 函数
+
+- bash中的函数类似于C/C++中的函数，但return的返回值与C/C++不同，返回的是exit code，取值为0-255，0表示正常结束
+- 如果想获取函数的输出结果，可以通过echo输出到stdout中，然后通过$(function_name)来获取stdout中的结果
+- 必须在调用函数地方之前,先声明函数,shell脚本是逐行运行，不会像其它语言一样先编译
+- 函数返回值,只能通过\$?系统变量获得,可以显示加：return返回,如果不加,将以最后一条命令运行结果,作为返回值。return后跟数值n(0-255)
+- 局部变量local修饰，不进行修饰那么函数执行后，其他地方也可以使用
+- 函数的参数\$1 \$2 ... \$n
+
+```bash
+# 命令格式
+[function] func_name() {  # function关键字可以省略
+    语句1
+    语句2
+    ...
+    [return int;]
+}
+
+func_name
+unset func_name
+```
+
+- 不获取 return值和stdout值
+
+  ```bash
+  func() {
+      name=yxc
+      echo "Hello $name"
+  }
+  
+  func
+  ```
+
+- 获取 return值和stdout值
+
+  ```bash
+  func() {
+      name=yxc
+      echo "Hello $name"
+  
+      return 123
+  }
+  
+  output=$(func)
+  ret=$?
+  
+  echo "output = $output"
+  echo "return = $ret"
+  ```
+
+- 函数的输入参数
+
+  在函数内，$1表示第一个输入参数，$2表示第二个输入参数，依此类推。
+
+  注意：函数内的$0仍然是文件名，而不是函数名
+
+  ```bash
+  func() {  # 递归计算 $1 + ($1 - 1) + ($1 - 2) + ... + 0
+      word=""
+      while [ "${word}" != 'y' ] && [ "${word}" != 'n' ]
+      do
+          read -p "要进入func($1)函数吗？请输入y/n：" word
+      done
+  
+      if [ "$word" == 'n' ]
+      then
+          echo 0
+          return 0
+      fi  
+  
+      if [ $1 -le 0 ] 
+      then
+          echo 0
+          return 0
+      fi  
+  
+      sum=$(func $(expr $1 - 1))
+      echo $(expr $sum + $1)
+  }
+  
+  echo $(func 10)
+  ```
+
+- 函数内的局部变量
+
+  可以在函数内定义局部变量，作用范围仅在当前函数内。
+
+  可以在递归函数中定义局部变量
+
+  ```bash
+  # 命令格式
+  local 变量名=变量值
+  
+  # example
+  #! /bin/bash
+  
+  func() {
+      local name=yxc
+      echo $name
+  }
+  func
+  
+  echo $name
+  
+  
+  checkpid() {
+   	local i
+   	for i in $*:
+   	do
+   		[ -d "/proc/$i" ] && return 0
+   	done
+   	return 1
+  }
+  ```
+
+### 17 exit命令
+
+exit命令用来退出当前shell进程，并返回一个退出状态；使用$?可以接收这个退出状态
+
+exit命令可以接受一个整数值作为参数，代表退出状态。如果不指定，默认状态值是 。
+
+exit退出状态只能是一个介于 0~255 之间的整数，其中只有 0 表示成功，其它值都表示失败
+
+```bash
+# 创建脚本test.sh
+#! /bin/bash
+
+if [ $# -ne 1 ]  # 如果传入参数个数等于1，则正常退出；否则非正常退出。
+then
+    echo "arguments not valid"
+    exit 1
+else
+    echo "arguments valid"
+    exit 0
+fi
+
+# 执行该脚本
+acs@9e0ebfcd82d7:~$ chmod +x test.sh 
+acs@9e0ebfcd82d7:~$ ./test.sh acwing
+arguments valid
+acs@9e0ebfcd82d7:~$ echo $?  # 传入一个参数，则正常退出，exit code为0
+0
+acs@9e0ebfcd82d7:~$ ./test.sh 
+arguments not valid
+acs@9e0ebfcd82d7:~$ echo $?  # 传入参数个数不是1，则非正常退出，exit code为1
+1
+```
+
+### 18 文件重定向和管道
+
+每个进程默认打开3个文件描述符
+
+- stdin标准输入，从命令行读取数据，文件描述符为0
+
+- stdout标准输出，向命令行输出数据，文件描述符为1
+
+- stderr标准错误输出，向命令行输出数据，文件描述符为2
+
+| 命令             | 说明                                  |
+| ---------------- | ------------------------------------- |
+|                  |                                       |
+| command > file   | 将stdout重定向到file中                |
+| command < file   | 将stdin重定向到file中                 |
+| command >> file  | 将stdout以追加方式重定向到file中      |
+| command n> file  | 将文件描述符n重定向到file中           |
+| command n>> file | 将文件描述符n以追加方式重定向到file中 |
+
+- 输入和输出重定向
+
+  ```bash
+  echo -e "Hello \c" > output.txt  # 将stdout重定向到output.txt中
+  echo "World" >> output.txt  # 将字符串追加到output.txt中
+  
+  read str < output.txt  # 从output.txt中读取字符串
+  
+  echo $str  # 输出结果：Hello World
+  ```
+
+- 同时重定向stdin和stdout
+
+  ```bash
+  # 创建bash脚本
+  #! /bin/bash
+  
+  read a
+  read b
+  
+  echo $(expr "$a" + "$b")
+  
+  # 创建input.txt
+  3
+  4
+  
+  # 执行命令
+  acs@9e0ebfcd82d7:~$ chmod +x test.sh  # 添加可执行权限
+  acs@9e0ebfcd82d7:~$ ./test.sh < input.txt > output.txt  # 从input.txt中读取内容，将输出写入output.txt中
+  acs@9e0ebfcd82d7:~$ cat output.txt  # 查看output.txt中的内容
+  7
+  ```
+
+- 管道
+  - 将前一个命令的结果传递给后面的命令
+  - `car xxx | more`
+  - `cat | ps -f`
+
+### 19 引入外部文件
+
+```bash
+# 语法格式
+. filename  # 注意点和文件名之间有一个空格
+
+或
+
+source filename
+
+# example
+# 创建test1.sh
+#! /bin/bash
+
+name=yxc  # 定义变量name
+
+# 然后创建test2.sh
+#! /bin/bash
+
+source test1.sh # 或 . test1.sh
+
+echo My name is: $name  # 可以使用test1.sh中的变量
+
+# 执行命令
+acs@9e0ebfcd82d7:~$ chmod +x test2.sh 
+acs@9e0ebfcd82d7:~$ ./test2.sh 
+My name is: yxc
+```
+
+### 20 高级文本操作
 
 #### 正则元字符(. * [] ^ & \\ +  ？｜)
 
@@ -420,24 +1135,22 @@ checkpid() {
 grep "\." xxxxxxx
 ```
 
-#### find
+#### find `find 路径 查找条件 [补充条件]`
 
-- find 路径 查找条件 [补充条件]
+```bash
+ls passwd*
+find passwd
+find /etc/ -name pass*
+find /etc/ -regex .*wd$
+find /etc/ --type f -regex .*wd$
+find /etc/ --atime 8
+LANG=C stat filename
 
-  ```bash
-  ls passwd*
-  find passwd
-  find /etc/ -name pass*
-  find /etc/ -regex .*wd$
-  find /etc/ --type f -regex .*wd$
-  find /etc/ --atime 8
-  LANG=C stat filename
-  
-  touch /tmp/{1..9}.txt
-  find /tmp/*.txt -exec rm -v {} \
-  
-  grep pass /root/xxx.cfg | cut -d " " -f 1
-  ```
+touch /tmp/{1..9}.txt
+find /tmp/*.txt -exec rm -v {} \
+
+grep pass /root/xxx.cfg | cut -d " " -f 1
+```
 
 #### cut
 cut的工作就是“剪”,具体的说就是在文件中负责剪切数据用的。cut 命令从文件的每一行剪切字节、字符和字段并将这些字节、字符和字段输出
@@ -628,7 +1341,7 @@ ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk -F " " '{print $1}
 # 查询sed.txt中空行所在的行号
 awk '/^$/{print NR}' sed.txt
 ```
-#### sed vs awk
+##### sed vs awk
 
 - awk更像脚本语言
 - awk用于“比较规范”的文本处理，用于统计数量并输出制定字段
@@ -682,7 +1395,7 @@ cat test.txt
 sort -n test.txt|awk '{a+=$0;print $0}END{print "SUM="a}'
 ```
 
-#### example
+#### practise
 ```bash
 //查询所有用户
 for user in `cat /etc/passwd | cut -d ":" -f 1`
