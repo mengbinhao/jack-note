@@ -1,5 +1,5 @@
 ### 1 什么是webpack
-构建就是把源代码转换成线上可执行的js、css、html.
+构建就是把源代码转换成线上可执行的js、css、html
 - 代码转换ts->js、less->css等
 - 文件优化,压缩js、css、html,合并图片
 - 代码分割,提取多个页面的公共代码,提取首屏不需要执行的代码异步加载,路由按需加载
@@ -31,7 +31,7 @@
     >
     > thread-loader
 
-- plugin：在Webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或做你想要的事情,增强webpack功能,作用于整个构建过程,可以简单理解为webpack不能做的事情plugin做
+- plugin：在Webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或做你想要的事情,增强webpack功能,作用于整个构建过程,可以简单理解为webpack不能做的事情plugin都可以做
 
     > CommonsChunkPlugin
     >
@@ -84,7 +84,7 @@
     npm i babel-polyfill --D  (默认只转换语法,这个转换API )
     npm i babel-plugin-transform-runtime --D  (解决重复引用工具方法导致打包js过大的问题)
     npm i babel-runtime --save  (解决重复引用工具方法导致打包js过大的问题)
-
+    
     npm i -D style-loader css-loader  (css-loader)
     npm i -D npm i file-loader url-loader  (image-loader)
     npm i -D less-loader  less(less-loader)
@@ -225,7 +225,7 @@ module: {
   "scripts": {
     "dev": "webpack-dev-server --open"
   }
-
+  
   //webpack.config.js
   const webpack = require('webpack')
   module.export = {
@@ -259,7 +259,7 @@ module: {
   }
   ```
 
-#####webpack-dev-middleware
+##### webpack-dev-middleware
 
 - WDM将webpack输出的文件传输给服务器
 
@@ -269,15 +269,15 @@ module: {
   const express = require('express')
   const wepback = require('wepback')
   const weppackDevMiddleware = require('weppack-dev-middleware')
-
+  
   const app = expess()
   const config = require('./webpack.config.js')
   const compile = wepback(config)
-
+  
   app.use(weppackDevMiddleware(compile,{
       publicPath:config.output.publicPath
   }))
-
+  
   app.listen(3000,() => {
       console.log('server is running on 3000')
   })
@@ -296,7 +296,7 @@ module: {
   //抽取css文件,webpack4的plugin,支持css chunk
   //与style-loader功能互斥,不能一起使用
   const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-
+  
   module.exports = {
       entry: {
           index: './src/index.js',
@@ -769,7 +769,7 @@ module.exports = {
     {
       "plugins": ["@babel/plugin-syntax-dynamic-import"],
       ...
-}
+    }
     ```
 
     ![](images/webpack-3.png)
@@ -928,15 +928,15 @@ if (process.env.NODE_ENV === 'production') {
           const entry = {};
           const htmlWebpackPlugins = [];
           const entryFiles = glob.sync(path.join(__dirname,'./src/*/index-server.js'));
-
+      
           Object.keys(entryFiles)
               .map((index) => {
                   const entryFile = entryFiles[index];
                   // '/Users/cpselvis/my-project/src/index/index.js'
-
+      
                   const match = entryFile.match(/src\/(.*)\/index-server\.js/);
                   const pageName = match && match[1];
-
+      
                   if (pageName) {
                       entry[pageName] = entryFile;
                       htmlWebpackPlugins.push(
@@ -958,7 +958,7 @@ if (process.env.NODE_ENV === 'production') {
                       );
                   }
               });
-
+      
           return {
               entry,
               htmlWebpackPlugins
@@ -969,7 +969,7 @@ if (process.env.NODE_ENV === 'production') {
 
       //index-server.js
       'use strict';
-
+    
       // import React from 'react';
       // import largeNumber from 'large-number';
       // import logo from './images/logo.png';
@@ -978,17 +978,17 @@ if (process.env.NODE_ENV === 'production') {
       const largeNumber = require('large-number');
       const logo = require('./images/logo.png');
       require('./search.less');
-
+    
       class Search extends React.Component {
-
+    
           constructor() {
               super(...arguments);
-
+    
               this.state = {
                   Text: null
               };
           }
-
+    
           loadComponent() {
               import('./text.js').then((Text) => {
                   this.setState({
@@ -996,7 +996,7 @@ if (process.env.NODE_ENV === 'production') {
                   });
               });
           }
-
+    
           render() {
               const { Text } = this.state;
               const addResult = largeNumber('999','1');
@@ -1009,7 +1009,7 @@ if (process.env.NODE_ENV === 'production') {
               </div>;
           }
       }
-
+    
       module.exports = <Search />;
 
 
@@ -1017,7 +1017,7 @@ if (process.env.NODE_ENV === 'production') {
       if (typeof window === 'undefined') {
           global.window = {};
       }
-
+    
       const fs = require('fs');
       const path = require('path');
       const express = require('express');
@@ -1025,23 +1025,23 @@ if (process.env.NODE_ENV === 'production') {
       const SSR = require('../dist/search-server');
       const template = fs.readFileSync(path.join(__dirname,'../dist/search.html'),'utf-8');
       const data = require('./data.json');
-
+    
       const server = (port) => {
           const app = express();
-
+    
           app.use(express.static('dist'));
           app.get('/search',(req,res) => {
               const html = renderMarkup(renderToString(SSR));
               res.status(200).send(html);
           });
-
+    
           app.listen(port,() => {
               console.log('Server is running on port:' + port);
           });
       };
-
+    
       server(process.env.PORT || 3000);
-
+    
       const renderMarkup = (str) => {
           const dataStr = JSON.stringify(data);
           return template.replace('<!--HTML_PLACEHOLDER-->',str)
@@ -1282,9 +1282,9 @@ plugins: [
 
 ### 8 构建配置包设计
 
-![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_5.png)
+![](../../frontend/images/webpack_5.png)
 
-![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_6.png)
+![](../../frontend/images/webpack_6.png)
 
 - 集成ESLint
 
@@ -1538,7 +1538,7 @@ plugins: [
 
    - [polyfill.io](https://polyfill.io/v3/polyfill.min.js)
 
-   ![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_7.png)
+   ![](../../frontend/images/webpack_7.png)
 
 4. 公共资源分离
 

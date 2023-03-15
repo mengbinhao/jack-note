@@ -1,6 +1,6 @@
 import Vue from 'vue'
 const Store = function Store(options = {}) {
-	const { state = {}, mutations = {} } = options
+	let { state = {}, mutations = {} } = options
 	this._vm = new Vue({
 		data: {
 			$$state: state,
@@ -24,5 +24,5 @@ Object.defineProperties(Store.prototype, {
 })
 export default { Store }
 
-//使用
+//mini-vuex如何使用, this.$Store.state.xxx
 Vue.prototype.$Store = store

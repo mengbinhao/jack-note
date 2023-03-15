@@ -270,7 +270,6 @@ methods: {
     }
 }
 
-
 //In component
 import {mapState, mapGetters, mapMutations, mapActions} from 'vuex'
 

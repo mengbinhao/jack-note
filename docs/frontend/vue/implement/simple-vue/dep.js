@@ -4,7 +4,6 @@ class Dep {
 		this.id = id++
 		this.subs = []
 	}
-
 	addSub(sub) {
 		this.subs.push(sub)
 	}

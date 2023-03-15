@@ -4,7 +4,7 @@ class Compile {
 		this.el = document.querySelector(el)
 		if (this.el) {
 			let fragment = this.node2Fragment(this.el)
-			this.compile(fragment, this.vm)
+			this.compile(fragment, vm)
 			this.el.appendChild(fragment)
 		}
 	}
@@ -42,15 +42,15 @@ class Compile {
 		})
 	}
 	compileText(node, vm) {
-		//let reg = /\{\{(.*)\}\}/g
+		let reg = /\{\{(.+)\}\}/g
 		//let reg = /\{\{\s*(\S+)\s*\}\}/g
-		let reg = /(\{\{.*?\}\})+/g
+		//let reg = /(\{\{.*?\}\})+/g
 		if (reg.test(node.nodeValue)) {
 			//node.nodeValue.match(reg) {{ name }} {{ age}}
 			let expr = RegExp.$1
 			expr = expr.trim()
 			node.nodeValue = vm[expr]
-			new Watcher(vm, expr, (val, oldValue) => (node.nodeValue = val))
+			new Watcher(vm, expr, (newVal, oldValue) => (node.nodeValue = newVal))
 		}
 	}
 }

@@ -9,14 +9,17 @@
 </head>
 
 <body>
-  <div><input type="text" id="a"><span id="b"></span></div>
+  <div>
+    <input type="text" id="a">
+    <span id="b"></span>
+  </div>
   <button onclick="changeModel()">change</button>
 </body>
-<script>
-  const obj = {}
+<script type="application/javascript">
+  let obj = {}
   let val = 'Jack'
-  const a = document.querySelector('#a')
-  const b = document.querySelector('#b')
+  let a = document.querySelector('#a')
+  let b = document.querySelector('#b')
   Object.defineProperty(obj, 'prop', {
     configurable: true,
     enumerable: true,
@@ -24,19 +27,14 @@
       return val
     },
     set(newVal) {
-      if (val !== newVal) {
-        val = newVal
-        a.value = val
-        b.textContent = val
-      }
+      if (val === newVal) return
+      val = newVal
+      a.value = val
+      b.textContent = val
     }
   })
-  a.addEventListener('keyup', (e) => {
-    obj.prop = e.target.value
-  })
-  function changeModel(val) {
-    obj.prop = obj.prop !== 'changed' ? 'changed' : 'changed back'
-  }
+  a.addEventListener('keyup', (e) => obj.prop = e.target.value)
+  let changeModel = (val) => obj.prop = 'changed'
 </script>
 
 </html>
