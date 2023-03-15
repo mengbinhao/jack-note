@@ -3,8 +3,8 @@
 #### deconstruction
 
 ```javascript
-const csvFileLine = '1997,John Doe,US,john@doe.com,New York'
-const { 2: country, 4: state } = csvFileLine.split(',')
+let csvFileLine = '1997,John Doe,US,john@doe.com,New York'
+let { 2: country, 4: state } = csvFileLine.split(',')
 
 //交换参数数值
 let param1 = 1
@@ -12,67 +12,51 @@ let param2 = 2
 ;[param1, param2] = [param2, param1]
 
 //接收函数返回的多个结果
-async function getFullPost() {
+let getFullPost = async () => {
 	return await Promise.all([fetch('/post'), fetch('/comments')])
 }
-const [post, comments] = getFullPost()
+let [post, comments] = getFullPost()
 ```
 
 #### unique arr
 
 ```javascript
-//arr only includes undefined、null、boolean、string和number
-const array = [1, 1, 2, 3, 5, 5, 1]
-const uniqueArr = [...new Set(arr)]
-Array.from(new Set(arr))
+//arr only includes undefined、null、boolean、string、number
+let array = [1, 1, 2, '3', false, undefined, null, NaN, '', 0]
+let uniqueArr = [...new Set(array)]
+let a = Array.from(new Set(array))
 ```
 
 #### merge
 
 ```javascript
-const mergedArr = [...arrOne, ...arrTwo]
+let mergedArr = [...arr1, ...arr2]
 ```
 
 #### ensure arr length
 
 ```javascript
 //指定长度值也相等
-Array(5).fill('')
-
-[...new Array(3).keys()]
+let arr1 = Array(5).fill('')
+let arr2 = [...new Array(3).keys()]
 ```
 
 #### Array.from(arrayLike[, mapFn[, thisArg]])
 
 ```javascript
-const array = [
+let array = [
 	{ name: '大漠', email: 'w3cplus@hotmail.com' },
 	{ name: 'Airen', email: 'airen@gmail.com' },
 ]
-const name = Array.from(array, ({ name }) => name)
+let name = Array.from(array, ({ name }) => name)
+let index = Array.from({length: 5}, (_, idx) => idx)
 ```
 
 #### filter falsy
 
 ```javascript
-const array = [
-	0,
-	1,
-	'0',
-	'1',
-	'大漠',
-	'w3c.com',
-	undefined,
-	true,
-	false,
-	null,
-	'undefined',
-	'null',
-	NaN,
-	'NaN',
-	'1' + 0,
-]
-const ret = array.filter(Boolean)
+let array = [0,1,'0','1',undefined,true,false,null,'undefined','null',NaN,'1' + 0]
+let ret = array.filter(Boolean)
 ```
 
 #### arr slice
@@ -82,6 +66,12 @@ let arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 arr.length = 4
 //or
 arr = arr.slice(0, 4)
+```
+
+#### clear arr
+
+```javascript
+array.length = 0
 ```
 
 #### get arr item
@@ -100,62 +90,57 @@ Math.max(...numbers)
 Math.max.apply(Math, numbers)
 
 //random get item
-const randomItem = arr[Math.floor(Math.random() * arr.length)]
-```
-
-#### clear arr
-
-```javascript
-array.length = 0
+let randomItem = arr[Math.floor(Math.random() * arr.length)]
 ```
 
 #### isEmptyArr
 
 ```javascript
-const flag = Array.isArray(arr) && !arr.length
+let flag = Array.isArray(arr) && !arr.length
 ```
 
 #### arr.flat(depth) or ...
 
 ```javascript
-//如果数组中有多个空值时，使用flat()来转换数组时，将会把空值丢弃
-const arr = ['a', , , , 'b', ['c', , , 'd'], 'e']
-const flatArray = arr.flat()
-console.log(flatArray)
+//如果数组中有多个空值时，flat()会把空值丢弃
+let arr = ['a', , , , 'b', ['c', , , 'd'], 'e']
+let flatArray = arr.flat()
 
-function flattenArray(arr) {
-	const flattened = [].concat(...arr)
-	return flattened.some((item) => Array.isArray(item))
-		? flattenArray(flattened)
-		: flattened
+let _flat = (arr, depth = 1) => {
+	return depth > 0
+		? arr.reduce(
+				(acc, cur) =>
+					Array.isArray(cur)
+						? [...acc, ...flatten3(cur, depth - 1)]
+						: [...acc, cur],
+				[]
+		  )
+		: arr
 }
 ```
 
 #### 快速创建数字数组
 
 ```javascript
-const numArray = Array.from(new Array(10), (x, i) => i)
+let numArray = Array.from(new Array(10), (x, i) => i)
+let numArray = Array.from({length: 10}, (x, i) => i)
+[...new Array(3).keys()]
 ```
 
 #### 数组交集
 
 ```javascript
-const similarity = (arr, values) => arr.filter((v) => values.includes(v))
+let similarity = (arr1, arr2) => arr.filter((v) => arr2.includes(v))
+//加new Set()去重
+new Set([...arr1, ...arr2])
+arr1.filter(v => arr2.has(v))
+arr1.filter(v => !arr2.has(v))
 ```
 
 #### reduce
 
 ```javascript
-const arr = [1, 2, 3, 4, 5]
-//累和
-arr.reduce((prev, cur) => prev + cur))
-//阶乘
-arr.reduce((prev, cur) => prev * cur)
-//最大值
-arr.reduce((prev, cur) => Math.max(prev, cur))
-//最小值
-arr.reduce((prev, cur) => Math.min(prev, cur))
-
+let arr = [1, 2, 3, 4, 5]
 //数组去重
 arr.reduce((prev, cur)=>{
   !prev.includes(cur) && prev.push(cur)
@@ -163,28 +148,25 @@ arr.reduce((prev, cur)=>{
 }, [])
 
 //reduce方法同时实现map和filter
-const numbers = [10, 20, 30, 40]
-const doubledOver50 = numbers.reduce((finalList, num) => {
-  num = num * 2
-  if (num > 50) {
-    finalList.push(num)
-  }
-  return finalList
+let numbers = [10, 20, 30, 40]
+let doubledOver50 = numbers.reduce((acc, cur) => {
+  cur = cur * 2
+  if (cur > 50) acc.push(cur)
+  return acc
 }, [])
 
-
 //统计数组中相同项的个数
-const cars = ['BMW','Benz', 'Benz', 'Tesla', 'BMW', 'Toyota']
-const carsObj = cars.reduce(function (obj, name) {
-  obj[name] = obj[name] ? ++obj[name] : 1
+let cars = ['BMW','Benz', 'Benz', 'Tesla', 'BMW', 'Toyota']
+let carsObj = cars.reduce((obj, name) => {
+  obj[name] = obj[name] ? obj[name]++ : 1
   return obj
-}, {});
+}, {})
 ```
 
 #### 过滤对象数组
 
 ```javascript
-const reducedFilter = (data, keys, fn) =>
+let reducedFilter = (data, keys, fn) =>
 	data.filter(fn).map((el) =>
 		keys.reduce((acc, key) => {
 			acc[key] = el[key]
@@ -193,14 +175,21 @@ const reducedFilter = (data, keys, fn) =>
 	)
 ```
 
+#### 生成由随机整数组成的数组，数组长度和元素大小可自定义
+
+```javascript
+let genNumArr = (length, limit) =>
+  Array.from({ length }, _ => Math.floor(Math.random() * limit))
+genNumArr(10, 100)
+```
+
 ### Object
 
 #### deconstruction
 
 ```javascript
-const obj = {
+let obj = {
 	name: '大漠',
-	blog: 'w3c',
 	email: 'w3cplus@hotmail.com',
 	joined: '2019-06-19',
 	followers: 45,
@@ -211,68 +200,72 @@ let user = {},
 
 //删除不必要的属性
 let { _internal, tooBig, ...cleanObject } = {
-	el1: '1',
+	prop1: '1',
 	_internal: 'secret',
 	tooBig: {},
-	el2: '2',
-	el3: '3',
+	prop2: '2',
+	prop3: '3',
 }
 ```
 
 #### isType
 
 ```javascript
-const isType = type => target => `[object ${type}]` === Object.prototype.toString.call(target) const isArray = isType('Array')([1, 2, 3])
+let isType = type => target => `[object ${type}]` === Object.prototype.toString.call(target) 
+let isArray = isType('Array')([1, 2, 3])
 ```
 
 #### isEmptyObject
 
 ```javascript
-const flag = isType('Object')(obj) && !Object.keys(obj).length
+let flag = isType('Object')(obj) && Object.keys(obj).length === 0
 ```
 
-#### merge
+#### merge(ShallowCopy)
 
 ```javascript
-const mergedObject = { ...objectOne, ...objectTwo }
-const mergedObject2 = {
+let mergedObject = { ...object1, ...object2 }
+let mergedObject2 = {
 	...{ name: 'John', age: '18' },
 	...{ name: 'John1', age: '12' },
 }
-//Object.assign(target, ...sources)
-const returnedTarget = Object.assign(target, source)
+
+let returnedTarget = Object.assign(target, source)
 ```
 
 #### clone
 
 ```javascript
-const obj = JSON.parse(JSON.stringify(_obj))
+//stringify有缺陷
+let obj = JSON.parse(JSON.stringify(_obj))
 ```
 
 #### check property
 
 ```javascript
-if (obj.xxx) obj.hasOwnProperty('name')
+if (obj.xxx) 
 
-'name' in obj //can get property according to __proto__
+obj.hasOwnProperty('name')
+
+'name' in obj //检测原型
 ```
 
 #### create pure object
 
 ```javascript
-const pureObject = Object.create(null)
+let pureObject = Object.create(null)
 ```
 
 #### arr obj to obj
 
 ```javascript
-const array = [
+let array = [
 	{ name: '大漠', email: 'w3cplus@gmail.com' },
 	{ name: 'Airen', email: 'airen@gmail.com' },
 ]
-const result = array.reduce((accumulator, item) => {
+let result = array.reduce((acc, item) => {
 	return {
-		...accumulator,
+		...acc,
 		[item.name]: item.email,
 	}
 }, {})
@@ -281,64 +274,61 @@ const result = array.reduce((accumulator, item) => {
 #### add property with condition
 
 ```javascript
-const getUser = (emailIncluded) => {
-    return {
-        name: '大漠',
-        blog: 'w3c',
-        ...emailIncluded && {email: 'w3cplus@hotmail.com'}
-    }
+let getUser = (emailIncluded) => {
+  return {
+    name: '大漠',
+    blog: 'w3c',
+    ...emailIncluded && {email: 'w3cplus@hotmail.com'}
+  }
 }
-const user = getUser(true)
-console.log(user)
-const userWithoutEmail = getUser(false)
-console.log(userWithoutEmail) > Result: {name: "大漠", blog: "w3c"}
 ```
 
 #### `Object.entries(obj)、Object.fromEntries(iterable) `
 
 ```javascript
-const obj = {
+let obj = {
     one: 2,
     two: 4,
     three: 9
 }
+//[['one', 2], ['two', 4], ['three', 9]]
+console.log(Object.entries(obj)) 
 
-console.log(Object.entries(obj)) //[['one', 2], ['two', 4], ['three', 9]]
-
-const map = new Map()
+let map = new Map()
 map.set('one', 2)
 map.set('two', 4)
 map.set('three', 9)
-console.log(Object.fromEntries(map)）
+console.log(Object.fromEntries(map))
 
-const array = [['one',2],['two',4],['three',9]]
-console.log(Object.fromEntries(Array))
+let array = [['one',2],['two',4],['three',9]]
+console.log(Object.fromEntries(array))
 //不使用fromEntries
-const obj = Array.from(myArray).reduce((acc, [key, val]) => Object.assign(acc, {[key]:val}), {})
+let obj = Array.from(array).reduce((acc, [key, val]) => Object.assign(acc, {[key]:val}), {})
+let obj1= Array.from(array).reduce((acc, [key, val]) => ({...acc, [key]:val}), {})
 
 //求平方根
-const map = array.map(([key, val]) => [key, Math.sqrt(val)])
+let map = array.map(([key, val]) => [key, Math.sqrt(val)])
 
 //handle url
-const paramsString = '?&userName="demo"&userId="98409189"'
-const searchParams = new URLSearchParams(paramsString)
-const urlQueryObj = Object.fromEntries(searchParams)
+let paramsStr = 'userName=demo&userId=98409189'
+let searchParams = new URLSearchParams(paramsStr)
+let urlQueryObj = Object.fromEntries(searchParams)
 console.log(urlQueryObj)
 ```
 
 #### obj.flatMap
 
 ```javascript
-const scattered = ['my favorite', 'hamburger', 'is a', 'chicken sandwich']
+let scattered = ['my favorite', 'hamburger', 'is a', 'chicken sandwich']
 // 使用map()来转换数组
-const huh = scattered.map((chunk) => chunk.split(' '))
-console.log(huh) // ⇒ [["my", "favorite"], ["hamburger"], ["is", "a"], ["chicken", "sandwich"]] // 使用flat()来拍平数组
-const flatHuh = huh.flat()
-console.log(flatHuh) // ⇒ ["my", "favorite", "hamburger", "is", "a", "chicken", "sandwich"]
+// [["my", "favorite"], ["hamburger"], ["is", "a"], ["chicken", "sandwich"]] 
+let huh = scattered.map((chunk) => chunk.split(' '))
+// 使用flat()来拍平数组
+let flatHuh = huh.flat()
+// ["my", "favorite", "hamburger", "is", "a", "chicken", "sandwich"]
 
-// 使用flatMap可以一步到位实现map()和flat()的效果
-const flatMapScattered = scattered.flatMap((chunk) => chunk.split(' '))
-console.log(flatMapScattered) // ⇒ ["my", "favorite", "hamburger", "is", "a", "chicken", "sandwich"]
+// 使用flatMap可以一步到位
+let flatMapScattered = scattered.flatMap((chunk) => chunk.split(' '))
 ```
 
 ### Function
@@ -347,11 +337,11 @@ console.log(flatMapScattered) // ⇒ ["my", "favorite", "hamburger", "is", "a", 
 
 ```javascript
 //null会覆盖默认参数
-function doSomething({ foo = 'Hi', bar = 'Yo!', baz = 13 } = {}) {
+let doSomething = ({ foo = 'Hi', bar = 'Yo!', baz = 13 } = {}) => {
 	// ...
 }
 
-var car = {
+let car = {
 	model: 'bmw 2018',
 	engine: {
 		v6: true,
@@ -359,7 +349,7 @@ var car = {
 		vin: 12345,
 	},
 }
-const modelAndVIN = ({ model, engine: { vin } }) => {
+let modelAndVIN = ({ model, engine: { vin } }) => {
 	console.log(`model: ${model} vin: ${vin}`)
 }
 ```
@@ -367,25 +357,16 @@ const modelAndVIN = ({ model, engine: { vin } }) => {
 #### required params
 
 ```javascript
-mandatory = () => {
+let mandatory = () => {
 	throw new Error('Missing parameter!')
 }
-foo = (bar = mandatory()) => {
-	return bar
-}
-```
-
-#### 隐式返回值
-
-```javascript
-//同 {} 返回
-const calcCircumference = (diameter) => Math.PI * diameter
+let foo = (bar = mandatory()) => bar
 ```
 
 #### 惰性载入函数
 
 ```javascript
-function foo() {
+let foo = (a, b) => {
 	if (a != b) {
 		foo = function () {
 			console.log('aaa')
@@ -402,9 +383,9 @@ function foo() {
 #### 一次性函数
 
 ```javascript
-const sca = () => {
+let once = () => {
 	console.log('msg')
-	sca = () => {
+	once = () => {
 		console.log('foo')
 	}
 }
@@ -415,46 +396,49 @@ const sca = () => {
 #### 字符串比较时间先后
 
 ```javascript
-const a = '2014-08-08'
-const b = '2014-09-09'
-
+let a = '2014-08-08'
+let b = '2014-09-09'
 console.log(a > b, a < b) // false true
 console.log('21:00' < '09:10') // false
-console.log('21:00' < '9:10') // true   时间形式注意补0
+console.log('21:00' < '9:10') // true 时间形式注意补0
 ```
 
 #### JS 对象转 url 查询字符串
 
 ```javascript
-const objectToQueryString = (obj) =>
-	Object.keys(obj)
+let obj2QueryStr = (obj) => {
+	return Object.keys(obj)
 		.map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(obj[key])}`)
 		.join('&')
+}
 ```
 
 #### 生成随机 ID
 
 ```javascript
-const RandomId = (len) => Math.random().toString(36).substr(3, len)
-const id = RandomId(10)
+let randomId = (len) => Math.random().toString(36).substr(3, len)
+let id = randomId(10)
 ```
 
 #### 生成随机 HEX 色值
 
 ```javascript
-const RandomColor = () =>
-	'#' +
-	Math.floor(Math.random() * 0xffffff)
-		.toString(16)
-		.padEnd(6, '0')
-const color = RandomColor()
+let randomColor = () => {
+	return (
+		'#' +
+		Math.floor(Math.random() * 0xffffff)
+			.toString(16)
+			.padEnd(6, '0')
+	)
+}
+let color = randomColor()
 ```
 
 #### 生成星级评分
 
 ```javascript
-const StartScore = (rate) => '★★★★★☆☆☆☆☆'.slice(5 - rate, 10 - rate)
-const start = StartScore(3)
+let startScore = (rate) => '★★★★★☆☆☆☆☆'.slice(5 - rate, 10 - rate)
+console.log(startScore(3))
 ```
 
 ### Number
@@ -484,20 +468,20 @@ console.log((1553 / 1000) | 0)
 
 ```javascript
 //对一个数字& 1可以判断奇偶数，负数也同样适用
-const OddEven = (num) => (!!(num & 1) ? 'odd' : 'even')
+let OddEven = (num) => (!!(num & 1) ? 'odd' : 'even')
 ```
 
-#### 数字补 0 操作
+#### 数字补零操作
 
 ```javascript
-const addZero1 = (num, len = 2) => `0${num}`.slice(-len)
-const addZero2 = (num, len = 2) => `${num}`.padStart(len, '0')
+let addZero1 = (num, len = 2) => `0${num}`.slice(-len)
+let addZero2 = (num, len = 2) => `${num}`.padStart(len, '0')
 ```
 
 #### 随机生成六位数字验证码
 
 ```javascript
-const code = Math.floor(Math.random() * 1000000)
+let code = Math.floor(Math.random() * 1000000)
 	.toString()
 	.padStart(6, '0')
 ```
@@ -505,33 +489,26 @@ const code = Math.floor(Math.random() * 1000000)
 #### 精确小数
 
 ```javascript
-const RoundNum = (num, decimal) =>
+let roundNum = (num, decimal) =>
 	Math.round(num * 10 ** decimal) / 10 ** decimal
-const num = RoundNum(1.69, 1)
+let num = roundNum(1.69, 1)
 ```
 
 #### 生成范围随机数
 
 ```javascript
-const RandomNum = (min, max) =>
+let randomNum = (min, max) =>
 	Math.floor(Math.random() * (max - min + 1)) + min
-const num = RandomNum(1, 10)
+let num = randomNum(1, 10)
 ```
 
 ### Boolean
 
 ```javascript
-const flagA = true // 条件A
-const flagB =
-	false(
-		// 条件B
-		flagA || flagB
-	) &&
-	Func()(
-		// 满足A或B时执行
-		flagA || !flagB
-	) &&
-	Func() // 满足A或不满足B时执行
+let flagA = true // 条件A
+let flagB = false // 条件B
+;(flagA || flagB) && Func() // 满足A或B时执行
+;(flagA || !flagB) && Func() // 满足A或不满足B时执行
 flagA && flagB && Func() // 同时满足A和B时执行
 flagA && !flagB && Func() // 满足A且不满足B时执行
 !flag && Func()
@@ -569,9 +546,9 @@ Object.keys(obj).length && Func()
 1. boolean
 
 ```javascript
-const isTrue = !0
-const isFalse = !1
-const isFalse = !!0
+let isTrue = !0
+let isFalse = !1
+let isFalse = !!0
 
 !!'' // > false
 !!0 // > false
@@ -587,8 +564,7 @@ const isFalse = !!0
 2. string
 
 ```javascript
-const val = 1 + ''
-
+let val = 1 + ''
 //obj to string,实际调用toString
 //当然也可以覆盖对象的toString和valueOf方法来自定义对象的类型转换
 'the Math object:' + Math([1, 2, 3].map(String))
@@ -611,13 +587,13 @@ const val = 1 + ''
 
 ### Promise
 
-#### 优雅处理 Async/Await 参数
+#### 优雅处理 AA 参数
 
 ```javascript
-function AsyncTo(promise) {
-	return promise.then((data) => [null, data]).catch((err) => [err])
+let AsyncTo = (promise) => {
+	return promise.then((data) => [undefined, data]).catch((err) => [err])
 }
-const [err, res] = await AsyncTo(Func())
+let [err, res] = await AsyncTo(Func())
 ```
 
 #### 循环 promise
@@ -625,11 +601,10 @@ const [err, res] = await AsyncTo(Func())
 ```javascript
 //Array.forEach不会处理回调函数返回的promise,只是简单无视
 //当需要执行顺序如下
-async function printFiles() {
-	const files = await getFilePaths()
-
-	for (const file of files) {
-		const contents = await fs.readFile(file, 'utf8')
+let printFiles = async () => {
+	let files = await getFilePaths()
+	for (let file of files) {
+		let contents = await fs.readFile(file, 'utf8')
 		console.log(contents)
 	}
 }
@@ -639,12 +614,11 @@ async function printFiles() {
 
 ```javascript
 //当需要并行执行
-async function printFiles() {
-	const files = await getFilePaths()
-
+let printFiles = async () => {
+	let files = await getFilePaths()
 	await Promise.all(
 		files.map(async (file) => {
-			const contents = await fs.readFile(file, 'utf8')
+			let contents = await fs.readFile(file, 'utf8')
 			console.log(contents)
 		})
 	)
@@ -658,15 +632,12 @@ async function printFiles() {
 ```javascript
 switchTime: (val = +new Date(), dateType = 'YYYY-MM-DD hh:mm:ss') => {
 	// 将字符串转换成数字
-	const timeStamp = +new Date(val)
-
+	let timeStamp = +new Date(val)
 	// 如果转换成数字出错
-	if (!timeStamp) {
-		return val
-	}
+	if (!timeStamp) return val
 	let str
 	// 得到时间字符串
-	const dateStr = new Date(timeStamp)
+	let dateStr = new Date(timeStamp)
 	str = dateType.replace('YYYY', dateStr.getFullYear())
 	str = str.replace(
 		'MM',
@@ -688,24 +659,23 @@ switchTime: (val = +new Date(), dateType = 'YYYY-MM-DD hh:mm:ss') => {
 		'ss',
 		(dateStr.getSeconds() < 10 ? '0' : '') + dateStr.getSeconds()
 	)
-
 	return str
 }
 
-switchTime(new Date(), 'YYYY-MM-DD hh') // 返回 2019-05-22 11
-switchTime(new Date(), 'YYYYMMDD hh:mm:ss') // 返回 20190522 11:00:00
+switchTime(new Date(), 'YYYY-MM-DD hh') // 2019-05-22 11
+switchTime(new Date(), 'YYYYMMDD hh:mm:ss') // 20190522 11:00:00
 ```
 
 #### 时间显示转换
 
 ```javascript
-timeView: function (val) {
-    const now = +new Date() // 当时时间
-    const timeStamp = +new Date(val) // 需要处理的时间
-    const result = now - timeStamp // 相差的时间戳
-    const min = 60 * 1000 // 分钟的毫秒数
-    const hour = 60 * 60 * 1000 // 小时的毫秒数
-    const day = 60 * 60 * 1000 * 24 // 日的毫秒数
+let timeView = (val) => {
+    let now = +new Date() // 当时时间
+    let timeStamp = +new Date(val) // 需要处理的时间
+    let result = now - timeStamp // 相差的时间戳
+    let min = 60 * 1000 // 分钟的毫秒数
+    let hour = 60 * 60 * 1000 // 小时的毫秒数
+    let day = 60 * 60 * 1000 * 24 // 日的毫秒数
     if (result / min < 1) {
         return '刚刚发布'
     } else if (result / min < 60) {
@@ -722,24 +692,6 @@ timeView: function (val) {
 }
 ```
 
-### Module
-
-```javascript
-//import 执行顺序
-//import命令是编译阶段执行的，在代码运行之前。因此这意味着被导入的模块会先运行，而导入模块的文件会后执行
-//这是CommonJS中require（）和import之间的区别。使用require()，您可以在运行代码时根据需要加载依赖项。 如果我们使用require而不是import，running index.js，running sum.js，3会被依次打印
-//CommonJS同步加载 import异步加载
-
-// index.js
-console.log('running index.js')
-import { sum } from './sum.js'
-console.log(sum(1, 2))
-
-// sum.js
-console.log('running sum.js')
-export const sum = (a, b) => a + b
-```
-
 ### DOM
 
 #### 显示全部 DOM 边框：调试页面元素边界时使用
@@ -754,8 +706,8 @@ export const sum = (a, b) => a + b
 #### 自适应页面
 
 ```javascript
-function AutoResponse(width = 750) {
-	const target = document.documentElement
+let AutoResponse = (width = 750) => {
+	let target = document.documentElement
 	target.clientWidth >= 600
 		? (target.style.fontSize = '80px')
 		: (target.style.fontSize = (target.clientWidth / width) * 100 + 'px')
@@ -765,10 +717,10 @@ function AutoResponse(width = 750) {
 #### XSS
 
 ```javascript
-function FilterXss(content) {
+let FilterXss = (content) => {
 	let elem = document.createElement('div')
 	elem.innerText = content
-	const result = elem.innerHTML
+	let result = elem.innerHTML
 	elem = null
 	return result
 }
@@ -777,19 +729,19 @@ function FilterXss(content) {
 #### 存取 LocalStorage
 
 ```java
-const love = JSON.parse(localStorage.getItem("love"))
+let love = JSON.parse(localStorage.getItem("love"))
 localStorage.setItem("love", JSON.stringify("I Love You"))
 ```
 
 #### 文件大小显示转换
 
 ```javascript
-bytesToSize (bytes) {
-    if (bytes === 0) return '0 B'
-    var k = 1024 // or 1024
-    var sizes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
-    var i = Math.floor(Math.log(bytes) / Math.log(k))
-    return (bytes / Math.pow(k, i)).toPrecision(3) + ' ' + sizes[i]
+let bytesToSize = (bytes) => {
+	if (bytes === 0) return '0 B'
+	let k = 1024 // or 1024
+	let sizes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB']
+	let i = Math.floor(Math.log(bytes) / Math.log(k))
+	return (bytes / Math.pow(k, i)).toPrecision(3) + ' ' + sizes[i]
 }
 ```
 
@@ -798,14 +750,12 @@ bytesToSize (bytes) {
 #### 1 不要使用否定条件式
 
 ```javascript
-const isEmailVerified = (email) => {
+let isEmailVerified = (email) => {
 	// 实现
 }
-
 if (isEmailVerified(email)) {
 	// 做一些事...
 }
-
 if (isVerified) {
 	// 做一些事...
 }
@@ -814,8 +764,8 @@ if (isVerified) {
 #### 2 对于多个条件，使用 `Array.includes`
 
 ```javascript
-const checkCarModel = (model) => {
-	const models = ['peugeot', 'renault']
+let checkCarModel = (model) => {
+	let models = ['peugeot', 'renault']
 	if (models.includes(model)) {
 		console.log('model valid')
 	}
@@ -825,11 +775,10 @@ const checkCarModel = (model) => {
 #### 3 匹配所有条件，使用 `Array.every` 或者 `Array.find`
 
 ```javascript
-const checkEveryModel = (model) => {
+let checkEveryModel = (model) => {
 	return cars.every((car) => car.model === model)
 }
-
-const checkEveryModel = (model) => {
+let checkEveryModel = (model) => {
 	return cars.find((car) => car.model !== model) === undefined
 }
 ```
@@ -837,7 +786,7 @@ const checkEveryModel = (model) => {
 #### 4 匹配部分条件，使用 `Array.some`
 
 ```javascript
-const checkForAnyModel = (model) => {
+let checkForAnyModel = (model) => {
 	return cars.some((car) => car.model === model)
 }
 ```
@@ -845,7 +794,7 @@ const checkForAnyModel = (model) => {
 #### 5 提前返回而不是使用 `if...else` 分支
 
 ```javascript
-const checkModel = ({model, year} = {}) => {
+let checkModel = ({model, year} = {}) => {
   if(!model && !year) return 'No car'
   if(!model) return 'No car model'
   if(!year) return 'No car year'
@@ -857,7 +806,7 @@ const checkModel = ({model, year} = {}) => {
 
 ```javascript
 //not switch
-const getCarsByState = (state) => {
+let getCarsByState = (state) => {
 	switch (state) {
 		case 'usa':
 			return ['Ford', 'Dodge']
@@ -871,91 +820,71 @@ const getCarsByState = (state) => {
 }
 
 //use map
-const cars = new Map()
+let cars = new Map()
 	.set('usa', ['Ford', 'Dodge'])
 	.set('france', ['Renault', 'Peugeot'])
 	.set('italy', ['Fiat'])
 
-const getCarsByState = (state) => {
-	return cars.get(state) || []
-}
+let getCarsByState = (state) => cars.get(state) || []
 
 //use obj
-const carState = {
+let carState = {
 	usa: ['Ford', 'Dodge'],
 	france: ['Renault', 'Peugeot'],
 	italy: ['Fiat'],
 }
 
-const getCarsByState2 = (state) => {
-	return carState[state] || []
-}
+let getCarsByState2 = (state) => carState[state] || []
 ```
 
 ### Mis
 
 - callback: u define, u don't invoke, but it is invoked afterwards
 
-- 分号注意：
+- 分号注意
 
   - 以小括号开头的前一条语句
 
   ```javascript
   ;(function (a) {
   	console.log(a)
-  })()(
-  	/* 这里没有被自动插入分号 */
-  	function (a) {
-  		console.log(a)
-  	}
-  )()
+  })()
+  // 这里没有被自动插入分号
+  (function (b) {
+    console.log(b)
+  })()
   ```
 
   - 以中括号开头的前一条语句
 
   ```javascript
-  var a = [[]] /* 这里没有被自动插入分号 */[(3, 2, 1, 0)]
-  	.forEach((e) => console.log(e))
+  let a = [[]]
+  // 这里没有被自动插入分号
+  [(3, 2, 1, 0)].forEach((e) => console.log(e))
   ```
 
   - 以正则开头的前一条语句
 
   ```javascript
-  var x = 1,
+  let x = 1,
   	g = { test: () => 0 },
-  	b = 1 /* 这里没有被自动插入分号 */ / a / g.test('abc')
-  console.log(RegExp.$1)
+  	b = 1
+    // 这里没有被自动插入分号
+    /a/g.test('abc')
   ```
 
   - 以`Template`开头的前一条语句
 
   ```javascript
-  var f = function () {
-  	return ''
-  }
-  var g = f/* 这里没有被自动插入分号 */ `Template`.match(/(a)/)
-  console.log(RegExp.$1)
+  let f = () => ''
+  let g = f
+  // 这里没有被自动插入分号
+  `Template`.match(/(a)/)
   ```
 
-  - js 文件合并的时候最好开始加分号,或`void function()()`
+  - js 文件合并的时候最好开始加分号或`void function()()`
   - do...while 有分号
   - 函数表达式有分号
 
 - `use strict`只能出现在脚本、模块和函数体的最前面
 - debug border
-
-```javascript
-;[].forEach.call($$('*'), (dom) => {
-	dom.style.outline =
-		'1px solid #' + (~~(Math.random() * (1 << 24))).toString(16)
-})
-```
-
-- 优雅处理 aa
-
-```javascript
-function AsyncTo(promise) {
-	return promise.then((data) => [null, data]).catch((err) => [err])
-}
-const [err, res] = await AsyncTo(Func())
-```

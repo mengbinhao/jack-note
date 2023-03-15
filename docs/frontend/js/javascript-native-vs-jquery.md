@@ -3,8 +3,8 @@
 - `document.querySelector` 返回第一个匹配的 Element
 - `document.querySelectorAll` 返回所有匹配的 Element 组成的 NodeList
 
-**jQuery**  `let $ele = $("selector");`
-**Native**  `let ele = document.querySelectorAll("selector");`
+**jQuery**  `let $ele = $("selector")`
+**Native**  `let ele = document.querySelectorAll("selector")`
 
 #### 选择器模式
 
@@ -14,7 +14,7 @@
 | #id                | #firstName         | 选择所有id="firstName"的元素               |
 | *                  | *                  | 选择所有元素                               |
 | element            | p                  | 选择所有<p>元素                            |
-| element,element    | div,p              | 选择所有<div>元素和<p>元素                 |
+| element1,element2  | div,p              | 选择所有<div>元素和<p>元素                 |
 | element element    | div p              | 选择<div>元素内的所有<p>元素               |
 | element>element    | div>p              | 选择所有父级是<div>元素的 <p>元素          |
 | element+element    | div+p              | 选择所有紧接着<div>元素之后的<p>元素       |
@@ -25,8 +25,6 @@
 | :nth-child(n)      | ul li:nth-child(3) | 选择<ul>元素下的第三个<li>元素             |
 | :last-child        | ul li:last-child   | 选择<ul>元素下的最后一个<li>元素           |
 
-
-
 #### DOM树查询
 
 | jQuery            | Native                       | 方法说明             |
@@ -36,8 +34,6 @@
 | `$ele.find("a")`  | `ele.querySelectorAll("a")`  | 元素的后代元素       |
 | `$ele.prev()`     | `ele.previousElementSibling` | 元素的上一个同胞元素 |
 | `$ele.next()`     | `ele.nextElementSibling`     | 元素的下一个同胞元素 |
-
-
 
 ### DOM操作
 #### 内容和属性
@@ -53,8 +49,6 @@
 | `var href = $ele.attr("href")` | `let href = ele.getAttribute("href")` | 获取元素的属性值       |
 | `$ele.attr("href", "/")`       | `ele.setAttribute("href", "/")`       | 设置元素的属性值       |
 
-
-
 #### 修改 DOM 树
 
 | jQuery                  | Native                                        | 方法说明                 |
@@ -68,8 +62,6 @@
 | `$ele.clone()`          | `ele.cloneNode(true)`                         | 拷贝被选元素             |
 | `ele.replaceWith(html)` | `ele.outerHTML = html`                        | 指定HTML替换被选元素     |
 
-
-
 ### CSS 样式
 
 #### 设置 Style
@@ -81,19 +73,17 @@
 **jQuery**
 
 ```javascript
-var size = $ele.css("font-size"); // 返回第一个匹配元素的 CSS 属性值
-$ele.css("font-size", "2rem"); // 为所有元素设置指定的 CSS 属性值
+var size = $ele.css("font-size") // 返回第一个匹配元素的 CSS 属性值
+$ele.css("font-size", "2rem") // 为所有元素设置指定的 CSS 属性值
 ```
 
 **Native**
 
 ```javascript
-let size = getComputedStyle(ele)["font-size"]; // 获取当前元素计算后的 CSS 属性值
-ele.style.setProperty("font-size", "2rem"); // 设置当前元素的某个内联样式
-ele.style.removeProperty("font-size");  // 移除当前元素的某个内联样式
+let size = getComputedStyle(ele)["font-size"] // 获取当前元素计算后的 CSS 属性值
+ele.style.setProperty("font-size", "2rem") // 设置当前元素的某个内联样式
+ele.style.removeProperty("font-size")  // 移除当前元素的某个内联样式
 ```
-
-
 
 #### 设置 Class
 
@@ -104,8 +94,6 @@ ele.style.removeProperty("font-size");  // 移除当前元素的某个内联样�
 | `$ele.removeClass(className)` | `ele.classList.remove(className)`   | 从元素中移除一个或多个类     |
 | `$ele.toggleClass(className)` | `ele.classList.toggle(className)`   | 对元素的一个或多个类进行切换 |
 
-
-
 ### 事件方法
 #### 绑定事件
 
@@ -113,53 +101,47 @@ ele.style.removeProperty("font-size");  // 移除当前元素的某个内联样�
 
 ```javascript
 $ele.on("click", function (evt) {
-    console.log(evt.target);
-});
+    console.log(evt.target)
+})
 ```
 
 **Native**
 
 ```javascript
 ele.addEventListener("click", evt => {
-    console.log(evt.target);
-});
+    console.log(evt.target)
+})
 ```
-
-
 
 #### 解除绑定
 
 **jQuery **
 
 ```javascript
-$ele.off("click");
+$ele.off("click")
 ```
 
 **Native**
 
 ```javascript
-ele.removeEventListener("click", func);
+ele.removeEventListener("click", func)
 ```
-
-
 
 #### 模拟触发
 
 **jQuery **
 
 ```javascript
-$ele.trigger("click");
+$ele.trigger("click")
 ```
 
 **Native**
 
 ```javascript
-let event = document.createEvent("MouseEvents");
-event.initMouseEvent("click");
-ele.dispatchEvent(event);
+let event = document.createEvent("MouseEvents")
+event.initMouseEvent("click")
+ele.dispatchEvent(event)
 ```
-
-
 
 ### Ajax
 
@@ -167,88 +149,94 @@ ele.dispatchEvent(event);
 
 ```javascript
 $.ajax({
-    url: "http://apis.juhe.cn/ip/ip2addr",
-    type: "GET",
-    data: {
-        "key": "80701ec21437ca36ca466af27bb8e8d3",
-        "ip": "220.181.57.216"
-    },
-    dataType: "json",
-    success: function (data) {
-        console.log(data);
-    }
-});$ele.trigger("click");
+  url: "http://apis.juhe.cn/ip/ip2addr",
+  type: "GET",
+  data: {
+    "key": "80701ec21437ca36ca466af27bb8e8d3",
+    "ip": "220.181.57.216"
+  },
+  //响应体
+  dataType: "json",
+  success: function (data) {
+    console.log(data)
+  },
+  error: funtion(e) {
+		console.log(e)
+  },
+  headers: {
+    c:300,
+    d:400
+  }
+})
+$ele.trigger("click")
 ```
-
-
 
 #### XHR 封装
 
-```
+```javascript
 window.ajax = async function (params, callback) {
-    let url = params.url;
-    let method = params.method;
-    let data = params.data;
-    let body = new FormData();
-    for (let key in data) {
-        if (data.hasOwnProperty(key)) {
-            body.append(key, data[key]);
-        }
+  let url = params.url;
+  let method = params.method;
+  let data = params.data;
+  let body = new FormData();
+  for (let key in data) {
+    if (data.hasOwnProperty(key)) {
+      body.append(key, data[key]);
     }
-    let xhr = new XMLHttpRequest();
-    xhr.timeout = 3000;
-    xhr.open(method, url, true);
-    xhr.addEventListener("readystatechange", evt => {
-        if (xhr.readyState === 4) {
-            if (xhr.status === 200) {
-                callback(xhr.response);
-            } else {
-                throw xhr.statusText;
-            }
-        }
-    });
-    xhr.send(body);
+  }
+  let xhr = new XMLHttpRequest();
+  xhr.timeout = 3000;
+  xhr.open(method, url, true);
+  xhr.addEventListener("readystatechange", evt => {
+    if (xhr.readyState === 4) {
+      if (xhr.status === 200) {
+        callback(xhr.response);
+      } else {
+        throw xhr.statusText;
+      }
+    }
+  });
+  xhr.send(body);
 };
 
-
 ajax({
-        url: "http://apis.juhe.cn/ip/ip2addr",
-        method: "GET",
-        data: {
-            "key": "80701ec21437ca36ca466af27bb8e8d3",
-            "ip": "220.181.57.216"
-        }
-    },function (resp) {
-        var json = JSON.parse(resp);
-        console.log(json);
-    }
+  url: "http://apis.juhe.cn/ip/ip2addr",
+  method: "GET",
+  data: {
+    "key": "80701ec21437ca36ca466af27bb8e8d3",
+    "ip": "220.181.57.216"
+  }
+  },function (resp) {
+    var json = JSON.parse(resp);
+    console.log(json);
+  }
 )
 ```
 
 #### Fetch API
 
-```
+```javascript
 /* 构造请求对象 */
 let request = new Request(
-    "http://apis.juhe.cn/ip/ip2addr",
-    {
-        method: "GET",
-        body: {
-            "key": "80701ec21437ca36ca466af27bb8e8d3",
-            "ip": "220.181.57.216"
-        },
-        headers: new Headers()
-    }
+  "http://apis.juhe.cn/ip/ip2addr",
+  {
+    method: "GET",
+    body: {
+      "key": "80701ec21437ca36ca466af27bb8e8d3",
+      "ip": "220.181.57.216"
+    },
+    headers: new Headers()
+  }
 );
 /* 处理响应对象 */
 fetch(request)
-    .then(response => response.json())
-    .then(function (data) {
-        console.log(data);
-    })
-    .catch(function (error) {
-        console.log(error);
-    });
+  .then(response => response.json())
+  .then(function (data) {
+    console.log(data);
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
 ```
 
 ### 工具

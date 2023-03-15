@@ -32,5 +32,5 @@
     `img  -->只设置宽或高另一项等比例缩放`
 
 ### 盒子模型 (box-sizing)
-- content-box : border + padding + width + height + margin (向外扩展)
+- content-box : border + padding + width/height + margin (向外扩展)
 - border-box  : 尺寸width 向内扩展

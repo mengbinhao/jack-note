@@ -70,50 +70,50 @@ function intercept(fn, {beforeCall = null, afterCall = null}) {
 }
 ```
 
-1. 监控一个函数的执行过程，不修改代码的情况下获取函数的执行信息
+##### 监控一个函数的执行过程，不修改代码的情况下获取函数的执行信息
 
-    ```javascript
-    function sum(...list) {
-      return list.reduce((a, b) => a + b);
-    }
+```javascript
+function sum(...list) {
+  return list.reduce((a, b) => a + b);
+}
 
-    sum = intercept(sum, {
-      beforeCall(args) {
-        console.log(`The argument is ${args}`);
-        console.time('sum'); // 监控性能
-      },
-      afterCall(ret) {
-        console.log(`The result is ${ret}`);
-        console.timeEnd('sum');
-      }
-    });
+sum = intercept(sum, {
+  beforeCall(args) {
+    console.log(`The argument is ${args}`);
+    console.time('sum'); // 监控性能
+  },
+  afterCall(ret) {
+    console.log(`The result is ${ret}`);
+    console.timeEnd('sum');
+  }
+});
 
-    sum(1, 2, 3, 4, 5);
-    ```
+sum(1, 2, 3, 4, 5);
+```
 
-2. 调整参数顺序
+##### 调整参数顺序
 
-    ```javascript
-    const mySetTimeout = intercept(setTimeout,  {
-      beforeCall(args) {
-        [args[0], args[1]] = [args[1], args[0]];
-      }
-    });
+```javascript
+const mySetTimeout = intercept(setTimeout,  {
+  beforeCall(args) {
+    [args[0], args[1]] = [args[1], args[0]];
+  }
+});
 
-    mySetTimeout(1000, () => {
-      console.log('done');
-    });
-    ```
+mySetTimeout(1000, () => {
+  console.log('done');
+});
+```
 
-3. 校验函数的参数类型
+##### 校验函数的参数类型
 
-    ```javascript
-    const foo = intercept(foo, {
-      beforeCall(args) {
-        assert(typeof args[1] === 'string');
-      }
-    });
-    ```
+```javascript
+const foo = intercept(foo, {
+  beforeCall(args) {
+    assert(typeof args[1] === 'string');
+  }
+});
+```
 
 #### batch
 

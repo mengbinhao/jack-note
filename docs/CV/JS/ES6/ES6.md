@@ -35,6 +35,7 @@
   - 形式：`const { x, y } = { x: 1, y: 2 }`
   - 默认：`const { x, y = 2 } = { x: 1 }`
   - 重命名：`const { x, y: z } = { x: 1, y: 2 }`
+  - `;({ name: user.name, email: user.email, ...userDetails } = obj)`
   
 - 数组解构
 
@@ -195,14 +196,15 @@ const sortNumbers = (...numbers) => numbers.sort()
 
 #### 箭头函数
 
-1. 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若上级是箭头函数继续往上找), call、apply、bind也无法改变
-2. 不能用作构造函数
-3. 没有原型对象
-4. 没有自己的 super 和 new.target 绑定
-5. 没有 arguments,但有...
-6. 形参名称不能重复
-7. 不可用 yield,因此不能用 Generator 函数
+1. 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若上级是箭头函数继续往上找), 作用域是栈内存不是堆内存
+2. 不能改变this绑定,即使通过call、apply、bind
+3. 不能用作构造函数
+4. 没有原型对象
+5. 没有自己的 super 和 new.target 绑定
+6. 没有 arguments,但有...
+7. 形参名称不能重复
 8. 返回对象时必须在对象外面加上括号
+9. 不可用 yield,因此不能用 Generator 函数
 
 ### Symbol
 
@@ -315,7 +317,7 @@ const sortNumbers = (...numbers) => numbers.sort()
   - 单独导出：`export const name = "Jack"`
   - 按需导出：`export { age, name, sex }`(推荐)
   - 改名导出：`export { name as newName }`
-  
+
 - import
   - 默认导入：`import anyName from "module1"`
   - 整体导入：`import * as Person from "module1"`
@@ -324,7 +326,7 @@ const sortNumbers = (...numbers) => numbers.sort()
   - 自执导入：`import "module1"`
   - 引入文件：`import "xxxx.js"`
   - 复合导入：`import anyName, { name } from "module1"`
-  
+
 - 复合模式
 
 - CommonJS（同步） vs ESM（浏览器、服务器）
@@ -339,14 +341,14 @@ const sortNumbers = (...numbers) => numbers.sort()
       // Named export/import
       export { sum }
       import { sum } from 'sum'
-      
+    
       // Default export/import
       export default sum
       import sum from 'sum'
-      
+    
       //CommonJS中，导入导出的只有一种
       module.exports = sum
-      
+    
       //exports仅仅是module.exports的引用而已
       //exports = module.exports
       // 以下两个是等价的
@@ -382,7 +384,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     	a,
     	b,
     }
-    
+
     // main.js
     let { a, b } = require('./a')
     console.log(a, b)
@@ -401,7 +403,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     	b = { num: 2 }
     }, 200)
     export { a, b }
-    
+
     // main.mjs
     import { a, b } from './a.mjs'
     console.log(a, b)
@@ -423,7 +425,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     }, 100)
     export { x }
     export default y
-    
+
     // main.mjs
     import y, { x } from './a.mjs'
     setTimeout(() => {
@@ -441,7 +443,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     export function get() {
       return count
     }
-    
+
     // main.mjs
     import { count, add, get } from './a.mjs'
     console.log(count)  // 1
@@ -463,7 +465,7 @@ const sortNumbers = (...numbers) => numbers.sort()
         return count
       },
     }
-    
+
     // main.js
     const { count, add, get } = require('./a')
     console.log(count)  // 1
@@ -476,7 +478,7 @@ const sortNumbers = (...numbers) => numbers.sort()
 
     - CommonJS使用的是**模块缓存**
       - 对应值得拷贝 -> 开辟新的内存
-      
+
     - ESM使用的**模块记录**
 
       ```javascript
@@ -485,12 +487,12 @@ const sortNumbers = (...numbers) => numbers.sort()
       const bar = require('./bar.js')
       console.log('当前是main.js内:', bar) // {}
       module.exports = '在main.js内'
-      
+    
       // bar.js
       const main = require('./main.js')
       console.log('当前是bar.js内:', main)
       module.exports = 'bar.js内'
-      
+    
       // 执行 node ./main.js  ， 输出：
       当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
       当前是main.js内: bar.js内
@@ -502,12 +504,12 @@ const sortNumbers = (...numbers) => numbers.sort()
       const bar = require('./bar.js')
       console.log('当前是main.js内:', bar) // {}
       module.exports = '在main.js内'
-      
+    
       // bar.js
       const main = require('./main.js')
       console.log('当前是bar.js内:', main)
       module.exports = 'bar.js内'
-      
+    
       // 执行 node ./main.js  ， 输出：
       当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
       当前是main.js内: bar.js内
@@ -523,7 +525,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     - defer 异步加载：`<script src="" defer></script>`(顺序加载,渲染完再执行)
     - async 异步加载：`<script src="" async></script>`(乱序加载,下载完就执行)
   - 模块加载：`<script type="module" src=""></script>`(默认是defer加载)
-  
+
 - import()：动态导入
   - require()同步加载，import()异步加载
   - 按需加载、条件加载、模块路径动态化

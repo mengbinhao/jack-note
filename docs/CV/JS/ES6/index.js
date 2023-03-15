@@ -170,12 +170,13 @@ const curry = function (fn) {
 
 //add(1, 2, 3) => fn = curryAdvanced(add, 1) => fn(2,3)
 const curryAdvanced = function (fn, ...args) {
+	//let that = this
 	return function (...newArgs) {
 		let innerArgs = [...args, ...newArgs]
 		if (innerArgs.length >= fn.length) {
 			return fn.apply(null, innerArgs)
 		} else {
-			return curryAdvanced.call(null, fn, ...innerArgs)
+			return curryAdvanced.apply(null, fn, innerArgs)
 		}
 	}
 }
@@ -244,7 +245,7 @@ const once = (fn) => {
 	}
 }
 
-const flatten1 = (arr) => {
+const _flat1 = (arr) => {
 	let tmp = arr
 	while (tmp.some((item) => Array.isArray(item))) {
 		tmp = [].concat(...tmp)
@@ -252,7 +253,7 @@ const flatten1 = (arr) => {
 	return tmp
 }
 
-const flatten2 = (arr) => {
+const _flat2 = (arr) => {
 	return arr.reduce(
 		//Array.isArray(cur) ? [...acc, ...flatten3(cur)] : [...acc, cur],
 		(acc, cur) => acc.concat(Array.isArray(cur) ? flatten2(cur) : cur),
@@ -260,7 +261,7 @@ const flatten2 = (arr) => {
 	)
 }
 
-const flatten3 = (arr, depth = 1) => {
+const _flat3 = (arr, depth = 1) => {
 	return depth > 0
 		? arr.reduce(
 				(acc, cur) =>
@@ -387,6 +388,8 @@ const simulateAJAX = (options) => {
 	xhr.onerror = function () {
 		//xhr.statusText
 	}
+	//xhr.timeout = 3000
+	xhr.ontimeout = function () {}
 	xhr.responseType = 'json'
 	let postData = []
 	Object.keys(options.data).forEach((key) => {

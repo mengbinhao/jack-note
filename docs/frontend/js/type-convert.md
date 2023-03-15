@@ -5,23 +5,23 @@
 ![](../images/typeconvert-1.png)
 
 
-### 显示强制类型转换
+### 显式强制类型转换
 #### 1 `ToPrimitive(obj[,type])`
 - `type`为`string`
 
-> 先调用obj的toString方法,如果为原始值,则返回,否则进行第2步
+> 调用obj的toString方法,如果为原始值,则返回,否则进行第2步
 >
 > 调用obj的valueOf方法,如果为原始值,则返回,否则进行第3步
 >
-> 否则,抛出错误
+> 抛出错误
 
 - `type`为`number`
 
-> 先调用obj的valueOf方法,如果为原始值,则返回,否则进行第2步
+> 调用obj的valueOf方法,如果为原始值,则返回,否则进行第2步
 >
 > 调用obj的toString方法,如果为原始值,则返回,否则进行第3步
 >
-> 否则,抛出错误
+> 抛出错误
 
 - `type`参数为空
 > 该对象为Date,则默认转换成string类型
@@ -38,34 +38,34 @@
 
 - String => 返回字符串值
 - Number => 返回数字值
-- Date => 返回一个数字，即时间值,字符串中内容是依赖于具体实现的
+- Date => 返回一个数字，即时间值,字符串中内容是依赖于具体实现
 - Boolean => 返回Boolean的this值
 - Array => 默认返回自身
-- Object => 默认返回自身 我们可以通过重写对象的valueOf方法来让它返回我们想要的结果
+- Object => 默认返回自身，可以通过重写对象的valueOf方法来让它返回我们想要的结果
 
-#### 3. Number
+#### 4. Number
 Number运算符转换规则:
 
-- null 转换为0
-- undefined 转换为NaN
-- true转换为1, false转换为0
-- 字符串转换时遵循数字常量转换规则,转换失败返回NaN
+- `null` 转换为0
+- `undefined` 转换为`NaN`
+- `true`转换为1, `false`转换为0
+- 字符串转换时遵循数字常量转换规则,转换失败返回`NaN`
 - 如果要调用Number方法转换对象,则会调用ToPrimitive转换,type指定为number
 
 #### 4. String
 String 运算符转换规则
 
-- null 转换为 'null'
-- undefined 转换为 undefined
-- true 转换为 'true'，false 转换为 'false'
+- `null` 转换为`null`
+- `undefined` 转换为 `undefined`
+- `true` 转换为`true`，`false` 转换为 `false`
 - 数字转换遵循通用规则，极大极小的数字使用指数形式
 - 如果要调用String方法转换对象,则会调用ToPrimitive转换,type指定为string
 
 #### 5. Boolean
-- falsy(undefined、null、-0、0或+0、NaN、'')
+- falsy(undefined、null、-0、0或+0、NaN、''、 false)
 
-#### example
-举个栗子：后台返回值为一个字符串，内容是0 ~ 5的数字，现在使用的时候需要将参数转化为数字类型
+#### Example
+后台返回值为一个字符串，内容是0 ~ 5的数字，现在使用时需将参数转化为数字类型
 ```javascript
 // wrong
 return Number(value)
@@ -73,11 +73,11 @@ return Number(value)
 // undefined -> throw TypeError
 // 'aaa' -> NaN
 
-// right 前面是剔除掉 '' undefined ，后面可以剔除掉NaN的类型
+// 前面是剔除掉''、undefined ，后面剔除掉NaN的类型
 if (value && Number(value) >= 0) {
-    return Number(value);
+  return Number(value)
 } else {
-    return null;
+  return null
 }
 ```
 #### 浮点数转换成整型
@@ -85,11 +85,10 @@ if (value && Number(value) >= 0) {
 
 #### **转换 trick**
 ```javascript
-var myVar = '3.1415'
+let myVar = '3.1415'
     str = '' + myVar
     i_int = ~~myVar // to integer,对正数来说 ~~运算结果与Math.floor()运算结果相同，而对于负数来说与Math.ceil()的运算结果相同
-    
-		f_float = 1 * myVar  //or to int, then check NaN
+	  f_float = 1 * myVar  //or to int, then check NaN
     b_bool = !!myVar
     arr = [myVar]
 
@@ -97,17 +96,17 @@ var myVar = '3.1415'
     1.3 | 0 //number to integer,对正数来说 ~~运算结果与Math.floor()运算结果相同，而对于负数来说与Math.ceil()的运算结果相同
     !!(num & 1) //check if odd number or not
 
-		//字符串比较时间先后大小是按照字符串从左到右每个字符的charCode来的，所以特别要注意时间形式注意补0
-    '21:00' < '09:10'
-    '21:00' < '9:10'
+//字符串比较时间先后大小是按照字符串从左到右每个字符的charCode来的，所以特别要注意时间形式注意补0
+'21:00' < '09:10'
+'21:00' < '9:10'
 ```
 
 关于值的比较，当我们只关心值是否正常时，比较靠谱的方法：正则表达式，上面的例子也可以这样来
 ```javascript
 if (/[0-5]/.test(value)) {
-    return Number(value);
+  return Number(value)
 } else {
-    return null;
+  return null
 }
 ```
 
@@ -142,19 +141,19 @@ if (/[0-5]/.test(value)) {
 
 ### 对象转换为原始值
 #### 对象转换为字符串 String(Object)
-1. 当对象具有toString()会优先调用；
-2. 如果没有toString()方法，或者toString()没有返回一个原始值，则会调用valueOf()方法；
-3. 无法从toString()和valueOf()获取原始值的时候，则会抛出一个类型错误异常。
+1. 当对象具有toString()会优先调用
+2. 如果没有toString()方法，或者toString()没有返回一个原始值，则会调用valueOf()方法
+3. 无法从toString()和valueOf()获取原始值的时候，则会抛出一个类型错误异常
 ```javascript
 String([1,2,3])  // "1,2,3"
-String(function(x) {return x+1;})  // "function(x) {return x+1;}"
+String(function(x) {return x+1})  // "function(x) {return x+1;}"
 String("/\d+/g") // "/\d+/g"
 String(new Date(2019,4,14)) // "Tue May 14 2019 00:00:00 GMT+0800 (中国标准时间)"
 ```
 #### 对象转换为数字 Number(Object)
-1. 当对象具有valueOf()会优先调用；
-2. 如果没有valueOf()方法，或者valueOf()没有返回一个原始值，则会调用toString()方法；
-3. 无法从toString()和valueOf()获取原始值的时候，则会抛出一个类型错误异常。
+1. 当对象具有valueOf()会优先调用
+2. 如果没有valueOf()方法，或者valueOf()没有返回一个原始值，则会调用toString()方法
+3. 无法从toString()和valueOf()获取原始值的时候，则会抛出一个类型错误异常
 ```javascript
 Number([1,2,3])  // NaN 原始类型
 Number(function(x) {return x+1;})  // NaN
@@ -164,4 +163,4 @@ Number(new Date(2019,4,14)) // 1557763200000
 
 **当判断两个数组是否相等时，可以简单的将其转换为String类型进行比较**
 
-**当判断两个对象是否相等时，就需要借助其他工具来完成了[lodash](https://lodash.com/docs/4.17.11#isEqual)**
+**当判断两个对象是否相等时，就需要借助其他工具, 比如[lodash](https://lodash.com/docs/4.17.11#isEqual)**

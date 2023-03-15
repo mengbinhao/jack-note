@@ -35,7 +35,8 @@
   - 形式：`const { x, y } = { x: 1, y: 2 }`
   - 默认：`const { x, y = 2 } = { x: 1 }`
   - 重命名：`const { x, y: z } = { x: 1, y: 2 }`
-
+  - `;({ name: user.name, email: user.email, ...userDetails } = obj)`
+  
 - 数组解构
 
   ```javascript
@@ -195,14 +196,15 @@ const sortNumbers = (...numbers) => numbers.sort()
 
 #### 箭头函数
 
-1. 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若上级是箭头函数继续往上找), call、apply、bind也无法改变
-2. 不能用作构造函数
-3. 没有原型对象
-4. 没有自己的 super 和 new.target 绑定
-5. 没有 arguments,但有...
-6. 形参名称不能重复
-7. 不可用 yield,因此不能用 Generator 函数
+1. 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若上级是箭头函数继续往上找), 作用域是栈内存不是堆内存
+2. 不能改变this绑定,即使通过call、apply、bind
+3. 不能用作构造函数
+4. 没有原型对象
+5. 没有自己的 super 和 new.target 绑定
+6. 没有 arguments,但有...
+7. 形参名称不能重复
 8. 返回对象时必须在对象外面加上括号
+9. 不可用 yield,因此不能用 Generator 函数
 
 ### Symbol
 
@@ -245,7 +247,7 @@ const sortNumbers = (...numbers) => numbers.sort()
   		return this._name
   	},
   }
-
+  
   handler = {
     //读取未知属性报错、读取数组负数索引的值、封装链式操作、生成DOM嵌套节点
   	get(target, key, receiver) {
@@ -267,14 +269,14 @@ const sortNumbers = (...numbers) => numbers.sort()
     //拦截函数
   	apply() {},
   }
-
+  
   const userProxy = new Proxy(user, handler)
-
+  
   let admin = {
   	__proto__: userProxy,
   	_name: 'Admin',
   }
-
+  
   console.log(admin.name)
   ```
 
@@ -339,14 +341,14 @@ const sortNumbers = (...numbers) => numbers.sort()
       // Named export/import
       export { sum }
       import { sum } from 'sum'
-
+    
       // Default export/import
       export default sum
       import sum from 'sum'
-
+    
       //CommonJS中，导入导出的只有一种
       module.exports = sum
-
+    
       //exports仅仅是module.exports的引用而已
       //exports = module.exports
       // 以下两个是等价的
@@ -485,12 +487,12 @@ const sortNumbers = (...numbers) => numbers.sort()
       const bar = require('./bar.js')
       console.log('当前是main.js内:', bar) // {}
       module.exports = '在main.js内'
-
+    
       // bar.js
       const main = require('./main.js')
       console.log('当前是bar.js内:', main)
       module.exports = 'bar.js内'
-
+    
       // 执行 node ./main.js  ， 输出：
       当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
       当前是main.js内: bar.js内
@@ -502,12 +504,12 @@ const sortNumbers = (...numbers) => numbers.sort()
       const bar = require('./bar.js')
       console.log('当前是main.js内:', bar) // {}
       module.exports = '在main.js内'
-
+    
       // bar.js
       const main = require('./main.js')
       console.log('当前是bar.js内:', main)
       module.exports = 'bar.js内'
-
+    
       // 执行 node ./main.js  ， 输出：
       当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
       当前是main.js内: bar.js内

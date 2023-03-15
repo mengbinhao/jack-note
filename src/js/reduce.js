@@ -1,39 +1,14 @@
-### tools
+//将数组中VIP用户余额加10
+let accounts = [
+	{ username: 'Kelly', isVIP: true, balance: 20 },
+	{ username: 'Tom', isVIP: false, balance: 10 },
+	{ username: 'Stephanie', isVIP: true, balance: 30 },
+]
+accounts.map((account) =>
+	account.isVIP ? { ...account, balance: account.balance + 10 } : account
+)
 
-- 生成由随机整数组成的数组，数组长度和元素大小可自定义
-
-```javascript
-const genNumArr = (length, limit) =>
-  Array.from({ length }, _ => Math.floor(Math.random() * limit))
-genNumArr(10, 100)
-```
-
-- flat
-
-```javascript
-const flatten = (arr) =>
-	arr.reduce(
-    //Array.isArray(cur) ? [...acc, ...flatten3(cur)] : [...acc, cur],
-		(flat, next) => flat.concat(Array.isArray(next) ? flatten(next) : next),
-		[]
-	)
-
-const flatten3 = (arr, depth = 1) => {
-	return depth > 0
-		? arr.reduce(
-				(acc, cur) =>
-					Array.isArray(cur)
-						? [...acc, ...flatten3(cur, depth - 1)]
-						: [...acc, cur],
-				[]
-		  )
-		: arr
-}
-```
-
-- 将下面数组转成对象，key/value 对应里层数组的两个值
-
-```javascript
+//arrLikeObj to obj
 let objLikeArr = [
 	['name', 'Jim'],
 	['age', 18],
@@ -46,28 +21,35 @@ let fromPairs = (pairs) => {
 		return acc
 	}, {})
 }
-```
 
-- 取出对象中的深层属性
+//重新生成对象{item.value: item.email}
+let array = [
+	{ name: '大漠', email: 'w3cplus@gmail.com' },
+	{ name: '大雉', email: 'airen@gmail.com' },
+]
+let result = array.reduce((acc, item) => {
+	return {
+		...acc,
+		[item.name]: item.email,
+	}
+}, {})
 
-```javascript
+//get deepAttr
 let deepAttr = { a: { b: { c: 15 } } }
 
 let pluckDeep = (path) => (obj) =>
 	path.split('.').reduce((acc, attr) => acc[attr], obj)
 
-pluckDeep('a.b.c')(deepAttr)
-```
+console.log(pluckDeep('a.b.c')(deepAttr))
 
-- 将用户中的男性和女性分别放到不同的数组里
-
-```javascript
+//get two arrays according to check condition
 let users = [
 	{ name: 'Adam', age: 30, sex: 'male' },
 	{ name: 'Helen', age: 27, sex: 'female' },
 	{ name: 'Amy', age: 25, sex: 'female' },
 	{ name: 'Anthony', age: 23, sex: 'male' },
 ]
+
 let partition = (arr, checkCondition) => {
 	return arr.reduce(
 		([pass, fail], item) =>
@@ -75,13 +57,14 @@ let partition = (arr, checkCondition) => {
 		[[], []]
 	)
 }
+
 let isMale = (person) => person.sex === 'male'
+
 let [maleUser, femaleUser] = partition(users, isMale)
-```
 
-- 生成树形对象结构
+console.log(maleUser, femaleUser)
 
-```javascript
+//生成树形对象结构
 const nest = (items, id = null, link = 'parent_id') =>
 	items
 		.filter((item) => item[link] === id)
@@ -96,5 +79,3 @@ const comments = [
 ]
 
 const nestedComments = nest(comments)
-```
-

@@ -17,16 +17,13 @@ Car.prototype.playMusic = function () {
 }
 
 Car.prototype = new Vehicle()
+Car.prototype.constructor = Car
 
 var car = new Car('BMW')
 //1 多个实例对引用类型的操作会被篡改,new Vehicle()上面的components
-//var car2 = new Car(8); car2.components.push('lamp'); console.log(car1.components)
 //2 子类型上的constructor是new Vehicle().prototype上的constructor
-//Car.prototype.constructor = Car,new Vehicle()上添加属性
-//3 创建子类实例时无法向父类构造函数传参
-//car.powerSource = 'gasoline'
-//4 给子类型原型添加属性和方法必须在替换原型之后
-//Car.prototype = new Vehicle()重写了原型对象
+//3 创建子类实例时无法向父类构造函数传参 car.powerSource = 'gasoline'
+//4 给子类型原型添加属性和方法必须在替换原型之后,因为重写了Car的原型对象
 
 //借用构造函数
 //Vehicle.call(this, 'gasoline')
