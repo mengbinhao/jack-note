@@ -1,4 +1,5 @@
 - 2022.3.7
+
   - stiff adj/v
 
   > Rising inflation means that your twenty dollars just don't get you as much as it used to
@@ -6,6 +7,7 @@
   > Families are spending nearly four hundred dollars more a month this year than they did last year on the same goods and services because of inflation
 
 - 2022.3.1
+
   - aggravate vt
   - bowl n/v
 
@@ -13,14 +15,17 @@
   > but we are in much better shape than we were two months ago
 
 - 2022.2.24
+
   - sorrow n
 
 - 2022.2.10
+
   - former adj | formerly
   - luncheon n
   - evolve
 
 - 2022.2.9
+
   - freeway n
   - shrimp n/vi/adj
   - snow | snowy
@@ -30,6 +35,7 @@
   > Let me be absolutely clear, We are not going to let that happen
 
 - 2022.2.7
+
   - infuse v
   - diffuse v/adj
   - refuse v | refusal n
@@ -44,17 +50,21 @@
   > We are happy with the roles that we are in
 
 - 2022.2.6
+
   - brag v
 
 - 2022.2.2
+
   - mindset n
 
 - 2022.2.1
+
   - testy adj
 
   > and it was willing to accept some waste
 
 - 2022.1.28
+
   - prick vt/n | prick adj
   - fool v/n
 
@@ -62,145 +72,180 @@
   > So that was top of everyone's minds yesterday
 
 - 2022.1.13
+
   - junior | senior | seniority
   - allot vt
 
   > Basically, It dates back to xxx
   > and to keep lawyers to time
-ss
+  > ss
+
 - 2022.1.12
+
   - commute n/v
 
 - 2022.12.13
+
   - turbulent adj
 
   > Hundreds of companies went under
 
 - 2022.12.12
+
   - shutter n
   - sour adj/v
 
 - 2022.12.7
+
   - slope n/v
 
 - 2022.12.4
+
   - hurry n/vt
   - select | selective
   - dip v
 
 - 2022.12.2
+
   - straight adj/adv
 
   > get nowhere
 
 - 2022.12.1
+
   - subdue vt
 
   > Controversy took center stage and football risked becoming a sideshow
   > I've held off on buying, but my resolve is weakening
 
 - 2022.11.28
+
   - tourney n | tournament n
 
 - 2022.11.23
+
   - capsule n
   - splash v
   - scrub v
 
 - 2022.11.17
+
   - tyranny n
 
   > he went big and vacated the entire program
   > Actually, the plan ran into a wall late yesterday
 
 - 2022.11.14
+
   - distort v
   - warfare n
 
   > by and large
 
 - 2022.11.9
+
   - graze v
   - dial n/v
 
 - 2022.11.7
+
   - shortcoming n
 
 - 2022.11.2
+
   - workforce n
 
   > The feeling of abandonment runs deep here
 
 - 2022.10.31
+
   - nickname n
 
   > There's money to be made, Let's not dance around that
   > The contrast is very stark
 
 - 2022.10.27
+
   - pathway n
 
 - 2022.10.25
+
   - score n/v
 
 - 2022.10.21
+
   - digest v
   - feast n/v
   - weed n/v
 
 - 2022.10.20
+
   - surveil vt | surveillance n
 
 - 2022.10.17
+
   - disable | enable
 
 - 2022.10.13
+
   - playground n
 
 - 2022.10.11
+
   - autumn | fall
   - spice n/vt
   - equator n
 
 - 2022.10.10
+
   - dock n/v
   - precision adj
 
 - 2022.10.9
+
   - collision n
 
 - 2022.10.8
+
   > make no mistake 毫无疑问
   > XXX can read the room and learn from xxx's mistakes
 
 - 2022.9.29
+
   - thrash v
 
 - 2022.9.22
+
   - cathedral n
 
 - 2022.9.20
+
   - frontier n/adj
 
   > xxx is becoming less and less likely
 
 - 2022.9.16
+
   - companion n
   - ascend v
 
 - 2022.9.15
+
   - glue n/vt
 
 - 2022.9.7
+
   > I believe American is at an inflection point, one of those moments that determine the shape of everything that's to come after
 
 - 2022.9.6
+
   - fascinate vt | fascination
 
   > Cost can be a barrier where there are day use fees
   > xxx really make us have to constantly focus our attention to kind of navigate around those obstacles
 
 - 2022.8.29
+
   - propagate v
   - concept | conception | misconception
   - cosmic adj
@@ -212,14 +257,17 @@ ss
   > They haven't risen enough to **keep pace** with inflation
 
 - 2022.8.27
+
   - imitate vt
   - melody n
   - intonation n
 
 - 2022.8.23
+
   - despise vt
 
 - 2022.8.18
+
   - hunger n/v | hungry adj
   - detract v | detractor n | critic | supporter
   - secondary adj
@@ -229,31 +277,38 @@ ss
   - dwell vi
 
 - 2022.8.17
+
   - chess n
 
 - 2022.8.16
+
   - receipt n/vt
 
 - 2022.8.15
+
   - reel n/v
   - evict vt | eviction
 
   > With no end in sight
 
 - 2022.8.9
+
   - layoff n
 
 - 2022.8.8
+
   - imminent adj
   - whirl v
   - tutor vt/n
 
 - 2022.8.2
+
   - accommodate vt
   - kinetic adj
   - tidal
 
 - 2022.7.25
+
   - surname n/v
   - purify v
   - shuffle | reshuffle
@@ -262,10 +317,12 @@ ss
   > How far they go is the unknown here
 
 - 2022.7.23
+
   - yummy adj/n
   - auxiliary verb | modal verb
 
 - 2022.7.22
+
   - discard n/v | discarded
   - waste n/vt | junk n | trash n/vt | litter n/v | rubbish n/adj | garbage n
   - wasteful adj | wasteland n
@@ -273,11 +330,13 @@ ss
   - door knob n | vanity n | hallway n | water fountain n
 
 - 2022.7.20
+
   - born | unborn
 
   > There are several factors behind rising home price and the record high costs of rent
 
 - 2022.7.19
+
   - judge | judgement
   - homemade adj
   - coalition n
@@ -285,6 +344,7 @@ ss
   > XXX cautioned us that we need to reserve judgement and not point fingers until more details of this case become clear
 
 - 2022.7.18
+
   - magic n/adj/v | magician
   - music | musician
   - exhibit v/n | exhibition n
@@ -294,13 +354,16 @@ ss
   - Saturn n
 
 - 2022.7.12
+
   - lumber n/v
 
 - 2022.7.11
+
   - species n
   - instinct n
 
 - 2022.7.8
+
   - bacteria n
   - molecule n
   - headset n
@@ -313,9 +376,11 @@ ss
   > but they are still stretched very thin
 
 - 2022.7.5
+
   - snore n/vi
 
 - 2022.7.4
+
   - algorithm | algorithmic
   - compute n/v
 
@@ -323,6 +388,7 @@ ss
   > Price spiking and crashing
 
 - 2022.7.1
+
   - neat adj
   - zeal n
   - novice n
@@ -330,17 +396,20 @@ ss
   > A golden vision of hop on the horizon
 
 - 2022.6.30
+
   - brew vt/n | beer
 
   > I mean, it remains to be seen. They would like to
   > We're in the early days here
 
 - 2022.6.29
+
   - appall vt | appalled
   - embody vt
   - congress | congressional
 
 - 2022.6.28
+
   - sphere n/vt/adj | hemisphere n
   - atmosphere n | atmospheric adj
   - gigantic adj
@@ -349,10 +418,12 @@ ss
   > You had the sense that it was something quite historic
 
 - 2022.6.27
+
   > but he did stop short of endorsing it until it's all put into writing
   > xxx weren't going to weight on in it until they see the full bill
 
 - 2022.6.13
+
   - lethal adj/n
   - dove n
   - ranch n
@@ -361,6 +432,7 @@ ss
   > get rid of
 
 - 2022.6.10
+
   - tier n/v
   - ideal adj/n | idealize v
 
@@ -371,11 +443,13 @@ ss
   > And those all are set up so that they can chill dissent, silence dissent, and either imprison or drive into exile the people who refuse to be quiet
 
 - 2022.6.8
+
   - sensation n
 
-   > It's one of those things that you wouldn't choose to repeat but donn't regret
+  > It's one of those things that you wouldn't choose to repeat but donn't regret
 
 - 2022.6.1
+
   - infant n
   - Atlantic n/adj
 
@@ -386,6 +460,7 @@ ss
   > Evil swept across xxx yesterday. To say the least, xxx has been shaken to its core
 
 - 2022.5.31
+
   - brittle adj
   - harbor n
 
@@ -395,10 +470,12 @@ ss
   > people shop around more
 
 - 2022.5.30
+
   - atheist n
   - eloquent adj
 
 - 2022.5.19
+
   - console n/vt
   - vein n
 
@@ -407,6 +484,7 @@ ss
   > xxx at every turn
 
 - 2022.5.16
+
   - brainwash n/v | whitewash n/vt
   - dynasty n
   - uprise n/vi
@@ -417,16 +495,19 @@ ss
   > What that illustrates is how facts just don't seem to matter here
 
 - 2022.5.12
+
   - canteen n
   - ballet n
   - bark n/v
 
 - 2022.5.11
+
   > The cost of living in America has gone up significantly over the past year as prices on the things we buy have reminiscent
   > The thinking goes that xxx
   > That's what's behind its decision on Wednesday to raise interest rates
 
 - 2022.5.10
+
   - curriculum n
   - respondent n
 
@@ -440,14 +521,17 @@ ss
   > What pronouns do you prefer to use to refer to yourself?
 
 - 2022.5.9
+
   - buzz v/n
   - ownership n
 
 - 2022.5.7
+
   > We need contribute xxx to make their courage and sacrifice have purpose
   > to date
 
 - 2022.5.6
+
   - union n | unionize
   - crust n/v
   - patent vt/adj/n
@@ -464,6 +548,7 @@ ss
   > So that is dragging on
 
 - 2022.4.25
+
   - in'finitive | sub'junctive | The present/past 'participle | the helping verb
   - inter'mediate
   - adjacent adj
@@ -471,6 +556,7 @@ ss
   > They weren't laid off or fired
 
 - 2022.4.20
+
   - jump n/v | hop n/v
   - flux n
 
@@ -479,9 +565,11 @@ ss
   > In normal times, you would be screaming from the rooftops
 
 - 2022.4.19
+
   > Is there a silver lining to this?
 
 - 2022.4.18
+
   - radiate v | radiation
   - dazzle n/v
   - particle n
@@ -489,23 +577,29 @@ ss
   - coronal n/adj
 
 - 2022.4.15
+
   - possible | impossible
 
 - 2022.4.14
+
   - runoff n/adj
 
 - 2022.4.12
+
   > It's defined as xxx
   > The rapid raise in prices for the things we buy has grown by its fastest pace in 40 years
 
 - 2022.4.11
+
   - powder n/v
   - junction n
 
 - 2022.4.8
+
   - adore vt
 
 - 2022.4.7
+
   - gracious adj
   - sweat n/v
   - whichever
@@ -514,11 +608,13 @@ ss
   > you put everything you have into them, to have other people recognize it
 
 - 2022.4.6
+
   - talent | talented
   - longing n/adj
   - curly adj
 
 - 2022.4.2
+
   - redemption n
   - ingenious adj | inventive adj
   - cereal n
@@ -534,11 +630,13 @@ ss
   > It was hard for us to absorb
 
 - 2022.4.1
+
   - contempt n
 
   > xxx start in may, and they're going to stretch into summer
 
 - 2022.3.30
+
   - curl n/v
   - sperm n
   - plug n/v
@@ -549,21 +647,25 @@ ss
   > I never thought I'd be here.....Hmmm, me either
 
 - 2022.3.29
+
   - broom n/vt
   - anecdote n
   - snack n/vi
   - dread n/v/adj
 
 - 2022.3.28
+
   - marathon n/vi/adj
 
 - 2022.3.25
+
   - tray n
   - leisure n/adj
 
   > Mirroring the cost of gas, it's taken off over the past year
 
 - 2022.3.24
+
   - deficient adj | deficiency n
   - buckle n/v | unbuckle
   - prone adj
@@ -573,6 +675,7 @@ ss
   > in the direction again the wind
 
 - 2022.3.22
+
   - butt n
   - library n
   - massage n
@@ -586,6 +689,7 @@ ss
   > I'm trained for nothing
 
 - 2022.3.21
+
   - dislike n/vt
   - genius n
   - payment n | nonpayment | repay v
@@ -599,6 +703,7 @@ ss
   > XXX is in a bind
 
 - 2022.3.15
+
   - ease n/v
   - lease n/v
   - release n/vt
@@ -606,14 +711,17 @@ ss
   - tease n/vt
 
 - 2022.3.9
+
   - freak n | freaked out
   - superficial adj | superficially
   - extinguish vt
 
 - 2022.3.8
+
   - sob n/v | sober adj/vt
 
 - 2022.3.4
+
   - sleep | sleepy adj
   - howl n/v
 
@@ -622,6 +730,7 @@ ss
   > If it's a 50-50 split, Vice President could break the tie
 
 - 2022.3.4
+
   - commence v
   - purchase n/v
   - finance n/v | financier n
@@ -630,38 +739,46 @@ ss
   > xxx erupted into applause
 
 - 2022.3.3
+
   - sweeten v
 
   > No prosecutor's been willing to take on that fight
 
 - 2022.3.2
+
   - hover vi
 
 - 2022.2.24
+
   - whisper n/v | mumble n/v | enunciate vt | chat | chatter n/v | yell n/v | scream | whine n/v | ramble n/v | curse n/v | potty month
   - currency n
 
 - 2022.2.23
+
   > Just tell us what went down
   > This case will center on it
   > So I want to pivot
   > It's a very different story
 
 - 2022.2.18
+
   - reign n/vi
   - sovereign n | sovereignty
   - radioactive adj
 
 - 2022.2.16
+
   - bench n
   - raw adj
   - elevate vt | elevated | elevation | elevator
 
 - 2022.2.15
+
   - acid n/adj
   - coat n/v
 
 - 2022.2.14
+
   - withstand vt | notwithstanding prep
   - calculation | miscalculation n
   - crystal n/adj
@@ -670,58 +787,71 @@ ss
   > XXX be crystal clear on this point
 
 - 2022.2.11
+
   > Didn't that already happen?
   > my gosh, high drama
 
 - 2022.2.10
+
   > The two sides seem to be really talking past one another
   > Speaking of that
 
 - 2022.2.8
+
   > The majority of Americans agree across the board, regardless of partisanship
   > all of a sudden
 
 - 2022.2.7
+
   > I'll take you back to last spring
   > Every single emotion that you could imagine just running through your body at that moment
 
 - 2021.12.29
+
   - noon n
 
 - 2021.12.28
+
   - bold adj | boldly adv
   - mammal n
   - accident n
   - dolphin n
 
 - 2021.12.25
+
   - pinch v/n
 
   > Every cent counts
 
 - 2021.12.23
+
   - rehearsal n
   - interrupt v | interrupted
 
 - 2021.12.21
+
   - enhance vt | enhancement
 
   > It's not too much from their perspective
   > He's just not there yet
 
 - 2021.12.17
+
   - describe v | describable | indescribable
 
 - 2021.12.16
+
   - belt n
   - mud n | muddy v/adj
   - muddle n/v | muddled adj
   - flow v
 
 - 2021.12.10
+
   - behalf n
 
 - 2021.12.9
+
   - develop v | development n
   - ship n/v | shipment n
   - honey n/v/adj
@@ -729,21 +859,26 @@ ss
   - insect n
 
 - 2021.12.4
+
   > for the time being
 
 - 2021.12.3
+
   - cement n
   - captive n/adj
 
 - 2021.12.2
+
   - stance n
   - instance n
   - substance n
 
 - 2021.12.1
+
   - random adv | randomly
 
 - 2021.11.30
+
   - cab n/vi
   - dense adj
   - smog n
@@ -753,10 +888,12 @@ ss
   - haze n/v
 
 - 2021.11.29
+
   - chalk n/v/adj
   - retell vt
 
 - 2021.11.26
+
   - dedicate vt | dedicated
   - lend v
   - blend vt/n
@@ -765,6 +902,7 @@ ss
   > I want to break it down a little bit for you
 
 - 2021.11.24
+
   - tape n/v
   - tap n/vt | untapped adj
   - coverage n
@@ -773,9 +911,11 @@ ss
   > It appears on track to pass
 
 - 2021.11.22
+
   > It remains unknown
 
 - 2021.11.17
+
   - surface n/v/adj
   - nowhere n/adj/adv
   - trap n/vt | trapped
@@ -784,36 +924,45 @@ ss
   - separable adj | inseparable adj
 
 - 2021.11.16
+
   - wire n/v
 
 - 2021.11.15
+
   - extinct vt/adj | extinction
 
   > XXX has stepped up a lot of pressure
 
 - 2021.11.12
+
   - lag n/v/adj
 
 - 2021.11.9
+
   - midterm adj
 
 - 2021.11.8
+
   - hinge n/vt
   - outlaw n/vt
 
 - 2021.11.4
+
   > That's a giant step forward
   > close the gap
 
 - 2021.11.3
+
   - outlier n
 
 - 2021.11.2
+
   > They're all within our reach
   > There's complicated twists and turns
   > Macron was enraged to the point where he recalled France's ambassador to the US
 
 - 2021.11.1
+
   - adolescent n/adj
   - outlook n/v
   - headache n | chill n/vt/adj | ache n/vi | sore adj/n | cough n/v | sneeze n/v
@@ -822,16 +971,20 @@ ss
   > from my perspective
 
 - 2021.10.29
+
   - envoy n
 
 - 2021.10.28
+
   - blot n/v
   - attain n/v
 
 - 2021.10.27
+
   - fluctuate vi
 
 - 2021.10.26
+
   - option | optional
   - segment n/v
   - simple adj | simplify vt
@@ -840,42 +993,51 @@ ss
   > So stay tuned on that score
 
 - 2021.10.25
+
   - stalk n/v
   - disgust n/vt | disgusting
 
 - 2021.10.21
+
   - chunk n
   - component n
   - petroleum n | gasoline n | gallon n | diesel n/adj
 
 - 2021.10.20
+
   - casual adj
   - casualty n
   - optic n/adj | optical adj
   - vertical adj
 
 - 2021.10.17
+
   > Those of types of arrests are top of mind this week
   > so just step back for a second
 
 - 2021.10.16
+
   - spy n/v
   - propulsion n
 
 - 2021.10.15
+
   - drain n/v
 
 - 2021.10.14
+
   - ink n
   - whilst conj
 
 - 2021.10.12
+
   - yolk n
   - dizzy vt/adj | dizziness
   - mixture n
   - pacific n/adj
 
 - 2021.10.11
+
   - perfect | imperfect | imperfectly
   - lodge n/v
   - common | uncommon
@@ -884,12 +1046,14 @@ ss
   > I want to make sure I'm clear on what's going on here
 
 - 2021.9.29
+
   - stunt n/v
   - stun n/vt | stunned
   - create | creative | creature n
   - recreation n
 
 - 2021.9.28
+
   - leap n/v
   - fluid n/adj
   - durable adj | durability
@@ -899,6 +1063,7 @@ ss
   > They can't just talk the talk, they actually have to walk the walk
 
 - 2021.9.27
+
   - augment n/vt
   - advise v | advisable | advisory n
   - likelihood n
@@ -909,6 +1074,7 @@ ss
   > Jack's shifted his position a lot on that
 
 - 2021.9.22
+
   - clamp n/vt
   - nowadays n
   - mood n
@@ -918,6 +1084,7 @@ ss
   - escape | escapee
 
 - 2021.9.17
+
   - frank | frankly
   - spit n/v
   - spite n/vt
@@ -928,6 +1095,7 @@ ss
   - conquer v
 
 - 2021.9.10
+
   - bond n/v
   - stubborn adj | stubbornly
   - cloud n/v
@@ -935,6 +1103,7 @@ ss
   > XXX consumed by domestic politics
 
 - 2021.9.9
+
   - napkin n
   - vulgar adj
   - bathroom | restroom
@@ -951,20 +1120,24 @@ ss
   > We need to sort that out
 
 - 2021.9.8
+
   - cluster n/v
   - lick n/v
   - paradise n
 
 - 2021.9.7
+
   - baggage n
 
 - 2021.9.6
+
   - flight n
   - delight n/v | delighted adj
   - lightheaded adj
   - slight adj/v/vt
 
 - 2021.9.3
+
   - annoy vt | annoying
   - fur n/vt
   - county n
@@ -981,28 +1154,34 @@ ss
   > They're keeping the details in the shadow
 
 - 2021.9.2
+
   - trumpet n/v
 
 - 2021.8.30
+
   - merchant n
   - perish v
   - gentle adj/vt/n
 
 - 2021.8.27
+
   - outage n | shortage n | blackout n
   - saturate vt | saturated adj
   - inch n
 
 - 2021.8.26
+
   - swear n/v
   - loom n/v
 
 - 2021.8.25
+
   - pend v | pending adj
 
   > give us the top line
 
 - 2021.8.24
+
   - basin n
   - beach n
   - yacht n
@@ -1010,23 +1189,28 @@ ss
   - pine n/vi
 
 - 2021.8.23
+
   - theme n
   - alike adj/adv
 
   > XXX seems to be trying to refocus and scale back, and he is sticking to that plan despite what has happened these past few days
 
 - 2021.8.19
+
   - ravage n/v
   - quarrel n/vi
 
 - 2021.8.18
+
   - include v | inclusive adj
   - exclude vt | exclusive adj | exclusion n | exclusionary adj
 
 - 2021.8.17
+
   - thereby adv
 
 - 2021.8.16
+
   - gum n/v
   - chew n/v
   - intrinsic adj
@@ -1034,6 +1218,7 @@ ss
   > It's his best area
 
 - 2021.8.15
+
   - accessory n
   - access | accessible adj | accessibility
   - accession n
@@ -1042,6 +1227,7 @@ ss
   > It's pretty clear that the scientists tried to make this report more accessible to the general public
 
 - 2021.8.12
+
   - stare v
 
 - 2021.8.12
@@ -1052,15 +1238,18 @@ ss
   - olive n/adj
   - scorch n/v | scorching
 
- > They burned an area three times the size of what typically burns in an average year
+> They burned an area three times the size of what typically burns in an average year
 
 - 2021.8.11
+
   - rein n
 
 - 2021.8.10
+
   - administer vt
 
 - 2021.8.9
+
   - shake n/v | shaky adj
   - smear n/v
   - credit n/vt | discredit n/vt
@@ -1070,36 +1259,43 @@ ss
   > I would expect those carry a lot of weight
 
 - 2021.8.7
+
   - coach n/v
 
   > It's not hard to lie to someone who wants to believe
 
 - 2021.8.5
+
   - wonder n/v
   - holy adj
   - adjourn v
   - obedient adj
 
 - 2021.8.4
+
   - drought n
   - tire n/v
 
 - 2021.8.3
+
   - trip n/v
   - parrot n/vt
 
   > They can break free of that cycle this time
 
 - 2021.8.2
+
   - economic adj | economical | economically
   - nostalgia n
 
   > It's more about the perception of things
 
 - 2021.7.30
+
   - bypass n/vt
 
 - 2021.7.29
+
   - fit v/adj | misfit n/vt | unfit adj/vt
   - fitness n
   - grind n/v
@@ -1111,6 +1307,7 @@ ss
   > If we don't fit that expectation of what people think we're supposed to be. That just means we're the ones who get to change it
 
 - 2021.7.28
+
   - outset n
   - spout n/v
   - cultivate vt
@@ -1120,12 +1317,14 @@ ss
   > Is xxx the last shoe to drop, or is more coming?
 
 - 2021.7.27
+
   - parachute n/v
   - gently adv
   - reusable adj
   - maze n/vt
 
 - 2021.7.23
+
   - wine n
   - ancient n/adj
   - perch n/v
@@ -1134,19 +1333,24 @@ ss
   > Dozens of people are unaccounted for
 
 - 2021.7.21
+
   - unthinkable adj
 
 - 2021.7.19
+
   - cylinder n
 
 - 2021.7.15
+
   - arise v
   - banish vt
 
 - 2021.7.14
+
   - mortal n/adk | mortally
 
 - 2021.7.13
+
   - hedge n/v
   - wedge n/v
   - edge n/v | brink n
@@ -1154,33 +1358,40 @@ ss
   - lift n/v
 
 - 2021.7.12
+
   - souvenir n/vt
 
 - 2021.7.8
+
   - bonus n
   - protract vt
 
 - 2021.7.7
+
   - corridor n
   - capture | recapture
 
   > Everything we were receiving contradicts what we've received previously
 
 - 2021.7.6
+
   - eternal adj
 
   > Rwanda is setting numbers that are off the charts for them
 
 - 2021.7.5
+
   - weight n/v
 
 - 2021.7.2
+
   - seriousness n
   - prove v | unproven
 
   > What's so shocking is the fact that it has just continued on the same tune
 
 - 2021.7.1
+
   - patient n/adj | patience n
   - rigorous adj | rigorously
   - repair n/v | disrepair
@@ -1189,18 +1400,21 @@ ss
   > It never even crossed my mind
 
 - 2021.6.30
+
   - satisfy v
   - agitate v
 
   > Timing will be a really big part of this
 
 - 2021.6.29
+
   - venture n/v | adventure n/v
 
   > So suffice it to say that xxx
   > xxx had a different view
 
 - 2021.6.28
+
   - austerity n
 
   > Which I think really captures the message he's trying to send
@@ -1208,6 +1422,7 @@ ss
   > There was a tipping point
 
 - 2021.6.26
+
   - concur vi
   - interested | uninterested
   - preexist v
@@ -1216,26 +1431,31 @@ ss
   > never say never
 
 - 2021.6.25
+
   - income n
   - victory n
   - fashion n/vt
   - race n/v
 
 - 2021.6.22
+
   - verify vt | verification
 
   > So given the depth and breadth of tensions with Moscow
 
 - 2021.6.21
+
   - quiz n
   - bottleneck n
 
 - 2021.6.20
+
   - shame n/vt | shameful adj
   - ashamed adj | unashamed
   - dispensable adj | indispensable adj/n
 
 - 2021.6.18
+
   - aside
   - seaside n/adj
   - charter n/vt | uncharted adj
@@ -1243,6 +1463,7 @@ ss
   > uncharted water
 
 - 2021.6.17
+
   - movement n
   - landmark n
 
@@ -1252,27 +1473,34 @@ ss
   > from what I understand
 
 - 2021.6.16
+
   - levy n/vt
 
 - 2021.6.15
+
   - presume v | presumption n | presumptive adj | presumably adv
   - upper adj
   - frame n/v/adj
   - gravity n
 
   > They create more questions than they answer
+
 - 2021.6.14
+
   - misuse n/vt
   - launder n/v
 
 - 2021.6.13
+
   - flounder vi
   - ultra adj/n
 
 - 2021.6.10
+
   - mayor | mayoral
 
 - 2021.6.9
+
   - tract n
   - transplant n/vt
   - fertile adj
@@ -1285,23 +1513,28 @@ ss
   - prescribe v
 
 - 2021.6.8
+
   - camp n/v | campus n
   - tribe n
   - wipe n/v
 
 - 2021.6.7
+
   - comb n/v
   - beg v
   - damn n/v/adj/adv
 
 - 2021.6.6
+
   - catalyst n
   - chemistry n
 
 - 2021.6.5
+
   - alter v
 
 - 2021.6.1
+
   - sadden v
   - evasive adj
 
@@ -1311,17 +1544,20 @@ ss
   > in the current climate
 
 - 2021.5.31
+
   - pattern n/vt
   - addition n
 
   > but now her office has decided otherwise
 
 - 2021.5.26
+
   - declare v | declaration
 
   > but we do know that there are a lot of serious issues on both side that still have to get worked out
 
 - 2021.5.25
+
   - barge n
   - shear n/vt
   - shift n/v
@@ -1331,12 +1567,14 @@ ss
   - hurricane
 
 - 2021.5.24
+
   - solar n/adj
 
   > There is a window of opportunity
   > It really gets attention in a lot of corners
 
 - 2021.5.21
+
   - advice n
   - rush
   - brush n/v
@@ -1347,6 +1585,7 @@ ss
   > that could be a formula for confusion
 
 - 2021.5.20
+
   - private adj/n | privately
 
   > on top of that
@@ -1354,6 +1593,7 @@ ss
   > xxx into balance
 
 - 2021.5.19
+
   - appliance n
   - rise v/n
   - steady v/adj
@@ -1366,12 +1606,14 @@ ss
   > She's been through enough
 
 - 2021.5.17
+
   - siren n
   - unseen adj
 
   > xxx continue to rain down on the streets and on people
 
 - 2021.5.14
+
   - abroad adj/adv
   - prolific adj
   - feed v
@@ -1380,36 +1622,44 @@ ss
   > In contrast, xxx
 
 - 2021.5.13
+
   > they fell just one seat short of majority
 
 - 2021.5.11
+
   - fair | fairness | unfair | unfairly
 
   > There are a lot of factors here at play, the government did back down on raising taxes
   > It's kind of a mix of things
 
 - 2021.5.10
+
   - leaderless
 
 - 2021.5.9
+
   - exasperate vt
 
-  > Israeli politics may be  slowly taking an important turn
+  > Israeli politics may be slowly taking an important turn
 
 - 2021.5.8
+
   > xxx has never been recognized as an independent state by anyone other than Turkey
   > Whether the sides will be any closer to a resolution by then remains unclear
 
 - 2021.5.7
+
   - police n/vt
   - execution n
   - snippet n
 
 - 2021.5.6
+
   - demon n
   - stand n/v
 
 - 2021.4.30
+
   - dormant adj
   - official | unofficial
   - entrance n
@@ -1418,6 +1668,7 @@ ss
   > What's the overall context here?
 
 - 2021.4.29
+
   - oblige v | obliged
   - tube n/v
   - oxygen n
@@ -1427,22 +1678,26 @@ ss
   > This was a point of pride
 
 - 2021.4.28
+
   - expensive adj
   - peril n/vt | perilous adj
 
   > It's notable they have not laid out a clear path to get there
 
 - 2021.4.27
+
   - exhale v
   - burger n
 
   > It feels like everyone took a collective breath
 
 - 2021.4.26
+
   - theater n
   - tide n/vt | tidal adj
 
 - 2021.4.24
+
   - evaporate v
   - greed n | greedy adj
   - instant n/adj
@@ -1455,17 +1710,20 @@ ss
   > It rare ends well
 
 - 2021.4.23
+
   - carrot n
 
   > xxx seems to be walking a fine line
   > these are sticks that we're talking about now
 
 - 2021.4.22
+
   - contain v
 
   > US did what it set out to do in Afghanistan
 
 - 2021.4.21
+
   - liquid n/adj | solid
   - solidify v | solidarity n | consolidate v
   - melt n/v
@@ -1474,20 +1732,24 @@ ss
   > It doesn't expect for those to go away overnight
 
 - 2021.4.20
+
   - tank n/v
   - perception n
 
   > Our opposition to the move will never change, not even one bit
 
 - 2021.4.19
+
   - abate v
 
   > This was supposed to be put to rest
 
 - 2021.4.16
+
   - fiction n
 
 - 2021.4.15
+
   - celebrate v | celebration
   - ceremony n | ceremonial | ceremonially
   - rational adj
@@ -1497,12 +1759,14 @@ ss
   - kit n
 
 - 2021.4.14
+
   - shuttle n/v
 
   > And judging from that
   > Maximalist demands are not going to get up anywhere
 
 - 2021.4.13
+
   - dawn n/v
   - noble n/vt/adj
   - blade n
@@ -1516,10 +1780,12 @@ ss
   > It's reached the point where no one is able to speak or express an opinion on anything without being bullied, arrested, harassed, and threatened
 
 - 2021.4.12
+
   - offspring n
   - sheer adj
 
 - 2021.4.11
+
   - teenage n
   - roar n/v
   - uproar n
@@ -1527,6 +1793,7 @@ ss
   > The parallels are chilling
 
 - 2021.4.10
+
   - recipe n
   - sack n/vt
   - uneasy adj
@@ -1537,13 +1804,15 @@ ss
   > It's certainly got a lot messier
 
 - 2021.4.9
+
   - unusable | usable adj
   - fling n/v
   - interrogate vt
 
 - 2021.4.8
+
   - axis n
-  - rotate v/adj  | rotation n | rotational
+  - rotate v/adj | rotation n | rotational
   - forthcoming adj
   - compensate v
   - empire n
@@ -1554,6 +1823,7 @@ ss
   > There will be a lot of lessons to be learnt here
 
 - 2021.4.7
+
   - increase | increment | incremental
   - marine n/adj | submarine n
   - evade v
@@ -1563,6 +1833,7 @@ ss
   > XXX will have a tougher time shrugging those off
 
 - 2021.4.6
+
   - wildlife n
   - downpour n | rainfall n | pour v
   - nightfall n
@@ -1572,7 +1843,9 @@ ss
   > Even as rain subsides, the floodwater will still pose trouble for weeks to come
   > We don't actually have a clear image of how much has just been damaged and destroyed
   > xxx trying to make it through yyy
+
 - 2021.4.5
+
   - soul n/adj
   - gain n/vt | regain
   - brave | bravery n
@@ -1582,6 +1855,7 @@ ss
   > But nothing that appears to get at the root cause of this problem
 
 - 2021.4.2
+
   - tangible adj/n
   - resolve n/v
   - rub n/v | rubber n/v/adj
@@ -1598,12 +1872,14 @@ ss
   > The US is at a fork in the road
 
 - 2021.4.1
+
   - existence n | existential adj
 
   > The law enforcement went to great lengths to say that xxx
   > at the root of a lot of that is racism
 
 - 2021.3.31
+
   - susceptible adj
   - bulk n/vt
   - theory n
@@ -1613,34 +1889,41 @@ ss
   - clot n/v
 
 - 2021.3.30
+
   - enormity n
   - degrade v | degradation n
   - shriek n/vt
 
 - 2021.3.29
+
   - cruel adj
 
   > They're beyond capacity
 
 - 2021.3.27
+
   - kidnap vt | abduct vt/n
 
   > Anger over this is not confined to London, it's spread across the country
 
 - 2021.3.19
+
   - attract v
 
 - 2021.3.18
+
   - navigate v | navigation n
   - rule n/v
 
 - 2021.3.16
+
   - shower n/v
   - insure v | insured | uninsured | insurance n
 
   > and to put that into perspective
 
 - 2021.3.16
+
   - turbine n
   - plant n/v | plantation n
   - coal | carbon
@@ -1651,6 +1934,7 @@ ss
   - portable adj
 
 - 2021.3.15
+
   - chord n
   - manage v | manageable adj
   - broadcast n/v
@@ -1658,11 +1942,13 @@ ss
   > The broadcast has struck in such a chord here in the US
 
 - 2021.3.12
+
   - romance n/vi
 
   > xxx is a failed state in every single measure
 
 - 2021.3.11
+
   - opportunity n
   - deteriorate vi
   - deterrent n/adj | deterrence n
@@ -1674,16 +1960,19 @@ ss
   > you know, having that strength in numbers, working with friends to address these issues
 
 - 2021.3.10
+
   - unwanted adj
   - welcome adj | unwelcome
 
   > xxx is taking heat from a lot of sides these days
 
 - 2021.3.9
+
   - ankle n
   - bribe n/vt | bribery
 
 - 2021.3.8
+
   - wade v
 
   > one other thing to keep in mind
@@ -1691,6 +1980,7 @@ ss
   > it's a big ask
 
 - 2021.3.4
+
   - equilibrium n
   - bubble n/v
   - needle n/v
@@ -1699,6 +1989,7 @@ ss
   > so my read of xxx
 
 - 2021.3.3
+
   - overlap n/v
   - overturn n/v
   - overly adv
@@ -1723,6 +2014,7 @@ ss
   - predate vt
 
 - 2021.3.2
+
   - turtle n
   - shiny adj
   - seashell n
@@ -1730,6 +2022,7 @@ ss
   - cleanup n | cleanse vt
 
 - 2021.3.1
+
   - exorbitant adj
   - tug n/v
   - utility n | utilize vt
@@ -1737,7 +2030,9 @@ ss
   > it makes her sick to her stomach to think about it
   > I don't even necessarily know what my cost for a day is
   > bear with me
+
 - 2021.2.28
+
   - uphold vt
   - mushroom n/vi/adj
   - astonish v | astonished adj
@@ -1750,11 +2045,13 @@ ss
   > take a hard line
 
 - 2021.2.27
+
   - dilemma n
   - climax n
   - dwindle vi
 
 - 2021.2.26
+
   - reflection n
   - deflect v | deflection n
   - entail vt/n
@@ -1764,6 +2061,7 @@ ss
   > Would that still be the case?
 
 - 2021.2.25
+
   - fester v
   - ought to do sth
   - pore n/v
@@ -1772,6 +2070,7 @@ ss
   > xxx doesn't happened by accident
 
 - 2021.2.24
+
   - convene v | reconvene
   - unfold v
   - upload v
@@ -1779,10 +2078,12 @@ ss
   > get to the bottom of xxx
 
 - 2021.2.23
+
   - wise adj
   - ability n | inability
 
 - 2021.2.22
+
   - amateur n/adj
   - outwit vt
 
@@ -1793,6 +2094,7 @@ ss
   > xxx got the upper hand, but we don't know where this is headed
 
 - 2021.2.21
+
   - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
   - idiot n
   - stamp n/v
@@ -1800,11 +2102,13 @@ ss
   - Netherland
 
 - 2021.2.20
+
   - deplorable adj
 
   > It's an agreement that's about to expire, so time was ticking
 
 - 2021.2.19
+
   - cricket n
   - eager adj
   - culture | cultural adj
@@ -1816,16 +2120,19 @@ ss
   - passage n
 
 - 2021.2.18
+
   - replaceable adj | irreplaceable
   - grumble n/vt
   - amulet n
 
 - 2021.2.5
+
   - behave v
   - castle n/v
   - taxpayer n
 
 - 2021.2.4
+
   - possess vt | possession n | possessed
   - aspect n
 
@@ -1833,6 +2140,7 @@ ss
   > this is a first step toward a difficult goal
 
 - 2021.2.3
+
   - vest n
   - stomach n/vt
   - candle n
@@ -1843,6 +2151,7 @@ ss
   > There was a time when such attacks were horrifyingly common in Baghdad
 
 - 2021.2.2
+
   - mankind n
   - relay n/v
   - sink n/v
@@ -1863,21 +2172,25 @@ ss
 > hurt one's message
 
 - 2021.1.29
+
   - stroll n/v
 
   > Is this a pure coincidence ?
 
 - 2021.1.28
+
   - arouse v
   - absorb vt | absorbed
 
 - 2021.1.27
+
   - drawback n
   - pharmacy n
   - clinic n | clinical adj
   - strife n
 
 - 2021.1.26
+
   - sting n/v
   - equal n/vt/adj | equity n | inequity | equivalent n/adj
   - quality n/adj
@@ -1889,18 +2202,21 @@ ss
   - lawn n
 
 - 2021.1.25
+
   - distinguish v | distinguished adj
   - collide v
   - drift n/v
   - draft n/vt | redraft n/vt
 
 - 2021.1.22
+
   - doom n/vt
   - unknown n/adj
   - master v
   - rigid adj
 
 - 2021.1.21
+
   - gratitude n
   - goodness n
   - treasure n/vt
@@ -1909,26 +2225,32 @@ ss
   - foster vt/adj
 
 - 2021.1.20
+
   - fail | failure n
   - illness n
   - sight n/vt | insight n | oversight n | shortsighted adj
 
 - 2021.1.17
+
   - paycheck n | salary n | wage n/v
 
 - 2021.1.16
+
   - dive n/v | diver n
   - velocity n
 
 - 2021.1.15
+
   - fortress n/vt
   - descend v | descent n | descendant n/adj
 
 - 2021.1.14
+
   - cater vt
   - lead vt | mislead vt
 
 - 2021.1.13
+
   - beforehand adv
   - wrist n/vt
   - deceive v | deception n
@@ -1939,12 +2261,14 @@ ss
   > There's nobody being held accountable personally
 
 - 2021.1.11
+
   - square n/v/adj
   - fabricate vt | fabricated
   - missile n/adj
   - avenge vt
 
 - 2021.1.7
+
   - literature n
   - compress vt | decompress vt
   - attitude n
@@ -1959,13 +2283,16 @@ ss
   > I get stressed and my productivity drops
 
 - 2021.1.5
+
   - fever n
   - ingredient n
 
 - 2021.1.4
+
   - necessary n/adj | necessity n | unnecessary
 
 - 2021.1.3
+
   - domino n
   - church n
   - Catholic adj/n
@@ -1976,6 +2303,7 @@ ss
   > Argentina is the first country to go so far
 
 - 2021.1.2
+
   - grateful adj
   - acquaint vt
   - axle n
@@ -1984,24 +2312,30 @@ ss
   - tissue n/vt
 
 - 2021.1.1
+
   - grace n/vt | disgrace n/vt | disgraceful
 
 - 2020.12.30
+
   - forge n/v
   - dissolve n/v
 
   > xxxx in paly here, but bottom line, xxx
 
 - 2020.12.30
+
   - friction n | frictionless n
 
 - 2020.12.29
+
   - enact vt | act | acting n/adj
 
 - 2020.12.28
+
   - collar n
 
 - 2020.12.27
+
   - wellness n
   - swell n/v
   - farewell n
@@ -2013,20 +2347,24 @@ ss
   - transpire v
 
 - 2020.12.26
+
   - mutate v | mutation n
   - freight n/vt
 
 - 2020.12.25
+
   - furniture n
   - tidy adj
 
 - 2020.12.24
+
   - liaison n
   - leaflet n
   - commie n
   - prohibit vt | prohibition
 
 - 2020.12.23
+
   - summary n/adj | summarize vt
   - period n | periodic adj
   - horrify vt | horrifying adj
@@ -2034,23 +2372,28 @@ ss
   - manipulate vt | manipulation n
 
 - 2020.12.22
+
   - divorce n/v | divorced
 
   > I'm so sorry about the fact that everything is so last minute
 
 - 2020.12.21
+
   - affirm v | reaffirm
   - college n
 
 - 2020.12.18
+
   - relent adj | relentless n
 
 - 2020.12.17
+
   - roam n/v
   - eject vt | ejection
   - reject | rejection
 
 - 2020.12.16
+
   - foul n/v/adj/adv
   - grouchy adj
   - contagious adj
@@ -2058,26 +2401,31 @@ ss
   > Especially chaotic in an already chaotic place
 
 - 2020.12.15
+
   - punish v
   - rebuff n/vt
   - monopoly n
 
 - 2020.12.10
+
   - jealousy n
   - pregnant adj | pregnancy
 
   > but it's never taken that option off the table
 
 - 2020.12.10
+
   - centigrade n
   - novel n/adj
   - novelty n
   - deliver v | delivery n
 
 - 2020.12.9
+
   - dull v/adj
 
 - 2020.12.8
+
   - seige n/v
   - gang n | gangster n
   - tile n
@@ -2086,16 +2434,19 @@ ss
   - psychological adj | psychotic adj
 
 - 2020.12.7
+
   - uranium n
   - nuclear adj
 
   > The economy is in very bad shape
 
 - 2020.12.3
+
   - witch n/vt
   - gullible adj
 
 - 2020.12.2
+
   - singular n/adj
   - worship v | into sth | look up to
   - cast n/v
@@ -2104,6 +2455,7 @@ ss
   - counsel n/v
 
 - 2020.12.1
+
   - delicious adj
   - rope n/v
   - rude adj
@@ -2116,6 +2468,7 @@ ss
   - bastard n/adj | jerk n
 
 - 2020.11.30
+
   - documentary n | undocumented
   - soccer n
   - glimpse n/vi
@@ -2127,6 +2480,7 @@ ss
   > There were a few less jokes than usual
 
 - 2020.11.26
+
   - burst n/v
   - wheat n
   - concoct vt
@@ -2134,12 +2488,15 @@ ss
   - strenuous adj
 
 - 2020.11.25
+
   - cram v
 
 - 2020.11.24
+
   - fatigue n/v/adj
 
 - 2020.11.23
+
   - swing n/v/adj
   - hail n/v
   - anguish n
@@ -2150,6 +2507,7 @@ ss
   - encompass vt
 
 - 2020.11.22
+
   - toy n/vi/adj
   - dole n
   - acute adj | acutely
@@ -2161,6 +2519,7 @@ ss
   > I shine under pressure, like a diamond
 
 - 2020.11.21
+
   - stage n/v
   - backstage n
   - refrain vi
@@ -2171,6 +2530,7 @@ ss
   > There is a tendency to see which way the wind is blowing before speaking out
 
 - 2020.11.20
+
   - ample adj
   - tremble n/v
   - trample n/v
@@ -2183,9 +2543,11 @@ ss
   > The big picture here is (that) ...
 
 - 2020.11.18
+
   - tiny adj
 
 - 2020.11.17
+
   - lame adj | blame n/vt | flame n/v
   - flare n/v
   - blaze n/vi
@@ -2198,12 +2560,14 @@ ss
   > How much of a surprise is this? It was certainly sudden
 
 - 2020.11.16
+
   - impulse n/v
   - loaf n/v
   - universe n
   - universal n/adj ｜ universally
 
 - 2020.11.14
+
   - relative n/adj | relatively | | relevant adj
   - passerby n
   - alleyway n
@@ -2211,25 +2575,30 @@ ss
   > Our world is anything but safe
 
 - 2020.11.13
+
   - mercy n
   - herald n/vi
   - uniform n/adj
   - faculty n
 
 - 2020.11.12
+
   - vary v | various adj | variant n/adj | variety n | variation n
   - rave n/v/adj
 
 - 2020.11.10
+
   - editorial adj
   - guard | guardian | safeguard n/vt
   - slit n/v
   - throat n
 
 - 2020.11.9
+
   - bipolar adj
 
 - 2020.11.5
+
   - superior n/adj
   - doctrine n
   - priest n/vt
@@ -2237,6 +2606,7 @@ ss
   > xxx hold their superiors to account
 
 - 2020.11.4
+
   - deadline n
   - regard n/v | regardless adv
   - mosque n
@@ -2246,32 +2616,38 @@ ss
   - kindness n
 
 - 2020.11.3
+
   - foist vt
   - skirt n/v
 
 - 2020.11.2
+
   - affluent n/adj
   - band n/v | disband v | brand n/v
 
 - 2020.11.1
+
   - innovation n
   - squeeze n/v
 
   > this is a long road that we're going to be on
 
 - 2020.10.30
+
   - collateral n
   - responsibly | responsible | irresponsible n/adj/adv
 
   > I say it is still a valuable thing to do
 
 - 2020.10.29
+
   - bracket n/v
   - rhyme n/v
   - rhythm n
   - whereas conj
 
 - 2020.10.28
+
   - surrender n/v
   - horror n
   - chorus n/vt
@@ -2279,13 +2655,16 @@ ss
   - prophet n
 
 - 2020.10.27
+
   - screw n/v
   - flock n/v
 
 - 2020.10.26
+
   - mess n/vt | messy adj
 
 - 2020.10.23
+
   - breeze n/vi
   - depict vt
   - honesty n | dishonesty | honest adj
@@ -2296,6 +2675,7 @@ ss
   > I lost my temper and yelled at him
 
 - 2020.10.22
+
   - allocate v
   - permit n/v
   - electricity n
@@ -2303,6 +2683,7 @@ ss
   - ethnic adj
 
 - 2020.10.21
+
   - muscle n/v | muscular adj
   - airlift n/vt
   - famine n
@@ -2311,6 +2692,7 @@ ss
   > day in and day out
 
 - 2020.10.20
+
   - encrypt vt
   - noteworthy n
   - confiscate vt
@@ -2321,6 +2703,7 @@ ss
   - radar n
 
 - 2020.10.19
+
   - ransom n/vt
   - specify v | specific adj/n | unspecified
   - specialize vi | specialist n/adj
@@ -2332,6 +2715,7 @@ ss
   > This has actually been in the works for a very long time
 
 - 2020.10.11
+
   - apply v | application n
   - density n
   - dean n
@@ -2343,6 +2727,7 @@ ss
   > They are in a holding pattern
 
 - 2020.10.10
+
   - backer n
   - inaugurate vt
 
@@ -2350,16 +2735,19 @@ ss
   > whether they still want to be served by him is another question
 
 - 2020.10.9
+
   - poet n
   - danger n | dangerous | endanger vt | endangerment
 
 - 2020.9.27
+
   - spare v/adj
 
   > We will spare no effort in developing vaccine
   > xxx remain in place for six month
 
 - 2020.9.25
+
   - nature n | natural adj
   - environment | environmental | environmentally
   - analysis n | analyst n
@@ -2368,11 +2756,13 @@ ss
   > That could mean putting an end to xxx
 
 - 2020.9.24
+
   - prevent v | preventable adj | prevention n | hamper vt/n | preventive
   - pretend v
   - faulty adj
 
 - 2020.9.23
+
   - politic | political | politician
   - geopolitics n | geopolitical
   - politicize vt | depoliticize | politicization n
@@ -2384,6 +2774,7 @@ ss
   > No one wants to see a return of that
 
 - 2020.9.22
+
   - possibility n
   - discuss | discussion
   - sheriff n
@@ -2392,6 +2783,7 @@ ss
   > on first name basis
 
 - 2020.9.21
+
   - dialect n/adj
   - glance n/v
   - assist v | assistance n | assistant n
@@ -2399,11 +2791,13 @@ ss
   > So that's pretty telling
 
 - 2020.9.18
+
   - salvage n/vt
   - soap n/v
   - filthy adj
 
 - 2020.9.16
+
   - instrument n
   - galaxy n
   - craze n/v | crazy adj | craziness
@@ -2411,10 +2805,12 @@ ss
   - profession | professional
 
 - 2020.9.15
+
   > I need soften the language here
   > His tone alternates between taking accountability for his own behavior and trying to describe what he found so magnetic in Trump
 
 - 2020.9.14
+
   - berate vt
   - wield vt
 
@@ -2422,6 +2818,7 @@ ss
   > that's sort of thing
 
 - 2020.9.13
+
   - hush n/v
   - famous adj | infamous
 
@@ -2430,11 +2827,13 @@ ss
   > victims will be for nothing
 
 - 2020.9.11
+
   - medic n | medical n/adj | medically | medication n | medicine
   - verbal adj
   - cubic adj
 
 - 2020.9.10
+
   - tail | trail n/v
   - rail n/v
   - frail adj
@@ -2443,6 +2842,7 @@ ss
   > to my knowledge
 
 - 2020.9.9
+
   - deceptive adj
   - sleeve n/vt
   - impact n/v | impactful
@@ -2469,9 +2869,11 @@ ss
   > It's a constant game of cat and mouse
 
 - 2020.9.8
+
   - fact | factual | factually
 
 - 2020.9.7
+
   - festive adj | festival n/adj
 
   > It was a milestone, it held a lot of symbolic meaning
@@ -2480,6 +2882,7 @@ ss
   > also to further position themselves as a regional leader
 
 - 2020.9.4
+
   - incomplete
   - completion n
   - evolve v
@@ -2490,6 +2893,7 @@ ss
   > I know the details are still coming in, but can u just take us through the events as they unfold last night?
 
 - 2020.9.3
+
   - nationalism n | nationalist n/adj | populist | populism | imperialist | nativist | socialist | supremacist | extremist | unionist | separatist | terrorist | opportunism n | racism n | extremism n
   - shareholder n
 
@@ -2497,17 +2901,20 @@ ss
   > A lot of gains of this growth went to corporations and shareholders and not wage earners
 
 - 2020.9.2
+
   - destine v | destiny n
   - cherish vt | cherished adj
 
   > The messages were kind of all over the place
 
 - 2020.9.1
+
   - vicinity n
 
   > They take a deadly turn
 
 - 2020.8.31
+
   - attempt n/vt
   - similar | similarity
   - coma n
@@ -2517,6 +2924,7 @@ ss
   > in a coma
 
 - 2020.8.28
+
   - insider n
   - quest n/v
   - unquestionably adv
@@ -2526,6 +2934,7 @@ ss
   > xxx was very much trying to distance himself from both A and B
 
 - 2020.8.27
+
   - lid n
   - seed n/v
   - midway
@@ -2533,12 +2942,14 @@ ss
   > It's a step in that direction, but there is still no word on xxx
 
 - 2020.8.26
+
   - rural adj | urban adj | suburb n
   - direct v/adj | indirect | directive n/adj | direction | redirect
   - organ n
   - organize | organization | organizational | reorganize | unorganized
 
 - 2020.8.25
+
   - abundant adj
   - ancestor n
   - muse v
@@ -2546,11 +2957,13 @@ ss
   - fold n/v
 
 - 2020.8.22
+
   - scholar n
   - monarch n | monarchy n
   - discipline n/v | disciplined adj
 
 - 2020.8.19
+
   - lofty adj
   - aspire vi | aspiration n
   - pro-xxx n
@@ -2561,16 +2974,19 @@ ss
   > As the saying goes, my enemy's enemy is my friend, and so xxx are the one who are paying the price for this
 
 - 2020.8.18
+
   - biography n
   - mate n/v
 
   > Prior to that, xxx
 
 - 2020.8.18
+
   - heroic adj
   - unimagined adj
 
 - 2020.8.17
+
   - removal n
   - upheaval n
 
@@ -2582,6 +2998,7 @@ ss
   > it was a way to make peace, and it did kind of provide a way forward
 
 - 2020.8.16
+
   - misinformation | disinformation
   - slave | slaver | slavery n
   - downtown n
@@ -2591,6 +3008,7 @@ ss
   > Let's back up a little bit here
 
 - 2020.8.15
+
   - charm n/vt
   - submission n
   - missionary n
@@ -2601,6 +3019,7 @@ ss
   - nod n/v
 
 - 2020.8.14
+
   - march n/v
   - shatter n/v | shattered
   - disfunction
@@ -2611,6 +3030,7 @@ ss
   > What's happening on the ground?
 
 - 2020.8.13
+
   - dispose v | disposal n
   - inherit v | inheritance
   - rifle n | pistol n/vt
@@ -2618,12 +3038,14 @@ ss
   - legacy n
 
 - 2020.8.12
+
   - ocean n | oceanic adj
   - material n/adj | materialize v
 
   > It was the equivalent of a Category 5 hurricane
 
 - 2020.8.11
+
   - tend v | tendency n
   - sow v
   - cunning adj/n
@@ -2635,6 +3057,7 @@ ss
   > the one real bright spot was that xxx
 
 - 2020.8.10
+
   - dentist n
   - category n | categorize vt
   - fragile adj
@@ -2647,6 +3070,7 @@ ss
   > In a broad sense, It's been well spend
 
 - 2020.8.7
+
   - episode n
   - humble vt/adj
   - impress n/v | impression n | impressive adj
@@ -2664,12 +3088,14 @@ ss
   > Companies essentially argued bad episodes were outliers
 
 - 2020.8.6
+
   - misstep n/vi
 
   > It's more of a pause
   > Can xxx do what they say they are going to do?
 
 - 2020.8.5
+
   - pressure n/vt
   - aid n/v
 
@@ -2677,6 +3103,7 @@ ss
   > He didn't have any other than his common sense
 
 - 2020.8.4
+
   - crossroad n
   - regime n
 
@@ -2685,12 +3112,14 @@ ss
   > XXX is going to be at a crossroad
 
 - 2020.8.3
+
   - earn vt | earnest adj/n
 
   > It's a mouthful, but it covers a lot of areas
   > I imagine 200 is going to be a lot of lower than Democrats want to go, just reflecting on his reaction
 
 - 2020.7.31
+
   - spontaneous adj | spontaneously adv
   - candidate n | candidacy n
   - plentiful adj
@@ -2699,7 +3128,7 @@ ss
   - adhere vi
   - fist n/vt
   - snipe n/v
-  - rip  n/v
+  - rip n/v
   - ripe adj/v
   - ripple n/v
   - cripple v/adj | crippling adj
@@ -2709,6 +3138,7 @@ ss
   > this sounds very much the opposite
 
 - 2020.7.29
+
   - audience n
   - incident n | incidentally adv | incidence n
   - vendor n
@@ -2718,6 +3148,7 @@ ss
   - album n
 
 - 2020.7.28
+
   - prestige n
   - cozy adj
   - malware n
@@ -2738,6 +3169,7 @@ ss
   > she's been working around the clock to help students
 
 - 2020.7.24
+
   - registration n
   - fraught adj
   - grip n/v
@@ -2748,6 +3180,7 @@ ss
   > they just kind of have to find the way to reach the middle
 
 - 2020.7.23
+
   - benefit n/v | beneficial adj | beneficiary n
   - opinion n
   - inquire n
@@ -2755,6 +3188,7 @@ ss
   - climb n/v
 
 - 2020.7.22
+
   - flu n
   - scoff n/v
   - habit n
@@ -2778,6 +3212,7 @@ ss
   > NPR obtained this book ahead of its publication, which is set for July 14
 
 - 2020.7.21
+
   - induce vt
   - scheme n/v
   - suicide n/vt/adj
@@ -2788,6 +3223,7 @@ ss
   > the investigation into what he was doing has continued
 
 - 2020.7.20
+
   - bet n/vt
   - heal v | cure n/v
   - statue n/v
@@ -2795,6 +3231,7 @@ ss
   - justice
 
 - 2020.7.17
+
   - envelope n
   - dubious adj
   - pipeline n
@@ -2807,6 +3244,7 @@ ss
   > At the heart of this dispute are two very different pictures of the eastern Mediterranean
 
 - 2020.7.16
+
   - quote v
   - malicious adj
 
@@ -2814,6 +3252,7 @@ ss
   > xxx has given yyy no other choice
 
 - 2020.7.15
+
   - sanction n/vt
   - watershed n
   - watery adj
@@ -2828,17 +3267,20 @@ ss
   > I'm not optimistic because I've seen the way that the world has behaved when it's come to xxx in the past
 
 - 2020.7.14
+
   - limit n/vt | limitation
   - rob v | robbery n
 
   > and I want to warn people before we get going that some of details you're about to hear may be graphic
 
 - 2020.7.13
+
   - sporadic adj
 
   > They have been up to a lot
 
 - 2020.7.10
+
   - participate v | participation | participant
   - traitor n
 
@@ -2846,6 +3288,7 @@ ss
   > the short answer is we don't have a good handle on the scope
 
 - 2020.7.9
+
   - swarm n/v
   - geological adj
   - survey n/v
@@ -2855,12 +3298,14 @@ ss
   > put in place
 
 - 2020.7.8
+
   - suspend v | suspended | suspense n | suspension
   - spouse n/vt
   - hence adv
   - immigrate v | immigration n | emigrate vt
 
 - 2020.7.6
+
   - firsthand n
   - liability n
   - fume n/v
@@ -2874,17 +3319,21 @@ ss
   > xxx is actually going to succeed in preventing that from happening
 
 - 2020.7.3
+
   - commodity n
-  > This would let them continue with normal life without as many restriction as other people might be
+    > This would let them continue with normal life without as many restriction as other people might be
 
 - 2020.7.2
+
   > It saw 60 percent reduction in a certain type of pollution that it saw in the same period last year
   > on the plus side....on the minus side...
 
 - 2020.7.1
+
   - mysterious adj
 
 - 2020.6.30
+
   - ambiguous adj | unambiguous | ambiguity n
   - threshold n
 
@@ -2892,11 +3341,13 @@ ss
   > it does not go far enough
 
 - 2020.6.29
+
   - herd n/v
 
   > xxx turn the page on yyy, we don't have the final answer on that
 
 - 2020.6.28
+
   - conversation n
 
   > at the same time,it takes quite seriously. they say they're going to hold xx responsible for this action
@@ -2904,11 +3355,13 @@ ss
   > this is a return to ab old playbook
 
 - 2020.6.27
+
   - excess n/adj | excessive adj
   - persuade v
   - certify vt | certified adj | credential n | certification n | certificate n
 
 - 2020.6.24
+
   - plausible adj
 
   > That sounds almost plausible
@@ -2916,6 +3369,7 @@ ss
   > word on the street is xxxx
 
 - 2020.6.23
+
   - cohesion n
   - belligerent adj
   - station n/vt
@@ -2924,11 +3378,13 @@ ss
   > let me throw this last one to you
 
 - 2020.6.22
+
   - selfish adj | selfless adj
 
   > nothing's certain
 
 - 2020.6.21
+
   - evasion n
   - libel n/v | libelous adj
   - portal n
@@ -2938,6 +3394,7 @@ ss
   > that's a chilling remark
 
 - 2020.6.20
+
   - upset n/v/adj
   - argue v
   - bystander n
@@ -2945,6 +3402,7 @@ ss
   > the chief of police has now stepped down in the weak of that
 
 - 2020.6.19
+
   - globe n/vt
   - reticent adj
   - tip n/v
@@ -2952,6 +3410,7 @@ ss
   > it does feel worth just pausing and emphasizing that xxx
 
 - 2020.6.18
+
   - assign vt | assignment
   - recovery n
   - dig v
@@ -2964,6 +3423,7 @@ ss
   > it took a long time after that to dig out of the hole
 
 - 2020.6.17
+
   - sprint n/v | sprinter
   - shield n/v
   - diligent adj
@@ -2977,6 +3437,7 @@ ss
   > its unusual approach is sure to remain in the spotlight
 
 - 2020.6.16
+
   - character n | characterization n | characterize vt | characteristic adj/n
 
   > What are the big takeaways?
@@ -2988,6 +3449,7 @@ ss
   > as ..... as opposed to ...
 
 - 2020.6.15
+
   - blanket n/v/adj
   - circulate v
   - aberration n
@@ -3002,6 +3464,7 @@ ss
   > The apology does not matter to us
 
 - 2020.6.11
+
   - dual adj
   - nightmare n
   - furlough n/vt
@@ -3011,6 +3474,7 @@ ss
   > We have to leave it there, I'm afraid
 
 - 2020.6.10
+
   - dispersal n
   - nation n | nationalize vt | national n/adj | nationalization
 
@@ -3019,6 +3483,7 @@ ss
   > an inflection point
 
 - 2020.6.9
+
   - protein n
   - inject vt | injection
   - diagnose v | diagnostic adj | diagnosis n
@@ -3026,6 +3491,7 @@ ss
   - antibody n
 
 - 2020.6.8
+
   - standby n
   - enforce vt | enforcement | enforceable adj
   - reinforce n/v | reinforced
@@ -3038,12 +3504,14 @@ ss
   > which raises really interesting question
 
 - 2020.6.6
+
   - knee n
 
   > you know, we don't want to, if it comes to that, we have to
   > they have been overwhelmed
 
 - 2020.6.5
+
   - widen v
   - fault n
   - deserve v
@@ -3060,6 +3528,7 @@ ss
   > That's the thing he's been saying for a while now
 
 - 2020.6.4
+
   - reckon v | reckoning
   - grasp n/v
   - comprise vt
@@ -3074,6 +3543,7 @@ ss
   > while the country tries getting back on its feed
 
 - 2020.6.3
+
   - align v | alignment | realignment
   - malign vt/adj
   - boast n/vt
@@ -3088,6 +3558,7 @@ ss
   > xxx dive in without a mask
 
 - 2020.6.2
+
   - loudspeaker n
   - dictate n/v
   - flat n/adj/adv | flatten v
@@ -3096,6 +3567,7 @@ ss
   > while the media deals with nonsense, I will continue to lead Israel on the issue that really matter to you
 
 - 2020.6.1
+
   - aviation n
   - wreck n/v | wreckage n
   - cacophony n
@@ -3104,6 +3576,7 @@ ss
   > all the hospital are on an emergency footing
 
 - 2020.5.29
+
   - recusal n
   - crash n/v
   - rash n/adj
@@ -3116,6 +3589,7 @@ ss
   > the numbers might be cooked to make it look bad
 
 - 2020.5.28
+
   - suffice v | sufficient adj | sufficiently | insufficient
   - toilet n
   - convert v
@@ -3126,16 +3600,19 @@ ss
   > but even in those
 
 - 2020.5.27
+
   - allowance n
   - generous adj
 
   > People can stay on their feet
 
 - 2020.5.26
+
   - severity n
   - gist n
 
 - 2020.5.25
+
   - imperative adj
   - moral n/adj | morality n
   - curtain n/vt
@@ -3149,11 +3626,12 @@ ss
   > That was a quote from that piece
 
 - 2020.5.21
+
   - dealer n
   - auction n/v
 
-
 - 2020.5.19
+
   - squander vt
   - guide n/vt | guideline n | guidance n
   - advertise vt
@@ -3168,6 +3646,7 @@ ss
   > we've been through the initial peek, but it's coming down the mountain that is often more dangerous
 
 - 2020.5.18
+
   - virus n
   - timeline n
   - wand n
@@ -3179,6 +3658,7 @@ ss
   > although overall
 
 - 2020.5.16
+
   - peer n/v
   - relapse n/vi
   - pierce v | piercing adj
@@ -3187,12 +3667,14 @@ ss
   > and so based upon that
 
 - 2020.5.15
+
   - thumb n/v
   - class n/v | classic adj | classify vt | classified | declassified | classification n
 
   > take a look at xxx from top to bottom
 
 - 2020.5.14
+
   - recuse vt
   - graphic adj
   - leak n/v
@@ -3201,6 +3683,7 @@ ss
   - jog n/v | jogger
 
 - 2020.5.13
+
   - propaganda n
   - vain adj
   - daring n/adj
@@ -3208,6 +3691,7 @@ ss
   > this whole thing doesn't really added up, It doesn't make a lot of sense
 
 - 2020.5.12
+
   - mentor n
   - blind n/vt/adj/adv
   - blindside vt
@@ -3218,11 +3702,12 @@ ss
   > it needs to stick with
 
 - 2020.5.11
+
   - seemingly adv
   - archive n/v
   - sake n
   - amplify v
-  - unequivocally  adv
+  - unequivocally adv
   - sexually adv | sexual adj | sexuality
   - admire v | admiration n | admirer
   - recognise vt
@@ -3238,12 +3723,14 @@ ss
   > to get a sense of what her response to all of this has been
 
 - 2020.5.9
+
   - spotlight n/vt | hotspot n | spot n/vt | spotless adj | spotted adj
   - warehouse n
   - thrust n/v
   - grocer n | grocery n | chore n
 
 - 2020.5.8
+
   - revert n/v
   - risk n/vt
   - wrestle n/v
@@ -3265,6 +3752,7 @@ ss
   > change him in any way that's apparent
 
 - 2020.5.7
+
   - due n/adj/adv | overdue
   - longstanding adj
   - historical adj | historic | historically | historian
@@ -3283,6 +3771,7 @@ ss
   - million | billion | trillion n | billionaire
 
 - 2020.5.6
+
   - provoke vt | incite vt | incitement n | unprovoked
   - cite vt | recite v
   - vessel n
@@ -3296,6 +3785,7 @@ ss
   > So neither side seems to be wanting to take a step back from where we are
 
 - 2020.4.30
+
   - siege n/vt | besiege vt
   - starve v | starvation n
   - situate vt/adj | situation n
@@ -3311,6 +3801,7 @@ ss
   > It's quite clear the responsibility for that abuse goes all the way to the top
 
 - 2020.4.29
+
   - convenient adj | convenience n/vt | inconvenience | conveniently
   - convention n | conventional | unconventional
   - rile v
@@ -3324,6 +3815,7 @@ ss
   > xxx go into effect a month ago
 
 - 2020.4.28
+
   - veto n
   - unity n | disunity
   - avert vt
@@ -3333,6 +3825,7 @@ ss
   > This is a country that live outside of law
 
 - 2020.4.27
+
   - manufacture n/vt
   - intermediate adj
   - haul n/v
@@ -3346,6 +3839,7 @@ ss
   > if you don't have buyers at zero dollars, you have to go even lower
 
 - 2020.4.26
+
   - anniversary n
   - exchange n/v
   - disguise n/vt
@@ -3355,6 +3849,7 @@ ss
   > they don't appear to have been known to him,then do seem radom
 
 - 2020.4.24
+
   - chemical adj
   - quash vt
   - resort n/vi
@@ -3370,13 +3865,16 @@ ss
   > they're pretty short on specifics
 
 - 2020.4.23
+
   - lobby n/v
   - activate vt
   - lunacy adj
 
   > there is nowhere near over
   > it is a huge blow
+
 - 2020.4.22
+
   - priority n | prioritize vt | prior adj
   - policy n
 
@@ -3384,6 +3882,7 @@ ss
   > Speaking to the significance of actually hearing him say it out loud today
 
 - 2020.4.21
+
   - substitute v
   - veil n/vt | unveil v | unveiled adj
 
@@ -3391,6 +3890,7 @@ ss
   > she was taken out of context
 
 - 2020.4.20
+
   - bunch n/v
   - trend n/vi
   - rapid adj | rapidly adv
@@ -3403,6 +3903,7 @@ ss
   > It looks like that curve has gone over the peak
 
 - 2020.4.18
+
   - shrink v | shrinkage n
   - contract n/v | contraction n | contractor n
   - contrary n/adj/adv
@@ -3421,12 +3922,14 @@ ss
   > But the drop in demand - more than twice that amount
 
 - 2020.4.17
+
   - subtle adj
   - hug n/v
   - adequate adj | adequately | inadequate | inadequately
   - changer n
 
 - 2020.4.16
+
   - primary n/adj | primarily
   - upcoming adj
   - desire n/v | desirable
@@ -3442,6 +3945,7 @@ ss
   > X prise Y as a whole
 
 - 2020.4.15
+
   - revise v
   - expense n/v
   - odd n/adj | even adj | uneven
@@ -3453,10 +3957,12 @@ ss
   > Do you get the sense that they're comfortable with giving the government more power at the expense of the as individuals?
 
 - 2020.4.14
+
   - deputize vi
   - incline n/v
 
 - 2020.4.13
+
   - podium n
   - grad n
   - academy n | academic n/adj
@@ -3472,6 +3978,7 @@ ss
   > no one stood in his way
 
 - 2020.4.10
+
   - deaf adj
   - lung n
   - science n | scientific adj
@@ -3482,6 +3989,7 @@ ss
   > the average age of vehicles on the road right now is the highest it's ever been at 12 years
 
 - 2020.4.9
+
   - tsunami n
   - tornado n
   - trench n/v
@@ -3493,6 +4001,7 @@ ss
   - inexact adj
 
 - 2020.4.8
+
   - Danish n/adj
   - luxury n/adj ｜ luxurious adj
   - lose v
@@ -3506,6 +4015,7 @@ ss
   > Because so much commerce is tied into what happens with China
 
 - 2020.4.7
+
   - break n/v | breakout n | outbreak n
   - breakdown n
   - confident adj | confidence n/adj | confidante n
@@ -3516,6 +4026,7 @@ ss
   > The new virus has now been diagnosed on every continent but Antarctica. It appears to be deadly in around two percent of cases
 
 - 2020.4.5
+
   - simultaneously adv
   - campaign n/vi | campaigner n
   - exceed v
@@ -3523,9 +4034,11 @@ ss
   > On the other hand, they won't act in a circumstance where they look like they're weak
 
 - 2020.4.2
+
   > It remains to be seen what sort of impact this is going to xxx
 
 - 2020.4.2
+
   - livelihood n
   - division n
   - vision n /vt | visionary adj
@@ -3539,6 +4052,7 @@ ss
   > in addition to all this
 
 - 2020.4.1
+
   - treat n/v | treatment n
   - mistreat vt
   - retreat n/v
@@ -3550,6 +4064,7 @@ ss
   > I think that that would be on pretty much everybody's mind right now
 
 - 2020.3.31
+
   - inhibit vt
   - tangle n/v | tangled adj
   - contest n/v | contestant n | contested
@@ -3560,6 +4075,7 @@ ss
   > I have bought the situation to this path
 
 - 2020.3.30
+
   - antsy adj
   - sponsor n/vt
   - athlete n
@@ -3570,6 +4086,7 @@ ss
   > all this staff is now up in the air
 
 - 2020.3.28
+
   - emotion n | emotional | emotionally
   - motion n/v
   - identify v | identity n | identical adj | unidentified adj
@@ -3588,6 +4105,7 @@ ss
   > but apart from xxx
 
 - 2020.3.27
+
   - aware adj ｜ awareness n | unaware adj
   - halt n/v
   - smooth n/v/adj | smoothly
@@ -3608,6 +4126,7 @@ ss
   > gain the upper hand
 
 - 2020.3.26
+
   - cushion n
   - mortgage n/vt
   - solace n/vt
@@ -3618,6 +4137,7 @@ ss
   > Does xx have any other options if these moves don't have the desired effect?
 
 - 2020.3.25
+
   - attend v | attendance n | attendee | attendant n
   - attentive adj
   - liable adj
@@ -3638,6 +4158,7 @@ ss
   > that does make certain amount of sense
 
 - 2020.3.24
+
   - nutrition n
   - affect v | effect n | effective | effectively | effectiveness n | ineffective | affection | affectionate adj
   - efficient adj | inefficient
@@ -3647,6 +4168,7 @@ ss
   - hint n/v
 
 - 2020.3.23
+
   - process n/v | processor
   - procession n
   - procedure n | procedural adj
@@ -3659,6 +4181,7 @@ ss
   - strip n/v | stripped
 
 - 2020.3.20
+
   - throne n/v | crown n/vt
   - heir n
   - rumor n/v
@@ -3668,6 +4191,7 @@ ss
   > It's really hard to get real-time information out of there
 
 - 2020.3.19
+
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
   - human n/adj | humanitarian | humanity n | humane adj | inhumane
@@ -3678,6 +4202,7 @@ ss
   > They're looking at a very tough time ahead
 
 - 2020.3.18
+
   - gather n/v | gathering n/adj
   - bear n/v
   - statistic n/adj | statistical adj
@@ -3685,7 +4210,9 @@ ss
 
   > the cut was twice as large as what the Fed ordinary does
   > a rate cut is kind of beside the point
+
 - 2020.3.17
+
   - lure n/vt
   - belly n/v
   - excel v
@@ -3702,6 +4229,7 @@ ss
   > a key thing to look at here is what happens in two weeks
 
 - 2020.3.16
+
   - gamble n/v
   - implicit adj | implicitly
   - combat n/vt | combative adj | combatant
@@ -3712,6 +4240,7 @@ ss
   > this makes it just about the worst page in a terrible book
 
 - 2020.3.13
+
   - entertain v | entertainment | entertainer n
   - iron n | ironic adj | irony n
   - margin n/vt
@@ -3722,6 +4251,7 @@ ss
   > Indians capital is experiencing the worst religious violence it has seen in decades
 
 - 2020.3.12
+
   - assemble v | reassemble | assembly n
   - banquet n
   - lavish adj
@@ -3746,6 +4276,7 @@ ss
   > wall-to-wall people
 
 - 2020.3.11
+
   - rap n/v
   - tarnish n/v
   - decorate v | decoration | decor
@@ -3760,6 +4291,7 @@ ss
   > controversial measure
 
 - 2020.3.10
+
   - miscarriage n
   - juror n
   - unfounded adj
@@ -3786,6 +4318,7 @@ ss
   > xxx has risen by a third in the past year alone
 
 - 2020.3.9
+
   - handle | mishandle vt
   - pinpoint n/vi/adj
   - appreciate v | appreciation | appreciative adj
@@ -3795,6 +4328,7 @@ ss
   > that's why people are paying such close attention to all of this. Those are the stakes going forward on this.
 
 - 2020.3.6
+
   - apparatus n
   - wobbly adj
   - bake v | bakery n
@@ -3814,6 +4348,7 @@ ss
   > so there's still a lot of tricky times ahead
 
 - 2020.3.5
+
   - naval n
   - suspect n/v/adj
   - chronic adj | chronically
@@ -3829,6 +4364,7 @@ ss
   > we can't achieve justice, without justice itself
 
 - 2020.3.4
+
   - native adj
   - struggle n/v
   - population n
@@ -3845,6 +4381,7 @@ ss
   > How is that all playing together and is reunification back on the table seriously now?
 
 - 2020.3.3
+
   - sign n/v | signature n
   - significant n/adj | significance n | insignificant | significantly
   - signify vt
@@ -3860,6 +4397,7 @@ ss
   > Where do things stand right now in the grand scheme of things?
 
 - 2020.3.2
+
   - stick n/v | sticking
   - wistful n/adj/adv | wistfulness n
   - rotten adj
@@ -3884,6 +4422,7 @@ ss
   > I don't like people who use their faith as justification for doing what they know is wrong
 
 - 2020.2.28
+
   - era n
   - chaos n | chaotic adj
   - secede v
@@ -3893,6 +4432,7 @@ ss
   - cope n/v
 
 - 2020.2.27
+
   - nephew n | niece n
   - tribute n
   - contribute v
@@ -3909,12 +4449,15 @@ ss
   - span n/v
 
   > There was a lot ahead of him and makes it doubly tragic that he's gone at 41
+
 - 2020.2.26
+
   - renovate vt
   - carve v
   - highness n
 
 - 2020.2.25
+
   - refund n/vt
   - fund n/vt | fundamental n | fundamentally
   - highflier n
@@ -3943,6 +4486,7 @@ ss
   > It kind of shows there has been some hastiness and there's an element of surprise in this
 
 - 2020.2.24
+
   - summon vt
   - associate n/v/adj | association n | associated
   - staff n/v/adj | staffer n
@@ -3952,6 +4496,7 @@ ss
   > and, of course, that's what this impeachment process has all been about
 
 - 2020.2.21
+
   - mask n | unmask
   - pebble n
   - upend v
@@ -3982,6 +4527,7 @@ ss
   > China is on pins and needles
 
 - 2020.2.7
+
   - shrapnel n
   - grieve v | grieving adj | grievance n
   - furious adj | fury n
@@ -4003,6 +4549,7 @@ ss
   > I think this just underscore how political this issue has become
 
 - 2020.2.5
+
   - ferry n/v
   - brace n/vt | bracing adj
   - embrace n/v
@@ -4012,6 +4559,7 @@ ss
   > No word of other casualties yet
 
 - 2020.2.4
+
   - formula n
   - scramble n/v | scrambling
   - sectarian adj
@@ -4023,6 +4571,7 @@ ss
   > that's not the case
 
 - 2020.2.3
+
   - supreme adj
   - punch n/vt
   - toss n/v
@@ -4032,11 +4581,13 @@ ss
   > toss and turn
 
 - 2020.1.19
+
   - guilt n | guilty adj
   - nonchalant adj
   - fawn vi | fawning adj
 
 - 2020.1.17
+
   - strain n/v | strained adj
   - restrain vt | restraint n | restrained adj
   - constrain v | constraint n | constrained adj
@@ -4048,12 +4599,14 @@ ss
   > Those canisters that were used by the Americans yesterday are nothing compared to the ones that the Iraqis has been using
 
 - 2020.1.16
+
   - lean n/v
   - impend vi | impending adj
   - militia n
   - jeopardy n
 
 - 2020.1.15
+
   - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
   - intersect v | intersection n
@@ -4062,6 +4615,7 @@ ss
   - workweek n
 
 - 2020.1.14
+
   - altitude n
   - bankrupt n/vt/adj | bankruptcy
 
@@ -4069,6 +4623,7 @@ ss
   > it's not clear at all that will lead to any changes
 
 - 2020.1.13
+
   - lash n/v
   - clash n/v
   - slam n/v | whip n/v | smash n/v | slammed adj | slash
@@ -4077,6 +4632,7 @@ ss
   - excerpt n/vt
 
 - 2020.1.12
+
   - maintain vt | maintenance n
   - grisly adj
   - dismember vt
@@ -4095,6 +4651,7 @@ ss
   > point fingers
 
 - 2020.1.9
+
   - burden n/vt
 
   > Brexit is at hand
@@ -4102,12 +4659,14 @@ ss
   > this issue that seemed to be settled is now very much up in the air
 
 - 2020.1.7
+
   - recur vi
   - bloodthirsty adj
   - ailing adj
   - concert n/v | concerted adj | disconcert
 
 - 2020.1.6
+
   - bravo n
   - taunt n/vt
   - sloppy adj
@@ -4117,12 +4676,14 @@ ss
   - parade n/v
 
 - 2020.1.4
+
   - purse v
 
   > they're based on this that they reached back in July
   > if u had more research, may be would find more solutions that would be more politically acceptable to more people
 
 - 2019.12.31
+
   - instigation n
   - void n/v/adj
   - treason n
@@ -4130,6 +4691,7 @@ ss
   > no one is above law, we will hold the powerful accountable
 
 - 2019.12.30
+
   - pale v/adj
   - plunge n/v
   - retail n/v/adj
@@ -4143,6 +4705,7 @@ ss
   > it's offered no details
 
 - 2019.12.28
+
   - vandalize vt
   - census n
   - diverse adj | diversity n | divisive
@@ -4151,6 +4714,7 @@ ss
   - criterion n
 
 - 2019.12.27
+
   - erode v
   - fruition n
   - pivot n/v/adj | pivotal
@@ -4161,6 +4725,7 @@ ss
   > this is a disagreement over how we move forward
 
 - 2019.12.26
+
   - reverberate n/v/adj | reverberation n
   - tremor n/v
   - landscape n
@@ -4176,6 +4741,7 @@ ss
   > the tremors is going to go on for a long time
 
 - 2019.12.25
+
   - compensation n
   - retrieve v
   - erupt v | eruption n
@@ -4189,6 +4755,7 @@ ss
   > working on a very tight clock there
 
 - 2019.12.24
+
   - observant adj
   - assert vt | asserted | assertive
   - heartfelt adj
@@ -4201,6 +4768,7 @@ ss
   > he's not in good shape at home
 
 - 2019.12.23
+
   - expire n/v
   - hinder v
   - asshole n
@@ -4216,6 +4784,7 @@ ss
   > you've got to persist through failure
 
 - 2019.12.20
+
   - pursue v
   - silly adj
   - basis n | baseless adj
@@ -4234,6 +4803,7 @@ ss
   > we are so proud of the distance that we have come from where we started with the administration on this legislation
 
 - 2019.12.19
+
   - enlist v
   - justify vt | justification n | justifiable
   - eavesdrop vi
@@ -4247,6 +4817,7 @@ ss
   > the language we use affects how we think and who we are
 
 - 2019.12.18
+
   - stuff n/v | stuffing n
   - imprison vt
   - Eurasian adj
@@ -4260,6 +4831,7 @@ ss
   > but that shouldn't be the way sex's supposed to be~It should be free and fun
 
 - 2019.12.17
+
   - metaphor n | metaphorically adv
   - exemplify n/vt
   - faction n
@@ -4277,6 +4849,7 @@ ss
   - orgasm n
 
 - 2019.12.16
+
   - riddle n/v | riddled adj
   - inspire vt
   - awe n/vt
@@ -4304,6 +4877,7 @@ ss
   > the quest for knowledge and understanding never gets dull
 
 - 2019.12.13
+
   - obey v | disobey
   - separate v
   - grain n
@@ -4333,6 +4907,7 @@ ss
   > It's the first time I can say, hand and heart,xxx
 
 - 2019.12.12
+
   - reverse n/v/adj
 
   > the president leaves us no choice but to act
@@ -4341,6 +4916,7 @@ ss
   > have u heard any specifics yet on what shape these articles might take?
 
 - 2019.12.11
+
   - silicon n
   - gravel n/vt
   - grave n/adj | gravely adv
@@ -4354,6 +4930,7 @@ ss
   - cue n/vt | clue n n/vt | clueless
 
 - 2019.12.10
+
   - capable adj | capability n
   - distract v | distracted | distraction n
   - censure n/v
@@ -4366,6 +4943,7 @@ ss
   - corroborate n/vt | corroboration n
 
 - 2019.12.9
+
   - intermediary n
   - cleric n/adj
   - turbulence n
@@ -4382,6 +4960,7 @@ ss
   > but it could have been much worse
 
 - 2019.12.6
+
   - scene n | scenario n
   - obscene adj
   - behind-the-scenes adj
@@ -4391,6 +4970,7 @@ ss
   - industrial adj | industrialization n
 
 - 2019.12.5
+
   - cafeteria n
   - mortal n/adj | mortality n
   - prolong vt
@@ -4398,6 +4978,7 @@ ss
   - bulb n
 
 - 2019.12.3
+
   - devote v | devoted adj/adv | devotion n
   - bandit n
   - ferocious adj
@@ -4423,6 +5004,7 @@ ss
   - brute n/adj | brutal adj | brutality n
 
 - 2019.12.2
+
   - spoil n/v | spoiler n
   - coercive adj
   - elderly adj
@@ -4434,6 +5016,7 @@ ss
   > whether that lasts remains to be seen
 
 - 2019.11.16
+
   - ambulance n
   - fragment n/v | fragmented adj
   - harmony n | harmonize n/v
@@ -4449,11 +5032,12 @@ ss
   > It's time to try something new
 
 - 2019.11.14
+
   - fraud n | fraudulent adj/adv | scam n/v | scammer
   - persecute v | persecution n
   - victor n
   - finding n
-  - regularity n | irregularity n| regular n/adj | regularly adv |  regulation n/adj | regulatory adj
+  - regularity n | irregularity n| regular n/adj | regularly adv | regulation n/adj | regulatory adj
   - regulate v | deregulate v
   - custody n
   - desert n/v | dessert n
@@ -4481,6 +5065,7 @@ ss
   > in the process of doing that
 
 - 2019.11.13
+
   - agonize v
   - meddling n/v
   - blunt adj/vt | bluntly adj
@@ -4490,6 +5075,7 @@ ss
   > Are there any facts that just don't line up?
 
 - 2019.11.12
+
   - extortion n
   - fellow n
 
@@ -4499,6 +5085,7 @@ ss
   > It has not come to much
 
 - 2019.11.7
+
   - cord n/vt
   - accord n/v
   - aggregate n/v/adj
@@ -4509,13 +5096,16 @@ ss
   > What went through your mind when you heard it yesterday?
   > turn back on them
   > sort of seen
+
 - 2019.11.7
+
   - acknowledge vt | acknowledged
   - guerrilla n
   - mercenary n
   - repulse n/vt
 
 - 2019.11.5
+
   - resolution n | solution
   - phase n
   - formalize vt | formal adj | formation n | informal | formally | informally
@@ -4532,6 +5122,7 @@ ss
   > be about to
 
 - 2019.11.4
+
   - sweep n/v | mop v
   - bargain n/v | bargaining | barter v
   - assuage vt
@@ -4545,6 +5136,7 @@ ss
   > It's not clear whether xxx
 
 - 2019.11.1
+
   - tilt n/v
   - giant n/adj
   - astute adj
@@ -4563,6 +5155,7 @@ ss
   > so to speak
 
 - 2019.10.31
+
   - tender n/v/adj
   - penalize vt
   - eerie adj
@@ -4574,6 +5167,7 @@ ss
   > sometimes we've been met with violence
 
 - 2019.10.30
+
   - cinematic adj
   - raid n/vt
   - vivid adj | vividly
@@ -4592,6 +5186,7 @@ ss
   > Here's Trump yesterday explaining how all of this unfolded in White House
 
 - 2019.10.29
+
   - origin n | originate v | original | originally
   - probe n/vt
   - grand adj
@@ -4604,7 +5199,9 @@ ss
   > There are no details on when that change was made or what prompted it
   > first off | at first | first of all | in the first place | first and foremost
   > first things first
+
 - 2019.10.28
+
   - Chile n
   - metro n/adj
   - helmet n
@@ -4629,6 +5226,7 @@ ss
   > show no sign of stopping
 
 - 2019.10.26
+
   - stall n/v | stalled
   - ethic n | ethical
   - deliberate v/adj | deliberately adv | deliberation n
@@ -4643,6 +5241,7 @@ ss
   > How did it unfold?
 
 - 2019.10.24
+
   - scandal n
   - roil v
   - abort v | abortion n
@@ -4659,6 +5258,7 @@ ss
   > It was a tight race against the opposition Conservatives
 
 - 2019.10.23
+
   - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt | compelled adj
@@ -4670,6 +5270,7 @@ ss
   > fall apart
 
 - 2019.10.22
+
   - cease v | ceasefire n | decease n/vi
   - toll n/vt
   - vague adj | vaguely
@@ -4684,12 +5285,14 @@ ss
   > while all of that is going on, xxx
 
 - 2019.10.20
+
   - steak n
   - flavor n/vt
   - scoop n
   - toast n
 
 - 2019.10.19
+
   - pave vt
   - curtail vt
   - smuggle vt | smuggler n | smuggling n
@@ -4704,6 +5307,7 @@ ss
   > It slips through the cracks
 
 - 2019.10.18
+
   - deem vt
   - pile n/v
   - airline n
@@ -4717,6 +5321,7 @@ ss
   > frankly speaking
 
 - 2019.10.17
+
   - typhoon n | hurricane n | cyclone n
   - acre n
   - sacred adj
@@ -4756,6 +5361,7 @@ ss
   > there's a bit of a delay on the line
 
 - 2019.10.16
+
   - anxious adj | anxiously | anxiety n
   - piecemeal adj
   - devil n
@@ -4777,6 +5383,7 @@ ss
   > one of the important thing to point out here is that
 
 - 2019.10.15
+
   - assault n/v
   - crisis n
   - flee v
@@ -4799,6 +5406,7 @@ ss
   > at the moment, it is not nearly that wide
 
 - 2019.10.14
+
   - individual n/adj
   - interim n/adj
   - accompany vt | accompanied | unaccompanied
@@ -4810,6 +5418,7 @@ ss
   > xxxx but remains, as you said, anonymous
 
 - 2019.10.12
+
   - sick n/vt/adj | sicken v | sickening adj
   - Athens n
   - hiatus n
@@ -4831,6 +5440,7 @@ ss
   > to use a word a second time
 
 - 2019.10.11
+
   - dirt n
   - wrongdoing n
   - pureview n
@@ -4853,6 +5463,7 @@ ss
   > rather than giving ut to Congress as the law seemed to require
 
 - 2019.10.10
+
   - memo n | memoir n | memorial adj
   - notion n
   - refer v | reference n/vt
@@ -4874,6 +5485,7 @@ ss
   > it doesn't necessarily have to become public, but given the way things are appearing, it seems quite possible that it will
 
 - 2019.10.9
+
   - patrol n/vt
   - patriot n | patriotism | unpatriotic adj
   - bar n/vt | barrier n/vt | barricade n/vt
@@ -4897,6 +5509,7 @@ ss
   > He has thrown off the gloves
 
 - 2019.10.8
+
   - perspective n
   - frustrate vt | frustrated adj | frustration n
   - thrill n/v | thrilled adj
@@ -4913,6 +5526,7 @@ ss
   > how the court addressed it?
 
 - 2019.9.30
+
   - blueprint n
   - adopt v | adoption
   - adapt v | adapted adj | adaption | adaptation | adaptive
@@ -4931,6 +5545,7 @@ ss
   > xxx is far from over
 
 - 2019.9.29
+
   - emirate n
   - jam n/vt | jamming n
   - spew n/v
@@ -4947,6 +5562,7 @@ ss
   > off the table
 
 - 2019.9.27
+
   - Ukraine n
   - whistle-blower n
   - corrupt v | corruption n
@@ -4961,6 +5577,7 @@ ss
   > My generation
 
 - 2019.9.26
+
   - indicate vt | indicator n | indication n
   - reduce v | reduction n | reduced adj
   - revolving adj
@@ -4979,6 +5596,7 @@ ss
   > I have the final say on xxxx
 
 - 2019.9.25
+
   - spur n/v
   - ordinary n/adj | ordinarily
   - plastic n/adj
@@ -4993,6 +5611,7 @@ ss
   > it was harder than normal to get around parts if the city today
 
 - 2019.9.24
+
   - Canadian n/adj
   - makeup n
   - reflect v
@@ -5010,6 +5629,7 @@ ss
   > take us beyond New York
 
 - 2019.9.23
+
   - modest adj
   - stride n/vt
   - strident adj
@@ -5029,6 +5649,7 @@ ss
   > not because xxx but because xxx
 
 - 2019.9.20
+
   - muffled adj
   - complex n/adj
   - phenomenon n | phenomenal adj
@@ -5040,6 +5661,7 @@ ss
   > be right in front of the stage
 
 - 2019.9.19
+
   - peach n
   - impeach vt | impeachment n
   - essay n/vt
@@ -5061,6 +5683,7 @@ ss
   > whose problem does this become?
 
 - 2019.9.18
+
   - majestic adj
   - gorgeous adj
   - fantasy n/v
@@ -5083,6 +5706,7 @@ ss
   > but no word yet on the extent of the damage
 
 - 2019.9.17
+
   - narrow n/v/adj | narrowly adv
   - resent vt | resentment n
   - poke n/v
@@ -5096,6 +5720,7 @@ ss
   > he is neck and neck with sb in the race
 
 - 2019.9.16
+
   - snap n/adj
   - keen adj
   - disaster n | disastrous adj
@@ -5112,6 +5737,7 @@ ss
   > I should jump in here and say that xxx
 
 - 2019.9.15
+
   - strengthen v
   - applaud v
   - leverage n/vt | lever n/vt
@@ -5122,6 +5748,7 @@ ss
   > we don't have a sense of the way ahead at this point
 
 - 2019.9.14
+
   - ruthless adj
   - palatial adj
   - betray vt | betrayal n
@@ -5138,6 +5765,7 @@ ss
   - alongside prep/adv
 
 - 2019.9.12
+
   - blow n/v
   - deadlock n/vt | impasse n
   - momentous adj
@@ -5168,6 +5796,7 @@ ss
   > stick with me here. There's an internal logic
 
 - 2019.9.11
+
   - rover n
   - pole n
   - approach n/v
@@ -5196,6 +5825,7 @@ ss
   > what many would consider xxx
 
 - 2019.9.10
+
   - mental adj | mentally
   - ramblings n
   - coherent adj | incoherent adj
@@ -5206,6 +5836,7 @@ ss
   > set him off
 
 - 2019.9.9
+
   - prime adj
   - chant n/v
   - upbraid vt
@@ -5226,6 +5857,7 @@ ss
   > we have never succeeded in doing that
 
 - 2019.9.6
+
   - divide n/v
   - drawn-out adj
   - epic n/adj
@@ -5243,6 +5875,7 @@ ss
   > enough is enough
 
 - 2019.9.5
+
   - plague n/vt
   - pollute vt | pollution n | polluter n | pollutant n | polluted adj
   - structure n | structural adj
@@ -5261,6 +5894,7 @@ ss
   > It has had a problem with too much rainwater coming in
 
 - 2019.9.4
+
   - appear vi | appearance n | disappearance
   - terrific adj
   - terrify v | terrified adj
@@ -5290,6 +5924,7 @@ ss
   > well, at one level, xxx
 
 - 2019.9.3
+
   - resign v | resignation n
   - scathing adj
   - rebuke vt
@@ -5318,10 +5953,12 @@ ss
   > on the economic front
 
 - 2019.8.30
+
   - obsess v | obsessed adj | obsessive | obsessively
   - addict n/vt | addicted | addiction n
 
 - 2019.8.26
+
   - steer v | steering n/adj
   - grim adj
   - gloomy adj
@@ -5336,6 +5973,7 @@ ss
   > xxxxx, but more importantly, xxxxx
 
 - 2019.8.21
+
   - guarantee n/vt | guaranteed adj
   - illistrate vt
 
@@ -5343,6 +5981,7 @@ ss
   > the lack of clarify on what's been happening at these peace talks
 
 - 2019.8.20
+
   - factor n/v | facto adj
   - upbeat adj/n
   - breather n
@@ -5373,6 +6012,7 @@ ss
   > it's often seen as xxxxx
 
 - 2019.8.19
+
   - consult v | consulting adj | consultant | consultancy | consultation
   - consul n | consulate n
   - stooge n
@@ -5386,6 +6026,7 @@ ss
   > he's going to have to catch on fast
 
 - 2019.8.16
+
   - bid n/v
   - qualify v | disqualify vt | qualification n | qualified | eligible adj | eligibility
   - turnout n | turnover n
@@ -5405,6 +6046,7 @@ ss
   - optimistic adj | optimism n ｜ pessimis n | pessimistic adj
 
 - 2019.8.15
+
   - arctic n/adj
   - sketchy adj | sketch n/v
   - contaminate vt | contaminated adj | contamination n | contaminant
@@ -5425,6 +6067,7 @@ ss
   > what are the highlights so far?
 
 - 2019.8.14
+
   - apparent adj |apparently adj
   - bllionaire n
   - traffic n/v
@@ -5443,6 +6086,7 @@ ss
   > on the rise
 
 - 2019.8.13
+
   - preferred adj
   - boycott n/vt
   - reckless adj | recklessness n
@@ -5453,6 +6097,7 @@ ss
   - fence n/v
 
 - 2019.8.12
+
   - legislation n | legislature n | legislator n
   - legitimate adj | legitimately | legitimacy n | illegitimate | legitimize vt
   - handful n
@@ -5461,6 +6106,7 @@ ss
   - invasion n | invade v | invader | incur vt | incursion n | invasive adj
 
 - 2019.8.8
+
   - resurrect vt
   - violate vt | violation n
   - comply vi | compliant adj | compliance n | defer v | deference n
@@ -5480,8 +6126,9 @@ ss
   - advocate n/vt | advocacy n
 
 - 2019.8.7
+
   - anonymous adj | anonymously adv
-  - grooming n | groom  n/v
+  - grooming n | groom n/v
   - hierarchical adj
   - owe vt
   - allegiance n
@@ -5489,6 +6136,7 @@ ss
   > it turned out
 
 - 2019.8.1
+
   - garlic n
   - choke v | choked
   - drown v
@@ -5505,6 +6153,7 @@ ss
   > it turned out
 
 - 2019.7.31
+
   - testify v
   - bomb n/v | bombshell n | bomber
   - collegial adj
@@ -5514,6 +6163,7 @@ ss
   > step down
 
 - 2019.7.30
+
   - shade n/v | shaded | shady adj | shadow n/vt/adj | shadowy adj
   - preside v
   - president | presidency n | presidential adj
@@ -5526,6 +6176,7 @@ ss
   - porch n
 
 - 2019.7.26
+
   - conservative n/adj | conservation n | conservatism n
   - daunting/daunted adj
   - can-do
@@ -5543,6 +6194,7 @@ ss
   > to some degree
 
 - 2019.7.25
+
   - enroll v | enrollment n
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
@@ -5552,6 +6204,7 @@ ss
   > Fore in five of them would come from working families
 
 - 2019.7.22
+
   - grueling adj
   - insistent adj | insist v | insistence n
   - carpet n/vt
@@ -5577,6 +6230,7 @@ ss
   > Compared to you guys in the US, you are like open books
 
 - 2019.7.19
+
   - mass n/v/adj | massive adj
   - cargo n
   - Pentagon n
@@ -5602,6 +6256,7 @@ ss
   > it's done trying
 
 - 2019.7.18
+
   - comedian n
   - ex n
   - chamber n/adh/vt
@@ -5623,6 +6278,7 @@ ss
   > cover one's ears
 
 - 2019.7.17
+
   - protest n | protester
   - violence n | violent adj | violently
   - ruling adj
@@ -5641,6 +6297,7 @@ ss
   > I think what we can be certain of is that ...
 
 - 2019.7.16
+
   - critic n | critical adj | criticize v | criticism n
   - cable n/v
   - ambassador n | embassy n
@@ -5668,6 +6325,7 @@ ss
   > the xx had a ton in the paper today
 
 - 2019.7.15
+
   - neglect n/vt | negligence n | negligent adj
   - aide n
   - horrendous adj
@@ -5677,6 +6335,7 @@ ss
   > they risk everything to come to Libya
 
 - 2019.7.12
+
   - swallow v/n
   - propose v | proposed adj | proposal n
   - domestic n/adj | domestical adj | domestically adv
@@ -5688,6 +6347,7 @@ ss
   > it is hard to swallow
 
 - 2019.7.11
+
   - soar vi
   - ploy n
   - soften v
@@ -5701,6 +6361,7 @@ ss
   > a lot of progress has been made
 
 - 2019.7.10
+
   - shore n/vt | ashore adj/adv | shoreline | offshore | onshore
   - foe n
   - tough n/adj/adv
@@ -5718,6 +6379,7 @@ ss
   > that may easier said than done
 
 - 2019.7.9
+
   - supply n/vt | supplier n | resupply
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj
@@ -5731,6 +6393,7 @@ ss
   > that was go too far
 
 - 2019.7.8
+
   - doubling n
   - reception n
   - utter vt/adj | utterly adv
@@ -5739,6 +6402,7 @@ ss
   > and in return
 
 - 2019.7.5
+
   - federal adj/n
   - appoint v | appointed adj | appointment n | appointee n
   - disappoint vt | disappointed | disappointment n
@@ -5758,6 +6422,7 @@ ss
   > a big swing down
 
 - 2019.7.4
+
   - drone n
   - unmanned adj
   - escalate v | de-escalate v | escalation n | escalator
@@ -5769,6 +6434,7 @@ ss
   > it does kind of raise questions about how xxxx
 
 - 2019.7.2
+
   - intent n/adj | intention n | intentional | intentionally | unintentional
   - loose n/vt/adj | loosen v | loosely
   - conciliatory adj
@@ -5784,6 +6450,7 @@ ss
   > foolish move
 
 - 2019.6.28
+
   - establish vt | establishment n
   - radical adj/n | radicalize vt
   - hatred n
@@ -5803,13 +6470,14 @@ ss
   > there's been a wide range
 
 - 2019.6.28
+
   - depose v | oust vt | ouster n | unseat | topple v
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi
   - faint n/vi/adj
   - trial n/adj | retrial n
-  - democrat n | democracy n |  democratic adj | undemocratic | democratically adv | democratize
+  - democrat n | democracy n | democratic adj | undemocratic | democratically adv | democratize
   - jail n/vt
   - crack n/adj/v
   - crackdown n | repress v | repressive adj | repression n | dampen vt | curb vt | curbed adj
@@ -5826,6 +6494,7 @@ ss
   > So there's been a wide range
 
 - 2019.6.27
+
   - stock n/v/adj | stockholder n
   - enrich v | enriched adj | enrichment n
   - altogether adv
@@ -5841,6 +6510,7 @@ ss
   > there is a couple of reasons
 
 - 2019.6.26
+
   - depart v/adj | departure n
   - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe

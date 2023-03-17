@@ -6,7 +6,7 @@ const _create = (obj) => {
 
 //判断数据类型
 //	typeof -> typeof null === 'object'
-//	instanceof
+//	instanceof 右侧对象的原型对象是否在左侧对象的原型链上
 //	Object.prototype.toString.call(obj)
 //		若参数不为null或undefined,则将参数转为对象,再作判断
 //		转为对象后,取得该对象的[Symbol.toStringTag]属性值（可能会遍历原型链）作为tag,然后返回"[object " + tag +"]"形式的字符串
@@ -45,16 +45,17 @@ const _instanceOf = (l, r) => {
 const _new = () => {
 	let [Constructor, ...args] = [...arguments]
 	//let Constructor = Array.prototype.shift.call(arguments)
-	//same as let obj = {}, obj.__proto__ == constructor.prototype
+	//same as let obj = {}
+	//obj.__proto__ == constructor.prototype
 	let obj = Object.create(Constructor.prototype)
 	let ret = Constructor.apply(obj, args)
-	//in case Constructor return a simple type
+	//in case Constructor return an object
 	return ret !== null && (typeof ret === 'object' || typeof ret === 'function')
 		? ret
 		: obj
 }
 
-//最后一个说了算
+//最后一次说了算
 const _debounce = (fn, timeout = 300) => {
 	let timer
 	return function (...args) {
@@ -66,7 +67,7 @@ const _debounce = (fn, timeout = 300) => {
 	}
 }
 
-//第一个说了算
+//第一次说了算
 function _throttle(fn, timeout = 300) {
 	let last = 0
 	return function (...args) {
@@ -99,7 +100,7 @@ function _throttle2(cb, timeout = 300) {
 Function.prototype._call = function (context, ...args) {
 	if (typeof this !== 'function') throw TypeError('invalid params')
 	//ctx = ctx || window
-	//如果不为空，则需要进行对象包装
+	//若不为空，则需要进行对象包装
 	context = !context ? window : Object(context)
 	args = args ? args : []
 	const key = Symbol()
@@ -213,6 +214,7 @@ Array.prototype._map = function (fn) {
 	if (typeof fn !== 'function') throw new TypeError(fn + 'is not a function')
 	let ret = []
 	for (let i = 0; i < this.length; i++) {
+		//过滤空位
 		if (i in this) {
 			ret.push(fn.call(undefined, this[i], i, this))
 		}
@@ -273,23 +275,11 @@ const _flat3 = (arr, depth = 1) => {
 		: arr
 }
 
-//洗牌
-const shuffle = (arr) => {
-	// 不影响原来的数组
-	const result = [...arr]
-	for (let i = result.length; i > 0; i--) {
-		// 随机从[0,i - 1]产生一个index, 将i - 1与index对应数组的值进行交换
-		const index = Math.floor(Math.random() * i)
-		;[result[index], result[i - 1]] = [result[i - 1], result[index]]
-	}
-	return result
-}
-
 //浅复制
 //	1 扩展运算符
 //	2 Object.assign()
 //  3 Object.getOwnPropertyDescriptors() + Object.defineProperties()
-const copyAllOwnProperties = (original) => {
+const shallowClone = (original) => {
 	return Object.defineProperties({}, Object.getOwnPropertyDescriptors(original))
 }
 
@@ -300,8 +290,8 @@ const copyAllOwnProperties = (original) => {
 //		若obj里有function、undefined，Symbol转换后直接丢失,若以上三个作为数组元素转换后是null,若单独转化则是undefined
 //		若obj里有NaN、Infinity和-Infinity，转换后变成null
 //		若对象中存在循环引用的转换报错
-//		对象toJSON属性
 //		JSON.stringify()只能序列化对象的可枚举的自有属性
+//		对象toJSON属性
 //	结论：只能处理string、boolean、number、null、object、array
 //  2 手动实现
 const deepClone = (source, cache = new WeakMap()) => {
@@ -370,8 +360,9 @@ const simulateAJAX = (options) => {
 	options.url = options.url || ''
 	options.method = options.method.toUpperCase() || 'GET'
 	options.async = options.async || true
-	options.data = options.data || null
+	options.data = options.data || {}
 	options.success = options.success || function () {}
+	options.fail = options.fail || function () {}
 	if (options.headers) {
 		for (let [k, v] of options.headers.entries()) xhr.setRequestHeader(k, v)
 	}
@@ -383,12 +374,13 @@ const simulateAJAX = (options) => {
 		if (status >= 200 && status < 400) {
 			options.success(xhr.responseText)
 		} else {
+			options.fail(xhr.statusText)
 		}
 	}
 	xhr.onerror = function () {
 		//xhr.statusText
 	}
-	//xhr.timeout = 3000
+	xhr.timeout = 3000
 	xhr.ontimeout = function () {}
 	xhr.responseType = 'json'
 	let postData = []
@@ -445,6 +437,15 @@ const getSearchParams = () => {
 //Proxy
 const user = {
 	_name: 'Guest',
+	//访问器属性 与 数据属性 相斥
+	// 可以定义一个虚拟属性
+	// let user = {
+	// 	 firstName: "John",
+	// 	 lastName: "Smith",
+	// 	 get fullName() {
+	// 		 return `${this.firstName}-${this.lastName}`
+	// 	 }
+	// }
 	get name() {
 		return this._name
 	},
@@ -468,7 +469,7 @@ handler = {
 	deleteProperty() {},
 }
 
-const userProxy = new Proxy(user, handler)
+let userProxy = new Proxy(user, handler)
 
 let admin = {
 	__proto__: userProxy,
@@ -479,21 +480,21 @@ let admin = {
 
 //practice
 const actions = () => {
-	const functionA = () => {
+	const fnA = () => {
 		/*do sth*/
 	}
 
-	function functionB() {
+	function fnB() {
 		/*do sth other*/
 	}
 
-	const functionC = () => {
+	const fnC = () => {
 		/*send log*/
 	}
 	return new Map([
-		[/^guest_[1-4]$/, functionA],
-		[/^guest_5$/, functionB],
-		[/^guest_.*$/, functionC],
+		[/^guest_[1-4]$/, fnA],
+		[/^guest_5$/, fnB],
+		[/^guest_.*$/, fnC],
 		//...
 	])
 }
@@ -527,7 +528,7 @@ const strategies = {
 	},
 }
 
-function enjoy({ type = TYPE.JUICE, fruits }) {
+function enjoy({ type, fruits }) {
 	if (!type) {
 		console.log('请直接享用！')
 		return
@@ -606,42 +607,6 @@ const start = () => {
 
 //start()
 
-//asyncPool???
-// const asyncPool = async (poolLimit, array, iteratorFn) => {
-// 	const ret = [] // 存储所有的异步任务
-// 	const executing = [] // 存储正在执行的异步任务
-// 	for (const item of array) {
-// 		// 调用iteratorFn函数创建异步任务
-// 		const p = Promise.resolve().then(() => iteratorFn(item, array))
-// 		ret.push(p) // 保存新的异步任务
-
-// 		// 当poolLimit值小于或等于总任务个数时，进行并发控制
-// 		if (poolLimit <= array.length) {
-// 			// 当任务完成后，从正在执行的任务数组中移除已完成的任务
-// 			const e = p.then(() => executing.splice(executing.indexOf(e), 1))
-// 			executing.push(e) // 保存正在执行的异步任务
-// 			if (executing.length >= poolLimit) {
-// 				await Promise.race(executing) // 等待较快的任务执行完成
-// 			}
-// 		}
-// 	}
-// 	return Promise.all(ret)
-// }
-
-// const timeout = (i) => {
-// 	return new Promise((resolve) =>
-// 		setTimeout(() => {
-// 			console.log(i)
-// 			resolve(i)
-// 		}, i)
-// 	)
-// }
-
-// 当然,limit <= 0 的时候 我们可以理解为只允许一个请求存在
-// asyncPool(2, [1000, 5000, 3000, 2000], timeout).then((res) => {
-// 	console.log(res)
-// })
-
 //question: a == 1 && a == 2 && a == 3
 //隐式转换会调用 valueOf
 const a = {
@@ -654,14 +619,13 @@ const a = {
 	// 	return this.value++
 	// },
 }
-//console.log(a == 1 && a == 2 && a == 3)
 
-let obj1 = {
+let objIterator = {
 	current: 0,
 	max: 5,
 	[Symbol.iterator]() {
 		return {
-			max: this.current,
+			max: this.max,
 			current: this.current,
 			next() {
 				if (this.current === this.max) {
@@ -675,12 +639,13 @@ let obj1 = {
 }
 
 //打印出当前网页使用了多少种HTML元素
-const fn = () => {
+const eleOnPage = () => {
 	return [
 		...new Set([...document.querySelectorAll('*')].map((el) => el.tagName)),
 	].length
 }
 
+//以下无限打印
 let starks = ['Eddard Stark', 'Catelyn Stark', 'Rickard Stark']
 
 function* repeatedArr(arr) {

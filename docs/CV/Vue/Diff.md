@@ -31,15 +31,19 @@ VNode
 
 - 只对比同层节点（也就是对比新旧节点中父节点是相同节点的子节点）
 
-  ![](../images/diff-1.png)
+  ![](./images/diff-1.png)
 
-![](../images/diff-2.png)
+![](./images/diff-2.png)
 
 ### 比较逻辑
 
 1. 能不移动，尽量不移动
+
 2. 没得办法，只好移动
+
 3. 实在不行，新建或删除
+
+   ![](./images/vue3-diff.png)
 
 #### 比较处理流程
 

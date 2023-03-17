@@ -1,6 +1,6 @@
 class PromiseQueue {
 	constructor(tasks, concurrentCount = 1) {
-		this.totals = tasks.length
+		//this.totals = tasks.length
 		this.todo = tasks
 		this.count = concurrentCount
 		this.running = []

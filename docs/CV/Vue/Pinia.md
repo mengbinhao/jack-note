@@ -5,7 +5,7 @@
 3. 完整支持TS
 4. 轻巧、代码简洁
 
-### get started
+### Get Started
 
 1. install Pinia
 
@@ -14,7 +14,7 @@
    npm i pinia
    ```
 
-2. use in Vue根组件(like main.js)
+2. use in Vue根组件(main.js)
 
    ```javascript
    import { createPinia } from 'pinia'
@@ -97,7 +97,7 @@ const handlerOtherStore = () => {
 
 const five = () => {
   counter.$state = {
-    
+    //...
   }
 }
 </script>

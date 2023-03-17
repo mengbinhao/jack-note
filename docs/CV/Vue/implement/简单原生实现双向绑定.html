@@ -24,11 +24,10 @@
       return val
     },
     set(newVal) {
-      if (val !== newVal) {
-        val = newVal
-        a.value = val
-        b.textContent = val
-      }
+      if (val == newVal) return
+      val = newVal
+      a.value = val
+      b.textContent = val
     }
   })
   a.addEventListener('keyup', (e) => {

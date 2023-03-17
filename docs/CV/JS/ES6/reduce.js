@@ -22,7 +22,7 @@ let fromPairs = (pairs) => {
 	}, {})
 }
 
-//重新生成对象{item.value: item.email}
+//重新组织对象{item.value: item.email}
 let array = [
 	{ name: '大漠', email: 'w3cplus@gmail.com' },
 	{ name: '大雉', email: 'airen@gmail.com' },

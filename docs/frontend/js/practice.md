@@ -183,6 +183,21 @@ let genNumArr = (length, limit) =>
 genNumArr(10, 100)
 ```
 
+#### 洗牌算法
+
+```javascript
+let shuffle = (arr) => {
+	// copy一份
+	const result = [...arr]
+	for (let i = result.length; i > 0; i--) {
+		// 随机从[0,i - 1]产生一个index, 将i - 1与index对应数组的值进行交换
+		const index = Math.floor(Math.random() * i)
+		;[result[index], result[i - 1]] = [result[i - 1], result[index]]
+	}
+	return result
+}
+```
+
 ### Object
 
 #### deconstruction

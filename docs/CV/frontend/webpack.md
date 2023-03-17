@@ -400,6 +400,135 @@ module: {
    })
   ```
 
+#### 11 vue-loader
+
+```javascript
+//preserveWhitespace 减少文件体积
+{
+  vue: {
+    preserveWhitespace: false
+  }
+}
+
+//transformToRequire
+<template>
+  <div>
+    <avatar :default-src="DEFAULT_AVATAR"></avatar>
+  </div>
+</template>
+<script>
+  export default {
+    created () {
+      this.DEFAULT_AVATAR = require('./assets/default-avatar.png')
+    }
+  }
+</script>
+
+//通过配置 transformToRequire 后，vue-loader会把对应的属性自动 require 之后传给组件
+{
+  vue: {
+    transformToRequire: {
+      avatar: ['default-src']
+    }
+  }
+}
+
+<template>
+  <div>
+    <avatar default-src="./assets/default-avatar.png"></avatar>
+  </div>
+</template>
+```
+
+#### 12 webpack-chunk-name合并包
+
+```javascript
+const A1 = () => import(/* webpackChunkName: "A" */ '@/views/A1')
+const A2 = () => import(/* webpackChunkName: "A" */ '@/views/A2')
+const A3 = () => import(/* webpackChunkName: "A" */ '@/views/A3')
+```
+
+#### 13 alias
+
+```javascript
+//vue.config.js or webpack.config.js
+resolve: {
+  extensions: ['.js', '.vue'],
+  alias: {
+    '@': resolve('src'),
+    'img': resolve('src/assets/img'),
+    'css': resolve('src/assets/css')
+  }
+}
+//test.vue
+<template>
+  <div class="avatar">
+    <img class="avatar-img" src="~img/avatar.png" alt="">
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "Home"
+  }
+</script>
+
+<style scoped lang="stylus">
+  @import "~css/avatar";
+</style>
+```
+
+#### 14 公共库放到CDN(`webpack-cdn-plugin`)
+
+```javascript
+//1 配置
+externals: {
+  vue:'Vue',
+  'vue-router':'VueRouter',
+  vuex:'Vuex',
+  'element-ui':'ELEMENT',
+  axios: 'axios'
+}
+//2 对应的引用库注释掉
+// import ElementUI from 'element-ui'
+// import { Button, Input, Form, FormItem, Message } from 'element-ui'
+// import 'element-ui/lib/theme-chalk/index.css'
+// Vue.use(ElementUI)
+
+//3 卸载依赖的`npm`包，`npm uninstall axios element-ui vue vue-router vuex`
+
+```
+
+```html
+<!-- 4 项目首页引入CDN，并对CDN失效做兜底 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<!--<script src="https://cdn.bootcss.com/vue/2.5.17/vue.js"></script>-->
+<!-- 生产环境版本，优化了尺寸和速度 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+<script>!window.Vue && document.write(unescape('%3Cscript src="/static/cdn/vue.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>!window.axios && document.write(unescape('%3Cscript src="/static/cdn/axios.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.min.js"></script>
+<script>!window.VueRouter && document.write(unescape('%3Cscript src="/static/cdn/vue-router.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vuex/dist/vuex.min.js"></script>
+<script>!window.Vuex && document.write(unescape('%3Cscript src="/static/cdn/vuex.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue-i18n/dist/vue-i18n.min.js"></script>
+<script>!window.VueI18n && document.write(unescape('%3Cscript src="/static/cdn/vue-i18n.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/element-ui/lib/umd/locale/zh-CN.js"></script>
+<script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element.min.js"%3E%3C/script%3E'))</script>
+<script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element-zh.min.js"%3E%3C/script%3E'))</script>
+```
+
+
+
 ### 5 webpack进阶
 
 #### 1 clear dist folder

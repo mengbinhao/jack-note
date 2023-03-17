@@ -1,19 +1,13 @@
 ### 渐进式
 
-Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而React几乎做不到这一点
+**渐进式**,意思就是你可以渐渐地用Vue,而React几乎做不到这一点
 
 动态构建用户界面
 
-1. 你可以继续操作DOM
-2. 你可以很方便地做SEO
-3. 你可以局部做单页面
-4. 你可以整体做单页面
-
-### Features
-
-1. 遵循MVVM
-2. 编码简洁,体积小,运行效率高,适合PC/移动端开发
-3. 本身只关注UI,可以轻松的引入Vue插件或其他第三方库
+1. 可以继续操作DOM(作死)
+2. 可以很方便地做SEO
+3. 可以局部做单页面
+4. 也可以整体做单页面
 
 ### MVVM
 
@@ -29,48 +23,57 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
   ```vue
   <span :title="toTitleDate(date)">
-  {{ formatDate(date) }}
+  	{{ formatDate(date) }}
   </span>
   ```
 
 ### Vue 属性
 
-  - el
+- el
 
-  - data
+- template --> render
 
-  - template
+- data
 
-  - methods
+  - 如何触发data的更新
+    - 响应式
+    - 模板使用到
 
-  - components(global / local)
-    
+- methods
+
+- components(global / local)
+
     - 全局定义时命名不能重复
-    
-  - filters(global / local)
-    - {{ message | filter }}
-    - `<div v-bind="msg | filter"></div>`
-    
-  - watch -> single data
+
+- watch -> single data
     - 深层
-    
-    - 回调触发时机
-    
-    - 停止
-    
+
     - 即时
-    
+
+    - 回调触发时机
+
+    - 停止
+
     - this.$watch
-    
-      ```vue
-      //可以直接写methods方法名字符串
+
+      ```javascript
+      //可以直接写methods里的方法名字符串
       watch: {
         currentBranch: 'fetchData'
       }
+      //其他属性
+      watch: {
+        username: {
+          immediate: true,
+      		deep: true
+          handler: 'getUserInfo'
+        }
+      }
       ```
-    
-  - ==computed -> multiple data==（**不要在计算函数中做异步请求或者更改 DOM**）
-    
+
+- ==computed -> multiple data==
+
+    - 不要在计算属性中做异步请求或者更改DOM
     - VS watch
       - `computed`是计算一个新属性,并将该属性挂载到`vm`上,而`watch`是监听已经存在且已挂载到`vm`上的属性, 计算属性不需要在 data 里面提前定义,watch 则需要,所以用`watch`同样可以监听`computed`计算属性的变化(其它还有 `data`、`props`)
       - `computed`本质是一个惰性求值的观察者,具有缓存性,只有当依赖变化后,第一次访问`computed`属性,才会计算新的值,而`watch`则是当数据发生变化便会调用执行函数
@@ -78,29 +81,36 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
     - VS method
       - `methods`没有缓存
       - `computed`不可传参,`methods`可以
-      - `computed`通过`getter` 、`setter`传newValue
-    
-  - ==class==
-    
-    - `<p :class="{ active: isActive, 'text-danger': hasError }">xxx是字符串</p>`
-    - `<p :class="classObject">xxx是对象</p>`
-    - `<p :class="['bClass', 'cClass']">xxx是数组</p>`
-    - `<div :class="[isActive ? activeClass : '', errorClass]"></div>`
-    - `<div :class="[{ active: isActive }, errorClass]"></div>`
-    
-  - ==style==
-    
-    - `<p :style="{ color: activeColor, fontSize: fontSize + 'px' }"></p>`
-    - `<div :style="{ 'font-size': fontSize + 'px' }"></div>`
-    - `<p :style="styleObject"></p>`
-    - `<p :style="[baseStyles, overridingStyles]">test style2</p>`
+      - `getter` 、`setter`
+
+- ==class==
+
+    - `<p :class="{ active: isActive, 'text-danger': hasError }">字符串</p>`
+    - `<p :class="classObject">对象</p>`
+    - `<p :class="['bClass', 'cClass']">数组</p>`
+    - `<div :class="[isActive ? activeClass : '', errorClass]">三目</div>`
+    - `<div :class="[{ active: isActive }, errorClass]">混合</div>`
+
+- ==style==
+
+    - `<p :style="{ color: activeColor, fontSize: fontSize + 'px' }">字符串</p>`
+    - `<div :style="{ 'font-size': fontSize + 'px' }">字符串</div>`
+    - `<p :style="styleObject">对象</p>`
+    - `<p :style="[baseStyles, overridingStyles]">数组</p>`
     - `<div :style="{ display: ['-webkit-box', '-ms-flexbox', 'flex'] }"></div>`
+
+- filters
+
+  - global filter、local filter
+  - `{{ message | filter }}`
+  - `<div v-bind="msg | filter"></div>`
+
 
 ### Vue 实例属性
 
 - $el、$options、$data
 
-- ==$attrs、$listeners== （除了class、style、v-on等）、$props
+- $attrs(class 和 style 除外)、$listeners( (不含 .native 修饰符) 的v-on 事件监听器)
 
   ```vue
   <!-- 想要所有像 class 和 v-on 监听器这样的透传 attribute 都应用在内部的 <button> 上而不是外层的 <div> 上。通过设定 inheritAttrs: false 和使用 v-bind="$attrs" 来实现：  -->
@@ -111,7 +121,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
 - $root、$parent、$children
 
-- $refs(操作DOM)
+- $refs
 
   ```vue
   <script>
@@ -123,11 +133,10 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   </script>
   
   <template>
+    <!-- ref代表的是子组件实例 -->
     <input ref="input" />
   </template>
   ```
-
-- 组件上的ref代表的是子组件实例
 
 - expose
 
@@ -161,7 +170,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
       increment() {
         this.count++
         //适用场景
-        //1. 在`created`生命周期执行DOM操作
+        //1. 在`mounted`生命周期执行DOM操作
   		  //2. 在数据变化后需要进行基于DOM结构的操作
         nextTick(() => {
           // 访问更新后的 DOM
@@ -175,19 +184,20 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
 - v-once、v-cloak
 
-  ```vue
-  //如果没有彻底解决问题，则在根元素加上style="display: none;" :style="{display: 'block'}"
+  ```html
+  <!-- 如果没有彻底解决问题，则在根元素加上style="display: none;" :style="{display: 'block'}" -->
+  <!-- 解决闪屏 -->
   [v-cloak] {
-      display: none;
+    display: none;
   }
   ```
 
 - v-model
 
   - 原生展开 ： `<input :value="val" @input="val=$event.target.value" />`
-  - 自定义组件展开： `<CustomInput  :modelValue="searchText"  @update:modelValue="newValue => searchText = newValue" />`
+  - 自定义组件展开： `<CustomInput :modelValue="searchText"  @update:modelValue="newValue => searchText = newValue" />`
 
-    ```vue
+    ```javascript
     <!-- 为了使组件正常工作 -->
     <!-- 方式一：CustomInput.vue -->
     <script>
@@ -247,9 +257,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
     })
     ```
 
-- v-for、v-if、v-else、v-else-if、v-show
-
-- v-if vs v-show
+- v-for、v-else、v-else-if、v-show、v-if
 
 - ==v-if > v-for==
 
@@ -274,8 +282,6 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - v-slot、v-pre
 
 - ==v-bind ==> :==
-
-  - `<div v-bind="objectOfAttrs"></div>`
 
 - ==v-on ==> @==
 
@@ -388,14 +394,14 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
   - 自定义model
 
-    ```vue
+    ```javascript
     model: {
-        prop: "phoneInfo", // 默认 value
-        event: "change" // 默认 input
+      prop: "phoneInfo", // 默认 value
+      event: "change" // 默认 input
     },
     props: {
-        phoneInfo: Object,
-        zipCode: String
+      phoneInfo: Object,
+      zipCode: String
     }
     
     <PersonalInfo v-model="phoneInfo" :zip-code.sync="zipCode" />
@@ -418,7 +424,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
     
     - 校验(null和undefined会通过任何类型验证)
     
-      ```vue
+      ```javascript
       props: {
       	//null和undefined会通过任何类型验证
       	propA: Number,
@@ -483,20 +489,19 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
     //Child
     //当子组件有父节点的时候，non-props才会挂载到子组件根节点，否则不挂
     //通过如下方式挂载到平级的某个节点上
-    //挂载所有
     <div v-bind="$attrs">Hello world</div>
-    <div >Hello world2</div>
+    <div>Hello world2</div>
     
     //只挂载style
     <div v-bind:style="$attrs.style">Hello world</div>
-    <div >Hello world2</div>
+    <div>Hello world2</div>
     
     //业务逻辑上只使用msg
     mounted() {
       console.log(this.$attrs.msg)
     }
     ```
-  
+    
   - .sync
   
     ```vue
@@ -516,7 +521,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   - 特殊属性 `class / style / ref / key`
   
 - 事件
-  - 修饰符事件，应用于原生html元素
+  - 事件修饰符，应用于原生html元素
 
   - 普通事件
 
@@ -538,7 +543,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 
   - emits
 
-    ```vue
+    ```javascript
     <!-- BlogPost.vue -->
     <script>
     export default {
@@ -595,7 +600,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   </BaseLayout>
   ```
 
-- 作用域插槽(父组件需要访问子组件的data的时候)
+- 作用域插槽(父组件需要访问子组件data的时候)
 
   - 默认插槽
 
@@ -655,43 +660,6 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
   ))
   ```
 
-- DOM 模板解析注意事项
-
-  - 大小写
-  - 闭合标签
-  - 元素位置显示
-
-- 穿透scoped
-
-  - 在模板中使用两次style标签
-
-    ```vue
-    <style lang="scss">
-    		/*添加要覆盖的样式*/
-    </style>
-    <style lang="scss" scoped>
-    		/* local styles */
-    </style>
-    ```
-
-  - 使用`>>>`或`/deep/`操作符(Sass之类的预处理器无法正确解析`>>>`)
-
-    ```vue
-    <style lang="scss">
-    .box >>> input {
-      width: 166px;
-      text-align: center;
-    }
-    
-    .box {
-      /deep/ input {
-        width: 166px;
-        text-align: center;
-      }
-    }
-    </style>
-    ```
-
 
 ### 生命周期
 
@@ -706,12 +674,10 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - 编码阶段
   - 尽量减少data中的数据，data中的数据都会增加getter和setter，会收集对应的watcher
   - v-if和v-for不能连用
-  - 如果需要使用v-for给每项元素绑定事件时使用事件代理
-  - SPA 页面采用keep-alive缓存组件
-  - 在更多的情况下，使用v-if替代v-show
+  - 若需要使用v-for给每项元素绑定事件时使用事件代理
   - key保证唯一
   - 使用路由懒加载、异步组件
-  - 防抖、节流
+  - SPA页面采用keep-alive缓存组件
   - 第三方模块按需导入
   - 长列表滚动到可视区域动态加载
   - 图片懒加载
@@ -721,7 +687,7 @@ Vue一个大特点就是**渐进式**,意思就是你可以渐渐地用Vue,而Re
 - 打包优化
   - 压缩代码
   - Tree Shaking/Scope Hoisting
-  - 使用cdn加载第三方模块
+  - 使用CDN加载第三方模块
   - 多线程打包happypack
   - splitChunks抽离公共文件
   - sourceMap优化

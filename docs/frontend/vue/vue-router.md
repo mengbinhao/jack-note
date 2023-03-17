@@ -1,4 +1,4 @@
-### get started
+### Get Started
 1. install vue-router
 
    ```bash
@@ -6,7 +6,7 @@
    npm i vue-router@4 --save
    ```
 
-2. use in Vue根组件(like main.js)
+2. use in Vue根组件(main.js)
 
    ```javascript
    import router from './router'
@@ -69,10 +69,10 @@ const routes = [
 
 //redirect:'/params/:newsId(\\d+)/:newsTitle'
 { path:'/home', redirect: '/' }
-{ path: '/home', redirect: { name: 'Home' }
+{ path: '/home', redirect: { name: 'Home' }}
 //advanced usage
- { path: '/users/:id/posts', redirect: to => {
-   // 将总是把/users/123/posts重定向到/users/123/profile。
+{ path: '/users/:id/posts', redirect: to => {
+   // 将总是把/users/123/posts重定向到/users/123/profile
    //return 'profile'
    //return { path: 'profile'}
    return { path: '/search', query: { q: to.params.searchText } 
@@ -585,11 +585,11 @@ export default {
 
 ### 总结
 
-- k->v 前端就是组件 后端就是回调函数
+- k->v 前端就是组件,后端就是对应的一个个函数
 
-- `$route` 只读，指当前路由 `$router` 只写，指路由器
+- `$route` 只读，指当前路由， `$router` 只写，指路由器
 
-- props: (route) => ({ ...route.params, id: parseInt(route.params.id) }) 注意保留以前的params
+- props: (route) => ({ ...route.params, id: parseInt(route.params.id) })  //注意保留以前的params
 
 - 保留其他route参数
 
@@ -612,9 +612,7 @@ export default {
 <template>
   <div class="post">
     <div v-if="loading" class="loading">Loading...</div>
-
     <div v-if="error" class="error">{{ error }}</div>
-
     <div v-if="post" class="content">
       <h2>{{ post.title }}</h2>
       <p>{{ post.body }}</p>
@@ -679,8 +677,7 @@ export default {
       next(vm => vm.setData(err, post))
     })
   },
-  // 路由改变前，组件就已经渲染完了
-  // 逻辑稍稍不同
+  // 路由改变前，组件就已经渲染完
   async beforeRouteUpdate(to, from) {
     this.post = null
     try {

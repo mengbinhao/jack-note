@@ -25,17 +25,17 @@ class EventEmitter {
 		}
 	}
 
+	emit(type, ...args) {
+		if (!this.events[type]) return
+		this.events[type].forEach((cb) => cb(...args))
+	}
+
 	once(type, cb) {
 		let inner = (...args) => {
 			cb.apply(this, args)
 			this.off(type, inner)
 		}
 		this.on(type, inner)
-	}
-
-	emit(type, ...args) {
-		if (!this.events[type]) return
-		this.events[type].forEach((cb) => cb(...args))
 	}
 }
 
