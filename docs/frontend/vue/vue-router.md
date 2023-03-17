@@ -120,6 +120,11 @@ watch: {
     this.initData()
   }
 }
+
+//way 3
+created () {
+  this.getPost(this.$route.params.id)
+},
 ```
 
 ####  **Vue key attribute**
