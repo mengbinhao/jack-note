@@ -96,7 +96,7 @@ c.age = 2 //无法增加属性，少用
 type A = string & number
 
 function error(message: string): never {
-    throw new Error(message);
+    throw new Error(message)
 }
 
 function loop(): never {
@@ -125,7 +125,7 @@ function hobby(value:A) {
       break
     default:
       //兜底逻辑
-      const error:never = value;
+      const error:never = value
       return error
   }
 }
@@ -830,12 +830,12 @@ namespace a {
 ```typescript
 //a.ts
 namespace A {
-    export const fn = () => 'a'
+  export const fn = () => 'a'
 }
 
 //b.ts
 namespace A {
-    export const fn2 = () => 'b'
+  export const fn2 = () => 'b'
 }
 
 ///<reference path="./index2.ts" />
@@ -865,17 +865,15 @@ console.log(A)
 ```typescript
 declare module 'express' {
     interface Router {
-        get(path: string, cb: (req: any, res: any) => void): void
+      get(path: string, cb: (req: any, res: any) => void): void
     }
     interface App {
-
-        use(path: string, router: any): void
-        listen(port: number, cb?: () => void): void
+      use(path: string, router: any): void
+      listen(port: number, cb?: () => void): void
     }
     interface Express {
-        (): App
-        Router(): Router
-
+      (): App
+      Router(): Router
     }
     const express: Express
     export default express
@@ -950,7 +948,7 @@ const watcher: ClassDecorator = (target: Function) => {
     console.log('Kyo')
   }
   // target.prototype.getParams = <T>(params: T):T => {
-  //     return params
+  //   return params
   // }
 }
 
@@ -968,24 +966,24 @@ a.fn()
 
 ```typescript
 const watcher = (name: string): ClassDecorator => {
-    return (target: Function) => {
-        target.prototype.getParams = <T>(params: T): T => {
-            return params
-        }
-        target.prototype.getOptions = (): string => {
-            return name
-        }
+  return (target: Function) => {
+    target.prototype.getParams = <T>(params: T): T => {
+      return params
     }
+    target.prototype.getOptions = (): string => {
+      return name
+    }
+  }
 }
 
 @watcher('name')
 class A {
-    constructor() {
-
-    }
+  constructor() {
+    //...
+  }
 }
 
-const a = new A();
+const a = new A()
 console.log((a as any).getParams('123'))
 ```
 
@@ -999,19 +997,18 @@ console.log((a as any).getParams('123'))
 //	方法的名字
 //	方法的属性描述符
 const met:MethodDecorator = (...args) => {
-    console.log(args);
+  console.log(args)
 }
 
 class A {
-    constructor() {
-
-    }
-    @met
-    getName ():string {
-        return '小满'
-    }
+  constructor() {
+		//...
+  }
+  @met
+  getName ():string {
+    return '小满'
+  }
 }
-
 const a = new A()
 ```
 
@@ -1022,18 +1019,16 @@ const a = new A()
 //	对于静态成员来说是类的构造函数，对于实例成员是类的原型对象
 //	属性的名字
 const met:PropertyDecorator = (...args) => {
-    console.log(args)
+  console.log(args)
 }
 
 class A {
-    @met
-    name:string
-    constructor() {
-
-    }
-
+  @met
+  name:string
+  constructor() {
+		//...
+  }
 }
-
 const a = new A()
 ```
 
@@ -1045,18 +1040,17 @@ const a = new A()
 //	方法的名字
 //	参数在函数参数列表中的索引
 const met:ParameterDecorator = (...args) => {
-    console.log(args);
+  console.log(args)
 }
 
 class A {
-    constructor() {
+  constructor() {
+		//...
+  }
+  setParams (@met name:string = '213') {
 
-    }
-    setParasm (@met name:string = '213') {
-
-    }
+  }
 }
-
 const a = new A()
 ```
 

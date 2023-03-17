@@ -22,11 +22,10 @@ class Observer {
 				return value
 			},
 			set(newVal) {
-				if (newVal !== value) {
-					value = newVal
-					//_this.observe(newVal)
-					dep.notify()
-				}
+				if (newVal === value) return
+				value = newVal
+				//_this.observe(newVal)
+				dep.notify()
 			},
 		})
 	}

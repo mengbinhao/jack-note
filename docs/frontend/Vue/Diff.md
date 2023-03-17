@@ -1,28 +1,14 @@
-### Diff作用
+### Diff 作用
 
-减少DOM更新量，找到最小差异（打patch），只更新DOM差异部
+减少 DOM 更新量，找到最小差异（打 patch），只更新 DOM 差异部分
 
 VNode
 
-```javascript
-<div class="parent" style="height:0" href="2222">
-    111111
-</div>
+```html
+<div class="parent" style="height:0" href="2222">111111</div>
 
-{    
-  tag: 'div',    
-  data: {        
-    attrs:{href:"2222"}
-    staticClass: "parent",        
-    staticStyle: {            
-      height: "0"
-    }
-  },    
-  children: [{        
-    tag: undefined,        
-    text: "111111"
-  }]
-}
+{ tag: 'div', data: { attrs: { href:"2222" }, staticClass: "parent",
+staticStyle: { height: "0" } }, children: [{ tag: undefined, text: "111111" }] }
 ```
 
 ### 怎么做
@@ -35,9 +21,9 @@ VNode
 
 ### 比较逻辑
 
-- 能不移动，尽量不移动
-- 没得办法，只好移动
-- 实在不行，新建或删除
+1. 能不移动，尽量不移动
+2. 没得办法，只好移动
+3. 实在不行，新建或删除
 
 #### 比较处理流程
 
@@ -45,11 +31,11 @@ VNode
 2. 再找相同但是需要移动的节点，消耗第二小
 3. 最后找不到，才会去新建删除节点，保底处理
 4. createPatchFunction -> patchVnode -> updateChildren
-   1. 头头(newStartIdx++ ， oldStartIdx++) -> 尾尾(newStartIdx--， oldStartIdx--) -> 旧头、新尾 (newEndIdx--， oldStartIdx++), 放到 oldEndVnode 的后面-> 旧尾、新头(oldEndIdx--，newStartIdx++, 放到oldStartVnode 的前面)
+   1. 头头(newStartIdx++，oldStartIdx++) -> 尾尾(newStartIdx--，oldStartIdx--) -> 旧头、新尾 (newEndIdx--，oldStartIdx++), 放到 oldEndVnode 的后面 -> 旧尾、新头(oldEndIdx--，newStartIdx++, 放到 oldStartVnode 的前面)
    2. 单个新子节点在旧子节点数组中查找位置
-      1. 生成旧子节点数组以 vnode.key 为key 的 map
-      2. 拿到新子节点数组中一个子项，判断它的key是否在上面的map 中
-      3. 不存在，则新建DOM
+      1. 生成旧子节点数组以`vnode.key`为 key 的 map
+      2. 拿到新子节点数组中一个子项，判断它的 key 是否在上面的 map 中，若没有 key 通过 findIdxInOld 查
+      3. 不存在，则新建 DOM
       4. 存在，继续判断是否 sameVnode
    3. 新增、删除
 
@@ -171,11 +157,7 @@ function updateChildren(parentElm, oldCh, newCh) {
 			//  新孩子中，存在一个新节点，老节点中没有，需要新建
 			if (!idxInOld) {
 				//  把  newStartVnode 插入 oldStartVnode 的前面
-				createElm(
-					newStartVnode,
-					parentElm,
-					oldStartVnode.elm
-				)
+				createElm(newStartVnode, parentElm, oldStartVnode.elm)
 			} else {
 				//  找到 oldCh 中 和 newStartVnode 一样的节点
 				vnodeToMove = oldCh[idxInOld]
@@ -184,10 +166,7 @@ function updateChildren(parentElm, oldCh, newCh) {
 					// 删除这个 index
 					oldCh[idxInOld] = undefined
 					// 把 vnodeToMove 移动到  oldStartVnode 前面
-					parentElm.insertBefore(
-						vnodeToMove.elm,
-						oldStartVnode.elm
-					)
+					parentElm.insertBefore(vnodeToMove.elm, oldStartVnode.elm)
 				}
 				// 只能创建一个新节点插入到 parentElm 的子节点中
 				else {
@@ -215,4 +194,3 @@ function updateChildren(parentElm, oldCh, newCh) {
 	}
 }
 ```
-

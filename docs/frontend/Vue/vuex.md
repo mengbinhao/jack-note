@@ -8,7 +8,7 @@
 >
 >4 配置store里面的数据
 >
->5 将store对象关联vue实例   //不要直接this.$store.state.xxx改数据!
+>5 将store对象关联vue实例   //不要直接this.$store.state.xxx改数据!!!!!
 >
 >6 mutation(修改同步state),action进行异步操作,在mutation里面dispatch然后action异步操作后commit
 >
@@ -21,7 +21,7 @@
 - state: 驱动应用的数据源
 - view: 以声明方式将state映射到视图
 - actions: 响应在view上的用户输入导致的状态变化(包含n个更新状态的方法)
-![](../images/vuex-1.png)
+![](./images/vuex-1.png)
 
 #### 把数据存入 Vuex 的理由
 
@@ -39,7 +39,7 @@
    - 将数据以及操作数据的行为都定义在父组件
    - 将数据以及操作数据的行为传递给需要的各个子组件(有可能需要多级传递)
 
-![](../images/vuex-2.png)
+![](./images/vuex-2.png)
 
 #### state
 Vuex 管理的状态对象
@@ -66,7 +66,7 @@ this.$store.commit('xxx') //赋值----mapMutations
 #### actions
 - 包含多个事件回调函数的对象
 - 执行: commit()来触发`mutation`, 间接更新state
-- 谁来触发: 组件中: `$store.dispatch('action 名称', data)` 执行定时器or ajax
+- 谁来触发: 组件中: `$store.dispatch('action 名称', data)` 执行定时器or AJAX
 ```javascript
 const actions = {
     //第一个参数是 context
@@ -84,7 +84,7 @@ this.$store.dispatch('xxx')//赋值----mapActions
 ```javascript
 const getters = {
     xxx (state, getters, rootState, rootGetters) {
-        return ...
+        return //...
     }
 }
 this.$store.getters.xxx //取值----mapGetters
@@ -270,7 +270,6 @@ methods: {
     }
 }
 
-
 //In component
 import {mapState, mapGetters, mapMutations, mapActions} from 'vuex'
 
@@ -287,4 +286,4 @@ methods: {
 #### in real project
 
 以下没区分模块，创建一个store文件夹,一个index.js、state.js、action.js、mutation.js、getter.js、mutation-types.js
-![](../images/vuex-3.png)
+![](./images/vuex-3.png)
