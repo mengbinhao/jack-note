@@ -1,5 +1,5 @@
 ### 1 什么是webpack
-构建就是把源代码转换成线上可执行的js、css、html.
+构建就是把源代码转换成线上可执行的js、css、html
 - 代码转换ts->js、less->css等
 - 文件优化,压缩js、css、html,合并图片
 - 代码分割,提取多个页面的公共代码,提取首屏不需要执行的代码异步加载,路由按需加载
@@ -31,7 +31,7 @@
     >
     > thread-loader
 
-- plugin：在Webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或做你想要的事情,增强webpack功能,作用于整个构建过程,可以简单理解为webpack不能做的事情plugin做
+- plugin：在Webpack构建流程中的特定时机注入扩展逻辑来改变构建结果或做你想要的事情,增强webpack功能,作用于整个构建过程,可以简单理解为webpack不能做的事情plugin都可以做
 
     > CommonsChunkPlugin
     >
@@ -84,7 +84,7 @@
     npm i babel-polyfill --D  (默认只转换语法,这个转换API )
     npm i babel-plugin-transform-runtime --D  (解决重复引用工具方法导致打包js过大的问题)
     npm i babel-runtime --save  (解决重复引用工具方法导致打包js过大的问题)
-
+    
     npm i -D style-loader css-loader  (css-loader)
     npm i -D npm i file-loader url-loader  (image-loader)
     npm i -D less-loader  less(less-loader)
@@ -225,7 +225,7 @@ module: {
   "scripts": {
     "dev": "webpack-dev-server --open"
   }
-
+  
   //webpack.config.js
   const webpack = require('webpack')
   module.export = {
@@ -259,7 +259,7 @@ module: {
   }
   ```
 
-#####webpack-dev-middleware
+##### webpack-dev-middleware
 
 - WDM将webpack输出的文件传输给服务器
 
@@ -269,15 +269,15 @@ module: {
   const express = require('express')
   const wepback = require('wepback')
   const weppackDevMiddleware = require('weppack-dev-middleware')
-
+  
   const app = expess()
   const config = require('./webpack.config.js')
   const compile = wepback(config)
-
+  
   app.use(weppackDevMiddleware(compile,{
       publicPath:config.output.publicPath
   }))
-
+  
   app.listen(3000,() => {
       console.log('server is running on 3000')
   })
@@ -296,7 +296,7 @@ module: {
   //抽取css文件,webpack4的plugin,支持css chunk
   //与style-loader功能互斥,不能一起使用
   const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-
+  
   module.exports = {
       entry: {
           index: './src/index.js',
@@ -399,6 +399,135 @@ module: {
       }
    })
   ```
+
+#### 11 vue-loader
+
+```javascript
+//preserveWhitespace 减少文件体积
+{
+  vue: {
+    preserveWhitespace: false
+  }
+}
+
+//transformToRequire
+<template>
+  <div>
+    <avatar :default-src="DEFAULT_AVATAR"></avatar>
+  </div>
+</template>
+<script>
+  export default {
+    created () {
+      this.DEFAULT_AVATAR = require('./assets/default-avatar.png')
+    }
+  }
+</script>
+
+//通过配置 transformToRequire 后，vue-loader会把对应的属性自动 require 之后传给组件
+{
+  vue: {
+    transformToRequire: {
+      avatar: ['default-src']
+    }
+  }
+}
+
+<template>
+  <div>
+    <avatar default-src="./assets/default-avatar.png"></avatar>
+  </div>
+</template>
+```
+
+#### 12 webpack-chunk-name合并包
+
+```javascript
+const A1 = () => import(/* webpackChunkName: "A" */ '@/views/A1')
+const A2 = () => import(/* webpackChunkName: "A" */ '@/views/A2')
+const A3 = () => import(/* webpackChunkName: "A" */ '@/views/A3')
+```
+
+#### 13 alias
+
+```javascript
+//vue.config.js or webpack.config.js
+resolve: {
+  extensions: ['.js', '.vue'],
+  alias: {
+    '@': resolve('src'),
+    'img': resolve('src/assets/img'),
+    'css': resolve('src/assets/css')
+  }
+}
+//test.vue
+<template>
+  <div class="avatar">
+    <img class="avatar-img" src="~img/avatar.png" alt="">
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "Home"
+  }
+</script>
+
+<style scoped lang="stylus">
+  @import "~css/avatar";
+</style>
+```
+
+#### 14 公共库放到CDN(`webpack-cdn-plugin`)
+
+```javascript
+//1 配置
+externals: {
+  vue:'Vue',
+  'vue-router':'VueRouter',
+  vuex:'Vuex',
+  'element-ui':'ELEMENT',
+  axios: 'axios'
+}
+//2 对应的引用库注释掉
+// import ElementUI from 'element-ui'
+// import { Button, Input, Form, FormItem, Message } from 'element-ui'
+// import 'element-ui/lib/theme-chalk/index.css'
+// Vue.use(ElementUI)
+
+//3 卸载依赖的`npm`包，`npm uninstall axios element-ui vue vue-router vuex`
+
+```
+
+```html
+<!-- 4 项目首页引入CDN，并对CDN失效做兜底 -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<!--<script src="https://cdn.bootcss.com/vue/2.5.17/vue.js"></script>-->
+<!-- 生产环境版本，优化了尺寸和速度 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+<script>!window.Vue && document.write(unescape('%3Cscript src="/static/cdn/vue.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>!window.axios && document.write(unescape('%3Cscript src="/static/cdn/axios.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.min.js"></script>
+<script>!window.VueRouter && document.write(unescape('%3Cscript src="/static/cdn/vue-router.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vuex/dist/vuex.min.js"></script>
+<script>!window.Vuex && document.write(unescape('%3Cscript src="/static/cdn/vuex.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue-i18n/dist/vue-i18n.min.js"></script>
+<script>!window.VueI18n && document.write(unescape('%3Cscript src="/static/cdn/vue-i18n.min.js"%3E%3C/script%3E'))</script>
+
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script src="https://unpkg.com/element-ui/lib/umd/locale/zh-CN.js"></script>
+<script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element.min.js"%3E%3C/script%3E'))</script>
+<script>!window.Element && document.write(unescape('%3Cscript src="/static/cdn/element-zh.min.js"%3E%3C/script%3E'))</script>
+```
+
+
 
 ### 5 webpack进阶
 
@@ -769,7 +898,7 @@ module.exports = {
     {
       "plugins": ["@babel/plugin-syntax-dynamic-import"],
       ...
-}
+    }
     ```
 
     ![](images/webpack-3.png)
@@ -928,15 +1057,15 @@ if (process.env.NODE_ENV === 'production') {
           const entry = {};
           const htmlWebpackPlugins = [];
           const entryFiles = glob.sync(path.join(__dirname,'./src/*/index-server.js'));
-
+      
           Object.keys(entryFiles)
               .map((index) => {
                   const entryFile = entryFiles[index];
                   // '/Users/cpselvis/my-project/src/index/index.js'
-
+      
                   const match = entryFile.match(/src\/(.*)\/index-server\.js/);
                   const pageName = match && match[1];
-
+      
                   if (pageName) {
                       entry[pageName] = entryFile;
                       htmlWebpackPlugins.push(
@@ -958,7 +1087,7 @@ if (process.env.NODE_ENV === 'production') {
                       );
                   }
               });
-
+      
           return {
               entry,
               htmlWebpackPlugins
@@ -969,7 +1098,7 @@ if (process.env.NODE_ENV === 'production') {
 
       //index-server.js
       'use strict';
-
+    
       // import React from 'react';
       // import largeNumber from 'large-number';
       // import logo from './images/logo.png';
@@ -978,17 +1107,17 @@ if (process.env.NODE_ENV === 'production') {
       const largeNumber = require('large-number');
       const logo = require('./images/logo.png');
       require('./search.less');
-
+    
       class Search extends React.Component {
-
+    
           constructor() {
               super(...arguments);
-
+    
               this.state = {
                   Text: null
               };
           }
-
+    
           loadComponent() {
               import('./text.js').then((Text) => {
                   this.setState({
@@ -996,7 +1125,7 @@ if (process.env.NODE_ENV === 'production') {
                   });
               });
           }
-
+    
           render() {
               const { Text } = this.state;
               const addResult = largeNumber('999','1');
@@ -1009,7 +1138,7 @@ if (process.env.NODE_ENV === 'production') {
               </div>;
           }
       }
-
+    
       module.exports = <Search />;
 
 
@@ -1017,7 +1146,7 @@ if (process.env.NODE_ENV === 'production') {
       if (typeof window === 'undefined') {
           global.window = {};
       }
-
+    
       const fs = require('fs');
       const path = require('path');
       const express = require('express');
@@ -1025,23 +1154,23 @@ if (process.env.NODE_ENV === 'production') {
       const SSR = require('../dist/search-server');
       const template = fs.readFileSync(path.join(__dirname,'../dist/search.html'),'utf-8');
       const data = require('./data.json');
-
+    
       const server = (port) => {
           const app = express();
-
+    
           app.use(express.static('dist'));
           app.get('/search',(req,res) => {
               const html = renderMarkup(renderToString(SSR));
               res.status(200).send(html);
           });
-
+    
           app.listen(port,() => {
               console.log('Server is running on port:' + port);
           });
       };
-
+    
       server(process.env.PORT || 3000);
-
+    
       const renderMarkup = (str) => {
           const dataStr = JSON.stringify(data);
           return template.replace('<!--HTML_PLACEHOLDER-->',str)
@@ -1282,9 +1411,9 @@ plugins: [
 
 ### 8 构建配置包设计
 
-![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_5.png)
+![](./images/webpack_5.png)
 
-![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_6.png)
+![](./images/webpack_6.png)
 
 - 集成ESLint
 
@@ -1538,7 +1667,7 @@ plugins: [
 
    - [polyfill.io](https://polyfill.io/v3/polyfill.min.js)
 
-   ![](/Users/jack/git_repo/jack-note/docs/frontend/images/webpack_7.png)
+   ![](./images/webpack_7.png)
 
 4. 公共资源分离
 

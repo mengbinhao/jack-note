@@ -96,19 +96,214 @@ t.next(5); // 5
 - 改进JS中异步操作串行执行的代码组织方式，减少callback的嵌套
 - Promise中不能自定义使用try/catch进行错误捕获，但是在Async/await中可以像处理同步代码处理错误
 
-##### async
+##### async返回值
 
-`async`函数返回的是一个`Promise`对象。`async`函数（包含函数语句、函数表达式、Lambda表达式）会返回一个`Promise`对象，如果在函数中`return`一个直接量，`async`会把这个直接量通过`Promise.resolve()`封装成`Promise`对象
+![](../images/async-1.png)
 
-如果`async`函数没有返回值， 它会返回`Promise.resolve(undefined)`
 
-##### await作用是什么
 
-`await`等待的是一个表达式，这个表达式的计算结果是`Promise`对象或者其它值（换句话说，`await`可以等任意表达式的结果）
+```javascript
+const testA = async () => 1
 
-如果它等到的不是一个`Promise`对象，那`await`表达式的运算结果就是它等到的东西
+testA().then(() => console.log(1))
+Promise.resolve()
+	.then(() => console.log(2))
+	.then(() => console.log(3))
+```
 
-如果它等到的是一个`Promise`对象，`await`就忙起来了，它会阻塞后面的代码，等着 `Promise`对象`resolve`，然后得到`resolve`的值，作为`await`表达式的运算结果
+```javascript
+const testB = async () => {
+	return {
+		then(cb) {
+			cb()
+		},
+	}
+}
+
+testB().then(() => console.log(1))
+Promise.resolve()
+	.then(() => console.log(2))
+	.then(() => console.log(3))
+
+```
+
+```javascript
+const testC = async () => {
+	return new Promise((resolve, reject) => {
+		resolve()
+	})
+}
+
+testC().then(() => console.log(1))
+Promise.resolve()
+	.then(() => console.log(2))
+	.then(() => console.log(3))
+	.then(() => console.log(4))
+
+```
+
+##### await 右值类型区别
+
+![](../images/async-2.png)
+
+- `await`后面接非 `thenable` 类型，会立即向微任务队列添加一个微任务`then`，**但不需等待**
+
+###### 非 `thenable`
+
+```javascript
+async function test() {
+	console.log(1)
+	await 1
+	console.log(2)
+}
+
+test()
+console.log(3)
+```
+
+```javascript
+function func() {
+	console.log(2)
+}
+
+async function test() {
+	console.log(1)
+	await func()
+	console.log(3)
+}
+
+test()
+console.log(4)
+```
+
+```javascript
+async function test() {
+	console.log(1)
+	await 123
+	console.log(2)
+}
+
+test()
+console.log(3)
+
+Promise.resolve()
+	.then(() => console.log(4))
+	.then(() => console.log(5))
+	.then(() => console.log(6))
+	.then(() => console.log(7))
+```
+
+###### `thenable`类型
+
+- `await` 后面接 `thenable` 类型，需要**等待一个 `then` 的时间之后**执行
+
+```javascript
+async function test() {
+	console.log(1)
+	await {
+		then(cb) {
+			cb()
+		},
+	}
+	console.log(2)
+}
+
+test()
+console.log(3)
+
+Promise.resolve()
+	.then(() => console.log(4))
+	.then(() => console.log(5))
+	.then(() => console.log(6))
+	.then(() => console.log(7))
+```
+
+###### ==`Promise`类型==
+
+```javascript
+async function test() {
+	console.log(1)
+	await new Promise((resolve, reject) => {
+		resolve()
+	})
+	console.log(2)
+}
+
+test()
+console.log(3)
+
+Promise.resolve()
+	.then(() => console.log(4))
+	.then(() => console.log(5))
+	.then(() => console.log(6))
+	.then(() => console.log(7))
+// 1 3 2 4 5 6 7
+```
+
+```javascript
+async function func() {
+	console.log(1)
+	await 1
+	console.log(2)
+	await 2
+	console.log(3)
+	await 3
+	console.log(4)
+}
+
+async function test() {
+	console.log(5)
+	await func()
+	console.log(6)
+}
+
+test()
+console.log(7)
+
+Promise.resolve()
+	.then(() => console.log(8))
+	.then(() => console.log(9))
+	.then(() => console.log(10))
+	.then(() => console.log(11))
+//5 1 7 2 8 3 9 4 10 6 11
+```
+
+###### `await`一定要等到右侧的表达式有**确切的值**才会放行，否则将一直等待
+
+```javascript
+function func() {
+	return new Promise((resolve) => {
+		console.log('B')
+		// resolve()
+	})
+}
+
+async function test() {
+	console.log(1)
+	await func()
+	console.log(3)
+}
+
+test()
+console.log(4)
+// 1 B 4 (永远不会打印3)
+
+//or
+async function test() {
+	console.log(1)
+	await new Promise((resolve) => {
+		console.log('B')
+		// resolve()
+	})
+	console.log(3)
+}
+
+test()
+console.log(4)
+// 1 B 4 (永远不会打印3)
+```
+
+
 
 ##### demo
 
