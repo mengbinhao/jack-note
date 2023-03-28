@@ -8,9 +8,9 @@ const _create = (obj) => {
 //	typeof -> typeof null === 'object'
 //	instanceof 右侧对象的原型对象是否在左侧对象的原型链上
 //	Object.prototype.toString.call(obj)
-//		若参数不为null或undefined,则将参数转为对象,再作判断
+//		若参数不为null或undefined,则将参数转为对象Object(obj),再作判断
 //		转为对象后,取得该对象的[Symbol.toStringTag]属性值（可能会遍历原型链）作为tag,然后返回"[object " + tag +"]"形式的字符串
-// constructor
+//  constructor
 const getType = (obj) => {
 	//return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase()
 	//let match = Object.prototype.toString.call(obj).match(/ (\w+)]/)

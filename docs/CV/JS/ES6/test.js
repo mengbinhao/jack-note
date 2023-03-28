@@ -1,17 +1,14 @@
-const getTestModule = () => import('./testModule.js')
-export default {
-	methods: {
-		show() {
-			getTestModule().then((testModule) => {
-				this.isModuleRegistered = true
-				this.$store.registerModule('testModule', testModule)
-				this.$store.dispatch('testModule/load')
-			})
-		},
-	},
-	beforeDestroy() {
-		if (this.isModuleRegusterred) {
-			this.$store.unregisterModule('testModule')
+const add = (a, b, c) => console.log(a + b + c)
+const curryAdvanced2 = function (fn) {
+	return function curried(...args) {
+		if (args.length >= fn.length) {
+			return fn.apply(null, args)
+		} else {
+			//return function (...newArgs) {
+			return curried.apply(null, [...args, ...newArgs])
+			//}
 		}
-	},
+	}
 }
+
+console.log(curryAdvanced2(1)(2)(3))

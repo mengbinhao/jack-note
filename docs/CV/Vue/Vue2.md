@@ -1,6 +1,6 @@
 ### 渐进式
 
-**渐进式**,意思就是你可以渐渐地用Vue,而React几乎做不到这一点
+可以渐渐地用Vue,而React几乎做不到这一点
 
 动态构建用户界面
 
@@ -19,13 +19,7 @@
   - `{{ obj.name }}`
   - `{{ ok ? 'YES' : 'NO' }}`
   - `{{ message.split('').reverse().join('') }}`
-  - `<div :id="`list-${id}`"></div>`
-
-  ```vue
-  <span :title="toTitleDate(date)">
-  	{{ formatDate(date) }}
-  </span>
-  ```
+  - `{{ formatDate(date) }}`
 
 ### Vue 属性
 
@@ -36,14 +30,14 @@
 - data
 
   - 如何触发data的更新
-    - 响应式
-    - 模板使用到
+    1. 响应式
+    2. 模板使用到
 
 - methods
 
 - components(global / local)
 
-    - 全局定义时命名不能重复
+    - 全局命名不能重复
 
 - watch -> single data
     - 深层
@@ -75,7 +69,7 @@
 
     - 不要在计算属性中做异步请求或者更改DOM
     - VS watch
-      - `computed`是计算一个新属性,并将该属性挂载到`vm`上,而`watch`是监听已经存在且已挂载到`vm`上的属性, 计算属性不需要在 data 里面提前定义,watch 则需要,所以用`watch`同样可以监听`computed`计算属性的变化(其它还有 `data`、`props`)
+      - `computed`是计算一个新属性,并将该属性挂载到`vm`上,而`watch`是监听已经存在且已挂载到`vm`上的属性, 计算属性不需要在 data 里面提前定义,所以用`watch`同样可以监听`computed`计算属性的变化(其它还有 `data`、`props`)
       - `computed`本质是一个惰性求值的观察者,具有缓存性,只有当依赖变化后,第一次访问`computed`属性,才会计算新的值,而`watch`则是当数据发生变化便会调用执行函数
       - 从使用场景上说,`computed`适用一个数据被多个数据影响,而`watch`适用一个数据影响多个数据,`watch`适合异步或开销大的场景
     - VS method
@@ -236,7 +230,7 @@
       <input v-model="value" />
     </template>
     
-    //定义别名
+    //定义别名Vue2
     <MyComponent v-model:title="bookTitle" />
     
     Vue.component('base-checkbox', {
@@ -267,7 +261,7 @@
     {{ todo.name }}
   </li>
   
-  <!-- 方式一套一层 -->
+  <!-- 方式一 外套一层 -->
   <template v-for="todo in todos">
     <li v-if="!todo.isComplete">
       {{ todo.name }}
@@ -335,7 +329,7 @@
     <input @keyup.page-down="onPageDown" />
     ```
 
-  - 系统修饰符`ctrl、alt、shift、exact、meta`
+  - 系统按键修饰符`ctrl、alt、shift、exact、meta`
 
     ```vue
     <!-- Alt + Enter -->
@@ -414,10 +408,11 @@
     />
     ```
 
-### ==组件(global / local)==
+### 组件(global / local)
 
 - 属性
-  - ==传递props==
+  - 传递props
+    
     - 单向数据流
     
     - props初始化先于data,可挂载到子实例data上
@@ -479,9 +474,9 @@
       ```
     
   - 原生属性自动挂载到组件根元素上，可设置`inheritAttrs = false`不继承
-
+  
   - Non-props
-
+  
     ```javascript
     //parent
     <Child style="color:red" :msg="msg">
