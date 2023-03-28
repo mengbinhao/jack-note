@@ -1,3 +1,7 @@
+- 2022.3.28
+
+  - snail n/v
+
 - 2022.3.7
 
   - stiff adj/v
@@ -3299,6 +3303,7 @@
 
 - 2020.7.8
 
+  - pension n/vt
   - suspend v | suspended | suspense n | suspension
   - spouse n/vt
   - hence adv
@@ -3403,7 +3408,7 @@
 
 - 2020.6.19
 
-  - globe n/vt
+  - globe n/vtcrawl
   - reticent adj
   - tip n/v
 
@@ -5393,7 +5398,6 @@
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
   - expanse n | expansion n | expansive adj
   - expend vt | expenditure n | expendable
-  - pension n/vt
   - arrange v | arrangement n
   - condemn vt | condemned adj | condemnation n
   - approve v | disapprove v | approval n

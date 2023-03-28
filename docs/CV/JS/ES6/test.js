@@ -1,14 +1,28 @@
-const add = (a, b, c) => console.log(a + b + c)
-const curryAdvanced2 = function (fn) {
-	return function curried(...args) {
-		if (args.length >= fn.length) {
-			return fn.apply(null, args)
-		} else {
-			//return function (...newArgs) {
-			return curried.apply(null, [...args, ...newArgs])
-			//}
-		}
-	}
+function func() {
+	return new Promise((resolve) => {
+		console.log('B')
+		// resolve() 故意一直保持pending
+	})
 }
 
-console.log(curryAdvanced2(1)(2)(3))
+async function test() {
+	console.log(1)
+	await func()
+	console.log(3)
+}
+
+test()
+console.log(4)
+// 最终结果👉: 1 B 4 (永远不会打印3)
+
+async function test() {
+	console.log(1)
+	await new Promise((resolve) => {
+		console.log('B')
+		// resolve() 故意一直保持pending
+	})
+	console.log(3)
+}
+
+test()
+console.log(4)
