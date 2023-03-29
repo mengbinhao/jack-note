@@ -1,4 +1,5 @@
 ### Get Started
+
 1. install vue-router
 
    ```bash
@@ -6,7 +7,7 @@
    npm i vue-router@4 --save
    ```
 
-2. use in Vue根组件(main.js)
+2. use in Vue 根组件(main.js)
 
    ```javascript
    import router from './router'
@@ -24,23 +25,23 @@
    import { createRouter, createWebHistory } from 'vue-router'
    import Home from 'xxx'
    import About from 'xxx'
-   
+
    const routes = [
-     { path: '/', name: 'Home', component: Home },
-     { path: '/about', name: 'About', component: About },
+   	{ path: '/', name: 'Home', component: Home },
+   	{ path: '/about', name: 'About', component: About },
    ]
-   
+
    const router = createRouter({
    	history: createWebHistory(),
    	routes,
    })
-   
+
    export default router
    ```
 
 4. define router related component
 
-5. define \<router-link>  and \<router-view> in components
+5. define \<router-link> and \<router-view> in components
 
 ### 懒加载
 
@@ -75,7 +76,7 @@ const routes = [
    // 将总是把/users/123/posts重定向到/users/123/profile
    //return 'profile'
    //return { path: 'profile'}
-   return { path: '/search', query: { q: to.params.searchText } 
+   return { path: '/search', query: { q: to.params.searchText }
  } },
 ```
 
@@ -108,7 +109,7 @@ async created() {
 watch: {
   '$route.params':'initData'
 },
-//or  
+//or
 watch: {
   '$route'(to, from) {
     this.initData()
@@ -127,13 +128,13 @@ created () {
 },
 ```
 
-####  **Vue key attribute**
+#### **Vue key attribute**
 
 ```javascript
 <router-view :key="$route.path" />
 ```
 
-####  vue-router组件内 hook
+#### vue-router 组件内 hook
 
 ```javascript
 beforeRouteUpdate(to, from) {
@@ -142,13 +143,13 @@ beforeRouteUpdate(to, from) {
 }
 ```
 
-### path正则匹配
+### path 正则匹配
 
 ```javascript
 path: '/user-:afterUser(.*)', component: UserGeneric }
-path: '/example/:id+' 
-path: '/example/:id(\\d+)+' 
-path:'/example/:id(\\d+)', component: () => import('xxx'), }, 
+path: '/example/:id+'
+path: '/example/:id(\\d+)+'
+path:'/example/:id(\\d+)', component: () => import('xxx'), },
 path: '/user-*'
 //goto different page according to the path
 path: '/:orderId(\\d+)', name:'orders'
@@ -251,7 +252,7 @@ const routes = [
     //取消导航
     return false
   })
-  
+
    router.beforeEach(async (to, from) => {
      if (
        // 检查用户是否已登录
@@ -261,7 +262,7 @@ const routes = [
        return { name: 'Login' }
      }
    })
-  
+
   //同以上
   router.beforeEach(async (to, from) => {
     // canUserAccess() 返回 `true` 或 `false`
@@ -274,20 +275,20 @@ const routes = [
 
   ```javascript
   //获取数据或执行任何其他操作（如果用户无法进入页面时你希望避免执行的操作）的理想位置
-  router.beforeResolve(async to => {
-    if (to.meta.requiresCamera) {
-      try {
-        await askForCameraPermission()
-      } catch (error) {
-        if (error instanceof NotAllowedError) {
-          // ... 处理错误，然后取消导航
-          return false
-        } else {
-          // 意料之外的错误，取消导航并把错误传给全局处理器
-          throw error
-        }
-      }
-    }
+  router.beforeResolve(async (to) => {
+  	if (to.meta.requiresCamera) {
+  		try {
+  			await askForCameraPermission()
+  		} catch (error) {
+  			if (error instanceof NotAllowedError) {
+  				// ... 处理错误，然后取消导航
+  				return false
+  			} else {
+  				// 意料之外的错误，取消导航并把错误传给全局处理器
+  				throw error
+  			}
+  		}
+  	}
   })
   ```
 
@@ -295,7 +296,7 @@ const routes = [
 
   ```javascript
   router.afterEach((to, from) => {
-    sendToAnalytics(to.fullPath)
+  	sendToAnalytics(to.fullPath)
   })
   ```
 
@@ -305,50 +306,49 @@ const routes = [
 //beforeEnter 守卫只在进入路由时触发，不会在 params、query 或 hash 改变时触发
 //访问一个不存在的destination.id
 const router = new VueRouter({
-  routes: [
-    {
-      path: '/foo',
-      component: Foo,
-      beforeEnter: (to, from) => {
-        const isExist = sourceData.destinations.find((destination) => {
+	routes: [
+		{
+			path: '/foo',
+			component: Foo,
+			beforeEnter: (to, from) => {
+				const isExist = sourceData.destinations.find((destination) => {
 					return destination.id === parseInt(to.params.id)
 				})
-        //return { name: 'PageNotExist' } 重定向
-        //保留url params
-        if (!isExist)
-          return {
-            name: 'PageNotExist',
-            params: { pathMatch: to.path.split('/').slice(1) },
-            query: to.query,
-            hash: to.hash,
-         }
-      }
-    }
-  ]
+				//return { name: 'PageNotExist' } 重定向
+				//保留url params
+				if (!isExist)
+					return {
+						name: 'PageNotExist',
+						params: { pathMatch: to.path.split('/').slice(1) },
+						query: to.query,
+						hash: to.hash,
+					}
+			},
+		},
+	],
 })
-
 
 //可以传递函数数组
 function removeQueryParams(to) {
-  if (Object.keys(to.query).length)
-    return { path: to.path, query: {}, hash: to.hash }
+	if (Object.keys(to.query).length)
+		return { path: to.path, query: {}, hash: to.hash }
 }
 
 function removeHash(to) {
-  if (to.hash) return { path: to.path, query: to.query, hash: '' }
+	if (to.hash) return { path: to.path, query: to.query, hash: '' }
 }
 
 const routes = [
-  {
-    path: '/users/:id',
-    component: UserDetails,
-    beforeEnter: [removeQueryParams, removeHash],
-  },
-  {
-    path: '/about',
-    component: UserDetails,
-    beforeEnter: [removeQueryParams],
-  },
+	{
+		path: '/users/:id',
+		component: UserDetails,
+		beforeEnter: [removeQueryParams, removeHash],
+	},
+	{
+		path: '/about',
+		component: UserDetails,
+		beforeEnter: [removeQueryParams],
+	},
 ]
 ```
 
@@ -356,28 +356,30 @@ const routes = [
 
 ```javascript
 const UserDetails = {
-  template: `...`,
-  beforeRouteEnter(to, from, next) {
-    // 在渲染该组件的对应路由被验证前调用
-    // 不能获取组件实例 `this` ！
-    // 因为当守卫执行时，组件实例还没被创建！
-    next(vm => {
-      // 通过 `vm` 访问组件实例
-    })
-  },
-  beforeRouteUpdate(to, from) {
-    // 在当前路由改变，但是该组件被复用时调用
-    // 举例来说，对于一个带有动态参数的路径 `/users/:id`，在 `/users/1` 和 `/users/2` 之间跳转的时候，
-    // 由于会渲染同样的 `UserDetails` 组件，因此组件实例会被复用。而这个钩子就会在这个情况下被调用。
-    // 因为在这种情况发生的时候，组件已经挂载好了，导航守卫可以访问组件实例 `this`
-    this.name = to.params.name
-  },
-  beforeRouteLeave(to, from) {
-    // 在导航离开渲染该组件的对应路由时调用
-    // 与 `beforeRouteUpdate` 一样，它可以访问组件实例 `this`
-    const answer = window.confirm('Do you really want to leave? you have unsaved changes!')
-    if (!answer) return false
-  },
+	template: `...`,
+	beforeRouteEnter(to, from, next) {
+		// 在渲染该组件的对应路由被验证前调用
+		// 不能获取组件实例 `this` ！
+		// 因为当守卫执行时，组件实例还没被创建！
+		next((vm) => {
+			// 通过 `vm` 访问组件实例
+		})
+	},
+	beforeRouteUpdate(to, from) {
+		// 在当前路由改变，但是该组件被复用时调用
+		// 举例来说，对于一个带有动态参数的路径 `/users/:id`，在 `/users/1` 和 `/users/2` 之间跳转的时候，
+		// 由于会渲染同样的 `UserDetails` 组件，因此组件实例会被复用。而这个钩子就会在这个情况下被调用。
+		// 因为在这种情况发生的时候，组件已经挂载好了，导航守卫可以访问组件实例 `this`
+		this.name = to.params.name
+	},
+	beforeRouteLeave(to, from) {
+		// 在导航离开渲染该组件的对应路由时调用
+		// 与 `beforeRouteUpdate` 一样，它可以访问组件实例 `this`
+		const answer = window.confirm(
+			'Do you really want to leave? you have unsaved changes!'
+		)
+		if (!answer) return false
+	},
 }
 ```
 
@@ -419,7 +421,7 @@ const routes = [
 ]
 ```
 
-### 解耦this.$route
+### 解耦 this.$route
 
 ```javascript
 const routes = [
@@ -431,26 +433,25 @@ const routes = [
 		//props: route => ({ newsletterPopup: someExpression ? true ? false })
 		//props: route => ({ id: parseInt(route.params.id) }) //过去就是Number否则组件里要自己转
 		//props: route => ({ query: route.query.q })
-		props: true,  //route.params 将被设置为组件的 props
+		props: true, //route.params 将被设置为组件的 props
 	},
 ]
 
 //组件内必须定义
 export default {
-  props: {
-    id: {type: Number, required: true},
-    slug: {type: String, required: true}
-  },
+	props: {
+		id: { type: Number, required: true },
+		slug: { type: String, required: true },
+	},
 }
-
 
 //对于有命名视图的路由，你必须为每个命名视图定义 props 配置
 const routes = [
-  {
-    path: '/user/:id',
-    components: { default: User, sidebar: Sidebar },
-    props: { default: true, sidebar: false }
-  }
+	{
+		path: '/user/:id',
+		components: { default: User, sidebar: Sidebar },
+		props: { default: true, sidebar: false },
+	},
 ]
 ```
 
@@ -470,7 +471,6 @@ router.push({ path: '/register', query: { plan: 'private' } })
 //  /about#team
 router.push({ path: '/about', hash: '#team' })
 
-
 import { useRouter } from 'vue-router'
 const router = useRouter()
 
@@ -480,7 +480,6 @@ router.push(`/user/${username}`)
 router.push({ path: `/user/${username}` })
 // 如果可能的话，使用 `name` 和 `params` 从自动 URL 编码中获益
 router.push({ name: 'user', params: { username } })
-
 
 router.push({ path: '/home', replace: true })
 //同上
@@ -519,6 +518,7 @@ router.replace({ path: '/home' })
 ```
 
 #### Vue2
+
 ```javascript
 <transition name="fade">
   <router-view ></router-view>
@@ -559,7 +559,7 @@ router.replace({ path: '/home' })
 
   ```javascript
   <keep-alive>
-      <router-view></router-view>
+  	<router-view></router-view>
   </keep-alive>
   ```
 
@@ -572,19 +572,21 @@ router.replace({ path: '/home' })
 - 一个导航守卫抛出了一个 `Error`
 
 ```javascript
-import {isNavigationFailure, NavigationFailureType} from 'vue-router'
+import { isNavigationFailure, NavigationFailureType } from 'vue-router'
 export default {
-  methods: {
-    async triggerRouterError() {
-      const navigationFailure = await this.$router.push('/')
-      if (isNavigationFailure(navigationFailure, NavigationFailureType.duplicated)) {
-        console.log(navigationFailure.to)
-        console.log(navigationFailure.from)
-      } else {
-        console.log('all is well')
-      }
-    },
-  }
+	methods: {
+		async triggerRouterError() {
+			const navigationFailure = await this.$router.push('/')
+			if (
+				isNavigationFailure(navigationFailure, NavigationFailureType.duplicated)
+			) {
+				console.log(navigationFailure.to)
+				console.log(navigationFailure.from)
+			} else {
+				console.log('all is well')
+			}
+		},
+	},
 }
 ```
 
@@ -594,18 +596,18 @@ export default {
 
 - `$route` 只读，指当前路由， `$router` 只写，指路由器
 
-- props: (route) => ({ ...route.params, id: parseInt(route.params.id) })  //注意保留以前的params
+- props: (route) => ({ ...route.params, id: parseInt(route.params.id) }) //注意保留以前的 params
 
-- 保留其他route参数
+- 保留其他 route 参数
 
   ```javascript
   this.$router.push({
-    name: 'NotFound',
-    // 保留当前路径并删除第一个字符，以避免目标 URL 以 `//` 开头。
-    params: { pathMatch: this.$route.path.substring(1).split('/') },
-    // 保留现有的查询和 hash 值，如果有的话
-    query: this.$route.query,
-    hash: this.$route.hash,
+  	name: 'NotFound',
+  	// 保留当前路径并删除第一个字符，以避免目标 URL 以 `//` 开头。
+  	params: { pathMatch: this.$route.path.substring(1).split('/') },
+  	// 保留现有的查询和 hash 值，如果有的话
+  	query: this.$route.query,
+  	hash: this.$route.hash,
   })
   ```
 
@@ -630,40 +632,40 @@ export default {
 
   ```javascript
   export default {
-    data() {
-      return {
-        loading: false,
-        post: null,
-        error: null,
-      }
-    },
-    created() {
-      // watch 路由的参数，以便再次获取数据
-      this.$watch(
-        () => this.$route.params,
-        () => {
-          this.fetchData()
-        },
-        // 组件创建完后获取数据，
-        // 此时 data 已经被 observed 了
-        { immediate: true }
-      )
-    },
-    methods: {
-      fetchData() {
-        this.error = this.post = null
-        this.loading = true
-        // replace `getPost` with your data fetching util / API wrapper
-        getPost(this.$route.params.id, (err, post) => {
-          this.loading = false
-          if (err) {
-            this.error = err.toString()
-          } else {
-            this.post = post
-          }
-        })
-      },
-    },
+  	data() {
+  		return {
+  			loading: false,
+  			post: null,
+  			error: null,
+  		}
+  	},
+  	created() {
+  		// watch 路由的参数，以便再次获取数据
+  		this.$watch(
+  			() => this.$route.params,
+  			() => {
+  				this.fetchData()
+  			},
+  			// 组件创建完后获取数据，
+  			// 此时 data 已经被 observed 了
+  			{ immediate: true }
+  		)
+  	},
+  	methods: {
+  		fetchData() {
+  			this.error = this.post = null
+  			this.loading = true
+  			// replace `getPost` with your data fetching util / API wrapper
+  			getPost(this.$route.params.id, (err, post) => {
+  				this.loading = false
+  				if (err) {
+  					this.error = err.toString()
+  				} else {
+  					this.post = post
+  				}
+  			})
+  		},
+  	},
   }
   ```
 
@@ -671,26 +673,26 @@ export default {
 
 ```javascript
 export default {
-  data() {
-    return {
-      post: null,
-      error: null,
-    }
-  },
-  beforeRouteEnter(to, from, next) {
-    getPost(to.params.id, (err, post) => {
-      next(vm => vm.setData(err, post))
-    })
-  },
-  // 路由改变前，组件就已经渲染完
-  async beforeRouteUpdate(to, from) {
-    this.post = null
-    try {
-      this.post = await getPost(to.params.id)
-    } catch (error) {
-      this.error = error.toString()
-    }
-  },
+	data() {
+		return {
+			post: null,
+			error: null,
+		}
+	},
+	beforeRouteEnter(to, from, next) {
+		getPost(to.params.id, (err, post) => {
+			next((vm) => vm.setData(err, post))
+		})
+	},
+	// 路由改变前，组件就已经渲染完
+	async beforeRouteUpdate(to, from) {
+		this.post = null
+		try {
+			this.post = await getPost(to.params.id)
+		} catch (error) {
+			this.error = error.toString()
+		}
+	},
 }
 ```
 
@@ -731,7 +733,7 @@ router.beforeEach((to, from) => {
 })
 ```
 
-#### 增加redirect参数，比如登录后直接跳转到path为redirect的路由界面
+#### 增加 redirect 参数，比如登录后直接跳转到 path 为 redirect 的路由界面
 
 ```javascript
 //先全局beforeEach hook带上query为redirect的对象
@@ -756,7 +758,7 @@ export default {
 }
 ```
 
-#### 扩展Router Link for External URLs
+#### 扩展 Router Link for External URLs
 
 ```javascript
 <template>
@@ -808,7 +810,7 @@ const router = createRouter({
 	scrollBehavior(to, from, savedPosition) {
 		return (
 			savedPosition ||
-       //延迟500是为了动画完了再定位
+			//延迟500是为了动画完了再定位
 			new Promise((resolve) => {
 				setTimeout(() => resolve({ top: 0, behavior: 'smooth' }), 500)
 			})
@@ -816,29 +818,28 @@ const router = createRouter({
 	},
 })
 
-
 //通过el传递一个 CSS 选择器或一个 DOM 元素。此时top 和 left 将被视为该元素的相对偏移量
 const router = createRouter({
-  scrollBehavior(to, from, savedPosition) {
-    // 始终在元素 #main 上方滚动 10px
-    return {
-      // 也可以这么写
-      // el: document.getElementById('main'),
-      el: '#main',
-      top: -10,
-    }
-  },
+	scrollBehavior(to, from, savedPosition) {
+		// 始终在元素 #main 上方滚动 10px
+		return {
+			// 也可以这么写
+			// el: document.getElementById('main'),
+			el: '#main',
+			top: -10,
+		}
+	},
 })
 
 //滚动到锚点
 const router = createRouter({
-  scrollBehavior(to, from, savedPosition) {
-    if (to.hash) {
-      return {
-        el: to.hash,
-      }
-    }
-  },
+	scrollBehavior(to, from, savedPosition) {
+		if (to.hash) {
+			return {
+				el: to.hash,
+			}
+		}
+	},
 })
 ```
 
@@ -883,17 +884,17 @@ export default {
 
 ```javascript
 export default {
-  methods: {
-    addDynamicRouter() {
-      const removeDynamicRoute = this.$router.addRoute({
-        name: 'dynamic',
-        path: '/dynamic',
-        component: () => import('./Dynamic.vue')
-      })
-      //removeDynamicRoute()
-      //this.$router.removeRoute('/dynamic')
-    }
-  }
+	methods: {
+		addDynamicRouter() {
+			const removeDynamicRoute = this.$router.addRoute({
+				name: 'dynamic',
+				path: '/dynamic',
+				component: () => import('./Dynamic.vue'),
+			})
+			//removeDynamicRoute()
+			//this.$router.removeRoute('/dynamic')
+		},
+	},
 }
 ```
 
@@ -907,4 +908,3 @@ export default {
 
 router.replace(xxx)
 ```
-
