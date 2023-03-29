@@ -1,3 +1,10 @@
+- 2022.3.29
+
+  - subsidiary n/adj
+
+  > In the traditional sense, xxx, in other sense, xxx
+  > the bank went under
+
 - 2022.3.28
 
   - snail n/v
@@ -2083,7 +2090,7 @@
 
 - 2021.2.23
 
-  - wise adj
+  - wise adj | unwise
   - ability n | inability
 
 - 2021.2.22
@@ -3241,7 +3248,7 @@
   - pipeline n
   - donkey n
   - scorn n/vt
-  - deposit n/v | deposition n
+  - deposit n/v | deposition n | depositor
   - drill n/v
   - mediterranean n
 
@@ -6388,7 +6395,6 @@
   - deny vt | denial n | denier
   - tolerate vt | tolerable adj | tolerance n | intolerance n ｜ intolerable adj | tolerant adj
   - standpoint n
-  - waiver n
   - snake n/vt
   - rival n/vt | rivalry n
   - complain v | complaint n
