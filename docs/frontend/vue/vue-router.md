@@ -872,7 +872,7 @@ import { onBeforeRouteLeave } from 'vue-router'
 export default {
   setup() {
     onBeforeRouteLeave((to, from) => {
-      const answer = window.confirm('Are you sure to leave?')
+      let answer = window.confirm('Are you sure to leave?')
       if (!answer) return false
     })
   }
