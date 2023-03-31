@@ -4,6 +4,8 @@
 
   > In the traditional sense, xxx, in other sense, xxx
   > the bank went under
+  > You are ever past your prime
+  > In essence
 
 - 2022.3.28
 
@@ -285,7 +287,6 @@
   - outfit n
   - mute adj/vt
   - takeover n
-  - dwell vi
 
 - 2022.8.17
 
@@ -2349,8 +2350,9 @@
 
   - wellness n
   - swell n/v
-  - farewell n
+  - dwell vi
   - unwell adj
+  - farewell n
   - transmit v | transportation n | transport vt | transit n/vt/adj
   - transition n | transitional adj
   - transparent adj | transparency n
@@ -2645,7 +2647,6 @@
 
 - 2020.10.30
 
-  - collateral n
   - responsibly | responsible | irresponsible n/adj/adv
 
   > I say it is still a valuable thing to do
@@ -3497,7 +3498,7 @@
 - 2020.6.9
 
   - protein n
-  - inject vt | injection
+  - inject vt | injection n
   - diagnose v | diagnostic adj | diagnosis n
   - genetic adj
   - antibody n
@@ -4320,7 +4321,7 @@
   - stringent adj
   - detect vt | detection n | undetected
   - manifesto n
-  - absurd adj/n
+  - absurd adj/n | absurdity
   - evident adj
   - belief n
   - accomplice n
