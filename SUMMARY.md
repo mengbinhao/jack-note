@@ -40,8 +40,7 @@
     - [动画相关属性](docs/frontend/css/动画相关属性.md)
     - [响应式页面](docs/frontend/css/响应式页面.md)
     - [层叠上下文](docs/frontend/css/层叠上下文.md)
-    - [深入浅出 css](docs/frontend/css/深入浅出css.md)
-    - [隐藏元素 s](docs/frontend/css/隐藏元素.md)
+    - [隐藏元素](docs/frontend/css/隐藏元素.md)
   - JS
     - [Array](docs/frontend/js/array.md)
     - [async](docs/frontend/js/async.md)
@@ -79,9 +78,6 @@
   - [页面性能分析与优化](docs/frontend/页面性能分析与优化.md)
   - [页面渲染机制](docs/frontend/页面渲染机制.md)
 - Linux
-  - mac
-    - [app](docs/Linux/mac/app.md)
-    - [note](docs/Linux/mac/note.md)
   - [basic-command](docs/Linux/basic-command.md)
   - [docker](docs/Linux/ssh.md)
   - [java-env](docs/Linux/java-env.md)
