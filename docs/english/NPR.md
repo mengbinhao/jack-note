@@ -6,6 +6,10 @@
   > the bank went under
   > You are ever past your prime
   > In essence
+  > Jack's prediction have often been unreliable, to say the least
+  > He spoke publicly and in detail on xxx
+  > He ran into a rocky start
+  > 
 
 - 2022.3.28
 
@@ -4154,7 +4158,7 @@
   - attend v | attendance n | attendee | attendant n
   - attentive adj
   - liable adj
-  - rely vi | reliable adj | reliance n
+  - rely vi | reliable adj | unreliable | reliance n
   - relieve vt | relief n
   - religion n | religious adj
   - relinquish vt
@@ -5382,7 +5386,6 @@
   - secrecy n | secretary n
   - state-owned adj
   - blacklist n/vt
-  - backtrack vi
   - positive n/adj ｜ negative n/adj/ | negatively
   - somewhat adv
 
@@ -5409,7 +5412,6 @@
   - arrange v | arrangement n
   - condemn vt | condemned adj | condemnation n
   - approve v | disapprove v | approval n
-  - outcry n
   - displace vt | displaced adj | place n/vt | displacement n
   - volatile adj
 

@@ -91,6 +91,23 @@ function _throttle2(cb, timeout = 300) {
 	}
 }
 
+//setTimeout 模拟实现 setInterval
+// 	1 使用setInterval时，某些间隔会被跳过
+//  2 可能多个定时器会连续执行
+function mySetInterval(fn, t) {
+	let timerId = null
+	function interval() {
+		fn()
+		timerId = setTimeout(interval, t)
+	}
+	timerId = setTimeout(interval, t)
+	return {
+		cancel: () => {
+			clearTimeout(timerId)
+		},
+	}
+}
+
 // check context
 // assign context
 // assign attribute to context
@@ -431,6 +448,28 @@ const getSearchParams = () => {
 	const searchParams = new URLSearchParams(window.location.search)
 	const paramsObj = {}
 	for (const [k, v] of searchParams.entries()) paramsObj[k] = v
+	return paramsObj
+}
+
+const parseParam = (url) => {
+	let paramsStr = /.+\?(.+)$/.exec(url)[1]
+	let paramsArr = paramsStr.split('&')
+	let paramsObj = {}
+	paramsArr.forEach((param) => {
+		if (/=/.test(param)) {
+			let [key, val] = param.split('=')
+			val = decodeURIComponent(val)
+			val = /^\d+$/.test(val) ? parseFloat(val) : val
+			//存在的属性放个数组
+			if (paramsObj.hasOwnProperty(key)) {
+				paramsObj[key] = [].concat(paramsObj[key], val)
+			} else {
+				paramsObj[key] = val
+			}
+		} else {
+			paramsObj[param] = true
+		}
+	})
 	return paramsObj
 }
 

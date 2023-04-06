@@ -1,28 +1,25 @@
-function func() {
-	return new Promise((resolve) => {
-		console.log('B')
-		// resolve() 故意一直保持pending
+function compose(...funcs) {
+	if (!funcs.length) return (v) => v
+	if (funcs.length === 1) return funcs[0]
+	return funcs.reduce((a, b) => {
+		console.log(a)
+		return function (...args) {
+			return a(b(...args))
+		}
 	})
 }
 
-async function test() {
-	console.log(1)
-	await func()
-	console.log(3)
+function fn1(x) {
+	return x + 1
 }
-
-test()
-console.log(4)
-// 最终结果👉: 1 B 4 (永远不会打印3)
-
-async function test() {
-	console.log(1)
-	await new Promise((resolve) => {
-		console.log('B')
-		// resolve() 故意一直保持pending
-	})
-	console.log(3)
+function fn2(x) {
+	return x + 2
 }
-
-test()
-console.log(4)
+function fn3(x) {
+	return x + 3
+}
+function fn4(x) {
+	return x + 4
+}
+const a = compose(fn1, fn2, fn3, fn4)
+console.log(a(1)) // 1+4+3+2+1=11
