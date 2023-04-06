@@ -1,6 +1,24 @@
 # Summary
 
 - [Introduction](README.md)
+- algorithm
+  - [Array](docs/algorithm/Array.md)
+  - [BinarySearch](docs/algorithm/BinarySearch.md)
+  - [Bits](docs/algorithm/Bits.md)
+  - [Design](docs/algorithm/Design.md)
+  - [DFS](docs/algorithm/DFS.md)
+  - [DP](docs/algorithm/DP.md)
+  - [DP_bag](docs/algorithm/DP_bag.md)
+  - [DP_stock.md](docs/algorithm/DP_stock.md)
+  - [Hash](docs/algorithm/Hash.md)
+  - [Heap](docs/algorithm/Heap.md)
+  - [NodeList](docs/algorithm/NodeList.md)
+  - [Number](docs/algorithm/Number.md)
+  - [SlideWindow](docs/algorithm/SlideWindow.md)
+  - [Sort](docs/algorithm/Sort.md)
+  - [Stack](docs/algorithm/Stack.md)
+  - [String](docs/algorithm/String.md)
+  - [Tree](docs/algorithm/Tree.md)
 - Backend
   - [express](docs/backend/express.md)
   - [koa2](docs/backend/koa2.md)
