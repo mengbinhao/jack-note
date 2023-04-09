@@ -1,3 +1,7 @@
+- 2022.4.9
+
+  - pronoun n
+
 - 2022.3.29
 
   - subsidiary n/adj
@@ -9,7 +13,6 @@
   > Jack's prediction have often been unreliable, to say the least
   > He spoke publicly and in detail on xxx
   > He ran into a rocky start
-  > 
 
 - 2022.3.28
 
@@ -1294,7 +1297,6 @@
 
 - 2021.8.3
 
-  - trip n/v
   - parrot n/vt
 
   > They can break free of that cycle this time
@@ -3148,6 +3150,11 @@
   - ripe adj/v
   - ripple n/v
   - cripple v/adj | crippling adj
+  - trip n/v
+  - grip n/v
+  - stripe n/vt
+  - strip n/v | stripped
+  - triple adj
   - summit n
 
   > sticking point
@@ -3188,7 +3195,6 @@
 
   - registration n
   - fraught adj
-  - grip n/v
   - sniff n/v
   - fame n/vt | defame v
 
@@ -4194,8 +4200,6 @@
   - joy n/v | joyous adj
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
-  - stripe n/vt
-  - strip n/v | stripped
 
 - 2020.3.20
 
@@ -5313,7 +5317,6 @@
   - pave vt
   - curtail vt
   - smuggle vt | smuggler n | smuggling n
-  - pertain vi
   - slip n/v/adj
   - amid prep | amidst prep
   - melancholy n/adj
@@ -5441,7 +5444,6 @@
   - concede v
   - long-standing adj
   - confusion n | confusing adj | confuse vt | confused
-  - triple adj
   - withdraw v | withdrawal n
   - withhold v
   - decimate vt
