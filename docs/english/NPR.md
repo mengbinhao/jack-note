@@ -1,3 +1,10 @@
+- 2022.4.10
+
+  - secular adj
+
+  > XXX has walked back from the brink for now
+  > I were just avoiding politics at any cost
+
 - 2022.4.9
 
   - pronoun n
@@ -5251,7 +5258,7 @@
   - stall n/v | stalled
   - ethic n | ethical
   - deliberate v/adj | deliberately adv | deliberation n
-  - liberal adj
+  - liberal adj/n
   - liberty n
   - liberator n | liberation n | liberate vt
   - prevail vi
