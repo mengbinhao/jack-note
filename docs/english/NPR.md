@@ -2287,7 +2287,7 @@
 
 - 2021.1.11
 
-  - square n/v/adj
+  - square n/v/adj | squarely
   - fabricate vt | fabricated
   - missile n/adj
   - avenge vt
@@ -4203,7 +4203,7 @@
   - procession n
   - procedure n | procedural adj
   - concession n
-  - recess n/vt | recession n | depress vt | depression n | depressed adj
+  - recession n | depress vt | depression n | depressed adj
   - joy n/v | joyous adj
   - penetrate v | penetration n
   - consent n/vi | consensus n | consensual adj
