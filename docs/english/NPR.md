@@ -5413,7 +5413,7 @@
   - assault n/v
   - crisis n
   - flee v
-  - fleet n/v
+  - fleet n/v/adj
   - neutralize vt | neutrality n | neutral adj
   - fatal adj | fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
