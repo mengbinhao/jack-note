@@ -444,6 +444,27 @@ const promiseAJAX = (method, url, headers, data) => {
 	})
 }
 
+//动态promise加载
+const loadJS = (files, done) => {
+	const head = document.getElementsByTagName('head')[0]
+	Promise.all(
+		files.map((file) => {
+			return new Promise((resolve) => {
+				const s = document.createElement('script')
+				s.type = 'text/javascript'
+				s.async = true
+				s.src = file
+				s.addEventListener('load', (e) => resolve(), false)
+				head.appendChild(s)
+			})
+		})
+	).then(done)
+}
+
+loadJS(['test1.js', 'test2.js'], () => {
+	// 用户的回调逻辑
+})
+
 const getSearchParams = () => {
 	const searchParams = new URLSearchParams(window.location.search)
 	const paramsObj = {}
