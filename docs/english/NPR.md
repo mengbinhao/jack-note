@@ -1,3 +1,7 @@
+- 2022.4.13
+
+  - squash v
+
 - 2022.4.10
 
   - secular adj
@@ -82,7 +86,7 @@
 
 - 2022.2.2
 
-  - mindset n
+  - mindset n | mindless adj/n
 
 - 2022.2.1
 
