@@ -1,6 +1,8 @@
 - 2022.4.13
 
   - squash v
+    > so how hard will it be to get that message across for Biden when the attention is going to be in New York? So much so, attention is going to be on Trump, and it's going to be really high
+    > One piece of data that jumped out at me is xxx
 
 - 2022.4.10
 
