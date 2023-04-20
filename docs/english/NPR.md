@@ -3,6 +3,7 @@
   - squash v
     > so how hard will it be to get that message across for Biden when the attention is going to be in New York? So much so, attention is going to be on Trump, and it's going to be really high
     > One piece of data that jumped out at me is xxx
+    > That's scheduled to go into effect this coming Friday
 
 - 2022.4.10
 
@@ -2504,7 +2505,7 @@
   - documentary n | undocumented
   - soccer n
   - glimpse n/vi
-  - annual n/adj
+  - annual n/adj | annually
   - barometer n
   - pardon n/vt
 
@@ -5458,7 +5459,6 @@
   - long-standing adj
   - confusion n | confusing adj | confuse vt | confused
   - withdraw v | withdrawal n
-  - withhold v
   - decimate vt
   - harsh adj | harshly
 
@@ -5796,7 +5796,7 @@
 - 2019.9.12
 
   - blow n/v
-  - deadlock n/vt | impasse n
+  - deadlock n/vt
   - momentous adj
   - commend v
   - recommend v | recommendation n
@@ -5931,7 +5931,6 @@
   - terror n
   - militant n/adj | military n/adj | demilitarize vt
   - depot n/vt/adj
-  - adamant adj | adamantly
   - feud n/vi
   - nasty adj
   - mock n/v/adj
