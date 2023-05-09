@@ -505,6 +505,7 @@
 
 #### compare
 
+- [Vue3 与 React 全方面对比](https://mp.weixin.qq.com/s/6yVniC_qjNlIMoaVGskQNg)
 - [React 和 Vue 的 20 个区别](https://mp.weixin.qq.com/s/_zCM9Qh-S_aQ3emRcJemvQ)
 - [React.js 和 Vue.js 的语法并列比较](https://mp.weixin.qq.com/s?__biz=MzI0MDIwNTQ1Mg==&mid=2676493160&idx=1&sn=cc87d24be24277c38e1e34670fc0d00b)
 - [从 React 切换到 Vue.js](https://www.infoq.cn/article/22jiqjCXXcs0DajEFT0h)

@@ -13,9 +13,10 @@ const _create = (obj) => {
 //  constructor
 const getType = (obj) => {
 	//return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase()
-	//let match = Object.prototype.toString.call(obj).match(/ (\w+)]/)
-	//return match[1].toLowerCase()
-	return Object.prototype.toString.call(obj).replace(/^\[object (\S+)\]$/, '$1')
+	//or
+	//	let match = Object.prototype.toString.call(obj).match(/ (\w+)]/)
+	//	return match[1].toLowerCase()
+	return Object.prototype.toString.call(obj).replace(/^\[object (\w+)\]$/, '$1')
 }
 
 const isType = (type) => (obj) => {
@@ -157,8 +158,7 @@ Function.prototype._bindAdvanced = function (context = window, ...args) {
 			...arguments,
 		])
 	}
-	//这里有bug箭头函数没有this.prototype
-	//fBound.prototype = Object.create(this.prototype)
+	//check下，箭头函数没有this.prototype
 	//this这里指调用_bindAdvanced的那个函数,即下面的bar
 	if (this.prototype) fBound.prototype = Object.create(this.prototype)
 	return fBound
@@ -174,7 +174,7 @@ function bar(name, age) {
 bar.prototype.prop = 'bar'
 let bindFoo = bar._bindAdvanced(foo, 'Jack')
 bindFoo(33) // foo, jack, 18
-let newBindFoo = new bindFoo(18) // bar, jack, 18
+new bindFoo(18) // bar, jack, 18
 
 //curry
 const curry = function (fn) {
@@ -211,6 +211,32 @@ const curryAdvanced2 = function (fn) {
 		}
 	}
 }
+
+const compose = (...funcs) => {
+	if (!funcs.length) return (v) => v
+	if (funcs.length === 1) return funcs[0]
+	return funcs.reduce((a, b) => {
+		//console.log(a)
+		return function (...args) {
+			return a(b(...args))
+		}
+	})
+}
+
+function fn1(x) {
+	return x + 1
+}
+function fn2(x) {
+	return x + 2
+}
+function fn3(x) {
+	return x + 3
+}
+function fn4(x) {
+	return x + 4
+}
+const composeFunc = compose(fn1, fn2, fn3, fn4)
+//console.log(composeFunc(1)) // 1+4+3+2+1=11
 
 const sum = (...args) => {
 	let params = args
@@ -461,9 +487,9 @@ const loadJS = (files, done) => {
 	).then(done)
 }
 
-loadJS(['test1.js', 'test2.js'], () => {
-	// 用户的回调逻辑
-})
+// loadJS(['test1.js', 'test2.js'], () => {
+// 	// 用户的回调逻辑
+// })
 
 const getSearchParams = () => {
 	const searchParams = new URLSearchParams(window.location.search)
@@ -511,7 +537,7 @@ const user = {
 	},
 }
 
-handler = {
+const handler = {
 	get(target, key, receiver) {
 		//return target[key]
 		return Reflect.get(target, key, receiver)
@@ -628,7 +654,7 @@ const repeat = (cb, times, delay = 1000) => {
 	}
 }
 const repeatFn = repeat(console.log, 4, 1000)
-repeatFn('hello')
+//repeatFn('hello')
 
 //红绿黄灯
 const red = () => console.log('red')
@@ -724,9 +750,9 @@ let sleep = (ms) =>
 		}, ms)
 	})
 
-;(async () => {
-	for (const name of infiniteNameList) {
-		await sleep(1000)
-		console.log(name)
-	}
-})()
+// ;(async () => {
+// 	for (const name of infiniteNameList) {
+// 		await sleep(1000)
+// 		console.log(name)
+// 	}
+// })()
