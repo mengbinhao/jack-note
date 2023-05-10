@@ -15,7 +15,7 @@ class EventEmitter {
 
 	off(type, cb) {
 		if (!this.events[type]) return
-		//若无cb,就删掉整个事件
+		//删整个事件
 		if (!cb) {
 			delete this.events[type]
 		} else {

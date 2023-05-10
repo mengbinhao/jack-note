@@ -258,23 +258,17 @@ Array.prototype._map = function (fn) {
 	let ret = []
 	for (let i = 0; i < this.length; i++) {
 		//过滤空位
-		if (i in this) {
-			ret.push(fn.call(undefined, this[i], i, this))
-		}
+		if (i in this) ret.push(fn.call(undefined, this[i], i, this))
 	}
 	return ret
 }
 
 Array.prototype._reduce = function (fn, initialValue) {
 	if (typeof fn !== 'function') throw new TypeError(fn + 'is not a function')
-
 	let hasInitialValue = initialValue !== undefined,
 		value = hasInitialValue ? initialValue : this[0]
-
 	for (let i = hasInitialValue ? 0 : 1; i < this.length; i++) {
-		if (i in this) {
-			value = fn(value, this[i], i, this)
-		}
+		if (i in this) value = fn(value, this[i], i, this)
 	}
 	return value
 }
@@ -332,7 +326,7 @@ const shallowClone = (original) => {
 //		若obj里有RegExp、Error对象，转换后得到空对象
 //		若obj里有function、undefined，Symbol转换后直接丢失,若以上三个作为数组元素转换后是null,若单独转化则是undefined
 //		若obj里有NaN、Infinity和-Infinity，转换后变成null
-//		若对象中存在循环引用的转换报错
+//		若对象中存在循环引用则转换报错
 //		JSON.stringify()只能序列化对象的可枚举的自有属性
 //		对象toJSON属性
 //	结论：只能处理string、boolean、number、null、object、array
@@ -470,7 +464,7 @@ const promiseAJAX = (method, url, headers, data) => {
 	})
 }
 
-//动态promise加载
+//动态promise加载脚本
 const loadJS = (files, done) => {
 	const head = document.getElementsByTagName('head')[0]
 	Promise.all(
@@ -507,7 +501,6 @@ const parseParam = (url) => {
 			let [key, val] = param.split('=')
 			val = decodeURIComponent(val)
 			val = /^\d+$/.test(val) ? parseFloat(val) : val
-			//存在的属性放个数组
 			if (paramsObj.hasOwnProperty(key)) {
 				paramsObj[key] = [].concat(paramsObj[key], val)
 			} else {

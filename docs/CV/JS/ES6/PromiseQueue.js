@@ -4,7 +4,7 @@ class PromiseQueue {
 		this.todo = tasks
 		this.count = concurrentCount
 		this.running = []
-		this.complete = []
+		this.completed = []
 	}
 
 	runNext() {
@@ -15,7 +15,9 @@ class PromiseQueue {
 		while (this.runNext()) {
 			let promise = this.todo.shift()
 			promise.then(() => {
-				this.complete.push(this.running.shift())
+				//放入最新running的promise
+				this.completed.push(this.running.shift())
+				//继续run
 				this.run()
 			})
 			this.running.push(promise)

@@ -1,25 +1,34 @@
-const compose = (...funcs) => {
-	if (!funcs.length) return (v) => v
-	if (funcs.length === 1) return funcs[0]
-	return funcs.reduce((a, b) => {
-		//console.log(a)
-		return function (...args) {
-			return a(b(...args))
+class EventEmitter {
+	constructor() {
+		this.event = {}
+	}
+	on(type, cb) {
+		if (this.event[type]) {
+			this.event[type].push(cb)
+		} else {
+			this.event[type] = [cb]
 		}
-	})
+	}
+	off(type, cb) {
+		if (!this.event[type]) return
+		if (!cb) {
+			delete this.event[type]
+		} else {
+			this.event[type] = this.event[type].filter((item) => item !== cb)
+			if (this.event[type].length === 0) delete this.event[type]
+		}
+	}
+	emit(type, ...args) {
+		if (!this.event[type]) return
+		this.event[type].forEach((cb) => {
+			cb(...args)
+		})
+	}
+	once(type, cb) {
+		let inner = (...args) => {
+			cb.call(null, ...args)
+			this.off(type, inner)
+		}
+		this.on(type, inner)
+	}
 }
-
-function fn1(x) {
-	return x + 1
-}
-function fn2(x) {
-	return x + 2
-}
-function fn3(x) {
-	return x + 3
-}
-function fn4(x) {
-	return x + 4
-}
-const composeFunc = compose(fn1, fn2, fn3, fn4)
-console.log(composeFunc(1)) // 1+4+3+2+1=11
