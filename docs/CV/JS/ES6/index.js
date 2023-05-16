@@ -212,11 +212,10 @@ const curryAdvanced2 = function (fn) {
 	}
 }
 
-const compose = (...funcs) => {
-	if (!funcs.length) return (v) => v
-	if (funcs.length === 1) return funcs[0]
-	return funcs.reduce((a, b) => {
-		//console.log(a)
+const compose = (...fns) => {
+	if (!fns.length) return (v) => v
+	if (fns.length === 1) return fns[0]
+	return fns.reduce((a, b) => {
 		return function (...args) {
 			return a(b(...args))
 		}
