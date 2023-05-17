@@ -1,3 +1,7 @@
+- 2022.5.17
+
+  -> So essentially these are preparations, but the conditions for an evacuation isn't there
+
 - 2022.4.13
 
   - squash v
