@@ -2306,7 +2306,7 @@
 - 2021.1.7
 
   - literature n
-  - compress vt | decompress vt
+  - compress vt | decompress vt | compression
   - attitude n
   - pound n/v
   - compound v | compounded
@@ -3470,7 +3470,7 @@
   - diligent adj
   - promote v | promoter | promotion
   - strategy n
-  - voluntary adj | voluntarily adv
+  - voluntary adj | voluntarily adv | involuntary
 
   > all hands
   > water cooler chat
