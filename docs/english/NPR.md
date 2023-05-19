@@ -1,3 +1,8 @@
+- 2022.5.18
+
+  - wane n/vi
+    > The heart of this ceremony is xxx
+
 - 2022.5.17
 
   -> So essentially these are preparations, but the conditions for an evacuation isn't there
@@ -3690,7 +3695,6 @@
 
   - virus n
   - timeline n
-  - wand n
   - destruct v | destruction n | destructive adj
   - valet nn/v
 
@@ -4331,6 +4335,7 @@
 
 - 2020.3.10
 
+  - carriage n
   - miscarriage n
   - juror n
   - unfounded adj
@@ -5227,6 +5232,7 @@
 - 2019.10.29
 
   - origin n | originate v | original | originally
+  - robe n/v
   - probe n/vt
   - grand adj
   - injury n
@@ -5834,7 +5840,7 @@
   - pole n
   - approach n/v
   - narrative n/adj
-  - orbit n/v | orbital adj | orbiter n
+  - orb n/v | orbit n/v | orbital adj | orbiter n
   - excite v | excitement n
   - eerily adv
   - lunar adj
@@ -6163,7 +6169,6 @@
   - grooming n | groom n/v
   - hierarchical adj
   - owe vt
-  - allegiance n
 
   > it turned out
 
