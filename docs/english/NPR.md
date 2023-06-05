@@ -1,3 +1,9 @@
+- 2022.6.5
+
+  - liar n
+
+  > That tape figured large in the trial
+
 - 2022.5.18
 
   - wane n/vi
@@ -3219,7 +3225,7 @@
   - registration n
   - fraught adj
   - sniff n/v
-  - fame n/vt | defame v
+  - fame n/vt | defame v | defamation
 
   > xxx will become just the way things go
   > they just kind of have to find the way to reach the middle
@@ -5610,7 +5616,7 @@
   - imply vt | implied adj | implicate vt | implication n
   - explicit adj | explicitly adv
   - mere adj | merely adv
-  - confess v | confessing n
+  - confess v | confession | confessing n
 
   > Now, all of this, we should explain the background
   > My generation
@@ -5826,7 +5832,7 @@
   - ridicule n/vt | ridiculous adj
   - invite n/vt | invitation n
   - remark n
-  - elect n/vt/adj | electorate n | electoral adj
+  - elect n/vt/adj | electorate n | electoral adjorb
 
   > to my knowledge
   > how much time does xxx have to get this all sorted out?
