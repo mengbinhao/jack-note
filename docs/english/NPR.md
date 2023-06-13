@@ -1,3 +1,7 @@
+- 2022.6.13
+
+  - circuit v/n
+
 - 2022.6.5
 
   - liar n
@@ -2142,7 +2146,6 @@
 
 - 2021.2.21
 
-  - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
   - idiot n
   - stamp n/v
   - fringe n/vt/adj
@@ -2244,7 +2247,6 @@
   - equality n | inequality | equation n
   - inaugural adj | inauguration n
   - decry vt
-  - deface vt
   - mall n
   - lawn n
 
@@ -2318,6 +2320,7 @@
 
   - literature n
   - compress vt | decompress vt | compression
+  - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
   - attitude n
   - pound n/v
   - compound v | compounded
@@ -2375,7 +2378,7 @@
 
 - 2020.12.29
 
-  - enact vt | act | acting n/adj
+  - act | acting n/adj
 
 - 2020.12.28
 
@@ -5575,7 +5578,6 @@
   - blueprint n
   - adopt v | adoption
   - adapt v | adapted adj | adaption | adaptation | adaptive
-  - boost n/vt
   - budge v
   - budget n/vt
   - welfare n | fare n
@@ -5947,7 +5949,6 @@
   - terror n
   - militant n/adj | military n/adj | demilitarize vt
   - depot n/vt/adj
-  - feud n/vi
   - nasty adj
   - mock n/v/adj
   - retract vt
@@ -6116,7 +6117,7 @@
   - bllionaire n
   - traffic n/v
   - conspire v | conspiracy n | conspirator
-  - prominent adj | prominence n
+  - prominent adj | prominence n | prominently
   - somehow adv
   - inquiry n
   - allegation n | alleged adj | allegedly adv | allege vt
