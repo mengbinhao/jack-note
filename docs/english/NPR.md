@@ -1,3 +1,9 @@
+- 2022.6.14
+
+  - opaque adj
+
+  > Does that set a precedent?
+
 - 2022.6.13
 
   - circuit v/n

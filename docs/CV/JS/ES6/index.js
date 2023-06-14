@@ -481,7 +481,7 @@ const loadJS = (files, done) => {
 }
 
 // loadJS(['test1.js', 'test2.js'], () => {
-// 	// 用户的回调逻辑
+//  用户的回调逻辑
 // })
 
 const getSearchParams = () => {
