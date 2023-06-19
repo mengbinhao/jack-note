@@ -1,3 +1,8 @@
+- 2022.6.19
+
+  - drum v/n
+  -
+
 - 2022.6.14
 
   - opaque adj
@@ -330,7 +335,6 @@
   - hunger n/v | hungry adj
   - detract v | detractor n | critic | supporter
   - secondary adj
-  - outfit n
   - mute adj/vt
   - takeover n
 
@@ -3293,7 +3297,6 @@
 - 2020.7.17
 
   - envelope n
-  - dubious adj
   - pipeline n
   - donkey n
   - scorn n/vt
