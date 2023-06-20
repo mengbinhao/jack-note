@@ -1,7 +1,9 @@
 - 2022.6.19
 
   - drum v/n
-  -
+
+  > This gets to the heart of the battle
+  > The widely held expectation had been the party would continue pushing for this, even though legal avenues to make that happen have been pretty much exhausted
 
 - 2022.6.14
 
@@ -4770,7 +4772,7 @@
 
   - vandalize vt
   - census n
-  - diverse adj | diversity n | divisive
+  - diverse adj | diversity n | divisive adj
   - divert v | diversion n
   - faith n | faithless n | faithful | faithfully
   - criterion n
