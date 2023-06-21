@@ -3020,14 +3020,13 @@
 
 - 2020.8.22
 
-  - scholar n
+  - scholar n | scholarship
   - monarch n | monarchy n
   - discipline n/v | disciplined adj
 
 - 2020.8.19
 
   - lofty adj
-  - aspire vi | aspiration n
   - pro-xxx n
   - threat n | threaten v
   - tie n
