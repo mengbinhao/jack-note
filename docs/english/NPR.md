@@ -1,5 +1,9 @@
 - 2022.6.19
 
+  - log n/v
+
+- 2022.6.19
+
   - drum v/n
 
   > This gets to the heart of the battle
@@ -6059,7 +6063,7 @@
   - ghost n
   - hostile adj | hostility n
   - annex n/vt | annexation n
-  - settle n/v unsettle | settled | unsettled| settlement n
+  - settle n/v unsettle | settled | unsettled| settlement n | settler
   - pendulum n
 
   > it was seen as a breather for the trade war
@@ -6231,7 +6235,7 @@
 
 - 2019.7.26
 
-  - conservative n/adj | conservation n | conservatism n
+  - conservative n/adj | conservation n | conservatism n | conservationist
   - daunting/daunted adj
   - can-do
   - off-putting adj
@@ -6456,7 +6460,7 @@
 
 - 2019.7.5
 
-  - federal adj/n
+  - federal adj/n | federally
   - appoint v | appointed adj | appointment n | appointee n
   - disappoint vt | disappointed | disappointment n
   - inflation | deflation n
