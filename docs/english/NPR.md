@@ -953,7 +953,6 @@
   - crop n/v
   - moisture n
   - distant adj
-  - haze n/v
 
 - 2021.11.29
 
@@ -1947,7 +1946,6 @@
 
 - 2021.3.31
 
-  - susceptible adj
   - bulk n/vt
   - theory n
   - hypothesis n | hypotheses n
