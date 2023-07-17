@@ -1,3 +1,7 @@
+- 2022.7.17
+
+  - scrape v/n
+
 - 2022.6.19
 
   - log n/v
@@ -4492,7 +4496,7 @@
   - chaos n | chaotic adj
   - secede v
   - horizon n |horizontal
-  - cap n
+  - cap n/v
   - cape n
   - cope n/v
 

@@ -1,14 +1,18 @@
-const repeat = (cb, times, delay = 1000) => {
-	return async function (...args) {
-		for (let i = 0; i < times; i++) {
-			await new Promise((resolve, reject) => {
-				setTimeout(() => {
-					cb.call(null, ...args)
-					resolve()
-				}, delay)
-			})
-		}
+var addStrings = function (num1, num2) {
+	let i = num1.length - 1,
+		j = num2.length - 1,
+		add = 0
+	const ans = []
+	while (i >= 0 || j >= 0 || add != 0) {
+		const x = i >= 0 ? num1.charAt(i) : 0
+		const y = j >= 0 ? num2.charAt(j) : 0
+		const result = x + y + add
+		ans.push(result % 10)
+		add = Math.floor(result / 10)
+		i -= 1
+		j -= 1
 	}
+	return ans.reverse().join('')
 }
-const repeatFn = repeat(console.log, 4, 1000)
-repeatFn('hello')
+
+addStrings('11', '123')
