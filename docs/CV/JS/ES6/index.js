@@ -8,14 +8,14 @@ const _create = (obj) => {
 //	typeof -> typeof null === 'object'
 //	instanceof 右侧对象的原型对象是否在左侧对象的原型链上
 //	Object.prototype.toString.call(obj)
-//		若参数不为null或undefined,则将参数转为对象Object(obj),再作判断
-//		转为对象后,取得该对象的[Symbol.toStringTag]属性值（可能会遍历原型链）作为tag,然后返回"[object " + tag +"]"形式的字符串
+//		1 若参数不为null或undefined,则将参数转为对象Object(obj),再作判断
+//		2 转为对象后,取得该对象的[Symbol.toStringTag]属性值（可能会遍历原型链）作为tag,然后返回"[object " + tag +"]"形式的字符串
 //  constructor
 const getType = (obj) => {
-	//return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase()
-	//or
-	//	let match = Object.prototype.toString.call(obj).match(/ (\w+)]/)
-	//	return match[1].toLowerCase()
+	// return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase()
+	// or
+	// let match = Object.prototype.toString.call(obj).match(/ (\w+)]/)
+	// return match[1].toLowerCase()
 	return Object.prototype.toString.call(obj).replace(/^\[object (\w+)\]$/, '$1')
 }
 
@@ -47,7 +47,7 @@ const _new = () => {
 	let [Constructor, ...args] = [...arguments]
 	//let Constructor = Array.prototype.shift.call(arguments)
 	//same as let obj = {}
-	//obj.__proto__ == constructor.prototype
+	//				obj.__proto__ == constructor.prototype
 	let obj = Object.create(Constructor.prototype)
 	let ret = Constructor.apply(obj, args)
 	//in case Constructor return an object
@@ -95,13 +95,13 @@ function _throttle2(cb, timeout = 300) {
 //setTimeout 模拟实现 setInterval
 // 	1 使用setInterval时，某些间隔会被跳过
 //  2 可能多个定时器会连续执行
-function mySetInterval(fn, t) {
+function mySetInterval(fn, delay) {
 	let timerId = null
 	function interval() {
 		fn()
-		timerId = setTimeout(interval, t)
+		timerId = setTimeout(interval, delay)
 	}
-	timerId = setTimeout(interval, t)
+	timerId = setTimeout(interval, delay)
 	return {
 		cancel: () => {
 			clearTimeout(timerId)
@@ -140,7 +140,7 @@ Function.prototype._apply = function (context = window, args = []) {
 Function.prototype._bind = function (context = window, ...args) {
 	if (typeof this !== 'function') throw new TypeError('invalid params')
 	const fn = this
-	args = args ? args : []
+	//args = args ? args : []
 	return function (...newArgs) {
 		return fn.apply(context, [...args, ...newArgs])
 	}
@@ -177,14 +177,14 @@ bindFoo(33) // foo, jack, 18
 new bindFoo(18) // bar, jack, 18
 
 //curry
-const curry = function (fn) {
-	let args = [].slice.call(arguments, 1)
-	let that = this
-	//return fn.length <= args.length ? fn(...args) : curry.bind(null, fn, ...args)
-	return function () {
-		return fn.apply(that, args.concat([].slice.call(arguments)))
-	}
-}
+// const curry = function (fn) {
+// 	let args = [].slice.call(arguments, 1)
+// 	let that = this
+// 	//return fn.length <= args.length ? fn(...args) : curry.bind(null, fn, ...args)
+// 	return function () {
+// 		return fn.apply(that, args.concat([].slice.call(arguments)))
+// 	}
+// }
 
 //add(1, 2, 3) => fn = curryAdvanced(add, 1) => fn(2,3)
 const curryAdvanced = function (fn, ...args) {
@@ -212,6 +212,7 @@ const curryAdvanced2 = function (fn) {
 	}
 }
 
+//从右往左执行
 const compose = (...fns) => {
 	if (!fns.length) return (v) => v
 	if (fns.length === 1) return fns[0]
@@ -285,16 +286,14 @@ const once = (fn) => {
 
 const _flat1 = (arr) => {
 	let tmp = arr
-	while (tmp.some((item) => Array.isArray(item))) {
-		tmp = [].concat(...tmp)
-	}
+	while (tmp.some((item) => Array.isArray(item))) tmp = [].concat(...tmp)
 	return tmp
 }
 
 const _flat2 = (arr) => {
 	return arr.reduce(
-		//Array.isArray(cur) ? [...acc, ...flatten3(cur)] : [...acc, cur],
-		(acc, cur) => acc.concat(Array.isArray(cur) ? flatten2(cur) : cur),
+		//(acc, cur) => acc.concat(Array.isArray(cur) ? _flat2(cur) : cur),
+		Array.isArray(cur) ? [...acc, ..._flat2(cur)] : [...acc, cur],
 		[]
 	)
 }
@@ -304,7 +303,7 @@ const _flat3 = (arr, depth = 1) => {
 		? arr.reduce(
 				(acc, cur) =>
 					Array.isArray(cur)
-						? [...acc, ...flatten3(cur, depth - 1)]
+						? [...acc, ..._flat3(cur, depth - 1)]
 						: [...acc, cur],
 				[]
 		  )

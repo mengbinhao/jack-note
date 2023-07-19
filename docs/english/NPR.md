@@ -2,6 +2,8 @@
 
   - scrape v/n
 
+  > Turkey's president, in return, agreed to lift his opposition to Sweden joining NATO
+
 - 2022.6.19
 
   - log n/v
@@ -5008,7 +5010,7 @@
   - designate vt | designated
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
   - defect n/vi | defection n | defector n | defective product
-  - coordinate vt | coordination n | coordinated
+  - coordinate vt | coordination n | coordinated | coordinator
   - corroborate n/vt | corroboration n
 
 - 2019.12.9
