@@ -6,7 +6,9 @@ const _create = (obj) => {
 
 //判断数据类型
 //	typeof -> typeof null === 'object'
+//  "undefined"、"string"、"boolean"、"number"、"bigint"、"symbol"、"object" 或 "function"
 //	instanceof 右侧对象的原型对象是否在左侧对象的原型链上
+//		IE下跨 iframe 调用时，[] instanceof Array不成立
 //	Object.prototype.toString.call(obj)
 //		1 若参数不为null或undefined,则将参数转为对象Object(obj),再作判断
 //		2 转为对象后,取得该对象的[Symbol.toStringTag]属性值（可能会遍历原型链）作为tag,然后返回"[object " + tag +"]"形式的字符串
@@ -18,6 +20,23 @@ const getType = (obj) => {
 	// return match[1].toLowerCase()
 	return Object.prototype.toString.call(obj).replace(/^\[object (\w+)\]$/, '$1')
 }
+
+//Array.isArray 比 instanceof 或者 constructor 能胜任对 Proxy 的判定工作
+//无论是从使用便利性上还是从能力范围上来讲，都建议使用 Array.isArray 来判断数组类型
+//篡改 Proxy 对象的 constructor 和原型链
+// const proxy = new Proxy([], {
+// 	get(target, p) {
+// 			if ('constructor' === p) return String;
+// 			return Reflect.get(target, p);
+// 	},
+// 	getPrototypeOf() {
+// 			return null;
+// 	}
+// });
+
+// console.log(`Array.isArray(proxy)`, Array.isArray(proxy)); // true
+// console.log(`proxy instanceof Array`, proxy instanceof Array); // false
+// console.log(`proxy.constructor === Array`, proxy.constructor === Array); // false
 
 const isType = (type) => (obj) => {
 	return Object.prototype.toString.call(obj) === `[object ${type}]`
@@ -258,6 +277,7 @@ Array.prototype._map = function (fn) {
 	let ret = []
 	for (let i = 0; i < this.length; i++) {
 		//过滤空位
+		//hasOwnProperty同效果
 		if (i in this) ret.push(fn.call(undefined, this[i], i, this))
 	}
 	return ret
