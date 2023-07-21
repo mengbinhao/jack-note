@@ -1,10 +1,10 @@
 ### 数据类型
 
 - number、boolean、string、null、undefined
-- Object（`Array`、`Function`、`Date`、`RegExp`、`Error`)）
-- Symbol、BigInt
+- Object（`Array`、`Function`、`Date`、`RegExp`、`Error`、`Map`、`Set`)）
+- symbol、bigInt
 
-### const、let、块级作用域{}
+### const、let、块级作用域
 
 - 不允许重复声明
 - 不存在变量提升
@@ -23,7 +23,7 @@
 
 - 解构不成功`undefined`
 
-- 解构赋值规则：只要等号右边的值不是对象或数组，就先将其转为对象，`undefined`和`null`无法转为对象，因此无法进行解构
+- 解构赋值规则：只要等号右边的值不是对象或数组，**先将其转为对象**，`undefined`和`null`无法转为对象，因此无法进行解构
 
 - 字符串解构：`const [a, b, c, d, e] = "hello"`
 
@@ -47,13 +47,13 @@
 - 函数参数解构
 
   - `function Func([x = 0, y = 1]) {}`
-  - `function Func({ x = 0, y = 1 } = {}) {}`
+  - `function Func({ x = 0, y = 1 } = {}) {}`(对象不在乎顺序)
 
 - 应用场景
 
   - 排除对象不需要的属性：`const {prop1, prop2, ...otherProps} = obj`
   - 交换变量值：`[x, y] = [y, x]`
-  - 返回函数多个值：`const [x, y, z] = Func()`
+  - 结构函数返回值：`const [x, y, z] = Func()`
   - 定义函数参数：
     - `Func([1, 2]){}` 数组有序
     - `Func({x, y, z}) {}` 对象可无序
@@ -62,34 +62,29 @@
   - 遍历 Map 结构：`for (let [k, v] of Map) {}`
   - 输入模块指定属性和方法：`const { readFile, writeFile } = require("fs")`
 
-#### for of 可迭代对象原理Symbol.iterator
+#### for of 可迭代对象原理基于对象的Symbol.iterator属性
 
 ```javascript
 let obj = {
-	current: 0,
-	max: 5,
 	[Symbol.iterator]() {
 		return {
-			current: this.current,
-			max: this.max,
+			num: 0,
+			max: 5,
 			next() {
-				if (this.current === this.max) {
+				if (this.num >= this.max) {
 					return { value: undefined, done: true }
 				} else {
-					return { value: this.current++, done: false }
+					return { value: this.num++, done: false }
 				}
 			},
 		}
 	},
 }
-
-for (let c of obj) console.log(c)
 ```
 
 #### Iterator
 
 ```javascript
-//手写迭代器
 function makeIterator(array) {
 	let nextIdx = 0
 	return {
@@ -125,16 +120,14 @@ it.next() // { value: undefined, done: true }
 - 属性名可使用表达式
 - API
   - Object.is()
-  - Object.assign()
-  - Object.keys()、Object.values()、Object.entries()
-  - Object.getPrototypeOf()
-  - Object.setPrototypeOf()
+  - **Object.assign()**
+  - **Object.keys()、Object.values()、Object.entries()**
+  - **Object.getPrototypeOf()、Object.setPrototypeOf()**
   - Object.getOwnPropertyDescriptors()
-  - Object.entries()
   - Object.fromEntries()
-- 属性遍历
+- **属性遍历**
   - for-in
-  - Object.keys()、Object.values()
+  - Object.keys()、Object.values()、Object.entries() 
   - Object.getOwnPropertyNames()
   - Object.getOwnPropertySymbols()
   - Reflect.ownKeys()
@@ -149,7 +142,7 @@ it.next() // { value: undefined, done: true }
 
 ### 数组扩展
 
-#### ==扩展运算符(...)==
+#### ==扩展运算符(...)==(原理可迭代对象)
 
 - 浅克隆数组(对象)：`const arr = [...arr1]`
 - 浅合并数组(对象)：`const arr = [...arr1, ...arr2]`
@@ -161,19 +154,44 @@ it.next() // { value: undefined, done: true }
 - 转换类数组为数组：`[...Arguments, ...NodeList]`
 - 转换可遍历对象为数组：`[...String, ...Set, ...Map, ...Generator]`
 - 与数组解构赋值结合：`const [x, ...rest] = [1, 2, 3]`
-- 对象克隆(同Object.assign):`const objCopy = { ...obj, ...objOthers }`
+- 对象克隆(基本同Object.assign):`const objCopy = { ...obj, ...objOthers }`
 - 与对象解构赋值结合：`const { x, ...rest } = { x: 1, y: 2, z: 3 }`
 - 修改现有对象部分属性：`const obj = { x: 1, ...{ x: 2 } }`
 
 #### API
 
-- **Array.from()**
-- Array.isArray
+- **Array.from(arrayLike, mapFn, thisArg)**
+
+- **Array.isArray**
+
+  ```javascript
+  let proxy = new Proxy([], {
+  	get(target, key) {
+  		if (key === 'constructor') return String
+  		return Reflect.get(target, key)
+  	},
+  	getPrototypeOf() {
+  		return null
+  	},
+  })
+  
+  console.log(Array.isArray(proxy))
+  console.log(proxy instanceof Array)
+  console.log(proxy.constructor === Array)
+  ```
+
+  
+
 - Array.of()
+
 - keys()、values()、entries() 返回遍历器对象，可用`for-of`自动遍历或`next()`手动遍历
+
 - includes()
+
 - fill()
+
 - find()、findIndex()
+
 - flat()
 
 ### ==函数扩展==
@@ -196,28 +214,36 @@ const sortNumbers = (...numbers) => numbers.sort()
 
 #### 箭头函数
 
-1. 没有 this,函数体里面的 this 是箭头函数**定义**时所在对象,不是运行时(this 看上一级，若上级是箭头函数继续往上找), 作用域是栈内存不是堆内存
+1. 没有 this,函数体里面的 this 是箭头函数**定义**时所处的对象,不是运行时(this 看上一级，若上级还是箭头函数继续往上找), 作用域是栈内存不是堆内存
 2. 不能改变this绑定,即使通过call、apply、bind
 3. 不能用作构造函数
 4. 没有原型对象
-5. 没有自己的 super 和 new.target 绑定
+5. 没有 super 和 new.target 
 6. 没有 arguments,但有...
 7. 形参名称不能重复
-8. 返回对象时必须在对象外面加上括号
+8. **返回对象时必须在对象外面加上括号**
 9. 不可用 yield,因此不能用 Generator 函数
 
-### Symbol
+### Symbol(作为对象属性名时，只能用方括号(`[]`)读取，不能用点(`.`)读取)
 
-	- const s = Symbol(str)
-	- Symbol.for()
-	- Symbol.keyFor()
-	- Symbol.toPrimitive
-	- `Symbol值`作为对象属性名时，只能用方括号运算符(`[]`)读取，不能用点运算符(`.`)读取
+- Symbol.toPrimitive 一边是对象使用==比较时
+
+- Symbol.toStringtTag
+
+- Symbol.iterator
+
+- Symbol.hasInstance
+
+  ```javascript
+  const s = Symbol(str)
+  Symbol.for()
+  Symbol.keyFor()
+  ```
 
 ### Set
 
 - 去重字符串：`[...new Set(str)].join("")`
-- 去重数组：`[...new Set(arr)]或Array.from(new Set(arr))`
+- 去重数组：`[...new Set(arr)]、Array.from(new Set(arr))`
 - 集合数组
   - 声明：`const a = new Set(arr1)、const b = new Set(arr2)`
   - 并集：`new Set([...a, ...b])`
@@ -234,7 +260,7 @@ const sortNumbers = (...numbers) => numbers.sort()
 - 添加多个以`NaN`作为键时，只会存在一个以`NaN`作为键的值
 - `Object结构`提供`字符串—值`的对应，`Map结构`提供`值—值`的对应
 
-### ==Promise==(见实现)
+### ==Promise==(see implementment)
 
 ### Proxy & Reflect
 
@@ -282,21 +308,21 @@ const sortNumbers = (...numbers) => numbers.sort()
 
 ### ==Class==
 
-> 1 class`声明会提升,但不会初始化赋值,类似`const、let`
+> 1 class`声明会提升,但不会初始化赋值,类似`const、let
 >
 > 2 `class`内部默认严格模式
 >
-> 3 `class`的所有方法(包括静态方法和实例方法)都是不可枚举的
+> 3 `class`的所有方法(静态方法和实例方法)都是不可枚举的
 >
-> 4 `class`的所有方法(包括静态方法和实例方法)都没有原型对象`prototype`
+> 4 `class`的所有方法(静态方法和实例方法)都没有原型对象`prototype`
 >
 > 5 必须使用`new`调用`class`
 >
 > 6 `class`内部无法重写类名
 
 - constructor
-  - ES5 实质：先创造子类实例的 this,再将父类的属性方法添加到 this 上`Parent.apply(this)`
-  - ES6 实质：先将父类实例的属性方法加到 this 上(调用 super()),再用子类构造函数修改 this
+  - **ES5 实质：先创造子类实例的 this,再将父类的属性方法添加到 this 上`Parent.apply(this)*`**
+  - **ES6 实质：先将父类实例的属性方法加到 this 上(调用 super()),再用子类构造函数修改 this**
 - extends
 
 - super
@@ -305,8 +331,8 @@ const sortNumbers = (...numbers) => numbers.sort()
 
 - ==`class`有两条原型链==
 
-  - Child.\_\_proto\_\_ === Parent //核心目的是实现静态方法继承
-  - Child.prototype.\_\_proto\_\_ === Parent.prototype
+  - **Child.\_\_proto\_\_ === Parent //核心目的实现静态方法继承**
+  - **Child.prototype.\_\_proto\_\_ === Parent.prototype**
 
 - new.target
 
@@ -341,17 +367,17 @@ const sortNumbers = (...numbers) => numbers.sort()
       // Named export/import
       export { sum }
       import { sum } from 'sum'
-    
+      
       // Default export/import
       export default sum
       import sum from 'sum'
-    
+      
       //CommonJS中，导入导出的只有一种
       module.exports = sum
-    
+      
       //exports仅仅是module.exports的引用而已
       //exports = module.exports
-      // 以下两个是等价的
+      // 以下等价
       exports.a = 3
       module.exports.a = 3
       ```
@@ -389,7 +415,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     let { a, b } = require('./a')
     console.log(a, b)
     setTimeout(() => {
-    	console.log(a, b)
+    	console.log(a, b) // 1 { num: 1 }
     }, 500)
     ```
 
@@ -474,7 +500,7 @@ const sortNumbers = (...numbers) => numbers.sort()
     console.log(get())  // 2
     ```
 
-  - 都可解决循环依赖
+  - 都可解决**循环依赖**
 
     - CommonJS使用的是**模块缓存**
       - 对应值得拷贝 -> 开辟新的内存
@@ -484,35 +510,53 @@ const sortNumbers = (...numbers) => numbers.sort()
       ```javascript
       // CommonJS
       // main.js
-      const bar = require('./bar.js')
-      console.log('当前是main.js内:', bar) // {}
-      module.exports = '在main.js内'
-    
-      // bar.js
-      const main = require('./main.js')
-      console.log('当前是bar.js内:', main)
-      module.exports = 'bar.js内'
-    
-      // 执行 node ./main.js  ， 输出：
-      当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
-      当前是main.js内: bar.js内
+      var a = require('./a')
+      console.log('入口模块引用a模块：',a)
+      
+      // a.js
+      exports.a = '原始值-a模块内变量'
+      var b = require('./b')
+      console.log('a模块引用b模块：',b)
+      exports.a = '修改值-a模块内变量'
+      
+      // b.js
+      exports.b ='原始值-b模块内变量'
+      var a = require('./a')
+      console.log('b模块引用a模块',a)
+      exports.b = '修改值-b模块内变量'
+      
+      // 执行node ./main.js输出
+      //b模块引用a模块： {a: '原始值-a模块内变量'}
+      //a模块引用b模块：  {b: '修改值-b模块内变量'}
+      //入口模块引用a模块：  {a: '修改值-a模块内变量'}
       ```
 
       ```javascript
       // ESM
       // main.js
-      const bar = require('./bar.js')
-      console.log('当前是main.js内:', bar) // {}
-      module.exports = '在main.js内'
-    
-      // bar.js
-      const main = require('./main.js')
-      console.log('当前是bar.js内:', main)
-      module.exports = 'bar.js内'
-    
-      // 执行 node ./main.js  ， 输出：
-      当前是bar.js内: {}  // 解析：执行到bar.js内时，main.js还没有执行完，就没有东西导出，会默认导出空对象
-      当前是main.js内: bar.js内
+      import * as a from './a.mjs'
+      console.log('入口模块引用a模块：',a)
+      
+      // a.js
+      import * as b from './b.mjs'
+      let a = '原始值-a模块内变量'
+      export { a }
+      console.log('a模块引用b模块：', b)
+      a = '修改值-a模块内变量'
+      
+      
+      // b.js
+      import * as a from './a.mjs'
+      let b = '原始值-b模块内变量'
+      export { b }
+      console.log('b模块引用a模块：', a)
+      b = '修改值-b模块内变量'
+      
+      
+      // 执行 node ./main.js输出
+      //b模块引用a模块： [Module: null prototype] { a: <uninitialized> }
+      //a模块引用b模块： [Module: null prototype] { b: '修改值-b模块内变量' }
+      //入口模块引用a模块： [Module: null prototype] { a: '修改值-a模块内变量' }
       ```
 
   - CommonJS的export和module.export指向同一块内存，但由于最后导出的是module.export，所以不能直接给export赋值，会导致指向丢失

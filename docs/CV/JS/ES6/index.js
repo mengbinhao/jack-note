@@ -87,47 +87,6 @@ const _debounce = (fn, timeout = 300) => {
 	}
 }
 
-//第一次说了算
-function _throttle(fn, timeout = 300) {
-	let last = 0
-	return function (...args) {
-		let now = +new Date()
-		if (now - last >= timeout) {
-			fn.apply(this, args)
-			last = +new Date()
-		}
-	}
-}
-
-function _throttle2(cb, timeout = 300) {
-	let timer
-	return function (...args) {
-		if (!timer) {
-			timer = setTimeout(() => {
-				cb.apply(this, args)
-				timer = null
-			}, timeout)
-		}
-	}
-}
-
-//setTimeout 模拟实现 setInterval
-// 	1 使用setInterval时，某些间隔会被跳过
-//  2 可能多个定时器会连续执行
-function mySetInterval(fn, delay) {
-	let timerId = null
-	function interval() {
-		fn()
-		timerId = setTimeout(interval, delay)
-	}
-	timerId = setTimeout(interval, delay)
-	return {
-		cancel: () => {
-			clearTimeout(timerId)
-		},
-	}
-}
-
 // check context
 // assign context
 // assign attribute to context
@@ -136,8 +95,8 @@ function mySetInterval(fn, delay) {
 // return ret
 Function.prototype._call = function (context, ...args) {
 	if (typeof this !== 'function') throw TypeError('invalid params')
-	//ctx = ctx || window
-	//若不为空，则需要进行对象包装
+	//context = context || window
+	//若不为空，进行包装
 	context = !context ? window : Object(context)
 	args = args ? args : []
 	const key = Symbol()
@@ -193,7 +152,7 @@ function bar(name, age) {
 bar.prototype.prop = 'bar'
 let bindFoo = bar._bindAdvanced(foo, 'Jack')
 bindFoo(33) // foo, jack, 18
-new bindFoo(18) // bar, jack, 18
+new bindFoo(38) // bar, jack, 38
 
 //curry
 // const curry = function (fn) {
@@ -206,20 +165,20 @@ new bindFoo(18) // bar, jack, 18
 // }
 
 //add(1, 2, 3) => fn = curryAdvanced(add, 1) => fn(2,3)
-const curryAdvanced = function (fn, ...args) {
+const curry1 = function (fn, ...args) {
 	//let that = this
 	return function (...newArgs) {
 		let innerArgs = [...args, ...newArgs]
 		if (innerArgs.length >= fn.length) {
 			return fn.apply(null, innerArgs)
 		} else {
-			return curryAdvanced.apply(null, fn, innerArgs)
+			return curry1.apply(null, fn, innerArgs)
 		}
 	}
 }
 
 //add(1, 2, 3) => fn = curryAdvanced2(add) => fn(1)(2)(3)
-const curryAdvanced2 = function (fn) {
+const curry2 = function (fn) {
 	return function curried(...args) {
 		if (args.length >= fn.length) {
 			return fn.apply(null, args)
@@ -231,32 +190,8 @@ const curryAdvanced2 = function (fn) {
 	}
 }
 
-//从右往左执行
-const compose = (...fns) => {
-	if (!fns.length) return (v) => v
-	if (fns.length === 1) return fns[0]
-	return fns.reduce((a, b) => {
-		return function (...args) {
-			return a(b(...args))
-		}
-	})
-}
-
-function fn1(x) {
-	return x + 1
-}
-function fn2(x) {
-	return x + 2
-}
-function fn3(x) {
-	return x + 3
-}
-function fn4(x) {
-	return x + 4
-}
-const composeFunc = compose(fn1, fn2, fn3, fn4)
-//console.log(composeFunc(1)) // 1+4+3+2+1=11
-
+//sum(1, 2)(3)() // 6
+//sum(1)(2)(3)() // 6
 const sum = (...args) => {
 	let params = args
 	const _sum = (...newArgs) => {
@@ -269,8 +204,72 @@ const sum = (...args) => {
 	}
 	return _sum
 }
-//console.log(sum(1, 2)(3)()) // 6
-//console.log(sum(1)(2)(3)()) // 6
+
+//从右往左执行
+const compose = (...fns) => {
+	if (!fns.length) return (v) => v
+	if (fns.length === 1) return fns[0]
+	return fns.reduce((a, b) => {
+		return function (...args) {
+			return a(b(...args))
+		}
+	})
+}
+const fn1 = (x) => {
+	return x + 1
+}
+const fn2 = (x) => {
+	return x + 2
+}
+const fn3 = (x) => {
+	return x + 3
+}
+const fn4 = (x) => {
+	return x + 4
+}
+const composeFunc = compose(fn1, fn2, fn3, fn4)
+//console.log(composeFunc(1)) // 1+4+3+2+1=11
+
+//第一次说了算
+function _throttle(fn, timeout = 300) {
+	let last = 0
+	return function (...args) {
+		let now = +new Date()
+		if (now - last >= timeout) {
+			fn.apply(this, args)
+			last = +new Date()
+		}
+	}
+}
+
+function _throttle2(fn, timeout = 300) {
+	let timer
+	return function (...args) {
+		if (!timer) {
+			timer = setTimeout(() => {
+				fn.apply(this, args)
+				timer = null
+			}, timeout)
+		}
+	}
+}
+
+//setTimeout 模拟实现 setInterval
+// 	1 使用setInterval时，某些间隔会被跳过
+//  2 可能多个定时器会连续执行
+function mySetInterval(fn, delay) {
+	let timerId = null
+	function interval() {
+		fn()
+		timerId = setTimeout(interval, delay)
+	}
+	timerId = setTimeout(interval, delay)
+	return {
+		cancel: () => {
+			clearTimeout(timerId)
+		},
+	}
+}
 
 Array.prototype._map = function (fn) {
 	if (typeof fn !== 'function') throw new TypeError(fn + 'is not a function')
@@ -332,8 +331,11 @@ const _flat3 = (arr, depth = 1) => {
 
 //浅复制
 //	1 扩展运算符
+//     Object Spread 抛弃了源对象属性的描述符，无论它是数据属性还是存取器属性，无论是可配置的还是不可配置的
+//     也无论是可枚举的还是不可枚举的，最终都转换为目标对象上的一个可枚举、可配置、可写的数据属性
 //	2 Object.assign()
-//  3 Object.getOwnPropertyDescriptors() + Object.defineProperties()
+//       Object.assign() 可能会将数据赋值到目标对象的原型上，如果原型上有这个 key 的存取器属性的话
+//  3 Object.defineProperties() + Object.getOwnPropertyDescriptors()
 const shallowClone = (original) => {
 	return Object.defineProperties({}, Object.getOwnPropertyDescriptors(original))
 }
@@ -341,8 +343,8 @@ const shallowClone = (original) => {
 //深复制
 //	1 JSON.parse(JSON.stringify(original))
 //		若obj里有Date对象，转换后时间只是字符串而不是对象
-//		若obj里有RegExp、Error对象，转换后得到空对象
-//		若obj里有function、undefined，Symbol转换后直接丢失,若以上三个作为数组元素转换后是null,若单独转化则是undefined
+//		若obj里有RegExp、Error、Map、Set对象，转换后得到空对象
+//		若obj里有function、undefined，Symbol转换后直接丢失,若以上三个作为数组元素转换后是null
 //		若obj里有NaN、Infinity和-Infinity，转换后变成null
 //		若对象中存在循环引用则转换报错
 //		JSON.stringify()只能序列化对象的可枚举的自有属性
@@ -365,6 +367,14 @@ const deepClone = (source, cache = new WeakMap()) => {
 	//let target = new source.Constructor()
 	let target = Array.isArray(source) ? [] : {}
 	cache.set(source, target)
+
+	// Reflect.ownKeys(source).forEach((key) => {
+	// 	if (isObject(source[key])) {
+	// 		target[key] = deepClone(source[key], cache)
+	// 	} else {
+	// 		target[key] = source[key]
+	// 	}
+	// })
 
 	Object.getOwnPropertySymbols(source).forEach((symKey) => {
 		if (isObject(source[symKey])) {
@@ -534,7 +544,7 @@ const parseParam = (url) => {
 //Proxy
 const user = {
 	_name: 'Guest',
-	//访问器属性 与 数据属性 相斥
+	// 存取器属性与数据属性互斥
 	// 可以定义一个虚拟属性
 	// let user = {
 	// 	 firstName: "John",
@@ -572,7 +582,6 @@ let admin = {
 	__proto__: userProxy,
 	_name: 'Admin',
 }
-
 //console.log(admin.name)
 
 //practice
@@ -717,34 +726,52 @@ const a = {
 	// },
 }
 
-let objIterator = {
-	current: 0,
-	max: 5,
+let obj = {
 	[Symbol.iterator]() {
 		return {
-			max: this.max,
-			current: this.current,
+			num: 0,
+			max: 5,
 			next() {
-				if (this.current === this.max) {
+				if (this.num >= this.max) {
 					return { value: undefined, done: true }
 				} else {
-					return { value: this.current++, done: false }
+					return { value: this.num++, done: false }
 				}
 			},
 		}
 	},
 }
 
+// for (let c of obj) {
+// 	console.log(c)
+// }
+
+function* range(start, end) {
+	for (let i = start; i < end; i++) {
+		yield i
+	}
+}
+
+class Range {
+	constructor(start, end) {
+		this.start = start
+		this.end = end
+	}
+	*[Symbol.iterator]() {
+		for (let i = this.start; i <= this.end; ++i) {
+			yield i
+		}
+	}
+}
+
 //打印出当前网页使用了多少种HTML元素
-const eleOnPage = () => {
+const elementsOnCurrentPage = () => {
 	return [
 		...new Set([...document.querySelectorAll('*')].map((el) => el.tagName)),
 	].length
 }
 
-//以下无限打印
-let starks = ['Eddard Stark', 'Catelyn Stark', 'Rickard Stark']
-
+//无限打印
 function* repeatedArr(arr) {
 	let i = 0
 	while (true) {
@@ -752,7 +779,11 @@ function* repeatedArr(arr) {
 	}
 }
 
-let infiniteNameList = repeatedArr(starks)
+let infiniteNameList = repeatedArr([
+	'Eddard Stark',
+	'Catelyn Stark',
+	'Rickard Stark',
+])
 
 let sleep = (ms) =>
 	new Promise((resolve) => {

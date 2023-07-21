@@ -8,9 +8,7 @@ sendRequest(
 
 		() => request('4'),
 	],
-
 	3, //并发数
-
 	(res) => {
 		console.log(res)
 	}
@@ -20,24 +18,23 @@ function request(url, time = 1) {
 	return new Promise((resolve, reject) => {
 		setTimeout(() => {
 			console.log('请求结束：' + url)
-
 			if (Math.random() > 0.5) {
 				resolve('成功')
 			} else {
 				reject('错误;')
 			}
-		}, time * 1e3)
+		}, time * 1000)
 	})
 }
 
 function sendRequest(requestList, limits, callback) {
 	const promises = requestList.slice()
-	// 得到开始时，能执行的并发数
+	// 得到开始时能执行的并发数
 	const concurrentNum = Math.min(limits, requestList.length)
 	let concurrentCount = 0
 
 	// 第一次先跑起可以并发的任务
-	const runTaskNeeded = () => {
+	const start = () => {
 		let i = 0
 		// 启动当前能执行的任务
 		while (i < concurrentNum) {
@@ -49,11 +46,11 @@ function sendRequest(requestList, limits, callback) {
 	// 取出任务并且执行任务
 	const runTask = () => {
 		const task = promises.shift()
-		task && runner(task)
+		task && run(task)
 	}
 
 	// 执行异步任务，同时更新当前并发数
-	const runner = async (task) => {
+	const run = async (task) => {
 		try {
 			concurrentCount++
 			await task()
@@ -73,5 +70,5 @@ function sendRequest(requestList, limits, callback) {
 			callback && callback()
 		}
 	}
-	runTaskNeeded()
+	start()
 }

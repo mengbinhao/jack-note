@@ -12,8 +12,7 @@ function Car(brand) {
 	this.brand = brand
 }
 
-//下面被替换了
-//下面被替换了
+//下面指针变了
 // Car.prototype.playMusic = function () {
 // 	console.log('sing')
 // }

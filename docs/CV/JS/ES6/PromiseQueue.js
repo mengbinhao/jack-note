@@ -8,16 +8,14 @@ class PromiseQueue {
 	}
 
 	runNext() {
-		return this.running.length < this.count && this.todo.length
+		return this.running.length < this.count && this.todo.length > 0
 	}
 
 	run() {
 		while (this.runNext()) {
 			let promise = this.todo.shift()
 			promise.then(() => {
-				//放入最新running的promise
 				this.completed.push(this.running.shift())
-				//继续run
 				this.run()
 			})
 			this.running.push(promise)

@@ -1,18 +1,23 @@
-var addStrings = function (num1, num2) {
-	let i = num1.length - 1,
-		j = num2.length - 1,
-		add = 0
-	const ans = []
-	while (i >= 0 || j >= 0 || add != 0) {
-		const x = i >= 0 ? num1.charAt(i) : 0
-		const y = j >= 0 ? num2.charAt(j) : 0
-		const result = x + y + add
-		ans.push(result % 10)
-		add = Math.floor(result / 10)
-		i -= 1
-		j -= 1
+class PromiseQueue {
+	constructor(task, concurrentCount = 1) {
+		this.todo = task
+		this.concurrentCount = concurrentCount
+		this.running = []
+		this.completed = []
 	}
-	return ans.reverse().join('')
-}
 
-addStrings('11', '123')
+	runNext() {
+		return this.running.length < this.concurrentCount && this.todo.length
+	}
+
+	run() {
+		while (this.runNext()) {
+			const promise = this.todo.shift()
+			promise.then(() => {
+				this.completed.push(this.running.shift())
+				this.run()
+			})
+			this.running.push(promise)
+		}
+	}
+}
