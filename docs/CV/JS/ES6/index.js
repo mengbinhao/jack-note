@@ -5,14 +5,32 @@ const _create = (obj) => {
 }
 
 //判断数据类型
-//	typeof -> typeof null === 'object'
-//  "undefined"、"string"、"boolean"、"number"、"bigint"、"symbol"、"object" 或 "function"
+//	typeof
+//		注意 null === 'object'
+//  	"undefined"、"string"、"boolean"、"number"、"bigint"、"symbol"、"object" 或 "function"
 //	instanceof 右侧对象的原型对象是否在左侧对象的原型链上
 //		IE下跨 iframe 调用时，[] instanceof Array不成立
 //	Object.prototype.toString.call(obj)
 //		1 若参数不为null或undefined,则将参数转为对象Object(obj),再作判断
 //		2 转为对象后,取得该对象的[Symbol.toStringTag]属性值（可能会遍历原型链）作为tag,然后返回"[object " + tag +"]"形式的字符串
 //  constructor
+
+//右侧对象的原型对象是否在左侧对象的原型链上
+//r mean Object or Array 构造函数
+const _instanceOf = (l, r) => {
+	if (r === null || (typeof r !== 'object' && typeof r !== 'function'))
+		return false
+	//获取对象的原型
+	let proto = l === null ? null : Object.getPrototypeOf(l)
+	//获取构造函数的原型对象
+	const prototype = r.prototype
+	while (true) {
+		if (proto === null) return false
+		if (proto === prototype) return true
+		proto = Object.getPrototypeOf(proto)
+	}
+}
+
 const getType = (obj) => {
 	// return Object.prototype.toString.call(obj).slice(8, -1).toLowerCase()
 	// or
@@ -42,22 +60,6 @@ const isType = (type) => (obj) => {
 	return Object.prototype.toString.call(obj) === `[object ${type}]`
 }
 
-//右侧对象的原型对象是否在左侧对象的原型链上
-//r mean Object or Array 构造函数
-const _instanceOf = (l, r) => {
-	if (r === null || (typeof r !== 'object' && typeof r !== 'function'))
-		return false
-	//获取对象的原型
-	let proto = l === null ? null : Object.getPrototypeOf(l)
-	//获取构造函数的原型对象
-	const prototype = r.prototype
-	while (true) {
-		if (proto === null) return false
-		if (proto === prototype) return true
-		proto = Object.getPrototypeOf(proto)
-	}
-}
-
 // generate a new obj
 // mount prototype obj
 // invoke Constructor
@@ -73,18 +75,6 @@ const _new = () => {
 	return ret !== null && (typeof ret === 'object' || typeof ret === 'function')
 		? ret
 		: obj
-}
-
-//最后一次说了算
-const _debounce = (fn, timeout = 300) => {
-	let timer
-	return function (...args) {
-		timer && clearTimeout(timer)
-		timer = setTimeout(() => {
-			fn.apply(this, args)
-			timer = null
-		}, timeout)
-	}
 }
 
 // check context
@@ -128,12 +118,12 @@ Function.prototype._bindAdvanced = function (context = window, ...args) {
 	if (typeof this !== 'function') throw TypeError('invalid params')
 	const fn = this
 	args = args ? args : []
-	const fBound = function () {
+	const fBound = function (...newArgs) {
 		//if invoke by new, this is fBound
 		//if function invoke, this is context
 		return fn.apply(this instanceof fBound ? this : context, [
 			...args,
-			...arguments,
+			...newArgs,
 		])
 	}
 	//check下，箭头函数没有this.prototype
@@ -229,6 +219,18 @@ const fn4 = (x) => {
 }
 const composeFunc = compose(fn1, fn2, fn3, fn4)
 //console.log(composeFunc(1)) // 1+4+3+2+1=11
+
+//最后一次说了算
+const _debounce = (fn, timeout = 300) => {
+	let timer
+	return function (...args) {
+		timer && clearTimeout(timer)
+		timer = setTimeout(() => {
+			fn.apply(this, args)
+			timer = null
+		}, timeout)
+	}
+}
 
 //第一次说了算
 function _throttle(fn, timeout = 300) {

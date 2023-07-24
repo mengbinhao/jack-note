@@ -1,3 +1,9 @@
+- 2022.7.24
+
+  - delay n/v
+
+  > That's not clear at this stage. We're going to learn more in the coming weeks
+
 - 2022.7.17
 
   - scrape v/n
@@ -3723,7 +3729,6 @@
   - virus n
   - timeline n
   - destruct v | destruction n | destructive adj
-  - valet nn/v
 
   > as the day go by
   > xxx at odds with yyy

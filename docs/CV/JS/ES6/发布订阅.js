@@ -15,7 +15,7 @@ class EventEmitter {
 
 	off(type, cb) {
 		if (!this.events[type]) return
-		//删整个事件
+		//删整个函数回调数组
 		if (!cb) {
 			delete this.events[type]
 		} else {

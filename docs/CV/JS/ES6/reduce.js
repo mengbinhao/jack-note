@@ -40,7 +40,7 @@ let deepAttr = { a: { b: { c: 15 } } }
 let pluckDeep = (path) => (obj) =>
 	path.split('.').reduce((acc, attr) => acc[attr], obj)
 
-console.log(pluckDeep('a.b.c')(deepAttr))
+//console.log(pluckDeep('a.b.c')(deepAttr))
 
 //get two arrays according to check condition
 let users = [
@@ -59,10 +59,8 @@ let partition = (arr, checkCondition) => {
 }
 
 let isMale = (person) => person.sex === 'male'
-
 let [maleUser, femaleUser] = partition(users, isMale)
-
-console.log(maleUser, femaleUser)
+//console.log(maleUser, femaleUser)
 
 //生成树形对象结构
 const nest = (items, id = null, link = 'parent_id') =>
@@ -78,4 +76,4 @@ const comments = [
 	{ id: 5, parent_id: 4 },
 ]
 
-const nestedComments = nest(comments)
+console.log(nest(comments))
