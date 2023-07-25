@@ -2,7 +2,7 @@
 
 简单来说，当一台服务器资源从另一台服务器（不同的域名或者端口）请求一个资源时，就会发起一个跨域 HTTP 请求。
 
-举个简单的例子，http://example-a.com/index.html 这个 HTML 页面请求了 http://example-b.com/resource/image.jpg 这个图片资源时（发起 Ajax 请求，非 <img> 标签），就是发起了一个跨域请求。
+举个简单的例子，http://example-a.com/index.html 这个 HTML 页面请求了 http://example-b.com/resource/image.jpg 这个图片资源时（发起 Ajax 请求，非 <img> 标签），就是发起了一个跨域请求
 
 在不做任何处理的情况下，这个跨域请求是无法被成功请求的，因为浏览器基于同源策略会对跨域请求做一定的限制
 
@@ -61,9 +61,8 @@ document.domain = 'example.com'
 
 6. ### window.open + window.opener
 
-### ==CORS（Cross-origin resource sharing，跨域资源共享）==
+### 常见跨域操作方式
 
-常见的方法有四种：
 1. JSONP （script、img、link）
 2. **CORS（Cross-origin resource sharing，跨域资源共享）**
 3. `<iframe> `
@@ -89,9 +88,9 @@ CORS 其实是浏览器制定的一个规范，它的实现则主要在服务端
 - GET, HEAD, POST 方法之一
 - Header不带自定义的请求头
 - Content-Type以下三者之一
-    - text/plain
-    - multipart/form-data
-    - application / x-www-form-urlencoded
+    - text/plain    /纯文本
+    - multipart/form-data    //一般文件上传
+    - application / x-www-form-urlencoded  //表单默认数据格式
 - 。。。
 
 举例请求报文：
@@ -104,13 +103,13 @@ CORS 其实是浏览器制定的一个规范，它的实现则主要在服务端
 >
 > 在响应报文中，`Access-Control-Allow-Origin`字段被设置为`*`，表明该资源可以被任意的域访问，若服务端仅允许来自 http://foo.example 域的访问`Access-Control-Allow-Origin: http://foo.example`
 
-#### 负责请求
+#### 复杂请求
 
 ```javascript
 //复杂请求
 document.querySelector('.contact-us-form').addEventListener('submit', (e) => {
 	e.preventDefault()
-	var data = {
+	let data = {
 		email: 'test@test.com',
 		source: 'search',
 	}
@@ -125,7 +124,7 @@ document.querySelector('.contact-us-form').addEventListener('submit', (e) => {
 		.then((res) => console.log(res))
 })
 
-//后端需加，讓 preflight 通過
+//后端需讓preflight通過
 app.options('/form', (req, res) => {
   res.header('Access-Control-Allow-Origin', '*')
   //多个自定义header
