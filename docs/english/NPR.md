@@ -1,3 +1,9 @@
+- 2022.7.25
+
+  - pat n/v
+
+  > He was elected on a promise to fix the economy, but he since then centralized power to himself
+
 - 2022.7.24
 
   - delay n/v
@@ -5955,7 +5961,7 @@
   - coast n | coastal adj
   - nightmarish adj
   - concentrate v | concentrated adj | concentration n
-  - central adj | centrally adv | centralized adj | centrist n/adj |centric adj | centralization n | decentralize
+  - central adj | centrally adv | centralize | centralized adj | centrist n/adj |centric adj | centralization n | decentralize
   - tropic n | tropical adj | frigid adj
   - deforestation n | forest n
 

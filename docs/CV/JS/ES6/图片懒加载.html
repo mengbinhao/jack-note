@@ -32,7 +32,7 @@
   <script>
     const imgs = document.querySelectorAll('img[data-src]')
     const lazyLoad = () => {
-      for (let image of images) {
+      for (let image of imgs) {
         if (
           image.getBoundingClientRect().top <= document.documentElement.clientHeight
         ) {

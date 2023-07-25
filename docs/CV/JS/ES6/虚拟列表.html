@@ -22,9 +22,9 @@
     const ul = document.querySelector('#box')
     const totalCount = 121
     const pageCount = 30
+    //const totalPage = Math.ceil(totalCount / pageCount)
     let idx = 1,
       curPage = 1
-    //const totalPage = Math.ceil(totalCount / pageCount)
     function loop() {
       if (idx > totalCount) return
       let curPageCount = Math.min(totalCount - idx + 1, pageCount)
