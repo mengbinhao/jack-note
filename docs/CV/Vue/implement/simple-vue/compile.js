@@ -11,9 +11,7 @@ class Compile {
 	node2Fragment(el) {
 		let fragment = document.createDocumentFragment()
 		let firstChild
-		while ((firstChild = el.firstChild)) {
-			fragment.appendChild(firstChild)
-		}
+		while ((firstChild = el.firstChild)) fragment.appendChild(firstChild)
 		return fragment
 	}
 	compile(fragment, vm) {
@@ -21,6 +19,7 @@ class Compile {
 		Array.from(childNodes).forEach((node) => {
 			if (node.nodeType === 1) {
 				this.compileElement(node, vm)
+				//recursion
 				this.compile(node, vm)
 			} else if (node.nodeType === 3) {
 				this.compileText(node, vm)

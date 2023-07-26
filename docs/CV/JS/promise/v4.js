@@ -1,6 +1,6 @@
 //async
-//then回调不带setTimeout时 -> onFulfilled、onRejected后置执行 -> 先只能执行一个回掉
-//then回调带setTimeout时,resolve异步 ==> then添加pending处理，定义cb数组 => resolve、reject事件末尾执行
+//1 then回调不带setTimeout时 -> onFulfilled、onRejected后置执行 -> 先只能执行一个回掉
+//2 then回调带setTimeout时,resolve异步 ==> then添加pending处理，定义cb数组 => resolve、reject事件末尾执行
 //同一个promise的then方法可多次调用，即多个回调用数组保存
 class MyPromise {
 	static PENDING = 'pending'
@@ -69,9 +69,9 @@ class MyPromise {
 }
 
 const p1 = new MyPromise((resolve, reject) => {
-	setTimeout(() => {
-		resolve('fulfilled~~~~~~~~~~~')
-	})
+	//setTimeout(() => {
+	resolve('fulfilled~~~~~~~~~~~')
+	//})
 })
 
 p1.then((value) => {

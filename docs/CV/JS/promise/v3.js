@@ -43,15 +43,20 @@ class MyPromise {
 		}
 
 		if (this.PromiseState === MyPromise.REJECTED) {
-			onFulfilled(this.promiseResult)
+			onRejected(this.promiseResult)
 		}
 	}
 }
 
 const p1 = new MyPromise((resolve, reject) => {
-	throw new Error('error')
+	resolve(1)
 })
 
-p1.then(null, (reason) => {
-	console.log(reason)
-})
+p1.then(
+	(val) => {
+		console.log(val + '-------')
+	},
+	(reason) => {
+		console.log(reason)
+	}
+)

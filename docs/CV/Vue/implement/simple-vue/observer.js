@@ -18,7 +18,8 @@ class Observer {
 			configurable: false,
 			enumerable: true,
 			get() {
-				if (Dep.target) dep.depend() //收集依赖
+				if (Dep.target) dep.addSub(Dep.target)
+				//if (Dep.target) dep.depend() //收集依赖
 				return value
 			},
 			set(newVal) {

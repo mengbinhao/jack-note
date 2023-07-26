@@ -1,60 +1,69 @@
-class _Promise {
-	static PENDING = 'pending'
-	static FULFILLED = 'fulfilled'
-	static REJECTED = 'rejected'
+let vm = _Vue({
+	el: '#app',
+	data: {
+		name: 'Jack',
+		age: 33,
+	},
+})
 
-	constructor(executor) {
-		this.PromiseState = _Promise.PENDING
-		this.PromiseResult = ''
-		this.onFulfilledCallbacks = []
-		this.onRejectedCallbacks = []
-		executor(this.resolve.bind(this), this.reject.bind(this))
-	}
+const changeVM = () => {
+	vm.name = 'changed'
+}
 
-	resolve(value) {
-		if (this.PromiseState === _Promise.PENDING) {
-			//setTimeout(() => {
-			this.PromiseState = _Promise.FULFILLED
-			this.PromiseResult = value
-			this.onFulfilledCallbacks.forEach((cb) => cb(value))
-			//})
-		}
-	}
-	reject(reason) {
-		if (this.PromiseState === _Promise.PENDING) {
-			this.PromiseState = _Promise.REJECTED
-			this.PromiseResult = reason
-			this.onFulfilledCallbacks.forEach((cb) => cb(reason))
+class _Vue {
+	constructor(options) {
+		this.options = options
+		this.data = this.options.data
+		this.el = this.options.el
+		if (this.data) this.proxy(this.data)
+		if (this.el) {
+			new Observer(this.data)
+			new Compile(this, this.el)
 		}
 	}
 
-	then(onFulfilled, onRejected) {
-		if (this.PromiseState === _Promise.FULFILLED) {
-			setTimeout(() => {
-				onFulfilled(this.PromiseResult)
+	proxy(data) {
+		Object.keys(data).forEach((key) => {
+			Object.defineProperty(this, key, {
+				configurable: false,
+				enumerable: true,
+				get() {
+					return this.data[key]
+				},
+				set(newVal) {
+					this.data[key] = newVal
+				},
 			})
-		} else if (this.PromiseState === _Promise.REJECTED) {
-			onRejected(this.PromiseResult)
-		} else if (this.PromiseState === _Promise.PENDING) {
-			this.onFulfilledCallbacks.push(onFulfilled)
-			this.onRejectedCallbacks.push(onRejected)
-		}
+		})
 	}
 }
 
-console.log(1)
-const p = new _Promise((resolve, reject) => {
-	console.log(2)
-	//setTimeout(() => {
-	console.log(3)
-	resolve('done')
-	console.log(4)
-	//})
-	console.log(5)
-})
-//console.log(p)
-p.then((data) => {
-	console.log(data)
-})
+class Observer {
+	constructor(data) {
+		this.observe(data)
+	}
 
-console.log(6)
+	observe(data) {
+		if (!data || typeof data !== 'object') return
+		Object.keys(data).forEach((key) => {
+			this.defineReactive(data, key, data[key])
+		})
+	}
+
+	defineReactive(data, key, val) {
+		let dep = new Dep()
+		Object.defineProperty(data, key, {
+			configurable: false,
+			enumerable: true,
+			get() {
+				if (dep.target) dep.depend()
+				return val
+			},
+			set(newVal) {
+				if (val === newVal) return
+				val = newVal
+				dep.notify()
+			},
+		})
+	}
+}

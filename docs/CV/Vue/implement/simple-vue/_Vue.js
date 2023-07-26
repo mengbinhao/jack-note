@@ -3,6 +3,7 @@ class _Vue {
 		this.options = options
 		this.data = options.data
 		this.el = options.el
+		//数据代理
 		if (this.data) this.proxy(this.data)
 		if (this.el) {
 			new Observer(this.data)

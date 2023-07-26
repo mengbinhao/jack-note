@@ -2,11 +2,11 @@ class Watcher {
 	constructor(vm, expOrFn, cb) {
 		this.vm = vm
 		//this.getter = parsePath(expOrFn)
-		this.key = expOrFn
+		this.expOrFn = expOrFn
 		this.cb = cb
 		Dep.target = this
 		//this.value = this.get()
-		this.oldValue = vm[this.key]
+		this.oldValue = this.vm[this.expOrFn]
 		Dep.target = null
 	}
 	// watcher实例触发值读取时，将依赖收集的目标对象设置成自身，
@@ -21,10 +21,8 @@ class Watcher {
 	}
 	// dep 依赖更新时会调用
 	update() {
-		let newVal = this.vm[this.key]
-		if (newVal !== this.oldValue) {
-			this.cb.call(this.vm, newVal, this.oldValue)
-		}
+		let newVal = this.vm[this.expOrFn]
+		if (newVal !== this.oldValue) this.cb.call(undefined, newVal, this.oldValue)
 		// 	let oldValue = this.value
 		// 	this.value = this.get()
 		// 	if (this.value !== oldValue) {
