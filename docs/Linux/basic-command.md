@@ -1,4 +1,4 @@
-Common
+### Common
 
 - init 3 //服务器终端登录
 - init 0 //关机
@@ -13,8 +13,8 @@ Common
 - 粘贴文本
       windows/Linux下：Shift + insert，Mac下：command + v
 - ctrl + r 搜索执行过的命令
-- `type command`
-- `which command`
+- `type command`    命令类型
+- `which command`   查找并显示给定命令的绝对路径
 - ==tree xxx==  展示当前目录的文件结构
   - tree /path/to/directory/ 展示某个目录的文件结构
   - tree -a 展示隐藏文件
@@ -24,13 +24,17 @@ Common
 - `git`
 - `maven`
 
-### 帮助指令
+### ==帮助指令==
 
-- `man ls`
-- help
-  1. type xxx
-  2. xxx help(内部命令)or xxx --help(外部命令)
-- info ls
+先type xxx若是
+
+- 内建命令
+  - `man ls`
+  - `info ls`
+  - `help ls`
+
+- 外部命令
+  1. `xxx --help`
 
 ### 注销、关机、重启
 
@@ -110,7 +114,7 @@ source ~/.bashrc
 - `groupadd groupname`
 - `groupdel groupname`
 
-### 权限
+### ==权限==
 - 文件类型
 
     - \-    普通文件
@@ -123,13 +127,13 @@ source ~/.bashrc
 
 - `chmod`
 
-    - chmod u=rwx,g=rx,o=x xxx
-    - chmod o+w xxx
-    - chmod a-x xxx
-    - chmod 755 xxx
-      - chmod 777 xxx -R
-    - chmod +x xxx
-    - chmod -x xxx
+    - chmod u=rwx,g=rx,o=x file
+    - chmod o+w file
+    - chmod a-x file
+    - chmod 755 file
+      - chmod 777 file -R
+    - chmod +x file
+    - chmod -x file
 
 - `chown`
 
@@ -174,7 +178,7 @@ source ~/.bashrc
   ![](./images/command-1.png)
 
 
-### 目录列表
+### ==目录列表==
 - `ls [-alrtRh] [目录名...]`
   - `ls /root /etc`
   - `ls -l [.]`
@@ -186,13 +190,13 @@ source ~/.bashrc
   - cd xxx/yyy 相对路径(可用.和..)
 
 
-### 输出
+### ==输出==
 - `echo $PATH`
 - `echo $JAVA_HOME`
-- echo 'hello JACK'
+- `echo 'hello JACK'`
 
 
-### 文件/文件夹
+### ==文件/文件夹==
 - `touch filename [filename2] [filenameX]`
 - `mkdir foldername...`
     - mkdir -p /a/b/c   //递归创建
@@ -212,10 +216,10 @@ source ~/.bashrc
 - **`~/.bashrc or ~/.zshrc` 环境变量配置**
 
 
-### 文件内容查看
+### ==文件内容查看==
 - cat fileName... / tac
 
-  - `cat -n xxxxx` 将该文件的内容输出到标准输出中，并显示行号
+  - `cat -n file` 将该文件的内容输出到标准输出中，并显示行号
 
 - `cat file1 file2 > file3`  将file1和file2的内容依次添加到file3当中
 
@@ -239,15 +243,15 @@ source ~/.bashrc
     - wc -w：统计单词数
     - wc -c：统计字节数
 
-- more xxx 向下翻动文件
+- more file 向下翻动文件
 
     ![](images/learn-7.png)
 
-- less xxx 向上/下翻动文件 (分屏显示大文件)
+- less file 向上/下翻动文件 (分屏显示大文件)
 
     ![](images/learn-8.png)
 
-- \>(输出重定向) / >>(追加)
+- **\>(输出重定向) / >>(追加)**
 
     - ls -l > aaa.txt
     - ls -l >> aaa.txt
@@ -261,7 +265,7 @@ source ~/.bashrc
     - ln -s ./root linkToRoot
     - rm -rf linkToRoot
 
-### 管道命令
+### ==管道命令==
 
  - 仅处理`stdout`,忽略`stderr`
 
@@ -281,7 +285,7 @@ source ~/.bashrc
    >
    > 管道左右两边均为命令，左边有`stdout`，右边有`stdin`
 
-### 打包/解包/压缩/解压缩
+### ==打包/解包/压缩/解压缩==
 
 > .tar 打包
 >
@@ -298,7 +302,7 @@ source ~/.bashrc
     - `unzip -d /opt/tmp/ myPackage.zip`
 
 
-### 查找
+### ==查找==
 - ==ag xxx== 搜索当前目录下的所有文件，检索xxx字符串
 
 - ==find==
@@ -467,6 +471,12 @@ source ~/.bashrc
 >
 > Debian、Ubuntu使用apt包管理器，软件包安装格式为deb
 
+- dpkg --list  在Debian/Ubuntu系统中查看已安装的软件包
+
+- yum list installed   在CentOS/RHEL系统中
+
+  
+
 #### rpm
 
 ![](./images/learn-23.png)
@@ -511,7 +521,9 @@ yum update [xxx]
 - `curl http://file.tgz` # 文件下载
   - curl xxx > yyy
 
-#### apt-get install xxx
+#### apt-get install <package_name>
+
+yum install <package_name>
 
 #### pip install xxx --user --upgrade  安装python包
 
