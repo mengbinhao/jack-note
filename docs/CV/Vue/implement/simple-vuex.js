@@ -10,9 +10,7 @@ const Store = function Store(options = {}) {
 }
 
 Store.prototype.commit = function (type, payload) {
-	if (this.mutations[type]) {
-		this.mutations[type](this.state, payload)
-	}
+	if (this.mutations[type]) this.mutations[type](this.state, payload)
 }
 
 Object.defineProperties(Store.prototype, {
