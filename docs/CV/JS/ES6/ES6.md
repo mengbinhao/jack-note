@@ -6,11 +6,43 @@
 
 ### const、let、块级作用域
 
-- 不允许重复声明
+![](./let.png)
+
+- 不允许重复声明 `let p = 1; let p = 2`
+
 - 不存在变量提升
+
 - 暂时性死区
 
-### 字符串扩展
+  ```javascript
+  console.log(person);  // ReferenceError: person is not defined
+  let person = {
+    name: "Lucy"
+  }
+  
+  console.log(person); // undefined
+  var person = {
+    name: "Lucy"
+  } 
+  ```
+
+- 全局属性
+
+  ```javascript
+  var name = "Lucy";
+  console.log(window.name); // "Lucy"
+  console.log(globalThis.name); // "Lucy"
+  
+  const age = 12;
+  console.log(window.age); // undefined
+  console.log(globalThis.age); // undefined
+  
+  let gender = "female";
+  console.log(window.gender); // undefined
+  console.log(globalThis.gender); // undefined
+  ```
+
+  字符串扩展
 
 	- includes
 	- repeat

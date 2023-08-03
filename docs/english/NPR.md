@@ -1,3 +1,11 @@
+- 2022.8.3
+
+  - waterproof vt/adj
+
+  > They're going to be very sought after by the left and the right
+  > It's not just hot, It's hot-hot, You know, we're no strangers to the heat down here, but this is a whole new thing
+  > We'll just put the ice pn them right then and there
+
 - 2022.7.25
 
   - pat n/v
@@ -2691,7 +2699,7 @@
 - 2020.11.4
 
   - deadline n
-  - regard n/v | regardless adv
+  - regard n/v | regardless adv | disregard vt/n
   - mosque n
   - repel vt
   - dispatch n/vt
@@ -3156,7 +3164,6 @@
   - humble vt/adj
   - impress n/v | impression n | impressive adj
   - nuance n | nuanced
-  - discourse n
   - tale n
   - emperor n
 
@@ -3726,7 +3733,7 @@
   - elementary adj
   - construct vt | constructive adj | construction n
   - outline n/v
-  - course n/vt
+  - course n/vt | discourse n/vi
 
   > we've been through the initial peek, but it's coming down the mountain that is often more dangerous
 
@@ -4798,7 +4805,6 @@
 - 2019.12.27
 
   - erode v
-  - fruition n
   - pivot n/v/adj | pivotal
   - heel n
   - emit vt | emitter n
@@ -5428,7 +5434,6 @@
   - resume n/vt
   - evacuate v | evacuee n | evacuation n
   - dam n
-  - levee n
   - agree v | disagree | agreement n | disagreement
   - achieve v | achievable adj | achievement
 
@@ -5984,7 +5989,7 @@
   - climate n
   - occasion n/vt | occasional adj | occasionally
   - shrug n/v
-  - stretch n/v
+  - stretch n/v | stretcher
   - crucial adj | crucially
   - stake n/v
   - tone n | undertone n
