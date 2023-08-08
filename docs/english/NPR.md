@@ -1,3 +1,7 @@
+- 2022.8.8
+
+  - parcel n/vt
+
 - 2022.8.3
 
   - waterproof vt/adj
@@ -1436,10 +1440,6 @@
 
   - arise v
   - banish vt
-
-- 2021.7.14
-
-  - mortal n/adk | mortally
 
 - 2021.7.13
 
@@ -4006,7 +4006,6 @@
   - bandage n/vt
   - stem n/vt
   - hemorrhage n/vi
-  - prop n/vt
 
   > as the expression goes
   > But the drop in demand - more than twice that amount
@@ -5060,7 +5059,7 @@
 - 2019.12.5
 
   - cafeteria n
-  - mortal n/adj | mortality n
+  - mortal n/adj | mortally | mortality n
   - prolong vt
   - fossil n/adj
   - bulb n
