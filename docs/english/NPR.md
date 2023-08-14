@@ -1,3 +1,7 @@
+- 2022.8.14
+
+  - mercury n
+
 - 2022.8.8
 
   - parcel n/vt
@@ -1865,7 +1869,6 @@
   - realm n
   - glory n/vi
   - theatre n
-  - recede v
   - phrase n/vt
   - pint n
 
@@ -2600,7 +2603,6 @@
 - 2020.11.22
 
   - toy n/vi/adj
-  - dole n
   - acute adj | acutely
   - frequent | frequently | frequency n | infrequent
   - alumnus n
@@ -3727,7 +3729,7 @@
   - squander vt
   - guide n/vt | guideline n | guidance n
   - advertise vt
-  - hesitate v
+  - hesitate v | hesitation
   - restaurant n
   - colossal adj
   - elementary adj
@@ -5387,7 +5389,6 @@
   - slip n/v/adj
   - amid prep | amidst prep
   - melancholy n/adj
-  - alienate vt | alienated adj
   - showdown n
 
   > It must have been a slip of the tongue
@@ -5769,6 +5770,7 @@
   - fantasy n/v
   - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | excellent | awesome | extraordinary adj | brilliant | remarkable | magnificent | dynamite
   - credible adj
+  - recede v
   - precede vt
   - precedent n/adj | unprecedented adj
   - installation n
