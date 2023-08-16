@@ -1,3 +1,13 @@
+- 2022.8.15
+
+  - iconic adj
+  - pleasure | displeasure
+  - whole n/adj | wholly
+
+  > When you go out and do something that pushes the boundaries, you always learn things that you didn't expect to learn
+  > And we will have breakthroughs left and right. It's going to be phenomenal
+  > They'll be going dark this week
+
 - 2022.8.14
 
   - mercury n
@@ -352,7 +362,6 @@
 
   - propagate v
   - concept | conception | misconception
-  - cosmic adj
   - propel vt
   - jelly n/v
   - pitch | intonation | syllable | stress | glide n/v | reduction | contraction | content words | function words
@@ -1909,7 +1918,7 @@
   - axis n
   - rotate v/adj | rotation n | rotational
   - forthcoming adj
-  - compensate v
+  - compensate v | compensation n
   - empire n
   - sideway adj/adv
   - canal n/vt
@@ -4831,7 +4840,6 @@
 
 - 2019.12.25
 
-  - compensation n
   - retrieve v
   - erupt v | eruption n
   - volcano n | volcanic adj
@@ -5864,6 +5872,7 @@
   - craft n/vt | aircraft n | spacecraft n
   - astronomer n | astronomy n | astronomical adj
   - astronaut n
+  - cosmic adj
   - plus n/adj/conj
   - sizable adj
   - ridicule n/vt | ridiculous adj
