@@ -222,25 +222,28 @@ const composeFunc = compose(fn1, fn2, fn3, fn4)
 
 //最后一次说了算
 const _debounce = (fn, timeout = 300) => {
-	let timer
+	let timer, result
 	return function (...args) {
 		timer && clearTimeout(timer)
 		timer = setTimeout(() => {
-			fn.apply(this, args)
+			result = fn.apply(this, args)
 			timer = null
 		}, timeout)
+		return result
 	}
 }
 
 //第一次说了算
 function _throttle(fn, timeout = 300) {
-	let last = 0
+	let last = 0,
+		result
 	return function (...args) {
 		let now = +new Date()
-		if (now - last >= timeout) {
-			fn.apply(this, args)
+		if (now - last > timeout) {
+			result = fn.apply(this, args)
 			last = +new Date()
 		}
+		return result
 	}
 }
 

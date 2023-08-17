@@ -373,7 +373,8 @@
 
 #### Vue 3
 
-- [Vue2 与 Vue3 响应式原理与依赖收集详解]（https://mp.weixin.qq.com/s/guMRG3C1cyyY3_HAQu-MHQ）
+- [https://juejin.cn/post/7250073877725200440](https://juejin.cn/post/7250073877725200440)
+- [Vue2-与 Vue3-响应式原理与依赖收集详解](https://mp.weixin.qq.com/s/guMRG3C1cyyY3_HAQu-MHQ)
 - [一起玩转 Vue 中的 JSX：让你一次性掌握它的特性!](https://mp.weixin.qq.com/s/5lMvGwaiCoh4Em6cWuk_Yg)
 - [Vue2 到 Vue3，重学这 5 个常用的 API](https://mp.weixin.qq.com/s/G-6EsuMVOQDFdiq7GrZsQA)
 - [Vue3.0 通关秘籍](https://juejin.cn/post/7142769223041974286)
