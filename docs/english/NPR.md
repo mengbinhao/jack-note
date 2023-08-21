@@ -1,3 +1,10 @@
+- 2022.8.21
+
+  - connectivity n
+  - drink | drinkable
+  - spotty adj
+  - vigorous adj
+
 - 2022.8.15
 
   - iconic adj
