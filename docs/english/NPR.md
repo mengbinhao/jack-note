@@ -3579,7 +3579,6 @@
   - nightmare n
   - furlough n/vt
   - privacy n
-  - detention n
 
   > We have to leave it there, I'm afraid
 
@@ -4309,7 +4308,7 @@
 - 2020.3.18
 
   - gather n/v | gathering n/adj
-  - bear n/v
+  - bear n/v | bearable | unbearable
   - statistic n/adj | statistical adj
   - inoculate vt
 
@@ -4558,7 +4557,6 @@
 
 - 2020.2.26
 
-  - renovate vt
   - carve v
   - highness n
 

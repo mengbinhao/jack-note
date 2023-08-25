@@ -7,14 +7,13 @@
 - `"mysql foreign key"` 完整匹配
 
 ### Exclude words from search
-- `"mysql foreign key" -nodejs`
+- `mysql foreign key -XXX`
 
 ### 通配符
-- `"mysql connect error *"`
+- `mysql connect error *`
 
 ### 站内搜索
 - `"mysql foreign key" site:stackoverflow.com`
-- `site:.gov covid-19`
 
 ### 文档搜索
 - `filetype:doc 5G`
