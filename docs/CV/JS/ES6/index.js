@@ -247,6 +247,7 @@ function _throttle(fn, timeout = 300) {
 	}
 }
 
+//防抖代替节流
 function _throttle2(fn, timeout = 300) {
 	let timer
 	return function (...args) {

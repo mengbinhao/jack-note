@@ -564,6 +564,7 @@
 
 #### project
 
+- [现代 React 开发必备的 13 个神库，路由、UI 组件库、拖拽、虚拟列表都齐了](https://mp.weixin.qq.com/s/DiSMTLzGnQu4-1tehYsLJw)
 - [react + koa2 打造点餐系统](https://segmentfault.com/a/1190000019441828)
 - [react-cloud-music](https://github.com/sanyuan0704/react-cloud-music)
 - [react-cloud-music-doc](https://sanyuan0704.github.io/react-cloud-music/chapter1/)
