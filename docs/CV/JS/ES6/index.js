@@ -86,7 +86,7 @@ const _new = () => {
 Function.prototype._call = function (context, ...args) {
 	if (typeof this !== 'function') throw TypeError('invalid params')
 	//context = context || window
-	//若不为空，进行包装
+	//若不为空包装一下
 	context = !context ? window : Object(context)
 	args = args ? args : []
 	const key = Symbol()

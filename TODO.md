@@ -102,6 +102,7 @@
 
 ### front
 
+- [三分钟教你 3 种前端埋点方式！](https://mp.weixin.qq.com/s/8xgbwkqnGZdcp8NORXeP9w)
 - [超全面的前端工程化配置指南](https://mp.weixin.qq.com/s/4Nh2RuEuffEt5TbWhW5hVg)
 - [前端主题切换方案详解](https://mp.weixin.qq.com/s/k8EatjqYQ1R6QoZP0UWgbA)
 - [一次搞懂数据大屏适配方案 (vw vh、rem、scale)](https://mp.weixin.qq.com/s/eTfMLFSaQiIBJlTBE3t-ug)

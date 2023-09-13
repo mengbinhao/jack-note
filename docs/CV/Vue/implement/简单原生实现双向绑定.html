@@ -13,10 +13,10 @@
   <button onclick="changeModel()">change</button>
 </body>
 <script>
-  const obj = {}
+  let obj = {}
   let val = 'Jack'
-  const a = document.querySelector('#a')
-  const b = document.querySelector('#b')
+  let a = document.querySelector('#a')
+  let b = document.querySelector('#b')
   Object.defineProperty(obj, 'prop', {
     configurable: true,
     enumerable: true,

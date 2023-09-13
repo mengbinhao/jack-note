@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <h1 data-mark="message">reactive</h1>
+  </div>
+</body>
+<script>
+  const handler = {
+    set(user, prop, val) {
+      console.log(`${val} is being updated`)
+      const query = `[data-mark="${prop}"]`;
+      const elements = document.querySelectorAll(query)
+      for (const el of elements) el.innerText = val
+      return Reflect.set(user, prop, val)
+    },
+  };
+  const proxyObj = new Proxy({ message: 'hello' }, handler)
+  setTimeout(() => {
+    proxyObj.message = 'Jack'
+  }, 2000)
+</script>
+
+</html>
