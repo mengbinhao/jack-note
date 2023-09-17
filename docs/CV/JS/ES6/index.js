@@ -699,7 +699,7 @@ const light = (cb, timeout) => {
 let endCnt = 0
 const start = () => {
 	if (endCnt++ >= 3) {
-		console.log('finish lighting~~')
+		console.log('finish lighting!')
 		return
 	}
 	Promise.resolve()
@@ -718,6 +718,23 @@ const start = () => {
 }
 
 //start()
+
+function delay(cb, time) {
+	return new Promise((resolve) => {
+		setTimeout(() => {
+			resolve(cb())
+		}, time)
+	})
+}
+
+async function light() {
+	await delay(() => console.log('red'), 3000)
+	await delay(() => console.log('green'), 2000)
+	await delay(() => console.log('yellow'), 1000)
+	await light()
+}
+
+light()
 
 //question: a == 1 && a == 2 && a == 3
 //隐式转换会调用 valueOf
@@ -751,6 +768,29 @@ let obj = {
 // for (let c of obj) {
 // 	console.log(c)
 // }
+
+class MyIterator {
+	constructor(params) {
+		this.index = 0
+		this.value = params
+	}
+	[Symbol.iterator]() {
+		return this
+	}
+	next() {
+		return {
+			value: this.value[this.index++],
+			done: this.index > this.value.length ? true : false,
+		}
+	}
+}
+
+let it = new MyIterator(['a', 'b', 'c'])
+console.log(it.next()) // { value: "a", done: false }
+console.log(it.next()) // { value: "b", done: false }
+console.log(it.next()) // { value: "c", done: false }
+console.log(it.next()) // { value: undefined, done: true }
+console.log(it.next()) // { value: undefined, done: true }
 
 function* range(start, end) {
 	for (let i = start; i < end; i++) {
@@ -804,3 +844,10 @@ let sleep = (ms) =>
 // 		console.log(name)
 // 	}
 // })()
+
+let isBrowser =
+	typeof window !== 'undefined' &&
+	{}.toString.call(window) === '[object Window]'
+
+let isNode =
+	typeof global !== 'undefined' && {}.toString.call(global) == '[object global]'

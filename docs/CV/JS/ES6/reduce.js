@@ -63,6 +63,7 @@ let [maleUser, femaleUser] = partition(users, isMale)
 //console.log(maleUser, femaleUser)
 
 //生成树形对象结构
+//递归
 const nest = (items, id = null, link = 'parent_id') =>
 	items
 		.filter((item) => item[link] === id)
@@ -77,3 +78,61 @@ const comments = [
 ]
 
 console.log(nest(comments))
+
+//flat object to tree object
+//迭代
+const flat = [
+	{ id: 1, name: '部门1', pid: 0 },
+	{ id: 2, name: '部门2', pid: 1 },
+	{ id: 3, name: '部门3', pid: 1 },
+	{ id: 4, name: '部门4', pid: 3 },
+	{ id: 5, name: '部门5', pid: 4 },
+]
+
+const flatToTree = (list) => {
+	const result = []
+	const itemMap = {}
+	list.forEach((item) => {
+		const { id, pid } = item
+		itemMap[id] = { ...item, children: [] }
+		// if (!itemMap[id]?.children) {
+		// 	itemMap[id] = {
+		// 		children: [],
+		// 	}
+		// }
+		// // 从 `Map` 中查找相同的 `pid` 项目，放在同一层 `children` 中
+		// itemMap[id] = {
+		// 	...item,
+		// 	children: itemMap[id]['children'],
+		// }
+		const treeItem = itemMap[id]
+		if (pid === 0) {
+			result.push(treeItem)
+		} else {
+			// if (!itemMap[pid]?.children) {
+			// 	itemMap[pid] = {
+			// 		children: [],
+			// 	}
+			// }
+			itemMap[pid]['children'].push(treeItem)
+		}
+	})
+	return result
+}
+//console.log(flatToTree(flat))
+
+const treeToFlat = (data) => {
+	const result = []
+	const queue = [...data]
+	while (queue.length) {
+		const node = queue.shift()
+		const children = node.children
+		//push空数组不起作用
+		if (children) queue.push(...children)
+		delete node.children
+		result.push(node)
+	}
+	return result
+}
+
+console.log(treeToFlat(tree))

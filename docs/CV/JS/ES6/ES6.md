@@ -15,39 +15,39 @@
 - 暂时性死区
 
   ```javascript
-  console.log(person);  // ReferenceError: person is not defined
+  console.log(person) // ReferenceError: person is not defined
   let person = {
-    name: "Lucy"
+  	name: 'Lucy',
   }
-  
-  console.log(person); // undefined
+
+  console.log(person) // undefined
   var person = {
-    name: "Lucy"
-  } 
+  	name: 'Lucy',
+  }
   ```
 
 - 全局属性
 
   ```javascript
-  var name = "Lucy";
-  console.log(window.name); // "Lucy"
-  console.log(globalThis.name); // "Lucy"
-  
-  const age = 12;
-  console.log(window.age); // undefined
-  console.log(globalThis.age); // undefined
-  
-  let gender = "female";
-  console.log(window.gender); // undefined
-  console.log(globalThis.gender); // undefined
+  var name = 'Lucy'
+  console.log(window.name) // "Lucy"
+  console.log(globalThis.name) // "Lucy"
+
+  const age = 12
+  console.log(window.age) // undefined
+  console.log(globalThis.age) // undefined
+
+  let gender = 'female'
+  console.log(window.gender) // undefined
+  console.log(globalThis.gender) // undefined
   ```
 
   字符串扩展
 
-	- includes
-	- repeat
-	- startWith
-	- endWith
+  - includes
+  - repeat
+  - startWith
+  - endWith
 
 ### 模板字符串
 
@@ -64,11 +64,12 @@
 - 布尔解构：`const { toString: b } = true`
 
 - 对象解构
+
   - 形式：`const { x, y } = { x: 1, y: 2 }`
   - 默认：`const { x, y = 2 } = { x: 1 }`
   - 重命名：`const { x, y: z } = { x: 1, y: 2 }`
   - `;({ name: user.name, email: user.email, ...userDetails } = obj)`
-  
+
 - 数组解构
 
   ```javascript
@@ -94,7 +95,7 @@
   - 遍历 Map 结构：`for (let [k, v] of Map) {}`
   - 输入模块指定属性和方法：`const { readFile, writeFile } = require("fs")`
 
-#### for of 可迭代对象原理基于对象的Symbol.iterator属性
+#### for of 可迭代对象原理基于对象的 Symbol.iterator 属性
 
 ```javascript
 let obj = {
@@ -112,6 +113,29 @@ let obj = {
 		}
 	},
 }
+
+class MyIterator {
+	constructor(params) {
+		this.index = 0
+		this.value = params
+	}
+	[Symbol.iterator]() {
+		return this
+	}
+	next() {
+		return {
+			value: this.value[this.index++],
+			done: this.index > this.value.length ? true : false,
+		}
+	}
+}
+
+let it = new MyIterator(['a', 'b', 'c'])
+console.log(it.next()) // { value: "a", done: false }
+console.log(it.next()) // { value: "b", done: false }
+console.log(it.next()) // { value: "c", done: false }
+console.log(it.next()) // { value: undefined, done: true }
+console.log(it.next()) // { value: undefined, done: true }
 ```
 
 #### Iterator
@@ -159,14 +183,14 @@ it.next() // { value: undefined, done: true }
   - Object.fromEntries()
 - **属性遍历**
   - for-in
-  - Object.keys()、Object.values()、Object.entries() 
+  - Object.keys()、Object.values()、Object.entries()
   - Object.getOwnPropertyNames()
   - Object.getOwnPropertySymbols()
   - Reflect.ownKeys()
     - 规则
       - 首先遍历所有数值键，按照数值升序排列
       - 其次遍历所有字符串键，按照加入时间升序排列
-      - 最后遍历所有Symbol键，按照加入时间升序排列
+      - 最后遍历所有 Symbol 键，按照加入时间升序排列
 - 链判断操作符(?.)：是否存在对象属性(不存在返回`undefined`且不再往下执行)
   - 对象属性：obj?.prop、obj?.[expr]
   - 函数调用：func?.(...args)
@@ -186,7 +210,7 @@ it.next() // { value: undefined, done: true }
 - 转换类数组为数组：`[...Arguments, ...NodeList]`
 - 转换可遍历对象为数组：`[...String, ...Set, ...Map, ...Generator]`
 - 与数组解构赋值结合：`const [x, ...rest] = [1, 2, 3]`
-- 对象克隆(基本同Object.assign):`const objCopy = { ...obj, ...objOthers }`
+- 对象克隆(基本同 Object.assign):`const objCopy = { ...obj, ...objOthers }`
 - 与对象解构赋值结合：`const { x, ...rest } = { x: 1, y: 2, z: 3 }`
 - 修改现有对象部分属性：`const obj = { x: 1, ...{ x: 2 } }`
 
@@ -206,13 +230,11 @@ it.next() // { value: undefined, done: true }
   		return null
   	},
   })
-  
+
   console.log(Array.isArray(proxy))
   console.log(proxy instanceof Array)
   console.log(proxy.constructor === Array)
   ```
-
-  
 
 - Array.of()
 
@@ -247,10 +269,10 @@ const sortNumbers = (...numbers) => numbers.sort()
 #### 箭头函数
 
 1. 没有 this,函数体里面的 this 是箭头函数**定义**时所处的对象,不是运行时(this 看上一级，若上级还是箭头函数继续往上找), 作用域是栈内存不是堆内存
-2. 不能改变this绑定,即使通过call、apply、bind
+2. 不能改变 this 绑定,即使通过 call、apply、bind
 3. 不能用作构造函数
 4. 没有原型对象
-5. 没有 super 和 new.target 
+5. 没有 super 和 new.target
 6. 没有 arguments,但有...
 7. 形参名称不能重复
 8. **返回对象时必须在对象外面加上括号**
@@ -305,37 +327,51 @@ const sortNumbers = (...numbers) => numbers.sort()
   		return this._name
   	},
   }
-  
+
   handler = {
-    //读取未知属性报错、读取数组负数索引的值、封装链式操作、生成DOM嵌套节点
+  	//读取未知属性报错、读取数组负数索引的值、封装链式操作、生成DOM嵌套节点
   	get(target, key, receiver) {
   		//return target[key]
-      //receiver指向proxy或继承于它的对象
+  		//receiver指向proxy或继承于它的对象
   		return Reflect.get(target, key, receiver)
   	},
-    //数据绑定(Vue数据绑定实现原理)、确保属性值设置符合要求、防止内部属性被外部读写
+  	//数据绑定(Vue数据绑定实现原理)、确保属性值设置符合要求、防止内部属性被外部读写
   	set(target, key, val, receiver) {
   		return Reflect.set(target, key, val, receiver)
   	},
   	//k in obj 隐藏内部属性不被发现、排除不符合属性条件的对象
   	has() {},
-    //保护内部属性不被删除
-    deleteProperty() {},
+  	//保护内部属性不被删除
+  	deleteProperty() {},
   	//for in  保护内部属性不被遍历
   	ownKeys() {},
   	construct() {},
-    //拦截函数
+  	//拦截函数
   	apply() {},
   }
-  
+
   const userProxy = new Proxy(user, handler)
-  
+
   let admin = {
   	__proto__: userProxy,
   	_name: 'Admin',
   }
-  
+
   console.log(admin.name)
+  ```
+
+  ```javascript
+  let target = {
+  	m() {
+  		//如果想要获取目标对象的 this，使用 Reflect
+  		console.log(this === proxyObj)
+  	},
+  }
+  let handler = {}
+  let proxyObj = new Proxy(target, handler)
+
+  proxyObj.m() // true
+  target.m() //false
   ```
 
 ### ==Class==
@@ -371,12 +407,14 @@ const sortNumbers = (...numbers) => numbers.sort()
 ### ==Module==
 
 - export
+
   - 默认导出：`export default Person`(导入时可指定模块任意名称,无需知晓内部真实名称,只能使用一次)
   - 单独导出：`export const name = "Jack"`
   - 按需导出：`export { age, name, sex }`(推荐)
   - 改名导出：`export { name as newName }`
 
 - import
+
   - 默认导入：`import anyName from "module1"`
   - 整体导入：`import * as Person from "module1"`
   - 按需导入：`import { age, name, sex } from "module1"`
@@ -399,14 +437,14 @@ const sortNumbers = (...numbers) => numbers.sort()
       // Named export/import
       export { sum }
       import { sum } from 'sum'
-      
+
       // Default export/import
       export default sum
       import sum from 'sum'
-      
+
       //CommonJS中，导入导出的只有一种
       module.exports = sum
-      
+
       //exports仅仅是module.exports的引用而已
       //exports = module.exports
       // 以下等价
@@ -416,12 +454,12 @@ const sortNumbers = (...numbers) => numbers.sort()
 
   - **动态依赖与静态依赖（export/import 提升，必须定义在顶层）**：前者建立模块依赖关系是在运行时,后者是在编译时
 
-    - require的模块路径可以动态指定，支持传入一个表达式，甚至可以通过if语句判断是否加载某个模块
+    - require 的模块路径可以动态指定，支持传入一个表达式，甚至可以通过 if 语句判断是否加载某个模块
 
       ```javascript
       // calculator.js
       module.exports = {
-          name: 'calculator'
+      	name: 'calculator',
       }
       // index.js
       const name = require('./calculator.js').name
@@ -496,18 +534,18 @@ const sortNumbers = (...numbers) => numbers.sort()
     // a.mjs
     export let count = 1
     export function add() {
-      count++
+    	count++
     }
     export function get() {
-      return count
+    	return count
     }
 
     // main.mjs
     import { count, add, get } from './a.mjs'
-    console.log(count)  // 1
+    console.log(count) // 1
     add()
-    console.log(count)  // 2
-    console.log(get())  // 2
+    console.log(count) // 2
+    console.log(get()) // 2
     ```
 
     ```javascript
@@ -515,48 +553,49 @@ const sortNumbers = (...numbers) => numbers.sort()
     // a.js
     let count = 1
     module.exports = {
-      count,
-      add() {
-        count++
-      },
-      get() {
-        return count
-      },
+    	count,
+    	add() {
+    		count++
+    	},
+    	get() {
+    		return count
+    	},
     }
 
     // main.js
     const { count, add, get } = require('./a')
-    console.log(count)  // 1
+    console.log(count) // 1
     add()
-    console.log(count)  // 1
-    console.log(get())  // 2
+    console.log(count) // 1
+    console.log(get()) // 2
     ```
 
   - 都可解决**循环依赖**
 
-    - CommonJS使用的是**模块缓存**
+    - CommonJS 使用的是**模块缓存**
+
       - 对应值得拷贝 -> 开辟新的内存
 
-    - ESM使用的**模块记录**
+    - ESM 使用的**模块记录**
 
       ```javascript
       // CommonJS
       // main.js
       var a = require('./a')
-      console.log('入口模块引用a模块：',a)
-      
+      console.log('入口模块引用a模块：', a)
+
       // a.js
       exports.a = '原始值-a模块内变量'
       var b = require('./b')
-      console.log('a模块引用b模块：',b)
+      console.log('a模块引用b模块：', b)
       exports.a = '修改值-a模块内变量'
-      
+
       // b.js
-      exports.b ='原始值-b模块内变量'
+      exports.b = '原始值-b模块内变量'
       var a = require('./a')
-      console.log('b模块引用a模块',a)
+      console.log('b模块引用a模块', a)
       exports.b = '修改值-b模块内变量'
-      
+
       // 执行node ./main.js输出
       //b模块引用a模块： {a: '原始值-a模块内变量'}
       //a模块引用b模块：  {b: '修改值-b模块内变量'}
@@ -567,40 +606,39 @@ const sortNumbers = (...numbers) => numbers.sort()
       // ESM
       // main.js
       import * as a from './a.mjs'
-      console.log('入口模块引用a模块：',a)
-      
+      console.log('入口模块引用a模块：', a)
+
       // a.js
       import * as b from './b.mjs'
       let a = '原始值-a模块内变量'
       export { a }
       console.log('a模块引用b模块：', b)
       a = '修改值-a模块内变量'
-      
-      
+
       // b.js
       import * as a from './a.mjs'
       let b = '原始值-b模块内变量'
       export { b }
       console.log('b模块引用a模块：', a)
       b = '修改值-b模块内变量'
-      
-      
+
       // 执行 node ./main.js输出
       //b模块引用a模块： [Module: null prototype] { a: <uninitialized> }
       //a模块引用b模块： [Module: null prototype] { b: '修改值-b模块内变量' }
       //入口模块引用a模块： [Module: null prototype] { a: '修改值-a模块内变量' }
       ```
 
-  - CommonJS的export和module.export指向同一块内存，但由于最后导出的是module.export，所以不能直接给export赋值，会导致指向丢失
+  - CommonJS 的 export 和 module.export 指向同一块内存，但由于最后导出的是 module.export，所以不能直接给 export 赋值，会导致指向丢失
 
-  - CommonJS查找模块时，核心模块和文件模块的查找都比较简单，对于react/vue这种第三方模块，会从当前目录下的node_module文件下开始，递归往上查找，找到该包后，根据package.json的main字段找到入口文件
+  - CommonJS 查找模块时，核心模块和文件模块的查找都比较简单，对于 react/vue 这种第三方模块，会从当前目录下的 node_module 文件下开始，递归往上查找，找到该包后，根据 package.json 的 main 字段找到入口文件
 
 - 加载实现
+
   - 传统加载
     - 同步加载：`<script src=""></script>`
     - defer 异步加载：`<script src="" defer></script>`(顺序加载,渲染完再执行)
     - async 异步加载：`<script src="" async></script>`(乱序加载,下载完就执行)
-  - 模块加载：`<script type="module" src=""></script>`(默认是defer加载)
+  - 模块加载：`<script type="module" src=""></script>`(默认是 defer 加载)
 
 - import()：动态导入
   - require()同步加载，import()异步加载
