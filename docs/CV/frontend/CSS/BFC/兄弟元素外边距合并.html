@@ -14,10 +14,11 @@
     padding: 0;
   }
 
-  .container {
+  .wrapper {
     width: 600px;
     height: 600px;
     background: yellow;
+
   }
 
   .box1 {
@@ -33,12 +34,18 @@
     background: blue;
     margin-top: 100px;
   }
+
+  .wrapper2 {
+    overflow: hidden;
+  }
 </style>
 
 <body>
-  <div class="container">
+  <div class="wrapper">
     <div class="box1"></div>
-    <div class="box2"></div>
+    <div class="wrapper2">
+      <div class="box2"></div>
+    </div>
   </div>
 </body>
 

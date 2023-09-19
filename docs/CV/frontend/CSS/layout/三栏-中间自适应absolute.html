@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三栏-三栏-中间自适应absolute</title>
+  <style>
+    .wrapper {
+      margin: 20px auto;
+      padding: 20px;
+      min-width: 600px;
+      min-height: 400px;
+      background: #ccc;
+      position: relative;
+    }
+
+    .left {
+      width: 200px;
+      height: 300px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: #abc212;
+    }
+
+    .right {
+      width: 160px;
+      height: 200px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: #212bbc;
+    }
+
+    .middle {
+      margin: 0 180px 0 220px;
+      background: #b2bcbb;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="middle">mid</div>
+    <div class="left">left</div>
+    <div class="right">right</div>
+  </div>
+</body>
+
+</html>

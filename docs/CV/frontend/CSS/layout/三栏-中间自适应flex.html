@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三栏-中间自适应flex</title>
+  <style>
+    .wrapper {
+      display: flex;
+    }
+
+    .middle {
+      height: 200px;
+      background-color: red;
+      flex-grow: 1;
+    }
+
+    .left {
+      height: 200px;
+      order: -1;
+      margin-right: 20px;
+      background-color: yellow;
+      flex: 0 1 200px;
+    }
+
+    .right {
+      height: 200px;
+      margin-left: 20px;
+      background-color: green;
+      flex: 0 1 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- main要首先加载就必须写在第一位，但因为left需要显示在最左侧，所以需要设置left的order为-1
+      flex属性的完整写法是：flex: flex-grow flex-shrink flex-basis 。这也是flex实现三栏布局的核心，
+      main设置flex-grow为1，说明多余空间全部给main，而空间不够时，仅缩小left right部分，
+      同时因为指定了left right部分的flex-basis，所以指定了两者的宽度，保证其显示效果 -->
+  <div class="wrapper">
+    <div class="middle">
+      center
+    </div>
+    <div class="left">
+      left
+    </div>
+    <div class="right">
+      right
+    </div>
+  </div>
+</body>
+
+</html>

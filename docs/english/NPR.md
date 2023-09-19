@@ -1,9 +1,16 @@
+- 2022.9.18
+
+  - orphan adj/n/vt
+  - wisdom n
+
+  > We saw more than half a year's worth of rain in just one day
+  > The penalties are so minimal they don't seem to be a deterrent
+
 - 2022.8.21
 
   - connectivity n
   - drink | drinkable
   - spotty adj
-  - vigorous adj
 
 - 2022.8.15
 
@@ -650,7 +657,7 @@
 
 - 2022.5.6
 
-  - union n | unionize
+  - union n
   - crust n/v
   - patent vt/adj/n
   - courtyard n
@@ -970,7 +977,7 @@
 
 - 2021.12.9
 
-  - develop v | development n
+  - develop v | development n | undeveloped
   - ship n/v | shipment n
   - honey n/v/adj
   - bee n
@@ -2060,8 +2067,6 @@
 - 2021.3.11
 
   - opportunity n
-  - deteriorate vi
-  - deterrent n/adj | deterrence n
   - determine v | determination n | indeterminate adj
   - terminate v
   - asset n
@@ -3308,7 +3313,7 @@
   - challenge n/vt | unchallenged
   - disclosure n | nondisclosure adj | closure n/vt
   - autonomy n
-  - pilot n | autopilot
+  - pilot n/v | autopilot
   - silence n /v | silent adj/n
   - spectrum n
   - humiliate vt |humiliation
@@ -3513,7 +3518,7 @@
 
 - 2020.6.19
 
-  - globe n/vtcrawl
+  - globe n/vt
   - reticent adj
   - tip n/v
 

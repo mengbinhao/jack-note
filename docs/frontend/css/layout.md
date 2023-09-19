@@ -452,8 +452,8 @@
 #### 两列定宽+一列自适应
 （1）原理、用法
 
-- 原理：这种情况与两列定宽查不多。
-- 用法：先将左、中框设置为float:left、width、margin-right，再设置右框overflow:hidden。
+- 原理：这种情况与两列定宽查不多
+- 用法：先将左、中框设置为float:left、width、margin-right，再设置右框overflow:hidden
 （2）代码实例
 ```html
 <div class="parent">
@@ -484,8 +484,8 @@
 1. 使用float+overflow
 （1）原理、用法
 
-- 原理：这种情况与两列定宽查不多。
-- 用法：先将左框设置为float:left、margin-right，再设置右框overflow: hidden，最后设置左框中的内容width。
+- 原理：这种情况与两列定宽查不多
+- 用法：先将左框设置为float:left、margin-right，再设置右框overflow: hidden，最后设置左框中的内容width
 （2）代码实例
 ```html
 <div class="parent">
@@ -518,8 +518,8 @@
 2. 使用table
 （1）原理、用法
 
-- 原理：通过将父框改变为表格，将左右框转换为类似于同一行的td以达到多列布局，设置父框宽度100%，给左框子元素一个固定宽度从而达到自适应。
-- 用法：先将父框设置为display: table、width: 100%，再设置左、右框display: table-cell，最后设置左框width: 0.1%、padding-right以及左框中的内容width。
+- 原理：通过将父框改变为表格，将左右框转换为类似于同一行的td以达到多列布局，设置父框宽度100%，给左框子元素一个固定宽度从而达到自适应
+- 用法：先将父框设置为display: table、width: 100%，再设置左、右框display: table-cell，最后设置左框width: 0.1%、padding-right以及左框中的内容width
 （2）代码实例
 ```html
 <div class="parent">
@@ -554,8 +554,8 @@
 3. 使用flex
 （1）原理、用法
 
-- 原理：通过设置CSS3布局利器flex中的flex属性以达到多列布局，加上给左框中的内容定宽、给右框设置flex达到不定款+自适应。
-- 用法：先将父框设置为display:flex，再设置右框flex:1，最后设置左框margin-right:20px、左框中的内容width。
+- 原理：通过设置CSS3布局利器flex中的flex属性以达到多列布局，加上给左框中的内容定宽、给右框设置flex达到不定款+自适应
+- 用法：先将父框设置为display:flex，再设置右框flex:1，最后设置左框margin-right:20px、左框中的内容width
 （2）代码实例
 ```html
 <div class="parent">
@@ -590,8 +590,8 @@
 #### 两列不定宽+一列自适应
 （1）原理、用法
 
-- 原理：这个情况与一列不定宽+一列自适应查不多。
-- 用法：先将左、中框设置为float:left、margin-right，再设置右框overflow:hidden，最后给左中框中的内容设置width。
+- 原理：这个情况与一列不定宽+一列自适应查不多
+- 用法：先将左、中框设置为float:left、margin-right，再设置右框overflow:hidden，最后给左中框中的内容设置width
 （2）代码实例
 ```html
 <div class="parent">
@@ -636,8 +636,8 @@ l = w * n + g * (n-1) -> l = w * n + g * n - g -> l + g = （w + g） * n`
 1. 使用float
 （1）原理、用法
 
-- 原理：增大父框的实际宽度后，使用CSS3属性box-sizing进行布局的辅助。
-- 用法：先将父框设置为margin-left: -*px，再设置子框float: left、width: 25%、padding-left、box-sizing: border-box。
+- 原理：增大父框的实际宽度后，使用CSS3属性box-sizing进行布局的辅助
+- 用法：先将父框设置为margin-left: -*px，再设置子框float: left、width: 25%、padding-left、box-sizing: border-box
 （2）代码实例
 ```html
 <div class="parent">
@@ -667,8 +667,8 @@ l = w * n + g * (n-1) -> l = w * n + g * n - g -> l + g = （w + g） * n`
 2. 使用table
 （1）原理、用法
 
-- 原理：通过增加一个父框的修正框，增大其宽度，并将父框转换为table，将子框转换为table-cell进行布局。
-- 用法：先将父框的修正框设置为margin-left: -*px，再设置父框display: table、width:100%、table-layout: fixed，设置子框display: table-cell、padding-left。
+- 原理：通过增加一个父框的修正框，增大其宽度，并将父框转换为table，将子框转换为table-cell进行布局
+- 用法：先将父框的修正框设置为margin-left: -*px，再设置父框display: table、width:100%、table-layout: fixed，设置子框display: table-cell、padding-left
 （2）代码实例
 ```html
 <div class="parent-fix">
@@ -703,8 +703,8 @@ l = w * n + g * (n-1) -> l = w * n + g * n - g -> l + g = （w + g） * n`
 3. 使用flex
 （1）原理、用法
 
-- 原理：通过设置CSS3布局利器flex中的flex属性以达到等分布局。
-- 用法：将父框设置为display: flex，再设置子框flex: 1，最后设置子框与子框的间距margin-left。
+- 原理：通过设置CSS3布局利器flex中的flex属性以达到等分布局
+- 用法：将父框设置为display: flex，再设置子框flex: 1，最后设置子框与子框的间距margin-left
 （2）代码实例
 ```html
 <div class="parent">
@@ -736,8 +736,8 @@ l = w * n + g * (n-1) -> l = w * n + g * n - g -> l + g = （w + g） * n`
 1. 使用float
 （1）原理、用法
 
-- 原理：通过过分加大左右子框的高度，辅助超出隐藏，以达到视觉上的等高。
-- 用法：将父框设置overflow: hidden，再设置左右子框padding-bottom: 9999px、margin-bottom: -9999px，最后设置左框float: left、width、margin-right，右框overflow: hidden。
+- 原理：通过过分加大左右子框的高度，辅助超出隐藏，以达到视觉上的等高
+- 用法：将父框设置overflow: hidden，再设置左右子框padding-bottom: 9999px、margin-bottom: -9999px，最后设置左框float: left、width、margin-right，右框overflow: hidden
 （2）代码实例
 ```html
 <div class="parent">
@@ -782,9 +782,10 @@ p{
 2. 使用table
 （1）原理、用法
 
-原理：将父框转化为table，将子框转化为table-cell布局，以达到定宽+自适应+两块高度一样高。
-用法：先将父框设置为display:table、width:100%、table-layout:fixed，再设置左右框为display:table-cell，最后设置左框width、padding-right。
+原理：将父框转化为table，将子框转化为table-cell布局，以达到定宽+自适应+两块高度一样高
+用法：先将父框设置为display:table、width:100%、table-layout:fixed，再设置左右框为display:table-cell，最后设置左框width、padding-right
 （2）代码实例
+
 ```html
 <div class="parent">
     <div class="left">
@@ -815,8 +816,8 @@ p{
 3. 使用flex
 （1）原理、用法
 
-- 原理：通过设置CSS3布局利器flex中的flex属性以达到定宽+自适应+两块高度一样高。
-- 用法：将父框设置为display: flex，再设置左框width、margin-right，最后设置右框flex:1。
+- 原理：通过设置CSS3布局利器flex中的flex属性以达到定宽+自适应+两块高度一样高
+- 用法：将父框设置为display: flex，再设置左框width、margin-right，最后设置右框flex:1
 （2）代码实例
 ```html
 <div class="parent">
@@ -850,8 +851,8 @@ p{
 4. 使用display
 （1）原理、用法
 
-- 原理：通过设置display中的CSS3的-webkit-box属性以达到定宽+自适应+两块高度一样高。
-- 用法：将父框设置为display: -webkit-box、width: 100%，再设置左框width、margin-right，最后设置右框-webkit-box-flex: 1。
+- 原理：通过设置display中的CSS3的-webkit-box属性以达到定宽+自适应+两块高度一样高
+- 用法：将父框设置为display: -webkit-box、width: 100%，再设置左框width、margin-right，最后设置右框-webkit-box-flex: 1
 （2）代码实例
 ```html
 <div class="parent">

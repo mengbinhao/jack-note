@@ -1,28 +1,29 @@
 ### 单行文本水平&垂直居中
 ```css
 div {
-line-height：200;
-height：200;
-text-align:center;
+  line-height：200;
+  height：200;
+  text-align:center;
 }
 ```
 
 
 ### 仅居中元素定宽高适用
 
-    - absolute + 负margin
-    - absolute + margin auto
-    - absolute + calc
+```css
+absolute + 负margin
+absolute + margin auto
+absolute + calc
+```
 
 ### 居中元素不定宽高
 
-    - absolute + transform
-    - line-height
-    - writing-mode
-    - table
-    - css-table
-    - flex
-    - grid
+```css
+absolute + transform
+line-height
+flex
+grid
+```
 
 ```html
 <div class="wp">
@@ -47,7 +48,7 @@ text-align:center;
     height: 100px;
 }
 ```
-#### absolute + 负margin
+#### absolute + 负margin(已知子元素宽高)
 
 ```css
 .wp {
@@ -63,7 +64,7 @@ text-align:center;
 ```
 
 
-#### absolute + margin auto
+#### absolute + margin auto(已知子元素宽高)
 
 ```html
 <div class="wp">
@@ -144,90 +145,6 @@ text-align:center;
     vertical-align: middle;
     line-height: initial;
     text-align: left; /* 修正文字 */
-}
-```
-
-#### writing-mode
-
-```html
-<div class="div1">水平方向</div>
-<div class="div2">垂直方向</div>
-```
-
-```css
-.div2 {
-    writing-mode: vertical-lr;
-}
-```
-
-![](../images/middle-1.png)
-
-```html
-<div class="wp">
-    <div class="wp-inner">
-        <div class="box">123123</div>
-    </div>
-</div>
-```
-
-```css
-.wp {
-    writing-mode: vertical-lr;
-    text-align: center;
-}
-.wp-inner {
-    writing-mode: horizontal-tb;
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-.box {
-    display: inline-block;
-    margin: auto;
-    text-align: left;
-}
-```
-
-
-#### table
-
-```html
-<table>
-    <tbody>
-        <tr>
-            <td class="wp">
-                <div class="box">123123</div>
-            </td>
-        </tr>
-    </tbody>
-</table>
-```
-
-```css
-.wp {
-    text-align: center;
-}
-.box {
-    display: inline-block;
-}
-```
-
-#### css-table
-
-```html
-<div class="wp">
-    <div class="box">123123</div>
-</div>
-```
-
-```css
-.wp {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-.box {
-    display: inline-block;
 }
 ```
 

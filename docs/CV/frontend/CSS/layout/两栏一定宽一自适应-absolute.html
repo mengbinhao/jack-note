@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>两栏一定宽一自适应-absolute</title>
+  <style>
+    .wrapper {
+      height: 200px;
+      width: 100%;
+      background: blanchedalmond;
+      position: relative;
+    }
+
+    .left {
+      position: absolute;
+      width: 200px;
+      height: 100%;
+      background: palevioletred;
+    }
+
+    .right {
+      height: 100%;
+      position: absolute;
+      left: 200px;
+      right: 0;
+      background: navy;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="left">left</div>
+    <div class="right">right</div>
+  </div>
+  其他
+</body>
+
+</html>

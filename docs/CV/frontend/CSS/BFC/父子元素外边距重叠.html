@@ -14,15 +14,23 @@
     padding: 0;
   }
 
-  .container {
+  .parent {
     width: 600px;
     height: 600px;
     background: yellow;
     margin-top: 100px;
-    /* overflow: auto; */
+    /* float: left; float不为none*/
+    /* overflow: hidden; overflow不为visible*/
+    /* position: absolute; position为absolute或fixed*/
+    /* position: fixed; */
+    /* display: inline-block; display为inline-block，table-cell，table-caption，flex，inline-flex */
+
+    /* 以下两句改变了html结构，将father的上外边距和child的上外边距隔断 */
+    /* border-top: 1px solid red;
+    padding-top: 1px; */
   }
 
-  .content {
+  .child {
     width: 200px;
     height: 200px;
     background: green;
@@ -31,8 +39,8 @@
 </style>
 
 <body>
-  <div class="container">
-    <div class="content"></div>
+  <div class="parent">
+    <div class="child"></div>
   </div>
 </body>
 

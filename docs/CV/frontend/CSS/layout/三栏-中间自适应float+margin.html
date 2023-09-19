@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三栏-中间自适应float+margin</title>
+  <style>
+    body,
+    html {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .left {
+      float: left;
+      width: 100px;
+      height: 200px;
+      background-color: red;
+    }
+
+    .right {
+      float: right;
+      width: 100px;
+      height: 200px;
+      background-color: yellow;
+    }
+
+    .middle {
+      background-color: green;
+      height: 200px;
+      margin-left: 120px;
+      margin-right: 120px;
+    }
+
+    /*  BFC自适应
+    .wrapper {
+      background-color: green;
+      height: 200px;
+      overflow: hidden;
+    }
+   */
+
+    .wrapper {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="left">
+      left
+    </div>
+    <div class="right">
+      right
+    </div>
+    <div class="middle">
+      center
+    </div>
+  </div>
+</body>
+
+</html>

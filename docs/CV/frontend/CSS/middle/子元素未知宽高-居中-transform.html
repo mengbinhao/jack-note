@@ -5,26 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>父子浮动包含</title>
+  <title>子元素未知宽高-居中-transform</title>
 </head>
 <style>
   .parent {
-    border: 10px solid red;
-    min-height: 10px;
-    /* overflow: hidden; */
+    position: relative;
+    height: 100vh;
   }
 
   .child {
-    background: green;
-    float: left;
-    width: 300px;
-    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>
 
 <body>
   <div class="parent">
-    <div class="child">DEMO</div>
+    <div class="child">子元素未知宽高-居中-transform</div>
   </div>
 </body>
 
