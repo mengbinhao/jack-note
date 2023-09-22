@@ -6,6 +6,10 @@
   - ratio n
   - aerospace n
 
+  > Let's cut to the chase
+  > fading immunity
+  > to the extent
+
 - 2022.9.18
 
   - orphan adj/n/vt
