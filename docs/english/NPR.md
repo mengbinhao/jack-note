@@ -1,3 +1,11 @@
+- 2022.9.22
+
+  - hub n
+  - workflow n
+  - immersive adj
+  - ratio n
+  - aerospace n
+
 - 2022.9.18
 
   - orphan adj/n/vt
@@ -2097,7 +2105,6 @@
 - 2021.3.4
 
   - equilibrium n
-  - bubble n/v
   - needle n/v
 
   > I'm going to ask you to take a step back xxx
@@ -3300,6 +3307,7 @@
   - opinion n
   - inquire n
   - dynamic n/adj
+  - limb n/vt
   - climb n/v
 
 - 2020.7.22
@@ -3696,7 +3704,6 @@
   - rash n/adj
   - endure v
   - poll n/v | ballot n/v | pollster n
-  - focal adj
   - therapy n
 
   > I deem it essential to be with you
@@ -4261,7 +4268,7 @@
   - stress n/vt
   - distress n/vt | distressed adj
   - folk n
-  - adjust v | adjustment n
+  - adjust v | adjustment n | adjustable
   - peculiar adj
 
   > He's been widely criticized for an initial slow and muddled response to the outbreak
@@ -4669,7 +4676,7 @@
 
 - 2020.2.4
 
-  - formula n
+  - formula n | formulate vt
   - scramble n/v | scrambling
   - sectarian adj
   - definite adj | definitive adj | definitely | indefinitely adv
@@ -4918,7 +4925,7 @@
   - bias n/vt/adj/adv | biased adj
   - worthwhile adj
   - exclamation n
-  - gross n/vt/adj | grossly adv
+  - gross n/vt/adj | grossly adv | grossness
 
   > can't help but do sth
   > the language we use affects how we think and who we are
@@ -5265,7 +5272,6 @@
 
   - tender n/v/adj
   - penalize vt
-  - eerie adj
   - vacuum n/vt/adj
   - certain | uncertain | uncertainly | uncertainty
 
