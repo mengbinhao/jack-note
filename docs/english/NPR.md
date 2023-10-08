@@ -1,3 +1,12 @@
+- 2022.10.8
+
+  - temple n
+  - modern adj
+
+  > to get to the bottom of this matter
+  > let me just clarify one thing
+  > One inmate who ended up at xxx that we ended up focusing on
+
 - 2022.9.22
 
   - hub n
@@ -4591,6 +4600,7 @@
   - groundwork n
   - groundless adj
   - workaround n
+  - lump n
   - slump n/vi
   - numerous adj
   - steep n/v/adj
@@ -4763,7 +4773,6 @@
   - continent n/adj | continental adj | intercontinental adj
   - favor n/vt | favorable adj | unfavorable
   - favorite adj/n
-  - lump n
   - peninsula n
   - standstill n
 
@@ -4937,7 +4946,7 @@
 - 2019.12.18
 
   - stuff n/v | stuffing n
-  - imprison vt
+  - prison n/vt | imprison vt
   - Eurasian adj
   - doctoral adj
   - dissertation n
@@ -4970,7 +4979,6 @@
 
   - riddle n/v | riddled adj
   - inspire vt
-  - awe n/vt
   - clunky adj
   - pitiful adj
   - obliterate vt

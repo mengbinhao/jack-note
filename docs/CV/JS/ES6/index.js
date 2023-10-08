@@ -851,3 +851,60 @@ let isBrowser =
 
 let isNode =
 	typeof global !== 'undefined' && {}.toString.call(global) == '[object global]'
+
+//AOP
+Function.prototype.before = function (fun) {
+	var self = this
+	return function () {
+		fun.apply(this, arguments)
+		return self.apply(this, arguments)
+	}
+}
+Function.prototype.after = function (fun) {
+	var self = this
+	return function () {
+		let agent = self.apply(this, arguments)
+		fun.apply(this, arguments)
+		return agent
+	}
+}
+function businessLogic() {
+	console.log('业务代码')
+}
+businessLogic = businessLogic
+	.before(function () {
+		console.log('切入前')
+	})
+	.after(function () {
+		console.log('切入后')
+	})
+
+//businessLogic()
+
+var before = function (fn, beforeFn) {
+	return function () {
+		beforeFn.apply(this, arguments)
+		return fn.apply(this, arguments)
+	}
+}
+
+var after = function (fn, afterFn) {
+	return function () {
+		var agent = fn.apply(this, arguments)
+		afterFn.apply(this, arguments)
+		return agent
+	}
+}
+
+var businessLogic2 = function () {
+	console.log('业务代码')
+}
+
+logic = before(businessLogic2, function () {
+	console.log('切入前代码')
+})
+logic = after(businessLogic2, function () {
+	console.log('切入后')
+})
+
+//businessLogic2()

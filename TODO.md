@@ -314,6 +314,7 @@
 
 #### Vue related
 
+- [@click 和@click.native 有什么区别，如何阻止第三方组件内部的冒泡](https://juejin.cn/post/7274883755478335546)
 - [8 个很棒的 Vue 开发技巧](https://mp.weixin.qq.com/s/GwubuZjUtTyTllBRuT39QQ)
 - [这 22 个 Vue3 的实用技巧，你可能还不知道！](https://mp.weixin.qq.com/s/FpulFz2YjurgVYrZS60N3A)
 - [揭秘 Vue.js 九个性能优化技巧](https://juejin.cn/post/6922641008106668045)
@@ -648,6 +649,7 @@
 
 ### TypeScript
 
+- [前端的你用得上的 TypeScript 入门指北](https://juejin.cn/post/7272340330698883129)
 - [1.8W 字」TS 学习指南，从零学到熟练](https://mp.weixin.qq.com/s/Zxu6CQBwdBXGAd-D-UtVhQ)
 - [TypeScript 笔记:React 和泛型](https://segmentfault.com/a/1190000019898092)
 - [TypeScript 完全手册](https://zhuanlan.zhihu.com/p/83689446)
