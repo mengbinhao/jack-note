@@ -1,6 +1,19 @@
+- 2022.10.30
+
+  > A relatively small and vocal faction of House Republicans oppose more aid to Ukraine, have held it up so far
+  > The runway is not forever here
+  > to use xxx's phrase, what are the stakes if xxx
+
+- 2022.10.25
+
+  - infiltrate v
+
+  > but I love the fact that he took the stand for us
+
 - 2022.10.13
 
   > but another one still hangs in the balance, the one in the nation's capital
+
 - 2022.10.8
 
   - temple n
@@ -1014,7 +1027,6 @@
 - 2021.12.3
 
   - cement n
-  - captive n/adj
 
 - 2021.12.2
 
@@ -1400,7 +1412,7 @@
 
   - shake n/v | shaky adj
   - smear n/v
-  - credit n/vt | discredit n/vt
+  - credit n/vt | discredit n/vt | credible adj | credibility n
   - grope v
   - understand vt | misunderstand vt | understandable
 
@@ -1513,6 +1525,7 @@
 
   - corridor n
   - capture | recapture
+  - captive n/adj
 
   > Everything we were receiving contradicts what we've received previously
 
@@ -2721,7 +2734,6 @@
 - 2020.11.12
 
   - vary v | various adj | variant n/adj | variety n | variation n
-  - rave n/v/adj
 
 - 2020.11.10
 
@@ -3873,7 +3885,7 @@
   - invisible adj | visibility
   - unexpected adj
   - fear n/v | fearful | fearsome adj
-  - urge n/v | urgent adj | urgently | dire adj | urgency n
+  - urge n/v | urgent adj | urgently | urgency n
   - purge n/vt
   - surge n/vi
   - insurgent n/adj | insurgency n
@@ -5174,7 +5186,7 @@
   - abandon n/v | abandoned | abandonment
   - awful adj | awfully adv
   - accelerate v | accelerator
-  - shove n/vt
+  - shove n/vt | shovel n/v
   - victim n
   - lurk n/vi
   - bend v
@@ -5808,7 +5820,6 @@
   - gorgeous adj
   - fantasy n/v
   - breathtaking adj | fabulous adj | fantastic adj | incredible | outstanding | excellent | awesome | extraordinary adj | brilliant | remarkable | magnificent | dynamite
-  - credible adj
   - recede v
   - precede vt
   - precedent n/adj | unprecedented adj
@@ -6559,7 +6570,6 @@
   - tactic n | tactical adj
   - hawkish adj
   - assume v | assumption n
-  - credibility n
   - suspicion n | suspicious adj
   - isolate n/v/adj | isolated adj | isolation n | insulate vt
 
