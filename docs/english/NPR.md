@@ -1,3 +1,17 @@
+- 2022.11.10
+
+  - debris n
+  - geography n
+
+- 2022.11.9
+
+  - monopoly
+  - flank n/v
+  - occurrence n
+
+  > They stand out for not really standing out, I have to tell you
+  > Does that amount to progress?
+
 - 2022.10.30
 
   > A relatively small and vocal faction of House Republicans oppose more aid to Ukraine, have held it up so far
@@ -2267,7 +2281,7 @@
   - rod n
   - bamboo n
   - route n/vt
-  - passage n
+  - passage n | passenger
 
 - 2021.2.18
 
@@ -3626,7 +3640,7 @@
 - 2020.6.10
 
   - dispersal n
-  - nation n | nationalize vt | national n/adj | nationalization
+  - nation n | nationalize vt | national n/adj | nationalization | nationality
 
   > once in a while
   > in a clear with xxx
@@ -3894,7 +3908,7 @@
 
   > the fear of a second spike
   > wrestle it to the floor
-  > the country passed the 200 mark on death in hospital
+  > the country passed the 2. mark on death in hospital
   > bounce back
   > change him in any way that's apparent
 
@@ -5920,7 +5934,7 @@
   - ridicule n/vt | ridiculous adj
   - invite n/vt | invitation n
   - remark n
-  - elect n/vt/adj | electorate n | electoral adjorb
+  - elect n/vt/adj | electorate n | electoral adj
 
   > to my knowledge
   > how much time does xxx have to get this all sorted out?
