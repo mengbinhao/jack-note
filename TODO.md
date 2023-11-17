@@ -102,7 +102,7 @@
 
 ### front
 
-- [从0到1实现一个前端监控系统（附源码）](https://mp.weixin.qq.com/s/FBbmHU3bwLktENl3ZDZDSA)
+- [从 0 到 1 实现一个前端监控系统（附源码）](https://mp.weixin.qq.com/s/FBbmHU3bwLktENl3ZDZDSA)
 - [三分钟教你 3 种前端埋点方式！](https://mp.weixin.qq.com/s/8xgbwkqnGZdcp8NORXeP9w)
 - [超全面的前端工程化配置指南](https://mp.weixin.qq.com/s/4Nh2RuEuffEt5TbWhW5hVg)
 - [前端主题切换方案详解](https://mp.weixin.qq.com/s/k8EatjqYQ1R6QoZP0UWgbA)
@@ -315,6 +315,7 @@
 
 #### Vue related
 
+- [总结 Vue 性能优化方式及原理](https://mp.weixin.qq.com/s/J9jYoNW7Ae8J_LWXcj8yBA)
 - [@click 和@click.native 有什么区别，如何阻止第三方组件内部的冒泡](https://juejin.cn/post/7274883755478335546)
 - [8 个很棒的 Vue 开发技巧](https://mp.weixin.qq.com/s/GwubuZjUtTyTllBRuT39QQ)
 - [这 22 个 Vue3 的实用技巧，你可能还不知道！](https://mp.weixin.qq.com/s/FpulFz2YjurgVYrZS60N3A)

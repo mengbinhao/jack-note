@@ -1,3 +1,10 @@
+- 2022.11.17
+
+  - analogue n/adj | analogous
+  - firearm n
+
+  > The second feature of change dynamics is that xxx
+
 - 2022.11.10
 
   - debris n
@@ -448,6 +455,7 @@
 
   - hunger n/v | hungry adj
   - detract v | detractor n | critic | supporter
+  - support | supportive
   - secondary adj
   - mute adj/vt
   - takeover n
@@ -3014,7 +3022,6 @@
   - duplicate n/vt/adj
   - intro | introduce vt
   - playbook n
-  - support | supportive
   - cover | uncover v | uncovered | undercover adj
   - discover v
   - underground adj

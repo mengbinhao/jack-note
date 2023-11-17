@@ -1,16 +1,50 @@
-### 单行文本水平&垂直居中
+### 水平居中
+
+#### 行内元素
+
+`text-align:center; `
+
+#### 块级元素
+
 ```css
-div {
-  line-height：200;
-  height：200;
-  text-align:center;
+.div {
+  width: 50%;
+  margin: 0 auto;
 }
 ```
 
+### 垂直居中
+
+#### 单行文字
+
+```css
+.font-ct {
+  height: 40px;
+  line-height: 40px;
+}
+```
+
+#### 多行文字（也适用于单行文字）
+
+```css
+.font-ct {
+  height: 100px;
+  display:table-cell;
+  vertical-align:middle;
+}
+```
+
+#### image
+
+```html
+<!-- 浏览器的兼容问题 -->
+<img align="absmiddle" src="">
+```
 
 ### 仅居中元素定宽高适用
 
 ```css
+
 absolute + 负margin
 absolute + margin auto
 absolute + calc
