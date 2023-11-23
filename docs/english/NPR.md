@@ -1,3 +1,8 @@
+- 2022.11.23
+
+  > That's a big if
+  > and we more or less ended up back where we started
+
 - 2022.11.17
 
   - analogue n/adj | analogous
