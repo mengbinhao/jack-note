@@ -1,20 +1,13 @@
-function createPerson(name) {
-	let age = 0
-
-	return {
-		getName() {
-			return name
-		},
-		getAge() {
-			return age
-		},
-		setAge(val) {
-			age = val
-		},
+var maxProfit = function (prices) {
+	let profit = 0
+	let len = prices.length
+	if (len < 2) return 0
+	for (let i = 1; i < len; i++) {
+		//profit += Math.max(prices[i] - prices[i - 1], 0);
+		// if (prices[i] > prices[i - 1]) {
+		// 	profit += prices[i] - prices[i - 1]
+		// }
+		profit += Math.max(prices[i] - prices[i - 1], 0)
 	}
+	return profit
 }
-
-let person = createPerson('Jack')
-console.log(person.getName(), person.getAge())
-person.setAge(33)
-console.log(person.getAge())
