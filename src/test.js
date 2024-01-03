@@ -1,13 +1,18 @@
-var maxProfit = function (prices) {
-	let profit = 0
-	let len = prices.length
-	if (len < 2) return 0
-	for (let i = 1; i < len; i++) {
-		//profit += Math.max(prices[i] - prices[i - 1], 0);
-		// if (prices[i] > prices[i - 1]) {
-		// 	profit += prices[i] - prices[i - 1]
-		// }
-		profit += Math.max(prices[i] - prices[i - 1], 0)
-	}
-	return profit
+const fn = (a, b, c) => {
+	console.log(a + b + c)
 }
+
+const curry = (fn) => {
+	return function curried(...args) {
+		if (args.length >= fn.length) {
+			return fn.apply(this, args)
+		} else {
+			return curried.bind(this, ...args)
+			//return (...newArgs) => curried.apply(null, [...args, ...newArgs])
+		}
+	}
+}
+
+const curriedFn = curry(fn)
+
+curriedFn(1)(2)(3)

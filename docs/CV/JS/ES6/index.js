@@ -168,14 +168,23 @@ const curry1 = function (fn, ...args) {
 }
 
 //add(1, 2, 3) => fn = curryAdvanced2(add) => fn(1)(2)(3)
-const curry2 = function (fn) {
+var curry2 = function (fn) {
 	return function curried(...args) {
 		if (args.length >= fn.length) {
 			return fn.apply(null, args)
 		} else {
-			return function (...newArgs) {
-				return curried.apply(null, [...args, ...newArgs])
-			}
+			//return curried.bind(this, ...args)
+			return (...newArgs) => curried.apply(null, [...args, ...newArgs])
+		}
+	}
+}
+
+var curry3 = function (fn) {
+	return function curried(...args) {
+		if (args.length === 0) return fn(...args)
+		return (...newArgs) => {
+			if (newArgs.length === 0) return fn(...args)
+			return curried(...args, ...newArgs)
 		}
 	}
 }
@@ -682,6 +691,76 @@ const repeat = (cb, times, delay = 1000) => {
 }
 const repeatFn = repeat(console.log, 4, 1000)
 //repeatFn('hello')
+
+//有时间限制的promise
+var timeLimit = function (fn, t) {
+	return async function (...args) {
+		return new Promise((resolve, reject) => {
+			const timerId = setTimeout(() => {
+				reject('Time Limit Exceeded')
+			}, t)
+			fn(...args)
+				.then(resolve)
+				.catch(reject)
+				.finally(() => clearTimeout(timerId))
+		})
+	}
+}
+
+//未清除setTimeout
+//还可以使用race
+// var timeLimit = function(fn, t) {
+//   return async function(...args) {
+//     return new Promise((resolve, reject) => {
+//       setTimeout(() => {
+//         reject("Time Limit Exceeded")
+//       }, t)
+//       fn(...args).then(resolve).catch(reject)
+//     })
+//   }
+// }
+
+//并行执行promise
+var promiseAll = async function (functions) {
+	return new Promise((resolve, reject) => {
+		if (functions.length === 0) {
+			resolve([])
+			return
+		}
+		const res = new Array(functions.length).fill(null)
+		let resolvedCount = 0
+		functions.forEach(async (el, idx) => {
+			try {
+				const subResult = await el()
+				res[idx] = subResult
+				resolvedCount++
+				if (resolvedCount === functions.length) resolve(res)
+			} catch (err) {
+				reject(err)
+			}
+		})
+	})
+}
+
+// var promiseAll = function(functions) {
+//   return new Promise((resolve,reject) => {
+//     if(functions.length === 0) {
+//       resolve([])
+//       return
+//     }
+//     const res = new Array(functions.length).fill(null)
+//     let resolvedCount = 0
+//     functions.forEach((el,idx) => {
+//       el().then((subResult) => {
+//         res[idx] = subResult
+//         resolvedCount++
+//         if(resolvedCount === functions.length) resolve(res)
+//       }).catch((err) => {
+//           reject(err)
+//       })
+//     })
+//   })
+// }
 
 //红绿黄灯
 const red = () => console.log('red')
