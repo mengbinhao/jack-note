@@ -1,3 +1,9 @@
+- 2023.1.4
+
+  - statement | misstatement
+  - clerk n
+  - unjust adv
+
 - 2022.12.12
 
   > talk about the day after
