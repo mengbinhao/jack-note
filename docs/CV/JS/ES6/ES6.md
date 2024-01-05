@@ -1,8 +1,64 @@
+### falsy
+
+​	`''、null、undefined、+0、-0、false、NaN`
+
+### Optional chaining (?.)
+
+```javascript
+//syntax
+obj.val?.prop
+obj.val?.[expr]
+obj.func?.(args)
+
+const obj = {
+  name: 'Alice',
+  cat: {
+    name: 'Dinah',
+  },
+}
+const dogName = obj.dog?.name //undefined
+obj.someNonExistentMethod?.() //undefined
+
+//ES5写法 const nestedProp = obj.first && obj.first.second
+//可选链等同以下语法
+const temp = obj.first
+const nestedProp = temp === null || temp === undefined ? undefined : temp.second
+
+//for array
+const printMagicIndex = (arr) => console.log(arr?.[42])
+printMagicIndex([0, 1, 2, 3, 4, 5]); // undefined
+printMagicIndex()// undefined
+
+//other example
+const customerCity = customer.details?.address?.city
+const customerName = customer.name?.getName?.()
+
+const customerCity = customer?.city ?? "Unknown city"
+```
+
+### Nullish coalescing operator (??)
+
+```javascript
+//other falsy value do not work
+(null || undefined) ?? "foo"; // "foo"
+```
+
 ### 数据类型
 
 - number、boolean、string、null、undefined
-- Object（`Array`、`Function`、`Date`、`RegExp`、`Error`、`Map`、`Set`)）
-- symbol、bigInt
+- Object（`Array`、`Function`、`Date`、`RegExp`、`Error`、`Map`、`Set`)
+- Symbol、BigInt
+
+### ??=
+
+```javascript
+let a = null
+let b = undefined
+let c = 100
+let d = 200
+a ??= c
+b ??= d
+```
 
 ### const、let、块级作用域
 
@@ -32,11 +88,11 @@
   var name = 'Lucy'
   console.log(window.name) // "Lucy"
   console.log(globalThis.name) // "Lucy"
-
+  
   const age = 12
   console.log(window.age) // undefined
   console.log(globalThis.age) // undefined
-
+  
   let gender = 'female'
   console.log(window.gender) // undefined
   console.log(globalThis.gender) // undefined
@@ -53,9 +109,9 @@
 
 ### ==解构赋值==
 
-- 解构不成功`undefined`
+- ==解构不成功是`undefined`==
 
-- 解构赋值规则：只要等号右边的值不是对象或数组，**先将其转为对象**，`undefined`和`null`无法转为对象，因此无法进行解构
+- 规则：只要等号右边的值不是对象或数组，**先将其转为对象**，`undefined`和`null`无法转为对象，因此无法进行解构
 
 - 字符串解构：`const [a, b, c, d, e] = "hello"`
 
@@ -86,7 +142,7 @@
 
   - 排除对象不需要的属性：`const {prop1, prop2, ...otherProps} = obj`
   - 交换变量值：`[x, y] = [y, x]`
-  - 结构函数返回值：`const [x, y, z] = Func()`
+  - 函数返回值：`const [x, y, z] = Func()`
   - 定义函数参数：
     - `Func([1, 2]){}` 数组有序
     - `Func({x, y, z}) {}` 对象可无序
@@ -104,11 +160,7 @@ let obj = {
 			num: 0,
 			max: 5,
 			next() {
-				if (this.num >= this.max) {
-					return { value: undefined, done: true }
-				} else {
-					return { value: this.num++, done: false }
-				}
+				return this.num < this.max ? { value: this.num++, done: false } : { value: undefined, done: true }
 			},
 		}
 	},
@@ -268,17 +320,17 @@ const sortNumbers = (...numbers) => numbers.sort()
 
 #### 箭头函数
 
-1. 没有 this,函数体里面的 this 是箭头函数**定义**时所处的对象,不是运行时(this 看上一级，若上级还是箭头函数继续往上找), 作用域是栈内存不是堆内存
-2. 不能改变 this 绑定,即使通过 call、apply、bind
+1. 没有`this`,函数体里面的`this`是箭头函数**定义**时所处的对象,不是运行时(`this`看上一级，若上级还是箭头函数继续往上找), 作用域是栈内存不是堆内存
+2. 不能改变`this`绑定,即使通过`call、apply、bind`
 3. 不能用作构造函数
 4. 没有原型对象
-5. 没有 super 和 new.target
-6. 没有 arguments,但有...
+5. 没有`super`和 `new.target`
+6. 没有`arguments`,但有...
 7. 形参名称不能重复
 8. **返回对象时必须在对象外面加上括号**
 9. 不可用 yield,因此不能用 Generator 函数
 
-### Symbol(作为对象属性名时，只能用方括号(`[]`)读取，不能用点(`.`)读取)
+### Symbol(作为对象属性名时，只能用方括号`[]`读取，不能用点`.`读取)
 
 - Symbol.toPrimitive 一边是对象使用==比较时
 
@@ -327,7 +379,7 @@ const sortNumbers = (...numbers) => numbers.sort()
   		return this._name
   	},
   }
-
+  
   handler = {
   	//读取未知属性报错、读取数组负数索引的值、封装链式操作、生成DOM嵌套节点
   	get(target, key, receiver) {
@@ -349,27 +401,27 @@ const sortNumbers = (...numbers) => numbers.sort()
   	//拦截函数
   	apply() {},
   }
-
+  
   const userProxy = new Proxy(user, handler)
-
+  
   let admin = {
   	__proto__: userProxy,
   	_name: 'Admin',
   }
-
+  
   console.log(admin.name)
   ```
 
   ```javascript
   let target = {
   	m() {
-  		//如果想要获取目标对象的 this，使用 Reflect
+  		//若想要获取目标对象的 this，使用 Reflect
   		console.log(this === proxyObj)
   	},
   }
   let handler = {}
   let proxyObj = new Proxy(target, handler)
-
+  
   proxyObj.m() // true
   target.m() //false
   ```
@@ -398,10 +450,9 @@ const sortNumbers = (...numbers) => numbers.sort()
 - static
 
 - ==`class`有两条原型链==
-
   - **Child.\_\_proto\_\_ === Parent //核心目的实现静态方法继承**
   - **Child.prototype.\_\_proto\_\_ === Parent.prototype**
-
+  
 - new.target
 
 ### ==Module==
@@ -437,14 +488,14 @@ const sortNumbers = (...numbers) => numbers.sort()
       // Named export/import
       export { sum }
       import { sum } from 'sum'
-
+    
       // Default export/import
       export default sum
       import sum from 'sum'
-
+    
       //CommonJS中，导入导出的只有一种
       module.exports = sum
-
+    
       //exports仅仅是module.exports的引用而已
       //exports = module.exports
       // 以下等价
@@ -583,19 +634,19 @@ const sortNumbers = (...numbers) => numbers.sort()
       // main.js
       var a = require('./a')
       console.log('入口模块引用a模块：', a)
-
+    
       // a.js
       exports.a = '原始值-a模块内变量'
       var b = require('./b')
       console.log('a模块引用b模块：', b)
       exports.a = '修改值-a模块内变量'
-
+    
       // b.js
       exports.b = '原始值-b模块内变量'
       var a = require('./a')
       console.log('b模块引用a模块', a)
       exports.b = '修改值-b模块内变量'
-
+    
       // 执行node ./main.js输出
       //b模块引用a模块： {a: '原始值-a模块内变量'}
       //a模块引用b模块：  {b: '修改值-b模块内变量'}
@@ -607,21 +658,21 @@ const sortNumbers = (...numbers) => numbers.sort()
       // main.js
       import * as a from './a.mjs'
       console.log('入口模块引用a模块：', a)
-
+    
       // a.js
       import * as b from './b.mjs'
       let a = '原始值-a模块内变量'
       export { a }
       console.log('a模块引用b模块：', b)
       a = '修改值-a模块内变量'
-
+    
       // b.js
       import * as a from './a.mjs'
       let b = '原始值-b模块内变量'
       export { b }
       console.log('b模块引用a模块：', a)
       b = '修改值-b模块内变量'
-
+    
       // 执行 node ./main.js输出
       //b模块引用a模块： [Module: null prototype] { a: <uninitialized> }
       //a模块引用b模块： [Module: null prototype] { b: '修改值-b模块内变量' }
