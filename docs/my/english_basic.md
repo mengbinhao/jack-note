@@ -5,8 +5,8 @@
 - Email:3170673@qq.com
 - Blog:[gitbook](https://jackmeng.gitbook.io/note/)
 - Education: Xi'an Polytechnic University/Computer Science & Technology
-- Expected work city: Xi'an/Cheng Du
-- Expected position: Automated Test Engineer
+- Expected work city: Xi'an/Shang Hai/Cheng Du
+- Expected position: Test Development/Automated Test Engineer
 - Notice Period: 1 Month
 
 # Employment History
@@ -22,7 +22,7 @@
 
 ## Our United RT (2018/5 ~ present)
 
-### TPS automation project
+### TPS/TCS automation project
 
 #### Description
 
@@ -30,7 +30,7 @@ TPS combines external radiation virtual simulation and 3D treatment planning tec
 
 #### Role & Responsibility
 
-1. Technical selection for TPS automation and building environment (TestComplete)
+1. Technical selection for TPS/TCS automation and build environment (TestComplete Desktop Module)
 2. Write automation scripts and maintain them(JavaScript)
 3. Set up CI environment(Jenkins、git)
 4. Execute automation for each software build
@@ -51,10 +51,10 @@ Oxygen is an automation testing solution platform, It runs test cases based on t
 
 #### Role & Responsibility
 
-1. Work in Agile team(planning、grooming、retro)
-2. Enhance automation framework(Selenium、JAVA)
+1. Work in Agile team
+2. Enhance automation framework(Selenium、Java)
 3. Implement target system page defined and its business activities
-4. Write automation scripts and maintain them
+4. Write automated scripts and maintain them
 5. Set up CI environment
 6. Analyze test report and bug tracking
 
@@ -105,12 +105,11 @@ Implementation the contract management from the traditional manual way to the mo
 
 # Skills
 
-- Language: JavaScript / Node.js / Java
+- Language: JavaScript /  Java
 - Unit Test: Mocha
 - CI: Jenkins
 - Version Control System: Git
-- Front Framework: Vue / Vue Router / VueX / Axios
-- Bundler: Webpack
+- Front Framework: Vue
 - Be Familiar with Linux command
 - Be Familiar with SQL
 - Be Familiar with algorithm
