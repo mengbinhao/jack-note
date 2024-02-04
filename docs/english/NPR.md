@@ -1,3 +1,7 @@
+- 2023.2.4
+
+  - solemn adj
+
 - 2023.1.4
 
   - statement | misstatement
@@ -2590,7 +2594,7 @@
 
 - 2020.12.15
 
-  - punish v
+  - punish v | punishable
   - rebuff n/vt
   - monopoly n
 
@@ -2871,7 +2875,6 @@
 
   - muscle n/v | muscular adj
   - airlift n/vt
-  - famine n
 
   > the work of organization goes far beyond food
   > day in and day out
@@ -3971,6 +3974,7 @@
 
   - siege n/vt | besiege vt
   - starve v | starvation n
+  - famine n
   - situate vt/adj | situation n
   - painful | hurtful
   - systematic adj | systematically | systematize vt
@@ -4895,7 +4899,6 @@
 
 - 2019.12.27
 
-  - erode v
   - pivot n/v/adj | pivotal
   - heel n
   - emit vt | emitter n
@@ -5471,7 +5474,6 @@
 - 2019.10.19
 
   - pave vt
-  - curtail vt
   - smuggle vt | smuggler n | smuggling n
   - slip n/v/adj
   - amid prep | amidst prep
