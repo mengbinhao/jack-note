@@ -1,3 +1,19 @@
+- 2023.2.22
+
+  - discontent n
+
+  > He told me Israel will listen to the US and then do things its own way
+  > We are only a few hours into the new year
+  > He talks with me about what he see on the horizon
+  > That most of the predictions made a year ago at this time turned out to be wrong
+  > It looks like the worst of the manufacturing difficulties are likely behind us or soon to be behind us
+  > The first half of 2024 will be better than the second half of 2023
+
+- 2023.2.21
+
+  - leather n/vt/adj
+  - bubble n/v
+
 - 2023.2.4
 
   - solemn adj
@@ -1239,7 +1255,7 @@
 
 - 2021.10.11
 
-  - perfect | imperfect | imperfectly
+  - perfect | imperfect | imperfectly | perfection | imperfection
   - lodge n/v
   - common | uncommon
 
@@ -4656,7 +4672,6 @@
   - groundless adj
   - workaround n
   - lump n
-  - slump n/vi
   - numerous adj
   - steep n/v/adj
   - hammer n/v
@@ -4971,7 +4986,7 @@
   - basis n | baseless adj
   - basement n
   - acquiesce n/vi/adj
-  - insane adj
+  - insane adj | insanely
   - knot n/v
   - lace n
   - ludicrous adj
@@ -5442,7 +5457,7 @@
   - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt | compelled adj
-  - consist vi | consistent adj | consistently adv
+  - consist vi | consistent adj | consistently adv | inconsistent
   - distrust n/vt | mistrust n/vt
 
   > in some ways, xxx
@@ -5987,7 +6002,7 @@
   - status n
   - decade n
   - torture n/vt
-  - calm n/adj/vt
+  - calm n/adj/v
   - slogan n
 
   > This was supposed to be a celebration
