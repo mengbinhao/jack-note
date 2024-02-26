@@ -1,3 +1,8 @@
+- 2023.2.26
+
+  - viable adj
+  - vital adj
+
 - 2023.2.22
 
   - discontent n
@@ -6028,7 +6033,6 @@
   - upbraid vt
   - pact n
   - animosity n
-  - vital adj
   - reprimand n/vt
   - unilateral adj | bilateral adj | trilateral adj
   - chancellor n | chancellery n
@@ -6232,7 +6236,7 @@
 - 2019.8.15
 
   - arctic n/adj
-  - sketchy adj | sketch n/v
+  - sketch n/v | sketchy adj
   - contaminate vt | contaminated adj | contamination n | contaminant
   - terse adj | tersely
   - compare n/v | comparable adj | comparison n
