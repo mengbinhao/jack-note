@@ -667,6 +667,7 @@
 
 ### Nginx
 
+- [写给高级前端的 Nginx 知识](https://mp.weixin.qq.com/s/36eKvucS-OaP1L4OGpJmVA)
 - [Mac 如何使用 Nginx](https://juejin.im/post/5e9ae7506fb9a03c8f6cb8e0)
 - [Nginx](https://juejin.im/post/5bd7a6046fb9a05d2c43f8c7)
 - [Nginx 入门](https://segmentfault.com/a/1190000017940311)
