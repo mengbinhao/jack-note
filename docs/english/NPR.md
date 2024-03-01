@@ -2,6 +2,7 @@
 
   - viable adj
   - vital adj
+  - low-profile
 
 - 2023.2.22
 
@@ -3640,7 +3641,7 @@
   - diligent adj
   - promote v | promoter | promotion
   - strategy n
-  - voluntary adj | voluntarily adv | involuntary
+  - voluntary adj | voluntarily adv | involuntary | volunteer
 
   > all hands
   > water cooler chat
