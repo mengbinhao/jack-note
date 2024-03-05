@@ -4,6 +4,9 @@
   - vital adj
   - low-profile
 
+  > And this deal is going to be done - if it does come through, it would be done in phases over several months
+  > and then in parallel, xxx
+  
 - 2023.2.22
 
   - discontent n
@@ -5174,7 +5177,6 @@
 
   - cafeteria n
   - mortal n/adj | mortally | mortality n
-  - prolong vt
   - fossil n/adj
   - bulb n
 
