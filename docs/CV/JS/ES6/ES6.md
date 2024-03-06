@@ -62,7 +62,7 @@ b ??= d
 
 ### const、let、块级作用域
 
-![](./let.png)
+![](./images/let.png)
 
 - 不允许重复声明 `let p = 1; let p = 2`
 
@@ -488,14 +488,14 @@ const sortNumbers = (...numbers) => numbers.sort()
       // Named export/import
       export { sum }
       import { sum } from 'sum'
-    
+      
       // Default export/import
       export default sum
       import sum from 'sum'
-    
+      
       //CommonJS中，导入导出的只有一种
       module.exports = sum
-    
+      
       //exports仅仅是module.exports的引用而已
       //exports = module.exports
       // 以下等价
@@ -634,19 +634,19 @@ const sortNumbers = (...numbers) => numbers.sort()
       // main.js
       var a = require('./a')
       console.log('入口模块引用a模块：', a)
-    
+      
       // a.js
       exports.a = '原始值-a模块内变量'
       var b = require('./b')
       console.log('a模块引用b模块：', b)
       exports.a = '修改值-a模块内变量'
-    
+      
       // b.js
       exports.b = '原始值-b模块内变量'
       var a = require('./a')
       console.log('b模块引用a模块', a)
       exports.b = '修改值-b模块内变量'
-    
+      
       // 执行node ./main.js输出
       //b模块引用a模块： {a: '原始值-a模块内变量'}
       //a模块引用b模块：  {b: '修改值-b模块内变量'}
@@ -658,21 +658,21 @@ const sortNumbers = (...numbers) => numbers.sort()
       // main.js
       import * as a from './a.mjs'
       console.log('入口模块引用a模块：', a)
-    
+      
       // a.js
       import * as b from './b.mjs'
       let a = '原始值-a模块内变量'
       export { a }
       console.log('a模块引用b模块：', b)
       a = '修改值-a模块内变量'
-    
+      
       // b.js
       import * as a from './a.mjs'
       let b = '原始值-b模块内变量'
       export { b }
       console.log('b模块引用a模块：', a)
       b = '修改值-b模块内变量'
-    
+      
       // 执行 node ./main.js输出
       //b模块引用a模块： [Module: null prototype] { a: <uninitialized> }
       //a模块引用b模块： [Module: null prototype] { b: '修改值-b模块内变量' }

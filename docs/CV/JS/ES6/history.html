@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+  </ul>
+
+  <div id="routeView"></div>
+</body>
+
+<script type="text/javascript">
+  const routes = [
+    {
+      path: '/home',
+      component: 'This is home'
+    },
+    {
+      path: '/about',
+      component: 'This is about'
+    }
+  ]
+
+  const onPopState = () => {
+    const pathname = window.location.pathname
+    console.log(pathname)
+    const routeView = document.querySelector('#routeView')
+    routes.forEach(route => {
+      if (pathname === route.path) routeView.textContent = route.component
+    })
+  }
+
+  const onDOMContentLoaded = () => {
+    const links = document.querySelectorAll('li a')
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault()
+        window.history.pushState(null, '', link.getAttribute('href'))
+        onPopState()
+      })
+    })
+  }
+  //for browser back、forward
+  window.addEventListener('popstate', onPopState)
+  window.addEventListener('DOMContentLoaded', onDOMContentLoaded)
+</script>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <ul>
+    <li><a href="#/home">Home</a></li>
+    <li><a href="#/about">About</a></li>
+  </ul>
+
+  <div id="routeView"></div>
+</body>
+
+<script type="text/javascript">
+  const routes = [
+    {
+      path: '#/home',
+      component: 'This is home'
+    },
+    {
+      path: '#/about',
+      component: 'This is about'
+    }
+  ]
+
+  const onHashchange = (e) => {
+    const hash = window.location.hash
+    const routeView = document.querySelector('#routeView')
+    routes.forEach(route => {
+      if (hash === route.path) routeView.textContent = route.component
+    })
+  }
+
+  window.addEventListener('hashchange', onHashchange)
+  window.addEventListener('DOMContentLoaded', onHashchange)
+</script>
+
+</html>
