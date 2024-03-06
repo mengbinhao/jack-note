@@ -1,3 +1,8 @@
+- 2023.3.6
+
+  - likeness n
+  - catalog n/v
+
 - 2023.2.26
 
   - viable adj
@@ -6,7 +11,7 @@
 
   > And this deal is going to be done - if it does come through, it would be done in phases over several months
   > and then in parallel, xxx
-  
+
 - 2023.2.22
 
   - discontent n
@@ -5562,7 +5567,6 @@
 - 2019.10.16
 
   - anxious adj | anxiously | anxiety n
-  - piecemeal adj
   - devil n
   - treasury n
   - secrecy n | secretary n
