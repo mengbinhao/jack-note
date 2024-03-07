@@ -507,7 +507,6 @@
   - support | supportive
   - secondary adj
   - mute adj/vt
-  - takeover n
 
 - 2022.8.17
 
@@ -4275,7 +4274,7 @@
   - treaty n
   - engage v | engaged adj | engagement n
   - symptom n | symptomatic
-  - mild adj
+  - mild adj | mildly
 
   > I think that that would be on pretty much everybody's mind right now
 
@@ -5348,7 +5347,7 @@
   - tilt n/v
   - giant n/adj
   - astute adj
-  - seasoned adj
+  - seasoned adj | seasonal
   - comeback n
   - influence n/vt | influential adj
   - loyal adj | loyalty n | loyalist n | disloyal
