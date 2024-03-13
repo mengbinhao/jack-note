@@ -1,3 +1,17 @@
+- 2023.3.13
+
+  - foreseen vt | unforeseen
+  - probability n
+  - prefer
+
+- 2023.3.12
+
+  - branch n/v
+
+- 2023.3.11
+
+  - deter vt
+
 - 2023.3.6
 
   - likeness n
@@ -2232,6 +2246,7 @@
   - overwhelm vt | overwhelmed | underwhelmed adj
   - oversee vt | oversea adj/adv
   - overcharge n/vt
+  - overstate vt
   - predate vt
 
 - 2021.3.2
@@ -3265,7 +3280,6 @@
   - sow v
   - cunning adj/n
   - coincide vi | coincident adj | coincidental adj | coincidentally | coincidence n
-  - purview n
   - extreme adj/n | extremely
 
   > Walk up through it
@@ -6281,7 +6295,7 @@
 
 - 2019.8.13
 
-  - preferred adj
+  - preferred adj | preference
   - boycott n/vt
   - reckless adj | recklessness n
   - colony n | colonial adj | colonialism n | colonize vt
