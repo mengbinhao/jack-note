@@ -1,3 +1,11 @@
+- 2023.3.14
+
+  - volatile adj
+  - arrival n
+
+  > But to know that you think that I'm a meaningful part of it means the world to me
+  > Those and other state challenges are now dead in arrival
+
 - 2023.3.13
 
   - foreseen vt | unforeseen
@@ -5612,7 +5620,6 @@
   - condemn vt | condemned adj | condemnation n
   - approve v | disapprove v | approval n
   - displace vt | displaced adj | place n/vt | displacement n
-  - volatile adj
 
   > on behalf of
   > it's been from every corner
