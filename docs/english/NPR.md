@@ -1,3 +1,13 @@
+- 2023.3.20
+
+  - tableware n
+  - awe n/vt
+  - exhilarate adj
+
+  > I awe you more than I can say
+  > who poured their love and their care and their brilliance into the making of this film
+  > 2024 is an election year like none other
+
 - 2023.3.14
 
   - volatile adj
@@ -5096,7 +5106,7 @@
   - baffle vt
   - dimension n
   - oblivious adj
-  - misery n
+  - misery n | miserable
   - unfurl v
   - penalize vt
   - revolt n/v
@@ -5925,7 +5935,6 @@
 - 2019.9.17
 
   - narrow n/v/adj | narrowly adv
-  - resent vt | resentment n
   - poke n/v
   - energize vt
   - poster n | postal adj
