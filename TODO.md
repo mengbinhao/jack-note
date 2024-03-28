@@ -415,6 +415,7 @@
 - [Axios 封装](https://juejin.im/post/5d89c75651882509662c55b1)
 - [Vue 项目中使用 Axios 封装 http 请求](https://www.helloweba.net/javascript/617.html)
 - [main.js 精简/axios 二次封装](https://segmentfault.com/a/1190000019187560)
+- [前端接口防止重复请求实现方案](https://mp.weixin.qq.com/s/8fd1Kd3wH5uPI7pCcYe3Yg)X
 - [axios 切换路由取消指定请求与取消重复请求并存方案](https://juejin.im/post/5d441a98e51d4561db5e39ee)
 - [axios 封装以及前端接口处理策略](https://juejin.im/post/5cbc6b786fb9a0685b49049c)
 - [axios 基于常见业务场景二次封装](https://segmentfault.com/a/1190000019863652)
