@@ -1,3 +1,11 @@
+- 2023.3.28
+
+  - rot n/v
+  - asylum n
+
+  > Now they're reversing course
+  > Now he's just trying to find any of work to keep food on his table
+
 - 2023.3.20
 
   - tableware n
@@ -1495,7 +1503,7 @@
 - 2021.8.12
   - fahrenheit n | centigrade n
   - hose n
-  - desolate adj
+  - desolate adj | desolation
   - smother n/v
   - olive n/adj
   - scorch n/v | scorching
@@ -2302,7 +2310,6 @@
 
   - dilemma n
   - climax n
-  - dwindle vi
 
 - 2021.2.26
 
@@ -5649,7 +5656,7 @@
 
 - 2019.10.12
 
-  - sick n/vt/adj | sicken v | sickening adj
+  - sick n/vt/adj | sicken v | sickening adj | sicker
   - Athens n
   - hiatus n
   - deep-seated adj
@@ -6252,7 +6259,7 @@
 - 2019.8.16
 
   - bid n/v
-  - qualify v | disqualify vt | qualification n | qualified | eligible adj | eligibility
+  - qualify v | disqualify vt | qualification n | qualitative adj | qualified | eligible adj | eligibility
   - turnout n | turnover n
   - poverty n
   - unchecked adj
@@ -6577,7 +6584,7 @@
   - tremendous adj | tremendously
   - consider v | consideration
   - considerable adj | considerably
-  - reversal n | invert vt | inversion n
+  - invert vt | inversion n
 
   > so all in all
   > at the very least
