@@ -1,3 +1,11 @@
+- 2023.4.1
+
+  - allergic adj
+  - obscure v/adj
+
+  > In late of that year
+  > And it dates back to the 2016 campaign
+
 - 2023.3.28
 
   - rot n/v
@@ -1581,8 +1589,10 @@
   - spout n/v
   - cultivate vt
   - chair n/v
+  - hush n/v
 
   > hush money scheme
+  > hush money payment
   > Is xxx the last shoe to drop, or is more coming?
 
 - 2021.7.27
@@ -3076,7 +3086,6 @@
 
 - 2020.9.13
 
-  - hush n/v
   - famous adj | infamous
 
   > she drop a bombshell
