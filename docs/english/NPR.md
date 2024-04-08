@@ -1,3 +1,10 @@
+- 2023.4.8
+
+  - envy n/v
+
+  > I'm exposed to pollution. I can't breathe. I have a stuffed nose
+  > Maybe there is more to life than knowing everything
+
 - 2023.4.1
 
   - allergic adj
