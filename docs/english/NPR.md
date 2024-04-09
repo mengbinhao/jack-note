@@ -6275,7 +6275,7 @@
 - 2019.8.16
 
   - bid n/v
-  - qualify v | disqualify vt | qualification n | qualitative adj | qualified | eligible adj | eligibility
+  - qualify v | disqualify vt | qualification n | qualitative adj | qualified | eligible adj | eligibility | ineligible
   - turnout n | turnover n
   - poverty n
   - unchecked adj
