@@ -1,3 +1,22 @@
+- 2023.4.16
+
+  - steel n/vt
+  - remnant n/adj
+  - aftermath n
+  - rattle n/v
+  - amongst prep
+
+  > take full effect
+  > the law was still in effect
+  > You really just get a sense of the enormity of the job at hand
+  > That is going to be the most complicated part of this operation
+  > At the conservative event, disdain for Israel on full display
+  > if certain protections and assurances are put into place
+  > It is a controversial question that has created sharp divisions around the world
+  > We are still very much in an active search and rescue posture at this point, and we will continue to be for some time
+  > We will keep you up to date with the latest on the next episode of CNN 10
+  > It's import not to lose sight of the people whose lives have been changed forever
+
 - 2023.4.8
 
   - envy n/v
@@ -2171,7 +2190,6 @@
 
 - 2021.3.30
 
-  - enormity n
   - degrade v | degradation n
   - shriek n/vt
 
