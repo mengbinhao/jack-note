@@ -1,3 +1,11 @@
+- 2023.4.18
+
+  - spectacle n
+
+  > To get one million at one time would be by far the biggest crowd that we've ever had
+  > Even though we get 14 million people every year, It's over the year. It's not all at one time
+  > a record for the state and more than seven times the size of the crowd that traveled there for the Super Bowl in 2012
+
 - 2023.4.17
 
   - grant v
