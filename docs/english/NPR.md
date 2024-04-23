@@ -1,3 +1,12 @@
+- 2023.4.23
+
+  - showy adj
+  - mansion n
+
+  > He seemed like someone that would be everyone's friend
+  > That's way it was so shocking what came next
+  > That still leaves a sense that there is still a lot that will never be resolved
+
 - 2023.4.18
 
   - spectacle n
