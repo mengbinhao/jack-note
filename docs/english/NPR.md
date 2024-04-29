@@ -6,6 +6,7 @@
   > He seemed like someone that would be everyone's friend
   > That's way it was so shocking what came next
   > That still leaves a sense that there is still a lot that will never be resolved
+  > How do prosecutors want to set the table about what allegedly happened?
 
 - 2023.4.18
 
@@ -4283,7 +4284,6 @@
   - rouse v
   - alternate v/adj | alternative n/adj
   - carrier n
-  - disparage vt
 
   > It doesn't matter how much he actually achieves on any of these fronts,or apparently it doesn't matter
   > I want you to know that no one at my level has been ignoring the situation here from the very beginning
