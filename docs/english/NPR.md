@@ -1,3 +1,10 @@
+- 2023.5.7
+
+  > The students need to understand that they can not get away with what they've been getting away with, and it starts with leadership
+  > XXX have said it's just words, it's not matched by actions
+  > Graduation is on the horizon
+  > They're going to continue to pretest until their demands are met
+
 - 2023.4.23
 
   - showy adj
@@ -638,7 +645,6 @@
 
   - accommodate vt
   - kinetic adj
-  - tidal
 
 - 2022.7.25
 
