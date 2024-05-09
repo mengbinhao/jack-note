@@ -1,3 +1,7 @@
+- 2023.5.9
+
+  - bucket n
+
 - 2023.5.7
 
   > The students need to understand that they can not get away with what they've been getting away with, and it starts with leadership
@@ -665,7 +669,6 @@
   - discard n/v | discarded
   - waste n/vt | junk n | trash n/vt | litter n/v | rubbish n/adj | garbage n
   - wasteful adj | wasteland n
-  - devise vt
   - door knob n | vanity n | hallway n | water fountain n
 
 - 2022.7.20
@@ -5025,6 +5028,7 @@
 
   - vandalize vt
   - census n
+  - devise vt
   - diverse adj | diversity n | divisive adj
   - divert v | diversion n
   - faith n | faithless n | faithful | faithfully
@@ -6377,7 +6381,6 @@
   - minor n/adj
   - prosecute v | prosecutor n | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
   - emphasize vt | emphasis n | emphatic adj
-  - redact v
 
   > in a clear reference to xxx
   > on the rise
