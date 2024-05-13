@@ -1,3 +1,11 @@
+- 2023.5.13
+
+  - inferior adj/n
+  - gallery n/v
+
+  > Debate was interrupted at times by cheers and jeers
+  > It's been a week since XXX clause, what a week it's been
+
 - 2023.5.9
 
   - bucket n
@@ -2854,7 +2862,6 @@
   - stage n/v
   - backstage n
   - refrain vi
-  - jeer n/v
   - standard n/adj
   - atom n
 
@@ -4001,7 +4008,6 @@
 
   - recuse vt
   - graphic adj
-  - leak n/v
   - bureau n | bureaucracy n
   - murder n/v | murderous
   - jog n/v | jogger
@@ -4039,7 +4045,7 @@
   - pride n/v
   - honour n/vt
   - despair n/vi
-  - bleak adj
+  - leak n/v
   - rejoice v
   - tribulation n
 
