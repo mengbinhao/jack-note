@@ -1,3 +1,7 @@
+- 2023.5.14
+
+  - binary adj
+
 - 2023.5.13
 
   - inferior adj/n
@@ -3163,7 +3167,6 @@
 - 2020.9.11
 
   - medic n | medical n/adj | medically | medication n | medicine
-  - verbal adj
   - cubic adj
 
 - 2020.9.10
@@ -6472,7 +6475,7 @@
   - shade n/v | shaded | shady adj | shadow n/vt/adj | shadowy adj
   - preside v
   - president | presidency n | presidential adj
-  - committee n | commitment n | committed adj
+  - committee n | commitment n | committed adj | uncommitted
   - brevity n
   - obstruct vt | obstruction n
   - ultimate n/adj | ultimately adv
