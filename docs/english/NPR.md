@@ -1,3 +1,14 @@
+- 2023.5.22
+
+  - male | female
+  - traverse v
+  - illuminate vt
+  - mighty adj
+  - correlation n
+
+  > over the course of time
+  > take the leap to xxx
+
 - 2023.5.14
 
   - binary adj
@@ -1085,7 +1096,7 @@
 
 - 2022.3.4
 
-  - commence v
+  - commence v | commencement
   - purchase n/v
   - finance n/v | financier n
 
@@ -4772,7 +4783,7 @@
   - agility n | agile adj
   - league n | legend n | legendary
   - jersey n
-  - customize vt
+  - customize vt | customary adj
   - personality n | personalize vt | personnel n | personal n/adj | persona n
   - chafe n/v
   - kin n
@@ -4862,7 +4873,7 @@
   - grieve v | grieving adj | grievance n
   - furious adj | fury n
   - assassinate vt | assassination n | assassin
-  - honor n/vt | dishonor n/vt
+  - honor n/vt | dishonor n/vt | honorary n/adj
   - cruise n/v
   - investigator n | investigation | investigate vt | investigative adj
   - invest v | investor n
@@ -5846,7 +5857,7 @@
   - adapt v | adapted adj | adaption | adaptation | adaptive
   - budge v
   - budget n/vt
-  - welfare n | fare n
+  - welfare n/adj | fare n
   - outcome n
   - hardship n
   - balloon n/v/adj
