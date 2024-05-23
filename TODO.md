@@ -52,6 +52,7 @@
 - [移动端 H5 开发常用技巧](https://segmentfault.com/a/1190000021767889)
 - [分享一些前端常用功能集合](https://juejin.im/post/5e49ef916fb9a07c951cd0e3)
 - [DOM 扩展之 HTML5](https://segmentfault.com/a/1190000022276554)
+- [你应该知道的 21 个 html 小技巧](https://juejin.cn/post/7355692365329465384)
 
 ### CSS
 

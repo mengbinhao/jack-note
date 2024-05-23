@@ -231,6 +231,7 @@ const composeFunc = compose(fn1, fn2, fn3, fn4)
 //console.log(composeFunc(1)) // 1+4+3+2+1=11
 
 //最后一次说了算
+//返回值也可以返回一个Promise，外面通过then拿到
 const _debounce = (fn, timeout = 300) => {
 	let timer, result
 	return function (...args) {
@@ -243,13 +244,61 @@ const _debounce = (fn, timeout = 300) => {
 	}
 }
 
+const _debounce2 = (fn, timeout = 300, immediate = false) => {
+	let timer, result
+	let isInvoke = false
+	return function (...args) {
+		timer && clearTimeout(timer)
+		if (immediate && !isInvoke) {
+			result = fn.apply(this, args)
+			isInvoke = true
+		} else {
+			timer = setTimeout(() => {
+				result = fn.apply(this, args)
+				//isInvoke初始化
+				isInvoke = false
+				timer = null
+			}, timeout)
+		}
+		return result
+	}
+}
+
+const _debounce3 = (fn, timeout = 300, immediate = false, cb) => {
+	let timer, result
+	let isInvoke = false
+	const _doDebounce = function (...args) {
+		timer && clearTimeout(timer)
+		if (immediate && !isInvoke) {
+			result = fn.apply(this, args)
+			if (cb) cb(result)
+			isInvoke = true
+		} else {
+			timer = setTimeout(() => {
+				result = fn.apply(this, args)
+				if (cb) cb(result)
+				//isInvoke初始化
+				isInvoke = false
+				timer = null
+			}, timeout)
+		}
+		return result
+	}
+	_doDebounce.cancel = function () {
+		timer && clearTimeout(timer)
+		timer = null
+		isInvoke = false
+	}
+	return _doDebounce
+}
+
 //第一次说了算
 function _throttle(fn, timeout = 300) {
 	let last = 0,
 		result
 	return function (...args) {
 		let now = +new Date()
-		if (now - last > timeout) {
+		if (now - last >= timeout) {
 			result = fn.apply(this, args)
 			last = +new Date()
 		}
