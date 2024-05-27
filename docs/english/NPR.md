@@ -1,3 +1,9 @@
+- 2023.5.27
+
+  - resent vt | resentment
+
+  > He also offered some perspective
+
 - 2023.5.22
 
   - male | female
@@ -5142,7 +5148,6 @@
 
 - 2019.12.19
 
-  - enlist v
   - justify vt | justification n | justifiable
   - eavesdrop vi
   - cavalier adj
