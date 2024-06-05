@@ -1,3 +1,14 @@
+- 2023.6.5
+
+  - bind v
+  - trauma n
+  - falsify n/v
+
+  > It's also important to note that saying a verdict makes you less likely to do something doesn't necessarily mean that's what you're actually going to do
+  > This deal is an opportunity to prove whether they really mean it
+  > This is a very similar proposal to what has been proposed for many months now but that really never went anywhere
+  > XXX is in this bind, how is it likely to play out?
+
 - 2023.5.27
 
   - resent vt | resentment
@@ -1071,7 +1082,6 @@
   > It's not about ideology, It's about style
   > but more to the point here
   > so to some degree
-  > XXX is in a bind
 
 - 2022.3.15
 
@@ -1250,7 +1260,7 @@
 - 2021.11.30
 
   - cab n/vi
-  - dense adj
+  - dense adj | densely
   - smog n
   - crop n/v
   - moisture n
@@ -3712,7 +3722,7 @@
 - 2020.6.27
 
   - excess n/adj | excessive adj
-  - persuade v
+  - persuade v | persuadable adj
   - certify vt | certified adj | credential n | certification n | certificate n
 
 - 2020.6.24
@@ -5760,7 +5770,6 @@
   - long-standing adj
   - confusion n | confusing adj | confuse vt | confused
   - withdraw v | withdrawal n
-  - decimate vt
   - harsh adj | harshly
 
   > he admitted that after one month hiatus the two sides had a lot of catching up to do
@@ -6523,7 +6532,7 @@
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
   - prescription n
-  - afford vt | affordable adj
+  - afford vt | affordable adj | affordability
 
   > Fore in five of them would come from working families
 
