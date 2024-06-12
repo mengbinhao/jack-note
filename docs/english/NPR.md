@@ -1,3 +1,11 @@
+- 2023.6.12
+
+  - movable | unmovable
+  - staircase n
+
+  > They just really don't seem to be going anywhere
+  > They have openly threatened to bring down his government if he doesn't stick to their demands
+
 - 2023.6.5
 
   - bind v
@@ -2643,7 +2651,7 @@
   - comprehensive adj | comprehension n | comprehensible adj | incomprehensible
   - attitude n
   - pound n/v
-  - compound v | compounded
+  - compound n/v/adj | compounded
   - product n | productive adj | productivity n
   - suck v
   - bottle n/vt
@@ -4132,7 +4140,7 @@
 
 - 2020.5.6
 
-  - provoke vt | incite vt | incitement n | unprovoked
+  - provoke vt | incite vt | incitement n | unprovoked | provocative
   - cite vt | recite v
   - vessel n
   - restore v | restoration
