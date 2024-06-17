@@ -1,3 +1,9 @@
+- 2023.6.17
+
+  > So xxx says there's more pressure on European leaders to hammer out this plan on securing funding
+  > The Europeans are coming into this meeting in a very different footing than if this was 10 days ago
+  > That's definitely contributing to this sense of urgency at this summit to find a way to economically support Ukraine no matter which candidate wins the election in November
+
 - 2023.6.12
 
   - movable | unmovable
@@ -5574,7 +5580,6 @@
   - dissatisfaction n
   - disenchantment n
   - forging n
-  - alleviate vt
 
   > what should we be looking for in terms of this coming to an end?
   > a sense of his out of touch
