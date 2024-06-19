@@ -1,3 +1,11 @@
+- 2023.6.19
+
+  - flood n/v
+
+  > To put this amount of water into perspective
+  > And just to put this into perspective
+  > These events show how severe weather can overwhelm communities on short notice, but also how proper planning and a quick response can save lives
+
 - 2023.6.17
 
   > So xxx says there's more pressure on European leaders to hammer out this plan on securing funding
@@ -1007,7 +1015,6 @@
 
   - talent | talented
   - longing n/adj
-  - curly adj
 
 - 2022.4.2
 
@@ -1033,7 +1040,7 @@
 
 - 2022.3.30
 
-  - curl n/v
+  - curl n/v | curly adj
   - sperm n
   - plug n/v
   - maid n/v

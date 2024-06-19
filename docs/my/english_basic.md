@@ -105,8 +105,7 @@ Implementation the contract management from the traditional manual way to the mo
 
 # Skills
 
-- Language: JavaScript /  Java
-- Unit Test: Mocha
+- Language: JavaScript
 - CI: Jenkins
 - Version Control System: Git
 - Front Framework: Vue
