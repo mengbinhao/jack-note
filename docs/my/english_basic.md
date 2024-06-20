@@ -16,7 +16,7 @@
 | 2018.05 - Present | Our United RT                    | Automation Test Engineer      |
 | 2016.04 - 2018.2  | Emerson Xi’an Engineering Center | Test and Development Engineer |
 | 2014.05 - 2015.06 | Xi'an ACTIVE Network             | Application Support           |
-| 2009.03 - 2014.04 | Shaan'Xi Electric Power Company  | Web Development Engineer      |
+| 2009.03 - 2014.04 | Shaan'Xi Electric Power Company  | Development Engineer          |
 
 # Work Experience
 
@@ -32,7 +32,7 @@ TPS combines external radiation virtual simulation and 3D treatment planning tec
 
 1. Technical selection for TPS/TCS automation and build environment (TestComplete Desktop Module)
 2. Write automation scripts and maintain them(JavaScript)
-3. Set up CI environment(Jenkins、git)
+3. Set up CI environment(Jenkins、Git)
 4. Execute automation for each software build
 5. Analyze test report and bug tracking(JIRA)
 
@@ -85,7 +85,7 @@ Agents publish various customized online activities and advertisements on target
 
 ## Shaan'xi electric power Company (2009/3 ~ 2014/4)
 
-### economic law project
+### Economic Law Project
 
 #### Description
 
