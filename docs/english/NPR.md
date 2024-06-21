@@ -1,3 +1,7 @@
+- 2023.6.21
+
+  > It seems like a tall task
+
 - 2023.6.19
 
   - flood n/v
@@ -2125,7 +2129,6 @@
   - liquid n/adj | solid
   - solidify v | solidarity n | consolidate v
   - melt n/v
-  - adversary | adversarial
 
   > It doesn't expect for those to go away overnight
 
@@ -2385,7 +2388,7 @@
   - overlap n/v
   - overturn n/v
   - overly adv
-  - overvalued | undervalued adj | revaluate
+  - overvalued | undervalued adj | revaluate | value | devalue
   - valuable | invaluable adj
   - overstep vt
   - overtake v
@@ -4208,7 +4211,7 @@
 
 - 2020.4.27
 
-  - manufacture n/vt
+  - manufacture n/vt | manufacturer
   - intermediate adj
   - haul n/v
   - bonkers adj
@@ -6283,7 +6286,7 @@
   - resign v | resignation n
   - scathing adj
   - rebuke vt
-  - deputy n
+  - deputy n/adj
   - blistering adj
   - institute n/vt
   - institution n | institutional adj
