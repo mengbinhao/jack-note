@@ -1,3 +1,13 @@
+- 2023.6.27
+
+  > The court said they did not have the standing to sue
+  > In other words, they had no direct stake in the case
+  > Well. It's a patchwork
+  > The Supreme Court has not made it more difficult than it already is for people to get access to abortion pills
+  > XXX says the main thing she can do now is tell people her medical care will remain the same as it's been for the last two years
+  > They've also said that public order has collapsed in Gaza
+  > The thing one everyone's mid here is xxx
+
 - 2023.6.21
 
   > It seems like a tall task
@@ -4597,7 +4607,7 @@
   - lure n/vt
   - belly n/v
   - excel v
-  - caution n/vt | precaution n | cautious adj | cautiously
+  - caution n/vt | cautions adj | precaution n | cautious adj | cautiously
   - abundance n
   - quarantine n/vt
   - parliament n
