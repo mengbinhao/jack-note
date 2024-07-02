@@ -1,3 +1,12 @@
+- 2023.7.2
+
+  - stitch n/v
+  - vigorous adj
+
+  > Let's start with the big picture
+  > XXX will zero in on the border
+  > it might be wishful thinking
+
 - 2023.6.27
 
   > The court said they did not have the standing to sue
@@ -904,7 +913,6 @@
 - 2022.5.16
 
   - brainwash n/v | whitewash n/vt
-  - dynasty n
   - uprise n/vi
   - front-runner
 
@@ -4504,8 +4512,8 @@
   - smooth n/v/adj | smoothly
   - enthuse v | enthusiastic adj | enthusiasm n
   - temporary adj | temporarily adv
-  - temperature n
   - temptation n
+  - temperature n
   - temper n/v | tempered adj
   - elbow n/vt | bow n/v
   - disinfect vt
@@ -6272,6 +6280,7 @@
   - terror n
   - militant n/adj | military n/adj | demilitarize vt
   - depot n/vt/adj
+  - dynasty n
   - nasty adj
   - mock n/v/adj
   - retract vt
