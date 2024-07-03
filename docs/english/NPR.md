@@ -1,3 +1,11 @@
+- 2023.7.3
+
+  - streamline vt
+
+  > step aside
+  > lead to action
+  > That isn't in his nature
+
 - 2023.7.2
 
   - stitch n/v
@@ -1845,7 +1853,6 @@
 
   - concur vi
   - interested | uninterested
-  - preexist v
   - lack n/v
 
   > never say never
@@ -2291,6 +2298,7 @@
 
 - 2021.4.1
 
+  - preexist v
   - existence n | existential adj
 
   > The law enforcement went to great lengths to say that xxx
@@ -2998,7 +3006,7 @@
 
 - 2020.11.10
 
-  - editorial adj
+  - edit | editor | editorial adj
   - guard | guardian | safeguard n/vt
   - slit n/v
   - throat n
