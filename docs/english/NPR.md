@@ -1,3 +1,9 @@
+- 2023.7.8
+
+  - cognitive adj
+
+  > The thing is that what last week was contained to whispers and group chats is now spilling out in the open
+
 - 2023.7.3
 
   - streamline vt
@@ -239,6 +245,9 @@
 
 - 2023.1.4
 
+  - estate n
+  - state n/vt/adj | restate vt | unstated
+  - state-owned adj
   - statement | misstatement
   - clerk n
   - unjust adv
@@ -2308,7 +2317,7 @@
 
   - bulk n/vt
   - theory n
-  - hypothesis n | hypotheses n
+  - hypothesis n | hypotheses n | hypothetical adj
   - pamphlet n
   - label n/v
   - clot n/v
@@ -3085,8 +3094,6 @@
   - breeze n/vi
   - depict vt
   - honesty n | dishonesty | honest adj
-  - estate n
-  - state n/vt/adj | restate vt
   - pope n
 
   > I lost my temper and yelled at him
@@ -4816,7 +4823,6 @@
   - weird adj
   - riff n
   - tariff n/vt
-  - unscripted adj
   - purposely adv
   - slim adj/vi
   - absent adj/vt | absentee n
@@ -5762,7 +5768,6 @@
   - devil n
   - treasury n
   - secrecy n | secretary n
-  - state-owned adj
   - blacklist n/vt
   - positive n/adj ｜ negative n/adj/ | negatively
   - somewhat adv
@@ -6581,6 +6586,7 @@
   - enroll v | enrollment n
   - rough adj | roughly adv
   - essence n | essential n/adj | essentially adv
+  - unscripted adj
   - prescription n
   - afford vt | affordable adj | affordability
 
