@@ -1,3 +1,7 @@
+- 2023.7.15
+
+  > earn a living
+
 - 2023.7.8
 
   - cognitive adj
@@ -1713,7 +1717,7 @@
 - 2021.8.4
 
   - drought n
-  - tire n/v
+  - tire n/v | tireless | tirelessly
 
 - 2021.8.3
 
@@ -4273,7 +4277,7 @@
   - resort n/vi
   - ward n/vt
   - award n/v | awarded
-  - inward adj | downward adj/adv | upward
+  - inward adj | downward adj/adv | upward | onward
   - reward n/vt
   - coward n/adj
   - advance n/v/adj
