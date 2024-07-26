@@ -1,3 +1,15 @@
+- 2023.7.26
+
+  - rhetoric n/adj
+  - whereabout n/adv
+  - overview n
+  - turmoil n
+  - scrutiny n
+  - magnify v
+  - almighty adj
+  - excellence n
+  - beacon n/v
+
 - 2023.7.15
 
   > earn a living
@@ -2036,7 +2048,7 @@
 
   - appliance n
   - rise v/n
-  - steady v/adj
+  - steady v/adj/adv/n
   - tow n/v
   - towel n/v
   - bestow vt
@@ -2055,7 +2067,7 @@
 - 2021.5.14
 
   - abroad adj/adv
-  - prolific adj
+  - prolific adj | prolifically
   - feed v
 
   > We're not seeing any sharp jumps
@@ -2302,7 +2314,7 @@
   - announce v | unannounced
   - denounce v
   - renounce vt
-  - pronounce v | pronounced adj | pronouncement n
+  - pronounce v | pronounced adj | pronouncement n | mispronounce vt
   - pounce n/vi
   - bounce n/v
   - fork n.v
@@ -3472,6 +3484,7 @@
   - tend v | tendency n
   - sow v
   - cunning adj/n
+  - incident n | incidentally adv | incidence n
   - coincide vi | coincident adj | coincidental adj | coincidentally | coincidence n
   - extreme adj/n | extremely
 
@@ -3566,7 +3579,6 @@
 - 2020.7.29
 
   - audience n
-  - incident n | incidentally adv | incidence n
   - vendor n
   - authenticity n | authentication n
   - headquarter n
@@ -3783,7 +3795,7 @@
 - 2020.6.27
 
   - excess n/adj | excessive adj
-  - persuade v | persuadable adj
+  - persuade v | persuadable adj | persuasion n
   - certify vt | certified adj | credential n | certification n | certificate n
 
 - 2020.6.24
