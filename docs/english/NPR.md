@@ -1,3 +1,10 @@
+- 2023.7.27
+
+  - introspective adj
+
+  > He talked last night about how that life still feels present
+  > The line goes on to blame Biden
+
 - 2023.7.26
 
   - rhetoric n/adj
