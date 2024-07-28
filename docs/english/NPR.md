@@ -1,3 +1,17 @@
+- 2023.7.28
+
+  - nefarious adj
+  - condense v
+  - delude vt | deluded adj
+  - grassroots n
+
+  > every now and then
+  > Did you know so and so?
+  > He said it all shapes who he is
+  > They are off the charts
+  > Can Kamala rise to the occasion?
+  > Can you walk us through exactly what is going to happen next?
+
 - 2023.7.27
 
   - introspective adj
@@ -1040,7 +1054,6 @@
   - dazzle n/v
   - particle n
   - filament n/adj
-  - coronal n/adj
 
 - 2022.4.15
 
@@ -1081,7 +1094,8 @@
 - 2022.4.2
 
   - redemption n
-  - ingenious adj | inventive adj
+  - invent vt | reinvent | inventive adj
+  - ingenious adj
   - cereal n
   - entitle vt | entitled
   - ego n | egocentric
@@ -2598,6 +2612,7 @@
   - candle n
   - glow n/vi
   - murmur n/v
+  - trickle n/v
 
   > big bombings have slowed to a trickle
   > There was a time when such attacks were horrifyingly common in Baghdad
@@ -3430,7 +3445,6 @@
 - 2020.8.17
 
   - removal n
-  - upheaval n
 
   > this explosion happened just as millions have been driven into poverty by an economic collapse
   > this is seen as being just too little too late
@@ -4175,7 +4189,7 @@
   - risk n/vt
   - wrestle n/v
   - mugger n
-  - invisible adj | visibility
+  - visible | invisible adj | visibility
   - unexpected adj
   - fear n/v | fearful | fearsome adj
   - urge n/v | urgent adj | urgently | urgency n
@@ -4258,7 +4272,7 @@
 - 2020.4.28
 
   - veto n
-  - unity n | disunity
+  - unite v | unity n | disunity
   - avert vt
 
   > which once would have been unheard of
@@ -4882,7 +4896,6 @@
   - personality n | personalize vt | personnel n | personal n/adj | persona n
   - chafe n/v
   - kin n
-  - coroner n
   - span n/v
 
   > There was a lot ahead of him and makes it doubly tragic that he's gone at 41
@@ -5182,6 +5195,7 @@
   - ash n/v
   - mountain n | mountainous adj | hill | hillside
   - immune n/adj | immunity n | immunize vt
+  - impunity adj
   - nominate vt | nomination | nominee n
 
   > the have put the priority on getting those bodies back
@@ -5207,7 +5221,6 @@
   - asshole n
   - crap n/vi
   - scrap n/v
-  - invent vt
   - ambition n/vt | ambitious adj
 
   > I want to make something of my life
@@ -6454,7 +6467,6 @@
   - congratulatory adj | congratulate vt | congratulation n | congrats
   - constitution n | constitutional adj | unconstitutional | constitutionally
   - constituent n
-  - impunity adj
   - optimize v
   - optimistic adj | optimism n ｜ pessimis n | pessimistic adj
 
