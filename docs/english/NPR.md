@@ -1,3 +1,9 @@
+- 2023.7.29
+
+  - subtext n
+  - bless vt
+  - merit n/vt | merited
+
 - 2023.7.28
 
   - nefarious adj
@@ -3838,7 +3844,7 @@
 
 - 2020.6.22
 
-  - selfish adj | selfless adj
+  - selfish adj | selfless adj | selflessness
 
   > nothing's certain
 
