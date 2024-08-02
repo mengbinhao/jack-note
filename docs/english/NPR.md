@@ -1,3 +1,11 @@
+- 2023.8.2
+
+  - frantic adj
+  - fog n/v
+
+  > The scene was also still really fresh
+  > It's not out of the question
+
 - 2023.7.29
 
   - subtext n
@@ -1107,7 +1115,9 @@
   - ego n | egocentric
   - commonality n
   - shave n/v
+  - condom n
   - condone vt
+  - condolence n
   - slapdash adj | slap n/v/adj | smack n/v
   - palm n
   - balcony n
@@ -2335,7 +2345,8 @@
 
   - tangible adj/n
   - resolve n/v
-  - rub n/v | rubber n/v/adj
+  - rub n/v
+  - rubber n/v/adj
   - wrap n/v
   - ounce n
   - announce v | unannounced
@@ -4453,7 +4464,7 @@
   - tornado n
   - trench n/v
   - reminder n
-  - remain n/v | remainder
+  - remain n/v | remainder | remains
   - obvious adj | obviously
   - preach v
   - constant adj | constantly
@@ -4741,7 +4752,6 @@
   - brick n/vt/adj
   - ministry n | minister n
   - sway n/v
-  - commemorate vt
   - stern adj | sternly
   - intimidate vt | intimidation n
 
@@ -5293,7 +5303,6 @@
   - waist n
   - anal adj
   - pubic adj
-  - condom n
   - glove n
   - vagina n | vaginal intercourse | virgin n | penis n
   - skill-set n
@@ -5899,7 +5908,7 @@
 
 - 2019.10.10
 
-  - memo n | memoir n | memorial adj
+  - memo n | memoir n | memorial adj | commemorate vt
   - notion n
   - refer v | reference n/vt
   - mention n/vt
