@@ -1,3 +1,18 @@
+- 2023.8.6
+
+  - tick n/v
+  - misstep n/vi
+  - deft adj
+  - pal n/vi
+  - heritage n
+
+  > Most of those defining moments came with no warning or calculation
+  > Any little tick or habit that a candidate may have is something that voters could seize on and it could change the way they view the candidate
+  > in such a horrible manner
+  > I respect either one
+  > all of a sudden
+  > as a result of all this
+
 - 2023.8.2
 
   - frantic adj
@@ -939,7 +954,7 @@
 
 - 2022.6.8
 
-  - sensation n
+  - sensation n | sensational
 
   > It's one of those things that you wouldn't choose to repeat but donn't regret
 
@@ -6344,8 +6359,8 @@
   - terror n
   - militant n/adj | military n/adj | demilitarize vt
   - depot n/vt/adj
-  - dynasty n
   - nasty adj
+  - dynasty n
   - mock n/v/adj
   - retract vt
   - climate n
@@ -6598,7 +6613,6 @@
   - briefing n | brief n/vt/adj | briefly adv
 
   > at odds with sb
-  > step down
 
 - 2019.7.30
 
