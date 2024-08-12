@@ -1,3 +1,15 @@
+- 2023.8.12
+
+  - underdog n
+  - conceive v
+  - momentum n
+  - embark v
+
+  > Japanese icon
+  > They do still lean ever so slightly in Trump's direction
+  > She is very much in the honeymoon period right now, and nobody knows when it will end
+  > She's got the stump speech down
+
 - 2023.8.6
 
   - tick n/v
@@ -270,10 +282,6 @@
 - 2023.3.12
 
   - branch n/v
-
-- 2023.3.11
-
-  - deter vt
 
 - 2023.3.6
 
@@ -810,7 +818,7 @@
 - 2022.8.8
 
   - imminent adj
-  - whirl v
+  - whirl v/n
   - tutor vt/n
 
 - 2022.8.2
@@ -1363,7 +1371,7 @@
 
   - develop v | development n | undeveloped
   - ship n/v | shipment n
-  - honey n/v/adj
+  - honey n/v/adj | honeymoon v/vi
   - bee n
   - insect n
 
@@ -2202,7 +2210,7 @@
 
 - 2021.4.24
 
-  - evaporate v
+  - evaporate v | evaporated
   - greed n | greedy adj
   - instant n/adj
   - goose n
@@ -2452,6 +2460,7 @@
 - 2021.3.11
 
   - opportunity n
+  - deter vt
   - determine v | determination n | indeterminate adj
   - terminate v
   - asset n
@@ -2836,7 +2845,7 @@
 - 2020.12.27
 
   - wellness n
-  - swell n/v
+  - swell n/v | swelled
   - dwell vi
   - unwell adj
   - farewell n
@@ -3068,7 +3077,8 @@
 
   - relative n/adj | relatively | | relevant adj
   - passerby n
-  - alleyway n
+  - alley n | alleyway n
+  - valley n
 
   > Our world is anything but safe
 
@@ -3341,7 +3351,7 @@
   - journalist n
   - inexperienced adj
   - duplicate n/vt/adj
-  - intro | introduce vt
+  - intro | introduce vt | introductory adj
   - playbook n
   - cover | uncover v | uncovered | undercover adj
   - discover v
@@ -3870,6 +3880,7 @@
 
 - 2020.6.22
 
+  - selfie n
   - selfish adj | selfless adj | selflessness
 
   > nothing's certain
@@ -5800,10 +5811,8 @@
   - scarce adj/adv
   - scarf n | headscarf
   - diminish v | diminished adj
-  - valley n
   - inundate vt
   - hard-hit
-  - prefecture n
   - Panamanian n/adj
   - anchor n/vt
   - bay n/v
