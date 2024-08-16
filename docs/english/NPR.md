@@ -1,3 +1,9 @@
+- 2023.8.16
+
+  - livable | unlivable
+
+  > Which is another way of saying that ...
+
 - 2023.8.12
 
   - underdog n
@@ -1905,7 +1911,7 @@
 
 - 2021.7.1
 
-  - patient n/adj | patience n
+  - patient n/adj | patience n | impatient adj
   - rigorous adj | rigorously
   - repair n/v | disrepair
 
@@ -4288,6 +4294,7 @@
   - famine n
   - situate vt/adj | situation n
   - painful | hurtful
+  - systemic adj
   - systematic adj | systematically | systematize vt
   - ecosystem n
   - profit n/v | nonprofit adj | profitable adj
