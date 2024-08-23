@@ -1,3 +1,10 @@
+- 2023.8.23
+
+  - stark adj
+  - arena n
+
+  > We're not yet back to where a lot of average people want us to be. The momentum is certainly in the right direction
+  > 
 - 2023.8.16
 
   - livable | unlivable
@@ -584,6 +591,7 @@
 
 - 2022.2.2
 
+  - mindful adj
   - mindset n | mindless adj/n
 
 - 2022.2.1
@@ -2498,6 +2506,7 @@
 
   - equilibrium n
   - needle n/v
+  - needless | needlessly
 
   > I'm going to ask you to take a step back xxx
   > so my read of xxx
@@ -6093,6 +6102,7 @@
   - lengthy adj
   - conference n
   - garner vt
+  - cumulate v | cumulative adj
   - accumulate v | accumulation n
   - reputation n
   - refuge n/v | refugee n
@@ -6910,7 +6920,8 @@
   - hawkish adj
   - assume v | assumption n
   - suspicion n | suspicious adj
-  - isolate n/v/adj | isolated adj | isolation n | insulate vt
+  - insult n/vt
+  - isolate n/v/adj | isolated adj | isolation n | insulate vt | insulated
 
   > xxxx as minor
   > mixed message
@@ -6981,7 +6992,6 @@
   - depart v/adj | departure n
   - aggress v | aggressive adj | aggressively adv | aggression n | aggressiveness n
   - toe-to-toe
-  - insult n/vt
   - resolute adj | resolutely adv
   - predecessor n
   - embarrass v | embarrassed adj ｜ embarrassment n
