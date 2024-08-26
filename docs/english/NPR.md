@@ -4,7 +4,8 @@
   - arena n
 
   > We're not yet back to where a lot of average people want us to be. The momentum is certainly in the right direction
-  > 
+  > It was a really emotional moment, and the crowd was noticeably moved
+
 - 2023.8.16
 
   - livable | unlivable
@@ -1067,7 +1068,7 @@
   - crust n/v
   - patent vt/adj/n
   - courtyard n
-  - notice n/v | noticeable
+  - notice n/v | noticeable | noticeably
   - obstacle n
   - sigh n/v
   - deprive vt
