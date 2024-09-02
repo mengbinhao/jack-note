@@ -1,3 +1,10 @@
+- 2023.9.2
+
+  - reiterate n/vt/adj
+
+  > At least we definitely know that no deal was reached. And it's unknown how much progress was made
+  > X and y have been keeping the region on edge this month
+
 - 2023.8.23
 
   - stark adj
