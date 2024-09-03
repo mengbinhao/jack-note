@@ -5541,7 +5541,7 @@
 
 - 2019.11.14
 
-  - fraud n | fraudulent adj/adv | scam n/v | scammer
+  - fraud n | fraudulent adj/adv | scam n/v | scammer | defraud
   - persecute v | persecution n
   - victor n
   - finding n
