@@ -1,3 +1,13 @@
+- 2023.9.11
+
+  - track n/v
+  - truncate vt | truncated
+  - allude vi
+  - groundbreaking adj
+  - flourish v
+
+  > One area that caught my attention was xxx
+  
 - 2023.9.2
 
   - reiterate n/vt/adj
@@ -372,7 +382,7 @@
 
   - monopoly
   - flank n/v
-  - occurrence n
+  - occur | occurrence n
 
   > They stand out for not really standing out, I have to tell you
   > Does that amount to progress?
@@ -2440,7 +2450,7 @@
 
 - 2021.3.19
 
-  - attract v
+  - attract v | attractive
 
 - 2021.3.18
 
@@ -2696,7 +2706,7 @@
 - 2021.2.1
   - flake n/v | snowflake
   - immense adj | immensely
-  - multiple adj | multitask n | multilateral adj | multitude n
+  - multiple adj | multitask n | multitude n
   - entire | entirely
 
 > roll back what former President Trump had done
@@ -3157,6 +3167,7 @@
 
 - 2020.11.1
 
+  - ovation n
   - innovation n
   - squeeze n/v
 
@@ -4906,7 +4917,6 @@
   - ruin n/vt
   - sneak n/v/adj | sneaker
   - righteous adj
-  - ovation n
   - heady adj
 
   > they visit to Washington was in the works for couple of weeks
@@ -6599,7 +6609,6 @@
   - violate vt | violation n
   - comply vi | compliant adj | compliance n | defer v | deference n
   - compliment n/vt
-  - complicit n/adj
   - complicate | complicated adj
   - produce n/vt
   - proceed vi/n | proceeding n
@@ -6770,7 +6779,7 @@
   - violence n | violent adj | violently
   - ruling adj
   - activist n
-  - joint adj | jointly
+  - joint adj/n/v | jointly
   - council n
   - civilian n/adj | civil adj
   - civilize v | civilization n | uncivil | civilized
@@ -6785,14 +6794,14 @@
 
 - 2019.7.16
 
-  - critic n | critical adj | criticize v | criticism n
+  - critic n | critical adj | criticize v | criticism n | critique n/vt
   - cable n/v
   - ambassador n | embassy n
   - inept adj
   - radiate v | radiant adj | radiation
   - secure v/adj | security | insecurity
   - diplomat n | diplomatic adj | diplomacy n
-  - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial
+  - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial | substantiated
   - clumsy adj
   - outgoing adj
   - uninformed adj
