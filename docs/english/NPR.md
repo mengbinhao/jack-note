@@ -7,7 +7,8 @@
   - flourish v
 
   > One area that caught my attention was xxx
-  
+  > Within the margin of error
+
 - 2023.9.2
 
   - reiterate n/vt/adj
@@ -6666,7 +6667,7 @@
   - brevity n
   - obstruct vt | obstruction n
   - ultimate n/adj | ultimately adv
-  - motivate v | motivated adj | motivation n | motive n | demotivate v
+  - motivate vt | motivated adj | motivation n | motive n | demotivate v
   - rare adj | rarely | rarity n
   - porch n
 
