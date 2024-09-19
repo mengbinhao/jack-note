@@ -1,3 +1,9 @@
+- 2023.9.19
+
+  - verbal adj
+
+  > xxx get into yyy
+
 - 2023.9.11
 
   - track n/v
@@ -5281,7 +5287,7 @@
 - 2019.12.24
 
   - observant adj
-  - assert vt | asserted | assertive
+  - assert vt | asserted | assertive | assertion
   - heartfelt adj
   - heartless n
   - mediator n
