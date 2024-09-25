@@ -1,3 +1,11 @@
+- 2023.9.25
+
+  - kettle n
+  - slipper n/vt
+  - storefront n
+
+  > I did manage to get in
+
 - 2023.9.19
 
   - verbal adj
@@ -10,6 +18,7 @@
   - truncate vt | truncated
   - allude vi
   - groundbreaking adj
+  - flour n/vt
   - flourish v
 
   > One area that caught my attention was xxx
@@ -246,7 +255,7 @@
 
   - grant v
   - peak n/v
-  - deport vt
+  - deport vt | deportation
 
   > So take us back, if you would, xxx
   > Tonight we have delivered on that promise
