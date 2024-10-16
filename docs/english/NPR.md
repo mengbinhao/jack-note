@@ -1,3 +1,15 @@
+- 2023.10.16
+
+  - takeout n
+  - fortify v
+
+  > These cases will be unfolding for many months to come
+  > You are flying by on this app
+  > So since then, we have been reviewing large swaths of the suit that we never intended to see the light of day
+  > It's an out-of-body experience
+  > No even hints?
+  > It really seems that Hezbollah is kind of acting in kind
+
 - 2023.9.25
 
   - kettle n
@@ -2923,7 +2935,7 @@
 
 - 2020.12.23
 
-  - summary n/adj | summarize vt
+  - summary n/adj | summarize vt | summarization
   - period n | periodic adj
   - horrify vt | horrifying adj
   - burglar n
@@ -3251,7 +3263,6 @@
   - confiscate vt
   - rug n
   - tyrant n
-  - confidential adj
   - particular n/adj
   - radar n
 
@@ -4565,7 +4576,8 @@
 
   - break n/v | breakout n | outbreak n
   - breakdown n
-  - confident adj | confidence n/adj | confidante n
+  - confident adj | confidence n/adj
+  - confidential adj
   - community n | communal adj | communism
   - vaccine n/adj | vaccination n | vaccinate vt
   - Antarctica n
