@@ -1,5 +1,12 @@
 - 2023.10.16
 
+  - psychology n
+
+  > He is set on breaking more barriers //be set on sth
+  > He says hie mental state is what keeps him focused and calm
+
+- 2023.10.16
+
   - takeout n
   - fortify v
 
