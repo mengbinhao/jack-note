@@ -1,3 +1,14 @@
+- 2023.11.8
+
+  - incumbent adj
+  - carriage n | miscarriage n
+  - gender n
+  - dismantle vt
+  - jewelry n
+
+  > For as long as I can remember, I have always had an instinct to protect
+  > xxx kind of highlight that
+
 - 2023.10.16
 
   - psychology n
@@ -2580,7 +2591,7 @@
   - overcome v
   - override vt
   - overthrow n/vt
-  - overlook v
+  - overlook v/n
   - overall adj/adv
   - overnight n
   - overhaul v
@@ -2771,7 +2782,6 @@
   - equal n/vt/adj | equity n | inequity | equivalent n/adj
   - quality n/adj
   - equality n | inequality | equation n
-  - inaugural adj | inauguration n
   - decry vt
   - mall n
   - lawn n
@@ -3253,7 +3263,7 @@
   - permit n/v
   - electricity n
   - cattle n
-  - ethnic adj
+  - ethnic adj | ethnical
 
 - 2020.10.21
 
@@ -5641,6 +5651,7 @@
 
   - cord n/vt
   - accord n/v
+  - accordance n
   - aggregate n/v/adj
   - tune n/v
   - fortune n/v
@@ -6038,7 +6049,6 @@
   - harass vt | harassed adj | harassment n
   - thereafter adv
   - breach n/vt
-  - mature v/adj | immature adj
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
@@ -6208,7 +6218,7 @@
   - hearsay n
   - enormous adj
   - stir n/v
-  - ignite vt | ignition n
+  - ignite vt | ignition n | reignite
   - dignity n
   - rescue n/vt
   - dumb adj
@@ -6249,6 +6259,7 @@
   - energize vt
   - poster n | postal adj
   - pose n/v | posture n/v
+  - mature v/adj | immature adj
   - mutual adj | mutually adv
 
   > to tip the scales and determine who will
@@ -6801,7 +6812,7 @@
   - profile n | high-profile adj
   - reserve n/v | preserve n/vt | reserved | unreservedly | reservation
   - retain vt
-  - restrict vt | restricted adj | restriction n
+  - restrict vt | restricted adj | restriction n | restrictive
   - strict adj
   - district n
 
