@@ -1,3 +1,11 @@
+- 2023.11.14
+
+  - inhale v
+  - pit n
+  - appease vt
+
+  > This does not correspond to reality, It is completely made up
+
 - 2023.11.8
 
   - incumbent adj
@@ -9,7 +17,7 @@
   > For as long as I can remember, I have always had an instinct to protect
   > xxx kind of highlight that
 
-- 2023.10.16
+- 2023.10.26
 
   - psychology n
 
