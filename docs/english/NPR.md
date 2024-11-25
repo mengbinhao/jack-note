@@ -1,3 +1,7 @@
+- 2023.11.25
+
+  - adamant n/adj | adamantly
+
 - 2023.11.14
 
   - inhale v
@@ -2106,7 +2110,7 @@
   - havoc n/v
   - prey n/vi
   - jaw n
-  - numb vt/adj | numbness
+  - numb vt/adj | numbness n
   - cheek n
   - prescribe v
 
@@ -2421,7 +2425,7 @@
 - 2021.4.7
 
   - increase | increment | incremental
-  - marine n/adj | submarine n
+  - marine n/adj | submarine n | maritime adj
   - evade v
   - payload n
 
@@ -3311,7 +3315,6 @@
   - fortunate | unfortunate | fortunately
   - convey vt
   - protocol n
-  - maritime adj
 
   > They are in a holding pattern
 
@@ -4693,7 +4696,7 @@
   - aware adj ｜ awareness n | unaware adj
   - halt n/v
   - smooth n/v/adj | smoothly
-  - enthuse v | enthusiastic adj | enthusiasm n
+  - enthuse v | enthusiast n | enthusiastic adj | enthusiasm n
   - temporary adj | temporarily adv
   - temptation n
   - temperature n
