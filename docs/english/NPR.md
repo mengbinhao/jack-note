@@ -1,5 +1,12 @@
 - 2023.11.25
 
+  - maneuver n/v
+  - glacier n
+
+  > XXX show us just how much we can pack in to those long daylight hours
+
+- 2023.11.25
+
   - adamant n/adj | adamantly
 
 - 2023.11.14
@@ -1989,7 +1996,7 @@
 - 2021.7.2
 
   - seriousness n
-  - prove v | unproven
+  - prove v | unproven adj
 
   > What's so shocking is the fact that it has just continued on the same tune
 
@@ -4802,7 +4809,6 @@
   - belly n/v
   - excel v
   - caution n/vt | cautions adj | precaution n | cautious adj | cautiously
-  - abundance n
   - quarantine n/vt
   - parliament n
   - bump n/v/adv | bumpy adj
@@ -5629,7 +5635,7 @@
   - skyscraper n
   - noxious adj
   - pungent adj
-  - routine n | routinely adv
+  - routine n/adj | routinely adv
   - outskirt n
 
   > go wrong
@@ -6210,7 +6216,7 @@
 
   - muffled adj
   - complex n/adj
-  - phenomenon n | phenomenal adj
+  - phenomenon n | phenomena n | phenomenal adj
   - finalize v
 
   > I don't think anybody expects it to become less so
