@@ -1,3 +1,14 @@
+- 2023.12.3
+
+  - tailor n/v
+  - hook n/vt
+  - predator n
+  - breed n/v
+  - penguin n
+  - unmatched adj
+
+  > We go by She and today She is a nonprofit that creates sustainable education and employment opportunities for girls and women around the world.
+
 - 2023.11.25
 
   - maneuver n/v
@@ -1752,6 +1763,7 @@
 
   - annoy vt | annoying
   - fur n/vt
+  - unfurl v
   - county n
   - countless n
   - discount n/v
@@ -2618,7 +2630,6 @@
   - oversee vt | oversea adj/adv
   - overcharge n/vt
   - overstate vt
-  - predate vt
 
 - 2021.3.2
 
@@ -5448,7 +5459,6 @@
   - dimension n
   - oblivious adj
   - misery n | miserable
-  - unfurl v
   - penalize vt
   - revolt n/v
 
