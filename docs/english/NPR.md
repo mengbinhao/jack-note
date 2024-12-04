@@ -6158,7 +6158,7 @@
   - portfolio n
   - plate n | plateau n
   - contend v | contender n
-  - razor n
+  - razor n/vt
 
   > which is what I was kind of known for
   > how does the US move ahead on these issues?
