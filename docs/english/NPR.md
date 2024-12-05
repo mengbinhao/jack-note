@@ -1,3 +1,13 @@
+- 2023.12.5
+
+  - gaffe n | misstep n/vi
+  - wordless adj
+  - compose v | composed
+
+  > XXX takes a closer look at how it all came to be, and how debates like tonight's can provide defining moments that can determine who eventually becomes the next President of the United States
+  > There were the wordless missteps, the body language gaffes
+  > Any little tick or habit that a candidate may have is something that voters could seize on, and it could change the way they view the candidate
+
 - 2023.12.3
 
   - tailor n/v
@@ -3748,7 +3758,6 @@
 
 - 2020.7.29
 
-  - audience n
   - vendor n
   - authenticity n | authentication n
   - headquarter n
@@ -3779,7 +3788,6 @@
 - 2020.7.24
 
   - registration n
-  - fraught adj
   - sniff n/v
   - fame n/vt | defame v | defamation
 
@@ -4339,7 +4347,7 @@
   - risk n/vt
   - wrestle n/v
   - mugger n
-  - visible | invisible adj | visibility
+  - visible | invisible adj | visibility | visibly
   - unexpected adj
   - fear n/v | fearful | fearsome adj
   - urge n/v | urgent adj | urgently | urgency n
@@ -4370,6 +4378,8 @@
   - arguably adv
   - objective adj/n | objectively | object | objection n
   - audit n/v | audition n/v
+  - audience n
+  - audibly adv
   - immediate adj
   - prepare v | prepared | unprepared | preparedness n | preparation
   - million | billion | trillion n | billionaire
