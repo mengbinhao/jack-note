@@ -1,3 +1,14 @@
+- 2023.1.2
+
+  - vanish v
+  - pesticide n
+  - snapshot
+  - onset n
+  - intuition n
+
+  > She's been going through a lot since he vanished
+  > It was located offshore which is good news in terms of the shaking intensities, because the farther away you are from an earthquake, the less the shaking will be.
+
 - 2023.12.5
 
   - gaffe n | misstep n/vi
@@ -43,7 +54,6 @@
   - incumbent adj
   - carriage n | miscarriage n
   - gender n
-  - dismantle vt
   - jewelry n
 
   > For as long as I can remember, I have always had an instinct to protect
@@ -891,7 +901,8 @@
   - concept | conception | misconception
   - propel vt
   - jelly n/v
-  - pitch | intonation | syllable | stress | glide n/v | reduction | contraction | content words | function words
+  - distress n/vt | distressed adj
+  - pitch | intonation | syllable | stress n/vt | glide n/v | reduction | contraction | content words | function words
 
   > If I can step back a bit, ...
   > They haven't risen enough to **keep pace** with inflation
@@ -3796,7 +3807,7 @@
 
 - 2020.7.23
 
-  - benefit n/v | beneficial adj | beneficiary n
+  - benefit n/v | beneficial adj
   - opinion n
   - inquire n
   - dynamic n/adj
@@ -4762,8 +4773,6 @@
   - relinquish vt
   - forehead n
   - gauge n/vt
-  - stress n/vt
-  - distress n/vt | distressed adj
   - folk n
   - adjust v | adjustment n | adjustable
   - peculiar adj
@@ -5591,6 +5600,7 @@
   - remorse n | remorseful
   - contrition n
   - minor n/adj | underage
+  - minority n | majority n
   - prostitution n
   - solicit v
   - toxic adj
@@ -5911,7 +5921,6 @@
   - anticipate v | anticipated adj | anticipation n
   - arrest n/vt
   - dialogue n/v
-  - minority n | majority n
 
   > if I can keep track all of this
   > on a more personal note
@@ -6659,7 +6668,6 @@
   - inquiry n
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj | abuser
-  - minor n/adj
   - prosecute v | prosecutor n | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
   - emphasize vt | emphasis n | emphatic adj
 
@@ -6941,7 +6949,7 @@
 
 - 2019.7.10
 
-  - shore n/vt | ashore adj/adv | shoreline | offshore | onshore
+  - shore n/vt | ashore adj/adv | shoreline | offshore adj | onshore
   - foe n
   - tough n/adj/adv
   - neighborhood n | neighboring adj | neighbor n/adj
