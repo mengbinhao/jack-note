@@ -88,7 +88,7 @@
 - stylus
 - postcss
 
-### test framework
+### Test Framework
 
 - [Mocha](https://mochajs.org/)
   - 在需要编写和运行单元测试时使用
@@ -153,49 +153,83 @@
 ### 通用函数库
 
 - [microjs](http://microjs.com/#)
+
 - [30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
+
 - [awesome-javascript](https://github.com/sorrycc/awesome-javascript)
+
 - [==Day.js==](https://github.com/iamkun/dayjs)
+
 - [==Lodash.js==](https://www.npmjs.com/package/lodash)
   - 当您需要 JS 实用程序库时使用
   - 您使用了大量的 OOP(面向对象编程)
+
+- [radash](https://github.com/sodiray/radash) 与 lodash 相比更现代。它提供了 tryit 和 retry 等新功能
+
+- [driver](https://github.com/kamranahmedse/driver.js) 一个轻量级的普通 JavaScript 库，用于创建页面浏览
+
 - ==timeago.js==
+
 - [Ramda](https://www.npmjs.com/package/ramda)
+
   - 当您希望使用函数式的编程风格时
   - 您想要像 lodash 这样的东西,但是在函数式编程范式中
+
 - [underscorejs](https://underscorejs.org/#toArray)
+
 - [lazy.js](https://github.com/dtao/lazy.js)
+
 - [collect.js](https://github.com/ecrmnn/collect.js)
   > Convenient and dependency free wrapper for working with arrays and objects
+
 - [voca](https://github.com/panzerdp/voca)
   > string library
+
 - [mout](http://moutjs.com/)
   > utilities
+
 - [outils](https://www.npmjs.com/package/outils)
   > 日期格式化、url 参数转对象、浏览器类型判断、节流函数等常用函数
+
 - [Chance](http://chancejs.com/)
   > random thing
+
 - [mathjs](https://github.com/josdejong/mathjs)
+
 - [Moment.js](https://www.npmjs.com/package/moment)
   - 在需要解析、验证、操作和显示日期/时间时使用
+
 - [UUID](https://www.npmjs.com/package/uuid)
   - 当您需要随机的、唯一的、难以破解的 id 时使用
+
 - [Sugar](https://github.com/andrewplummer/Sugar)
+
 - [polished](https://polished.js.org/)
   > A lightweight toolset for writing styles in JavaScript
+
 - [bluebird](https://github.com/petkaantonov/bluebird)
+
 - [async](https://github.com/caolan/async)
+
 - [es5-shim](https://github.com/es-shims/es5-shim)
+
 - [handlebars](https://github.com/wycats/handlebars.js)
+
 - [immer.js 实战讲解](https://segmentfault.com/a/1190000017270785)
+
 - [Fs-extra](https://www.npmjs.com/package/fs-extra)
   - 当您需要能够递归地使用 mkdir、rm-rf 和 Node 中缺少的其他文件系统级功能时
+
 - [Nodemailer](https://www.npmjs.com/package/nodemailer)
   - 当您需要从 Node 发送电子邮件时使用
+
 - [Dotenv](https://www.npmjs.com/package/dotenv)
   - 当您需要将`.env`文件中的环境变量加载到`process.env`时使用
+
 - [fabric.js](http://fabricjs.com/)
   - 一个强大而简单的 JS Canvas 库
+
+- [logicflow](https://github.com/didi/LogicFlow)  一个流程图编辑框架，提供交互和编辑的基本功能，以及灵活的节点定制和插件机制，满足了类似流程图的业务需求
 
 ### CLI
 
@@ -257,6 +291,7 @@
 - velocity.js
 - particle.js 粒子效果
 - hammer.js 手势
+- [lottie](https://github.com/airbnb/lottie-web)  Lottie 由 Airbnb 开发，是一个跨平台的动画库。设计人员可以在 After Effects 中创建动画并将其导出为 JSON 文件，这些文件可以无缝集成到移动应用程序和网站
 
 ### 图像
 
@@ -295,10 +330,14 @@
 - [图片占位符](https://github.com/imsky/holder)
 - [Mark Text](https://marktext.app/)
 - progress-estimator 记录进度条并估算 Promise 完成所需的时间
+- [ProgressBar](https://github.com/kimmobrunfeldt/progressbar.js)
+- [tesseract](https://github.com/naptha/tesseract.js)
+- [zxcvbn](https://github.com/zxcvbn-ts/zxcvbn) 受密码破解程序启发的密码强度估算器。它使用模式匹配和保守估计来识别和分析超过 40,000 个常见密码，并过滤掉常见的名字、姓氏、维基百科中的流行词和许多文化中的常见词，并识别常见模式，如日期、重复（例如“aaa”）、序列（例如“abcd”）、键盘粉碎（例如“qwertyuiop”）和 l33t speak
+- [sunshine-track](https://github.com/brix/crypto-js) 专为前端监控而设计，灵感来自 web-see。它报告用户行为、错误、页面过渡、白屏和性能指标。它适用于 Vue、React、Angular 等
 
 ### 代码高亮
 
-- [hightlight.js](https://highlightjs.org/)
+- [hightlight.js](https://highlightjs.org/)    支持 100 多种语言的纯 JavaScript OCR 库
 
 ### 滚动库
 
@@ -342,6 +381,7 @@
 - [dragula](https://github.com/bevacqua/dragula)
 - [Draggabilly](https://github.com/desandro/draggabilly)
 - [draggable](https://shopify.github.io/draggable/)
+- [formkit/drag-and-drop](formkit/drag-and-drop) 一个小型的、与框架无关的拖放库，压缩后约为 4KB。它采用数据优先的方法
 
 ### 文件上传
 

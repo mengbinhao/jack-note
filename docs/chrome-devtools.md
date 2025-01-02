@@ -108,24 +108,26 @@
 
 ### 5.Sources
 - {} => format
-
 - Filesystem
-
 - Snippets
-
 - blackbox script
-
 - condition breakpoint
 
     - 可以直接console.log(), 返回時falsy不會暫停
-
 - pause on exception
-
 - ctrl+shift+p-> 查看代码coverage
-
 - Local overrides
 
     - Local overrides 模拟 Mock 数据
+
+#### online debug
+
+1. source -> overrides
+2. Select folder for overrides
+3. 允许访问文件夹
+4. 在Network中选择一个文件，右击 Override content 修改文件，并按ctrl+s保存
+5. 刷新页面
+6. 如果想去掉修改的内容，删除对应修改的内容或直接删除本地文件，再刷新即可
 
 ### 6.Network
 - **自定義顯示列**

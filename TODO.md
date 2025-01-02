@@ -395,6 +395,7 @@
 - [一文让你 30 分钟快速掌握 Vue3](https://mp.weixin.qq.com/s/E_SDmH9hgvRLTB6bsFx9tg)
 - [Vue3 3 种 diff](https://juejin.cn/post/7139034950598131720)
 - [1.1 万字从零解读 Vue3.0 源码响应式系统](https://mp.weixin.qq.com/s?__biz=MzkwODIwMDY2OQ==&mid=2247488228&idx=1&sn=9e8543159882ade6216416d545a037a9) ------
+- [Vue 效率指南](https://juejin.cn/post/7445207911537623051?share_token=038C2510-92C7-4DDC-BF03-781F0A3AC9BE)
 
 #### project related
 
