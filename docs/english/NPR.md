@@ -1,3 +1,9 @@
+- 2023.1.9
+
+  - parole n/vt
+  - waive vt
+  - fiscal adj | fiscally
+
 - 2023.1.2
 
   - vanish v
@@ -69,7 +75,7 @@
 - 2023.10.16
 
   - takeout n
-  - fortify v
+  - fortify v | fortified adj
 
   > These cases will be unfolding for many months to come
   > You are flying by on this app
@@ -4228,13 +4234,12 @@
 - 2020.5.27
 
   - allowance n
-  - generous adj
+  - generous adj | generosity
 
   > People can stay on their feet
 
 - 2020.5.26
 
-  - severity n
   - gist n
 
 - 2020.5.25
@@ -4770,7 +4775,6 @@
   - rely vi | reliable adj | unreliable | reliance n
   - relieve vt | relief n
   - religion n | religious adj
-  - relinquish vt
   - forehead n
   - gauge n/vt
   - folk n
@@ -5601,12 +5605,11 @@
   - contrition n
   - minor n/adj | underage
   - minority n | majority n
-  - prostitution n
   - solicit v
   - toxic adj
   - charity n | charitable
   - offend v | offender n
-  - severe adj | severely
+  - severe adj | severely | severity n | sever v
   - foresee v | foreseeable adj
   - taint n/v | tainted adj
   - repaid v/adj | unpaid adj
