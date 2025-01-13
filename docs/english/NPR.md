@@ -1,3 +1,12 @@
+- 2023.1.13
+
+  - bail n/vt
+  - popcorn n
+
+  > To the people who've been with me for over 30 years, especially the people who've believed in me when I haven't believed in myself
+  > And I'll just leave you one thing that I think this movie s imparting, is in those moments when we don't think we're smart enough or pretty enough or skinny enough or successful enough or basically just not enough, I had a women say to me, just know you will never be enough, but you can know the value of you worth if you just put down the measuring stick.
+  > deep discount
+
 - 2023.1.9
 
   - parole n/vt
@@ -4821,6 +4830,7 @@
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
   - human n/adj | humanitarian | humanity n | humane adj | inhumane
+  - hammer n/v
 
   > humanitarian crisis
   > what we're seeing now is just sort of like a hammering out of the parameters
@@ -5095,8 +5105,8 @@
   - lump n
   - numerous adj
   - steep n/v/adj
-  - hammer n/v
   - partial adj
+  - impart vt
   - impartial adj
   - magnate n
   - casino n
@@ -5232,7 +5242,7 @@
   - govern v | governor n | ungovernable adj | misgovernment n
   - intersect v | intersection n
   - soak n/v
-  - belongings n
+  - belong vi | belongings n
   - workweek n
 
 - 2020.1.14
@@ -6535,7 +6545,6 @@
   - estimate n/vt | estimation n | underestimate vt/v
   - tackle n/vt
   - mobilize vt | mobilization
-  - corrode v
   - demonstrate v | demonstrator | demonstration n
   - interfere vi | interference n | intervene vi | intervention n | meddle vi
   - criminality n | crime n | criminal n/adj
