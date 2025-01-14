@@ -5043,7 +5043,7 @@
   - riff n
   - tariff n/vt
   - purposely adv
-  - slim adj/vi
+  - slim adj/vi | skinny
   - absent adj/vt | absentee n
   - present n/v/adj | presence n | represent vt | representative n/adj | representation | absence
   - presentation
@@ -5979,7 +5979,7 @@
 - 2019.10.16
 
   - anxious adj | anxiously | anxiety n
-  - devil n
+  - evil adj/n | devil n
   - treasury n
   - secrecy n | secretary n
   - blacklist n/vt
