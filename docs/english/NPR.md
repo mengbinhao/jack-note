@@ -1,3 +1,7 @@
+- 2023.1.16
+
+  > Members of Congress are far more likely than the population in general to identify as religious
+
 - 2023.1.13
 
   - bail n/vt
@@ -1724,7 +1728,7 @@
 - 2021.9.27
 
   - augment n/vt
-  - advise v | advisable | advisory n
+  - advise v | advisable | advisory n/adj
   - likelihood n
 
 - 2021.9.24
