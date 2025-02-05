@@ -1,6 +1,6 @@
-- 2023.1.16
+- 2023.2.5
 
-  > Members of Congress are far more likely than the population in general to identify as religious
+  - causal
 
 - 2023.1.13
 
@@ -1547,7 +1547,6 @@
   - dense adj | densely
   - smog n
   - crop n/v
-  - moisture n
   - distant adj
 
 - 2021.11.29
@@ -2223,7 +2222,6 @@
   - shear n/vt
   - shift n/v
   - inland n/adj
-  - gust n/vi
   - crane n/v
   - hurricane
 
@@ -5006,8 +5004,8 @@
 
   - native adj
   - struggle n/v
-  - population n
-  - popularity n | popular | unpopular
+  - populate | population n
+  - popularity n | popular | unpopular | unpopulated adj
   - unify vt | unification | reunification
   - swap n/v
   - percentage n
