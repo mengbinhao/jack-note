@@ -1,3 +1,11 @@
+- 2023.2.11
+
+  - verse n
+  - tenure n/vt
+
+  > all details are agreed upon
+  > xxx can go into effect
+
 - 2023.1.13
 
   - bail n/vt
@@ -4827,7 +4835,7 @@
 
   - sanitation n
   - claim n/v | reclaim vt | claimant n | proclaim vt | unclaimed
-  - human n/adj | humanitarian | humanity n | humane adj | inhumane
+  - human n/adj | humanitarian | humanity n | humane adj/adv | inhumane
   - hammer n/v
 
   > humanitarian crisis
@@ -5475,7 +5483,6 @@
 - 2019.12.16
 
   - riddle n/v | riddled adj
-  - inspire vt
   - clunky adj
   - pitiful adj
   - obliterate vt
@@ -6635,7 +6642,7 @@
   - poverty n
   - unchecked adj
   - detain vt | detention n | detainee
-  - inspiration n
+  - inspire vt | inspiration n
   - expel vt
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj | intensely
   - pledge n/vt
