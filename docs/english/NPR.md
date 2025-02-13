@@ -6,6 +6,8 @@
   > all details are agreed upon
   > xxx can go into effect
   > I spoke to several officials of the agency who didn't want to be named because they're not authorized to speak publicly
+  > xxx were powerless to stop yyy but they took the senate floor delivering speech after speech to voice their opposition
+  > xxx was part of the first hour of the meeting uring the group to get it done
 
 - 2023.1.13
 
@@ -3578,6 +3580,7 @@
   - insider n
   - quest n/v
   - unquestionably adv
+  - voice v/n
   - invoice n/v
   - penny n
 
@@ -5903,6 +5906,7 @@
   - cease v | ceasefire n | decease n/vi
   - toll n/vt
   - vague adj | vaguely
+  - powerless adj
   - empower vt
   - occupy v | occupation n
   - mad adj | madness n
