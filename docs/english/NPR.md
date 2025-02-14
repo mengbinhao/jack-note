@@ -8,6 +8,7 @@
   > I spoke to several officials of the agency who didn't want to be named because they're not authorized to speak publicly
   > xxx were powerless to stop yyy but they took the senate floor delivering speech after speech to voice their opposition
   > xxx was part of the first hour of the meeting uring the group to get it done
+  > It's a full circle moment for Biden
 
 - 2023.1.13
 
@@ -3338,6 +3339,7 @@
   - permit n/v
   - electricity n
   - cattle n
+  - poultry n
   - ethnic adj | ethnical
 
 - 2020.10.21
