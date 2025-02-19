@@ -1,3 +1,15 @@
+- 2023.2.19
+
+  - keepsake n
+
+  > He's well-known, He's well-liked, He's poised to be confirmed on day one
+  > He seems to have helped pave the way for xxx
+  > Better late than never
+  > I'm thankful for President for doing it, whether it's at the end or the beginning, the main thing is to have it done, so it's a big deal.
+  > XXX was at a loss for words when xxx
+  > I can just create a memory. Maybe it's something slightly nice in this really horrific time
+  > A plane crash landed belly first on the water in New York's Hudson River
+
 - 2023.2.11
 
   - verse n
@@ -432,6 +444,8 @@
   - foreseen vt | unforeseen
   - probability n
   - prefer
+  - preferred adj | preference
+  - refer v | reference n/vt
 
 - 2023.3.12
 
@@ -5196,7 +5210,6 @@
   - ferry n/v
   - brace n/vt | bracing adj
   - embrace n/v
-  - dub vt
   - explode v | explosive n/adj | explosion n
 
   > No word of other casualties yet
@@ -6085,7 +6098,6 @@
 
   - memo n | memoir n | memorial adj | commemorate vt
   - notion n
-  - refer v | reference n/vt
   - mention n/vt
   - plea n | plead v | pleading n/adj
   - pleased adj | displease vt
@@ -6182,7 +6194,7 @@
 
   - Ukraine n
   - whistle-blower n
-  - corrupt v | corruption n
+  - corrupt v/adj | corruption n
   - aver vt
   - dealings n
   - imply vt | implied adj | implicate vt | implication n
@@ -6700,7 +6712,6 @@
 
 - 2019.8.13
 
-  - preferred adj | preference
   - boycott n/vt
   - reckless adj | recklessness n
   - colony n | colonial adj | colonialism n | colonize vt
