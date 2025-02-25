@@ -1,3 +1,9 @@
+- 2023.2.20
+
+  - reciprocal adj
+
+  > The bottom line I think is he's just sort of out of lockstep with both the incoming president and his speaker on certain issues
+
 - 2023.2.19
 
   - keepsake n
