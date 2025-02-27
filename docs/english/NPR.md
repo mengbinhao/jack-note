@@ -1,5 +1,12 @@
 - 2023.2.20
 
+  - elegant adj
+  - marvel n/v
+  - expertise n
+  - proofread v
+
+- 2023.2.20
+
   - reciprocal adj
 
   > The bottom line I think is he's just sort of out of lockstep with both the incoming president and his speaker on certain issues
@@ -2978,7 +2985,7 @@
   - domino n
   - church n
   - Catholic adj/n
-  - visually adj
+  - visual adj | visually adj
   - dome n/vi | domed adj
 
   > He was making clear he realize how much at stake and reversing his position
@@ -3510,7 +3517,7 @@
 - 2020.9.10
 
   - tail | trail n/v
-  - rail n/v
+  - rail n/v | derail n/v
   - frail adj
   - correspond vi
 
@@ -6675,7 +6682,6 @@
   - congratulatory adj | congratulate vt | congratulation n | congrats
   - constitution n | constitutional adj | unconstitutional | constitutionally
   - constituent n
-  - optimize v
   - optimistic adj | optimism n ｜ pessimis n | pessimistic adj
 
 - 2019.8.15
