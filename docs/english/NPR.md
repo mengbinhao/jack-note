@@ -1,9 +1,15 @@
+- 2023.3.3
+
+  - irritate v
+  - connotation n
+
+  > There is a saying xxx
+
 - 2023.2.20
 
   - elegant adj
   - marvel n/v
   - expertise n
-  - proofread v
 
 - 2023.2.20
 
