@@ -1,3 +1,10 @@
+- 2023.3.11
+
+  - civic adj
+  - edible adj
+
+  > USA's mission is about elevating human dignity and this is about trampling it at every turn
+
 - 2023.3.3
 
   - irritate v
@@ -229,7 +236,6 @@
   - nefarious adj
   - condense v
   - delude vt | deluded adj
-  - grassroots n
 
   > every now and then
   > Did you know so and so?
@@ -442,7 +448,6 @@
 
 - 2023.3.20
 
-  - tableware n
   - awe n/vt
   - exhilarate adj
 
@@ -2750,7 +2755,6 @@
 
   - reflection n
   - deflect v | deflection n
-  - entail vt/n
   - condition | uncondition | conditional | unconditional | conditionally | precondition
 
   > xxx will result in a favorable outcome
@@ -3523,6 +3527,8 @@
 - 2020.9.10
 
   - tail | trail n/v
+  - retail n/v/adj
+  - entail vt/n
   - rail n/v | derail n/v
   - frail adj
   - correspond vi
@@ -5368,7 +5374,6 @@
 
   - pale v/adj
   - plunge n/v
-  - retail n/v/adj
   - oval adj
 
   > I was in salesman mode this morning
@@ -5457,7 +5462,6 @@
 
 - 2019.12.20
 
-  - pursue v
   - silly adj
   - basis n | baseless adj
   - basement n
@@ -6723,6 +6727,7 @@
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj | abuser
   - prosecute v | prosecutor n | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
+  - pursue v
   - emphasize vt | emphasis n | emphatic adj
 
   > in a clear reference to xxx
