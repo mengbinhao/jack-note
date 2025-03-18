@@ -1,3 +1,7 @@
+- 2023.3.18
+
+  - mutual
+
 - 2023.3.11
 
   - civic adj
@@ -2655,7 +2659,7 @@
   - opportunity n
   - deter vt
   - determine v | determination n | indeterminate adj
-  - terminate v
+  - terminate v | termination
   - asset n
   - previous | previously
 
@@ -4276,6 +4280,7 @@
   - endure v
   - poll n/v | ballot n/v | pollster n
   - therapy n
+  - deem vt
 
   > I deem it essential to be with you
   > the numbers might be cooked to make it look bad
@@ -4747,7 +4752,7 @@
   - treat n/v | treatment n
   - mistreat vt
   - retreat n/v
-  - treaty n
+  - treaty n | pact n
   - engage v | engaged adj | engagement n
   - symptom n | symptomatic
   - mild adj | mildly
@@ -5976,7 +5981,6 @@
 
 - 2019.10.18
 
-  - deem vt
   - pile n/v
   - airline n
   - anticipate v | anticipated adj | anticipation n
@@ -6494,7 +6498,6 @@
   - prime adj
   - chant n/v
   - upbraid vt
-  - pact n
   - animosity n
   - reprimand n/vt
   - unilateral adj | bilateral adj | trilateral adj
