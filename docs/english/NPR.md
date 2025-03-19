@@ -1,13 +1,10 @@
-- 2023.3.18
-
-  - mutual
-
 - 2023.3.11
 
   - civic adj
   - edible adj
 
   > USA's mission is about elevating human dignity and this is about trampling it at every turn
+  > Years later the retiree is not looking back
 
 - 2023.3.3
 
