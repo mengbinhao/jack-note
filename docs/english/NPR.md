@@ -1,3 +1,7 @@
+- 2023.3.20
+
+  - diet n/v
+
 - 2023.3.11
 
   - civic adj
@@ -6467,7 +6471,6 @@
   - torch n/v
   - indigenous adj
   - Dutch n/adj
-  - sham n/vt
   - status n
   - decade n
   - torture n/vt
