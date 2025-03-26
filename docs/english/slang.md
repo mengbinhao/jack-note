@@ -3,3 +3,5 @@
 - Nothing comes from nothing 天下没有免费的午餐
 - I call the shots
 - Fine by me 我无所谓
+- What's done is done
+- Lay low 保持低调

@@ -1,3 +1,17 @@
+- 2023.3.26
+
+  - crunch n/v
+  - jeopardy n | jeopardize vt
+  - snatch n/v
+  - crocodile n
+  - correct | correction
+
+  > How people's 401ks were doing
+  > take a baby crocodile from its mother and see how you go there
+  > Obviously there's some agitation about what's been going on the last couple weeks with this steep fall in stock prices
+  > An Chinese social media influencer
+  > An online petition called for her to be deported
+
 - 2023.3.20
 
   - diet n/v
@@ -3642,7 +3656,7 @@
 
 - 2020.8.26
 
-  - rural adj | urban adj | suburb n
+  - rural adj | urban adj | suburb n | suburban adj/n
   - direct v/adj | indirect | directive n/adj | direction | redirect
   - organ n
   - organize | organization | organizational | reorganize | unorganized
@@ -4244,7 +4258,7 @@
 
   - align v | alignment | realignment
   - malign vt/adj
-  - boast n/vt
+  - boast n/v
   - contrive v
   - greet vt
   - palace n
@@ -4311,7 +4325,7 @@
 - 2020.5.25
 
   - imperative adj
-  - moral n/adj | morality n
+  - moral n/adj | morally | morality n
   - curtain n/vt
   - tear v/n | tearful adj
 
@@ -5290,7 +5304,6 @@
   - lean n/v
   - impend vi | impending adj
   - militia n
-  - jeopardy n
 
 - 2020.1.15
 
@@ -5313,7 +5326,7 @@
 
   - lash n/v
   - clash n/v
-  - slam n/v | whip n/v | smash n/v | slammed adj | slash
+  - slam n/v | whip n/v | smash n/v | slammed adj | n/v
   - norm n
   - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
@@ -5724,7 +5737,7 @@
   - shove n/vt | shovel n/v
   - victim n
   - lurk n/vi
-  - bend v
+  - bend v/n
   - arson n
   - loot n/v | looter
   - monument n | monumental
