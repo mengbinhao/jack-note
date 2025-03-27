@@ -1,3 +1,10 @@
+- 2023.3.27
+
+  - bun n
+  - vibe n/vi
+
+  > They were never really a thing
+
 - 2023.3.26
 
   - crunch n/v
