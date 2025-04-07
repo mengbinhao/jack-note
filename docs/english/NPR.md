@@ -1,3 +1,10 @@
+- 2023.4.7
+
+  - thermometer n
+  - consecutive adj
+  - warm | warmth n
+  - ammunition n
+
 - 2023.3.27
 
   - bun n
@@ -425,7 +432,7 @@
 
   - grant v
   - peak n/v
-  - deport vt | deportation
+  - deport vt | deportation | deportee
 
   > So take us back, if you would, xxx
   > Tonight we have delivered on that promise
@@ -6539,7 +6546,6 @@
   - epic n/adj
   - brawl n/vi
   - oppose vt | opponent n | opposite n/adj/adv/prep | opposition n | converse adj/vi/n
-  - thwart n/vt/prep
   - seize v
   - agenda n
   - potential n/adj

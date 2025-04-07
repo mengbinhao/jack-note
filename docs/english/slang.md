@@ -6,3 +6,7 @@
 - What's done is done
 - Lay low 保持低调
 - Don't make me
+- Name you price 开价
+- I don't buy it
+- Who do you think you are
+- I'm moving on 翻篇了
