@@ -1,3 +1,7 @@
+- 2023.4.17
+
+  - jar n/v
+
 - 2023.4.7
 
   - thermometer n
@@ -2217,6 +2221,7 @@
 
 - 2021.6.15
 
+  - resume n/v
   - presume v | presumption n | presumptive adj | presumably adv
   - upper adj
   - frame n/v/adj
@@ -6040,7 +6045,6 @@
   - magnitude n
   - Jeez
   - raft n/v
-  - resume n/vt
   - evacuate v | evacuee n | evacuation n
   - dam n
   - agree v | disagree | agreement n | disagreement

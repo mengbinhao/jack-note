@@ -10,3 +10,12 @@
 - I don't buy it
 - Who do you think you are
 - I'm moving on 翻篇了
+- My word is my bond / You have my word
+- Practice makes perfect 熟能生巧
+- Over my dead body 想都别想
+- Stop whining
+- There is no going back
+- Don't be so hard on yourself 别难为自己
+- You rock
+- I can't take it any more
+- You set me up?
