@@ -1,3 +1,18 @@
+- 2023.5.1
+
+  - choir n/v
+  - aisle n
+  - doable adj
+  - setback n
+  - deficit n
+  - proactive adj
+  - cordial adj
+  - picnic n/vi
+  - bloom n/vi | blossom n/vi
+  - price | price adj
+  - arbitrary adj
+  - artillery n
+
 - 2023.4.17
 
   - jar n/v
@@ -1146,8 +1161,6 @@
 
 - 2022.6.30
 
-  - brew vt/n | beer
-
   > I mean, it remains to be seen. They would like to
   > We're in the early days here
 
@@ -1483,7 +1496,6 @@
   - purchase n/v
   - finance n/v | financier n
 
-  > This is a landmark move
   > xxx erupted into applause
 
 - 2022.3.3
@@ -2210,6 +2222,7 @@
   - movement n
   - landmark n
 
+  > This is a landmark move
   > The reactions are nothing short of xxx
   > It's become to symbolize a lot more than what is was
   > xxx really put all their chips on doing sth
@@ -2643,7 +2656,7 @@
 
 - 2021.3.27
 
-  - kidnap vt | abduct vt/n
+  - kidnap vt
 
   > Anger over this is not confined to London, it's spread across the country
 
@@ -3032,7 +3045,6 @@
 
   - domino n
   - church n
-  - Catholic adj/n
   - visual adj | visually adj
   - dome n/vi | domed adj
 
@@ -3345,7 +3357,6 @@
 
   - deadline n
   - regard n/v | regardless adv | disregard vt/n
-  - mosque n
   - repel vt
   - dispatch n/vt
   - shopkeeper n
@@ -3682,7 +3693,7 @@
 
 - 2020.8.25
 
-  - abundant adj
+  - abundant adj | abundance n
   - ancestor n
   - muse v
   - museum n
@@ -4052,7 +4063,8 @@
 - 2020.7.3
 
   - commodity n
-    > This would let them continue with normal life without as many restriction as other people might be
+
+  > This would let them continue with normal life without as many restriction as other people might be
 
 - 2020.7.2
 
@@ -4808,7 +4820,7 @@
 
   - antsy adj
   - sponsor n/vt
-  - athlete n
+  - athlete n | athletic adj
   - spectator n
   - optimum n/adj
   - cancel vt | cancellation n
@@ -4871,7 +4883,7 @@
   - attend v | attendance n | attendee | attendant n
   - attentive adj
   - liable adj
-  - rely vi | reliable adj | unreliable | reliance n
+  - rely vi | reliable adj | unreliable | reliance n | reliability
   - relieve vt | relief n
   - religion n | religious adj
   - forehead n
@@ -6084,7 +6096,7 @@
   - assault n/v
   - crisis n
   - flee v
-  - fleet n/v/adj
+  - fleet n/adj
   - neutralize vt | neutrality n | neutral adj
   - fatal adj | fatality n
   - extent n | extend v | extended adj | extension n | expand v | extensive adj | extensively adv
@@ -6218,7 +6230,7 @@
 
   - blueprint n
   - adopt v | adoption
-  - adapt v | adapted adj | adaption | adaptation | adaptive
+  - adapt v | adapted adj | adaption | adaptation | adaptive | adapter n
   - budge v
   - budget n/vt
   - welfare n/adj | fare n
@@ -6922,7 +6934,7 @@
   - mandarin n
   - mandate n/vt | mandated adj | mandatory adj
   - sector n
-  - impose v | self-imposed adj | imposition n | reimpose
+  - impose v | self-imposed adj | imposition n | reimpose | inflict vt
   - finality n
   - authorize vt | authority n | authorized adj | unauthorized adj | authorization n
   - raise n/v
