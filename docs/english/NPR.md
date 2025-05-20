@@ -1,3 +1,7 @@
+- 2023.5.2
+
+  - inventory n
+
 - 2023.5.1
 
   - choir n/v
@@ -5992,7 +5996,7 @@
 - 2019.10.22
 
   - cease v | ceasefire n | decease n/vi
-  - toll n/vt
+  - toll n/v
   - vague adj | vaguely
   - powerless adj
   - empower vt
