@@ -1,4 +1,4 @@
-- 2023.5.2
+- 2023.5.10
 
   - inventory n
 
@@ -623,7 +623,7 @@
 - 2022.10.8
 
   - temple n
-  - modern adj
+  - modern adj | modernize v
 
   > to get to the bottom of this matter
   > let me just clarify one thing
@@ -4554,7 +4554,7 @@
   - rile v
   - harvest n/v
   - series n
-  - immigrant n | migrant n/adj
+  - migrant n/adj | immigrant n
 
   > He may decide to extend that future
   > It's not really as bold as we expected
@@ -6517,7 +6517,6 @@
   - unrest n
   - torch n/v
   - indigenous adj
-  - Dutch n/adj
   - status n
   - decade n
   - torture n/vt
@@ -6786,7 +6785,7 @@
 
   - boycott n/vt
   - reckless adj | recklessness n
-  - colony n | colonial adj | colonialism n | colonize vt
+  - colony n | colonial adj | colonialism n | colonize vt | colonist
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
   - revenge n/v | retaliate vi | retaliatory adj | retaliation n
