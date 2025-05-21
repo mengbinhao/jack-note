@@ -12,13 +12,17 @@
 - I'm moving on 翻篇了
 - I'm over you 我放下你了 I'm over it 我已经不在乎了
 - I'm not myself 不在状态
+- I'm an open book 坦率
+- I couldn't care less 我根本不在乎
 - You make me sick
+- You are nothing to me
 - You are not the boss of me
 - You are way out of line 过分
 - You be you 勇敢做自己 Just be yourself / Be who you are
 - You rock
 - You tricked me
-- You set me up?
+- You set me up? 你算计我？
+- You deserve better
 - My word is my bond / You have my word
 - My lips are sealed 守口如瓶
 - My door is always open 随时欢迎
@@ -27,6 +31,8 @@
 - Come off it 别胡扯了
 - Fine by me 我无所谓
 - Practice makes perfect 熟能生巧
+- Easier said than done
+- Need a ride?
 - Over my dead body 想都别想
 - Stop whining
 - Break the ice 打破僵局
