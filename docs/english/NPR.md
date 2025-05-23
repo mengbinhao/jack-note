@@ -2764,7 +2764,7 @@
   - overlook v/n
   - overall adj/adv
   - overnight n
-  - overhaul v
+  - overhaul n/vt
   - overwhelm vt | overwhelmed | underwhelmed adj
   - oversee vt | oversea adj/adv
   - overcharge n/vt

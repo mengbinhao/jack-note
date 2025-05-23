@@ -51,12 +51,13 @@
 - Don't rush me
 - There is no going back
 - That makes sense 说得通
+- Better later than never
 - Nothing comes from nothing 天下没有免费的午餐
 - It's now or never 机不可失时不再来
-- It's what it is
 - It's a lot to process
-- Better later than never
-- What's done is done
-- Who do you think you are
+- It's what it is
+- What's done is done.
+- What's on your mind?
+- Who do you think you are?
 - Dog-eat-dog world 弱肉强食的世界
 - Great minds think alike 英雄所见略同
