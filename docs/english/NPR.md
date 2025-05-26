@@ -1,3 +1,7 @@
+- 2023.5.26
+
+  > There's no sense at this point what role the guard troops would play
+
 - 2023.5.10
 
   - inventory n
@@ -830,8 +834,6 @@
   - mindset n | mindless adj/n
 
 - 2022.2.1
-
-  - testy adj
 
   > and it was willing to accept some waste
 
@@ -6847,7 +6849,8 @@
 
 - 2019.7.31
 
-  - testify v
+  - testy adj
+  - testify v | testimony n
   - bomb n/v | bombshell n | bomber
   - collegial adj
   - briefing n | brief n/vt/adj | briefly adv
