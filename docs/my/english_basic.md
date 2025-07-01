@@ -1,3 +1,11 @@
+<!--
+ * @Author: bin.meng bin.meng@ourunited.com
+ * @Date: 2025-06-19 09:51:26
+ * @LastEditors: bin.meng bin.meng@ourunited.com
+ * @LastEditTime: 2025-06-19 09:51:26
+ * @FilePath: \jack-note\docs\my\english_basic copy.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 # Personal Info
 
 - Jack/Male/1983/Married
@@ -5,7 +13,7 @@
 - Email:3170673@qq.com
 - Blog:[gitbook](https://jackmeng.gitbook.io/note/)
 - Education: Xi'an Polytechnic University/Computer Science & Technology
-- Expected work city: Xi'an/Shang Hai/Cheng Du
+- Expected work city: Xi'an
 - Expected position: Test Development/Automated Test Engineer
 - Notice Period: 1 Month
 
@@ -14,7 +22,7 @@
 | Employment Period | Employer                         | Position Held                 |
 | ----------------- | -------------------------------- | ----------------------------- |
 | 2018.05 - Present | Our United RT                    | Automation Test Engineer      |
-| 2016.04 - 2018.2  | Emerson Xi’an Engineering Center | Test and Development Engineer |
+| 2016.04 - 2017.12 | Emerson Xi’an Engineering Center | Test and Development Engineer |
 | 2014.05 - 2015.06 | Xi'an ACTIVE Network             | Application Support           |
 | 2009.03 - 2014.04 | Shaan'Xi Electric Power Company  | Development Engineer          |
 
@@ -41,7 +49,7 @@ TPS combines external radiation virtual simulation and 3D treatment planning tec
 1. Over 60% manual case are turned into automation
 2. Improve 50% work efficiency for test team
 
-## Emerson Xi’an Engineering Center (2016/4 ~ 2018/2)
+## Emerson Xi’an Engineering Center (2016/4 ~ 2017/12)
 
 ### Oxygen
 

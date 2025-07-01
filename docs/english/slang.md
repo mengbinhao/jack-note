@@ -14,6 +14,7 @@
 - I'm not myself 不在状态
 - I'm an open book 坦率
 - I couldn't care less 我根本不在乎
+- You look familiar
 - You make me sick
 - You are nothing to me
 - You are not the boss of me
@@ -23,6 +24,7 @@
 - You tricked me
 - You set me up? 你算计我？
 - You deserve better
+- You make me want to be a better man
 - My word is my bond / You have my word
 - My lips are sealed 守口如瓶
 - My door is always open 随时欢迎
@@ -35,10 +37,12 @@
 - Need a ride?
 - Over my dead body 想都别想
 - Stop whining
+- Watch your mouth
 - Break the ice 打破僵局
 - Name you price 开价
 - Sorry to bother you
 - Work it out 解决它
+- Take my advice
 - Lay low 保持低调
 - Save your breath 省省力气
 - Out of the question 面谈
@@ -61,3 +65,5 @@
 - Who do you think you are?
 - Dog-eat-dog world 弱肉强食的世界
 - Great minds think alike 英雄所见略同
+- Not another word
+- One step at a time

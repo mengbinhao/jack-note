@@ -1,10 +1,19 @@
+- 2023.7.1
+
+  - premium n/adj
+  - ingratitude n
+  - breakup n
+  - makeshift n
+  - outdoor adj
+  - quit(give up)
+
+  > give him sweeping power, but it wasn't a one-way street
+  > fall out
+  > That''s the last nail in the coffin
+
 - 2023.5.26
 
   > There's no sense at this point what role the guard troops would play
-
-- 2023.5.10
-
-  - inventory n
 
 - 2023.5.1
 
@@ -1043,7 +1052,7 @@
 - 2022.8.18
 
   - hunger n/v | hungry adj
-  - detract v | detractor n | critic | supporter
+  - detract v | detractor n | supporter
   - support | supportive
   - secondary adj
   - mute adj/vt
@@ -1382,6 +1391,8 @@
 
   - redemption n
   - invent vt | reinvent | inventive adj
+  - inventory n
+  - propose(come up with) v | proposed adj | proposal n
   - ingenious adj
   - cereal n
   - entitle vt | entitled
@@ -3602,7 +3613,7 @@
   - intro | introduce vt | introductory adj
   - playbook n
   - cover | uncover v | uncovered | undercover adj
-  - discover v
+  - discover(find out) v
   - underground adj
   - undertake vt
   - underlie vt | underlying adj
@@ -5272,8 +5283,8 @@
   - furious adj | fury n
   - assassinate vt | assassination n | assassin
   - honor n/vt | dishonor n/vt | honorary n/adj
-  - cruise n/v
-  - investigator n | investigation | investigate vt | investigative adj
+  - cruise n/v | ballistic adj
+  - investigator n | investigation | investigate(look into) vt | investigative adj
   - invest v | investor n
   - sift v
   - sincere adj | sincerely
@@ -6936,7 +6947,7 @@
   - facility n | facilitate vt | facilitation
   - vow n/vt
   - vowel n/adj
-  - postpone vt | postponement n | postponed
+  - postpone(put off) vt | postponement n | postponed
   - mandarin n
   - mandate n/vt | mandated adj | mandatory adj
   - sector n
@@ -6998,7 +7009,7 @@
   - cable n/v
   - ambassador n | embassy n
   - inept adj
-  - radiate v | radiant adj | radiation
+  - radiate v | radiation
   - secure v/adj | security | insecurity
   - diplomat n | diplomatic adj | diplomacy n
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial | substantiated
@@ -7033,7 +7044,6 @@
 - 2019.7.12
 
   - swallow v/n
-  - propose v | proposed adj | proposal n
   - domestic n/adj | domestical adj | domestically adv
   - encourage vt | discourage | encouraging adj | encouragement n
   - courage n | courageous n/adj/adv
