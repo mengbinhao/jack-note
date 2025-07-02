@@ -1,3 +1,7 @@
+- 2023.7.2
+
+  - constitute vt
+
 - 2023.7.1
 
   - premium n/adj
@@ -5355,7 +5359,6 @@
 
 - 2020.1.15
 
-  - perimeter n
   - govern v | governor n | ungovernable adj | misgovernment n
   - intersect v | intersection n
   - soak n/v
