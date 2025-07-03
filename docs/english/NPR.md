@@ -1,6 +1,7 @@
 - 2023.7.2
 
   - constitute vt
+  - radioactive
 
 - 2023.7.1
 
@@ -207,7 +208,6 @@
 - 2023.10.16
 
   - takeout n
-  - fortify v | fortified adj
 
   > These cases will be unfolding for many months to come
   > You are flying by on this app
@@ -1350,7 +1350,7 @@
 
 - 2022.4.18
 
-  - radiate v | radiation
+  - radiate v | radiation | radioactive adj
   - dazzle n/v
   - particle n
   - filament n/adj
@@ -1744,7 +1744,6 @@
   - adolescent n/adj
   - outlook n/v
   - headache n | chill n/vt/adj | ache n/vi | sore adj/n | cough n/v | sneeze n/v
-  - outweigh vt
 
   > from my perspective
 
@@ -2159,6 +2158,7 @@
 - 2021.7.5
 
   - weight n/v
+  - weigh v | outweigh vt
 
 - 2021.7.2
 
@@ -7012,7 +7012,6 @@
   - cable n/v
   - ambassador n | embassy n
   - inept adj
-  - radiate v | radiation
   - secure v/adj | security | insecurity
   - diplomat n | diplomatic adj | diplomacy n
   - substantial adj | substantially adv | substantive adj | substantively adv | substantiate vt | unsubstantial | substantiated
