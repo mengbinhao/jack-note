@@ -1,3 +1,7 @@
+- 2023.7.8
+
+  - nonetheless ad
+
 - 2023.7.2
 
   - constitute vt
@@ -6260,7 +6264,6 @@
   - gimmick n
   - realistic adj | unrealistic adj
 
-  > xxx that we can no longer afford
   > we are clearly on the wrong path
   > xxx is far from over
 
@@ -6912,6 +6915,7 @@
   - afford vt | affordable adj | affordability
 
   > Fore in five of them would come from working families
+  > xxx that we can no longer afford
 
 - 2019.7.22
 
