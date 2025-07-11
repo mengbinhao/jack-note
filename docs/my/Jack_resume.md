@@ -1,11 +1,3 @@
-<!--
- * @Author: bin.meng bin.meng@ourunited.com
- * @Date: 2025-06-19 09:51:26
- * @LastEditors: bin.meng bin.meng@ourunited.com
- * @LastEditTime: 2025-06-19 09:51:26
- * @FilePath: \jack-note\docs\my\english_basic copy.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
 # Personal Info
 
 - Jack/Male/1983/Married
@@ -14,7 +6,7 @@
 - Blog:[gitbook](https://jackmeng.gitbook.io/note/)
 - Education: Xi'an Polytechnic University/Computer Science & Technology
 - Expected work city: Xi'an
-- Expected position: Test Development/Automated Test Engineer
+- Expected position: Automated Test Engineer
 - Notice Period: 1 Month
 
 # Employment History
@@ -113,10 +105,10 @@ Implementation the contract management from the traditional manual way to the mo
 
 # Skills
 
-- Language: JavaScript
+- Language: JavaScript/JAVA
+- Be Familiar with algorithm
 - CI: Jenkins
 - Version Control System: Git
 - Front Framework: Vue
 - Be Familiar with Linux command
 - Be Familiar with SQL
-- Be Familiar with algorithm
