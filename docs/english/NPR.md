@@ -1,3 +1,7 @@
+- 2023.7.22
+
+  - adverse adj | adverseness | adversely
+
 - 2023.7.8
 
   - nonetheless ad
@@ -2162,7 +2166,7 @@
 - 2021.7.5
 
   - weight n/v
-  - weigh v | outweigh vt
+  - weigh v
 
 - 2021.7.2
 
@@ -5101,7 +5105,6 @@
   - parallel n/vt/adj
   - intra n/prep
   - drawdown n
-  - tentative adj
   - footprint n
   - eventual adj | eventually adv
 

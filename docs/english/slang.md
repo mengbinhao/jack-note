@@ -67,3 +67,4 @@
 - Great minds think alike 英雄所见略同
 - Not another word
 - One step at a time
+- Same old same old
