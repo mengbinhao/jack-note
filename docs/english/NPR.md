@@ -1,3 +1,7 @@
+- 2023.7.23
+
+  - copper n/adj/vt
+
 - 2023.7.22
 
   - adverse adj | adverseness | adversely
@@ -1946,7 +1950,7 @@
 - 2021.8.30
 
   - merchant n
-  - perish v
+  - perish v | perished
   - gentle adj/vt/n
 
 - 2021.8.27
@@ -5609,7 +5613,6 @@
   - teem vi
   - illusion n
   - illustrate vt | illustration
-  - mystic n/adj
   - philosopher n
   - hogwash n | nonsense n | sense n/v | senseless adj | sensitive adj
   - baffle vt
