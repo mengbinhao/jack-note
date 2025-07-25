@@ -1,3 +1,9 @@
+- 2023.7.25
+
+  - benign adj
+  - transcript n
+  - probable adj
+
 - 2023.7.23
 
   - copper n/adj/vt
@@ -56,7 +62,7 @@
   - thermometer n
   - consecutive adj
   - warm | warmth n
-  - ammunition n
+  - munition n/v/adj | ammunition n
 
 - 2023.3.27
 
@@ -4366,7 +4372,7 @@
 
 - 2020.5.28
 
-  - suffice v | sufficient adj | sufficiently | insufficient
+  - suffice v | sufficient adj | sufficiently | insufficient | sufficiency | insufficiency
   - toilet n
   - convert v
   - shelter n/v
