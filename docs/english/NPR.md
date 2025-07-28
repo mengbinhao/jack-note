@@ -1,3 +1,9 @@
+- 2023.7.28
+
+  - solitary adj
+  - referee n/v
+  - scold n/v
+
 - 2023.7.25
 
   - benign adj
@@ -5845,7 +5851,6 @@
   - cord n/vt
   - accord n/v
   - accordance n
-  - aggregate n/v/adj
   - tune n/v
   - fortune n/v
   - fulfill vt | fulfilled | fulfillment
@@ -6854,7 +6859,7 @@
 
   - anonymous adj | anonymously adv
   - grooming n | groom n/v
-  - hierarchical adj
+  - hierarchical adj | hierarchy n
   - owe vt
 
   > it turned out
