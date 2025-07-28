@@ -3,6 +3,7 @@
   - solitary adj
   - referee n/v
   - scold n/v
+  - mint n/vt
 
 - 2023.7.25
 
