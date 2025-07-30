@@ -306,7 +306,6 @@
   - misstep n/vi
   - deft adj
   - pal n/vi
-  - heritage n
 
   > Most of those defining moments came with no warning or calculation
   > Any little tick or habit that a candidate may have is something that voters could seize on and it could change the way they view the candidate
@@ -2850,7 +2849,7 @@
 
 - 2021.2.26
 
-  - reflection n
+  - reflect v | reflection n
   - deflect v | deflection n
   - condition | uncondition | conditional | unconditional | conditionally | precondition
 
@@ -3819,7 +3818,7 @@
 - 2020.8.13
 
   - dispose v | disposal n
-  - inherit v | inheritance
+  - inherit v | inheritance | heritage n
   - rifle n | pistol n/vt
   - expedition n
   - legacy n
@@ -5291,7 +5290,8 @@
   - commonwealth n
   - tabloid n/adj
   - corny adj
-  - independent | independence
+  - dependent adj | dependence n
+  - independent adj | independence n
   - duke n
   - observe | observer
   - royal adj | royalty n
@@ -6355,7 +6355,6 @@
 
   - Canadian n/adj
   - makeup n
-  - reflect v
   - affair n
   - lengthy adj
   - conference n
@@ -6811,7 +6810,7 @@
   - inquiry n
   - allegation n | alleged adj | allegedly adv | allege vt
   - abuse n/vt | abusive adj | abuser
-  - prosecute v | prosecutor n | prosecution n | inspect | inspector n | inspection n | indict vt | indictment n | sue v
+  - prosecute v | prosecutor n | prosecution n | inspect v | inspector n | inspection n | indict vt | indictment n | sue v
   - pursue v
   - emphasize vt | emphasis n | emphatic adj
 
