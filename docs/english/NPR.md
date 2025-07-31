@@ -1,3 +1,7 @@
+- 2023.7.31
+
+  - ensue v
+
 - 2023.7.28
 
   - solitary adj
