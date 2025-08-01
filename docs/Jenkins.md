@@ -13,7 +13,7 @@
    rm -f jdk-8u191-linux-x64.tar.gz
    # uninstall
    apt remove default-jdk
-   
+
    # set java path
    # install for Single User
    # Check if JAVA_HOME is already set
@@ -23,7 +23,7 @@
    vi ~/.bashrc OR vi ~/.bash_profile `export JAVA_HOME=/usr/java/jdk1.8.0_191`
    source ~/.bashrc OR source ~/.bash_profile
    echo $JAVA_HOME
-   
+
    # Install for all users :
    # Login as root or execute commands with sudo
    ```
@@ -77,8 +77,8 @@ rm -f apache-maven-3.5.4-bin.tar.gz
   <role rolename="manager-jmx"/>
   <role rolename="manager-status"/>
   <user username="tomcat" password="tomcat" roles="admin-gui,manager-gui,manager-script,manager-jmx,manager-status" />
-  
-  
+
+
   vi /usr/tomcat/apache-tomcat-8.5.37/conf/server.xml
   <Connector port="8080" protocol="HTTP/1.1" 72 connectionTimeout="20000" 73 redirectPort="8443" URIEncoding="UTF-8"/>
   ```
@@ -101,35 +101,35 @@ rm -f apache-maven-3.5.4-bin.tar.gz
   chmod -R g+r conf
   chmod -R g+x conf
   chown -R tomcat webapps/work/temp/logs/
-  
+
   vi /etc/systemd/system/tomcat.service
   [Unit]
   Description=Apache Tomcat Web Application Container
   After=network.target
-  
+
   [Service]
   Type=forking
-  
+
   Environment=JAVA_HOME=/usr/jdk8/jdk1.8.0_191
   Environment=CATALINA_PID=/usr/tomcat/apache-tomcat-8.5.37/temp/tomcat.pid
   Environment=CATALINA_HOME=/usr/tomcat/apache-tomcat-8.5.37
   Environment=CATALINA_BASE=/usr/tomcat/apache-tomcat-8.5.37
   Environment='CATALINA_OPTS=-Xms512M -Xmx1024M -server -XX:+UseParallelGC'
   Environment='JAVA_OPTS=-Djava.awt.headless=true -Djava.security.egd=file:/dev/./urandom'
-  
+
   ExecStart=/usr/tomcat/apache-tomcat-8.5.37/bin/startup.sh
   ExecStop/usr/tomcat/apache-tomcat-8.5.37/bin/shutdown.sh
-  
+
   User=tomcat
   Group=tomcat
   UMask=0007
   RestartSec=10
   Restart=always
-  
+
   [Install]
   WantedBy=multi-user.target
-  
-  
+
+
   systemctl daemon-reload
   systemctl start tomcat
   systemctl status tomcat
@@ -179,7 +179,7 @@ systemctl disable jenkins.service
 
 > locate  jenkins.xml-->  change --httpPort=8888
 
-#### 4 smtp server 
+#### 4 smtp server
 
 ##### basic
 
@@ -204,7 +204,7 @@ systemctl disable jenkins.service
 
 5. Item add post-build action -> E-mail Notification
 
-> Then test email funciton 
+> Then test email funciton
 
 ##### advanced
 
@@ -245,7 +245,7 @@ systemctl disable jenkins.service
     - Item check github项目 -> 项目url
 
     - Item check git -> url -> github登录凭证
-    
+
       > git开头的url才需要加公钥私钥
       >
       > 公钥加入github，私钥加入jenkins
@@ -257,9 +257,9 @@ systemctl disable jenkins.service
       - ==webhook必须是外网可以访问的地址，github才能通知到jenkins==
 
     - check Use secret text or file -> add secret text  ?????
-    
+
       ![](.\images\jenkins_2.jpg)
-    
+
       > then push to github for auto-build test
 
 
