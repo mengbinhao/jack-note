@@ -1,3 +1,8 @@
+- 2023.8.1
+
+  - showcase n/v
+  - employment | unemployment n
+
 - 2023.7.31
 
   - ensue v
