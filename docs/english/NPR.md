@@ -1,3 +1,7 @@
+- 2023.8.4
+
+  - takeover n
+
 - 2023.8.1
 
   - showcase n/v
@@ -5586,7 +5590,7 @@
   - justify vt | justification n | justifiable
   - eavesdrop vi
   - cavalier adj
-  - bias n/vt/adj/adv | biased adj
+  - bia n/vt/adj/adv | biased adj
   - worthwhile adj
   - exclamation n
   - gross n/vt/adj | grossly adv | grossness
