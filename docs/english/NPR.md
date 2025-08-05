@@ -1,3 +1,8 @@
+- 2023.8.5
+
+  - relate v
+  - monumen
+
 - 2023.8.4
 
   - takeover n
@@ -1500,7 +1505,7 @@
   - library n
   - massage n
   - jungle n
-  - perform v | performance
+  - perform v | performance | outperform vt
   - spoon n
   - cherry n
   - worm n/v
@@ -5827,7 +5832,7 @@
   - bend v/n
   - arson n
   - loot n/v | looter
-  - monument n | monumental
+  - monument n/vt | monumental
   - skyscraper n
   - noxious adj
   - pungent adj
