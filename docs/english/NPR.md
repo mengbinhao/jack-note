@@ -1,3 +1,8 @@
+- 2023.8.15
+
+  - discrepancy n
+  - heroism n
+  - hurdle n/v
 - 2023.8.5
 
   - relate v
@@ -3494,7 +3499,6 @@
 - 2020.10.21
 
   - muscle n/v | muscular adj
-  - airlift n/vt
 
   > the work of organization goes far beyond food
   > day in and day out
@@ -7217,7 +7221,7 @@
 
 - 2019.6.28
 
-  - depose v | oust vt | ouster n | unseat | topple v
+  - depose v | oust vt | ouster n | unseat
   - Egyptian adj/n
   - Egypt n
   - collapse n/vi

@@ -5,8 +5,10 @@ mind map
 intermediate
 cancer
 cobalt
-mechanical
-electronic
+mechanical / electronic
+Physicist / Technician
+Contour
+placeholder
 
 ### Copeland
 
@@ -28,8 +30,10 @@ Thank you.
 
 I am excited about the opportunity to collaborate with talented individuals from all over the world, the diverse cultural backgrounds from different countries. This position aligns perfectly with my skills and my past work experience. especially for environmental systems or devices. So I am confident that I am well-qualified for this role.I can perform it effectively.
 
+//
 My experience with automation aligns with the precision and reliability required for environmental testing systems.
 I’m eager to apply my automation expertise to ensure the reliability of environmental testing systems at Copeland.
+//
 
 #### Why do you want to change you job? why are you leaving your current position?
 
@@ -45,9 +49,11 @@ Finally, I am eager to advance my career. I believe this position offers greater
 
 After completing the automation project, I achieved a 40% increase in test team efficiency.
 
+//
 Scrum teams, as my primary stakeholders, reported that the synchronization tool significantly saved them time.
 
 I am proud of delivering the synchronization tool between StarTeam and Rally to the Scrum team, enhancing their productivity.
+//
 
 ### talk about project
 
@@ -143,8 +149,6 @@ Through this project, I gained extensive knowledge of automation, including the 
 - exception
 
 ### questions
-
-dqdq
 
 - What does this position do? To resolve what? What is the responsibility?
 - what is the technology stack? tool? Need any key skills?

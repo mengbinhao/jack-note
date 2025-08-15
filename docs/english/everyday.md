@@ -60,7 +60,7 @@
   > One thing that you should know about me is that xxx
   > I came from a family of 3
   > The import thing that I like the most about this company is your core value
-  > I/ve had an amazing experience in this position, I've learned a lot. I think I am ready for next step, for a bigger challenge
+  > I've had an amazing experience in this position, I've learned a lot. I think I am ready for next step, for a bigger challenge
   > I want new career challenges / to advanced my career, and I think this job offers more opportunity for me to do that
   > My salary expectations are in line with my experience and qualifications. I believe that you will pay your employee fairly
   > Hi, I'm Jack. I'm new kid on the block. I'm very glad to be here/part of this team. Thank you for the warm welcome.I look forward to know and work with each one of you, and at the same time contribute to this team in all my abilities. I look forward to learn and grow with all of you, Again I'm very exited to be here. Thank you!
