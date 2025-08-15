@@ -9,6 +9,7 @@ mechanical / electronic
 Physicist / Technician
 Contour
 placeholder
+algorithm
 
 ### Copeland
 
@@ -18,9 +19,11 @@ And this is all I know about Copeland.
 
 ### introduces
 
-Good morning/afternoon, interviewer. [Allow me to introduce myself briefly.] My name is Jack, I’m 42 years old, and I’m from Xi’an. I graduated from Xi'an Polytechnic University in 2008. My major is Computer Science and Technology. By now, I have over 15 years of work experience and have worked at four companies. I began my career as a Java developer, building web systems for several years, and then transitioned to an automated testing engineer role in recent years.
+Good morning Julie. Thank you for taking the time to meet with me today. I'm really excited about this role.
 
-In my current position, my responsibilities include writing and maintaining automated test scripts using JavaScript, setting up automated test environments, and analyzing automated test reports to see if any bugs exist in target softwares, This job is similar to what I did at Emerson. However, a key difference is that I am the owner of the automation task. This means I managed all aspects of automation work myself, including technology selection, organizing the automated testing project, setting up CI environment, and integrating Jenkins with the automated tool, which is TestComplete.
+My name is Jack, 42 years old, and I’m from Xi’an, a historical city. I graduated from Xi'an Polytechnic University in 2008. My major is Computer Science and Technology. By now, I have over 15 years of work experience and have worked at four companies. I began my career as a [JAVA] developer, building web systems for several years, and then, by chance, I transitioned to an automated testing engineer role in recent years.
+
+In my current position, my responsibilities include writing and maintaining automated test scripts [using JavaScript], setting up automated test environments, and analyzing automated test reports to see if any bugs exist in my target software. This job is similar to what I did at Emerson. However, a key difference is that I am the owner of the automation tasks. This means I managed all aspects of automation work myself, Such as technology selection, organizing the automated testing project, [setting up the CI environment,] and integrating with third-party system, like Jenkins.
 
 As a result, my work increased testing efficiency by 40%. This work experience has strengthened my confidence in my skills and deepened my expertise in automation.
 
@@ -68,7 +71,7 @@ I am proud of delivering the synchronization tool between StarTeam and Rally to 
 
 The TPS automated project is to build for testing the target desktop application, this target application is used to make a treatment plan for a patient.
 
-Do you know about TPS? The basic process of how to use it is
+Do you know about TPS? The basic process of how the software work is
 
 1. Import standard DICOM images
 2. Contour some volumes, which means pinpoint where the tumour is located, and pinpoint some key organs
@@ -150,9 +153,11 @@ Through this project, I gained extensive knowledge of automation, including the 
 
 ### questions
 
+- Could you tell me a little bit more about the department structrue?
+- Could you tell me about the project? If I join your team, What stage is the project in?
+- What kind of person are you looking for?
 - What does this position do? To resolve what? What is the responsibility?
 - what is the technology stack? tool? Need any key skills?
-- what kind of person are you looking for?
 - This position is new, or has someone left? Why did the previous person leave?
 - Report to whom? The structure of the department? How many people are in the department? How many testers? How many devs?
 - Office location?
