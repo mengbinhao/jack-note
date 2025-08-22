@@ -1,8 +1,14 @@
+- 2023.8.16
+
+  - contingent adj
+  - sandy adj
+
 - 2023.8.15
 
   - discrepancy n
   - heroism n
   - hurdle n/v
+
 - 2023.8.5
 
   - relate v
@@ -3135,7 +3141,7 @@
 - 2020.12.30
 
   - forge n/v
-  - dissolve n/v
+  - dissolve n/v | dissolvable
 
   > xxxx in paly here, but bottom line, xxx
 
@@ -3304,10 +3310,6 @@
   - concoct vt
   - Peru n
   - strenuous adj
-
-- 2020.11.25
-
-  - cram v
 
 - 2020.11.24
 
@@ -3755,7 +3757,7 @@
 
   - rural adj | urban adj | suburb n | suburban adj/n
   - direct v/adj | indirect | directive n/adj | direction | redirect
-  - organ n
+  - organ n | organic
   - organize | organization | organizational | reorganize | unorganized
 
 - 2020.8.25

@@ -25,4 +25,4 @@ let admin = {
 }
 
 Object.setPrototypeOf(admin, userProxy)
-console.log(admin.name)
+//console.log(admin.name)
