@@ -11,19 +11,39 @@ Contour
 placeholder
 algorithm
 
+millimeter
+centimeter
+multimeter
+Oscilloscope
+Voltage
+Current
+resistance
+
+Good morning/afternoon, Ricardo. Nice to meet you
+I'm doing great, thank you. And you?
+I'm very excited to be here.
+
+problem-solving skills
+
+One of the most lessons I've learned in the past 10 years of being in this field is that effective communication is the key to the success of any projects
+One thing that you should know about me is that ...
+The important thing that I like the most about this company is your core value
+I'm still working on improving my English
+
+That's a great question. I need a second to think about that.
+
+
 ### Copeland
 
 I know Copeland from the official website. Copeland is a global leader in sustainable heating, cooling, and refrigeration solutions for commercial industrial, cold chain and residential industries. Copeland helps customers and end users reduce carbon emissions, improve energy efficiency, and safeguard users' perishable food and medicine.
 
-And this is all I know about Copeland.
-
 ### introduces
 
-Good morning Julie. Thank you for taking the time to meet with me today. I'm really excited about this role.
+Good morning/afternoon Julie. Thank you for taking the time to meet with me today. I'm really excited about this role.
 
-My name is Jack, 42 years old, and I’m from Xi’an, a historical city. I graduated from Xi'an Polytechnic University in 2008. My major is Computer Science and Technology. By now, I have over 15 years of work experience and have worked at four companies. I began my career as a [JAVA] developer, building web systems for several years, and then, by chance, I transitioned to an automated testing engineer role in recent years.
+My name is Jack, 42 years old, and I’m from Xi’an, a historical city. I graduated from Xi'an Polytechnic University in 2008. My major is Computer Science and Technology. By now, I have over 15 years of work experience and have worked at four companies. I began my career as a [JAVA] developer, building web systems for several years, and then, by chance, I transitioned to an automated testing engineer role since at Emerson.
 
-In my current position, my responsibilities include writing and maintaining automated test scripts [using JavaScript], setting up automated test environments, and analyzing automated test reports to see if any bugs exist in my target software. This job is similar to what I did at Emerson. However, a key difference is that I am the owner of the automation tasks. This means I managed all aspects of automation work myself, Such as technology selection, organizing the automated testing project, [setting up the CI environment,] and integrating with third-party system, like Jenkins.
+In my current position, my responsibilities include writing and maintaining automated test scripts [using JavaScript], setting up automated test environments, and analyzing automated test reports to see if any bugs exist in the target software. This job is similar to what I did at Emerson. However, a key difference is that I am the owner of the automation tasks. This means I managed all aspects of automation work myself, Such as technology selection, organizing the automated testing project, setting up the CI environment, and integrating with third-party system, like JIRA.
 
 As a result, my work increased testing efficiency by 40%. This work experience has strengthened my confidence in my skills and deepened my expertise in automation.
 
@@ -31,6 +51,9 @@ Thank you.
 
 #### What do you like/want to join about the company?
 
+I'm very interested in this position and look forward to hearing from you.
+
+you know, I have work experience at foreign company, So I like working with talented ...
 I am excited about the opportunity to collaborate with talented individuals from all over the world, the diverse cultural backgrounds from different countries. This position aligns perfectly with my skills and my past work experience. especially for environmental systems or devices. So I am confident that I am well-qualified for this role.I can perform it effectively.
 
 //
@@ -154,15 +177,16 @@ Through this project, I gained extensive knowledge of automation, including the 
 ### questions
 
 - Could you tell me a little bit more about the department structrue?
+- Could you tell me more about the day-to-day responsibilities of this role?
+- How does the team collaborate on projects?
+- What are the biggest challenges facing this team/department right now?
 - Could you tell me about the project? If I join your team, What stage is the project in?
 - What kind of person are you looking for?
 - What does this position do? To resolve what? What is the responsibility?
 - what is the technology stack? tool? Need any key skills?
 - This position is new, or has someone left? Why did the previous person leave?
 - Report to whom? The structure of the department? How many people are in the department? How many testers? How many devs?
-- Office location?
 - Can I visit Google using the company network?
-- The importance of frontend/test in a project?
 - Talk about the project?
 - Does the team often work overtime or business travel?
 - Does the company have any training or any way to help new members be part of the team quickly?
