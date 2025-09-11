@@ -1,3 +1,15 @@
+- 2023.9.11
+
+  - verdict n
+  - passive adj ｜ active
+  - contemporary adj/n
+  - immortal adj/n
+
+  > You can explore ideas at whatever depth excites you
+  > More than an entire summer's worth of rain fell in some parts of the state in just a matter of a few hours
+  > With cooperation, we can do more with less
+
+
 - 2023.8.16
 
   - contingent adj
@@ -12,7 +24,6 @@
 - 2023.8.5
 
   - relate v
-  - monumen
 
 - 2023.8.4
 
@@ -255,6 +266,7 @@
 - 2023.10.26
 
   - psychology n
+  - philosophy n
 
   > He is set on breaking more barriers //be set on sth
   > He says hie mental state is what keeps him focused and calm
@@ -808,9 +820,10 @@
 - 2022.4.13
 
   - squash v
-    > so how hard will it be to get that message across for Biden when the attention is going to be in New York? So much so, attention is going to be on Trump, and it's going to be really high
-    > One piece of data that jumped out at me is xxx
-    > That's scheduled to go into effect this coming Friday
+
+  > so how hard will it be to get that message across for Biden when the attention is going to be in New York? So much so, attention is going to be on Trump, and it's going to be really high
+  > One piece of data that jumped out at me is xxx
+  > That's scheduled to go into effect this coming Friday
 
 - 2022.4.10
 
@@ -1137,7 +1150,7 @@
 
   - imminent adj
   - whirl v/n
-  - tutor vt/n
+  - tutor n | mentor n
 
 - 2022.8.2
 
@@ -1454,7 +1467,6 @@
   - cereal n
   - entitle vt | entitled
   - ego n | egocentric
-  - commonality n
   - shave n/v
   - condom n
   - condone vt
@@ -1796,7 +1808,7 @@
 
   - adolescent n/adj
   - outlook n/v
-  - headache n | chill n/vt/adj | ache n/vi | sore adj/n | cough n/v | sneeze n/v
+  - headache n | chill n/vt/adj | ache n/vi | sore adj/n | cough n/v | sneeze n/vi
 
   > from my perspective
 
@@ -1871,6 +1883,7 @@
   - perfect | imperfect | imperfectly | perfection | imperfection
   - lodge n/v
   - common | uncommon
+  - commonwealth n
 
   > This is part of what we've been hearing from this panel for weeks now, that they're serious about getting to the bottom of what happened on January 6
   > I want to make sure I'm clear on what's going on here
@@ -1992,7 +2005,8 @@
 
   - merchant n
   - perish v | perished
-  - gentle adj/vt/n
+  - gentle adj/vt/n | gently adv
+  - genuine adj | genuinely adv
 
 - 2021.8.27
 
@@ -2151,7 +2165,6 @@
 - 2021.7.27
 
   - parachute n/v
-  - gently adv
   - reusable adj
   - maze n/vt
 
@@ -2253,7 +2266,7 @@
 
 - 2021.6.26
 
-  - concur vi
+  - concur vi | concurrence n
   - interested | uninterested
   - lack n/v
 
@@ -2267,8 +2280,6 @@
   - race n/v
 
 - 2021.6.22
-
-  - verify vt | verification
 
   > So given the depth and breadth of tensions with Moscow
 
@@ -3000,8 +3011,6 @@
 
   - stroll n/v
 
-  > Is this a pure coincidence ?
-
 - 2021.1.28
 
   - arouse v
@@ -3250,7 +3259,6 @@
 
 - 2020.12.8
 
-  - seige n/v
   - gang n | gangster n
   - tile n
   - elaborate v/adj
@@ -3863,6 +3871,7 @@
   - coincide vi | coincident adj | coincidental adj | coincidentally | coincidence n
   - extreme adj/n | extremely
 
+  > Is this a pure coincidence ?
   > Walk up through it
   > the one real bright spot was that xxx
 
@@ -3954,7 +3963,8 @@
 - 2020.7.29
 
   - vendor n
-  - authenticity n | authentication n
+  - authentic adj | authenticity n | authentication n
+  - verify vt | verification n
   - headquarter n
   - kingdom n
   - album n
@@ -4500,7 +4510,6 @@
 
 - 2020.5.12
 
-  - mentor n
   - blind n/vt/adj/adv
   - blindside vt
   - spec n
@@ -5311,7 +5320,6 @@
   - avoid v | unavoidable adj
   - figurehead n
   - outspoken adj
-  - commonwealth n
   - tabloid n/adj
   - corny adj
   - dependent adj | dependence n
@@ -6440,6 +6448,7 @@
   - dignity n
   - rescue n/vt
   - dumb adj
+  - prejudice n/vt
   - judicial adj | judiciary n
 
   > but on than that, xxxxx
@@ -6458,7 +6467,7 @@
   - precedent n/adj | unprecedented adj
   - installation n
   - barrel n/v
-  - slice n
+  - slice n/v
   - offer n/v | offering n
   - involve v | involvement n
   - dismiss vt |dismissal n
@@ -6648,7 +6657,7 @@
   - concentrate v | concentrated adj | concentration n
   - central adj | centrally adv | centralize | centralized adj | centrist n/adj |centric adj | centralization n | decentralize
   - tropic n | tropical adj | frigid adj
-  - deforestation n | forest n
+  - deforestation n | forest n/vt
 
   > I have lived in the area for quite some time
   > enough is enough
@@ -6726,7 +6735,6 @@
   - disrupt vt | disruptive adj | disruption n
   - spark n/v
   - seam | seamless adj
-  - genuine adj | genuinely adv
   - worse-case
 
   > xxxxx, but more importantly, xxxxx
@@ -7206,7 +7214,6 @@
   - establish vt | establishment n
   - radical adj/n | radicalize vt
   - hatred n
-  - prejudice n/vt
   - rage n/vi | raging adj | outrage n/vt | outraged adj | rampage n/vi
   - rally n/v
   - literal adj | literally adv | figurative | figuratively
