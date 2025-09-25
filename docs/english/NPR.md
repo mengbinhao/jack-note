@@ -1,6 +1,58 @@
+- 2023.9.25
+
+  - tedious adj
+  - trace n/v
+  - slack adj
+  - ambient adj
+  - inlet n
+  - ventilate vt
+  - deviation n
+  - malfunction n
+  - specimen n
+  - rear adj/n
+  - vet n/v
+  - clearance n
+  - expedite vt
+  - coerce vt
+  - subsidiary adj/n
+  - subordinate n/adj/vt
+  - adhere vi
+  - freight n/vt
+  - proactive adj
+  - refrain vi
+  - bribe n/vt | bribery
+  - deceive v | deception n
+  - theft n
+  - lane n
+  - badge n/vt
+  - arise v
+  - revenge n/v | retaliate vi | retaliatory adj | retaliation n
+  - hose v/vt
+  - disperse v | dispersed adj
+  - vicinity n
+  - adverse adj | adverseness | adversely
+  - circuit n/v
+  - circulate v | circulation
+  - slit n/v
+  - splash v
+  - exhaust v/n | exhausting adj | exhausted adj | exhaustive adj
+  - accessory n
+  - shelf n/v
+  - diameter n
+  - attain n/v
+  - drain n/v
+  - casual adj
+  - casualty n
+  - fuse v/n | fusion
+  - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
+
+  > There is little to celebrate
+  > You are going to take my word for it on this one
+  > a high degree of certainty
+
 - 2023.9.11
 
-  - verdict n
+
   - passive adj ｜ active
   - contemporary adj/n
   - immortal adj/n
@@ -55,10 +107,6 @@
 
   - copper n/adj/vt
 
-- 2023.7.22
-
-  - adverse adj | adverseness | adversely
-
 - 2023.7.8
 
   - nonetheless ad
@@ -92,7 +140,6 @@
   - doable adj
   - setback n
   - deficit n
-  - proactive adj
   - cordial adj
   - picnic n/vi
   - bloom n/vi | blossom n/vi
@@ -798,10 +845,6 @@
 
   > Does that set a precedent?
 
-- 2022.6.13
-
-  - circuit v/n
-
 - 2022.6.5
 
   - liar n
@@ -837,8 +880,6 @@
   - pronoun n
 
 - 2022.3.29
-
-  - subsidiary n/adj
 
   > In the traditional sense, xxx, in other sense, xxx
   > the bank went under
@@ -893,7 +934,6 @@
   - infuse v
   - diffuse v/adj
   - refuse v | refusal n
-  - fuse v/n | fusion
   - fine adj/adv/vt/n
   - define vt | redefine
   - confine n/vt | confined | confinement n | coop v
@@ -978,7 +1018,6 @@
 - 2022.11.23
 
   - capsule n
-  - splash v
   - scrub v
 
 - 2022.11.17
@@ -1199,7 +1238,6 @@
   - exhibit v/n | exhibition n
   - collaborate | collaboration | collaborator
   - pump n/v
-  - diameter n
   - Saturn n
 
 - 2022.7.12
@@ -1819,7 +1857,6 @@
 - 2021.10.28
 
   - blot n/v
-  - attain n/v
 
 - 2021.10.27
 
@@ -1830,7 +1867,6 @@
   - option | optional
   - segment n/v
   - simple adj | simplify vt
-  - lane n
 
   > So stay tuned on that score
 
@@ -1847,8 +1883,6 @@
 
 - 2021.10.20
 
-  - casual adj
-  - casualty n
   - optic n/adj | optical adj
   - vertical adj
 
@@ -1861,10 +1895,6 @@
 
   - spy n/v
   - propulsion n
-
-- 2021.10.15
-
-  - drain n/v
 
 - 2021.10.14
 
@@ -2064,7 +2094,6 @@
 
 - 2021.8.15
 
-  - accessory n
   - access | accessible adj | accessibility
   - accession n
 
@@ -2187,7 +2216,6 @@
 
 - 2021.7.15
 
-  - arise v
   - banish vt
 
 - 2021.7.13
@@ -2807,7 +2835,6 @@
 - 2021.3.9
 
   - ankle n
-  - bribe n/vt | bribery
 
 - 2021.3.8
 
@@ -3085,7 +3112,6 @@
 
   - beforehand adv
   - wrist n/vt
-  - deceive v | deception n
   - sacrifice n/v
 
   > XXX is letting xxx off the hook
@@ -3182,7 +3208,6 @@
 - 2020.12.26
 
   - mutate v | mutation n
-  - freight n/vt
 
 - 2020.12.25
 
@@ -3349,7 +3374,6 @@
 
   - stage n/v
   - backstage n
-  - refrain vi
   - standard n/adj
   - atom n
 
@@ -3416,7 +3440,6 @@
 
   - edit | editor | editorial adj
   - guard | guardian | safeguard n/vt
-  - slit n/v
   - throat n
 
 - 2020.11.9
@@ -3728,8 +3751,6 @@
 
 - 2020.9.1
 
-  - vicinity n
-
   > They take a deadly turn
 
 - 2020.8.31
@@ -3943,7 +3964,6 @@
   - plentiful adj
   - eliminate vt
   - repeal n/vt | abolish vt
-  - adhere vi
   - fist n/vt
   - snipe n/v
   - rip n/v
@@ -4112,7 +4132,6 @@
   - swarm n/v
   - geological adj
   - survey n/v
-  - shelf n/v
 
   > It gave us the perfect amount of time to get out into the street
   > put in place
@@ -4274,7 +4293,6 @@
 - 2020.6.15
 
   - blanket n/v/adj
-  - circulate v
   - aberration n
   - swift adj | swiftly
   - elicit vt
@@ -5435,7 +5453,6 @@
   - clash n/v
   - slam n/v | whip n/v | smash n/v | slammed adj | n/v
   - norm n
-  - normal n/adj | normalize v | normalization | normalcy n | abnormal adj
   - excerpt n/vt
 
 - 2020.1.12
@@ -6227,7 +6244,6 @@
   - property n
   - spread n/v/adj
   - widespread adj
-  - disperse v | dispersed adj
   - heavy-handed adj
   - median n/adj
   - bare adj | barely adv
@@ -6267,7 +6283,6 @@
   - bar n/vt | barrier n/vt | barricade n/vt
   - subsidy n | subsidize vt
   - dump n/v | dumping
-  - theft n
   - puppet n
   - menacing adj
   - region n | regional adj
@@ -6856,7 +6871,6 @@
   - colony n | colonial adj | colonialism n | colonize vt | colonist
   - spiral n/vi/adj
   - ally n/vt | allied adj | alliance n
-  - revenge n/v | retaliate vi | retaliatory adj | retaliation n
   - fence n/v
 
 - 2019.8.12
@@ -6976,7 +6990,6 @@
   - nerve n | nervous adj | nervously
   - figure n/vt
   - reveal vt | revelation n
-  - exhaust v | exhausting adj | exhausted adj | exhaustive adj
   - sympathy n | sympathetic adj | sympathize vi
   - pathetic adj
   - footage n
