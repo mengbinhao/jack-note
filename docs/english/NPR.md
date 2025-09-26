@@ -1,13 +1,39 @@
+- 2023.9.26
+
+  - utility n | utilize vt | utilization n
+  - sub'traction n
+  - thereby adv
+  - prevent v | preventable adj | prevention n | hamper vt/n | preventive
+  - preser'vation n
+  - deem v
+  - relieve vt | relief n
+  - e'quivalent n/adj
+  - cri'teria n | criterion n
+  - quantity n
+  - characte'ristic n/adj
+  - compact adj
+  - 'arbitrary adj
+  - di'mension n
+  - di'ameter n
+  - scala'bility n
+  - originate v
+  - re'vision n
+  - calibration n | calibrate vt
+  - co'rrosion n
+  - distortion n
+  - flake n/v
+  - de'grade v | degra'dation n
+
 - 2023.9.25
 
-  - tedious adj
+  - 'tedious adj
   - trace n/v
   - slack adj
   - ambient adj
   - inlet n
   - ventilate vt
-  - deviation n
-  - malfunction n
+  - devi'ation n | deviate v
+  - mal'function n
   - specimen n
   - rear adj/n
   - vet n/v
@@ -21,24 +47,26 @@
   - proactive adj
   - refrain vi
   - bribe n/vt | bribery
-  - deceive v | deception n
+  - de'ceive v | deception n
   - theft n
   - lane n
   - badge n/vt
   - arise v
-  - revenge n/v | retaliate vi | retaliatory adj | retaliation n
+  - revenge n/v | re'taliate vi | retaliatory adj | retaliation n
   - hose v/vt
-  - disperse v | dispersed adj
-  - vicinity n
+  - di'sperse v | dispersed adj
+  - vi'cinity n
   - adverse adj | adverseness | adversely
   - circuit n/v
   - circulate v | circulation
   - slit n/v
   - splash v
+  - soak n/v
+  - rub n/v
+  - rubber n/v/adj
   - exhaust v/n | exhausting adj | exhausted adj | exhaustive adj
-  - accessory n
+  - ac'cessory n
   - shelf n/v
-  - diameter n
   - attain n/v
   - drain n/v
   - casual adj
@@ -50,8 +78,18 @@
   > You are going to take my word for it on this one
   > a high degree of certainty
 
-- 2023.9.11
+- 2023.9.18
 
+  - explicit adj | explicitly adv
+  - surpass vt
+  - widow n/vt
+  - stadium n
+  - de'lusion n
+  - beverage n
+  - brew n/v
+  - fulfill
+
+- 2023.9.11
 
   - passive adj ｜ active
   - contemporary adj/n
@@ -144,7 +182,6 @@
   - picnic n/vi
   - bloom n/vi | blossom n/vi
   - price | price adj
-  - arbitrary adj
   - artillery n
 
 - 2023.4.17
@@ -2023,7 +2060,6 @@
   - counterattack n
   - counterargument n
   - countervailing adj
-  - quantity n
 
   > They're keeping the details in the shadow
 
@@ -2079,10 +2115,6 @@
 
   - include v | inclusive adj
   - exclude vt | exclusive adj | exclusion n | exclusionary adj
-
-- 2021.8.17
-
-  - thereby adv
 
 - 2021.8.16
 
@@ -2725,8 +2757,6 @@
 
   - tangible adj/n
   - resolve n/v
-  - rub n/v
-  - rubber n/v/adj
   - wrap n/v
   - ounce n
   - announce v | unannounced
@@ -2758,7 +2788,6 @@
 
 - 2021.3.30
 
-  - degrade v | degradation n
   - shriek n/vt
 
 - 2021.3.29
@@ -2890,7 +2919,6 @@
 
   - exorbitant adj
   - tug n/v
-  - utility n | utilize vt
 
   > it makes her sick to her stomach to think about it
   > I don't even necessarily know what my cost for a day is
@@ -3026,7 +3054,6 @@
   > If I begin to feel even slightly unsure at this stage, it will affect everything
 
 - 2021.2.1
-  - flake n/v | snowflake
   - immense adj | immensely
   - multiple adj | multitask n | multitude n
   - entire | entirely
@@ -3528,6 +3555,7 @@
   - cattle n
   - poultry n
   - ethnic adj | ethnical
+  - ethic n | ethical
 
 - 2020.10.21
 
@@ -3600,7 +3628,6 @@
 
 - 2020.9.24
 
-  - prevent v | preventable adj | prevention n | hamper vt/n | preventive
   - pretend v
   - faulty adj
 
@@ -4423,7 +4450,6 @@
   - endure v
   - poll n/v | ballot n/v | pollster n
   - therapy n
-  - deem vt
 
   > I deem it essential to be with you
   > the numbers might be cooked to make it look bad
@@ -4698,7 +4724,6 @@
   - reward n/vt
   - coward n/adj
   - advance n/v/adj
-  - criteria n
   - socialize v
 
   > they're pretty short on specifics
@@ -4733,7 +4758,6 @@
   - bunch n/v
   - trend n/vi
   - rapid adj | rapidly adv
-  - surpass vt
 
   > Europe is still not out of woods
   > there is a whole bunch of them
@@ -4980,7 +5004,6 @@
   - attentive adj
   - liable adj
   - rely vi | reliable adj | unreliable | reliance n | reliability
-  - relieve vt | relief n
   - religion n | religious adj
   - forehead n
   - gauge n/vt
@@ -5092,7 +5115,6 @@
   - petal n
   - sprinkle n/v
   - escort n/vt
-  - stadium n
   - mega adj
   - erase v
   - refute v
@@ -5343,7 +5365,7 @@
   - dependent adj | dependence n
   - independent adj | independence n
   - duke n
-  - observe | observer
+  - observe | observer | observation n | observant adj
   - royal adj | royalty n
   - avid adj
 
@@ -5435,7 +5457,6 @@
 
   - govern v | governor n | ungovernable adj | misgovernment n
   - intersect v | intersection n
-  - soak n/v
   - belong vi | belongings n
   - workweek n
 
@@ -5577,7 +5598,6 @@
 
 - 2019.12.24
 
-  - observant adj
   - assert vt | asserted | assertive | assertion
   - heartfelt adj
   - heartless n
@@ -5678,7 +5698,6 @@
   - philosopher n
   - hogwash n | nonsense n | sense n/v | senseless adj | sensitive adj
   - baffle vt
-  - dimension n
   - oblivious adj
   - misery n | miserable
   - penalize vt
@@ -6039,7 +6058,6 @@
 - 2019.10.26
 
   - stall n/v | stalled
-  - ethic n | ethical
   - deliberate v/adj | deliberately adv | deliberation n
   - liberal adj/n
   - liberty n
@@ -6357,7 +6375,6 @@
   - aver vt
   - dealings n
   - imply vt | implied adj | implicate vt | implication n
-  - explicit adj | explicitly adv
   - mere adj | merely adv
   - confess v | confession | confessing n
 
