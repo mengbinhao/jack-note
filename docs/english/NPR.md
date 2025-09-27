@@ -1,3 +1,9 @@
+- 2023.9.27
+
+  - boost = improve
+  - narrative n/adj
+  - verdict n
+
 - 2023.9.26
 
   - utility n | utilize vt | utilization n
@@ -8,7 +14,7 @@
   - deem v
   - relieve vt | relief n
   - e'quivalent n/adj
-  - cri'teria n | criterion n
+  - acceptance cri'teria n | criterion n
   - quantity n
   - characte'ristic n/adj
   - compact adj
@@ -29,7 +35,7 @@
   - 'tedious adj
   - trace n/v
   - slack adj
-  - ambient adj
+  - 'ambient adj
   - inlet n
   - ventilate vt
   - devi'ation n | deviate v
@@ -87,7 +93,6 @@
   - de'lusion n
   - beverage n
   - brew n/v
-  - fulfill
 
 - 2023.9.11
 
@@ -4538,7 +4543,6 @@
 
 - 2020.5.14
 
-  - recuse vt
   - graphic adj
   - bureau n | bureaucracy n
   - murder n/v | murderous
@@ -6607,7 +6611,6 @@
   - rover n
   - pole n
   - approach n/v
-  - narrative n/adj
   - orb n/v | orbit n/v | orbital adj | orbiter n
   - excite v | excitement n
   - eerily adv
@@ -7061,7 +7064,7 @@
   - forum n
   - conduct n/v | mis-conduct n
   - profile n | high-profile adj
-  - reserve n/v | preserve n/vt | reserved | unreservedly | reservation
+  - reserve n/v | preserve n/vt | reserved | unreservedly | reservation n
   - retain vt
   - restrict vt | restricted adj | restriction n | restrictive
   - strict adj
