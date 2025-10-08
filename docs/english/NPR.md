@@ -1,3 +1,67 @@
+- 2023.10.7
+
+  - re'ceptacle n
+  - pouch n/v
+  - cy'lindrical adj
+  - category n | categorize vt
+  - concise adj
+  - proofread v
+
+- 2023.10.6
+
+  - strip n/v | stripper n
+  - strap n/v
+  - rinse n/vt
+  - derive v | derived adj
+  - prime adj
+  - plethora n
+  - lid n
+  - ad'hesive n/adj
+  - 'inventory n
+
+- 2023.10.3
+
+  - nursery n
+  - carrier n
+  - model n | module n
+  - re'ceipt n/vt
+  - imply vt | implied adj | implicate vt | implication n
+  - legi'bility n
+  - solder n/v
+  - look out
+  - engage v | engaged adj | engagement n
+  - 'thermocouple n | ther'mometer n | thermo
+  - multimeter n
+  - relay n/v
+  - hinge n/vt
+  - lag n/v/adj
+  - 'lithium n
+  - abbrevi'ation n
+  - obligate vt | obligatory adj | obligation n
+  - underlie vt | underlying adj
+
+- 2023.9.28
+
+  - locus n
+  - perish v | perished | 'perishable adj
+  - allocate v
+  - torque n
+  - ingress n
+  - in'tact adj
+  - alternate v/adj | alternative n/adj
+  - dwell vi
+  - junction n
+  - 'instrument n
+  - appear vi | appearance n | disappearance
+  - probe n/vt
+  - with'stand
+  - de'rive v | de'rived adj
+  - 'transient adj
+  - abbrevi'ation | abbreviate vt
+  - 'centigrade ｜ 'fahren'heit
+  - pro'bationary period
+  - grip n/v
+
 - 2023.9.27
 
   - boost = improve
@@ -26,7 +90,7 @@
   - re'vision n
   - calibration n | calibrate vt
   - co'rrosion n
-  - distortion n
+  - di'stortion n
   - flake n/v
   - de'grade v | degra'dation n
 
@@ -1212,10 +1276,6 @@
 
   - chess n
 
-- 2022.8.16
-
-  - receipt n/vt
-
 - 2022.8.15
 
   - reel n/v
@@ -1517,7 +1577,6 @@
 - 2022.4.11
 
   - powder n/v
-  - junction n
 
 - 2022.4.8
 
@@ -1541,7 +1600,6 @@
 
   - redemption n
   - invent vt | reinvent | inventive adj
-  - inventory n
   - propose(come up with) v | proposed adj | proposal n
   - ingenious adj
   - cereal n
@@ -1705,7 +1763,6 @@
 
 - 2022.2.14
 
-  - withstand vt | notwithstanding prep
   - calculation | miscalculation n
   - crystal n/adj
 
@@ -1856,17 +1913,12 @@
 
   > XXX has stepped up a lot of pressure
 
-- 2021.11.12
-
-  - lag n/v/adj
-
 - 2021.11.9
 
   - midterm adj
 
 - 2021.11.8
 
-  - hinge n/vt
   - outlaw n/vt
 
 - 2021.11.4
@@ -2075,7 +2127,6 @@
 - 2021.8.30
 
   - merchant n
-  - perish v | perished
   - gentle adj/vt/n | gently adv
   - genuine adj | genuinely adv
 
@@ -2124,7 +2175,7 @@
 - 2021.8.16
 
   - gum n/v
-  - chew n/v
+  - chew n/v | chewing gum
   - intrinsic adj
 
   > It's his best area
@@ -3049,7 +3100,6 @@
 - 2021.2.2
 
   - mankind n
-  - relay n/v
   - sink n/v
   - polite | politely
   - trillion
@@ -3228,7 +3278,6 @@
 
   - wellness n
   - swell n/v | swelled
-  - dwell vi
   - unwell adj
   - farewell n
   - transmit v | transportation n | transport vt | transit n/vt/adj
@@ -3554,7 +3603,6 @@
 
 - 2020.10.22
 
-  - allocate v
   - permit n/v
   - electricity n
   - cattle n
@@ -3673,7 +3721,6 @@
 
 - 2020.9.16
 
-  - instrument n
   - galaxy n
   - craze n/v | crazy adj | craziness
   - profess v
@@ -3731,7 +3778,6 @@
   - discover(find out) v
   - underground adj
   - undertake vt
-  - underlie vt | underlying adj
   - understaffed adj
   - underfunded adj
   - underneath prep | beneath
@@ -3808,7 +3854,6 @@
 
 - 2020.8.27
 
-  - lid n
   - seed n/v
   - midway
 
@@ -3931,7 +3976,6 @@
 - 2020.8.10
 
   - dentist n
-  - category n | categorize vt
   - fragile adj
   - recall n/vt
   - confirm vt | confirmation | unconfirmed
@@ -4003,7 +4047,6 @@
   - ripple n/v
   - cripple v/adj | crippling adj
   - trip n/v
-  - grip n/v
   - stripe n/vt
   - strip n/v | stripped
   - triple adj
@@ -4026,7 +4069,7 @@
   - prestige n
   - cozy adj
   - malware n
-  - simultaneous adj
+  - simultaneous adj | simultaneously
   - persist vi | persistent adj
   - plural n/adj
   - hack | hacker
@@ -4422,7 +4465,6 @@
   - contrive v
   - greet vt
   - palace n
-  - deride vt
   - erect vt/adj
   - vacant adj | vacancy n
 
@@ -4833,8 +4875,6 @@
   - grad n
   - academy n | academic n/adj
   - rouse v
-  - alternate v/adj | alternative n/adj
-  - carrier n
 
   > It doesn't matter how much he actually achieves on any of these fronts,or apparently it doesn't matter
   > I want you to know that no one at my level has been ignoring the situation here from the very beginning
@@ -4893,7 +4933,6 @@
 
 - 2020.4.5
 
-  - simultaneously adv
   - campaign n/vi | campaigner n
   - exceed v
 
@@ -4923,7 +4962,6 @@
   - mistreat vt
   - retreat n/v
   - treaty n | pact n
-  - engage v | engaged adj | engagement n
   - symptom n | symptomatic
   - mild adj | mildly
 
@@ -5459,7 +5497,7 @@
 
 - 2020.1.15
 
-  - govern v | governor n | ungovernable adj | misgovernment n
+  - govern v | governor n | ungovernable adj | misgovernment n | governance n
   - intersect v | intersection n
   - belong vi | belongings n
   - workweek n
@@ -6023,7 +6061,6 @@
 
   - origin n | originate v | original | originally
   - robe n/v
-  - probe n/vt
   - grand adj
   - injury n
   - jury n
@@ -6378,7 +6415,6 @@
   - corrupt v/adj | corruption n
   - aver vt
   - dealings n
-  - imply vt | implied adj | implicate vt | implication n
   - mere adj | merely adv
   - confess v | confession | confessing n
 
@@ -6645,7 +6681,6 @@
 
 - 2019.9.9
 
-  - prime adj
   - chant n/v
   - upbraid vt
   - animosity n
@@ -6700,7 +6735,6 @@
 
 - 2019.9.4
 
-  - appear vi | appearance n | disappearance
   - terrific adj
   - terrify v | terrified adj
   - territory n | territorial adj
@@ -6839,7 +6873,6 @@
   - expel vt
   - intensity n | intensify v | intensive adj | intense adj ｜ tense n/v/adj | intensely
   - pledge n/vt
-  - obligate vt | obligatory adj | obligation n
   - congratulatory adj | congratulate vt | congratulation n | congrats
   - constitution n | constitutional adj | unconstitutional | constitutionally
   - constituent n
