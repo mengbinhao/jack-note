@@ -1,3 +1,65 @@
+- 2023.10.14
+
+  - barcode n
+  - wallet n
+  - cycle n/v | cyclic adj
+  - alligator n
+  - option n | optional adj
+  - metric n/adj
+  - likewise adv
+  - paragraph n | episode n
+  - denote vt
+  - de'plete vt
+  - tilt n/v
+  - foil n/vt
+  - a'luminum n
+  - merchant n
+  - mutual adj | mutually adv
+  - naughty adj
+  - cellular adj
+  - possess vt | possession n | possessed
+  - genuine adj | genuinely adv
+  - mindset n | mindless adj/n
+  - vigilant adj
+  - bait n/vt
+  - verbal adj
+  - covert n/adj
+  - con'dense v | condensation n
+  - fund n/vt | fundamental n | fundamentally
+  - accuracy | accurate adj | accurately | inaccuracy n
+  - consist vi | consistent adj | consistently adv | inconsistent
+  - visual adj | visually adj
+  - fa'tigue n/v/adj
+
+ > No agree is in sight
+
+- 2023.10.9
+
+  - occur | o'ccurrence n
+  - printed circuit board
+  - di'oxide n
+  - brace n
+  - watertight adj
+  - legible adj
+  - in'trusion n
+  - breach n/vt
+  - ki'netic adj
+  - stationary adj
+  - advisable adj
+  - halve vt
+  - zoom in/out
+  - represent vt
+  - analog n
+  - beacon n/v
+  - coordinate n
+  - longitude | latitude
+  - arrow n
+  - illustrate vt | illustration
+  - tweezer n
+
+  > The internet is laggy
+  > perform a test with power on
+
 - 2023.10.7
 
   - re'ceptacle n
@@ -445,8 +507,6 @@
 
 - 2023.9.19
 
-  - verbal adj
-
   > xxx get into yyy
 
 - 2023.9.11
@@ -525,7 +585,6 @@
 - 2023.7.28
 
   - nefarious adj
-  - condense v
   - delude vt | deluded adj
 
   > every now and then
@@ -552,7 +611,6 @@
   - magnify v
   - almighty adj
   - excellence n
-  - beacon n/v
 
 - 2023.7.15
 
@@ -834,7 +892,6 @@
 
   - monopoly
   - flank n/v
-  - occur | occurrence n
 
   > They stand out for not really standing out, I have to tell you
   > Does that amount to progress?
@@ -1056,7 +1113,6 @@
 - 2022.2.2
 
   - mindful adj
-  - mindset n | mindless adj/n
 
 - 2022.2.1
 
@@ -1296,7 +1352,6 @@
 - 2022.8.2
 
   - accommodate vt
-  - kinetic adj
 
 - 2022.7.25
 
@@ -1958,7 +2013,6 @@
 
 - 2021.10.26
 
-  - option | optional
   - segment n/v
   - simple adj | simplify vt
 
@@ -2126,9 +2180,7 @@
 
 - 2021.8.30
 
-  - merchant n
   - gentle adj/vt/n | gently adv
-  - genuine adj | genuinely adv
 
 - 2021.8.27
 
@@ -2193,7 +2245,6 @@
   - stare v
 
 - 2021.8.12
-  - fahrenheit n | centigrade n
   - hose n
   - desolate adj | desolation
   - smother n/v
@@ -3079,7 +3130,6 @@
 
 - 2021.2.4
 
-  - possess vt | possession n | possessed
   - aspect n
 
   > It's mostly symbolic in nature
@@ -3236,7 +3286,6 @@
 
   - domino n
   - church n
-  - visual adj | visually adj
   - dome n/vi | domed adj
 
   > He was making clear he realize how much at stake and reversing his position
@@ -3354,7 +3403,6 @@
 
 - 2020.12.10
 
-  - centigrade n
   - novel n/adj
   - novelty n
   - deliver v | delivery n
@@ -3424,10 +3472,6 @@
   - concoct vt
   - Peru n
   - strenuous adj
-
-- 2020.11.24
-
-  - fatigue n/v/adj
 
 - 2020.11.23
 
@@ -3939,7 +3983,6 @@
   - march n/v
   - shatter n/v | shattered
   - disfunction
-  - metric n/adj
   - catastrophe n | catastrophic adj
   - aerial adj
 
@@ -5351,7 +5394,6 @@
 - 2020.2.25
 
   - refund n/vt
-  - fund n/vt | fundamental n | fundamentally
   - highflier n
   - household n
   - hastiness n | haste n/v | hasty adj
@@ -5736,7 +5778,6 @@
   - extrapolate vt
   - teem vi
   - illusion n
-  - illustrate vt | illustration
   - philosopher n
   - hogwash n | nonsense n | sense n/v | senseless adj | sensitive adj
   - baffle vt
@@ -6010,7 +6051,6 @@
 
 - 2019.11.1
 
-  - tilt n/v
   - giant n/adj
   - astute adj
   - seasoned adj | seasonal
@@ -6129,10 +6169,8 @@
 
 - 2019.10.23
 
-  - foil | foiled adj
   - triumph n/vi | triumphant adj
   - compel vt | compelled adj
-  - consist vi | consistent adj | consistently adv | inconsistent
   - distrust n/vt | mistrust n/vt
 
   > in some ways, xxx
@@ -6350,7 +6388,6 @@
   - artificial adj | artificially
   - harass vt | harassed adj | harassment n
   - thereafter adv
-  - breach n/vt
 
   > xxx in pointing fingers at Iran
   > Wise leader always put the good of their own people and their own country first
@@ -6559,7 +6596,6 @@
   - poster n | postal adj
   - pose n/v | posture n/v
   - mature v/adj | immature adj
-  - mutual adj | mutually adv
 
   > to tip the scales and determine who will
   > has Trump in his pocket
@@ -7138,7 +7174,6 @@
   - outgoing adj
   - uninformed adj
   - candid adj
-  - accurate adj | accurately | inaccuracy n
   - hardcore
   - mischievous adj
   - mischief n
