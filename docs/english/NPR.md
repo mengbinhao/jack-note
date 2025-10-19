@@ -1,3 +1,33 @@
+- 2023.10.18
+
+  - sta'tistic n/adj | statistical adj
+  - data packet
+  - accumulate
+
+- 2023.10.16
+
+  - corrupt v/adj | corruption n
+  - compare n/v | comparable adj | comparison n
+  - clarity n
+  - substitute v
+  - prompt adj/vt | promptly adv
+  - readiness n
+  - latency n
+  - respective adj
+  - accommodate vt
+  - coordinate vt/n | coordination n | coordinated | coordinator
+  - consolidate v | consolidation
+  - temporary adj
+  - hesitate v | hesitation
+  - maximum adj
+  - virtual adj | virtually adv
+  - cumulate v | cumulative adj
+  - proximity n
+  - flux n
+  - slot n/vt
+  - commence v | commencement
+  - deceive v
+
 - 2023.10.14
 
   - barcode n
@@ -51,7 +81,6 @@
   - represent vt
   - analog n
   - beacon n/v
-  - coordinate n
   - longitude | latitude
   - arrow n
   - illustrate vt | illustration
@@ -1349,10 +1378,6 @@
   - whirl v/n
   - tutor n | mentor n
 
-- 2022.8.2
-
-  - accommodate vt
-
 - 2022.7.25
 
   - surname n/v
@@ -1599,7 +1624,6 @@
 - 2022.4.20
 
   - jump n/v | hop n/v
-  - flux n
 
   > xxx will pay 5200 more this year that it did last year for the exact same things
   > the increase in price is greater than the additional money in their pockets
@@ -1771,7 +1795,6 @@
 
 - 2022.3.4
 
-  - commence v | commencement
   - purchase n/v
   - finance n/v | financier n
 
@@ -2112,7 +2135,6 @@
   - despite prep/n
   - split n/v/adj
   - blush n/vi
-  - slot n/vt
   - conquer v
 
 - 2021.9.10
@@ -4590,7 +4612,6 @@
   - squander vt
   - guide n/vt | guideline n | guidance n
   - advertise vt
-  - hesitate v | hesitation
   - restaurant n
   - colossal adj
   - elementary adj
@@ -4836,7 +4857,6 @@
 
 - 2020.4.21
 
-  - substitute v
   - veil n/vt | unveil v | unveiled adj
 
   > they are just political in nature
@@ -4889,7 +4909,6 @@
   - champion n/v
   - numerical adj
   - mathematical adj | mathematically adj
-  - virtual adj | virtually adv
   - delegate n/vt | delegation n
 
   > It caught my ear
@@ -5147,7 +5166,6 @@
 
   - gather n/v | gathering n/adj
   - bear n/v | bearable | unbearable
-  - statistic n/adj | statistical adj
   - inoculate vt
 
   > the cut was twice as large as what the Fed ordinary does
@@ -5854,7 +5872,6 @@
   - designate vt | designated
   - discriminate v | discrimination n | discriminatory adj | indiscriminate
   - defect n/vi | defection n | defector n | defective product
-  - coordinate vt | coordination n | coordinated | coordinator
   - corroborate n/vt | corroboration n
 
 - 2019.12.9
@@ -6449,7 +6466,6 @@
 
   - Ukraine n
   - whistle-blower n
-  - corrupt v/adj | corruption n
   - aver vt
   - dealings n
   - mere adj | merely adv
@@ -6500,7 +6516,6 @@
   - lengthy adj
   - conference n
   - garner vt
-  - cumulate v | cumulative adj
   - accumulate v | accumulation n
   - reputation n
   - refuge n/v | refugee n
@@ -6623,7 +6638,6 @@
   - strengthen v
   - applaud v
   - leverage n/vt | lever n/vt
-  - prompt adj/vt | promptly adv
 
   > and so forth
   > from what we've been hearing, xxx
@@ -6920,7 +6934,6 @@
   - sketch n/v | sketchy adj
   - contaminate vt | contaminated adj | contamination n | contaminant
   - terse adj | tersely
-  - compare n/v | comparable adj | comparison n
   - scale n/vt
   - panic n/adj | panicky adj
   - disseminate vt
