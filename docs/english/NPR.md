@@ -1,3 +1,22 @@
+- 2023.10.24
+
+  - presen'tation n
+  - re'dundant adj | unwanted
+  - repre'sent vt
+  - discrepancy n
+  - 'album n
+  - insin'cere adj
+  - wink n/v
+  - Asian adj / Asia
+  - commodity n
+
+  > amount of work, amount of process
+  > Understood though that it's not as simple as changing a light bulb as it were
+  > the race is not given to the swift, nor to the strong, but to the one who endures till the end
+  > Obviously, New York city is a huge melting pot, kids comes from all sorts of backgrounds
+  > The administration has not commented though on how or where they're coming up with the 100%
+
+
 - 2023.10.18
 
   - sta'tistic n/adj | statistical adj
@@ -78,7 +97,6 @@
   - advisable adj
   - halve vt
   - zoom in/out
-  - represent vt
   - analog n
   - beacon n/v
   - longitude | latitude
@@ -267,7 +285,6 @@
 
 - 2023.8.15
 
-  - discrepancy n
   - heroism n
   - hurdle n/v
 
@@ -4127,7 +4144,6 @@
   - verify vt | verification n
   - headquarter n
   - kingdom n
-  - album n
 
 - 2020.7.28
 
@@ -4297,11 +4313,6 @@
 
   > so taking all of that into account
   > xxx is actually going to succeed in preventing that from happening
-
-- 2020.7.3
-
-  - commodity n
-
   > This would let them continue with normal life without as many restriction as other people might be
 
 - 2020.7.2
@@ -5367,8 +5378,7 @@
   - purposely adv
   - slim adj/vi | skinny
   - absent adj/vt | absentee n
-  - present n/v/adj | presence n | represent vt | representative n/adj | representation | absence
-  - presentation
+  - present n/v/adj | presence n | repre'sent vt | representative n/adj | representation | absence
   - clap n/v
 
   > I was not elected to do small things and shy away from big problems
