@@ -1,4 +1,20 @@
-- 2023.10.24
+- 2025.11.1
+
+  - radius n
+  - maximum n | minimum n | minimize v | minimal adj
+  - payroll n
+  - de'plete vt | depletion
+  - tractor n
+  - tempt vt
+  - tentative adj
+  - hereby adv
+  - thereby adv
+  - attribute n/vt
+  - constant adj | constantly
+
+  > one in five
+
+- 2025.10.24
 
   - presen'tation n
   - re'dundant adj | unwanted
@@ -17,13 +33,13 @@
   > The administration has not commented though on how or where they're coming up with the 100%
 
 
-- 2023.10.18
+- 2025.10.18
 
   - sta'tistic n/adj | statistical adj
   - data packet
   - accumulate
 
-- 2023.10.16
+- 2025.10.16
 
   - corrupt v/adj | corruption n
   - compare n/v | comparable adj | comparison n
@@ -47,7 +63,7 @@
   - commence v | commencement
   - deceive v
 
-- 2023.10.14
+- 2025.10.14
 
   - barcode n
   - wallet n
@@ -82,7 +98,7 @@
 
  > No agree is in sight
 
-- 2023.10.9
+- 2025.10.9
 
   - occur | o'ccurrence n
   - printed circuit board
@@ -107,7 +123,7 @@
   > The internet is laggy
   > perform a test with power on
 
-- 2023.10.7
+- 20220253.10.7
 
   - re'ceptacle n
   - pouch n/v
@@ -116,7 +132,7 @@
   - concise adj
   - proofread v
 
-- 2023.10.6
+- 2025.10.6
 
   - strip n/v | stripper n
   - strap n/v
@@ -128,7 +144,7 @@
   - ad'hesive n/adj
   - 'inventory n
 
-- 2023.10.3
+- 2025.10.3
 
   - nursery n
   - carrier n
@@ -149,7 +165,7 @@
   - obligate vt | obligatory adj | obligation n
   - underlie vt | underlying adj
 
-- 2023.9.28
+- 2025.9.28
 
   - locus n
   - perish v | perished | 'perishable adj
@@ -171,17 +187,16 @@
   - pro'bationary period
   - grip n/v
 
-- 2023.9.27
+- 2025.9.27
 
   - boost = improve
   - narrative n/adj
   - verdict n
 
-- 2023.9.26
+- 2025.9.26
 
   - utility n | utilize vt | utilization n
   - sub'traction n
-  - thereby adv
   - prevent v | preventable adj | prevention n | hamper vt/n | preventive
   - preser'vation n
   - deem v
@@ -203,7 +218,7 @@
   - flake n/v
   - de'grade v | degra'dation n
 
-- 2023.9.25
+- 2025.9.25
 
   - 'tedious adj
   - trace n/v
@@ -257,7 +272,7 @@
   > You are going to take my word for it on this one
   > a high degree of certainty
 
-- 2023.9.18
+- 2025.9.18
 
   - explicit adj | explicitly adv
   - surpass vt
@@ -267,7 +282,7 @@
   - beverage n
   - brew n/v
 
-- 2023.9.11
+- 2025.9.11
 
   - passive adj ｜ active
   - contemporary adj/n
@@ -278,60 +293,60 @@
   > With cooperation, we can do more with less
 
 
-- 2023.8.16
+- 2025.8.16
 
   - contingent adj
   - sandy adj
 
-- 2023.8.15
+- 2025.8.15
 
   - heroism n
   - hurdle n/v
 
-- 2023.8.5
+- 2025.8.5
 
   - relate v
 
-- 2023.8.4
+- 2025.8.4
 
   - takeover n
 
-- 2023.8.1
+- 2025.8.1
 
   - showcase n/v
   - employment | unemployment n
 
-- 2023.7.31
+- 2025.7.31
 
   - ensue v
 
-- 2023.7.28
+- 2025.7.28
 
   - solitary adj
   - referee n/v
   - scold n/v
   - mint n/vt
 
-- 2023.7.25
+- 2025.7.25
 
   - benign adj
   - transcript n
   - probable adj
 
-- 2023.7.23
+- 2025.7.23
 
   - copper n/adj/vt
 
-- 2023.7.8
+- 2025.7.8
 
   - nonetheless ad
 
-- 2023.7.2
+- 2025.7.2
 
   - constitute vt
   - radioactive
 
-- 2023.7.1
+- 2025.7.1
 
   - premium n/adj
   - ingratitude n
@@ -344,11 +359,11 @@
   > fall out
   > That''s the last nail in the coffin
 
-- 2023.5.26
+- 2025.5.26
 
   > There's no sense at this point what role the guard troops would play
 
-- 2023.5.1
+- 2025.5.1
 
   - choir n/v
   - aisle n
@@ -361,25 +376,25 @@
   - price | price adj
   - artillery n
 
-- 2023.4.17
+- 2025.4.17
 
   - jar n/v
 
-- 2023.4.7
+- 2025.4.7
 
   - thermometer n
   - consecutive adj
   - warm | warmth n
   - munition n/v/adj | ammunition n
 
-- 2023.3.27
+- 2025.3.27
 
   - bun n
   - vibe n/vi
 
   > They were never really a thing
 
-- 2023.3.26
+- 2025.3.26
 
   - crunch n/v
   - jeopardy n | jeopardize vt
@@ -393,11 +408,11 @@
   > An Chinese social media influencer
   > An online petition called for her to be deported
 
-- 2023.3.20
+- 2025.3.20
 
   - diet n/v
 
-- 2023.3.11
+- 2025.3.11
 
   - civic adj
   - edible adj
@@ -405,26 +420,26 @@
   > USA's mission is about elevating human dignity and this is about trampling it at every turn
   > Years later the retiree is not looking back
 
-- 2023.3.3
+- 2025.3.3
 
   - irritate v
   - connotation n
 
   > There is a saying xxx
 
-- 2023.2.20
+- 2025.2.20
 
   - elegant adj
   - marvel n/v
   - expertise n
 
-- 2023.2.20
+- 2025.2.20
 
   - reciprocal adj
 
   > The bottom line I think is he's just sort of out of lockstep with both the incoming president and his speaker on certain issues
 
-- 2023.2.19
+- 2025.2.19
 
   - keepsake n
 
@@ -436,7 +451,7 @@
   > I can just create a memory. Maybe it's something slightly nice in this really horrific time
   > A plane crash landed belly first on the water in New York's Hudson River
 
-- 2023.2.11
+- 2025.2.11
 
   - verse n
   - tenure n/vt
@@ -448,7 +463,7 @@
   > xxx was part of the first hour of the meeting uring the group to get it done
   > It's a full circle moment for Biden
 
-- 2023.1.13
+- 2025.1.13
 
   - bail n/vt
   - popcorn n
@@ -457,13 +472,13 @@
   > And I'll just leave you one thing that I think this movie s imparting, is in those moments when we don't think we're smart enough or pretty enough or skinny enough or successful enough or basically just not enough, I had a women say to me, just know you will never be enough, but you can know the value of you worth if you just put down the measuring stick.
   > deep discount
 
-- 2023.1.9
+- 2025.1.9
 
   - parole n/vt
   - waive vt
   - fiscal adj | fiscally
 
-- 2023.1.2
+- 2025.1.2
 
   - vanish v
   - pesticide n
@@ -1274,7 +1289,7 @@
 
 - 2022.10.21
 
-  - digest v
+  - digest v/n
   - feast n/v
   - weed n/v
 
@@ -4975,7 +4990,6 @@
   - remain n/v | remainder | remains
   - obvious adj | obviously
   - preach v
-  - constant adj | constantly
   - inexact adj
 
 - 2020.4.8
@@ -4985,7 +4999,6 @@
   - lose v
   - commerce n ｜ commercial adj
   - disease n/vt
-  - tractor n
 
   > ripple effect
   > It's had to cancel more than 50 trips to and from Asia
@@ -5401,7 +5414,6 @@
   - nephew n | niece n
   - tribute n
   - contribute v
-  - attribute n/vt
   - distribute vt | distribution n | distributed adj | redistribute | redistribution
   - agility n | agile adj
   - league n | legend n | legendary
@@ -6605,7 +6617,6 @@
   - offer n/v | offering n
   - involve v | involvement n
   - dismiss vt |dismissal n
-  - maximum n | minimum n | minimize v | minimal adj
 
   > give us the context here
   > up until just recently
